@@ -1,5 +1,0 @@
-[
-  { "id": "raijinto", "name": "Raijinto", "type": "Sword", "color": "Red", "might": 16, "range": 1 },
-  { "id": "folkvangr", "name": "Fólkvangr", "type": "Sword", "color": "Red", "might": 16, "range": 1 },
-  { "id": "fhujin_yumi", "name": "Fujin Yumi", "type": "Bow", "color": "Colorless", "might": 14, "range": 2 }
-]
