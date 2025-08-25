@@ -1,0 +1,48 @@
+{{Weapon Infobox
+|tagid=SID_紅の剣
+|weaponType=Sword
+|might=16
+|userVersion1=Weapon
+|userVersion2=Gleam
+|range=1
+|effect=Accelerates Special trigger (cooldown count-1).
+|cooldown=-1
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=At the start of turn 1, grants Special cooldown count-2.
+|iconSkill1=Quickened Pulse W.png
+|tagidExtraSkill1=奥
+|properties=
+}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Start of turn Special modification}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+* The hilt of the Scarlet Sword is identical to the sword featured in Navarre's attack, special, and damaged artwork, but the blade is different.
+{{Rsn|奥義の鼓動R2|Quickened Pulse R2}}
+==In other languages==
+{{OtherLanguages
+|japanese=紅の剣
+|german=Rote Klinge
+|spanishEU=Espada escarlata
+|spanishLA=Espada escarlata
+|french=Épée taciturne
+|italian=Spada silente
+|chineseTW=赤劍
+|portuguese=Espada escarlate
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%start of turn 1%special cooldown count-2%'|columns=3}}
+* [[Weapons that accelerate the Special trigger]]
+{{Weapons Navbox}}

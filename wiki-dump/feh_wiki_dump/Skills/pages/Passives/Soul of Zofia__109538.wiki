@@ -1,0 +1,61 @@
+{{Passive
+|name=Soul of Zofia
+|type=B
+|exclusive=1
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|1name=Soul of Zofia
+|1tagid=SID_ソフィアの魂
+|1effect=Neutralizes effects that guarantee foe's follow-up attacks or prevent unit's follow-up attacks during combat. If unit's HP ≤ 75% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.
+|1required=-
+|1next=-
+|properties1=random_owner
+|2name=Soul of Zofia II
+|2tagid=SID_ソフィアの魂・承
+|2cost=300
+|2effect=Neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat. If unit initiates combat, unit can make a follow-up attack before foe can counterattack. At start of combat, if unit's HP ≥ 25%, inflicts Spd-5 on foe and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% (example: a foe with a "reduce damage by 45%" skill would reduce damage by 23% instead).
+|1cost=300
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Soul of Zofia}} Soul of Zofia
+|s1 Ce1={{Eft|Neutralize Accelerate Charge}}
+|s1 Ce1T={{Tgt|Foe}}
+|s1 Ce2={{Eft|Neutralize Guard}}
+|s1 Ce3={{Eft|Desperation}}
+|s1 Ce3C=Player Phase '''&'''<br>{{Tgt|Unit}}'s HP ≤ 75%<br>at start of combat
+|skill2={{Si|Soul of Zofia II}} Soul of Zofia II
+|s2 Ce1={{Eft|Neutralize Accelerate Charge}}
+|s2 Ce1T={{Tgt|Foe}}
+|s2 Ce2={{Eft|Neutralize Guard}}
+|s2 Ce3={{Eft|Desperation}}
+|s2 Ce3C=Player Phase
+|s2 Ce4={{Eft|Temporary debuffs|Spd|5}}
+|s2 Ce5={{Eft|Reduce Damage Reduction|50%}}
+|s2 Ce4-5T={{Tgt|Foe}}
+|s2 Ce4-5C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+* Soul of Zofia the same effects as {{St|Null Follow-Up 3}} and {{St|Desperation 3}}.
+{{Follow-up effect neutralization}}
+{{Follow-up before counterattack}}
+{{Temporary debuffs|name=Soul of Zofia II}}
+{{Reduce Damage Reduction|name=Soul of Zofia II}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Soul of Zofia
+|japanese=ソフィアの魂
+|german=Zofias Seele
+|spanishEU=Espíritu zofiano
+|spanishLA=Espíritu zofiano
+|french=Âme de Zofia
+|italian=Spirito di Zofia
+|chineseTW=索菲亞之魂
+|portuguese=Alma de Zofia
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%unit_s HP ≤%make a follow-up attack before%can counterattack%') AND Exclusive='1'}}
+* [[Null Passives]]
+{{Passives Navbox|B}}

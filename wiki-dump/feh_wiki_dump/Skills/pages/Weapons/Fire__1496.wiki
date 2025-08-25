@@ -1,0 +1,33 @@
+{{Weapon Infobox
+|tagid=SID_ファイアー
+|weaponType=Red Tome
+|weaponName={{PAGENAME}}
+|might=4
+|range=2
+|effect=
+|cost=50
+|exclusive=0
+|userVersion1=Closed|userVersion2=Open|statModifiers=0,4,0,0,0
+|next=Elfire
+|promotionRarity=3
+|promotionTier=1
+|required=-
+|properties=random_all
+}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ファイアー
+|german=Feuer
+|spanishEU=Fuego
+|spanishLA=Fuego
+|french=Feu
+|italian=Fuoco
+|chineseTW=火焰
+|portuguese=Fogo
+}}
+==See also==
+* [[Iron Weapons]]
+{{Weapons Navbox}}
+[[Category:Iron weapons]]

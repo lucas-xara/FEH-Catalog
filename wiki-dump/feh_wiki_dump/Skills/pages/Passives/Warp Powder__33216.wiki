@@ -1,0 +1,30 @@
+{{SkillPage Tabs}}{{Passive
+|1name=Warp Powder
+|1tagid=SID_転移の粉
+|1required=-
+|1effect=If unit's HP ≥ 80%, unit can move to a space adjacent to any ally within 2 spaces.
+|1cost=300
+|type=B
+|exclusive=1
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|properties=random_owner
+}}
+==Notes==
+{{Warp interaction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=転移の粉
+|german=Teleportier-Puder
+|spanishEU=Polvo mágico
+|spanishLA=Polvo mágico
+|french=Poudre magique
+|italian=Sparizione
+|chineseTW=轉移粉末
+|portuguese=Pó mágico
+}}
+==See also==
+* [[Warp Passives]]
+{{Passives Navbox|B}}

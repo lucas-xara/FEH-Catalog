@@ -1,0 +1,57 @@
+{{Weapon Infobox
+|tagid=SID_金鹿の聖夜の弓＋
+|intID=3913
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=0
+|weaponType=Bow
+|cost=300
+|might=12
+|range=2
+|effectiveness=Flying
+|effect=Effective against flying foes. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 and Atk/Spd/Def/Res+X to unit and grants Special cooldown count-X to unit before unit's first attack during combat (X = number of spaces from start position to end position of whoever initiated combat, max 3; if【Penalty】 effects are active on foe, then the value is treated as 3).<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|required=Golden Yule Bow
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|CombatEffect 2={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|CombatEffect 3={{Eft|Temporary buffs|Atk/Spd/Def/Res|Spaces initiator moved|max=3*}}
+|CombatEffect 4={{Eft|Reduce Cooldown|Spaces initiator moved|max=3*}}<br>before {{Tgt|Unit}}'s first attack
+|CombatEffect 2-4 Conditions={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+<b>{{Hatnote|* If a {{Kp|Penalty}} effect is active on {{Tgt|Foe}}, value is treated as max.}}</b>
+
+==Notes==
+{{Effective damage bonus|flying}}
+{{Temporary buffs}}
+{{CombatCooldownCount|-X (max: 3)}}
+{{SpacesFromStarttoEnd}}
+{{EffectfromPenalty|special cooldown reduction before unit's first attack}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=金鹿の聖夜の弓＋
+|german=Festlicher Bogen+
+|spanishEU=Arco invernal +
+|spanishLA=Arco invernal +
+|french=Arc des fêtes +
+|italian=Arco festivo+
+|chineseTW=金鹿的聖夜之弓＋
+|portuguese=Arco festivo+
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%before unit_s first attack%special cooldown count-%' OR Description LIKE '%special cooldown count-%before unit_s first attack%') AND Exclusive='1'}}
+{{Weapons Navbox}}

@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Candace}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Candace
+|Title=Sly Snatcher
+|WeaponType=Colorless Bow
+|MoveType=Infantry
+|Origin=Fire Emblem Fates
+|Gender=Female
+|actorEN=Natalie Van Sistine
+|actorJP=慶長佑香
+|artist=DAI-XT.
+|additionDate=April 15, 2024
+|releaseDate=April 16, 2024
+|cv1=11
+|cv2=4900900
+|TagID=ドラジェ
+|InternalID=1089
+|Properties=limited,ghb,hat
+|description=A treasure hunter who travels the world. She uses her agility to get the better of her opponents and make off with what she can snatch. Appears in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=15|Lv1SPD=8|Lv1DEF=3|Lv1RES=11
+|GRHP=50|GRATK=70|GRSPD=65|GRDEF=50|GRRES=75
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Gainful Bow
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Gainful Bow+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Glacies
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Sorcery Blade 1
+|passiveA2=Sorcery Blade 2
+|passiveA3=Sorcery Blade 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Def Ploy 1
+|passiveC2=Def Ploy 2
+|passiveC3=Def Ploy 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

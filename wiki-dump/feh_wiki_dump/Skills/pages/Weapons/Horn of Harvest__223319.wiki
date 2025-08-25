@@ -1,0 +1,77 @@
+{{Weapon Infobox
+|tagid=SID_開かれし祭の角
+|intID=4370
+|noImg=1
+|exclusive=1
+|weaponType=Beast
+|canUseMove=Infantry
+|cost=400
+|might=14
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br>Foes with Range = 1 cannot move through spaces adjacent to unit (does not affect foes with Pass skills). Foes with Range = 2 cannot move through spaces within 2 spaces of unit (does not affect foes with Pass skills).<br><br>For allies within 2 spaces of unit, restores X HP to those allies as their combat begins (triggers after effects that deal damage as combat begins), and reduces the effect of【Deep Wounds】by 50% during combat. (If target's Def > foe's Def, X = 20% of target's max HP + difference between stats × 4; otherwise, X = 20% of target's max HP; max 40% of target's max HP + damage dealt to unit as combat begins; only highest value applied; does not stack.)<br><br>If foe initiates combat or if foe's HP ≥ 75% at start of combat, inflicts penalty on foe's Atk/Def during combat = 6 + number of allies within 3 spaces of unit × 3 (max 15), reduces the effect of【Deep Wounds】by 50% during combat, deals damage = 20% of unit's Def (including when dealing damage with a Special triggered before combat), reduces damage from foe's attacks by 20% of unit's Def (including when taking damage with a Special triggered before combat), and restores X HP to unit as unit's combat begins (triggers after effects that deal damage as combat begins).<br><br>At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, deals +7 damage when Special triggers, and neutralizes effects that grant "Special cooldown charge +X" to foe or inflict "Special cooldown charge -X" on unit.<br><br>【Deep Wounds】<br>Unit's HP cannot be healed through its next action.
+|required=Adult (Infantry)
+|properties=random_inherit_base
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe1={{Eft|Accelerates Special}}
+|Pe2={{Eft|Stat Boosts|Atk|2}}
+|PeC2={{Tgt|Unit}} is transformed
+|Me1={{Eft|Transform}}
+|Me1C=At start of turn if<br>{{Tgt|Unit}} is [[adjacent]] to only<br>{{Cwti|group=1|Dragon,Beast}} [[Dragon]]/[[Beast]]<br>{{Tgt|Allies}} '''or''' not [[adjacent]]<br>to any {{Tgt|Ally}}
+|Me2={{Eft|Obstruct|[[adjacent]] to {{Tgt|Unit}}}}
+|Me2T=Range = 1<br>{{Tgt|Foes}}
+|Me3={{Eft|Obstruct|[[within 2 spaces]] of {{Tgt|Unit}}}}
+|Me3T=Range = 2<br>{{Tgt|Foes}}
+|Ce1={{Eft|Heal|20% of {{Tgt|Ally}}'s max HP +<br>(4 x ({{Tgt|Ally}}'s Def - {{Tgt|Foe}}'s Def))|max=*}}<br>after combat begins damage
+|CeC1={{Tgt|Ally}}'s Def ><br>{{Tgt|Foe}}'s Def
+|Ce2={{Eft|Heal|20% of {{Tgt|Ally}}'s max HP|max=*}}<br>after combat begins damage
+|CeC2={{Tgt|Ally}}'s Def ≤<br>{{Tgt|Foe}}'s Def
+|Ce3={{Eft|Reduce Deep Wounds|50%}}
+|Ce1-3T={{Tgt|Allies}}<br>[[within 2 spaces]]
+|Ce4={{Eft|Temporary debuffs|Atk/Def|3 x {{Tgt|Allies}}<br>[[within 3 spaces]], +6|max=15}}
+|Ce4T={{Tgt|Foe}}
+|Ce4C=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|Ce5={{Eft|Heal|20% of {{Tgt|Unit}}'s max HP +<br>(4 x ({{Tgt|Unit}}'s Def - {{Tgt|Foe}}'s Def))|max=**}}<br>after combat begins damage
+|CeC5=(Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat)<br>'''&''' {{Tgt|Unit}}'s Def<br>> {{Tgt|Foe}}'s Def
+|Ce6={{Eft|Heal|20% of {{Tgt|Unit}}'s max HP|max=**}}<br>after combat begins damage
+|CeC6=(Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat)<br>'''&''' {{Tgt|Unit}}'s Def<br>≤ {{Tgt|Foe}}'s Def
+|Ce7={{Eft|Reduce Deep Wounds|50%}}
+|Ce8={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Def}}<br>before '''&''' during combat
+|Ce9={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Def}}<br>before '''&''' during combat
+|Ce7-9C=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|Ce10={{Eft|Neutralize Accelerate Charge}}
+|Ce10T={{Tgt|Foe}}
+|Ce11={{Eft|Neutralize Guard}}
+|Ce10-12C={{Tgt|Unit}} is transformed
+|Ce12={{Eft|Damage Boost|7}} per<br>{{Tgt|Unit}}'s [[Area-of-effect Specials|AoE]] '''or''' [[offensive Special]]
+|Ce11-12t={{Tgt|Unit}}
+}}
+<b>{{Hatnote|* 40% of {{Tgt|Ally}}'s Max HP + damage dealt to {{Tgt|Ally}} as combat begins<br>** 40% of {{Tgt|Unit}}'s Max HP + damage dealt to {{Tgt|Unit}} as combat begins}}</b>
+==Notes==
+{{Prevent movement}}
+{{CombatHPRecovery|DWreduction=50}}
+{{AlliesCombatEffect|effect=HP recovery and {{Kp|Deep Wounds}} reduction effects}}
+{{IfFoeInitiates}}
+{{Temporary debuffs}}
+{{DamageBoost}}
+{{FlatDamageReduction}}
+{{Beast (Infantry)}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%foe%cannot move through spaces%unit%' OR Description LIKE '%reduces the effect of【Deep Wounds】%' OR Description LIKE '%restores%HP to unit as unit_s combat begins%') AND Exclusive='1'}}
+* [[Bulwark Passives]]
+{{Weapons Navbox}}

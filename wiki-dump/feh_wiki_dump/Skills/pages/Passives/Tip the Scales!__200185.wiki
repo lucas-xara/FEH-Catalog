@@ -1,0 +1,43 @@
+{{Passive
+|name=Tip the Scales!
+|type=C
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Tip the Scales!
+|alt1name=Tip the Scales
+|1tagid=SID_戦局を変える！
+|1effect=At start of turn, if unit is within 2 spaces of an ally, grants【Rally Spectrum】to unit and allies within 2 spaces of unit. Unit can move to a space adjacent to an ally with【Rally Spectrum】 that is within 5 spaces of unit. If unit is within 2 spaces of an ally, grants Atk/Spd/Def/Res+3 to unit during combat.<br><br>【Rally Spectrum】<br>Grants Atk/Spd/Def/Res+5 to unit during combat and if unit's attack can trigger unit's Special, grants Special cooldown count-X to unit before unit's first attack during combat (X = 1 if unit can trigger the "unit attacks twice" effect or if unit's maximum Special cooldown count is reduced (Special trigger is accelerated); otherwise, X = 2). (That turn only.)
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se={{SEt|Rally Spectrum}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=At start of turn<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Me={{Eft|Warp|adjacent to {{Tgt|Allies}}<br>with {{SEt|Rally Spectrum}}<br>[[within 5 spaces]]}}
+|Ce={{Eft|Temporary buffs|Atk/Spd/Def/Res|3}}
+|CeC=An {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+==Notes==
+{{Rally Spectrum}}
+{{Warp interaction}}
+{{Temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=戦局を変える！
+|german=Das Blatt wenden
+|spanishEU=Cambiar tornas
+|spanishLA=Todo cambia
+|french=La roue tourne !
+|italian=Si cambia
+|chineseTW=我要扭轉戰局！
+|portuguese=Outra mudança!
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【Rally Spectrum】%' OR Description LIKE '%unit can move to a space adjacent to%ally%within _ spaces%' AND Description NOT LIKE '%"unit can move%' AND Exclusive='1'}}
+{{Passives Navbox|C}}

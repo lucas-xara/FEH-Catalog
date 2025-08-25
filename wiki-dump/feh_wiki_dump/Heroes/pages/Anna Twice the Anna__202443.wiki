@@ -1,0 +1,81 @@
+{{#invoke:NameAbout|main|Name=Anna}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Anna
+|Title=Twice the Anna
+|WeaponType=Green Axe
+|MoveType=Flying
+|Origin=Fire Emblem Engage,Fire Emblem Awakening
+|Gender=FF
+|secondPerson=Anna
+|harmonized=Grants【Resonance: Blades】and【Resonance: Shields】<br>and restores 99 HP to unit and allies from the same titles as unit. Grants Special cooldown count-5 to unit.<br><br>【Resonance: Blades】<br>Grants Atk/Spd+4 during combat for 1 turn.<br><br>【Resonance: Shields】<br>Grants Def/Res+4 during combat and the following effect for 1 turn: "During unit's first combat in player phase or enemy phase, foe cannot make a follow-up attack."
+|actorEN=Monica Rial,Karen Strassman
+|actorJP=世戸さおり
+|artist=みわべさくら
+|additionDate=October 3, 2023
+|releaseDate=October 5, 2023
+|entry=10;14
+|cv1=14
+|cv2=600100
+|TagID=双界アンナ
+|InternalID=1004
+|Properties=special,harmonized,hat,tiara
+|description=Sisters from different worlds. They don the other's outfit and work together to develop a marketing plan. They appear in Fire Emblem Engage / Fire Emblem Awakening.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=14|Lv1SPD=8|Lv1DEF=9|Lv1RES=5
+|GRHP=50|GRATK=70|GRSPD=90|GRDEF=50|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Payday Pouch
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Miracle
+|special1Default=4
+|special1Unlock=3
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Prime 1
+|passiveA2=Atk/Spd Prime 2
+|passiveA3=Atk/Spd Prime 3
+|passiveA4=Atk/Spd Prime 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Gambit 1
+|passiveB2=Gambit 2
+|passiveB3=Gambit 3
+|passiveB4=Gambit 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Atk/Spd Rein 1
+|passiveC2=Atk/Spd Rein 2
+|passiveC3=Atk/Spd Rein 3
+|passiveC4=A/S Rein Snap
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Sources of Special cooldown count modifications out of combat]]
+[[Category:Halloween units]]

@@ -1,0 +1,55 @@
+{{Passive
+|name=Divine Toxin
+|type=A
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Divine Toxin
+|1tagid=SID_神獣の猛毒
+|1effect=If unit can transform, transformation effects gain "if unit is within 2 spaces of a beast or dragon ally, or if number of adjacent allies other than beast or dragon allies ≤ 2" as a trigger condition (in addition to existing conditions).<br><br>If defending in Aether Raids, at the start of enemy turn 1, if conditions for transforming are met, unit transforms.<br><br>At start of player phase or enemy phase, grants【Dosage】to unit and allies within 2 spaces of unit for 1 turn.<br><br>If unit is transformed or if foe initiates combat, grants Atk/Def/Res+10 to unit, neutralizes foe's bonuses to Atk/Def, grants Special cooldown charge +1 to unit per attack (only highest value applied; does not stack), and neutralizes effects that inflict "Special cooldown charge -X" on unit during combat.<br><br>【Dosage】<br>Grants Atk/Spd/Def/Res+5 to unit during combat and restores 10 HP to unit after combat.<br><br>When a foe triggers both "grants the【Bonus】effects active on foe" and "neutralizes any【Bonus】active on foe" effects from skills such as Essence Drain on unit with this status active, prevents those effects on unit and other targets and neutralizes any【Bonus】effects active on that foe (does not neutralize【Bonus】effects applied at the same time).<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Added Transform Condition|if a {{Cwti|group=1|Dragon,Beast}} [[Dragon]]/[[Beast]]<br>{{Tgt|Ally}} is [[within 2 spaces]] '''or''' [[adjacent]]<br>non-[[Dragon]]/[[Beast]] {{Tgt|Allies}} ≤ 2}}
+|Me2={{Eft|AR-D Transform}}
+|Me2C=At start of<br>Enemy Turn 1
+|Se={{SEt|Dosage}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=At start of both Phases
+|Ce1={{Eft|Temporary buffs|Atk/Def/Res|10}}
+|Ce2={{Eft|Accelerate Charge}}
+|Ce3={{Eft|Neutralize Guard}}
+|Ce4={{Eft|Neutralize Bonuses|Atk/Def}}
+|Ce4T={{Tgt|Foe}}
+|CeC=Enemy Phase '''or'''<br>{{Tgt|Unit}} is transformed
+}}
+
+==Notes==
+{{TransformConditionAdd}}
+{{Dosage}}
+{{IfUnitTransforms}}
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+{{Bonus neutralization}}
+{{CooldownChargePlus}}
+{{CooldownChargeMinusNeutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=神獣の猛毒
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%If unit can transform, transformation effects gain%' OR Description LIKE '%If defending in Aether Raids, at the start of enemy turn 1%' OR Description LIKE '%【Dosage】%') AND Exclusive='1'}}
+* [[Skill families/A Passives#Fortune|Fortune Passives]]
+{{Passives Navbox|A}}

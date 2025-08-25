@@ -1,0 +1,68 @@
+{{#invoke:NameAbout|main|Name=Annette}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Annette
+|Title=Festive Helper
+|WeaponType=Colorless Bow
+|MoveType=Armored
+|Origin=Fire Emblem Warriors: Three Hopes
+|Gender=Female
+|actorEN=Abby Trott
+|actorJP=田中貴子
+|artist=kiyu
+|artist-extra=Trys Inc.
+|additionDate=December 16, 2022
+|releaseDate=December 16, 2022
+|cv1=12
+|cv2=300700
+|TagID=冬祭アネット
+|InternalID=890
+|Properties=special
+|description=A student with the Blue Lions who works twice as hard as anyone. Joins the festival as a good learning experience. Appears in Fire Emblem Warriors: Three Hopes.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=13|Lv1SPD=4|Lv1DEF=12|Lv1RES=8
+|GRHP=55|GRATK=70|GRSPD=45|GRDEF=65|GRRES=75
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Peppy Bow
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Peppy Bow+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Moonbow
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Res Ideal 1
+|passiveA2=Atk/Res Ideal 2
+|passiveA3=Atk/Res Ideal 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=Crafty Fighter 1
+|passiveB2=Crafty Fighter 2
+|passiveB3=Crafty Fighter 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Christmas units]]

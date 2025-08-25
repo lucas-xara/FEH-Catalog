@@ -1,0 +1,52 @@
+{{Passive
+|name=Gift of Guidance
+|type=A
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Gift of Guidance
+|1tagid=SID_人に未来を授けし者
+|1effect=Grants Atk/Def/Res+10.<br><br>At start of turn, if unit's HP ≥ 25%, grants Special cooldown count-2 to unit and grants Special cooldown count-1 to allies within 2 of spaces of unit, and also, if those allies are magic or staff allies, grants an additional Special cooldown count-1 to those allies.<br><br>At start of combat, if unit's HP ≥ 25%, neutralizes penalties on unit, inflicts Special cooldown charge -1 on foe per attack (only highest value applied; does not stack), and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials).
+|statModifiers1=0,10,0,10,10
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Stat Boosts|Atk/Def/Res|10}}
+|Me1={{Eft|Reduce Cooldown|2}}
+|Me2={{Eft|Reduce Cooldown|(2 if {{Tgt|Ally}} is {{Cwti|group=1|Magic,Staff}}<br>[[Magic]] '''or''' {{Wtp|Staff}}; else 1)}}
+|Me2T={{Tgt|Allies}}<br>[[within 2 spaces]]
+|MeC=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25%
+|Ce1={{Eft|Neutralize Penalties}}
+|Ce2={{Eft|Guard}}
+|Ce3={{Eft|Reduce Damage Reduction|50%}}
+|Ce2-3T={{Tgt|Foe}}
+|CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Start of turn Special modification}}
+{{Penalty neutralization}}
+{{CooldownChargeMinusNeutralization}}
+{{Reduce Damage Reduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%grants%additional special cooldown count%' AND Exclusive='1'}}
+* [[Time Pulse Passives]]
+{{Passives Navbox|A}}

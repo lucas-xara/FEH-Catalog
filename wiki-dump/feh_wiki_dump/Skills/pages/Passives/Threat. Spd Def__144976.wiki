@@ -1,0 +1,66 @@
+{{Passive
+|name=Threat. Spd/Def
+|type=C
+|exclusive=0
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|intID=2654
+|sort=7071
+|effectRange=2
+|value=6
+|timingID=8
+|abilityID=53
+|randomTimestamp=2021-08-07T07:00:00Z
+|randomMinLv=31
+|properties=random_owner
+|1name=Threat. Spd/Def 1
+|alt1name=Threat. Spd Def 1
+|1tagid=SID_速さ守備の威嚇1
+|1effect=At start of turn, inflicts Spd/Def-3 on foes within 2 spaces through their next actions.
+|1required=Threaten Spd 1;Threaten Def 1
+|1cost=100
+|1promotionRarity=5
+|1promotionTier=1
+|2name=Threat. Spd/Def 2
+|alt2name=Threat. Spd Def 2
+|2tagid=SID_速さ守備の威嚇2
+|2effect=At start of turn, inflicts Spd/Def-4 on foes within 2 spaces through their next actions.
+|2required=Threat. Spd/Def 1
+|2cost=200
+|properties2=random_inherit_base,random_owner
+}}
+==Notes==
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Threat. Spd/Def 1;Threat. Spd/Def 2
+|badgeColor=Verdant
+|costs1=20;100;20
+|costs2=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|english=Threat. Spd/Def
+|japanese=速さ守備の威嚇
+|german=Ges./Ver. gefähr.
+|spanishEU=Reducir Vel/Def
+|spanishLA=Red. Vel./Def.
+|french=Vit/Déf réduites
+|italian=Mina Vel/Dif
+|chineseTW=速度防守的威嚇
+|portuguese=Vel./Def. minaz
+}}
+==See also==
+* [[Surtr's Menace]]
+{{Passives Navbox|C}}
+[[Category:Threaten Passives]]
+{{Seals Navbox}}

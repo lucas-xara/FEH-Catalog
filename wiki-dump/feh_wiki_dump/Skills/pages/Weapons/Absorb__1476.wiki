@@ -1,0 +1,32 @@
+{{Weapon Infobox
+|tagid=SID_アブゾーブ
+|weaponType=Staff
+|might=4
+|range=2
+|effect=Restores HP = 50% of damage dealt.
+|cost=150
+|exclusive=0
+|statModifiers=0,4,0,0,0
+|next=Absorb+
+|promotionRarity=5
+|promotionTier=2
+|required=Assault
+|properties=random_all
+}}
+==Notes==
+* The healing calculation will always use the [[Damage calculation#Final Damage calculation|final damage number]] for the damage dealt.
+{{CombatHPRecovery}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=アブゾーブ
+|german=Absorbieren
+|spanishEU=Absorción
+|spanishLA=Absorción
+|french=Vampirisme
+|italian=Assorbimento
+|chineseTW=吸收
+|portuguese=Absorção
+}}
+{{Weapons Navbox}}

@@ -1,0 +1,70 @@
+{{#invoke:NameAbout|main|Name=Cecilia}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Cecilia
+|Title=Festive Instructor
+|GrowthModifier=
+|WeaponType=Colorless Dagger
+|Origin=Fire Emblem: The Binding Blade
+|Gender=Female
+|MoveType=Armored
+|actorJP=行成とあ
+|actorEN=Cherami Leigh
+|artist=北千里
+|additionDate=December 18, 2018
+|releaseDate=December 18, 2018
+|TagID=冬祭セシリア
+|InternalID=321
+|Properties=tempest,limited,specDisplay
+|cv1=5
+|cv2=400300
+|description=Mage General of Etruria. She is currently using her teaching skills to instruct visitors at the winter festival. Appears in Fire Emblem: The Binding Blade.
+}}
+__TOC__
+{{Stats Page|Hero=Cecilia: Festive Instructor
+|Lv1HP=19|Lv1ATK=11|Lv1SPD=6|Lv1DEF=6|Lv1RES=10
+|GRHP=50|GRATK=55|GRSPD=40|GRDEF=55|GRRES=60
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Dagger
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Dagger
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Goodie Boot
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Goodie Boot+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Iceberg
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Res Bond 1
+|passiveA2=Atk/Res Bond 2
+|passiveA3=Atk/Res Bond 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Def Ploy 1
+|passiveC2=Def Ploy 2
+|passiveC3=Def Ploy 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Christmas units]]

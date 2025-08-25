@@ -1,0 +1,31 @@
+{{SkillPage Tabs}}{{Passive
+|1name=Crusader's Ward
+|1tagid=SID_聖騎士の加護
+|1effect=If unit receives consecutive attacks and foe's Range = 2, reduces damage from foe's second attack onward by 80%. (Skill cannot be inherited.)
+|1cost=300
+|1required=-
+|type=B
+|exclusive=1
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=random_owner
+}}
+==Notes==
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=聖騎士の加護
+|german=Rittmeisterschutz
+|spanishEU=Escudo cruzado
+|spanishLA=Escudo cruzado
+|french=Abri du croisé
+|italian=Scudo epico
+|chineseTW=聖騎士的加護
+|portuguese=Defesa cruzada
+}}
+==See also==
+* [[Deflect Seals]]
+* [[Urvan]]
+{{Passives Navbox|B}}

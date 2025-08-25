@@ -1,0 +1,36 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_友情の花の杖
+|weaponType=Staff
+|might=8
+|range=2
+|effect=At start of turn, grants Atk/Def+3 to ally with the highest Spd for 1 turn. (Excludes unit.)
+|cost=200
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|required=Assault
+|next=Rapport Wand+
+|promotionRarity=5
+|promotionTier=2
+|properties=
+}}
+==Notes==
+{{Bonuses}}{{SelectStat|Spd}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Rapport Wand
+|japanese=友情の花の杖
+|german=Blütenstab
+|spanishEU=Varita afable
+|spanishLA=Varita afable
+|french=Bâton fleuri
+|italian=Stecca amicale
+|chineseTW=友情之花杖
+|portuguese=Vara harmonia
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%start of turn%grants%to ally with the highest%' AND NOT (Description LIKE '% Atk+%' OR Description LIKE '% Spd+%' OR Description LIKE '% Def+%' OR Description LIKE '% Res+%') OR Description LIKE '%start of turn%grants%bonus%to ally with the highest%'|columns=3}}
+* [[Skill families#Opening|Opening Passives]]
+* [[Skill families#Gap|Gap Passives]]
+{{Weapons Navbox}}

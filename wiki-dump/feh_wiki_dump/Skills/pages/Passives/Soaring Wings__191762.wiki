@@ -1,0 +1,35 @@
+{{Passive
+|name=Soaring Wings
+|type=B
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Soaring Wings
+|1tagid=SID_天かける翼
+|1effect=Enables【Canto (１)】.<br><br>Unit can move to a space within 2 spaces of any ally within 2 spaces. At start of combat, if unit's HP ≥ 25%, inflicts Spd/Def-X on foe during combat (X = 4 + number of spaces from start position to end position of whoever initiates combat; max 8).<br><br>【Canto (１)】<br>After an attack, Assist skill, or structure destruction, unit can move １ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|1cost=300
+|1required=-
+}}
+==Notes==
+{{Canto|1}}
+{{Warp interaction}}
+{{Temporary debuffs}}
+{{SpacesFromStarttoEnd}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=天かける翼
+|german=Flugschwingen
+|spanishEU=Alas desplegadas
+|spanishLA=Alas desplegadas
+|french=Ailes déployées
+|italian=Volo alato
+|chineseTW=翱翔天際的羽翼
+|portuguese=Asas planadoras
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%unit can move to a space within%ally%within 2 spaces%' AND Description NOT LIKE '%grants%adjacent%all%' OR (Description LIKE '%【Canto (１)】%' OR Description LIKE '%=%number of spaces from start position to end position%' OR Description LIKE '%=%number of spaces moved%') AND Exclusive='1' AND Description NOT LIKE '%transforms%if X ≥ 5%'}}
+* [[Skill families/A Passives#Clash|Clash Passives]] 
+{{Passives Navbox|B}}

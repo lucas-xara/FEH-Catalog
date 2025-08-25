@@ -1,0 +1,77 @@
+{{#invoke:NameAbout|main|Name=Est}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Est
+|Title=Springtime Flier
+|WeaponType=Blue Tome
+|Origin=Fire Emblem: Mystery of the Emblem
+|Gender=Female
+|MoveType=Flying
+|actorJP=村川梨衣
+|actorEN=Brianna Knickerbocker
+|artist=DSマイル
+|additionDate=March 18, 2020
+|releaseDate=March 18, 2020
+|TagID=春祭エスト
+|InternalID=499
+|Properties=special,hat,specRate_202402
+|cv1=1
+|cv2=400600
+|description=Youngest of the three Pegasus Sisters from Macedon. She's come to the spring festival as a bunny, just like her sisters. Appears in Fire Emblem: Mystery of the Emblem.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=8|Lv1SPD=9|Lv1DEF=4|Lv1RES=7
+|GRHP=50|GRATK=70|GRSPD=60|GRDEF=30|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Thunder
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elthunder
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Thoron
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Eagle's Egg
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Moonbow
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Fury 1
+|passiveA2=Fury 2
+|passiveA3=Fury 3
+|passiveA4=Fury 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Chill Res 1
+|passiveB2=Chill Atk/Res 1
+|passiveB3=Chill Atk/Res 2
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Hone Atk 1
+|passiveC2=Hone Atk 2
+|passiveC3=Hone Fliers
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Spring Festival units]]

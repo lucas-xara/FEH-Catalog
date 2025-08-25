@@ -1,0 +1,78 @@
+{{Weapon Infobox
+|tagid=SID_忠臣との絆の弓
+|intID=4818
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=1
+|weaponType=Bow
+|cost=400
+|might=9
+|range=2
+|cooldown=-1
+|effectiveness=Flying
+|effect=Accelerates Special trigger (cooldown count-1). Effective against flying foes. Unit attacks twice (even if foe initiates combat, unit attacks twice).<br><br>At start of turn, if unit is within 2 spaces of an ally, grants Atk/Def+6, "neutralizes foe's bonuses during combat," and【Incited】to unit and allies within 2 spaces of unit for 1 turn.<br><br>If unit initiates combat or is within 2 spaces of an ally, grants bonus to unit's Atk/Def/Res = 20% of unit's Def at start of combat, + 5, unit deals +X damage (excluding area-of-effect Specials), reduces damage from foe's attacks by X (excluding area-of-effect Specials; X = number of allies within 3 rows or 3 columns centered on unit × 5; max 15), and neutralizes effects that inflict "Special cooldown charge -X" on unit during combat.<br><br>【Incited】<br>If unit initiates combat, grants bonus to unit's Atk/Spd/Def/Res = number of spaces from start position to end position of unit during combat (max 3; that turn only).
+|required=Silver Bow
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{Eft|Bonuses|Atk/Def|6}}
+|Se2={{SEt|Neutralize Bonuses}}
+|Se3={{SEt|Incited}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=At start of turn<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|Ce2={{Eft|Attack Twice}}
+|Ce3={{Eft|Temporary buffs|Atk/Def/Res|20% of {{Tgt|Unit}}'s Def<br>at start of combat, +5}}
+|Ce4={{Eft|Damage Boost|5 x {{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}|max=15}}
+|Ce5={{Eft|Damage Reduction|5 x {{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}|max=15}}<br>from {{Tgt|Foe}}'s attacks
+|Ce6={{Eft|Neutralize Guard}}
+|Ce3-6C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+
+==Notes==
+{{Effective damage bonus|flying}}
+{{AttackTwice}}
+{{Bonuses}}
+{{Neutralize Bonuses}}
+{{Incited}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{At start of combat}}
+{{FlatDamageBoost|X (max: 15)}}
+{{FlatDamageReduction|X (max: 15)}}
+{{CooldownChargeMinusNeutralization}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Leif: Sworn to Country|t=Nanna: Beloved Princess
+|---xxx---
+|---xxx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xtx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=Arco de lealtad
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+
+==See also==
+{{See also skills|cond=Description LIKE '%【Incited】%' AND Exclusive='1'}}
+* [[Incite Passives]]
+* [[Incite Hone Passives]]
+{{Weapons Navbox}}

@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Saber}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Saber
+|Title=Dune Walker
+|WeaponType=Blue Lance
+|MoveType=Infantry
+|Origin=Fire Emblem Echoes: Shadows of Valentia
+|Gender=Male
+|actorEN=Keith Silverstein
+|actorJP=子安武人
+|artist=めか
+|additionDate=January 17, 2025
+|releaseDate=January 17, 2025
+|cv1=2
+|cv2=200500
+|TagID=ジャハナセーバー
+|InternalID=1200
+|Properties=limited,tempest,specDisplay
+|description=A money-hungry mercenary who will take on just about any job if he's paid enough. He makes an appearance at the festival being held in the deserts of Jehanna. Appears in Fire Emblem Echoes: Shadows of Valentia.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=8|Lv1SPD=13|Lv1DEF=12|Lv1RES=6
+|GRHP=50|GRATK=90|GRSPD=75|GRDEF=75|GRRES=35
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Jehanna Lance
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Jehanna Lance+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Buckler
+|special1Default=4
+|special1Unlock=3
+|special2=Escutcheon
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Spd/Def Finish 1
+|passiveA2=Spd/Def Finish 2
+|passiveA3=Spd/Def Finish 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=Shield Pulse 1
+|passiveB2=Shield Pulse 2
+|passiveB3=Shield Pulse 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Desert Festival units]]

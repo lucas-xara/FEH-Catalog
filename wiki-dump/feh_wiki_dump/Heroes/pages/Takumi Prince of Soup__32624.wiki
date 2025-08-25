@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Takumi}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Takumi
+|Title=Prince of Soup
+|GrowthModifier=Gen 2
+|WeaponType=Colorless Dagger
+|MoveType=Infantry
+|Origin=Fire Emblem Fates
+|Gender=Male
+|actorEN=Michael Sinterniklaas
+|actorJP=梶裕貴
+|artist=Tobi
+|releaseDate=December 31, 2017
+|TagID=年明けタクミ
+|InternalID=201
+|Properties=special,tiara,specRate_202202
+|cv1=11
+|cv2=200900
+|description=The Hoshidan prince who wields the divine bow Fujin Yumi. Loves miso soup, but loves ozoni, eaten at the New Year, just as much. Appears in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=8|Lv1SPD=10|Lv1DEF=4|Lv1RES=5
+|GRHP=50|GRATK=60|GRSPD=55|GRDEF=30|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Dagger
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Dagger
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Kagami Mochi
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Kagami Mochi+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Moonbow
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Res Bond 1
+|passiveA2=Atk/Res Bond 2
+|passiveA3=Atk/Res Bond 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Bowbreaker 1
+|passiveB2=Bowbreaker 2
+|passiveB3=Bowbreaker 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:New Year's units]]

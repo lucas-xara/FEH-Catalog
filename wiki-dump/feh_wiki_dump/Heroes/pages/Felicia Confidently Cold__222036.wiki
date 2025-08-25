@@ -1,0 +1,79 @@
+{{#invoke:NameAbout|main|Name=Felicia}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Felicia
+|Title=Confidently Cold
+|WeaponType=Green Axe
+|MoveType=Cavalry
+|Origin=Fire Emblem Fates
+|Gender=Female
+|actorEN=Connor Kelley
+|actorJP=ささきのぞみ
+|artist=河地りん
+|additionDate=September 5, 2024
+|releaseDate=September 6, 2024
+|cv1=11
+|cv2=100500
+|TagID=氷部族フェリシア
+|InternalID=1140
+|Properties=special
+|description=A hard-working but clumsy maid from the Ice Tribe of Nohr. She fights eagerly to make the festival of snow and ice a success. Appears in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=8|Lv1SPD=8|Lv1DEF=11|Lv1RES=7
+|GRHP=50|GRATK=80|GRSPD=90|GRDEF=55|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Ice-Tribe Axe
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Clash 1
+|passiveA2=Atk/Spd Clash 2
+|passiveA3=Atk/Spd Clash 3
+|passiveA4=Atk/Spd Excel
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=S/R Near Trace 1
+|passiveB2=S/R Near Trace 2
+|passiveB3=S/R Near Trace 3
+|passiveB4=S/R Near Trace 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Odd Spd Wave 1
+|passiveC2=Odd Spd Wave 2
+|passiveC3=Odd Spd Wave 3
+|passiveC4=Odd Spd Wave 4
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Snow-and-Ice Festival units]]

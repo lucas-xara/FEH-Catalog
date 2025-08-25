@@ -1,0 +1,77 @@
+{{Weapon Infobox
+|tagid=SID_魔器・愛らしい雪杖
+|intID=4029
+|image=wep_rd063
+|exclusive=0
+|weaponType=Colorless Staff
+|cost=300
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1; max cooldown count cannot be reduced below 1). Restores 7 HP to allies within 3 spaces of unit after their combat. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit during combat, unit makes a guaranteed follow-up attack, grants Special cooldown charge +1 to unit per attack during combat (only highest value applied; does not stack), and deals +7 damage during combat (except when dealing damage with area-of-effect Specials).
+|required=Assault
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=200
+|effectSkill1=Calculates damage from staff like other weapons.
+|iconSkill1=Wrathful Staff W.png
+|tagidExtraSkill1=神
+|effectSkill2=Foe cannot counterattack.
+|iconSkill2=Dazzling Staff W.png
+|tagidExtraSkill2=幻
+|properties=arcane,random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Accelerate Special}}<br>(can't reduce CD below 1)
+|s1 Me={{Eft|Heal|7}}
+|s1 MeT={{Tgt|Allies}}<br>[[within 3 spaces]]
+|s1 MeC=After {{Tgt|Ally}}'s<br>combat
+|s1 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s1 Ce2={{Eft|Guaranteed Follow-Ups}}
+|s1 Ce3={{Eft|Accelerate Charge}}
+|s1 Ce4={{Eft|Damage Boost|7}}
+|s1 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|skill2={{Si|Arcane Charmer|refine=Skill1Atk}} Skill refine effects
+|s2 Ce={{Eft|Wrathful Staff}}
+|skill3={{Si|Arcane Charmer|refine=Skill2Atk}} Skill refine effects
+|s3 Ce={{Eft|Prevent Counter}}
+|s3 CeT={{Tgt|Foe}}
+}}
+==Notes==
+{{After combat healing|allies=1}}
+{{Temporary buffs}}
+{{Guaranteed follow-up interaction}}
+{{CooldownChargePlus}}
+{{FixedDamage|7}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Inheritable Staff Refines}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Gallery==
+<gallery>
+V8.2_v0802b_engage_Rod.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=魔器・愛らしい雪杖
+|german=Arkaner Charmeur
+|spanishEU=Encanto arcano
+|spanishLA=Encanto arcano
+|french=Beauté arcane
+|italian=Fascino arcano
+|chineseTW=魔器・可愛雪杖
+|portuguese=Encanto arcano
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%restores%HP%allies%after combat%' OR Description LIKE '%after combat%restores%HP%allies%' AND Description NOT LIKE '%elixir%') AND Exclusive='1' AND Name NOT LIKE '%+'}}
+{{Weapons Navbox}}

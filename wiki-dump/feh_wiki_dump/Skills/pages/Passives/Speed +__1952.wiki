@@ -1,0 +1,70 @@
+{{SkillPage Tabs}}{{Passive
+|name=Speed +
+|type=A
+|exclusive=0
+|1name=Speed +1
+|1tagid=SID_速さ1
+|1promotionRarity=4
+|1promotionTier=1
+|alt1name=Speed Plus 1
+|1required=-
+|1effect=Grants Spd+1.
+|1cost=30
+|2name=Speed +2
+|2tagid=SID_速さ2
+|2promotionRarity=5
+|2promotionTier=1
+|alt2name=Speed Plus 2
+|2effect=Grants Spd+2.
+|2cost=60
+|3name=Speed +3
+|3tagid=SID_速さ3
+|alt3name=Speed Plus 3
+|3effect=Grants Spd+3.
+|3cost=120
+|statModifiers1=0,0,1,0,0
+|statModifiers2=0,0,2,0,0
+|statModifiers3=0,0,3,0,0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=random_all
+}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Quest reward===
+* [[Quests and Missions#Sacred Seals|Sacred Seals]] (12 April, 2017 - 28 April, 2017): Defeat an enemy that is level 35 or higher with [[Subaki: Perfect Expert|Subaki]] (x5).
+* [[Quests and Missions#Sacred Seals 3|Sacred Seals]] (26 August, 2017 - 16 September, 2017): Defeat an enemy that is level 35 or higher with [[Selena: Cutting Wit|Selena]] (x5).
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Speed +1;Speed +2;Speed +3
+|badgeColor=Azure
+|costs1=20;100;10
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=速さ
+|german=Ges. +
+|spanishEU=Vel +
+|spanishLA=Velocidad +
+|french=Vitesse +
+|italian=Velocità +
+|chineseTW=速度
+|portuguese=Velocidade +
+}}
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}
+{{Passives Navbox|A}}
+[[Category:Plus Passives]]

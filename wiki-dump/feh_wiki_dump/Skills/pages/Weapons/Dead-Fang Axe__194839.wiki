@@ -1,0 +1,36 @@
+{{Weapon Infobox
+|tagid=SID_命なき狂牙の斧
+|intID=3598
+|image=wep_ax130
+|exclusive=1
+|weaponType=Axe
+|cost=400
+|might=16
+|range=1
+|effect=Grants Spd+3. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit, grants Atk/Spd/Def/Res+X to unit, inflicts Atk/Spd/Def/Res-X on foe (X = current bonus on each of foe's stats; calculates each stat bonus and penalty independently), deals damage = 10% of unit's Atk (including when dealing damage with a Special triggered before combat), and reduces damage from foe's first attack by 40% during combat.
+|statModifiers=0,16,3,0,0
+|required=Silver Axe
+|properties=random_owner
+}}
+==Notes==
+{{TemporaryBufffromBonus|source=the foe}}
+{{TemporaryDebufffromBonus|source=the foe}}
+{{DamageBoost}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=命なき狂牙の斧
+|german=Bissige Totenaxt
+|spanishEU=Hacha serrada
+|spanishLA=Hacha dentada
+|french=Hache enragée
+|italian=Ascia del Fang
+|chineseTW=絕命狂牙之斧
+|portuguese=Machado dentado
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%deals damage =%of unit_s Atk%' OR Description LIKE '%X = current bonus on each of foe_s stats%') AND Exclusive='1'}}
+* [[Skill families/Weapons#Defier's|Defier's Weapons]]
+{{Weapons Navbox}}

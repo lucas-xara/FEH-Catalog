@@ -1,0 +1,39 @@
+{{Weapon Infobox
+|tagid=SID_和傘＋
+|weaponType=Lance
+|weaponName=Wagasa+
+|might=14
+|range=1
+|effect=At start of turn, inflicts Def-7 on foe on the enemy team with the highest Def through its next action.
+|cost=300
+|exclusive=0
+|statModifiers=0,14,0,0,0
+|required=Wagasa
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Notes==
+* Has the same effect as {{Pt|Chill Def 3}}.
+{{Penalties}}
+{{SelectStat}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=和傘＋
+|german=Wagasa+
+|spanishEU=Wagasa +
+|spanishLA=Wagasa +
+|french=Wagasa +
+|italian=Wagasa+
+|chineseTW=和傘＋
+|portuguese=Wagasa+
+}}
+==See also==
+* [[Chill Passives]]
+{{Weapons Navbox}}

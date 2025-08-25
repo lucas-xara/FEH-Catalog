@@ -1,0 +1,76 @@
+{{Weapon Infobox
+|tagid=SID_ニンジンの弓
+|intID=4056
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=0
+|weaponType=Bow
+|cost=200
+|might=8
+|range=2
+|effectiveness=Flying
+|effect=Effective against flying foes. At start of player phase or enemy phase, if any foes within 3 rows or 3 columns centered on unit have Res < unit's Res+5, inflicts Atk/Def-7 and 【Discord】on those foes through their next actions. If foe initiates combat or foe's HP ≥ 75% at start of combat, grants Atk/Res+5 to unit during combat, and if【Discord】is inflicted on foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.<br><br>【Discord】<br>Inflicts Atk/Spd/Def/Res-X on unit during combat (X = 2 + number of allies within 2 spaces of unit; max 5) through its next action.
+|required=Steel Bow
+|next=Carrot Bow+
+|promotionRarity=5
+|promotionTier=1
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|StatusEffect 1={{SkillEffectText|Penalties|Atk/Def|7}}
+|StatusEffect 2={{SEt|Discord}}
+|StatusEffect Targets={{SkillTargetText|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{SkillTargetText|Unit}}
+|StatusEffect Conditions=At start of<br>both Phases if<br>{{SkillTargetText|Foe}}'s Res <<br>{{SkillTargetText|Unit}}'s Res+5
+|CombatEffect 1={{SkillEffectText|Effectiveness|{{Mt|Flying}}}}
+|CombatEffect 2={{SkillEffectText|Temporary buffs|Atk/Res|5}}
+|CombatEffect 2 Conditions=Enemy Phase '''or'''<br>{{SkillTargetText|Foe}}'s HP ≥ 75%<br>at start of combat
+|CombatEffect 3={{SkillEffectText|Guaranteed Follow-Ups}}
+|CombatEffect 4={{SkillEffectText|Prevent Follow-Ups}}
+|CombatEffect 4 Targets={{SkillTargetText|Foe}}
+|CombatEffect 3-4 Conditions=(Enemy Phase '''or'''<br>{{SkillTargetText|Foe}}'s HP ≥ 75%<br>at start of combat) '''&'''<br>{{SkillTargetText|Foe}} has {{SEt|Discord}}
+}}
+
+==Notes==
+{{Effective damage bonus|flying}}
+{{Penalties}}
+{{Discord}}
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+{{Guaranteed follow-up interaction}}
+{{Prevent follow-up}}
+{|class="wikitable default mw-collapsible"
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Linhardt: Spring Snoozer|t=Bernadetta: Late Hibernator
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=ニンジンの弓
+|german=Möhrchenbogen
+|spanishEU=Arco zanahoria
+|spanishLA=Arco zanahoria
+|french=Arc carotte
+|italian=Arco carota
+|chineseTW=胡蘿蔔弓
+|portuguese=Arco cenoura
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%at start of player phase or enemy phase%inflicts%through their next actions%' OR Description LIKE '%【Discord】%') AND Exclusive='1'}}
+{{Weapons Navbox}}

@@ -1,0 +1,72 @@
+{{Passive
+|type=B
+|name=Faithful Loyalty
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Faithful Loyalty
+|1tagid=SID_信じつづける誓い
+|1cost=300
+|1effect=If armored or cavalry foe initiates combat, unit can counterattack before foe's first attack. Neutralizes effects that prevent unit's follow-up attacks during combat. After combat, grants 【Vantage】to unit.<br><br>【Vantage】<br>If foe initiates combat, unit can counterattack before foe's first attack for 1 turn.
+|1required=-
+|1next=-
+|2name=Faithful Loyalty II
+|2tagid=SID_信じつづける…・承
+|2effect=If armored or cavalry foe initiates combat, unit can counterattack before foe's first attack.<br><br>Inflicts Atk/Spd/Def-5 on foe and neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat, and also, if foe is armored or cavalry, reduces damage from foe's attacks by X (including from area-of-effect Specials; excluding Røkkr area-of-effect Specials; X = highest total bonuses among unit and allies within 2 spaces of unit), and if foe is not armored or cavalry, reduces damage from foe's first attack by 40% of X during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes).<br><br>After combat, restores 7 HP to unit and grants【Vantage】to unit for 1 turn.<br><br>【Vantage】<br>If foe initiates combat, unit can counterattack before foe's first attack for 1 turn.
+|2cost=300
+|properties2=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Faithful Loyalty}} Faithful Loyalty
+|s1 Ce1={{Eft|Vantage}}
+|s1 Ce1C={{Tgt|Foe}} is<br>{{Mt|Armored}}<br>'''or''' {{Mt|Cavalry}}
+|s1 Ce2={{Eft|Neutralize Prevent Follow-Ups}}
+|s1 Se={{SEt|Vantage}}
+|s1 SeC=After combat
+|skill2={{Si|Faithful Loyalty II}} Faithful Loyalty II
+|s2 Ce1={{Eft|Vantage}}
+|s2 Ce1C={{Tgt|Foe}} is<br>{{Mt|Armored}}<br>'''or''' {{Mt|Cavalry}}
+|s2 Ce2={{Eft|Temporary debuffs|Atk/Spd/Def|4}}
+|s2 Ce3={{Eft|Neutralize Guaranteed Follow-Ups}}
+|s2 Ce2-3T={{Tgt|Foe}}
+|s2 Ce4={{Eft|Neutralize Prevent Follow-Ups}}
+|s2 Ce5={{Eft|Damage Reduction|highest total {{SEt|bonuses}}<br>on {{Tgt|Unit}} & {{Tgt|Allies}}<br>[[within 2 spaces]]}} from attacks<br>& Non-Røkkr [[AoE Specials]]
+|s2 Ce5C={{Tgt|Foe}} is<br>{{Mt|Armored}}<br>'''or''' {{Mt|Cavalry}}
+|s2 Ce6={{Eft|Damage Reduction|percent=0|40% of highest total {{SEt|bonuses}}<br>on {{Tgt|Unit}} & {{Tgt|Allies}}<br>[[within 2 spaces]]}} from<br>{{Tgt|Foe}}'s first attack<br>(including second attacks)
+|s2 Ce6C={{Tgt|Foe}} is<br>{{Mt|Infantry}}<br>'''or''' {{Mt|Flying}}
+|s2 Se={{SEt|Vantage}}
+|s2 SeC=After combat
+|s2 Me={{Eft|Heal|7}}
+|s2 MeC=After combat
+}}
+
+==Notes==
+{{Counterattack before first attack}}
+** Only affects {{Mt|armored}} and {{Mt|cavalry}} enemies.
+{{Follow-up effect neutralization|preventOnly=1}}
+{{After combat note}}
+{{Vantage}}
+{{Temporary debuffs|name=Faithful Loyalty II}}
+{{FlatDamageReduction}}
+{{FlatAoEDamageReduction}}
+{{EffectfromBonuses|multiTarget=1|target=unit or allies [[within 2 spaces]]|flat damage-reduction effects|name=Faithful Loyalty II}}
+{{After combat healing|name=Faithful Loyalty II}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=信じつづける誓い
+|german=Ewige Treue
+|spanishEU=Fidelidad eterna
+|spanishLA=Fidelidad eterna
+|french=Loyauté sans fin
+|italian=Sempre fedele
+|chineseTW=一直相信的誓言
+|portuguese=Fidelidade leal
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%counterattack before foe_s first attack%' OR Description LIKE '%【Vantage】%' OR Description LIKE '%reduces damage dealt to unit by X%= highest total bonuses%unit and allies within _ spaces%') AND Exclusive='1'}}
+{{Passives Navbox|B}}

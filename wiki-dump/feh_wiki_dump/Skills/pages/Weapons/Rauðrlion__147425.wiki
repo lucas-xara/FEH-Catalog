@@ -1,0 +1,53 @@
+{{Weapon Infobox
+|tagid=SID_ラウアライオン
+|weaponName=Rauðrlion
+|userVersion1=Closed
+|userVersion2=Open
+|weaponType=Red Tome
+|might=8
+|range=2
+|effect=At start of turn, grants Atk+6 to adjacent allies for 1 turn. At start of combat, if foe's HP ≥ 75%, grants Atk/Res+5 to unit during combat.
+|cost=200
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|required=Elfire;Ruin
+|next=
+|promotionRarity=5
+|promotionTier=1
+|intID=2699
+|sort=9000
+|effectRange=1
+|value=11
+|timingID=8
+|abilityID=52
+|limit1ID=53
+|randomTimestamp=2021-09-17T07:00:00Z
+|randomMinLv=21
+|randomMaxLv=35
+|properties=random_owner
+}}
+==Notes==
+{{Bonuses}}{{Combat boosts}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+wep_mg060.webp
+V5.8 210802 popularity Mag.webp|Sprite sheet used for the effect of '''Rauðrlion''' and [[Phantasm Tome]].
+</gallery>
+==Trivia==
+{{TomeColorTrivia|raudr}}
+==In other languages==
+{{OtherLanguages
+|japanese=ラウアライオン
+|german=Rauðrlöwe
+|spanishEU=León carmesí
+|spanishLA=León carmesí
+|french=Lion rubis
+|italian=Rubinleone
+|chineseTW=赤紅之獅
+|portuguese=Leão rubro
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%at start of turn%grants Atk+%to adjacent allies%' OR Description LIKE '%if foe_s HP ≥%Atk/Res+%during combat%'|columns=3}}
+{{Weapons Navbox}}

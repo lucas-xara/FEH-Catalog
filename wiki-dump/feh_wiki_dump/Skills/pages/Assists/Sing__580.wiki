@@ -1,0 +1,35 @@
+{{Assist
+|tagid=SID_歌う
+|name=Sing
+|range=1
+|effect=Grants another action to target ally.<br>(Cannot target an ally with Sing or Dance.)
+|cost=150
+|required=-
+|exclusive=1
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_all,random_inherit_base
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Another Action}}
+|MeT={{Tgt|Target Ally}}
+|MeC={{Tgt|Target Ally}}<br>doesn't have a<br>{{Uti|Dance}} [[Dance Assist]]<br>'''or''' {{SEt|Isolation}}
+}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=歌う
+|german=Singen
+|spanishEU=Cantar
+|spanishLA=Cantar
+|french=Chant
+|italian=Canto
+|chineseTW=歌唱
+|portuguese=Canto
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%This skill treated as Sing or Dance%'}}
+{{Assists Navbox}}
+[[Category:Dance skills]][[Category:Sources of effects that grant "another action"]]

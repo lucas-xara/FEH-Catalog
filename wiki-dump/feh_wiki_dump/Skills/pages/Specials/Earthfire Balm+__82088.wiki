@@ -1,0 +1,30 @@
+{{Special
+|tagid=SID_業火大地の祝福＋
+|charge=1
+|effect=When healing an ally with a staff, grants Atk/Def+6 to all allies for 1 turn.
+|cost=300
+|exclusive=0
+|required=Earthfire Balm
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|Staff}}
+|properties=random_owner
+}}
+==Notes==
+{{Bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=業火大地の祝福＋
+|german=Erdfeuerbalsam+
+|spanishEU=Lavabálsamo +
+|spanishLA=Lavabálsamo +
+|french=Baume torride +
+|italian=Balsamo lavico+
+|chineseTW=業火大地的祝福＋
+|portuguese=Magnabálsamo+
+}}
+==See also==
+* [[Skill families/Specials#Balm|Balm Specials]]
+{{Specials Navbox}}
+[[Category:Balm Specials]]

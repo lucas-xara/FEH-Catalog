@@ -1,0 +1,40 @@
+{{Weapon Infobox
+|tagid=SID_のれん＋
+|weaponType=Lance
+|weaponName=It's Curtains...+
+|might=14
+|range=1
+|effect=At the start of turn 1, grants Special cooldown count-2.
+|cost=300
+|exclusive=0
+|canUseMove=
+|statModifiers=0,14,0,0,0
+|required=It's Curtains...
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Notes==
+{{Start of turn Special modification}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=のれん＋
+|german=Vorhang+
+|spanishEU=Cortina +
+|spanishLA=Cortina +
+|french=Rideau +
+|italian=Sipario+
+|chineseTW=門簾＋
+|portuguese=Cortina+
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%start of turn 1%special cooldown count-2%'|columns=3}}
+{{Weapons Navbox}}

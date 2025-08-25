@@ -1,0 +1,62 @@
+{{Special
+|tagid=SID_王器
+|intID=4294
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=2
+|effect=Boosts damage by 30% of unit's Def + Def【Great Talent】when Special triggers.<br><br>Reduces damage from attacks during combat by percentage = 40, - 10 × current Special cooldown count value.<br><br>At start of turn, grants Atk/Def/Res 【Great Talent】+2 to unit and Atk/Def/Res 【Great Talent】+1 to allies within 3 rows or 3 columns centered on unit.<br><br>After combat, if unit's Special triggered, grants Atk/Def/Res【Great Talent】+4 to unit and Atk/Def/Res【Great Talent】+2 to allies within 3 rows or 3 columns centered on unit.<br><br>(This skill grants max of【Great Talent】+20 for unit and 【Great Talent】+10 for allies.)<br><br>【Great Talent】<br>Adds value of Great Talent (+X) to specified stats (until end of battle; max value of X is determined by the stat reaching the limit of 99, each stat calculated separately and cannot exceed max value for each skill; stat increases are not treated as Bonus effects).
+|required=Bonfire
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Damage Boost|(30% of {{Tgt|Unit}}'s Def<br>+ Def {{Kp|Great Talent}})}}
+|Ce1C=Special triggers
+|Ce2={{Eft|Damage Reduction|percent=1|40 - ({{Tgt|Unit}}'s current<br>Special CD x 10) from<br>{{Tgt|Foe}}'s attacks}}
+|Pe1={{Eft|Great Talent|Atk/Def/Res<br>|2|max=20}}
+|Pe2={{Eft|Great Talent|Atk/Def/Res<br>|1|max=10}}
+|Pe1-2C=At start of turn
+|Pe2-3T={{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|Pe3={{Eft|Great Talent|Atk/Def/Res<br>|2|max=10}}
+|Pe4={{Eft|Great Talent|Atk/Def/Res<br>|4|max=20}}
+|Pe4T={{Tgt|Unit}}
+|Pe3-4C=After combat if<br>special triggered
+}}
+
+==Notes==
+{{DamageBoost}}
+{{DamagePercentageReduction}}
+{{Great Talent}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Alfonse: Heir to Openness|t=Veronica: Brave Princess
+|---xxx---
+|---xxx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xtx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=王器
+|german=Königspotential
+|spanishEU=Madera de rey
+|spanishLA=Madera de rey
+|french=Étoffe d'un roi
+|italian=La stoffa del re
+|chineseTW=王器
+|portuguese=Requisitos de rei
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Great Talent】%' OR Description LIKE '%reduces damage from%-% current Special cooldown count value%' OR SCategory='special' AND Description LIKE '%boosts damage%of unit_s Def%') AND Exclusive='1'}}
+{{Specials Navbox}}

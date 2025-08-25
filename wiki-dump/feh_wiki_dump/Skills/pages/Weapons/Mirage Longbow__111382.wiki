@@ -1,0 +1,74 @@
+{{Weapon Infobox
+|tagid=SID_幻影ロングボウ
+|weaponType=Bow
+|might=14
+|range=2
+|effectiveness=Flying
+|effect=Effective against flying foes. Grants Spd+3. If unit's Spd > foe's Spd, foe cannot counterattack.
+|cost=400
+|exclusive=1
+|userVersion1=Bow
+|userVersion2=Arrow
+|statModifiers=0,14,3,0,0
+|required=Silver Bow
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Effective against flying foes. Grants Spd+3. If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd+5 to unit during combat, deals damage = 15% of unit's Spd during combat (except when dealing damage with area-of-effect Specials), and foe cannot counterattack.
+|cooldownSkill1=-1
+|effectSkill1=Accelerates Special trigger (cooldown count-1).<br>At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+5 to unit, neutralizes unit's penalties to Atk/Spd, and neutralizes foe's bonuses to Spd/Def (from skills like Fortify, Rally, etc.) during combat.
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe=[[File:Speed Plus W.png|x26px|class=inline-icon]] Spd+3
+|s1 Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|s1 Ce2={{Eft|Prevent Counter}}
+|s1 Ce2T={{Tgt|Foe}}
+|s1 Ce2C={{Tgt|Unit}}'s Spd ><br>{{Tgt|Foe}}'s Spd
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe=[[File:Speed Plus W.png|x26px|class=inline-icon]] Spd+3
+|s2 Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|s2 Ce2={{Eft|Temporary buffs|Atk/Spd|5}}
+|s2 Ce3={{Eft|Damage Boost|15% of {{Tgt|Unit}}'s Spd}}
+|s2 Ce4={{Eft|Prevent Counter}}
+|s2 Ce4T={{Tgt|Foe}}
+|s2 Ce2-4C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|skill3={{Si|Mirage Longbow|refine=Skill1}} Skill refine effects
+|s3 Pe={{Eft|Accelerates Special}}
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd|5}}
+|s3 Ce2={{Eft|Neutralize Penalties|Atk/Spd}}
+|s3 Ce3={{Eft|Neutralize Bonuses|Spd/Def}}
+|s3 Ce3T={{Tgt|Foe}}
+|s3 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Effective damage bonus|Flying}}
+{{Prevent counterattacks}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfUnitInitiates}}
+{{Temporary buffs|name=refined Mirage Longbow}}
+{{Penalty neutralization|name={{St|Mirage Longbow|refine=Skill1}}}}
+{{Bonus neutralization|name={{St|Mirage Longbow|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Mirage Longbow
+|japanese=幻影ロングボウ
+|german=Mirage-Bogen
+|spanishEU=Arco largo Mirage
+|spanishLA=Arco largo Mirage
+|french=Arc long mirage
+|italian=Arco Mirage
+|chineseTW=幻影長弓
+|portuguese=Arco Mirage
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%,%foe cannot counterattack%' AND NOT CanUseWeapon__full='Colorless Staff'}}
+{{Weapons Navbox}}

@@ -1,0 +1,68 @@
+{{#invoke:NameAbout|main|Name=Shez}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Shez
+|Title=Mercenary Shade
+|WeaponType=Blue Lance
+|MoveType=Flying
+|Person=Shez M
+|Origin=Fire Emblem Warriors: Three Hopes
+|Gender=Male
+|actorEN=Damien Haas
+|actorJP=畠中祐
+|artist=西木あれく
+|additionDate=June 19, 2023
+|releaseDate=June 19, 2023
+|cv1=12
+|cv2=1100100
+|TagID=水着シェズ男
+|InternalID=966
+|Properties=limited,tempest,specDisplay
+|description=A mercenary from Fódlan having been tasked with taking a vacation at the Askran coast. Appears in Fire Emblem Warriors: Three Hopes.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=9|Lv1SPD=14|Lv1DEF=7|Lv1RES=4
+|GRHP=50|GRATK=80|GRSPD=70|GRDEF=55|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Lance
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Surfer's Spade
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Solo 1
+|passiveA2=Atk/Spd Solo 2
+|passiveA3=Atk/Spd Solo 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Chill Def 1
+|passiveB2=Chill Def 2
+|passiveB3=Chill Def 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Summer units]]

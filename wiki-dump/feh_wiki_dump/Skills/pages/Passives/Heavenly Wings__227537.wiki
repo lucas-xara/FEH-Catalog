@@ -1,0 +1,48 @@
+{{Passive
+|name=Heavenly Wings
+|type=B
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Heavenly Wings
+|1tagid=SID_天届く翼
+|1effect=Enables【Canto (Dist. +1; Max ４)】.<br><br>At start of combat, if unit's HP ≥ 25%, inflicts penalty to foe's Atk/Spd/Def = 5 + number of spaces from start position to end position of whoever initiated combat × 3 (max 14), neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks, grants Special cooldown charge +1 to unit per attack (only highest value applied; does not stack), and grants Special cooldown count-1 to unit before unit's first attack during combat.<br><br>【Canto (Dist. +1; Max ４)】<br>After an attack, Assist skill, or structure destruction, unit can move spaces = number of spaces from start position to end position of unit before the above, +1. (Max ４.)<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Canto|Dist. +1; Max 4}}
+|Ce1={{Eft|Temporary debuffs|Atk/Spd/Def|3 x spaces initiator moved, +5|max=14}}
+|Ce2={{Eft|Neutralize Guaranteed Follow-Ups}}
+|Ce1-2T={{Tgt|Foe}}
+|Ce3={{Eft|Neutralize Prevent Follow-Ups}}
+|Ce4={{Eft|Accelerate Charge}}
+|Ce5={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Unit}}'s first attack
+|CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{Canto|Dist. +1; Max 4}}
+{{Temporary debuffs}}
+{{SpacesFromStarttoEnd}}
+{{Follow-up effect neutralization}}
+{{CooldownChargePlus}}
+{{CombatCooldownCount|-1}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【Canto (Dist. +1; Max ４)】%' AND Exclusive='1'}}
+* [[Clash Passives]]
+{{Passives Navbox|B}}

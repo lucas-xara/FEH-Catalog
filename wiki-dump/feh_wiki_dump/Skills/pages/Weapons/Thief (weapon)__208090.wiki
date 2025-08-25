@@ -1,0 +1,83 @@
+{{About|the weapon Thief|the generic unit|Thief}}
+{{Weapon Infobox
+|wikiName=Thief (weapon)
+|weaponName=Thief
+|tagid=SID_シーフ
+|intID=3960
+|image=wep_rd061
+|exclusive=1
+|weaponType=Colorless Staff
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Foe cannot counterattack. Accelerates Special trigger (cooldown count-1; max cooldown count value cannot be reduced below 1). At start of turn, grants the【Bonus】effects active on the foe with the most【Bonus】effects active (excluding stat bonuses) to unit and allies within 2 spaces for 1 turn, and neutralizes【Bonus】effects active on that foe (excluding bonuses granted at the start of the same turn). Inflicts Atk/Spd/Def/Res-4 on foes within 3 columns or 3 rows centered on unit during combat. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+6 to unit during combat, and deals damage = number of【Bonus】effects active on unit, excluding stat bonuses, × 5 (max 20; excluding area-of-effect Specials).<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|required=Assault
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerate Special}}<br>(can't reduce CD below 1)
+|Se1=All {{Kp|Bonus}} effects active<br>on {{Tgt|Target foe}} of {{Kp|Bonus}}<br>removing effect
+|SeT1={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=At start of turn
+|Se2=Removes {{Kp|Bonus}} effects
+|SeT2={{Tgt|Foe}} with the most<br>{{Kp|Bonus}} effects<br>(excluding {{SEt|Bonuses}})
+|Ce1={{Eft|Prevent Counter}}
+|CeT1={{Tgt|Foe}}
+|Ce2={{Eft|Temporary debuffs|Atk/Spd/Def/Res|4}}
+|CeT2={{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|Ce3={{Eft|Temporary buffs|Atk/Spd|6}}
+|Ce4={{Eft|Damage Boost|5 x number of {{Kp|Bonus}}<br>effects on {{Tgt|Unit}}<br>(excluding {{SEt|Bonuses}})|max=20}}
+|CeT3-4={{Tgt|Unit}}
+|CeC3-4={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+* Has the same effect as {{St|Dazzling Staff 3}}.
+{{Prevent counterattacks}}
+{{CopyBonus|neutralize=1|source=the foe with the most {{Kp|Bonus}} effects (excluding {{SEt|Bonuses}})|target=the user and allies [[within 2 spaces]]}}
+** If multiple foes have the same {{Kp|Bonus}} effects (excluding {{SEt|Bonuses}}) (and same amount), Thief will copy and remove the {{Kp|Bonus}} effects from ''all'' of those foes.
+** If multiple foes have the different {{Kp|Bonus}} effects (excluding {{SEt|Bonuses}}) (but the same amount), Thief will copy and remove the {{Kp|Bonus}} effects from the foe that has the {{kp|Bonus}} effects closest to the top of the list on the unit preview.
+<ul><ul>{{Bonus effect order list}}</ul></ul>
+{{Temporary debuffs}}
+{{FoesCombatEffect|temporary debuffs}}
+{{Temporary buffs}}
+{{DamageBoost}}
+{{EffectfromBonus|nonStat=1|damage boost}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Tina: Playful Scamp|t=Perne: Dacian Scoundrel
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V8.1_v0801a_thrace_Rod_2.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|english=Thief
+|japanese=シーフ
+|german=Diebstahl
+|spanishEU=Expolio
+|spanishLA=Despojador
+|french=Pillage
+|italian=Saccheggio
+|chineseTW=小偷
+|portuguese=Espólio
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%neutralize【Bonus】effects one%foe%' OR Description LIKE '%grants ___【Bonus】%' OR Description LIKE '%inflicts%/%/%-%columns%centered on unit during combat%' OR Description LIKE '%number of%【Bonus】%effects active on unit%') AND (Exclusive='1' AND Name NOT LIKE '%+')}}
+{{Weapons Navbox}}

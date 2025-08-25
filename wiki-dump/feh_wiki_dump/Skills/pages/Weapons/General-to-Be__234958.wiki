@@ -1,0 +1,135 @@
+{{Weapon Infobox
+|tagid=SID_魔道軍将の器の書
+|intID=4745
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|exclusive=1
+|weaponType=Red Tome
+|cost=400
+|might=14
+|range=2
+|effect=At start of turn, if unit is within 2 spaces of an ally, grants Atk/Spd+6 and【Null Follow-Up】to unit and allies within 2 spaces of unit for 1 turn, and also, grants【Treachery】and Canto 1 to unit and magic and staff allies within 2 spaces of unit for 1 turn.<br><br>If unit initiates combat or if unit is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials).<br><br>【Null Follow-Up】<br>If unit's Spd > foe's Spd during combat, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks for 1 turn.<br><br>【Treachery】<br>Unit deals additional damage = total bonuses on unit for 1 turn.
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If unit initiates combat or is within 2 spaces of an ally, deals 7 damage to foe as combat begins (activates only when unit can attack in combat; effects that reduce damage "during combat" do not apply; will not reduce foe's HP below 1), grants Atk/Spd/Def/Res+5 to unit, neutralizes foe's bonuses to Spd/Res, deals damage = 20% of unit's Spd (excluding area- of-effect Specials), and reduces damage from foe's first attack by 7 during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes).<br><br>If unit initiates combat, applies 【Divine Vein (Flame)】on 5 spaces in a line centered on foe's space (oriented left to right based on the direction unit is facing) for 1 turn after combat.<br><br>【Divine Vein (Flame)】<br>Applies the following effects on space: Acts as difficult terrain for foes with Range = 2 (moving over this space costs +1 movement; does not apply to "cannot be slowed by terrain" effects; movement cost cannot exceed unit's allowed movement). At start of enemy phase, deals 7 damage to foe, and also, as combat begins, deals an additional 7 damage to foe (effects that reduce damage "during combat" do not apply; will not reduce foe's HP below 1).
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Se1={{Eft|Bonuses|Atk/Spd|6}}
+|s1 Se2={{SEt|Null Follow-Up}}
+|s1 Se1-2T={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|s1 Se3={{SEt|Treachery}}
+|s1 Se4={{SEt|Canto (1)}}
+|s1 Se3-4T={{Tgt|Unit}} '''&'''<br>{{Cwti|group=1|Magic,Staff}} [[Magic]]/{{Wtp|Colorless Staff}}<br>{{Tgt|Allies}}<br>[[within 2 spaces]]
+|s1 SeC=At start of turn<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s1 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s1 Ce2={{Eft|Reduce Damage Reduction|50%}}
+|s1 Ce2T={{Tgt|Foe}}
+|s1 CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|skill2={{Si|General-to-Be|refine=Skill1}} Skill refine effects
+|s2 Ce1={{Eft|Damage|7}}<br>as combat begins
+|s2 Ce1-2T={{Tgt|Foe}}
+|s2 Ce1C=(Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]) '''&'''<br>{{Tgt|Unit}} can attack
+|s2 Ce2={{Eft|Neutralize Bonuses|Spd/Res}}
+|s2 Ce3={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s2 Ce4={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|s2 Ce5={{Eft|Damage Reduction|7}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|s2 Ce2-5C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s2 Me={{Eft|Divine Vein (Flame)}}
+|s2 MeT=A 5 space line<br>centered on {{Tgt|Target Foe}}
+|s2 MeC=After combat<br>in Player Phase
+}}
+
+==Notes==
+{{Bonuses}}
+{{Null Follow-Up}}
+{{Treachery}}
+{{Canto|1|statusEffect=1}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Reduce Damage Reduction}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{CombatDamage|noCounter=1|name={{St|General-to-Be|refine=Skill1}}}}
+{{Bonus neutralization|name={{St|General-to-Be|refine=Skill1}}}}
+{{DamageBoost|name={{St|General-to-Be|refine=Skill1}}}}
+{{FlatDamageReduction|7|name={{St|General-to-Be|refine=Skill1}}}}
+{{Divine Vein|Flame|name={{St|General-to-Be|refine=Skill1}}}}
+{{After combat note}}
+{| class="wikitable default mw-collapsible"
+!colspan=2 style="text-align:center;max-width:450px;margin:auto;" align="middle"|Examples of {{Eft|Divine Vein (Flame)}}'s<br>area-of-effect
+|-
+!Horizontal 
+|{{AoE|u=Erk: Studious Mage|t=Sonia: Inhuman Beauty
+|-------
+|-xxtxx-
+|-------
+|---u---
+|-------
+|-------
+|-------
+}}
+|-
+!Vertical
+|{{AoE|u=Erk: Studious Mage|t=Sonia: Inhuman Beauty
+|-------
+|-x-----
+|-x-----
+|-t-u---
+|-x-----
+|-x-----
+|-------
+}}
+|-
+!Diagonal Left
+|{{AoE|u=Erk: Studious Mage|t=Sonia: Inhuman Beauty
+|-------
+|-------
+|x------
+|-x-u---
+|--t----
+|---x---
+|----x--
+}}
+|-
+!Diagonal Right
+|{{AoE|u=Erk: Studious Mage|t=Sonia: Inhuman Beauty
+|-------
+|-------
+|------x
+|---u-x-
+|----t--
+|---x---
+|--x----
+}}
+|}
+
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V9.6_v0906a_kakusei_Mag_2_2.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Treachery】%' OR Description LIKE '%【Divine Vein (Flame)】%') AND Exclusive='1'}}
+* [[Flare Passives]]
+{{Weapons Navbox}}

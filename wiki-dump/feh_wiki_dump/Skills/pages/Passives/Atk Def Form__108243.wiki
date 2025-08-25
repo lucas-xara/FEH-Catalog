@@ -1,0 +1,65 @@
+{{SkillPage Tabs}}{{Passive
+|name=Atk/Def Form
+|type=A
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|1name=Atk/Def Form 1
+|1tagid=SID_攻撃守備の密集1
+|alt1name=Atk Def Form 1
+|1effect=If unit is within 2 spaces of an ally, grants Atk/Def+X to unit during combat (X = number of allies within 2 spaces; max 3).
+|1required=-
+|1cost=60
+|1promotionRarity=4
+|1promotionTier=1
+|2name=Atk/Def Form 2
+|2tagid=SID_攻撃守備の密集2
+|alt2name=Atk Def Form 2
+|2effect=If unit is within 2 spaces of an ally, grants Atk/Def+X to unit during combat (X = number of allies within 2 spaces + 2; max 5).
+|2cost=120
+|2promotionRarity=5
+|2promotionTier=1
+|3name=Atk/Def Form 3
+|3tagid=SID_攻撃守備の密集3
+|alt3name=Atk Def Form 3
+|3effect=If unit is within 2 spaces of an ally, grants Atk/Def+X to unit during combat (X = 2 × number of allies within 2 spaces, + 1; max 7).
+|3cost=240
+|properties=random_owner
+}}
+==Notes==
+{{Combat boosts}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Atk/Def Form 1;Atk/Def Form 2;Atk/Def Form 3
+|badgeColor=Verdant
+|costs1=20;100;20
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|english=Atk/Def Form
+|japanese=攻撃守備の密集
+|german=Agr./Ver.-Schar
+|spanishEU=Pelotón Ata/Def
+|spanishLA=Forma Atq./Def.
+|french=Troupe Atq/Déf
+|italian=Forma Att/Dif
+|chineseTW=攻擊防守的密集
+|portuguese=Forma Atq./Def.
+}}
+==See also==
+* [[Bond Passives]]
+{{Seals Navbox}}
+{{Passives Navbox|A}}

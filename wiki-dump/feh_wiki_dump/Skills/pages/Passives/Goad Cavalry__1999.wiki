@@ -1,0 +1,43 @@
+{{Passive
+|type=C
+|exclusive=0
+|1name=Goad Cavalry
+|1tagid=SID_騎刃の紋章
+|1effect=Grants Atk/Spd+4 to cavalry allies within 2 spaces during combat.
+|1cost=200
+|1required=Spur Atk 2;Spur Spd 2
+|canUseWeapon={{WeaponList|all}}
+|canUseMove=Cavalry
+|properties=random_all,random_inherit_base
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{SkillEffectText|Temporary buffs|Atk/Spd|4}}
+|CombatEffect 1 Targets={{Mt|Cavalry}} {{SkillTargetText|Allies}}<br>[[within 2 spaces]]
+}}
+==Notes==
+{{Temporary buffs}}
+{{AlliesCombatEffect|effect=temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=騎刃の紋章
+|german=Reiter+ (Angr.)
+|spanishEU=Acicate equino
+|spanishLA=Ataque equino
+|french=Sursaut (Cav.)
+|italian=Attacco cavalleria
+|chineseTW=騎刃紋章
+|portuguese=Caval. impelida
+}}
+==See also==
+* [[Drive Passives]]
+* [[Goad Passives]]
+* [[Ward Passives]]
+{{Passives Navbox|C}}
+[[Category:Goad Passives]]

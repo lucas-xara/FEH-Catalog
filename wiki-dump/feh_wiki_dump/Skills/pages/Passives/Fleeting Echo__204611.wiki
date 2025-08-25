@@ -1,0 +1,45 @@
+{{Passive
+|name=Fleeting Echo
+|type=X
+|exclusive=0
+|canUseWeapon={{WeaponList|Ranged|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|1name=Fleeting Echo
+|1tagid=SID_響・飛燕の離撃
+|1effect=If unit initiates combat, grants Spd+2 to unit and reduces damage from foe's first attack by 30% during combat.
+|1cost=0
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{SkillEffectText|Temporary buffs|Spd|2}}
+|CombatEffect 2={{SkillEffectText|Damage Reduction|30%}}<br>from {{SkillTargetText|foe}}'s first attack
+|CombatEffect Conditions=Player Phase
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=響・飛燕の離撃
+|german=Flüchtiger Hall
+|spanishEU=Eco efímero
+|spanishLA=Eco efímero
+|french=Symbiose fugace
+|italian=Eco effimero
+|chineseTW=響・飛燕離擊
+|portuguese=Eco efêmero
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If unit initiates combat%grants %Spd%+%during combat%reduces damage%from foe_s first attack%' AND Exclusive='1'}}
+* [[Skill families/A Passives#Remote|Remote Passives]]
+{{Passives Navbox|X}}

@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Lissa}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Lissa
+|Title=Littlest Princess
+|WeaponType=Green Axe
+|MoveType=Infantry
+|Origin=Fire Emblem Awakening
+|Gender=Female
+|actorEN=Kate Higgins
+|actorJP=阿澄佳奈
+|artist=成海七海
+|additionDate=April 4, 2024
+|releaseDate=April 5, 2024
+|cv1=10
+|cv2=100400
+|TagID=幼少リズ
+|InternalID=1082
+|Properties=special
+|description=Second princess of the Halidom of Ylisse and little sister to Emmeryn and Chrom. She is still young, but she is nevertheless kind to her core! Appears in Fire Emblem Awakening.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=8|Lv1SPD=4|Lv1DEF=14|Lv1RES=12
+|GRHP=50|GRATK=90|GRSPD=30|GRDEF=75|GRRES=70
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=New War Axe
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=4
+|special1Unlock=3
+|special2=Bonfire
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Def/Res Finish 1
+|passiveA2=Def/Res Finish 2
+|passiveA3=Def/Res Finish 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Time's Pulse 1
+|passiveC2=Time's Pulse 2
+|passiveC3=Time's Pulse 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Childhood units]]

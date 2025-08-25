@@ -1,0 +1,34 @@
+{{Captain Skill
+|name=Quick Draw
+|effect=Attack first every turn (unless foe also has Quick Draw). At start of turns 2 and 4, reduces foe's number of actions by one.
+|statModifiers=
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|MapEffect 1=Start first every turn
+|MapEffect 1 Targets={{SkillTargetText|Player}}
+|MapEffect 1 Conditions={{SkillTargetText|Foe Player}} does not<br>have {{St|Quick Draw}}
+|MapEffect 2=Reduce {{SkillTargetText|Foe Player}}'s<br>number of actions by 1
+|MapEffect 2 Targets={{SkillTargetText|Foe Player}}
+|MapEffect 2 Conditions=At start of turns 2 & 4
+}}
+
+==Notes==
+* Quick Draw does ''not'' [[:Category:Sources of priority changing effects|change the <i>priority</i>, or <i>order</i> of attacks]], so effects such as {{St|Hardy Bearing}} have no effect on Quick Draw.
+* Quick Draw allows the player with this Captain Skill to act first every turn unless the opposing player is also using this Captain Skill.
+==In other languages==
+{{OtherLanguages
+|english=Quick Draw
+|japanese=先手必勝
+|german=Flinker Hieb
+|spanishEU=Primer impacto
+|spanishLA=Primer impacto
+|french=Coup éclair
+|italian=Iniziativa
+|chineseTW=先發制人
+|portuguese=Primeiro golpe
+}}
+==See also==
+* [[Hardy Bearing]]
+{{Captain Skills Navbox}}

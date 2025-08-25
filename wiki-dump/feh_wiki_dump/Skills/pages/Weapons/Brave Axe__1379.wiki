@@ -1,0 +1,35 @@
+{{Weapon Infobox
+|tagid=SID_勇者の斧
+|weaponType=Axe
+|might=5
+|range=1
+|effect=Inflicts Spd-5. If unit initiates combat, unit attacks twice.
+|cost=200
+|exclusive=0
+|statModifiers=0,5,-5,0,0
+|next=Brave Axe+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Axe
+|properties=random_all
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Brave weapon interaction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=勇者の斧
+|german=Kriegeraxt
+|spanishEU=Hacha valor
+|spanishLA=Hacha valor
+|french=Hache héros
+|italian=Ascia forte
+|chineseTW=勇者之斧
+|portuguese=Machado altivo
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit initiates combat, unit attacks twice%' AND WikiName NOT LIKE '%Brave%' AND Exclusive='1'}}
+* [[Brave Weapons]]
+{{Weapons Navbox}}

@@ -1,0 +1,61 @@
+{{About|the [[Passive]] skill|the [[Status effect]]|Prof's Guidance (status effect)}}
+{{Passive
+|name=Prof's Guidance
+|type=A
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Prof's Guidance
+|alt1name=Profs Guidance
+|1tagid=SID_師の導き
+|1effect=At start of turn, and at start of enemy phase (except for in Summoner Duels), if unit is within 3 spaces of an ally, grants【Prof's Guidance】 and【Null Follow-Up】to unit and allies within 3 spaces of unit for 1 turn, and also, for unit and allies within 3 spaces of unit, if Special cooldown count is at its maximum value, grants Special cooldown count-1.<br><br>If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+9 to unit, unit deals +7 damage (excluding area-of-effect Specials), reduces damage from foe's attacks by 7 (excluding area-of-effect Specials), and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials), and also, if decreasing the Spd difference necessary to make a follow-up attack by 10 would allow unit to trigger a follow-up attack (excluding guaranteed or prevented follow-ups), triggers【Potent Follow 100%】during combat.<br><br>【Prof's Guidance】<br>While unit lives, unit gets 2× SP after combat or after using an Assist skill (only highest value applied; does not stack).<br><br>Grants Atk/Spd/Def/Res+5 to unit during combat, any "reduces damage by X%" effect that can be triggered only once per combat by unit's equipped Special skill can be triggered up to twice per combat (excludes boosted Special effects from engaging; only highest value applied; does not stack), and grants Special cooldown count-1 after combat.<br><br>【Null Follow-Up】<br>If unit's Spd > foe's Spd during combat, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks for 1 turn.<br><br>【Potent Follow 100%】<br>Triggers an additional follow-up attack immediately after unit's standard follow-up attack and deals damage = 100% of unit's normal attack damage (if unit cannot make a follow-up attack, this effect triggers when the standard follow-up attack would occur; this effect is treated like a follow-up attack, so effects like "reduce damage by X%" still apply, but this effect is not affected by effects that prevent follow-ups or "attacks twice" effects; only highest value applied; does not stack).
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{SEt|Prof's Guidance}}
+|Se2={{SEt|Null Follow-Up}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 3 spaces]]
+|SeC=At start of turn<br>'''&''' Enemy Phase*<br>if an {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|Me={{Eft|Reduce Cooldown|1}}
+|MeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 3 spaces]]
+|MeC=At start of turn<br>'''&''' Enemy Phase*<br>if an {{Tgt|Ally}} is<br>[[within 3 spaces]] '''&'''<br>{{Tgt|Unit}} or {{Tgt|Ally}}'s<br>CD is max value
+|Ce1={{Eft|Temporary buff|Atk/Spd/Def/Res|9}}
+|Ce2={{Eft|Damage Boost|7}}
+|Ce3={{Eft|Damage Reduction|7}}<br>from {{Tgt|Foe}}'s attacks
+|Ce4={{Eft|Reduce Damage Reduction|50%}}
+|Ce4T={{Tgt|Foe}}
+|Ce1-4C=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|Ce5={{Eft|Potent Follow 100%}}
+|Ce5C=An {{Tgt|Ally}} is<br>[[within 3 spaces]]<br>'''&''' {{Tgt|Unit}}'s Spd<br>≥ {{Tgt|Foe}}'s Spd-5
+}}
+<b>{{Hatnote|&#42; Excluding Enemy Phase in [[Summoner Duels]].}}</b>
+==Notes==
+{{Prof's Guidance}}
+{{Null Follow-Up}}
+{{Start of turn Special modification}}
+{{Temporary buffs}}
+{{FlatDamageBoost|7}}
+{{FlatDamageReduction|7}}
+{{Reduce Damage Reduction}}
+{{Potent Follow|100%}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%【Prof_s Guidance】%' OR Description LIKE '%【Potent Follow 100%】%') AND Exclusive='1'}}
+{{Passives Navbox|A}}

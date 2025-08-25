@@ -1,0 +1,31 @@
+{{Captain Skill
+|name=Turmoil
+|effect=At the start of the turn, captain can move 1 extra space. (That turn only. Does not stack.) Captain counts as two Heroes for scoring purposes while in the Capture Area.
+|statModifiers=
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|StatusEffect={{SEt|Mobility Increased}}
+|StatusEffect Targets={{SkillTargetText|Captain}}
+|StatusEffect Conditions=At start of turn
+|MapEffect={{SkillEffectIcon|Allies}} Count as 2 Heroes<br>while in the Capture Area
+|MapEffect Targets={{SkillTargetText|Captain}}
+}}
+
+==Notes==
+{{Mobility increased}}
+==In other languages==
+{{OtherLanguages
+|japanese=疾風怒濤
+|german=Sturmangriff
+|spanishEU=Agitación
+|spanishLA=Agitación
+|french=Agitation
+|italian=Tumulto
+|chineseTW=狂風駭浪
+|portuguese=Agitação
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%at start of%turn%unit can move 1 extra space%' AND Description NOT LIKE '%transforms%' AND Description NOT LIKE '%【Stall】%' AND Exclusive='1'}}
+{{Captain Skills Navbox}}

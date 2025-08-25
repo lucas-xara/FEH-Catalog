@@ -1,0 +1,74 @@
+{{Passive
+|name=Protective
+|type=A
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Protective
+|1tagid=SID_守護者
+|1effect=For foes within 3 rows or 3 columns centered on unit, inflicts Atk/Spd/Def/Res-5 on foe and neutralizes foe's bonuses during combat.<br><br>At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+9 to unit and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials), and also, if foe is engaged or if unit's Res ≥ foe's Res+5, reduces damage from foe's first attack by 15% of foe's Atk during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and also, if foe's attack can trigger foe's Special, inflicts Special cooldown count+1 on foe before foe's first attack during combat (cannot exceed the foe's maximum Special cooldown).<br><br>At start of combat, if unit's HP ≥ 25% and if unit's support partner's HP ≤ 99% or if unit is within 2 spaces of an ally with HP ≤ 99%, deals +15 damage when Special triggers during combat (excluding area-of-effect Specials).
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary debuffs|Atk/Spd/Def/Res|5}}
+|Ce2={{Eft|Neutralize Bonuses}}
+|Ce1-2T={{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on unit
+|Ce3={{Eft|Temporary buffs|Atk/Spd/Def/Res|9}}
+|Ce4={{Eft|Reduce Damage Reduction|50%}}
+|Ce4T={{Tgt|Foe}}
+|Ce3-4C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce5={{Eft|Damage Reduction|15% of {{Tgt|Foe}}'s Atk}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce5T={{Tgt|Unit}}
+|Ce5C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' ({{Tgt|Foe}} is [[Engage|Engaged]]<br>'''or''' {{Tgt|Unit}}'s Res<br>≥ {{Tgt|Foe}}'s Res+5)
+|Ce6={{Eft|Increase Cooldown|1}}<br>before {{Tgt|Foe}}'s first attack
+|Ce6T={{Tgt|Foe}}<br>
+|Ce6C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat,<br>({{Tgt|Foe}} is [[Engage|Engaged]]<br>'''or''' {{Tgt|Unit}}'s Res<br>≥ {{Tgt|Foe}}'s Res+5)<br>'''&''' {{Tgt|Foe}} has an<br>[[offensive special]]
+|Ce7={{Eft|Damage Boost|15}}<br>per {{Tgt|Unit}}'s<br>[[offensive Special]]
+|Ce7C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' ({{Tgt|Partner}}'s HP<br>'''or''' {{Tgt|Ally}}'s HP<br>[[within 2 spaces]]) ≤ 99%
+}}
+==Notes==
+{{Temporary debuffs}}
+{{Bonus neutralization}}
+{{FoesCombatEffect|temporary debuffs and bonus neutralization effects}}
+{{Temporary buffs}}
+{{Reduce Damage Reduction}}
+{{FlatDamageReduction}}
+{{CombatCooldownCount|+1}}
+{{FlatDamageBoost|15}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Nel: Stoic Dragon|t=Rafal: Atoning Dragon
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%rows%inflicts%/%-_ on foes%during combat%' OR Description LIKE '%inflicts%/%-_ on foes%rows%during combat%' OR Description LIKE '%engaged%') AND Exclusive='1'}}
+* [[Skill families/C Passives#Crux|Crux Passives]]
+* [[Scowl Passives]]
+{{Passives Navbox|A}}

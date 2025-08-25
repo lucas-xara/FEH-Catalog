@@ -1,0 +1,47 @@
+{{Passive
+|type=S
+|exclusive=0
+|1name=Røkkr
+|1tagid=SID_巨影
+|1effect=Neutralizes damage outside of combat (from skills like Poison Strike, etc.) except damage dealt by Specials that trigger before combat. Unit's HP can be reduced to 0 only by an attack from allied armies. Unit cannot restore its own HP.
+|1cost=0
+|1required=-
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=enemy_only
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Prevent Damage}}<br>(excluding [[AoE Specials]])
+|Ce1={{Eft|Prevent Heal}}<br>outside '''or''' during combat
+|Ce2={{Efi|Miracle}} Can only be defeated<br>by an attack from<br>an {{Tgi|Foes}} Allied Army
+}}
+
+==Notes==
+* A unit with Røkkr will still take damage from [[AoE Specials]].
+* [[:Category:Sources of self-healing|Self-healing effects]] will not be able to restore the user's HP.
+==Seal acquired from==
+* This is a [[Røkkr Sieges]] exclusive Sacred Seal. It is exclusively equipped by Enemy Røkkrs in Røkkr Sieges.
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Røkkr
+|badgeColor=-
+|costs1=-
+}}
+==Trivia==
+* [[Wiktionary:røkkr|Røkkr]] is the old norse word for twilight.
+==In other languages==
+{{OtherLanguages
+|japanese=巨影
+|german=Røkkr
+|spanishEU=Røkkr
+|spanishLA=Røkkr
+|french=Røkkr
+|italian=Røkkr
+|chineseTW=巨影
+|portuguese=Røkkr
+}}
+==See also==
+*
+{{Seals Navbox}}
+[[Category:Røkkr Sieges skills]]

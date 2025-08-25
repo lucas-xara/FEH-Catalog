@@ -1,0 +1,74 @@
+{{#invoke:NameAbout|main|Name=Abel}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Abel
+|Title=The Panther
+|GrowthModifier=None
+|WeaponType=Blue Lance
+|Origin=Fire Emblem: Mystery of the Emblem
+|Gender=Male
+|MoveType=Cavalry
+|actorEN=Mick Wingert
+|actorJP=佐藤拓也
+|artist=笹島彗星
+|releaseDate=February 2, 2017
+|poolDate=February 2, 2017
+|randomStartTime=2017-02-02T07:00:00Z
+|poolRarities=3,4
+|TagID=アベル
+|InternalID=37
+|Properties=demoted_240
+|cv1=1
+|cv2=100700
+|description=Altean cavalier known for his sensibility. Rode with Cain in service of Marth. Appears in Fire Emblem: Mystery of the Emblem.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=7|Lv1SPD=8|Lv1DEF=8|Lv1RES=6
+|GRHP=50|GRATK=60|GRSPD=55|GRDEF=40|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Brave Lance
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Brave Lance+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Panther Lance
+|weapon5Default=
+|weapon5Unlock=5
+}}
+
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Holy Vestments
+|special1Default=4
+|special1Unlock=3
+|special2=Aegis
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=HP +3
+|passiveA2=HP +4
+|passiveA3=HP +5
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Swordbreaker 1
+|passiveB2=Swordbreaker 2
+|passiveB3=Swordbreaker 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+}}
+{{Heroes Navbox}}

@@ -1,0 +1,66 @@
+{{#invoke:NameAbout|main|Name=Fargus}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Fargus
+|Title=Badon Buccaneer
+|WeaponType=Green Axe
+|MoveType=Infantry
+|Origin=Fire Emblem: The Blazing Blade
+|Gender=Male
+|actorEN=Cambron McKinney
+|actorJP=三宅健太
+|artist=添田一平
+|additionDate=November 17, 2023
+|releaseDate=November 18, 2023
+|cv1=6
+|cv2=4900500
+|TagID=ファーガス
+|InternalID=1026
+|Properties=limited,ghb
+|description=Captain of a band of pirates who operate out of Badon. A man of his word who sticks to his code, he is beloved by many of his subordinates. Appears in Fire Emblem: The Blazing Blade.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=8|Lv1SPD=9|Lv1DEF=10|Lv1RES=10
+|GRHP=55|GRATK=90|GRSPD=50|GRDEF=70|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Corsair Cleaver
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Dragon Fang
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Def Ideal 1
+|passiveA2=Atk/Def Ideal 2
+|passiveA3=Atk/Def Ideal 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Infantry Pulse 1
+|passiveC2=Infantry Pulse 2
+|passiveC3=Infantry Pulse 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

@@ -1,0 +1,86 @@
+{{#invoke:NameAbout|main|Name=Helbindi}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Helbindi
+|Title=Savage Scourge
+|Origin=Fire Emblem Heroes
+|Gender=Male
+|WeaponType=Green Axe
+|MoveType=Infantry
+|actorEN=Raymond K. Essel
+|actorJP=中井和哉
+|artist=前嶋重機
+|additionDate=September 14, 2018
+|releaseDate=September 21, 2018
+|poolDate=October 23, 2018
+|randomStartTime=2018-10-21T07:00:00Z
+|poolRarities=5
+|Person=Helbindi
+|TagID=ヘルビンディ
+|InternalID=296
+|EnemyInternalID=36
+|cv1=0
+|cv2=300400
+|description=Rough and tumble general of Múspell, the Kingdom of Flame. Came from nothing and rose through the ranks thanks to his talent in battle.
+|Properties=specRate_202108
+}}
+==Ally stats==
+{{Stats Page|noheader=1
+|Lv1HP=18|Lv1ATK=9|Lv1SPD=5|Lv1DEF=9|Lv1RES=7
+|GRHP=60|GRATK=60|GRSPD=30|GRDEF=60|GRRES=55
+}}
+==Enemy stats==
+{{Stats Page/Generic|noheader=1
+|Lv1HP=19|Lv1ATK=9|Lv1SPD=5|Lv1DEF=10|Lv1RES=8
+|GRHP=60|GRATK=60|GRSPD=40|GRDEF=60|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Býleistr
+|weapon4Default=5
+|weapon4Unlock=5
+|hasEnemy=1
+}}
+
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Retribution
+|special1Default=4
+|special1Unlock=3
+|special2=Vengeance
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=G Duel Infantry 1
+|passiveA2=G Duel Infantry 2
+|passiveA3=G Duel Infantry 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Guard 1
+|passiveB2=Guard 2
+|passiveB3=Guard 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Infantry Pulse 1
+|passiveC2=Infantry Pulse 2
+|passiveC3=Infantry Pulse 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+{{Enemies Navbox}}

@@ -1,0 +1,80 @@
+{{#invoke:NameAbout|main|Name=Linus}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Linus
+|Title=Mad Dog
+|Gender=Male
+|GrowthModifier=Gen 2
+|WeaponType= Green Axe
+|MoveType= Infantry
+|Origin= Fire Emblem: The Blazing Blade
+|artist=めか
+|actorEN=Joe Brogie
+|actorJP=成田剣
+|additionDate=June 8, 2018
+|releaseDate=6/12/2018
+|TagID=ライナス
+|InternalID=259
+|Properties=ghb,limited
+|cv1=6
+|cv2=2900600
+|description=A member of the Black Fang known as Mad Dog and an equal match for his brother Lloyd. He brings judgment down on those he deems evil. Appears in Fire Emblem: The Blazing Blade.
+}}
+
+__TOC__
+
+{{Stats Page|Hero={{BASEPAGENAME}}
+|Lv1HP=18|Lv1ATK=9|Lv1SPD=9|Lv1DEF=8|Lv1RES=4
+|GRHP=55|GRATK=65|GRSPD=55|GRDEF=55|GRRES=35
+}}
+
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Basilikos
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Fanged Basilikos
+|weapon5Default=
+|weapon5Unlock=5
+}}
+
+===Assists===
+{{Assists Table
+}}
+
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Default=
+|special2Unlock=4
+}}
+
+===Passives===
+{{Passives Table
+|passiveA1=Brazen Atk/Spd 1
+|passiveA2=Brazen Atk/Spd 2
+|passiveA3=Brazen Atk/Spd 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Spur Def 1
+|passiveC2=Drive Def 1
+|passiveC3=Drive Def 2
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+
+{{Heroes Navbox}}

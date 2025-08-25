@@ -1,0 +1,54 @@
+{{Assist
+|tagid=SID_レスキュー＋
+|name=Rescue+
+|range=1
+|effect=Restores HP = 50% of unit's Atk (min 8 HP) to target ally. Unit moves 1 space away from target ally. Ally moves to unit's previous space.<br><br>If unit or ally cannot move to the target space (if another ally or foe is occupying the space), unit and ally will not move. Using this skill has no effect on Special cooldown charge and unit does not gain EXP or SP. (This skill is treated as a movement skill only when movement takes place.)
+|cost=300
+|exclusive=0
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|Staff}}
+|required=Rescue
+|intID=2276
+|sort=1131
+|value=10
+|timingID=0
+|abilityID=22
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Heal|50% of {{Tgt|Unit}}'s Atk|min=8}}
+|Me1T={{Tgt|Target Ally}}
+|MeC1={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}<br>'''or''' {{SEt|Deep Wounds}}
+|Me2={{Eft|Drag Back Units}}
+|Me2T={{Tgt|Unit}} '''&'''<br>{{Tgt|Target Ally}}
+|MeC2={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}
+|Ce={{Eft|No Special Cooldown Charge}}
+|CeC={{Tgt|Unit}} uses Assist
+}}
+
+==Notes==
+* Has the same effect as {{St|Draw Back}}.
+{{Movement skill notes|notBeforeRokkr=1}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==Gallery==
+<gallery>
+Wep rd032.webp|Rescue+ Sprite
+</gallery>
+==In other languages==
+{{OtherLanguages
+|english=Rescue+
+|japanese=レスキュー＋
+|german=Rettung+
+|spanishEU=Rescatar +
+|spanishLA=Rescatar +
+|french=Secours +
+|italian=Soccorso+
+|chineseTW=救援＋
+|portuguese=Resgate+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%moves 1 space away from target ally%' OR Description LIKE '%Restores%HP%to target ally%treated as a movement skill%'|columns=2}}
+{{Assists Navbox}}

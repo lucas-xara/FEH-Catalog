@@ -1,0 +1,74 @@
+{{#invoke:NameAbout|main|Name=Seliph}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Seliph
+|Title=Light's Legacy
+|WeaponType=Green Axe
+|MoveType=Cavalry
+|Origin=Fire Emblem: Genealogy of the Holy War
+|Gender=Male
+|actorEN=Christian La Monte
+|actorJP=内田雄馬
+|artist=生川
+|additionDate=May 16, 2025
+|releaseDate=May 16, 2025
+|cv1=3
+|cv2=5100100
+|TagID=花婿セリス
+|InternalID=1245
+|Properties=special
+|description=Descendant of the crusader Baldr and praised as the Scion of Light. He was invited to the festival to fill the role of a groom. Appears in Fire Emblem: Genealogy of the Holy War.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=9|Lv1SPD=10|Lv1DEF=11|Lv1RES=4
+|GRHP=50|GRATK=90|GRSPD=85|GRDEF=60|GRRES=30
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Legacy Axe
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Draconic Aura
+|special2Unlock=4
+|special3=Haze Slice
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Clash 1
+|passiveA2=Atk/Spd Clash 2
+|passiveA3=Atk/Spd Clash 3
+|passiveA4=Atk/Spd Excel
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Flow Refresh 1
+|passiveB2=Flow Refresh 2
+|passiveB3=Flow Refresh 3
+|passiveB4=Potent Assault
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=The Heir to Light
+|passiveC1Unlock=5
+}}
+{{Heroes Navbox}}

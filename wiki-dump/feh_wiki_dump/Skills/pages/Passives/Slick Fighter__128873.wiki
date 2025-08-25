@@ -1,0 +1,113 @@
+{{Passive
+|name=Slick Fighter
+|type=B
+|exclusive=0
+|canUseMove={{MoveList|Armored}}
+|canUseWeapon={{WeaponList|All}}
+|timingID=1
+|abilityID=48
+|limit1ID=2
+|limit2ID=3
+|randomTimestamp=2020-11-08T07:00:00Z
+|properties=random_owner
+|1name=Slick Fighter 1
+|1tagid=SID_正面隊形・自己1
+|1effect=If unit's HP ≥ 75% and foe initiates combat, neutralizes penalties on unit during combat and unit makes a guaranteed follow-up attack.
+|1required=-
+|1cost=60
+|1promotionRarity=4
+|1promotionTier=1
+|intID1=2266
+|sort1=10740
+|value1=2
+|randomMinLv1=21
+|randomMaxLv1=30
+|2name=Slick Fighter 2
+|2tagid=SID_正面隊形・自己2
+|2effect=If unit's HP ≥ 50% and foe initiates combat, neutralizes penalties on unit during combat and unit makes a guaranteed follow-up attack.
+|2required=Slick Fighter 1
+|2cost=120
+|2promotionRarity=5
+|2promotionTier=1
+|intID2=2267
+|sort2=10741
+|value2=4
+|randomMinLv2=26
+|randomMaxLv2=35
+|3name=Slick Fighter 3
+|3tagid=SID_正面隊形・自己3
+|3effect=If unit's HP ≥ 25% and foe initiates combat, neutralizes penalties on unit during combat and unit makes a guaranteed follow-up attack.
+|3required=Slick Fighter 2
+|3cost=240
+|3next=-
+|4name=Slick Fighter 4
+|4tagid=SID_正面隊形・自己4
+|4effect=If foe initiates combat or if unit's HP ≥ 25% at start of combat, inflicts Atk-5 on foe, deals +X damage (X = 20% of unit's Def; excluding area-of-effect Specials), reduces damage from foe's attacks by X (excluding area-of-effect Specials), unit makes a guaranteed follow-up attack, and neutralizes penalties on unit during combat.
+|4cost=300
+|intID3=2268
+|sort3=10742
+|value3=6
+|randomMinLv3=31
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Slick Fighter 3}} Slick Fighter 3
+|s1 Ce1={{Eft|Guaranteed Follow-Ups}}
+|s1 Ce2={{Eft|Neutralize Penalties}}
+|s1 CeC=Enemy Phase '''&'''<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|skill2={{Si|Slick Fighter 4}} Slick Fighter 4
+|s2 Ce1={{Eft|Temporary debuffs|Atk|5}}
+|s2 Ce1T={{Tgt|Foe}}
+|s2 Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Def}}
+|s2 Ce3={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Def}}
+|s2 Ce4={{Eft|Guaranteed Follow-Ups}}
+|s2 Ce5={{Eft|Neutralize Penalties}}
+|s2 CeC=Enemy Phase '''or'''<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{Main|Skill interaction}}
+* The HP threshold applies both to the guaranteed follow-up attack '''and''' the penalty neutralization.
+** The HP threshold is checked at start of combat, and the skill either applies throughout the entire combat, or not at all.
+{{IfFoeInitiates}}
+{{Penalty neutralization}}
+{{Guaranteed follow-up interaction}}
+{{Temporary debuffs|name=Slick Fighter 4}}
+{{DamageBoost|name=Slick Fighter 4}}
+{{FlatDamageReduction}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Slick Fighter 1;Slick Fighter 2;Slick Fighter 3
+|badgeColor=Verdant
+|costs1=20;100;40
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|english=Slick Fighter
+|japanese=正面隊形・自己
+|japaneseNotes=''front formation / self''
+|german=Gewandtheit
+|spanishEU=Diestro
+|spanishLA=Diestro
+|french=Fluidité
+|italian=Scioltezza
+|chineseTW=正面隊形・自己
+|portuguese=Coragem
+|spanishEUNotes=''skilled''|spanishLANotes=''skilled''}}
+==See also==
+{{See also skills|cond=(Description LIKE '%foe initiates%makes a guaranteed follow-up%neutralize%penalties%' OR Description LIKE '%foe initiates%neutralize%penalties%makes a guaranteed follow-up%') AND Exclusive='1'}}
+* [[Fighter Passives]]
+{{Passives Navbox|B}}
+[[Category:Fighter Passives]]
+{{Seals Navbox}}

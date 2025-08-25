@@ -1,0 +1,60 @@
+{{Weapon Infobox
+|tagid=SID_暗黒竜の生贄の杖
+|intID=3599
+|image=wep_rd057
+|exclusive=1
+|weaponType=Colorless Staff
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Foe cannot counterattack. Accelerates Special trigger (cooldown count-1; max cooldown count value cannot be reduced below 1). If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit and neutralizes effects that inflict "Special cooldown charge -X" on unit during combat. Grants Atk/Spd/Def/Res+4 during combat and "if unit's HP > 1 and foe would reduce unit's HP to 0 during combat, unit survives with 1 HP and after combat, restores 99 HP to unit" to allies within 2 spaces of unit (effect only triggers for player's team once per map and does not stack with non-Special effects that allow unit to survive with 1 HP if foe's attack would reduce unit's HP to 0; when any other such effect triggers on an ally granted this effect, this effect will trigger too).
+|required=Assault
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerate Special}}<br>(can't reduce CD below 1)
+|Ce1={{Eft|Prevent Counter}}
+|Ce1T={{Tgt|Foe}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce3={{Eft|Neutralize Guard}}
+|Ce2-3C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce4={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|Ce5={{Eft|Miracle}}<br>(once per map)
+|Ce4-5T={{Tgt|Allies}}<br>[[within 2 spaces]]
+|Ce5C={{Tgt|Ally}}'s HP > 1
+|Me={{Eft|Heal|99}}<br>(once per map)
+|MeT={{Tgt|Allies}}<br>[[within 2 spaces]]
+|MeC=After {{Tgt|Ally}}'s combat if<br>{{Eft|Miracle}}<br>triggered
+}}
+==Notes==
+* Sacrifice Staff has the same effect as {{St|Dazzling Staff}}.
+{{Prevent counterattacks}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{CooldownChargeMinusNeutralization}}
+{{DefensiveSkill}}
+{{Miracle}}
+{{After combat healing|allies=1}}
+{{AlliesCombatEffect|effect=temporary buffs, survival effect, and after combat healing}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V7.5_v0705a_dark_Rod.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=暗黒竜の生贄の杖
+|german=Opferstab
+|spanishEU=Bastón sacrificial
+|spanishLA=Bastón sacrificial
+|french=Bâton sacrifice
+|italian=Bastone sacrifico
+|chineseTW=暗黑龍的活祭品之杖
+|portuguese=Bastão sacrifical
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%survive%with 1 HP%' AND Description NOT LIKE '%"if foe would reduce%' AND (Description LIKE '%for allies within%survive%with 1 HP%' OR Description LIKE '%survive%with 1 HP%to allies within%')) AND Exclusive='1'}}
+{{Weapons Navbox}}

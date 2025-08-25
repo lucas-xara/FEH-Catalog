@@ -1,0 +1,59 @@
+{{Passive
+|name=Yune's Protection
+|type=B
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Yune's Protection
+|alt1name=Yunes Protection
+|1tagid=SID_ユンヌの見守り
+|1effect=At start of turn, if any foes have the highest Atk, Spd, Def, or Res on the enemy team, inflicts【Exposure】and【Discord】on those foes and inflicts -7 on the corresponding stat of those foes and foes within 2 spaces of those foes through their next actions.<br><br>If unit initiates combat or is within 2 spaces of an ally, inflicts Atk/Res-5 on foe, inflicts penalty on foe's Atk/Res = highest penalty on each stat between target and foes within 2 spaces of target, and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials).<br><br>【Exposure】<br>Foe's attacks deal +10 damage.<br><br>【Discord】<br>Inflicts Atk/Spd/Def/Res-X on unit during combat (X = 2 + number of allies within 2 spaces of unit; max 5) through its next action.
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{Eft|Penalty|Atk|7}}, {{Eft|Penalty|Spd|7}},<br>{{Eft|Penalty|Def|7}}, {{Eft|Penalty|Res|7}}
+|Se2={{SEt|Exposure}}
+|Se3={{SEt|Discord}}
+|Se1T={{Tgt|Foes}} with the<br>highest of each stat<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}
+|Se2-3T={{Tgt|Foes}} with the<br>highest of each stat
+|SeC=At start of turn
+|Ce1={{Eft|Temporary debuffs|Atk/Res|5}}
+|Ce2={{Eft|Temporary debuffs|Atk/Res|highest {{SEt|Penalties}}<br>on {{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]] of {{Tgt|Target Foe}}}}
+|Ce3={{Eft|Reduce Damage Reduction|50%}}
+|CeT={{Tgt|Foe}}
+|CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+
+==Notes==
+{{Penalties}}
+{{Exposure}}
+{{Discord}}
+{{SelectStat}}
+{{IfUnitInitiates}}
+{{TemporaryDebufffromPenalty|multiSource=1|source=the target and foes [[within 2 spaces]] of target}}
+{{Reduce Damage Reduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ユンヌの見守り
+|german=Yunes Schutz
+|spanishEU=Favor de Yune
+|spanishLA=Favor de Yune
+|french=Tutelle de Yune
+|italian=Difesa di Yune
+|chineseTW=芸娜的守護
+|portuguese=Defesa de Yune
+}}
+
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%highest%penalt%target and foes within _ spaces of target%' OR Description LIKE '%total penalt%foe%within _ spaces of target%') AND Exclusive='1'}}
+* [[Chill Passives]]
+* [[Sabotage Passives]]
+* [[Skill families/Weapons#Vulture|Vulture Weapons]]
+{{Passives Navbox|B}}

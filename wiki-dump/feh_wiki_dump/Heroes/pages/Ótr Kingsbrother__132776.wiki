@@ -1,0 +1,105 @@
+{{#invoke:NameAbout|main|Name=Ótr}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Ótr
+|Title=Kingsbrother
+|Origin=Fire Emblem Heroes
+|Gender=Male
+|WeaponType=Green Axe
+|MoveType=Cavalry
+|MythicEffect=Anima
+|MythicEffect2=Defensive Team Bonus
+|BoostHP=5
+|BoostDef=5
+|actorEN=Tyler Shamy
+|actorJP=吉野裕行
+|artist=コザキユースケ
+|additionDate=2020-12-08
+|releaseDate=September 30, 2021
+|cv1=0
+|cv2=500200
+|Person=Ótr
+|Properties=mythic,mask,hat,tiara
+|description=Adoptive brother of Niðavellir's king, Fáfnir. Worships his brother and fully supports his ambitions of conquest.
+|TagID=オッテル
+|InternalID=712
+|EnemyInternalID=59
+}}
+==Ally stats==
+{{Stats Page|noheader=1
+|Lv1HP=17|Lv1ATK=11|Lv1SPD=4|Lv1DEF=7|Lv1RES=11
+|GRHP=55|GRATK=70|GRSPD=30|GRDEF=75|GRRES=55
+}}
+==Enemy stats==
+{{Stats Page/Enemy|noheader=1
+|Lv1HP=17|Lv1ATK=10|Lv1SPD=4|Lv1DEF=9|Lv1RES=9
+|GRHP=55|GRATK=70|GRSPD=30|GRDEF=65|GRRES=55
+}}
+==Skills==
+===Ally Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Auto-Lofnheiðr
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Enemy Weapons===
+{{Weapons Table/enemy
+|weapon4=Lofnheiðr
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Unlock=4
+|special3=Brutal Shell
+|special3Unlock=5
+|special4=Brutal Shell+
+|special4Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=G Duel Cavalry 1
+|passiveA2=G Duel Cavalry 2
+|passiveA3=G Duel Cavalry 3
+|passiveA4=G Duel Cavalry 4
+|passiveA5=Atk/Def Clash 1
+|passiveA6=Atk/Def Clash 2
+|passiveA7=Atk/Def Clash 3
+|passiveA8=Atk/Def Excel
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveA5Unlock=2
+|passiveA6Unlock=3
+|passiveA7Unlock=4
+|passiveA8Unlock=5
+|passiveB1=Flow Refresh 1
+|passiveB2=Flow Refresh 2
+|passiveB3=Flow Refresh 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Threaten Def 1
+|passiveC2=Threat. Atk/Def 1
+|passiveC3=Threat. Atk/Def 2
+|passiveC4=Atk/Def Menace
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+{{Enemies Navbox}}

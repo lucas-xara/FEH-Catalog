@@ -1,0 +1,46 @@
+{{Passive
+|type=S
+|exclusive=0
+|1name=Boots Seal
+|1tagid=SID_盗賊の偶像・行軍
+|1effect=When the holder of this seal is defeated, restores 10 HP to unit that defeats holder, inflicts Special cooldown count+1 on that unit after combat, and【Infantry Boots】drop.<br><br>【Infantry Boots】<br>Grants +1 to movement to all allies for 1 turn.
+|1cost=0
+|1required=-
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=enemy_only
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Heal|10}}
+|Me2={{Eft|Increase Cooldown|1}}
+|Me3={{It|Infantry Boots}} drop
+|MeT={{Tgt|Unit}} that<br>defeated<br>{{Tgt|Foe}} with<br>this skill
+|MeC=After combat if<br>{{Tgt|Foe}} with this<br>skill is defeated
+}}
+==Notes==
+{{ResonantBattleItemSeals|Infantry Boots}}
+==Seal acquired from==
+* This is a [[Resonant Battles]] exclusive Sacred Seal. It is exclusively equipped by Enemy Thieves in Resonant Battles.
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Boots Seal
+|badgeColor=-
+|costs1=-
+}}
+==In other languages==
+{{OtherLanguages
+|english=Boots Seal
+|japanese=盗賊の偶像・行軍
+|german=Stiefelsiegel
+|spanishEU=Botas forajidas
+|spanishLA=Botas forajidas
+|french=Sceau bottes
+|italian=Sigillo stivali
+|chineseTW=盜賊的偶像・行軍
+|portuguese=Selo botas
+}}
+==See also==
+* [[Pulse Smoke]]
+{{Seals Navbox}}
+[[Category:Sources of Special cooldown count modifications out of combat]]

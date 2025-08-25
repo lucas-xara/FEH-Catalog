@@ -1,0 +1,75 @@
+{{#invoke:NameAbout|main|Name=Nino}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Nino
+|Title=Burst of Summer
+|WeaponType=Red Tome
+|MoveType=Infantry
+|Origin=Fire Emblem: The Blazing Blade
+|Gender=Female
+|actorEN=Sarah Blandy
+|actorJP=優木かな
+|artist=雨傘ゆん
+|additionDate=June 17, 2025
+|releaseDate=June 17, 2025
+|cv1=6
+|cv2=2900900
+|TagID=水着ニノ
+|InternalID=1254
+|Properties=special
+|description=A young girl and member of the Black Fang, a league of assassins. She brings smiles to the people of Askr, in the midst of the glittering sea. Appears in Fire Emblem: The Blazing Blade.
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=11|Lv1SPD=9|Lv1DEF=7|Lv1RES=10
+|GRHP=50|GRATK=80|GRSPD=90|GRDEF=40|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elfire
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Bolganone
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Bouncin' Ball
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Daylight
+|special1Default=4
+|special1Unlock=3
+|special2=Noontime
+|special2Unlock=4
+|special3=Flare
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Ideal 1
+|passiveA2=Atk/Spd Ideal 2
+|passiveA3=Atk/Spd Ideal 3
+|passiveA4=Perfect Atk/Spd
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Lull Spd/Res 1
+|passiveB2=Lull Spd/Res 2
+|passiveB3=Lull Spd/Res 3
+|passiveB4=S/R Lull Finish
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Black Fang Bond
+|passiveC1Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Summer units]]

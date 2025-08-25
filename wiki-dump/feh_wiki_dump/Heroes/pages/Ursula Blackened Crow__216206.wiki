@@ -1,0 +1,81 @@
+{{#invoke:NameAbout|main|Name=Ursula}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Ursula
+|Title=Blackened Crow
+|WeaponType=Blue Tome
+|MoveType=Cavalry
+|Origin=Fire Emblem: The Blazing Blade
+|Gender=Female
+|actorEN=Misty Lee
+|actorJP=水橋かおり
+|artist=п猫Ｒ
+|randomStartTime=2024-06-08T07:00:00Z
+|additionDate=May 7, 2024
+|releaseDate=May 8, 2024
+|poolDate=June 7, 2024
+|poolRarities=5
+|cv1=6
+|cv2=2900800
+|TagID=闇ウルスラ
+|InternalID=1093
+|Properties=fallen
+|description=Member of the Black Fang assassins. Adores the Fang's puppetmaster, Sonia. Following her death, she has been made into a morph. Appears in Fire Emblem: The Blazing Blade.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=13|Lv1SPD=8|Lv1DEF=4|Lv1RES=5
+|GRHP=50|GRATK=70|GRSPD=90|GRDEF=30|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Thunder
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elthunder
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Thoron
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Dead-Crow Tome
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Rising Thunder
+|special1Default=4
+|special1Unlock=3
+|special2=Blazing Thunder
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Life and Death 1
+|passiveA2=Life and Death 2
+|passiveA3=Life and Death 3
+|passiveA4=Verge of Death
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=S/R Far Trace 1
+|passiveB2=S/R Far Trace 2
+|passiveB3=S/R Far Trace 3
+|passiveB4=S/R Far Trace 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Res Smoke 1
+|passiveC2=Res Smoke 2
+|passiveC3=Res Smoke 3
+|passiveC4=Def/Res Smoke 3
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}

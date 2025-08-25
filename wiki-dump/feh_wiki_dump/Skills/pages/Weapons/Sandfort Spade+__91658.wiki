@@ -1,0 +1,34 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_砂浜のスコップ＋
+|weaponType=Sword
+|might=14
+|range=1
+|effect=If a bonus granted by a skill like Rally or Hone is active on unit, grants Atk/Def+4 during combat.
+|cost=300
+|exclusive=0
+|statModifiers=0,14,0,0,0
+|required=Sandfort Spade
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=砂浜のスコップ＋
+|german=Sandschaufel+
+|spanishEU=Pala playera +
+|spanishLA=Pala playera +
+|french=Pelle de plage +
+|italian=Paletta da mare+
+|chineseTW=沙鏟＋
+|portuguese=Pá litorânea+
+}}
+{{Weapons Navbox}}

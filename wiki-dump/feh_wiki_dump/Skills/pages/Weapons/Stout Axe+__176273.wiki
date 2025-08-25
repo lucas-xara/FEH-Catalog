@@ -1,0 +1,40 @@
+{{Weapon Infobox
+|tagid=SID_堅固の斧＋
+|intID=3156
+|image=wep_ax115
+|exclusive=0
+|weaponType=Axe
+|cost=300
+|might=14
+|range=1
+|effect=At start of combat, if unit's HP ≥ 50%, grants Atk/Def+5 during combat, and also, if foe can make a follow-up attack, reduces damage from foe's first attack by 50%.
+|statModifiers=0,14,0,0,0
+|required=Stout Axe
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=random_owner
+}}
+==Notes==
+{{Combat boosts}}
+{{DamagePercentageReduction}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=堅固の斧＋
+|german=Stabile Axt+
+|spanishEU=Gran hacha +
+|spanishLA=Gran hacha +
+|french=Hache robuste +
+|italian=Ascia robusta+
+|chineseTW=堅固之斧＋
+|portuguese=Machado forte+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe can make a follow-up attack, reduces damage from foe_s first attack%' AND WikiName NOT LIKE '%Stout%'|columns=3}}
+* [[Skill families#Stout|Stout Weapons]]
+{{Weapons Navbox}}

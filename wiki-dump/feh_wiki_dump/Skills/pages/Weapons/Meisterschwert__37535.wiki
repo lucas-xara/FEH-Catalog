@@ -1,0 +1,54 @@
+{{Weapon Infobox
+|tagid=SID_マスターソード
+|weaponType=Sword
+|might=11
+|userVersion1=Weapon
+|userVersion2=Gleam
+|range=1
+|effect=Inflicts Spd-5. Unit attacks twice.<br>(Even if foe initiates combat, unit attacks twice.)
+|cost=400
+|exclusive=true
+|statModifiers=0,11,-5,0,0
+|required=Silver Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=At start of combat, if foe's HP ≥ 50%, grants Atk+5 to unit and inflicts Atk-5 on foe during combat, and also, if unit initiates combat, foe cannot make a follow-up attack.
+|iconSkill1=Meisterschwert W.png
+|tagidExtraSkill1=強
+|refineStatsAtk=5,1,0,0,0
+|properties=random_owner
+}}
+==Notes==
+{{Brave weapon interaction}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Combat boosts}}
+{{Combat reductions}}
+{{IfUnitInitiates}}
+{{Prevent follow-up}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+*Meisterschwert's effect working regardless of who initiates combat is accurate to [[Brave Weapons]] in general in all [[Games|''Fire Emblem'' games]] released between {{FE|4}} and {{FE|13}}, inclusive. 
+**The restriction on other Brave Weapons in {{FE|H}} to only works when the user initiates combat was introduced in {{FE|14}}.
+*Unlike its iteration in {{FE|5}}, Meisterschwert has more might than and harder attainability than a {{St|Brave Sword}} in {{FE|H}}.
+==In other languages==
+{{OtherLanguages
+|japanese=マスターソード
+|japaneseNotes=''Master Sword''
+|german=Meisterschwert
+|germanNotes=''Master Sword''
+|spanishEU=Meisterschwert
+|spanishLA=Meisterschwert
+|french=Meisterschwert
+|italian=Meisterschwert
+|chineseTW=大師之劍
+|portuguese=Meisterschwert
+}}
+==See also==
+*[[Brave Weapons]]
+{{See also skills|cond=Description LIKE '%grants Atk+%to unit%inflicts Atk-%on foe%foe cannot make a follow-up%' OR Description LIKE '%inflicts Spd-_%attacks twice%' AND Description NOT LIKE '%inflicts Spd-_%if unit initiates combat,% attacks twice%'|columns=3}}
+{{Weapons Navbox}}

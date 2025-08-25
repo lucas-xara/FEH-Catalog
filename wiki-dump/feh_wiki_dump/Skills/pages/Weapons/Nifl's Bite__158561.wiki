@@ -1,0 +1,37 @@
+{{Weapon Infobox
+|tagid=SID_絶氷ニフル
+|intID=2769
+|exclusive=1
+|weaponType=Axe
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). Unit can counterattack regardless of foe's range. If unit is within 2 spaces of an ally, restores 7 HP to unit after combat, and also, if foe uses bow, dagger, magic, or staff, neutralizes effects that prevent unit's counterattacks during combat.
+|statModifiers=0,16,0,0,0
+|required=Silver Axe
+|properties=random_owner
+}}
+==Notes==
+* Has the same effect as {{St|Distant Counter}}.
+{{After combat healing}}
+{{Counterattack prevention neutralization}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=絶氷ニフル
+|german=Nifls Frost
+|spanishEU=Bocado de Nifl
+|spanishLA=Bocado de Nifl
+|french=Morsure de Nifl
+|italian=Morsa di Nifl
+|chineseTW=絕冰尼福爾
+|portuguese=Friagem de Nifl
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%neutralizes effects that prevent unit_s counterattacks%'|columns=3}}
+* [[:Category:Weapons with Distant Counter|Weapons with Distant Counter]]
+* [[:Category:Weapons with Close Counter|Weapons with Close Counter]]
+{{Weapons Navbox}}

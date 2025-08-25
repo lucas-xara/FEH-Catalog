@@ -1,0 +1,86 @@
+{{Weapon Infobox
+|tagid=SID_枢機卿の書
+|intID=4791
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|exclusive=1
+|weaponType=Red Tome
+|cost=400
+|might=14
+|range=2
+|effect=For foes within 3 rows or 3 columns centered on unit, deals 10 damage to foe as their combat begins (effects that reduce damage during combat do not apply; will not reduce foe's HP below 1) and inflicts Atk/Res-5 on foe during their combat.<br><br>At start of combat, if unit's HP ≥ 25%, unit makes a guaranteed follow-up attack and reduces damage from foe's attacks by 7 during combat (excluding area-of-effect Specials).
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=Restores 10 HP to allies within 3 spaces of unit after their combat.<br><br>If unit is within 3 spaces of an ally, inflicts Atk/Res-6 on foe, unit deals damage = 20% of unit's Res (excluding area-of-effect Specials), and grants Special cooldown charge +1 to unit per attack during combat (only highest value applied; does not stack), and restores 10 HP to unit after combat.
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Ce1={{Eft|Damage|10}}<br>as combat begins
+|s1 Ce2={{Eft|Temporary debuffs|Atk/Res|5}}
+|s1 Ce1-2T={{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|s1 Ce3={{Eft|Guaranteed Follow-Ups}}
+|s1 Ce4={{Eft|Damage Reduction|7}}<br>from {{Tgt|Foe}}'s attacks
+|s1 Ce3-4C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|skill2={{Si|Cardinal's Tome|refine=Skill1}} Skill refine effects
+|s2 Me1={{Eft|Heal|10}}
+|s2 Me1T={{Tgt|Allies}}<br>[[within 3 spaces]]
+|s2 Me1C=After {{Tgt|Ally}}'s combat
+|s2 Me2={{Eft|Heal|10}}
+|s2 Me2C=After combat if<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s2 Ce1={{Eft|Temporary debuffs|Atk/Res|6}}
+|s2 Ce1T={{Tgt|Foe}}
+|s2 Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Res}}
+|s2 Ce3={{Eft|Accelerate Charge}}
+|s2 CeC=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+}}
+==Notes==
+{{CombatDamage|10}}
+{{Temporary debuffs}}
+{{FoesCombatEffect|damage as combat begins and temporary debuff effects}}
+{{Guaranteed follow-up interaction}}
+{{FlatDamageReduction|7}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Aelfric: Custodian Monk|t=Yuri: Ashen Valiant
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{After combat healing|allies=1|name={{St|Cardinal's Tome|refine=Skill1}}}}
+{{DamageBoost|name={{St|Cardinal's Tome|refine=Skill1}}}}
+{{CooldownChargePlus|name={{St|Cardinal's Tome|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%deals%damage% as combat begins%' OR Description LIKE '%restore%HP%after ally_s combat%' OR Description LIKE '%restore%HP%after their combat%') AND Exclusive='1'}}
+* [[Flare Passives]]
+{{Weapons Navbox}}

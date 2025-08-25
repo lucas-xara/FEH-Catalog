@@ -1,0 +1,52 @@
+{{Passive
+|name=S/D Rein Snap
+|type=C
+|exclusive=0
+|canUseWeapon={{WeaponList|Close}}
+|canUseMove={{MoveList|Flying}}
+|properties=random_owner
+|1name=S/D Rein Snap
+|alt1name=S D Rein Snap
+|1tagid=SID_速守牽制・運び手
+|1effect=Inflicts Spd/Def-4 on foes within 2 spaces of unit during combat. At start of turn, if unit is within 2 spaces of an armored ally or an infantry ally with Range = 1, grants "unit can move 1 extra space" to unit, infantry allies with Range = 1 within 2 spaces of unit, and armored allies within 2 spaces of unit. (That turn only; does not stack; effect triggers only if unit has no Sing or Dance skill.)
+|1cost=300
+|1required=Spd/Def Rein 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se={{SEt|Mobility increased}}
+|SeT={{Tgt|Unit}} '''&'''<br>{{Tgt|Target Allies}}<br>[[within 2 spaces]]
+|SeC=An {{Mt|Armored}}<br>'''or''' Range = 1<br>{{Mt|Infantry}}<br>{{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce={{Eft|Temporary debuffs|Spd/Def|4}}
+|CeT={{Tgt|Foes}}<br>[[within 2 spaces]]
+}}
+==Notes==
+{{Temporary debuffs}}
+{{FoesCombatEffect}}
+{{Mobility increased}}
+* {{SEt|Mobility increased}} is only granted to {{Mt|armored}} and {{Cwtt|Close|group=1}} {{Mt|infantry}} allies if the unit is not equipped with a {{Uti|Dance}} [[:Category:Dance skills|Dance Assist]].
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=S/D Rein Snap
+|japanese=速守牽制・運び手
+|german=G/V-Zügelhilfe
+|spanishEU=Don amarra V/D
+|spanishLA=Don amarra V/D
+|french=Bride agile V/D
+|italian=Schiocco br. V/D
+|chineseTW=速度防守牽制・推手
+|portuguese=Rédea cinese V/D
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%inflicts%Spd/Def%-%on foes within _ spaces during combat%' OR Description LIKE '%armored%"unit can move 1 extra space%' OR Description LIKE '%"unit can move 1 extra space%armored%') AND WikiName NOT LIKE '%Rein%' AND Exclusive='1'}}
+* [[Rein Passives]]
+* [[Skill families/Weapons#Rein_.28weapons.29|Rein Weapons]]
+* [[Skill families/C Passives#Hold|Hold Passives]]
+* [[Skill families/C Passives#Rein Snap|Rein Snap Passives]]
+{{Passives Navbox|C}}

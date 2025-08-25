@@ -1,0 +1,80 @@
+{{#invoke:NameAbout|main|Name=Lena}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Lena
+|Title=Tender Angel
+|WeaponType=Colorless Staff
+|Origin=Fire Emblem: Mystery of the Emblem
+|Gender=Female
+|MoveType=Infantry
+|actorJP=戸松遥
+|actorEN=Brittany Cox
+|artist=恒星ホリグチ
+|additionDate=July 20, 2020
+|releaseDate=July 20, 2020
+|randomStartTime=2020-08-20T07:00:00Z
+|poolDate=August 7, 2020
+|poolRarities=3,4
+|cv1=1
+|cv2=400900
+|TagID=レナ
+|InternalID=546
+|Properties=
+|description=A cleric revered as Macedon's Angel. Cares for orphans in her convent after the conclusion of the War of Shadows. Appears in Fire Emblem: Mystery of the Emblem.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=8|Lv1SPD=7|Lv1DEF=5|Lv1RES=9
+|GRHP=50|GRATK=55|GRSPD=50|GRDEF=45|GRRES=65
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Assault
+|weapon1Default=
+|weapon1Unlock=1
+|weapon2=Gravity
+|weapon2Default=
+|weapon2Unlock=3
+|weapon3=Gravity+
+|weapon3Default=
+|weapon3Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Heal
+|assist1Default=1
+|assist1Unlock=1
+|assist2=Mend
+|assist2Default=3
+|assist2Unlock=2
+|assist3=Recover
+|assist3Default=4
+|assist3Unlock=3
+|assist4=Recover+
+|assist4Default=5
+|assist4Unlock=5
+}}
+===Specials===
+{{Specials Table
+|special1=Imbue
+|special1Default=4
+|special1Unlock=2
+|special2=Heavenly Light
+|special2Default=5
+|special2Unlock=3
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Resistance +1
+|passiveA2=Def/Res 1
+|passiveA3=Def/Res 2
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Atk Ploy 1
+|passiveC2=Atk Ploy 2
+|passiveC3=Atk Ploy 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

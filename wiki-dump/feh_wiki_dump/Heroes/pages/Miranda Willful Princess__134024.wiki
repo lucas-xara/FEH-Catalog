@@ -1,0 +1,70 @@
+{{#invoke:NameAbout|main|Name=Miranda}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Miranda
+|Title=Willful Princess
+|WeaponType=Red Tome
+|MoveType=Infantry
+|Origin=Fire Emblem: Thracia 776
+|Gender=Female
+|actorEN=Paula Rhodes
+|actorJP=渡辺明乃
+|artist=麻谷知世
+|randomStartTime=2021-02-08T07:00:00Z
+|additionDate=January 7, 2021
+|releaseDate=January 8, 2021
+|poolDate=January 28, 2021
+|poolRarities=3,4
+|cv1=4
+|cv2=500100
+|TagID=ミランダ
+|InternalID=614
+|Properties=
+|description=Princess of Ulster who was held hostage by Grannvale. Strong-willed but not without a gentle side. Appears in Fire Emblem: Thracia 776.
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=10|Lv1SPD=9|Lv1DEF=4|Lv1RES=10
+|GRHP=50|GRATK=60|GRSPD=60|GRDEF=40|GRRES=60
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elfire
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Rauðrserpent
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Rauðrserpent+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Tome of Fury
+|weapon5Default=
+|weapon5Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Ardent Sacrifice
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveB1=Seal Atk 1
+|passiveB2=Seal Atk/Res 1
+|passiveB3=Seal Atk/Res 2
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Spd/Res Gap 1
+|passiveC2=Spd/Res Gap 2
+|passiveC3=Spd/Res Gap 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

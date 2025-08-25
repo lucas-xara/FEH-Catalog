@@ -1,0 +1,56 @@
+{{Passive
+|type=S
+|exclusive=0
+|1name=Squad Ace W 1
+|1tagid=SID_第23迷宮の覇者1
+|alt1name=Squad Ace C 1
+|1effect=Grants Res+1.
+|1cost=30
+|1next=-
+|2name=Squad Ace W 2
+|2tagid=SID_第23迷宮の覇者2
+|alt2name=Squad Ace C 2
+|2effect=Grants Res+2.
+|2cost=60
+|2next=-
+|3name=Squad Ace W 3
+|3tagid=SID_第23迷宮の覇者3
+|alt3name=Squad Ace C 3
+|3effect=Grants Res+3.
+|3cost=120
+|statModifiers1=0,0,0,0,1
+|statModifiers2=0,0,0,0,2
+|statModifiers3=0,0,0,0,3
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=
+}}
+==Seal acquired from==
+===Squad Assault reward===
+* Complete the [[23rd Assault]].
+===Sacred Seal Forge===
+{{SealCosts
+|seals=Squad Ace W 1;Squad Ace W 2;Squad Ace W 3
+|badgeColor=Transparent
+|costs1=-
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=第２３迷宮の覇者
+|german=Überfall-Ass W
+|spanishEU=As del asalto W
+|spanishLA=As del asalto W
+|french=Assaut réussi W
+|italian=Asso squadra W
+|chineseTW=第２３迷宮的霸王
+|portuguese=Esquadrão ás W
+}}
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}
+[[Category:Squad Ace Seals]]

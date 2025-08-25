@@ -1,0 +1,39 @@
+{{Weapon Infobox
+|tagid=SID_天馬姉妹の三角槍
+|intID=3154
+|image=wep_lc125
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=16
+|range=1
+|effect=Enables【Canto (Rem. +1)】.<br><br>Grants Atk+3. If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit, unit deals damage = 20% of unit's Res, and reduces damage from foe's first attack by 40% during combat.<br><br>【Canto (Rem. +1)】<br>After an attack, Assist skill, or structure destruction, unit can move again.<br><br>The distance of the movement is the remaining movement the unit had before the actions listed above+1 (If unit used a movement skill that warps them, the remainder is 0).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|statModifiers=0,19,0,0,0
+|required=Silver Lance
+|properties=random_owner
+}}
+==Notes==
+{{Canto|Rem. +1}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{DamageBoost}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+*This weapon, unlike {{Ut|Palla: Kind Eldest Sister}}'s {{Wt|Ladyblade}} and {{Ut|Catria: Mild Middle Sister}}'s {{Wt|Astra Blade}}, does not come from [[Fire Emblem Echoes: Shadows of Valentia|Shadows of Valentia]]. The Tri-Edge Lance is an original weapon altogether.
+==In other languages==
+{{OtherLanguages
+|japanese=天馬姉妹の三角槍
+|german=Deltalanze
+|spanishEU=Lanza triangular
+|spanishLA=Lanza triangular
+|french=Lance triangle
+|italian=Trilancia
+|chineseTW=天馬姊妹的三角槍
+|portuguese=Lança triangular
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%deals damage =%of unit\'s Res%' OR Description LIKE '%【Canto (Rem. +1)】%' AND Exclusive='1'}}
+*[[Skill families#Trace|Trace Passives]]
+{{Weapons Navbox}}

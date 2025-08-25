@@ -1,0 +1,59 @@
+{{Passive
+|type=B
+|name=Hardy Fighter
+|exclusive=0
+|canUseWeapon={{WeaponList|Close}}
+|canUseMove={{MoveList|Armored}}
+|properties=random_owner
+|1name=Hardy Fighter 1
+|1tagid=SID_盾壁隊形1
+|1cost=60
+|1effect=Neutralizes effects that guarantee foe's follow-up attacks during combat. At the start of turn 1, if foe's attack can trigger unit's Special, grants Special cooldown count-1. If foe's attack triggers unit's Special and Special has the "reduces damage by X%" effect, Special triggers twice. (Example: if Special has the "reduces damage by 50%" effect and no other damage reduction effects trigger, reduces initial damage by 50%, then reduces remaining damage by 50% for a total damage reduction of 75%.) Each Special trigger is calculated as a separate activation.
+|1required=-
+|1promotionRarity=4
+|1promotionTier=1
+|2name=Hardy Fighter 2
+|2tagid=SID_盾壁隊形2
+|2cost=120
+|2effect=Neutralizes effects that guarantee foe's follow-up attacks during combat. At the start of turn 1, if foe's attack can trigger unit's Special, grants Special cooldown count-1. If foe's attack triggers unit's Special and Special has the "reduces damage by X%" effect, Special triggers twice, then reduces damage by 5. (Example: if Special has the "reduces damage by 50%" effect and no other damage reduction effects trigger, reduces initial damage by 50%, then reduces remaining damage by 50% for a total reduction of 75%. Remaining damage is then reduced further by 5.) Each Special trigger is calculated as a separate activation.
+|2promotionRarity=5
+|2promotionTier=1
+|3name=Hardy Fighter 3
+|3tagid=SID_盾壁隊形3
+|3cost=240
+|3effect=Neutralizes effects that guarantee foe's follow-up attacks during combat. At the start of turn 1, if foe's attack can trigger unit's Special, grants Special cooldown count-2. If foe's attack triggers unit's Special and Special has the "reduces damage by X%" effect, Special triggers twice, then reduces damage by 5. (Example: if Special has the "reduces damage by 50%" effect and no other damage reduction effects trigger, reduces initial damage by 50%, then reduces remaining damage by 50% for a total damage reduction of 75%. Remaining damage is then reduced further by 5.) Each Special trigger is calculated as a separate activation.
+}}
+==Notes==
+{{Follow-up effect neutralization|guaranteeOnly=1}}
+{{Shield Pulse notes}}
+*Specials that "reduce damage by X%" activating twice will also have other effects those specials have activate twice, such as {{St|Ice Mirror}}'s effect of boosting the damage of the unit's next attack equal to the total damage reduced when triggered.
+**Although the effect of the special will activate twice, the special will only ''visually'' activate once.
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=盾壁隊形
+|japaneseNotes=''shield wall formation''
+|german=Zäher Kämpfer
+|spanishEU=Resistente
+|spanishLA=Resistente
+|french=Robustesse
+|italian=Robustezza
+|chineseTW=盾壁隊形
+|portuguese=Resistente
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%start of turn 1%if foe_s attack%trigger%special%grants special cooldown count-%'}}
+* [[:Category:Sources of guaranteed follow-up neutralization|Sources of guaranteed follow-up neutralization]]
+* [[Fighter Passives]]
+* [[Pulse skills]]
+{{Passives Navbox|B}}
+[[Category:Fighter Passives]]

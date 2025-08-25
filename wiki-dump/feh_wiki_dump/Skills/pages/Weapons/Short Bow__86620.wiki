@@ -1,0 +1,37 @@
+{{Weapon Infobox
+|tagid=SID_短弓
+|weaponType=Bow
+|might=8
+|range=2
+|effectiveness=flying
+|effect=Effective against flying foes. Deals +10 damage when Special triggers.
+|cost=200
+|exclusive=0
+|userVersion1=Bow
+|userVersion2=Arrow
+|statModifiers=0,8,0,0,0
+|next=Short Bow+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Bow
+|properties=random_all
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{FlatDamage|special=1|10}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=短弓
+|german=Kurzbogen
+|spanishEU=Arco corto
+|spanishLA=Arco corto
+|french=Arc court
+|italian=Arco corto
+|chineseTW=短弓
+|portuguese=Arco curto
+}}
+==See also==
+* 
+{{Weapons Navbox}}

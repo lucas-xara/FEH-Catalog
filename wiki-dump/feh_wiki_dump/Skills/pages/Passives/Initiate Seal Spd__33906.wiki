@@ -1,0 +1,57 @@
+{{Passive
+|type=S
+|exclusive=0
+|1name=Initiate Seal Spd 1
+|1tagid=SID_鍛錬の証_速さ1
+|alt1name=Speed Plus 1
+|1effect=Grants Spd+1.
+|1cost=30
+|1next=-
+|2name=Initiate Seal Spd 2
+|2tagid=SID_鍛錬の証_速さ2
+|alt2name=Speed Plus 2
+|2effect=Grants Spd+2.
+|2cost=60
+|2next=-
+|3name=Initiate Seal Spd 3
+|3tagid=SID_鍛錬の証_速さ3
+|alt3name=Speed Plus 3
+|3effect=Grants Spd+3.
+|3cost=120
+|statModifiers1=0,0,1,0,0
+|statModifiers2=0,0,2,0,0
+|statModifiers3=0,0,3,0,0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=
+}}
+==Seal acquired from==
+===Quest reward===
+* [[Quests and Missions#Tutorial Quests|Tutorial Quests]] (February 2, 2018 - February 2, 2019): Clear [[Steel Sears the Land|Book II, Chapter 3: Part 5]].
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Initiate Seal Spd 1;Initiate Seal Spd 2;Initiate Seal Spd 3
+|badgeColor=Azure
+|costs1=-
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=鍛錬の証・速さ
+|german=Ges.-Siegel
+|spanishEU=Aptitud Vel
+|spanishLA=S. iniciado Vel.
+|french=Sceau initié Vit
+|italian=Sigillo base Vel
+|chineseTW=鍛鍊之證・速度
+|portuguese=Selo inicial Vel.
+}}
+
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}
+[[Category:Initiate Seals]]

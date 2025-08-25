@@ -1,0 +1,30 @@
+{{Special
+|tagid=SID_聖兜
+|name=Sacred Cowl
+|charge=2
+|effect=If foe is 2 spaces from unit, reduces damage from foe's attack by 30%.
+|cost=200
+|exclusive=0
+|required=Holy Vestments
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|Close}}
+|properties=random_all,defensive_special
+}}
+==Notes==
+{{DefensiveSpecial}}
+{{DamagePercentageReduction}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=聖兜
+|german=Sakralkutte
+|spanishEU=Hábito sagrado
+|spanishLA=Hábito sagrado
+|french=Mitre
+|italian=Tonaca talare
+|chineseTW=聖甲
+|portuguese=Manto sagrado
+}}
+{{Specials Navbox}}

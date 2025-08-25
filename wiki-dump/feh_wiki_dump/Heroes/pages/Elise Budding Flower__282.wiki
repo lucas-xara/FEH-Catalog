@@ -1,0 +1,80 @@
+{{#invoke:NameAbout|main|Name=Elise}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Elise
+|Title=Budding Flower
+|GrowthModifier=None
+|WeaponType=Colorless Staff
+|Origin=Fire Emblem Fates
+|Gender=Female
+|MoveType=Cavalry
+|actorEN=Liv Strander
+|actorJP=諏訪彩花
+|artist=羽公
+|resplendentArtist=ぷきゅのすけ
+|releaseDate=February 2, 2017
+|poolDate=February 2, 2017
+|randomStartTime=2017-02-02T07:00:00Z
+|poolRarities=5
+|TagID=エリーゼ
+|InternalID=93
+|cv1=11
+|cv2=501200
+|description=Princess of Nohr who adores her siblings. A bit childish, but has a pure heart and keen eyes. Appears in Fire Emblem Fates.
+|Properties=specRate_201904,resplendent,ljosalfheimr
+|resplendentStartTime=2022-10-25T07:00:00Z
+|resplendentEndTime=2022-11-10T06:59:59Z
+}}
+{{Stats Page
+|Lv1HP=15|Lv1ATK=8|Lv1SPD=8|Lv1DEF=4|Lv1RES=8
+|GRHP=35|GRATK=55|GRSPD=55|GRDEF=35|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Assault
+|weapon1Default=
+|weapon1Unlock=1
+|weapon2=Gravity
+|weapon2Default=
+|weapon2Unlock=3
+|weapon3=Gravity+
+|weapon3Default=
+|weapon3Unlock=5
+|weapon4=Elise's Staff
+|weapon4Default=
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Heal
+|assist1Default=1
+|assist1Unlock=1
+|assist2=Mend
+|assist2Default=3
+|assist2Unlock=2
+|assist3=Recover
+|assist3Default=5
+|assist3Unlock=4
+|assist4=Recover+
+|assist4Default=
+|assist4Unlock=5
+}}
+===Specials===
+{{Specials Table
+|special1=Imbue
+|special1Default=4
+|special1Unlock=2
+|special2=Kindled-Fire Balm
+|special2Default=5
+|special2Unlock=3
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Live to Serve 1
+|passiveB2=Live to Serve 2
+|passiveB3=Live to Serve 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+{{Heroes Navbox}}

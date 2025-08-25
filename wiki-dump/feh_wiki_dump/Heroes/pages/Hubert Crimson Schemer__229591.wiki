@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Hubert}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Hubert
+|Title=Crimson Schemer
+|WeaponType=Blue Tome
+|MoveType=Armored
+|Origin=Fire Emblem: Three Houses
+|Gender=Male
+|actorEN=Robbie Daymond
+|actorJP=小西克幸
+|artist=スエカネクミコ
+|additionDate=February 6, 2025
+|releaseDate=February 7, 2025
+|cv1=12
+|cv2=200200
+|TagID=愛の祭ヒューベルト
+|InternalID=1207
+|Properties=limited,tempest,specDisplay
+|description=Loyal to Edelgard and considering himself her counselor, he discerns for her the optimal path to victory, even at the festival. Appears in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=20|Lv1ATK=9|Lv1SPD=9|Lv1DEF=8|Lv1RES=11
+|GRHP=55|GRATK=90|GRSPD=70|GRDEF=35|GRRES=70
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Thunder
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elthunder
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Devoted Cup
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Devoted Cup+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Glacies
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Bold Fighter 1
+|passiveB2=Bold Fighter 2
+|passiveB3=Bold Fighter 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Panic Ploy 1
+|passiveC2=Panic Ploy 2
+|passiveC3=Panic Ploy 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Day of Devotion units]]

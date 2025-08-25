@@ -1,0 +1,56 @@
+{{Weapon Infobox
+|tagid=SID_レイプト
+|weaponType=Lance
+|might=16
+|range=1
+|effect=Unit can counterattack regardless of foe's range.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|userVersion1=Weapon
+|userVersion2=Gleam
+|required=Silver Lance
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|tagidExtraSkill1=無
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit during combat and neutralizes unit's penalties during combat, and also, if foe initiates combat, grants an additional Def/Res+4 to unit during combat.
+|iconSkill1=Leiptr W.png
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Ce={{Eft|Distant Counter}}
+|skill2={{Si|Leiptr|refine=Skill1}} Skill refine effects
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s2 Ce2={{Eft|Neutralize Penalties}}
+|s2 Ce1-2C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s2 Ce3={{Eft|Temporary buffs|Def/Res|4}}
+|s2 Ce3C=Enemy Phase '''&'''<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+* Leiptr the same effect as {{St|Distant Counter}}.
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary buffs|name={{St|Leiptr|refine=Skill1}}}}
+{{Penalty neutralization|name={{St|Leiptr|refine=Skill1}}}}
+{{IfFoeInitiates}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=レイプト
+|german=Leiptr
+|spanishEU=Leiptr
+|spanishLA=Leiptr
+|french=Leiptr
+|italian=Leiptr
+|chineseTW=雷依普特
+|portuguese=Leiptr
+}}
+==See also==
+* [[Weapons with Distant Counter]]
+{{Weapons Navbox}}

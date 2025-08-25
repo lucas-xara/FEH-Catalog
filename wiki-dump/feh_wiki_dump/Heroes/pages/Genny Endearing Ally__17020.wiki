@@ -1,0 +1,73 @@
+{{#invoke:NameAbout|main|Name=Genny}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Genny
+|Title=Endearing Ally
+|artist=アマガイタロー
+|GrowthModifier=None
+|WeaponType=Colorless Staff
+|MoveType=Infantry
+|Origin=Fire Emblem Echoes: Shadows of Valentia
+|Gender=Female
+|actorEN=Claudia Lenz
+|actorJP=堀中優希
+|releaseDate=May 15, 2017
+|poolDate=May 30, 2017
+|randomStartTime=2017-05-29T07:00:00Z
+|poolRarities=5
+|TagID=ジェニー
+|InternalID=130
+|cv1=2
+|cv2=200400
+|description=A meek young cleric from Novis. Likes to write her own stories. Appears in Fire Emblem Echoes: Shadows of Valentia.
+|Properties=specRate_201904
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=9|Lv1SPD=6|Lv1DEF=4|Lv1RES=8
+|GRHP=35|GRATK=60|GRSPD=45|GRDEF=40|GRRES=60
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Assault
+|weapon1Unlock=1
+|weapon2=Gravity
+|weapon2Unlock=3
+|weapon3=Gravity+
+|weapon3Unlock=5
+|weapon4=Springtime Staff
+|weapon4Unlock=5
+}}
+
+===Assists===
+{{Assists Table
+|assist1=Heal
+|assist1Default=1
+|assist1Unlock=1
+|assist2=Mend
+|assist2Default=3
+|assist2Unlock=2
+|assist3=Physic
+|assist3Default=5
+|assist3Unlock=4
+|assist4=Physic+
+|assist4Unlock=5
+}}
+===Specials===
+{{Specials Table
+|special1=Imbue
+|special1Default=4
+|special1Unlock=2
+|special2=Heavenly Light
+|special2Default=5
+|special2Unlock=3
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Wrathful Staff 1
+|passiveB2=Wrathful Staff 2
+|passiveB3=Wrathful Staff 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+{{Heroes Navbox}}

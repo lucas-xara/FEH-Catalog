@@ -1,0 +1,52 @@
+{{Weapon Infobox
+|tagid=SID_ムスペルの炎花
+|userVersion1=Weapon
+|userVersion2=Gleam
+|weaponType=Red Tome
+|might=14
+|range=2
+|effect=Grants Spd+3. During combat, boosts unit's Atk/Spd by number of allies within 2 spaces × 2.<br>(Maximum bonus of +6 to each stat.)
+|cost=400
+|exclusive=1
+|statModifiers=0,14,3,0,0
+|required=Bolganone
+|SE=se_effect_flower_mus.flac
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Spd+3. If unit is within 3 spaces of an ally, grants Atk+X and Spd+5 during combat. (X = 5 + number of allies within 3 spaces × 2. Maximum bonus of +9 to Atk.)
+|tagidExtraSkill1=一
+|effectSkill1=Inflicts Spd/Res-X on foes within 3 spaces of unit during combat. (Calculates X based on number of allies within 3 spaces of unit: 0 allies inflicts -0; 1 ally inflicts -2; 2 allies inflicts -4; ≥3 allies inflicts -6.)
+|iconSkill1=Muspell Fireposy W.png
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Combat reductions}}
+{{FoesCombatEffect|effect=combat reduction effect}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+v2.5_52_bride02_Mag.png|Sprite sheet for the animations of {{PAGENAME}}, {{St|Nifl Frostflowers}}, and {{St|Fresh Bouquet+}}.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=ムスペルの炎花
+|german=Feuerbukett
+|spanishEU=Ramo Múspell
+|spanishLA=Ramo Múspell
+|french=Fleurs de Múspell
+|italian=Fiori di Múspell
+|chineseTW=穆斯貝爾之炎花
+|portuguese=Flores Múspell
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%boosts%number of allies within%' OR Description LIKE '%grants Atk/Spd+%number of allies within%' OR Description LIKE '%inflicts%-%within 3 spaces during combat%'|columns=3}}
+* [[Owl Weapons]]
+{{Weapons Navbox}}
+[[Category:Bridal Bloom weapons]]

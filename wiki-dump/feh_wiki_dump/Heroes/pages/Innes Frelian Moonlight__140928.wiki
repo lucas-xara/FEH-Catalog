@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Innes}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Innes
+|Title=Frelian Moonlight
+|WeaponType=Colorless Bow
+|MoveType=Infantry
+|Origin=Fire Emblem: The Sacred Stones
+|Gender=Male
+|actorEN=Xander Mobus
+|actorJP=花守ゆみり
+|artist=叶之明
+|additionDate=April 19, 2021
+|releaseDate=April 20, 2021
+|cv1=7
+|cv2=200100
+|TagID=幼少ヒーニアス
+|InternalID=653
+|Properties=limited,tempest,specDisplay
+|description=Son of Frelia's king, Hayden. Harbors a fierce rivalry with the prince of the neighboring kingdom, Renais. Appears in Fire Emblem: The Sacred Stones.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=11|Lv1SPD=8|Lv1DEF=7|Lv1RES=5
+|GRHP=55|GRATK=60|GRSPD=70|GRDEF=45|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Bow
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Bow of Frelia
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Glimmer
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Darting Blow 1
+|passiveA2=Swift Sparrow 1
+|passiveA3=Swift Sparrow 2
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Distant Guard 1
+|passiveC2=Distant Guard 2
+|passiveC3=Distant Guard 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Childhood units]]

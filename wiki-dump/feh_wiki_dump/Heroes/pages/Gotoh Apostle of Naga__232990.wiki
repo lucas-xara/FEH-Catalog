@@ -1,0 +1,74 @@
+{{#invoke:NameAbout|main|Name=Gotoh}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Gotoh
+|Title=Apostle of Naga
+|WeaponType=Red Tome
+|MoveType=Infantry
+|Origin=Fire Emblem: Mystery of the Emblem
+|Gender=Male
+|actorEN=Kurt Bicknell
+|actorJP=佐久間元輝
+|artist=山田章博
+|additionDate=April 15, 2025
+|releaseDate=April 15, 2025
+|poolDate=May 6, 2025
+|poolRarities=5
+|cv1=1
+|cv2=1000230
+|TagID=若年ガトー
+|InternalID=1232
+|Properties=notRandomized
+|description=A Divine Dragon in service of Naga's will. He commands magic beyond human comprehension. Appears in Fire Emblem: Mystery of the Emblem.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=11|Lv1SPD=3|Lv1DEF=12|Lv1RES=9
+|GRHP=50|GRATK=85|GRSPD=30|GRDEF=55|GRRES=90
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elfire
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Bolganone
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Fundament
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Glacies
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Gift of Guidance
+|passiveA1Unlock=5
+|passiveB1=Sabotage Res 1
+|passiveB2=Sabotage Res 2
+|passiveB3=Sabotage Res 3
+|passiveB4=Atk/Res Havoc
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Time's Pulse 1
+|passiveC2=Time's Pulse 2
+|passiveC3=Time's Pulse 3
+|passiveC4=Pulse Up: Ploy
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}

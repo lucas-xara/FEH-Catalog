@@ -1,0 +1,61 @@
+{{Weapon Infobox
+|tagid=SID_ノーアトゥーン
+|weaponType=Axe
+|might=16
+|range=1
+|effect=If unit's HP ≤ 40%, unit can move to a space adjacent to any ally.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Silver Axe
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|userVersion1=Weapon
+|userVersion2=Gleam
+|upgradedEffect=If unit's HP ≤ 50%, unit can move to a space adjacent to any ally.
+|effectSkill1=If unit's HP ≥ 50%, unit can move to a space adjacent to any ally within 2 spaces.
+|iconSkill1=Follow W.png
+|tagidExtraSkill1=従
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|skill1 MapEffect={{Eft|Warp|[[adjacent]] to an {{Tgt|Ally}}}}
+|skill1 MapEffect Conditions={{Tgt|Unit}}'s HP ≤ 40%
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|skill2 MapEffect={{Eft|Warp|[[adjacent]] to an {{Tgt|Ally}}}}
+|skill2 MapEffect Conditions={{Tgt|Unit}}'s HP ≤ 50%
+|skill3={{Si|Nóatún|refine=Skill1}} Skill refine effects
+|skill3 MapEffect={{Eft|Warp|[[adjacent]] to an {{Tgt|Ally}}<br>[[within 2 spaces]]}}
+|skill3 MapEffect Conditions={{Tgt|Unit}}'s HP ≥ 50%
+}}
+
+==Notes==
+* Nóatún has the same effect as {{St|Escape Route 2}}.
+{{Warp interaction}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+* Refined Nóatún the same effect as {{St|Escape Route 3}}.
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|追従R50|Follow}}
+==In other languages==
+{{OtherLanguages
+|japanese=ノーアトゥーン
+|german=Nóatún
+|spanishEU=Nóatún
+|spanishLA=Nóatún
+|french=Nóatún
+|italian=Nóatún
+|chineseTW=諾歐通
+|portuguese=Nóatún
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%unit can move to a%space%ally%within 2 spaces%' AND Description NOT LIKE '%grants%status%to adjacent%allies%' AND Description NOT LIKE '%"unit can move%') AND Exclusive='1'}}
+* [[Warp Passives]]
+{{Weapons Navbox}}

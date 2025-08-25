@@ -1,0 +1,41 @@
+{{Weapon Infobox
+|tagid=SID_夏夜の夢の角
+|weaponName=Raydream Horn
+|weaponType=Beast
+|canUseMove=Cavalry
+|might=14
+|range=1
+|effect=Grants Atk+3. If unit initiates combat or is within 2 spaces of an ally, grants Atk+6 to unit, inflicts Atk-6 on foe during combat, and unit makes a guaranteed follow-up attack.<br><br>At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack.
+|cost=400
+|exclusive=1
+|statModifiers=0,17,0,0,0
+|required=Adult (Cavalry)
+|intID=2644
+|sort=560
+|value=20
+|timingID=1
+|abilityID=48
+|limit1ID=58
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+{{Combat reductions}}
+{{Guaranteed follow-up interaction}}
+{{Beast (Cavalry)}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=夏夜の夢の角
+|german=Sommerhorn
+|spanishEU=Cuerno veranírico
+|spanishLA=Cuerno veranírico
+|french=Corne rêvété
+|italian=Sognicorno
+|chineseTW=夏夜夢之角
+|portuguese=Chifre utópico
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants Atk+%to unit%inflicts Atk-%on foe%' OR Description LIKE '%If unit initiates combat or%makes a guaranteed follow-up attack%'|columns=3}}
+{{Weapons Navbox}}

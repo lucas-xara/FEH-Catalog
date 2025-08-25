@@ -1,0 +1,57 @@
+{{Weapon Infobox
+|tagid=SID_ヒナタの猛刀
+|weaponType=Sword
+|might=16
+|range=1
+|effect=If foe initiates combat, grants Atk/Def+4 during combat.
+|cost=400
+|exclusive=1
+|userVersion1=Weapon|userVersion2=Gleam
+|statModifiers=0,16,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=Grants Atk/Spd/Def/Res+3. After combat, deals 6 damage to unit.
+|iconSkill1=Fury W.png
+|tagidExtraSkill1=獅
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Ce={{Eft|Temporary buffs|Atk/Def|4}}
+|s1 CeC=Enemy Phase
+|skill2={{Si|Hinata's Katana|refine=Skill1}} Skill refine effects
+|s2 Pe={{Eft|Stat Boosts|Atk/Spd/Def/Res|3}}
+|s2 Me={{Eft|Damage|6}}
+|s2 MeC=After combat
+}}
+
+==Notes==
+* Hinata's Katana the same effect as {{St|Sturdy Stance 2}}.
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+* {{St|Hinata's Katana|refine=Skill1}} has the same effect as {{St|Fury 3}}.
+{{After combat note|name={{St|Hinata's Katana|refine=Skill1}}}}
+{{DamageToUnit|name={{St|Hinata's Katana|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ヒナタの猛刀
+|german=Hinatas Katana
+|spanishEU=Katana Hinata
+|spanishLA=Katana Hinata
+|french=Katana d'Hinata
+|italian=Katana di Hinata
+|chineseTW=日向的猛刀
+|portuguese=Katana de Hinata
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%if foe initiates combat%grants Atk/Def+%during combat%' OR Description LIKE '%Grants Atk/Spd/Def/Res+%. After combat, deal%damage to unit%') AND Exclusive='1'}}
+{{Weapons Navbox}}

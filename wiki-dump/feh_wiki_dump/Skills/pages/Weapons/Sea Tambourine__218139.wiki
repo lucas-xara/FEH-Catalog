@@ -1,0 +1,62 @@
+{{Weapon Infobox
+|tagid=SID_南国の楽器
+|intID=4197
+|image=wep_mg330
+|exclusive=0
+|weaponType=Colorless Tome
+|cost=200
+|might=8
+|range=2
+|effect=At start of turn, if unit's HP ≥ 25%, grants Atk/Spd+6 to unit and allies within 2 spaces of unit for 1 turn.<br><br>At start of combat, if unit's HP ≥ 25% and it is an even-numbered turn, grants Atk/Spd+5 to unit during combat. At start of combat, if unit's HP ≥ 25% and it is an odd-numbered turn, grants Atk/Spd+11 to unit during combat.<br><br>At start of combat, if unit's HP ≥ 25% and unit's Spd ≥ foe's Spd - 5, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks.
+|required=Elstone
+|next=Sea Tambourine+
+|promotionRarity=5
+|promotionTier=1
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se={{Eft|Bonuses|Atk/Spd|6}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25%
+|Ce1={{Eft|Temporary buffs|Atk/Spd|5}}
+|Ce1C=During even turns<br>if {{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce2={{Eft|Temporary buffs|Atk/Spd|11}}
+|Ce2C=During odd turns<br>if {{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce3={{Eft|Neutralize Prevent Follow-Ups}}
+|Ce1-3T={{Tgt|Unit}}
+|Ce4={{Eft|Neutralize Guaranteed Follow-Ups}}
+|Ce4T={{Tgt|Foe}}
+|Ce3-4C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>if {{Tgt|Unit}}'s Spd ≥<br>{{Tgt|Foe}}'s Spd -5 
+}}
+==Notes==
+{{Bonuses}}
+{{Temporary buffs}}
+{{Follow-up effect neutralization}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Gallery==
+<gallery>
+V8.6_v0806b_summer_Mag_2.webp|Sprite sheet for {{St|Love of Nerþuz‎‎}} and {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=南国の楽器
+|german=Meerestamburin
+|spanishEU=Pandereta mar
+|spanishLA=Pandereta marina
+|french=Tambourin mer
+|italian=Cembalo marino
+|chineseTW=南國樂器
+|portuguese=Pandeiro do mar
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%start of%turns%grants%+%for 1 turn%' AND Exclusive='1'}}
+* [[Odd Wave Passives]]
+* [[Even Wave Passives]]
+* [[Null Passives]]
+{{Weapons Navbox}}

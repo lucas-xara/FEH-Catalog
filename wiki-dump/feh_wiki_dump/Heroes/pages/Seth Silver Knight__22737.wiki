@@ -1,0 +1,82 @@
+{{#invoke:NameAbout|main|Name=Seth}}{{HeroPage Tabs|{{PAGENAME}}}}
+{{Hero Infobox
+|Name=Seth
+|Title=Silver Knight
+|Origin=Fire Emblem: The Sacred Stones
+|Gender=Male
+|GrowthModifier= None
+|WeaponType=Red Sword
+|MoveType=Cavalry
+|actorEN=Chris Smith
+|actorJP=小山力也
+|artist=冨士原良
+|resplendentArtist=山田孝太郎
+|releaseDate=August 15, 2017
+|poolDate = August 31, 2017
+|randomStartTime=2017-08-29T07:00:00Z
+|poolRarities=3,4
+|TagID=ゼト
+|InternalID=160
+|Properties=demoted_240,resplendent,nidavellir
+|cv1=7
+|cv2=100300
+|description=A young commander of Renais. He's calm, composed, and skilled. Appears in Fire Emblem: The Sacred Stones.
+|resplendentStartTime=2024-07-25T07:00:00Z
+|resplendentEndTime=2024-08-10T06:59:59Z
+}}
+
+__TOC__
+
+{{Stats Page|Hero={{BASEPAGENAME}}
+|Lv1HP=18|Lv1ATK=8|Lv1SPD=7|Lv1DEF=8|Lv1RES=5
+|GRHP=45|GRATK=55|GRSPD=55|GRDEF=55|GRRES=40
+}}
+
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Ruby Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Ruby Sword+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Silverbrand
+|weapon5Default=
+|weapon5Unlock=5
+}}
+
+===Assists===
+{{Assists Table
+|assist1=Swap
+|assist1Default=4
+|assist1Unlock=3
+}}
+
+===Specials===
+{{Specials Table
+}}
+
+===Passives===
+{{Passives Table
+|passiveA1=Fortress Def 1
+|passiveA2=Fortress Def 2
+|passiveA3=Fortress Def 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=Seal Atk 1
+|passiveB2=Seal Atk/Def 1
+|passiveB3=Seal Atk/Def 2
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+
+{{Heroes Navbox}}

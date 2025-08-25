@@ -1,0 +1,48 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_老騎士の古斧
+|weaponType=Axe
+|might=16
+|range=1
+|effect=At start of turn, if unit's HP ≥ 50%, inflicts Atk/Def-5 on foe on the enemy team with the lowest Spd through its next action.
+|cost=400
+|exclusive=1
+|userVersion1=Weapon
+|userVersion2=Gleam
+|statModifiers=0,16,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=Grants Atk/Def+4 to infantry and cavalry allies within 2 spaces during combat. If unit is within 2 spaces of an infantry or cavalry ally, grants Atk/Def+4 to unit during combat.
+|iconSkill1=Inveterate Axe W.png
+|tagidExtraSkill1=紋
+|properties=
+}}
+==Notes==
+{{Penalties}}
+{{SelectStat|Spd|lowest=1}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Combat boosts}}
+{{AlliesCombatEffect|effect=combat boost}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|相互紋章R歩騎2|Joint Goad R Infantry Cavalry 2}}
+==In other languages==
+{{OtherLanguages
+|english=Inveterate Axe
+|japanese=老騎士の古斧
+|german=Eherne Axt
+|spanishEU=Hacha vetusta
+|spanishLA=Hacha vetusta
+|french=Hache invétérée
+|italian=Ascia veterano
+|chineseTW=老邁騎士的古斧
+|portuguese=Machado antigo
+}}
+==See also==
+* [[Loyal Greatlance]]
+{{Weapons Navbox}}

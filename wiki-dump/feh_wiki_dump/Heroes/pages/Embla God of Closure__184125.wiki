@@ -1,0 +1,89 @@
+{{About|the unit Embla: God of Closure|the story map|Embla, God of Closure}}{{#invoke:NameAbout|main|Name=Embla}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Embla
+|Title=God of Closure
+|Origin=Fire Emblem Heroes
+|Person=
+|Gender=F
+|WeaponType=Red Beast
+|MoveType=Flying
+|MythicEffect=Dark
+|MythicEffect2=Defensive Team Bonus
+|BoostHP=5
+|BoostRes=5
+|actorEN=Mayanna Berrin
+|actorJP=丹下桜
+|artist=コザキユースケ
+|additionDate=2022-11-18
+|releaseDate=November 30, 2022
+|cv1=0
+|cv2=600300
+|Properties=mythic,tiara
+|description=God of the closed kingdom, which shares her name. Spite and jealousy rule her, and she wishes death to any who side with Askr.
+|TagID=エンブラ
+|InternalID=880
+|EnemyInternalID=94
+}}
+==Ally stats==
+{{Stats Page|noheader=1
+|Lv1HP=19|Lv1ATK=13|Lv1SPD=11|Lv1DEF=5|Lv1RES=5
+|GRHP=50|GRATK=70|GRSPD=75|GRDEF=60|GRRES=45
+}}
+==Enemy stats==
+{{Stats Page/Enemy|noheader=1
+|Lv1HP=19|Lv1ATK=13|Lv1SPD=11|Lv1DEF=5|Lv1RES=5
+|GRHP=50|GRATK=70|GRSPD=75|GRDEF=60|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Hatchling (Flier)
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Fledgling (Flier)
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Adult (Flier)
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Enclosing Claw
+|weapon4Default=5
+|weapon4Unlock=5
+|hasEnemy=1
+}}
+
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Draconic Aura
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Clash 1
+|passiveA2=Atk/Spd Clash 2
+|passiveA3=Atk/Spd Clash 3
+|passiveA4=Atk/Spd Clash 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Beast Agility 1
+|passiveB2=Beast Agility 2
+|passiveB3=Beast Agility 3
+|passiveB4=Bestial Assault
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Severance
+|passiveC2=Severance+
+|passiveC1Unlock=5
+|passiveC2Unlock=5
+}}
+{{Heroes Navbox}}
+{{Enemies Navbox}}

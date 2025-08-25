@@ -1,0 +1,53 @@
+{{Weapon Infobox
+|tagid=SID_アロー
+|weaponType=Blue Tome
+|might=14
+|range=2
+|effect=Grants Def+3.<br>At start of combat, if foe's Atk ≥ unit's Atk+5, grants Atk/Spd/Def/Res+5 during combat.
+|cost=400
+|exclusive=1
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|statModifiers=0,14,0,3,0
+|required=Shine
+|SE=
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Def+3. At start of combat, if foe's Atk > unit's Atk, grants Atk/Spd/Def/Res+5 during combat and deals damage = 15% of foe's Atk, including when dealing damage with a Special triggered before combat.
+|tagidExtraSkill1=一
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit during combat and inflicts Special cooldown charge -1 on foe per attack during combat. (Only highest value applied. Does not stack.)
+|iconSkill1=Expiration W.png
+|properties=random_owner
+}}
+==Notes==
+{{At start of combat}}
+{{Temporary buffs}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{AtkDamageBoost}}
+{{CooldownChargeMinus}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V2.10_62_popularity04_Mag.png|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=アロー
+|german=Sagittae
+|spanishEU=Sagittae
+|spanishLA=Sagittae
+|french=Sagittae
+|italian=Sagittae
+|chineseTW=光箭
+|portuguese=Sagittae
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe_s Atk _ unit_s Atk%' OR Description LIKE '%damage%of foe_s Atk%' OR Description LIKE '%if unit_s HP ≥%Special cooldown charge -1 on foe%'|columns=3}}
+{{Weapons Navbox}}

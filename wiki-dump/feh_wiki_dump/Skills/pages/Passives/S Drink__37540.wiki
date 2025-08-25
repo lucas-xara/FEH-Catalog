@@ -1,0 +1,41 @@
+{{Passive
+|1name=S Drink
+|1tagid=SID_Ｓドリンク
+|1required=-
+|1effect=At the start of turn 1, restores 99 HP and grants Special cooldown count-1.
+|1cost=300
+|type=B
+|exclusive=1
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Heal|99}}
+|Me2={{Eft|Reduce Cooldown|1}}
+|MeC=At start of turn 1
+}}
+==Notes==
+* S Drink has the same effect as {{St|Quickened Pulse}}.
+{{Start-of-turn healing}}
+{{Start of turn Special modification}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=Ｓドリンク
+|german=G-Getränk
+|spanishEU=Poción de vigor
+|spanishLA=Poción de vigor
+|french=Boisson S
+|italian=Elisir speciale
+|chineseTW=Ｓ飲料
+|portuguese=Poção de vigor
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%start of turn 1%grants%special cooldown count-%' AND Exclusive='1'}}
+* [[Pulse Passives]]
+{{Passives Navbox|B}}

@@ -1,0 +1,48 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_カミラの艶斧
+|weaponType=Axe
+|might=16
+|range=1
+|effect=If unit is within 2 spaces of a cavalry or flying ally, grants Atk/Spd+4 during combat.
+|required=-
+|cost=400
+|exclusive=yes
+|userVersion1=Weapon
+|userVersion2=Upgrade Gleam
+|statModifiers=0,16,0,0,0
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=Grants Atk/Spd+3 to cavalry and flying allies within 2 spaces during combat.
+|iconSkill1=Camillas Axe W.png
+|tagidExtraSkill1=紋
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Combat boosts}}
+{{AlliesCombatEffect|effect=combat boost}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+* The icon for the first listed refine is from Camilla's personal skill [[FireEmblemWiki:Rose's Thorns|Rose's Thorns]] (妖艶な花), which appears in {{FE|14}}.
+{{Rsn|大紋章R騎飛刃3|Great Goad R Cavalry Flying 3}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=カミラの艶斧
+|german=Camillas Axt
+|spanishEU=Hacha Camilla
+|spanishLA=Hacha Camilla
+|french=Hache de Camilla
+|italian=Ascia di Camilla
+|chineseTW=卡美拉的豔斧
+|portuguese=Machado Camilla
+}}
+==See also==
+* 
+{{Weapons Navbox}}

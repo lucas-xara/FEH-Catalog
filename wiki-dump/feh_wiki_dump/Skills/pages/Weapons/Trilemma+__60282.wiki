@@ -1,0 +1,52 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_トリレンマ＋
+|weaponType=Staff
+|altWeaponName=Trilemma Plus
+|weaponName={{PAGENAME}}
+|might=12
+|range=2
+|effect=After combat, if unit attacked, inflicts the following status on target and foes within 2 spaces of target through their next actions: "If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%."
+|cost=300
+|exclusive=0
+|statModifiers=0,12,0,0,0
+|required=Trilemma
+|SE=se_effect_trilemma.flac
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|effectSkill1=Calculates damage from staff like other weapons.
+|iconSkill1=Wrathful Staff W.png
+|tagidExtraSkill1=神
+|effectSkill2=Foe cannot counterattack.
+|iconSkill2=Dazzling Staff W.png
+|tagidExtraSkill2=幻
+|properties=random_owner
+}}
+==Notes==
+{{IfUnitAttacked}}{{Triangle Adept}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Staff Plus Refines}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+v2.7_56_kakusei02_Rod.png|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=トリレンマ＋
+|german=Trilemma+
+|spanishEU=Trilema +
+|spanishLA=Trilema +
+|french=Trilemme +
+|italian=Trilemma+
+|chineseTW=托里連瑪＋
+|portuguese=Trilema+
+}}
+==See also==
+* [[Fólkvangr]]
+* [[Gem Weapons]]
+{{Weapons Navbox}}

@@ -1,0 +1,61 @@
+{{Weapon Infobox
+|tagid=SID_吹き渡る雪書
+|intID=4028
+|userVersion1=Closed
+|userVersion2=Open
+|exclusive=1
+|weaponType=Blue Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). If unit is on a team with unit's support partner, unit can move to a space within 2 spaces of any support partner within 3 spaces of unit. If unit is not on a team with their support partner, at start of turn, unit can move 1 extra space (that turn only; does not stack). If unit initiates combat or foe's Range = 2, grants Atk/Spd/Def/Res+X to unit during combat (X = 25% of foe's Atk at start of combat - 4; max 14, min 5), neutralizes effects that inflict "Special cooldown charge -X" on unit, reduces damage from attacks during combat by percentage = 20 + number of spaces from start position to end position of whoever initiated combat (max 5) × 10 (excluding area-of-effect Specials), and if unit deals damage with follow-up attack, restores 7 HP to unit (triggers even if 0 damage is dealt).
+|required=Thoron;Shine
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|PermanentEffect={{Eft|Accelerates Special}}
+|MapEffect={{Eft|Warp|[[within 2 spaces]]<br>of a {{Tgt|Partner}}<br>[[within 3 spaces]]}}
+|MapEffect Conditions=A {{Tgt|Partner}}<br>is deployed
+|StatusEffect={{SEt|Mobility Increased}}
+|StatusEffect Conditions=At start of turn if<br>a {{Tgt|Support Partner}} is<br>not deployed
+|CombatEffect 1={{Eft|Temporary buffs|Atk/Spd/Def/Res|25% of {{Tgt|Foe}}'s Atk<br>at start of combat, -4|max=14|min=5}}
+|CombatEffect 2={{Eft|Neutralize Guard}}
+|CombatEffect 3={{Eft|Damage Reduction|10 x Spaces initiator moved, +20|percent=1|max=70%}}<br>from {{Tgt|Foe}}'s attacks
+|CombatEffect 4={{Eft|Heal|7}}<br>per {{Tgt|Unit}}'s [[follow-up]] 
+|CombatEffect Conditions=Player Phase '''or'''<br>{{Tgt|Foe}}'s Range = 2
+}}
+
+==Notes==
+{{Warp interaction}}
+{{SupportPartner|effect=warping effect}}
+{{Mobility increased}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{At start of combat}}
+{{CooldownChargeMinusNeutralization}}
+{{DamagePercentageReduction}}
+{{SpacesFromStarttoEnd}}
+{{CombatHPRecovery}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V8.2_v0802b_engage_Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=吹き渡る雪書
+|german=Buch des Winters
+|spanishEU=Grimorio nival
+|spanishLA=Grimorio nival
+|french=Tome hivernal
+|italian=Tomo glaciale
+|chineseTW=流風迴雪書
+|portuguese=Tomo congelante
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%unit can move to a space within 2 spaces of%' OR Description LIKE '%of foe_s Atk at start of combat%' OR Description LIKE '%spaces from start to end%') AND Exclusive='1'}}
+* [[Skill families/A Passives#Clash|Clash Passives]]
+{{Weapons Navbox}}

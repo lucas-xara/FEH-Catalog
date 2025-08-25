@@ -1,0 +1,59 @@
+{{Passive
+|name=With Everyone!
+|type=C
+|exclusive=1
+|1name=With Everyone!
+|alt1name=With Everyone
+|1tagid=SID_みんなと一緒に
+|canUseMove1={{MoveList|all}}
+|canUseWeapon1={{WeaponList|All}}
+|1cost=300
+|1effect=At start of turn, if unit is adjacent to an ally, grants Def/Res+5 to unit and adjacent allies for 1 turn.
+|1required=-
+|1next=-
+|properties1=random_owner
+|2name=With Everyone! II
+|alt2name=With Everyone II
+|2tagid=SID_みんなと一緒に・承
+|canUseMove2={{MoveList|Armored}}
+|canUseWeapon2={{WeaponList|All}}
+|2cost=300
+|2effect=At start of turn, if unit is within 2 spaces of an ally, grants Def/Res+6 to unit and allies within 2 spaces for 1 turn. If a foe uses bow, dagger, magic, or staff and initiates combat against an ally within 2 spaces of unit, triggers【Savior】on unit. If unit triggers Savior, grants Atk/Spd/Def/Res+4 during combat.<br><br>【Savior】<br>Unit takes ally's space, enters combat in ally's place, and receives all after-combat effects.<br><br>Savior will not trigger if ally is on terrain that unit cannot move to or if multiple units are able to use Savior during the same combat. If Savior triggers, after-combat movement effects do not occur.
+|properties2=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|With Everyone!}} With Everyone!
+|s1 Se={{Eft|Bonuses|Def/Res|5}}
+|s1 SeT={{Tgt|Unit}} '''&'''<br>[[adjacent]] {{Tgt|Allies}}
+|s1 SeC=At start of turn if an<br>{{Tgt|Ally}} is [[adjacent]]
+|skill2={{Si|With Everyone! II}} With Everyone! II
+|s2 Se={{Eft|Bonuses|Def/Res|6}}
+|s2 SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|s2 SeC=At start of turn<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s2 Me={{Eft|Savior}}
+|s2 MeC=Enemy Phase '''&'''<br>[[Range = 2]] {{Tgt|Foe}}<br>attacks an {{Tgt|Ally}}<br>[[within 2 spaces]]
+|s2 Ce={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s2 CeC={{Eft|Savior}} triggers
+}}
+==Notes==
+{{Bonuses}}
+{{Save skill notes|name=With Everyone! II}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=みんなと一緒に
+|german=Mit anderen!
+|spanishEU=Todos juntos
+|spanishLA=Con ustedes
+|french=Tous ensemble
+|italian=Insieme
+|chineseTW=和大家一起
+|portuguese=Com todos!
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【Savior】%' AND Exclusive='1'}}
+* [[Skill families/C Passives#Joint Hone|Joint Hone Passives]]
+* [[Save Passives]]
+{{Passives Navbox|C}}

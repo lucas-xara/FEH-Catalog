@@ -1,0 +1,57 @@
+{{Passive
+|name=Squad Ace CJ
+|type=S
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|1name=Squad Ace CJ 1
+|alt1name=Squad Ace BZ 1
+|1tagid=SID_第88迷宮の覇者1
+|1effect=Grants Atk/Spd/Res+1.
+|statModifiers1=0,1,1,0,1
+|1cost=120
+|1required=-
+|1next=-
+|2name=Squad Ace CJ 2
+|alt2name=Squad Ace BZ 2
+|2tagid=SID_第88迷宮の覇者2
+|2effect=Grants Atk/Spd/Res+2.
+|statModifiers2=0,2,2,0,2
+|2cost=180
+|2next=-
+|3name=Squad Ace CJ 3
+|alt3name=Squad Ace BZ 3
+|3tagid=SID_第88迷宮の覇者3
+|3effect=Grants Atk/Spd/Res+3.
+|statModifiers3=0,3,3,0,3
+|3cost=240
+}}
+==Seal acquired from==
+===Squad Assault reward===
+* Complete the [[88th Assault]].
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Squad Ace CJ 1;Squad Ace CJ 2;Squad Ace CJ 3
+|badgeColor=Verdant
+|costs1=-
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}
+[[Category:Squad Ace Seals]]

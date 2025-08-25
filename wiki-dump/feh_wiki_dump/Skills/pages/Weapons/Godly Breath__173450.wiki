@@ -1,0 +1,106 @@
+{{Weapon Infobox
+|tagid=SID_竜神のブレス
+|intID=3090
+|image=wep_ac054
+|exclusive=1
+|weaponType=Dragonstone
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). If unit initiates combat or is within 2 spaces of an ally, inflicts Atk/Spd/Def/Res-5 on foe during combat, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by 30%, and unit makes a guaranteed follow-up attack. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|statModifiers=0,16,0,0,0
+|required=Flametongue
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1).<br><br>If foe's Range = 2, calculates damage using the lower of foe's Def or Res.<br><br>If unit initiates combat or is within 3 spaces of an ally, inflicts Atk/Spd/Def/Res-5 on foe, unit deals +X × 5 damage (max 25; X = number of【Bonus】effects active on unit and foe, excluding stat bonuses; excluding area-of-effect Specials), and unit makes a guaranteed follow-up attack during combat, and reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by 40%.<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|refineStatsSkill1=3,0,0,0,0
+|effectSkill1=For foes within 3 rows or 3 columns centered on unit, inflicts Atk/Spd/Def/Res-5 and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat. (excluding area-of-effect Specials).<br><br>If foe initiates combat or foe's HP ≥ 75% at start of combat, inflicts penalty on foe's Atk/Spd/Def/Res = 10% of unit's Def at start of combat and reduces damage from foe's attacks by X × 3 during combat (max 15; X = number of Bonus effects active on unit and foe, excluding stat bonuses; excluding area-of-effect Specials).
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Accelerates Special}}
+|s1 Ce1={{Eft|Temporary debuffs|Atk/Spd/Def/Res|5}}
+|s1 Ce1T={{Tgt|Foe}}
+|s1 Ce2={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s attacks &<br>Non-Røkkr [[AoE Specials]]
+|s1 Ce3={{Eft|Guaranteed Follow-Ups}}
+|s1 Ce1-3C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s1 Ce4={{Eft|Lower Def Res}}
+|s1 Ce4C={{Tgt|Foe}}'s Range = 2
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Accelerates Special}}
+|s2 Ce1={{Eft|Temporary debuffs|Atk/Spd/Def/Res|5}}
+|s2 Ce1T={{Tgt|Foe}}
+|s2 Ce2={{Eft|Damage Boost|5 x {{Kp|Bonus}} effects<br>on {{Tgt|Unit}} & {{Tgt|Foe}}<br>(exc. {{SEt|bonuses}})|max=25}}
+|s2 Ce3={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s attacks &<br>Non-Røkkr [[AoE Specials]]
+|s2 Ce4={{Eft|Guaranteed Follow-Ups}}
+|s2 Ce1-4C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|s2 Ce5={{Eft|Lower Def Res}}
+|s2 Ce5C={{Tgt|Foe}}'s Range = 2
+|skill3={{Si|Godly Breath|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary debuffs|Atk/Spd/Def/Res|5}}
+|s3 Ce2={{Eft|Reduce Damage Reduction|50%}}
+|s3 Ce1-2T={{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|s3 Ce3={{Eft|Temporary debuffs|Atk/Spd/Def/Res|10% of {{Tgt|Unit}}'s Def<br>at start of combat}}
+|s3 Ce4={{Eft|Damage Boost|3 x {{Kp|Bonus}} effects<br>on {{Tgt|Unit}} & {{Tgt|Foe}}<br>(exc. {{SEt|bonuses}})|max=15}}
+|s3 Ce3-4C=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary debuffs}}
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+{{Guaranteed follow-up interaction}}
+{{LowerDefRes}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{FlatDamageBoost|X (max: 25)|name=Refined Godly Breath}}
+{{EffectfromBonus|damage boost|target=unit and foe|nonStat=1|name=Refined Godly Breath}}
+{{Reduce Damage Reduction|name={{St|Godly Breath|refine=Skill1}}}}
+{{FoesCombatEffect|temporary debuffs and reduced damage reduction effects|name={{St|Godly Breath|refine=Skill1}}}}
+{{At start of combat}}
+{{FlatDamageReduction|X (max: 15)|name={{St|Godly Breath|refine=Skill1}}}}
+{{EffectfromBonus|damage reduction|target=unit and foe|nonStat=1|name={{St|Godly Breath|refine=Skill1}}}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Myrrh: Guardian Dragon|t=Fomortiis: Demon King
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V6.5_v0605c_legend_Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=竜神のブレス
+|german=Göttlicher Atem
+|spanishEU=Aliento sacro
+|spanishLA=Aliento sacro
+|french=Souffle sacré
+|italian=Soffio sacro
+|chineseTW=龍神吐息
+|portuguese=Sopro deífico
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%number of%【Bonus】%effects active on unit and foe%' OR Description LIKE '%deals +X damage% × %max%') AND Exclusive='1'}}
+* [[Rein Passives]]
+* [[Skill families/C Passives#Crux|Crux Passives]]
+{{Weapons Navbox}}

@@ -1,0 +1,71 @@
+{{#invoke:NameAbout|main|Name=Brigid|Name2=Eyvel}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Brigid
+|Title=Orgahil Pirate
+|WeaponType=Red Bow
+|Origin=Fire Emblem: Genealogy of the Holy War
+|Gender=Female
+|MoveType=Infantry
+|actorJP=岡村明美
+|actorEN=Caitlyn Elizabeth
+|artist=店主マイトオ
+|additionDate=August 6, 2020
+|releaseDate=August 7, 2020
+|cv1=3
+|cv2=200100
+|TagID=海賊ブリギッド
+|InternalID=551
+|Properties=special,specRate_202402
+|description=Gallant and determined, she was separated from her family as a child and raised by a pirate leader. Appears in Fire Emblem: Genealogy of the Holy War.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=9|Lv1SPD=10|Lv1DEF=6|Lv1RES=4
+|GRHP=50|GRATK=65|GRSPD=70|GRDEF=55|GRRES=35
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Helm Bow
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Helm Bow+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Harsh Command
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Harsh Command+
+|assist2Default=
+|assist2Unlock=5
+}}
+===Specials===
+{{Specials Table
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Armored Blow 1
+|passiveA2=Steady Blow 1
+|passiveA3=Steady Blow 2
+|passiveA4=Steady Impact
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveC1=Pulse Smoke 1
+|passiveC2=Pulse Smoke 2
+|passiveC3=Pulse Smoke 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Pirate Festival units]]

@@ -1,0 +1,48 @@
+{{Special
+|tagid=SID_神聖風
+|intID=4073
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=2
+|effect=When Special triggers, boosts damage by 40% of unit's Spd and neutralizes foe's "reduces damage by X%" effects from non-Special skills. After combat, if unit's Special triggered, restores 20 HP to unit and all allies (healing does not stack if triggered more than once per combat; HP restored to allies even if unit's HP reaches 0) and grants【Canto (１)】 to unit for 1 turn.<br><br>【Canto (１)】<br>After an attack, Assist skill, or structure destruction, unit can move １ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|required=Glimmer
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Damage Boost|40% of {{Tgt|Unit}}'s Spd}}
+|Ce2={{Eft|Neutralize Damage Reduction}}
+|Ce2T={{Tgt|Foe}}
+|CeC=Special triggers
+|Se={{SEt|Canto (1)}}
+|SeC=After combat if<br>Special triggered
+|Me={{Eft|Heal|20}}<br>(once after combat)
+|MeT={{Tgt|Unit}} '''&'''<br>{{Tgt|Allies}}
+|MeC=After combat if<br>Special triggered<br>(even if {{Tgt|Unit}}'s<br>HP reaches 0)
+}}
+
+==Notes==
+{{DamageBoost}}
+{{DamageReductionNeutralization}}
+{{After combat healing|allies=1}}
+{{Canto|1|statusEffect=1}}
+{{After combat note|{{SEt|Canto (1)}} to unit}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=神聖風
+|german=Heiliger Wind
+|spanishEU=Viento sagrado
+|spanishLA=Viento sagrado
+|french=Vent vénérable
+|italian=Vento sacro
+|chineseTW=神聖風
+|portuguese=Vento sagrado
+}}
+==See also==
+{{See also skills|cond=SCategory='special' AND Exclusive='1' AND (Description LIKE '%Boosts%damage by __% of unit_s Spd%' OR Description LIKE '%even if unit_s HP reaches 0%') OR Description LIKE '%restores%HP to unit and allies%after combat%'}}
+* [[:Category:Sources of self-healing|Sources of self-healing]]
+{{Specials Navbox}}

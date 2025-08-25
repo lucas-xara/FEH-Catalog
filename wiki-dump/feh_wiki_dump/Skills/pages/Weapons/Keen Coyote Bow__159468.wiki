@@ -1,0 +1,36 @@
+{{Weapon Infobox
+|tagid=SID_猛き狼の弓
+|intID=2792
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=1
+|weaponType=Bow
+|cost=400
+|might=14
+|range=2
+|effectiveness=Flying
+|effect=Grants Atk+3. Effective against flying foes. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+6 to unit during combat, and also, if unit initiates combat, unit can make a follow-up attack before foe can counterattack.
+|statModifiers=0,17,0,0,0
+|required=Silver Bow
+|properties=random_owner
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{Combat boosts}}
+{{Follow-up before counterattack}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=猛き狼の弓
+|german=Kojotenbogen
+|spanishEU=Arco del coyote
+|spanishLA=Arco del coyote
+|french=Arc du coyote
+|italian=Arco ululante
+|chineseTW=猛狼之弓
+|portuguese=Arco de coiote
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit_s HP ≥%unit can make a follow-up attack before foe can counterattack%'|columns=3}}
+{{Weapons Navbox}}

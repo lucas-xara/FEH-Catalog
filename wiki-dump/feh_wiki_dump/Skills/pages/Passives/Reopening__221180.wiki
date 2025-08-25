@@ -1,0 +1,50 @@
+{{Passive
+|name=Reopening
+|type=B
+|exclusive=0
+|canUseWeapon={{WeaponList|Close}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Reopening
+|1tagid=SID_一新
+|1effect=At start of combat, if unit's HP ≥ 25%, inflicts Atk-5 on foe, inflicts Special cooldown charge -1 on foe per attack (only highest value applied; does not stack), deals damage = X% of unit's Def (excluding area-of-effect Specials), and reduces damage from foe's attacks by X% of unit's Def during combat (excluding area-of-effect Specials; if unit can make a follow-up attack or if unit triggers the "unit attacks twice" effect, X = 10; otherwise, X = 20).
+|1cost=300
+|1required=Guard 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary debuffs|Atk|5}}
+|Ce2={{Eft|Guard}}
+|Ce1-2T={{Tgt|Foe}}
+|Ce3={{Eft|Damage Boost|2=(10% if {{Tgt|Unit}} can<br>[[follow-up]] '''or''' [[attack twice]]; else,<br> X = 20%)}} of {{Tgt|Unit}}'s Def
+|Ce4={{Eft|Damage Reduction|2=(10% if {{Tgt|Unit}} can<br>[[follow-up]] '''or''' [[attack twice]]; else,<br> X = 20%)}} of {{Tgt|Unit}}'s Def
+|CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Temporary debuffs}}
+{{CooldownChargeMinus}}
+{{DamageBoost}}
+{{FlatDamageReduction}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=一新
+|german=Erneuerung
+|spanishEU=Reapertura
+|spanishLA=Reapertura
+|french=Réouverture
+|italian=Riapertura
+|chineseTW=煥然一新
+|portuguese=Reabertura
+}}
+
+==See also==
+{{See also skills|cond=Description LIKE '%deals damage%reduces damage%of unit_s Def%' AND Exclusive='1'}}
+{{Passives Navbox|B}}

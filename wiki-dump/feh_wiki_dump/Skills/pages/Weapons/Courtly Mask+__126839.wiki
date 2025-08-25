@@ -1,0 +1,44 @@
+{{Weapon Infobox
+|tagid=SID_高貴な仮面＋
+|image=wep_dg050
+|weaponType=Dagger
+|might=12
+|range=2
+|effect=At start of combat, if unit's HP ≥ 50%, grants Atk/Res+5 during combat, and also, if foe can make a follow-up attack, reduces damage from foe's first attack by 50%.<br>Effect:【Dagger ７】<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|cost=300
+|exclusive=0
+|statModifiers=0,12,0,0,0
+|required=Courtly Mask
+|intID=2215
+|sort=85001
+|value=15
+|timingID=1
+|abilityID=230
+|limit1ID=42
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Notes==
+{{Combat boosts}}{{DamagePercentageReduction}}{{IfUnitAttacked}}{{Penalties}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Courtly Mask+
+|japanese=高貴な仮面＋
+|german=Edle Maske+
+|spanishEU=Antifaz áulico +
+|spanishLA=Antifaz real +
+|french=Masque raffiné +
+|italian=Masch. cortese+
+|chineseTW=高貴的面具＋
+|portuguese=Máscara cortejo+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe can make a follow-up attack, reduces damage from foe_s first attack%'|columns=3}}
+{{Weapons Navbox}}

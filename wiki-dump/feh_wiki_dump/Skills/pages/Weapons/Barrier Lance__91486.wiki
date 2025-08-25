@@ -1,0 +1,36 @@
+{{Weapon Infobox
+|tagid=SID_バリアの槍
+|weaponType=Lance
+|range=1
+|might=10
+|effect=If foe initiates combat, grants Res+7 during combat.
+|cost=200
+|exclusive=0
+|statModifiers=0,10,0,0,0
+|next=Barrier Lance+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Lance
+|properties=random_all
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Combat boosts}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=バリアの槍
+|german=Barrierelanze
+|spanishEU=Pica defensiva
+|spanishLA=Pica defensiva
+|french=Lance barrière
+|italian=Lancia barriera
+|chineseTW=巴里亞之槍
+|portuguese=Lança muralha
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe initiates combat, grants Res+%during combat%' AND WikiName NOT LIKE '%barrier%'|columns=3}}
+* [[Skill families#Barrier|Barrier Weapons]]
+* [[Skill families#Guard (combat boosts)|Guard Weapons]]
+{{Weapons Navbox}}

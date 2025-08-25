@@ -1,0 +1,34 @@
+{{Captain Skill
+|name=Dauntless
+|effect=At the start of turns 2 through 5, grants Special cooldown charge +1 per attack to captain and allies within 2 spaces of captain for 1 turn and inflicts【Guard】on foes in cardinal directions of captain through their next actions.<br><br>【Guard】<br>Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)
+|statModifiers=
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|StatusEffect 1={{SEt|Special Cooldown Charge +1}}
+|StatusEffect 1 Targets={{Tgt|Captain}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|StatusEffect 2={{SEt|Guard}}
+|StatusEffect 2 Targets={{Tgt|Foes}} within<br>[[cardinal directions]]
+|StatusEffect Conditions=At start of turns 2-5 
+}}
+
+==Notes==
+{{Accelerate Special}}
+{{Guard}}
+{{CardinalDirections}}
+==In other languages==
+{{OtherLanguages
+|japanese=剛毅果断
+|german=Furchtlos
+|spanishEU=Intrepidez
+|spanishLA=Intrepidez
+|french=Intrépide
+|italian=Temerarietà
+|chineseTW=剛毅果決
+|portuguese=Intrepidez
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%grants%Special cooldown charge +1 per attack%to%for 1 turn%' OR Description LIKE '%【Guard】%cardinal%') AND Exclusive='1'}}
+* [[Ruse Passives]]
+{{Captain Skills Navbox}}

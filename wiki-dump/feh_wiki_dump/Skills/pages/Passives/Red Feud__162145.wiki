@@ -1,0 +1,46 @@
+{{Passive
+|type=C
+|name=Red Feud
+|exclusive=0
+|canUseWeapon={{WeaponList|exclude=Green}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Red Feud 1
+|1tagid=SID_赤への暗闘1
+|1cost=60
+|1effect=If in combat against a red foe, disables skills of all foes, excluding foe in combat. During combat, disables skills of all red foes, excluding foe in combat.
+|1required=-
+|2name=Red Feud 2
+|2tagid=SID_赤への暗闘2
+|2cost=120
+|2effect=If in combat against a red foe, disables skills of all foes, excluding foe in combat, and inflicts Atk/Spd/Def/Res-2 on foe during combat. During combat, disables skills of all red foes, excluding foe in combat.
+|3name=Red Feud 3
+|3tagid=SID_赤への暗闘3
+|3cost=240
+|3effect=If in combat against a red foe, disables skills of all foes, excluding foe in combat, and inflicts Atk/Spd/Def/Res-4 on foe during combat. During combat, disables skills of all red foes, excluding foe in combat.
+}}
+==Notes==
+{{TermRefersTo|Red}}
+{{Combat reductions}}
+{{CombatEffectNeutralization}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=赤への暗闘
+|german=Rote Fehde
+|spanishEU=Pugna roja
+|spanishLA=Pugna roja
+|french=Querelle rouge
+|italian=Faida rossa
+|chineseTW=對赤的暗鬥
+|portuguese=Rixa vermelha
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%disables skills of all%excluding%' AND WikiName NOT LIKE '%Feud%') OR Description LIKE '%【Feud】%'|columns=3}}
+* [[Skill families#Feud|Feud Passives]]
+{{Passives Navbox|C}}

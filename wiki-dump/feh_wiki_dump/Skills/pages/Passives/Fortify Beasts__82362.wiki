@@ -1,0 +1,55 @@
+{{Passive
+|name=Fortify Beasts
+|type=C
+|exclusive=0
+|1name=Fortify Beasts
+|1tagid=SID_獣盾の鼓舞
+|1effect=At start of turn, grants Def/Res+6 to adjacent beast allies for 1 turn.
+|1cost=200
+|1required=Fortify Def 2;Fortify Res 2
+|canUseWeapon={{WeaponList|Beast}}
+|canUseMove={{MoveList|All}}
+|properties=random_all
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|StatusEffect={{SkillEffectText|Bonuses|Def/Res|6}}
+|StatusEffect Targets=[[Adjacent]] {{Cwtt|group=1|Beast}}<br>{{SkillTargetText|Allies}}
+|StatusEffect Conditions=At start of turn
+}}
+
+==Notes==
+{{Bonuses}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Fortify Beasts
+|badgeColor=Azure
+|costs1=20;100;20
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=獣盾の鼓舞
+|german=Bestien stärken
+|spanishEU=Baluarte bestial
+|spanishLA=Baluarte bestial
+|french=Prudence (Bêtes)
+|italian=Fortifica bestie
+|chineseTW=獸盾鼓舞
+|portuguese=Feras intensas
+}}
+==See also==
+* [[Hone Passives]]
+* [[Fortify Passives]]
+{{Seals Navbox}}
+{{Passives Navbox|C}}
+[[Category:Fortify Passives]]

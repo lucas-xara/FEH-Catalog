@@ -1,0 +1,49 @@
+{{Passive
+|name=Swift Ice
+|type=A
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Swift Ice
+|1tagid=SID_真連閃
+|1effect=If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+8 to unit, reduces damage from foe's first attack by 30% ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks, and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials).<br><br>If unit initiates combat against a non-dragon, non-beast infantry foe and unit's Spd ≥ foe's Spd+20, grants "effective against all weapon types" to unit during combat. Otherwise, if unit initiates combat and unit's Spd ≥ foe's Spd+5, grants "effective against all weapon types" to unit during combat.
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|8}}
+|Ce2={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce3={{Eft|Neutralize Prevent Follow-Ups}}
+|Ce4={{Eft|Neutralize Guaranteed Follow-Ups}}
+|Ce5={{Eft|Reduce Damage Reduction|50%}}
+|Ce4-5T={{Tgt|Foe}}
+|Ce1-5C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce6={{Eft|Effectiveness|All [[Weapon Type]]s<br>}}
+|Ce6C=Player Phase '''&'''<br>{{Tgt|Unit}}'s Spd ≥<br>{{Tgt|Foe}}'s Spd+X<br>(X = 20 if {{Tgt|Foe}}<br>is an {{Mt|Infantry}}<br>non-[[Dragon]]/[[Beast]];<br>else X = 5)
+}}
+
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Follow-up effect neutralization}}
+{{DamagePercentageReduction}}
+{{Reduce Damage Reduction}}
+{{Effective damage bonus|All}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants Atk/Spd/Def/Res+8 to unit%during combat%' AND Description NOT LIKE '%to unit.%' OR Description LIKE '%effective against all weapon types%' AND Exclusive='1'}}
+{{Passives Navbox|A}}

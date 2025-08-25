@@ -1,0 +1,70 @@
+{{#invoke:NameAbout|main|Name=Priscilla}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Priscilla
+|Title=Delicate Princess
+|WeaponType=Colorless Staff
+|MoveType=Cavalry 
+|Origin=Fire Emblem: The Blazing Blade
+|Gender=Female
+|actorEN=Marcella Lentz-Pope 
+|actorJP=橋本ちなみ
+|artist=kaya8
+|releaseDate=March 14, 2017
+|poolDate=March 30, 2017
+|randomStartTime=2017-03-30T07:00:00Z
+|poolRarities=3,4
+|TagID=プリシラ
+|InternalID=113
+|Properties=demoted_240
+|cv1=6
+|cv2=700400
+|description=The daughter of Count Caerleon. Also Raven's sister. Poised and gentle, with a jealous streak. Appears in Fire Emblem: The Blazing Blade.
+|GrowthModifier=None
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=7|Lv1SPD=7|Lv1DEF=4|Lv1RES=8
+|GRHP=45|GRATK=50|GRSPD=50|GRDEF=35|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Assault
+|weapon1Unlock=1
+|weapon2=Panic
+|weapon2Unlock=3
+|weapon3=Panic+
+|weapon3Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Heal
+|assist1Default=1
+|assist1Unlock=1
+|assist2=Reconcile
+|assist2Default=3
+|assist2Unlock=2
+|assist3=Rehabilitate
+|assist3Default=5
+|assist3Unlock=4
+|assist4=Rehabilitate+
+|assist4Unlock=5
+}}
+===Specials===
+{{Specials Table
+|special1=Imbue
+|special1Default=4
+|special1Unlock=2
+|special2=Still-Water Balm
+|special2Default=5
+|special2Unlock=3
+}}
+===Passives===
+{{Passives Table
+|passiveC1=Spur Def 1
+|passiveC2=Spur Def 2
+|passiveC3=Spur Def 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

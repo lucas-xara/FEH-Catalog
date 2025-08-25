@@ -1,0 +1,73 @@
+{{Passive
+|name=Frenzy
+|type=B
+|exclusive=0
+|canUseMove=Infantry
+|canUseWeapon={{WeaponList|Melee}}
+|timingID=1
+|abilityID=182
+|randomTimestamp=2021-08-19T07:00:00Z
+|properties=random_owner
+|1name=Frenzy 1
+|1tagid=SID_回避・攻め立て1
+|1effect=If unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 2 (max 20%). If unit's HP ≤ 10% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.
+|1required=-
+|1cost=60
+|1promotionRarity=4
+|1promotionTier=1
+|intID1=2664
+|sort1=34100
+|value1=2
+|randomMinLv1=21
+|randomMaxLv1=30
+|2name=Frenzy 2
+|2tagid=SID_回避・攻め立て2
+|2effect=If unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 3 (max 30%). If unit's HP ≤ 30% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.
+|2required=Frenzy 1
+|2cost=120
+|2promotionRarity=5
+|2promotionTier=1
+|intID2=2665
+|sort2=34101
+|value2=4
+|randomMinLv2=26
+|randomMaxLv2=35
+|3name=Frenzy 3
+|3tagid=SID_回避・攻め立て3
+|3effect=If unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 4 (max 40%). If unit's HP ≤ 50% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.
+|3required=Frenzy 2
+|3cost=240
+|intID3=2666
+|sort3=34102
+|value3=6
+|randomMinLv3=31
+}}
+==Notes==
+* Frenzy 3 has the same effect as {{St|Desperation 2}}.
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+{{Follow-up before counterattack}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=回避・攻め立て
+|japaneseNotes=''Evasion/[[Desperation]]''
+|german=Raserei
+|spanishEU=Locura
+|spanishLA=Locura
+|french=Frénésie
+|italian=Delirio
+|chineseTW=迴避・猛攻
+|portuguese=Frenesi
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%if unit_s Spd%foe_s Spd%reduces damage from attacks%' OR Description LIKE '%If unit_s HP ≤%and unit initiates combat%follow-up attack before%') AND Exclusive='1'}}
+* [[Skill families#Dodge|Dodge Passives]]
+{{Passives Navbox|B}}
+[[Category:Dodge Passives]]

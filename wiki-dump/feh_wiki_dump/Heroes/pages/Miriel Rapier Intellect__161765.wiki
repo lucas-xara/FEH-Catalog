@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Miriel}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Miriel
+|Title=Rapier Intellect
+|WeaponType=Blue Tome
+|MoveType=Infantry
+|Origin=Fire Emblem Awakening
+|Gender=Female
+|actorEN=Tara Platt
+|actorJP=逢沢ゆりか
+|artist=廣岡政樹
+|randomStartTime=2022-01-07T07:00:00Z
+|additionDate=December 6, 2021
+|releaseDate=December 7, 2021
+|poolDate=December 24, 2021
+|poolRarities=3,4
+|cv1=10
+|cv2=101200
+|TagID=ミリエル
+|InternalID=740
+|Properties=
+|description=A serious and methodical Shepherd. Loves to research and is knowledgeable on a wide range of subjects. Appears in Fire Emblem Awakening.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=9|Lv1SPD=10|Lv1DEF=6|Lv1RES=7
+|GRHP=45|GRATK=65|GRSPD=70|GRDEF=45|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Thunder
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elthunder
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Blárlion
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Blárlion+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Draw Back
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Ideal 1
+|passiveA2=Atk/Spd Ideal 2
+|passiveA3=Atk/Spd Ideal 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Spd/Res Link 1
+|passiveB2=Spd/Res Link 2
+|passiveB3=Spd/Res Link 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+}}
+{{Heroes Navbox}}

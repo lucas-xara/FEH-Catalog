@@ -1,0 +1,83 @@
+{{Weapon Infobox
+|tagid=SID_星竜のブレス
+|weaponType=Dragonstone
+|image=wep_ac022
+|might=16
+|range=1
+|effect=Grants Spd+3. Unit can move to a space adjacent to support partner. If unit is within 3 spaces of support partner, grants Atk/Spd/Def/Res+5 to unit during combat. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,3,0,0
+|required=Water Breath
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Spd+3. Unit can move to a space within 2 spaces of support partner. At start of turn, if unit is within 3 spaces of support partner, grants Spd/Def/Res+6 and【Dodge】to unit and any support partner within 3 spaces of unit for 1 turn. If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit during combat and restores 7 HP to unit after combat. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.<br><br>【Dodge】<br>If unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 4 (max 40%).
+|refineStatsSkill1=3,0,0,0,0
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+X to unit (X = number of spaces from start position to end position of whoever initiated combat, + 4; max 8), unit deals +Y damage (Y = highest total bonuses among unit and allies within 2 spaces of unit; excluding area-of-effect Specials), and neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat.
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Spd|3}}
+|s1 Me={{Eft|Warp|[[adjacent]] to {{Tgt|Partner}}}}
+|s1 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s1 CeC1={{Tgt|Unit}} is<br>[[within 3 spaces]]<br>of {{Tgt|Partner}}
+|s1 Ce2={{Eft|Lower Def Res}}
+|s1 CeC2={{Tgt|Foe}}'s Range = 2
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Spd|3}}
+|s2 Me1={{Eft|Warp|[[within 2 spaces]] of {{Tgt|Partner}}}}
+|s2 Me2={{Eft|Heal|7}}
+|s2 MeC2=After combat<br>if {{Tgt|Unit}} is<br>[[within 3 spaces]]<br>of an {{Tgt|Ally}}
+|s2 Se1={{Eft|Bonuses|Spd/Def/Res|6}}
+|s2 Se2={{SEt|Dodge}}
+|s2 SeT={{Tgt|Unit}} '''&''' {{Tgt|Partner}}<br>[[within 3 spaces]]
+|s2 SeC=At start of turn<br>if {{Tgt|Unit}} is<br>[[within 3 spaces]]<br>of {{Tgt|Partner}}
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s2 CeC1={{Tgt|Unit}} is<br>[[within 3 spaces]]<br>of an {{Tgt|Ally}}
+|s2 Ce2={{Eft|Lower Def Res}}
+|s2 CeC2={{Tgt|Foe}}'s Range = 2
+|skill3={{Si|Astral Breath|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|2 x Spaces initiator moved|max=8}}
+|s3 Ce2={{Eft|Damage Boost|highest total {{SEt|bonuses}} on<br>{{Tgt|Unit}} '''&''' {{Tgt|Allies}} [[within 2 spaces]]}}
+|s3 Ce3={{Eft|Neutralize Guaranteed Follow-Ups}}
+|s3 Ce4={{Eft|Neutralize Prevent Follow-Ups}}
+|s3 CeT4={{Tgt|Foe}}
+|s3 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Warp interaction}}
+{{Temporary buffs}}
+{{SupportPartner|effect=warping and temporary buffs effects}}
+{{LowerDefRes}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Bonuses|name=Refined Astral Breath}}
+{{Dodge|name=Refined Astral Breath}}
+{{SupportPartner|effect=warping, bonuses and {{SEt|Dodge}} effects|name=Refined Astral Breath}}
+{{After combat healing|name=Refined Astral Breath}}
+{{SpacesFromStarttoEnd|name={{St|Astral Breath|refine=Skill1}}}}
+{{DamageBoost|name={{St|Astral Breath|refine=Skill1}}}}
+{{Follow-up effect neutralization|name={{St|Astral Breath|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=星竜のブレス
+|german=Astralatem
+|spanishEU=Aliento astral
+|spanishLA=Soplo astral
+|french=Souffle astral
+|italian=Soffio astrale
+|chineseTW=星龍之吐息
+|portuguese=Sopro astral
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%support partner%' OR Description LIKE '%Unit can move to a space%adjacent%' AND Description NOT LIKE '%status%' OR Description LIKE '%Unit can move to a space%within 2 spaces%' OR Description LIKE '%【Dodge】%') AND Exclusive='1'}}
+* [[Skill families/A Passives#Clash|Clash Passives]]
+{{Weapons Navbox}}

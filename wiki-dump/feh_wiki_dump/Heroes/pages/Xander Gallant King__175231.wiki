@@ -1,0 +1,84 @@
+{{#invoke:NameAbout|main|Name=Xander}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Xander
+|Title=Gallant King
+|WeaponType=Green Axe
+|MoveType=Cavalry
+|Origin=Fire Emblem Fates
+|Gender=Male
+|LegendaryEffect=Fire
+|BoostHP=3
+|BoostAtk=2
+|Duel=190
+|actorEN=George Spelvin
+|actorJP=小西克幸
+|artist=п猫R
+|additionDate=June 30, 2022
+|releaseDate=June 30, 2022
+|cv1=11
+|cv2=500200
+|TagID=伝承マークス
+|InternalID=821
+|Properties=legendary
+|description=Newly crowned king of Nohr. Trains tirelessly in order to stand firm on the side of righteousness. Appears in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=9|Lv1SPD=8|Lv1DEF=11|Lv1RES=4
+|GRHP=50|GRATK=75|GRSPD=75|GRDEF=55|GRRES=30
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Ebon Bölverk
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Catch 1
+|passiveA2=Atk/Spd Catch 2
+|passiveA3=Atk/Spd Catch 3
+|passiveA4=Atk/Spd Catch 4
+|passiveA5=Atk/Spd Clash 1
+|passiveA6=Atk/Spd Clash 2
+|passiveA7=Atk/Spd Clash 3
+|passiveA8=Atk/Spd Excel
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveA5Unlock=2
+|passiveA6Unlock=3
+|passiveA7Unlock=4
+|passiveA8Unlock=5
+|passiveB1=Chivalry
+|passiveB2=Chivalry II
+|passiveB1Unlock=5
+|passiveB2Unlock=5
+|passiveC1=C Feud 1
+|passiveC2=C Feud 2
+|passiveC3=C Feud 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

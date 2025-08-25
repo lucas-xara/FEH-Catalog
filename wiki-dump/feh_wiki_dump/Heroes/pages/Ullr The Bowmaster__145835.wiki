@@ -1,0 +1,86 @@
+{{#invoke:NameAbout|main|Name=Ullr}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Ullr
+|Title=The Bowmaster
+|WeaponType=Blue Bow
+|MoveType=Infantry
+|Origin=Fire Emblem: Genealogy of the Holy War
+|Gender=Female
+|MythicEffect=Light
+|MythicEffect2=Raiding Party Bonus
+|BoostHP=5
+|BoostSpd=4
+|actorEN=Dawn M. Bennett
+|actorJP=桑島法子
+|artist=鈴木理華
+|additionDate=July 29, 2021
+|releaseDate=July 29, 2021
+|cv1=3
+|cv2=9950600
+|TagID=神階ウル
+|InternalID=689
+|Properties=mythic
+|description=One of the 12 crusaders who gathered at the Tower of Dahna. With her holy bow Yewfelle, she has felled many a foe. Appears in Fire Emblem: Genealogy of the Holy War.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=12|Lv1SPD=11|Lv1DEF=6|Lv1RES=4
+|GRHP=50|GRATK=70|GRSPD=70|GRDEF=55|GRRES=35
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Bow
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Holy Yewfelle
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Glimmer
+|special2Unlock=4
+|special3=Deadeye
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Life and Death 1
+|passiveA2=Life and Death 2
+|passiveA3=Life and Death 3
+|passiveA4=Life and Death 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Yngvi Ascendant
+|passiveB2=Yngvi Ascendant+
+|passiveB1Unlock=5
+|passiveB2Unlock=5
+|passiveC1=Time's Pulse 1
+|passiveC2=Time's Pulse 2
+|passiveC3=Time's Pulse 3
+|passiveC4=Atk/Spd Oath 1
+|passiveC5=Atk/Spd Oath 2
+|passiveC6=Atk/Spd Oath 3
+|passiveC7=Atk/Spd Oath 4
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+|passiveC4Unlock=1
+|passiveC5Unlock=2
+|passiveC6Unlock=4
+|passiveC7Unlock=5
+}}
+{{Heroes Navbox}}

@@ -1,0 +1,43 @@
+{{Weapon Infobox
+|tagid=SID_貫きの槍＋
+|weaponType=Lance
+|weaponName={{PAGENAME}}
+|altWeaponName=Heavy Spear Plus
+|might=12
+|range=1
+|effectiveness=armored
+|effect=Effective against armored foes.
+|cost=300
+|exclusive=0
+|statModifiers=0,12,0,0,0
+|properties=random_all
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce={{Eft|Effectiveness|{{Mt|Armored}}}}
+}}
+==Notes==
+{{Effective damage bonus|armored}}
+==Evolution==
+{{WEvo
+|weapon=Slaying Spear+
+|Medals=200
+|Stones=20
+|Dew=
+}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=貫きの槍＋
+|german=Panzerspeer+
+|spanishEU=Rompecorazas +
+|spanishLA=Pica pesada +
+|french=Épieu lourd +
+|italian=Asta greve+
+|chineseTW=貫穿之槍＋
+|portuguese=Pique maciço+
+}}
+==See also==
+* [[Weapons that are effective against armored foes]]
+{{Weapons Navbox}}

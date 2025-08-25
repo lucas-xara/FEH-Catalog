@@ -1,0 +1,66 @@
+{{#invoke:NameAbout|main|Name=Jedah}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Jedah
+|Title=Priest of Duma
+|WeaponType=Red Tome
+|MoveType=Infantry
+|Origin=Fire Emblem Echoes: Shadows of Valentia
+|Gender=Male
+|actorEN=Richard Epcar
+|actorJP=田久保修平
+|artist=otorihara
+|additionDate=March 18, 2025
+|releaseDate=March 19, 2025
+|cv1=2
+|cv2=930250
+|TagID=ジュダ
+|InternalID=1223
+|Properties=limited,ghb
+|description=The high priest of the Duma Faithful, a group influential in northern Valentia. Has received the protection of the god Duma and boasts arcane power beyond that of normal humans. Appears in Fire Emblem Echoes: Shadows of Valentia.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=14|Lv1SPD=3|Lv1DEF=9|Lv1RES=8
+|GRHP=50|GRATK=70|GRSPD=35|GRDEF=80|GRRES=75
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Flux
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Ruin
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Rauðrcrab
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Rauðrcrab+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=4
+|special1Unlock=3
+|special2=Ignis
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Def Finish 1
+|passiveA2=Atk/Def Finish 2
+|passiveA3=Atk/Def Finish 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Poison Strike 1
+|passiveB2=Poison Strike 2
+|passiveB3=Poison Strike 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+}}
+{{Heroes Navbox}}

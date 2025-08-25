@@ -1,0 +1,74 @@
+{{#invoke:NameAbout|main|Name=Camilla}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Camilla
+|Title=Young Beauty
+|WeaponType=Green Axe
+|MoveType=Flying
+|Origin=Fire Emblem Fates
+|Gender=Female
+|actorEN=Misty Lee
+|actorJP=沢城みゆき
+|artist=架糸
+|additionDate=April 3, 2025
+|releaseDate=April 4, 2025
+|cv1=11
+|cv2=500500
+|TagID=幼少カミラ
+|InternalID=1226
+|Properties=special
+|description=First princess of Nohr. She cares deeply for her siblings and unleashes a relentless wrath on any who threaten harm to them. Appears in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=11|Lv1SPD=9|Lv1DEF=9|Lv1RES=8
+|GRHP=50|GRATK=80|GRSPD=90|GRDEF=60|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Axe of Dusk
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Draconic Aura
+|special2Unlock=4
+|special3=No Quarter
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Catch 1
+|passiveA2=Atk/Spd Catch 2
+|passiveA3=Atk/Spd Catch 3
+|passiveA4=Trample
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Tut-Tut!
+|passiveB1Unlock=5
+|passiveC1=Guidance 1
+|passiveC2=Guidance 2
+|passiveC3=Guidance 3
+|passiveC4=Guidance 4
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}

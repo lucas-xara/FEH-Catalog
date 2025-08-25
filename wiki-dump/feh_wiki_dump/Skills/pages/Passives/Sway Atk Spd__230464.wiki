@@ -1,0 +1,48 @@
+{{Passive
+|name=Sway Atk/Spd
+|type=A
+|exclusive=0
+|canUseWeapon={{WeaponList|Colorless Staff}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Sway Atk/Spd
+|alt1name=Sway Atk Spd
+|1tagid=SID_攻撃速さの布教
+|1effect=If unit initiates combat or is within 3 spaces of an ally, grants bonus to unit's Atk/Spd during combat = 8 + number of allies within 3 spaces of unit × 2 (max 12), and calculates damage from staff like other weapons.
+|1cost=300
+|1required=Atk/Spd Form 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary buffs|Atk/Spd|2 x {{Tgt|Allies}}<br>[[within 3 spaces]], +8|max=12}}
+|Ce2={{Eft|Wrathful Staff}}
+|CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 3 spaces]]
+}}
+
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Wrathful Staff}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Sway Atk/Spd
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+
+==See also==
+{{See also skills|cond=(Description LIKE '%is within _ spaces of an ally%number of allies within%spaces%') AND Exclusive='1' AND NAME NOT LIKE '%+'}}
+* [[Sway Passives]]
+{{Passives Navbox|A}}

@@ -1,0 +1,60 @@
+{{Passive
+|name=Pure Storm
+|type=B
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Pure Storm
+|1tagid=SID_正真狂嵐
+|1effect=At start of turn and after unit acts (if Canto triggers, after Canto), inflicts Atk/Def-7, 【Exposure】, and【Sabotage】on closest foes and foes within 2 spaces of those foes through their next actions.<br><br>If target has entered combat aside from this combat on the current turn and unit initiates combat, target cannot trigger their Special during combat.<br><br>If unit initiates combat or the number of allies adjacent to unit ≤ 1, inflicts Atk/Def-5 on foe, deals damage = 20% of unit's Def (excluding area-of-effect Specials), and reduces the percentage of foe's non-Special "reduces damage by X%" skills by 50% during combat (excluding area-of-effect Specials).<br><br>If unit initiates combat and number of allies adjacent to unit ≤ 1 after combat, grants another action to unit (once per turn; if a skill effect moves unit after combat, this effect occurs based on unit's final placement after that movement).<br><br>【Exposure】<br>Foe's attacks deal +10 damage.<br><br>【Sabotage】<br>Inflicts penalty on unit's Atk/Spd/Def/Res during combat = highest penalty on each stat between unit and allies within 2 spaces of unit through its next action. Calculates each stat penalty independently.
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{Eft|Penalties|Atk/Def|7}}
+|Se2={{SEt|Exposure}}
+|Se3={{SEt|Sabotage}}
+|SeT=Closest {{Tgt|Foes}}<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}
+|SeC=At start turn, <br>after {{Tgt|Unit}}'s<br>action(s), '''&''' after<br>[[Canto]] movement
+|Me={{Eft|Galeforce}}<br>(once per turn)
+|MeC=After combat in<br>Player Phase '''&'''<br>[[Adjacent]] {{Tgt|Allies}} ≤ 1
+|Ce1={{Eft|Prevent Special|<br>[[Combat Specials]]}}
+|Ce1C=Player Phase '''&'''<br>{{Tgt|Foe}} has entered<br>combat during<br>the current turn
+|Ce2={{Eft|Temporary debuffs|Atk/Def|5}}
+|Ce3={{Eft|Reduce Damage Reduction|50%}}
+|Ce1-3T={{Tgt|Foe}}
+|Ce4={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Def}}
+|Ce2-4C=Player Phase '''or'''<br>[[Adjacent]] {{Tgt|Allies}} ≤ 1
+}}
+
+==Notes==
+{{Penalties}}
+{{Exposure}}
+{{Sabotage}}
+{{IfUnitInitiates}}
+{{Prevent Special|combat}}
+{{Temporary debuffs}}
+{{DamageBoost}}
+{{Reduce Damage Reduction}}
+{{Galeforce notes}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%cannot trigger%Special%'}}
+{{Passives Navbox|B}}

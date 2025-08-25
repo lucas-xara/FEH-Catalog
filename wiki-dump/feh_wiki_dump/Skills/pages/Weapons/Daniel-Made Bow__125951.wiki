@@ -1,0 +1,93 @@
+{{Weapon Infobox
+|tagid=SID_ダニエルの錬弓
+|weaponName=Daniel-Made Bow
+|weaponType=Bow
+|might=14
+|range=2
+|effectiveness=Flying
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). Effective against flying foes. Grants Atk+5 to allies within 2 spaces during combat. Inflicts Atk-5 on foes within 2 spaces during combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,0,0,0
+|userVersion1=Bow
+|userVersion2=Arrow
+|required=Silver Bow
+|intID=2191
+|sort=440
+|effectRange=2
+|value=20
+|timingID=2
+|abilityID=227
+|randomTimestamp=2020-09-18T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1). Effective against flying foes. Grants Atk/Def+5 to allies within 4 spaces of unit during their combat. Inflicts Atk/Def-5 on foes within 4 spaces of unit and those foes suffer guaranteed follow-up attacks during combat.
+|refineStatsSkill1=0,0,0,0,0
+|effectSkill1=At start of turn, if unit is within 2 spaces of an ally, grants Atk/Spd+6,【Hexblade】, and "Special cooldown charge +1 per attack during combat (only highest value applied; does not stack)" to unit and allies within 2 spaces of unit for 1 turn. If unit initiates combat or is within 2 spaces of an ally, grants Atk/Def+5 to unit during combat.<br><br>【Hexblade】<br>Calculates damage using the lower of foe's Def or Res during combat for 1 turn (including damage dealt by Specials before combat).
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Accelerates Special}}
+|s1 Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|s1 Ce2={{Eft|Temporary buffs|Atk|5}}
+|s1 CeT2={{Tgt|Allies}}<br>[[within 2 spaces]]
+|s1 Ce3={{Eft|Temporary debuffs|Atk|5}}
+|s1 CeT3={{Tgt|Foes}}<br>[[within 2 spaces]]
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Accelerates Special}}
+|s2 Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|s2 Ce2={{Eft|Temporary buffs|Atk/Def|5}}
+|s2 CeT2={{Tgt|Allies}}<br>[[within 4 spaces]]
+|s2 Ce3={{Eft|Temporary debuffs|Atk/Def|5}}
+|s2 CeT3={{Tgt|Foes}}<br>[[within 4 spaces]]
+|s2 Ce4={{Eft|Guaranteed Follow-Ups}}
+|s2 CeT4={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>against {{Tgt|Foes}}<br>[[within 4 spaces]]
+|skill3={{Si|Daniel-Made Bow|refine=Skill1}} Skill refine effects
+|s3 Se1={{Eft|Bonuses|Atk/Spd|5}}
+|s3 Se2={{SEt|Hexblade}}
+|s3 Se3={{SEt|Special Cooldown Charge +1}}
+|s3 SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|s3 SeC=At start of turn
+|s3 Ce={{Eft|Temporary buffs|Atk/Def|5}}
+|s3 CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+
+==Notes==
+{{Effective damage bonus|Flying}}
+{{Temporary buffs}}
+{{AlliesCombatEffect|effect=temporary buffs}}
+{{Temporary debuffs}}
+{{FoesCombatEffect|effect=temporary debuffs}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Guaranteed follow-up interaction|name=Refined Daniel-Made Bow}}
+{{AlliesCombatEffect|temporary buffs and guaranteed follow-up|name=Refined Daniel-Made Bow}}
+{{Bonuses|name={{St|Daniel-Made Bow|refine=Skill1}}}}
+{{Hexblade|name={{St|Daniel-Made Bow|refine=Skill1}}}}
+{{Special Cooldown Charge +1|name={{St|Daniel-Made Bow|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Daniel-Made Bow
+|japanese=ダニエルの錬弓
+|german=Daniels Bogen
+|spanishEU=Arco Daniel
+|spanishLA=Arco Daniel
+|french=Arc de Daniel
+|italian=Arco di Daniel
+|chineseTW=丹尼爾的鍊弓
+|portuguese=Arco Daniel
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%grants Atk+%to allies within _ spaces during combat%' OR Description LIKE '%【Hexblade】%' OR Description LIKE '%suffer guaranteed follow-ups%') AND Exclusive='1'}}
+* [[Skill families/A Passives#Hexblade|Hexblade Passives]]
+* [[Skill families/C Passives#Crux|Crux Passives]]
+{{Weapons Navbox}}

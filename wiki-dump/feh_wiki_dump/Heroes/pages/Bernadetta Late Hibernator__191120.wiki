@@ -1,0 +1,79 @@
+{{#invoke:NameAbout|main|Name=Bernadetta}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Bernadetta
+|Title=Late Hibernator
+|WeaponType=Blue Bow
+|MoveType=Cavalry
+|Origin=Fire Emblem: Three Houses
+|Gender=Female
+|actorEN=Erica Mendez
+|actorJP=辻あゆみ
+|artist=館田ダン
+|additionDate=March 6, 2023
+|releaseDate=March 7, 2023
+|cv1=12
+|cv2=200600
+|TagID=春祭ベルナデッタ
+|InternalID=925
+|Properties=special,hat
+|description=Daughter of a prominent noble family within the Adrestian Empire. Shy as she is, she is sure to face trials at the spring festival. Appears in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=13|Lv1SPD=8|Lv1DEF=7|Lv1RES=3
+|GRHP=50|GRATK=70|GRSPD=90|GRDEF=30|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Bow
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Bow of Repose
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Draconic Aura
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Darting Blow 1
+|passiveA2=Swift Sparrow 1
+|passiveA3=Swift Sparrow 2
+|passiveA4=Remote Sparrow
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Escape Route 1
+|passiveB2=Escape Route 2
+|passiveB3=Escape Route 3
+|passiveB4=Escape Route 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Def Smoke 1
+|passiveC2=Def Smoke 2
+|passiveC3=Def Smoke 3
+|passiveC4=Def/Res Smoke 3
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Spring Festival units]]

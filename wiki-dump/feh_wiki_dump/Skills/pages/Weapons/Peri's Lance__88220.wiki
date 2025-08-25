@@ -1,0 +1,46 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_ピエリの小槍
+|weaponType=Lance
+|might=16
+|range=1
+|effect=Accelerates Special trigger (cooldown count-1).
+|cooldown=-1
+|cost=400
+|exclusive=1
+|userVersion1=Weapon
+|userVersion2=Gleam
+|weaponVersion2=
+|statModifiers=0,16,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=At start of combat, if unit's HP < 100%, grants Atk/Spd/Def/Res+4 during combat.
+|iconSkill1=Peris Lance W.png
+|tagidExtraSkill1=殺
+|properties=
+}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Combat boosts}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|殺戮本能R|[[FireEmblemWikia:Bloodthirst|Bloodthirst]] R}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=ピエリの小槍
+|german=Peris Lanze
+|spanishEU=Lanza Peri
+|spanishLA=Lanza Peri
+|french=Lance (Peri)
+|italian=Lancia di Peri
+|chineseTW=皮艾莉的小槍
+|portuguese=Lança de Peri
+}}
+==See also==
+* [[Weapons that accelerate the Special trigger]]
+{{Weapons Navbox}}

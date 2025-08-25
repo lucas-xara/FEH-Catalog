@@ -1,0 +1,33 @@
+{{Weapon Infobox
+|tagid=SID_エルファイアー
+|weaponType=Red Tome
+|might=6
+|range=2
+|cost=100
+|exclusive=0
+|userVersion1=Closed
+|userVersion2=Open
+|statModifiers=0,6,0,0,0
+|next=Bolganone
+|promotionRarity=4
+|promotionTier=1
+|required=Fire
+|properties=random_all
+}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=エルファイアー
+|german=Elfenlicht
+|spanishEU=Elfire
+|spanishLA=Elfire
+|french=Inferno
+|italian=Fuoco d'elfo
+|chineseTW=狂焰
+|portuguese=Elfire
+}}
+==See also==
+* [[Steel Weapons]]
+{{Weapons Navbox}}
+[[Category:Steel weapons]]

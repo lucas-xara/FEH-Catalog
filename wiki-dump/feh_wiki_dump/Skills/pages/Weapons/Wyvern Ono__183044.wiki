@@ -1,0 +1,36 @@
+{{Weapon Infobox
+|tagid=SID_愛竜への情の竜斧
+|intID=3331
+|image=wep_ax121
+|exclusive=1
+|weaponType=Axe
+|cost=400
+|might=11
+|range=1
+|effect=Grants Def/Res+5 and inflicts Spd-8 on unit. Unit attacks twice. (Even if foe initiates combat, unit attacks twice.) Deals damage = 20% of unit's Def and reduces damage from foe's attacks by 20% of unit's Def (excluding area-of-effect Specials).
+|statModifiers=0,11,-8,5,5
+|required=Silver Axe
+|properties=
+}}
+==Notes==
+{{Brave weapon interaction}}
+{{DamageBoost}}
+{{FlatDamageReduction}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=愛竜への情の竜斧
+|german=Wyvern-Ono
+|spanishEU=Ono wyvern
+|spanishLA=Ono wyvern
+|french=Ono wyverne
+|italian=Ono viverna
+|chineseTW=愛龍之情的龍斧
+|portuguese=Ono wyvern
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants Def/Res+%inflicts Spd-%unit attacks twice.%' AND (Exclusive='1' OR SP=300) OR Description LIKE '%deals damage =%of unit_s Def%' OR Description LIKE '%reduces damage from foe_s attacks%of unit_s Def%'}}
+* [[Brave weapons]]
+{{Weapons Navbox}}

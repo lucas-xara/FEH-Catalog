@@ -1,0 +1,81 @@
+{{Passive
+|name=Atrocity
+|type=B
+|exclusive=1
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|intID=2283
+|sort=462
+|effectRange=2
+|value=8
+|timingID=30
+|abilityID=240
+|limit1ID=53
+|randomTimestamp=2020-11-30T07:00:00Z
+|randomMinLv=31
+|properties=random_owner
+|1name=Atrocity
+|1tagid=SID_無惨
+|1effect=At start of combat, if foe's HP ≥ 50%, deals damage = 25% of unit's Atk, and after combat, inflicts Atk/Spd/Def/Res-5 on target and foes within 2 spaces of target through their next actions and inflicts Special cooldown count+1 on those foes. (No effect on Special cooldown counts already at maximum.)
+|1required=-
+|1next=-
+|2name=Atrocity II
+|2tagid=SID_無惨・承
+|2effect=At start of combat, if foe's HP ≥ 40%, inflicts Atk/Spd/Def-4 on foe, deals damage = 25% of unit's Atk (excluding area-of-effect Specials), and reduces damage from foe's first attack by 40% during combat, and also, after combat, inflicts Atk/Spd/Def/Res-6 and【Guard】 on target and foes within 3 spaces of target through their next actions and inflicts Special cooldown count+1 on those foes (no effect on Special cooldown counts already at maximum).<br><br>【Guard】<br>Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)
+|2cost=300
+|properties2=
+|1cost=300
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Atrocity}} Atrocity
+|skill1 CombatEffect={{SkillEffectText|Damage Boost|25% of {{SkillTargetText|Unit}}'s Atk}}
+|skill1 CombatEffect Targets={{SkillTargetText|Unit}}
+|skill1 CombatEffectConditions={{SkillTargetText|Foe}}'s HP ≥ 50%<br>at start of combat
+|skill1 StatusEffect 1={{SkillEffectText|Penalties|Atk/Spd/Def/Res|5}}
+|skill1 StatusEffect Targets={{SkillTargetText|Target Foe}} '''&''' {{SkillTargetText|Foes}}<br>[[within 2 spaces]]<br>of {{SkillTargetText|Target Foe}}
+|skill1 StatusEffectConditions=After combat '''&'''<br>{{SkillTargetText|Foe}}'s HP ≥ 50%<br>at start of combat
+|skill1 MapEffect={{SkillEffectText|Increase Cooldown|1}}
+|skill1 MapEffect Targets={{SkillTargetText|Target Foe}} '''&''' {{SkillTargetText|Foes}}<br>[[within 2 spaces]]<br>of {{SkillTargetText|Target Foe}}
+|skill1 MapEffectConditions=After combat '''&'''<br>{{SkillTargetText|Foe}}'s HP ≥ 50%<br>at start of combat
+|skill2={{Si|Atrocity II}} Atrocity II
+|skill2 CombatEffect 1={{SkillEffectText|Temporary Debuffs|Atk/Spd/Def|4}}
+|skill2 CombatEffect 1 Targets={{SkillTargetText|Foe}}
+|skill2 CombatEffect 2={{SkillEffectText|Damage Boost|25% of {{SkillTargetText|Unit}}'s Atk}}
+|skill2 CombatEffect 3={{SkillEffectText|Damage Reduction|40%}}<br>from foe's first attack
+|skill2 CombatEffectConditions={{SkillTargetText|Foe}}'s HP ≥ 40%<br>at start of combat
+|skill2 StatusEffect 1={{SkillEffectText|Penalties|Atk/Spd/Def/Res|6}}
+|skill2 StatusEffect 2={{SEt|Guard}}
+|skill2 StatusEffect 1-2 Targets={{SkillTargetText|Target Foe}} '''&''' {{SkillTargetText|Foes}}<br>[[within 3 spaces]]<br>of {{SkillTargetText|Target Foe}}
+|skill2 StatusEffect 1-2 Conditions=After combat '''&'''<br>{{SkillTargetText|Foe}}'s HP ≥ 40%<br>at start of combat
+|skill2 MapEffect={{SkillEffectText|Increase Cooldown|1}}
+|skill2 MapEffect Targets={{SkillTargetText|Target Foe}} '''&''' {{SkillTargetText|Foes}}<br>[[within 3 spaces]]<br>of {{SkillTargetText|Target Foe}}
+|skill2 MapEffectConditions=After combat '''&'''<br>{{SkillTargetText|Foe}}'s HP ≥ 40%<br>at start of combat
+}}
+
+==Notes==
+{{AtkDamageBoost}}
+{{After combat note}}
+{{Penalties}}
+{{After combat Special modification}}
+{{Temporary debuffs|name=Atrocity II}}
+{{DamagePercentageReduction|name=Atrocity II}}
+{{Guard|name=Atrocity II}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Atrocity
+|japanese=無惨
+|german=Atrozität
+|spanishEU=Barbarie
+|spanishLA=Barbarie
+|french=Atrocité
+|italian=Atrocità
+|chineseTW=無慘
+|portuguese=Atrocidade
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%deals damage =% of unit_s Atk%' AND Description NOT LIKE '%minus%' AND Description NOT LIKE '%boost resets%' OR Description LIKE '%boosts damage%by __% of unit_s Atk%') AND Name NOT LIKE '%time traveler%' OR Description LIKE '%inflicts%special cooldown count+1%on target and foes within _ spaces of target%'}}
+* [[Smoke Passives]]
+{{Passives Navbox|B}}

@@ -1,0 +1,74 @@
+{{#invoke:NameAbout|main|Name=Roy}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Roy
+|Title=Brave Lion
+|GrowthModifier= None
+|WeaponType=Red Sword
+|Origin=Fire Emblem: The Binding Blade
+|Gender=Male
+|MoveType=Cavalry
+|actorEN=Ray Chase
+|actorJP=福山潤
+|artist=ワダサチコ
+|resplendentArtist=柊暁生
+|releaseDate=August 31, 2017
+|poolDate=September 15, 2017
+|poolRarities=5
+|TagID=総選挙ロイ
+|InternalID=166
+|cv1=5
+|cv2=100100
+|description=The son of Eliwood, Marquess of Pherae. Has immense respect for his father and wields his weapon, Durandal. Appears in Fire Emblem: The Binding Blade.
+|Properties=brave,specRate_201904,resplendent,muspell
+|resplendentStartTime=2023-02-10T07:00:00Z
+|resplendentEndTime=2023-02-25T06:59:59Z
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=8|Lv1SPD=8|Lv1DEF=7|Lv1RES=7
+|GRHP=50|GRATK=55|GRSPD=60|GRDEF=45|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Blazing Durandal
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Astra
+|special2Unlock=4
+|special3=Galeforce
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Darting Blow 1
+|passiveA2=Steady Blow 1
+|passiveA3=Steady Blow 2
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Desperation 1
+|passiveB2=Desperation 2
+|passiveB3=Desperation 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+}}
+{{Heroes Navbox}}

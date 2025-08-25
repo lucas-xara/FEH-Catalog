@@ -1,0 +1,73 @@
+{{Weapon Infobox
+|tagid=SID_クリムヒルド
+|weaponType=Lance
+|might=16
+|range=1
+|effect=If a bow, dagger, magic, or staff foe initiates combat and unit is within 2 spaces of an ally, unit can counterattack regardless of foe's range and foe cannot make a follow-up attack, but after combat, if unit attacked, deals 20 damage to nearest ally.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Silver Lance
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=If foe initiates combat and unit is within 3 spaces of an ally, unit can counterattack regardless of foe's range and foe cannot make a follow-up attack, but after combat, if unit attacked, deals 20 damage to nearest ally.
+|tagidExtraSkill1=一
+|effectSkill1=If foe initiates combat or if foe's HP ≥ 75% at start of combat, inflicts Atk/Def-5 on foe during combat and unit makes a guaranteed follow-up attack.
+|iconSkill1=Kriemhild W.png
+|properties=random_owner
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Prevent follow-up}}
+* ''Both'' the condition of a {{Cwtt|ranged}} foe initiating combat and Kriemhild's owner being within 2 spaces of an ally ''must'' be met for the {{St|Distant Counter}} and follow-up preventing effects to activate.
+{{IfUnitAttacked}}
+{{Out of combat damage}}
+{| class="wikitable default mw-collapsible" 
+! align="middle" | Example of Area of Effect
+|-
+| align="middle" ! |
+<div style="max-width: 450px; margin: auto;>{{AoE|u=Berkut: Purgatorial Prince|t=Fernand: Traitorous Knight
+|--x--
+|-xxx-
+|xxuxt
+|-xxx-
+|--x--
+}}</div>
+|}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{| class="wikitable default mw-collapsible" 
+! align="middle" | Example of Area of Effect
+|-
+| align="middle" ! |
+<div style="max-width: 450px; margin: auto;>{{AoE|u=Berkut: Purgatorial Prince|t=Fernand: Traitorous Knight
+|---x---
+|--xxx--
+|-xxxxx-
+|xxxuxtx
+|-xxxxx-
+|--xxx--
+|---x---
+}}</div>
+|}
+{{Combat reductions}}
+{{Guaranteed follow-up interaction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=クリムヒルド
+|german=Kriemhild
+|spanishEU=Kriemhild
+|spanishLA=Kriemhild
+|french=Kriemhild
+|italian=Kriemhild
+|chineseTW=克里姆希爾特
+|portuguese=Kriemhild
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit attacked%nearest ally%'|columns=3}}
+{{Weapons Navbox}}

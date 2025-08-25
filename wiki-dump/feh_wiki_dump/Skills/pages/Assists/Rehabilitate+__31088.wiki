@@ -1,0 +1,45 @@
+{{Assist
+|tagid=SID_リバース＋
+|range=1
+|effect=Restores HP = 50% of Atk -10. (Minimum of 7 HP.)<br>If target's HP is ≤ 50%, the lower the target's HP, the more HP is restored.
+|cost=300
+|required=Rehabilitate
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|Staff}}
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Heal|min=7|(50% of {{Tgt|Unit}}'s Atk - 10)<br>+ ({{Tgt|Target Ally}}'s max HP -<br>(2 x {{Tgt|Target Ally}}'s current HP))}}
+|MeT1={{Tgt|Target Ally}}
+|MeC1={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}<br>'''or''' {{SEt|Deep Wounds}}
+}}
+==Notes==
+* When the target's HP is above 50%, Rehabilitate+ heals the ally by (50% of healer's Atk − 10). If the result number is too low by falling under 7, then it will instead heal a flat 7 HP instead.
+**For example, if a healer has 50 Atk in battle, then the healer will restore 15 HP to the ally, a better amount compared to the default. 
+**Another example would be if a healer has 25 Atk in battle, then the healer will restore 5 HP to an ally; Since the lowest amount of healing one can do is 7, the 5 is bumped up to 7 instead.
+* When the target's HP is below 50%, Rehabilitate heals an additional (target ally's maximum HP − 2 × target ally's current HP, minimum of 0) HP.
+** This can result in [http://i.imgur.com/QFEuTbS.png situations] where the amount of HP restored to the target far exceeds their maximum health. Due to the formula, a target with (50% of healer's Atk − 10, minimum of 7) HP or less [https://docs.google.com/spreadsheets/d/1hrvxiD98zh9e1_O8YV9VOsO-OkVsJYps-h59eK0bcuU/edit?usp=sharing will always be healed to his or her HP maximum], regardless of what that HP maximum is.
+* A single formula for both cases is:
+** (50% of healer's Atk − 10, minimum of 7) + (target ally's maximum HP − 2 × target ally's current HP, minimum of 0) HP
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+Weapon Rehabilitate.png|Rehabilitate+ Sprite
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=リバース＋
+|german=Neubeginn+
+|spanishEU=Rehabilitar +
+|spanishLA=Rehabilitar +
+|french=Rétabliss. +
+|italian=Riabilitazione+
+|chineseTW=重生＋
+|portuguese=Reabilitação+
+}}
+==See also==
+* [[Staff Assists]]
+{{Assists Navbox}}

@@ -1,0 +1,81 @@
+{{#invoke:NameAbout|main|Name=Marth|Name2=Caeda}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Marth
+|Title=Love and Courage
+|WeaponType=Red Sword
+|MoveType=Flying
+|secondPerson=Caeda
+|Origin=Fire Emblem: Mystery of the Emblem
+|Gender=MF
+|duo=Grants another action to ally with the highest HP that is within 2 spaces of unit and has already acted (excluding unit) and grants 【Potent Follow】and "neutralizes foe's bonuses during combat" to that ally for 1 turn.<br><br>(If multiple allies meet the above conditions, effect will not trigger.)<br><br>【Potent Follow】<br>If decreasing the Spd difference necessary to make a follow-up attack by 25 would allow unit to trigger a follow-up attack (excluding guaranteed or prevented follow-ups), triggers【Potent Follow X%】during combat (if unit cannot perform follow-up and attack twice, X = 80; otherwise, X = 40).<br><br>【Potent Follow X%】<br>Triggers an additional follow-up attack immediately after unit's standard follow-up attack and deals damage = X% of unit's normal attack damage (if unit cannot make a follow-up attack, this effect triggers when the standard follow-up attack would occur; this effect is treated like a follow-up attack, so effects like "reduce damage by X%" still apply, but this effect is not affected by effects that prevent follow-ups or "attacks twice" effects; only highest value applied; does not stack).
+|Duel=215
+|actorEN=Yuri Lowenthal,—
+|actorJP=緑川光,早見沙織
+|artist=山田孝太郎
+|additionDate=April 28, 2025
+|releaseDate=April 28, 2025
+|cv1=1
+|cv2=100100
+|TagID=比翼マルス2
+|InternalID=1235
+|Properties=duo
+|description=Marth, prince of Altea, and Caeda, princess of Talys. They developed a deep love for one another on the battlefield during both the War of Shadows and the War of Heroes. They appear in Fire Emblem: Mystery of the Emblem.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=12|Lv1SPD=9|Lv1DEF=10|Lv1RES=6
+|GRHP=50|GRATK=75|GRSPD=90|GRDEF=60|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Sword of Peace
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Draconic Aura
+|special2Unlock=4
+|special3=The Fire Emblem
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Blue Skies 1
+|passiveA2=Blue Skies 2
+|passiveA3=Blue Skies 3
+|passiveA4=Blue Skies 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Shield of Hope
+|passiveB1Unlock=5
+|passiveC1=Spd/Def Rein 1
+|passiveC2=Spd/Def Rein 2
+|passiveC3=Spd/Def Rein 3
+|passiveC4=S/D Hold Guide
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Sources of status effects]]
+[[Category:Sources of Potent Follow]]
+[[Category:Sources of bonus neutralization]]
+[[Category:Sources of Neutralize Bonuses]]

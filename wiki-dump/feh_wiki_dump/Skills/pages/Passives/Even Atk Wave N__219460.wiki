@@ -1,0 +1,55 @@
+{{Passive
+|name=Even Atk Wave N
+|type=C
+|exclusive=0
+|canUseWeapon={{WeaponList|Close}}
+|canUseMove={{MoveList|All}}
+|1name=Even Atk Wave N
+|1tagid=SID_近間の攻撃の波・偶
+|1effect=At start of turn, grants Atk+6 to unit and allies within 2 spaces of unit for 1 turn.<br><br>If unit's Atk ≥ foe's Atk-5, unit deals +5 damage during combat (excluding area-of-effect Specials), and also, when unit deals damage to foe during combat, restores 5 HP to unit (triggers even if 0 damage is dealt).<br><br>If it is an even-numbered turn, grants Atk+6 to unit during combat.
+|1cost=300
+|1required=Even Atk Wave 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se={{Eft|Bonuses|Atk|6}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=At start of turn
+|Ce1={{Eft|Damage Boost|5}}
+|Ce2={{Eft|Heal|5}}<br>per {{Tgt|Unit}}'s attack
+|Ce1-2C={{Tgt|Unit}}'s Atk ≥<br>{{Tgt|Foe}}'s Atk-5
+|Ce3={{Eft|Temporary buffs|Atk|6}}
+|Ce3C=During even turns
+}}
+
+==Notes==
+{{Bonuses}}
+{{FlatDamage|5}}
+{{CombatHPRecovery}}
+{{Temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=近間の攻撃の波・偶
+|japaneseNotes=<i>Near Atk Wave, Even</i>
+|german=Gerader Angr. Nah
+|spanishEU=Ola Ata par cer.
+|spanishLA=Ola Atq. par cer.
+|french=Pair Atq proche
+|italian=Att pari vicino
+|chineseTW=近處攻擊之波・偶數
+|portuguese=Onda Atq. par N
+}}
+
+==See also==
+{{See also skills|cond=Description LIKE '%start of%turns%grants%+%for 1 turn%' AND Exclusive='1'}}
+* [[Odd Wave Passives]]
+* [[Even Wave Passives]]
+* [[Skill families/A Passives#Finish|Finish Passives]]
+{{Passives Navbox|C}}
+[[Category:Even Wave Passives]][[Category:Wave Passives]]

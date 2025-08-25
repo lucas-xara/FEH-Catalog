@@ -1,0 +1,66 @@
+{{#invoke:NameAbout|main|Name=Lara}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Lara
+|Title=Step Lively
+|WeaponType=Red Dagger
+|MoveType=Infantry
+|Origin=Fire Emblem: Thracia 776
+|Gender=Female
+|actorEN=Madeline Dorroh
+|actorJP=白砂沙帆
+|artist=チーコ
+|additionDate=January 9, 2024
+|releaseDate=January 10, 2024
+|poolDate=January 30, 2024
+|poolRarities=3,4
+|cv1=4
+|cv2=300900
+|TagID=ラーラ
+|InternalID=1049
+|Properties=refresher,tiara
+|description=A member of the Magi, who work to bring freedom to Munster. Bursting with vitality. Appears in Fire Emblem: Thracia 776.
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=5|Lv1SPD=11|Lv1DEF=8|Lv1RES=5
+|GRHP=55|GRATK=70|GRSPD=75|GRDEF=60|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Dagger
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Dagger
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Clever Dagger
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Clever Dagger+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Dance
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveB1=Gale Dance 1
+|passiveB2=Rockslide Dance 1
+|passiveB3=Rockslide Dance 2
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Atk Smoke 1
+|passiveC2=Atk Smoke 2
+|passiveC3=Atk Smoke 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

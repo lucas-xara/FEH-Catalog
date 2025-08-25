@@ -1,0 +1,99 @@
+{{Weapon Infobox
+|tagid=SID_大地の剣
+|intID=3016
+|image=wep_sw127
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=16
+|range=1
+|effect=Grants Atk+3. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+6 to unit during combat, neutralizes effects that prevent unit's follow-up attacks, disables non-Special effects that "reduce damage by X%" (excluding those inflicted on unit's area-of-effect Specials), prevents foe's Specials that are triggered by unit's attack, and restores 7 HP to unit after combat.
+|statModifiers=0,19,0,0,0
+|required=Silver Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Atk+3.<br><br>At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+6 to unit, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks, neutralizes foe's "reduces damage by X%" effects from foe's non-Special skills (excluding area-of-effect Specials), and prevents foe's Specials that are triggered by unit's attack during combat, and restores 7 HP to unit after combat.
+|effectSkill1=At start of turn, if unit is within 2 spaces of an ally, grants "neutralizes foe's bonuses during combat" and【Hexblade】to unit and allies within 2 spaces of unit for 1 turn.<br><br>If unit initiates combat or is within 2 spaces of an ally, grants bonus to unit's Atk/Spd = number of allies within 3 rows or 3 columns centered on unit × 2 + 6 (max 12) and deals damage = 20% of unit's Spd during combat (excluding area-of-effect Specials).<br><br>【Hexblade】<br>Calculates damage using the lower of foe's Def or Res during combat for 1 turn (including damage dealt by Specials before combat).
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Atk|3}}
+|s1 Me={{Eft|Heal|7}}
+|s1 MeC=After combat if<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s1 Ce1={{Eft|Temporary buffs|Atk/Spd|6}}
+|s1 Ce2={{Eft|Neutralize Prevent Follow-Ups}}
+|s1 Ce3={{Eft|Neutralize Damage Reduction}}
+|s1 Ce4={{Eft|Prevent Specials|<br>[[Defensive Specials]]}}
+|s1 Ce3-4T={{Tgt|Foe}}
+|s1 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Atk|3}}
+|s2 Me={{Eft|Heal|7}}
+|s2 MeC=After combat if<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd|6}}
+|s2 Ce2={{Eft|Neutralize Prevent Follow-Ups}}
+|s2 Ce3={{Eft|Neutralize Guaranteed Follow-Ups}}
+|s2 Ce4={{Eft|Neutralize Damage Reduction}}
+|s2 Ce5={{Eft|Prevent Specials|<br>[[Defensive Specials]]}}
+|s2 Ce3-5T={{Tgt|Foe}}
+|s2 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|skill3={{Si|Lands Sword|refine=Skill1}} Skill refine effects
+|s3 Se1={{SEt|Neutralize Bonuses}}
+|s3 Se2={{SEt|Hexblade}}
+|s3 SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|s3 SeC=At start of turn<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd|2 x {{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}, + 6|max=12}}
+|s3 Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|s3 CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+==Notes==
+{{Temporary buffs}}
+{{Follow-up effect neutralization|preventOnly=1}}
+{{DamageReductionNeutralization}}
+{{Prevent Special|defensive}}
+{{After combat healing}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Follow-up effect neutralization|name=Refined Lands Sword}}
+{{Neutralize Bonuses|name={{St|Lands Sword|refine=Skill1}}}}
+{{Hexblade|name={{St|Lands Sword|refine=Skill1}}}}
+{{IfUnitInitiates|name={{St|Lands Sword|refine=Skill1}}}}
+{{DamageBoost|name={{St|Lands Sword|refine=Skill1}}}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Nanna: Beloved Princess|t=Leif: Unifier of Thracia
+|---xxx---
+|---xxx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xtx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=大地の剣
+|german=Erdschwert
+|spanishEU=Espada terrestre
+|spanishLA=Espada terrestre
+|french=Épée terrestre
+|italian=Spada terrestre
+|chineseTW=大地之劍
+|portuguese=Espada terrena
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%prevents foe_s Specials that are triggered by unit_s attack%' OR Description LIKE '%【Hexblade】%') AND Exclusive='1' AND NAME NOT LIKE '%hexblade%'}}
+* [[Skill families/A Passives#Hexblade|Hexblade Passives]]
+* [[Skill families/Weapons#Hexblade (weapons)|Hexblade Weapons]]
+{{Weapons Navbox}}

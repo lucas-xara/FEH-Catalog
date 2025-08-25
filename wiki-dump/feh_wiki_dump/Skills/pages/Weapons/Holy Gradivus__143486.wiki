@@ -1,0 +1,40 @@
+{{Weapon Infobox
+|tagid=SID_聖槍グラディウス
+|weaponType=Lance
+|might=16
+|range=1
+|effect=Unit can counterattack regardless of foe's range. At start of combat, if unit's HP ≥ 25%, unit makes a guaranteed follow-up attack.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Silver Lance
+|intID=2593
+|sort=548
+|value=20
+|timingID=1
+|abilityID=48
+|limit1ID=42
+|randomTimestamp=2021-07-08T07:00:00Z
+|randomMinLv=31
+|properties=random_owner
+}}
+==Notes==
+* Has the same effect as {{St|Distant Counter}}.
+{{Guaranteed follow-up interaction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=聖槍グラディウス
+|german=Heilige Gradivus
+|spanishEU=Gradivus sagrada
+|spanishLA=Gradivus sagrada
+|french=Gradivus sacrée
+|italian=Gradivus sacra
+|chineseTW=聖槍古拉迪烏斯
+|portuguese=Gradivus sagrado
+}}
+==See also==
+{{See also skills|cond=WikiName LIKE '%Gradivus%' OR Description LIKE '%if unit_s HP ≥ 25%unit makes a guaranteed follow-up attack%'|columns=3}}
+* [[Weapons with Distant Counter]]
+{{Weapons Navbox}}

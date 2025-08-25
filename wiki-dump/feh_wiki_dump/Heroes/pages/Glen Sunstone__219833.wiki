@@ -1,0 +1,66 @@
+{{#invoke:NameAbout|main|Name=Glen}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Glen
+|Title=Sunstone
+|WeaponType=Red Sword
+|MoveType=Flying
+|Origin=Fire Emblem: The Sacred Stones
+|Gender=Male
+|actorEN=Anthony Bowling
+|actorJP=山中真尋
+|artist=п猫Ｒ
+|additionDate=July 16, 2024
+|releaseDate=July 17, 2024
+|cv1=7
+|cv2=300400
+|TagID=グレン
+|InternalID=1123
+|Properties=limited,ghb
+|description=One of Grado's Imperial Three generals, he rides a wyvern and goes by the title of Sunstone. Appears in Fire Emblem: The Sacred Stones.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=12|Lv1SPD=10|Lv1DEF=8|Lv1RES=5
+|GRHP=55|GRATK=75|GRSPD=55|GRDEF=90|GRRES=35
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Sunstone's Blade
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=4
+|special1Unlock=3
+|special2=Ignis
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Wyvern Flight 1
+|passiveB2=Wyvern Flight 2
+|passiveB3=Wyvern Flight 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Flier Guidance 1
+|passiveC2=Flier Guidance 2
+|passiveC3=Flier Guidance 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

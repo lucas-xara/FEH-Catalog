@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Mirabilis}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Mirabilis
+|Title=Spring Daydream
+|WeaponType=Blue Tome
+|MoveType=Flying
+|Origin=Fire Emblem Heroes
+|Gender=Female
+|actorEN=Heather Halley
+|actorJP=久野美咲
+|artist=さくらしおり
+|additionDate=March 6, 2024
+|releaseDate=March 7, 2024
+|cv1=0
+|cv2=400300
+|TagID=春祭ルピナス
+|InternalID=1071
+|Properties=special,refresher,hat
+|description=A ljósálfr from Ljósálfheimr, the realm of dreams, who brings daydreams to mortals. Looking forward to the supreme napping the spring festival allows.
+}}
+{{Stats Page
+|Lv1HP=15|Lv1ATK=6|Lv1SPD=3|Lv1DEF=10|Lv1RES=8
+|GRHP=50|GRATK=70|GRSPD=35|GRDEF=60|GRRES=75
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Thunder
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elthunder
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Thoron
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Daydream Egg
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Dance
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Spring's Dream
+|assist2Unlock=5
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveB1=Mystic Boost 1
+|passiveB2=Mystic Boost 2
+|passiveB3=Mystic Boost 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Atk/Res Rein 1
+|passiveC2=Atk/Res Rein 2
+|passiveC3=Atk/Res Rein 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Spring Festival units]]

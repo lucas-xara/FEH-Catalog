@@ -1,0 +1,39 @@
+{{Weapon Infobox
+|tagid=SID_ホースキラー
+|weaponType=Lance
+|weaponName={{PAGENAME}}
+|might=10
+|range=1
+|effectiveness=cavalry
+|effect=Effective against cavalry foes.
+|cost=200
+|exclusive=0
+|statModifiers=0,10,0,0,0
+|next=Ridersbane+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Lance
+|properties=random_all
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce={{Eft|Effectiveness|{{Mt|Cavalry}}}}
+}}
+==Notes==
+{{Effective damage bonus|cavalry}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ホースキラー
+|german=Rittertod
+|spanishEU=Antijinetes
+|spanishLA=Antijinetes
+|french=Caballucide
+|italian=Picca
+|chineseTW=殺馬槍
+|portuguese=Findaginete
+}}
+==See also==
+* [[Weapons that are effective against cavalry foes]]
+{{Weapons Navbox}}

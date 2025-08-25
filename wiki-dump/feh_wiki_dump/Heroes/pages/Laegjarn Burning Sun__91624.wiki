@@ -1,0 +1,73 @@
+{{#invoke:NameAbout|main|Name=Laegjarn}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Laegjarn
+|Title=Burning Sun
+|GrowthModifier=Gen 3
+|WeaponType=Blue Tome
+|MoveType=Flying
+|Origin=Fire Emblem Heroes
+|Gender=Female
+|artist=前嶋重機
+|actorEN=Alicia Stratten
+|actorJP=田村ゆかり
+|releaseDate=6/20/2019
+|TagID=水着レーギャルン
+|InternalID=388
+|Properties=special,specRate_202302
+|cv1=0
+|cv2=300200
+|description=The eldest princess of Múspell, the Flame Kingdom. In her swimsuit, she braves the red-hot sun.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=6|Lv1SPD=9|Lv1DEF=5|Lv1RES=6
+|GRHP=45|GRATK=65|GRSPD=65|GRDEF=35|GRRES=35
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Light
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Ellight
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Shine
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Worldsea Wave
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Reposition
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Darting Blow 1
+|passiveA2=Swift Sparrow 1
+|passiveA3=Swift Sparrow 2
+|passiveA4=Swift Sparrow 3
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Flier Formation 1
+|passiveB2=Flier Formation 2
+|passiveB3=Flier Formation 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Hone Spd 1
+|passiveC2=Hone Spd 2
+|passiveC3=Hone Fliers
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Summer units]]

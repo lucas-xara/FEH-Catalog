@@ -1,0 +1,91 @@
+{{#invoke:NameAbout|main|Name=Letizia}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Letizia
+|Title=Curse Director
+|WeaponType=Green Tome
+|MoveType=Cavalry
+|Origin=Fire Emblem Heroes
+|Gender=Female
+|actorEN=Kelly Baskin
+|actorJP=M・A・O
+|onlykanji=1
+|artist=コザキユースケ
+|randomStartTime=2022-07-08T07:00:00Z
+|additionDate=2022-02-18
+|releaseDate=June 8, 2022
+|poolDate=June 30, 2022
+|poolRarities=5
+|Person=Letizia
+|cv1=0
+|cv2=600500
+|TagID=レティシア
+|InternalID=810
+|EnemyInternalID=82
+|Properties=tiara,specRate_202502
+|description=Royalty in the line of succession to the throne of the Emblian Empire. Growing up, she and Veronica were as close as sisters.
+}}
+==Ally stats==
+{{Stats Page|noheader=1
+|Lv1HP=16|Lv1ATK=10|Lv1SPD=3|Lv1DEF=9|Lv1RES=8
+|GRHP=50|GRATK=70|GRSPD=30|GRDEF=60|GRRES=60
+}}
+==Enemy stats==
+{{Stats Page/Enemy|noheader=1
+|Lv1HP=16|Lv1ATK=10|Lv1SPD=3|Lv1DEF=9|Lv1RES=8
+|GRHP=50|GRATK=70|GRSPD=30|GRDEF=60|GRRES=60
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Wind
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elwind
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Rexcalibur
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Körmt
+|weapon4Default=5
+|weapon4Unlock=5
+|hasEnemy=1
+}}
+
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Draconic Aura
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Res Catch 1
+|passiveA2=Atk/Res Catch 2
+|passiveA3=Atk/Res Catch 3
+|passiveA4=Atk/Res Catch 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=A/R Far Trace 1
+|passiveB2=A/R Far Trace 2
+|passiveB3=A/R Far Trace 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Rouse Atk/Res 1
+|passiveC2=Rouse Atk/Res 2
+|passiveC3=Rouse Atk/Res 3
+|passiveC4=Rouse Atk/Res 4
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+{{Enemies Navbox}}

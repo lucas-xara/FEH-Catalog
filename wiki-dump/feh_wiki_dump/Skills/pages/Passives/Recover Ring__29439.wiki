@@ -1,0 +1,31 @@
+{{Passive
+|1name=Recover Ring
+|1tagid=SID_リカバーリング
+|1required=-
+|1effect=At start of turn, restores 10 HP.<br>(Skill cannot be inherited.)
+|1cost=200
+|type=B
+|exclusive=1
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=
+}}
+==Notes==
+{{Start-of-turn healing}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=リカバーリング
+|german=Erholungsring
+|spanishEU=Anillo sanador
+|spanishLA=Anillo de reposo
+|french=Anneau restit.
+|italian=Anello recupero
+|chineseTW=聖癒手鐲
+|portuguese=Anel restaurador
+}}
+==See also==
+* [[Renewal]]
+* [[Falchion]]
+{{Passives Navbox|B}}

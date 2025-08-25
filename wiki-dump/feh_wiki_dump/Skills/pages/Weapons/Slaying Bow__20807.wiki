@@ -1,0 +1,40 @@
+{{Weapon Infobox
+|tagid=SID_キラーボウ2
+|weaponType=Bow
+|might=8
+|range=2
+|effectiveness=flying
+|effect=Accelerates Special trigger (cooldown count-1).<br>Effective against flying foes.
+|cooldown=-1
+|cost=200
+|exclusive=0
+|userVersion1=Bow
+|userVersion2=Arrow
+|userVersion3=Gleam
+|statModifiers=0,8,0,0,0
+|next=Slaying Bow+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Bow
+|properties=random_owner
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+*The "killer" (キラー) part of this weapon's name was dropped in the English localization.
+==In other languages==
+{{OtherLanguages
+|japanese=キラーボウ鍛
+|german=Gnadenpfeil
+|spanishEU=Arco ejecutor
+|spanishLA=Arco cruel
+|french=Arc meurtrier
+|italian=Arco falciante
+|chineseTW=必殺弓鍛
+|portuguese=Arco cruel
+}}
+==See also==
+* [[Weapons that accelerate the Special trigger]]
+{{Weapons Navbox}}

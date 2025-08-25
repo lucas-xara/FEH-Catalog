@@ -1,0 +1,78 @@
+{{Weapon Infobox
+|tagid=SID_造物フィンブル
+|intID=4512
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|exclusive=1
+|weaponType=Blue Tome
+|cost=400
+|might=14
+|range=2
+|effect=At start of combat, if unit's HP ≥ 25%, inflicts Atk/Res-6 on foe during combat, deals damage = 20% of unit's Res (excluding area-of-effect Specials), reduces damage from foe's first attack by 7 ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and inflicts Special cooldown charge -1 on foe per attack during combat (only highest value applied; does not stack).
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|refineStatsSkill1=0,0,0,0,0
+|effectSkill1=At start of turn, if unit's HP ≥ 25%, grants Atk/Res+6,【Essence Drain】, and 【Bonus Doubler】to unit and target allies for 1 turn (if support partner is on player team, targets any support partner within 2 spaces of unit; otherwise, targets ally with the highest Atk within 2 spaces of unit).<br><br>At start of combat, if unit's HP ≥ 25%, inflicts Atk/Res-6 on foe during combat, unit makes a guaranteed follow-up attack, and restores 7 HP to unit after combat.<br><br>【Essence Drain】<br>After combat, if unit attacked, grants any 【Bonus】effects active on target and foes within 2 spaces of target to unit and allies with the Essence Drain effect, and neutralizes any【Bonus】active on target and foes within 2 spaces of target (excluding Bonus effects being granted at the same time). After combat, if foe was defeated in combat, restores 10 HP to unit and allies with the Essence Drain effect.<br><br>【Bonus Doubler】<br>Grants bonus to Atk/Spd/Def/Res during combat = current bonus on each of unit's stats for 1 turn. Calculates each stat bonus independently.<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Ce1={{Eft|Temporary debuffs|Atk/Res|6}}
+|s1 Ce2={{Eft|Guard}}
+|s1 Ce1-2T={{Tgt|Foe}}
+|s1 Ce3={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Res}}
+|s1 Ce4={{Eft|Damage Reduction|7}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|s1 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|skill2={{Si|Fimbulvetr Morn|refine=Skill1}} Skill refine effects
+|s2 Se1={{Eft|Bonuses|Atk/Res|6}}
+|s2 Se2={{SEt|Essence Drain}}
+|s2 Se3={{SEt|Bonus Doubler}}
+|s2 SeT={{Tgt|Unit}} '''&'''<br>({{Tgt|Partner}} '''or'''<br>{{Tgt|Ally}} with the<br>highest Atk)<br>[[within 2 spaces]]
+|s2 SeC=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25%
+|s2 Ce1={{Eft|Temporary debuffs|Atk/Res|6}}
+|s2 Ce1T={{Tgt|Foe}}
+|s2 Ce2={{Eft|Guaranteed Follow-Ups}}
+|s2 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s2 Me={{Eft|Heal|7}}
+|s2 MeC=After combat if<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{Temporary debuffs}}
+{{DamageBoost}}
+{{FlatDamageReduction|7}}
+{{CooldownChargeMinus}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Bonuses|name={{St|Fimbulvetr Morn|refine=Skill1}}}}
+{{Essence Drain|name={{St|Fimbulvetr Morn|refine=Skill1}}}}
+{{Bonus Doubler|name={{St|Fimbulvetr Morn|refine=Skill1}}}}
+{{SupportPartner|effect={{SEt|bonuses}}, {{SEt|Essence Drain}} and {{SEt|Bonus Doubler}} effects|name={{St|Fimbulvetr Morn|refine=Skill1}}}}
+{{Guaranteed follow-up interaction|name={{St|Fimbulvetr Morn|refine=Skill1}}}}
+{{After combat healing|name={{St|Fimbulvetr Morn|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V9.1_v0901a_seisen_Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=WikiName LIKE '%Fimbulvetr%' OR Description LIKE '%【Essence Drain】%' OR Description LIKE '%ally with the highest ___ within _ spaces of unit%'}}
+{{Weapons Navbox}}

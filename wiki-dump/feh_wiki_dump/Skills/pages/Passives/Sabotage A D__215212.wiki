@@ -1,0 +1,52 @@
+{{Passive
+|name=Sabotage A/D
+|type=B
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Sabotage A/D 3
+|alt1name=Sabotage A D 3
+|1tagid=SID_攻撃守備の混乱3
+|1effect=At start of turn, if any foe's Res < unit's Res and that foe is adjacent to another foe, inflicts Atk/Def-6 on that foe through its next action. At start of combat, if unit's Res > foe's Res, inflicts Atk/Def-X on foe during combat (X = 3 + highest penalty on each stat between target and foes within 2 spaces of target; calculates each stat penalty independently).
+|1cost=300
+|1required=Sabotage Atk 3;Sabotage Def 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se={{Eft|Penalties|Atk/Def|6}}
+|SeT={{Tgt|Foes}} [[adjacent]]<br>to other {{Tgt|Foes}}
+|SeC=At start of turn if<br>{{Tgt|Foe}}'s Res <<br>{{Tgt|Unit}}'s Res
+|Ce={{Eft|Temporary debuffs|Atk/Def|3 + highest {{SEt|Penalties}}<br>on {{Tgt|Target Foe}} & {{Tgt|Foes}}<br>[[within 2 spaces]] of {{Tgt|Target Foe}}}}
+|CeT={{Tgt|Foe}}
+|CeC={{Tgt|Unit}}'s Res<br>> {{Tgt|Foe}}'s Res<br>at start of combat
+}}
+==Notes==
+{{Penalties}}
+{{At start of combat}}
+{{TemporaryDebufffromPenalty|source=the foe or foes within 2 spaces of that foe|multiSource=1}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Sabotage A/D
+|japanese=攻撃守備の混乱
+|german=A/V-Sabotage
+|spanishEU=Sabotaje A/D
+|spanishLA=Sabotaje A/D
+|french=Sabotage A/D
+|italian=Sabotaggio A/D
+|chineseTW=攻擊防守擾亂
+|portuguese=Sabotagem A/D
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%foe is adjacent to another foe%' OR Description LIKE '%between target and foes within 2 spaces of target%' OR Description LIKE '%foe within 2 spaces of target, including target%') AND Exclusive='1'}}
+* [[Skill families/B Passives#Sabotage|Sabotage Passives]]
+{{Passives Navbox|B}}
+[[Category:Sabotage Passives]]

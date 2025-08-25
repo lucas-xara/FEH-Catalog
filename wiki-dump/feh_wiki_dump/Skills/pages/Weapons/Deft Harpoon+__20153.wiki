@@ -1,0 +1,40 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_魚を突いた銛＋
+|weaponType=Lance
+|might=14
+|range=1
+|effect=At start of combat, if unit's HP = 100%, grants Atk/Spd/Def/Res+2, but after combat, if unit attacked, deals 2 damage to unit.
+|cost=300
+|exclusive=0
+|statModifiers=0,14,0,0,0
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Notes==
+* The 100% HP requirement applies to the Atk/Spd/Def/Res +2 as well as the 2 damage after combat.
+{{IfUnitAttacked}}
+** Deft Harpoon drains 2 HP from its wielder if they attacked at any time during combat, regardless of who initiated combat.
+{{Combat boosts}}
+{{DamageToUnit}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=魚を突いた銛＋
+|german=Harpune +
+|spanishEU=Arpón certero +
+|spanishLA=Arpón certero +
+|french=Harpon marin +
+|italian=Lesto arpione+
+|chineseTW=捕魚叉＋
+|portuguese=Arpão certeiro+
+}}
+==See also==
+* [[Ylissean Summer Weapons]]
+{{Weapons Navbox}}
+[[Category:Ylissean Summer weapons]]

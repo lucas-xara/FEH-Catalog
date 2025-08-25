@@ -1,0 +1,49 @@
+{{Special
+|tagid=SID_爆火
+|name=Growing Flame
+|charge=4
+|effect=Before combat this unit initiates, foes in a wide area around target take damage equal to (unit's Atk minus foe's Def or Res). 
+|cost=300
+|required=Rising Flame
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_all,aoe_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|MapEffect={{Eft|Damage|{{Tgt|Unit}}'s Atk -<br>{{Tgt|Foe}}'s Def/Res}}
+|MapEffect Targets={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>within 5 spaces<br>in a horizontal line<br>centered on {{Tgt|Target Foe}}<br>'''&''' 1 space diagonal<br>from {{Tgt|Target Foe}}
+|MapEffect Conditions=Special triggers<br>before combat
+}}
+==Notes==
+{{AoE Special notes}}
+{{Main|Area-of-effect Specials}}
+{|class="wikitable default mw-collapsible" style="text-align:center"
+!Example of Area-of-effect for Growing Flame
+|-
+|align="middle"|{{AoE|special=1
+|-----
+|-x-x-
+|xxtxx
+|-x-x-
+|-----
+}}
+|}
+
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+* Growing Flame's cooldown was reduced by 1 with {{Version|2}}, released on November 28th, 2017.
+==In other languages==
+{{OtherLanguages
+|japanese=爆火
+|german=Tosende Flamme
+|spanishEU=Llama cegadora
+|spanishLA=Llama cegadora
+|french=Feu croissant
+|italian=Fuoco crescente
+|chineseTW=爆火
+|portuguese=Chama intensa
+}}
+{{Specials Navbox}}

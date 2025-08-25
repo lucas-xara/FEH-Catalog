@@ -1,0 +1,73 @@
+{{#invoke:NameAbout|main|Name=Citrinne}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Citrinne
+|Title=Caring Noble
+|WeaponType=Green Tome
+|MoveType=Infantry
+|Origin=Fire Emblem Engage
+|Gender=Female
+|actorEN=Brittney Karbowski
+|actorJP=長谷川育美
+|artist=ne-on
+|randomStartTime=2023-08-18T07:00:00Z
+|additionDate=July 18, 2023
+|releaseDate=July 18, 2023
+|poolDate=August 8, 2023
+|poolRarities=5
+|cv1=14
+|cv2=300700
+|TagID=シトリニカ
+|InternalID=977
+|Properties=
+|description=A noble of Brodia and retainer to Alcryst, she shares blood with the royal family and has an incredible fortune at her disposal. Appears in Fire Emblem Engage.
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=16|Lv1SPD=5|Lv1DEF=3|Lv1RES=11
+|GRHP=50|GRATK=70|GRSPD=50|GRDEF=45|GRRES=75
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Wind
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elwind
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Rexcalibur
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Tome of Luxuries
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Iceberg
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Special Spiral 1
+|passiveB2=Special Spiral 2
+|passiveB3=Special Spiral 3
+|passiveB4=Special Spiral 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Atk/Res Oath 1
+|passiveC2=Atk/Res Oath 2
+|passiveC3=Atk/Res Oath 3
+|passiveC4=Atk/Res Oath 4
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}

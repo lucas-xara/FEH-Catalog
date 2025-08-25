@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Homer}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Homer
+|Title=Traveling Bard
+|WeaponType=Blue Tome
+|MoveType=Infantry
+|Origin=Fire Emblem: Thracia 776
+|Gender=Male
+|actorEN=Aaron Dismuke
+|actorJP=岩崎諒太
+|artist=在由子
+|randomStartTime=2025-08-18T07:00:00Z
+|additionDate=July 18, 2025
+|releaseDate=July 18, 2025
+|poolDate=July 18, 2025
+|poolRarities=3,4
+|cv1=4
+|cv2=5900800
+|TagID=ホメロス
+|InternalID=1267
+|Properties=
+|description=A bard who has traveled throughout Thracia, observing an age of war and chaos. It is said that his saga is beloved by many in the generations that follow him. Appears in Fire Emblem: Thracia 776.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=10|Lv1SPD=8|Lv1DEF=6|Lv1RES=11
+|GRHP=50|GRATK=75|GRSPD=90|GRDEF=45|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Thunder
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elthunder
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Blárcrab
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Blárcrab+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Draw Back
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveB1=Chill Spd 1
+|passiveB2=Chill Spd/Res 1
+|passiveB3=Chill Spd/Res 2
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Spd/Res Oath 1
+|passiveC2=Spd/Res Oath 2
+|passiveC3=Spd/Res Oath 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

@@ -1,0 +1,73 @@
+{{Weapon Infobox
+|tagid=SID_生贄の聖女の杖
+|intID=4712
+|image=wep_rd073
+|exclusive=1
+|weaponType=Colorless Staff
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Calculates damage from staff like other weapons. Accelerates Special trigger (cooldown count-1; max cooldown count value cannot be reduced below 1).<br><br>At start of player phase or enemy phase, if unit is within 3 spaces of an ally, grants Atk/Res+6,【Bonus Doubler】, and "neutralizes penalties on unit during combat" to unit and allies within 3 spaces of unit for 1 turn.<br><br>If unit initiates combat or is within 3 spaces of an ally, inflicts penalty on foe's Atk/Res = 20% of unit's Res at start of combat + 6, unit deals +X × 5 damage (X = the total of the number of Bonus effects active on unit and the number of Penalty effects active on foe, excluding stat bonuses and stat penalties; max 5; excluding area-of-effect Specials; if the "calculates damage from staff like other weapons" effect is neutralized, damage from staff is calculated after combat damage is added), and unit makes a guaranteed follow-up attack during combat.<br><br>Grants Atk/Res+5 to allies within 3 spaces of unit during combat.<br><br>Grants "if unit's HP > 1 and foe would reduce unit's HP to 0 during combat, unit survives with 1 HP and after combat, restores 99 HP to unit" to allies within 3 spaces of unit (effect only triggers for player's team once per map and does not stack with non-Special effects that allow unit to survive with 1 HP if foe's attack would reduce unit's HP to 0; when any other such effect triggers on an ally granted this effect, this effect will trigger too).<br><br>【Bonus Doubler】<br>Grants bonus to Atk/Spd/Def/Res during combat = current bonus on each of unit's stats for 1 turn. Calculates each stat bonus independently.
+|required=Assault
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerate Special}}<br>(can't reduce CD below 1)
+|Se1={{Eft|Bonuses|Atk/Res|6}}
+|Se2={{SEt|Bonus Doubler}}
+|Se3={{SEt|Neutralize Bonuses}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 3 spaces]]
+|SeC=At start of turn<br>if an {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|Ce1={{Eft|Wrathful Staff}}
+|Ce2={{Eft|Temporary debuffs|Atk/Res|20% of {{Tgt|Unit}}'s Res<br>at start of combat, +6}}
+|Ce2T={{Tgt|Foe}}
+|Ce3={{Eft|Damage Boost|5 x ({{Kp|Bonus}} effects<br>on {{Tgt|Unit}} '''&''' {{Kp|Penalty}}<br>effects on {{Tgt|Foe}}), +5<br>(exc. {{SEt|Bonuses}} '''&''' {{SEt|Penalties}})|max=25}}
+|Ce4={{Eft|Guaranteed Follow-Ups}}
+|Ce2-4C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|Ce5={{Eft|Temporary buffs|Atk/Res|5}}
+|Ce6={{Eft|Miracle}}<br>(once per map)
+|Ce5-6T={{Tgt|Allies}}<br>[[within 3 spaces]]
+|Ce6C={{Tgt|Ally}}'s HP > 1
+|Me={{Eft|Heal|99}}<br>(once per map)
+|MeT={{Tgt|Allies}}<br>[[within 3 spaces]]
+|MeC=After {{Tgt|Ally}}'s combat if<br>{{Eft|Miracle}}<br>triggered
+}}
+==Notes==
+* Martyr's Staff has the same effect as {{St|Wrathful Staff 3}}.
+{{Wrathful Staff}}
+{{Bonuses}}
+{{Bonus Doubler}}
+{{Neutralize Bonuses}}
+{{IfUnitInitiates}}
+{{Temporary debuffs}}
+{{At start of combat}}
+{{FlatDamageBoost|X (max: 25)}}
+{{EffectfromBonus|damage boost|nonStat=1}}
+{{EffectfromPenalty|damage boost|nonStat=1}}
+{{Guaranteed follow-up interaction}}
+{{Temporary buffs}}
+{{Survive with 1 HP}}
+{{After combat healing|allies=1}}
+{{AlliesCombatEffect|temporary buffs, survival effect and after combat healing}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V9.5_v0905a_dark_Rod.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%survive%with 1 HP%' AND Description NOT LIKE '%"if foe would reduce%' AND (Description LIKE '%for allies within%survive%with 1 HP%' OR Description LIKE '%survive%with 1 HP%to allies within%')) AND Exclusive='1'}}
+{{Weapons Navbox}}

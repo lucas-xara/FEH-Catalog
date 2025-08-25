@@ -1,0 +1,31 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_白鷺の翼
+|weaponType=Beast
+|might=14
+|range=1
+|effect=Grants Spd+3. At start of turn, restores 7 HP to allies within 2 spaces of unit. At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, unit can move 1 extra space. (That turn only. Does not stack.) If unit transforms, grants Atk+2.
+|cost=400
+|exclusive=1
+|canUseMove=Flying
+|statModifiers=0,14,3,0,0
+|required=Adult (Flier)
+|properties=random_owner
+}}
+==Notes==
+{{Beast (Flier)}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=白鷺の翼
+|german=Reiherflügel
+|spanishEU=Ala de garza
+|spanishLA=Ala de garza
+|french=Aile de héron
+|italian=Ala dell'airone
+|chineseTW=白鷺之翼
+|portuguese=Asa de garça
+}}
+==See also==
+* 
+{{Weapons Navbox}}

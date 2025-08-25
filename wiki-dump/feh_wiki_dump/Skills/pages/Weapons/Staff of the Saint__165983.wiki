@@ -1,0 +1,92 @@
+{{Weapon Infobox
+|tagid=SID_聖女の杖
+|intID=2932
+|exclusive=1
+|weaponType=Colorless Staff
+|cost=400
+|might=14
+|range=2
+|effect=Foe cannot counterattack. At start of turn, grants Def/Res+6 to allies within 2 spaces of unit for 1 turn and inflicts【False Start】on foes in cardinal directions of unit with Res < unit’s Res. (If False Start is inflicted at the same time that start-of-turn effects trigger for the opponent, effects other than healing, damage, or Divine Vein will trigger simultaneously.)<br><br>【False Start】<br>Through their next action, target cannot activate skill effects that trigger at start of turn. (Start-of-turn effects that cause unit to transform or that refresh availability of Duo Skills or Harmonized Skills will still trigger. If this effect is neutralized at start of turn by skills like Even Recovery, Odd Recovery, etc., effects that would have triggered at start of turn, like healing and damage, will then trigger.)
+|statModifiers=0,14,0,0,0
+|required=Assault
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Foe cannot counterattack.<br><br>At start of turn, grants Def/Res+6 and 【Bonus Doubler】to unit and allies within 2 spaces of unit for 1 turn.<br><br>At start of turn, inflicts Atk/Res-7 and 【False Start】on foes in cardinal directions with Res < unit's Res through their next actions (if False Start is inflicted at the same time that start-of-turn effects trigger for the opponent, effects other than healing, damage, or Divine Vein will trigger simultaneously).<br><br>If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks, and deals damage = 20% of unit's Res during combat (excluding area-of-effect Specials; calculates damage from staff after combat damage is added).<br><br>【Bonus Doubler】<br>Grants bonus to Atk/Spd/Def/Res during combat = current bonus on each of unit's stats for 1 turn. Calculates each stat bonus independently.<br><br>【False Start】<br>Through their next action, target cannot activate skill effects that trigger at start of turn. (Start-of-turn effects that cause unit to transform or that refresh availability of Duo Skills or Harmonized Skills will still trigger. If this effect is neutralized at start of turn by skills like Even Recovery, Odd Recovery, etc., effects that would have triggered at start of turn, like healing and damage, will then trigger.)
+|refineStatsSkill1=0,0,0,0,0
+|effectSkill1=Enables Canto (1).<br><br>If foe initiates combat or foe's HP ≥ 75% at start of combat, grants bonus to unit's Atk/Spd/Def/Res = number of allies within 3 spaces of unit × 2, + 5 (max 11), neutralizes penalties on unit, and, grants Special cooldown charge +1 to unit per attack during combat (only highest value applied; does not stack).
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Se1={{Eft|Bonuses|Def/Res|6}}
+|s1 Se1T={{Tgt|Allies}}<br>[[within 2 spaces]]
+|s1 Se1C=At start of turn
+|s1 Se2={{SEt|False Start}}
+|s1 Se2T={{Tgt|Foes}} in<br>[[cardinal directions]]
+|s1 Se2C=At start of turn<br>if {{Tgt|Unit}}'s Res<br>> {{Tgt|Foe}}'s Res
+|s1 Ce={{Eft|Prevent Counter}}
+|s1 CeT={{Tgt|Foe}}
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Se1={{Eft|Bonuses|Def/Res|6}}
+|s2 Se2={{SEt|Bonus Doubler}}
+|s2 Se1-2T={{Tgt|Unit}} '''&'''<br>{{Tgt|Allies}}<br>[[within 2 spaces]]
+|s2 Se1-2C=At start of turn
+|s2 Se3={{Eft|Penalties|Atk/Res|7}}
+|s2 Se4={{SEt|False Start}}
+|s2 Se3-4T={{Tgt|Foes}} in<br>[[cardinal directions]]
+|s2 Se3-4C=At start of turn<br>if {{Tgt|Unit}}'s Res<br>> {{Tgt|Foe}}'s Res
+|s2 Ce1={{Eft|Prevent Counter}}
+|s2 Ce1T={{Tgt|Foe}}
+|s2 Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s2 Ce3={{Eft|Neutralize Guaranteed Follow-Ups}}
+|s2 Ce3T={{Tgt|Foe}}<br>
+|s2 Ce4={{Eft|Neutralize Prevent Follow-Ups}}
+|s2 Ce5={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Res}}
+|s2 Ce4-5T={{Tgt|Unit}}
+|s2 Ce2-5C=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|skill3={{Si|Staff of the Saint|refine=Skill1}} Skill refine effects
+|s3 Me={{Eft|Canto|1}}
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|2 x {{Tgt|Allies}}<br>[[within 3 spaces]], + 5|max=11}}
+|s3 Ce2={{Eft|Neutralize Penalties}}
+|s3 Ce3={{Eft|Accelerate Charge}}
+|s3 CeC=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+}}
+
+==Notes==
+* Staff of the Saint has the same effect as {{St|Dazzling Staff 3}}.
+{{Prevent counterattacks}}
+{{Bonuses}}
+{{False Start}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Bonus Doubler|name=Refined Staff of the Saint}}
+{{Penalties|name=Refined Staff of the Saint}}
+{{Temporary buffs|name=Refined Staff of the Saint}}
+{{Follow-up effect neutralization|name=Refined Staff of the Saint}}
+{{DamageBoost|name=Refined Staff of the Saint}}
+{{Canto|1|name={{St|Staff of the Saint|refine=Skill1}}}}
+{{IfFoeInitiates|name={{St|Staff of the Saint|refine=Skill1}}}}
+{{Penalty neutralization|name={{St|Staff of the Saint|refine=Skill1}}}}
+{{CooldownChargePlus|name={{St|Staff of the Saint|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=聖女の杖
+|german=Stab der Heiligen
+|spanishEU=Bastón sacro
+|spanishLA=Bastón sacro
+|french=Bâton de Sainte
+|italian=Bastone santo
+|chineseTW=聖女之杖
+|portuguese=Bastão da santa
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【False Start】%' OR Description LIKE '%start of turn%grants Def/Res+_ to%within _ spaces%for 1 turn%') AND Exclusive='1'}}
+* [[Ploy Passives]]
+* [[Form Passives]]
+{{Weapons Navbox}}

@@ -1,0 +1,52 @@
+{{Passive
+|name=Assassin's Strike
+|type=B
+|exclusive=0
+|canUseWeapon={{WeaponList|Physical}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Assassin's Strike
+|alt1name=Assassins Strike
+|1tagid=SID_理の蛇毒
+|1effect=If unit initiates combat, deals 7 damage to foe as combat begins (effects that reduce damage during combat do not apply; will not reduce foe's HP below 1), inflicts Spd/Def-4 on foe during combat, and deals damage = 20% of foe's Def (excluding area-of-effect Specials).
+|1cost=300
+|1required=Poison Strike 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{Eft|Damage|7}}<br>as combat begins
+|CombatEffect 2={{Eft|Temporary debuffs|Spd/Def|4}}
+|CombatEffect 3={{Eft|Damage Boost|20% of {{Tgt|Foe}}'s Def}}
+|CombatEffect 1-2 Targets={{Tgt|Foe}}
+|CombatEffect Conditions=Player Phase
+}}
+
+==Notes==
+{{IfUnitInitiates}}
+{{CombatDamage}}
+{{Temporary debuffs}}
+{{DamageBoost}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=理の蛇毒
+|japaneseNotes=<i>physical snake venom</i>
+|german=Assassinenschlag
+|spanishEU=Asalto mortal
+|spanishLA=Asalto mortal
+|french=Frappe d'assassin
+|italian=Colpo assassino
+|chineseTW=理之蛇毒
+|portuguese=Golpe assassino
+}}
+
+==See also==
+{{See also skills|cond=(Description LIKE '%deals%damage%combat begins%' OR Description LIKE '%deals damage%\% of foe_s Def%') AND Exclusive='1'}}
+* [[Flare Passives]]
+* [[Strike Passives]]
+{{Passives Navbox|B}}

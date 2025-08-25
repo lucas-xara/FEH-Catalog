@@ -1,0 +1,69 @@
+{{#invoke:NameAbout|main|Name=Kamui}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Kamui
+|Title=Wandering Blade
+|WeaponType=Red Sword
+|MoveType=Infantry
+|Origin=Fire Emblem Echoes: Shadows of Valentia
+|Gender=Male
+|actorEN=Bryce Papenbrook
+|actorJP=松田修平
+|artist=鈴木理華
+|randomStartTime=2022-08-19T07:00:00Z
+|additionDate=July 19, 2022
+|releaseDate=July 19, 2022
+|poolDate=August 9, 2022
+|poolRarities=3,4
+|cv1=2
+|cv2=200570
+|TagID=外伝カムイ
+|InternalID=830
+|Properties=
+|description=A mercenary who drifts from place to place. He hates being tied down and models a carefree yet composed attitude. Appears in Fire Emblem Echoes: Shadows of Valentia.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=10|Lv1SPD=11|Lv1DEF=10|Lv1RES=5
+|GRHP=60|GRATK=65|GRSPD=70|GRDEF=60|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Up-Front Blade
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Up-Front Blade+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Spd/Def Ideal 1
+|passiveA2=Spd/Def Ideal 2
+|passiveA3=Spd/Def Ideal 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Atk/Def Oath 1
+|passiveC2=Atk/Def Oath 2
+|passiveC3=Atk/Def Oath 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

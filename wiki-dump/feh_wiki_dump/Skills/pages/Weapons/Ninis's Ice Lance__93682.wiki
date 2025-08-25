@@ -1,0 +1,69 @@
+{{Weapon Infobox
+|tagid=SID_氷精ニニスの槍
+|weaponType=Blue Lance
+|might=16
+|range=1
+|userVersion1=Weapon
+|userVersion2=Gleam
+|effectiveness=dragon,beast
+|effect=Effective against dragon and beast foes. Grants Spd+3. If unit initiates combat, grants Atk/Spd/Def/Res+4 during combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,3,0,0
+|required=Silver Lance
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Effective against dragon and beast foes. Grants Spd+3. If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit and neutralizes effects that prevent unit's follow-up attacks during combat.
+|tagidExtraSkill1=一
+|effectSkill1=If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit during combat, and also, if unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 4 (max 40%).
+|iconSkill1=Niniss Ice Lance W.png
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Spd|3}}
+|s1 Ce1={{Eft|Effectiveness|{{Cwti|group=1|Dragon}} [[Dragon]] '''&''' {{Cwti|group=1|Beast}} [[Beast]]<br>}}
+|s1 Ce2={{Eft|Temporary Buffs|Atk/Spd/Def/Res|4}}
+|s1 CeC2=Player Phase
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Spd|3}}
+|s2 Ce1={{Eft|Effectiveness|{{Cwti|group=1|Dragon}} [[Dragon]] '''&''' {{Cwti|group=1|Beast}} [[Beast]]<br>}}
+|s2 Ce2={{Eft|Temporary Buffs|Atk/Spd/Def/Res|5}}
+|s2 Ce3={{Eft|Neutralize Prevent Follow-Up}}
+|s2 CeC2-3=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|skill3={{Si|Ninis's Ice Lance|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary Buffs|Atk/Spd/Def/Res|5}}
+|s3 Ce2={{Eft|Damage Reduction|4 x ({{Tgt|Unit}}'s Spd - {{Tgt|Foe)}}'s Spd)<br>from attacks & Non-Røkkr [[AoE Specials]]|percent=1|max=40%}}
+|s3 CeC1=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s3 CeC2=(Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]])<br>'''&''' {{Tgt|Unit}}'s Spd<br>> {{Tgt|Foe}}'s Spd
+}}
+==Notes==
+{{Effective damage bonus|dragon,beast}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Follow-up effect neutralization|preventOnly=1|name=Refined Ninis's Ice Lance}}
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=氷精ニニスの槍
+|german=Ninis' Eislanze
+|spanishEU=Pica gélida Ninis
+|spanishLA=Pica gélida Ninis
+|french=Lance glace Ninis
+|italian=Lancia di Ninis
+|chineseTW=冰妖精妮妮絲之槍
+|portuguese=Lança de Nini
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%unit_s Spd > foe_s Spd%reduces damage%attacks%area-of-effect Specials%' AND Description NOT LIKE '%【Dodge】%' AND Exclusive='1' OR WeaponEffectiveness='dragon,beast'}}
+* [[Skill families/B Passives#Dodge|Dodge Passives]]
+{{Weapons Navbox}}

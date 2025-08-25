@@ -1,0 +1,69 @@
+{{#invoke:NameAbout|main|Name=Palla}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Palla
+|Title=Soaring Summer
+|WeaponType=Green Axe
+|MoveType=Flying
+|Origin=Fire Emblem Echoes: Shadows of Valentia
+|Gender=Female
+|actorEN=Alexis Tipton
+|actorJP=種田梨沙
+|artist=ごましおポン酢
+|additionDate=June 17, 2025
+|releaseDate=June 17, 2025
+|cv1=2
+|cv2=300210
+|TagID=水着外伝パオラ
+|InternalID=1255
+|Properties=special
+|description=Eldest of the three sisters who are pegasus knights of the Macedonian Whitewings. Enjoys Askr's summer to its fullest. Appears in Fire Emblem Echoes: Shadows of Valentia.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=10|Lv1SPD=3|Lv1DEF=13|Lv1RES=10
+|GRHP=50|GRATK=90|GRSPD=35|GRDEF=75|GRRES=70
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Fannin' Foliage
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Fannin' Foliage+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=4
+|special1Unlock=3
+|special2=Ignis
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=A/D Near Trace 1
+|passiveB2=A/D Near Trace 2
+|passiveB3=A/D Near Trace 3
+|passiveB4=A/D Near Trace 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Atk/Def Rein 1
+|passiveC2=Atk/Def Rein 2
+|passiveC3=Atk/Def Rein 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Summer units]]

@@ -1,0 +1,49 @@
+{{About|the [[Passive]] skill|the [[Status effect]]|Creation Pulse (status effect)}}
+{{Passive
+|name=Creation Pulse
+|type=C
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|Infantry}}
+|properties=random_owner
+|1name=Creation Pulse
+|1tagid=SID_開闢の鼓動
+|1effect=If【Penalty】is active on foe, grants Atk/Spd+3 to unit during combat, and also, if unit's attack can trigger unit's Special, grants Special cooldown count-X to unit before unit's first attack during combat (X = number of 【Penalty】effects active on foe, excluding stat penalties; max 2).<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|1cost=300
+|1required=Time's Pulse 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary buffs|Atk/Spd|3}}
+|Ce1C=A {{Kp|Penalty}} effect<br>is active on {{Tgt|Foe}}
+|Ce2={{Eft|Reduce Cooldown|{{Kp|Penalty}} effects on<br>{{Tgt|Foe}} (exc.{{SEt|Penalties}})|max=2}}<br>before {{Tgt|Unit}}'s first attack
+|Ce2C=A {{Kp|Penalty}} effect<br>is active on {{Tgt|Foe}}<br>'''&''' {{Tgt|Unit}} has an<br>[[offensive special]]
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{CombatCooldownCount|-X (max: 2)}}
+{{EffectfromPenalty|temporary buffs and special cooldown count -X before unit's first attack}}
+
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=開闢の鼓動
+|german=Schöpfungspuls
+|spanishEU=Pulso de creación
+|spanishLA=Pulso de creación
+|french=Pouls initial
+|italian=Battito iniziale
+|chineseTW=開闢之躍動
+|portuguese=Pulso de criação
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%special cooldown count-%before unit_s first attack%') AND Exclusive='1'}}
+{{Passives Navbox|C}}

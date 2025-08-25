@@ -1,0 +1,66 @@
+{{#invoke:NameAbout|main|Name=Charlotte}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Charlotte
+|Title=Money Maiden
+|artist=pikomaro
+|GrowthModifier=None
+|WeaponType=Blue Lance
+|MoveType=Infantry
+|Origin=Fire Emblem Fates
+|Gender=Female
+|actorEN=Brianna Knickerbocker
+|actorJP=清水愛
+|releaseDate=May 30, 2017
+|TagID=花嫁シャーロッテ
+|InternalID=135
+|Properties=special,tiara,specRate_202202
+|cv1=11
+|cv2=600300
+|description=Nohrian border guard always on patrol, whether to find enemies to fight or a rich fellow to marry. Appears in Fire Emblem Fates.
+}}
+__TOC__
+{{Stats Page
+|Lv1HP=20|Lv1ATK=10|Lv1SPD=8|Lv1DEF=5|Lv1RES=4
+|GRHP=60|GRATK=60|GRSPD=55|GRDEF=45|GRRES=35
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=First Bite
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=First Bite+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Smite
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Wind Boost 1
+|passiveA2=Wind Boost 2
+|passiveA3=Wind Boost 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Threaten Atk 1
+|passiveC2=Threaten Atk 2
+|passiveC3=Threaten Atk 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Bridal Festival units]]

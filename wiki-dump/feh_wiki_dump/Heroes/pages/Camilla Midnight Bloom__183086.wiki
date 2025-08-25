@@ -1,0 +1,75 @@
+{{#invoke:NameAbout|main|Name=Camilla}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Camilla
+|Title=Midnight Bloom
+|WeaponType=Red Tome
+|MoveType=Flying
+|Origin=Fire Emblem Fates
+|Gender=Female
+|actorEN=Misty Lee
+|actorJP=沢城みゆき
+|artist=煎茶
+|additionDate=November 8, 2022
+|releaseDate=November 8, 2022
+|cv1=11
+|cv2=500500
+|TagID=忍者カミラ
+|InternalID=870
+|Properties=special,tiara
+|description=Eldest princess of Nohr whose love for her siblings is second to none, she has joined the ninja festival in a captivating outfit. Appears in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=13|Lv1SPD=4|Lv1DEF=6|Lv1RES=10
+|GRHP=50|GRATK=70|GRSPD=35|GRDEF=60|GRRES=70
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Flux
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Ruin
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Fenrir
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Flowery Scroll
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Glimmer
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Close Counter
+|passiveA2=Close Salvo
+|passiveA1Unlock=4
+|passiveA2Unlock=5
+|passiveB1=Seal Res 1
+|passiveB2=Seal Res 2
+|passiveB3=Seal Res 3
+|passiveB4=Seal Res 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Atk/Res Rein 1
+|passiveC2=Atk/Res Rein 2
+|passiveC3=Atk/Res Rein 3
+|passiveC4=Atk/Res Hold
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Ninja Festival units]]

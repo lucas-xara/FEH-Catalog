@@ -1,0 +1,52 @@
+{{Special
+|tagid=SID_絆・神竜破2
+|intID=4235
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=3
+|effect=Boosts Special damage by 50% of unit's Spd when Special triggers.<br><br>At start of turn, if unit is not on a team with unit's support partner, grants【Bonded】to allies with the highest Atk within 2 spaces of unit.<br><br>If unit is on a team with their support partner or if an ally has an active【Bonded】effect, for unit, support partner, and any allies with an active【Bonded】effect, when Special triggers, neutralizes foe's "reduces damage by X%" effects from foe's non-Special skills during combat (excluding area-of-effect Specials).<br><br>If unit is within 3 spaces of a support partner or an ally with an active【Bonded】effect, and unit or foe's Special is ready or triggered before or during this combat, reduces damage from foe's next attack by 40% (once per combat; excluding area-of-effect Specials).<br><br>【Bonded】<br>Grants a status that can trigger certain skill effects to unit for 1 turn.
+|required=Glimmer
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se={{SEt|Bonded}}
+|SeT={{Tgt|Allies}} with<br>the highest Atk<br>[[within 2 spaces]]
+|SeC=At start of turn if<br>a {{Tgt|Partner}} is<br>not deployed
+|Ce1={{Eft|Damage Boost|50% of {{Tgt|Unit}}'s Spd}}
+|Ce1C=Special triggers
+|Ce2={{Eft|Neutralize Damage Reduction}}<br>per {{Tgt|Target Units}}' [[offensive Specials]]
+|Ce2T={{Tgt|Unit}},<br>{{Tgt|Partner}} '''&'''<br>{{Tgt|Allies}} with<br>{{SEt|Bonded}}
+|Ce2C=A {{Tgt|Partner}}<br>is deployed '''or'''<br>an {{Tgt|Ally}} has<br>{{SEt|Bonded}}
+|Ce3={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s next attack
+|Ce3T={{Tgt|Unit}}
+|Ce3C=({{Tgt|Unit}} or {{Tgt|Foe}}'s<br>Special is ready '''or'''<br>triggered before or<br>during combat) '''&'''<br>(A {{Tgt|Partner}} '''or'''<br>an {{Tgt|Ally}} with<br>{{SEt|Bonded}}) is<br>[[within 3 spaces]]
+}}
+
+==Notes==
+{{DamageBoost}}
+{{Bonded}}
+{{SelectStat|Atk}}
+{{DamageReductionNeutralization}}
+{{DamagePercentageReduction}}
+{{SupportPartner|effect=damage reduction granted to the unit and damage reduction neutralization effects}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=絆・神竜破
+|german=Bündnisschlag
+|spanishEU=Ráfaga fusión
+|spanishLA=Ráfaga fusión
+|french=Explosion de lien
+|italian=Raggio d'unione
+|chineseTW=牽絆・神龍破
+|portuguese=Rajada unida
+}}
+==See also==
+{{See also skills|cond=SCategory='special' AND Exclusive='1' AND (Description LIKE '%Boosts%damage by __% of unit_s Spd%' OR Description LIKE '%reduces%foe_s next attack by%' OR (Description LIKE '%disables%reduce%damage by x%' OR Description LIKE '%neutralizes%reduce%damage by x%') AND Description LIKE '%non-Special%' AND Description NOT LIKE '%reduces the percentage%') OR Description LIKE '%unit or foe_s special is ready%' OR Description LIKE '%【Bonded】%'}}
+* [[Skill families/A Passives#Finish|Finish Passives]]
+{{Specials Navbox}}

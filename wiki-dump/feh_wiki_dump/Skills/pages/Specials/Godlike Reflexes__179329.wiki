@@ -1,0 +1,33 @@
+{{Special
+|tagid=SID_神速回避
+|intID=3248
+|exclusive=0
+|canUseWeapon={{WeaponList|Melee}}
+|canUseMove={{MoveList|Infantry}}
+|cost=500
+|cooldown=3
+|effect=If unit's Spd ≥ foe's Spd-4 and unit's Special is ready or unit's Special triggered during combat, deals damage = 15% of unit's Spd. When Special triggers, reduces damage from foe's attack by 40%. (Special triggers only if unit's Spd ≥ foe's Spd-4.)
+|required=Escutcheon
+|properties=random_owner,defensive_special
+}}
+==Notes==
+{{DamageBoost|special=0}}
+{{DefensiveSkill}}
+{{DamagePercentageReduction}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=神速回避
+|german=Göttliche Reflexe
+|spanishEU=Reflejos divinos
+|spanishLA=Reflejos divinos
+|french=Réflexes divins
+|italian=Riflessi divini
+|chineseTW=神速迴避
+|portuguese=Reflexos divinos
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit_s Spd ≥ foe_s Spd-4%' OR Description LIKE '%deals damage =%of unit_s Spd%'}}
+{{Specials Navbox}}

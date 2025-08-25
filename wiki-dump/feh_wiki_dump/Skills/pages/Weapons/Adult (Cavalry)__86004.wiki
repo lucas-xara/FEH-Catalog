@@ -1,0 +1,33 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_成獣の化身・騎馬
+|weaponType=Beast
+|might=9
+|range=1
+|effect=At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack.
+|cost=200
+|exclusive=0
+|canUseMove=Cavalry
+|statModifiers=0,9,0,0,0
+|required=Yearling (Cavalry)
+|properties=random_all
+}}
+==Notes==
+{{Beast (Cavalry)}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=成獣の化身・騎馬
+|german=Adultus (Reiter)
+|spanishEU=Fiera adulta veloz
+|spanishLA=Fiera adulta veloz
+|french=Adulte (cavalerie)
+|italian=Adulto (fantino)
+|chineseTW=成獸化身・騎馬
+|portuguese=Adulto (caval.)
+}}
+==See also==
+{{See also skills|cond=Name LIKE 'Adult (%)'}}
+{{Weapons Navbox}}

@@ -1,0 +1,52 @@
+{{Passive
+|type=C
+|name=All Together!
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=All Together!
+|alt1name=All Together
+|1tagid=SID_ずっとみんなと一緒
+|1cost=300
+|1effect=Grants Atk/Spd/Def/Res+4 to allies within 2 spaces during combat. If unit is within 2 spaces of an ally, reduces damage from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by X% (X = number of allies within 2 spaces of unit × 40; max 80%), grants unit Atk/Spd/Def/Res+4 during combat, and reduces damage from foe's first attack by X% (X = number of allies within 2 spaces of unit × 20; max 40%).
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Damage Reduction|40 x {{Tgt|Allies}} [[within 2 spaces]]<br>from Non-Røkkr [[AoE Specials]]|percent=1|max=80%}}
+|MeC=An {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|Ce1T={{Tgt|Allies}}<br>[[within 2 spaces]]
+|Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|Ce3={{Eft|Damage Reduction|20 x {{Tgt|Allies}} [[within 3 spaces]]|max=40%|percent=1}}<br>from {{Tgt|Foe}}'s first attack
+|Ce2-3C=An {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+==Notes==
+{{Temporary buffs}}
+{{AlliesCombatEffect}}
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=All Together!
+|japanese=ずっとみんなと一緒
+|german=Alle zusammen!
+|spanishEU=Todos a una
+|spanishLA=¡Todos juntos!
+|french=Tous pour un
+|italian=Tutti insieme
+|chineseTW=和大家永遠在一起
+|portuguese=Todos juntos!
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%grants Atk/Spd/Def/Res+_ to allies within _ spaces%during combat%' OR Description LIKE '%educes damage from area-of-effect Specials by%') AND Exclusive='1' AND Description NOT LIKE '%【Divine Vein (Stone)】%' AND Name NOT LIKE '%Breidablik%'}}
+* [[Skill families/C Passives#Joint Drive|Joint Drive Passives]]
+{{Passives Navbox|C}}

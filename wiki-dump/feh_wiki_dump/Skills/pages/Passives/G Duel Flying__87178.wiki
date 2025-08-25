@@ -1,0 +1,69 @@
+{{Passive
+|name=G Duel Flying
+|type=A
+|exclusive=0
+|1required=-
+|1name=G Duel Flying 1
+|1tagid=SID_緑の死闘・飛行1
+|1promotionRarity=4
+|1promotionTier=1
+|1effect=Grants HP+3. If unit is 5★ and level 40 and unit's stats total less than 160, treats unit's stats as 160 in modes like Arena. (Higher-scoring opponents will appear. Stat total calculation excludes any values added by merges and skills.)
+|1cost=70
+|2name=G Duel Flying 2
+|2tagid=SID_緑の死闘・飛行2
+|2promotionRarity=5
+|2promotionTier=1
+|2effect=Grants HP+4. If unit is 5★ and level 40 and unit's stats total less than 165, treats unit's stats as 165 in modes like Arena. (Higher-scoring opponents will appear. Stat total calculation excludes any values added by merges and skills.)
+|2cost=150
+|3name=G Duel Flying 3
+|3tagid=SID_緑の死闘・飛行3
+|3effect=Grants HP+5. If unit is 5★ and level 40 and unit's stats total less than 170, treats unit's stats as 170 in modes like Arena. (Higher-scoring opponents will appear. Stat total calculation excludes any values added by merges and skills.)
+|3cost=300
+|4name=G Duel Flying 4
+|4tagid=SID_緑の死闘・飛行4
+|4effect=Grants HP+5, Atk/Spd/Def/Res+2. If unit is 5★, level 40, a Legendary Hero or a Mythic Hero, and unit's stats total less than 175, treats unit's stats as 175 in modes like Arena. If unit is 5★, level 40, not a Legendary Hero or Mythic Hero, and unit's stats total less than 180, treats unit's stats as 180 in modes like Arena. (Higher-scoring opponents will appear. Stat total calculation excludes any values added by merges and skills.)
+|4cost=300
+|statModifiers1=3,0,0,0,0
+|statModifiers2=4,0,0,0,0
+|statModifiers3=5,0,0,0,0
+|statModifiers4=5,2,2,2,2
+|canUseMove=Flying
+|canUseWeapon={{WeaponList|Green}}
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|G Duel Flying 3}} G Duel Flying 3
+|s1 Pe1={{Eft|Stat Boosts|HP|5}}
+|s1 Pe2={{Eft|Duel|170}}
+|s1 Pe2C={{Tgt|Unit}} is {{Rarity|5}}, LV. 40<br>'''&''' stat total < 170
+|skill2={{Si|G Duel Flying 4}} G Duel Flying 4
+|s2 Pe1={{Eft|Stat Boosts|HP|5}},<br>{{Eft|Stat Boosts|Atk/Spd/Def/Res|2}}
+|s2 Pe2={{Eft|Duel|175}}
+|s2 Pe2C={{Tgt|Unit}} is {{Rarity|5}}, LV. 40,<br>is a {{Utt|Legendary}}<br> or {{Utt|Mythic}} Hero<br>'''&''' stat total < 175
+|s2 Pe3={{Eft|Duel|180}}
+|s2 Pe3C={{Tgt|Unit}} is {{Rarity|5}}, LV. 40,<br>isn't a {{Utt|Legendary}}<br> or {{Utt|Mythic}} Hero<br>'''&''' stat total < 180
+}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=緑の死闘・飛行
+|german=G Duell-Flieger
+|spanishEU=Lid aérea V
+|spanishLA=Lid aérea V
+|french=Duel aérien (V)
+|italian=Sfida volante V
+|chineseTW=綠色死鬥・飛行
+|portuguese=Duelo aéreo V
+}}
+==See also==
+* [[HP +]]
+* [[Duel Passives]]
+{{Passives Navbox|A}}
+[[Category:Duel Passives]]

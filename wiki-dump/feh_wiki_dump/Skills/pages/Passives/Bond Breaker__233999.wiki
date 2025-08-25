@@ -1,0 +1,58 @@
+{{Passive
+|name=Bond Breaker
+|type=A
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Bond Breaker
+|1tagid=SID_絆を引き裂くもの
+|1effect=Unit can counterattack regardless of foe's range.<br><br>At start of player phase or enemy phase, if unit's HP ≥ 25%, grants【Fell Spirit】to unit and allies within 2 spaces of unit for 1 turn, and inflicts Atk/Spd-7 and【Schism】on closest foes and any foes within 2 spaces of those foes through their next actions.<br><br>If foe initiates combat or if unit's HP ≥ 25% at start of combat, grants Atk/Spd/Def/Res+9 to unit and reduces damage from foe's first attack by 7 during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and also, if unit's HP > 1 and foe would reduce unit's HP to 0, unit survives with 1 HP (once per combat; does not stack with non-Special effects that allow unit to survive with 1 HP if foe's attack would reduce HP to 0).<br><br>【Fell Spirit】<br>Inflicts Atk/Spd/Def/Res-4 on foe and neutralizes effects that prevent unit's counterattacks during combat, any "reduces damage by X%" effect that can be triggered only once per combat by unit's equipped Special skill can be triggered up to twice per combat (excludes boosted Special effects from engaging; only highest value applied; does not stack), and also, when unit or foe is engaged, inflicts an additional Atk/Spd/Def/Res-2 on foe during combat.<br>(For 1 turn.)<br><br>【Schism】<br>Neutralizes Triangle Attack, Dual Strike, and Pathfinder effects active on unit through unit's next action. Unit is excluded from ally Triangle Attack and Dual Strike effects calculated using numbers of allies. When this status (Schism) is neutralized, Triangle Attack, Dual Strike, and Pathfinder effects are also neutralized.
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{SEt|Fell Spirit}}
+|Se1T={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|Se2={{Eft|Penalties|Atk/Spd|7}}
+|Se3={{SEt|Schism}}
+|Se2-3T=Closest {{Tgt|Foes}}<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}
+|SeC=At start Both Phases<br>if {{Tgt|Unit}}'s HP ≥ 25%
+|Ce1={{Eft|Distant Counter}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|9}}
+|Ce3={{Eft|Damage Reduction|7}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce2-3C=Enemy Phase '''or'''<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce4={{Eft|Miracle}}<br>(once per combat)
+|Ce4C={{Eft|Temporary buffs|Atk/Spd/Def/Res|9}}<br>conditions '''&''' {{Tgt|Unit}}'s HP > 1
+}}
+==Notes==
+* Fell Blast has the same effect as {{St|Distant Counter}}.
+{{Fell Spirit}}
+{{Penalties}}
+{{Schism}}
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+{{FlatDamageReduction|7}}
+{{Survive with 1 HP}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Fell Spirit】%' OR Description LIKE '%【Schism】%' OR '%unit survives with 1 HP%' AND Description NOT LIKE '%"if foe would reduce%' OR (Description LIKE '%counterattack regardless of%range%' AND SCategory!='Weapon' AND Description NOT LIKE '%【Style】%')) AND ((Exclusive=1 AND Name NOT LIKE '%+'))}}
+* [[Counter Passives]]
+* [[Counter Seals]]
+* [[Prime Passives]]
+* [[Weapons with Distant Counter]]
+* [[Weapons with Close Counter]]
+{{Passives Navbox|A}}

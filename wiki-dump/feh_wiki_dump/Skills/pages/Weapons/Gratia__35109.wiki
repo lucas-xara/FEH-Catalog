@@ -1,0 +1,40 @@
+{{Weapon Infobox
+|tagid=SID_グラーティア
+|weaponType=Bow
+|might=8
+|range=2
+|effectiveness=flying
+|effect=Effective against flying foes.<br>If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.
+|cost=200
+|userVersion1=Bow
+|userVersion2=Arrow
+|statModifiers=0,8,0,0,0
+|exclusive=0
+|next=Gratia+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Bow
+|properties=
+}}
+==Notes==
+* Has the same effect as {{St|Dull Ranged 3}}.
+{{Bonus neutralization}}
+{{Effective damage bonus|flying}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=グラーティア
+|german=Gratia
+|spanishEU=Gratia
+|spanishLA=Gratia
+|french=Gratia
+|italian=Gratia
+|chineseTW=格蘭蒂亞
+|portuguese=Gratia
+}}
+==See also==
+* [[Love Abounds Weapons]]
+* [[Skills that neutralize bonuses]]
+{{Weapons Navbox}}
+[[Category:Love Abounds weapons]]

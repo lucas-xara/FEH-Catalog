@@ -1,0 +1,64 @@
+{{#invoke:NameAbout|main|Name=Finn}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Finn
+|Title=Devoted Service
+|WeaponType=Red Sword
+|MoveType=Cavalry
+|Origin=Fire Emblem: Thracia 776
+|Gender=Male
+|actorEN=Robert Clotworthy
+|actorJP=置鮎龍太郎
+|artist=マキムラシュンスケ
+|additionDate=August 6, 2025
+|releaseDate=August 7, 2025
+|cv1=4
+|cv2=100200
+|TagID=お茶会フィン
+|InternalID=1276
+|Properties=tempest,specDisplay
+|description=A devoted vassal who serves Leonster's royal family. Trading his trusty lance for a tea set, he puts his skills as server on display. Appears in Fire Emblem: Thracia 776.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=11|Lv1SPD=13|Lv1DEF=7|Lv1RES=4
+|GRHP=50|GRATK=85|GRSPD=75|GRDEF=70|GRRES=35
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Serving Knife
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Serving Knife+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Shove
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Spd/Def Clash 1
+|passiveA2=Spd/Def Clash 2
+|passiveA3=Spd/Def Clash 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Spd/Def Snag 1
+|passiveB2=Spd/Def Snag 2
+|passiveB3=Spd/Def Snag 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+}}
+{{Heroes Navbox}}

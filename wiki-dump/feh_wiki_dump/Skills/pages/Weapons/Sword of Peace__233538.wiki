@@ -1,0 +1,74 @@
+{{Weapon Infobox
+|tagid=SID_平和の願いの剣
+|intID=4688
+|image=wep_sw197
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>For allies within 3 spaces of unit, grants Atk/Spd+5 and grants Special cooldown count-1 to ally before ally's first attack during combat, and restores 10 HP to those allies after their combat.<br><br>If unit is within 3 spaces of an ally, grants bonus to unit's Atk/Spd/Def/Res = number of allies within 3 rows or 3 columns centered on unit × 3, + 5 (max 14), unit deals +X damage (excluding area-of-effect Specials), reduces damage from foe's first attack by 50% of X during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), reduces damage from foe's Specials by an additional 50% of X (excluding area-of-effect Specials; X = highest total bonuses among unit and allies within 3 spaces of unit), grants Special cooldown count-1 to unit before unit's first attack, and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials), and restores 10 HP to unit after combat.
+|required=Silver Sword
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Ce1={{Eft|Temporary buffs|Atk/Spd|5}}
+|Ce2={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Ally}}'s first attack
+|Ce1-2T={{Tgt|Allies}}<br>[[within 3 spaces]]
+|Ce3={{Eft|Temporary buffs|Atk/Spd/Def/Res|3 x {{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}, + 5|max=14}}
+|Ce4={{Eft|Damage Boost|highest total {{SEt|bonuses}}<br>on {{Tgt|Unit}} '''or''' {{Tgt|Allies}}<br>[[within 3 spaces]]}}
+|Ce5={{Eft|Damage Reduction|50% of highest total<br>{{SEt|bonuses}} on {{Tgt|Unit}} '''or'''<br>{{Tgt|Allies}} [[within 3 spaces]]|percent=0}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce6={{Eft|Damage Reduction|50% of highest total<br>{{SEt|bonuses}} on {{Tgt|Unit}} '''or'''<br>{{Tgt|Allies}} [[within 3 spaces]]|percent=0}} per<br>{{Tgt|Foe}}'s [[offensive special]]
+|Ce7={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Unit}}'s first attack
+|Ce8={{Eft|Reduce Damage Reduction|50%}}
+|Ce8T={{Tgt|Foe}}
+|Ce3-8C=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|Me1={{Eft|Heal|10}}
+|Me1T={{Tgt|Allies}}<br>[[within 3 spaces]]
+|Me1C=After {{Tgt|Ally}}'s combat
+|Me2={{Eft|Heal|10}}
+|Me2C=After combat if<br>an {{Tgt|Ally}} is<br>[[within 3 spaces]]
+}}
+==Notes==
+{{Temporary buffs}}
+{{CombatCooldownCount|-1}}
+{{AlliesCombatEffect|temporary buffs and special cooldown count -1 effects}}
+{{After combat healing|allies=1}}
+{{DamageBoost}}
+{{FlatDamageReduction}}
+{{Reduce Damage Reduction}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Marth: Love and Courage|t=Tiki: Awakened Blood
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=Espada de la paz
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+
+==See also==
+{{See also skills|cond=(Description LIKE '%highest total bonuses % unit and allies%') AND (Exclusive=1 AND Name NOT LIKE '%+' AND Properties HOLDS NOT 'arcane')}}
+{{Weapons Navbox}}

@@ -1,0 +1,66 @@
+{{Passive
+|name=The Heir to Light
+|type=C
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=The Heir to Light
+|1tagid=SID_真・光をつぐもの
+|1effect=Enables【Canto (Dist. +1; Max ４)】.<br><br>When Canto triggers, enables unit to use 【Reposition】on ally (this effect is not treated as an Assist skill; if similar effects are active, this effect does not trigger).<br><br>At start of turn, if unit is within 2 spaces of an ally, grants Atk/Spd+6,【Null Follow-Up】, and 【Incited】to unit and allies within 2 spaces of unit for 1 turn and grants "unit can move 1 extra space" to unit and sword, lance, axe, infantry, and flying allies within 2 spaces of unit for 1 turn (does not stack).<br><br>If unit initiates combat or is within 2 spaces of an ally, grants bonus to unit's Atk/Spd = number of spaces from start position to end position of whoever initiated combat + 5 (max 9) and reduces damage from foe's first attack by 7 during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and restores 7 HP to unit after combat.<br><br>【Canto (Dist. +1; Max ４)】<br>After an attack, Assist skill, or structure destruction, unit can move spaces = number of spaces from start position to end position of unit before the above, +1. (Max ４.)<br><br>【Reposition】<br>Range = 1. Target moves to opposite side of unit.<br><br>【Null Follow-Up】<br>If unit's Spd > foe's Spd during combat, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks for 1 turn.<br><br>【Incited】<br>If unit initiates combat, grants bonus to unit's Atk/Spd/Def/Res = number of spaces from start position to end position of unit during combat (max 3; that turn only).
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Canto|Dist. +1; Max 4}}
+|Me2={{Eft|Reposition}}
+|Me2T={{Tgt|Target Ally}}
+|Me2C=After [[Canto]] movement
+|Me3={{Eft|Heal|7}}
+|Me3C=After combat on<br>Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Se1={{Eft|Bonuses|Atk/Spd|6}}
+|Se2={{SEt|Null Follow-Up}}
+|Se3={{SEt|Incited}}
+|Se1-3T={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|Se4={{SEt|Mobility Increased}}
+|Se4T={{Tgt|Unit}}, {{Cwti|group=1|Melee}} [[Melee]],<br>{{Mt|Infantry}}, '''&''' {{Mt|Flying}}<br>{{Tgt|Allies}} [[within 2 spaces]]
+|SeC=At start of turn<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce1={{Eft|Temporary buffs|Atk/Spd|spaces initiator moved, +5|max=9}}
+|Ce2={{Eft|Damage Reduction|7}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+
+==Notes==
+{{Canto|Dist. +1; Max 4}}
+{{Movement skill notes}}
+{{Bonuses}}
+{{Null Follow-Up}}
+{{Incited}}
+{{Mobility increased}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{SpacesFromStarttoEnd}}
+{{FlatDamageReduction|7}}
+{{After combat healing}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%move%opposite side of unit%' OR (Description LIKE '%infantry%"unit can move 1 extra space%' OR Description LIKE '%"unit can move 1 extra space%infantry%' OR Description LIKE '%within _ spaces of an ally%can move 1 extra space%') AND Exclusive='1'}}
+* [[Shadow Passives]]
+* [[Skill families/C Passives#Incite Hone|Incite Hone Passives]]
+* [[Skill families/C Passives#Rein Snap|Rein Snap Passives]]
+* [[Clash Passives]]
+{{Passives Navbox|C}}

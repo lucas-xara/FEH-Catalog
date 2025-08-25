@@ -1,0 +1,61 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_シンモラ
+|weaponType=Axe
+|weaponName={{PAGENAME}}
+|might=16
+|range=1
+|effect=Grants Def+3. At start of turn, deals 20 damage to foes within 2 spaces.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,3,0
+|required=Silver Axe
+|properties=random_owner
+}}
+==Notes==
+{{Out of Combat Damage}}
+{| class="wikitable default mw-collapsible" 
+! align="middle" | Example of Area of Effect
+|-
+| align="middle" ! |
+<div style="max-width: 450px; margin: auto;>{{AoE|u=Surtr: Ruler of Flame|t=Alfonse: Prince of Askr
+|--t--
+|-xxx-
+|xxuxx
+|-xxx-
+|--x--
+}}</div>
+|}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+File:Wep ax019.webp|Spritesheet of '''Sinmara'''
+File:Weapon Sinmara.png|
+File:Weapon Sinmara V2.png|
+File:Weapon Sinmara V3.png|
+File:Weapon Sinmara V4.png|
+File:Weapon Sinmara V5.png|
+File:Weapon Sinmara V6.png|
+File:Wep axXXX シンモラ.png|Found at <code>files/assets/Common/Unit/ch00_07_Surtr_M_Normal/tex/Wep_axXXX_シンモラ.png</code>, this appears to be a prototype sprite of Sinmara.
+</gallery>
+
+==Trivia==
+{{NorseMyth|is the wife of [[Wikipedia:Surtr|Surtr]].}}
+==In other languages==
+{{OtherLanguages
+|japanese=シンモラ
+|german=Sinmara
+|spanishEU=Sinmore
+|spanishLA=Sinmara
+|french=Sinmara
+|italian=Sinmara
+|chineseTW=辛摩拉
+|portuguese=Sinmara
+}}
+
+==See also==
+* [[Breath of Blight]]
+* [[Skadi]]
+* [[Imhullu]]
+* [[Sökkvabekkr]]
+{{Weapons Navbox}}

@@ -1,0 +1,37 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_銀の斧＋
+|weaponType=Axe
+|weaponName=Silver Axe+
+|altWeaponName=Silver Axe Plus
+|might=15
+|range=1
+|effect=
+|cost=300
+|exclusive=0
+|statModifiers=0,15,0,0,0
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|upgradedMight=16
+|properties=random_all
+}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=銀の斧＋
+|german=Silberaxt+
+|spanishEU=Hacha plata +
+|spanishLA=Hacha plata +
+|french=Hache argent +
+|italian=Ascia argento+
+|chineseTW=銀斧＋
+|portuguese=Machado prata+
+}}
+==See also==
+* [[Silver Weapons]]
+{{Weapons Navbox}}
+[[Category:Silver weapons]]

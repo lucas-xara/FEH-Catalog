@@ -1,0 +1,57 @@
+{{Weapon Infobox
+|tagid=SID_儚く優しい心の器
+|intID=4011
+|image=wep_mg288
+|exclusive=1
+|weaponType=Green Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Enables【Canto (１)】.<br><br>Accelerates Special trigger (cooldown count-1). At start of combat, if unit's HP ≥ 25%, deals damage to foe = X% of foe's Atk as combat begins (if unit has weapon-triangle advantage or if unit's Res > foe's Res, X = 40; otherwise, X = 20; activates only when unit can attack in combat; effects that reduce damage "during combat" do not apply; will not reduce foe's HP below 1), grants Atk/Def/Res+5 to unit during combat, grants bonus to unit's Atk/Def/Res during combat = 20% of unit's Res at start of combat, and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials).<br><br>【Canto (１)】<br>After an attack, Assist skill, or structure destruction, unit can move １ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|required=Rexcalibur
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|PermanentEffect={{Eft|Accelerates Special}}
+|Me={{Eft|Canto|1}}
+|Ce1={{Eft|Damage|(40% if {{Tgt|Unit}}'s Res ><br>{{Tgt|Foe}}'s Res '''or''' {{Tgt|Unit}} has<br>[[weapon triangle|triangle]] advantage; else 20%)}} of<br>{{Tgt|Foe}}'s Atk as combat begins
+|Ce2={{Eft|Reduce Damage Reduction|50%}}
+|CeC1={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat '''&'''<br>{{Tgt|Unit}} can attack
+|Ce3={{Eft|Temporary buffs|Atk/Def/Res|5}}
+|Ce4={{Eft|Temporary buffs|Atk/Def/Res|20% of {{Tgt|Unit}}'s Res<br>at start of combat}}
+|CeC2-4={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|CeT1-2={{Tgt|Foe}}
+}}
+
+==Notes==
+{{Canto|1}}
+{{CombatDamage|noCounter=1}}
+{{Temporary buffs}}
+{{At start of combat}}
+{{Reduce Damage Reduction}}
+
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V8.2_v0802a_valentine_Mag.webp|Sprite sheet for {{St|Devoted Basket+}}, {{St|Loving Breath}} and {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=儚く優しい心の器
+|german=Sanftes Gefäß
+|spanishEU=Recipiente afable
+|spanishLA=Recipiente tierno
+|french=Récipient tendre
+|italian=Tenero recipiente
+|chineseTW=虛幻善良的心之容器
+|portuguese=Recipiente terno
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%=%of unit_s Res at start of combat%' OR Description LIKE '%unit%has weapon%triangle advantage%' AND Description NOT LIKE '%boosts Atk%' OR Description LIKE '%deals%damage%combat begins%') AND Exclusive='1'}}
+* [[Flare Passives]]
+* [[Null Passives]]
+* [[Tempo Passives]]
+{{Weapons Navbox}}

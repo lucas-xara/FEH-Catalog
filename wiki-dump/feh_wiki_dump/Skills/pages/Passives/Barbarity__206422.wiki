@@ -1,0 +1,53 @@
+{{Passive
+|name=Barbarity
+|type=B
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Barbarity
+|1tagid=SID_真無惨
+|1effect=At start of combat, if foe's HP ≥ 25%, inflicts Atk/Spd/Def-4 on foe during combat, deals damage = 25% of unit's Atk (excluding area-of-effect Specials), and reduces damage from foe's first attack by 40% during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and also, after combat, grants【Vantage】and【Dodge】 to unit and inflicts Atk/Spd/Def/Res-6 on target and foes within 3 spaces of target through their next actions.<br><br>【Vantage】<br>If foe initiates combat, unit can counterattack before foe's first attack for 1 turn.<br><br>【Dodge】<br>If unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 4 (max 40%).
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{SkillEffectText|Temporary Debuffs|Atk/Spd/Def|4}}
+|CombatEffect 1 Targets={{SkillTargetText|Foe}}
+|CombatEffect 2={{SkillEffectText|Damage Boost|25% of {{SkillTargetText|Unit}}'s Atk}}
+|CombatEffect 3={{SkillEffectText|Damage Reduction|40%}}<br>from {{SkillTargetText|Foe}}'s first attack<br>(including second attacks)
+|CombatEffect 2-3 Targets={{SkillTargetText|Unit}}
+|CombatEffectConditions={{SkillTargetText|Foe}}'s HP ≥ 25%<br>at start of combat
+|StatusEffect 1={{SEt|Vantage}}
+|StatusEffect 2={{SEt|Dodge}}
+|StatusEffect 3={{SkillEffectText|Penalties|Atk/Spd/Def/Res|6}}
+|StatusEffect 3 Targets={{SkillTargetText|Target Foe}} '''&''' {{SkillTargetText|Foes}}<br>[[within 3 spaces]]<br>of {{SkillTargetText|Target Foe}}
+|StatusEffect Conditions=After combat if<br>{{SkillTargetText|Foe}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Temporary debuffs}}
+{{AtkDamageBoost}}
+{{DamagePercentageReduction}}
+{{After combat note}}
+{{Vantage}}
+{{Dodge}}
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=真無惨
+|german=Barbarei
+|spanishEU=Atrocidad
+|spanishLA=Atrocidad
+|french=Barbarie
+|italian=Brutalità
+|chineseTW=真無慘
+|portuguese=Barbaridade
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%deals damage =% of unit_s Atk%' AND Description NOT LIKE '%minus%' AND Description NOT LIKE '%boost resets%' OR Description LIKE '%boosts damage%by __% of unit_s Atk%' OR Description LIKE '%【Vantage】%' OR Description LIKE '%【Dodge】%') AND Name NOT LIKE '%time traveler%' AND Exclusive='1'}}
+* [[Smoke Passives]]
+{{Passives Navbox|B}}

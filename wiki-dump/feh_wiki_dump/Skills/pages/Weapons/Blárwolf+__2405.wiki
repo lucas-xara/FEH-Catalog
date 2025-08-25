@@ -1,0 +1,47 @@
+{{Weapon Infobox
+|tagid=SID_ウルファブラー＋
+|weaponType=Blue Tome
+|weaponName={{PAGENAME}}
+|altWeaponName=Blárwolf Plus
+|might=10
+|range=2
+|effectiveness=cavalry
+|effect=Effective against cavalry foes.
+|cost=300
+|exclusive=0
+|userVersion1=Closed|userVersion2=Open|statModifiers=0,10,0,0,0
+|SE=se_effect_wolf01.flac
+|properties=random_all
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce={{Eft|Effectiveness|{{Mt|Cavalry}}}}
+}}
+==Notes==
+{{Effective damage bonus|cavalry}}
+==Evolution==
+{{WEvo
+|weapon=Keen Blárwolf+
+|Medals=200
+|Stones=20
+|Dew=
+}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{TomeColorTrivia|blar}}
+==In other languages==
+{{OtherLanguages
+|japanese=ブラーウルフ＋
+|german=Blárwolf+
+|spanishEU=Lobo zarco +
+|spanishLA=Lobo añil +
+|french=Crocs saphir +
+|italian=Turchinlupo+
+|chineseTW=蒼藍餓狼＋
+|portuguese=Lobo anil+
+}}
+==See also==
+* [[Weapons that are effective against cavalry foes]]
+{{Weapons Navbox}}
+{{DEFAULTSORT:Blarwolf+}}

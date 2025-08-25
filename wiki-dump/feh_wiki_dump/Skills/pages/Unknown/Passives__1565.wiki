@@ -1,0 +1,26 @@
+[[File:Passive Icon ABC.png|alt=|right]][[File:Passive Icon X.png|alt=|right]]{{Quote|Types of Passive Skills: There are three types of passive skills: Misc. A, Misc. B, and Misc. C. These skills take effect after you equip them. You can equip one skill for each type.}}
+Just like their names state, passive skills are skills that, under certain circumstances, apply various effects affecting gameplay. Passives in {{FE|H}} are divided into 4 categories, [[File:Passive Icon ABC.png|x32px|class=inline-icon|alt=|link=]] and [[File:Passive Icon X.png|x26px|class=inline-icon|alt=|link=]] Attuned Skills. Although not official, skill types roughly determine the general effect of the skill. 
+
+* [[File:Passive Icon A.png|x26px|class=inline-icon|alt=|link=#List of A Passives]]&nbsp;[[#List of A Passives|Passives]] - Affect only the character, either by adding additional effects or characteristics to the unit, or simply by buffing the character's stats.
+* [[File:Passive Icon B.png|x26px|class=inline-icon|alt=|link=#List of B Passives]]&nbsp;[[#List of B Passives|Passives]] - Battle related skills. These skills change the dynamic of the game during or after combat. This category has varied effects.
+* [[File:Passive Icon C.png|x26px|class=inline-icon|alt=|link=#List of C Passives]]&nbsp;[[#List of C Passives|Passives]] - Can affect your allies or enemies. The buffs or debuffs are applied on the battlefield or during combat.
+* [[File:Passive Icon X.png|x26px|class=inline-icon|alt=|link=#List of Attuned Skills]]&nbsp;[[#List of Attuned Skills|Attuned Skills]] - Can only be inherited from the {{Utt|Attuned}} Hero that owns it. Only {{Utt|Attuned}} Heroes can use [[exclusive skills|exclusive]] Assists, Specials, and Passives with their Attuned Skill. {{St|Sing}}, {{St|Dance}}, and {{St|Play}} are not counted as exclusive skills under this restriction and ''can be equipped'' with Attuned Skills on non-Attuned Heroes.
+
+[[Skill Interaction]] provides an overview of passive skills that may interact or overlap with other passive skills and weapons. 
+
+Some passive skills are available as [[Sacred Seals]], and some Sacred Seals can have skills not available as passive skills on any unit ([[#List of Seal Exclusive Skills|listed here]]).
+
+All of these skills either automatically come with the unit and can be learned with 1× SP cost, or must be [[inherited]], like other inheritable skills, at the cost of 1.5× SP to learn. However, Attuned Skills are automatically equipped to the unit that they come with and are automatically learned upon being inherited. Every character has one slot for each type, and the user cannot equip more than one passive skill in each slot. Passive skills can be, however, unequipped if the user feels it has a negative impact on the unit's performance.
+__TOC__
+==List of A Passives==
+{{Passives List|pType=passivea}}
+==List of B Passives==
+{{Passives List|pType=passiveb}}
+==List of C Passives==
+{{Passives List|pType=passivec}}
+==List of Attuned Skills==
+{{Passives List|pType=passivex}}
+==List of Seal Exclusive Skills==
+{{Passives List|pType=sacredseal}}
+{{Skills Navbox}}
+[[Category:Lists]]

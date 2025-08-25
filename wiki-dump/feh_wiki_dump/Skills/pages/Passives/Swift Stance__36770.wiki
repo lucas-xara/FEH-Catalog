@@ -1,0 +1,70 @@
+{{Passive
+|type=A
+|exclusive=0
+|1name=Swift Stance 1
+|1tagid=SID_飛燕明鏡の構え1
+|1promotionRarity=5
+|1promotionTier=1
+|1effect=If foe initiates combat, grants Spd/Res+2 during combat.
+|1cost=120
+|1required=Darting Stance 1;Warding Stance 1
+|2name=Swift Stance 2
+|2tagid=SID_飛燕明鏡の構え2
+|2effect=If foe initiates combat, grants Spd/Res+4 during combat.
+|2cost=240
+|3name=Swift Stance 3
+|3tagid=SID_飛燕明鏡の構え3
+|3effect=If foe initiates combat, grants Spd/Res+6 to unit during combat and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)
+|3cost=300
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|all}}
+|properties=random_all
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Swift Stance 2}} Swift Stance 2
+|skill1 CombatEffect={{SkillEffectText|Temporary buffs|Spd/Res|4}}
+|skill1 CombatEffect Conditions=Enemy Phase
+|skill2={{Si|Swift Stance 3}} Swift Stance 3
+|skill2 CombatEffect 1={{SkillEffectText|Temporary buffs|Spd/Res|6}}
+|skill2 CombatEffect 2={{SkillEffectText|Guard}}
+|skill2 CombatEffect 2 Targets={{SkillTargetText|Foe}}
+|skill2 CombatEffect Conditions=Enemy Phase
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+{{CooldownChargeMinus}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Swift Stance 1;Swift Stance 2
+|badgeColor=Transparent
+|costs1=20;100;20
+|costs2=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=飛燕明鏡の構え
+|german=Flinker Stand
+|spanishEU=Postura veloz
+|spanishLA=Postura veloz
+|french=Posture alerte
+|italian=Posa rapida
+|chineseTW=飛燕明鏡架勢
+|portuguese=Postura ligeira
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe initiates combat%grants Spd/Res+%during combat%' AND Exclusive='1'}}
+* [[Stance Passives]]
+{{Seals Navbox}}
+{{Passives Navbox|A}}
+[[Category:Stance Passives]]

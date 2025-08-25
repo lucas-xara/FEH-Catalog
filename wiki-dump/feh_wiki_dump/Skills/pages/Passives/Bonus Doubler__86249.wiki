@@ -1,0 +1,76 @@
+{{About|the passive skill|the [[Status effects|status effect]]|Bonus Doubler (status effect)}}{{Passive
+|name=Bonus Doubler
+|type=A
+|exclusive=0
+|canUseMove={{MoveList|Infantry}}
+|canUseWeapon={{WeaponList|All}}
+|1required=-
+|1name=Bonus Doubler 1
+|1tagid=SID_強化増幅1
+|1promotionRarity=4
+|1promotionTier=1
+|1effect=Grants bonus to Atk/Spd/Def/Res during combat = 50% of current bonus on each of unit's stats. Calculates each stat bonus independently.
+|1cost=60
+|2name=Bonus Doubler 2
+|2tagid=SID_強化増幅2
+|2promotionRarity=5
+|2promotionTier=1
+|2effect=Grants bonus to Atk/Spd/Def/Res during combat = 75% of current bonus on each of unit's stats. Calculates each stat bonus independently.
+|2cost=120
+|3name=Bonus Doubler 3
+|3tagid=SID_強化増幅3
+|3effect=Grants bonus to Atk/Spd/Def/Res during combat = current bonus on each of unit's stats. Calculates each stat bonus independently.
+|3cost=240
+|3next=-
+|4name=Bonus Doubler 4
+|4tagid=SID_強化増幅4
+|4effect=If【Bonus】is active on unit or an ally within 2 spaces of unit, grants Atk/Spd/Def/Res+X to unit during combat (X = 4 + highest bonus on each stat between unit and allies within 2 spaces of unit; calculates each stat bonus independently).<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|4cost=300
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Bonus Doubler 3}} Bonus Doubler 3
+|s1 Ce={{Eft|Temporary buffs|Atk/Spd/Def/Res|{{SEt|Bonus}} on each stat}}
+|skill2={{Si|Bonus Doubler 4}} Bonus Doubler 4
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4 + highest {{SEt|Bonus}}<br>on {{Tgt|Unit}} & {{Tgt|Allies}}<br>[[within 2 spaces]]}}
+|s2 Ce1C={{Kp|Bonus}} is active on<br>{{Tgt|Unit}} '''or''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+}}
+
+==Notes==
+{{TemporaryBufffromBonus}}
+{{EffectfromBonus|name=Bonus Doubler 4|target=unit or ally|temporary buffs}}
+{{TemporaryBufffromBonus|multiSource=1|name=Bonus Doubler 4|source=unit or allies with the highest bonuses}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Bonus Doubler 1;Bonus Doubler 2;Bonus Doubler 3
+|badgeColor=Transparent
+|costs1=20;100;40
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=強化増幅
+|german=Bonus-Doppler
+|spanishEU=Bonific. doble
+|spanishLA=Bonific. doble
+|french=Amplification
+|italian=Aumento bonus
+|chineseTW=強化增幅
+|portuguese=Dobra bônus
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%bonus to Atk/Spd/Def/Res during combat = current bonus on each of unit_s stats%' OR Description LIKE '%Atk/Spd/Def/Res%=%highest bonus on%allies%within _ spaces%') AND Exclusive='1' AND Description NOT LIKE '%grants allies within _ spaces%'}}
+{{Seals Navbox}}
+{{Passives Navbox|A}}

@@ -1,0 +1,52 @@
+{{About|the weapon Laevatein|the character Laevatein|Laevatein}}{{Weapon Infobox
+|tagid=SID_レーヴァテイン
+|wikiName=Laevatein (weapon)
+|weaponType=Sword
+|weaponName=Laevatein
+|userVersion1=Weapon
+|userVersion2=Gleam
+|might=16
+|range=1
+|effect=Grants Atk+3. Grants bonus to unit’s Atk = total bonuses on unit during combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,19,0,0,0
+|required=Silver Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Atk+3. Grants bonus to unit’s Atk = total bonuses on unit during combat. At start of combat, if unit's HP ≥ 50% or【Bonus】is active on unit, grants Atk/Def+5 to unit during combat.<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|tagidExtraSkill1=一
+|effectSkill1=At start of turn, if unit is within 2 spaces of an ally, grants Atk/Def+6 to unit for 1 turn. At start of turn, if unit is within 2 spaces of unit's support partner (if any), grants Atk/Def+6 to unit's support partner for 1 turn. At start of combat, if foe's HP ≥ 75%, grants Atk/Def+5 to unit during combat.
+|iconSkill1=Laevatein W.png
+|properties=random_owner
+}}
+==Notes==
+{{BonusesToAtk}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Combat boosts}}
+{{EffectfromBonusKeyword|combat boosting effect}}
+{{Bonuses}}
+{{SupportPartner|effect={{SEt|bonuses}} granted to unit's support partner}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Laevatein
+|japanese=レーヴァテイン
+|german=Laevatein
+|spanishEU=Laevatein
+|spanishLA=Laevatein
+|french=Laevatein
+|italian=Laevatein
+|chineseTW=瑞瓦提恩
+|portuguese=Laevatein
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit is%ally%grants Atk/Def+%to unit for 1 turn%' OR Description LIKE '%if%grants Atk/Def+%all%for 1 turn%' AND Description NOT LIKE '%bonus%' Or Description LIKE '%support partner%' OR Description LIKE '%if foe_s HP ≥%grants Atk/Def+%during combat%' OR Description LIKE '%bonus to unit_s Atk%total bonuses on unit%during combat%' AND exclusive='1'|columns=3}}
+* [[Blade Weapons]]
+{{Weapons Navbox}}
+[[Category:Blade weapons]]

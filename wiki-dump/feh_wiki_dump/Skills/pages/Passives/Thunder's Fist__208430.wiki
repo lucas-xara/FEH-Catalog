@@ -1,0 +1,49 @@
+{{Passive
+|name=Thunder's Fist
+|type=A
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Thunder's Fist
+|alt1name=Thunders Fist
+|1tagid=SID_雷神の右腕
+|1effect=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+7 to unit during combat and deals damage = 15% of unit's Atk (excluding area-of-effect Specials), and also, if unit initiates combat, reduces damage from foe's first attack by 50% during combat, and if number of spaces from unit's start position to end position ≥ 2, unit attacks twice.
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{Eft|Temporary buffs|Atk/Spd/Def/Res|7}}
+|CombatEffect 2={{Eft|Damage boost|15% of {{Tgt|Unit}}'s Atk}}
+|CombatEffect 1-2 Conditions={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|CombatEffect 3={{Eft|Damage Reduction|50%}}<br>from {{Tgt|Foe}}'s first attack
+|CombatEffect 3 Conditions=Player phase if<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|CombatEffect 4={{Eft|Attacks Twice}}
+|CombatEffect 4 Conditions=Player phase if<br>({{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' number of spaces<br>{{Tgt|Unit}} moved ≥ 2)
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{AtkDamageBoost}}
+{{IfUnitInitiates}}
+{{DamagePercentageReduction}}
+{{Brave weapon interaction}}
+{{SpacesFromStarttoEnd}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=雷神の右腕
+|german=Donners Faust
+|spanishEU=Puño del trueno
+|spanishLA=Puño del trueno
+|french=Bras droit d'Ishtar
+|italian=Pugno tonante
+|chineseTW=雷神的親信
+|portuguese=Punho do trovão
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%spaces%from start position to end position%' AND Description NOT LIKE '%transforms%Atk/Def-_ on foe during combat%' AND Exclusive='1'}}
+* [[Skill families/A Passives#Clash|Clash Passives]]
+{{Passives Navbox|A}}

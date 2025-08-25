@@ -1,0 +1,50 @@
+{{Passive
+|name=Blue Lion Rule
+|type=B
+|exclusive=1
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|1effect=If unit's Def > foe's Def, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage=difference between stats × 4 (max 40%), and also if foe initiates combat, unit makes a guaranteed follow-up attack.
+|intID=2194
+|sort=442
+|value=8
+|timingID=21
+|abilityID=186
+|randomTimestamp=2020-09-18T07:00:00Z
+|randomMinLv=31
+|properties=random_owner
+|1name=Blue Lion Rule
+|1tagid=SID_蒼き獅子王
+|1required=-
+|1cost=300
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Damage Reduction|4 x ({{Tgt|Unit}}'s Def - {{Tgt|Foe)}}'s Def)<br>from attacks & Non-Røkkr [[AoE Specials]]|percent=1|max=40%}}
+|Ce1C={{Tgt|Unit}}'s Def<br>> {{Tgt|Foe)}}'s Def
+|Ce2={{Eft|Guaranteed Follow-Up}}
+|Ce2C=Enemy Phase<br>'''&''' {{Tgt|Unit}}'s Def<br>> {{Tgt|Foe)}}'s Def
+}}
+==Notes==
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+{{IfFoeInitiates}}
+{{Guaranteed follow-up interaction}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Blue Lion Rule
+|japanese=蒼き獅子王
+|german=Löwenherrschaft
+|spanishEU=Mandato félido
+|spanishLA=Mandato félido
+|french=Règne de saphir
+|italian=Dominio Leoni
+|chineseTW=青獅子王
+|portuguese=Domínio Leão
+}}
+==See also==
+{{See also skills|cond=WikiName LIKE '%eagle rule%' OR Description LIKE '%unit_s Def > foe_s Def%' OR Description LIKE '%educes damage from%area-of-effect Specials%difference between stats × 4%' AND Exclusive='1' OR Description LIKE '%foe initiates combat%makes a guaranteed follow-up%'|columns=3}}
+{{Passives Navbox|B}}

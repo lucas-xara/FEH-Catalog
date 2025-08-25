@@ -1,0 +1,41 @@
+{{Weapon Infobox
+|tagid=SID_二羽の魔兎の揺籃
+|intID=3000
+|image=wep_mg265
+|exclusive=1
+|weaponType=Green Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At the start of turn 1, grants Special cooldown count-2. Unit can move to a space within 2 spaces of any ally within 2 spaces. If unit initiates combat or is within 2 spaces of an ally, grants Atk+4, Spd+6, and bonus to unit's Atk = unit's max Special cooldown count value × 3 during combat.
+|statModifiers=0,14,0,0,0
+|required=Rexcalibur
+|properties=
+}}
+==Notes==
+{{Start of turn Special modification}}
+{{Warp interaction}}
+{{Combat boosts}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V6.3_v0603a_spring_Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=二羽の魔兎の揺籃
+|german=Magiehäschen
+|spanishEU=Conejos mágicos
+|spanishLA=Conejos mágicos
+|french=Lapins magiques
+|italian=Conigli magici
+|chineseTW=兩隻魔兔的搖籃
+|portuguese=Coelhos mágicos
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%start of turn 1, grants Special cooldown count-2%' OR Description LIKE '%unit can move to a%space within%ally%within 2 spaces%' OR Description LIKE '%unit\'s max Special cooldown count value%'|columns=3}}
+{{Weapons Navbox}}

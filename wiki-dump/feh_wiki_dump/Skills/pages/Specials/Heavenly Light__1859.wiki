@@ -1,0 +1,28 @@
+{{Special
+|tagid=SID_天照
+|name=Heavenly Light
+|charge=2
+|effect=When healing an ally with a staff, restores 10 HP to all allies.
+|cost=150
+|required=-
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|Staff}}
+|properties=random_all
+}}
+==Notes==
+* "All allies" exclude the unit and the target ally.
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=天照
+|german=Himmelslicht
+|spanishEU=Luz celestial
+|spanishLA=Luz celestial
+|french=Rayonnement
+|italian=Luce paradisiaca
+|chineseTW=天照
+|portuguese=Luz celestial
+}}
+{{Specials Navbox}}

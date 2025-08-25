@@ -1,0 +1,37 @@
+{{Weapon Infobox
+|tagid=SID_ソンシンの花嫁の槍
+|intID=3608
+|image=wep_lc148
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit, inflicts penalty on foe's Spd/Def = 25% of foe's Atk at start of combat - 8 (max 10, min 0), reduces damage from foe's first attack by 40%, and grants Special cooldown charge +1 to unit per attack during combat. (Only highest value applied; does not stack.)
+|required=Silver Lance
+|properties=
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{At start of combat}}
+{{Temporary debuffs}}
+{{DamagePercentageReduction}}
+{{CooldownChargePlus}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ソンシンの花嫁の槍
+|german=Chon'sin-Zweige
+|spanishEU=Ramo Chon'sin
+|spanishLA=Ramo Chon'sin
+|french=Gerbe Chon'sin
+|italian=Ramo di Chon'sin
+|chineseTW=索恩希新娘之槍
+|portuguese=Ramo Chon'sin
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%inflicts penalty on foe_s%=%of foe_s ___ at start of combat%' AND Exclusive='1'}}
+{{Weapons Navbox}}

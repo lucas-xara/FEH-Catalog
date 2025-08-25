@@ -1,0 +1,51 @@
+{{Weapon Infobox
+|tagid=SID_ゼロの虐弓
+|weaponType=Bow
+|might=14
+|range=2
+|effectiveness=flying
+|effect=Accelerates Special trigger (cooldown count-1). Effective against flying foes. If foe's Def ≥ foe's Res+5, deals +7 damage.
+|cooldown=-1
+|cost=400
+|exclusive=1
+|userVersion1=Bow
+|userVersion2=Arrow
+|userVersion3=Upgrade Gleam
+|statModifiers=0,14,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If unit's Spd > foe's Spd, grants Special cooldown charge +1 per unit's attack. (Only highest value applied. Does not stack.)
+|iconSkill1=Flashing Blade W.png
+|tagidExtraSkill1=柔
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{FlatDamage|7}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+* The upgraded version of Niles's Bow listed first has the same effect as {{St|Flashing Blade 3}}.
+{{CooldownChargePlus|perAttack=user}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+* Niles's Bow is based on the weapon that appears in Niles's attack, special, and damaged artworks, as opposed to the bow that he uses in {{FE|14}} and {{FE|W}}.
+==In other languages==
+{{OtherLanguages
+|japanese=ゼロの虐弓
+|german=Niles' Bogen
+|spanishEU=Arco Niles
+|spanishLA=Arco Niles
+|french=Arc de Niles
+|italian=Arco di Niles
+|chineseTW=零的虐弓
+|portuguese=Arco de Niles
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If foe_s Def ≥ foe_s Res+5, deals +7 damage%' OR Description LIKE '%If unit_s ___ > foe_s ___, grants Special cooldown charge +1 per unit_s attack%'}}
+{{Weapons Navbox}}

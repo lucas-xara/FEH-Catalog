@@ -1,0 +1,46 @@
+{{Weapon Infobox
+|tagid=SID_セルジュの恐斧
+|weaponType=Axe
+|weaponName=Cherche's Axe
+|might=11
+|range=1
+|effect=Inflicts Spd-5. If unit initiates combat, unit attacks twice.
+|required=-
+|cost=400
+|exclusive=yes
+|userVersion1=Weapon|userVersion2=Upgrade Gleam|statModifiers=0,11,-5,0,0
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=At start of turn, converts bonuses on foes in cardinal directions with HP < unit's HP into penalties through their next actions.
+|iconSkill1=Panic Ploy W.png
+|tagidExtraSkill1=恐
+|refineStatsAtk=5,1,0,0,0
+|properties=
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Brave weapon interaction}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+* The skill refined version of Cherche's Axe has the same effect as {{St|Panic Ploy 3}}.
+{{CardinalDirections}}
+{{Panic}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=セルジュの恐斧
+|german=Zelchers Axt
+|spanishEU=Hacha Zelcher
+|spanishLA=Hacha Cherche
+|french=Hache Zelcher
+|italian=Ascia di Zelcher
+|chineseTW=塞爾裘的恐斧
+|portuguese=Machado Cherche
+}}
+==See also==
+* [[Brave Weapons]]
+{{Weapons Navbox}}

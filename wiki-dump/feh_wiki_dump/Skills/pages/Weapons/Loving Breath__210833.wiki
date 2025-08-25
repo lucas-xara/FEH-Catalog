@@ -1,0 +1,63 @@
+{{Weapon Infobox
+|tagid=SID_無垢なる愛のブレス
+|intID=4012
+|image=wep_ac076
+|exclusive=1
+|weaponType=Dragonstone
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). Unit can counterattack regardless of foe's range. If foe initiates combat or foe's HP ≥ 75% at start of combat, grants Atk+X to unit and inflicts Atk-X on foe during combat (X = number of allies within 3 spaces of unit × 4, + 6; max 14), grants Special cooldown charge +1 to unit per attack during combat (only highest value applied; does not stack), and restores 7 HP to unit after combat. If foe initiates combat or foe's HP ≥ 75% at start of combat and if unit's Res > foe's Res, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 4 (max 40%). If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|required=Flametongue
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|PermanentEffect={{Eft|Accelerates Special}}
+|CombatEffect 1={{Eft|Distant Counter}}
+|CombatEffect 2={{Eft|Temporary Buffs|Atk|number of {{Tgt|Allies}}<br>[[within 3 spaces]] x 4, +6|max=14}}
+|CombatEffect 3={{Eft|Accelerate Charge}}
+|CombatEffect 4={{Eft|Temporary Debuffs|Atk|number of {{Tgt|Allies}}<br>[[within 3 spaces]] x 4, +6|max=14}}
+|CombatEffect 4 Targets={{Tgt|Foe}}
+|CombatEffect 2-4 Conditions=Enemy phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|CombatEffect 5={{Eft|Damage Reduction|4 x ({{Tgt|Unit}}'s Res - {{Tgt|Foe)}}'s Res)<br>from attacks & Non-Røkkr [[AoE Specials]]|percent=1|max=40%}}
+|CombatEffect 5 Conditions=(Enemy phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat)<br>'''&''' {{Tgt|Unit}}'s Res ><br>{{Tgt|Foe}}'s Res
+|CombatEffect 6={{Eft|Lower Def Res}}
+|CombatEffect 5-6 Targets={{Tgt|Unit}}
+|CombatEffect 6 Conditions={{Tgt|Foe}}'s Range = 2
+|MapEffect={{Eft|Heal|7}}
+|MapEffect Conditions=After combat in<br>Enemy phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+}}
+
+==Notes==
+* Loving Breath has the same effect as {{St|Distant Counter}}.
+{{Temporary buffs}}
+{{Temporary debuffs}}
+{{CooldownChargePlus}}
+{{After combat healing}}
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+{{LowerDefRes}}
+
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V8.2_v0802a_valentine_Mag.webp|Sprite sheet for {{St|Devoted Basket+}}, {{St|Tender Vessel}} and {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=無垢なる愛のブレス
+|german=Hauch der Liebe
+|spanishEU=Aliento cariñoso
+|spanishLA=Aliento cariñoso
+|french=Souffle aimant
+|italian=Soffio d'amore
+|chineseTW=純真的愛之吐息
+|portuguese=Sopro de amor
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%number of allies within _ spaces ×%' OR Description LIKE '%unit_s Res > foe_s Res%educes damage from attacks during combat%') AND Exclusive='1'}}
+* [[Skill families/A Passives#Form|Form Passives]]
+{{Weapons Navbox}}

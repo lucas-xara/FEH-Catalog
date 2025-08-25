@@ -1,0 +1,76 @@
+{{Weapon Infobox
+|tagid=SID_深き絶望のブレス
+|intID=4755
+|noImg=1
+|exclusive=1
+|weaponType=Dragonstone
+|cost=400
+|might=16
+|range=1
+|effect=Grants Res+3. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.<br><br>At start of player phase or enemy phase, if unit's HP ≥ 25%, grants【Rally Spectrum】and "foe cannot make a follow-up attack" to unit and allies within 2 spaces of unit for 1 turn.<br><br>If foe initiates combat or if unit's HP ≥ 25% at start of combat, inflicts penalty on foe's Atk/Def/Res = number of foes within 3 rows or 3 columns centered on unit × 3, + 5 (max 14; if unit triggers Savior, value is treated as 14), deals damage = 20% of unit's Res (excluding area-of-effect Specials), reduces damage from foe's attacks by 20% of unit's Res (excluding area-of-effect Specials), and inflicts Special cooldown charge -1 on foe per attack during combat (only highest value applied; does not stack), and restores 7 HP to unit after combat.<br><br>【Rally Spectrum】<br>Grants Atk/Spd/Def/Res+5 to unit during combat and if unit's attack can trigger unit's Special, grants Special cooldown count-X to unit before unit's first attack during combat (X = 1 if unit can trigger the "unit attacks twice" effect or if unit's maximum Special cooldown count is reduced (Special trigger is accelerated); otherwise, X = 2). (That turn only.)
+|statModifiers=0,16,0,0,3
+|required=Flametongue
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Stat Boosts|Res|3}}
+|Se1={{SEt|Rally Spectrum}}
+|Se2={{SEt|Foe Cannot Follow-Up}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=At start of Both Phases<br>if {{Tgt|Unit}}'s HP ≥ 25%
+|Ce1={{Eft|Temporary debuffs|Atk/Def/Res|3 x {{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}, + 5|max=14*}}
+|Ce2={{Eft|Guard}}
+|Ce1-2T={{Tgt|Foe}}
+|Ce3={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Res}}
+|Ce4={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Res}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce1-4C=Enemy Phase '''or'''<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce5={{Eft|Lower Def Res}}
+|Ce5C={{Tgt|Foe}}'s Range = 2
+|Me={{Eft|Heal|7}}
+|MeC=After combat in<br>Enemy Phase '''or'''<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+<b>{{Hatnote|* If {{Tgt|Unit}} triggers {{Eft|Savior}}, value is treated as max.}}</b>
+
+==Notes==
+{{LowerDefRes}}
+{{Rally Spectrum}}
+{{Foe Cannot Follow-Up}}
+{{Temporary debuffs}}
+{{DamageBoost}}
+{{FlatDamageReduction}}
+{{CooldownChargeMinus}}
+{{After combat healing}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Grima: Tyrant of Despair|t=Robin: Mystery Tactician
+|---xxx---
+|---xxx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xtx---
+|---xxx---
+}}
+|}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=深き絶望のブレス
+|german=Verzagtheitsatem
+|spanishEU=Desaliento
+|spanishLA=Soplo desolador
+|french=Souffle désespéré
+|italian=Respiro disperato
+|chineseTW=深沉絕望吐息
+|portuguese=Sopro aflito
+}}
+
+==See also==
+{{See also skills|cond=Description LIKE '%【Rally Spectrum】%'}}
+{{Weapons Navbox}}

@@ -1,0 +1,44 @@
+{{Special
+|tagid=SID_永遠を生きるもの
+|intID=2802
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=5
+|effect=At the start of turn 1, grants Special cooldown count-5. When Special triggers, if unit's HP > 1 and foe would reduce unit’s HP to 0, unit survives with 1 HP. After combat, if unit's Special triggered, restores 99 HP. (Once per map.)
+|required=Miracle
+|properties=random_owner,defensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Reduce Cooldown|5}}
+|Me1C=At start of turn 1
+|Me2={{Eft|Heal|99}}
+|Me2C=After combat if<br>Special triggered<br>(once per map)
+|Ce={{Eft|Miracle}}
+|CeC=Special triggers<br>'''&''' {{Tgt|Unit}}'s HP > 1
+}}
+==Notes==
+{{Start of turn Special modification}}
+{{DefensiveSkill}}
+{{Survive with 1 HP}}
+{{After combat healing}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=永遠を生きるもの
+|german=Endloses Leben
+|spanishEU=Vida eterna
+|spanishLA=Vida eterna
+|french=Vie éternelle
+|italian=Vita infinita
+|chineseTW=永生者
+|portuguese=Vida eterna
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%unit survives with 1 HP%' AND Description NOT LIKE '%neutralize%non-Special%unit survives with 1 HP%' OR (Description LIKE '%At the start of turn 1, grants Special cooldown count-_%' AND SCategory='special')}}
+{{Specials Navbox}}

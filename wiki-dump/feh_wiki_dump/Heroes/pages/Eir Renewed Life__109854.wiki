@@ -1,0 +1,66 @@
+{{#invoke:NameAbout|main|Name=Eir}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Eir
+|Title=Renewed Life
+|WeaponType=Red Dagger
+|Origin=Fire Emblem Heroes
+|Gender=Female
+|MoveType=Flying
+|actorJP=雨宮天
+|actorEN=Xanthe Huynh
+|artist=伊藤未生
+|additionDate=December 25, 2019
+|releaseDate=January 1, 2020
+|TagID=年明エイル
+|InternalID=470
+|Properties=tempest,limited,specDisplay,tiara
+|cv1=0
+|cv2=330200
+|description=Princess of the realm of dead. Is both delighted and confused by her first New Year's experience.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=9|Lv1SPD=8|Lv1DEF=6|Lv1RES=6
+|GRHP=50|GRATK=50|GRSPD=65|GRDEF=35|GRRES=65
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Dagger
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Dagger
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Temari
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Temari+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Shove
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Brazen Atk/Res 1
+|passiveA2=Brazen Atk/Res 2
+|passiveA3=Brazen Atk/Res 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Spd Tactic 1
+|passiveC2=Spd Tactic 2
+|passiveC3=Spd Tactic 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:New Year's units]]

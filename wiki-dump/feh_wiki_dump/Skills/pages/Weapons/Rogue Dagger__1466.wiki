@@ -1,0 +1,42 @@
+{{Weapon Infobox
+|tagid=SID_盗賊の暗器
+|weaponType=Dagger
+|weaponName={{PAGENAME}}
+|might=4
+|range=2
+|effect=After combat, if unit attacked, inflicts Def/Res-3 on foe through its next action. Grants unit Def/Res+3 for 1 turn.
+|cost=200
+|exclusive=0
+|statModifiers=0,4,0,0,0
+|next=Rogue Dagger+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Dagger
+|properties=random_all
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{Eft|Penalties|Def/Res|3}}
+|SeT1={{Tgt|Foe}}
+|Se2={{Eft|Bonuses|Def/Res|3}}
+|SeT2={{Tgt|Unit}}
+|SeC=After combat if<br>{{Tgt|Unit}} attacked
+}}
+==Notes==
+{{IfUnitAttacked}}
+{{Bonuses}}
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=盗賊の暗器
+|german=Schurkendolch
+|spanishEU=Daga pícara
+|spanishLA=Daga pícara
+|french=Dague fourbe
+|italian=Pugnale ladro
+|chineseTW=盜賊暗器
+|portuguese=Adaga astuta
+}}
+{{Weapons Navbox}}

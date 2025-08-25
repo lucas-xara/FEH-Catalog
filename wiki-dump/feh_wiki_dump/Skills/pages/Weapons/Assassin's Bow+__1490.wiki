@@ -1,0 +1,39 @@
+{{Weapon Infobox
+|tagid=SID_暗器殺しの弓＋
+|weaponType=Bow
+|might=11
+|range=2
+|effectiveness=flying
+|effect=Effective against flying foes.<br>In combat against a colorless dagger foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.
+|cost=300
+|exclusive=0
+|userVersion1=Bow
+|userVersion2=Arrow
+|statModifiers=0,11,0,0,0
+|properties=random_all
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{Prevent follow-up}}
+{{Guaranteed follow-up interaction}}
+==Evolution==
+{{WEvo
+|weapon=Guard Bow+
+|Medals=200
+|Stones=20
+|Dew=
+}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=暗器殺しの弓＋
+|german=Assassinenbog.+
+|spanishEU=Arco mortal +
+|spanishLA=Arco mortal +
+|french=Arc d'assassin +
+|italian=Arco assassino+
+|chineseTW=破暗器之弓＋
+|portuguese=Arco mortal+
+}}
+{{Weapons Navbox}}

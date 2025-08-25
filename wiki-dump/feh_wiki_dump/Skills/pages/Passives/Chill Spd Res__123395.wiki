@@ -1,0 +1,64 @@
+{{Passive
+|type=B
+|name=Chill Spd/Res
+|exclusive=0
+|1name=Chill Spd/Res 1
+|alt1name=Chill Spd Res 1
+|1tagid=SID_速さ魔防の封印1
+|1promotionRarity=5
+|1promotionTier=1
+|1effect=At start of turn, inflicts Spd/Res-3 on foe on the enemy team with the highest Spd+Res total through its next action.
+|1required=Chill Spd 1;Chill Res 1
+|1cost=120
+|2name=Chill Spd/Res 2
+|alt2name=Chill Spd Res 2
+|2tagid=SID_速さ魔防の封印2
+|2effect=At start of turn, inflicts Spd/Res-5 on foe on the enemy team with the highest Spd+Res total through its next action.
+|2cost=240
+|2next=-
+|3name=Chill Spd/Res 3
+|alt3name=Chill Spd Res 3
+|3tagid=SID_速さ魔防の封印3
+|3cost=300
+|3effect=At start of turn, inflicts Spd/Res-6 on foes on the enemy team with the highest Spd+Res total and foes within 2 spaces of those foes through their next actions.
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+}}
+==Notes==
+{{Penalties}}
+{{SelectStat|Spd+Res total}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Chill Spd/Res 1;Chill Spd/Res 2
+|badgeColor=Transparent
+|costs1=20;100;40
+|costs2=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|english=Chill Spd/Res
+|japanese=速さ魔防の封印
+|german=Ges./Res.-Brem.
+|spanishEU=Gelidez Vel/Res
+|spanishLA=Gelid. Vel./Res.
+|french=Gel Vit/Rés
+|italian=Vel/Res gelanti
+|chineseTW=速度魔防封殺
+|portuguese=Vel./Res. gelad.
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%at start of turn, inflict%-%enemy%highest%' OR Description LIKE '%at start of turn, inflict%-%enemy%lowest%') AND Exclusive='1'|columns=3}}
+* [[Chill Passives]]
+{{Seals Navbox}}
+{{Passives Navbox|B}}
+[[Category: Chill Passives]]

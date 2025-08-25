@@ -1,0 +1,57 @@
+{{Weapon Infobox
+|tagid=SID_心優しき邪竜兎の卵
+|intID=4615
+|image=wep_mg096
+|exclusive=1
+|weaponType=Red Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br>Grants HP+5, Atk/Res+6.<br><br>At start of player phase or enemy phase, if unit is within 2 spaces of an ally, grants "reduces damage from area-of-effect Specials by 80% (excluding Røkkr area-of-effect Specials)," 【Resonance: Blades】, and【Resonance: Shields】 to unit and allies within 2 spaces of unit for 1 turn.<br><br>If unit initiates combat or is within 2 spaces of an ally, grants bonus to unit's Atk/Res = 20% of unit's Res at start of combat, deals damage = 20% of unit's Res (excluding area-of-effect Specials), and unit makes a guaranteed follow-up attack during combat, and also, if unit's Res ≥ foe's Res+10, unit attacks twice during combat.<br><br>【Resonance: Blades】<br>Grants Atk/Spd+4 during combat for 1 turn.<br><br>【Resonance: Shields】<br>Grants Def/Res+4 during combat and the following effect for 1 turn: "During unit's first combat in player phase or enemy phase, foe cannot make a follow-up attack."
+|statModifiers=5,20,0,0,6
+|required=Bolganone;Fenrir
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe1={{Eft|Accelerates Special}}
+|Pe2={{Eft|Stat Boosts|HP|5}}, {{Eft|Stat Boosts|Atk/Res|6}}
+|Se1=<span style="width:12em;display:inline-block"/>{{SEt|Reduce Area-of-Effect Special Damage Taken}}
+|Se2={{SEt|Resonance: Blades}}
+|Se3={{SEt|Resonance: Shields}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=At start of both Phases<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce1={{Eft|Temporary buffs|Atk/Res|20% of {{Tgt|Unit}}'s Res<br>at start of combat}}
+|Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Res}}
+|Ce3={{Eft|Guaranteed Follow-Ups}}
+|Ce1-3C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce4={{Eft|Attack Twice}}
+|Ce4C={{Eft|Guaranteed Follow-Ups}}<br>conditions '''&''' {{Tgt|Unit}}'s<br>Res ≥ {{Tgt|Foe}}'s Res+10
+}}
+
+==Notes==
+{{Reduce Area-of-Effect Special Damage Taken}}
+{{Resonance: Blades}}
+{{Resonance: Shields}}
+{{IfUnitInitiates}}
+{{TemporaryBufffromBonus}}
+{{At start of combat}}
+{{DamageBoost}}
+{{AttackTwice}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%"reduces damage from area-of-effect Specials by 80%' OR Description LIKE '%【Resonance:%' OR Description LIKE '%unit_s ___ ≥ foe_s ___+10, unit attacks twice%' OR Description LIKE '% if ≥% unit attacks twice%') AND Exclusive='1'}}
+{{Weapons Navbox}}

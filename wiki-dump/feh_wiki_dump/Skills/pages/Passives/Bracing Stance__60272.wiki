@@ -1,0 +1,73 @@
+{{Passive
+|type=A
+|exclusive=0
+|1name=Bracing Stance 1
+|1tagid=SID_金剛明鏡の構え1
+|1promotionRarity=5
+|1promotionTier=1
+|1effect=If foe initiates combat, grants Def/Res+2 during combat.
+|1cost=120
+|1required=Steady Stance 1;Warding Stance 1
+|2name=Bracing Stance 2
+|2tagid=SID_金剛明鏡の構え2
+|2effect=If foe initiates combat, grants Def/Res+4 during combat.
+|2cost=240
+|2next=-
+|3name=Bracing Stance 3
+|3tagid=SID_金剛明鏡の構え3
+|3effect=If foe initiates combat, grants Def/Res+6 during combat and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)
+|3cost=300
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|all}}
+|properties1=random_all
+|properties2=random_all
+|properties3=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Bracing Stance 2}} Bracing Stance 2
+|skill1 CombatEffect={{SkillEffectText|Temporary buffs|Def/Res|4}}
+|skill1 CombatEffect Conditions=Enemy Phase
+|skill2={{Si|Bracing Stance 3}} Bracing Stance 3
+|skill2 CombatEffect 1={{SkillEffectText|Temporary buffs|Def/Res|6}}
+|skill2 CombatEffect 2={{SkillEffectText|Guard}}
+|skill2 CombatEffect 2 Targets={{SkillTargetText|Foe}}
+|skill2 CombatEffect Conditions=Enemy Phase
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+{{CooldownChargeMinus}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Bracing Stance 1;Bracing Stance 2
+|badgeColor=Transparent
+|costs1=20;100;20
+|costs2=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=金剛明鏡の構え
+|german=Stärkungsstand
+|spanishEU=Postura muralla
+|spanishLA=Postura muralla
+|french=Post. rempart
+|italian=Posa tonica
+|chineseTW=金剛明鏡架勢
+|portuguese=Postura muro
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe initiates combat%grants Def/Res+%during combat%' AND Description NOT LIKE '%against%' AND Description NOT LIKE '%uses%' AND Exclusive='1'}}
+* [[Stance Passives]]
+{{Seals Navbox}}
+{{Passives Navbox|A}}
+[[Category:Stance Passives]]

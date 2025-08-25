@@ -1,0 +1,85 @@
+{{#invoke:NameAbout|main|Name=Shanna}}{{HeroPage Tabs|{{PAGENAME}}}}
+{{Hero Infobox
+|Name=Shanna
+|Title= Sprightly Flier
+|GrowthModifier= None
+|WeaponType= Blue Lance
+|Origin= Fire Emblem: The Binding Blade
+|Gender= Female
+|MoveType=Flying
+|actorEN = Marisha Ray
+|actorJP=白城なお
+|artist=羽公
+|resplendentArtist=みわべさくら
+|releaseDate = February 2, 2017
+|poolDate = February 2, 2017
+|randomStartTime=2017-02-02T07:00:00Z
+|poolRarities=3,4
+|TagID=シャニー
+|InternalID=43
+|cv1=5
+|cv2=700600
+|description=A trainee of the Pegasus Knights of Ilia. Cheerful and optimistic. Appears in Fire Emblem: The Binding Blade.
+|Properties=resplendent,embla
+|resplendentStartTime=2021-10-10T07:00:00Z
+|resplendentEndTime=2021-10-25T06:59:59Z
+}}
+
+__TOC__
+
+{{Stats Page|Hero={{BASEPAGENAME}}
+|Lv1HP=17|Lv1ATK=8|Lv1SPD=9|Lv1DEF=6|Lv1RES=7
+|GRHP=50|GRATK=50|GRSPD=60|GRDEF=45|GRRES=50
+}}
+
+== Skills ==
+
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Killer Lance
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Killer Lance+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Shanna's Lance
+|weapon5Default=
+|weapon5Unlock=5
+}}
+
+===Assists===
+{{Assists Table
+}}
+
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Iceberg
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Desperation 1
+|passiveB2=Desperation 2
+|passiveB3=Desperation 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Threaten Spd 1
+|passiveC2=Threaten Spd 2
+|passiveC3=Threaten Spd 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+
+{{Heroes Navbox}}

@@ -1,0 +1,65 @@
+{{#invoke:NameAbout|main|Name=Takumi}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Takumi
+|Title=Wishful Spark
+|WeaponType=Colorless Bow
+|MoveType=Cavalry
+|Origin=Fire Emblem Fates
+|Gender=Male
+|actorEN=Michael Sinterniklaas
+|actorJP=梶裕貴
+|artist=在由子
+|additionDate=August 6, 2024
+|releaseDate=August 7, 2024
+|cv1=11
+|cv2=200900
+|TagID=浴衣タクミ
+|InternalID=1130
+|Properties=limited,tempest,specDisplay,hat,hair,tiara
+|description=The second prince of Hoshido has formed a bond with Leo of Nohr and decided to bring him along with him to the summer festival. Appears in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=12|Lv1SPD=11|Lv1DEF=4|Lv1RES=4
+|GRHP=50|GRATK=70|GRSPD=80|GRDEF=55|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Stall-Game Bow
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Stall-Game Bow+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Shove
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveB1=Def/Res Snag 1
+|passiveB2=Def/Res Snag 2
+|passiveB3=Def/Res Snag 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Rouse Atk/Spd 1
+|passiveC2=Rouse Atk/Spd 2
+|passiveC3=Rouse Atk/Spd 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Hoshidan Summer Festival units]]

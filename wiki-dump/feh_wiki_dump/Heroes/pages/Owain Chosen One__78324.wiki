@@ -1,0 +1,77 @@
+{{#invoke:NameAbout|main|Name=Owain|Name2=Odin}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Owain
+|Title=Chosen One
+|GrowthModifier=
+|WeaponType=Red Sword
+|Origin=Fire Emblem Awakening
+|Gender=Male
+|MoveType=Infantry
+|actorJP=高橋英則
+|actorEN=Kaiji Tang
+|artist=スエカネクミコ
+|additionDate=October 23, 2018
+|releaseDate=October 23, 2018
+|poolDate=November 9, 2018
+|poolRarities=5
+|TagID=ウード
+|InternalID=303
+|Properties=specRate_202108,notRandomized
+|cv1=10
+|cv2=6900200
+|description=Lissa's son who tends to be overly theatrical. He loves to give weapons dramatic names. Appears in Fire Emblem Awakening.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=8|Lv1SPD=9|Lv1DEF=7|Lv1RES=7
+|GRHP=55|GRATK=55|GRSPD=65|GRDEF=55|GRRES=35
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Missiletainn (sword)
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=4
+|special1Unlock=3
+|special2=Bonfire
+|special2Unlock=4
+|special3=Blue Flame
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Def Bond 1
+|passiveA2=Atk/Def Bond 2
+|passiveA3=Atk/Def Bond 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Wrath 1
+|passiveB2=Wrath 2
+|passiveB3=Wrath 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Spur Spd 1
+|passiveC2=Spur Spd/Def 1
+|passiveC3=Spur Spd/Def 2
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

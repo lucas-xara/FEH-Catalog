@@ -1,0 +1,35 @@
+{{Weapon Infobox
+|tagid=SID_花嫁の向日葵
+|intID=3073
+|image=wep_lc122
+|exclusive=0
+|weaponType=Lance
+|cost=200
+|might=10
+|range=1
+|effect=At start of combat, if unit's HP ≥ 25%, grants Atk/Def+5 and bonus to Atk/Def during combat = current bonus on unit's Atk/Def. Calculates each stat bonus independently.
+|statModifiers=0,10,0,0,0
+|required=Steel Lance
+|next=Bridal Sunflower+
+|promotionRarity=5
+|promotionTier=1
+|properties=
+}}
+==Notes==
+{{CombatBoostfromBonus}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=花嫁の向日葵
+|german=Hochzeitsstrauß
+|spanishEU=Girasol nupcial
+|spanishLA=Girasol nupcial
+|french=Tournesol nuptial
+|italian=Girasole nuziale
+|chineseTW=新娘的向日葵
+|portuguese=Girassol nupcial
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%bonus to%during combat = current bonus%on unit%calculate%'|columns=3}}
+{{Weapons Navbox}}

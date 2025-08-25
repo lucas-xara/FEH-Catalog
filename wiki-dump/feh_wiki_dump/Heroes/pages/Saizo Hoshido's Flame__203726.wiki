@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Saizo}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Saizo
+|Title=Hoshido's Flame
+|WeaponType=Blue Lance
+|MoveType=Infantry
+|Origin=Fire Emblem Fates
+|Gender=Male
+|actorEN=Ben Diskin
+|actorJP=新垣樽助
+|artist=黒葉.K
+|additionDate=November 6, 2023
+|releaseDate=November 7, 2023
+|cv1=11
+|cv2=200400
+|TagID=忍者サイゾウ
+|InternalID=1020
+|Properties=limited,tempest,specDisplay
+|description=A ninja who serves Ryoma of Hoshido. Determined not to lose to mere novices in the craft he's mastered. Appears in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=15|Lv1ATK=11|Lv1SPD=12|Lv1DEF=12|Lv1RES=6
+|GRHP=50|GRATK=70|GRSPD=75|GRDEF=75|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Kumo Naginata
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Kumo Naginata+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Rising Flame
+|special1Default=4
+|special1Unlock=3
+|special2=Growing Flame
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Def Solo 1
+|passiveA2=Atk/Def Solo 2
+|passiveA3=Atk/Def Solo 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Def Smoke 1
+|passiveC2=Def Smoke 2
+|passiveC3=Def Smoke 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Ninja Festival units]]

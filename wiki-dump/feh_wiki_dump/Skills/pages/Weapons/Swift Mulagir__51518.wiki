@@ -1,0 +1,70 @@
+{{Weapon Infobox
+|tagid=SID_疾弓ミュルグレ
+|weaponType=Bow
+|might=14
+|range=2
+|effectiveness=flying
+|effect=Effective against flying foes.<br>Grants Res+3. If the number of allies within 2 spaces (excluding unit) > the number of foes within 2 spaces (excluding target), grants Atk/Spd+5 during combat.
+|cost=400
+|exclusive=1
+|userVersion1=Bow
+|userVersion2=Arrow
+|userVersion3=Gleam
+|userVersion4=Upgrade Gleam
+|statModifiers=0,14,0,0,3
+|required=Silver Bow
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Effective against flying foes. Grants Res+3. If unit is within 3 spaces of an ally, grants Atk/Spd+5 to unit during combat, and also, during combat, disables skills of all foes excluding foe in combat.
+|tagidExtraSkill1=一
+|effectSkill1=If unit initiates combat or if foe's HP ≥ 75% at start of combat, deals damage = 15% of unit's Spd and grants Atk/Spd+5 to unit during combat.
+|iconSkill1=Swift Mulagir W.png
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Res|3}}
+|s1 Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|s1 Ce2={{Eft|Temporary buffs|Atk/Spd|5}}
+|s1 Ce2C={{Tgt|Allies}} [[within 2 spaces|within 2<br>spaces]] of {{Tgt|Unit}}<br>> {{Tgt|Foes}} [[within 2 spaces|within 2<br>spaces]] of {{Tgt|Unit}}
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Res|3}}
+|s2 Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|s2 Ce2={{Eft|Temporary buffs|Atk/Spd|5}}
+|s2 Ce3={{Eft|Disable Ally Skills}}
+|s2 Ce3T={{Tgt|Foe}}
+|s2 Ce2-3C=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|skill3={{Si|Swift Mulagir|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd|5}}
+|s3 Ce2={{Eft|Damage Boost|15% of {{Tgt|Unit}}'s Spd}}
+|s3 CeC=Player Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{Temporary buffs}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{CombatEffectNeutralization|name=Refined Swift Mulagir}}
+{{IfUnitInitiates}}
+{{DamageBoost|name={{St|Swift Mulagir|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=疾弓ミュルグレ
+|german=Flinker Mulagir
+|spanishEU=Mulagir ligero
+|spanishLA=Mulagir ligero
+|french=Mulagir rapide
+|italian=Mulagir agile
+|chineseTW=疾弓妙爾葛雷
+|portuguese=Mulagir ligeiro
+}}
+==See also==
+{{See also skills|cond=WikiName LIKE '%mulagir%' OR (Description LIKE '%【Feud】%' OR Description LIKE '%disables skills of all%excluding%') AND Exclusive='1'}}
+* [[Feud Passives]]
+{{Weapons Navbox}}

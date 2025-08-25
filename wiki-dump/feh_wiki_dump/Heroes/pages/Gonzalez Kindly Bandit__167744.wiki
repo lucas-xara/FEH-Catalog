@@ -1,0 +1,66 @@
+{{#invoke:NameAbout|main|Name=Gonzalez}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Gonzalez
+|Title=Kindly Bandit
+|WeaponType=Green Axe
+|MoveType=Infantry
+|Origin=Fire Emblem: The Binding Blade
+|Gender=Male
+|actorEN=Jarred Kjack
+|actorJP=拝真之介
+|artist=添田一平
+|additionDate=February 18, 2022
+|releaseDate=February 19, 2022
+|cv1=5
+|cv2=900800
+|TagID=ゴンザレス
+|InternalID=775
+|Properties=limited,ghb
+|description=An uncommonly large man, born in the Western Isles. Searching for a group who would accept him for who he is, he wound up with bandits. Appears in Fire Emblem: The Binding Blade.
+}}
+{{Stats Page
+|Lv1HP=20|Lv1ATK=12|Lv1SPD=9|Lv1DEF=9|Lv1RES=4
+|GRHP=70|GRATK=70|GRSPD=60|GRDEF=55|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Rein Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Rein Axe+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Dragon Fang
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Push 1
+|passiveA2=Atk/Spd Push 2
+|passiveA3=Atk/Spd Push 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Threaten Atk 1
+|passiveC2=Threat. Atk/Spd 1
+|passiveC3=Threat. Atk/Spd 2
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

@@ -1,0 +1,47 @@
+{{Special
+|tagid=SID_氷輪
+|intID=4550
+|exclusive=0
+|canUseWeapon={{WeaponList|Magic}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=4
+|effect=When Special triggers, boosts damage by 70% of unit's Res and neutralizes foe's "reduces damage by X%" effects from foe's non-Special skills.<br><br>If unit cannot perform a follow-up attack and attack twice, grants Special cooldown count-1 to unit before unit's first attack during combat.
+|required=Glacies
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Damage Boost|70% of {{Tgt|Unit}}'s Res}}
+|Ce2={{Eft|Neutralize Damage Reduction}}
+|Ce2T={{Tgt|Foe}}
+|Ce1-2C=Special triggers
+|Ce3={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Unit}}'s first attack
+|Ce3T={{Tgt|Unit}}
+|Ce3C={{Tgt|Unit}} can't<br>[[follow-up]] '''&'''<br>[[attack twice]]
+}}
+
+==Notes==
+{{DamageBoost}}
+{{DamageReductionNeutralization}}
+{{CombatCooldownCount|-1}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=氷輪
+|german=
+|spanishEU=
+|spanishLA=Luna gélida
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(SCategory='special' AND (Description LIKE '%disables%reduce%damage by x%' OR Description LIKE '%neutralizes%reduce%damage by x%') AND Description LIKE '%non-Special%' AND Description NOT LIKE '%reduces the percentage%' OR Description LIKE '%cannot perform a follow-up attack or attack twice%') AND Exclusive='1'}}
+{{Specials Navbox}}

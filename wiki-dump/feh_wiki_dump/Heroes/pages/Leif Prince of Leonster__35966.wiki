@@ -1,0 +1,84 @@
+{{#invoke:NameAbout|main|Name=Leif}}{{HeroPage Tabs|{{PAGENAME}}}}
+{{Hero Infobox
+|Name=Leif
+|Title = Prince of Leonster
+|GrowthModifier = Gen 2
+|WeaponType = Red Sword
+|MoveType = Infantry
+|Origin = Fire Emblem: Thracia 776 
+|Gender = Male
+|actorEN = Nicolas Roye
+|actorJP=鈴村健一
+|artist=あおじ
+|releaseDate = April 11, 2018
+|poolDate = April 24, 2018
+|randomStartTime=2018-05-11T07:00:00Z
+|poolRarities=5
+|TagID=リーフ
+|InternalID=236
+|cv1=4
+|cv2=100100
+|Properties=specRate_202008,resplendent,nifl
+|resplendentArtist=スエカネクミコ
+|resplendentStartTime=2021-05-10T07:00:00Z
+|resplendentEndTime=2021-05-24T06:59:59Z
+|description=Quan's son. He was hiding in Fiana but rose up after an attack by imperial forces. Appears in Fire Emblem: Thracia 776.
+}}
+
+__TOC__
+
+{{Stats Page|Hero={{BASEPAGENAME}}
+|Lv1HP=18|Lv1ATK=6|Lv1SPD=10|Lv1DEF=8|Lv1RES=6
+|GRHP=50|GRATK=60|GRSPD=65|GRDEF=50|GRRES=40
+}}
+
+== Skills ==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=3
+|weapon2Unlock=3
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=4
+|weapon4=Light Brand
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+
+===Assists===
+{{Assists Table
+}}
+
+===Specials===
+{{Specials Table
+|special1=Rising Light
+|special1Default=4
+|special1Unlock=3
+|special2=Blazing Light
+|special2Default=
+|special2Unlock=4
+}}
+
+===Passives===
+{{Passives Table
+|passiveA1=Armored Blow 1
+|passiveA2=Steady Blow 1
+|passiveA3=Steady Blow 2
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=S Drink
+|passiveB1Unlock=5
+|passiveC1=Spur Atk 1
+|passiveC2=Drive Atk 1
+|passiveC3=Drive Atk 2
+|passiveC1Unlock=1
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+}}
+
+{{Heroes Navbox}}

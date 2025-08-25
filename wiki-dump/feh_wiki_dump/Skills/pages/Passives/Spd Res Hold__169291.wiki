@@ -1,0 +1,45 @@
+{{Passive
+|type=C
+|name=Spd/Res Hold
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|Flying}}
+|properties=random_owner
+|1name=Spd/Res Hold
+|alt1name=Spd Res Hold
+|1tagid=SID_速さ魔防の大牽制
+|1cost=300
+|1effect=Inflicts Spd/Res-4 on foes within 3 spaces during combat.
+|1required=Spd/Res Rein 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce={{Eft|Temporary debuffs|Spd/Res|4}}
+|CeT={{Tgt|Foes}}<br>[[within 3 spaces]]
+}}
+==Notes==
+{{Temporary debuffs}}
+{{FoesCombatEffect|effect=temporary debuffs}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Spd/Res Hold
+|japanese=速さ魔防の大牽制
+|german=Ges./Res.-Halt
+|spanishEU=Aguante Vel/Res
+|spanishLA=Aguant. Vel./Res.
+|french=Frein Vit/Rés
+|italian=Redine Vel/Res
+|chineseTW=速度魔防大牽制
+|portuguese=Freio Vel./Res.
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%inflicts%Spd/%Res-%on foes within _ spaces during combat%' AND WikiName NOT LIKE '%Rein%' AND Exclusive='1'}}
+* [[Rein Passives]]
+* [[Skill families/C Passives#Hold|Hold Passives]]
+{{Passives Navbox|C}}

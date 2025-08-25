@@ -1,0 +1,54 @@
+{{Weapon Infobox
+|tagid=SID_継戦の剣＋
+|intID=4526
+|image=wep_sw189
+|exclusive=0
+|weaponType=Sword
+|cost=300
+|might=14
+|range=1
+|effect=At start of combat, if unit's HP ≥ 25%, grants Atk/Def+5 to unit during combat, inflicts Atk/Def-X on foe during combat (X = 25% of unit's HP at start of combat; max 10), and restores 10 HP to unit after combat.
+|required=Campaign Blade
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Heal|10}}
+|MeC=After combat if<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce1={{Eft|Temporary buffs|Atk/Def|5}}
+|Ce2={{Eft|Temporary debuffs|Atk/Def|25% of {{Tgt|Unit}}'s HP<br>at start of combat|max=10}}
+|Ce2T={{Tgt|Foe}}
+|CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{Temporary buffs}}
+{{Temporary debuffs}}
+{{At start of combat}}
+{{After combat healing}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian= Lama d'assalto+
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%inflicts%/%-X%on foe%=%of unit_s HP at start of combat%' AND Exclusive='1' AND Name NOT LIKE '%campaign%'}}
+* [[Skill families/Weapons#Campaign|Campaign Weapons]]
+{{Weapons Navbox}}

@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Noire}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Noire
+|Title=Demurely Deft
+|WeaponType=Colorless Dagger
+|MoveType=Infantry
+|Origin=Fire Emblem Awakening
+|Gender=Female
+|actorEN=Michelle Ruff
+|actorJP=吉田聖子
+|artist=やまのかみ
+|additionDate=November 5, 2024
+|releaseDate=November 6, 2024
+|cv1=10
+|cv2=6901100
+|TagID=忍者ノワール
+|InternalID=1165
+|Properties=limited,tempest,specDisplay
+|description=Tharja's daughter. Her timid personality can turn on a dime when she is enraged. She joins the ninja festival with her mother and tormentor. Appears in Fire Emblem Awakening.
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=11|Lv1SPD=8|Lv1DEF=10|Lv1RES=9
+|GRHP=50|GRATK=75|GRSPD=90|GRDEF=60|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Dagger
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Dagger
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Giant Shuriken
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Giant Shuriken+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Moonbow
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Seal Spd 1
+|passiveB2=Seal Atk/Spd 1
+|passiveB3=Seal Atk/Spd 2
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Infantry Flash 1
+|passiveC2=Infantry Flash 2
+|passiveC3=Infantry Flash 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Ninja Festival units]]

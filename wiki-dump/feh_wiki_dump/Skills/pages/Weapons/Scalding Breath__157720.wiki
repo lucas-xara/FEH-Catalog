@@ -1,0 +1,49 @@
+{{Weapon Infobox
+|tagid=SID_蒸気のブレス
+|intID=2743
+|image=wep_ac038
+|exclusive=1
+|weaponType=Dragonstone
+|cost=400
+|might=16
+|range=1
+|effect=Grants Spd+3. If foe initiates combat or if foe's HP ≥ 75% at start of combat, grants Atk/Spd/Def/Res+5 to unit and neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat, and also, if unit is not adjacent to an ally, inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.) If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|statModifiers=0,16,3,0,0
+|required=Flametongue
+|properties=random_owner,enemy_only
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Stat Boosts|Spd|3}}
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce2={{Eft|Neutralize Prevent Follow-Up}}
+|Ce3={{Eft|Neutralize Guaranteed Follow-Up}}
+|Ce4={{Eft|Guard}}
+|Ce3-4T={{Tgt|Foe}}
+|Ce5={{Eft|Lower Def Res}}
+|Ce1-3C=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥75%<br>at start of combat
+|Ce4C=(Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥75%<br>at start of combat)<br>'''&''' no {{Tgt|Allies}}<br>are [[adjacent]]
+|Ce5C={{Tgt|Foe}}'s [[Range = 2]]
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+{{Follow-up effect neutralization}}
+{{CooldownChargeMinus}}
+{{LowerDefRes}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=蒸気のブレス
+|german=Kochender Atem
+|spanishEU=Aliento ardiente
+|spanishLA=Soplo ardiente
+|french=Souffle embrasé
+|italian=Respiro rovente
+|chineseTW=蒸氣吐息
+|portuguese=Sopro escaldante
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%guarantee foe_s follow-up%prevent unit_s follow-up%' AND Description NOT LIKE '%【Null Follow-Up】%' AND Exclusive='1'}}
+{{Weapons Navbox}}

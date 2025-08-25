@@ -1,0 +1,50 @@
+{{Weapon Infobox
+|tagid=SID_神泉の風呂桶＋
+|weaponType=Dagger
+|weaponName=Splashy Bucket+
+|might=12
+|range=2
+|effectiveness=dragon
+|effect=Effective against dragon foes. Disables foe's skills that "calculate damage using the lower of foe's Def or Res" and "calculate damage from staff like other weapons." After combat, if unit attacked, inflicts Def/Res-7 on foes within 2 spaces of target through their next actions.
+|cost=300
+|exclusive=0
+|canUseMove=
+|statModifiers=0,12,0,0,0
+|required=Splashy Bucket
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Effectiveness|{{Cwti|Dragonstone|group=1}} [[Dragon]]}}
+|Ce2={{Eft|Disable Lower Def/Res}}
+|Ce3={{Eft|Disable Wrathful Staff}}
+|Ce2-3T={{Tgt|Foe}}
+|Se={{Eft|Penalties|Def/Res|7}}
+|SeT={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|SeC=After combat if<br>{{Tgt|Unit}} attacked
+}}
+==Notes==
+{{Effective damage bonus|dragon}}
+{{LowerDefRes}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=神泉の風呂桶＋
+|german=Wassereimer+
+|spanishEU=Cubo termal +
+|spanishLA=Balde termal +
+|french=Seau d'attaque +
+|italian=Secchiata+
+|chineseTW=神泉木水盆＋
+|portuguese=Balde termal+
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%disables%"calculate damage using the lower of%' OR Description LIKE '%disables%"calculate damage from staff%') AND Exclusive='1'}}
+{{Weapons Navbox}}

@@ -1,0 +1,69 @@
+{{#invoke:NameAbout|main|Name=Cecilia}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Cecilia
+|Title=Etrurian Bride
+|WeaponType=Red Tome
+|MoveType=Cavalry
+|Origin=Fire Emblem: The Binding Blade
+|Gender=Female
+|actorEN=Cherami Leigh
+|actorJP=行成とあ
+|artist=kainown
+|additionDate=May 20, 2022
+|releaseDate=May 20, 2022
+|cv1=5
+|cv2=400300
+|TagID=花嫁セシリア
+|InternalID=806
+|Properties=special
+|description=The Mage General, the pride of Etruria, taking a hiatus from her usual armor for the day and hoping to catch a bouquet. Appears in Fire Emblem: The Binding Blade.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=11|Lv1SPD=6|Lv1DEF=3|Lv1RES=8
+|GRHP=50|GRATK=70|GRSPD=45|GRDEF=35|GRRES=70
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elfire
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Bridal Orchid
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Bridal Orchid+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Rally Resistance
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Rally Atk/Res
+|assist2Unlock=4
+|assist3=Rally Atk/Res+
+|assist3Unlock=5
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveB1=Atk/Res Ruse 1
+|passiveB2=Atk/Res Ruse 2
+|passiveB3=Atk/Res Ruse 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Rouse Atk/Res 1
+|passiveC2=Rouse Atk/Res 2
+|passiveC3=Rouse Atk/Res 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Bridal Festival units]]

@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Zelot}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Zelot
+|Title=Avowed Groom
+|WeaponType=Green Axe
+|MoveType=Cavalry
+|Origin=Fire Emblem: The Binding Blade
+|Gender=Male
+|actorEN=Erik Braa
+|actorJP=てらそままさき
+|artist=板垣ハコ
+|additionDate=May 20, 2021
+|releaseDate=May 21, 2021
+|cv1=5
+|cv2=700100
+|TagID=花婿ゼロット
+|InternalID=664
+|Properties=limited,tempest,specDisplay
+|description=Captain of the Ilian mercenaries, who rely on battle to earn their living. He is attending the bridal festival alongside his wife, Juno. Appears in Fire Emblem: The Binding Blade.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=9|Lv1SPD=6|Lv1DEF=9|Lv1RES=6
+|GRHP=50|GRATK=65|GRSPD=45|GRDEF=70|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Love Candelabra
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Love Candelabra+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=4
+|special1Unlock=3
+|special2=Ignis
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Def Form 1
+|passiveA2=Atk/Def Form 2
+|passiveA3=Atk/Def Form 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Spur Atk 1
+|passiveC2=Drive Atk 1
+|passiveC3=Drive Atk 2
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Bridal Festival units]]

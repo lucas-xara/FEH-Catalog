@@ -1,0 +1,34 @@
+{{Weapon Infobox
+|tagid=SID_キャンセルの斧
+|weaponType=Axe
+|might=10
+|range=1
+|effect=Inflicts Special cooldown charge -1 on foe per attack during combat. (Only highest value applied. Does not stack.)
+|cost=200
+|exclusive=0
+|statModifiers=0,10,0,0,0
+|next=Guard Axe+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Axe
+|properties=random_all
+}}
+==Notes==
+{{CooldownChargeMinus}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=キャンセルの斧
+|german=Wachtaxt
+|spanishEU=Hacha cancelante
+|spanishLA=Hacha guardiana
+|french=Hache négation
+|italian=Ascia arginante
+|chineseTW=取消之斧
+|portuguese=Mach. protetor
+}}
+==See also==
+* [[Hack-o'-Lantern]]
+* [[Skill families#Guard (cooldown charge)|Guard weapons]]
+{{Weapons Navbox}}

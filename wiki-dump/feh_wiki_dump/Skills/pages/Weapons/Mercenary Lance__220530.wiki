@@ -1,0 +1,64 @@
+{{Weapon Infobox
+|tagid=SID_重歩傭兵の槍
+|intID=4263
+|image=wep_lc175
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=16
+|range=1
+|effect=If foe initiates combat or foe's HP ≥ 75% at start of combat, inflicts Atk/Def-5 on foe, neutralizes penalties on unit, reduces damage from foe's attacks by 20% of unit's Def (excluding area-of-effect Specials), and grants Special cooldown charge +1 to unit per attack during combat (only highest value applied; does not stack).
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|refineStatsSkill1=3,0,0,0,0
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, inflicts Atk/Def-X on foe during combat (X = 5 + 15% of unit's Def) and restores 10 HP to unit after combat, and also, if foe initiates combat, grants Special cooldown count-2 to unit before foe's first attack during combat.
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Ce1={{Eft|Temporary Debuffs|Atk/Def|5}}
+|s1 Ce1T={{Tgt|Foe}}
+|s1 Ce2={{Eft|Neutralize Penalties}}
+|s1 Ce3={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Def}}<br>from {{Tgt|Foe}}'s attacks
+|s1 Ce4={{Eft|Accelerate Charge}}
+|s1 CeC=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|skill2={{Si|Mercenary Lance|refine=Skill1}} Skill refine effects
+|s2 Ce1={{Eft|Temporary Debuffs|Atk/Def|5 + 15% of {{Tgt|Unit}}'s Def}}
+|s2 Ce1T={{Tgt|Foe}}
+|s2 Ce1C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s2 Ce2={{Eft|Reduce Cooldown|2}}<br>before {{Tgt|Foe}}'s first attack
+|s2 Ce2C=Enemy Phase '''&'''<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s2 Me={{Eft|Heal|10}}
+|s2 MeC=After combat if<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Temporary debuffs}}
+{{FlatDamageReduction}}
+{{CooldownChargePlus}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{After combat healing|name={{St|Mercenary Lance|refine=Skill1}}}}
+{{CombatCooldownCount|-2|name={{St|Mercenary Lance|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=重歩傭兵の槍
+|german=Söldnerlanze
+|spanishEU=Lanza mercenaria
+|spanishLA=Lanza mercenaria
+|french=Épieu mercenaire
+|italian=Lancia al soldo
+|chineseTW=重步傭兵之槍
+|portuguese=Lança mercenária
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%reduces damage from foe_s attacks by%of unit_s Def%' OR Description LIKE '%grants Special cooldown count-%before foe_s first attack%') AND Exclusive='1'}}
+{{Weapons Navbox}}

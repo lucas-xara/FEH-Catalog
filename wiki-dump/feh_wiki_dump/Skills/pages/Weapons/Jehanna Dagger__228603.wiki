@@ -1,0 +1,63 @@
+{{Weapon Infobox
+|tagid=SID_ジャハナの暗器
+|intID=4539
+|image=wep_dg099
+|exclusive=0
+|weaponType=Dagger
+|cost=200
+|might=8
+|range=2
+|effect=If a skill compares unit's Spd to a foe's or ally's Spd, treats unit's Spd as if granted +7.<br><br>At start of player phase or enemy phase, if unit is within 2 spaces of an ally, grants Atk/Spd+6,【Dodge】, and "neutralizes penalties on unit during combat" to unit and allies within 2 spaces of unit for 1 turn.<br><br>If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit and reduces damage from foe's first attack by 7 during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and unit's next attack deals damage = total damage reduced from foe's first attack (by any source, including other skills). Resets at end of combat.<br><br>Effect:【Dagger ５】<br><br>【Dodge】<br>If unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 4 (max 40%).<br><br>【Dagger ５】<br>After combat, if unit attacked, inflicts Def/Res-５ on target and foes within 2 spaces of target through their next actions.
+|required=Steel Dagger
+|next=Jehanna Dagger+
+|promotionRarity=5
+|promotionTier=1
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{Eft|Bonuses|Atk/Spd|6}}
+|Se2={{SEt|Dodge}}
+|Se3={{SEt|Neutralize Penalties}}
+|Se1-3T={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|Se1-3C=At start of both Phases<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Se4={{Eft|Penalties|Def/Res|5}}
+|Se4T={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|Se4C=After combat if<br>{{Tgt|Unit}} attacked
+|Ce1={{Eft|Phantom|Spd|7}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce3={{Eft|Damage Reduction|7}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce4={{Eft|Damage Boost|total damage reduced}}<br>from {{Tgt|Foe}}'s first attack<br>for {{Tgt|Unit}}'s next attack<br>(including other sources)
+|Ce2-4C=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+}}
+==Notes==
+{{Phantom Passive notes|Spd}}
+{{Bonuses}}
+{{Dodge}}
+{{Neutralize Penalties}}
+{{Temporary buffs}}
+{{DamageBoostFromDamageReduction|7|flat=1}}
+{{IfUnitAttacked}}
+{{Penalties}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%if a skill compares unit_s Spd%' OR Description LIKE '%reduces damage%next attack%total damage%' AND NOT SCategory='special') AND Exclusive='1'}}
+* [[Phantom Passives]]
+{{Weapons Navbox}}

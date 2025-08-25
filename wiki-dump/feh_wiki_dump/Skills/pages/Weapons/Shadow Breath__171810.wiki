@@ -1,0 +1,55 @@
+{{Weapon Infobox
+|tagid=SID_暗黒地竜のブレス
+|intID=3048
+|image=wep_ac050
+|exclusive=1
+|weaponType=Dragonstone
+|cost=400
+|might=16
+|range=1
+|effect=Grants Atk+3. At start of turn, grants Atk/Res+6 and【En Garde】to unit and allies within 2 spaces of unit for 1 turn. If foe initiates combat or if foe's HP ≥ 75% at start of combat, inflicts Atk/Res-6 on foe during combat and foe cannot make a follow-up attack. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.<br><br>【En Garde】<br>Neutralizes damage outside of combat (from skills like Poison Strike, structures like Bolt Tower, etc.) except damage dealt by area-of-effect Specials.
+|statModifiers=0,19,0,0,0
+|required=Flametongue
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Stat Boosts|Atk|3}}
+|Se1={{Eft|Bonuses|Atk/Res|6}}
+|Se2={{SEt|En Garde}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=At start of turn
+|Ce1={{Eft|Temporary debuffs|Atk/Res|6}}
+|Ce2={{Eft|Prevent Follow-Ups}}
+|Ce1-2T={{Tgt|Foe}}
+|Ce1-2C=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|Ce3={{Eft|Lower Def Res}}
+|Ce3C={{Tgt|Foe}}'s [[Range = 2]]
+}}
+==Notes==
+{{Bonuses}}
+{{En Garde}}
+{{IfFoeInitiates}}
+{{Combat reductions}}
+{{Prevent follow-up}}
+{{LowerDefRes}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V6.4_v0604c_legend_Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=暗黒地竜のブレス
+|german=Schattenatem
+|spanishEU=Aliento turbio
+|spanishLA=Soplo sombra
+|french=Souffle d'ombre
+|italian=Soffio ombra
+|chineseTW=暗黑地龍吐息
+|portuguese=Sopro sombroso
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【En Garde】%' AND Exclusive='1'}}
+{{Weapons Navbox}}

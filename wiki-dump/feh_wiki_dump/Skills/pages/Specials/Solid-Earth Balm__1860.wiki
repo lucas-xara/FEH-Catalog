@@ -1,0 +1,31 @@
+{{Special
+|tagid=SID_大地の祝福
+|name=Solid-Earth Balm
+|charge=1
+|effect=When healing an ally with a staff, grants Def+4 to all allies for 1 turn.
+|cost=150
+|required=-
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|Staff}}
+|properties=random_all
+}}
+==Notes==
+{{Bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=大地の祝福
+|german=Erdbalsam
+|spanishEU=Geobálsamo
+|spanishLA=Geobálsamo
+|french=Baume fortifiant
+|italian=Balsamo terra
+|chineseTW=大地的祝福
+|portuguese=Geobálsamo
+}}
+==See also==
+* [[Skill families/Specials#Balm|Balm Specials]]
+{{Specials Navbox}}
+[[Category:Balm Specials]]

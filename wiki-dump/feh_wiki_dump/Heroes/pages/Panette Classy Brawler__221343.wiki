@@ -1,0 +1,66 @@
+{{#invoke:NameAbout|main|Name=Panette}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Panette
+|Title=Classy Brawler
+|WeaponType=Green Axe
+|MoveType=Infantry
+|Origin=Fire Emblem Engage
+|Gender=Female
+|actorEN=Melissa Hutchison
+|actorJP=首藤志奈
+|artist=ネコモチ
+|additionDate=August 16, 2024
+|releaseDate=August 17, 2024
+|cv1=14
+|cv2=500400
+|TagID=パネトネ
+|InternalID=1135
+|Properties=limited,ghb,hat
+|description=A warrior for Solm and retainer to Timerra. Her speech tends to be stilted, but at times it's erratic. Appears in Fire Emblem Engage.
+}}
+{{Stats Page
+|Lv1HP=21|Lv1ATK=9|Lv1SPD=11|Lv1DEF=11|Lv1RES=5
+|GRHP=65|GRATK=90|GRSPD=70|GRDEF=55|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Berserker Axe
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Dragon Fang
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Fire Boost 1
+|passiveA2=Fire Boost 2
+|passiveA3=Fire Boost 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Panic Smoke 1
+|passiveC2=Panic Smoke 2
+|passiveC3=Panic Smoke 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

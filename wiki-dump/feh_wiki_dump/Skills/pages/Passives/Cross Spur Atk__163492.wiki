@@ -1,0 +1,47 @@
+{{Passive
+|type=C
+|name=Cross Spur Atk
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_inherit_base,random_owner
+|1name=Cross Spur Atk
+|1tagid=SID_攻撃の十字紋章
+|1cost=300
+|1effect=Grants Atk+5 to allies in cardinal directions of unit during combat.
+|1required=Spur Atk 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce={{Eft|Temporary buffs|Atk|5}}
+|CeT={{Tgt|Allies}} within<br>[[Cardinal directions]]
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{CardinalDirections}}
+{{AlliesCombatEffect}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=攻撃の十字紋章
+|german=Kreuz-Agr. anspo.
+|spanishEU=Mejora Ata cruz
+|spanishLA=Mejora Atq. cruz
+|french=Ence. croisé Atq
+|italian=Migliora Att area
+|chineseTW=攻擊十字紋章
+|portuguese=Atq. realç. cruz
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grant%+%to%all%cardinal direction%combat%' AND WikiName NOT LIKE '%spur%' AND Description NOT LIKE '%rally%'}}
+* [[Skill families#Cross Spur|Cross Spur Passives]]
+{{Passives Navbox|C}}
+[[Category:Spur Passives]][[Category:Cross Spur Passives]]

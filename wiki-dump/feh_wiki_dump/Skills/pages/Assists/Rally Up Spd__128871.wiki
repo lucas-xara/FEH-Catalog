@@ -1,0 +1,48 @@
+{{Assist
+|tagid=SID_速さの大応援
+|name=Rally Up Spd
+|range=1
+|effect=Grants Spd+4 to target ally and allies within 2 spaces of target (excluding unit) for 1 turn.
+|cost=300
+|exclusive=0
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|required=Rally Speed
+|intID=2257
+|sort=3110
+|effectRange=2
+|value=11
+|timingID=0
+|abilityID=23
+|randomTimestamp=2020-11-08T07:00:00Z
+|randomMinLv=31
+|properties=random_inherit_base,random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se={{Eft|Bonuses|Spd|4}}
+|SeT={{Tgt|Target Ally}}<br>'''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Ally}}
+|SeC={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}
+}}
+==Notes==
+{{Bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Rally Up Spd
+|japanese=速さの大応援
+|german=Gr. Ges. sam.
+|spanishEU=Reforzar Vel
+|spanishLA=Reforzar Vel.
+|french=Rall. sup. Vit
+|italian=Gran sprone Vel
+|chineseTW=速度大支援
+|portuguese=Vel. imensa
+}}
+==See also==
+* [[Rally Assists]]
+* [[Rally Up Assists]]
+{{Assists Navbox}}
+[[Category:Rally Assists]]
+[[Category:Rally Up Assists]]

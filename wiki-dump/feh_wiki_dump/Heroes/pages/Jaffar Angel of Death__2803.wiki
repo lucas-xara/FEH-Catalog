@@ -1,0 +1,73 @@
+{{#invoke:NameAbout|main|Name=Jaffar}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Jaffar
+|Title=Angel of Death
+|WeaponType=Colorless Dagger
+|MoveType=Infantry
+|Origin=Fire Emblem: The Blazing Blade
+|Gender=Male
+|actorEN=Walden James 
+|resplendentActorEN=Jason Vande Brake
+|actorJP=内田雄馬
+|artist=久杉トク
+|resplendentArtist=叶之明
+|releaseDate=March 14, 2017
+|poolDate=March 30, 2017
+|randomStartTime=2017-03-30T07:00:00Z
+|poolRarities=5
+|TagID=ジャファル
+|InternalID=110
+|cv1=6
+|cv2=2900700
+|description=An emotionless member of the Black Fang assassins. Known as the Angel of Death. Appears in Fire Emblem: The Blazing Blade.
+|Properties=specRate_201904,resplendent,nidavellir
+|GrowthModifier=None
+|resplendentStartTime=2022-11-10T07:00:00Z
+|resplendentEndTime=2022-11-25T06:59:59Z
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=7|Lv1SPD=9|Lv1DEF=6|Lv1RES=5
+|GRHP=55|GRATK=45|GRSPD=55|GRDEF=45|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Dagger
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Dagger
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Dagger
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Deathly Dagger
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Glimmer
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Life and Death 1
+|passiveA2=Life and Death 2
+|passiveA3=Life and Death 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Threaten Spd 1
+|passiveC2=Threaten Spd 2
+|passiveC3=Threaten Spd 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

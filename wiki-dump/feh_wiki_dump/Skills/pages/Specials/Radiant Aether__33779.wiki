@@ -1,0 +1,37 @@
+{{Special
+|tagid=SID_蒼の天空
+|charge=4
+|effect=During combat, treats foe's Def/Res as if reduced by 50%. Restores HP = 50% of damage dealt.
+|cost=500
+|exclusive=1
+|required=Sol;Luna
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1=Treats {{Tgt|foe}}'s Def/Res<br>as if reduced by 50%
+|Ce2={{Eft|Heal|50% of damage dealt}}
+|CeC=Special triggers
+}}
+==Notes==
+* Radiant Aether has the same effect as {{St|Aether}}.
+* The healing calculation will always use the [[Damage calculation#Final Damage calculation|final damage number]] for the damage dealt.
+{{CombatHPRecovery}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=蒼の天空
+|german=Strahlender Aithir
+|spanishEU=Éter fulgurante
+|spanishLA=Éter fulgurante
+|french=Éther radieux
+|italian=Etere fiammante
+|chineseTW=蒼藍天空
+|portuguese=Éter radiante
+}}
+==See also==
+{{See also skills|cond=SCategory='special' AND Exclusive='1' AND Description LIKE '%Restores HP = __% of damage dealt%'}}
+{{Specials Navbox}}

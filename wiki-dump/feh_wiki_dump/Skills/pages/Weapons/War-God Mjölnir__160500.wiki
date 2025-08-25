@@ -1,0 +1,86 @@
+{{Weapon Infobox
+|tagid=SID_神槌ミョルニル
+|intID=2818
+|image=wep_ax103
+|exclusive=1
+|weaponType=Axe
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effectiveness=Armored
+|effect=Accelerates Special trigger (cooldown count-1).<br>Effective against armored foes. At start of combat, if unit's HP ≥ 25%, grants Atk+6 to unit during combat, inflicts Atk-6 on foe during combat, unit makes a guaranteed follow-up attack, and also, if unit is not adjacent to an ally, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.
+|statModifiers=0,16,0,0,0
+|required=Silver Axe
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1).<br>Effective against armored foes.<br><br>At start of combat, if unit's HP ≥ 25%, grants Atk+6 to unit, inflicts Atk-6 on foe, unit makes a guaranteed follow-up attack, deals damage = 15% of unit's Atk (excluding area-of-effect Specials), and neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.
+|refineStatsSkill1=3,0,0,0,0
+|effectSkill1=Enables【Canto (２)】.<br><br>At start of combat, if unit's HP ≥ 25%, grants Atk+6 to unit, inflicts Atk-6 on foe, and reduces damage from foe's attacks by 15% of unit's Atk during combat (excluding area-of-effect Specials), and unit's next attack deals damage = total damage reduced from foe's first attack (by any source, including other skills; resets at end of combat), and also, when Special triggers, neutralizes foe's "reduces damage by X%" effects from foe's non-Special skills (excluding area-of-effect Specials).<br><br>【Canto (２)】<br>After an attack, Assist skill, or structure destruction, unit can move ２ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Accelerates Special}}
+|s1 Ce1={{Eft|Effectiveness|{{Mt|Armored}}}}
+|s1 Ce2={{Eft|Temporary buffs|Atk|6}}
+|s1 Ce3={{Eft|Guaranteed Follow-Ups}}
+|s1 Ce4={{Eft|Temporary debuffs|Atk|6}}
+|s1 Ce2-4C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s1 Ce5={{Eft|Neutralize Bonuses}}
+|s1 Ce4-5T={{Tgt|Foe}}
+|s1 Ce5C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' No {{Tgt|Allies}}<br>are [[adjacent]]
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Accelerates Special}}
+|s2 Ce1={{Eft|Effectiveness|{{Mt|Armored}}}}
+|s2 Ce2={{Eft|Temporary buffs|Atk|6}}
+|s2 Ce3={{Eft|Guaranteed Follow-Ups}}
+|s2 Ce4={{Eft|Damage Boost|15% of {{Tgt|Unit}}'s Atk}}
+|s2 Ce5={{Eft|Temporary debuffs|Atk|6}}
+|s2 Ce6={{Eft|Neutralize Bonuses}}
+|s2 Ce5-6T={{Tgt|Foe}}
+|s2 Ce2-6C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|skill3={{Si|War-God Mjölnir|refine=Skill1}} Skill refine effects
+|s3 Me={{Eft|Canto|2}}
+|s3 Ce1={{Eft|Temporary buffs|Atk|6}}
+|s3 Ce2={{Eft|Damage Reduction|15% of {{Tgt|Unit}}'s Atk}}<br>from {{Tgt|Foe}}'s attacks
+|s3 Ce3={{Eft|Damage Boost|total damage reduced}}<br>from {{Tgt|Foe}}'s first attack<br>for {{Tgt|Unit}}'s next attack<br>(including other sources)
+|s3 Ce4={{Eft|Temporary debuffs|Atk|6}}
+|s3 Ce5={{Eft|Neutralize Damage Reduction}} per<br>{{Tgt|Unit}}'s [[offensive Special]]
+|s3 Ce4-5T={{Tgt|Foe}}
+|s3 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Effective damage bonus|armored}}
+{{Temporary buffs}}
+{{Temporary debuffs}}
+{{Guaranteed follow-up interaction}}
+{{Bonus neutralization}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{AtkDamageBoost|name=Refined War-God Mjölnir}}
+{{Canto|2|name={{St|War-God Mjölnir|refine=Skill1}}}}
+{{DamageBoostFromDamageReduction|name={{St|War-God Mjölnir|refine=Skill1}}|flat=1}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=神槌ミョルニル
+|german=Göttlicher Mjölnir
+|spanishEU=Mjölnir bélico
+|spanishLA=Mjölnir bélico
+|french=Mjölnir divin
+|italian=Mjölnir divino
+|chineseTW=神錘妙爾尼爾
+|portuguese=Mjölnir bélico
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%reduces damage from foe_s attacks by %\% of unit_s Atk%' AND Description NOT LIKE '%reduces damage%next attack%of unit_s Atk%' OR Description LIKE '%reduces damage%next attack%total damage%' OR WikiName LIKE '%Mjölnir%') AND (Exclusive='1' AND Name NOT LIKE '%+' AND Properties HOLDS NOT 'arcane')}}
+* [[Weapons that are effective against armored foes]]
+{{Weapons Navbox}}

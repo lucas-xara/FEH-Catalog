@@ -1,0 +1,73 @@
+{{Passive
+|type=A
+|exclusive=0
+|1name=Kestrel Stance 1
+|1tagid=SID_鬼神飛燕の構え1
+|1promotionRarity=5
+|1promotionTier=1
+|1effect=If foe initiates combat, grants Atk/Spd+2 during combat.
+|1cost=120
+|1required=Fierce Stance 1;Darting Stance 1
+|2name=Kestrel Stance 2
+|2tagid=SID_鬼神飛燕の構え2
+|2effect=If foe initiates combat, grants Atk/Spd+4 during combat.
+|2cost=240
+|2next=-
+|3name=Kestrel Stance 3
+|3tagid=SID_鬼神飛燕の構え3
+|3effect=If foe initiates combat, grants Atk/Spd+6 during combat and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)
+|3cost=300
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|all}}
+|properties1=random_all
+|properties2=random_all
+|properties3=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Kestrel Stance 2}} Kestrel Stance 2
+|skill1 CombatEffect={{SkillEffectText|Temporary buffs|Atk/Spd|4}}
+|skill1 CombatEffect Conditions=Enemy Phase
+|skill2={{Si|Kestrel Stance 3}} Kestrel Stance 3
+|skill2 CombatEffect 1={{SkillEffectText|Temporary buffs|Atk/Spd|6}}
+|skill2 CombatEffect 2={{SkillEffectText|Guard}}
+|skill2 CombatEffect 2 Targets={{SkillTargetText|Foe}}
+|skill2 CombatEffect Conditions=Enemy Phase
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+{{CooldownChargeMinus}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Kestrel Stance 1;Kestrel Stance 2
+|badgeColor=Azure
+|costs1=20;100;20
+|costs2=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=鬼神飛燕の構え
+|german=Falkenstand
+|spanishEU=Postura gorrión
+|spanishLA=Postura gorrión
+|french=Post. hirondelle
+|italian=Posa gheppio
+|chineseTW=鬼神飛燕架勢
+|portuguese=Postura falcão
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe initiates combat%grants Atk/Spd+%during combat%' AND Exclusive='1'}}
+* [[Stance Passives]]
+{{Seals Navbox}}
+{{Passives Navbox|A}}
+[[Category:Stance Passives]]

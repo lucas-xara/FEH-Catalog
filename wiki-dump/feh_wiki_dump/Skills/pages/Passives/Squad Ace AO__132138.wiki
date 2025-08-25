@@ -1,0 +1,50 @@
+{{Passive
+|name=Squad Ace AO
+|type=S
+|exclusive=0
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|timingID=0
+|abilityID=0
+|properties=
+|1name=Squad Ace AO 1
+|1tagid=SID_第41迷宮の覇者1
+|1effect=Grants HP+3, Atk+1.
+|1required=-
+|1cost=100
+|statModifiers1=3,1,0,0,0
+|intID1=2331
+|sort1=50400
+|value1=2
+|2name=Squad Ace AO 2
+|2tagid=SID_第41迷宮の覇者2
+|2effect=Grants HP+4, Atk+2.
+|2required=Squad Ace AO 1
+|2cost=200
+|statModifiers2=4,2,0,0,0
+|alt1name=Squad Ace AE 1
+|alt2name=Squad Ace AE 2
+|intID2=2332
+|sort2=50401
+|value2=4
+}}
+==Notes==
+*
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+*
+==In other languages==
+{{OtherLanguages
+|japanese=第４１迷宮の覇者
+|german=Überf.-Ass AO
+|spanishEU=As del asalto AO
+|spanishLA=As del asalto AO
+|french=Assaut réussi AO
+|italian=Asso sq. AO
+|chineseTW=第４１迷宮的霸王
+|portuguese=Esquadrão ás AO
+}}
+==See also==
+*
+{{Seals Navbox}}

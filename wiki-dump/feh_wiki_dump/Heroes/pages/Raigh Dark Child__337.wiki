@@ -1,0 +1,78 @@
+{{#invoke:NameAbout|main|Name=Raigh}}{{HeroPage Tabs|{{PAGENAME}}}}
+{{Hero Infobox
+|Name=Raigh
+|Title=Dark Child
+|GrowthModifier= None
+|WeaponType=Red Tome
+|Origin=Fire Emblem: The Binding Blade
+|Gender=Male
+|MoveType=Infantry
+|actorEN=Sam Regal
+|actorJP=藤原夏海
+|artist=日向悠二
+|releaseDate = February 2, 2017
+|poolDate = February 2, 2017
+|randomStartTime=2017-02-02T07:00:00Z
+|poolRarities=3,4
+|TagID=レイ
+|InternalID=4
+|Properties=prologue
+|cv1=5
+|cv2=300200
+|description=Wielder of dark magic. A scornful loner with a troubled past as an orphan. Appears in Fire Emblem: The Binding Blade.
+}}
+
+__TOC__
+
+{{Stats Page|Hero={{BASEPAGENAME}}|lowestHeroRarity=2
+|Lv1HP=17|Lv1ATK=8|Lv1SPD=7|Lv1DEF=5|Lv1RES=7
+|GRHP=45|GRATK=55|GRSPD=50|GRDEF=40|GRRES=50
+}}
+
+== Skills ==
+
+===Weapons===
+{{Weapons Table
+|weapon1=Flux
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Ruin
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Rauðrwolf
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Rauðrwolf+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Hermit's Tome
+|weapon5Unlock=5
+}}
+
+===Assists===
+{{Assists Table
+|assist1=Rally Attack
+|assist1Default=4
+|assist1Unlock=3
+}}
+
+===Specials===
+{{Specials Table
+}}
+===Passives===
+{{Passives Table
+|passiveA1=HP +3
+|passiveA2=HP +4
+|passiveA3=HP +5
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Seal Res 1
+|passiveB2=Seal Res 2
+|passiveB3=Seal Res 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+}}
+
+{{Heroes Navbox}}

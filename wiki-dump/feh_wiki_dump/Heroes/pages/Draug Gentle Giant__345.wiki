@@ -1,0 +1,69 @@
+{{#invoke:NameAbout|main|Name=Draug}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Draug
+|Title=Gentle Giant
+|GrowthModifier=None
+|WeaponType=Red Sword
+|MoveType=Armored
+|Origin=Fire Emblem: Mystery of the Emblem
+|Gender=Male
+|actorEN=Patrick Seitz
+|actorJP=竹内良太
+|artist=板垣ハコ
+|releaseDate=February 2, 2017
+|poolDate=February 2, 2017
+|randomStartTime=2017-02-02T07:00:00Z
+|poolRarities=3,4
+|TagID=ドーガ
+|InternalID=22
+|cv1=1
+|cv2=100800
+|description=An armored knight of Altea who served as Marth's shield. Very sincere. Appears in Fire Emblem: Mystery of the Emblem.
+}}
+{{Stats Page
+|Lv1HP=24|Lv1ATK=8|Lv1SPD=6|Lv1DEF=13|Lv1RES=3
+|GRHP=60|GRATK=50|GRSPD=60|GRDEF=60|GRRES=35
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Brave Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Brave Sword+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Stalwart Sword
+|weapon5Default=
+|weapon5Unlock=5
+}}
+
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Buckler
+|special1Default=4
+|special1Unlock=3
+|special2=Pavise
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Lunge
+|passiveB1Unlock=3
+|passiveC1=Spur Def 1
+|passiveC2=Spur Def 2
+|passiveC3=Ward Armor
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

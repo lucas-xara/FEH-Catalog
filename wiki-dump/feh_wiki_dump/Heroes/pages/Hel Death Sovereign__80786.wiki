@@ -1,0 +1,85 @@
+{{#invoke:NameAbout|main|Name=Hel}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Hel
+|Title=Death Sovereign
+|Origin=Fire Emblem Heroes
+|Gender=Female
+|WeaponType=Green Axe
+|MoveType=Flying
+|actorEN=Barbara Goodson
+|actorJP=小山茉美
+|artist=コザキユースケ
+|MythicEffect=Dark
+|MythicEffect2=None
+|BoostHP=5
+|BoostDef=5
+|additionDate=July 30, 2020
+|releaseDate=July 30, 2020
+|cv1=0
+|cv2=330100
+|description=Sovereign of Hel, the realm of the dead. Her power increases as the ranks of the dead grow. She aims for all the living to enter her realm. 
+|TagID=ヘル
+|EnemyInternalID=52
+|InternalID=548
+|Properties=mythic
+}}
+==Ally stats==
+{{Stats Page|noheader=1|Hero=Hel: Death Sovereign
+|Lv1HP=18|Lv1ATK=10|Lv1SPD=11|Lv1DEF=8|Lv1RES=3
+|GRHP=50|GRATK=65|GRSPD=70|GRDEF=50|GRRES=35
+}}
+==Enemy stats==
+{{Stats Page/Enemy|noheader=1
+|Lv1HP=18|Lv1ATK=9|Lv1SPD=9|Lv1DEF=8|Lv1RES=4
+|GRHP=55|GRATK=60|GRSPD=70|GRDEF=60|GRRES=30
+}}
+==Skills==
+===Ally Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Hel's Reaper
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Enemy Weapons===
+{{Weapons Table/enemy
+|weapon4=Hel Scythe
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Distant Counter
+|passiveA2=Distant Pressure
+|passiveA1Unlock=5
+|passiveA2Unlock=5
+|passiveB1=Guard Bearing 1
+|passiveB2=Guard Bearing 2
+|passiveB3=Guard Bearing 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Inevitable Death
+|passiveC2=Inevitable Death+
+|passiveC1Unlock=5
+|passiveC2Unlock=5
+}}
+{{Heroes Navbox}}
+{{Enemies Navbox}}

@@ -1,0 +1,54 @@
+{{Passive
+|name=Spd/Res Detect
+|type=B
+|exclusive=0
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|Cavalry,Flying}}
+|properties=random_owner
+|1name=Spd/Res Detect
+|alt1name=Spd Res Detect
+|1tagid=SID_速さ魔防の看破
+|1effect=Inflicts Spd/Res-4 on foe during combat.<br><br>If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, inflicts【Exposure】on closest foes within 5 spaces of both unit and target ally or unit and targeting ally after movement and foes within 2 spaces of those foes through their next actions.<br><br>Inflicts Spd/Res-5 on foes on the map with the 【Exposure】effect active and neutralizes bonuses to Spd/Res for those foes during combat.<br><br>【Exposure】<br>Foe's attacks deal +10 damage.
+|1cost=300
+|1required=Spd/Res Snag 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary debuffs|Spd/Res|4}}
+|Ce1T={{Tgt|Foe}}
+|Ce2={{Eft|Temporary debuffs|Spd/Res|5}}
+|Ce3={{Eft|Neutralize Bonuses|Spd/Res}}
+|Ce2-3T={{Tgt|Foes}} with<br>{{SEt|Exposure}}
+|Se={{SEt|Exposure}}
+|SeT=Closest {{Tgt|Foes}}<br>[[within 5 spaces]]<br>of {{Tgt|Unit}} '''&'''<br>{{Tgt|Target Ally}}<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}
+|SeC=A [[Movement Assist]]<br>is used on<br>'''or''' by {{Tgt|Unit}}
+}}
+==Notes==
+{{Temporary debuffs}}
+{{Exposure}}
+{{Bonus neutralization}}
+{{FoesCombatEffect|temporary debuffs and bonus neutralization}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Spd/Res Detect
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+
+==See also==
+{{See also skills|cond=(Description LIKE '%if a%movement%assist%used by unit or targets unit%' OR Description LIKE '%inflicts%on foes%with%effect active%') AND Exclusive='1'}}
+* [[Snag Passives]]
+* [[Skill families/B Passives#Detect|Detect Passives]]
+{{Passives Navbox|B}}

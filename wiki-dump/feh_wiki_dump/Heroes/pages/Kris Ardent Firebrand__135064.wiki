@@ -1,0 +1,68 @@
+{{#invoke:NameAbout|main|Name=Kris}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Kris
+|Title=Ardent Firebrand
+|WeaponType=Green Axe
+|MoveType=Cavalry
+|Origin=Fire Emblem: New Mystery of the Emblem
+|Gender=Male
+|actorEN=Phillip Reich
+|actorJP=日野聡
+|artist=みく郎
+|additionDate=January 18, 2021
+|releaseDate=January 18, 2021
+|Person=Kris M
+|cv1=1
+|cv2=100200
+|TagID=砂漠クリス男
+|InternalID=620
+|Properties=limited,tempest,specDisplay
+|description=Knight of Altea who advanced to become the leader of the 7th Platoon. Currently deployed on a mission. Appears in Fire Emblem: New Mystery of the Emblem.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=9|Lv1SPD=9|Lv1DEF=7|Lv1RES=5
+|GRHP=50|GRATK=65|GRSPD=65|GRDEF=55|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Plegian Axe
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Plegian Axe+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Draconic Aura
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Defense +1
+|passiveA2=Spd/Def 1
+|passiveA3=Spd/Def 2
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Chill Atk 1
+|passiveB2=Chill Atk 2
+|passiveB3=Chill Atk 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Desert Festival units]]

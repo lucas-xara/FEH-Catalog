@@ -1,0 +1,71 @@
+{{#invoke:NameAbout|main|Name=Céline}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Céline
+|Title=Teatime Ninja
+|WeaponType=Blue Tome
+|MoveType=Infantry
+|Origin=Fire Emblem Engage
+|Gender=Female
+|actorEN=Rachelle Heger
+|actorJP=鬼頭明里
+|artist=うなみや
+|additionDate=November 5, 2024
+|releaseDate=November 6, 2024
+|cv1=14
+|cv2=200500
+|TagID=忍者セリーヌ
+|InternalID=1163
+|Properties=special
+|description=Princess of Firene. She respects the harmony and elegance of flower arranging and tea ceremonies, pondering them with fondness. Appears in Fire Emblem Engage.
+}}
+{{Stats Page
+|Lv1HP=14|Lv1ATK=14|Lv1SPD=12|Lv1DEF=3|Lv1RES=10
+|GRHP=50|GRATK=70|GRSPD=80|GRDEF=30|GRRES=80
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Light
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Ellight
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Shine
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Scroll of Teas
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Glacies
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Spd/Res Tempo 1
+|passiveB2=Spd/Res Tempo 2
+|passiveB3=Spd/Res Tempo 3
+|passiveB4=Spd/Res Tempo 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Spd Ploy 1
+|passiveC2=Spd Ploy 2
+|passiveC3=Spd Ploy 3
+|passiveC4=Spd/Res Ploy 3
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Ninja Festival units]]

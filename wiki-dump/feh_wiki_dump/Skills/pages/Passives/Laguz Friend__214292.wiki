@@ -1,0 +1,91 @@
+{{Passive
+|name=Laguz Friend
+|type=B
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|Infantry}}
+|properties=random_owner
+|1name=Laguz Friend 1
+|1tagid=SID_不動1
+|1effect=If unit's max Special cooldown count value ≥ 3 and unit's attack can trigger unit's Special, or if foe's attack can trigger unit's Special, reduces the percentage of unit's non-Special "reduce damage by X%" skills by 50% (excluding area-of-effect Specials), reduces damage from foe's attacks by 5% of the greater of unit's Def or Res (excluding area-of-effect Specials), and grants Special cooldown count-2 to unit before foe's first attack during combat. During combat, if unit's max Special cooldown count value ≥ 3 and unit's attack can trigger unit's Special, when Special triggers, deals damage = 5% of the greater of unit's Def or Res (excluding area-of-effect Specials). During combat, if foe's attack can trigger unit's Special, when Special triggers, unit's next attack deals damage = 5% of the greater of unit's Def or Res (boost resets at end of combat).
+|1cost=60
+|1required=-
+|1promotionTier=1
+|1promotionRarity=4
+|2name=Laguz Friend 2
+|2tagid=SID_不動2
+|2effect=If unit's max Special cooldown count value ≥ 3 and unit's attack can trigger unit's Special, or if foe's attack can trigger unit's Special, reduces the percentage of unit's non-Special "reduce damage by X%" skills by 50% (excluding area-of-effect Specials), reduces damage from foe's attacks by 10% of the greater of unit's Def or Res (excluding area-of-effect Specials), and grants Special cooldown count-2 to unit before foe's first attack during combat. During combat, if unit's max Special cooldown count value ≥ 3 and unit's attack can trigger unit's Special, when Special triggers, deals damage = 10% of the greater of unit's Def or Res (excluding area-of-effect Specials). During combat, if foe's attack can trigger unit's Special, when Special triggers, unit's next attack deals damage = 10% of the greater of unit's Def or Res (boost resets at end of combat).
+|2cost=120
+|2promotionTier=1
+|2promotionRarity=5
+|3name=Laguz Friend 3
+|3tagid=SID_不動3
+|3effect=If unit's max Special cooldown count value ≥ 3 and unit's attack can trigger unit's Special, or if foe's attack can trigger unit's Special, reduces the percentage of unit's non-Special "reduce damage by X%" skills by 50% (excluding area-of-effect Specials), reduces damage from foe's attacks by 15% of the greater of unit's Def or Res (excluding area-of-effect Specials), and grants Special cooldown count-2 to unit before foe's first attack during combat. During combat, if unit's max Special cooldown count value ≥ 3 and unit's attack can trigger unit's Special, when Special triggers, deals damage = 15% of the greater of unit's Def or Res (excluding area-of-effect Specials). During combat, if foe's attack can trigger unit's Special, when Special triggers, unit's next attack deals damage = 15% of the greater of unit's Def or Res (boost resets at end of combat).
+|3cost=240
+|3next=-
+|4name=Laguz Friend 4
+|4tagid=SID_不動4
+|4effect=Inflicts Atk-5 on foe during combat. If unit's max Special cooldown count value ≥ 3 and unit's attack can trigger unit's Special, or if foe's attack can trigger unit's Special, reduces the percentage of unit's non-Special "reduce damage by X%" skills by 50% (excluding area-of-effect Specials), reduces damage from foe's attacks by 20% of the greater of unit's Def or Res (excluding area-of-effect Specials), and grants Special cooldown count-2 to unit before foe's first attack during combat. During combat, if unit's max Special cooldown count value ≥ 3 and unit's attack can trigger unit's Special, when Special triggers, deals damage = 20% of the greater of unit's Def or Res (excluding area-of-effect Specials) and neutralizes "reduces damage by X%" effects from foe's non-Special skills (excluding area-of-effect Specials). During combat, if foe's attack can trigger unit's Special, when Special triggers, unit's next attack deals damage = 20% of the greater of unit's Def or Res and neutralizes "reduces damage by X%" effects from foe's non-Special skills (resets at end of combat).
+|4cost=300
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Laguz Friend 3}} Laguz Friend 3
+|s1 Ce1={{Eft|Reduce Damage Reduction|50%}}
+|s1 Ce2={{Eft|Reduce Cooldown|2}}<br>before {{Tgt|Foe}}'s first attack
+|s1 Ce3={{Eft|Damage Reduction|15% of the greater of<br>{{Tgt|Unit}}'s Def/Res}}
+|s1 CeC1-3={{Tgt|Unit}}'s [[Offensive Special|offensive<br>Special]]'s max CD ≥ 3<br>'''or''' {{Tgt|Unit}} has a<br>[[defensive Special]]
+|s1 Ce4={{Eft|Damage Boost|15% of the greater of<br>{{Tgt|Unit}}'s Def/Res}} per<br>{{Tgt|Unit}}'s [[offensive Special]]
+|s1 CeC4={{Tgt|Unit}}'s [[Offensive Special|offensive<br>Special]]'s max CD ≥ 3
+|s1 Ce5={{Eft|Damage Boost|15% of the greater of<br>{{Tgt|Unit}}'s Def/Res}} on<br>{{Tgt|Unit}}'s next attack
+|s1 CeC5=After {{Tgt|Unit}}'s<br>[[defensive Special]]<br>triggers
+|s1 CeT={{Tgt|Unit}}
+|skill2={{Si|Laguz Friend 4}} Laguz Friend 4
+|s2 Ce1={{Eft|Temporary Debuffs|Atk|5}}
+|s2 Ce2={{Eft|Reduce Damage Reduction|50%}}
+|s2 CeT1={{Tgt|Foe}}<br>&#32;
+|s2 Ce3={{Eft|Reduce Cooldown|2}}<br>before {{Tgt|Foe}}'s first attack
+|s2 Ce4={{Eft|Damage Reduction|20% of the greater of<br>{{Tgt|Unit}}'s Def/Res}}
+|s2 CeC2-4={{Tgt|Unit}}'s [[Offensive Special|offensive<br>Special]]'s max CD ≥ 3<br>'''or''' {{Tgt|Unit}} has a<br>[[defensive Special]]
+|s2 Ce5={{Eft|Damage Boost|20% of the greater of<br>{{Tgt|Unit}}'s Def/Res}} per<br>{{Tgt|Unit}}'s [[offensive Special]]
+|s2 CeT2-5={{Tgt|Unit}}<br>
+|s2 Ce6={{Eft|Neutralize Damage Reduction}}<br>per {{Tgt|Unit}}'s [[offensive Special]]
+|s2 CeT6={{Tgt|Foe}}<br>
+|s2 CeC5-6={{Tgt|Unit}}'s [[offensive Special|offensive<br>Special]]'s max CD ≥ 3
+|s2 Ce7={{Eft|Damage Boost|20% of the greater of<br>{{Tgt|Unit}}'s Def/Res}} on<br>{{Tgt|Unit}}'s next attack
+|s2 Ce8={{Eft|Neutralize Damage Reduction}}<br>on {{Tgt|Unit}}'s next attack
+|s2 CeT8={{Tgt|Foe}}
+|s2 CeC7-8=After {{Tgt|Unit}}'s<br>[[defensive Special]]<br>triggers
+}}
+
+==Notes==
+{{Reduce Damage Reduction}}
+{{CombatCooldownCount|-2}}
+{{FlatDamageReduction}}
+{{DamageBoost}}
+{{Temporary debuffs|name=Laguz Friend 4}}
+{{DamageReductionNeutralization|name=Laguz Friend 4}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Laguz Friend
+|japanese=不動
+|japaneseNotes=''Immovable''
+|german=Laguz-Freund
+|spanishEU=Defensa laguz
+|spanishLA=Defensa laguz
+|french=Ami des Laguz
+|italian=Àncora
+|chineseTW=不動
+|portuguese=Amizade laguz
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%if unit_s max% special cooldown count value%' OR Description LIKE '%unit_s attac% triggers unit_s special%neutralize%"reduces damage by X%') AND Exclusive='1'}}
+* [[Skill families/B Passives#Laguz|Laguz Passives]]
+{{Passives Navbox|B}}

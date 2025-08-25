@@ -1,0 +1,49 @@
+{{Passive
+|type=S
+|name=Squad Ace BJ
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|1name=Squad Ace BJ 1
+|alt1name=Squad Ace AF 1
+|1tagid=SID_第62迷宮の覇者1
+|1cost=100
+|1effect=Grants HP+3, Spd+1.
+|statModifiers1=3,0,1,0,0
+|1required=-
+|1next=-
+|2name=Squad Ace BJ 2
+|alt2name=Squad Ace AF 2
+|2tagid=SID_第62迷宮の覇者2
+|2cost=200
+|2effect=Grants HP+4, Spd+2.
+|statModifiers2=4,0,2,0,0
+}}
+==Seal acquired from==
+===Squad Assault reward===
+* Complete the [[62nd Assault]].
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Squad Ace BJ 1;Squad Ace BJ 2
+|badgeColor=Azure
+|costs1=-<!--0;0;0-->
+|costs2=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=第６２迷宮の覇者
+|german=Überfall-Ass BJ
+|spanishEU=As del asalto BJ
+|spanishLA=As del asalto BJ
+|french=Assaut réussi BJ
+|italian=Asso sq. BJ
+|chineseTW=第６２迷宮的霸王
+|portuguese=Esquadrão ás BJ
+}}
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}
+[[Category:Squad Ace Seals]]

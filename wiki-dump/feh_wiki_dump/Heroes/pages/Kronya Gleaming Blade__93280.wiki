@@ -1,0 +1,69 @@
+{{#invoke:NameAbout|main|Name=Kronya}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Kronya
+|Title=Gleaming Blade
+|GrowthModifier=Gen 3
+|WeaponType=Colorless Dagger
+|Origin=Fire Emblem: Three Houses
+|Gender=Female
+|MoveType=Infantry
+|actorJP=高野麻里佳
+|actorEN=Colleen O'Shaughnessey
+|artist=久杉トク
+|additionDate=July 21, 2019
+|releaseDate=August 3, 2019
+|TagID=クロニエ
+|InternalID=404
+|Properties=ghb,limited
+|cv1=12
+|cv2=900100
+|description=One of those who slither in the dark. Hateful, merciless, and diabolical. Appears in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=9|Lv1SPD=11|Lv1DEF=5|Lv1RES=4
+|GRHP=60|GRATK=50|GRSPD=65|GRDEF=40|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Dagger
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Dagger
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Dagger
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Athame
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Desperation 1
+|passiveB2=Desperation 2
+|passiveB3=Desperation 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Distant Guard 1
+|passiveC2=Distant Guard 2
+|passiveC3=Distant Guard 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

@@ -1,0 +1,37 @@
+{{Weapon Infobox
+|tagid=SID_トマトの本
+|weaponType=Red Tome
+|weaponName={{PAGENAME}}
+|might=8
+|range=2
+|effect=Grants Atk/Spd+1 to allies within 2 spaces during combat.
+|cost=200
+|exclusive=0
+|userVersion1=Closed|userVersion2=Open|statModifiers=0,8,0,0,0
+|next=Tomato Tome+
+|promotionRarity=5
+|promotionTier=1
+|required=Elfire;Ruin
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+{{AlliesCombatEffect|effect=combat boost}}
+==List of owners==
+{{Skill Hero List}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=トマトの本
+|german=Tomatenbuch
+|spanishEU=Grimorio tomate
+|spanishLA=Grimor. tomate
+|french=Tome tomate
+|italian=Tomo del pomo
+|chineseTW=番茄之書
+|portuguese=Tomo tomate
+}}
+==See also==
+* [[Nohrian Summer Weapons]]
+{{Weapons Navbox}}
+[[Category:Nohrian Summer weapons]]

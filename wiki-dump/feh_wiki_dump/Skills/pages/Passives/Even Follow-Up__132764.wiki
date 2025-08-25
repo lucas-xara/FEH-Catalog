@@ -1,0 +1,74 @@
+{{Passive
+|name=Even Follow-Up
+|type=B
+|exclusive=0
+|canUseMove=Armored
+|canUseWeapon={{WeaponList|All}}
+|If it is an even-numbered turn and unit's HP=100%, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.
+|timingID=1
+|abilityID=48
+|limit1ID=4
+|limit2ID=3
+|randomTimestamp=2021-01-17T07:00:00Z
+|properties=random_owner
+|1name=Even Follow-Up 1
+|1tagid=SID_追撃隊形・偶数1
+|1effect=If it is an even-numbered turn and unit's HP = 100%, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.
+|1required=-
+|1cost=60
+|1promotionRarity=4
+|1promotionTier=1
+|intID1=2352
+|sort1=10500
+|value1=2
+|randomMinLv1=21
+|randomMaxLv1=30
+|2name=Even Follow-Up 2
+|2tagid=SID_追撃隊形・偶数2
+|2effect=If it is an even-numbered turn and unit's HP ≥ 50%, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.
+|2required=Even Follow-Up 1
+|2cost=120
+|2promotionRarity=5
+|2promotionTier=1
+|intID2=2353
+|sort2=10501
+|value2=4
+|randomMinLv2=26
+|randomMaxLv2=35
+|3name=Even Follow-Up 3
+|3tagid=SID_追撃隊形・偶数3
+|3effect=If it is an even-numbered turn, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.
+|3required=Even Follow-Up 2
+|3cost=240
+|intID3=2354
+|sort3=10502
+|value3=6
+|randomMinLv3=31
+}}
+==Notes==
+{{Main|Skill interaction}}{{Guaranteed follow-up interaction}}{{Prevent follow-up}}{{InteractionFollowUp}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=追撃隊形・偶数
+|japaneseNotes=''pursuit formation, even number''
+|german=Gerade Folge
+|spanishEU=At. doble par
+|spanishLA=At. doble par
+|french=Double pair
+|italian=Att. doppio pari
+|chineseTW=追擊隊形・偶數
+|portuguese=Atq. duplo par
+}}
+
+==See also==
+{{See also skills|cond=Description LIKE '%even-numbered turn%'|columns=3}}
+* [[Odd Follow-Up]]
+* [[Fighter Passives]]
+{{Passives Navbox|B}}
+[[Category:Fighter Passives]]

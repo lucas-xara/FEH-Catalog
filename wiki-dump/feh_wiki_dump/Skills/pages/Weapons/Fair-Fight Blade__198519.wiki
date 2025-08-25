@@ -1,0 +1,60 @@
+{{Weapon Infobox
+|tagid=SID_真っ向勝負の剛剣
+|intID=3685
+|image=wep_sw158
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit, deals damage = 25% of unit's Def and reduces damage from foe's attacks by 25% of unit's Def (excluding area-of-effect Specials), neutralizes "reduces damage by X%" effects from unit's and foe's non-Special skills (excluding area-of-effect Specials), neutralizes effects that guarantee unit's and foe's follow-up attacks, and increases the Spd difference necessary for unit or foe to make a follow-up attack by 20 during combat (Spd must be ≥ 25 to make a follow-up attack; stacks with similar skills). At start of combat, if unit's HP ≥ 25% and unit initiates combat, grants Special cooldown count-1 to unit before unit's first attack during combat. At start of combat, if unit's HP ≥ 25% and foe initiates combat, neutralizes effects that inflict "Special cooldown charge -X" on unit during combat, and also, if unit deals damage to foe using a Special during combat, restores 10 HP to unit (triggers even if 0 damage is dealt).
+|required=Silver Sword
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce2={{Eft|Damage Boost|25% of {{Tgt|Unit}}'s Def}}
+|Ce3={{Eft|Damage Reduction|25% of {{Tgt|Unit}}'s Def|percent=0}}<br>from {{Tgt|Foe}}'s attacks
+|Ce4={{Eft|Neutralize Damage Reduction}}
+|Ce5={{Eft|Neutralize Guaranteed Follow-Ups}}
+|Ce6={{Eft|Spd Difference Increase|20}}
+|Ce4-6T={{Tgt|Unit}} '''&'''<br>{{Tgt|Foe}}
+|Ce1-6C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce7={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Unit}}'s first attack
+|Ce7T={{Tgt|Unit}}
+|Ce7C=Player Phase '''&'''<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce8={{Eft|Neutralize Guard}}
+|Ce9={{Eft|Heal|10}} per<br>{{Tgt|Unit}}'s [[offensive Special]]
+|Ce8-9C=Enemy Phase '''&'''<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{Temporary buffs}}
+{{DamageBoost}}
+{{FlatDamageReduction}}
+{{DamageReductionNeutralization}}
+{{Follow-up effect neutralization|guaranteeOnly=1}}
+{{SpdDiffIncrease}}
+{{IfUnitInitiates}}
+{{CombatCooldownCount|-1}}
+{{IfFoeInitiates}}
+{{CooldownChargeMinusNeutralization}}
+{{CombatHPRecovery}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=真っ向勝負の剛剣
+|german=Faire Klinge
+|spanishEU=Hoja cara a cara
+|spanishLA=Hoja cara a cara
+|french=Épée juste
+|italian=Lama lotta leale
+|chineseTW=正面對決的剛劍
+|portuguese=Espada ávida
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%increases%Spd difference necessary%' AND Exclusive='1'}}
+{{Weapons Navbox}}

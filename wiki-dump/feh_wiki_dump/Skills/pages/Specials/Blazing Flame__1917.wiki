@@ -1,0 +1,52 @@
+{{Special
+|tagid=SID_烈火
+|name=Blazing Flame
+|charge=4
+|effect=Before combat this unit initiates, foes in an area near target take damage equal to 1.5 x (unit's Atk minus foe's Def or Res). 
+|cost=300
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|required=Rising Flame
+|properties=random_all,aoe_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|MapEffect={{Eft|Damage|1.5 x ({{Tgt|Unit}}'s Atk -<br>{{Tgt|Foe}}'s Def/Res)}}
+|MapEffect Targets={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>within 5 spaces<br>in a horizontal line<br>centered on {{Tgt|Target Foe}}
+|MapEffect Conditions=Special triggers<br>before combat
+}}
+
+==Notes==
+{{AoE Special notes}}
+{{Main|Area-of-effect Specials}}
+{|class="wikitable default mw-collapsible" style="text-align:center"
+!Example of Area-of-effect for Blazing Flame
+|-
+|align="middle"|{{AoE|special=1
+|-----
+|-----
+|xxtxx
+|-----
+|-----
+}}
+|}
+
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Trivia==
+* Blazing Flame's cooldown was reduced by 1 with {{Version|2}}, released on November 28th, 2017.
+==In other languages==
+{{OtherLanguages
+|japanese=烈火
+|german=Wütende Flamme
+|spanishEU=Llama asoladora
+|spanishLA=Llama asoladora
+|french=Feu déferlant
+|italian=Fuoco devast.
+|chineseTW=烈火
+|portuguese=Chama voraz
+}}
+{{Specials Navbox}}

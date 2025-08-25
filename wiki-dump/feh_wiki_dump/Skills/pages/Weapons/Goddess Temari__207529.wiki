@@ -1,0 +1,64 @@
+{{Weapon Infobox
+|tagid=SID_女神姉妹の手毬
+|intID=3930
+|image=wep_mg187
+|exclusive=1
+|weaponType=Blue Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). On turn 2 onward, enables Canto (1). At start of turn, if unit's HP ≥ 25%, grants Atk/Res+6 and "foe cannot make a follow-up attack" to unit and allies within 2 spaces of unit for 1 turn. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 and the following effects to unit during combat: Atk/Spd/Def/Res+X (X = turn number × 2, max 8); on turn 3 onward, unit deals +Y damage (Y = highest total bonuses among unit and allies within 2 spaces of unit; excluding area-of-effect Specials); on turn 4 onward, if unit initiates combat and unit's Res ≥ foe's Res+5, unit attacks twice (if【Time's Gate】is active on unit or if【Time's Grip】is active on target or on foes within 2 spaces of target, turn number is treated as a minimum of 4).<br><br>【Time's Gate】<br>Allies within 4 spaces of unit can move to a space adjacent to unit (that turn only).<br><br>【Time's Grip】<br>Inflicts Atk/Spd/Def/Res-4 during combat. Neutralizes unit's skills during allies' combat through unit's next action.
+|required=Thoron;Shine
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|PermanentEffect={{SkillEffectText|Accelerates Special}}
+|MapEffect={{SkillEffectText|Canto|1}}
+|MapEffect Conditions=Turn 2 onward*
+|StatusEffect 1={{SkillEffectText|Bonuses|Atk/Res|6}}
+|StatusEffect 2={{SEt|Foe Cannot Follow-Up}}
+|StatusEffect Targets={{SkillTargetText|Unit}} & {{SkillTargetText|Allies}}<br>[[within 2 spaces]]
+|StatusEffect Conditions=At start of turn if<br>{{SkillTargetText|Unit}}'s HP ≥ 25%
+|CombatEffect 1={{SkillEffectText|Temporary buffs|Atk/Spd/Def/Res|5}}
+|CombatEffect 2={{SkillEffectText|Temporary buffs|Atk/Spd/Def/Res|turn number* x 2|max=8}}
+|CombatEffect 3={{SkillEffectText|Damage boost|highest total {{SEt|Bonuses}}<br>on {{SkillTargetText|Unit}} & {{SkillTargetText|Allies}}<br>[[within 2 spaces]]}}
+|CombatEffect 4={{SkillEffectText|Unit Attacks Twice}}
+|CombatEffect 1 Conditions={{SkillTargetText|Unit}}'s HP ≥ 25% 
+<br>at start of combat
+|CombatEffect 2 Conditions=Turn 2 onward* if<br>{{SkillTargetText|Unit}}'s HP ≥ 25%<br>at start of combat
+|CombatEffect 3 Conditions=Turn 3 onward* if<br>{{SkillTargetText|Unit}}'s HP ≥ 25%<br>at start of combat
+|CombatEffect 4 Conditions=Turn 4 onward*<br>in Player Phase if<br>{{SkillTargetText|Unit}}'s HP ≥ 25%<br>at start of combat '''&'''<br>{{SkillTargetText|Unit}}'s Res ≥<br>{{SkillTargetText|Foe}}'s Res +5
+}}
+&#42; Turn number is treated as 4 if {{SkillTargetText|Unit}} has {{SEt|Time's Gate}} '''or'''<br>{{SkillTargetText|Target Foe}} or {{SkillTargetText|Foes}} [[within 2 spaces]] of {{SkillTargetText|Target Foe}} have {{SEt|Time's Grip}}
+
+==Notes==
+{{Canto|1}}
+{{Bonuses}}
+{{Foe Cannot Follow-Up}}
+{{Temporary buffs}}
+{{DamageBoost}}
+{{EffectfromBonuses|multiSource=1|source=unit and allies|effect=damage boost}}
+{{IfUnitInitiates}}
+{{Brave weapon interaction}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V8.0_v0800d_newyear_Mag.webp|Sprite sheet for {{St|Faded Paper Fan}} and {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=女神姉妹の手毬
+|german=Göttinnen-Temari
+|spanishEU=Diosas del temari
+|spanishLA=Diosas del temari
+|french=Déesses Temari
+|italian=Temari divino
+|chineseTW=女神姊妹的手鞠
+|portuguese=Temari divinal
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%turn _ on%' OR Description LIKE '%deals damage%highest total bonuses%'}}
+{{Weapons Navbox}}

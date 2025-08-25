@@ -1,0 +1,51 @@
+{{Passive
+|name=Fireflood Boost
+|type=A
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Fireflood Boost 3
+|1tagid=SID_生命の業火静水3
+|1effect=Grants HP+5. At start of combat, if unit's HP ≥ 50%, grants Atk/Res+7 to unit during combat, and also, if unit is within 2 spaces of an ally with HP ≥ 50%, inflicts Special cooldown charge -1 on foe per attack during combat (only highest value applied; does not stack).
+|statModifiers1=5,0,0,0,0
+|1cost=300
+|1required=Fire Boost 3;Water Boost 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Stat Boosts|HP|5}}
+|Ce1={{Eft|Temporary buffs|Atk/Res|7}}
+|Ce1C={{Tgt|Unit}}'s HP ≥ 50%<br>at start of combat
+|Ce2={{Eft|Guard}}
+|Ce2T={{Tgt|Foe}}
+|Ce2C={{Tgt|Unit}}'s HP ≥ 50%<br>at start of combat<br>'''&'''{{Tgt|Unit}} is<br>[[within 2 spaces]]<br>of an {{Tgt|Ally}}<br>with HP ≥ 50%
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{CooldownChargeMinus}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Fireflood Boost
+|japanese=生命の業火静水
+|german=Lavaschub
+|spanishEU=Vaporvitalidad
+|spanishLA=Vaporvitalidad
+|french=Boost magma
+|italian=Impulso lava
+|chineseTW=生命業火靜水
+|portuguese=Lavavital
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%unit is within _ spaces of an ally with HP ≥%' AND Exclusive='1'}}
+* [[Boost Passives]]
+{{Passives Navbox|A}}
+[[Category:Boost Passives]]

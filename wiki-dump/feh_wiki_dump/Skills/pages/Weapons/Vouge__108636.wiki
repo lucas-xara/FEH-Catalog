@@ -1,0 +1,70 @@
+{{Weapon Infobox
+|tagid=SID_プージ
+|weaponType=Axe
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br>At start of combat, if unit's HP ≥ 50%, unit can counterattack regardless of foe's range.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Silver Axe
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1).<br>At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit during combat and unit can counterattack regardless of foe's range.
+|effectSkill1=Foes with Range = 1 cannot move through spaces adjacent to unit, and foes with Range = 2 cannot move through spaces within 2 spaces of unit (does not affect foes with Pass skills). If foe initiates combat or foe's HP ≥ 75% at start of combat, grants Atk/Spd/Def/Res+4 to unit during combat, reduces damage from foe's first attack during combat by 30%, unit's next attack deals damage = total damage reduced (by any source, including other skills; resets at end of combat), and restores 7 HP to unit after combat.
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Accelerate Special}}
+|s1 Ce={{Eft|Distant Counter}}
+|s1 CeC={{Tgt|Unit}}'s HP ≥ 50%<br>at start of combat
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Accelerate Special}}
+|s2 Ce1={{Eft|Distant Counter}}
+|s2 Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s2 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|skill3={{Si|Vouge|refine=Skill1}} Skill refine effects
+|s3 Me1={{Eft|Obstruct|[[adjacent]] to {{Tgt|Unit}}}}
+|s3 Me1T=Range = 1<br>{{Tgt|Foes}}
+|s3 Me2={{Eft|Obstruct|[[within 2 spaces]] of {{Tgt|Unit}}}}
+|s3 Me2T=Range = 2<br>{{Tgt|Foes}}
+|s3 Me3={{Eft|Heal|7}}
+|s3 Me3C=After combat '''&'''<br>(Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat)
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s3 Ce2={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s first attack
+|s3 Ce3={{Eft|Damage Boost|total damage reduced}}<br>from {{Tgt|Foe}}'s first attack<br>for {{Tgt|Unit}}'s next attack<br>(including other sources)
+|s3 CeC=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary buffs|name=refine Vouge}}
+{{Obstruct notes}}
+{{IfFoeInitiates}}
+{{DamageBoostFromDamageReduction|name={{St|Vouge|refine=Skill1}}}}
+{{After combat healing|name={{St|Vouge|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Vouge
+|japanese=プージ
+|german=Voulge
+|spanishEU=Guja
+|spanishLA=Guja de guerra
+|french=Vouge
+|italian=Roncone
+|chineseTW=佈極
+|portuguese=Voulge
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%if%unit can counterattack regardless of foe_s range%' AND Description NOT LIKE '%transforms%' OR Description LIKE '%cannot move through spaces adjacent to unit%' OR Description LIKE '%reduces damage%next attack%total damage%') AND Exclusive='1'}}
+* [[Weapons with Distant Counter]]
+* [[Skill families/B Passives#Bulwark|Bulwark Passives]]
+{{Weapons Navbox}}

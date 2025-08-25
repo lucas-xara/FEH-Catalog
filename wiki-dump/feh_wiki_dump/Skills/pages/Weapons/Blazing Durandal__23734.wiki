@@ -1,0 +1,75 @@
+{{Weapon Infobox
+|tagid=SID_烈剣デュランダル
+|weaponType=Sword
+|might=16
+|range=1
+|effect=Grants Atk+3. If unit's Atk > foe's Atk, grants Special cooldown charge +1 per unit's attack. (Only highest value applied. Does not stack.)
+|cost=400
+|exclusive=1
+|userVersion1=Weapon
+|userVersion2=Gleam
+|userVersion3=Upgrade Gleam
+|statModifiers=0,19,0,0,0
+|required=Silver Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Atk+3. If unit initiates combat, grants Special cooldown charge +1 to unit and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)
+|tagidExtraSkill1=瞬
+|effectSkill1=If unit initiates combat, grants Spd+7 and Def+10 during combat and foe cannot make a follow-up attack.
+|iconSkill1=Blazing Durandal W.png
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|skill1 PermanentEffect={{Eft|Stat Boosts|Atk|3}}
+|skill1 CombatEffect={{Eft|Accelerate Charge}}<br>per {{Tgt|Unit}}'s attack
+|skill1 CombatEffect Conditions={{Tgt|Unit}}'s Atk ><br>{{Tgt|Foe}}'s Atk
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|skill2 PermanentEffect={{Eft|Stat Boosts|Atk|3}}
+|skill2 CombatEffect 1={{Eft|Accelerate Charge}}
+|skill2 CombatEffect 2={{Eft|Guard}}
+|skill2 CombatEffect 2 Targets={{Tgt|Foe}}
+|skill2 CombatEffect Conditions=Player Phase
+|skill3={{Si|Blazing Durandal|refine=Skill1}} Skill refine effects
+|skill3 CombatEffect 1={{Eft|Temporary buffs|Spd|7}}, {{Eft|Temporary buffs|Def|10}}
+|skill3 CombatEffect 2={{Eft|Prevent Follow-Ups}}
+|skill3 CombatEffect 2 Targets={{Tgt|Foe}}
+|skill3 CombatEffect Conditions=Player Phase
+}}
+
+==Notes==
+* Blazing Durandal the same effect as {{St|Heavy Blade 3}}.
+{{CooldownChargePlus|perAttack=user}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+* {{St|Blazing Durandal|refine=Skill1}} has the same effect as {{St|Steady Impact}}.
+{{IfUnitInitiates}}
+** The user initiating combat is the requirement for both the Special [[cooldown]] charge -1 inflicted on foe '''and''' the Special [[cooldown]] charge +1 granted on unit.
+{{CooldownChargePlus}}
+{{CooldownChargeMinus}}
+{{Temporary buffs|name={{St|Blazing Durandal|refine=Skill1}}}}
+{{Prevent follow-up|name={{St|Blazing Durandal|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|瞬撃R速7守10|Impact R Speed 7 Defense 10}}
+==In other languages==
+{{OtherLanguages
+|japanese=烈剣デュランダル
+|german=Feuer-Durandal
+|spanishEU=Durandal ígnea
+|spanishLA=Durandal ígnea
+|french=Durandal ardente
+|italian=Durandal ardente
+|chineseTW=烈劍迪朗達爾
+|portuguese=Durandal ígnea
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If unit_s ___ > foe_s ___, grants Special cooldown charge +1 per unit_s attack%'}}
+* [[Special Fighter]]
+* [[:Category:Impact Passives|Impact Passives]]
+{{Weapons Navbox}}

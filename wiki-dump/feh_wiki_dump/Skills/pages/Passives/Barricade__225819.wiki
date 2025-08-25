@@ -1,0 +1,54 @@
+{{Passive
+|name=Barricade
+|type=C
+|exclusive=0
+|canUseWeapon={{WeaponList|Dragonstone,Beast}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Barricade
+|1tagid=SID_縄張り・守護
+|1effect=Foes with Range = 1 cannot warp into spaces within 3 spaces of unit and foes with Range = 2 cannot warp into spaces within 4 spaces of unit (in either case, does not affect foes with Pass skills or warp effects from structures, like camps and fortresses in Rival Domains).<br><br>Grants Def/Res+4 to allies within 3 spaces of unit and neutralizes their penalties to Def/Res during their combat.<br><br>If unit is within 3 spaces of an ally, grants Def/Res+4 to unit and neutralizes unit's penalties to Def/Res during combat.
+|1cost=300
+|1required=Close Guard 3;Distant Guard 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Prevent Warp|[[within 3 spaces]] of {{Tgt|Unit}}}}
+|Me1T=Range = 1<br>{{Tgt|Foes}}
+|Me2={{Eft|Prevent Warp|[[within 4 spaces]] of {{Tgt|Unit}}}}
+|Me2T=Range = 2<br>{{Tgt|Foes}}
+|Ce1={{Eft|Temporary buffs|Def/Res|4}}
+|Ce2={{Eft|Neutralize Penalties|Def/Res}}
+|Ce1-2T={{Tgt|Allies}}<br>[[within 3 spaces]]
+|Ce3={{Eft|Temporary buffs|Def/Res|4}}
+|Ce4={{Eft|Neutralize Penalties|Def/Res}}
+|Ce3-4C=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+}}
+==Notes==
+{{Obstruct notes|preventWarp=1}}
+{{Temporary buffs}}
+{{Penalty neutralization}}
+{{AlliesCombatEffect|temporary buffs and penalty neutralization}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=Barricade
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%foe%cannot warp into spaces within%spaces of unit%' OR Description LIKE '%grants Def/Res+%to allies within _ spaces%' AND Description NOT LIKE '%at start of turn%grants Def/Res+%for 1 turn%') AND Exclusive='1'}}
+* [[Skill families/C Passives#Joint Guard|Joint Guard Passives]]
+{{Passives Navbox|C}}

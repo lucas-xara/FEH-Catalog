@@ -1,0 +1,100 @@
+{{Weapon Infobox
+|tagid=SID_アーリアル
+|weaponType=Blue Tome
+|might=14
+|range=2
+|effectiveness=magic
+|effect=Effective against magic foes. Grants Res+3. If unit initiates combat or if unit is within 2 spaces of an ally, grants Atk/Spd/Res+5 and disables foe's skills that "calculate damage using the lower of foe's Def or Res" during combat. Restores 7 HP to unit and allies within 2 spaces after combat.
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|cost=400
+|exclusive=1
+|statModifiers=0,14,0,0,3
+|required=Thoron;Shine
+|intID=2315
+|sort=468
+|effectRange=2
+|value=20
+|timingID=15
+|abilityID=219
+|limit1ID=58
+|randomTimestamp=2020-12-17T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Res+3. Effective against magic foes.<br>Restores 7 HP to unit and allies within 2 spaces of unit after combat.<br><br>If unit initiates combat or if unit is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5, disables foe's effects that "calculate damage using the lower of foe's Def or Res," unit deals X damage (excluding area-of-effect Specials), and reduces damage from foe's first attack by 40% of X during combat (X = highest total bonuses among unit and allies within 2 spaces of unit; "first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes).
+|refineStatsSkill1=0,0,0,0,0
+|effectSkill1=At start of turn, if unit is within 2 spaces of an ally, grants Spd/Res+6 and "neutralizes penalties on unit during combat" to unit and allies within 2 spaces of unit for 1 turn.<br><br>If foe initiates combat or foe's HP ≥ 75% at start of combat, grants Atk/Spd/Def/Res+5 to unit, neutralizes effects that inflict "Special cooldown charge -X" on unit, and inflicts Special cooldown charge -1 on foe per attack during combat (only highest value applied; does not stack).
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Res|3}}
+|s1 Ce1={{Eft|Effectiveness|{{Cwti|group=1|Magic}} [[Magic]]}}
+|s1 Ce2={{Eft|Temporary buffs|Atk/Spd/Res|5}}
+|s1 Ce3={{Eft|Disable Lower Def/Res}}
+|s1 Ce3T={{Tgt|Foe}}
+|s1 Ce2-3C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s1 Me={{Eft|Heal|7}}
+|s1 MeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|s1 MeC=After combat
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Res|3}}
+|s2 Ce1={{Eft|Effectiveness|{{Cwti|group=1|Magic}} [[Magic]]}}
+|s2 Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s2 Ce3={{Eft|Disable Lower Def/Res}}
+|s2 Ce3T={{Tgt|Foe}}
+|s2 Ce4={{Eft|Damage Boost|highest total {{SEt|Bonuses}}<br>on {{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]}}
+|s2 Ce5={{Eft|Damage Reduction|40% of highest total<br>{{SEt|Bonuses}} on {{Tgt|Unit}} '''&'''<br>{{Tgt|Allies}} [[within 2 spaces]]}}
+|s2 Ce2-5C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s2 Me={{Eft|Heal|7}}
+|s2 MeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|s2 MeC=After combat
+|skill3={{Si|Aureola|refine=Skill1}} Skill refine effects
+|s3 Se1={{Eft|Bonuses|Spd/Res|6}}
+|s3 Se2={{SEt|Neutralize Penalties}}
+|s3 SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|s3 SeC=At start of turn<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s3 Ce2={{Eft|Neutralize Guard}}
+|s3 Ce3={{Eft|Guard}}
+|s3 Ce3T={{Tgt|Foe}}
+|s3 CeC=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+}}
+
+==Notes==
+{{Effective damage bonus|magic}}
+{{Temporary buffs}}
+* Aureola ''does not'' disable foes' skills that calculate damage using the lower of the unit's Def or Res when the owner is attacked by an [[area-of-effect Special]].
+{{After combat healing|allies=1}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{DamageBoost|name=Refined Aureola}}
+{{FlatDamageReduction|name=Refined Aureola}}
+{{EffectfromBonuses|1=damage boost and damage reduction|multiTarget=1|target=unit or allies within 2 spaces|name=Refined Auerola}}
+{{Bonuses|name={{St|Aureola|refine=Skill1}}}}
+{{Neutralize Penalties|name={{St|Aureola|refine=Skill1}}}}
+{{CooldownChargeMinusNeutralization|name={{St|Aureola|refine=Skill1}}}}
+{{CooldownChargeMinus|name={{St|Auerola|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=アーリアル
+|german=Aureola
+|spanishEU=Aureola
+|spanishLA=Aureola
+|french=Auréole
+|italian=Tomo Etere
+|chineseTW=亞利艾爾
+|portuguese=Auréola
+}}
+==See also==
+{{See also skills|cond=WikiName LIKE '%aureola%' OR (Description LIKE '%disables%calculate damage using the lower%' OR Description LIKE '%effective against magic%' OR Description LIKE '%highest total bonuses among unit and allies within _ spaces%') AND Exclusive='1' AND Name NOT LIKE '%+'}}
+{{Weapons Navbox}}

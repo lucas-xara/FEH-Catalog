@@ -1,0 +1,41 @@
+{{Weapon Infobox
+|tagid=SID_士気旺盛の斧＋
+|intID=2861
+|image=wep_ax104
+|exclusive=0
+|weaponType=Axe
+|cost=300
+|might=14
+|range=1
+|effect=If【Bonus】is active on unit, grants Atk/Def+4 and Special cooldown charge +1 per foe's attack during combat. (Only highest value applied. Does not stack. Special cooldown charge granted even if foe's attack deals 0 damage.)<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|statModifiers=0,14,0,0,0
+|required=Spirited Axe
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=random_owner
+}}
+==Notes==
+{{EffectfromBonusKeyword|target=unit|combat boosts and cooldown charge}}
+{{Combat boosts}}
+{{CooldownChargePlus|perAttack=foe}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=士気旺盛の斧＋
+|german=Kampfgeistaxt+
+|spanishEU=Hacha vivaz +
+|spanishLA=Hacha vivaz +
+|french=Hache vivace +
+|italian=Ascia briosa+
+|chineseTW=士氣旺盛之斧＋
+|portuguese=Machado vivaz+
+}}
+==See also==
+ {{See also skills|cond=(Description LIKE '%Special cooldown charge +1 per foe_s attack during combat%Special cooldown charge granted even if foe_s attack deals 0 damage%' OR Description LIKE '%if%bonus%active on unit%grants Atk/Def+%during combat%') AND WikiName NOT LIKE '%Spirited%'|columns=3}}
+* [[Skill families#Spirited|Spirited Weapons]]
+{{Weapons Navbox}}

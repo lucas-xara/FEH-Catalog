@@ -1,0 +1,40 @@
+{{Weapon Infobox
+|tagid=SID_皆への七つの贈り物
+|intID=3390
+|image=wep_mg074
+|exclusive=1
+|weaponType=Red Tome
+|cost=400
+|might=14
+|range=2
+|effect=Grants Spd+3. If Sing or Dance is used, grants Atk/Spd/Def/Res+6 and the following status to target ally for 1 turn: "If unit initiates combat, unit makes a guaranteed follow-up attack." At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+6 to unit during combat.
+|statModifiers=0,14,3,0,0
+|required=Bolganone;Fenrir
+|properties=
+}}
+==Notes==
+{{Bonuses}}
+{{Guaranteed Follow-Ups}}
+{{Temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V7.0_v0700b_winter_Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+V7.0_v0700b_winter_Hit.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=皆への七つの贈り物
+|german=Reiche Gaben
+|spanishEU=Siete regalos
+|spanishLA=Siete regalos
+|french=Sept cadeaux
+|italian=Sette regali
+|chineseTW=贈送大家的七份禮物
+|portuguese=Sete presentes
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if%Sing or Dance is used, grants%' AND SCategory NOT LIKE 'passive_' OR Description LIKE '%"If unit initiates combat, unit makes a guaranteed follow-up attack%'}}
+* [[Skill families/B Passives#Dance|Dance Passives]]
+{{Weapons Navbox}}

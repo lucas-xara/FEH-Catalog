@@ -1,0 +1,34 @@
+{{Special
+|tagid=SID_星影
+|name=Night Sky
+|charge=3
+|effect=Boosts damage dealt by 50%.
+|cost=100
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|next=Astra
+|promotionRarity=4
+|promotionTier=2
+|required=-
+|properties=random_all,offensive_special
+}}
+==Notes==
+{{DamageBoost}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==Trivia==
+* Night Sky's cooldown was reduced by 1 with {{Version|2}}, released on November 28th, 2017.
+==In other languages==
+{{OtherLanguages
+|japanese=星影
+|german=Nachthimmel
+|spanishEU=Luz estelar
+|spanishLA=Luz estelar
+|french=Nocturne
+|italian=Cielo notturno
+|chineseTW=星影
+|portuguese=Céu noturno
+}}
+{{Specials Navbox}}

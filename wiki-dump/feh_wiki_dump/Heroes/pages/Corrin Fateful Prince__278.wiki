@@ -1,0 +1,74 @@
+{{#invoke:NameAbout|main|Name=Corrin}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Corrin
+|Title=Fateful Prince
+|GrowthModifier=None
+|WeaponType=Red Sword
+|Origin=Fire Emblem Fates
+|Gender=Male
+|MoveType=Infantry
+|actorEN=Cam Clarke
+|actorJP=島﨑信長
+|artist=まいぽんぽん
+|resplendentArtist=とよた瑣織
+|releaseDate=February 2, 2017
+|poolDate=February 2, 2017
+|randomStartTime=2017-02-02T07:00:00Z
+|poolRarities=3,4
+|TagID=カムイ男
+|InternalID=15
+|Person=Corrin M
+|Properties=demoted_240,resplendent,askr
+|cv1=11
+|cv2=100100
+|description=A Hoshidan prince raised in Nohr. Fights on his chosen path with the divine blade Yato. Appears in Fire Emblem Fates.
+|resplendentStartTime=2022-07-25T07:00:00Z
+|resplendentEndTime=2022-08-10T06:59:59Z
+}}
+{{Stats Page
+|Lv1HP=20|Lv1ATK=8|Lv1SPD=8|Lv1DEF=6|Lv1RES=5
+|GRHP=50|GRATK=55|GRSPD=55|GRDEF=50|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Yato
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Dragon Fang
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Defense +1
+|passiveA2=Defense +2
+|passiveA3=Defense +3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=Obstruct 1
+|passiveB2=Obstruct 2
+|passiveB3=Obstruct 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+{{Heroes Navbox}}

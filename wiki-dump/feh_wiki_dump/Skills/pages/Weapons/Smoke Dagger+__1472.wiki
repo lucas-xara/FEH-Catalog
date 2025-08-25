@@ -1,0 +1,39 @@
+{{Weapon Infobox
+|tagid=SID_紫煙の暗器＋
+|weaponType=Dagger
+|weaponName={{PAGENAME}}
+|altWeaponName=Smoke Dagger Plus
+|might=9
+|range=2
+|effect=After combat, if unit attacked, inflicts Def/Res-6 on foes within 2 spaces of target through their next actions.
+|cost=300
+|exclusive=0
+|statModifiers=0,9,0,0,0
+|required=Smoke Dagger
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|upgradedMight=12
+|upgradedEffect=After combat, if unit attacked, inflicts Atk/Spd/Def/Res-6 on target and foes within 2 spaces of target through their next actions.
+|properties=random_all
+}}
+==Notes==
+{{IfUnitAttacked}}
+{{Penalties}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=紫煙の暗器＋
+|german=Rauchdolch+
+|spanishEU=Daga humo +
+|spanishLA=Daga humo +
+|french=D. fumigène +
+|italian=Pugnale fumo+
+|chineseTW=紫煙暗器＋
+|portuguese=Adaga fumaça+
+}}
+{{Weapons Navbox}}

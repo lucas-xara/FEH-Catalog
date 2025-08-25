@@ -1,0 +1,37 @@
+{{Weapon Infobox
+|tagid=SID_小さな聖樹＋
+|weaponType=Blue Tome
+|might=12
+|range=2
+|effect=When unit deals damage to foe during combat, restores 5 HP to unit. (Triggers even if 0 damage is dealt.)
+|cost=300
+|exclusive=0
+|statModifiers=0,12,0,0,0
+|required=Tannenbit
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Notes==
+{{CombatHPRecovery}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Tannenbit+
+|japanese=小さな聖樹＋
+|german=Tannenklein!+
+|spanishEU=Arbolito +
+|spanishLA=Arbolito +
+|french=Petit sapin +
+|italian=Jingle bam+
+|chineseTW=小小聖樹＋
+|portuguese=Pinheirinho+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%unit deals damage to foe during combat, restores%HP to unit%' AND Exclusive='1'}}
+{{Weapons Navbox}}

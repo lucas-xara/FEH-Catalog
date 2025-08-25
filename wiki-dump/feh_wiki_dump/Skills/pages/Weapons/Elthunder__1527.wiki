@@ -1,0 +1,36 @@
+{{Weapon Infobox
+|tagid=SID_エルサンダー
+|weaponType=Blue Tome
+|weaponName={{PAGENAME}}
+|might=6
+|range=2
+|effect=
+|cost=100
+|exclusive=0
+|userVersion1=Closed|userVersion2=Open|statModifiers=0,6,0,0,0
+|next=Thoron
+|promotionRarity=4
+|promotionTier=1
+|required=Thunder
+|SE=se_effect_thunder02.flac
+|properties=random_all
+}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=エルサンダー
+|german=Elfendonner
+|spanishEU=Elthunder
+|spanishLA=Elthunder
+|french=Éclair
+|italian=Tuono d'elfo
+|chineseTW=狂雷
+|portuguese=Elthunder
+}}
+==See also==
+* [[Steel Weapons]]
+{{Weapons Navbox}}
+[[Category:Steel weapons]]

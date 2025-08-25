@@ -1,0 +1,82 @@
+{{#invoke:NameAbout|main|Name=Sanaki|Name2=Micaiah}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Sanaki
+|Title=Dawnsworn Ninja
+|WeaponType=Red Tome
+|MoveType=Cavalry
+|secondPerson=Micaiah
+|Origin=Fire Emblem: Radiant Dawn
+|Gender=FF
+|duo=Grants unit another action. (May be used only if unit has already entered combat during the current turn.)
+|Duel=205
+|actorEN=Sara Cravens,Veronica Taylor
+|actorJP=中原麻衣,桑谷夏子
+|artist=北千里
+|additionDate=November 6, 2023
+|releaseDate=November 7, 2023
+|cv1=9
+|cv2=900100
+|TagID=比翼サナキ
+|InternalID=1016
+|Properties=special,duo,tiara
+|description=Sisters, free from the fate of the apostle, using their ninja garb to conceal their worldly roles. They appear in Fire Emblem: Radiant Dawn.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=8|Lv1SPD=5|Lv1DEF=3|Lv1RES=14
+|GRHP=50|GRATK=90|GRSPD=45|GRDEF=30|GRRES=75
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elfire
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Bolganone
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Radiant Scrolls
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Iceberg
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Warding Blow 1
+|passiveA2=Mirror Strike 1
+|passiveA3=Mirror Strike 2
+|passiveA4=Flared Mirror
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Sabotage Res 1
+|passiveB2=Sabotage Res 2
+|passiveB3=Sabotage Res 3
+|passiveB4=Sabotage A/R 3
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Def Ploy 1
+|passiveC2=Def Ploy 2
+|passiveC3=Def Ploy 3
+|passiveC4=Def/Res Ploy 3
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Ninja Festival units]]

@@ -1,0 +1,75 @@
+{{#invoke:NameAbout|main|Name=Wolf}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Wolf
+|Title=Coyote's Loyal
+|WeaponType=Colorless Bow
+|MoveType=Cavalry
+|Origin=Fire Emblem: Mystery of the Emblem
+|Gender=Male
+|actorEN=John-Henry Kurtz
+|actorJP=伊東健人
+|artist=茶ちえ
+|randomStartTime=2021-11-18T07:00:00Z
+|additionDate=October 18, 2021
+|releaseDate=October 18, 2021
+|poolDate=November 5, 2021
+|poolRarities=5
+|cv1=1
+|cv2=600200
+|TagID=ウルフ
+|InternalID=719
+|Properties=specRate_202408
+|description=Leader of the Coyote's Men of Aurelis. He has pledged an oath of loyalty to Hardin. Appears in Fire Emblem: Mystery of the Emblem.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=9|Lv1SPD=9|Lv1DEF=6|Lv1RES=5
+|GRHP=50|GRATK=70|GRSPD=75|GRDEF=50|GRRES=35
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Bow
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Keen Coyote Bow
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Reposition
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Life and Death 1
+|passiveA2=Life and Death 2
+|passiveA3=Life and Death 3
+|passiveA4=Life and Death 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Def/Res Snag 1
+|passiveB2=Def/Res Snag 2
+|passiveB3=Def/Res Snag 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Panic Smoke 1
+|passiveC2=Panic Smoke 2
+|passiveC3=Panic Smoke 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

@@ -1,0 +1,42 @@
+{{Passive
+|name=Distant Foil
+|type=A
+|exclusive=0
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|Close}}
+|1name=Distant Foil
+|1tagid=SID_金剛の反撃・遠距離
+|1effect=If sword, lance, axe, bow, dagger, or beast foe initiates combat, grants Atk/Def+5 to unit during combat and unit can counterattack regardless of foe's range.
+|1required=-
+|1cost=300
+|properties=random_owner
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=金剛の反撃・遠距離
+|japaneseNotes=''Sturdy Counter, Long Distance''
+|german=Fernvergeltung
+|spanishEU=Quiebro largo
+|spanishLA=Quiebro largo
+|french=Bloc. distant
+|italian=Contras. lontano
+|chineseTW=金剛反擊・遠距離
+|portuguese=Revide distante
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%counterattack regardless of%range%' AND SCategory!='Weapon') AND ((Exclusive='1' AND Name NOT LIKE '%+') OR SCategory='captain')}}
+* [[Counter Passives]]
+* [[Counter Seals]]
+* [[Prime Passives]]
+* [[Weapons with Distant Counter]]
+* [[Weapons with Close Counter]]
+{{Passives Navbox|A}}

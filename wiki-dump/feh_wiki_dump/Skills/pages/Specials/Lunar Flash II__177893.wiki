@@ -1,0 +1,40 @@
+{{Special
+|tagid=SID_月光閃・承
+|intID=3185
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=2
+|effect=Treats foe's Def/Res as if reduced by 20% during combat. Boosts damage by 20% of unit's Spd. Neutralizes "reduces damage by X%" effects from non-Special skills.
+|required=Lunar Flash
+|properties=offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1=Treats {{Tgt|foe}}'s Def/Res<br>as if reduced by 20%
+|Ce1T={{Tgt|Foe}}
+|Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|Ce3={{Eft|Neutralize Damage Reduction}}
+|Ce3T={{Tgt|Foe}}<br>
+|CeC=Special triggers
+}}
+==Notes==
+{{DamageBoost}}
+{{DamageReductionNeutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=月光閃・承
+|german=Luna-Blitz II
+|spanishEU=Destello lunar II
+|spanishLA=Destello lunar II
+|french=Éclair lunaire II
+|italian=Lampo lunare II
+|chineseTW=月光閃・承
+|portuguese=Raio de luar II
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%disables%reduce%damage by x%' OR Description LIKE '%neutralizes%reduce%damage by x%') AND Description LIKE '%non-Special%' AND Description NOT LIKE '%reduces the percentage%' AND SCategory='special' AND Exclusive='1'}}
+{{Specials Navbox}}

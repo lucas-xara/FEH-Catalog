@@ -1,0 +1,43 @@
+{{Special
+|tagid=SID_真覇天
+|intID=3915
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=2
+|effect=Boosts damage by X% of unit's Atk when Special triggers (if in combat against a dragon foe or beast foe, X = 50; otherwise, X = 25). If Special triggers, neutralizes foe's "reduces damage by X%" effects from non-Special skills. If foe's Range = 2 and unit or foe's Special is ready or triggered before or during this combat, reduces damage from foe's next attack by 30% (once per combat; excluding area-of-effect Specials).
+|required=Draconic Aura
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Damage Boost|(50% if against a<br>{{Cwti|group=1|Beast,Dragon}} [[Dragon]]/[[Beast]]<br>{{Tgt|Foe}}; else 25%)<br>of {{Tgt|Unit}}'s Atk}}
+|Ce1-2C=Special triggers
+|Ce2={{Eft|Neutralize Damage Reduction}}
+|Ce2T={{Tgt|Foe}}
+|Ce3={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s next attack
+|Ce3T={{Tgt|Unit}}
+|Ce3C={{Tgt|Foe}}'s Range = 2 '''&'''<br>({{Tgt|Unit}} or {{Tgt|Foe}}'s<br>Special is ready '''or'''<br>triggered before or<br>during combat)
+}}
+
+==Notes==
+{{AtkDamageBoost}}
+{{DamageReductionNeutralization}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=真覇天
+|german=Wahrer Himmel
+|spanishEU=Cielo supremo
+|spanishLA=Cielo supremo
+|french=Ciel ultime
+|italian=Cieli superbi
+|chineseTW=真霸天
+|portuguese=Paraíso supremo
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%disables%reduce%damage by x%' OR Description LIKE '%neutralizes%reduce%damage by x%') AND Description LIKE '%non-Special%' AND Description NOT LIKE '%reduces the percentage%' OR Description LIKE '%if in combat against a dragon%or beast foe%'}}
+{{Specials Navbox}}

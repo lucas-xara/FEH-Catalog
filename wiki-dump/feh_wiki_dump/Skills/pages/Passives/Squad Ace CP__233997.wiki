@@ -1,0 +1,57 @@
+{{Passive
+|name=Squad Ace CP
+|type=S
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|1name=Squad Ace CP 1
+|alt1name=Squad Ace BV 1
+|1tagid=SID_第94迷宮の覇者1
+|1effect=Grants HP+3, Spd/Def+1.
+|statModifiers1=3,0,1,1,0
+|1cost=120
+|1required=-
+|1next=-
+|2name=Squad Ace CP 2
+|alt2name=Squad Ace BV 2
+|2tagid=SID_第94迷宮の覇者2
+|2effect=Grants HP+4, Spd/Def+2.
+|statModifiers2=4,0,2,2,0
+|2cost=180
+|2next=-
+|3name=Squad Ace CP 3
+|alt3name=Squad Ace BV 3
+|3tagid=SID_第94迷宮の覇者3
+|3effect=Grants HP+5, Spd/Def+3.
+|statModifiers3=5,0,3,3,0
+|3cost=240
+}}
+==Seal acquired from==
+===Squad Assault reward===
+* Complete the [[94th Assault]].
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Squad Ace CP 1;Squad Ace CP 2;Squad Ace CP 3
+|badgeColor=Verdant
+|costs1=-
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}
+[[Category:Squad Ace Seals]]

@@ -1,0 +1,70 @@
+{{Weapon Infobox
+|tagid=SID_蒼月グラディウス
+|weaponType=Lance
+|might=16
+|range=1
+|effect=Unit can counterattack regardless of foe's range. Grants Special cooldown charge +1 per foe's attack during combat. (Only highest value applied. Does not stack. Special cooldown charge granted even if foe's attack deals 0 damage.)
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Silver Lance
+|intID=2188
+|sort=437
+|value=20
+|timingID=1
+|abilityID=59
+|randomTimestamp=2020-09-18T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|tagidExtraSkill1=一
+|effectSkill1=If unit is within 3 spaces of an ally, grants Spd/Def/Res+5 to unit during combat, deals damage = 20% of unit's Def, reduces damage from foe's attacks by 20% of unit's Def (excluding area-of-effect Specials), inflicts Def-5 on foe during combat, and neutralizes foe's bonuses to Atk/Def (from skills like Fortify, Rally, etc.).
+|iconSkill1=Moon Gradivus W.png
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Ce1={{Eft|Distant Counter}}
+|s1 Ce2={{Eft|Special Cooldown Charge +1}}<br>per {{Tgt|Foe}}'s attack 
+|skill2={{Si|Moon Gradivus|refine=Skill1}} Skill refine effects
+|s2 Ce1={{Eft|Temporary Buffs|Spd/Def/Res|5}}
+|s2 Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Def}}
+|s2 Ce3={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Def}}
+|s2 Ce4={{Eft|Temporary Debuffs|Def|5}}
+|s2 Ce5={{Eft|Neutralize Bonuses|Atk/Def}}
+|s2 Ce4-5T={{Tgt|Foe}}
+|s2 CeC={{Tgt|Unit}} is<br>[[within 3 spaces]]<br>of an {{Tgt|Ally}}
+}}
+==Notes==
+* Has the same effect as {{St|Distant Counter}}.
+{{CooldownChargePlus|perAttack=foe}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary buffs|name={{St|Moon Gradivus|refine=Skill1}}}}
+{{DamageBoost|name={{St|Moon Gradivus|refine=Skill1}}}}
+{{FlatDamageReduction}}
+{{Temporary debuffs|name={{St|Moon Gradivus|refine=Skill1}}}}
+{{Bonus neutralization|name={{St|Moon Gradivus|refine=Skill1}}}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Moon Gradivus
+|japanese=蒼月グラディウス
+|german=Mond-Gradivus
+|spanishEU=Gradivus lunar
+|spanishLA=Gradivus lunar
+|french=Lune Gradivus
+|italian=Gradivus luna
+|chineseTW=蒼月古拉迪烏斯
+|portuguese=Gradivus lunar
+}}
+==See also==
+{{See also skills|cond=WikiName LIKE '%Gradivus%' OR Description LIKE '%Special cooldown charge +1 per foe_s attack during combat%Special cooldown charge granted even if foe_s attack deals 0 damage%' AND Exclusive='1' OR Description LIKE '%deals damage =%of unit_s Def%' OR Description LIKE '%reduces damage from foe_s attacks%of unit_s Def%'}}
+* [[Weapons with Distant Counter]]
+{{Weapons Navbox}}

@@ -1,0 +1,68 @@
+{{#invoke:NameAbout|main|Name=Lex}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Lex
+|Title=Young Blade
+|WeaponType=Green Axe
+|MoveType=Cavalry
+|Origin=Fire Emblem: Genealogy of the Holy War
+|Gender=Male
+|actorEN=Nazeeh Tarsha
+|actorJP=浪川大輔
+|artist=霜村航
+|randomStartTime=2021-03-16T07:00:00Z
+|additionDate=February 16, 2021
+|releaseDate=February 16, 2021
+|poolDate=March 5, 2021
+|poolRarities=3,4
+|cv1=3
+|cv2=600200
+|TagID=レックス
+|InternalID=630
+|Properties=
+|description=Second son of Duke Lombard of House Dozel. Joins the army under Sigurd's command along with his friend Azelle. Appears in Fire Emblem: Genealogy of the Holy War.
+}}
+{{Stats Page
+|Lv1HP=21|Lv1ATK=8|Lv1SPD=6|Lv1DEF=10|Lv1RES=4
+|GRHP=55|GRATK=65|GRSPD=55|GRDEF=65|GRRES=35
+}}
+
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Brave Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Goddess Axe
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Reposition
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Def Push 1
+|passiveA2=Atk/Def Push 2
+|passiveA3=Atk/Def Push 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Axe Experience 1
+|passiveC2=Axe Experience 2
+|passiveC3=Axe Experience 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

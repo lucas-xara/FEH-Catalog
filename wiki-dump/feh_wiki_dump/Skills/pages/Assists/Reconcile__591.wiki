@@ -1,0 +1,42 @@
+{{Assist
+|tagid=SID_ヒール
+|name=Reconcile
+|range=1
+|effect=Restores 7 HP to unit and target ally.
+|cost=100
+|exclusive=0
+|next=Martyr
+|promotionRarity=4
+|promotionTier=2
+|required=Heal
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|Staff}}
+|properties=random_all
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Heal|7}}
+|Me1T={{Tgt|Unit}} '''&'''<br>{{Tgt|Target Ally}}
+|MeC1={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}<br>'''or''' {{SEt|Deep Wounds}}
+}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==Gallery==
+<gallery>
+File:Weapon_Reconcile.png|Reconcile Sprite
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=ヒール
+|german=Einklang
+|spanishEU=Compartir
+|spanishLA=Reconciliar
+|french=Cercle vertueux
+|italian=Empatia
+|chineseTW=治療
+|portuguese=Reconciliação
+}}
+==See also==
+* [[Staff Assists]]
+{{Assists Navbox}}

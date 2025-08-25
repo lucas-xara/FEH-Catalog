@@ -1,0 +1,77 @@
+{{#invoke:NameAbout|main|Name=Delthea}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Delthea
+|Title=Prodigy in Bloom
+|WeaponType=Blue Tome
+|MoveType=Cavalry
+|Origin=Fire Emblem Echoes: Shadows of Valentia
+|Gender=Female
+|actorEN=Christine Marie Cabanos
+|actorJP=鈴木絵理
+|artist=みわべさくら
+|additionDate=March 7, 2022
+|releaseDate=March 8, 2022
+|cv1=2
+|cv2=300200
+|TagID=春祭デューテ
+|InternalID=778
+|Properties=special,hat
+|description=A prodigal mage who wants to run free at Askr's spring festival. Appears in Fire Emblem Echoes: Shadows of Valentia.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=10|Lv1SPD=10|Lv1DEF=3|Lv1RES=6
+|GRHP=45|GRATK=75|GRSPD=70|GRDEF=30|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Thunder
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elthunder
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Thoron
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Bright-Shell Egg
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Glimmer
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Catch 1
+|passiveA2=Atk/Spd Catch 2
+|passiveA3=Atk/Spd Catch 3
+|passiveA4=Atk/Spd Catch 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=S/R Far Trace 1
+|passiveB2=S/R Far Trace 2
+|passiveB3=S/R Far Trace 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Rouse Atk/Spd 1
+|passiveC2=Rouse Atk/Spd 2
+|passiveC3=Rouse Atk/Spd 3
+|passiveC4=Rouse Atk/Spd 4
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Spring Festival units]]

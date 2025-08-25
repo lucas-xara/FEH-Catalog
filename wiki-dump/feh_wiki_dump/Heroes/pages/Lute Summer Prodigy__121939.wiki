@@ -1,0 +1,66 @@
+{{#invoke:NameAbout|main|Name=Lute}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Lute
+|Title=Summer Prodigy
+|WeaponType=Blue Tome
+|Origin=Fire Emblem: The Sacred Stones
+|Gender=Female
+|MoveType=Flying
+|actorJP=永野愛
+|actorEN=Brina Palencia
+|artist=瀬尾公治
+|additionDate=June 18, 2020
+|releaseDate=June 18, 2020
+|cv1=7
+|cv2=102100
+|TagID=水着ルーテ
+|InternalID=534
+|Properties=special
+|description=A young mage of Renais possessed of a rather unusual temperament. She is searching for signs of new magics among the summer sands. Appears in Fire Emblem: The Sacred Stones.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=7|Lv1SPD=8|Lv1DEF=4|Lv1RES=8
+|GRHP=45|GRATK=65|GRSPD=60|GRDEF=30|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Thunder
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elthunder
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Flora Guide
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Flora Guide+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Swap
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Seal Res 1
+|passiveB2=Seal Spd/Res 1
+|passiveB3=Seal Spd/Res 2
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Spd Tactic 1
+|passiveC2=Spd Tactic 2
+|passiveC3=Spd Tactic 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Summer units]]

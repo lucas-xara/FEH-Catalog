@@ -1,0 +1,45 @@
+{{Passive
+|type=C
+|name=Cross Spur Res
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_inherit_base,random_owner
+|1name=Cross Spur Res
+|1tagid=SID_魔防の十字紋章
+|1cost=300
+|1effect=Grants Res+5 to allies in cardinal directions of unit during combat.
+|1required=Spur Res 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce={{Eft|Temporary buffs|Res|5}}
+|CeT={{Tgt|Allies}} within<br>[[Cardinal directions]]
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{CardinalDirections}}
+{{AlliesCombatEffect}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=魔防の十字紋章
+|german=Kreuz-Res. anspo.
+|spanishEU=Mejora Res cruz
+|spanishLA=Mejora Res. cruz
+|french=Ence. croisé Rés
+|italian=Migliora Res area
+|chineseTW=魔防十字紋章
+|portuguese=Res. realç. cruz
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grant%+%to%all%cardinal direction%combat%' AND WikiName NOT LIKE '%spur%' AND Description NOT LIKE '%rally%'}}
+* [[Skill families#Cross Spur|Cross Spur Passives]]
+{{Passives Navbox|C}}
+[[Category:Spur Passives]][[Category:Cross Spur Passives]]

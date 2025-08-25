@@ -1,0 +1,90 @@
+{{Weapon Infobox
+|tagid=SID_春風のブレス
+|weaponType=Dragonstone
+|might=16
+|range=1
+|effectiveness=armored
+|effect=Effective against armored foes. Grants Res+3. If a bonus granted by a skill like Rally or Hone is active on unit or if unit is within 2 spaces of an ally, neutralizes unit's penalties and inflicts Atk-6 on foe during combat, and foe cannot make a follow-up attack. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,3
+|required=Flametongue
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Effective against armored foes. Grants Res+3. If【Bonus】is active on unit or if unit is within 2 spaces of an ally, inflicts Atk-6 and Spd/Def/Res-4 on foe, neutralizes unit's penalties, and foe cannot make a follow-up attack during combat. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|effectSkill1=If foe initiates combat or foe's HP ≥ 75% at start of combat, inflicts Atk/Spd/Def/Res-4 on foe during combat, reduces damage from foe's first attack by 5 during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and restores 7 HP to unit after combat, and also, if unit's Res > foe's Res, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 4 (max 40%).
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Res|3}}
+|s1 Ce1={{Eft|Effectiveness|{{Mt|Armored}}}}
+|s1 Ce2={{Eft|Temporary Debuff|Atk|6}}
+|s1 Ce3={{Eft|Prevent Follow-Up}}
+|s1 Ce2-3T={{Tgt|Foe}}
+|s1 Ce4={{Eft|Neutralize Penalty}}
+|s1 Ce2-4C=A {{SEt|Bonus}} is<br>active on{{Tgt|Unit}}<br>'''or''' an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s1 Ce5={{Eft|Lower Def Res}}
+|s1 Ce4-5T={{Tgt|Unit}}
+|s1 Ce5C={{Tgt|Foe}}'s Range = 2
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon|link=|alt=]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Res|3}}
+|s2 Ce1={{Eft|Effectiveness|{{Mt|Armored}}}}
+|s2 Ce2={{Eft|Temporary Debuff|Atk|6}}, {{Eft|Temporary Debuff|Spd/Def/Res|4}}
+|s2 Ce3={{Eft|Prevent Follow-Up}}
+|s2 Ce2-3T={{Tgt|Foe}}
+|s2 Ce4={{Eft|Neutralize Penalty}}
+|s2 Ce2-4C=A {{Kp|Bonus}} effect<br>is active on {{Tgt|Unit}}<br>'''or''' an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s2 Ce5={{Eft|Lower Def Res}}
+|s2 Ce4-5T={{Tgt|Unit}}
+|s2 Ce5C={{Tgt|Foe}}'s Range = 2
+|skill3={{Si|Zephyr Breath|refine=Skill1}} Skill refine effects
+|s3 Ce1-3C=Enemy Phase '''or'''<br>{{Tgt|Foe}} HP ≥ 75%
+|s3 Ce1={{Eft|Temporary debuffs|Atk/Spd/Def/Res|4}}
+|s3 Ce1T={{Tgt|Foe}}
+|s3 Ce2={{Eft|Damage Reduction|5}}<br>from {{Tgt|Foe}}'s first attacks<br>(including second attacks)
+|s3 Ce2-3T={{Tgt|Unit}}
+|s3 Ce3C=(Enemy Phase '''or'''<br>{{Tgt|Foe}} HP ≥ 75%)<br>'''&''' {{Tgt|Unit}}'s Res<br>> {{Tgt|Foe}}'s Res
+|s3 Ce3={{Eft|Damage Reduction|4 × ({{Tgt|Unit}}'s Res - {{Tgt|Foe}}'s Res)|max=40%|percent=1}}<br>from {{Tgt|Foe}}'s attacks and [[AoE Specials]]
+|s3 Me1={{Eft|Heal|7}}
+|s3 Me1C=After combat if<br>Enemy Phase '''or'''<br>{{Tgt|Foe}} HP ≥ 75%
+}}
+
+==Notes==
+{{Effective damage bonus|armored}}
+{{EffectfromBonuses|penalty neutralization, temporary debuffs, and follow-up preventing effects}}
+{{Penalty neutralization}}
+{{Temporary debuffs}}
+{{Prevent follow-up}}
+{{LowerDefRes}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{EffectfromBonus|name=refined Zephyr Breath}}
+{{Prevent follow-up|name=Refined Zephyr Breath}}
+{{IfFoeInitiates}}
+{{After combat healing|name={{St|Zephyr Breath|refine=Skill1}}}}
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Zephyr Breath
+|japanese=春風のブレス
+|german=Zephir-Atem
+|spanishEU=Aliento céfiro
+|spanishLA=Soplo céfiro
+|french=Souffle zéphyr
+|italian=Soffio primaverile
+|chineseTW=春風吐息
+|portuguese=Sopro de Zephyr
+}}
+==See also==
+{{See also skills|cond=WeaponEffectiveness='armored' AND WikiName LIKE '%breath%' OR Description LIKE '%if%bonus%active on unit%cannot make a follow-up%' OR Description LIKE '%unit_s Res > foe_s Res%educes damage from attacks during combat%'}}
+* [[Sources of effective against armored foes]]
+{{Weapons Navbox}}

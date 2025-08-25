@@ -1,0 +1,65 @@
+{{#invoke:NameAbout|main|Name=Ena}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Ena
+|Title=Autumn Tactician
+|WeaponType=Red Breath
+|MoveType=Infantry
+|Origin=Fire Emblem: Radiant Dawn
+|Gender=Female
+|actorEN=Jackie Lastra
+|actorJP=瀬戸麻沙美
+|artist=kaya8
+|additionDate=October 7, 2020
+|releaseDate=October 9, 2020
+|cv1=9
+|cv2=500500
+|TagID=ハロイナ
+|InternalID=575
+|Properties=specDisplay,tempest,hat
+|description=A dragon laguz from Goldoa. She is considering the best approach to take in order to liven up harvest festivities. Appears in Fire Emblem: Radiant Dawn.
+}}
+{{Stats Page
+|Lv1HP=20|Lv1ATK=10|Lv1SPD=4|Lv1DEF=9|Lv1RES=10
+|GRHP=55|GRATK=60|GRSPD=45|GRDEF=65|GRRES=60
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire Breath
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Fire Breath+
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Pale Breath
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Pale Breath+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Swap
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveB1=Def/Res Link 1
+|passiveB2=Def/Res Link 2
+|passiveB3=Def/Res Link 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Spur Res 1
+|passiveC2=Spur Res 2
+|passiveC3=Ward Dragons
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Halloween units]]

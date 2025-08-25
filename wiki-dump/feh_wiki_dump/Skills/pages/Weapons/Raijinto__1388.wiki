@@ -1,0 +1,68 @@
+{{Weapon Infobox
+|tagid=SID_雷神刀
+|weaponType=Sword
+|might=16
+|range=1
+|effect=Unit can counterattack regardless of foe's range.
+|cost=400
+|userVersion1=Weapon
+|userVersion2=Gleam
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Silver Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|tagidExtraSkill1=見
+|effectSkill1=If unit initiates combat or if unit is within 2 spaces of an ally, grants Atk/Spd/Def/Res+4 during combat and neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat.
+|iconSkill1=Raijinto W.png
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Ce={{Eft|Distant Counter}}
+|skill2={{Si|Raijinto|refine=Skill1}} Skill refine effects
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s2 Ce2={{Eft|Neutralize Prevent Follow-Ups}}
+|s2 Ce3={{Eft|Neutralize Guaranteed Follow-Ups}}
+|s2 Ce3T={{Tgt|Foe}}
+|s2 CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+==Notes==
+* Raijinto has the same effect as {{St|Distant Counter}}.
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfUnitInitiates}}
+{{Temporary buffs|name={{St|Raijinto|refine=skill1}}}}
+{{Follow-up effect neutralization|name={{St|Raijinto|refine=skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+Wep sw013.webp|Spritesheet of '''Raijinto'''
+Weapon Raijinto.png|Standard
+Weapon Raijinto V3.png|Phase 1
+Weapon Raijinto V4.png|Phase 2
+Weapon Raijinto V5.png|Phase 3
+Weapon Raijinto V6.png|Phase 4
+Weapon Raijinto V7.png|Phase 5
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=雷神刀
+|german=Raijinto
+|spanishEU=Raijinto
+|spanishLA=Raijinto
+|french=Raijinto
+|italian=Raijinto
+|chineseTW=雷神刀
+|portuguese=Raijinto
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%counterattack regardless%if %, grants Atk/Spd/Def/Res+%' OR Description LIKE '%if %, grants Atk/Spd/Def/Res+%counterattack regardless%') AND Exclusive='1'}}
+* [[Weapons with Distant Counter]]
+* [[Weapons with Close Counter]]
+{{Weapons Navbox}}

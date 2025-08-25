@@ -1,0 +1,39 @@
+{{Weapon Infobox
+|tagid=SID_花の髪飾り
+|weaponType=Dagger
+|might=8
+|range=2
+|effect=During unit's first combat in player phase or enemy phase, grants Atk/Res+5 to unit and restores 7 HP to unit after combat.<br><br>Effect:【Dagger ５】<br><br>【Dagger ５】<br>After combat, if unit attacked, inflicts Def/Res-５ on target and foes within 2 spaces of target through their next actions.
+|cost=200
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|required=Steel Dagger
+|next=Hidden Thorns+
+|promotionRarity=5
+|promotionTier=1
+|properties=
+}}
+==Notes==
+{{FirstCombat}}
+{{Temporary buffs}}
+{{After combat healing}}
+{{IfUnitAttacked}}
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Hidden Thorns
+|japanese=花の髪飾り
+|german=Geheimdornen
+|spanishEU=Espinas furtivas
+|spanishLA=Espinas furtivas
+|french=Épines cachées
+|italian=Spine occulte
+|chineseTW=花朵髮飾
+|portuguese=Espinhos ocultos
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%estores%HP after combat%' OR Description LIKE '%estores%HP to unit after combat%') AND WikiName NOT LIKE '%rabbit%' AND Exclusive='1'}}
+* [[Skill families/Weapons#Rabbit|Rabbit Weapons]]
+{{Weapons Navbox}}

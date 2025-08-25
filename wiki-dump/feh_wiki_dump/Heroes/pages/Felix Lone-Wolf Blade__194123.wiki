@@ -1,0 +1,82 @@
+{{#invoke:NameAbout|main|Name=Felix}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Felix
+|Title=Lone-Wolf Blade
+|WeaponType=Red Sword
+|MoveType=Infantry
+|Origin=Fire Emblem: Three Houses
+|Gender=Male
+|actorEN=Lucien Dodge
+|actorJP=帆世雄一
+|artist=黒葉.K
+|randomStartTime=2023-05-17T07:00:00Z
+|additionDate=April 17, 2023
+|releaseDate=April 17, 2023
+|poolDate=May 9, 2023
+|poolRarities=5
+|cv1=12
+|cv2=300300
+|TagID=フェリクス
+|InternalID=940
+|Properties=
+|description=Second son of the Holy Kingdom of Faerghus's House Fraldarius, a prestigious noble family. He seeks to grow stronger on his own terms. Appears in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=11|Lv1SPD=16|Lv1DEF=7|Lv1RES=3
+|GRHP=50|GRATK=80|GRSPD=70|GRDEF=55|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Lone-Wolf Blade
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Buckler
+|special1Default=4
+|special1Unlock=3
+|special2=Escutcheon
+|special2Unlock=4
+|special3=Godlike Reflexes
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Finish 1
+|passiveA2=Atk/Spd Finish 2
+|passiveA3=Atk/Spd Finish 3
+|passiveA4=Atk/Spd Finish 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Atk/Spd Bulwark 1
+|passiveB2=Atk/Spd Bulwark 2
+|passiveB3=Atk/Spd Bulwark 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Spd Smoke 1
+|passiveC2=Spd Smoke 2
+|passiveC3=Spd Smoke 3
+|passiveC4=Spd Smoke 4
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}

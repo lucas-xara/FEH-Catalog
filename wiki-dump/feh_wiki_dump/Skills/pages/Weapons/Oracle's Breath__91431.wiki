@@ -1,0 +1,48 @@
+{{Weapon Infobox
+|tagid=SID_神託のブレス
+|weaponType=Dragonstone
+|might=16
+|range=1
+|effect=Grants Atk+3. If a bonus granted by a skill like Rally or Hone is active on unit, foe cannot make a follow-up attack. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|cost=400
+|exclusive=1
+|statModifiers=0,19,0,0,0
+|required=Flametongue
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Atk+3. At start of combat, if unit's HP ≥ 50% or if【Bonus】is active on unit, grants Atk/Spd/Def/Res+4 to unit during combat and foe cannot make a follow-up attack. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|tagidExtraSkill1=一
+|effectSkill1=At start of turn, if unit is within 2 spaces of an ally, grants Def/Res+6 and the following status to unit and allies within 2 spaces for 1 turn: "Grants Special cooldown charge +1 per attack during combat (only highest value applied; does not stack)." If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+4 to unit during combat and grants bonus to unit's Atk/Spd/Def/Res during combat = highest bonus on allies within 2 spaces of unit. Calculates each stat bonus independently.
+|iconSkill1=Oracles Breath W.png
+|properties=random_owner
+}}
+==Notes==
+{{EffectfromBonuses|target=unit}}
+{{Prevent follow-up}}
+{{LowerDefRes}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{EffectfromBonus}}
+{{TemporaryBufffromBonus|name={{St|Oracle's Breath|refine=Skill1}}|source=an ally}}
+{{Bonuses|name={{St|Oracle's Breath|refine=Skill1}}}}
+{{Accelerate Special|name={{St|Oracle's Breath|refine=Skill1}}}}
+{{IfUnitInitiates}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=神託のブレス
+|german=Orakelatem
+|spanishEU=Aliento oráculo
+|spanishLA=Soplo oráculo
+|french=Souffle d'oracle
+|italian=Soffio dell'oracolo
+|chineseTW=神諭吐息
+|portuguese=Sopro do oráculo
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%bonus to%Atk/Spd/Def/Res%=%highest bonus on allies within 2 spaces%' OR Description LIKE '%at start of turn%grants Def/Res+%to unit and allies within _ spaces%' OR (Description LIKE '%Special cooldown charge +1 per attack during combat%to unit%for 1 turn%' OR Description LIKE '%"Grants Special cooldown charge +1 per attack during combat%') AND Exclusive='1'}}
+{{Weapons Navbox}}

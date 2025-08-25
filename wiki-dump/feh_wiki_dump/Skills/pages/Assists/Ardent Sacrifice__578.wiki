@@ -1,0 +1,39 @@
+{{Assist
+|tagid=SID_献身
+|name=Ardent Sacrifice
+|range=1
+|effect=Restores 10 HP to target ally.<br>Unit loses 10 HP but cannot go below 1.
+|cost=150
+|required=-
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_all,random_inherit_base
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Heal|10}}
+|MeT1={{Tgt|Target Ally}}
+|MeC1={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}<br>'''or''' {{SEt|Deep Wounds}}
+|Me2={{Eft|Damage|10}}<br>(cannot go below 1 HP)
+|MeT2={{Tgt|Unit}}
+|MeC2={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}
+}}
+==Notes==
+{{HP transfer notes}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=献身
+|german=Selbstopfer
+|spanishEU=Fervor absoluto
+|spanishLA=Fervor absoluto
+|french=Abnégation
+|italian=Sommo sacrificio
+|chineseTW=獻身
+|portuguese=Sacrifício ardente
+}}
+==See also==
+* [[Reciprocal Aid]]
+{{Assists Navbox}}

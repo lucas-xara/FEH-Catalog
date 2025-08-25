@@ -1,0 +1,73 @@
+{{SkillPage Tabs}}{{Passive
+|name=HP +
+|type=A
+|exclusive=0
+|1name=HP +3
+|1tagid=SID_HP1
+|1promotionRarity=4
+|1promotionTier=1
+|1required=-
+|alt1name=HP Plus 3
+|1effect=Grants HP+3.
+|1cost=40
+|2name=HP +4
+|2tagid=SID_HP2
+|2promotionRarity=5
+|2promotionTier=1
+|alt2name=HP Plus 4
+|2effect=Grants HP+4.
+|2cost=80
+|3name=HP +5
+|3tagid=SID_HP3
+|alt3name=HP Plus 5
+|3effect=Grants HP+5.
+|3cost=160
+|statModifiers1=3,0,0,0,0
+|statModifiers2=4,0,0,0,0
+|statModifiers3=5,0,0,0,0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=random_all
+}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Trivia==
+*This skill uses the icon of Dual Strike+ from {{FE|13}}, instead of HP +5 from {{FE|13}}.
+==Seal acquired from==
+===Quest reward===
+* [[Quests and Missions archive/2017 April#Sacred Seals|Sacred Seals]] (12 April, 2017 - 28 April, 2017): Defeat an enemy (x5).
+* [[Quests and Missions archive/2017 May#Sacred Seals|Sacred Seals]] (17 May, 2017 - 1 June, 2017): Defeat an enemy (x5).
+* [[Quests and Missions archive/2017 August#Sacred Seals|Sacred Seals]] (26 August, 2017 - 16 September, 2017): Defeat an enemy (x5).
+* [[Quests and Missions archive/2017 September#Sacred Seals|Sacred Seals]] (24 September, 2017 - 8 October, 2017): Defeat an enemy (x5).
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=HP +3;HP +4;HP +5
+|badgeColor=Transparent
+|costs1=20;100;10
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=ＨＰ
+|german=KP +
+|spanishEU=PV +
+|spanishLA=PV +
+|french=Confère PV +3.
+|italian=PS +
+|chineseTW=ＨＰ
+|portuguese=PV +
+}}
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}
+{{Passives Navbox|A}}
+[[Category:Plus Passives]]

@@ -1,0 +1,62 @@
+{{Passive
+|name=Lookout
+|type=C
+|exclusive=0
+|canUseWeapon={{WeaponList|Dagger}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Lookout 1
+|1tagid=SID_露払い1
+|1effect=Enables【Canto (１)】.<br><br>If unit's HP = 100%, when Canto triggers, enables unit to use【Distant Swap】on ally (this effect is not treated as an Assist skill; if similar effects are active, this effect does not trigger).<br><br>【Canto (１)】<br>After an attack, Assist skill, or structure destruction, unit can move １ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)<br><br>【Distant Swap】<br>Range = 2. Unit and target ally swap spaces.
+|1cost=60
+|1required=-
+|1promotionTier=1
+|1promotionRarity=4
+|2name=Lookout 2
+|2tagid=SID_露払い2
+|2effect=Enables【Canto (１)】.<br><br>If unit's HP ≥ 50%, when Canto triggers, enables unit to use【Distant Swap】on ally (this effect is not treated as an Assist skill; if similar effects are active, this effect does not trigger).<br><br>【Canto (１)】<br>After an attack, Assist skill, or structure destruction, unit can move １ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)<br><br>【Distant Swap】<br>Range = 2. Unit and target ally swap spaces.
+|2cost=120
+|2promotionTier=1
+|2promotionRarity=5
+|3name=Lookout 3
+|3tagid=SID_露払い3
+|3effect=Enables【Canto (１)】.<br><br>If unit's HP ≥ 25%, when Canto triggers, enables unit to use【Distant Swap】on ally (this effect is not treated as an Assist skill; if similar effects are active, this effect does not trigger).<br><br>【Canto (１)】<br>After an attack, Assist skill, or structure destruction, unit can move １ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)<br><br>【Distant Swap】<br>Range = 2. Unit and target ally swap spaces.
+|3cost=240
+|3next=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Canto|1}}
+|Me2={{Eft|Distant Swap}}
+|Me2T={{Tgt|Unit}} '''&'''<br>{{Tgt|Target Ally}} 
+|Me2C={{Tgt|Unit}}'s HP ≥ 25%<br>when [[Canto]] triggers
+}}
+
+==Notes==
+{{Canto|1}}
+{{Movement skill notes|notBeforeRokkr=1}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%Unit and%swap spaces%' OR Description LIKE '%not treated as an Assist skill%' OR Description LIKE '%【Canto%' AND Scategory='passivec' AND Description NOT LIKE '%【Canto (１)】%for 1 turn%') AND Exclusive='1'}}
+* [[Shadow Passives]]
+* [[Lookout Passives]]
+* [[Movement Assists]]
+{{Passives Navbox|C}}

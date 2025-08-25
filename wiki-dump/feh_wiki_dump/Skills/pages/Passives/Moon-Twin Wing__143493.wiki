@@ -1,0 +1,77 @@
+{{Passive
+|name=Moon-Twin Wing
+|type=B
+|exclusive=1
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|intID=2599
+|sort=549
+|value=8
+|timingID=1
+|abilityID=182
+|limit1ID=42
+|randomTimestamp=2021-07-08T07:00:00Z
+|randomMinLv=31
+|properties=random_owner
+|1name=Moon-Twin Wing
+|1tagid=SID_双姫の月翼
+|1effect=At start of combat, if unit's HP ≥ 25%, inflicts Atk/Spd-5 on foe during combat, and also, if unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 4 (max 40%).
+|1required=-
+|1next=-
+|2name=Moon-Twin Wing+
+|alt2name=Moon-Twin Wing Plus
+|2tagid=SID_双姫の月翼・神
+|2effect=If a skill compares unit's Spd to a foe's or ally's Spd, treats unit's Spd as if granted +7.<br><br>At start of combat, if unit's HP ≥ 25%, inflicts Atk/Spd/Def-5 on foe, unit deals damage = 10% of unit's Atk (excluding area-of-effect Specials), and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials), and also, if unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 5 (max 50%).
+|2cost=300
+|properties2=
+|1cost=300
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Moon-Twin Wing}} Moon-Twin Wing
+|s1 Ce1={{Eft|Temporary Debuffs|Atk/Spd|5}}
+|s1 Ce1T={{Tgt|Foe}}
+|s1 Ce1C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s1 Ce2={{Eft|Damage Reduction|4 x ({{Tgt|Unit}}'s Spd - {{Tgt|Foe)}}'s Spd)<br>from attacks & Non-Røkkr [[AoE Specials]]|percent=1|max=40%}}
+|s1 Ce2T={{Tgt|Unit}}
+|s1 Ce2C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' {{Tgt|Unit}}'s Spd ><br>{{Tgt|Foe)}}'s Spd
+|skill2={{Si|Moon-Twin Wing+}} Moon-Twin Wing+
+|s2 Ce1={{Eft|Phantom|Spd|7}}
+|s2 Ce2={{Eft|Temporary Debuffs|Atk/Spd/Def|5}}
+|s2 Ce3={{Eft|Reduce Damage Reduction|50%}}
+|s2 Ce2-3T={{Tgt|Foe}}
+|s2 Ce4={{Eft|Damage Boost|percent=1|20% of {{Tgt|Unit}}'s Spd}}
+|s2 Ce2-4C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s2 Ce5={{Eft|Damage Reduction|5 x ({{Tgt|Unit}}'s Spd - {{Tgt|Foe)}}'s Spd)<br>from attacks & Non-Røkkr [[AoE Specials]]|percent=1|max=50%}}
+|s2 Ce4-5T={{Tgt|Unit}}
+|s2 Ce5C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' {{Tgt|Unit}}'s Spd ><br>{{Tgt|Foe)}}'s Spd
+}}
+==Notes==
+{{Temporary debuffs}}
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+{{Phantom|Spd|name=Moon-Twin Wing+}}
+{{DamageBoost|name=Moon-Twin Wing+}}
+{{Reduce Damage Reduction|name=Moon-Twin Wing+}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=双姫の月翼
+|german=Mondflügel
+|spanishEU=Ala gemela lunar
+|spanishLA=Ala gemela lunar
+|french=Aile sœur-lunaire
+|italian=Ala lunare
+|chineseTW=雙姬的月翼
+|portuguese=Asa gêmea lua
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%if unit_s Spd > foe_s Spd%educes damage from%area-of-effect Specials%' AND Description NOT LIKE '%【Dodge】%') AND Exclusive='1'}}
+* [[Dodge Passives]]
+{{Passives Navbox|B}}

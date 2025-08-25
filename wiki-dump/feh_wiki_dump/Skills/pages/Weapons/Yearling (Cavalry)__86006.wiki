@@ -1,0 +1,36 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_若獣の化身・騎馬
+|weaponType=Beast
+|might=6
+|range=1
+|effect=At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack.
+|cost=100
+|exclusive=0
+|canUseMove=Cavalry
+|statModifiers=0,6,0,0,0
+|next=Adult (Cavalry)
+|promotionRarity=4
+|promotionTier=1
+|required=Whelp (Cavalry)
+|properties=random_all
+}}
+==Notes==
+{{Beast (Cavalry)}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=若獣の化身・騎馬
+|german=Jährling (Reiter)
+|spanishEU=Fiera joven veloz
+|spanishLA=Fiera joven veloz
+|french=Jeune (cavalerie)
+|italian=Giovane (fantino)
+|chineseTW=若獸化身・騎馬
+|portuguese=Jovem (caval.)
+}}
+==See also==
+{{See also skills|cond=Next LIKE 'Adult%'}}
+{{Weapons Navbox}}

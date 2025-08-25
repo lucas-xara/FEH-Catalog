@@ -1,0 +1,69 @@
+{{#invoke:NameAbout|main|Name=Navarre}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Navarre
+|Title=Scarlet Ninja
+|WeaponType=Blue Lance
+|MoveType=Infantry
+|Origin=Fire Emblem: Mystery of the Emblem
+|Gender=Male
+|actorEN=T. Axelrod
+|actorJP=子安武人
+|artist=argon
+|additionDate=November 5, 2020
+|releaseDate=November 6, 2020
+|cv1=1
+|cv2=4900100
+|TagID=忍者ナバール
+|InternalID=585
+|Properties=special,specRate_202402
+|description=A master swordsman known as the Scarlet Sword. He's dressed as a ninja to join in on the festival! Appears in Fire Emblem: Mystery of the Emblem.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=9|Lv1SPD=12|Lv1DEF=7|Lv1RES=6
+|GRHP=50|GRATK=70|GRSPD=70|GRDEF=55|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Ninja Yari
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Ninja Yari+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Moonbow
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Flashing Blade 1
+|passiveA2=Flashing Blade 2
+|passiveA3=Flashing Blade 3
+|passiveA4=Flashing Blade 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Lull Spd/Def 1
+|passiveB2=Lull Spd/Def 2
+|passiveB3=Lull Spd/Def 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Ninja Festival units]]

@@ -1,0 +1,81 @@
+{{Weapon Infobox
+|tagid=SID_フリズスキャルヴ
+|weaponType=Staff
+|might=14
+|range=2
+|effect=Foe cannot counterattack. After combat, if unit attacked, inflicts Atk/Spd/Def/Res-4 on target and foes within 2 spaces of target through their next actions, and grants Atk/Spd/Def/Res+4 to unit and allies within 2 spaces for 1 turn.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,0,0,0
+|required=Assault
+|userVersion1=Weapon
+|userVersion2=Gleam
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=Grants Atk/Spd+3 to allies within 3 spaces during combat. Inflicts Def/Res-3 on any foe within 3 spaces of unit during combat.
+|iconSkill1=Hlidskjalf W.png
+|tagidExtraSkill1=紋
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe=[[File:Attack Plus W.png|x26px|class=inline-icon]] Atk+3
+|s1 Se1={{Eft|Penalties|Atk/Spd/Def/Res|4}}
+|s1 SeT1={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|s1 Se2={{Eft|Bonuses|Atk/Spd/Def/Res|4}}
+|s1 SeT2={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|s1 SeC=After combat if<br>{{Tgt|Unit}} attacked 
+|s1 Ce={{Eft|Prevent Counter}}
+|s1 CeT={{Tgt|Foe}}
+|skill2={{Si|Hliðskjálf|refine=Skill1}} Skill refine effects
+|s2 Ce1={{Eft|Temporary Buffs|Atk/Spd|3}}
+|s2 Ce2={{Eft|Temporary Debuffs|Def/Res|3}}
+|s2 CeT1={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 3 spaces]]
+|s2 CeT2={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 3 spaces]]
+}}
+==Notes==
+* Has the same effect as {{St|Dazzling Staff 3}}.
+{{Prevent counterattacks}}
+{{IfUnitAttacked}}
+{{Penalties}}
+{{Bonuses}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary buffs}}
+{{AlliesCombatEffect|effect=temporary buffs}}
+{{Temporary debuffs}}
+{{FoesCombatEffect|effect=temporary debuffs}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+v2.8_58_popularity03_Rod.png|Sprite for {{PAGENAME}}'s animation.
+</gallery>
+
+==Trivia==
+{{Rsn|紋章牽制R3|Goad Atk/Spd R 3}}
+** Hliðskjálf is the first {{Wtt|Colorless Staff}} to get it's own personal refine skill.
+{{NorseMyth|is the high seat of the god Odin allowing him to see into all realms. In other words, it is Odin's throne.}}
+** In the context of {{FE|H}} this corresponds with {{Wt|Valaskjálf}}, the tome used by {{Ht|???: Masked Knight}}, which is named after Odin's throne room.
+** {{Ut|Veronica: Brave Princess}} may be referencing her weapon's namesake in one of her castle quotes, where she comments on the distance she can see from atop her horse.<ref>{{RefQuote|From the back of a horse, you can see far into the distance... Do you want to ride with me?|{{Ut|Veronica: Brave Princess}}}}</ref>
+
+==In other languages==
+{{OtherLanguages
+|japanese=フリズスキャルヴ
+|german=Hliðskjálf
+|spanishEU=Hliðskjálf
+|spanishLA=Hliðskjálf
+|french=Hliðskjálf
+|italian=Hliðskjálf
+|chineseTW=至高王座之杖
+|portuguese=Hliðskjálf
+}}
+==References==
+<references/>
+==See also==
+* [[Peshkatz]]
+{{Weapons Navbox}}

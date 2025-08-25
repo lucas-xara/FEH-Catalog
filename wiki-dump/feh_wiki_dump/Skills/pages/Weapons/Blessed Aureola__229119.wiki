@@ -1,0 +1,81 @@
+{{Weapon Infobox
+|tagid=SID_八神アーリアル
+|intID=4548
+|userVersion1=Closed
+|userVersion2=Open
+|exclusive=1
+|weaponType=Blue Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effectiveness=Magic
+|effect=Accelerates Special trigger (cooldown count-1).<br>Effective against magic foes.<br><br>For allies within 3 rows or 3 columns centered on unit, grants Atk/Def/Res+5 during combat, and also, if ally's attack can trigger ally's Special, grants Special cooldown count-1 to ally before their first attack during combat, and also, if ally cannot perform a follow-up attack and attack twice, grants Special cooldown count-1 to ally before their first attack during combat.<br><br>If there is an ally within 3 rows or 3 columns centered on unit, grants bonus to unit's Atk/Def/Res = 20% of unit's Res at start of combat + 5, deals damage = 20% of unit's Res (excluding area-of-effect Specials), reduces damage from foe's attacks by 20% of unit's Res (excluding area-of-effect Specials), and grants Special cooldown count-1 to unit before unit's first attack during combat.<br><br>If there is an ally within 3 rows or 3 columns centered on unit and foe uses magic, grants Atk+10 to unit during combat, and also, if foe initiates combat, unit can counterattack before foe's first attack.
+|required=Thoron;Shine
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Ce1={{Eft|Effectiveness|{{Cwti|group=1|Magic}} [[Magic]]}}
+|Ce2={{Eft|Temporary buffs|Atk/Def/Res|5}}
+|Ce3={{Eft|Reduce Cooldown|(2 if {{Tgt|Ally}} can't<br>[[follow-up]] '''&''' [[attack twice]];<br>else 1)}} before<br>{{Tgt|Ally}}'s first attack
+|Ce2-3T={{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|Ce3C={{Tgt|Ally}} has an<br>[[offensive Special]]
+|Ce4={{Eft|Temporary buffs|Atk/Def/Res|20% of {{Tgt|Unit}}'s Res<br>at start of combat, +5}}
+|Ce5={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Res}}
+|Ce6={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Res}}<br>from {{Tgt|Foe}}'s attacks
+|Ce7={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Unit}}'s first attack
+|Ce4-7C=An {{Tgt|Ally}} is within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|Ce8={{Eft|Temporary buffs|Atk|10}}
+|Ce8C=An {{Tgt|Ally}} is within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}} '''&'''<br>{{Tgt|Foe}} uses {{Cwti|group=1|Magic}} [[Magic]]
+|Ce9={{Eft|Vantage}}
+|Ce4-9T={{Tgt|Unit}}
+|Ce9C=Enemy Phase '''&'''<br>{{Eft|Temporary buffs|Atk|10}} conditions
+}}
+
+==Notes==
+{{Effective damage bonus|magic}}
+{{Temporary buffs}}
+{{CombatCooldownCount|-1}}
+{{AlliesCombatEffect|temporary buffs and -1 special cooldown count effects}}
+{{At start of combat}}
+{{DamageBoost}}
+{{FlatDamageReduction}}
+{{Preempt}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Athos: Omniscient One|t=Bramimond: The Enigma
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V9.1_v0901c_legend_Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=WikiName LIKE '%aureola%' OR Description LIKE '%counterattack before foe_s first attack%' AND Exclusive='1'}}
+{{Weapons Navbox}}

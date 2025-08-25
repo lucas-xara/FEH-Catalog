@@ -1,0 +1,35 @@
+{{Weapon Infobox
+|tagid=SID_エルウインド
+|weaponType=Green Tome
+|might=6
+|range=2
+|effect=
+|cost=100
+|exclusive=0
+|userVersion1=Closed|userVersion2=Open|statModifiers=0,6,0,0,0
+|next=Rexcalibur
+|promotionRarity=4
+|promotionTier=1
+|required=Wind
+|SE=se_effect_elwind.flac
+|properties=random_all
+}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=エルウインド
+|german=Elfenwind
+|spanishEU=Elwind
+|spanishLA=Elwind
+|french=Tempête
+|italian=Vento d'elfo
+|chineseTW=狂風
+|portuguese=Elwind
+}}
+==See also==
+* [[Steel Weapons]]
+{{Weapons Navbox}}
+[[Category:Steel weapons]]

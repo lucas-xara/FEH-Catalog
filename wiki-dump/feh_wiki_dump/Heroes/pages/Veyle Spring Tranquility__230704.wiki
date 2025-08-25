@@ -1,0 +1,72 @@
+{{#invoke:NameAbout|main|Name=Veyle}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Veyle
+|Title=Spring Tranquility
+|WeaponType=Red Tome
+|MoveType=Cavalry
+|Origin=Fire Emblem Engage
+|Gender=Female
+|actorEN=Megan Taylor Harvey
+|actorJP=上田麗奈
+|artist=いちかわはる
+|additionDate=March 6, 2025
+|releaseDate=March 7, 2025
+|cv1=14
+|cv2=900200
+|TagID=春祭ヴェイル
+|InternalID=1217
+|Properties=special
+|description=A dragon with a heart as warm as springtime. Her friends picked out her outfit for the festival. Appears in Fire Emblem Engage.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=9|Lv1SPD=6|Lv1DEF=3|Lv1RES=13
+|GRHP=50|GRATK=90|GRSPD=50|GRDEF=30|GRRES=80
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elfire
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Bolganone
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Gentle Fell Egg
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Iceberg
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Still Water 1
+|passiveA2=Still Water 2
+|passiveA3=Still Water 3
+|passiveA4=Crystalline Water
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=A/R Far Trace 1
+|passiveB2=A/R Far Trace 2
+|passiveB3=A/R Far Trace 3
+|passiveB4=A/R Far Resound
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Fell Majesty
+|passiveC1Unlock=5
+}}
+{{Heroes Navbox}}

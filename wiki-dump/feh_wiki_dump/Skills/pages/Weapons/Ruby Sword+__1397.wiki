@@ -1,0 +1,34 @@
+{{Weapon Infobox
+|tagid=SID_旭日の剣＋
+|weaponType=Sword
+|might=12
+|range=1
+|effect=If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%.
+|cost=300
+|exclusive=0
+|statModifiers=0,12,0,0,0
+|required=Ruby Sword
+|properties=random_all
+}}
+==Notes==
+* Has the same effect as {{St|Triangle Adept 3}}.
+{{WTA boost}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=旭日の剣＋
+|german=Rubinschwert+
+|spanishEU=Espada rubí +
+|spanishLA=Espada rubí +
+|french=Épée rubis +
+|italian=Spada rubino+
+|chineseTW=旭日之劍＋
+|portuguese=Espada de rubi+
+}}
+==See also==
+* [[Fólkvangr]]
+* [[Trilemma]]([[Trilemma+|+]])
+* [[Gem Weapons]]
+{{Weapons Navbox}}
+[[Category:Gem weapons]]

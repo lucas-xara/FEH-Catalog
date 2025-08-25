@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Minerva}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Minerva
+|Title=Verdant Dragoon
+|WeaponType=Blue Lance
+|MoveType=Cavalry
+|Origin=Fire Emblem: Mystery of the Emblem
+|Gender=Female
+|actorEN=Cindy Robinson
+|actorJP=佐倉綾音
+|artist=まよ
+|additionDate=March 17, 2021
+|releaseDate=March 17, 2021
+|cv1=1
+|cv2=400200
+|TagID=春祭ミネルバ
+|InternalID=639
+|Properties=special
+|description=Eldest princess of Macedon. She is donning seasonal garb while attending the spring festival. Appears in Fire Emblem: Mystery of the Emblem.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=8|Lv1SPD=8|Lv1DEF=9|Lv1RES=5
+|GRHP=50|GRATK=65|GRSPD=70|GRDEF=60|GRRES=30
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Springy Lance
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Springy Lance+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=4
+|special1Unlock=3
+|special2=Bonfire
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Def Solo 1
+|passiveA2=Atk/Def Solo 2
+|passiveA3=Atk/Def Solo 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Odd Atk Wave 1
+|passiveC2=Odd Atk Wave 2
+|passiveC3=Odd Atk Wave 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Spring Festival units]]

@@ -1,0 +1,35 @@
+{{Weapon Infobox
+|tagid=SID_戦神の勇斧
+|intID=3547
+|image=wep_ax128
+|exclusive=1
+|weaponType=Axe
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of combat, if unit's HP ≥ 25%, inflicts Atk/Def-6 on foe during combat, inflicts Special cooldown charge -1 on foe per attack (only highest value applied; does not stack), and reduces damage from attacks during combat by 30% (excluding area-of-effect Specials), and also, if unit is within 3 spaces of an ally, inflicts penalty on foe's Atk during combat = 12 - foe's max Special cooldown count value × 2 (min 4; if foe does not have a Special skill, penalty = 4).
+|statModifiers=0,16,0,0,0
+|required=Silver Axe
+|properties=
+}}
+==Notes==
+{{Temporary debuffs}}
+{{CooldownChargeMinus}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=戦神の勇斧
+|german=Tapfere Kriegsaxt
+|spanishEU=Hacha bél. audaz
+|spanishLA=Hacha bél. audaz
+|french=Esprit belliqueux
+|italian=Eroe di guerra
+|chineseTW=戰神的勇斧
+|portuguese=Machado valente
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%inflicts Atk/Def%-%special cooldown charge -1 per attack%' AND Description NOT LIKE '%【Guard】%' OR Description LIKE '%inflicts Atk/Def%-%reduces damage%') AND Exclusive='1' OR Description LIKE '%=%foe_s max special cooldown count%'}}
+{{Weapons Navbox}}

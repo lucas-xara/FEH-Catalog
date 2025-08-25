@@ -1,0 +1,54 @@
+{{Special
+|tagid=SID_大いなる癒しの手
+|intID=4782
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=3
+|effect=When Special triggers, boosts damage by 60% of unit's Res and neutralizes foe's "reduces damage by X%" effects from foe's non-Special skills.<br><br>If unit's or foe's Special is ready, or unit's or foe's Special triggered before or during this combat, reduces damage from foe's next attack by 40% (once per combat; excluding area-of-effect Specials).<br><br>If a Rally or movement Assist skill is used by unit, restores 20 HP to allies within 2 spaces of both unit and target ally after movement (including target ally; excluding unit), and neutralizes any【Penalty】on those allies (does not stack even if effect ranges of unit and target overlap), and grants another action to unit (additional action granted once per turn only; if another effect that grants additional action to unit has been triggered at the same time, this effect is also considered to have been triggered).<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|required=Sol
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se=Removes {{Kp|Penalty}} effects
+|SeT={{Tgt|Target Ally}}<br>'''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]<br>of {{Tgt|Unit}} &<br>{{Tgt|Target Ally}}
+|SeC=[[Rally Assist|Rally]] or [[Movement Assist|Movement]]<br>Assist is used by<br>{{Tgt|Unit}}
+|Me1={{Eft|Heal|20}}
+|Me1T={{Tgt|Target Ally}}<br>'''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]<br>of {{Tgt|Unit}} &<br>{{Tgt|Target Ally}}
+|Me2={{Eft|Another Action}}<br>(once per turn)
+|MeC=[[Rally Assist|Rally]] or [[Movement Assist|Movement]]<br>Assist is used by<br>{{Tgt|Unit}}
+|Ce1={{Eft|Damage Boost|60% of {{Tgt|Unit}}'s Res}}
+|Ce2={{Eft|Neutralize Damage Reduction}}
+|Ce2T={{Tgt|Foe}}
+|Ce1-2C=Special triggers
+|Ce3={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s next attack
+|Ce3C={{Tgt|Unit}} or {{Tgt|Foe}}'s<br>Special is ready '''or'''<br>triggered before or<br>during combat 
+}}
+
+==Notes==
+{{DamageBoost}}
+{{DamageReductionNeutralization}}
+{{DamagePercentageReduction}}
+{{Penalty neutralization|negstatuses=all {{Kp|Penalty}} effects}}
+{{Galeforce notes|special=0}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Scategory='special' AND Description LIKE '%boosts damage%of unit_s Res%' OR (Description LIKE '%if a Rally%skill%' OR Description LIKE '%if a%movement assist skill%') AND Description LIKE '%assist%restores%HP%allies%') AND Exclusive='1'}}
+{{Specials Navbox}}

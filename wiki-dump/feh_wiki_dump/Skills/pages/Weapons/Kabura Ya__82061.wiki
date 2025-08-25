@@ -1,0 +1,40 @@
+{{Weapon Infobox
+|tagid=SID_鏑矢
+|weaponType=Bow
+|weaponName=Kabura Ya
+|might=8
+|range=2
+|effectiveness=flying
+|effect=Effective against flying foes. At start of turn, inflicts Spd-7 on foe on the enemy team with the highest Spd through its next action.
+|cost=200
+|exclusive=0
+|userVersion1=Bow
+|userVersion2=Arrow
+|statModifiers=0,8,0,0,0
+|next=Kabura Ya+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Bow
+|properties=
+}}
+==Notes==
+* Has the same effect as {{St|Chill Spd 3}}.
+{{Effective damage bonus|flying}}
+{{Penalties}}
+{{SelectStat}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=鏑矢
+|german=Kabura Ya
+|spanishEU=Kabura Ya
+|spanishLA=Kabura Ya
+|french=Kabura Ya
+|italian=Kabura Ya
+|chineseTW=鳴鏑
+|portuguese=Kabura Ya
+}}
+==See also==
+* [[Chill Passives]]
+{{Weapons Navbox}}

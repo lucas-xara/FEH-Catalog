@@ -1,0 +1,46 @@
+{{Weapon Infobox
+|tagid=SID_姫騎士の槍
+|weaponType=Lance
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).
+|cost=400
+|exclusive=1
+|userVersion1=Weapon
+|userVersion2=Gleam
+|statModifiers=0,16,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If unit is within 2 spaces of support partner, grants Atk/Spd/Def/Res+3 to unit and to that ally during combat.
+|iconSkill1=Ally Support Joint Bonuses W.png
+|tagidExtraSkill1=支
+|properties=
+}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary buffs}}
+{{SupportPartner|effect=temporary buffs to unit and support partner}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|支援相互強化R3|Ally Support Joint Bonuses R3}}
+==In other languages==
+{{OtherLanguages
+|english=Knightly Lance
+|japanese=姫騎士の槍
+|german=Ritterliche Lanze
+|spanishEU=Lanza eminente
+|spanishLA=Lanza eminente
+|french=Lance héroïque
+|italian=Lancia eroica
+|chineseTW=公主騎士之槍
+|portuguese=Lança impávida
+}}
+==See also==
+* [[Lordly Lance]]
+{{Weapons Navbox}}

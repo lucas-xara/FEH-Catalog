@@ -1,0 +1,48 @@
+{{Weapon Infobox
+|tagid=SID_冷笑の遊弓
+|intID=3317
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=1
+|weaponType=Bow
+|cost=400
+|might=14
+|range=2
+|effectiveness=Flying
+|effect=Effective against flying foes. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+5 to unit during combat and unit deals +7 damage.
+|statModifiers=0,14,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|tagidExtraSkill1=一
+|effectSkill1=If unit initiates combat or is within 2 spaces of an ally, inflicts Spd/Def-5 on foe during combat and inflicts penalty on foe's Spd/Def during combat = current bonus on each of foe's stats × 2. (Example: if foe has +7 bonus to Spd, inflicts Spd-19, for a net penalty of Spd-12.) Calculates each stat penalty independently.
+|iconSkill1=Snide Bow W.png
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{Temporary buffs}}
+{{FixedDamage|7}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfUnitInitiates}}
+{{TemporaryDebufffromBonus|source=the foe}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=冷笑の遊弓
+|german=Sarkasmusbogen
+|spanishEU=Arco sarcástico
+|spanishLA=Arco sarcástico
+|french=Arc narquois
+|italian=Arco beffardo
+|chineseTW=冷笑的遊弓
+|portuguese=Arco sarcástico
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%penalty on foe_s%current bonus on each of foe_s stats × 2%'}}
+{{Weapons Navbox}}

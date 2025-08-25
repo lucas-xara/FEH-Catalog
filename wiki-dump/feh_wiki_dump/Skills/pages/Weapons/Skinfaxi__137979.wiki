@@ -1,0 +1,87 @@
+{{Weapon Infobox
+|tagid=SID_スキンファクシ
+|weaponName=Skinfaxi
+|image=wep_ax083
+|weaponType=Axe
+|might=16
+|range=1
+|effect=Grants Spd+3 and【Pathfinder】. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 and bonus to Atk/Spd/Def/Res during combat = current penalty on each of those stats × 2. (Example: if unit has -7 penalty to Atk, grants Atk+19, for a net bonus of Atk+12.) Calculates each stat bonus independently.<br><br>【Pathfinder】<br>When an ally moves through unit's space, that space is counted as 0 spaces moved instead of 1 space. (Unit's space can be freely added to ally's normal movement. Applies only to allies with movement types that allow movement through unit's space.)
+|cost=400
+|exclusive=1
+|statModifiers=0,16,3,0,0
+|required=Silver Axe
+|intID=2448
+|sort=505
+|value=20
+|timingID=1
+|abilityID=212
+|limit1ID=42
+|randomTimestamp=2021-03-16T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Spd+3 and【Pathfinder】. At start of turn, grants【Pathfinder】to unit's support partner for 1 turn (if more than one support partner is present, effect is not granted). At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 and bonus to Atk/Spd/Def/Res during combat = current penalty on each of those stats × 2 (example: if unit has -7 penalty to Atk, grants Atk+19, for a net bonus of Atk+12; calculates each stat bonus independently).<br><br>【Pathfinder】<br>When an ally moves through unit's space, that space is counted as 0 spaces moved instead of 1 space. (Unit's space can be freely added to ally's normal movement. Applies only to allies with movement types that allow movement through unit's space.)
+|refineStatsSkill1=3,0,0,0,0
+|effectSkill1=If unit initiates combat or is within 2 spaces of an ally, inflicts Atk/Spd/Def-4 on foe, inflicts penalty on foe's Atk/Spd/Def during combat = current bonus on each of foe's stats × 2 (calculates each stat penalty independently; example: if foe has +7 bonus to Atk, inflicts Atk-18, for a net penalty of Atk-11), deals damage = 10% of unit's Atk (excluding area-of-effect Specials), and reduces damage from foe's first attack by 40% during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes).
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Spd|3}}
+|s1 Me={{Eft|Pathfinder}}
+|s1 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s1 Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|2 x {{SEt|penalties}} on<br>each of {{Tgt|Unit}}'s stats}}
+|s1 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Spd|3}}
+|s2 Me={{Eft|Pathfinder}}
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s2 Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|2 x {{SEt|penalties}} on<br>each of {{Tgt|Unit}}'s stats}}
+|s2 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s2 Se={{SEt|Pathfinder}}
+|s2 SeT={{Tgt|Partner}}
+|s2 SeC=At start of turn<br>if 1 {{Tgt|Partner}}<br>is deployed
+|skill3={{Si|Skinfaxi|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary Debuffs|Atk/Spd/Def|4}}
+|s3 Ce2={{Eft|Temporary Debuffs|Atk/Spd/Def|2 x {{SEt|bonuses}} on<br>each of {{Tgt|Foe}}'s stats}}
+|s3 Ce1-2T={{Tgt|Foe}}
+|s3 Ce3={{Eft|Damage Boost|10% of {{Tgt|Unit}}'s Atk}}
+|s3 Ce4={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|s3 Ce3-4T={{Tgt|Unit}}
+|s3 CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+==Notes==
+{{Pathfinder}}
+{{TemporaryBufffromPenalty|source=the unit|ptySource=the unit}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Pathfinder|statusEffect=1|name=Refined Skinfaxi}}
+{{SupportPartner|effect={{SEt|Pathfinder}} to support partner|name=Refined Skinfaxi}}
+{{TemporaryDebufffromBonus|source=the foe|name={{St|Skinfaxi|refine=Skill1}}}}
+{{DamageBoost|name={{St|Skinfaxi|refine=Skill1}}}}
+{{DamagePercentageReduction}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=スキンファクシ
+|german=Skinfaxi
+|spanishEU=Skinfaxi
+|spanishLA=Skinfaxi
+|french=Skinfaxi
+|italian=Skinfaxi
+|chineseTW=斯基法克西
+|portuguese=Skinfaxi
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%bonus to Atk/Spd/Def/Res during combat%current%' AND Description NOT LIKE '%bonus doubler%' AND Description NOT LIKE '%Grants allies%bonus to%' OR Description LIKE '%current penalty on each of those stats × 2%' OR Description LIKE '%inflicts penalty%current bonus on each of foe_s stats _ 2%') AND Exclusive='1' AND Name NOT LIKE '%reversal%'}}
+* [[Skill families/A Passives#Unity|Unity Passives]]
+* [[Skill families/Weapons#Reversal|Reversal Weapons]]
+{{Weapons Navbox}}

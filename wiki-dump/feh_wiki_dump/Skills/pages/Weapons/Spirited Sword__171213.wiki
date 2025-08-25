@@ -1,0 +1,38 @@
+{{Weapon Infobox
+|tagid=SID_士気旺盛の剣
+|intID=3035
+|image=wep_sw130
+|exclusive=0
+|weaponType=Sword
+|cost=200
+|might=10
+|range=1
+|effect=If【Bonus】is active on unit, grants Atk/Def+4 and Special cooldown charge +1 per foe's attack during combat. (Only highest value applied. Does not stack. Special cooldown charge granted even if foe's attack deals 0 damage.)<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|statModifiers=0,10,0,0,0
+|required=Steel Sword
+|next=Spirited Sword+
+|promotionRarity=5
+|promotionTier=1
+|properties=random_owner
+}}
+==Notes==
+{{EffectfromBonusKeyword|target=unit|combat boosts and cooldown charge}}
+{{Combat boosts}}
+{{CooldownChargePlus|perAttack=foe}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=士気旺盛の剣
+|german=Kampfgeistklinge
+|spanishEU=Espada vivaz
+|spanishLA=Espada vivaz
+|french=Épée vivace
+|italian=Spada animata
+|chineseTW=士氣旺盛之劍
+|portuguese=Espada vigorosa
+}}
+==See also==
+ {{See also skills|cond=(Description LIKE '%Special cooldown charge +1 per foe_s attack during combat%Special cooldown charge granted even if foe_s attack deals 0 damage%' OR Description LIKE '%if%bonus%active on unit%grants Atk/Def+%during combat%') AND WikiName NOT LIKE '%Spirited%'|columns=3}}
+* [[Skill families#Spirited|Spirited Weapons]]
+{{Weapons Navbox}}

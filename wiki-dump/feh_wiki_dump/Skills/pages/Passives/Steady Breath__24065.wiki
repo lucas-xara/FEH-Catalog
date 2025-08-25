@@ -1,0 +1,54 @@
+{{Passive
+|type=A
+|exclusive=0
+|1name=Steady Breath
+|1tagid=SID_金剛の呼吸
+|1effect=If foe initiates combat, grants Def+4 during combat and Special cooldown charge +1 per attack. (Only highest value applied. Does not stack.)
+|1cost=240
+|1required=Steady Stance 2
+|canUseWeapon={{WeaponList|Close}}
+|canUseMove=Infantry,Armored
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{SkillEffectText|Temporary buffs|Def|4}}
+|CombatEffect 2={{SkillEffectText|Accelerate Charge}}
+|CombatEffect Conditions=Enemy Phase
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+{{CooldownChargePlus}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Steady Breath
+|badgeColor=Verdant
+|costs1=20;100;40
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=金剛の呼吸
+|german=Fester Atem
+|spanishEU=Aliento firme
+|spanishLA=Soplo firme
+|french=Souffle stable
+|italian=Soffio deciso
+|chineseTW=金剛呼吸
+|portuguese=Sopro firme
+}}
+==See also==
+* [[Stance Passives]]
+* [[Defense Passives]]
+* [[Blade Passives]]
+{{Seals Navbox}}
+{{Passives Navbox|A}}

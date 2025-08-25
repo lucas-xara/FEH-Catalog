@@ -1,0 +1,45 @@
+{{Weapon Infobox
+|tagid=SID_翼槍ヴィドフニル
+|weaponType=Lance
+|might=16
+|range=1
+|effect=If foe initiates combat and uses sword, lance, or axe, grants Def+7 during combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Heavy Spear
+|userVersion1=Weapon
+|userVersion2=Gleam
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=If foe initiates combat and uses sword, lance, axe, dragonstone, or beast damage, grants Def/Res+7 during combat.
+|effectSkill1=If unit is within 2 spaces of an infantry or armored ally, grants Atk/Spd+4 during combat.
+|iconSkill1=Vidofnir W.png
+|tagidExtraSkill1=絆
+|properties=random_owner
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Combat boosts}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|攻撃速さの絆R歩重|Atk/Spd Bond Infantry/Armor}}
+==In other languages==
+{{OtherLanguages
+|japanese=ヴィドフニル
+|german=Vidofnir
+|spanishEU=Vidofnir
+|spanishLA=Vidofnir
+|french=Vidofnir
+|italian=Vidofnir
+|chineseTW=維德佛爾尼爾
+|portuguese=Vidofnir
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe initiates combat% Def/Res+%during combat%' AND WikiName NOT LIKE '%serpent%' AND WikiName NOT LIKE '%guard bow%' AND Exclusive='1'}}
+{{Weapons Navbox}}

@@ -1,0 +1,53 @@
+{{Weapon Infobox
+|tagid=SID_魔書ギムレー
+|weaponType=Red Tome
+|might=14
+|range=2
+|effect=Grants Def+3. After combat, if unit attacked, inflicts Atk/Spd-5 on target and foes within 2 spaces of target through their next actions, and grants Atk/Spd+5 to unit and allies within 2 spaces for 1 turn.
+|cost=400
+|exclusive=1
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|statModifiers=0,14,0,3,0
+|required=Fenrir
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Def+3. At start of turn, inflicts Atk/Spd/Res-5 on nearest foes within 4 spaces through their next actions and grants Atk/Spd/Res+5 to unit for 1 turn.
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, inflicts penalty on foe's Atk/Spd/Def/Res during combat = 4 + any current penalty on each of those stats. (Example: if foe has -7 penalty to Atk, inflicts Atk-11, for a net penalty of Atk-18 during combat.) Calculates each stat bonus independently.
+|iconSkill1=Weakness Amplification W.png
+|tagidExtraSkill1=弱
+|SE=se_effect_gimle.flac
+|properties=random_owner
+}}
+==Notes==
+{{IfUnitAttacked}}
+{{Bonuses}}
+{{Penalties}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{CombatReductionfromPenalty}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=魔書ギムレー
+|german=Grimas Wahrheit
+|spanishEU=La Verdad
+|spanishLA=La Verdad
+|french=Œil de Grima
+|italian=Verbo di Grima
+|chineseTW=魔書津利
+|portuguese=Olho de Grima
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%if unit attacked%inflicts%/%-%on target and foes%grants%/%+%to unit and allies%' OR Description LIKE '%if unit attacked%grants%/%+%to unit and allies%inflicts%/%-%on target and foes%' OR Description LIKE '%at start of turn%within _ spaces%inflicts%/%/%-%foe%grants%/%/%+%to unit%' OR Description LIKE '%inflicts penalty on foe_s%/%any current penalty on each of those stats%' AND WikiName NOT LIKE '%vulture%'|columns=3}}
+* [[Menace Passives]]
+* [[Skill families#Vulture|Vulture Weapons]]
+{{Weapons Navbox}}

@@ -1,0 +1,80 @@
+{{#invoke:NameAbout|main|Name=Merric}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Merric
+|Title=Changing Winds
+|WeaponType=Green Tome
+|Origin=Fire Emblem: Mystery of the Emblem
+|Gender=Male
+|MoveType=Infantry
+|actorJP=長妻樹里
+|actorEN=Yuri Lowenthal
+|artist=まよ
+|additionDate=April 20, 2020
+|releaseDate=April 20, 2020
+|TagID=幼少マリク
+|InternalID=510
+|Properties=special,hat,specRate_202402
+|cv1=1
+|cv2=500100
+|description=Born to Altean nobility, he grew up alongside Elice and Marth as if they were family. Appears in Fire Emblem: Mystery of the Emblem.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=8|Lv1SPD=11|Lv1DEF=6|Lv1RES=3
+|GRHP=50|GRATK=60|GRSPD=70|GRDEF=35|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Wind
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elwind
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Rexcalibur
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Winds of Change
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+}}
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Glimmer
+|special2Default=
+|special2Unlock=4
+|special3=Righteous Wind
+|special3Default=
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Darting Blow 1
+|passiveA2=Swift Sparrow 1
+|passiveA3=Swift Sparrow 2
+|passiveA4=Swift Sparrow 3
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Windsweep 1
+|passiveB2=Windsweep 2
+|passiveB3=Windsweep 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Distant Guard 1
+|passiveC2=Distant Guard 2
+|passiveC3=Distant Guard 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Childhood units]]

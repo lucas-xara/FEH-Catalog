@@ -1,0 +1,69 @@
+{{SkillPage Tabs}}{{Passive
+|type=C
+|exclusive=0
+|seal=
+|1name=Distant Guard 1
+|1tagid=SID_遠距離警戒1
+|1promotionRarity=4
+|1promotionTier=1
+|1effect=Allies within 2 spaces gain: "If foe uses bow, dagger, magic, or staff, grants Def/Res+2 during combat."
+|1required=-
+|1cost=60
+|2name=Distant Guard 2
+|2tagid=SID_遠距離警戒2
+|2promotionRarity=5
+|2promotionTier=1
+|2effect=Allies within 2 spaces gain: "If foe uses bow, dagger, magic, or staff, grants Def/Res+3 during combat."
+|2cost=120
+|3name=Distant Guard 3
+|3tagid=SID_遠距離警戒3
+|3effect=Allies within 2 spaces gain: "If foe uses bow, dagger, magic, or staff, grants Def/Res+4 during combat."
+|3cost=240
+|canUseWeapon={{WeaponList|all}}
+|canUseMove={{MoveList|all}}
+|properties=random_owner,random_inherit_base
+}}
+==Notes==
+{{Combat boosts}}
+{{AlliesCombatEffect|effect=combat boost}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Distant Guard 1;Distant Guard 2;Distant Guard 3
+|badgeColor=Azure
+|costs1=20;100;40
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=遠距離警戒
+|german=Fernschutz
+|spanishEU=Guardia lejana
+|spanishLA=Guardia lejana
+|french=Garde distante
+|italian=Guardia dist.
+|chineseTW=遠距離警戒
+|portuguese=Guarda dist.
+}}
+
+==See also==
+* [[Distant Def]]
+* [[Close Def]]
+* [[Close Guard]]
+* [[Joint Dist. Guard]]
+* [[Infantry Rush]]
+* [[Drive Passives]]
+{{Seals Navbox}}
+{{Passives Navbox|C}}

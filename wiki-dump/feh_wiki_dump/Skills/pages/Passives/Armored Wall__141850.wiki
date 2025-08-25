@@ -1,0 +1,45 @@
+{{Passive
+|name=Armored Wall
+|type=B
+|exclusive=1
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|intID=2557
+|sort=542
+|value=8
+|timingID=15
+|abilityID=283
+|limit1ID=42
+|randomTimestamp=2021-06-07T07:00:00Z
+|randomMinLv=31
+|properties=random_owner
+|1name=Armored Wall
+|1tagid=SID_覇鎧障壁
+|1effect=At start of combat, if unit's HP ≥ 25%, grants Special cooldown charge +1 to unit, inflicts Special cooldown charge -1 on foe per attack during combat (only highest value applied; does not stack), and restores 7 HP to unit after combat.<br><br>During unit's first combat in player phase or enemy phase, at start of combat, if unit's HP ≥ 25% while transformed, reduces damage from foe's first attack by 40%.
+|1required=-
+|1cost=300
+}}
+==Notes==
+*The HP threshold applies both to the Special [[Cooldown|cooldown charge]] -1 inflicted on foe '''and''' the Special [[Cooldown|cooldown charge]] +1 granted on unit.
+**The HP threshold is checked at start of combat, and the skill either applies throughout the entire combat, or not at all.
+{{CooldownChargePlus}}
+{{CooldownChargeMinus}}
+{{After combat healing}}
+{{FirstCombat}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=覇鎧障壁
+|german=Befestigte Mauer
+|spanishEU=Barrera reforzada
+|spanishLA=Barrera reforzada
+|french=Mur renforcé
+|italian=Barriera corazzata
+|chineseTW=霸鎧防護障壁
+|portuguese=Barreira blindada
+}}
+==See also==
+{{See also skills|cond=((Description LIKE '%estores%HP after combat%' OR Description LIKE '%estores%HP to unit after combat%') AND NOT (Exclusive='0' OR Name LIKE '%+')) OR Description LIKE '%During unit_s first combat in player phase%enemy phase%reduces damage from foe_s first attack by%' OR Description LIKE '%grants special%cooldown charge%+1 to unit%inflicts Special cooldown charge -1%' OR Description LIKE '%inflicts Special cooldown charge -1%grants special%cooldown charge%+1 to unit%'}}
+{{Passives Navbox|B}}

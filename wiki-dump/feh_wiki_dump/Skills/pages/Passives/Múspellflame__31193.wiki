@@ -1,0 +1,50 @@
+{{Passive
+|type=S
+|exclusive=0
+|1name=Múspellflame
+|1tagid=SID_ムスペルの炎
+|1effect=Reduces damage dealt to unit to 0.
+|1cost=0
+|1required=-
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=enemy_only
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce={{Eft|Prevent Damage}}<br>outside '''or''' during combat
+}}
+==Notes==
+* A unit with Múspellflame will still take damage from [[Umbra Burst]] weapons and [[Røkkr AoE Specials]].
+==Usage in Story Maps==
+{{#cargo_query:tables=MapUnits=MU,Units=U,Skills=S
+|fields=CONCAT('[[',MU._pageName,'{{!}}{{(}}#invoke:GetFancyMapName{{!}}getFancyName{{!}}',MU._pageName,'{{)}}]] — {{(}}Ut{{!}}',U.WikiName,'{{)}}')
+|join on=MU.Unit=U.WikiName,S.WikiName=MU.Seal
+|where=S.WikiName='Muspellflame'
+|group by=MU._pageName
+|order by=MU._pageID
+|format=ul
+}}
+==Seal acquired from==
+* This is a story exclusive Sacred Seal. It is exclusively equipped by {{Ht|Surtr: Ruler of Flame}} in [[:Category:Defensive battle maps|defensive battle maps]].
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Múspellflame
+|badgeColor=-
+|costs1=-
+}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=ムスペルの炎
+|german=Múspellflamme
+|spanishEU=Llama de Múspell
+|spanishLA=Llamas de Múspell
+|french=Feu de Múspell
+|italian=Fuoco di Múspell
+|chineseTW=穆斯貝爾之炎
+|portuguese=Chama Múspell
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%Reduces damage dealt to unit to 0.%'}}
+{{Seals Navbox}}

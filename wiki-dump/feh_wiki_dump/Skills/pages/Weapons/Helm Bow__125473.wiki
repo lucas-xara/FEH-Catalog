@@ -1,0 +1,46 @@
+{{Weapon Infobox
+|tagid=SID_舵の弓
+|weaponType=Bow
+|might=8
+|range=2
+|effectiveness=Flying
+|effect=Effective against flying foes. If unit is not adjacent to an ally, inflicts Spd/Def-5 on foe and neutralizes foe's bonuses to Spd/Def (from skills like Fortify, Rally, etc.) during combat.
+|cost=200
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|required=Steel Bow
+|next=Helm Bow+
+|userVersion1=Bow
+|userVersion2=Arrow
+|promotionRarity=5
+|promotionTier=1
+|intID=2176
+|sort=84000
+|value=11
+|timingID=1
+|abilityID=162
+|limit1ID=19
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|Flying}}
+{{Combat reductions}}
+{{Bonus neutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Helm Bow
+|japanese=舵の弓
+|german=Ruderbogen
+|spanishEU=Timón certero
+|spanishLA=Timón certero
+|french=Arc gouvernail
+|italian=Arco a timone
+|chineseTW=舵弓
+|portuguese=Timão certeiro
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If unit is not adjacent to an ally, inflicts%neutralizes foe_s bonuses%' AND WikiName NOT LIKE '%Unbound%'|columns=3}}
+* [[Skill families#Unbound|Unbound Weapons]]
+{{Weapons Navbox}}

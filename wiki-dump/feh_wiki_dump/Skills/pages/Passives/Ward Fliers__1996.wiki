@@ -1,0 +1,43 @@
+{{Passive
+|type=C
+|exclusive=0
+|1name=Ward Fliers
+|1tagid=SID_飛盾の紋章
+|1effect=Grants Def/Res+4 to flying allies within 2 spaces during combat.
+|1cost=200
+|1required=Spur Def 2;Spur Res 2
+|canUseWeapon={{WeaponList|all}}
+|canUseMove=Flying
+|properties=random_all,random_inherit_base
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{SkillEffectText|Temporary buffs|Def/Res|4}}
+|CombatEffect 1 Targets={{Mt|Flying}} {{SkillTargetText|Allies}}<br>[[within 2 spaces]]
+}}
+==Notes==
+{{Temporary buffs}}
+{{AlliesCombatEffect|effect=temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=飛盾の紋章
+|german=Flieger+ (Vert.)
+|spanishEU=Muro aéreo
+|spanishLA=Muro aéreo
+|french=Vigilance (Vol)
+|italian=Difesa volanti
+|chineseTW=飛盾紋章
+|portuguese=Voador zeloso
+}}
+==See also==
+* [[Drive Passives]]
+* [[Goad Passives]]
+* [[Ward Passives]]
+{{Passives Navbox|C}}
+[[Category:Ward Passives]]

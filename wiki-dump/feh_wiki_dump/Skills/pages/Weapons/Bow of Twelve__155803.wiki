@@ -1,0 +1,42 @@
+{{Weapon Infobox
+|tagid=SID_双聖戦士の聖弓
+|intID=2729
+|userVersion1=Bow
+|userVersion2=Arrow
+|weaponType=Bow
+|might=14
+|range=2
+|cooldown=-1
+|effectiveness=Flying
+|effect=Enables【Canto (１)】.<br><br>Accelerates Special trigger (cooldown count-1). Effective against flying foes. If unit initiates combat, or if unit's HP ≥ 75% at start of combat and foe uses magic or staff, grants Atk/Spd/Def/Res+5 to unit during combat, and also, if unit’s HP > 1 and foe would reduce unit's HP to 0, unit survives with 1 HP. (Once per combat. Does not stack.)<br><br>【Canto (１)】<br>After an attack, Assist skill, or structure destruction, unit can move １ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|exclusive=1
+|cost=400
+|statModifiers=0,14,0,0,0
+|required=Silver Bow
+|properties=
+}}
+==Notes==
+{{Canto|1}}
+{{Effective damage bonus|flying}}
+{{IfUnitInitiates}}
+{{TermRefersTo|magic}}
+{{Temporary buffs}}
+{{DefensiveSkill}}
+{{Miracle}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=双聖戦士の聖弓
+|german=Bogen der Zwölf
+|spanishEU=Arco de Doce
+|spanishLA=Arco de Doce
+|french=Arc des douze
+|italian=Arco dei Dodici
+|chineseTW=雙聖戰士聖弓
+|portuguese=Arco dos doze
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%Canto (１)%' OR Description LIKE '%unit survives with 1 HP%'|columns=3}}
+{{Weapons Navbox}}

@@ -1,0 +1,77 @@
+{{Weapon Infobox
+|tagid=SID_ランドグリーズ
+|weaponType=Bow
+|might=14
+|range=2
+|effectiveness=armored,flying
+|effect=Effective against flying and armored foes. Grants Atk+3. If foe's HP = 100% at start of combat, neutralizes penalties on unit and inflicts Atk/Def-6 on foe during combat.
+|cost=400
+|exclusive=1
+|userVersion1=Bow
+|userVersion2=Arrow
+|statModifiers=0,17,0,0,0
+|required=Silver Bow
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Effective against flying and armored foes. Grants Atk+3. At start of combat, if foe's HP ≥ 75%, inflicts Atk/Def-6 on foe and neutralizes unit's penalties during combat.
+|effectSkill1=If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+X to unit during combat (X = number of【Bonus】 and【Penalty】effects active on unit × 2, + 4; excludes stat bonuses and stat penalties), and also, if【Bonus】is active on unit, unit makes a guaranteed follow-up attack and reduces damage from foe's first attack by 30% during combat.<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Atk|3}}
+|s1 Ce1={{Eft|Effectiveness|{{Mt|Flying}} '''&''' {{Mt|Armored}}<br>}}
+|s1 Ce2={{Eft|Neutralize Penalties}}
+|s1 Ce3={{Eft|Temporary debuffs|Atk/Def|6}}
+|s1 Ce3T={{Tgt|Foe}}
+|s1 Ce2-3C={{Tgt|Foe}}'s HP = 100%<br>at start of combat
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Atk|3}}
+|s2 Ce1={{Eft|Effectiveness|{{Mt|Flying}} '''&''' {{Mt|Armored}}<br>}}
+|s2 Ce2={{Eft|Neutralize Penalties}}
+|s2 Ce3={{Eft|Temporary debuffs|Atk/Def|6}}
+|s2 Ce3T={{Tgt|Foe}}
+|s2 Ce2-3C={{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|skill3={{Si|Randgríðr|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|2 x ([[Status effects]]<br>active on {{Tgt|Unit}}), +4<br>(exc. {{SEt|Bonuses}}<br>'''&''' {{SEt|Penalties}})}}
+|s3 Ce1C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s3 Ce2={{Eft|Guaranteed Follow-Ups}}
+|s3 Ce3={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s first attack
+|s3 Ce2-3C=Player Phase '''or'''<br> an {{Tgt|Ally}} is<br>[[within 2 spaces]] '''&'''<br>a {{Kp|Bonus}} effect<br>is active on {{Tgt|Unit}}
+}}
+
+==Notes==
+{{Effective damage bonus|flying,armored}}
+{{Penalty neutralization}}
+{{Temporary debuffs}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfUnitInitiates}}
+{{Temporary buffs|name={{St|Randgríðr|refine=Skill1}}}}
+{{EffectfromStatusEffect|nonStat=1|temporary buffs|name={{St|Randgríðr|refine=Skill1}}}}
+{{EffectfromBonus|guaranteed follow-up and damage-reduction effects|name={{St|Randgríðr|refine=Skill1}}}}
+{{Guaranteed follow-up interaction|name={{St|Randgríðr|refine=Skill1}}}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+* The maximum amount of [[temporary buffs]] granted by {{St|Randgríðr|refine=Skill1}} (from being affected by all [[Status effects]] (except {{SEt|Bonuses}} and {{SEt|Penalties}})) is: Atk/Spd/Def/Res+{{#expr:4+2*{{#cargo_query:tables=StatusEffects|fields=COUNT(DISTINCT _pageName)|where=Name NOT IN ('Bonus','Penalty')|format=li|order by=Name|limit=9999|no html}}}}.
+{{NorseMyth|(Old Norse for "Shield-truce") is a valkyrie.}}
+==In other languages==
+{{OtherLanguages
+|japanese=ランドグリーズ
+|german=Randgríðr
+|spanishEU=Randgríðr
+|spanishLA=Randgríðr
+|french=Randgríðr
+|italian=Randgríðr
+|chineseTW=蘭蒂格瑞絲
+|portuguese=Randgríðr
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%number of【Bonus】%【Penalty】%effects active on unit%' OR WeaponEffectiveness='armored,flying') AND (Exclusive='1' AND Name NOT LIKE '%+')}}
+{{Weapons Navbox}}

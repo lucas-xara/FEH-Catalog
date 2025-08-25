@@ -1,0 +1,66 @@
+{{Weapon Infobox
+|tagid=SID_母娘の呪術書
+|intID=4754
+|userVersion1=Closed
+|userVersion2=Open
+|exclusive=1
+|weaponType=Green Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>For allies on the map with【Anathema】active and allies within 3 spaces of unit, grants Atk/Spd+5, neutralizes penalties to Atk/Spd, and ally deals +7 damage during combat (excluding area-of-effect Specials).<br><br>If unit initiates combat or is within 3 spaces of an ally, grants bonus to unit's Atk/Spd/Def/Res = number of allies within 3 rows or 3 columns centered on unit × 3, + 5 (max 14), neutralizes penalties to unit's Atk/Spd, unit deals +X × 5 damage (excluding area-of-effect Specials), reduces damage from foe's attacks by X × 3 (excluding area-of-effect Specials; X = number of【Bonus】effects active on unit, excluding stat bonuses + number of 【Penalty】effects active on foe, excluding stat penalties; max 5), neutralizes effects that guarantee foe's follow-up attacks, and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials), and restores 7 HP to unit after combat.<br><br>【Anathema】<br>Inflicts Spd/Def/Res-4 on foes within 3 spaces of unit during combat.<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|required=Rexcalibur
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Ce1={{Eft|Temporary buffs|Atk/Spd|5}}
+|Ce2={{Eft|Neutralize Penalties}}
+|Ce3={{Eft|Damage Boost|7}}
+|Ce1-3T={{Tgt|Allies}} with<br>{{SEt|Anathema}}
+|Ce4={{Eft|Temporary buffs|Atk/Spd/Def/Res|3 x {{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}, + 5|max=14}}
+|Ce5={{Eft|Damage Boost|5 x ({{Kp|Bonus}} effects<br>on {{Tgt|Unit}} '''&''' {{Kp|Penalty}}<br>effects on {{Tgt|Foe}}), +5<br>(exc. {{SEt|Bonuses}} '''&''' {{SEt|Penalties}})|max=25}}
+|Ce6={{Eft|Damage Reduction|3 x ({{Kp|Bonus}} effects<br>on {{Tgt|Unit}} '''&''' {{Kp|Penalty}}<br>effects on {{Tgt|Foe}}), +5<br>(exc. {{SEt|Bonuses}} '''&''' {{SEt|Penalties}})|max=15}}<br>from {{Tgt|Foe}}'s attacks
+|Ce7={{Eft|Neutralize Guaranteed Follow-Ups}}
+|Ce8={{Eft|Reduce Damage Reduction|50%}}
+|Ce7-8T={{Tgt|Foe}}
+|CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|Me={{Eft|Heal|7}}
+|MeC=After combat in<br>Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 3 spaces]]
+}}
+==Notes==
+{{Temporary buffs}}
+{{Penalty neutralization}}
+{{FlatDamageBoost|7/X (max: 25)}}
+{{AlliesCombatEffect|temporary buffs, penalty neutralization and +7 damage boost effects}}
+{{IfUnitInitiates}}
+{{FlatDamageReduction|X (max: 15)}}
+{{EffectfromBonus|damage boost and flat damage reduction|nonStat=1}}
+{{EffectfromPenalty|damage boost and flat damage reduction|nonStat=1}}
+{{Follow-up effect neutralization|guaranteeOnly=1}}
+{{Reduce Damage Reduction}}
+{{After combat healing}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V9.6_v0906a_kakusei_Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=母娘のc書
+|german=Familiäres Buch
+|spanishEU=Grimorio allegado
+|spanishLA=Grimorio afín
+|french=Tome familial
+|italian=Tomo familiare
+|chineseTW=母女的咒術書
+|portuguese=Tomo familiar
+}}
+
+==See also==
+{{See also skills|cond=(Description LIKE '%【Anathema】%' OR Description LIKE '%number of%Bonus%effects active on unit%Penalty%effects active on foe%') AND Exclusive='1' AND NAME NOT LIKE '%gainful%'}}
+* [[Skill families/Weapons#Gainful|Gainful Weapons]]
+{{Weapons Navbox}}

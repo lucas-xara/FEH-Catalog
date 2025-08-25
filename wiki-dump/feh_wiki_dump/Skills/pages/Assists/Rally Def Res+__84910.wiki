@@ -1,0 +1,38 @@
+{{Assist
+|tagid=SID_守備魔防の応援＋
+|name=Rally Def/Res+
+|range=1
+|effect=Grants Def/Res+6 to target ally for 1 turn.
+|required=Rally Def/Res
+|cost=400
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_owner,random_inherit_base
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se={{Eft|Bonuses|Def/Res|6}}
+|SeT={{Tgt|Target Ally}}
+|SeC={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}
+}}
+==Notes==
+{{Bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Rally Def/Res+
+|japanese=守備魔防の応援＋
+|german=Ver./Res. sam.+
+|spanishEU=Poten. Def/Res +
+|spanishLA=Pot. Def./Res. +
+|french=Rall. : Déf/Rés +
+|italian=Sprone Dif/Res+
+|chineseTW=防守魔防支援＋
+|portuguese=Def./Res. nímias+
+}}
+==See also==
+* [[Rally Assists]]
+{{Assists Navbox}}
+[[Category:Rally Assists]]

@@ -1,0 +1,87 @@
+{{#invoke:NameAbout|main|Name=Læraðr}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Læraðr
+|Title=Quieting Heart
+|Origin=Fire Emblem Heroes
+|Person=Læraðr
+|Gender=M
+|WeaponType=Colorless Beast
+|MoveType=Armored
+|MythicEffect=Dark
+|MythicEffect2=Defensive Team Bonus
+|BoostHP=5
+|BoostDef=5
+|actorEN=Bob Carter
+|actorJP=山崎たくみ
+|artist=コザキユースケ
+|additionDate=2024-08-16
+|releaseDate=November 29, 2024
+|Properties=mythic,tiara
+|description=Leader of the Healing Hands of Yggdrasill. He is known to control people's hearts.
+|cv1=0
+|cv2=800600
+|TagID=レーラズ
+|InternalID=1172
+|EnemyInternalID=108
+}}
+==Ally stats==
+{{Stats Page|noheader=1
+|Lv1HP=24|Lv1ATK=13|Lv1SPD=4|Lv1DEF=11|Lv1RES=9
+|GRHP=60|GRATK=80|GRSPD=30|GRDEF=75|GRRES=90
+}}
+==Enemy stats==
+{{Stats Page/Enemy|noheader=1
+|Lv1HP=24|Lv1ATK=13|Lv1SPD=4|Lv1DEF=11|Lv1RES=9
+|GRHP=60|GRATK=80|GRSPD=30|GRDEF=75|GRRES=90
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Whelp (Armored)
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Yearling (Arm.)
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Adult (Armored)
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Quieting Branch
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Iceberg
+|special2Unlock=4
+|special3=Armored Floe
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Res Form 1
+|passiveA2=Atk/Res Form 2
+|passiveA3=Atk/Res Form 3
+|passiveA4=Atk/Res Fortune
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Yggdrasill's Alter
+|passiveB1Unlock=5
+|passiveC1=Distant Guard 1
+|passiveC2=Distant Guard 2
+|passiveC3=Distant Guard 3
+|passiveC4=Barricade
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+{{Enemies Navbox}}

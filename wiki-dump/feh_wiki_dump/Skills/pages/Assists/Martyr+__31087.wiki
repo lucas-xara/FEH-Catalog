@@ -1,0 +1,40 @@
+{{Assist
+|tagid=SID_セインツ＋
+|range=1
+|effect=Restores HP = damage dealt to unit +50% of Atk. (Minimum of 7 HP.)<br>Restores HP to unit = half damage dealt to unit.
+|cost=300
+|required=Martyr
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|Staff}}
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Heal|min=7|Damage dealt<br>to {{Tgt|Unit}} +50%<br>of {{Tgt|Unit}}'s Atk}}
+|MeT1={{Tgt|Target Ally}}
+|MeC1={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}<br>'''or''' {{SEt|Deep Wounds}}
+|Me2={{Eft|Heal|Half of damage<br>dealt to {{Tgt|Unit}}}}
+|MeT2={{Tgt|Unit}}
+|MeC2={{Tgt|Unit}} doesn't<br>have {{SEt|Isolation}}<br>'''or''' {{SEt|Deep Wounds}}
+}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+Weapon Martyr.png|Martyr+ Sprite
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=セインツ＋
+|german=Aufopferung+
+|spanishEU=Ofrendar +
+|spanishLA=Ofrendar +
+|french=Cicatrisation +
+|italian=Martirio+
+|chineseTW=殉教＋
+|portuguese=Martírio+
+}}
+==See also==
+* [[Staff Assists]]
+{{Assists Navbox}}

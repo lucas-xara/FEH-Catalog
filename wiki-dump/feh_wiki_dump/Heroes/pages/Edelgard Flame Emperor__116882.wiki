@@ -1,0 +1,83 @@
+{{#invoke:NameAbout|main|Name=Edelgard|Name2=Flame Emperor}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Edelgard
+|Title=Flame Emperor
+|WeaponType=Green Axe
+|Origin=Fire Emblem: Three Houses
+|Gender=Female
+|LegendaryEffect=Fire
+|BoostHP=3
+|Duel=180
+|MoveType=Armored
+|actorJP=加隈亜衣
+|actorEN=Tara Platt
+|artist=HACCAN
+|additionDate=April 30, 2020
+|releaseDate=April 30, 2020
+|TagID=伝承エーデルガルト
+|InternalID=514
+|Properties=legendary
+|cv1=12
+|cv2=200100
+|description=Emperor of the Adrestian Empire. Destroyer of the Church of Seiros and unifier of all Fódlan. Appears in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=12|Lv1SPD=4|Lv1DEF=13|Lv1RES=8
+|GRHP=60|GRATK=70|GRSPD=30|GRDEF=60|GRRES=65
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Aymr
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+}}
+===Specials===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=4
+|special1Unlock=3
+|special2=Bonfire
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Res Solo 1
+|passiveA2=Atk/Res Solo 2
+|passiveA3=Atk/Res Solo 3
+|passiveA4=Atk/Res Ideal 1
+|passiveA5=Atk/Res Ideal 2
+|passiveA6=Atk/Res Ideal 3
+|passiveA7=Atk/Res Ideal 4
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveA4Unlock=1
+|passiveA5Unlock=2
+|passiveA6Unlock=4
+|passiveA7Unlock=5
+|passiveB1=Raging Storm
+|passiveB2=Raging Storm II
+|passiveB1Unlock=5
+|passiveB2Unlock=5
+|passiveC1=Armored Stride 1
+|passiveC2=Armored Stride 2
+|passiveC3=Armored Stride 3
+|passiveC1Unlock=2
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

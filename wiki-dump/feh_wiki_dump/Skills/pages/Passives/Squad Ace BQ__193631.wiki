@@ -1,0 +1,49 @@
+{{Passive
+|name=Squad Ace BQ
+|type=S
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|1name=Squad Ace BQ 1
+|alt1name=Squad Ace AM 1
+|1tagid=SID_第69迷宮の覇者1
+|1effect=Grants Spd/Res+1.
+|statModifiers1=0,0,1,0,1
+|1cost=80
+|1required=-
+|1next=-
+|2name=Squad Ace BQ 2
+|alt2name=Squad Ace AM 2
+|2tagid=SID_第69迷宮の覇者2
+|2effect=Grants Spd/Res+2.
+|statModifiers2=0,0,2,0,2
+|2cost=160
+}}
+==Seal acquired from==
+===Squad Assault reward===
+* Complete the [[69th Assault]].
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Squad Ace BQ 1;Squad Ace BQ 2
+|badgeColor=Transparent
+|costs1=-
+|costs2=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=第６９迷宮の覇者
+|german=Überfall-Ass BQ
+|spanishEU=As del asalto BQ
+|spanishLA=As del asalto BQ
+|french=Assaut réussi BQ
+|italian=Asso sq. BQ
+|chineseTW=第６９迷宮的霸王
+|portuguese=Esquad. ás BQ
+}}
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}
+[[Category:Squad Ace Seals]]

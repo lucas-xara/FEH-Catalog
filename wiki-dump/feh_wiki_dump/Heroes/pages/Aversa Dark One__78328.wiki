@@ -1,0 +1,72 @@
+{{#invoke:NameAbout|main|Name=Aversa}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Aversa
+|Title=Dark One
+|GrowthModifier=
+|WeaponType=Red Tome
+|Origin=Fire Emblem Awakening
+|Gender=Female
+|MoveType=Flying
+|actorJP=たなか久美
+|actorEN=Cindy Robinson
+|artist=п猫Ｒ
+|resplendentArtist=マキトシ
+|additionDate=October 23, 2018
+|releaseDate=October 25, 2018
+|TagID=インバース
+|InternalID=306
+|Properties=ghb,limited,resplendent,ljosalfheimr
+|cv1=10
+|cv2=500300
+|description=A wily mage who serves Gangrel of Plegia. Excels at using her charms to disarm and then destroy her foes. Appears in Fire Emblem Awakening.
+|resplendentStartTime=2023-04-10T07:00:00Z
+|resplendentEndTime=2023-04-25T06:59:59Z
+}}
+__TOC__
+{{Stats Page|Hero=Aversa: Dark One
+|Lv1HP=18|Lv1ATK=7|Lv1SPD=8|Lv1DEF=4|Lv1RES=7
+|GRHP=55|GRATK=60|GRSPD=60|GRDEF=30|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Flux
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Ruin
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Fenrir
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Aversa's Night
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Dragon Fang
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Speed +1
+|passiveA2=HP/Spd 1
+|passiveA3=HP/Spd 2
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Odd Res Wave 1
+|passiveC2=Odd Res Wave 2
+|passiveC3=Odd Res Wave 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

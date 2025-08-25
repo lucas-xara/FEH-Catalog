@@ -1,0 +1,84 @@
+{{#invoke:NameAbout|main|Name=Veronica|Name2=Thrasir}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Veronica
+|Title=Royal Reception
+|WeaponType=Colorless Tome
+|MoveType=Cavalry
+|Origin=Fire Emblem Heroes
+|Gender=Female
+|actorEN=Wendee Lee
+|actorJP=日高里菜
+|artist=切符
+|additionDate=August 6, 2025
+|releaseDate=August 7, 2025
+|cv1=0
+|cv2=100500
+|TagID=お茶会ヴェロニカ2
+|InternalID=1275
+|Properties=special
+|description=Imperial princess of the Emblian Empire. Hosts a tea party, acting as server, to deepen her ties with Askr, which she once was hostile toward.
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=12|Lv1SPD=9|Lv1DEF=6|Lv1RES=6
+|GRHP=50|GRATK=80|GRSPD=90|GRDEF=35|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Stone
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elstone
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Atlas (weapon)
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Princess Teapot
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Reposition
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table
+|special1=Retribution
+|special1Default=4
+|special1Unlock=3
+|special2=Reprisal
+|special2Unlock=4
+|special3=Immurement
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Death Blow 1
+|passiveA2=Swift Sparrow 1
+|passiveA3=Swift Sparrow 2
+|passiveA4=Sly Swift Sparrow
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Spd/Res Snag 1
+|passiveB2=Spd/Res Snag 2
+|passiveB3=Spd/Res Snag 3
+|passiveB4=Spd/Res Detect
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Hone Spd 1
+|passiveC2=Hone Spd 2
+|passiveC3=Hone Spd 3
+|passiveC4=A/S Incite Hone
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}

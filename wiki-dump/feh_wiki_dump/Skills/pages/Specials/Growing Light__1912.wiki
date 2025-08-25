@@ -1,0 +1,49 @@
+{{Special
+|tagid=SID_爆光
+|name=Growing Light
+|charge=4
+|effect=Before combat this unit initiates, foes in a wide area around target take damage equal to (unit's Atk minus foe's Def or Res).
+|cost=300
+|required=Rising Light
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_all,aoe_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|MapEffect={{Eft|Damage|{{Tgt|Unit}}'s Atk -<br>{{Tgt|Foe}}'s Def/Res}}
+|MapEffect Targets={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>in 1 space diagonal<br>'''&''' 2 spaces in<br>[[cardinal directions]]<br>from {{Tgt|Target Foe}}
+|MapEffect Conditions=Special triggers<br>before combat
+}}
+
+==Notes==
+{{AoE Special notes}}
+{{Main|Area of Effect Specials}}
+{|class="wikitable default mw-collapsible" style="text-align:center"
+!Example of Area of Effect for Growing Light
+|-
+|style="max-width:450px;margin:auto" align="middle"|{{AoE|special=1
+|--x--
+|-x-x-
+|x-t-x
+|-x-x-
+|--x--
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+* Growing Light's cooldown was reduced by 1 with {{Version|2}}, released on November 28th, 2017.
+==In other languages==
+{{OtherLanguages
+|japanese=爆光
+|german=Tosendes Licht
+|spanishEU=Luz cegadora
+|spanishLA=Luz cegadora
+|french=Lueur croissante
+|italian=Luce crescente
+|chineseTW=爆光
+|portuguese=Luz intensa
+}}
+{{Specials Navbox}}

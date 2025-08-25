@@ -1,0 +1,28 @@
+{{Captain Skill
+|name=Flyting Talent
+|effect=At start of turns 2 through 5, grants 【Rally Spectrum】to captain for 1 turn.<br><br>【Rally Spectrum】<br>Grants Atk/Spd/Def/Res+5 to unit during combat and if unit's attack can trigger unit's Special, grants Special cooldown count-X to unit before unit's first attack during combat (X = 1 if unit can trigger the "unit attacks twice" effect or if unit's maximum Special cooldown count is reduced (Special trigger is accelerated); otherwise, X = 2). (That turn only.)
+|statModifiers=
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se={{SEt|Rally Spectrum}}
+|SeT={{Tgt|Captain}}
+|SeC=At start of turns 2-5
+}}
+==Notes==
+{{Rally Spectrum}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【Rally Spectrum】%' AND Exclusive='1'}}
+{{Captain Skills Navbox}}

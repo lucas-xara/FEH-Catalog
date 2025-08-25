@@ -1,0 +1,66 @@
+{{#invoke:NameAbout|main|Name=Gangrel}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Gangrel
+|Title=Plegia's Mad King
+|WeaponType=Colorless Dagger
+|Origin=Fire Emblem Awakening
+|Gender=Male
+|MoveType=Infantry
+|actorJP=坂巻学
+|actorEN=Taliesin Jaffe
+|artist=argon
+|additionDate=June 5, 2020
+|releaseDate=2020-06-06
+|TagID=ギャンレル
+|cv1=10
+|cv2=400100
+|InternalID=531
+|Properties=ghb,limited
+|description=The King of Plegia, who thirsts for battle. Together with Aversa, he begins a war against the Halidom of Ylisse. Appears in Fire Emblem Awakening.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=6|Lv1SPD=10|Lv1DEF=5|Lv1RES=8
+|GRHP=60|GRATK=60|GRSPD=65|GRDEF=45|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Dagger
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Dagger
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Dagger
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Levin Dagger
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Glacies
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Chill Atk 1
+|passiveB2=Chill Atk 2
+|passiveB3=Chill Atk 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Panic Ploy 1
+|passiveC2=Panic Ploy 2
+|passiveC3=Panic Ploy 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

@@ -1,0 +1,39 @@
+{{Special
+|tagid=SID_氷の聖鏡
+|charge=2
+|effect=If foe is 2 spaces from unit, reduces damage from foe's attacks by 30%. Boosts unit's next attack by total damage reduced (by any source, including other skills) when Special triggers. Resets at end of combat. (Skill cannot be inherited.)
+|cost=500
+|exclusive=1
+|required=Sacred Cowl
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|Close}}
+|properties=random_owner,defensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s attack
+|Ce1C=Special triggers '''&'''<br>{{Tgt|Foe}} is 2 spaces<br>from {{Tgt|Unit}}
+|Ce2={{Eft|Damage Boost|total damage reduced}}<br>for {{Tgt|Unit}}'s next attack<br>(including other sources)
+|Ce2C=After Special triggers
+}}
+
+==Notes==
+{{DefensiveSkill}}
+{{DamageBoostFromDamageReduction|afterAttack=1|special=1}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=氷の聖鏡
+|german=Eisspiegel
+|spanishEU=Espejo gélido
+|spanishLA=Espejo gélido
+|french=Miroir de glace
+|italian=Specchio gelo
+|chineseTW=冰之聖鏡
+|portuguese=Espelho glacial
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%reduces damage%next attack%total damage reduced (%' AND Exclusive='1'}}
+* [[:Category:Defensive Specials|Defensive Specials]]
+{{Specials Navbox}}

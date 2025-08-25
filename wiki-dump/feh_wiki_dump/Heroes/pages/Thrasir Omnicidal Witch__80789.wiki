@@ -1,0 +1,95 @@
+{{#invoke:NameAbout|main|Name=Thrasir|Name2=Veronica}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Thrasir
+|Title=Omnicidal Witch
+|Origin=Fire Emblem Heroes
+|Gender=Female
+|WeaponType=Green Tome
+|MoveType=Infantry
+|MythicEffect=Anima
+|MythicEffect2=None
+|BoostHP=5
+|BoostDef=5
+|actorEN=Lizzie Freeman
+|actorJP=小倉唯
+|artist=コザキユースケ
+|releaseDate=September 30, 2019
+|additionDate=September 30, 2019
+|Properties=mythic
+|cv1=0
+|cv2=330400
+|description=General of the realm of the dead. At her queen's command, this witch uses her powers to swell the ranks of the dead.
+|TagID=スラシル
+|InternalID=428
+|EnemyInternalID=51
+|GrowthModifier=Gen 4
+}}
+==Ally stats==
+{{Stats Page|noheader=1|Hero=Thrasir: Omnicidal Witch
+|Lv1HP=18|Lv1ATK=9|Lv1SPD=9|Lv1DEF=6|Lv1RES=5
+|GRHP=50|GRATK=55|GRSPD=70|GRDEF=40|GRRES=50
+}}
+==Enemy stats==
+{{Stats Page/Enemy|noheader=1
+|Lv1HP=18|Lv1ATK=9|Lv1SPD=9|Lv1DEF=6|Lv1RES=5
+|GRHP=50|GRATK=55|GRSPD=65|GRDEF=40|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Wind
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elwind
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Rexcalibur
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Ífingr
+|weapon4Default=5
+|weapon4Unlock=5
+|hasEnemy=1
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Moonbow
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Flashing Blade 1
+|passiveA2=Flashing Blade 2
+|passiveA3=Flashing Blade 3
+|passiveA4=Flashing Blade 4
+|passiveA5=Atk/Spd Ideal 1
+|passiveA6=Atk/Spd Ideal 2
+|passiveA7=Atk/Spd Ideal 3
+|passiveA8=Atk/Spd Ideal 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveA5Unlock=2
+|passiveA6Unlock=3
+|passiveA7Unlock=4
+|passiveA8Unlock=5
+|passiveB1=Killing Intent
+|passiveB2=Killing Intent+
+|passiveB1Unlock=5
+|passiveB2Unlock=5
+|passiveC1=Panic Smoke 1
+|passiveC2=Panic Smoke 2
+|passiveC3=Panic Smoke 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+{{Enemies Navbox}}

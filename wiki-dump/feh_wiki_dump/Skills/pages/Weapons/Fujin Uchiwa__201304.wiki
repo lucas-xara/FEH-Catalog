@@ -1,0 +1,36 @@
+{{Weapon Infobox
+|tagid=SID_風神の団扇
+|intID=3770
+|image=wep_sw162
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+X to unit (X = 5 + the greater of unit's current bonus or foe's current bonus on each stat; calculates each stat bonus independently), inflicts penalty on foe's Atk/Spd/Def/Res = current bonus on each of foe's stats (calculates each stat penalty independently), reduces damage from foe's first attack by 40%, and grants Special cooldown charge +1 to unit per attack (only highest value applied; does not stack) during combat.
+|required=Silver Sword
+|properties=
+}}
+==Notes==
+{{TemporaryBufffromBonus|source=unit or foe|multiSource=1}}
+{{TemporaryDebufffromBonus|source=the foe}}
+{{DamagePercentageReduction}}
+{{CooldownChargePlus}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=風神の団扇
+|german=Fujin Uchiwa
+|spanishEU=Uchiwa Fujin
+|spanishLA=Uchiwa Fujin
+|french=Uchiwa Fujin
+|italian=Fujin Uchiwa
+|chineseTW=風神的扇子
+|portuguese=Fujin Uchiwa
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%penalty%current bonus%' AND Exclusive='1' AND Name NOT LIKE '%+'}}
+* [[Skill families/Weapons#Defier's|Defier's Weapons]]
+{{Weapons Navbox}}

@@ -1,0 +1,64 @@
+{{SkillPage Tabs}}{{Passive
+|name=HP/Atk
+|type=A
+|exclusive=0
+|1name=HP/Atk 1
+|1tagid=SID_HP攻撃1
+|1promotionRarity=5
+|1promotionTier=1
+|alt1name=HP Atk 1
+|1effect=Grants HP+3, Atk+1.
+|1cost=100
+|1required=HP +3;Attack +1
+|2name=HP/Atk 2
+|2tagid=SID_HP攻撃2
+|alt2name=HP Atk 2
+|2effect=Grants HP+4, Atk+2.
+|2cost=200
+|3name=
+|3effect=
+|3cost=
+|statModifiers1=3,1,0,0,0
+|statModifiers2=4,2,0,0,0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=random_all
+}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=HP/Atk 1;HP/Atk 2
+|badgeColor=Scarlet
+|costs1=20;100;20
+|costs2=400;1000;100
+}}
+
+==In other languages==
+{{OtherLanguages
+|english=HP/Atk
+|japanese=ＨＰ攻撃
+|german=KP/Angr.
+|spanishEU=PV/Ata
+|spanishLA=PV/Atq.
+|french=PV/Atq
+|italian=PS/Att
+|chineseTW=ＨＰ攻擊
+|portuguese=PV/Atq.
+}}
+
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}
+{{Passives Navbox|A}}
+[[Category:Plus Passives]]

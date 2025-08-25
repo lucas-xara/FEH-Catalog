@@ -1,0 +1,75 @@
+{{#invoke:NameAbout|main|Name=Dorcas}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Dorcas
+|Title=Serene Warrior
+|GrowthModifier=Gen 2
+|WeaponType=Green Axe
+|MoveType=Infantry
+|Origin=Fire Emblem: The Blazing Blade
+|Gender=Male
+|actorEN=—
+|actorJP=北村謙次
+|artist=添田一平
+|releaseDate=November 15, 2017
+|poolDate=December 04, 2017
+|poolRarities=5
+|TagID=ドルカス
+|InternalID=187
+|Properties=notRandomized,specRate_201904
+|cv1=6
+|cv2=800500
+|description=A mercenary trying to earn money for his ill wife's treatment. Doesn't talk much and isn't expressive, but loves his family dearly. Appears in Fire Emblem: The Blazing Blade.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=9|Lv1SPD=6|Lv1DEF=9|Lv1RES=5
+|GRHP=60|GRATK=60|GRSPD=40|GRDEF=60|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Stout Tomahawk
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Draconic Aura
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Fierce Stance 1
+|passiveA2=Fierce Stance 2
+|passiveA3=Fierce Stance 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Quick Riposte 1
+|passiveB2=Quick Riposte 2
+|passiveB3=Quick Riposte 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Infantry Pulse 1
+|passiveC2=Infantry Pulse 2
+|passiveC3=Infantry Pulse 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

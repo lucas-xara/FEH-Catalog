@@ -1,0 +1,69 @@
+{{Passive
+|type=A
+|exclusive=0
+|1name=Def/Res Solo 1
+|1tagid=SID_守備魔防の孤軍1
+|1promotionRarity=4
+|1promotionTier=1
+|alt1name=Def Res Solo 1
+|1effect=If unit is not adjacent to an ally, grants Def/Res+2 during combat.
+|1required=-
+|1cost=60
+|2name=Def/Res Solo 2
+|2tagid=SID_守備魔防の孤軍2
+|2promotionRarity=5
+|2promotionTier=1
+|alt2name=Def Res Solo 2
+|2effect=If unit is not adjacent to an ally, grants Def/Res+4 during combat.
+|2cost=120
+|3name=Def/Res Solo 3
+|3tagid=SID_守備魔防の孤軍3
+|alt3name=Def Res Solo 3
+|3effect=If unit is not adjacent to an ally, grants Def/Res+6 during combat.
+|3cost=240
+|4name=Def/Res Solo 4
+|4tagid=SID_守備魔防の孤軍4
+|alt4name=Def Res Solo 4
+|4effect=If unit is not adjacent to an ally, grants Def/Res+7 during combat.
+|4cost=300
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=random_owner
+}}
+==Notes==
+{{Combat boosts}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Def/Res Solo 1;Def/Res Solo 2;Def/Res Solo 3
+|badgeColor=Transparent
+|costs1=20;100;40
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|english=Def/Res Solo
+|japanese=守備魔防の孤軍
+|german=Ver./Res.-Solo
+|spanishEU=Retiro Def/Res
+|spanishLA=Retiro Def./Res.
+|french=Solo Déf/Rés
+|italian=Dif/Res isolate
+|chineseTW=防守魔防孤軍
+|portuguese=Retiro Def./Res.
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%not adjacent to an ally%grants Def/Res+_%during combat%'|columns=3}}
+* [[Solo Passives]]
+{{Seals Navbox}}
+{{Passives Navbox|A}}
+[[Category:Solo Passives]]

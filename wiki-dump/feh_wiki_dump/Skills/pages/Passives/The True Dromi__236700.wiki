@@ -1,0 +1,78 @@
+{{Passive
+|name=The True Dromi
+|type=C
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=The True Dromi
+|1tagid=SID_真・ドローミの鎖環
+|1effect=Enables Canto (2).<br><br>When Canto triggers, enables unit to use 【Foul Play】on ally (this effect is not treated as an Assist skill; if similar effects are active, this effect does not trigger).<br><br>For foes within 3 rows or 3 columns centered on unit, inflicts Spd/Def-5 and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials).<br><br>At start of turn, grants "unit can move 1 extra space (that turn only, does not stack)" and 【Dodge】to unit for 1 turn.<br><br>If【Stall】is active on unit after start-of-turn skills trigger, neutralizes "unit can move 1 extra space" on unit.<br><br>At start of combat, if unit's HP ≥ 25%, unit deals +7 damage (excluding area-of-effect Specials) and reduces damage from foe's first attack by 7 during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes).<br><br>【Foul Play】<br>Range = 3. Unit and target ally swap spaces.<br><br>【Dodge】<br>If unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 4 (max 40%).<br><br>【Stall】<br>If unit has "unit can move 1 extra space," converts that effect into "restricts movement to 1 space" through its next action.
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Canto|2}}
+|Me2={{Eft|Foul Play}}
+|Me2T={{Tgt|Unit}} '''&'''<br>{{Tgt|Target Ally}}
+|Me2C=When [[Canto]] triggers
+|Se1={{SEt|Mobility Increased}}
+|Se2={{SEt|Dodge}}
+|Se1-2C=At start of turn
+|Se3=Removes<br>{{SEt|Mobility Increased}}
+|Se3C=After start-of-turn<br>effects if {{SEt|Stall}}<br>is active on {{Tgt|Unit}}
+|Ce1={{Eft|Temporary debuffs|Spd/Def|5}}
+|Ce2={{Eft|Reduce Damage Reduction|50%}}
+|Ce1-2T={{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|Ce3={{Eft|Damage Boost|7}}
+|Ce4={{Eft|Damage Reduction|7}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce3-4C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Canto|2}}
+{{Movement skill notes|notBeforeRokkr=1}}
+{{Temporary debuffs}}
+{{Reduce Damage Reduction}}
+{{FoesCombatEffect|temporary debuffs and  reduce non-Special "reduce damage by X%" effects}}
+{{Mobility increased}}
+{{Bonus neutralization|posstatuses={{SEt|Mobility increased}} if the user is inflicted with {{SEt|Stall}}}}
+{{Dodge}}
+{{FlatDamageBoost|7}}
+{{FlatDamageReduction|7}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Yuri: Tropical Wolf|t=Aelfric: Custodian Monk
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%Unit and%swap spaces%' OR Description LIKE '%not treated as an Assist skill%' OR Description LIKE '%【Canto%' AND Scategory='passivec' AND Description NOT LIKE '%【Canto (１)】%for 1 turn%') AND Exclusive='1'}}
+* [[Shadow Passives]]
+* [[Lookout Passives]]
+* [[Movement Assists]]
+{{Passives Navbox|C}}

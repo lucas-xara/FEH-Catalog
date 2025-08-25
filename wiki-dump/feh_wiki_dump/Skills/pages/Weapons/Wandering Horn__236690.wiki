@@ -1,0 +1,81 @@
+{{Weapon Infobox
+|tagid=SID_漂う者の角
+|intID=4805
+|noImg=1
+|exclusive=1
+|weaponType=Beast
+|canUseMove=Armored
+|cost=400
+|might=14
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>Allies within 2 spaces of unit can move to any space within 2 spaces of unit.<br><br>Unit can move to any space within 2 spaces of an ally within 2 spaces of unit.<br><br>At start of turn, and at start of enemy phase (except for in Summoner Duels), if unit's HP ≥ 25%, grants Atk/Def+6,【Resonance: Blades】, and【Resonance: Shields】to unit and allies within 2 spaces of unit for 1 turn, and also, for unit and allies within 2 spaces of unit, if Special cooldown count is at its maximum value, grants Special cooldown count-1.<br><br>For allies within 2 spaces of unit, if Special cooldown count is at its maximum value after combat, grants Special cooldown count-1.<br><br>If foe initiates combat or unit's HP ≥ 25% at start of combat, inflicts penalty on foe's Atk/Def = 20% of unit's Def at start of combat, + 6, deals damage = 20% of unit's Def (including area-of-effect Specials), and reduces damage from foe's attacks by 20% of unit's Def during combat (including area-of-effect Specials; excluding Røkkr area-of-effect Specials), and also, if unit's Special cooldown count is at its maximum value after combat, grants Special cooldown count-1 to unit.<br><br>At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and unit can counterattack regardless of foe's range.<br><br>【Resonance: Blades】<br>Grants Atk/Spd+4 during combat for 1 turn.<br><br>【Resonance: Shields】<br>Grants Def/Res+4 during combat and the following effect for 1 turn: "During unit's first combat in player phase or enemy phase, foe cannot make a follow-up attack."
+|required=Adult (Armored)
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe1={{Eft|Accelerates Special}}
+|Pe2={{Eft|Stat Boosts|Atk|2}}
+|PeC2={{Tgt|Unit}} is transformed
+|Me1={{Eft|Transform}}
+|Me1C=At start of turn if<br>{{Tgt|Unit}} is [[adjacent]] to only<br>{{Cwti|group=1|Dragon,Beast}} [[Dragon]]/[[Beast]]<br>{{Tgt|Allies}} '''or''' not [[adjacent]]<br>to any {{Tgt|Ally}}
+|Me2={{Eft|Warp|[[within 2 spaces]]<br>of {{Tgt|Unit}}}}
+|Me2T={{Tgt|Allies}}<br>[[within 2 spaces]]
+|Me3={{Eft|Warp|[[within 2 spaces]]<br>of an {{Tgt|Ally}}<br>[[within 2 spaces]]}}
+|Me4={{Eft|Reduce Cooldown|1}}
+|Me4T={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|Me4C=At start of turn<br>'''&''' Enemy Phase*<br>if {{Tgt|Unit}}'s HP ≥ 25%<br>'''&''' {{Tgt|Unit}} or {{Tgt|Ally}}'s<br>CD is max value
+|Me5={{Eft|Reduce Cooldown|1}}
+|Me5T={{Tgt|Allies}}<br>[[within 2 spaces]]
+|Me5C=After {{Tgt|Ally}}'s combat<br>if {{Tgt|Ally}}'s CD is<br>max value
+|Me6={{Eft|Reduce Cooldown|1}}
+|Me6C=After combat in<br>Enemy Phase '''or'''<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>if {{Tgt|Unit}}'s CD<br>is max value
+|Se1={{Eft|Bonuses|Atk/Def|6}}
+|Se2={{SEt|Resonance: Blades}}
+|Se3={{SEt|Resonance: Shields}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=At start of turn<br>'''&''' Enemy Phase*<br>if {{Tgt|Unit}}'s HP ≥ 25%
+|Ce1={{Eft|Temporary debuffs|Atk/Def|20% of {{Tgt|Unit}}'s Def<br>at start of combat, +6}}
+|Ce1T={{Tgt|Foe}}
+|Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Def}}
+|Ce3={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Def}}<br>from {{Tgt|Foe}}'s attacks
+|Ce1-3C=Enemy Phase '''or'''<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce4={{Eft|Distant Counter}}
+|Ce4C={{Tgt|Unit}} is transformed
+}}
+<b>{{Hatnote|&#42; Excluding Enemy Phase in [[Summoner Duels]].}}</b>
+==Notes==
+{{Warp interaction}}
+{{Bonuses}}
+{{Resonance: Blades}}
+{{Resonance: Shields}}
+{{Start of turn Special modification}}
+{{After combat Special modification}}
+{{IfFoeInitiates}}
+{{Temporary debuffs}}
+{{At start of combat}}
+{{DamageBoost}}
+{{FlatDamageReduction}}
+{{Beast (Armored)}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=Cuerno errante
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%【Resonance:%' OR Description LIKE '%start of turn%unit and allies%maximum value%Special cooldown count-1%' OR Description LIKE '%start of turn%unit and allies%Special cooldown count-1%maximum value%') AND Exclusive='1'}}
+* [[Guidance Passives]]
+* [[Time Pulse Passives]]
+{{Weapons Navbox}}

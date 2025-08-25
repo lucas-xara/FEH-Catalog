@@ -1,0 +1,63 @@
+{{#invoke:NameAbout|main|Name=Claude}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Claude
+|Title=Tropical Trouble
+|WeaponType=Blue Dagger
+|MoveType=Flying
+|Origin=Fire Emblem: Three Houses
+|Gender=Male
+|actorEN=Joe Zieja
+|actorJP=豊永利行
+|artist=azuタロウ
+|additionDate=June 17, 2022
+|releaseDate=June 17, 2022
+|cv1=12
+|cv2=400100
+|TagID=水着クロード
+|InternalID=818
+|Properties=special
+|description=Member of House Riegan and leader of the Leicester Alliance. The sea air makes his heart race. Appears in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=10|Lv1SPD=12|Lv1DEF=6|Lv1RES=4
+|GRHP=55|GRATK=65|GRSPD=70|GRDEF=45|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Dagger
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Dagger
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Dagger
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Frozen Delight
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Moonbow
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Fallen Star
+|passiveB1Unlock=5
+|passiveC1=Spd/Def Rein 1
+|passiveC2=Spd/Def Rein 2
+|passiveC3=Spd/Def Rein 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Summer units]]

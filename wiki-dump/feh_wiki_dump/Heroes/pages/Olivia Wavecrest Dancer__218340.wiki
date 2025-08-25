@@ -1,0 +1,65 @@
+{{#invoke:NameAbout|main|Name=Olivia}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Olivia
+|Title=Wavecrest Dancer
+|WeaponType=Colorless Tome
+|MoveType=Flying
+|Origin=Fire Emblem Awakening
+|Gender=Female
+|actorEN=Karen Strassman
+|actorJP=松嵜麗
+|artist=切符
+|additionDate=June 17, 2024
+|releaseDate=June 17, 2024
+|cv1=10
+|cv2=300400
+|TagID=水着オリヴィエ
+|InternalID=1109
+|Properties=special,refresher,hat,tiara
+|description=A dancer from Ylisse. Enjoying the summer sun and the way her swimsuit moves as she dances. Appears in Fire Emblem Awakening.
+}}
+{{Stats Page
+|Lv1HP=15|Lv1ATK=5|Lv1SPD=15|Lv1DEF=4|Lv1RES=3
+|GRHP=50|GRATK=80|GRSPD=70|GRDEF=40|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Stone
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elstone
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Sea Tambourine
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Sea Tambourine+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Dance
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveB1=A/S Far Trace 1
+|passiveB2=A/S Far Trace 2
+|passiveB3=A/S Far Trace 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Atk/Spd Rein 1
+|passiveC2=Atk/Spd Rein 2
+|passiveC3=Atk/Spd Rein 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Summer units]]

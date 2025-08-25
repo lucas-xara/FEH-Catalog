@@ -1,0 +1,80 @@
+{{Weapon Infobox
+|tagid=SID_被害妄想の弓
+|weaponType=Bow
+|might=14
+|range=2
+|effectiveness=Flying
+|cost=400
+|exclusive=1
+|effect=Effective against flying foes. Grants Atk+3. At start of combat, if【Penalty】is active on unit or if unit's HP < 100%, grants Atk/Spd+5 during combat, and if unit initiates combat, unit can make a follow-up attack before foe can counterattack.<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|userVersion1=Bow
+|userVersion2=Arrow
+|statModifiers=0,17,0,0,0
+|required=Silver Bow
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Effective against flying foes. Grants Atk+3. At start of combat, if unit's HP ≤ 99% or if【Penalty】is active on unit, grants Atk/Spd+5 to unit during combat and unit makes a guaranteed follow-up attack, and also, if unit initiates combat, unit can make a follow-up attack before foe can counterattack.<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|effectSkill1=At start of turn, if unit is within 2 spaces of an ally, deals 1 damage to unit and allies within 2 spaces of unit and grants Special cooldown count-1 to unit. If unit initiates combat or if foe's HP ≥ 75% at start of combat, grants Atk/Spd+X to unit (X = damage dealt to unit as of start of combat × 2, + 5; max 15) and grants Special cooldown charge +1 to unit per attack during combat (only highest value applied; does not stack).
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Atk|3}}
+|s1 Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|s1 Ce2={{Eft|Temporary buffs|Atk/Spd|5}}
+|s1 Ce2C=A {{Kp|Penalty}} effect<br>is active on {{Tgt|Unit}}<br>'''or''' {{Tgt|Unit}}'s HP ≤ 99%<br>at start of combat
+|s1 Ce3={{Eft|Desperation}}
+|s1 Ce3C=Player Phase '''&'''<br>({{Eft|Temporary buffs|Atk/Spd|5}}<br>conditions)
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Atk|3}}
+|s2 Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|s2 Ce2={{Eft|Temporary buffs|Atk/Spd|5}}
+|s2 Ce3={{Eft|Guaranteed Follow-Ups}}
+|s2 Ce2-3C=A {{Kp|Penalty}} effect<br>is active on {{Tgt|Unit}}<br>'''or''' {{Tgt|Unit}}'s HP ≤ 99%<br>at start of combat
+|s2 Ce4={{Eft|Desperation}}
+|s2 Ce4C=Player Phase '''&'''<br>({{Eft|Temporary buffs|Atk/Spd|5}}<br>conditions)
+|skill3={{Si|Persecution Bow|refine=Skill1}} Skill refine effects
+|s3 Me1={{Eft|Damage|1}}
+|s3 Me1T={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|s3 Me2={{Eft|Reduce Cooldown|1}}
+|s3 Me2T={{Tgt|Unit}}
+|s3 MeC=At start of turn<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd|damage dealt to unit<br>at start of combat x 2, +5|max=15}}
+|s3 Ce2={{Eft|Accelerate Charge}}
+|s3 CeC=Player Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+}}
+
+==Notes==
+{{Effective damage bonus|flying}}
+{{Temporary buffs}}
+{{EffectfromPenalty|temporary buffs|target=unit}}
+{{Follow-up before counterattack}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Follow-up before counterattack|guaranteed=1|name=Refined Persecution Bow}}
+{{Out of combat damage|name={{St|Persecution Bow|refine=Skill1}}}}
+{{Start of turn Special modification|name={{St|Persecution Bow|refine=Skill1}}}}
+{{CooldownChargePlus|name={{St|Persecution Bow|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=被害妄想の弓
+|german=Verfolgerbogen
+|spanishEU=Arco persecutorio
+|spanishLA=Arco persecutorio
+|french=Arc persécution
+|italian=Arco maniacale
+|chineseTW=被害妄想之弓
+|portuguese=Arco persecução
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%grants Atk/Spd+%follow-up attack before foe can counterattack%' OR Description LIKE '%at start of turn, if%deals _ damage to unit%'}}
+* [[Pulse Up Passives]]
+{{Weapons Navbox}}

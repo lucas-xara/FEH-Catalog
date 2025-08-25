@@ -1,0 +1,57 @@
+{{Passive
+|name=B Time Traveler
+|type=S
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=enemy_only
+|1name=B Time Traveler
+|1tagid=SID_時を彷徨う者・青
+|1effect=Against a foe equipped with this Sacred Seal, grants player's unit one of the following advantages or inflicts one of the following disadvantages based on that unit's color:<br>&nbsp;&nbsp;&nbsp;- If green, grants major advantage: unit deals damage = 20% of unit's Atk and reduces damage from attacks by 20% of foe's Atk during combat (excluding area-of-effect Specials), and reduces damage from foe's area-of-effect Specials by 80%.<br>&nbsp;&nbsp;&nbsp;- If colorless, grants minor advantage: unit deals damage = 10% of unit's Atk during combat (excluding area-of-effect Specials).<br>&nbsp;&nbsp;&nbsp;- If red, inflicts major disadvantage: foe deals damage = 20% of foe's Atk and reduces damage from attacks by 20% of unit's Atk during combat (excluding area-of-effect Specials), and reduces damage from unit's area-of-effect Specials by 80%.
+|1cost=0
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Atk}}
+|Ce2={{Eft|Damage Reduction|20% of {{Tgt|Foe}}'s Atk}}
+|CeT1-3=Player's<br>{{Tgt|Unit}}
+|CeC1-2=Player's {{Tgt|Unit}}<br>is {{Wti|group=1|Green}} Green
+|Ce3={{Eft|Damage Boost|10% of {{Tgt|Unit}}'s Atk}}
+|CeC3=Player's {{Tgt|Unit}}<br>is {{Wti|group=1|Colorless}} Colorless
+|Ce4={{Eft|Damage Boost|20% of {{Tgt|Foe}}'s Atk}}
+|Ce5={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Atk}}
+|CeT4-5={{Tgt|Foe}} with<br>this skill
+|CeC4-5=Player's {{Tgt|Unit}}<br>is {{Wti|group=1|Red}} Red
+|Me1={{Eft|Damage Reduction|80%}} from<br>{{Tgt|Foe}}'s Non-Røkkr [[AoE Specials]]
+|MeT1=Player's<br>{{Tgt|Unit}}
+|MeC1=Player's {{Tgt|Unit}}<br>is {{Wti|group=1|Green}} Green
+|Me2={{Eft|Damage Reduction|80%}} from<br>{{Tgt|Unit}}'s Non-Røkkr [[AoE Specials]]
+|MeT2={{Tgt|Foe}} with<br>this skill
+|MeC2=Player's {{Tgt|Unit}}<br>is {{Wti|group=1|Red}} Red
+}}
+
+==Notes==
+{{Time Traveler Seals}}
+==Seal acquired from==
+* This is a [[Seer's Snare]] exclusive Sacred Seal. It is exclusively equipped by all enemy units in Seer's Snare except for final bosses.
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=B Time Traveler
+|badgeColor=-
+|costs1=-
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=時を彷徨う者・青
+|german=Zeitreise B
+|spanishEU=Viaje temporal A
+|spanishLA=Viaje temporal A
+|french=Dépl. temporel (B)
+|italian=Viaggio tempo B
+|chineseTW=徘徊於時間之人・青
+|portuguese=Via temporal A
+}}
+==See also==
+{{See also skills|cond=Name LIKE '%Time Traveler'}}
+{{Seals Navbox}}

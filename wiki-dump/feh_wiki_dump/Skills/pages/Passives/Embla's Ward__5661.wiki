@@ -1,0 +1,50 @@
+{{Passive
+|type=S
+|exclusive=0
+|1name=Embla's Ward
+|1tagid=SID_エンブラの加護
+|1effect=Reduces damage dealt to unit to 0.
+|1cost=0
+|1required=-
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=enemy_only
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce={{Eft|Prevent Damage}}<br>outside '''or''' during combat
+}}
+
+==Notes==
+* A unit with Embla's Ward will still take damage from [[Umbra Burst]] weapons and [[Røkkr AoE Specials]].
+==Usage in Story Maps==
+{{#cargo_query:tables=MapUnits=MU,Units=U,Skills=S
+|fields=CONCAT('[[',MU._pageName,'{{!}}{{(}}#invoke:GetFancyMapName{{!}}getFancyName{{!}}',MU._pageName,'{{)}}]] — {{(}}Ut{{!}}',U.WikiName,'{{)}}')
+|join on=MU.Unit=U.WikiName,S.WikiName=MU.Seal
+|where=S.WikiName='Emblas Ward'
+|group by=MU._pageName
+|order by=MU._pageID
+|format=ul
+}}
+==Seal acquired from==
+* This is a story exclusive Sacred Seal. It is equipped by enemy units in [[:Category:Defensive battle maps|defensive battle maps]].
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Embla's Ward
+|badgeColor=-
+|costs1=-
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=エンブラの加護
+|german=Emblas Segen
+|spanishEU=Tutela de Embla
+|spanishLA=Favor de Embla
+|french=Faveur d'Embla
+|italian=Favore di Embla
+|chineseTW=恩布拉的加護
+|portuguese=Zelo de Embla
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%Reduces damage dealt to unit to 0.%'}}
+{{Seals Navbox}}

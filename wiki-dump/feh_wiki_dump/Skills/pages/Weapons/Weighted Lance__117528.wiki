@@ -1,0 +1,46 @@
+{{Weapon Infobox
+|tagid=SID_重騎士の重槍
+|weaponType=Lance
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).
+|cost=400
+|exclusive=1
+|userVersion1=Weapon
+|userVersion2=Gleam
+|statModifiers=0,16,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=At start of combat, if unit's HP ≥ 50%, grants Def/Res+4 and Special cooldown charge +1 per foe's attack during combat. (Only highest value applied. Does not stack. Special cooldown charge granted even if foe's attack deals 0 damage.)
+|iconSkill1=Weighted Lance W.png
+|tagidExtraSkill1=奥
+|properties=
+}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Combat boosts}}
+{{CooldownChargePlus|perAttack=foe}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|受奥義変動R守魔4|Received cooldown charge R Def/Res 4}}
+==In other languages==
+{{OtherLanguages
+|english=Weighted Lance
+|japanese=重騎士の重槍
+|german=Schwere Lanze
+|spanishEU=Lanza pesada
+|spanishLA=Lanza pesada
+|french=Lance lourde
+|italian=Lancia pesante
+|chineseTW=重騎士重槍
+|portuguese=Lança pesada
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%Special cooldown charge +1 per foe_s attack during combat%Special cooldown charge granted even if foe_s attack deals 0 damage%'}}
+{{Weapons Navbox}}

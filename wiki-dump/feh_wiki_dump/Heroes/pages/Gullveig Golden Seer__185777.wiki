@@ -1,0 +1,96 @@
+{{#invoke:NameAbout|main|Name=Gullveig|Name2=Kvasir|Name3=Seiðr}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Gullveig
+|Title=Golden Seer
+|Origin=Fire Emblem Heroes
+|Gender=F
+|WeaponType=Colorless Tome
+|MoveType=Cavalry
+|MythicEffect=Anima
+|MythicEffect2=Defensive Team Bonus
+|BoostHP=5
+|BoostSpd=4
+|actorEN=Alice Himora
+|actorJP=三森すずこ
+|artist=四々九
+|additionDate=2022-12-05
+|releaseDate=November 29, 2023
+|Properties=mythic,hat,tiara
+|description=A seer who, in the future, has already driven the world to the brink of destruction. Can alter time and bend the future to her whims.
+|cv1=0
+|cv2=700200
+|TagID=グルヴェイグ
+|InternalID=1027
+|EnemyInternalID=95
+}}
+==Ally stats==
+{{Stats Page|noheader=1
+|Lv1HP=15|Lv1ATK=15|Lv1SPD=12|Lv1DEF=3|Lv1RES=3
+|GRHP=50|GRATK=70|GRSPD=80|GRDEF=55|GRRES=35
+}}
+==Enemy stats==
+{{Stats Page/Enemy|noheader=1
+|Lv1HP=15|Lv1ATK=13|Lv1SPD=12|Lv1DEF=4|Lv1RES=3
+|GRHP=50|GRATK=70|GRSPD=75|GRDEF=50|GRRES=35
+}}
+==Skills==
+===Ally Weapons===
+{{Weapons Table
+|weapon1=Stone
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elstone
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Atlas (weapon)
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Quietus Gullveig
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Enemy Weapons===
+{{Weapons Table/enemy
+|weapon4=Gullveig (weapon)
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Retribution
+|special1Default=4
+|special1Unlock=3
+|special2=Vengeance
+|special2Unlock=4
+|special3=Time Is Light
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Darting Blow 1
+|passiveA2=Swift Sparrow 1
+|passiveA3=Swift Sparrow 2
+|passiveA4=Flared Sparrow
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Poison Strike 1
+|passiveB2=Poison Strike 2
+|passiveB3=Poison Strike 3
+|passiveB4=Occultist's Strike
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Res Smoke 1
+|passiveC2=Res Smoke 2
+|passiveC3=Res Smoke 3
+|passiveC4=Def/Res Smoke 3
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+{{Enemies Navbox}}

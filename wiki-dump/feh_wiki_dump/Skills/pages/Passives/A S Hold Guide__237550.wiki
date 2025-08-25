@@ -1,0 +1,51 @@
+{{Passive
+|name=A/S Hold Guide
+|type=C
+|exclusive=0
+|canUseWeapon={{WeaponList|Close}}
+|canUseMove={{MoveList|Flying}}
+|properties=random_owner
+|1name=A/S Hold Guide
+|alt1name=A S Hold Guide
+|1tagid=SID_攻速大牽制・導き手
+|1effect=Allies within 2 spaces of unit can move to any space within 2 spaces of unit.<br><br>Unit can move to a space within 2 spaces of any ally within 2 spaces.<br><br>Inflicts Atk/Spd-4 on foes within 3 spaces of unit during combat.
+|1cost=300
+|1required=Atk/Spd Rein 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Warp|[[within 2 spaces]]<br>of {{Tgt|Unit}}}}
+|Me1T={{Tgt|Allies}}<br>[[within 2 spaces]]
+|Me2={{Eft|Warp|[[within 2 spaces]]<br>of {{Tgt|Allies}}<br>[[within 2 spaces]]}}
+|Ce={{Eft|Temporary debuffs|Atk/Spd|4}}
+|CeT={{Tgt|Foes}}<br>[[within 3 spaces]]
+}}
+==Notes==
+{{Warp interaction}}
+{{Temporary debuffs}}
+{{FoesCombatEffect|temporary debuffs}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=Aguante guía A/V
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+
+==See also==
+{{See also skills|cond=(Description LIKE '%unit can move to a space within 2 spaces of an% ally within _ spaces%' OR Description LIKE '%allies%within 2 spaces%can move to a%space within 2 spaces of unit%') AND Exclusive='1'}}
+* [[Hold Guide Passives]]
+* [[Hold Passives]]
+* [[Guidance Passives]]
+* [[Warp Passives]]
+{{Passives Navbox|C}}

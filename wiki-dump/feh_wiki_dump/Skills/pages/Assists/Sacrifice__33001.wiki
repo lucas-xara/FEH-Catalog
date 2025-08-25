@@ -1,0 +1,43 @@
+{{Assist
+|tagid=SID_癒しの手
+|name=Sacrifice
+|range=1
+|effect=Converts penalties on target into bonuses. Restores HP to target = unit's current HP-1. Reduces unit's HP by amount restored.
+|cost=400
+|exclusive=1
+|required=Ardent Sacrifice
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{Eft|Bonuses|Atk/Spd/Def/Res|{{SEt|Penalty}} on each stat}}
+|Se2=Removes {{SEt|Penalties}}
+|SeT={{Tgt|Target Ally}}
+|SeC={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}
+|Me1={{Eft|Heal|{{Tgt|Unit}}'s current HP-1}}
+|MeT1={{Tgt|Target Ally}}
+|MeC1={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}<br>'''or''' {{SEt|Deep Wounds}}
+|Me2={{Eft|Damage|HP restored to<br>{{Tgt|Target Ally}}}}
+|MeT2={{Tgt|Unit}}
+|MeC2={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}
+}}
+==Notes==
+* Sacrifice has the same effect as {{St|Harsh Command}}.
+{{Penalty conversion}}
+{{HP transfer notes}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=癒しの手
+|german=Opfer
+|spanishEU=Sacrificio
+|spanishLA=Sacrificio
+|french=Sacrifice
+|italian=Sacrificio
+|chineseTW=治癒之手
+|portuguese=Sacrifício
+}}
+{{Assists Navbox}}

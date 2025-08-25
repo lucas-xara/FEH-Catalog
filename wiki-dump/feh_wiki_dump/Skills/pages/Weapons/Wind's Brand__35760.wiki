@@ -1,0 +1,48 @@
+{{Weapon Infobox
+|tagid=SID_深き印の風
+|weaponType=Green Tome
+|weaponName=Wind's Brand
+|might=14
+|range=2
+|effect=At start of turn, inflicts Atk-7 on foe on the enemy team with the highest Atk through its next action.
+|cost=400
+|exclusive=yes
+|userVersion1=Closed|userVersion2=Open|userVersion3=Gleam Closed|userVersion4=Gleam Open|statModifiers=0,14,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=During combat, boosts unit's Atk/Spd/Def/Res by number of adjacent allies × 2.
+|iconSkill1=Wind's Brand W.png
+|tagidExtraSkill1=梟
+|properties=
+}}
+==Notes==
+* Has the same effect as {{Pt|Chill Atk 3}}.
+{{Penalties}}
+{{SelectStat|Atk}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Combat boosts}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|アウルR|Owl R}}
+==In other languages==
+{{OtherLanguages
+|japanese=深き印の風
+|german=Mal des Windes
+|spanishEU=Estigma del aire
+|spanishLA=Estigma del aire
+|french=Marque du vent
+|italian=Marchio di vento
+|chineseTW=深刻烙印之風
+|portuguese=Estigma do vento
+}}
+==See also==
+* [[Chill Passives]]
+* [[Owl Weapons]]
+{{Weapons Navbox}}
+[[Category:Owl weapons]]

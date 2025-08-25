@@ -1,0 +1,46 @@
+{{Special
+|tagid=SID_三雄の双刃
+|intID=3974
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=2
+|effect=When Special triggers, boosts damage by 40% of unit's Res and neutralizes foe's "reduces damage by X%" effects from non-Special skills. At start of combat, if unit's Special is ready and unit's Res > foe's Res, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 3 (max 30%).
+|required=Iceberg
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{Eft|Damage Boost|percent=1|40% of {{Tgt|Unit}}'s Res}}
+|CombatEffect 2={{Eft|Neutralize Damage Reduction}}
+|CombatEffect 2 Targets={{Tgt|Foe}}
+|CombatEffect 1-2 Conditions=Special triggers
+|CombatEffect 3={{Eft|Damage Reduction|3 x ({{Tgt|Unit}}'s Res - {{Tgt|Foe)}}'s Res)<br>from attacks & Non-Røkkr [[AoE Specials]]|percent=1|max=30%}}
+|CombatEffect 3 Targets={{Tgt|Unit}}
+|CombatEffect 3 Conditions=Special is ready<br>at start of combat<br>'''&''' {{Tgt|Unit}}'s Res ><br>{{Tgt|Foe)}}'s Res
+}}
+
+==Notes==
+{{DamageBoost}}
+{{DamageReductionNeutralization}}
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=三雄の双刃
+|german=Waffen der Drei
+|spanishEU=Filos de los Tres
+|spanishLA=Filos de los Tres
+|french=Lames des Trois
+|italian=Lame dei tre
+|chineseTW=三雄的雙刃
+|portuguese=Armas dos três
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%disables%reduce%damage by x%' OR Description LIKE '%neutralizes%reduce%damage by x%') AND Description LIKE '%non-Special%' AND Description NOT LIKE '%reduces the percentage%'}}
+* [[Dragon Wall]]
+{{Specials Navbox}}

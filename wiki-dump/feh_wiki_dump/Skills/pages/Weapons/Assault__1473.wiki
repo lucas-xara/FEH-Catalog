@@ -1,0 +1,29 @@
+{{Weapon Infobox
+|tagid=SID_アサルト
+|weaponType=Staff
+|might=10
+|range=2
+|cost=50
+|next=Fear
+|promotionRarity=3
+|promotionTier=2
+|required=-
+|statModifiers=0,10,0,0,0
+|properties=random_all
+}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=アサルト
+|german=Sturmlauf
+|spanishEU=Acometida
+|spanishLA=Asalto
+|french=Assaut
+|italian=Assalto
+|chineseTW=襲擊
+|portuguese=Ofensiva
+}}
+{{Weapons Navbox}}

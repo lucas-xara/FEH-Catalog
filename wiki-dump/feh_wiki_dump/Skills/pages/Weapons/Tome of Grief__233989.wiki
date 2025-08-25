@@ -1,0 +1,73 @@
+{{Weapon Infobox
+|tagid=SID_哀歌の書
+|intID=4700
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|exclusive=1
+|weaponType=Red Tome
+|cost=400
+|might=14
+|range=2
+|effect=At start of turn, if unit's HP ≥ 25%, inflicts Atk/Res-7 and status preventing counterattacks on closest foes and foes within 2 spaces of those foes through their next actions.<br><br>At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit, neutralizes foe's bonuses to Atk/Res, and grants Special cooldown charge +1 to unit per attack during combat (only highest value applied; does not stack).
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|refineStatsSkill1=0,0,0,0,0
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit, neutralizes penalties to unit's Atk/Res, deals damage = 20% of unit's Res (excluding area-of-effect Specials), and unit makes a guaranteed follow-up attack during combat.
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Se1={{Eft|Penalties|Atk/Res|7}}
+|s1 Se2={{SEt|Counterattacks Disrupted}}
+|s1 SeT=Closest {{Tgt|Foes}}<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}
+|s1 SeC=At start of turn<br>if {{Tgt|Unit}}'s HP ≥ 25%
+|s1 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s1 Ce2={{Eft|Accelerate Charge}}
+|s1 Ce3={{Eft|Neutralize Bonuses|Atk/Res}}
+|s1 Ce3T={{Tgt|Foe}}
+|s1 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|skill2={{Si|Tome of Grief|refine=Skill1}} Skill refine effects
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s2 Ce2={{Eft|Neutralize Penalties|Atk/Res}}
+|s2 Ce3={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Res}}
+|s2 Ce4={{Eft|Guaranteed Follow-Ups}}
+|s2 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{Penalties}}
+{{Counterattacks disrupted}}
+{{Temporary buffs}}
+{{Bonus neutralization}}
+{{CooldownChargePlus}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Penalty neutralization|name={{St|Tome of Grief|refine=Skill1}}}}
+{{DamageBoost|name={{St|Tome of Grief|refine=Skill1}}}}
+{{Guaranteed follow-up interaction|name={{St|Tome of Grief|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V9.5_v0905a_dark_Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%status preventing counterattacks%est foes%next actions%' AND Exclusive='1'}}
+{{Weapons Navbox}}

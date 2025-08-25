@@ -1,0 +1,37 @@
+{{Weapon Infobox
+|tagid=SID_反攻の槍
+|weaponType=Lance
+|weaponName=Reprisal Lance
+|might=10
+|range=1
+|effect=If foe initiates combat, grants Atk+6 during combat.
+|cost=200
+|exclusive=0
+|statModifiers=0,10,0,0,0
+|next=Reprisal Lance+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Lance
+|properties=random_all
+}}
+==Notes==
+* Has the same effect as {{Pt|Fierce Stance 3}}.
+{{IfFoeInitiates}}
+{{Combat boosts}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=反攻の槍
+|german=Rachelanze
+|spanishEU=Lanza represalia
+|spanishLA=Lanza represal.
+|french=Lance représailles
+|italian=Lancia punitiva
+|chineseTW=反攻之槍
+|portuguese=Lança retaliativa
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe initiates combat, grants Atk+%during combat%' AND WikiName NOT LIKE '%reprisal%'|columns=3}}
+* [[Skill families#Reprisal|Reprisal Weapons]]
+{{Weapons Navbox}}

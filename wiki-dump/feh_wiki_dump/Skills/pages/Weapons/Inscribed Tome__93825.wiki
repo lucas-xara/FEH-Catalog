@@ -1,0 +1,68 @@
+{{Weapon Infobox
+|tagid=SID_金石の書
+|weaponType=Green Tome
+|might=14
+|range=2
+|effect=Grants weapon-triangle advantage against colorless foes, and inflicts weapon-triangle disadvantage on colorless foes during combat.
+|cost=400
+|exclusive=1
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|statModifiers=0,14,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If foe initiates combat and uses sword, lance, axe, or beast damage, unit can counterattack regardless of foe's range.
+|iconSkill1=Inscribed Tome W.png
+|tagidExtraSkill1=特
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Ce1={{Eft|New WTA}}
+|s1 Ce2={{Eft|New WTD}}
+|s1 Ce2T={{Tgt|Foe}}
+|s1 CeC={{Tgt|Foe}} is<br>{{Wti|group=1|Colorless}} Colorless
+|skill2={{Si|Inscribed Tome|refine=Skill1}} Skill refine effects
+|s2 Ce={{Eft|Close Counter}}
+|s2 CeC={{Tgt|Foe}} is<br>{{Cwti|group=1|Melee,Beast}}<br>[[Melee]] '''or''' [[Beast]]
+}}
+
+==Notes==
+{{New WTA|colorless}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfFoeInitiates}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+inscribed_tome_animation.webm|Animation
+V3.8_89_abc02_Mag.webp|Spritesheet for {{St|Book of Orchids}}, [[Fox tomes]], and {{PAGENAME}}'s animations.
+</gallery>
+==Trivia==
+{{Rsn|特殊射程R剣槍斧獣|Special Range R Sword Lance Axe Beast}}
+==In other languages==
+{{OtherLanguages
+|japanese=金石の書
+|german=Gravurenbuch
+|spanishEU=Grimorio inscrito
+|spanishLA=Grimorio inscrito
+|french=Tome gravé
+|italian=Tomo inciso
+|chineseTW=金石之書
+|portuguese=Tomo gravado
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%grants weapon-triangle advantage%' AND Description LIKE '%colorless%weapon-triangle%' OR Description LIKE '%foe initiates combat and%can counterattack regardless of foe_s range%' OR Description LIKE '%against%foes%can counterattack regardless of foe_s range%' AND Description LIKE '%in combat against%') AND Exclusive='1'}}
+* [[Raven Tomes]]
+* [[:Category:Weapons with Close Counter|Weapons with Close Counter]]
+* [[:Category:Weapons with Distant Counter|Weapons with Distant Counter]]
+{{Weapons Navbox}}
+[[Category:Weapons that grant triangle advantage against colorless foes]]

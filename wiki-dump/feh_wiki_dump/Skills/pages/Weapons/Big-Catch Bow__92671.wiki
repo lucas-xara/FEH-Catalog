@@ -1,0 +1,37 @@
+{{Weapon Infobox
+|tagid=SID_大漁の弓
+|weaponType=Bow
+|might=8
+|range=2
+|effectiveness=flying
+|effect=Effective against flying foes. If【Penalty】is active on foe, grants Atk/Spd+5 during combat.<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|cost=200
+|exclusive=0
+|userVersion1=Bow
+|userVersion2=Arrow
+|statModifiers=0,8,0,0,0
+|required=Steel Bow
+|next=Big-Catch Bow+
+|promotionRarity=5
+|promotionTier=1
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|flying}}{{Combat boosts}}{{EffectfromPenalty|target=foe|combat boost effect}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=大漁の弓
+|german=Angelbogen
+|spanishEU=Arco pesquero
+|spanishLA=Arco pesquero
+|french=Arc à pêche
+|italian=Arco da pesca
+|chineseTW=豐漁之弓
+|portuguese=Arco pesqueiro
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if%penalty%is active on foe%grants%/%+%during combat%' AND SCategory='weapon'|columns=3}}
+*[[Skill families#Catch|Catch Passives]]
+{{Weapons Navbox}}

@@ -1,0 +1,43 @@
+{{Special
+|tagid=SID_ノヴァの聖戦士
+|charge=3
+|effect=If unit initiates combat, grants another action to unit after combat. (Once per turn.) When Special triggers, inflicts "restricts movement to 1 space" on unit and Pair Up cohort through their next action.
+|cost=500
+|exclusive=1
+|required=Astra
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Another Action}}
+|MeC=After combat<br>in Player Phase<br>'''&''' Special is ready
+|Se={{SEt|Gravity}}
+|SeT={{Tgt|Unit}} '''&'''<br>{{Tgt|Cohort}}
+|SeC=After combat in<br>Player Phase if<br>{{Eft|Another Action}}<br>effect triggered
+}}
+
+==Notes==
+{{Galeforce notes}}
+{{Gravity}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{NorseMyth|name=Njörun|is the norse goddess of the earth.}}
+==In other languages==
+{{OtherLanguages
+|japanese=ノヴァの聖戦士
+|german=Njöruns Eifer
+|spanishEU=Fervor de Njörun
+|spanishLA=Fervor de Njörun
+|french=Ferveur Njörun
+|italian=Fervore di Njörun
+|chineseTW=諾華的聖戰士
+|portuguese=Ardor de Njörun
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%if unit initiates%after combat%another action to unit%' OR  Description LIKE '%if unit initiates%another action to unit%after combat%' AND Description NOT LIKE '%if unit initiates%assist%another action%' OR Description LIKE '%if unit initiates%grants unit another action%after combat%'}}
+{{Specials Navbox}}

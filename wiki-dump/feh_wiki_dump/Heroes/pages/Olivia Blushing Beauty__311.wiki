@@ -1,0 +1,71 @@
+{{#invoke:NameAbout|main|Name=Olivia}}{{HeroPage Tabs|{{PAGENAME}}}}
+{{Hero Infobox
+|Name=Olivia
+|Title=Blushing Beauty
+|GrowthModifier= None
+|WeaponType=Red Sword
+|Origin=Fire Emblem Awakening
+|Gender=Female
+|MoveType=Infantry
+|actorEN=Karen Strassman
+|actorJP=松嵜麗
+|artist=AKIRA
+|releaseDate = February 2, 2017
+|poolDate = February 2, 2017
+|poolRarities=3,4
+|TagID=オリヴィエ
+|InternalID=14
+|Properties=refresher,tiara
+|cv1=10
+|cv2=300400
+|description=A dancer who travels widely and is quite gifted, despite extreme shyness. Appears in Fire Emblem Awakening.
+}}
+
+__TOC__
+
+{{Stats Page|Hero={{BASEPAGENAME}}
+|Lv1HP=17|Lv1ATK=6|Lv1SPD=7|Lv1DEF=5|Lv1RES=4
+|GRHP=45|GRATK=50|GRSPD=60|GRDEF=50|GRRES=50
+}}
+
+== Skills ==
+
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Silver Sword+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+
+===Assists===
+{{Assists Table
+|assist1=Dance
+|assist1Default=4
+|assist1Unlock=3
+}}
+
+===Specials===
+{{Specials Table
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Knock Back
+|passiveB1Unlock=3
+|passiveC1=Hone Atk 1
+|passiveC2=Hone Atk 2
+|passiveC3=Hone Atk 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+
+{{Heroes Navbox}}

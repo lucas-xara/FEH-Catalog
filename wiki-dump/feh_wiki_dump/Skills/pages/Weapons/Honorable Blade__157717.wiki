@@ -1,0 +1,38 @@
+{{Weapon Infobox
+|tagid=SID_義侠の戦刃
+|intID=2740
+|image=wep_dg053
+|exclusive=1
+|weaponType=Dagger
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Enables【Canto (２)】.<br><br>Accelerates Special trigger (cooldown count-1). At start of turn, unit can move 1 extra space. (That turn only. Does not stack.) At start of combat, if foe's HP ≥ 50%, grants Atk/Spd+6 to unit during combat.<br><br>Effect:【Dagger ７】<br><br>【Canto (２)】<br>After an attack, Assist skill, or structure destruction, unit can move ２ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|statModifiers=0,14,0,0,0
+|required=Silver Dagger
+|properties=random_owner
+}}
+==Notes==
+{{Canto|2}}
+{{Temporary buffs}}
+{{Mobility increased}}
+{{IfUnitAttacked}}
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=義侠の戦刃
+|german=Ehrbare Klinge
+|spanishEU=Hoja caballerosa
+|spanishLA=Hoja caballerosa
+|french=Brave lame
+|italian=Lama d'onore
+|chineseTW=俠義的戰刃
+|portuguese=Espada da honra
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%start of%turn%unit can move 1 extra space%' AND Description NOT LIKE '%transforms%' AND Description NOT LIKE '%stall%restricts movement%' AND Exclusive='1' OR Description LIKE '%【Canto (２)】%'}}
+* [[Skill families/C Passives#Tempest|Tempest Passives]]
+{{Weapons Navbox}}

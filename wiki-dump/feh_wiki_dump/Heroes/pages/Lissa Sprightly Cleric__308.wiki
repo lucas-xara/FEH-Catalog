@@ -1,0 +1,69 @@
+{{#invoke:NameAbout|main|Name=Lissa}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Lissa
+|Title=Sprightly Cleric
+|GrowthModifier= None
+|WeaponType=Colorless Staff
+|Origin=Fire Emblem Awakening
+|Gender=Female
+|MoveType=Infantry
+|artist=ザザ
+|actorEN=Kate Davis
+|actorJP=阿澄佳奈
+|releaseDate=February 2, 2017
+|poolDate=February 2, 2017
+|randomStartTime=2017-02-02T07:00:00Z
+|poolRarities=3,4
+|TagID=リズ
+|InternalID=89
+|cv1=10
+|cv2=100400
+|description=Princess of Ylisse's royal house and Chrom's younger sister. Determined to prove herself. Appears in Fire Emblem Awakening.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=7|Lv1SPD=6|Lv1DEF=6|Lv1RES=8
+|GRHP=50|GRATK=45|GRSPD=45|GRDEF=50|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Assault
+|weapon1Unlock=1
+|weapon2=Gravity
+|weapon2Unlock=3
+|weapon3=Gravity+
+|weapon3Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Heal
+|assist1Default=1
+|assist1Unlock=1
+|assist2=Reconcile
+|assist2Default=3
+|assist2Unlock=2
+|assist3=Rehabilitate
+|assist3Default=5
+|assist3Unlock=4
+|assist4=Rehabilitate+
+|assist4Unlock=5
+}}
+===Specials===
+{{Specials Table
+|special1=Imbue
+|special1Default=4
+|special1Unlock=2
+|special2=Kindled-Fire Balm
+|special2Default=5
+|special2Unlock=3
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Renewal 1
+|passiveB2=Renewal 2
+|passiveB3=Renewal 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+{{Heroes Navbox}}

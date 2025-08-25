@@ -1,0 +1,35 @@
+{{Passive
+|type=C
+|name=Domain of Flame
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Domain of Flame
+|1tagid=SID_絶炎結界
+|1cost=300
+|1effect=Grants Atk/Def+4 and the effect "if unit's Atk > foe's Res during combat, unit's first attack deals damage = 30% of unit's Atk minus foe's Res" to allies within 2 spaces during combat. If unit is within 2 spaces of an ally, grants Atk/Def+4 to unit during combat, and also, if unit's Atk > foe's Res during combat, unit's first attack deals damage = 30% of unit's Atk minus foe's Res.
+|1required=-
+}}
+==Notes==
+{{Temporary buffs}}
+{{AtkDamageBoost}}
+{{AlliesCombatEffect}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=絶炎結界
+|german=Glühendes Reich
+|spanishEU=Dominio ígneo
+|spanishLA=Dominio ígneo
+|french=Domaine du feu
+|italian=Dominio del rogo
+|chineseTW=絕炎結界
+|portuguese=Domínio do fogo
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit_s Atk%foe_s%deals damage%' OR (Description LIKE '%grants%/%+%to allies within%spaces%if unit is within%spaces of an ally%grants%/%+%during combat%' OR Description LIKE '%if unit is within%spaces of an ally%grants%/%+%to unit and allies%during combat%') AND WikiName NOT LIKE '%allied%' AND Exclusive='1'}}
+* [[Skill families#Allied|Allied Weapons]]
+* [[Joint Drive Passives]]
+{{Passives Navbox|C}}

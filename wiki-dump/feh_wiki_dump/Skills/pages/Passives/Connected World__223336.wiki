@@ -1,0 +1,69 @@
+{{Passive
+|name=Connected World
+|type=C
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_inherit_base
+|1name=Connected World
+|1tagid=SID_人と神が繋がる世界
+|1effect=If unit can transform, transformation effects gain "if unit is within 2 spaces of any allies from a different title than unit" as a trigger condition (in addition to existing conditions).<br><br>If defending in Aether Raids, at the start of enemy turn 1, if conditions for transforming are met, unit transforms.<br><br>At start of turn, and at start of enemy phase (except for in Summoner Duels), if unit is within 3 spaces of any allies from a different title than unit, grants Atk/Def+6,【Resonance: Blades】, 【Resonance: Shields】, and "reduces the percentage of foe's non-Special 'reduce damage by X%' skills by 50% during combat (excluding area-of-effect Specials)" to unit and allies within 3 spaces of unit for 1 turn, and also, for unit and allies within 3 spaces of unit, if Special cooldown count is at its maximum value, grants Special cooldown count-1.<br><br>If unit is within 3 spaces of an ally, grants Atk/Def/Res+5 to unit and reduces damage from foe's attacks by 40% during combat (excluding area-of-effect Specials), and also, if unit's Special cooldown count is at its maximum value after combat, grants Special cooldown count-1 to unit after combat.<br><br>For allies within 3 spaces of unit, if Special cooldown count is at its maximum value after combat, grants Special cooldown count-1.<br><br>【Resonance: Blades】<br>Grants Atk/Spd+4 during combat for 1 turn.<br><br>【Resonance: Shields】<br>Grants Def/Res+4 during combat and the following effect for 1 turn: "During unit's first combat in player phase or enemy phase, foe cannot make a follow-up attack."
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Added Transform Condition|if an {{Tgt|Ally}} from<br>a different [[title]] is<br>[[within 2 spaces]]}}
+|Me2={{Eft|AR-D Transform}}
+|Me2C=At start of<br>Enemy Turn 1
+|Me3={{Eft|Reduce Cooldown|1}}
+|Me3T={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 3 spaces]]
+|Me3C=({{Eft|Bonuses|Atk/Def|6}} <br>conditions) '''&'''<br>{{Tgt|Unit}} or {{Tgt|Ally}}'s <br>CD is max value
+|Me4={{Eft|Reduce Cooldown|1}}
+|Me4C=After combat<br>if an {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|Me5={{Eft|Reduce Cooldown|1}}
+|Me5T={{Tgt|Allies}}<br>[[within 3 spaces]]
+|Me5C=After combat<br>if {{Tgt|Ally}}'s CD<br>is max value
+|Se1={{Eft|Bonuses|Atk/Def|6}}
+|Se2={{SEt|Resonance: Blades}}
+|Se3={{SEt|Resonance: Shields}}
+|Se4=<span style="width:12em;display:inline-block"/>{{SEt|Halves non-Special damage reduction}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 3 spaces]]
+|SeC=At start of turn<br>'''&''' Enemy Phase*<br>if an {{Tgt|Ally}} from<br>a different [[title]] is<br>[[within 3 spaces]]
+|Ce1={{Eft|Temporary buffs|Atk/Def/Res|5}}
+|Ce2={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s attacks
+|CeC=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+}}
+<b>{{Hatnote|&#42; Excluding Enemy Phase in [[Summoner Duels]].}}</b>
+
+==Notes==
+{{TransformConditionAdd}}
+* The effects of Connected World will ''only'' be granted to the user and allies within 3 spaces (regardless of titles), if there is an ally from a different title than the user within 3 spaces.
+{{Bonuses}}
+{{Resonance: Blades}}
+{{Resonance: Shields}}
+{{Halves non-Special damage reduction}}
+{{Start of turn Special modification}}
+{{Temporary buffs}}
+{{DamagePercentageReduction}}
+{{After combat Special modification}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%【Resonance:%' OR Description LIKE '%at start of turn%unit%allies%maximum value%Special cooldown count-%' OR Description LIKE '%start of turn%unit%allies%Special cooldown count-%maximum value%' OR Description LIKE '%transformation effects gain%' OR Description LIKE '%If defending in Aether Raids, at the start of enemy turn 1%') AND Exclusive='1'}}
+* [[Skill families/A Passives#Fortune|Fortune Passives]]
+{{Passives Navbox|C}}

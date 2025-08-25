@@ -1,0 +1,45 @@
+{{Special
+|tagid=SID_重圧の聖光
+|intID=3478
+|exclusive=0
+|canUseWeapon={{WeaponList|Colorless Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=3
+|effect=If an Assist skill is used, unit's Special cooldown count does not go down. When Special triggers, boosts damage by 45% of foe's Res. (Calculates damage from staff after combat damage is added.) If this Special is triggered during combat, inflicts【Gravity】on target and adjacent foes after combat.<br><br>【Gravity】<br>Restricts target's movement to 1 space through its next action.
+|required=Miracle
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|No Special cooldown charge}}
+|Ce1C={{Tgt|Unit}} uses<br>an Assist skill
+|Ce2={{Eft|Damage Boost|45% of {{Tgt|Foe}}'s Res}}
+|Ce2C=Special triggers
+|Se={{SEt|Gravity}}
+|SeT={{Tgt|Target Foe}} '''&''' [[Adjacent]]<br>{{Tgt|Foes}}
+|SeC=After combat if<br>Special triggers
+}}
+==Notes==
+{{DamageBoost}}
+{{After combat note}}
+{{Gravity}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=重圧の聖光
+|japaneseNotes=<i>Holy Light of Pressure</i>
+|german=Heilige Stärke
+|spanishEU=Presión sagrada
+|spanishLA=Presión sagrada
+|french=Pression sacrée
+|italian=Pressione divina
+|chineseTW=重壓的聖光
+|portuguese=Pressão sagrada
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%deals damage =%\% of foe_s Res%' OR Description LIKE '%boosts damage by %\% of foe_s Res%'}}
+* [[Holy Light Specials]]
+{{Specials Navbox}}
+[[Category:Holy Light Specials]]

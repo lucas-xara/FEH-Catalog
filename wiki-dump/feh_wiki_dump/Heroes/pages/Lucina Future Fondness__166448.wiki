@@ -1,0 +1,75 @@
+{{#invoke:NameAbout|main|Name=Lucina}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Lucina
+|Title=Future Fondness
+|WeaponType=Green Axe
+|MoveType=Armored
+|Origin=Fire Emblem Awakening
+|Gender=Female
+|actorEN=Alexis Tipton
+|actorJP=小林ゆう
+|artist=RIZ3
+|additionDate=February 8, 2022
+|releaseDate=February 8, 2022
+|cv1=10
+|cv2=6900100
+|TagID=愛の祭ルキナ
+|InternalID=767
+|Properties=special,hat
+|description=Chrom's daughter from the future. The flowers she's adorned with are a perfect fit for the Day of Devotion. Appears in Fire Emblem Awakening.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=9|Lv1SPD=12|Lv1DEF=11|Lv1RES=9
+|GRHP=55|GRATK=70|GRSPD=70|GRDEF=60|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Gerbera Axe
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Swap
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Future Vision
+|assist2Unlock=5
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Darting Stance 1
+|passiveA2=Kestrel Stance 1
+|passiveA3=Kestrel Stance 2
+|passiveA4=Kestrel Stance 3
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Savvy Fighter 1
+|passiveB2=Savvy Fighter 2
+|passiveB3=Savvy Fighter 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=A/D Near Save 1
+|passiveC2=A/D Near Save 2
+|passiveC3=A/D Near Save 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Day of Devotion units]]

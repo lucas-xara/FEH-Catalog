@@ -1,0 +1,78 @@
+{{#invoke:NameAbout|main|Name=Hinoka|Name2=Camilla}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Hinoka
+|Title=Fair Pirate Pair
+|WeaponType=Green Bow
+|MoveType=Flying
+|Origin=Fire Emblem Fates
+|Gender=FF
+|duo=Grants Atk/Spd+6 to unit and flying allies within 3 rows or 3 columns centered on unit, and they can move 1 extra space. (That turn only. Does not stack.)<br><br>Inflicts【Gravity】on bow, dagger, magic, and staff foes within 3 rows or 3 columns centered on unit if they are also infantry, armored, or cavalry foes.<br><br>【Gravity】<br>Restricts target's movement to 1 space through its next action.
+|secondPerson=Camilla
+|Duel=190
+|actorEN=Cindy Robinson,Misty Lee
+|actorJP=名塚佳織,沢城みゆき
+|artist=あんべよしろう
+|additionDate=August 4, 2021
+|releaseDate=August 5, 2021
+|cv1=11
+|cv2=200600
+|TagID=比翼ヒノカ
+|InternalID=690
+|Properties=special,duo,hat,specRate_202502
+|description=Two princesses, one from Hoshido and the other from Nohr, have banded together as pirates. They appear in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=10|Lv1SPD=10|Lv1DEF=4|Lv1RES=6
+|GRHP=50|GRATK=70|GRSPD=70|GRDEF=45|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=3
+|weapon2Unlock=3
+|weapon3=Silver Bow
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Mermaid Bow
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Harsh Command
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Harsh Command+
+|assist2Unlock=5
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Push 1
+|passiveA2=Atk/Spd Push 2
+|passiveA3=Atk/Spd Push 3
+|passiveA4=Atk/Spd Push 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=S/R Far Trace 1
+|passiveB2=S/R Far Trace 2
+|passiveB3=S/R Far Trace 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Def/Res Rein 1
+|passiveC2=Def/Res Rein 2
+|passiveC3=Def/Res Rein 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}[[Category:Sources of bonuses]][[Category:Sources of Mobility increased]][[Category:Sources of Gravity]][[Category:Sources of status effects]]
+[[Category:Pirate Festival units]]

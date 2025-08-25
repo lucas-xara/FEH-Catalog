@@ -1,0 +1,87 @@
+{{#invoke:NameAbout|main|Name=Idunn|Name2=Fae}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Idunn
+|Title=Dragonkin Duo
+|WeaponType=Red Breath
+|Origin=Fire Emblem: The Binding Blade
+|Gender=FF
+|duo=Grants Def/Res+6 and the following status to unit and allies within 5 rows and 5 columns centered on unit for 1 turn: "Neutralizes 'effective against dragons' bonuses and 'effective against armored' bonuses."
+|secondPerson=Fae
+|Duel=185
+|MoveType=Armored
+|actorJP=種田梨沙,小澤亜李
+|actorEN=—,Sarah Blandy
+|artist=海鵜げそ
+|additionDate=March 18, 2020
+|releaseDate=March 18, 2020
+|TagID=比翼イドゥン
+|InternalID=498
+|Properties=special,duo,hat,specRate_202402
+|cv1=5
+|cv2=1900100
+|description=The last of the dragonkin on the continent Elibe. They heard about the spring festival and are trying the costumes out for themselves. They appear in Fire Emblem: The Binding Blade.
+}}
+{{Stats Page
+|Lv1HP=20|Lv1ATK=9|Lv1SPD=4|Lv1DEF=7|Lv1RES=8
+|GRHP=60|GRATK=65|GRSPD=50|GRDEF=70|GRRES=70
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire Breath
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Fire Breath+
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Flametongue
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Zephyr Breath
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Iceberg
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Steady Stance 1
+|passiveA2=Sturdy Stance 1
+|passiveA3=Sturdy Stance 2
+|passiveA4=Sturdy Stance 3
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Vengeful Fighter 1
+|passiveB2=Vengeful Fighter 2
+|passiveB3=Vengeful Fighter 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Spur Atk 1
+|passiveC2=Spur Atk 2
+|passiveC3=Goad Dragons
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Sources of bonuses]]
+[[Category:Sources of Neutralize Effective Against Dragons]]
+[[Category:Sources of Neutralize Effective Against Armored]]
+[[Category:Sources of status effects]]
+[[Category:Sources of dragon effectiveness neutralization]]
+[[Category:Sources of armored effectiveness neutralization]]
+[[Category:Sources of effectiveness neutralization]]
+[[Category:Spring Festival units]]

@@ -1,0 +1,58 @@
+{{Weapon Infobox
+|tagid=SID_辰年の幼姫の竜石
+|intID=3935
+|image=wep_ac074
+|exclusive=0
+|weaponType=Dragonstone
+|cost=200
+|might=10
+|range=1
+|effect=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit, reduces damage from foe's first attack by 15% of unit's Atk ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and inflicts Special cooldown charge -1 on foe per attack during combat (only highest value applied; does not stack). If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|required=Fire Breath+
+|next=New-Sun Stone+
+|promotionRarity=5
+|promotionTier=1
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{SkillEffectText|Temporary buffs|Atk/Spd/Def/Res|4}}
+|CombatEffect 2={{SkillEffectText|Damage Reduction|percent=1|15% of {{SkillTargetText|Unit}}'s Atk}}<br>from {{SkillTargetText|Foe}}'s first attack<br>(including second attacks)
+|CombatEffect 3={{SkillEffectText|Guard}}
+|CombatEffect 3 Targets={{SkillTargetText|Foe}}
+|CombatEffect 1-3 Conditions={{SkillTargetText|Unit}}'s HP ≥ 25%<br>at start of combat
+|CombatEffect 4={{SkillEffectText|Lower Def Res}}
+|CombatEffect 4 Targets={{SkillTargetText|Unit}}
+|CombatEffect 4 Conditions={{SkillTargetText|Foe}}'s Range = 2
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{FlatDamageReduction}}
+{{CooldownChargeMinus}}
+{{LowerDefRes}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Gallery==
+<gallery>
+V8.0_v0800d_newyear_Mag_2.webp|Sprite sheet for {{St|Cute Paper Crane}}, {{St|Dragon's Stone+}} and {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=辰年の幼姫の竜石
+|german=Morgenlichtstein
+|spanishEU=Piedra del alba
+|spanishLA=Piedra del alba
+|french=Pierre de l'aube
+|italian=Pietra del sole
+|chineseTW=辰年幼姬的龍石
+|portuguese=Pedra solar
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%reduces damage%of unit_s Atk%' AND Description NOT LIKE '%reduces damage%deals damage%of unit_s Atk%' AND Description NOT LIKE '%reduces damage%inflicts penalty%of unit_s Atk%' AND Exclusive='1'}}
+{{Weapons Navbox}}

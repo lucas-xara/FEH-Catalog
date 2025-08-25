@@ -1,0 +1,62 @@
+{{Weapon Infobox
+|tagid=SID_ラウアランタン＋
+|intID=4116
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|exclusive=0
+|weaponType=Red Tome
+|cost=300
+|might=12
+|range=2
+|effect=At start of turn, if unit is within 2 spaces of an ally, grants "unit cannot be slowed by terrain (does not apply to impassable terrain)" and "Special cooldown charge +1 per attack during combat (only highest value applied; does not stack)" to unit for 1 turn. If unit initiates combat or is within 2 spaces of an ally, grants Atk/Res+5 to unit during combat.
+|required=Rauðrlantern
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{SEt|Traverse Terrain}}
+|Se2={{SEt|Special Cooldown Charge +1}}
+|SeC=At start of turn<br>if {{Tgt|Unit}} is<br>[[within 2 spaces]]<br>of an {{Tgt|Ally}}
+|Ce={{Eft|Temporary buffs|Atk/Res|5}}
+|CeC=Player Phase<br>'''or''' an {{Tgt|Ally}} is<br>[[within 2 spaces]]<br>of {{Tgt|Unit}}
+}}
+==Notes==
+{{Traverse Terrain}}
+{{Special Cooldown Charge +1}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Gallery==
+<gallery>
+V8.4_v0804b_if_Mag.webp|Sprite sheet for the [[Skill families/Weapons#Lantern|Lantern Weapons]] animation.
+</gallery>
+==Trivia==
+{{TomeColorTrivia|Raudr}}
+==In other languages==
+{{OtherLanguages
+|japanese=ラウアランタン＋
+|german=Rauðrlaterne+
+|spanishEU=Farol carmesí +
+|spanishLA=Farol rubí +
+|french=Lanterne rubis +
+|italian=Rubinlanterna+
+|chineseTW=赤紅提燈＋
+|portuguese=Lanterna rubra+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%"unit cannot be slowed by terrain%' AND Exclusive='1' AND Name NOT LIKE '%r%lantern+'}}
+* [[Skill families/Weapons#Lantern|Lantern Weapons]]
+{{Weapons Navbox}}

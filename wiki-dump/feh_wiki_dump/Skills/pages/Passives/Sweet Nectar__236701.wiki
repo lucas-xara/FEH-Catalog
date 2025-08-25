@@ -1,0 +1,56 @@
+{{Passive
+|name=Sweet Nectar
+|type=C
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Sweet Nectar
+|1tagid=SID_神獣の甘き蜜
+|1effect=Foes with Range = 1 cannot move through spaces adjacent to unit (does not affect foes with Pass skills).<br><br>Foes with Range = 2 cannot move through spaces within 2 spaces of unit (does not affect foes with Pass skills).<br><br>At start of player phase or enemy phase, if unit is within 2 spaces of an ally, grants 【Divine Nectar】to unit and allies within 2 spaces of unit for 1 turn.<br><br>If a Rally or movement Assist skill is used by an ally with the【Divine Nectar】effect active (excluding unit), grants another action to that ally (once per turn; if another effect that grants action to ally has been activated at the same time, this effect is also considered to have been triggered).<br><br>If unit is within 3 spaces of an ally, grants Atk/Def/Res+5 to unit, unit deals +7 damage (excluding area-of-effect Specials) and reduces damage from foe's attacks by 7 during combat (excluding area-of-effect Specials).<br><br>【Divine Nectar】<br>Neutralizes【Deep Wounds】during combat.<br><br>Restores 20 HP to unit as unit's combat begins (triggers after effects that deal damage as combat begins; only highest value applied; does not stack). If it is unit's first combat initiated by foe or first combat initiated by unit that turn, reduces damage from foe's attacks by 10 during combat (excluding area-of-effect Specials).<br><br>【Deep Wounds】<br>Unit's HP cannot be healed through its next action.
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se={{SEt|Divine Nectar}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=At start of both Phases<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Me1={{Eft|Obstruct|[[adjacent]] to {{Tgt|Unit}}}}
+|MeT1=Range = 1<br>{{Tgt|Foes}}
+|Me2={{Eft|Obstruct|[[within 2 spaces]] of {{Tgt|Unit}}}}
+|MeT2=Range = 2<br>{{Tgt|Foes}}
+|Me3={{Eft|Galeforce}}<br>(once per turn)
+|Me3T={{Tgt|Allies}} with<br>{{SEt|Divine Nectar}}
+|Me3C=A [[Rally Assist|Rally]] or [[Movement Assist|Movement]]<br>Assist is used<br>by an {{Tgt|Ally}}
+|Ce1={{Eft|Temporary buffs|Atk/Def/Res|5}}
+|Ce2={{Eft|Damage Boost|7}}
+|Ce3={{Eft|Damage Reduction|7}}<br>from {{Tgt|Foe}}'s attacks
+|CeC=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+}}
+==Notes==
+{{Obstruct notes}}
+{{Divine Nectar}}
+{{Galeforce notes}}
+{{Temporary buffs}}
+{{FlatDamageBoost|7}}
+{{FlatDamageReduction|7}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%rally assist%another action to that ally%' OR Description LIKE '%【Divine Nectar】%' OR Description LIKE '%foe%cannot move through spaces%unit%') AND Exclusive='1'}}
+* [[Bulwark Passives]]
+{{Passives Navbox|C}}

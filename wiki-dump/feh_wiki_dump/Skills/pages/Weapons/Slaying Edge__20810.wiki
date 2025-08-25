@@ -1,0 +1,35 @@
+{{Weapon Infobox
+|tagid=SID_キルソード2
+|weaponType=Sword
+|weaponName={{PAGENAME}}
+|might=10
+|range=1
+|effect=Accelerates Special trigger (cooldown count-1).
+|cooldown=-1
+|cost=200
+|exclusive=0
+|userVersion1=Weapon|userVersion2=Gleam|statModifiers=0,10,0,0,0
+|next=Slaying Edge+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Sword
+|properties=random_owner
+}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+*The "killing" (キル) part of this weapon's name was dropped in the English localization.
+==In other languages==
+{{OtherLanguages
+|japanese=キルソード鍛
+|german=Gnadenklinge
+|spanishEU=Esp. ejecutora
+|spanishLA=Espada cruel
+|french=Fer meurtrier
+|italian=Lama falciante
+|chineseTW=必殺劍鍛
+|portuguese=Espada cruel
+}}
+==See also==
+* [[Weapons that accelerate the Special trigger]]
+{{Weapons Navbox}}

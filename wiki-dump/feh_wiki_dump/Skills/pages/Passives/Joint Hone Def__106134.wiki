@@ -1,0 +1,46 @@
+{{Passive
+|type=C
+|exclusive=0
+|1name=Joint Hone Def
+|1tagid=SID_守備の相互鼓舞
+|1effect=At start of turn, if unit is adjacent to an ally, grants Def+5 to unit and adjacent allies for 1 turn.
+|1cost=300
+|1required=Fortify Def 3
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se={{Eft|Bonuses|Def|5}}
+|SeT={{Tgt|Unit}} '''&''' [[Adjacent]]<br>{{Tgt|Allies}}
+|SeC=At start of turn if<br>{{Tgt|Unit}} is [[Adjacent]]<br>to an {{Tgt|Ally}}
+}}
+
+==Notes==
+{{Bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=守備の相互鼓舞
+|german=Nachbar-Ver.
+|spanishEU=Omnimpulso Def
+|spanishLA=Omnipulso Def.
+|french=Entraide Déf
+|italian=Incita Dif gruppo
+|chineseTW=防守相互鼓舞
+|portuguese=Def. omnielevada
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%at start of turn, if%grants%Def%+%to unit%allies%for 1 turn%' AND Exclusive='1'}}
+* [[Hone Passives]]
+* [[Fortify Passives]]
+* [[Skill families/C Passives#Joint Hone|Joint Hone Passives]]
+{{Passives Navbox|C}}
+[[Category:Fortify Passives]]
+[[Category:Joint Hone Passives]]

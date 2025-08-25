@@ -1,0 +1,75 @@
+{{#invoke:NameAbout|main|Name=Odin|Name2=Owain}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Odin
+|Title=Potent Force
+|GrowthModifier=None
+|WeaponType=Blue Tome
+|Origin=Fire Emblem Fates
+|Gender=Male
+|MoveType=Infantry
+|actorEN=Kaiji Tang
+|actorJP=高橋英則
+|artist=スエカネクミコ
+|resplendentArtist=argon
+|resplendentArtist-extra=Trys Inc.
+|releaseDate=February 2, 2017
+|poolDate=February 2, 2017
+|randomStartTime=2017-02-02T07:00:00Z
+|poolRarities=3,4
+|TagID=オーディン
+|InternalID=80
+|cv1=11
+|cv2=500900
+|description=A mysterious man who tends to be overly theatrical. One of Leo's retainers. Appears in Fire Emblem Fates.
+|Properties=resplendent,hel
+|resplendentStartTime=2022-12-10T07:00:00Z
+|resplendentEndTime=2022-12-25T06:59:59Z
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=5|Lv1SPD=8|Lv1DEF=6|Lv1RES=6
+|GRHP=55|GRATK=40|GRSPD=55|GRDEF=45|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Thunder
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elthunder
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Blárblade
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Blárblade+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Odin's Grimoire
+|weapon5Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Moonbow
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Defiant Atk 1
+|passiveA2=Defiant Atk 2
+|passiveA3=Defiant Atk 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=R Tomebreaker 1
+|passiveB2=R Tomebreaker 2
+|passiveB3=R Tomebreaker 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+}}
+{{Heroes Navbox}}

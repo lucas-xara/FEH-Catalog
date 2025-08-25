@@ -1,0 +1,48 @@
+{{Passive
+|type=A
+|name=Sturdy Surge
+|exclusive=0
+|canUseWeapon={{WeaponList|Close}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Sturdy Surge
+|1tagid=SID_鬼神金剛の迫撃3
+|1cost=300
+|1effect=If unit initiates combat, grants Atk+7, Def+10 to unit during combat, and also, if unit deals damage to foe using a Special, restores HP = X% of unit's max HP (X = unit's max Special cooldown count value × 20, + 10; max 100). (Triggers even if 0 damage is dealt.)
+|1required=Sturdy Blow 2
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary buffs|Atk|7}}, {{Eft|Temporary buffs|Def|10}}
+|CeC=Player Phase
+|Ce2={{Eft|Heal|20 x {{Tgt|Unit}}'s max<br>Special CD count, +10|percent=1|max=100%}} per<br>{{Tgt|Unit}}'s [[offensive Special]]
+}}
+
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{CombatHPRecovery}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=鬼神金剛の迫撃
+|german=Feste Flut
+|spanishEU=Purga dura
+|spanishLA=Purga dura
+|french=Vague robuste
+|italian=Ferrea scattante
+|chineseTW=鬼神金剛迫擊
+|portuguese=Surto robusto
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%restores HP%of unit_s max HP%' OR Description LIKE '%restores%of unit_s maximum HP%' OR Description LIKE '%X = unit_s max special cooldown count value%') AND Exclusive='1'}}
+* [[Blow Passives]]
+* [[Skill families/A Passives#Surge|Surge Passives]]
+{{Passives Navbox|A}}
+[[Category:Surge Passives]]
+[[Category:Blow Passives]]

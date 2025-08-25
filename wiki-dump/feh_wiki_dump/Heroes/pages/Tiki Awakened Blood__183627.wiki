@@ -1,0 +1,73 @@
+{{#invoke:NameAbout|main|Name=Tiki}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Tiki
+|Title=Awakened Blood
+|WeaponType=Red Breath
+|MoveType=Infantry
+|Origin=Fire Emblem: Mystery of the Emblem
+|Gender=Female
+|actorEN=Mela Lee
+|actorJP=諸星すみれ
+|artist=necömi
+|randomStartTime=2022-12-18T07:00:00Z
+|additionDate=November 18, 2022
+|releaseDate=November 18, 2022
+|poolDate=December 7, 2022
+|poolRarities=5
+|cv1=1
+|cv2=1000100
+|TagID=開花チキ
+|InternalID=874
+|Properties=ascended,tiara,specRate_202508
+|description=Divine Dragon princess, entrusted to slumber by the White Sage, Gotoh, reawakened after the restoration of the Binding Shield. Appears in Fire Emblem: Mystery of the Emblem.
+}}
+{{Stats Page
+|Lv1HP=14|Lv1ATK=7|Lv1SPD=14|Lv1DEF=6|Lv1RES=6
+|GRHP=55|GRATK=80|GRSPD=70|GRDEF=60|GRRES=70
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire Breath
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Fire Breath+
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Flametongue
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Awoken Breath
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Iceberg
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Spd/Res Finish 1
+|passiveA2=Spd/Res Finish 2
+|passiveA3=Spd/Res Finish 3
+|passiveA4=Spd/Res Finish 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Spd/Res Bulwark 1
+|passiveB2=Spd/Res Bulwark 2
+|passiveB3=Spd/Res Bulwark 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=All Together!
+|passiveC1Unlock=5
+}}
+{{Heroes Navbox}}

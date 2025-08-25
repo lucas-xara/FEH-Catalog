@@ -1,0 +1,69 @@
+{{#invoke:NameAbout|main|Name=Ilyana}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Ilyana
+|Title=Treat Harvester
+|WeaponType=Blue Tome
+|Origin=Fire Emblem: Path of Radiance
+|Gender=Female
+|MoveType=Armored
+|actorJP=後藤沙緒里
+|actorEN=Ryan Bartley
+|artist=藤ちょこ
+|additionDate=October 8, 2019
+|releaseDate=October 9, 2019
+|TagID=ハロイレース
+|InternalID=432
+|Properties=special,specRate_202302
+|cv1=8
+|cv2=4900500
+|description=A mage always on the verge of collapsing from hunger, attracted to the harvest festival by the sights and smells of delicious foods. Appears in Fire Emblem: Path of Radiance.
+|GrowthModifier=Gen 4}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=8|Lv1SPD=6|Lv1DEF=8|Lv1RES=11
+|GRHP=50|GRATK=70|GRSPD=40|GRDEF=50|GRRES=60
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Light
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Ellight
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Spooky Censer
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Spooky Censer+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Iceberg
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Bold Fighter 1
+|passiveB2=Bold Fighter 2
+|passiveB3=Bold Fighter 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Atk/Res Gap 1
+|passiveC2=Atk/Res Gap 2
+|passiveC3=Atk/Res Gap 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Halloween units]]

@@ -1,0 +1,44 @@
+{{Special
+|tagid=SID_氷の聖鏡・承
+|charge=2
+|effect=If foe is 2 spaces from unit, reduces damage from foe's attacks by 40%. After triggering, boosts damage for unit's next attack by 40% of unit's Res. (Boost resets at the end of combat.)
+|cost=500
+|exclusive=1
+|required=Ice Mirror
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|Close}}
+|intID=2421
+|sort=501
+|value=12
+|timingID=4
+|abilityID=10
+|properties=defensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s attack
+|Ce1C=Special triggers '''&'''<br>{{Tgt|Foe}} is 2 spaces<br>from {{Tgt|Unit}}
+|Ce2={{Eft|Damage Boost|40% of {{Tgt|Unit}}'s Res}}<br>for {{Tgt|Unit}}'s next attack
+|Ce2C=After Special triggers
+}}
+==Notes==
+{{DefensiveSpecial}}
+{{DamagePercentageReduction}}
+{{DamageBoost|special=0}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=氷の聖鏡・承
+|german=Eisspiegel II
+|spanishEU=Espejo gélido II
+|spanishLA=Espejo gélido II
+|french=Miroir de glace II
+|italian=Specchio gelo II
+|chineseTW=冰之聖鏡・承
+|portuguese=Espelho glacial II
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%foe is 2 spaces from unit%reduces damage from foe_s attacks%' OR Description LIKE '%boosts damage%of unit_s Res%' OR Description LIKE '%reduces damage from foe_s attacks%next attack%'}}
+* [[:Category:Defensive Specials|Defensive Specials]]
+{{Specials Navbox}}

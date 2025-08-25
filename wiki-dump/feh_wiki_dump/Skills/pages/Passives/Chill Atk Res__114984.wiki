@@ -1,0 +1,64 @@
+{{Passive
+|type=B
+|name=Chill Atk/Res
+|exclusive=0
+|1name=Chill Atk/Res 1
+|alt1name=Chill Atk Res 1
+|1tagid=SID_攻撃魔防の封印1
+|1promotionRarity=5
+|1promotionTier=1
+|1effect=At start of turn, inflicts Atk/Res-3 on foe on the enemy team with the highest Atk+Res total through its next action.
+|1required=Chill Atk 1;Chill Res 1
+|1cost=120
+|2name=Chill Atk/Res 2
+|alt2name=Chill Atk Res 2
+|2tagid=SID_攻撃魔防の封印2
+|2effect=At start of turn, inflicts Atk/Res-5 on foe on the enemy team with the highest Atk+Res total through its next action.
+|2cost=240
+|2next=-
+|3name=Chill Atk/Res 3
+|alt3name=Chill Atk Res 3
+|3tagid=SID_攻撃魔防の封印3
+|3cost=300
+|3effect=At start of turn, inflicts Atk/Res-6 on foe on the enemy team with the highest Atk+Res total and foes within 2 spaces of that foe through their next actions.
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+}}
+==Notes==
+{{Penalties}}
+{{SelectStat|Atk+Res total}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Chill Atk/Res 1;Chill Atk/Res 2
+|badgeColor=Transparent
+|costs1=20;100;40
+|costs2=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|english=Chill Atk/Res
+|japanese=攻撃魔防の封印
+|german=Agr./Res.-Brem.
+|spanishEU=Gelidez Ata/Res
+|spanishLA=Gelid. Atq./Res.
+|french=Gel Atq/Rés
+|italian=Att/Res gelanti
+|chineseTW=攻擊魔防封殺
+|portuguese=Atq./Res. gelad.
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%at start of turn, inflict%-%enemy%highest%' OR Description LIKE '%at start of turn, inflict%-%enemy%lowest%') AND Exclusive='1'|columns=3}}
+* [[Chill Passives]]
+{{Passives Navbox|B}}
+[[Category: Chill Passives]]
+{{Seals Navbox}}

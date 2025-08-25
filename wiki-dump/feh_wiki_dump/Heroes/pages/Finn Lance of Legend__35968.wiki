@@ -1,0 +1,68 @@
+{{#invoke:NameAbout|main|Name=Finn}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Finn
+|Title=Lance of Legend
+|GrowthModifier=Gen 2
+|WeaponType=Blue Lance
+|MoveType=Cavalry
+|Origin=Fire Emblem: Thracia 776 
+|Gender=Male
+|actorEN=Robert Clotworthy
+|actorJP=置鮎龍太郎
+|artist=板垣ハコ
+|releaseDate=April 21, 2018
+|additionDate=April 11, 2018
+|TagID=フィン
+|InternalID=238
+|Properties=tempest,limited
+|cv1=4
+|cv2=100200
+|description=A servant of Leonster who swore his loyalty to Leif's father, Quan. His main objective in life is to protect Leif. Appears in Fire Emblem: Thracia 776.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=8|Lv1SPD=9|Lv1DEF=8|Lv1RES=3
+|GRHP=50|GRATK=60|GRSPD=55|GRDEF=55|GRRES=35
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Brave Lance
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Brave Lance+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Loyalty Spear
+|weapon5Unlock=5
+}}
+
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Miracle
+|special1Default=4
+|special1Unlock=3
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Attack +1
+|passiveA2=Attack/Def +1
+|passiveA3=Attack/Def +2
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Spur Atk 1
+|passiveC2=Spur Atk 2
+|passiveC3=Goad Cavalry
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

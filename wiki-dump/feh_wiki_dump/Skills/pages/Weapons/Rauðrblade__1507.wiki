@@ -1,0 +1,43 @@
+{{Weapon Infobox
+|tagid=SID_スレッダラウア
+|weaponType=Red Tome
+|might=9
+|range=2
+|effect=Slows Special trigger (cooldown count+1).<br>Grants bonus to unit’s Atk = total bonuses on unit during combat.
+|cooldown=1
+|cost=200
+|exclusive=0
+|userVersion1=Closed
+|userVersion2=Open
+|statModifiers=0,9,0,0,0
+|next=Rauðrblade+
+|promotionRarity=5
+|promotionTier=1
+|required=Elfire;Ruin
+|properties=random_all
+}}
+==Notes==
+{{BonusesToAtk}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{TomeColorTrivia|rauðr}}
+* Heroes who don't have either {{St|Flux}} or {{St|Ruin}} do not require these to obtain this weapon.
+
+==In other languages==
+{{OtherLanguages
+|japanese=ラウアブレード
+|german=Rauðrklinge
+|spanishEU=Lluvia carmesí
+|spanishLA=Cuchillas rubí
+|french=Lames rubis
+|italian=Rubinlama
+|chineseTW=赤紅之刃
+|portuguese=Lâmina rubra
+}}
+==See also==
+* [[The Cleaner]]
+* [[The Cleaner+]]
+* [[Blade Weapons]]
+{{Weapons Navbox}}
+[[Category:Blade weapons]]

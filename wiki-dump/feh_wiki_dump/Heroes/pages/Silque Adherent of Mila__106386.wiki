@@ -1,0 +1,89 @@
+{{#invoke:NameAbout|main|Name=Silque}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Silque
+|Title=Adherent of Mila
+|WeaponType=Colorless Staff
+|Origin=Fire Emblem Echoes: Shadows of Valentia
+|Gender=Female
+|MoveType=Infantry
+|actorJP=いのくちゆか
+|actorEN=Bonnie Gordon
+|artist=lack
+|additionDate=October 21, 2019
+|releaseDate=October 21, 2019
+|randomStartTime=2019-11-21T07:00:00Z
+|poolDate=November 7, 2019
+|poolRarities=5
+|TagID=シルク
+|InternalID=437
+|Properties=specRate_202208
+|cv1=2
+|cv2=100550
+|description=A cleric from Novis who sought out Alm in order to deliver a certain item to him. Has a sweet but serious personality. Appears in Fire Emblem Echoes: Shadows of Valentia.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=9|Lv1SPD=4|Lv1DEF=5|Lv1RES=12
+|GRHP=50|GRATK=55|GRSPD=45|GRDEF=70|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Assault
+|weapon1Default=
+|weapon1Unlock=1
+|weapon2=Melancholy
+|weapon2Default=
+|weapon2Unlock=3
+|weapon3=Melancholy+
+|weapon3Default=
+|weapon3Unlock=5
+|weapon4=Staff of Lilies
+|weapon4Default=
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Heal
+|assist1Default=1
+|assist1Unlock=1
+|assist2=Mend
+|assist2Default=3
+|assist2Unlock=2
+|assist3=Recover
+|assist3Default=4
+|assist3Unlock=3
+|assist4=Recover+
+|assist4Default=5
+|assist4Unlock=5
+}}
+===Specials===
+{{Specials Table
+|special1=Imbue
+|special1Default=4
+|special1Unlock=2
+|special2=Solid-Earth Balm
+|special2Default=5
+|special2Unlock=3
+|special3=Earthfire Balm
+|special3Default=
+|special3Unlock=4
+|special4=Earthfire Balm+
+|special4Default=
+|special4Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Dazzling Staff 1
+|passiveB2=Dazzling Staff 2
+|passiveB3=Dazzling Staff 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Staff Exp. 1
+|passiveC2=Staff Exp. 2
+|passiveC3=Staff Exp. 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

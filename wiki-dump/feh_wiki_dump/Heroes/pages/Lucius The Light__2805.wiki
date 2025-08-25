@@ -1,0 +1,73 @@
+{{#invoke:NameAbout|main|Name=Lucius}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Lucius
+|Title=The Light
+|WeaponType=Colorless Staff
+|MoveType=Infantry
+|Origin=Fire Emblem: The Blazing Blade
+|Gender=Male
+|actorEN=Michael Sinterniklaas 
+|actorJP=行成とあ
+|artist=板垣ハコ
+|resplendentArtist=Tobi
+|releaseDate=March 14, 2017
+|poolDate=March 30, 2017
+|randomStartTime=2017-03-30T07:00:00Z
+|poolRarities=3,4
+|TagID=ルセア
+|InternalID=109
+|Properties=demoted_240,resplendent,muspell
+|cv1=6
+|cv2=500200
+|description=A gentle monk who serves Raven. Carries a heavy burden from a dark childhood. Appears in Fire Emblem: The Blazing Blade.
+|GrowthModifier=None
+|resplendentStartTime=2023-07-25T07:00:00Z
+|resplendentEndTime=2023-08-10T06:59:59Z
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=6|Lv1SPD=8|Lv1DEF=3|Lv1RES=9
+|GRHP=45|GRATK=60|GRSPD=50|GRDEF=25|GRRES=60
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Assault
+|weapon1Unlock=1
+|weapon2=Pain
+|weapon2Unlock=3
+|weapon3=Pain+
+|weapon3Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Heal
+|assist1Default=1
+|assist1Unlock=1
+|assist2=Reconcile
+|assist2Default=3
+|assist2Unlock=2
+|assist3=Martyr
+|assist3Default=5
+|assist3Unlock=4
+|assist4=Martyr+
+|assist4Unlock=5
+}}
+===Specials===
+{{Specials Table
+|special1=Imbue
+|special1Default=4
+|special1Unlock=2
+|special2=Miracle
+|special2Default=5
+|special2Unlock=3
+}}
+===Passives===
+{{Passives Table
+|passiveA1=HP +3
+|passiveA2=HP +4
+|passiveA3=HP +5
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+}}
+{{Heroes Navbox}}

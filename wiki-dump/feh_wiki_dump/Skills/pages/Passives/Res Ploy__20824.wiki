@@ -1,0 +1,62 @@
+{{SkillPage Tabs}}{{Passive
+|type=C
+|exclusive=0
+|1name=Res Ploy 1
+|1tagid=SID_魔防の謀策1
+|1promotionRarity=4
+|1promotionTier=1
+|1required=-
+|1effect=At start of turn, inflicts Res-3 on foes in cardinal directions with Res < unit's Res through their next actions.
+|1cost=60
+|2name=Res Ploy 2
+|2tagid=SID_魔防の謀策2
+|2promotionRarity=5
+|2promotionTier=1
+|2effect=At start of turn, inflicts Res-4 on foes in cardinal directions with Res < unit's Res through their next actions.
+|2cost=120
+|3name=Res Ploy 3
+|3tagid=SID_魔防の謀策3
+|3effect=At start of turn, inflicts Res-5 on foes in cardinal directions with Res < unit's Res through their next actions.
+|3cost=240
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=random_all,random_inherit_base
+}}
+==Notes==
+{{Ploy interaction}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===Sacred Seal Forge===
+{{SealCosts
+|seals=Res Ploy 1;Res Ploy 2;Res Ploy 3
+|badgeColor=Transparent
+|costs1=20;100;20
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=魔防の謀策
+|german=Res.-Trick
+|spanishEU=Ardid Res
+|spanishLA=Ardid Res.
+|french=Ruse Rés
+|italian=Complotto Res
+|chineseTW=魔防謀策
+|portuguese=Manobra Res.
+}}
+==See also==
+* [[Ploy Passives]]
+* [[Valflame]]
+{{Seals Navbox}}
+{{Passives Navbox|C}}
+[[Category:Ploy Passives]]

@@ -1,0 +1,36 @@
+{{Weapon Infobox
+|tagid=SID_天才肌の薄薙刀
+|intID=3373
+|image=wep_lc134
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit and neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat, and also reduces foe's Atk/Def during combat by X% of unit's Spd at start of combat (X = 5 × number of unit's max HP and Atk/Spd/Def/Res stats that are no more than 5 higher than foe's corresponding stats at start of combat, +10).
+|statModifiers=0,16,0,0,0
+|required=Silver Lance
+|properties=random_owner
+}}
+==Notes==
+{{Temporary buffs}}
+{{Follow-up effect neutralization}}
+{{Temporary debuffs}}
+{{At start of combat}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=天才肌の薄薙刀
+|german=Wunderkindklinge
+|spanishEU=Arma prodigiosa
+|spanishLA=Arma prodigiosa
+|french=Arme prodigieuse
+|italian=Asta prodigio
+|chineseTW=天才的薄薙刀
+|portuguese=Arma prodigiosa
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%reduces foe_s Atk%during combat by%'}}
+{{Weapons Navbox}}

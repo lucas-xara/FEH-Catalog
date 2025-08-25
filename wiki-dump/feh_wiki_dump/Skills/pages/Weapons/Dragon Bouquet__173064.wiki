@@ -1,0 +1,35 @@
+{{Weapon Infobox
+|tagid=SID_竜血継ぐ花嫁の花
+|intID=3076
+|image=wep_mg068
+|exclusive=1
+|weaponType=Red Tome
+|cost=400
+|might=14
+|range=2
+|effect=Grants Atk+3. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 during combat, grants weapon-triangle advantage against colorless foes and inflicts weapon-triangle disadvantage on colorless foes during combat, and also, unit makes a guaranteed follow-up attack.
+|statModifiers=0,17,0,0,0
+|required=Bolganone;Fenrir
+|properties=
+}}
+==Notes==
+{{Temporary buffs}}
+{{New WTA|colorless}}
+{{Guaranteed follow-up interaction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=竜血継ぐ花嫁の花
+|german=Drachenstrauß
+|spanishEU=Ramo dragontino
+|spanishLA=Ramo dragontino
+|french=Fleurs du dragon
+|italian=Fiori del drago
+|chineseTW=繼承龍血的新娘之花
+|portuguese=Buquê de dragão
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%inflicts weapon-triangle disadvantage on colorless%foes%' AND WikiName NOT LIKE '%raven%'|columns=3}}
+* [[Raven Tomes]]
+{{Weapons Navbox}}

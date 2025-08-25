@@ -1,0 +1,71 @@
+{{#invoke:NameAbout|main|Name=Itsuki|Name2=Chrom}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Itsuki
+|Title=Finding a Path
+|WeaponType=Red Sword
+|Origin=Tokyo Mirage Sessions ♯FE Encore
+|Gender=Male
+|MoveType=Infantry
+|actorJP=木村良平,杉田智和
+|actorEN=Chris Patton,Matt Mercer
+|artist=みく郎
+|additionDate=January 17, 2020
+|releaseDate=January 20, 2020
+|TagID=樹
+|InternalID=480
+|Properties=tempest,limited
+|cv1=13
+|cv2=100100
+|description=Young man who battles evil Mirages at Chrom's side. A kindly leader to his comrades. Appears in Tokyo Mirage Sessions ♯FE Encore.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=9|Lv1SPD=8|Lv1DEF=7|Lv1RES=8
+|GRHP=50|GRATK=65|GRSPD=50|GRDEF=60|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Mirage Falchion
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Swap
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table
+|special1=Daylight
+|special1Default=4
+|special1Unlock=3
+|special2=Sol
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Atk/Def Link 1
+|passiveB2=Atk/Def Link 2
+|passiveB3=Atk/Def Link 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Spur Def 1
+|passiveC2=Drive Def 1
+|passiveC3=Drive Def 2
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

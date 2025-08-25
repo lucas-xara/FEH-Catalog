@@ -1,0 +1,74 @@
+{{#invoke:NameAbout|main|Name=Kana}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Kana
+|Title=Dragon Princess
+|GrowthModifier=Gen 2
+|WeaponType=Green Breath
+|MoveType=Infantry
+|Origin=Fire Emblem Fates
+|Gender=Female
+|actorEN=Claudia Lenz
+|actorJP=佐藤聡美
+|artist=みわべさくら
+|releaseDate=April 24, 2018
+|poolDate=May 10, 2018
+|randomStartTime=2018-05-24T07:00:00Z
+|poolRarities=5
+|TagID=カンナ女
+|InternalID=242
+|Person=Kana F
+|Properties=tiara,specRate_202008
+|cv1=11
+|cv2=6900200
+|description=Corrin's daughter. Cheerful and honest but has lived a lonely life so far. Appears in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=8|Lv1SPD=8|Lv1DEF=7|Lv1RES=7
+|GRHP=50|GRATK=50|GRSPD=60|GRDEF=60|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire Breath
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Fire Breath+
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Water Breath
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Water Breath+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Sun Dragonstone
+|weapon5Default=
+|weapon5Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Draconic Aura
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Fierce Stance 1
+|passiveA2=Fierce Stance 2
+|passiveA3=Fierce Stance 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Spur Atk 1
+|passiveC2=Spur Atk 2
+|passiveC3=Goad Dragons
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

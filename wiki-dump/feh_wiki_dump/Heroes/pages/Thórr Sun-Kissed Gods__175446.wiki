@@ -1,0 +1,75 @@
+{{#invoke:NameAbout|main|Name=Thórr|Name2=Loki}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Thórr
+|Title=Sun-Kissed Gods
+|WeaponType=Blue Tome
+|MoveType=Flying
+|secondPerson=Loki
+|Origin=Fire Emblem Heroes
+|Gender=FF
+|duo=Inflicts【Gravity】on foes in cardinal directions of unit. Neutralizes any【Bonus】active on foes within 5 rows or 5 columns centered on unit. (Does not neutralize stat bonuses of foes inflicted with Panic.)<br><br>【Gravity】<br>Restricts target's movement to 1 space through its next action.<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|Duel=195
+|actorEN=Laila Berzins,Erika Ishii
+|actorJP=佐藤利奈,新井里美
+|artist=前嶋重機
+|additionDate=July 7, 2022
+|releaseDate=July 7, 2022
+|cv1=0
+|cv2=400090
+|TagID=比翼トール
+|InternalID=822
+|Properties=special,duo
+|description=Loki, whose subtle manipulations touch a wide range of worlds, and Thórr, the war god. What purpose might these two have for coming to the seaside?
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=13|Lv1SPD=3|Lv1DEF=6|Lv1RES=8
+|GRHP=50|GRATK=70|GRSPD=30|GRDEF=55|GRRES=70
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Thunder
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elthunder
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Thoron
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Divine Whimsy
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Rising Thunder
+|special1Default=4
+|special1Unlock=3
+|special2=Blazing Thunder
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Still Water 1
+|passiveA2=Still Water 2
+|passiveA3=Still Water 3
+|passiveA4=Still Water 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=A/R Far Trace 1
+|passiveB2=A/R Far Trace 2
+|passiveB3=A/R Far Trace 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Worldbreaker
+|passiveC1Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Sources of Gravity]][[Category:Sources of status effects]][[Category:Sources of positive status effect neutralization]]
+[[Category:Summer units]]

@@ -1,0 +1,77 @@
+{{#invoke:NameAbout|main|Name=Silvia}}{{HeroPage Tabs|{{PAGENAME}}}}
+{{Hero Infobox
+|Name=Silvia
+|Title=Traveling Dancer
+|GrowthModifier=None
+|WeaponType=Red Sword
+|Origin=Fire Emblem: Genealogy of the Holy War
+|Gender=Female
+|MoveType=Infantry
+|actorJP=ゆかな
+|actorEN=Laura Post
+|artist=チーコ
+|additionDate=September 6, 2018
+|releaseDate=September 7, 2018
+|poolDate=September 21, 2018
+|poolRarities=3,4
+|TagID=シルヴィア
+|InternalID=285
+|Properties=refresher,demoted_201904
+|cv1=3
+|cv2=2900200
+|description=A dancer who travels the world. She looks sweet, but she doesn't necessarily act that way. Descendant of the high priest Bragi. Appears in Fire Emblem: Genealogy of the Holy War.
+}}
+
+__TOC__
+
+{{Stats Page|Hero={{BASEPAGENAME}}
+|Lv1HP=16|Lv1ATK=5|Lv1SPD=8|Lv1DEF=4|Lv1RES=6
+|GRHP=55|GRATK=50|GRSPD=65|GRDEF=30|GRRES=55
+}}
+
+== Skills ==
+
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Barrier Blade
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Barrier Blade+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+
+===Assists===
+{{Assists Table
+|assist1=Dance
+|assist1Default=4
+|assist1Unlock=3
+}}
+
+===Specials===
+{{Specials Table
+}}
+
+===Passives===
+{{Passives Table
+|passiveA1=Warding Stance 1
+|passiveA2=Mirror Stance 1
+|passiveA3=Mirror Stance 2
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Torrent Dance 1
+|passiveB2=Deluge Dance 1
+|passiveB3=Deluge Dance 2
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+}}
+
+{{Heroes Navbox}}

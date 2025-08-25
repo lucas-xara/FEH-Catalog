@@ -1,0 +1,43 @@
+{{Passive
+|type=C
+|exclusive=0
+|1name=Ward Cavalry
+|1tagid=SID_騎盾の紋章
+|1effect=Grants Def/Res+4 to cavalry allies within 2 spaces during combat.
+|1cost=200
+|1required=Spur Def 2;Spur Res 2
+|canUseWeapon={{WeaponList|all}}
+|canUseMove=Cavalry
+|properties=random_all,random_inherit_base
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{SkillEffectText|Temporary buffs|Def/Res|4}}
+|CombatEffect 1 Targets={{Mt|Cavalry}} {{SkillTargetText|Allies}}<br>[[within 2 spaces]]
+}}
+==Notes==
+{{Temporary buffs}}
+{{AlliesCombatEffect|effect=temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=騎盾の紋章
+|german=Reiter+ (Vert.)
+|spanishEU=Muro equino
+|spanishLA=Muro equino
+|french=Vigilance (Cav.)
+|italian=Difesa cavalleria
+|chineseTW=騎盾紋章
+|portuguese=Cavalaria zelosa
+}}
+==See also==
+* [[Drive Passives]]
+* [[Goad Passives]]
+* [[Ward Passives]]
+{{Passives Navbox|C}}
+[[Category:Ward Passives]]

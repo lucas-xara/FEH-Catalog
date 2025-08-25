@@ -1,0 +1,68 @@
+{{#invoke:NameAbout|main|Name=Arden}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Arden
+|Title=Strong and Tough
+|Origin=Fire Emblem: Genealogy of the Holy War
+|Gender=Male
+|GrowthModifier=None
+|WeaponType=Red Sword
+|MoveType=Armored
+|actorEN=Mick Wingert
+|actorJP=大川透
+|artist=添田一平
+|releaseDate =October 23, 2017
+|additionDate= October 16, 2017
+|TagID=アーダン
+|InternalID=181
+|Properties=tempest,limited
+|cv1=3
+|cv2=101100
+|description=An armored knight from Chalphy. Dreams of fighting on the front lines, but is often assigned to castle defense. Appears in Fire Emblem: Genealogy of the Holy War.
+}}
+__TOC__
+{{Stats Page|Hero=Arden: Strong and Tough
+|Lv1HP=25|Lv1ATK=10|Lv1SPD=3|Lv1DEF=13|Lv1RES=3
+|GRHP=80|GRATK=60|GRSPD=30|GRDEF=65|GRRES=30
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Brave Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Brave Sword+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Arden's Blade
+|weapon5Default=
+|weapon5Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Buckler
+|special1Default=4
+|special1Unlock=3
+|special2=Pavise
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Follow-Up Ring
+|passiveB1Unlock=5
+|passiveC1=Spur Def 1
+|passiveC2=Drive Def 1
+|passiveC3=Drive Def 2
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

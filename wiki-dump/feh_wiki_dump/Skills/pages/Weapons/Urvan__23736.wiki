@@ -1,0 +1,61 @@
+{{Weapon Infobox
+|tagid=SID_ウルヴァン
+|weaponType=Axe
+|might=16
+|range=1
+|effect=Accelerates Special trigger (cooldown count-1). If unit receives consecutive attacks, reduces damage from foe's second attack onward by 80%.
+|cost=400
+|exclusive=true
+|userVersion1=Weapon
+|userVersion2=Gleam
+|cooldown=-1
+|statModifiers=0,16,0,0,0
+|required=Silver Axe
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|tagidExtraSkill1=攻
+|effectSkill1=Reduces damage from foe's first attack by 40%. If foe initiates combat, foe can make a follow-up attack before unit can counterattack.
+|iconSkill1=Urvan W.png
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|skill1 PermanentEffect={{Eft|Accelerate Special}}
+|skill1 CombatEffect={{Eft|Damage Reduction|80%}} from<br>{{Tgt|Foe}}'s consecutive attacks
+|skill2={{Si|Urvan|refine=Skill1}} Skill refine effects
+|skill2 CombatEffect 1={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s first attack
+|skill2 CombatEffect 2={{Eft|Desperation}}
+|skill2 CombatEffect 2 Targets={{Tgt|Foe}}
+|skill2 CombatEffect 2 Conditions=Enemy Phase
+}}
+
+==Notes==
+{{DamagePercentageReduction}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{DamagePercentageReduction|name={{St|Urvan|refine=Skill1}}}}
+{{Follow-up before counterattack|foe=1|phase=Enemy|name={{St|Urvan|refine=Skill1}}}}
+
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|敵攻め立てR40|Enemy Desperation R 40}}
+==In other languages==
+{{OtherLanguages
+|japanese=ウルヴァン
+|german=Urvan
+|spanishEU=Urvan
+|spanishLA=Urvan
+|french=Urvan
+|italian=Urvan
+|chineseTW=烏爾邦
+|portuguese=Urvan
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%consecutive attacks%' AND Exclusive='1' OR Description LIKE '%foe can make a follow-up%before unit can counterattack%'}}
+* [[Deflect Seals]]
+{{Weapons Navbox}}

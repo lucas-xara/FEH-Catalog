@@ -1,0 +1,77 @@
+{{#invoke:NameAbout|main|Name=Faye}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Faye
+|Title=Drawn Heartstring
+|WeaponType=Colorless Bow
+|Origin=Fire Emblem Echoes: Shadows of Valentia
+|Gender=Female
+|MoveType=Armored
+|actorJP=種﨑敦美
+|actorEN=Amber Connor
+|artist=Tobi
+|additionDate=February 6, 2020
+|releaseDate=February 6, 2020
+|TagID=愛の祭エフィ
+|InternalID=484
+|Properties=special,hat,specRate_202402
+|cv1=2
+|cv2=100500
+|description=A young girl madly in love with Alm. Eager to express her growing feelings to her beloved at the Day of Devotion festival. Appears in Fire Emblem Echoes: Shadows of Valentia.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=7|Lv1SPD=4|Lv1DEF=7|Lv1RES=8
+|GRHP=55|GRATK=75|GRSPD=45|GRDEF=65|GRRES=70
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Budding Bow
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Budding Bow+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Moonbow
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Death Blow 1
+|passiveA2=Death Blow 2
+|passiveA3=Death Blow 3
+|passiveA4=Death Blow 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Bold Fighter 1
+|passiveB2=Bold Fighter 2
+|passiveB3=Bold Fighter 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Armor March 1
+|passiveC2=Armor March 2
+|passiveC3=Armor March 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Day of Devotion units]]

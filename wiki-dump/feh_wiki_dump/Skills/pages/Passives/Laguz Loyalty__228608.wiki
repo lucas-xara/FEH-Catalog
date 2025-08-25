@@ -1,0 +1,57 @@
+{{Passive
+|name=Laguz Loyalty
+|type=B
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|Infantry}}
+|properties=random_owner
+|1name=Laguz Loyalty
+|1tagid=SID_不動・刹那
+|1effect=Inflicts Atk/Spd-4 on foe during combat.<br><br>If unit's max Special cooldown count value ≥ 3 and unit's attack can trigger unit's Special, or if foe's attack can trigger unit's Special, reduces the percentage of unit's non-Special "reduce damage by X%" skills by 50% (excluding area-of-effect Specials), reduces damage from foe's attacks by 20% of unit's Spd (excluding area-of-effect Specials), and grants Special cooldown count-2 to unit before foe's first attack during combat, and also, if foe initiates combat, decreases Spd difference necessary for unit to make a follow-up attack by 10 and unit deals +7 damage during combat (excluding area-of-effect Specials).
+|1cost=300
+|1required=Laguz Friend 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary Debuffs|Atk/Spd|4}}
+|CeT1={{Tgt|Foe}}
+|Ce2={{Eft|Reduce Damage Reduction|50%}}
+|Ce3={{Eft|Reduce Cooldown|2}}<br>before {{Tgt|Foe}}'s first attack
+|Ce4={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Spd}}<br>from {{Tgt|Foe}}'s attacks
+|CeC2-4={{Tgt|Unit}}'s [[Offensive Special|offensive<br>Special]]'s max CD ≥ 3<br>'''or''' {{Tgt|Unit}} has a<br>[[defensive Special]]
+|Ce5={{Eft|Spd Difference Decrease|10}}
+|Ce6={{Eft|Damage Boost|7}}<br>per {{Tgt|Unit}}'s attack
+|Ce5-6C=Enemy Phase '''&'''<br>({{Tgt|Unit}}'s [[Offensive Special|offensive<br>Special]]'s max CD ≥ 3<br>'''or''' {{Tgt|Unit}} has a<br>[[defensive Special]])
+}}
+
+==Notes==
+{{Temporary debuffs}}
+{{Reduce Damage Reduction}}
+{{FlatDamageReduction}}
+{{CombatCooldownCount|-2}}
+{{IfFoeInitiates}}
+{{SpdDiffDecrease}}
+{{FlatDamageBoost|7}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=不動・剎那
+|portuguese=
+}}
+
+==See also==
+{{See also skills|cond=(Description LIKE '%if unit_s max special cooldown count value%' OR Description LIKE '%decreases Spd difference necessary%' AND Description NOT LIKE '%【Frozen】%') AND Exclusive='1'}}
+* [[Skill families/B Passives#Laguz|Laguz Passives]]
+{{Passives Navbox|B}}

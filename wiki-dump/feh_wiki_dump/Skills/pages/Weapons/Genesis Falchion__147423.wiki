@@ -1,0 +1,105 @@
+{{Weapon Infobox
+|tagid=SID_始祖ファルシオン
+|userVersion1=Weapon
+|userVersion2=Gleam
+|weaponType=Sword
+|might=16
+|range=1
+|effectiveness=dragon
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). Effective against dragon foes. If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 during combat, and also grants effects based on the total value of bonuses on the 3 allies with the highest bonus totals: If ≥ 10, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat. If ≥ 25, grants an additional Atk+5 during combat, and also, if unit deals damage to foe during combat, restores 5 HP to unit. (Triggers even if 0 damage is dealt.) If ≥ 60, if foe initiates combat, unit can counterattack before foe's first attack.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Silver Sword
+|intID=2697
+|sort=575
+|effectRange=99
+|value=20
+|timingID=1
+|abilityID=301
+|limit1ID=58
+|randomTimestamp=2021-09-17T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1). Effective against dragon foes. If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit during combat and grants effects to unit based on the total value of bonuses on the 3 allies with the highest bonus totals (excluding unit): if ≥ 10, neutralizes effects that guarantee foe's follow-up attacks, effects that prevent unit's follow-up attacks, and effects that inflict "Special cooldown charge -X" on unit during combat; if ≥ 25, grants an additional Atk+5 to unit during combat, and also, if unit deals damage to foe during combat, restores 7 HP to unit (triggers even if 0 damage is dealt); and if ≥ 60 and foe initiates combat, unit can counterattack before foe's first attack.
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+X to unit (X = 5 + highest bonus on each stat between unit and allies within 2 spaces of unit; calculates each stat bonus independently) and reduces damage from foe's first attack by 40% during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes).
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Accelerates Special}}
+|s1 Ce1={{Eft|Effectiveness|{{Cwti|Dragonstone|group=1}} [[Dragon]]}}
+|s1 Ce2={{Eft|Temporary Buffs|Atk/Spd/Def/Res|5}}
+|s1 CeC2=Player Phase<br>'''or''' {{Tgt|Unit}} is<br>[[within 2 spaces]]<br>of an {{Tgt|Ally}}
+|s1 Ce3={{Eft|Neutralize Guaranteed Follow-Up}}
+|s1 CeT3={{Tgt|Foe}}
+|s1 Ce4={{Eft|Neutralize Prevent Follow-Up}}
+|s1 CeT4-7={{Tgt|Unit}}
+|s1 CeC3-4=({{Eft|Temporary Buffs|Atk/Spd/Def/Res|5}}<br>conditions) '''&'''<br>Total {{SEt|Bonuses}}<br>on 3 {{Tgt|Allies}}<br>with the highest<br>{{SEt|Bonus}} totals ≥ 10
+|s1 Ce5={{Eft|Temporary Buffs|Atk|5}}
+|s1 Ce6={{Eft|Heal|5}}<br>per {{Tgt|Unit}}'s attack
+|s1 CeC5-6=({{Eft|Temporary Buffs|Atk/Spd/Def/Res|5}}<br>conditions) '''&'''<br>Total {{SEt|Bonuses}}<br>on 3 {{Tgt|Allies}}<br>with the highest<br>{{SEt|Bonus}} totals ≥ 25
+|s1 Ce7={{Eft|Vantage}}
+|s1 CeC7=({{Eft|Temporary Buffs|Atk/Spd/Def/Res|5}}<br>conditions),<br>
+Enemy Phase, '''&'''<br>Total {{SEt|Bonuses}}<br>on 3 {{Tgt|Allies}}<br>with the highest<br>{{SEt|Bonus}} totals ≥ 60
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Accelerates Special}}
+|s2 Ce1={{Eft|Effectiveness|{{Cwti|Dragonstone|group=1}} [[Dragon]]}}
+|s2 Ce2={{Eft|Temporary Buffs|Atk/Spd/Def/Res|5}}
+|s2 CeC2=Player Phase<br>'''or''' {{Tgt|Unit}} is<br>[[within 2 spaces]]<br>of an {{Tgt|Ally}}
+|s2 Ce3={{Eft|Neutralize Guaranteed Follow-Up}}
+|s2 CeT3={{Tgt|Foe}}
+|s2 Ce4={{Eft|Neutralize Prevent Follow-Up}}
+|s2 Ce5={{Eft|Neutralize Guard}}
+|s2 CeT4-8={{Tgt|Unit}}
+|s2 CeC3-5=({{Eft|Temporary Buffs|Atk/Spd/Def/Res|5}}<br>conditions) '''&'''<br>Total {{SEt|Bonuses}}<br>on 3 {{Tgt|Allies}}<br>with the highest<br>{{SEt|Bonus}} totals ≥ 10
+|s2 Ce6={{Eft|Temporary Buffs|Atk|5}}
+|s2 Ce7={{Eft|Heal|7}}<br>per {{Tgt|Unit}}'s attack
+|s2 CeC6-7=({{Eft|Temporary Buffs|Atk/Spd/Def/Res|5}}<br>conditions) '''&'''<br>Total {{SEt|Bonuses}}<br>on 3 {{Tgt|Allies}}<br>with the highest<br>{{SEt|Bonus}} totals ≥ 25
+|s2 Ce8={{Eft|Vantage}}
+|s2 CeC8=({{Eft|Temporary Buffs|Atk/Spd/Def/Res|5}}<br>conditions),<br>
+Enemy Phase, '''&'''<br>Total {{SEt|Bonuses}}<br>on 3 {{Tgt|Allies}}<br>with the highest<br>{{SEt|Bonus}} totals ≥ 60
+|skill3={{Si|Genesis Falchion|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary Buffs|Atk/Spd/Def/Res|5 + highest {{SEt|Bonus}}<br>on {{Tgt|Unit}} & {{Tgt|Allies}}<br>[[within 2 spaces]]}}
+|s3 Ce2={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|s3 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{Effective damage bonus|Dragon}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Follow-up effect neutralization}}
+{{CombatHPRecovery}}
+{{Preempt}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{CooldownChargeMinusNeutralization|name=Refined Genesis Falchion}}
+{{TemporaryBufffromBonus|multiSource=1|name={{St|Genesis Falchion|refine=Skill1}}|source=unit or allies with the highest bonuses}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+wep_sw116.webp
+wep_sw116.gif|Animation of '''Genesis Falchion'''
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=始祖ファルシオン
+|german=Ur-Falchion
+|spanishEU=Falchion génesis
+|spanishLA=Falchion génesis
+|french=Falchion originel
+|italian=Falchion genesi
+|chineseTW=始祖法爾西昂
+|portuguese=Falchion gênese
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%total bonuses on unit +%' OR Description LIKE '%number of allies with %' OR Description LIKE '%Atk/Spd/Def/Res%=%highest bonus on%allies%within _ spaces%' OR WikiName LIKE '%Falchion%') AND (Exclusive=1 AND Name NOT LIKE '%+' AND Properties HOLDS NOT 'arcane')}}
+{{Weapons Navbox}}

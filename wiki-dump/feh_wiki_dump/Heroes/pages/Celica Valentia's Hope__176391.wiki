@@ -1,0 +1,73 @@
+{{#invoke:NameAbout|main|Name=Celica}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Celica
+|Title=Valentia's Hope
+|WeaponType=Colorless Tome
+|MoveType=Infantry
+|Origin=Fire Emblem Echoes: Shadows of Valentia
+|Gender=Female
+|actorEN=Erica Lindbeck
+|actorJP=東山奈央
+|artist=Noy
+|randomStartTime=2022-08-19T07:00:00Z
+|additionDate=July 19, 2022
+|releaseDate=July 19, 2022
+|poolDate=August 9, 2022
+|poolRarities=5
+|cv1=2
+|cv2=200100
+|TagID=開花セリカ
+|InternalID=828
+|Properties=ascended,specRate_202502
+|description=Princess of Zofia and member of Lima IV's line. She has grown stronger over the course of her journeys with her friends. Appears in Fire Emblem Echoes: Shadows of Valentia.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=10|Lv1SPD=12|Lv1DEF=4|Lv1RES=6
+|GRHP=50|GRATK=75|GRSPD=70|GRDEF=40|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Stone
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elstone
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Atlas (weapon)
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Mila's Testament
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Moonbow
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Life and Death 1
+|passiveA2=Life and Death 2
+|passiveA3=Life and Death 3
+|passiveA4=Life and Death 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Soul of Zofia
+|passiveB1Unlock=5
+|passiveC1=Inf. Null Follow 1
+|passiveC2=Inf. Null Follow 2
+|passiveC3=Inf. Null Follow 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

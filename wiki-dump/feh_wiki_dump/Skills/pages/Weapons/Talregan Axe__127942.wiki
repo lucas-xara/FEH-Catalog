@@ -1,0 +1,85 @@
+{{Weapon Infobox
+|tagid=SID_ダルレカの激斧
+|image=wep_ax073
+|weaponType=Axe
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br>If unit initiates combat or if unit is within 2 spaces of an ally, grants Atk/Spd+6 during combat. If unit initiates combat, unit can make a follow-up attack before foe can counterattack.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Silver Axe
+|intID=2229
+|sort=448
+|value=20
+|timingID=1
+|abilityID=189
+|limit1ID=58
+|randomTimestamp=2020-10-18T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1).<br><br>If unit initiates combat or if unit is within 2 spaces of an ally, grants Atk/Spd+6 during combat and grants Special cooldown charge +1 to unit per attack during combat (only highest value applied; does not stack).<br><br>If unit initiates combat, unit can make a follow-up attack before foe can counterattack.
+|refineStatsSkill1=3,0,0,0,0
+|effectSkill1=Enables【Canto (Rem. +1)】.<br><br>At start of turn, if unit is within 3 spaces of an ally with Range = 1, grants Atk/Spd+6, "unit can move 1 extra space (that turn only, does not stack)," and【Null Follow-Up】to unit and allies with Range = 1 within 3 spaces of unit for 1 turn.<br><br>At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+6 to unit and deals damage = 20% of unit's Spd during combat (excluding area-of-effect Specials).<br><br>【Canto (Rem. +1)】<br>After an attack, Assist skill, or structure destruction, unit can move again.<br><br>The distance of the movement is the remaining movement the unit had before the actions listed above + 1 (If unit used a movement skill that warps them, the remainder is 0). (Once per turn. Only highest value applied. Does not stack.)<br><br>【Null Follow-Up】<br>If unit's Spd > foe's Spd during combat, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks for 1 turn.
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Accelerates Special}}
+|s1 Ce1={{Eft|Temporary buffs|Atk/Spd|6}}
+|s1 Ce1C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s1 Ce2={{Eft|Desperation}}
+|s1 Ce2C=Player Phase
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Accelerates Special}}
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd|6}}
+|s2 Ce2={{Eft|Accelerate Charge}}
+|s2 Ce1-2C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s2 Ce3={{Eft|Desperation}}
+|s2 Ce3C=Player Phase
+|skill3={{Si|Talregan Axe|refine=Skill1}} Skill refine effects
+|s3 Me={{Eft|Canto|Rem. +1}}
+|s3 Se1={{Eft|Bonuses|Atk/Spd|6}}
+|s3 Se2={{SEt|Mobility Increased}}
+|s3 Se3={{SEt|Null Follow-Up}}
+|s3 SeT={{Tgt|Unit}} '''&''' Range<br>= 1 {{Tgt|Allies}}<br>[[within 3 spaces]]
+|s3 SeC=At start of turn<br>if a Range = 1<br>{{Tgt|Ally}} is<br>[[within 3 spaces]]
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd|6}}
+|s3 Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|s3 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Follow-up before counterattack}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{CooldownChargePlus|name=Refined Talregan Axe}}
+{{Canto|Rem. +1|name={{St|Talregan Axe|refine=Skill1}}}}
+{{Bonuses|name={{St|Talregan Axe|refine=Skill1}}}}
+{{Mobility increased|name={{St|Talregan Axe|refine=Skill1}}}}
+{{Null Follow-Up|name={{St|Talregan Axe|refine=Skill1}}}}
+{{DamageBoost|name={{St|Talregan Axe|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Talregan Axe
+|japanese=ダルレカの激斧
+|german=Talrega-Axt
+|spanishEU=Hacha de Talrega
+|spanishLA=Hacha de Talrega
+|french=Hache de Talrega
+|italian=Ascia di Talrega
+|chineseTW=答爾烈卡之激斧
+|portuguese=Machado Talrega
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%unit can make a follow-up attack before%can counterattack%' AND Description NOT LIKE '%unit_s HP ≤%' AND Description NOT LIKE '%【Desperation】%' OR Description LIKE '%at start of turn%move 1 extra space%unit and allies within%') AND Exclusive='1'}}
+{{Weapons Navbox}}

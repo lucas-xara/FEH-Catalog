@@ -1,0 +1,47 @@
+{{Weapon Infobox
+|tagid=SID_白夜忍の薙刀＋
+|intID=3858
+|image=wep_lc157
+|exclusive=0
+|weaponType=Lance
+|cost=300
+|might=9
+|range=1
+|effect=Unit can move to a space adjacent to any ally within 2 spaces. If unit initiates combat, unit attacks twice. At start of combat, if foe's HP ≥ 75%, grants Atk/Spd/Def/Res+4 to unit during combat.
+|required=Kumo Naginata
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|MapEffect={{Eft|Warp|[[adjacent]] to an {{Tgt|Ally}}<br>[[within 2 spaces]]}}
+|CombatEffect 1={{Eft|Attack Twice}}
+|CombatEffect 1 Conditions=Player Phase
+|CombatEffect 2={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|CombatEffect 2 Conditions={{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+}}
+
+==Notes==
+{{Warp interaction}}
+{{Temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=白夜忍の薙刀＋
+|german=Kumo Naginata+
+|spanishEU=Naginata Kumo +
+|spanishLA=Naginata Kumo +
+|french=Naginata Kumo +
+|italian=Kumo Naginata+
+|chineseTW=白夜忍之薙刀＋
+|portuguese=Naginata Kumo+
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%unit can move to a%space%ally%within 2 spaces%' AND Description NOT LIKE '%grants%status%to adjacent%allies%' AND Description NOT LIKE '%"unit can move%') AND (Exclusive='1' OR Description LIKE '%unit attacks twice%' AND SP=300)}}
+* [[Warp Passives]]
+* [[Brave Weapons]]
+{{Weapons Navbox}}

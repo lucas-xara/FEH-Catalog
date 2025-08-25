@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Innes}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Innes
+|Title=New Year's Aim
+|WeaponType=Colorless Bow
+|MoveType=Infantry
+|Origin=Fire Emblem: The Sacred Stones
+|Gender=Male
+|actorEN=Xander Mobus
+|actorJP=福山潤
+|artist=Ｄd
+|additionDate=December 27, 2024
+|releaseDate=January 1, 2025
+|cv1=7
+|cv2=200100
+|TagID=年明ヒーニアス
+|InternalID=1190
+|Properties=limited,tempest,specDisplay
+|description=Prince of Frelia and Tana's brother. In an effort to continue to improve upon himself, he begins his training day one of the new year. Appears in Fire Emblem: The Sacred Stones.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=14|Lv1SPD=12|Lv1DEF=6|Lv1RES=4
+|GRHP=50|GRATK=70|GRSPD=80|GRDEF=45|GRRES=75
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Snaking Bow
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Snaking Bow+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Glacies
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Spd/Res Finish 1
+|passiveA2=Spd/Res Finish 2
+|passiveA3=Spd/Res Finish 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Null Follow-Up 1
+|passiveB2=Null Follow-Up 2
+|passiveB3=Null Follow-Up 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:New Year's units]]

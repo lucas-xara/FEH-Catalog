@@ -1,0 +1,55 @@
+{{Weapon Infobox
+|tagid=SID_守護騎士の白槍
+|intID=3869
+|image=wep_lc158
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). If a Rally or movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Atk/Spd/Def+6, 【Bonus Doubler】, and【Foe Penalty Doubler】to unit and target ally or unit and targeting ally for 1 turn. If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks, and reduces damage from foe's first attack by 40% during combat.<br><br>【Bonus Doubler】<br>Grants bonus to Atk/Spd/Def/Res during combat = current bonus on each of unit's stats for 1 turn. Calculates each stat bonus independently.<br><br>【Foe Penalty Doubler】<br>Inflicts penalty on foe's Atk/Spd/Def/Res during combat = any current penalty on each of those stats for 1 turn. Calculates each stat penalty independently.
+|required=Silver Lance
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|PermanentEffect={{Eft|Accelerate Special}}
+|StatusEffect 1={{Eft|Bonus|Atk/Spd/Def|6}}
+|StatusEffect 2={{SEt|Bonus Doubler}}
+|StatusEffect 3={{SEt|Foe Penalty Doubler}}
+|StatusEffect Targets={{Tgt|Unit}} '''&'''<br>{{Tgt|Target Ally}}
+|StatusEffect Conditions=[[Rally Assist|Rally]] or [[Movement Assist|Movement]]<br>Assist is used on<br>'''or''' by {{Tgt|Unit}}
+|CombatEffect 1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|CombatEffect 2={{Eft|Neutralize Prevent Follow-ups}}
+|CombatEffect 3={{Eft|Damage Reduction|40%}}<br>from {{Tgt|foe}}'s first attack
+|CombatEffect 4={{Eft|Neutralize Guaranteed Follow-ups}}
+|CombatEffect 4 Targets={{Tgt|Foe}}
+|CombatEffect Conditions=Player Phase<br>'''or''' {{Tgt|Unit}} is<br>[[within 2 spaces]]<br>of an {{Tgt|Ally}}
+}}
+
+==Notes==
+{{Bonuses}}
+{{Bonus Doubler}}
+{{Foe Penalty Doubler}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Follow-up effect neutralization}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=守護騎士の白槍
+|german=Wachende Lanze
+|spanishEU=Lanza de escolta
+|spanishLA=Lanza de escolta
+|french=Lance de garde
+|italian=Lancia protettiva
+|chineseTW=守護騎士的白槍
+|portuguese=Lança de escolta
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Bonus Doubler】%' OR Description LIKE '%【Foe Penalty Doubler】%' OR Description LIKE '%movement assist%grants%/%+%for 1 turn%') AND Exclusive='1' AND Description NOT LIKE '%【Ploy】%'}}
+* [[Link Passives]]
+{{Weapons Navbox}}

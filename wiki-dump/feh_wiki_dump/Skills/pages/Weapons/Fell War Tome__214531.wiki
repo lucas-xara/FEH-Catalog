@@ -1,0 +1,112 @@
+{{Weapon Infobox
+|tagid=SID_戦神の魔書
+|intID=4097
+|userVersion1=Closed
+|userVersion2=Open
+|exclusive=1
+|weaponType=Red Tome
+|cost=400
+|might=14
+|range=2
+|effect=Grants Spd+3. If unit initiates combat or is within 2 spaces of an ally, deals 7 damage to foe as combat begins (activates only when unit can attack in combat; effects that reduce damage "during combat" do not apply; will not reduce foe's HP below 1), grants Atk/Spd/Def/Res+X to unit (X = 16 - foe's max Special cooldown count value × 2; min 8; if foe does not have a Special skill, X = 8), reduces damage from foe's first attack by 30% ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and neutralizes effects that inflict "Special cooldown charge -X" on unit during combat, and also, if unit's max Special cooldown count value ≥ 3 and unit's attack can trigger unit's Special, when unit's Special triggers (excluding area-of-effect Specials), neutralizes "reduces damage by X%" effects from non-Special skills. If unit initiates combat, applies【Divine Vein (Flame)】on 5 spaces in a line centered on foe's space (oriented left to right based on the direction unit is facing) for 1 turn after combat.<br><br>【Divine Vein (Flame)】<br>Applies the following effects on space: Acts as difficult terrain for foes with Range = 2 (moving over this space costs +1 movement; does not apply to "cannot be slowed by terrain" effects; movement cost cannot exceed unit's allowed movement). At start of enemy phase, deals 7 damage to foe, and also, as combat begins, deals an additional 7 damage to foe (effects that reduce damage "during combat" do not apply; will not reduce foe's HP below 1). (Divine Vein effects do not stack; replaces any existing Divine Vein effect; Divine Vein effects applied simultaneously cancel each other out.)
+|statModifiers=0,14,3,0,0
+|required=Bolganone;Fenrir
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Stat Boosts|Spd|3}}
+|Ce1={{Eft|Damage|7}}<br>as combat begins
+|CeT1={{Tgt|Foe}}
+|CeC1=(Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]) '''&'''<br>{{Tgt|Unit}} can attack
+|Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|16 - {{Tgt|Foe}}'s<br>max Special CD x 2|min=8}}
+|Ce3={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce4={{Eft|Neutralize Guard}}
+|CeT2-4={{Tgt|Unit}}
+|CeC2-4=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce5={{Eft|Neutralize Damage Reduction}} per<br>{{Tgt|Unit}}'s [[offensive Special]]
+|CeT5={{Tgt|Foe}}
+|CeC5={{Tgt|Unit}}'s [[offensive Special|offensive<br>Special]]'s max CD ≥ 3<br>'''&''' (Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]])
+|Me={{Eft|Divine Vein (Flame)}}
+|MeT=A 5 space line<br>centered on {{Tgt|Target Foe}}
+|MeC=After combat<br>in Player Phase
+}}
+
+==Notes==
+{{IfUnitInitiates}}
+{{CombatDamage|noCounter=1|7}}
+{{Temporary buffs}}
+{{DamagePercentageReduction}}
+{{CooldownChargeMinusNeutralization}}
+{{DamageReductionNeutralization}}
+{{Divine Vein|Flame}}
+{{After combat note}}
+{| class="wikitable default mw-collapsible"
+!colspan=2 style="text-align:center;max-width:450px;margin:auto;" align="middle"|Examples of {{Eft|Divine Vein (Flame)}}'s<br>area-of-effect
+|-
+!Horizontal 
+|{{AoE|u=Robin: Fated Vessel|t=Validar: Fell Architect
+|-------
+|-xxtxx-
+|-------
+|---u---
+|-------
+|-------
+|-------
+}}
+|-
+!Vertical
+|{{AoE|u=Robin: Fated Vessel|t=Validar: Fell Architect
+|-------
+|-x-----
+|-x-----
+|-t-u---
+|-x-----
+|-x-----
+|-------
+}}
+|-
+!Diagonal Left
+|{{AoE|u=Robin: Fated Vessel|t=Validar: Fell Architect
+|-------
+|-------
+|x------
+|-x-u---
+|--t----
+|---x---
+|----x--
+}}
+|-
+!Diagonal Right
+|{{AoE|u=Robin: Fated Vessel|t=Validar: Fell Architect
+|-------
+|-------
+|------x
+|---u-x-
+|----t--
+|---x---
+|--x----
+}}
+|}
+
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V8.4_v0804a_child_Mag.webp|Sprite sheet for {{St|Draconic Pacts}} and {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=戦神の魔書
+|german=Dämonenkrieg
+|spanishEU=Gr. bélico caído
+|spanishLA=Gr. bélico caído
+|french=Déclin belliqueux
+|italian=Tomo maligno
+|chineseTW=戰神的魔書
+|portuguese=Tomo terrível
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%combat begins%' OR Description LIKE '%【Divine Vein (Flame)】%' OR Description LIKE '%foe_s max Special cooldown count value%') AND Exclusive='1'}}
+* [[Flare Passives]]
+{{Weapons Navbox}}

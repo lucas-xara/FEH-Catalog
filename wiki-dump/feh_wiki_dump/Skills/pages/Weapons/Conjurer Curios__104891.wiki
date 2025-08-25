@@ -1,0 +1,49 @@
+{{Weapon Infobox
+|tagid=SID_魔月の祭器
+|weaponType=Red Sword
+|might=16
+|range=1
+|effectiveness=armored
+|effect=Effective against armored foes. Grants Atk+3. If it is an odd-numbered turn or if foe's HP < 100% at start of combat, grants Atk/Spd/Def/Res+4 to unit during combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,19,0,0,0
+|required=Silver Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Effective against armored foes. Grants Atk+3. If it is an odd-numbered turn or foe's HP < 100% at start of combat, grants Atk/Spd/Def/Res+4 to unit during combat and reduces damage from foe's first attack by X%. (If foe can make a follow-up attack, X = 60; otherwise, X = 30.)
+|tagidExtraSkill1=一
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit during combat, inflicts penalty on foe's Atk/Def during combat = 10% of unit's Atk at start of combat, and restores 7 HP to unit after combat.
+|iconSkill1=Conjurer Curios W.png
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|armored}}
+{{Temporary buffs}}
+{{Foe's HP not full}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{DamagePercentageReduction}}
+{{Temporary debuffs|name={{St|Conjurer Curios|refine=Skill1}}}}
+{{At start of combat}}
+{{After combat healing|name={{St|Conjurer Curios|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=魔月の祭器
+|german=Magie-Doppelstab
+|spanishEU=Báculo dúplice
+|spanishLA=Báculo dúplice
+|french=Double bâton
+|italian=Arnesi stregati
+|chineseTW=魔月祭器
+|portuguese=Pirulito inusitado
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%odd-numbered turn%' AND Description NOT LIKE '%start%restores 10%' AND Description NOT LIKE '%if special cooldown count%' AND Exclusive='1' OR Description LIKE '%foe_s HP < 100%' OR Description LIKE '%inflicts penalty on foe_s Atk/%combat%=%of unit_s%at start of combat%' AND Exclusive='1'}}
+* [[Sources of effective against armored foes]]
+{{Weapons Navbox}}

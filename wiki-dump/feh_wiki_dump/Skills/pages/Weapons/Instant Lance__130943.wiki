@@ -1,0 +1,47 @@
+{{Weapon Infobox
+|tagid=SID_瞬撃の槍
+|weaponName=Instant Lance
+|image=wep_lc089
+|weaponType=Lance
+|might=10
+|range=1
+|effect=If unit initiates combat, grants Atk/Def+4 during combat and foe cannot make a follow-up attack.
+|cost=200
+|exclusive=0
+|statModifiers=0,10,0,0,0
+|required=Steel Lance
+|next=
+|promotionRarity=5
+|promotionTier=1
+|intID=2312
+|sort=10100
+|value=11
+|timingID=1
+|abilityID=127
+|limit1ID=1
+|randomTimestamp=2020-12-17T07:00:00Z
+|randomMinLv=21
+|randomMaxLv=35
+|properties=random_owner
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Combat boosts}}
+{{Prevent follow-up}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=瞬撃の槍
+|german=Sekundenlanze
+|spanishEU=Lanza fugaz
+|spanishLA=Lanza fugaz
+|french=Lance vive
+|italian=Lancia rapida
+|chineseTW=瞬擊之槍
+|portuguese=Lança imediata
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If unit initiates combat, grants Atk%Def+%and foe cannot make a follow-up attack%' AND WikiName NOT LIKE '%Instant%'|columns=3}}
+* [[Skill families#Instant|Instant Weapons]]
+{{Weapons Navbox}}

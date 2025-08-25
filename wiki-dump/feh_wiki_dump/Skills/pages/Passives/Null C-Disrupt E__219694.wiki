@@ -1,0 +1,41 @@
+{{Passive
+|name=Null C-Disrupt E
+|type=X
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|Infantry}}
+|1name=Null C-Disrupt E
+|1tagid=SID_響・見切り反撃不可
+|1effect=Neutralizes effects that prevent unit's counterattacks during combat.
+|1cost=0
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce={{Eft|Neutralize Prevent Counter}}
+}}
+==Notes==
+{{Counterattack prevention neutralization}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=響・見切り反撃不可
+|german=K.-Sperre-Neg. H
+|spanishEU=Eco anticont. nula
+|spanishLA=Eco anticont. nula
+|french=Symb. contre prot.
+|italian=Eco nega disturbo
+|chineseTW=響・識破無法反擊
+|portuguese=Anticontra nulo E
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%prevent unit_s counterattacks%' OR Description LIKE '%prevent counterattacks%'}}
+* [[Null Passives]]
+{{Passives Navbox|X}}

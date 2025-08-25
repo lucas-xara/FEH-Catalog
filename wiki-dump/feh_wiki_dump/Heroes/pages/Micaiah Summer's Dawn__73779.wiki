@@ -1,0 +1,82 @@
+{{#invoke:NameAbout|main|Name=Micaiah}}{{HeroPage Tabs|{{PAGENAME}}}}
+{{Hero Infobox
+|Name=Micaiah
+|Title=Summer's Dawn
+|GrowthModifier=None
+|WeaponType=Red Tome
+|Origin=Fire Emblem: Radiant Dawn
+|Gender=Female
+|MoveType=Infantry
+|actorJP=桑谷夏子
+|actorEN=Veronica Taylor
+|artist=チーコ
+|additionDate=August 8, 2018
+|releaseDate=August 10, 2018
+|TagID=夏祭ミカヤ
+|InternalID=278
+|Properties=refresher,special,specRate_202202
+|cv1=9
+|cv2=100100
+|description=A member of the Dawn Brigade with silver hair who is a little apprehensive about wearing unfamiliar summer festival garb. Appears in Fire Emblem: Radiant Dawn.
+}}
+
+__TOC__
+
+{{Stats Page
+|Lv1HP=14|Lv1ATK=8|Lv1SPD=5|Lv1DEF=3|Lv1RES=6
+|GRHP=45|GRATK=60|GRSPD=35|GRDEF=35|GRRES=65
+}}
+
+== Skills ==
+
+===Weapons===
+{{Weapons Table
+|weapon1=Fire
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elfire
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Bolganone
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Dawn Suzu
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+
+===Assists===
+{{Assists Table
+|assist1=Dance
+|assist1Default=4
+|assist1Unlock=3
+}}
+
+===Specials===
+{{Specials Table
+}}
+
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Res Bond 1
+|passiveA2=Atk/Res Bond 2
+|passiveA3=Atk/Res Bond 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Torrent Dance 1
+|passiveB2=Fireflood Dance 1
+|passiveB3=Fireflood Dance 2
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Res Ploy 1
+|passiveC2=Res Ploy 2
+|passiveC3=Res Ploy 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+
+{{Heroes Navbox}}
+[[Category:Hoshidan Summer Festival units]]

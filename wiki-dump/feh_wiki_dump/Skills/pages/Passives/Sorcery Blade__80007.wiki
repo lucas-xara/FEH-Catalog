@@ -1,0 +1,61 @@
+{{SkillPage Tabs}}{{Passive
+|name=Sorcery Blade
+|type=A
+|exclusive=0
+|canUseMove=Infantry
+|canUseWeapon={{WeaponList|exclude=Magical,Beast}}
+|1name=Sorcery Blade 1
+|1tagid=SID_魔道の刃1
+|1promotionRarity=4
+|1promotionTier=1
+|1effect=At start of combat, if unit's HP = 100% and unit is adjacent to a magic ally, calculates damage using the lower of foe's Def or Res.
+|1required=-
+|1cost=60
+|2name=Sorcery Blade 2
+|2tagid=SID_魔道の刃2
+|2promotionRarity=5
+|2promotionTier=1
+|2effect=At start of combat, if unit's HP ≥ 50% and unit is adjacent to a magic ally, calculates damage using the lower of foe's Def or Res.
+|2cost=120
+|3name=Sorcery Blade 3
+|3tagid=SID_魔道の刃3
+|3effect=At start of combat, if unit is adjacent to a magic ally, calculates damage using the lower of foe's Def or Res.
+|3cost=240
+|properties=random_owner
+}}
+==Notes==
+{{TermRefersTo|Magic}}
+{{LowerDefRes}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Sorcery Blade 1;Sorcery Blade 2;Sorcery Blade 3
+|badgeColor=Transparent
+|costs1=20;100;40
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=魔道の刃
+|german=Magieklinge
+|spanishEU=Hoja mágica
+|spanishLA=Espada mágica
+|french=Lame magique
+|italian=Lama incantata
+|chineseTW=魔道之刃
+|portuguese=Espada mágica
+}}
+==See also==
+* [[Felicia's Plate]]
+{{Seals Navbox}}
+{{Passives Navbox|A}}

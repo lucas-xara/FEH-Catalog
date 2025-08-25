@@ -1,0 +1,79 @@
+{{#invoke:NameAbout|main|Name=Alm}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Alm
+|Title=Imperial Ascent
+|GrowthModifier=Gen 4
+|WeaponType=Red Sword
+|Origin=Fire Emblem Echoes: Shadows of Valentia
+|Gender=Male
+|MoveType=Infantry
+|actorJP=花江夏樹
+|actorEN=Kyle McCarley
+|resplendentActorEN=花江夏樹
+|artist=左
+|resplendentArtist=麻谷知世
+|additionDate=August 16, 2019
+|releaseDate=August 16, 2019
+|poolDate=September 6, 2019
+|poolRarities=5
+|TagID=総選挙アルム
+|InternalID=411
+|Properties=brave,specRate_202202,resplendent,jotunheimr
+|cv1=2
+|cv2=100100
+|description=Son of Rudolf, the Rigelian Emperor. Dons special armor that has been passed down for generations. Appears in Fire Emblem Echoes: Shadows of Valentia.
+|resplendentStartTime=2024-12-10T07:00:00Z
+|resplendentEndTime=2024-12-25T06:59:59Z
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=8|Lv1SPD=9|Lv1DEF=11|Lv1RES=5
+|GRHP=55|GRATK=70|GRSPD=60|GRDEF=60|GRRES=35
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Dracofalchion
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Draconic Aura
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Scendscale
+|passiveA1Unlock=5
+|passiveB1=Chill Def 1
+|passiveB2=Chill Def 2
+|passiveB3=Chill Def 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Threaten Atk 1
+|passiveC2=Threat. Atk/Spd 1
+|passiveC3=Threat. Atk/Spd 2
+|passiveC4=Threat. Atk/Spd 3
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}

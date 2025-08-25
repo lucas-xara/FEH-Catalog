@@ -1,0 +1,36 @@
+{{Assist
+|tagid=SID_一喝＋
+|name=Harsh Command+
+|range=1
+|effect=Neutralizes target ally's penalties (from skills like Panic, Threaten, etc.) and negative status effects (preventing counterattacks, restricting movement, etc.) that last through ally's next action. Converts any penalties on target ally into bonuses.
+|cost=400
+|required=Harsh Command
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=staff}}
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{Eft|Bonuses|Atk/Spd/Def/Res|{{SEt|Penalty}} on each stat}}
+|Se2=Removes {{Kp|Penalty}} effects
+|SeT={{Tgt|Target Ally}}
+|SeC={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}
+}}
+
+==Notes==
+{{Penalty conversion|negstatuses=1}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=一喝＋
+|german=Harscher Befehl+
+|spanishEU=Ord. imperiosa +
+|spanishLA=Ord. imperiosa +
+|french=Ordre impérieux +
+|italian=Ordine perentor.+
+|chineseTW=大喝＋
+|portuguese=Ordem severa+
+}}
+{{Assists Navbox}}

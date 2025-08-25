@@ -1,0 +1,57 @@
+{{Weapon Infobox
+|tagid=SID_夜刀神
+|weaponType=Sword
+|might=16
+|range=1
+|effect=If unit initiates combat, grants Spd+4 during combat.
+|cost=400
+|exclusive=1
+|userVersion1=Weapon
+|userVersion2=Upgrade Gleam
+|statModifiers=0,16,0,0,0
+|required=Silver Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Atk/Spd/Def/Res+2.
+|effectSkill1=If unit is within 2 spaces of support partner, grants Atk/Spd/Def/Res+4 to that ally during combat.
+|iconSkill1=Yato W.png
+|tagidExtraSkill1=魅
+|statModifiersSkill1=3,18,2,2,2
+|statModifiersAtk=5,20,2,2,2
+|statModifiersSpd=5,18,5,2,2
+|statModifiersDef=5,18,2,6,2
+|statModifiersRes=5,18,2,2,6
+|properties=random_owner
+}}
+==Notes==
+* Has the same effect as {{St|Darting Blow 2}}.
+{{IfUnitInitiates}}
+{{Combat boosts}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary buffs|name={{St|Yato|refine=Skill1}}}}
+{{SupportPartner|effect=temporary buffs granted to support partner|name={{St|Yato|refine=Skill1}}}}
+
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+[[File:Tip_Brigade.png|thumb|right]][[File:Update_Weapon_Refinery_5.png|thumb|right]]
+* The Yato was first shown in the [[Edit Brigades]] help menu image and the {{Version|2.5.0}} with a red glow, despite only receiving a gleam when refined.
+* The first listed refine for this weapon is a reference to Corrin's personal skill, [[fireemblemwiki:Supportive|Supportive]].
+** The icon for the first listed refine of the Yato comes from the skill Supportive in {{FE|14}}.
+{{Rsn|不思議な魅力R4|Supportive}}
+==In other languages==
+{{OtherLanguages
+|japanese=夜刀神
+|german=Yato
+|spanishEU=Yato
+|spanishLA=Yato
+|french=Yato
+|italian=Yato
+|chineseTW=夜刀神
+|portuguese=Yato
+}}
+{{Weapons Navbox}}

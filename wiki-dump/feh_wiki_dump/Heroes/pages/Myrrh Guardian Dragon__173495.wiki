@@ -1,0 +1,84 @@
+{{#invoke:NameAbout|main|Name=Myrrh}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Myrrh
+|Title=Guardian Dragon
+|WeaponType=Blue Breath
+|MoveType=Flying
+|Origin=Fire Emblem: The Sacred Stones
+|Gender=Female
+|LegendaryEffect=Wind
+|BoostHP=3
+|BoostDef=4
+|Duel=190
+|actorEN=Erica Lindbeck
+|actorJP=門脇舞以
+|artist=エシュアル
+|additionDate=May 31, 2022
+|releaseDate=May 31, 2022
+|cv1=7
+|cv2=700100
+|TagID=伝承ミルラ
+|InternalID=809
+|Properties=legendary,tiara
+|description=A manakete girl who quietly works to protect the world's future, having witnessed the war between humans and the Demon King. Appears in Fire Emblem: The Sacred Stones.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=9|Lv1SPD=6|Lv1DEF=5|Lv1RES=6
+|GRHP=50|GRATK=70|GRSPD=45|GRDEF=85|GRRES=70
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire Breath
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Fire Breath+
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Flametongue
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Godly Breath
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=4
+|special1Unlock=3
+|special2=Bonfire
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Def/Res Bond 1
+|passiveA2=Def/Res Bond 2
+|passiveA3=Def/Res Bond 3
+|passiveA4=Def/Res Unity
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Dragon Wall 1
+|passiveB2=Dragon Wall 2
+|passiveB3=Dragon Wall 3
+|passiveB4=Dragon's Ire 1
+|passiveB5=Dragon's Ire 2
+|passiveB6=Dragon's Ire 3
+|passiveB7=Dragon's Scales
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveB4Unlock=1
+|passiveB5Unlock=2
+|passiveB6Unlock=4
+|passiveB7Unlock=5
+|passiveC1=Darkling Guardian
+|passiveC2=Darkling Guard II
+|passiveC1Unlock=5
+|passiveC2Unlock=5
+}}
+{{Heroes Navbox}}

@@ -1,0 +1,49 @@
+{{Passive
+|name=Pulse Up: Blades
+|type=C
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|Infantry}}
+|properties=random_owner
+|1name=Pulse Up: Blades
+|alt1name=Pulse Up Blades
+|1tagid=SID_鍛錬の鼓動・刃
+|1effect=At start of turn, grants Atk/Spd+X to unit for 1 turn (X = turn number × 2; max 6) and grants Special cooldown count-1 to unit.
+|1cost=300
+|1required=Time's Pulse 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|MapEffect={{SkillEffectText|Reduce Cooldown|1}}
+|MapEffect Conditions=At start of turn
+|StatusEffect={{SkillEffectText|Bonus|Atk/Spd|turn number x 2|max=6}}
+|StatusEffect Conditions=At start of turn
+}}
+==Notes==
+{{Start of turn Special modification}}
+{{Bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=鍛錬の鼓動・刃
+|japaneseNotes=<i>Training Pulse: [[Resonance: Blades|Blades]]</i>
+|german=Impetus-Klingen
+|spanishEU=Pulso tenaz: Filos
+|spanishLA=Pulso recio: Filos
+|french=Cadence : lames
+|italian=Pulsazioni: lame
+|chineseTW=鍛鍊之躍動・刃
+|portuguese=Pulsação: lâminas
+}}
+
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%turn number%' OR Description LIKE '%number of turns%' OR Description LIKE '%at start of turn%special cooldown count-%') AND Exclusive='1'}}
+* [[Pulse Up Passives]]
+{{Passives Navbox|C}}

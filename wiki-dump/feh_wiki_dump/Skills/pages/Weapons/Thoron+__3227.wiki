@@ -1,0 +1,40 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_トロン＋
+|weaponType=Blue Tome
+|weaponName={{PAGENAME}}
+|altWeaponName=Thoron Plus
+|might=13
+|range=2
+|effect=
+|cost=300
+|exclusive=0
+|userVersion1=Closed|userVersion2=Open|statModifiers=0,13,0,0,0
+|required=Thoron
+|SE=se_effect_thoron.flac
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|upgradedMight=14
+|properties=random_all
+}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=トロン＋
+|german=Thoron+
+|spanishEU=Thoron +
+|spanishLA=Thoron +
+|french=Thoron +
+|italian=Thoron+
+|chineseTW=托隆＋
+|portuguese=Thoron+
+}}
+
+==See also==
+* [[Silver Weapons]]
+{{Weapons Navbox}}
+[[Category:Silver weapons]]

@@ -1,0 +1,39 @@
+{{Weapon Infobox
+|tagid=SID_絶光の角
+|intID=3172
+|exclusive=1
+|weaponType=Beast
+|canUseMove=Infantry
+|cost=400
+|might=14
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit during combat, unit makes a guaranteed follow-up attack, deals damage = 20% of unit's Def, and reduces damage from foe's attacks by 20% of unit's Def (excluding area- of-effect Specials). At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, deals +7 damage when Special triggers, and neutralizes effects that grant "Special cooldown charge +X" to foe or inflict "Special cooldown charge -X" on unit.
+|statModifiers=0,14,0,0,0
+|required=Adult (Infantry)
+|properties=random_owner
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Guaranteed follow-up interaction}}
+{{DamageBoost}}
+{{FlatDamageReduction}}
+{{Beast (Infantry)}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=絶光の角
+|german=Lichthorn
+|spanishEU=Cuerno luminoso
+|spanishLA=Cuerno luminoso
+|french=Cor lumineux
+|italian=Corno luminoso
+|chineseTW=絕光之角
+|portuguese=Chifre luminoso
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%deals damage%=%of unit_s Def%' OR Description LIKE '%reduces%foe_s attacks by%of unit_s%' AND Description NOT LIKE '%next attack%'}}
+{{Weapons Navbox}}

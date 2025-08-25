@@ -1,0 +1,40 @@
+{{About|the weapon|the [[status effect]]|Gravity (status effect)}}{{Weapon Infobox
+|tagid=SID_グラビティ
+|weaponType=Staff
+|might=6
+|range=2
+|effect=After combat, if unit attacked, inflicts status on foe restricting movement to 1 space through its next action.
+|cost=150
+|exclusive=0
+|statModifiers=0,6,0,0,0
+|next=Gravity+
+|promotionRarity=5
+|promotionTier=2
+|required=Assault
+|properties=random_all
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se={{SEt|Gravity}}
+|SeT={{Tgt|Foe}}
+|SeC=After combat if<br>{{Tgt|Unit}} attacked
+}}
+==Notes==
+{{IfUnitAttacked}}
+{{Gravity}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=グラビティ
+|german=Schwere
+|spanishEU=Gravedad
+|spanishLA=Gravedad
+|french=Gravité
+|italian=Gravità
+|chineseTW=重壓
+|portuguese=Gravidade
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%inflicts status on target and foes%restricting movement%next actions%' OR Description LIKE '%inflicts%【Gravity】%on target and foes%') AND Exclusive=1}}
+{{Weapons Navbox}}

@@ -1,0 +1,66 @@
+{{#invoke:NameAbout|main|Name=Chulainn}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Chulainn
+|Title=Unbeaten Warrior
+|WeaponType=Red Sword
+|MoveType=Infantry
+|Origin=Fire Emblem: Genealogy of the Holy War
+|Gender=Male
+|actorEN=Jonathan David Bullock
+|actorJP=岡野浩介
+|artist=霜村航
+|additionDate=January 6, 2025
+|releaseDate=January 8, 2025
+|cv1=3
+|cv2=800300
+|TagID=ホリン
+|InternalID=1195
+|Properties=limited,ghb
+|description=A gladiator who wanders the land in search of bounties. It is said he has never seen defeat. Appears in Fire Emblem: Genealogy of the Holy War.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=11|Lv1SPD=11|Lv1DEF=10|Lv1RES=6
+|GRHP=60|GRATK=80|GRSPD=80|GRDEF=70|GRRES=35
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Campaign Blade
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Campaign Blade+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Wind Boost 1
+|passiveA2=Wind Boost 2
+|passiveA3=Wind Boost 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=Spd/Def Bulwark 1
+|passiveB2=Spd/Def Bulwark 2
+|passiveB3=Spd/Def Bulwark 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+{{Heroes Navbox}}

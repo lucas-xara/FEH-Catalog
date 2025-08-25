@@ -1,0 +1,55 @@
+{{Passive
+|name=Already Dead
+|type=A
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Already Dead
+|1tagid=SID_あの世行きよ…
+|1effect=Grants Atk/Spd/Def/Res+9.<br><br>At start of player phase or enemy phase, if unit is within 3 spaces of an ally, grants【Anathema】and【Charge】to unit and allies within 3 spaces of unit for 1 turn.<br><br>If unit initiates combat or is within 3 spaces of an ally, grants Special cooldown count-X to unit before unit's first attack, reduces damage from attacks by X × 20% (excluding area-of-effect Specials), and reduces damage from attacks by an additional X × 3 during combat (excluding area-of-effect Specials), and also, if X ≥ 2, foe cannot trigger Specials during combat (excluding area-of-effect Specials; X = number of allies on the map with【Anathema】 active, excluding unit; max 3).<br><br>【Anathema】<br>Inflicts Spd/Def/Res-4 on foes within 3 spaces of unit during combat.<br><br>【Charge】<br>Unit can move up to 3 spaces in any cardinal direction. (Cannot move through foes, terrain that blocks movement, or effects of skills like Obstruct. Granted movement treated as Warp movement.)
+|statModifiers1=0,9,9,9,9
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Stat Boost|Atk/Spd/Def/Res|9}}
+|Se1={{SEt|Anathema}}
+|Se2={{SEt|Charge}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 3 spaces]]
+|SeC=At start of Both Phases<br>if an {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|Ce1={{Eft|Reduce Cooldown|{{Tgt|Allies}} with {{SEt|Anathema}}|max=3}}<br>before {{Tgt|Unit}}'s first attack
+|Ce2={{Eft|Damage Reduction|20 x{{Tgt|Allies}} with {{SEt|Anathema}}|max=60%|percent=1}}<br>from {{Tgt|Foe}}'s attacks
+|Ce3={{Eft|Damage Reduction|3 x {{Tgt|Allies}} with {{SEt|Anathema}}|max=9|percent=0}}<br>from {{Tgt|Foe}}'s attacks
+|Ce1-3C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|Ce4={{Eft|Prevent Special|[[Combat Specials]]}}
+|Ce4T={{Tgt|Foe}}
+|Ce4C=(Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 3 spaces]])<br>'''&''' {{Tgt|Allies}} with<br>{{SEt|Anathema}} ≥ 2
+}}
+
+==Notes==
+{{Anathema}}
+{{Charge}}
+{{IfUnitInitiates}}
+{{CombatCooldownCount|-X (max: 3)}}
+{{DamagePercentageReduction}}
+{{FlatDamageReduction|X (max: 9)}}
+{{Prevent Special|combat}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=あの世行きよ…
+|german=Du bist tot
+|spanishEU=Hora de morir
+|spanishLA=Llegó tu hora
+|french=Heure funeste
+|italian=La morte è qui
+|chineseTW=一路好走……
+|portuguese=Chegou a hora
+}}
+
+==See also==
+{{See also skills|cond=(Description LIKE '%【Anathema】%' OR Description LIKE '%cannot trigger specials%') AND Exclusive='1'}}
+{{Passives Navbox|A}}

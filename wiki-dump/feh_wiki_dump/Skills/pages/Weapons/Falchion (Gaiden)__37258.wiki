@@ -1,0 +1,59 @@
+{{About|the version of Falchion that appears in {{EntryText|2}}|other versions of Falchion|Falchion}}{{Weapon Infobox
+|tagid=SID_ファルシオン外伝
+|wikiName=Falchion Gaiden
+|weaponType=Sword
+|weaponName=Falchion
+|userVersion1=Weapon
+|userVersion2=Gleam
+|might=16
+|range=1
+|cost=400
+|exclusive=1
+|effectiveness=dragon
+|effect=Effective against dragons. At the start of every third turn, unit recovers 10 HP.
+|statModifiers=0,16,0,0,0
+|required=Silver Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Effective against dragon foes. At start of odd-numbered turns, restores 10 HP.
+|effectSkill1=If unit's HP = 100% at start of combat and unit initiates combat, unit attacks twice, but deals 5 damage to unit after combat.
+|iconSkill1=Falchion Gaiden W.png
+|tagidExtraSkill1=連
+|properties=random_owner
+}}
+==Notes==
+* Has the same effect as {{St|Renewal 2}}.
+{{Start-of-turn healing}}
+{{Effective damage bonus|dragon}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+* Refined Falchion the same effect as {{St|Renewal 3}}.
+{{Brave weapon interaction|name={{St|Falchion (Gaiden)|refine=skill1}}}}
+{{After combat note|name={{St|Falchion (Gaiden)|refine=skill1}}}}
+{{DamageToUnit|name={{St|Falchion (Gaiden)|refine=skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+* The first listed refined effect is a reference to a skill in {{FE|15}} known as "[[Fireemblemwikia:Double Lion|Double Lion]]", which allows the user to [[Consecutive attacks|attack twice]] and is found on the {{St|Royal Sword}}, one of [[Alm|Alm's]] preferred weapons.
+**However, later on {{Ut|Celica: Warrior Priestess}} received a more powerful version of this skill, named {{St|Double Lion}}.
+{{Rsn|連撃消耗|Consecutive Attacks Exhaustion}}
+==In other languages==
+{{OtherLanguages
+|english=Falchion
+|japanese=ファルシオン
+|german=Falchion
+|spanishEU=Falchion
+|spanishLA=Falchion
+|french=Falchion
+|italian=Falchion
+|chineseTW=法爾西昂
+|portuguese=Falchion
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%start of%turn%restores 10 HP.%' OR Description LIKE '%and unit initiates combat, unit attacks twice%damage to unit%' OR WikiName LIKE '%Falchion%') AND (Exclusive=1 AND Name NOT LIKE '%+' AND Name NOT LIKE 'Arcane%')}}
+* [[Brave Weapons]]
+* [[Sources of effective against dragon foes]]
+{{Weapons Navbox}}

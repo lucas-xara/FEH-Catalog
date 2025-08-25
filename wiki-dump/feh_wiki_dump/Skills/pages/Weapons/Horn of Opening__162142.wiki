@@ -1,0 +1,102 @@
+{{Weapon Infobox
+|tagid=SID_開く者の角
+|intID=2864
+|exclusive=1
+|weaponType=Beast
+|canUseMove=Infantry
+|cost=400
+|might=14
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>If unit is within 3 spaces of an ally, grants Atk+6 to unit during combat and inflicts Atk-6 on foe during combat. Grants the following effects based on the number of allies within 3 spaces: ≥ 2 allies, unit makes a guaranteed follow-up attack; ≥ 3 allies, foe cannot make a follow-up attack.<br><br>At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, deals +7 damage when Special triggers, and neutralizes effects that grant "Special cooldown charge +X" to foe or inflict "Special cooldown charge -X" on unit.
+|statModifiers=0,14,0,0,0
+|required=Adult (Infantry)
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1).<br><br>If unit is within 3 spaces of an ally, grants Atk+6 and Spd+5 to unit, inflicts Atk-6 on foe, unit makes a guaranteed follow-up attack, foe cannot make a follow-up attack, and reduces damage from foe's attacks by X% of unit's Def during combat (X = number of allies within 3 spaces of unit × 10; max 30; excluding area-of-effect Specials), and also, when foe's attack triggers foe's Special, reduces damage further by X% of unit's Def (excluding area-of-effect Specials).<br><br>At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, deals +7 damage when Special triggers, and neutralizes effects that grant "Special cooldown charge +X" to foe or inflict "Special cooldown charge -X" on unit.
+|refineStatsSkill1=3,0,0,0,0
+|effectSkill1=If foe initiates combat or foe's HP ≥ 75% at start of combat, grants bonus to unit's Atk/Spd/Def/Res = number of allies within 3 spaces of unit × 2, + 5 (max 11), deals damage = 20% of unit's Def (excluding area-of-effect Specials), and grants Special cooldown count-1 to unit before unit's first attack during combat.
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe1={{Eft|Accelerates Special}}
+|s1 Pe2={{Eft|Stat Boosts|Atk|2}}
+|s1 PeC2={{Tgt|Unit}} is transformed
+|s1 Me={{Eft|Transform}}
+|s1 MeC=At start of turn if<br>{{Tgt|Unit}} is [[adjacent]] to only<br>{{Cwti|group=1|Dragon,Beast}} [[Dragon]]/[[Beast]]<br>{{Tgt|Allies}} '''or''' not [[adjacent]]<br>to any {{Tgt|Ally}}
+|s1 Ce1={{Eft|Temporary buffs|Atk|6}}
+|s1 Ce2={{Eft|Temporary debuffs|Atk|6}}
+|s1 Ce2T={{Tgt|Foe}}
+|s1 Ce1-2C=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|s1 Ce3={{Eft|Guaranteed Follow-Ups}}
+|s1 Ce3T={{Tgt|Unit}}
+|s1 Ce3C={{Tgt|Allies}} [[within 2 spaces|within<br>2 spaces]] ≥ 2
+|s1 Ce4={{Eft|Prevent Follow-Ups}}
+|s1 Ce4C={{Tgt|Allies}} [[within 2 spaces|within<br>2 spaces]] ≥ 3
+|s1 Ce5={{Eft|Neutralize Accelerate Charge}}
+|s1 Ce4-5T={{Tgt|Foe}}<br>
+|s1 Ce6={{Eft|Neutralize Guard}}
+|s1 Ce5-7C={{Tgt|Unit}} is transformed
+|s1 Ce7={{Eft|Damage Boost|7}} per<br>{{Tgt|Unit}}'s [[Area-of-effect Specials|AoE]] '''or''' [[offensive Special]]
+|s1 Ce6-7T={{Tgt|Unit}}<br>
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe1={{Eft|Accelerates Special}}
+|s2 Pe2={{Eft|Stat Boosts|Atk|2}}
+|s2 PeC2={{Tgt|Unit}} is transformed
+|s2 Me={{Eft|Transform}}
+|s2 MeC=At start of turn if<br>{{Tgt|Unit}} is [[adjacent]] to only<br>{{Cwti|group=1|Dragon,Beast}} [[Dragon]]/[[Beast]]<br>{{Tgt|Allies}} '''or''' not [[adjacent]]<br>to any {{Tgt|Ally}}
+|s2 Ce1={{Eft|Temporary buffs|Atk|6}}, {{Eft|Temporary buffs|Spd|5}}
+|s2 Ce2={{Eft|Temporary debuffs|Atk|6}}
+|s2 Ce3={{Eft|Prevent Follow-Ups}}
+|s2 Ce2-3T={{Tgt|Foe}}
+|s2 Ce4={{Eft|Guaranteed Follow-Ups}}
+|s2 Ce4-6T={{Tgt|Unit}}
+|s2 Ce5={{Eft|Damage Reduction|(10 x {{Tgt|Allies}} [[within 3 spaces|within<br>3 spaces]])% of {{Tgt|Unit}}'s Def|max=30}}<br>from {{Tgt|Foe}}'s attacks
+|s2 Ce6={{Eft|Damage Reduction|(10 x {{Tgt|Allies}} [[within 3 spaces|within<br>3 spaces]])% of {{Tgt|Unit}}'s Def|max=30}}<br>per {{Tgt|Foe}}'s [[offensive Specials]]
+|s2 Ce1-6C=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|s2 Ce7={{Eft|Neutralize Accelerate Charge}}
+|s2 Ce4-7T={{Tgt|Foe}}<br>
+|s2 Ce8={{Eft|Neutralize Guard}}
+|s2 Ce7-9C={{Tgt|Unit}} is transformed
+|s2 Ce9={{Eft|Damage Boost|7}} per<br>{{Tgt|Unit}}'s [[Area-of-effect Specials|AoE]] '''or''' [[offensive Special]]
+|s2 Ce8-9T={{Tgt|Unit}}<br>
+|skill3={{Si|Horn of Opening|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|2 x {{Tgt|Allies}} [[within 3 spaces]], +5|max=11}}
+|s3 Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Def}}
+|s3 Ce3={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Unit}}'s first attack
+|s3 CeC=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{Temporary debuffs}}
+{{Guaranteed follow-up interaction}}
+{{Prevent follow-up}}
+{{Beast (Infantry)}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{FlatDamageReduction}}
+{{DamageBoost|name={{St|Horn of Opening|refine=Skill1}}}}
+{{CombatCooldownCount|-1|name={{St|Horn of Opening|refine=Skill1}}}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=開く者の角
+|german=Horn des Öffnens
+|spanishEU=Cuerno cordial
+|spanishLA=Cuerno cordial
+|french=Cor ouverture
+|italian=Corno unificatore
+|chineseTW=開啟者之角
+|portuguese=Chifre unificador
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%reduces damage%= number of allies within _ spaces of unit%' AND Exclusive='1'}}
+{{Weapons Navbox}}

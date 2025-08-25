@@ -1,0 +1,68 @@
+{{#invoke:NameAbout|main|Name=Gaius|Name2=Asugi}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Gaius
+|Title=Thief Exposed
+|GrowthModifier=None
+|WeaponType=Colorless Bow
+|MoveType=Infantry
+|Origin=Fire Emblem Awakening
+|Gender=Male
+|actorEN=Ray Chase
+|actorJP=松本忍
+|artist=一色箱
+|releaseDate=June 30, 2017
+|TagID=水着ガイア
+|InternalID=143
+|Properties=special,specRate_202202
+|cv1=10
+|cv2=200100
+|description=A thief from Ylisse known for his sweet tooth. Usually secrets candy in his clothes, but can't when he's dressed like this. Appears in Fire Emblem Awakening.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=8|Lv1SPD=9|Lv1DEF=4|Lv1RES=6
+|GRHP=40|GRATK=50|GRSPD=65|GRDEF=35|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Refreshing Bolt
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Refreshing Bolt+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Astra
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Vantage 1
+|passiveB2=Vantage 2
+|passiveB3=Vantage 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Def Ploy 1
+|passiveC2=Def Ploy 2
+|passiveC3=Def Ploy 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Summer units]]

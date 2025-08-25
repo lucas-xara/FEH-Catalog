@@ -1,0 +1,90 @@
+{{#invoke:NameAbout|main|Name=Leif}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Leif
+|Title=Unifier of Thracia
+|WeaponType=Colorless Bow
+|Origin=Fire Emblem: Thracia 776,Fire Emblem: Genealogy of the Holy War
+|Gender=Male
+|LegendaryEffect=Water
+|BoostHP=3
+|Duel=175
+|MoveType=Cavalry
+|actorJP=鈴村健一
+|actorEN=Nicolas Roye
+|artist=日野慎之助
+|additionDate=October 29, 2019
+|releaseDate=October 29, 2019
+|TagID=伝承リーフ
+|InternalID=440
+|Properties=legendary
+|entry=3;4
+|cv1=4
+|cv2=100100
+|description=Son of Quan and heir to Leonster. He defeated the Loptr Church and liberated his kingdom. Appears in Fire Emblem: Genealogy of the Holy War and Fire Emblem: Thracia 776.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=8|Lv1SPD=3|Lv1DEF=7|Lv1RES=8
+|GRHP=50|GRATK=70|GRSPD=45|GRDEF=50|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Bow
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Meisterbogen
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+}}
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Astra
+|special2Default=
+|special2Unlock=4
+|special3=Njörun's Zeal
+|special3Default=
+|special3Unlock=5
+|special4=Njörun's Zeal II
+|special4Default=
+|special4Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Res Push 1
+|passiveA2=Atk/Res Push 2
+|passiveA3=Atk/Res Push 3
+|passiveA4=Atk/Res Push 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=S Drink
+|passiveB1Unlock=5
+|passiveC1=Def Smoke 1
+|passiveC2=Def Smoke 2
+|passiveC3=Def Smoke 3
+|passiveC4=Spur Atk 1
+|passiveC5=Drive Atk 1
+|passiveC6=Drive Atk 2
+|passiveC7=Joint Drive Atk
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+|passiveC4Unlock=1
+|passiveC5Unlock=2
+|passiveC6Unlock=4
+|passiveC7Unlock=5
+}}
+{{Heroes Navbox}}

@@ -1,0 +1,44 @@
+{{Weapon Infobox
+|tagid=SID_原初の炎の太鼓
+|intID=3245
+|image=wep_dg068
+|exclusive=1
+|weaponType=Dagger
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of turn, grants【Canto (１)】to unit and allies within 2 spaces of unit for 1 turn. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+6 to unit during combat, neutralizes effects that prevent unit's follow-up attacks, and also, if unit initiates combat against a blue, green, or colorless foe, grants bonus to unit's Atk during combat = 20% of unit's Atk at start of combat and inflicts penalty on foe's Atk during combat = 20% of foe's Atk at start of combat.<br>Effect:【Dagger ７】<br><br>【Canto (１)】<br>After an attack, Assist skill, or structure destruction, unit can move １ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|statModifiers=0,14,0,0,0
+|required=Silver Dagger
+|properties=
+}}
+==Notes==
+{{Canto|statusEffect=1|1}}
+{{Temporary buffs}}
+{{Follow-up effect neutralization|preventOnly=1}}
+{{IfUnitInitiates}}
+{{TermRefersTo|Blue}}
+{{TermRefersTo|Green}}
+{{TermRefersTo|Colorless}}
+{{Temporary debuffs}}
+{{At start of combat}}
+{{IfUnitAttacked}}
+{{Penalties}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=原初の炎の太鼓
+|german=Glimmende Taiko
+|spanishEU=Taiko prendido
+|spanishLA=Taiko prendido
+|french=Taiko enflammé
+|italian=Taiko innescante
+|chineseTW=初始的炎之太鼓
+|portuguese=Taiko brasa
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Canto (１)】%' OR Description LIKE '%grants bonus to unit_s Atk%=%of unit_s%' OR Description LIKE '%inflicts penalty on foe_s Atk%=%of foe_s%') AND Exclusive='1'}}
+{{Weapons Navbox}}

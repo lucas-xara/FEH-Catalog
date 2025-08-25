@@ -1,0 +1,47 @@
+{{Weapon Infobox
+|tagid=SID_珊瑚の剣＋
+|intID=3140
+|image=wep_sw134
+|exclusive=0
+|weaponType=Sword
+|cost=300
+|might=14
+|range=1
+|effect=If unit initiates combat or is within 2 spaces of an ally, grants Atk/Def+5 to unit during combat and unit makes a guaranteed follow-up attack.
+|statModifiers=0,14,0,0,0
+|required=Coral Saber
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary buffs|Atk/Def|5}}
+|Ce2={{Eft|Guaranteed Follow-Ups}}
+|CeC=Player Phase<br>'''or''' an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Guaranteed follow-up interaction}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=珊瑚の剣＋
+|german=Korallensäbel+
+|spanishEU=Sable coral +
+|spanishLA=Sable coral +
+|french=Sabre corail +
+|italian=Sciabola corallo+
+|chineseTW=珊瑚之劍＋
+|portuguese=Sabre coral+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If unit initiates combat or is within _ spaces of an ally%Atk/Def%+%guaranteed follow-up%' AND Exclusive='1' AND NAME NOT LIKE '%pursual%'}}
+* [[Skill families/Weapons#Pursual|Pursual Weapons]]
+{{Weapons Navbox}}

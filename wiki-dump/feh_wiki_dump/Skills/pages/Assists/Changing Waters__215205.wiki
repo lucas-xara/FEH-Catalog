@@ -1,0 +1,45 @@
+{{Assist
+|tagid=SID_つたうみなすじ
+|intID=4117
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=400
+|range=1
+|effect=Grants another action to target ally and target can move 1 extra space (that turn only; does not stack; excluding cavalry allies with Range = 2), and also, grants【Incited】to target and allies within 2 spaces of target (excluding unit). (Cannot target an ally with Sing or Dance; this skill treated as Sing or Dance.)<br><br>【Incited】<br>If unit initiates combat, grants bonus to unit's Atk/Spd/Def/Res = number of spaces from start position to end position of unit during combat (max 3; that turn only).
+|required=Sing
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Another Action}}
+|MeT={{Tgt|Target Ally}}
+|MeC={{Tgt|Target Ally}}<br>doesn't have a<br>{{Uti|Dance}} [[Dance Assist]]<br>'''or''' {{SEt|Isolation}}
+|Se1={{SEt|Mobility Increased}}
+|SeT1={{Tgt|Target Ally}}
+|Se2={{SEt|Incited}}
+|SeT2={{Tgt|Target Ally}}<br>'''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Ally}}
+|Se1C=({{SEt|Incited}}<br>conditions) '''&'''<br>{{Tgt|Target Ally}}<br>isn't Range = 2<br>{{Mt|Cavalry}}
+|Se2C={{Tgt|Target Ally}}<br>doesn't have a<br>{{Uti|Dance}} [[Dance Assist]]<br>'''or''' {{SEt|Isolation}}
+}}
+
+==Notes==
+{{Mobility increased}}
+{{Incited}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=つたうみなすじ
+|german=Ew'ger Wandel
+|spanishEU=Aguas cambiantes
+|spanishLA=Aguas cambiantes
+|french=Eaux changeantes
+|italian=Acque mutevoli
+|chineseTW=流動水脈
+|portuguese=Águas mutáveis
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%This skill treated as Sing or Dance%' OR Description LIKE '%【Incited】%' AND Exclusive='1'}}
+{{Assists Navbox}}
+[[Category:Dance skills]][[Category:Sources of effects that grant "another action"]]

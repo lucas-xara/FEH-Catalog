@@ -1,0 +1,67 @@
+{{Passive
+|type=B
+|name=Hoðr's Zeal
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Hoðr's Zeal
+|alt1name=Hodrs Zeal
+|1tagid=SID_ヘズルの聖戦士
+|1cost=300
+|1effect=Enables【Canto (Rem. +1)】.<br><br>Unit deals damage = 20% of unit's Atk. If unit initiates combat, unit can make a follow-up attack before foe can counterattack.<br><br>【Canto (Rem. +1)】<br>After an attack, Assist skill, or structure destruction, unit can move again.<br><br>The distance of the movement is the remaining movement the unit had before the actions listed above+1 (If unit used a movement skill that warps them, the remainder is 0).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|1required=-
+|1next=-
+|2name=Hoðr's Zeal II
+|alt2name=Hodrs Zeal II
+|2tagid=SID_ヘズルの聖戦士・承
+|2effect=Enables【Canto (Rem. +1)】.<br><br>At start of turn, inflicts Spd/Def-7 and 【Exposure】on closest foes and foes within 2 spaces of those foes through their next actions.<br><br>Unit deals damage = 20% of unit's Atk. Inflicts Spd/Def-5 on foe and neutralizes unit's penalties to Atk/Spd during combat.<br><br>If unit initiates combat, unit can make a follow-up attack before foe's next attack.<br><br>【Canto (Rem. +1)】<br>After an attack, Assist skill, or structure destruction, unit can move again.<br><br>The distance of the movement is the remaining movement the unit had before the actions listed above+1 (If unit used a movement skill that warps them, the remainder is 0).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)<br><br>【Exposure】<br>Foe's attacks deal +10 damage.
+|2cost=300
+|properties2=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Hoðr's Zeal}} Hoðr's Zeal
+|s1 Me={{Eft|Canto|Rem. +1}}
+|s1 Ce1={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Atk}}
+|s1 Ce2={{Eft|Desperation}}
+|s1 Ce2C=Player Phase
+|skill2={{Si|Hoðr's Zeal II}} Hoðr's Zeal II
+|s2 Me={{Eft|Canto|Rem. +1}}
+|s2 Se1={{Eft|Penalties|Spd/Def|7}}
+|s2 Se2={{SEt|Exposure}}
+|s2 SeT=Closest {{Tgt|Foes}}<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}
+|s2 SeC=At start of turn
+|s2 Ce1={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Atk}}
+|s2 Ce2={{Eft|Temporary debuffs|Spd/Def|5}}
+|s2 Ce2T={{Tgt|Foe}}
+|s2 Ce3={{Eft|Neutralize Penalties|Atk/Spd}}
+|s2 Ce4={{Eft|Desperation}}
+|s2 Ce4C=Player Phase
+}}
+==Notes==
+{{Canto|Rem. +1}}
+{{AtkDamageBoost}}
+{{Follow-up before counterattack}}
+{{Penalties|name=Hoðr's Zeal II}}
+{{Exposure|name=Hoðr's Zeal II}}
+{{Temporary debuffs|name=Hoðr's Zeal II}}
+{{Penalty neutralization|name=Hoðr's Zeal II}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Hoðr's Zeal
+|japanese=ヘズルの聖戦士
+|german=Hoðrs Eifer
+|spanishEU=Fervor de Hoðr
+|spanishLA=Fervor de Hoðr
+|french=Ferveur de Hoðr
+|italian=Zelo di Hoðr
+|chineseTW=赫哲爾的聖戰士
+|portuguese=Ardor de Hoðr
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%if unit initiates combat%unit can make a follow-up attack before foe can counterattack%') AND (Exclusive='1' AND Name NOT LIKE '%+' AND Description NOT LIKE '%【Desperation】%')}}
+* [[Skill families/B Passives#Trace|Trace Passives]]
+{{Passives Navbox|B}}

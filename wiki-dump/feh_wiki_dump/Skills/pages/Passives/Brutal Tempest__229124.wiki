@@ -1,0 +1,47 @@
+{{Passive
+|name=Brutal Tempest
+|type=C
+|exclusive=0
+|canUseWeapon={{WeaponList|Close}}
+|canUseMove={{MoveList|Infantry,Flying}}
+|properties=random_owner
+|1name=Brutal Tempest
+|1tagid=SID_迅雷風烈・鬼没
+|1effect=Enables【Canto (Dist. +1; Max ４)】.<br><br>At start of turn, unit can move 1 extra space (that turn only; does not stack).<br><br>Grants bonus to unit's Atk/Spd/Def/Res during combat = number of spaces from start position to end position of whoever initiated combat (max 3).<br><br>【Canto (Dist. +1; Max ４)】<br>After an attack, Assist skill, or structure destruction, unit can move spaces = number of spaces from start position to end position of unit before the above, +1. (Max ４.)<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|1cost=300
+|1required=Odd Tempest 3;Even Tempest 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Canto|Dist. +1; Max 4}}
+|Se={{SEt|Mobility Increased}}
+|SeC=At start of turn
+|Ce={{Eft|Temporary buffs|Atk/Spd/Def/Res|spaces initiator moved|max=3}}
+}}
+==Notes==
+{{Canto|Dist. +1; Max 4}}
+{{Mobility increased}}
+{{Temporary buffs}}
+{{SpacesFromStarttoEnd}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Canto%unit can move 1 extra space%' OR Description LIKE '%unit can move 1 extra space%【Canto%') AND Description NOT LIKE '%transforms%' AND Description NOT LIKE '%inflict%【Stall】%' AND Exclusive='1'}}
+* [[Skill families/C Passives#Tempest|Tempest Passives]]
+* [[Clash Passives]]
+{{Passives Navbox|C}}

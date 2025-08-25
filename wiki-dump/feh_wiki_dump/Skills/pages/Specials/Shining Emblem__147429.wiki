@@ -1,0 +1,50 @@
+{{Special
+|tagid=SID_光炎の紋章
+|charge=2
+|effect=At start of turn, if unit is within 2 spaces of an ally, grants unit Atk/Spd/Def/Res+6 for 1 turn and grants allies within 2 spaces of unit Atk+6 for 1 turn. Boosts Special damage by 35% of unit's Spd. After combat, if unit's Special triggered, grants Atk/Spd/Def/Res+6 to unit and all allies for 1 turn. (Bonus granted to allies even if unit's HP reaches 0.)
+|cost=500
+|exclusive=1
+|required=Draconic Aura
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|intID=2703
+|sort=579
+|value=12
+|timingID=3
+|abilityID=103
+|limit1ID=14
+|randomTimestamp=2021-09-17T07:00:00Z
+|randomMinLv=31
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Damage Boost|35% of {{Tgt|Unit}}'s Spd}}
+|Ce1C=Special triggers
+|Se1={{Eft|Bonuses|Atk/Spd/Def/Res|6}}
+|Se2={{Eft|Bonuses|Atk|6}}
+|SeT2={{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC1-2=At start of turn<br>if {{Tgt|Unit}} is<br>[[within 2 spaces]]<br>of an {{Tgt|Ally}}
+|Se3={{Eft|Bonuses|Atk/Spd/Def/Res|6}}
+|SeT3={{Tgt|Unit}} '''&'''<br>all {{Tgt|Allies}}
+|SeC3=After combat if<br>Special triggered
+}}
+==Notes==
+{{Bonuses}}
+{{DamageBoost}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=光炎の紋章
+|german=Emblem d. Lichts
+|spanishEU=Emblema de luz
+|spanishLA=Emblema de luz
+|french=Emblème luisant
+|italian=Emblema lucente
+|chineseTW=光炎紋章
+|portuguese=Emblema de luz
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%even if unit_s HP reaches 0%' OR Description LIKE '%boost%damage%unit_s spd%'|columns=3}}
+{{Specials Navbox}}

@@ -1,0 +1,40 @@
+{{Assist
+|tagid=SID_体当たり
+|name=Shove
+|range=1
+|effect=Pushes target ally 1 space away.
+|cost=150
+|exclusive=0
+|required=-
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_all,random_inherit_base
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Shove Units}}
+|MeT={{Tgt|Target Ally}}
+|MeC={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}
+}}
+
+==Notes==
+{{Movement skill notes|notBeforeRokkr=1}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=体当たり
+|german=Stoß
+|spanishEU=Empujar
+|spanishLA=Empujar
+|french=Bousculade
+|italian=Spinta
+|chineseTW=衝撞
+|portuguese=Empurrão
+}}
+
+==See also==
+* [[Movement Assists]]
+
+{{AssistSkillBox}}
+[[Category:Movement Assists]]

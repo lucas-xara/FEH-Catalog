@@ -1,0 +1,48 @@
+{{Passive
+|type=A
+|name=Verdict of Sacae
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Verdict of Sacae
+|1tagid=SID_大いなるサカの掟
+|1cost=300
+|1effect=If unit is within 4 spaces of an ally, grants bonus to unit's Atk/Spd/Def/Res during combat = X × 4, + 4 (X = number of allies within 4 spaces; maximum bonus of +12), and also, if unit's Special is ready or unit's Special triggered before or during combat, unit deals +5 damage (excluding area-of-effect Specials), and when unit deals damage to foe during combat, restores 7 HP to unit. (Triggers even if 0 damage is dealt.)
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4 x {{Tgt|Allies}}<br>[[within 4 spaces]], +4|max=16}}
+|Ce1C=An {{Tgt|Ally}} is<br>[[within 4 spaces]]
+|Ce2={{Eft|Damage Boost|5}}
+|Ce3={{Eft|Heal|7}}<br>per {{Tgt|Unit}}'s attack
+|Ce2-3C=An {{Tgt|Ally}} is<br>[[within 4 spaces]] '''&'''<br>{{Tgt|Unit}}'s Special is<br>ready '''or''' triggered<br>before or during combat
+}}
+==Notes==
+{{Temporary buffs}}
+{{FlatDamageBoost|5}}
+{{CombatHPRecovery}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=大いなるサカの掟
+|japaneseNotes=''Great [[Laws of Sacae]]''
+|german=Urteil von Sacae
+|spanishEU=Justicia de Sacae
+|spanishLA=Justicia de Sacae
+|french=Verdict de Sacae
+|italian=Verdetto di Sacae
+|chineseTW=偉大的塞迦的規矩
+|portuguese=Veredito de Sacae
+}}
+==See also==
+{{See also skills|cond=WikiName LIKE '%of Sacae%' OR Description LIKE '%if%special is ready%' AND Exclusive='1' AND NOT SCategory='special'}}
+* [[Form Passives]]
+* [[Skill families/A Passives#Finish|Finish Passives]]
+{{Passives Navbox|A}}

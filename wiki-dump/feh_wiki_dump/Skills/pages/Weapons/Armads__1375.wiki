@@ -1,0 +1,38 @@
+{{Weapon Infobox
+|tagid=SID_アルマーズ
+|weaponType=Axe
+|might=16
+|range=1
+|effect=If unit's HP ≥ 80% and foe initiates combat, unit makes a guaranteed follow-up attack.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Silver Axe
+|properties=random_owner
+}}
+==Notes==
+* Has the same effect as {{St|Quick Riposte 2}}.
+{{IfFoeInitiates}}
+{{Guaranteed follow-up interaction}}
+==Evolution==
+{{WEvo
+|weapon=Berserk Armads
+|Medals=375
+|Dew=150
+}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=アルマーズ
+|german=Armads
+|spanishEU=Armads
+|spanishLA=Armads
+|french=Armadès
+|italian=Fragore
+|chineseTW=阿爾瑪茲
+|portuguese=Armads
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%foe initiates combat, unit makes a guaranteed follow-up attack%'|columns=3}}
+{{Weapons Navbox}}

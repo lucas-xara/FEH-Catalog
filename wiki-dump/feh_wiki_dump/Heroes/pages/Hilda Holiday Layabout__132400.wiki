@@ -1,0 +1,66 @@
+{{#invoke:NameAbout|main|Name=Hilda}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Hilda
+|Title=Holiday Layabout
+|WeaponType=Blue Lance
+|MoveType=Armored
+|Origin=Fire Emblem: Three Houses
+|Gender=Female
+|actorEN=Celeste Henderson
+|actorJP=桑原由気
+|artist=羽公
+|additionDate=December 17, 2020
+|releaseDate=December 17, 2020
+|cv1=12
+|cv2=400700
+|TagID=冬祭ヒルダ
+|InternalID=602
+|Properties=special
+|description=Noble of the Leicester Alliance and daughter of House Goneril. Will this lazy girl lift a finger at the winter festival? Appears in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=20|Lv1ATK=9|Lv1SPD=10|Lv1DEF=11|Lv1RES=7
+|GRHP=55|GRATK=70|GRSPD=65|GRDEF=60|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Candy Cane
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Candy Cane+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+
+===Assists===
+{{Assists Table
+|assist1=Shove
+|assist1Default=4
+|assist1Unlock=4
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Def Form 1
+|passiveA2=Atk/Def Form 2
+|passiveA3=Atk/Def Form 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Even Follow-Up 1
+|passiveB2=Even Follow-Up 2
+|passiveB3=Even Follow-Up 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Christmas units]]

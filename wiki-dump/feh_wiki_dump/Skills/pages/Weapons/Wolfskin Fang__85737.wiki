@@ -1,0 +1,51 @@
+{{Weapon Infobox
+|tagid=SID_人狼王の爪牙
+|weaponType=Beast
+|might=9
+|range=1
+|effect=Inflicts Spd-5. Unit attacks twice. (Even if foe initiates combat, unit attacks twice.) At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 and deals +10 damage when Special triggers.
+|cost=400
+|exclusive=1
+|canUseMove=Infantry
+|statModifiers=0,9,-5,0,0
+|required=Adult (Infantry)
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Inflicts Spd-5. Unit attacks twice. (Even if foe initiates combat, unit attacks twice.) At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, deals +7 damage when Special triggers, and neutralizes effects that grant "Special cooldown charge +X" to foe or inflict "Special cooldown charge -X" on unit.
+|refineStatsAtk=5,1,0,0,0
+|tagidExtraSkill1=一
+|effectSkill1=If foe initiates combat or foe's HP ≥ 75% at start of combat, inflicts Atk/Def-5 on foe, neutralizes foe's bonuses to Atk/Def (from skills like Fortify, Rally, etc.), and grants Special cooldown charge +1 per unit's attack during combat. (Only highest value applied. Does not stack.)
+|iconSkill1=Wolfskin Fang W.png
+|properties=random_owner
+}}
+==Notes==
+{{Brave weapon interaction}}
+{{Beast (Infantry)}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Beast (Infantry) Upgrade}}
+{{IfFoeInitiates}}
+{{Temporary debuffs|name={{St|Wolfskin Fang|refine=skill1}}}}
+{{Bonus neutralization|name={{St|Wolfskin Fang|refine=skill1}}}}
+{{CooldownChargePlus|perAttack=user}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=人狼王の爪牙
+|german=Wilder Ulfhedin
+|spanishEU=Garra ulfhedin
+|spanishLA=Garra ulfhedin
+|french=Croc d'Ulfhedin
+|italian=Zanna di ulfhedin
+|chineseTW=狼人王的爪牙
+|portuguese=Presa Wolfskin
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%inflicts Spd-_%attacks twice%' AND Description NOT LIKE '%inflicts Spd-_%if unit initiates combat,% attacks twice%' OR Description LIKE '%inflicts Atk/Def-%neutralizes foe_s bonuses%' AND WikiName NOT LIKE '%Unbound%' AND Exclusive='1'|columns=3}}
+* [[Brave Weapons]]
+* [[Skill families#Unbound|Unbound Weapons]]
+{{Weapons Navbox}}

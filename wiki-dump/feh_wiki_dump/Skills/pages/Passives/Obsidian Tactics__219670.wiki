@@ -1,0 +1,57 @@
+{{Passive
+|name=Obsidian Tactics
+|type=A
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Obsidian Tactics
+|1tagid=SID_黒曜石の教え
+|1effect=If foe initiates combat or foe's HP ≥ 75% at start of combat, grants Atk/Spd/Def/Res+9 to unit during combat, and the following effects occur during combat based on the value of X (X = total number of【Bonus】effects active on unit and allies within 2 spaces of unit, excluding stat bonuses): if ≥ 1 inflicts Atk/Def-X × 2 on foe (max 12); if ≥ 3, unit can counterattack regardless of foe's range; if ≥ 5, reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% (excluding area-of-effect Specials).<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|9}}
+|Ce1C=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|Ce2={{Eft|Temporary debuffs|Atk/Def|2 x Y|max=12}}
+|Ce2T={{Tgt|Foe}}
+|Ce2C=Y ≥ 1 '''&'''<br>(Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat)
+|Ce3={{Eft|Distant Counter}}
+|Ce3T={{Tgt|Unit}}
+|Ce3C=Y ≥ 3 '''&'''<br>(Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat)
+|Ce4={{Eft|Reduce Damage Reduction|50%}}
+|Ce4T={{Tgt|Foe}}<br>
+|Ce4C=Y ≥ 5 '''&'''<br>(Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat)
+}}
+<b>{{Hatnote|1=Y = {{Kp|Bonus}} effects active on {{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]] (exc. {{SEt|Bonuses}})}}</b>
+
+==Notes==
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+{{Temporary debuffs}}
+{{DamagePercentageReduction}}
+{{EffectfromBonus|temporary debuffs, counterattack, damage-reduction reducing effects|nonStat=1}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=黒曜石の教え
+|german=Obsidian-Lehren
+|spanishEU=Táctica Obsidiana
+|spanishLA=Táctica obsidiana
+|french=Tact. Obsidienne
+|italian=Tattica Ossidiana
+|chineseTW=黑曜石的教誨
+|portuguese=Tática Obsidiana
+}}
+==See also== 
+{{See also skills|cond=(Description LIKE '%number of%Bonus%effects active on%' OR (Description LIKE '%counterattack regardless of%range%' AND SCategory!='Weapon')) AND ((Exclusive='1' AND Name NOT LIKE '%+') OR SCategory='captain')}}
+* [[Counter Passives]]
+* [[Counter Seals]]
+* [[Prime Passives]]
+* [[Weapons with Distant Counter]]
+* [[Weapons with Close Counter]]
+{{Passives Navbox|A}}

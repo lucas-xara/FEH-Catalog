@@ -1,0 +1,54 @@
+{{Weapon Infobox
+|tagid=SID_グルンディア
+|intID=3489
+|userVersion1=Closed
+|userVersion2=Open
+|exclusive=0
+|weaponType=Green Tome
+|cost=200
+|might=8
+|range=2
+|effect=If foe initiates combat or if foe's HP ≥ 75% at start of combat, grants Atk+5 to unit, inflicts Atk-5 on foe, and inflicts Special cooldown charge -1 on foe per attack during combat. (Only highest value applied. Does not stack.)
+|statModifiers=0,8,0,0,0
+|required=Elwind
+|next=Gronndeer+
+|promotionRarity=5
+|promotionTier=1
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{SkillEffectText|Temporary buffs|Atk|5}}
+|CombatEffect 2={{SkillEffectText|Temporary debuffs|Atk|5}}
+|CombatEffect 3={{SkillEffectText|Guard}}
+|CombatEffect 2-3 Targets={{SkillTargetText|Foe}}
+|CombatEffect Conditions=Enemy Phase '''or'''<br>{{SkillTargetText|Foe}}'s HP ≥ 75%<br>at start of combat
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+{{Temporary debuffs}}
+{{CooldownChargeMinus}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V7.2_v0702b_akatsuki_Mag.webp|Sprite sheet for the [[Skill families/Weapons#Deer|Deer Weapons]]'s animation.
+</gallery>
+==Trivia==
+{{TomeColorTrivia|gronn}}
+==In other languages==
+{{OtherLanguages
+|japanese=グルンディア
+|german=Gronnhirsch
+|spanishEU=Ciervo glauco
+|spanishLA=Ciervo jade
+|french=Cerf émeraude
+|italian=Viridecervo
+|chineseTW=翠綠之鹿
+|portuguese=Cervo jade
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%if foe initiates combat%f foe_s HP%at start of combat%grants Atk+%to unit%inflicts Atk-%on foe during combat%' OR Description LIKE '%if foe initiates combat%f foe_s HP%at start of combat%inflicts Special cooldown charge -1 on foe per attack%') AND Exclusive='1' AND NAME NOT LIKE '%deer+'}}
+* [[Skill families/Weapons#Deer|Deer Weapons]]
+{{Weapons Navbox}}

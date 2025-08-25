@@ -1,0 +1,54 @@
+{{Passive
+|name=Bestial Agility
+|type=B
+|exclusive=0
+|canUseWeapon={{WeaponList|Beast}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Bestial Agility
+|1tagid=SID_獣影・敏捷
+|1effect=Enables【Canto (Rem. +1; Min ２)】while transformed.<br><br>If unit is transformed or unit's HP ≥ 25% at start of combat, inflicts Spd/Def-4 on foe and deals damage = 20% of the greater of unit's Spd or Def (excluding area-of-effect Specials), and also, if unit's Spd > foe's Spd, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat.<br><br>【Canto (Rem. +1; Min ２)】<br>After an attack, Assist skill, or structure destruction, unit can move spaces = any movement not already used that turn +1 (min ２; if unit used a movement skill that warped them, unit can move ２ space(s)).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|1cost=300
+|1required=Beast Agility 3;Beast Follow-Up 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Canto|Rem. +1; Min 2}}
+|MeC={{Tgt|Unit}} is transformed
+|Ce1={{Eft|Temporary debuffs|Spd/Def|4}}
+|Ce1T={{Tgt|Foe}}
+|Ce2={{Eft|Damage Boost|20% of the greater<br>of {{Tgt|Unit}}'s Spd/Def}}
+|Ce1-2C={{Tgt|Unit}} is transformed<br>'''or''' {{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce3={{Eft|Neutralize Guaranteed Follow-Ups}}
+|Ce3T={{Tgt|Foe}}<br>
+|Ce4={{Eft|Neutralize Prevent Follow-Ups}}
+|Ce4T={{Tgt|Unit}}
+|Ce3-4C={{Eft|Temporary debuffs|Spd/Def|4}}<br>conditions '''&'''<br>{{Tgt|Unit}}'s Spd<br>> {{Tgt|Foe}}'s Spd
+}}
+==Notes==
+{{Canto|Rem. +1; Min 2}}
+{{IfUnitTransforms}}
+{{Temporary debuffs}}
+{{DamageBoost}}
+{{Follow-up effect neutralization}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%the greater of unit_s ___ or ___%' OR Description LIKE '%【Canto (Rem. +1; Min ２)】%' OR Description LIKE '%enables【Canto%while transformed%') AND Exclusive='1'}}
+* [[Beast Passives]]
+{{Passives Navbox|B}}

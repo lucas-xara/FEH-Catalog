@@ -1,0 +1,55 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_アイリスの書
+|weaponType=Green Tome
+|might=14
+|range=2
+|effect=Grants bonus to unit’s Atk = total bonuses on unit during combat.
+|cost=400
+|exclusive=1
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|statModifiers=0,14,0,0,0
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=At start of even-numbered turns, grants Atk+6 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.) 
+|iconSkill1=Even Atk Wave W.png
+|tagidExtraSkill1=波
+|SE=se_effect_iris.wav
+|properties=
+}}
+==Notes==
+{{BonusesToAtk}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+* The refined version listed first has the same effect as {{St|Even Atk Wave 3}}.
+{{Bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+v3.2_77_valentine02_Mag.png|Sprite sheet for the animations of {{PAGENAME}}, {{St|Blárblooms+}}, {{St|Gronnblooms+}}, {{St|Loyal Wreath+}} and {{St|Tharja's Hex}}.
+</gallery>
+
+==In other languages==
+{{OtherLanguages
+|japanese=アイリスの書
+|german=Iris' Buch
+|spanishEU=Tomo Iris
+|spanishLA=Tomo Iris
+|french=Tome d'Iris
+|italian=Tomo di Iris
+|chineseTW=埃莉絲之書
+|portuguese=Tomo de Iris
+}}
+
+==See also==
+* [[The Cleaner]]
+* [[The Cleaner+]]
+* [[Blade Weapons]]
+{{Weapons Navbox}}
+[[Category:Blade weapons]]

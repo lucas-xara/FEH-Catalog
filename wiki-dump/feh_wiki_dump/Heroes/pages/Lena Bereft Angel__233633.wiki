@@ -1,0 +1,91 @@
+{{#invoke:NameAbout|main|Name=Lena}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Lena
+|Title=Bereft Angel
+|WeaponType=Colorless Staff
+|MoveType=Infantry
+|Origin=Fire Emblem: Mystery of the Emblem
+|Gender=Female
+|actorEN=Brittany Cox
+|actorJP=戸松遥
+|artist=ひと和
+|randomStartTime=2025-06-07T07:00:00Z
+|additionDate=May 7, 2025
+|releaseDate=May 7, 2025
+|poolDate=June 6, 2025
+|poolRarities=5
+|cv1=1
+|cv2=400900
+|TagID=闇レナ
+|InternalID=1240
+|Properties=hat,fallen
+|description=A cleric from Macedon whose mind was stolen by Gharnef to be used as a sacrifice in the resurrection of Medeus. Appears in Fire Emblem: Mystery of the Emblem.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=13|Lv1SPD=5|Lv1DEF=6|Lv1RES=10
+|GRHP=60|GRATK=80|GRSPD=50|GRDEF=30|GRRES=90
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Assault
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Martyr's Staff
+|weapon2Default=5
+|weapon2Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Heal
+|assist1Default=1
+|assist1Unlock=1
+|assist2=Mend
+|assist2Default=3
+|assist2Unlock=2
+|assist3=Magic Shield
+|assist3Default=4
+|assist3Unlock=3
+|assist4=Magic Shield+
+|assist4Default=5
+|assist4Unlock=5
+}}
+===Specials===
+{{Specials Table
+|special1=Imbue
+|special1Default=4
+|special1Unlock=2
+|special2=Miracle
+|special2Default=5
+|special2Unlock=3
+|special3=Holy Pressure
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Res Form 1
+|passiveA2=Atk/Res Form 2
+|passiveA3=Atk/Res Form 3
+|passiveA4=Atk/Res Tidings
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Resonance 1
+|passiveB2=Resonance 2
+|passiveB3=Resonance 3
+|passiveB4=Resonance 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Time's Pulse 1
+|passiveC2=Time's Pulse 2
+|passiveC3=Time's Pulse 3
+|passiveC4=Pulse Up: Ploy
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}

@@ -1,0 +1,40 @@
+{{Special
+|tagid=SID_聖風
+|charge=2
+|effect=Boosts damage by 30% of unit's Spd. Restores 10 HP to unit and all allies after combat. (Healing does not stack if triggered more than once per combat. HP restored to allies even if unit's HP reaches 0.)
+|cost=500
+|exclusive=1
+|required=Glimmer
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce={{Eft|Damage Boost|percent=1|30% of {{Tgt|Unit}}'s Spd}}
+|CeC=Special triggers
+|Me={{Eft|Heal|10}}<br>(once after combat)
+|MeT={{Tgt|Unit}} '''&'''<br>{{Tgt|Allies}}
+|MeC=After combat if<br>Special triggered<br>(even if {{Tgt|Unit}}'s<br>HP reaches 0)
+}}
+
+==Notes==
+{{DamageBoost}}
+{{After combat healing|allies=1}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=聖風
+|german=Gerechter Wind
+|spanishEU=Viento sacro
+|spanishLA=Viento sacro
+|french=Vent sacré
+|italian=Vento virtuoso
+|chineseTW=聖風
+|portuguese=Vento virtuoso
+}}
+==See also==
+{{See also skills|cond=SCategory='special' AND Exclusive='1' AND (Description LIKE '%Boosts%damage by __% of unit_s Spd%' OR Description LIKE '%even if unit_s HP reaches 0%') OR Description LIKE '%restores%HP to unit and allies%after combat%'|columns=3}}
+* [[:Category:Sources of self-healing|Sources of self-healing]]
+{{Specials Navbox}}

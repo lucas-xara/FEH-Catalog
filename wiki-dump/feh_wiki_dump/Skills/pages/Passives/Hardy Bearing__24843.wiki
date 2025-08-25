@@ -1,0 +1,54 @@
+{{SkillPage Tabs}}{{Passive
+|type=S
+|exclusive=0
+|1required=-
+|1name=Hardy Bearing 1
+|1tagid=SID_不動の姿勢1
+|1effect=Disables unit's skills that change attack priority.<br>At start of combat, if unit's HP = 100%, disables foe's skills that change attack priority.
+|1cost=50
+|1next=-
+|2name=Hardy Bearing 2
+|2tagid=SID_不動の姿勢2
+|2effect=Disables unit's skills that change attack priority. At start of combat, if unit's HP ≥ 50%, disables foe's skills that change attack priority.
+|2cost=100
+|2next=-
+|3name=Hardy Bearing 3
+|3tagid=SID_不動の姿勢3
+|3effect=Disables unit's and foe's skills that change attack priority.
+|3cost=200
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=
+}}
+==Notes==
+{{PriorityNeutralization}}
+
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Hardy Bearing 1;Hardy Bearing 2;Hardy Bearing 3
+|badgeColor=Transparent
+|costs1=20;100;40
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=不動の姿勢
+|japaneseNotes= Immovable Stance
+|german=Robuste Haltung
+|germanNotes=''Rob. Haltung 2'' and ''Rob. Haltung 3'' for higher ranks
+|spanishEU=Porte Recio
+|spanishLA=Porte Recio
+|french=Maintien Solide
+|italian=Postura Solida
+|chineseTW=不動如山
+|portuguese=Porte firme
+}}
+
+==See also==
+{{See also skills|cond=Description LIKE '%change attack priority%' AND Name NOT LIKE '%+' AND Exclusive=1}}
+* [[Hardy Bearing weapons]]
+{{Seals Navbox}}

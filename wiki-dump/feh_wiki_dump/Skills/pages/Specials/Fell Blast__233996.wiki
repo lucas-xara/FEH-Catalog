@@ -1,0 +1,51 @@
+{{Special
+|tagid=SID_邪竜破
+|intID=4715
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=3
+|effect=Boosts damage by 50% of unit's Res when Special triggers.<br><br>At start of player phase or enemy phase, if unit's HP ≥ 25%, grants【Fell Spirit】to unit and allies within 2 spaces of unit for 1 turn.<br><br>If foe initiates combat, if unit's or foe's Special is ready, or if unit's or foe's Special triggered before or during this combat, reduces damage from foe's next attack by 40% (once per combat; excluding area-of-effect Specials).<br><br>Unit can counterattack regardless of foe's range during combat.<br><br>【Fell Spirit】<br>Inflicts Atk/Spd/Def/Res-4 on foe and neutralizes effects that prevent unit's counterattacks during combat, any "reduces damage by X%" effect that can be triggered only once per combat by unit's equipped Special skill can be triggered up to twice per combat (excludes boosted Special effects from engaging; only highest value applied; does not stack), and also, when unit or foe is engaged, inflicts an additional Atk/Spd/Def/Res-2 on foe during combat.<br>(For 1 turn.)
+|required=Glimmer
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se={{SEt|Fell Spirit}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=At start of Both Phases<br>if {{Tgt|Unit}}'s HP ≥ 25%
+|Ce1={{Eft|Damage Boost|50% of {{Tgt|Unit}}'s Res}}
+|Ce1C=Special triggers
+|Ce2={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s next attack
+|Ce2C=Enemy Phase '''or'''<br>{{Tgt|Unit}} or {{Tgt|Foe}}'s<br>Special is ready '''or'''<br>triggered before or<br>during combat 
+|Ce3={{Eft|Distant Counter}}
+}}
+
+==Notes==
+* Fell Blast has the same effect as {{St|Distant Counter}}.
+{{DamageBoost}}
+{{Fell Spirit}}
+{{IfFoeInitiates}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(SCategory='special' AND Description LIKE '%Boosts%damage by __% of unit_s Res%' OR Description LIKE '%【Fell Spirit】%' OR (Description LIKE '%counterattack regardless of%range%' AND SCategory!='Weapon' AND Description NOT LIKE '%【Style】%')) AND Exclusive='1'}}
+* [[Counter Passives]]
+* [[Counter Seals]]
+* [[Prime Passives]]
+* [[Weapons with Distant Counter]]
+* [[Weapons with Close Counter]]
+{{Specials Navbox}}

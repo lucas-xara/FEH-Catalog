@@ -1,0 +1,73 @@
+{{#invoke:NameAbout|main|Name=Dimitri}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Dimitri
+|Title=Sky-Blue Lion
+|WeaponType=Green Axe
+|MoveType=Cavalry
+|Origin=Fire Emblem: Three Houses
+|Gender=Male
+|actorEN=Chris Hackney
+|actorJP=石川界人
+|artist=西木あれく
+|additionDate=June 17, 2022
+|releaseDate=June 17, 2022
+|cv1=12
+|cv2=300100
+|TagID=水着ディミトリ
+|InternalID=817
+|Properties=special
+|description=Crown prince of the Holy Kingdom of Faerghus and student at Garreg Mach Monastery. He has come to the tropics for some summer training. Appears in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=9|Lv1SPD=10|Lv1DEF=9|Lv1RES=4
+|GRHP=50|GRATK=75|GRSPD=70|GRDEF=60|GRRES=30
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Unyielding Oar
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Glimmer
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Catch 1
+|passiveA2=Atk/Spd Catch 2
+|passiveA3=Atk/Spd Catch 3
+|passiveA4=Atk/Spd Catch 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Atrocity
+|passiveB1Unlock=5
+|passiveC1=Threaten Spd 1
+|passiveC2=Threat. Spd/Def 1
+|passiveC3=Threat. Spd/Def 2
+|passiveC4=Spd/Def Menace
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Summer units]]

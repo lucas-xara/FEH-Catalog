@@ -1,0 +1,49 @@
+{{Special
+|tagid=SID_漆闇の月光
+|intID=4738
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=3
+|effect=When Special triggers, boosts damage by 80% of the greater of foe's Spd or Def.<br><br>Neutralizes effects that prevent unit's counterattacks and reduces damage from attacks by X% during combat (X = 50 - current Special cooldown count value × 10, but if unit's Special triggered during this combat, X = 50; excluding area-of-effect Specials), and also, if unit's Def ≥ foe's Def+5, disables unit's and foe's skills that change attack priority during combat.
+|required=Luna
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Damage Boost|80% of the greater<br>of {{Tgt|Foe}}'s Spd/Def}}
+|Ce1C=Special triggers
+|Ce2={{Eft|Neutralize Prevent Counter}}
+|Ce3={{Eft|Damage Reduction|50 - {{Tgt|Unit}}'s current<br>Special CD x 10*|percent=1}}<br>from {{Tgt|Foe}}'s attacks
+|Ce4={{Eft|Hardy Bearing}}
+|Ce4T={{Tgt|Unit}}<br>'''&''' {{Tgt|Foe}}
+|Ce4C={{Tgt|Unit}}'s Def ≥<br>{{Tgt|Foe}}'s Def+5
+}}
+<b>{{Hatnote|1=* If {{Tgt|Unit}} triggers special, value is treated 50.}}</b>
+
+==Notes==
+* Pitch-Dark Luna has the same effect as {{St|Null C-Disrupt 3}}.
+{{DamageBoost}}
+{{Counterattack prevention neutralization}}
+{{DamagePercentageReduction}}
+{{PriorityNeutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=漆闇の月光
+|german=Düsterer Mond
+|spanishEU=Eclipse opaco
+|spanishLA=Eclipse opaco
+|french=Noirceur lunaire
+|italian=Luna corvina
+|chineseTW=漆闇的月光
+|portuguese=Escuridão lunar
+}}
+
+==See also==
+{{See also skills|cond=(SCategory='special' AND (Description LIKE '%greater of foe_s Spd or Def%') OR Description LIKE '%reduces damage from%-% current Special cooldown count value%') AND Exclusive='1'}}
+* [[Null Passives]]
+* [[Skill families/Weapons#Hardy Bearing|Hardy Bearing Weapons]]
+{{Specials Navbox}}

@@ -1,0 +1,38 @@
+{{Weapon Infobox
+|tagid=SID_貫きの槍2
+|weaponType=Lance
+|might=10
+|range=1
+|effectiveness=armored
+|effect=Effective against armored foes.
+|next=Slaying Spear+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Lance
+|cost=200
+|exclusive=0
+|userVersion1=Weapon|userVersion2=Gleam|statModifiers=0,10,0,0,0
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce={{Eft|Effectiveness|{{Mt|Armored}}}}
+}}
+==Notes==
+{{Effective damage bonus|armored}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=貫きの槍　鍛
+|german=Gnadenspeer
+|spanishEU=Pica ejecutora
+|spanishLA=Pica cruel
+|french=Pique meurtrière
+|italian=Asta falciante
+|chineseTW=貫穿之槍鍛
+|portuguese=Pique cruel
+}}
+==See also==
+* [[Weapons that are effective against armored foes]]
+{{Weapons Navbox}}

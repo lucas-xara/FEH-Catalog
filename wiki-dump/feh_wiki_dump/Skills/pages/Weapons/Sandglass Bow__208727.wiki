@@ -1,0 +1,60 @@
+{{Weapon Infobox
+|tagid=SID_悠久の黄砂の絆弓
+|intID=3971
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=1
+|weaponType=Bow
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effectiveness=Flying
+|effect=Accelerates Special trigger (cooldown count-1). Effective against flying foes. At the start of turn 1, grants Special cooldown count-2. At start of turn, if unit is within 2 spaces of an ally, grants the following to unit and infantry and armored allies within 2 spaces: "unit cannot be slowed by terrain (does not apply to impassable terrain)" and "unit can move 1 extra space (does not stack)" for 1 turn. If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd+6 to unit during combat and deals damage = 15% of unit's Atk (including when dealing damage with a Special triggered before combat), and also, when Special triggers, deals damage = X% of unit's Spd (X = unit's max Special cooldown count value × 10, + 10).
+|required=Silver Bow
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|PermanentEffect={{SkillEffectText|Accelerate Special}}
+|MapEffect={{SkillEffectText|Reduce Cooldown|2}}
+|MapEffect Conditions=At start of turn 1
+|StatusEffect 1={{SEt|Traverse Terrain}}
+|StatusEffect 2={{SEt|Mobility Increased}}
+|StatusEffect Targets={{SkillTargetText|Unit}}, {{Mt|Infantry}}, '''&'''<br>{{Mt|Armored}} {{SkillTargetText|Allies}}<br>[[within 2 spaces]]
+|StatusEffect Conditions=At start of turn<br>if an {{SkillTargetText|Ally}} is<br>[[within 2 spaces]]
+|CombatEffect 1={{SkillEffectText|Effectiveness|{{Mt|Flying}}}}
+|CombatEffect 2={{SkillEffectText|Temporary buffs|Atk/Spd|6}}
+|CombatEffect 3={{SkillEffectText|Damage Boost|15% of {{SkillTargetText|Unit}}'s Atk}}<br>before and during combat
+|CombatEffect 2-3 Conditions=Player phase<br>'''or''' {{SkillTargetText|Unit}} is<br>[[within 2 spaces]]<br>of an {{SkillTargetText|Ally}}
+|CombatEffect 4={{SkillEffectText|Damage Boost|(10 x {{SkillTargetText|Unit}}'s max CD<br>count, +10)% of {{SkillTargetText|Unit}}'s Spd}}
+|CombatEffect 4 Conditions=Special triggers<br>on Player Phase<br>'''or''' an {{SkillTargetText|Ally}} is<br>[[within 2 spaces]]
+}}
+
+==Notes==
+{{Effective damage bonus|flying}}
+{{Start of turn Special modification}}
+{{Traverse Terrain}}
+{{Mobility increased}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{AtkDamageBoost}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=悠久の黄砂の絆弓
+|german=Sanduhrbogen
+|spanishEU=Arco de Arcadia
+|spanishLA=Arco de Arcadia
+|french=Arc sablier
+|italian=Arco sabbioso
+|chineseTW=悠遠的黃沙之絆弓
+|portuguese=Arco do tempo
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%cannot be slowed by terrain%' AND Exclusive='1' OR Description LIKE '%deals damage =%of unit_s Spd when special triggers%'}}
+{{Weapons Navbox}}

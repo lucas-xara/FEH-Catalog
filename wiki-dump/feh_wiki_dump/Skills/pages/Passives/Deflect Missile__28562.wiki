@@ -1,0 +1,50 @@
+{{SkillPage Tabs}}{{Passive
+|type=S
+|exclusive=0
+|1name=Deflect Missile 1
+|1tagid=SID_連撃防御・弓暗器1
+|1effect=If unit receives consecutive attacks and foe uses bow or dagger, reduces damage from foe's second attack onward by 30%.
+|1required=-
+|1cost=50
+|1next=-
+|2name=Deflect Missile 2
+|2tagid=SID_連撃防御・弓暗器2
+|2effect=If unit receives consecutive attacks and foe uses bow or dagger, reduces damage from foe's second attack onward by 50%.
+|2cost=100
+|2next=-
+|3name=Deflect Missile 3
+|3tagid=SID_連撃防御・弓暗器3
+|3effect=If unit receives consecutive attacks and foe uses bow or dagger, reduces damage from foe's second attack onward by 80%.
+|3cost=200
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=
+}}
+==Notes==
+{{DamagePercentageReduction}}
+==Seal acquired from==
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Deflect Missile 1;Deflect Missile 2;Deflect Missile 3
+|badgeColor=Azure
+|costs1=20;100;50
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=連撃防御・弓暗器
+|german=Schuss-Abw.
+|spanishEU=Antiproyectiles
+|spanishLA=Antiproyectiles
+|french=Abri jet
+|italian=Devia lancio
+|chineseTW=連擊防禦・弓暗器
+|portuguese=Desvia projétil
+}}
+==See also==
+* [[Deflect Seals]]
+* [[Crusader's Ward]]
+* [[Urvan]]
+{{Seals Navbox}}
+[[Category: Deflect Seals]]

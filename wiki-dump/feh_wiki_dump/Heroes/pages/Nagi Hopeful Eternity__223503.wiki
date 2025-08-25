@@ -1,0 +1,92 @@
+{{#invoke:NameAbout|main|Name=Nagi|Name2=Naga|Name3=Idunn}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Nagi
+|Title=Hopeful Eternity
+|WeaponType=Red Breath
+|MoveType=Armored
+|secondPerson=Idunn
+|Origin=Fire Emblem: New Mystery of the Emblem,Fire Emblem: The Binding Blade
+|Gender=FF
+|harmonized=For unit and allies from the same titles as unit, grants Atk/Res+6,【Resonance: Shields】, "neutralizes 'effective against dragons' bonuses," and【Warp Bubble】for 1 turn, neutralizes any【Penalty】, and restores 30 HP.<br><br>【Resonance: Shields】<br>Grants Def/Res+4 during combat and the following effect for 1 turn: "During unit's first combat in player phase or enemy phase, foe cannot make a follow-up attack."<br><br>【Warp Bubble】<br>Foes cannot warp into spaces within 4 spaces of unit. (Does not affect foes with Pass skills or warp effects from structures, like camps and fortresses in Rival Domains.)<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|actorEN=Colleen O'Shaughnessey,Minae Noji
+|actorJP=島本須美,種田梨沙
+|artist=麻谷知世
+|additionDate=October 3, 2024
+|releaseDate=October 4, 2024
+|entry=1;5
+|cv1=1
+|cv2=1000200
+|TagID=双界ナギ
+|InternalID=1149
+|Properties=special,harmonized,hat,tiara
+|description=Nagi, a Divine Dragon with no memories, attends the harvest festival, where Idunn imparts wisdom she has gained by reclaiming her heart and mind. They appear in Fire Emblem: New Mystery of the Emblem / The Binding Blade.
+}}
+{{Stats Page
+|Lv1HP=23|Lv1ATK=13|Lv1SPD=4|Lv1DEF=12|Lv1RES=9
+|GRHP=60|GRATK=80|GRSPD=30|GRDEF=75|GRRES=90
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire Breath
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Fire Breath+
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Flametongue
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Opposing Stones
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Iceberg
+|special2Unlock=4
+|special3=Dragon's Roar
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Res Scowl 1
+|passiveA2=Atk/Res Scowl 2
+|passiveA3=Atk/Res Scowl 3
+|passiveA4=Atk/Res Scowl 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Dragon's Ire 1
+|passiveB2=Dragon's Ire 2
+|passiveB3=Dragon's Ire 3
+|passiveB4=Dragon's Scales
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=A/R Far Save 1
+|passiveC2=A/R Far Save 2
+|passiveC3=A/R Far Save 3
+|passiveC4=A/R Twin F Save
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Sources of bonuses]]
+[[Category:Sources of Neutralize Effective Against Dragons]]
+[[Category:Sources of dragon effectiveness neutralization]]
+[[Category:Sources of effectiveness neutralization]]
+[[Category:Sources of Warp Bubble]]
+[[Category:Sources of warp prevention]]
+[[Category:Sources of negative status effect neutralization]]
+[[Category:Sources of self-healing]]
+[[Category:Halloween units]]

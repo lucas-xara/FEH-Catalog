@@ -1,0 +1,49 @@
+{{Special
+|tagid=SID_角逐
+|intID=4869
+|exclusive=0
+|canUseWeapon={{WeaponList|Missile,Melee}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=5
+|effect=When Special triggers, boosts damage by X% of the greater of unit's or foe's Atk (if unit has weapon-triangle advantage, X = 80; otherwise, X = 70).<br><br>Reduces damage from foe's first attack by 40% ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes) and inflicts Special cooldown charge -1 on foe per attack during combat (only highest value applied; does not stack), and also, if unit has weapon-triangle advantage, grants Special cooldown count-2 to unit and inflicts Special cooldown count+2 on foe before unit's first attack during combat (cannot exceed foe's maximum Special cooldown).
+|required=Dragon Fang
+|properties=offensive_special,random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Damage Boost|(80% if {{Tgt|Unit}} has<br>[[Weapon-triangle|triangle]] advantage;<br>else 70%) of the greater<br>of {{Tgt|Unit}}'s Atk '''or'''<br>{{Tgt|Foe}}'s Atk}}
+|Ce1C=Special triggers
+|Ce2={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce3={{Eft|Guard}}
+|Ce3-4T={{Tgt|Foe}}
+|Ce4={{Eft|Increase Cooldown|2}}<br>before {{Tgt|Unit}}'s first attack
+|Ce5={{Eft|Reduce Cooldown|2}}<br>before {{Tgt|Unit}}'s first attack
+|Ce4-5C={{Tgt|Unit}} has<br>[[Weapon-triangle|triangle]] advantage
+}}
+==Notes==
+{{AtkDamageBoost}}
+{{DamagePercentageReduction}}
+{{CooldownChargeMinus}}
+{{CombatCooldownCount|-2}}
+{{CombatCooldownCount|+2}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=角逐
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%inflicts Special cooldown count+%before unit_s first attack%' OR SCategory='special' AND Description LIKE '%boosts damage%of the greater of%') AND Exclusive='1'}}
+{{Specials Navbox}}

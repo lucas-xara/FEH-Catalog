@@ -1,0 +1,37 @@
+{{Weapon Infobox
+|tagid=SID_ヴェルザンディ
+|weaponType=Blue Lance
+|might=16
+|range=1
+|effect=If Sing or Dance is used, grants Atk/Spd/Def/Res+4 to target.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Silver Lance
+|properties=
+}}
+==Notes==
+{{Bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V3.9 91 dance02 Hit.webp|Spritesheet for {{St|Mögþrasir}}, {{St|Vafþrúðnir}}, {{St|Silver Goblet+}}, {{St|Fiddlestick Bow+}}, and {{PAGENAME}}'s hit animations.
+</gallery>
+==Trivia==
+{{NorseMyth|(Old Norse for "happening" or "present") is one of the Norns (goddesses of fate).}}
+==In other languages==
+{{OtherLanguages
+|japanese=ヴェルザンディ
+|german=Verðandi
+|spanishEU=Verðandi
+|spanishLA=Verðandi
+|french=Verðandi
+|italian=Verðandi
+|chineseTW=薇兒丹蒂
+|portuguese=Verðandi
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if%Sing or Dance is used, grants%' and SCategory NOT LIKE 'passive_'|columns=1}}
+*[[Skill families#Dance|Dance Passives]]
+{{Weapons Navbox}}

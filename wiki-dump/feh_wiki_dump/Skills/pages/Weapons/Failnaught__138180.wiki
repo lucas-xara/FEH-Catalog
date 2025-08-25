@@ -1,0 +1,117 @@
+{{Weapon Infobox
+|tagid=SID_フェイルノート
+|weaponName=Failnaught
+|weaponType=Bow
+|userVersion1=Bow
+|userVersion2=Arrow
+|userVersion3=Upgrade Bow
+|userVersion4=Upgrade Arrow
+|userVersion5=Upgrade Gleam
+|might=14
+|range=2
+|effectiveness=Flying
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). Effective against flying foes. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit during combat and neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,0,0,0
+|required=Silver Bow
+|intID=2453
+|sort=508
+|value=20
+|timingID=1
+|abilityID=181
+|limit1ID=42
+|randomTimestamp=2021-03-26T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1). Effective against flying foes.<br><br>At start of turn, if unit's HP ≥ 25%, inflicts Spd/Def-7,【Guard】, and【Sabotage】 on closest foes and any foe within 2 spaces of those foes through their next actions.<br><br>At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit and neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat.<br><br>【Guard】<br>Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)<br><br>【Sabotage】<br>Inflicts penalty on unit's Atk/Spd/Def/Res during combat = highest penalty on each stat between unit and allies within 2 spaces of unit through its next action. Calculates each stat penalty independently.
+|refineStatsSkill1=0,0,0,0,0
+|effectSkill1=Enables【Canto (１)】.<br><br>Inflicts Spd/Def-5 on foes within 3 rows or 3 columns centered on unit during combat. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit, neutralizes effects that inflict "Special cooldown charge -X" on unit, and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials).<br><br>【Canto (１)】<br>After an attack, Assist skill, or structure destruction, unit can move １ space(s).<br>(Once per turn. Only highest value applied. Does not stack.)
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Accelerates Special}}
+|s1 Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|s1 Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s1 Ce3={{Eft|Neutralize Guaranteed Follow-Ups}}
+|s1 Ce3T={{Tgt|Foe}}
+|s1 Ce4={{Eft|Neutralize Prevent Follow-Ups}}
+|s1 Ce4T={{Tgt|Unit}}
+|s1 Ce2-4C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Accelerates Special}}
+|s2 Se1={{Eft|Penalties|Spd/Def|7}}
+|s2 Se2={{SEt|Guard}}
+|s2 Se3={{SEt|Sabotage}}
+|s2 SeT=Closest {{Tgt|Foes}}<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}
+|s2 SeC=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25%
+|s2 Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|s2 Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s2 Ce3={{Eft|Neutralize Guaranteed Follow-Ups}}
+|s2 Ce3T={{Tgt|Foe}}
+|s2 Ce4={{Eft|Neutralize Prevent Follow-Ups}}
+|s2 Ce4T={{Tgt|Unit}}
+|s2 Ce2-4C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|skill3={{Si|Failnaught|refine=Skill1}} Skill refine effects
+|s3 Me={{Eft|Canto|1}}
+|s3 Ce1={{Eft|Temporary debuffs|Spd/Def|5}}
+|s3 Ce1T={{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|s3 Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s3 Ce3={{Eft|Neutralize Guard}}
+|s3 Ce4={{Eft|Reduce Damage Reduction|50%}}
+|s3 Ce4T={{Tgt|Foe}}
+|s3 Ce2-4C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{Temporary buffs}}
+{{Follow-up effect neutralization}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Penalties|name=Refined Failnaught}}
+{{Guard|name=Refined Failnaught}}
+{{Sabotage|name=Refined Failnaught}}
+{{Canto|1|name={{St|Failnaught|refine=Skill1}}}}
+{{Temporary debuffs|name={{St|Failnaught|refine=Skill1}}}}
+{{FoesCombatEffect|effect=temporary debuffs|name={{St|Failnaught|refine=Skill1}}}}
+{{CooldownChargeMinusNeutralization}}
+{{Reduce Damage Reduction|name={{St|Failnaught|refine=Skill1}}}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Claude: King of Unification|t=Nemesis: King of Liberation
+|---xxx---
+|---xxx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxtx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=フェイルノート
+|german=Nimmerfehl
+|spanishEU=Infalible
+|spanishLA=Infalible
+|french=Infaillible
+|italian=Infallibile
+|chineseTW=費魯諾特
+|portuguese=Infalível
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Sabotage】%' OR Description LIKE '%Inflicts%/%-%within _ rows%centered on unit%') AND Exclusive='1'}}
+* [[Skill families/C Passives#Crux|Crux Passives]]
+{{Weapons Navbox}}

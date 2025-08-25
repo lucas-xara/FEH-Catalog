@@ -1,0 +1,50 @@
+{{Assist
+|tagid=SID_黄金の蛇
+|intID=3637
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=400
+|range=1
+|effect=Grants the following effects to unit and target ally for 1 turn: from turn 1 on, grants Atk/Spd+X (X = number of turns × 2; max 8); from turn 2 on, enables【Canto (１)】; from turn 3 on, grants【Treachery】; and from turn 4 on, grants【Dual Strike】. Grants another action to unit. (Additional action and effects other than stat bonuses granted once per turn only. This skill treated as a Rally Assist skill.)<br><br>【Canto (１)】<br>After an attack, Assist skill, or structure destruction, unit can move １ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)<br><br>【Treachery】<br>Unit deals additional damage = total bonuses on unit for 1 turn.<br><br>【Dual Strike】<br>If unit initiates combat and is adjacent to an ally with Dual Strike (excluding unit), unit attacks twice. (That turn only. Does not stack.)
+|required=Rally Atk/Spd
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{Eft|Bonuses|Atk/Spd|turn number x 2|max=8}}
+|SeT={{Tgt|Unit}} '''&'''<br>{{Tgt|Target Ally}}
+|Se1C=Turn 1 onward '''&'''<br>{{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}
+|Se2={{SEt|Canto (1)}}
+|Se2C=Turn 2 onward '''&'''<br>{{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}
+|Se3={{SEt|Treachery}}
+|Se3C=Turn 3 onward '''&'''<br>{{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}
+|Se4={{SEt|Dual Strike}}
+|Se4C=Turn 4 onward '''&'''<br>{{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}
+|Me1={{Eft|Another Action}}
+|Me1C={{Tgt|Unit}} uses Assist
+}}
+
+==Notes==
+{{Bonuses}}
+{{Canto|statusEffect=1|1}}
+{{Treachery}}
+{{Dual Strike}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=黄金の蛇
+|german=Goldene Schlange
+|spanishEU=Sierpe de oro
+|spanishLA=Serpiente de oro
+|french=Serpent d'or
+|italian=Serpente d'oro
+|chineseTW=黃金蛇
+|portuguese=Serpente áurea
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%X = number of turns%' OR Description LIKE '%grants%【Canto (１)】to%' OR Description LIKE '%【Treachery】%' OR Description LIKE '%【Dual Strike】%') AND Exclusive='1' OR Description LIKE '%another action to unit%' OR Description LIKE '%grants unit another action%'}}
+* [[Rally Assists]]
+* [[Rally Up Assists]]
+{{Assists Navbox}}

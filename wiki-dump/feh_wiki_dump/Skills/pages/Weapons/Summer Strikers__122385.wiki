@@ -1,0 +1,93 @@
+{{Weapon Infobox
+|tagid=SID_一夏の楽器
+|weaponName=Summer Strikers
+|image=wep_dg046
+|weaponType=Dagger
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). If unit's HP ≥ 25% at start of combat and unit initiates combat, grants Atk/Spd+5 during combat and reduces damage from foe's first attack by 75%.<br>Effect:【Dagger ７】<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,0,0,0
+|required=Silver Dagger
+|intID=2110
+|sort=418
+|value=20
+|timingID=1
+|abilityID=82
+|limit1ID=1
+|limit2ID=42
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1). If unit initiates combat or if foe's Range = 2, grants Atk/Spd+5 to unit, reduces damage from foe's first attack by 75% ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and neutralizes effects that inflict "Special cooldown charge -X" on unit during combat.<br>Effect:【Dagger ７】<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|refineStatsSkill1=0,0,0,0,0
+|effectSkill1=At start of turn, for unit and allies within 2 spaces of unit, if Special cooldown count is at its maximum value, grants Special cooldown count-1.<br><br>At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+5 to unit, grants bonus to unit's Atk/Spd = 20% of unit's Spd at start of combat, and neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat.
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Accelerates Special}}
+|s1 Ce1={{Eft|Temporary buffs|Atk/Spd|5}}
+|s1 Ce2={{Eft|Damage Reduction|75%}}<br>from {{Tgt|Foe}}'s first attack
+|s1 CeC=Player Phase '''&'''<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s1 Se={{Eft|Penalties|Def/Res|7}}
+|s1 SeT={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|s1 SeC=After combat if<br>{{Tgt|Unit}} attacked
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Accelerates Special}}
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd|5}}
+|s2 Ce2={{Eft|Damage Reduction|75%}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|s2 Ce3={{Eft|Neutralize Guard}}
+|s2 CeC=Player Phase '''or'''<br>{{Tgt|Foe}}'s Range = 2
+|s2 Se={{Eft|Penalties|Def/Res|7}}
+|s2 SeT={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|s2 SeC=After combat if<br>{{Tgt|Unit}} attacked
+|skill3={{Si|Summer Strikers|refine=Skill1}} Skill refine effects
+|s3 Me={{Eft|Reduce Cooldown|1}}
+|s3 MeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|s3 MeC={{Tgt|Unit}}'s '''or''' {{Tgt|Ally}}'s<br>CD is max value
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd|5}}
+|s3 Ce2={{Eft|Temporary buffs|Atk/Spd|20% of {{Tgt|Unit}}'s Spd<br>at start of combat}}
+|s3 Ce3={{Eft|Neutralize Prevent Follow-Ups}}
+|s3 Ce4={{Eft|Neutralize Guaranteed Follow-Ups}}
+|s3 CeT4={{Tgt|Foe}}
+|s3 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{DamagePercentageReduction}}
+{{IfUnitAttacked}}
+{{Penalties}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{CooldownChargeMinusNeutralization|name=Refined Summer Strikers}}
+{{Start of turn Special modification|name={{St|Summer Strikers|refine=Skill1}}}}
+{{At start of combat|name={{St|Summer Strikers|refine=Skill1}}}}
+{{Follow-up effect neutralization|name={{St|Summer Strikers|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Summer Strikers
+|japanese=一夏の神宝
+|german=Sommerschlägel
+|spanishEU=Percusión estival
+|spanishLA=Percusión estival
+|french=Percussions d'été
+|italian=Vibrazioni estive
+|chineseTW=夏季的神寶
+|portuguese=Percussão estival
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%start of turn%maximum value%Special cooldown count-1%' OR Description LIKE '%start of turn%Special cooldown count-1%maximum value%' OR Description LIKE '%=%of unit-s Spd at start of combat%') AND Exclusive='1'}}
+* [[Time Pulse Passives]]
+{{Weapons Navbox}}

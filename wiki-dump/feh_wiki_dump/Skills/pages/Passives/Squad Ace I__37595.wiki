@@ -1,0 +1,56 @@
+{{Passive
+|type=S
+|exclusive=0
+|1name=Squad Ace I 1
+|1tagid=SID_第9迷宮の覇者1
+|1effect=Grants Spd+1.
+|1cost=30
+|1next=-
+|2name=Squad Ace I 2
+|2tagid=SID_第9迷宮の覇者2
+|2effect=Grants Spd+2.
+|2cost=60
+|2next=-
+|3name=Squad Ace I 3
+|3tagid=SID_第9迷宮の覇者3
+|3effect=Grants Spd+3.
+|3cost=120
+|statModifiers1=0,0,1,0,0
+|statModifiers2=0,0,2,0,0
+|statModifiers3=0,0,3,0,0
+|alt1name=Squad Ace D 1
+|alt2name=Squad Ace D 2
+|alt3name=Squad Ace D 3
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=
+}}
+==Seal acquired from==
+===Squad Assault reward===
+* Complete the [[9th Assault]].
+===Sacred Seal Forge===
+{{SealCosts
+|seals=Squad Ace I 1;Squad Ace I 2;Squad Ace I 3
+|badgeColor=Azure
+|costs1=-
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=第９迷宮の覇者
+|german=Überfall-Ass I
+|spanishEU=As del asalto I
+|spanishLA=As del asalto I
+|french=Assaut réussi I
+|italian=Asso squadra I
+|chineseTW=第９迷宮的霸王
+|portuguese=Esquadrão ás I
+}}
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}
+[[Category:Squad Ace Seals]]

@@ -1,0 +1,32 @@
+{{Special
+|tagid=SID_業火静水の祝福
+|name=Fireflood Balm
+|charge=1
+|effect=When healing an ally with a staff, grants Atk/Res+4 to all allies for 1 turn.
+|cost=200
+|exclusive=0
+|required=Still-Water Balm;Kindled-Fire Balm
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|Staff}}
+|properties=random_owner
+}}
+==Notes==
+{{Bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=業火静水の祝福
+|german=Lavabalsam
+|spanishEU=Vaporbálsamo
+|spanishLA=Vaporbálsamo
+|french=Baume magma
+|italian=Balsamo magma
+|chineseTW=業火靜水的祝福
+|portuguese=Bálsamo lava
+}}
+
+==See also==
+* [[Balm Specials]]
+{{Specials Navbox}}
+[[Category:Balm Specials]]

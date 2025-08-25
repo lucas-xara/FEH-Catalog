@@ -1,0 +1,34 @@
+{{Special
+|tagid=SID_伏竜
+|name=Dragon Gaze
+|charge=4
+|effect=Boosts damage by 30% of unit's Atk.
+|cost=100
+|next=Dragon Fang
+|promotionRarity=4
+|promotionTier=2
+|required=-
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_all,offensive_special
+}}
+==Notes==
+{{AtkDamageBoost}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==In other languages==
+{{OtherLanguages
+|japanese=伏竜
+|german=Drachenblick
+|spanishEU=Sombra dragón
+|spanishLA=Sombra dragón
+|french=Œil du dragon
+|italian=Sguardo di drago
+|chineseTW=臥龍
+|portuguese=Olhar dracônico
+}}
+==See also==
+{{See also skills|cond=Description LIKE 'Deals damage = __% of unit_s Atk%' OR Description LIKE '%boosts damage%by __% of unit_s Atk%'}}
+{{Specials Navbox}}

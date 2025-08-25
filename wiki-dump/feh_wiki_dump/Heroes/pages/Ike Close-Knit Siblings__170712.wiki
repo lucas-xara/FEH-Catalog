@@ -1,0 +1,79 @@
+{{#invoke:NameAbout|main|Name=Ike|Name2=Mist}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Ike
+|Title=Close-Knit Siblings
+|WeaponType=Red Sword
+|MoveType=Infantry
+|secondPerson=Mist
+|Origin=Fire Emblem: Path of Radiance
+|Gender=MF
+|duo=Inflicts Atk/Spd-7 and【Guard】on foes within 5 rows or 5 columns centered on unit through their next actions, and inflicts Special cooldown count+2 on those foes.<br><br>【Guard】<br>Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)
+|Duel=195
+|actorEN=Greg Chun,Sarah Williams
+|actorJP=宮川美保,榎本温子
+|artist=神澤葉
+|additionDate=April 6, 2022
+|releaseDate=April 7, 2022
+|cv1=8
+|cv2=100100
+|TagID=比翼アイク
+|InternalID=788
+|Properties=special,duo
+|description=Children of Greil, leader of the Greil Mercenaries. Ike aspires to be just like his father one day. They appear in Fire Emblem: Path of Radiance.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=12|Lv1SPD=12|Lv1DEF=8|Lv1RES=4
+|GRHP=50|GRATK=70|GRSPD=70|GRDEF=55|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Sturdy War Sword
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Daylight
+|special1Default=4
+|special1Unlock=3
+|special2=Sol
+|special2Unlock=4
+|special3=Radiant Aether
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Distant Counter
+|passiveA2=Distant Dart
+|passiveA1Unlock=4
+|passiveA2Unlock=5
+|passiveB1=Null C-Disrupt 1
+|passiveB2=Null C-Disrupt 2
+|passiveB3=Null C-Disrupt 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Spur Atk 1
+|passiveC2=Drive Atk 1
+|passiveC3=Drive Atk 2
+|passiveC4=Joint Drive Atk
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Sources of penalties]][[Category:Sources of Guard]][[Category:Sources of status effects]][[Category:Sources of Special cooldown count modifications out of combat]]
+[[Category:Childhood units]]

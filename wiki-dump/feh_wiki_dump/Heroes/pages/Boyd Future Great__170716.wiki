@@ -1,0 +1,65 @@
+{{#invoke:NameAbout|main|Name=Boyd}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Boyd
+|Title=Future Great
+|WeaponType=Green Axe
+|MoveType=Infantry
+|Origin=Fire Emblem: Path of Radiance
+|Gender=Male
+|actorEN=River Kanoff
+|actorJP=阿澄佳奈
+|artist=にじまあるく
+|additionDate=April 6, 2022
+|releaseDate=April 7, 2022
+|cv1=8
+|cv2=100600
+|TagID=幼少ボーレ
+|InternalID=792
+|Properties=limited,tempest,specDisplay
+|description=The second of three brothers, between Oscar, the eldest, and Rolf, the youngest. He wants to grow up as fast as he's able, for Rolf's sake. Appears in Fire Emblem: Path of Radiance.
+}}
+{{Stats Page
+|Lv1HP=20|Lv1ATK=13|Lv1SPD=10|Lv1DEF=7|Lv1RES=4
+|GRHP=70|GRATK=70|GRSPD=60|GRDEF=55|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Large War Axe
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Shove
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Fire Boost 1
+|passiveA2=Fire Boost 2
+|passiveA3=Fire Boost 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Infantry Pulse 1
+|passiveC2=Infantry Pulse 2
+|passiveC3=Infantry Pulse 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Childhood units]]

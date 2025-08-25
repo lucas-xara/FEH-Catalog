@@ -1,0 +1,56 @@
+{{Weapon Infobox
+|tagid=SID_炎の槍
+|intID=4026
+|image=wep_lc164
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=16
+|range=1
+|effect=Grants Def+3. At start of turn, if unit's HP ≥ 25%, grants【Hexblade】and【Null Panic】 to unit and allies within 3 spaces of unit. At start of combat, if unit's HP ≥ 25%, unit makes a guaranteed follow-up attack, inflicts penalty to foe's Atk/Def = number of【Bonus】effects active on unit, excluding stat bonuses, × 2, + 6 (max 12), and if number of【Bonus】effects active on unit excluding stat bonuses ≥ 3, reduces damage from foe's first attack by X% during combat (if foe can make a follow-up attack, X = 80; otherwise, X = 40; "first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes).<br><br>【Hexblade】<br>Calculates damage using the lower of foe's Def or Res during combat for 1 turn (including damage dealt by Specials before combat).<br><br>【Null Panic】<br>If unit is inflicted with Panic (bonuses converted into penalties), neutralizes the "converts bonuses on target into penalties" effect for 1 turn. (Even though the effect is neutralized, the Panic status remains, and is treated as a Penalty status.)<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|statModifiers=0,16,0,3,0
+|required=Silver Lance
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Stat Boosts|Def|3}}
+|Se1={{SEt|Hexblade}}
+|Se2={{SEt|Null Panic}}
+|Se1-2T={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 3 spaces]]
+|SeC=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25%
+|Ce1={{Eft|Temporary Debuffs|Atk/Def|2 x {{Kp|Bonus}} effects<br>active on {{Tgt|Unit}}, +6|max=12}}
+|Ce1T={{Tgt|Foe}}
+|Ce2={{Eft|Guaranteed Follow-Ups}}
+|Ce3={{Eft|Damage Reduction|2=(80% if {{Tgt|Foe}} can<br>[[follow-up]]; else, X = 40%)}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce2-3T={{Tgt|Unit}}
+|Ce1-2C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce3C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat '''&'''<br>{{Kp|Bonus}} effects<br>active on {{Tgt|Unit}} ≥ 3
+}}
+
+==Notes==
+{{Hexblade}}
+{{Null Panic}}
+{{Guaranteed follow-up interaction}}
+{{Temporary debuffs}}
+{{DamagePercentageReduction}}
+{{EffectfromBonus|additional temporary debuffs and damage reduction|nonStat=1}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=救済の騎士の槍
+|german=Reuevolle Lanze
+|spanishEU=Lanza penitente
+|spanishLA=Lanza penitente
+|french=Lance repentie
+|italian=Lancia penitente
+|chineseTW=救贖騎士之槍
+|portuguese=Lança penitente
+}}
+==See also== 
+{{See also skills|cond=(Description LIKE '%【Hexblade】%') AND Exclusive='1'}}
+* [[Skill families/A Passives#Hexblade|Hexblade Passives]]
+* [[Prime Passives]]
+* [[Skill families/Weapons#Gainful|Gainful Weapons]]
+{{Weapons Navbox}}

@@ -1,0 +1,90 @@
+{{Weapon Infobox
+|tagid=SID_扶翼ウイングスピア
+|intID=2979
+|image=wep_lc117
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=16
+|range=1
+|effectiveness=Armored,Cavalry
+|effect=Enables【Canto (２)】.<br><br>Effective against armored and cavalry foes. Grants Atk+3. If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit during combat, and also, if foe has bonuses, grants Atk/Spd/Def/Res+X to unit and inflicts Atk/Spd/Def/Res-X on foe during combat. (X = current bonus on each of foe's stats.) Calculates each stat effect independently.<br><br>【Canto (２)】<br>After an attack, Assist skill, or structure destruction, unit can move ２ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|statModifiers=0,19,0,0,0
+|required=Silver Lance
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Enables【Canto (２)】.<br><br>Effective against armored and cavalry foes. Grants Atk+3.<br><br>If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit, grants Atk/Spd/Def/Res+X to unit, inflicts Atk/Spd/Def/Res-X on foe during combat (X = current bonus on each of foe's stats; calculates each stat bonus and penalty independently), and unit deals +Y damage during combat (Y = number of Bonus effects active on unit and foe, excluding stat bonuses, × 5; max 25; excluding area-of-effect Specials).<br><br>【Canto (２)】<br>After an attack, Assist skill, or structure destruction, unit can move ２ space(s).<br>(Once per turn. Only highest value applied. Does not stack.)
+|refineStatsSkill1=3,0,0,0,0
+|effectSkill1=Accelerates Special trigger (cooldown count-1).<br><br>At start of player phase or enemy phase, if unit is within 2 spaces of an ally, grants Atk/Spd+6 and the following statuses to unit and allies within 2 spaces of unit for 1 turn: "neutralizes unit's penalties during combat" and "grants Special cooldown charge +1 per attack during combat (only highest value applied; does not stack)."<br><br>If unit initiates combat or is within 2 spaces of an ally, grants bonus to unit's Atk/Spd/Def/Res during combat = number of allies within 3 spaces of unit × 2, + 5 (max 11) and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials).
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Atk|3}}
+|s1 Me={{Eft|Canto|2}}
+|s1 Ce1={{Eft|Effectiveness|{{Mt|Armored}} '''&''' {{Mt|Cavalry}}<br>}}
+|s1 Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s1 Ce3={{Eft|Temporary buffs|Atk/Spd/Def/Res|{{SEt|Bonuses}} on each<br>of {{Tgt|Foe}}'s stats}}
+|s1 Ce4={{Eft|Temporary debuffs|Atk/Spd/Def/Res|{{SEt|Bonuses}} on each<br>of {{Tgt|Foe}}'s stats}}
+|s1 Ce4T={{Tgt|Foe}}
+|s1 Ce2-4C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Atk|3}}
+|s2 Me={{Eft|Canto|2}}
+|s2 Ce1={{Eft|Effectiveness|{{Mt|Armored}} '''&''' {{Mt|Cavalry}}<br>}}
+|s2 Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s2 Ce3={{Eft|Temporary buffs|Atk/Spd/Def/Res|{{SEt|Bonuses}} on each<br>of {{Tgt|Foe}}'s stats}}
+|s2 Ce4={{Eft|Temporary debuffs|Atk/Spd/Def/Res|{{SEt|Bonuses}} on each<br>of {{Tgt|Foe}}'s stats}}
+|s2 Ce4T={{Tgt|Foe}}
+|s2 Ce5={{Eft|Damage Boost|5 x {{Kp|Bonus}} effects<br>on {{Tgt|Unit}} & {{Tgt|Foe}}<br>(exc. {{SEt|bonuses}})|max=25}}
+|s2 Ce5T={{Tgt|Unit}}
+|s2 Ce2-5C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|skill3={{Si|Wing-Lifted Spear|refine=Skill1}} Skill refine effects
+|s3 Pe={{Eft|Accelerates Special}}
+|s3 Se1={{Eft|Bonuses|Atk/Spd|6}}
+|s3 Se2={{SEt|Neutralize Penalties}}
+|s3 Se3={{SEt|Special Cooldown Charge +1}}
+|s3 SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|s3 SeC=At start of both Phases<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|2 x {{Tgt|Allies}}<br>[[within 3 spaces]], + 5|max=11}}
+|s3 Ce2={{Eft|Reduce Damage Reduction|50%}}
+|s3 Ce2T={{Tgt|Foe}}
+|s3 CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+
+==Notes==
+{{Canto|2}}
+{{Effective damage bonus|armored,cavalry}}
+{{IfUnitInitiates}}
+{{TemporaryBufffromBonus|source=the foe}}
+{{TemporaryDebufffromBonus|source=the foe}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes====
+{{FlatDamageBoost|X (max: 25)|name=Refined Wing-Lifted Spear}}
+{{EffectfromBonus|damage boost|target=unit and foe|nonStat=1|name={{St|Wing-Lifted Spear|refine=Skill1}}}}
+{{Bonuses|name={{St|Wing-Lifted Spear|refine=Skill1}}}}
+{{Neutralize Penalties|name={{St|Wing-Lifted Spear|refine=Skill1}}}}
+{{Special Cooldown Charge +1|name={{St|Wing-Lifted Spear|refine=Skill1}}}}
+{{Reduce Damage Reduction|name={{St|Wing-Lifted Spear|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=扶翼ウイングスピア
+|german=Geflügelter Speer
+|spanishEU=Lanza voladora
+|spanishLA=Lanza voladora
+|french=Épieu de soutien
+|italian=Asta del sollievo
+|chineseTW=扶翼羽翼之槍
+|portuguese=Lança alada
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%if foe has%bonus%grants%inflicts%' OR Description LIKE '%number of%【Bonus】%effects active on unit and foe%') AND Exclusive='1' AND WikiName NOT LIKE '%defier%'}}
+* [[Skill families/Weapons#Defier's|Defier's Weapons]]
+* [[Form Passives]]
+{{Weapons Navbox}}

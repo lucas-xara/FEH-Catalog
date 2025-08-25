@@ -1,0 +1,40 @@
+{{Special
+|tagid=SID_破天
+|charge=2
+|effect=Boosts damage by 20% of foe's Atk. If in combat against a dragon foe or beast foe, boosts damage by 40% instead of 20%.
+|cost=500
+|exclusive=0
+|required=Draconic Aura
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Dragonstone,Beast,Staff}}
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce={{Eft|Damage Boost|(40% if against a<br>{{Cwti|group=1|Beast,Dragon}} [[Dragon]]/[[Beast]]<br>{{Tgt|Foe}}; else 20%)<br>of {{Tgt|Foe}}'s Atk}}
+|CeC=Special triggers
+}}
+
+==Notes==
+{{AtkDamageBoost}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V3.7_88_abc01_Skl.webp|Sprite sheet for Ruptured Sky's animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=破天
+|japaneseNotes=''[[fireemblemwiki:Rend Heaven|Breaking Sky]]''
+|german=Himmelsspalter
+|spanishEU=Desgarrar cielo
+|spanishLA=Desgarrar cielo
+|french=Déchire-ciel
+|italian=Lacera cieli
+|chineseTW=破天
+|portuguese=Ruptura celestial
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%deals damage =%\% of foe_s Atk%' OR Description LIKE '%boosts damage by %\% of foe_s Atk%') AND Exclusive='1' OR Description LIKE '%if in combat against a dragon foe or beast foe%'}}
+{{Specials Navbox}}

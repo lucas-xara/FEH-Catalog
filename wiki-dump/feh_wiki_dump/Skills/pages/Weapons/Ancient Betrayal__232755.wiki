@@ -1,0 +1,63 @@
+{{Weapon Infobox
+|tagid=SID_古の地竜族のブレス
+|intID=4680
+|image=wep_ac092
+|exclusive=1
+|weaponType=Dragonstone
+|cost=400
+|might=16
+|range=1
+|effect=Grants Atk+3. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.<br><br>At start of player phase or enemy phase, if unit's HP ≥ 25%, grants Atk/Res+6, 【En Garde】, and "neutralizes foe's bonuses during combat" to unit and allies within 2 spaces of unit for 1 turn.<br><br>At start of combat, if unit's HP ≥ 25%, inflicts penalty on foe's Atk/Def/Res = 20% of unit's Res at start of combat + 5, unit deals +X damage (excluding area-of-effect Specials), and reduces damage from foe's attacks by X (excluding area-of-effect Specials; X = number of staff and dragon allies on the map, excluding unit, × 5 + 10; max 20), and also, if foe's attack can trigger foe's Special and unit's Res ≥ foe's Res+5, inflicts Special cooldown count+1 on foe before foe's first attack during combat (cannot exceed foe's maximum Special cooldown).<br><br>【En Garde】<br>Neutralizes damage outside of combat (from skills like Poison Strike, structures like Bolt Tower, etc.) except damage dealt by area-of-effect Specials.
+|statModifiers=0,19,0,0,0
+|required=Flametongue
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Stat Boosts|Atk|3}}
+|Se1={{Eft|Bonuses|Atk/Res|6}}
+|Se2={{SEt|En Garde}}
+|Se3={{SEt|Neutralize Bonuses}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=At start of both Phases<br>if {{Tgt|Unit}}'s HP ≥ 25%
+|Ce1={{Eft|Temporary debuffs|Atk/Def/Res|20% of {{Tgt|Unit}}'s Res<br>at start of combat, +5}}
+|Ce2={{Eft|Damage Boost|5 x {{Cwti|Dragon,Staff|group=1}} {{Wtp|Staff}}/<br>[[Dragon]] {{Tgt|Allies}}, +10|max=20}}
+|Ce3={{Eft|Damage Reduction|5 x {{Cwti|Dragon,Staff|group=1}} {{Wtp|Staff}}/<br>[[Dragon]] {{Tgt|Allies}}, +10|max=20}}
+|Ce1-3C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce4={{Eft|Increase Cooldown|1}}<br>before {{Tgt|Foe}}'s first attack
+|Ce4C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat,<br>{{Tgt|Foe}} has an<br>[[offensive special]]<br>'''&''' {{Tgt|Unit}}'s Res ≥<br>{{Tgt|Foe}}'s Res+5
+|Ce5={{Eft|Lower Def Res}}
+|Ce5C={{Tgt|Foe}}'s Range = 2
+}}
+
+==Notes==
+{{LowerDefRes}}
+{{Bonuses}}
+{{En Garde}}
+{{Neutralize Bonuses}}
+{{Temporary debuffs}}
+{{At start of combat}}
+{{FlatDamageBoost|X (max: 20)}}
+{{FlatDamageReduction|X (max: 20)}}
+{{CombatCooldownCount|+1}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V9.4_v0904b_monsyou_Mag.webp|Sprite sheet for {{St|Fundament}} and {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%number of staff%dragon allies%' OR Description LIKE '%【En Garde】%') AND Exclusive='1'}}
+* [[Scowl Passives]]
+{{Weapons Navbox}}

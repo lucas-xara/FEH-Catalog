@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Leo}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Leo
+|Title=Festival Bonds
+|WeaponType=Colorless Tome
+|MoveType=Cavalry
+|Origin=Fire Emblem Fates
+|Gender=Male
+|actorEN=Max Mittelman
+|actorJP=宮野真守
+|artist=Ｄd
+|additionDate=August 6, 2024
+|releaseDate=August 7, 2024
+|cv1=11
+|cv2=500800
+|TagID=浴衣レオン
+|InternalID=1129
+|Properties=special,hat
+|description=The second prince of Nohr accompanies Takumi of Hoshido to the summer festival, their bond put on display. Appears in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=15|Lv1ATK=7|Lv1SPD=8|Lv1DEF=5|Lv1RES=13
+|GRHP=50|GRATK=90|GRSPD=45|GRDEF=30|GRRES=75
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Stone
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elstone
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Juicy Bucketful
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Juicy Bucketful+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Glacies
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Still Water 1
+|passiveA2=Still Water 2
+|passiveA3=Still Water 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Fatal Smoke 1
+|passiveC2=Fatal Smoke 2
+|passiveC3=Fatal Smoke 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Hoshidan Summer Festival units]]

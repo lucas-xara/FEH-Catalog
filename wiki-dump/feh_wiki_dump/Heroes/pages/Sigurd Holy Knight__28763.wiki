@@ -1,0 +1,72 @@
+{{#invoke:NameAbout|main|Name=Sigurd}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Sigurd
+|Title=Holy Knight
+|WeaponType=Red Sword
+|Origin=Fire Emblem: Genealogy of the Holy War
+|Gender=Male
+|MoveType=Cavalry
+|GrowthModifier=
+|actorEN=Grant George
+|actorJP=森川智之
+|artist=沙汰
+|resplendentArtist=ニジハヤシ
+|releaseDate=October 16, 2017
+|poolDate=October 30, 2017
+|randomStartTime=2017-10-30T07:00:00Z
+|poolRarities=5
+|TagID=シグルド
+|InternalID=177
+|cv1=3
+|cv2=100100
+|description=Heir to Chalphy, descendant of the crusader Baldr, and Seliph's father. He's courageous and has a strong sense of justice. Appears in Fire Emblem: Genealogy of the Holy War.
+|Properties=specRate_201904,resplendent,hel
+|resplendentStartTime=2023-06-10T07:00:00Z
+|resplendentEndTime=2023-06-25T06:59:59Z
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=9|Lv1SPD=8|Lv1DEF=6|Lv1RES=4
+|GRHP=50|GRATK=60|GRSPD=55|GRDEF=65|GRRES=30
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Divine Tyrfing
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Miracle
+|special1Default=4
+|special1Unlock=3
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Close Def 1
+|passiveA2=Close Def 2
+|passiveA3=Close Def 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=Crusader's Ward
+|passiveB1Unlock=5
+|passiveC1=Spd Smoke 1
+|passiveC2=Spd Smoke 2
+|passiveC3=Spd Smoke 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

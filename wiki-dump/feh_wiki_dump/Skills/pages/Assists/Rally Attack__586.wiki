@@ -1,0 +1,38 @@
+{{Assist
+|tagid=SID_攻撃の応援
+|name=Rally Attack
+|range=1
+|effect=Grants Atk+4 to target ally for 1 turn.
+|cost=150
+|exclusive=0
+|required=-
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_all,random_inherit_base
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se={{Eft|Bonuses|Atk|4}}
+|SeT={{Tgt|Target Ally}}
+|SeC={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}
+}}
+==Notes==
+{{Bonuses}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==In other languages==
+{{OtherLanguages
+|japanese=攻撃の応援
+|german=Angr. sammeln
+|spanishEU=Potenciar Ata
+|spanishLA=Potenciar Atq.
+|french=Ralliement : Atq
+|italian=Sprone Att
+|chineseTW=攻擊支援
+|portuguese=Ataque nímio
+}}
+==See also==
+* [[Rally Assists]]
+{{Assists Navbox}}
+[[Category:Rally Assists]]

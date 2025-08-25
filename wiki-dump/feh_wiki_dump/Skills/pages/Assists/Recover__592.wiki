@@ -1,0 +1,44 @@
+{{Assist
+|tagid=SID_リカバー
+|name=Recover
+|range=1
+|cooldown=1
+|effect=Slows Special trigger (cooldown count+1).<br>Restores 15 HP to target ally.
+|cost=200
+|next=Recover+
+|promotionRarity=5
+|promotionTier=2
+|required=Mend
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|Staff}}
+|properties=random_all
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Heal|15}}
+|MeT1={{Tgt|Target Ally}}
+|MeC1={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}<br>'''or''' {{SEt|Deep Wounds}}
+|Pe={{Eft|Slows Special}}
+}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+Weapon_Recover.png|Recover Sprite
+se_effect_recover.flac|SE
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=リカバー
+|german=Erholung
+|spanishEU=Recuperar
+|spanishLA=Recuperar
+|french=Restitution
+|italian=Recupero
+|chineseTW=聖癒
+|portuguese=Recuperação
+}}
+==See also==
+* [[Staff Assists]]
+{{Assists Navbox}}

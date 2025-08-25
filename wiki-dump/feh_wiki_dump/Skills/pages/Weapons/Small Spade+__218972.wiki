@@ -1,0 +1,71 @@
+{{Weapon Infobox
+|tagid=SID_小さなスコップ＋
+|intID=4233
+|image=wep_dg088
+|exclusive=0
+|weaponType=Dagger
+|cost=300
+|might=12
+|range=2
+|effect=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+5 to unit, grants Atk/Spd+X × 5 to unit (X = the number of allies with Atk ≥ 55 within 3 rows or 3 columns centered on unit + the number of allies with Spd ≥ 40 in the same area; max 3), and grants Special cooldown charge +1 to unit per attack during combat (only highest value applied; does not stack).<br><br>Effect:【Dagger ７】<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|required=Small Spade
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary buffs|Atk/Spd|5}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd|5 x ({{Tgt|Allies}} with Atk ≥ 55<br>+ {{Tgt|Allies}} with Spd ≥ 40<br>within [[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}})|max=15}}
+|Ce3={{Eft|Accelerate Charge}}
+|CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Se={{Eft|Penalties|Def/Res|7}}
+|SeT={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|SeC=After combat if<br>{{Tgt|Unit}} attacked
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{CooldownChargePlus}}
+{{IfUnitAttacked}}
+{{Penalties}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Clanne: Summer Fan|t=Framme: Spring Fangirl
+|---xxx---
+|---xxx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xtx---
+|---xxx---
+}}
+|}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Small Spade
+|japanese=小さなスコップ
+|german=Kleine Schaufel
+|spanishEU=Pala pequeña
+|spanishLA=Pala pequeña
+|french=Petite pelle
+|italian=Paletta
+|chineseTW=小小的沙鏟
+|portuguese=Pá pequena
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%allies with Atk ≥%' OR Description LIKE '%allies with Spd ≥%') AND Exclusive='1'}}
+{{Weapons Navbox}}

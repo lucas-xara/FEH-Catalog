@@ -1,0 +1,54 @@
+{{Weapon Infobox
+|tagid=SID_精霊のブレス
+|weaponType=Dragonstone
+|userVersion1=Weapon
+|userVersion2=Gleam
+|might=16
+|range=1
+|effect=Grants Def+3. If unit initiates combat and unit's Def ≥ foe's Def+5, unit makes a guaranteed follow-up attack. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,3,0
+|required=Flametongue
+|SE=se_effect_halloweenbreath01.flac
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Def+3. At start of combat, if unit's Def > foe's Def or foe's HP ≥ 75%, grants Atk+5 to unit and inflicts Atk-5 on foe during combat, and unit makes a guaranteed follow-up attack. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|tagidExtraSkill1=一
+|effectSkill1=If unit is within 3 spaces of an ally, grants Atk+5 to unit and inflicts Atk-5 on foe during combat, and also, if foe initiates combat, reduces damage from foe's follow-up attack by 70% ("follow-up attack" normally means only the second strike; for effects that grant "unit attacks twice," it means the third and\nfourth strikes).
+|iconSkill1=Spirit Breath W.png
+|properties=
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Guaranteed follow-up interaction}}
+{{LowerDefRes}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Combat boosts}}
+{{Combat reductions}}
+{{IfFoeInitiates}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+v2.10_61_halloween_02_Mag.png|Sprite sheet for Spirit Breath's Animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=精霊のブレス
+|german=Geisteratem
+|spanishEU=Aliento fantasmal
+|spanishLA=Soplo fantasmal
+|french=Souffle d'esprit
+|italian=Soffio d'anima
+|chineseTW=精靈吐息
+|portuguese=Sopro fantasma
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%start of combat, if unit\'s Def > foe\'s Def%' OR Description LIKE '%grants Atk+%to unit%inflicts Atk-%on foe%' OR Description LIKE '%if foe\'s HP ≥%makes a guaranteed follow-up attack%' OR Description LIKE '%reduces damage from foe\'s follow-up attack%'|columns=3}}
+{{Weapons Navbox}}

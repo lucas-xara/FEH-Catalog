@@ -1,0 +1,90 @@
+{{#invoke:NameAbout|main|Name=Fjorm}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Fjorm
+|Title=Ice Ascendant
+|Origin=Fire Emblem Heroes
+|Gender=F
+|WeaponType=Green Axe
+|MoveType=Armored
+|actorEN=Heather Watson
+|actorJP=高橋李依
+|artist=前嶋重機
+|randomStartTime=2021-11-18T07:00:00Z
+|additionDate=2021-10-06
+|releaseDate=October 18, 2021
+|poolDate=2021-11-05
+|poolRarities=5
+|cv1=0
+|cv2=200100
+|Person=Fjorm
+|Properties=tiara,ascended,specRate_202408
+|description=Princess of Nifl, the Kingdom of Ice. A woman who keeps much of her thoughts to herself. She has become a champion of Nifl, god of ice, and so has been granted a portion of her power.
+|TagID=開花フィヨルム
+|InternalID=718
+|EnemyInternalID=77
+}}
+==Ally stats==
+{{Stats Page|noheader=1
+|Lv1HP=19|Lv1ATK=9|Lv1SPD=11|Lv1DEF=9|Lv1RES=10
+|GRHP=55|GRATK=70|GRSPD=70|GRDEF=50|GRRES=60
+}}
+==Enemy stats==
+{{Stats Page/Enemy|noheader=1
+|Lv1HP=19|Lv1ATK=9|Lv1SPD=11|Lv1DEF=9|Lv1RES=10
+|GRHP=55|GRATK=70|GRSPD=70|GRDEF=50|GRRES=60
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Nifl's Bite
+|weapon4Default=5
+|weapon4Unlock=5
+|hasEnemy=1
+}}
+
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Holy Vestments
+|special1Default=4
+|special1Unlock=3
+|special2=Sacred Cowl
+|special2Unlock=4
+|special3=Ice Mirror
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Darting Stance 1
+|passiveA2=Steady Posture 1
+|passiveA3=Steady Posture 2
+|passiveA4=Steady Posture 3
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Hardy Fighter 1
+|passiveB2=Hardy Fighter 2
+|passiveB3=Hardy Fighter 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=A/R Far Save 1
+|passiveC2=A/R Far Save 2
+|passiveC3=A/R Far Save 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+{{Enemies Navbox}}

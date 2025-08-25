@@ -1,0 +1,41 @@
+{{Passive
+|type=C
+|name=Spd/Def Menace
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_inherit_base,random_owner
+|1name=Spd/Def Menace
+|alt1name=Spd Def Menace
+|1tagid=SID_速さ守備の脅嚇3
+|1cost=300
+|1effect=At start of turn, if unit is within 4 spaces of a foe, inflicts Spd/Def-6 on nearest foes through their next actions and grants Spd/Def+6 to unit for 1 turn.
+|1required=Threat. Spd/Def 2
+}}
+==Notes==
+{{Bonuses}}
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Spd/Def Menace
+|japanese=速さ守備の脅嚇
+|german=Ges./Ver.-Geißel
+|spanishEU=Amenaza Vel/Def
+|spanishLA=Amenaz. Vel./Def.
+|french=Menace Vit/Déf
+|italian=Minaccia Vel/Dif
+|chineseTW=速度防守的恐嚇
+|portuguese=Vel./Def. ameaça
+}}
+==See also==
+* [[Surtr's Portent]]
+* [[Menace Passives]]
+{{Passives Navbox|C}}
+[[Category:Threaten Passives]]
+[[Category:Menace Passives]]

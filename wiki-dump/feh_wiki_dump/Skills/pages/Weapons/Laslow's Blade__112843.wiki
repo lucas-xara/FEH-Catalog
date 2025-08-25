@@ -1,0 +1,47 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_ラズワルドの舞剣
+|weaponType=Sword
+|might=16
+|range=1
+|effect=If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Atk/Spd/Def/Res+4 to target or targeting ally and allies within 2 spaces of unit and target or targeting ally for 1 turn after movement. (Excludes unit.)
+|cost=400
+|exclusive=1
+|required=-
+|statModifiers=0,16,0,0,0
+|userVersion1=Weapon
+|userVersion2=Gleam
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If unit is within 3 spaces of 2 or more allies who each have total bonuses ≥ 10, grants Atk/Def+3 during combat and unit attacks twice.
+|iconSkill1=Laslows Blade W.png
+|tagidExtraSkill1=連
+|properties=
+}}
+==Notes==
+{{Bonuses}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Combat boosts}}
+{{Brave weapon interaction}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|連撃R舞剣|Consecutive attacks R Dancing Sword}}
+==In other languages==
+{{OtherLanguages
+|english=Laslow's Blade
+|japanese=ラズワルドの舞剣
+|german=Laslows Klinge
+|spanishEU=Sable Laslow
+|spanishLA=Sable Laslow
+|french=Épée de Laslow
+|italian=Spada di Laslow
+|chineseTW=拉茲沃德的舞劍
+|portuguese=Espada Laslow
+}}
+==See also==
+* [[Sabertooth Fang]]
+{{Weapons Navbox}}

@@ -1,0 +1,78 @@
+{{Weapon Infobox
+|tagid=SID_冷涼な果の氷菓子
+|intID=4802
+|image=wep_dg102
+|exclusive=1
+|weaponType=Dagger
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>At start of turn and after unit acts (if Canto triggers, after Canto), inflicts Spd/Def-7, 【Sabotage】, and【Panic】on closest foes and foes within 2 spaces of those foes through their next actions.<br><br>If unit initiates combat or if foe's HP ≥ 75% at start of combat, grants bonus to unit's Atk/Spd/Def/Res = number of foes within 3 rows or 3 columns centered on unit × 3, + 5 (max 14), unit deals +X × 5 damage (excluding area-of-effect Specials), and reduces damage from foe's first attack by X × 3 during combat (X = number of Bonus effects active on unit, excluding stat bonuses + number of Penalty effects active on foe, excluding stat penalties; max 5; "first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and restores 7 HP to unit after combat.<br><br>If unit initiates combat and foe's attack can trigger foe's Special, inflicts Special cooldown count+1 on foe before foe's first attack during combat (cannot exceed foe's maximum Special cooldown).<br><br>Effect:【Dagger ７】<br><br>【Sabotage】<br>Inflicts penalty on unit's Atk/Spd/Def/Res during combat = highest penalty on each stat between unit and allies within 2 spaces of unit through its next action. Calculates each stat penalty independently.<br><br>【Panic】<br>Converts bonuses on target into penalties through its next action.<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|required=Silver Dagger
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Se1={{Eft|Penalties|Spd/Def|7}}
+|Se2={{SEt|Sabotage}}
+|Se3={{SEt|Panic}}
+|Se1-3T=Closest {{Tgt|Foes}}<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}
+|Se1-3C=At start of turn<br>'''&''' (after action(s),<br>'''or''' [[Canto]] movement)
+|Se4={{Eft|Penalties|Def/Res|7}}
+|Se4T={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|Se4C=After combat if<br>{{Tgt|Unit}} attacked
+|Me={{Eft|Heal|7}}
+|MeC=After combat in<br>Player Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|3 x {{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}, + 5|max=14}}
+|Ce2={{Eft|Damage Boost|5 x ({{Kp|Bonus}} effects<br>on {{Tgt|Unit}} '''&''' {{Kp|Penalty}}<br>effects on {{Tgt|Foe}}), +5<br>(exc. {{SEt|Bonuses}} '''&''' {{SEt|Penalties}})|max=25}}
+|Ce3={{Eft|Damage Reduction|3 x ({{Kp|Bonus}} effects<br>on {{Tgt|Unit}} '''&''' {{Kp|Penalty}}<br>effects on {{Tgt|Foe}}), +5<br>(exc. {{SEt|Bonuses}} '''&''' {{SEt|Penalties}})|max=15}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce1-3C=Player Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|Ce4={{Eft|Increase Cooldown|1}}
+|Ce4T={{Tgt|Foe}}
+|Ce4C=Player Phase '''&'''<br>{{Tgt|Foe}} has an<br>[[offensive Special]]
+}}
+==Notes==
+{{Penalties}}
+{{Sabotage}}
+{{Panic}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{FlatDamageBoost|X (max: 25)}}
+{{FlatDamageReduction|X (max: 15)}}
+{{After combat healing}}
+{{CombatCooldownCount|+1}}
+{{IfUnitAttacked}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Yuri: Tropical Wolf|t=Aelfric: Custodian Monk
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%number of%Bonus%effects active on%penalty%active on%' AND (Exclusive='1' AND Name NOT LIKE '%+' AND Properties HOLDS NOT 'arcane')}}
+* [[Skill families/Weapons#Gainful|Gainful Weapons]]
+{{Weapons Navbox}}

@@ -1,0 +1,43 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_闇のブレス＋
+|weaponType=Dragonstone
+|might=13
+|range=1
+|effect=If unit initiates combat, inflicts Atk/Spd-5 on foes within 2 spaces of target through their next actions after combat.
+|cost=300
+|exclusive=0
+|statModifiers=0,13,0,0,0
+|SE=se_effect_darkbreath.flac
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|upgradedMight=14
+|upgradedEffect=After combat, if unit attacked, inflicts Atk/Spd-7 on target and foes within 2 spaces of target through their next actions. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|properties=random_all
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Penalties}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfUnitAttacked}}
+{{LowerDefRes}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=闇のブレス＋
+|german=Dunkler Atem+
+|spanishEU=Aliento oscuro +
+|spanishLA=Soplo sombrío +
+|french=Souffle sombre +
+|italian=Soffio oscuro+
+|chineseTW=暗之吐息＋
+|portuguese=Sopro vil+
+}}
+==See also==
+* [[Clarisse's Bow+]]
+{{Weapons Navbox}}

@@ -1,0 +1,60 @@
+{{Passive
+|type=C
+|exclusive=0
+|1name=Def Tactic 1
+|1tagid=SID_守備の指揮1
+|1promotionRarity=4
+|1promotionTier=1
+|1effect=At start of turn, grants Def+2 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2.
+|1required=-
+|1cost=60
+|2name=Def Tactic 2
+|2tagid=SID_守備の指揮2
+|2promotionRarity=5
+|2promotionTier=1
+|2effect=At start of turn, grants Def+4 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2.
+|2cost=120
+|3name=Def Tactic 3
+|3tagid=SID_守備の指揮3
+|3effect=At start of turn, grants Def+6 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2.
+|3cost=240
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=random_owner,random_inherit_base
+}}
+==Notes==
+{{Tactic Passive notes}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Def Tactic 1;Def Tactic 2;Def Tactic 3
+|badgeColor=Verdant
+|costs1=20;100;20
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=守備の指揮
+|german=Verteidig.taktik
+|spanishEU=Estrategia Def
+|spanishLA=Táctica Def.
+|french=Tactique Déf
+|italian=Tattica Dif
+|chineseTW=防守指揮
+|portuguese=Tática Def.
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%movement type%current team%≤ 2%' AND Exclusive='1'|columns=3}}
+* [[Tactic Passives]]
+{{Seals Navbox}}
+{{Passives Navbox|C}}
+[[Category:Tactic Passives]]

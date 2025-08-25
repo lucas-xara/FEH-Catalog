@@ -1,0 +1,93 @@
+{{Passive
+|name=Flow Refresh
+|type=B
+|exclusive=0
+|canUseMove={{MoveList|Cavalry,Flying}}
+|canUseWeapon={{WeaponList|Melee}}
+|1effect=At the start of combat, if unit's HP = 100% and unit initiates combat, neutralizes effects that prevent unit's follow-up attacks and restores 5 HP to unit after combat.
+|timingID=15
+|abilityID=294
+|limit1ID=42
+|limit2ID=1
+|randomTimestamp=2021-08-07T07:00:00Z
+|properties=random_inherit_base,random_owner
+|1name=Flow Refresh 1
+|1tagid=SID_怒涛・再起1
+|1required=-
+|1cost=60
+|1promotionRarity=4
+|1promotionTier=1
+|intID1=2650
+|sort1=38000
+|value1=2
+|randomMinLv1=21
+|randomMaxLv1=30
+|2name=Flow Refresh 2
+|2tagid=SID_怒涛・再起2
+|2effect=At the start of combat, if unit's HP ≥ 50% and unit initiates combat, neutralizes effects that prevent unit's follow-up attacks and restores 7 HP to unit after combat.
+|2required=Flow Refresh 1
+|2cost=120
+|2promotionRarity=5
+|2promotionTier=1
+|intID2=2651
+|sort2=38001
+|value2=4
+|randomMinLv2=26
+|randomMaxLv2=35
+|3name=Flow Refresh 3
+|3tagid=SID_怒涛・再起3
+|3effect=If unit initiates combat, neutralizes effects that prevent unit's follow-up attacks and restores 10 HP to unit after combat.
+|3required=Flow Refresh 2
+|3cost=240
+|3next=-
+|4name=Flow Refresh 4
+|4tagid=SID_怒涛・再起4
+|4effect=If unit initiates combat, inflicts Spd/Def-4 on foe during combat, neutralizes effects that prevent unit's follow-up attacks, reduces damage from foe's first attack during combat by 40%, and restores 10 HP to unit after combat.
+|4cost=300
+|properties4=random_owner
+|intID3=2652
+|sort3=38002
+|value3=6
+|randomMinLv3=31
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Follow-up effect neutralization|preventOnly=1}}
+{{After combat healing}}
+{{Temporary debuffs|name=Flow Refresh 4}}
+{{DamagePercentageReduction|name=Flow Refresh 4}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Flow Refresh 1;Flow Refresh 2;Flow Refresh 3
+|badgeColor=Verdant
+|costs1=20;100;40
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=怒涛・再起
+|german=Erquickung
+|spanishEU=Corriente fresca
+|spanishLA=Corriente fresca
+|french=Flots frais
+|italian=Rinfresca
+|chineseTW=怒濤・再起
+|portuguese=Onda fresca
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%estores%HP after combat%' OR Description LIKE '%estores%HP to unit after combat%') AND Exclusive='1' AND Name NOT LIKE '%+'}}
+* [[Flow Passives]]
+{{Passives Navbox|B}}
+{{Seals Navbox}}

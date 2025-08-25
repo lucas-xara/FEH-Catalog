@@ -1,0 +1,70 @@
+{{#invoke:NameAbout|main|Name=Sharena}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Sharena
+|Title=Spring Princess
+|GrowthModifier=Gen 2
+|WeaponType=Green Tome
+|MoveType=Infantry
+|Origin=Fire Emblem Heroes
+|Gender=Female
+|actorEN=Julie Kliewer
+|actorJP=内田真礼
+|artist=コザキユースケ
+|releaseDate=March 22, 2018
+|TagID=春祭シャロン
+|InternalID=230
+|Properties=special,hat,tiara,specRate_202202
+|cv1=0
+|cv2=100200
+|description=Princess of Askr and Alfonse's younger sister. She cajoled her brother into participating in the Spring Festival with her.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=8|Lv1SPD=10|Lv1DEF=3|Lv1RES=6
+|GRHP=45|GRATK=55|GRSPD=60|GRDEF=30|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Wind
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elwind
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Rexcalibur
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Muninn's Egg
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Rally Speed
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Rally Atk/Spd
+|assist2Unlock=4
+}}
+
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Darting Stance 1
+|passiveA2=Swift Stance 1
+|passiveA3=Swift Stance 2
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Live for Bounty
+|passiveB1Unlock=4
+|passiveC1=Res Tactic 1
+|passiveC2=Res Tactic 2
+|passiveC3=Res Tactic 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Spring Festival units]]

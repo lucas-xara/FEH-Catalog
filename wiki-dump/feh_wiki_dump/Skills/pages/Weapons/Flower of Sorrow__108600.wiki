@@ -1,0 +1,69 @@
+{{Weapon Infobox
+|tagid=SID_不幸の花
+|weaponType=Green Tome
+|might=14
+|range=2
+|effect=Grants Atk+3. Inflicts Def/Res-4 on any foe in a cardinal direction from unit during that foe's combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,17,0,0,0
+|required=Rexcalibur
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Atk+3. Inflicts Def/Res-5 on foes in cardinal directions of unit during their combat. If foe's HP ≥ 75% at start of combat or if another foe is within 2 spaces of that foe, inflicts Atk/Spd/Res-4 on foe during combat.
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, inflicts Atk/Spd/Res-4 on foe and unit makes a guaranteed follow-up attack during combat, and also, after combat, if unit attacked, deals 10 damage to target and foes within 2 spaces of target.
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Atk|3}}
+|s1 Ce={{Eft|Temporary debuffs|Def/Res|4}}
+|s1 CeT={{Tgt|Foes}} within<br>[[cardinal directions]]
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Atk|3}}
+|s2 Ce1={{Eft|Temporary debuffs|Def/Res|5}}
+|s2 Ce1T={{Tgt|Foes}} within<br>[[cardinal directions]]
+|s2 Ce2={{Eft|Temporary debuffs|Atk/Spd/Res|4}}
+|s2 Ce2T={{Tgt|Foe}}
+|s2 Ce2C={{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat<br>'''or''' {{Tgt|Target Foe}} is<br>[[within 2 spaces]]<br>of another {{Tgt|Foe}}
+|skill3={{Si|Flower of Sorrow|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary debuffs|Atk/Spd/Res|4}}
+|s3 Ce1T={{Tgt|Foe}}
+|s3 Ce2={{Eft|Guaranteed Follow-Ups}}
+|s3 Ce2T={{Tgt|Unit}}
+|s3 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s3 Me={{Eft|Damage|10}}
+|s3 MeT={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|s3 MeC=After combat if<br>{{Tgt|Unit}} attacked '''&'''<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Temporary debuffs}}
+{{CardinalDirections}}
+{{FoesCombatEffect|effect=temporary debuffs}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Guaranteed follow-up interaction|name={{St|Flower of Sorrow|refine=Skill1}}}}
+{{IfUnitAttacked|name={{St|Flower of Sorrow|refine=Skill1}}}}
+{{Out of combat damage|name={{St|Flower of Sorrow|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Flower of Sorrow
+|japanese=不幸の花
+|german=Trauerblume
+|spanishEU=Flor tormentosa
+|spanishLA=Flor del tormento
+|french=Fleur amère
+|italian=Fiore del dolore
+|chineseTW=不幸之花
+|portuguese=Flor da aflição
+}}
+==See also==
+{{See also skills|cond=Name LIKE 'Flower of%'}}
+{{Weapons Navbox}}

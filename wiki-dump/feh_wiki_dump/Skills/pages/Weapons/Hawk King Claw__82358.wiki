@@ -1,0 +1,47 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_鷹王の嘴爪
+|canUseMove=Flying
+|weaponType=Beast
+|might=14
+|range=1
+|effect=Grants Atk+3. If foe's HP = 100% and if unit initiates combat, unit makes a guaranteed follow-up attack. At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, unit can move 1 extra space. (That turn only. Does not stack.) If unit transforms, grants Atk+2.
+|cost=400
+|exclusive=1
+|statModifiers=0,17,0,0,0
+|required=Adult (Flier)
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Atk+3. If unit is transformed or foe's HP ≥ 75% at start of combat, grants Atk/Def+5 to unit during combat and unit makes a guaranteed follow-up attack. At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, unit can move 1 extra space. (That turn only. Does not stack.) If unit transforms, grants Atk+2.
+|tagidExtraSkill1=一
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Def+5 and Special cooldown charge +1 to unit per attack during combat. (Only highest value applied. Does not stack.)
+|iconSkill1=Hawk King Claw W.png
+|properties=random_owner
+}}
+==Notes==
+{{Guaranteed follow-up interaction}}
+{{Beast (Flier)}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfUnitTransforms}}
+{{Temporary buffs}}
+{{CooldownChargePlus}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=鷹王の嘴爪
+|german=Falkenklaue
+|spanishEU=Garra de halcón
+|spanishLA=Garra de halcón
+|french=Serre de roi
+|italian=Artiglio regale
+|chineseTW=鷹王之喙
+|portuguese=Garra de falcão
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit is transformed%' OR Description LIKE '%if foe\'s HP%unit makes a guaranteed follow-up attack%' OR Description LIKE '%if unit\'s HP%special cooldown charge+1%per attack%'|columns=3}}
+{{Weapons Navbox}}

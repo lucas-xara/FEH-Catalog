@@ -1,0 +1,79 @@
+{{#invoke:NameAbout|main|Name=Alear}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Alear
+|Title=Gifted Dragons
+|WeaponType=Blue Breath
+|MoveType=Infantry
+|Person=Alear M
+|secondPerson=Alear F
+|Origin=Fire Emblem Engage
+|Gender=MF
+|duo=Neutralizes any【Penalty】effects on unit and allies within 3 spaces of unit, and grants the following to unit and those allies for 1 turn: "neutralizes foe's bonuses during combat" and "reduces the percentage of foe's non-Special 'reduce damage by X%' skills by 50% during combat (excluding area-of-effect Specials)."<br><br>Once used, Duo Skill cannot be activated again right away. At the start of every third turn, if Duo Skill has already been used, unit can use Duo Skill again.<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|Duel=215
+|actorEN=下野紘,遠藤綾
+|actorJP=下野紘,遠藤綾
+|artist=葉山えいし
+|additionDate=2024-12-13
+|releaseDate=2024-12-13
+|cv1=14
+|cv2=100100
+|TagID=比翼リュール男
+|InternalID=1180
+|Properties=special,duo
+|description=Two Divine Dragons who adorn Askr's winter festival. And they are joined by the guardian spirit of the Somniel too. They appear in Fire Emblem Engage.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=10|Lv1SPD=7|Lv1DEF=8|Lv1RES=6
+|GRHP=50|GRATK=75|GRSPD=90|GRDEF=50|GRRES=90
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire Breath
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Fire Breath+
+|weapon2Default=3
+|weapon2Unlock=3
+|weapon3=Flametongue
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Wintery Arts
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=5
+|special1Unlock=3
+|special2=Iceberg
+|special2Unlock=4
+|special3=Dragon's Roar
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Emblems' Miracle
+|passiveA1Unlock=5
+|passiveB1=Spd/Res Bulwark 1
+|passiveB2=Spd/Res Bulwark 2
+|passiveB3=Spd/Res Bulwark 3
+|passiveB4=S/R Spiked Wall
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Even Res Wave 1
+|passiveC2=Even Res Wave 2
+|passiveC3=Even Res Wave 3
+|passiveC4=Even Res Wave D
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Christmas units]]

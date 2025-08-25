@@ -1,0 +1,54 @@
+{{Passive
+|name=Bushido
+|type=B
+|1name=Bushido
+|1tagid=SID_武士道
+|1required=-
+|1effect=Deals +10 damage when Special triggers.
+|1cost=300
+|2name=Bushido II
+|2tagid=SID_武士道・承
+|2required=Bushido
+|2cost=300
+|2effect=Neutralizes "effective against flying" bonuses. Deals +7 damage. If unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 4 (max 40%).
+|exclusive=1
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Bushido 3}} Bushido 3
+|s1 Ce={{Eft|Damage Boost|10}} per<br>{{Tgt|Unit}}'s [[Area-of-effect Specials|AoE]] '''or''' [[offensive Special]]
+|skill2={{Si|Bushido 4}} Bushido 4
+|s2 Ce1={{Eft|Neutralize Weakness|{{Mt|Flying}}}}
+|s2 Ce2={{Eft|Damage Boost|7}}
+|s2 Ce3={{Eft|Damage Reduction|4 x ({{Tgt|Unit}}'s Spd - {{Tgt|Foe)}}'s Spd)<br>from attacks & Non-Røkkr [[AoE Specials]]|percent=1|max=40%}}
+|s2 Ce3C={{Tgt|Unit}}'s Spd ><br>{{Tgt|Foe}}'s Spd
+}}
+==Notes==
+{{FlatDamageBoost|special=1|10}}
+* Bushido II has the same effect at {{St|Iote's Shield}}.
+{{Effectiveness neutralization|flying}}
+{{FlatDamageBoost|10|name=Bushido II}}
+{{DamagePercentageReduction|name=Bushido II}}
+{{AoEDamageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=武士道
+|german=Kriegers Macht
+|spanishEU=Bushido
+|spanishLA=Bushido
+|french=Bushido
+|italian=Bushido
+|chineseTW=武士道
+|portuguese=Bushido
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%if unit_s Spd%educes damage from%area-of-effect Specials%difference between stats × %' AND Description NOT LIKE '%【Dodge】%' OR Description LIKE '%Neutralizes "effective against flying"%') AND Exclusive='1'|limit=27}}
+*[[Skills that boost Special damage]]
+*[[Shield Passives]]
+*[[Dodge Passives]]
+{{Passives Navbox|B}}

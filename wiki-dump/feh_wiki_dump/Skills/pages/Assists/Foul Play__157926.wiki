@@ -1,0 +1,45 @@
+{{Assist
+|tagid=SID_トリック
+|name=Foul Play
+|range=3
+|effect=Unit and target ally swap spaces.
+|cost=400
+|exclusive=1
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|required=Swap
+|intID=2744
+|sort=596
+|value=11
+|timingID=0
+|abilityID=18
+|randomTimestamp=2021-10-17T07:00:00Z
+|randomMinLv=31
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|MapEffect 1={{Eft|Swap Units}}
+|MapEffect 1 Targets={{Tgt|Unit}} '''&'''<br>{{Tgt|Target Ally}}
+|MapEffect Conditions={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}
+}}
+
+==Notes==
+* Has the same effect as {{St|Swap}}.
+{{Movement skill notes|notBeforeRokkr=1}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=トリック
+|german=Unfaires Spiel
+|spanishEU=Engaño
+|spanishLA=Engaño
+|french=Pirouette
+|italian=Acrobazia
+|chineseTW=把戲
+|portuguese=Enganação
+}}
+==See also==
+* 
+{{Assists Navbox}}

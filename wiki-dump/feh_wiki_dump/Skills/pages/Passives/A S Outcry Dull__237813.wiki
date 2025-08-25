@@ -1,0 +1,55 @@
+{{Passive
+|name=A/S Outcry Dull
+|type=C
+|exclusive=0
+|canUseWeapon={{WeaponList|Close}}
+|canUseMove={{MoveList|Cavalry}}
+|properties=random_owner
+|1name=A/S Outcry Dull
+|alt1name=A S Outcry Dull
+|1tagid=SID_攻速鼓譟・強化無効
+|1effect=At start of turn, if unit is within 2 spaces of an ally, grants Atk/Spd+6 and "neutralizes foe's bonuses during combat" to unit and allies within 2 spaces of unit for 1 turn.<br><br>Grants bonus to unit's Atk/Spd = number of allies on the map with the "neutralizes foe's bonuses during combat" status effect active + 2 (excluding unit; max 5) and deals damage = number of spaces from start position to end position of whoever initiated combat × 2 during combat (max 8; excluding area-of-effect Specials).
+|1cost=300
+|1required=Hone Atk 3;Hone Spd 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{Eft|Bonuses|Atk/Spd|6}}
+|Se2={{SEt|Neutralize Bonuses}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=At start of turn<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce1={{Eft|Temporary buffs|Atk/Spd|{{Tgt|Allies}} with<br>{{SEt|Neutralize Bonuses}}, +2|max=5}}
+|Ce2={{Eft|Damage Boost|2 x spaces initiator moved|max=8}}
+}}
+==Notes==
+{{Bonuses}}
+{{Neutralize Bonuses}}
+{{Temporary buffs}}
+{{FlatDamageBoost|X (max: 8)}}
+{{SpacesFromStarttoEnd}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=A/S Outcry Dull
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+
+==See also==
+{{See also skills|cond=Description LIKE '%number of allies on the map with%' AND Exclusive='1'}}
+* [[Skill families/C Passives#Outcry Dull|Outcry Dull Passives]]
+* [[Skill families/C Passives#Joint Hone|Joint Hone Passives]]
+{{Passives Navbox|C}}
+[[Category:Hone Passives]]
+[[Category:Outcry Dull Passives]]

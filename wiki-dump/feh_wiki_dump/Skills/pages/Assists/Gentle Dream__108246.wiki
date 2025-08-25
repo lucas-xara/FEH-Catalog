@@ -1,0 +1,44 @@
+{{Assist
+|tagid=SID_やさしいゆめ
+|name=Gentle Dream
+|range=1
+|effect=Grants another action to target ally. Grants Atk/Spd/Def/Res+3 and the following status to target ally and allies in cardinal directions of unit and target (excluding unit): "Unit can move to a space adjacent to any ally within 2 spaces." (That turn only. Cannot target an ally with Sing or Dance. This skill treated as Sing or Dance.)
+|cost=400
+|exclusive=1
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|exclude=staff}}
+|required=Dance
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Another Action}}
+|MeT={{Tgt|Target Ally}}
+|MeC={{Tgt|Target (Ally)}}<br>doesn't have a<br>{{Uti|Dance}} [[Dance Assist]]<br>'''or''' {{SEt|Isolation}}
+|Se1={{Eft|Bonus|Atk/Spd/Def/Res|3}}
+|Se2={{SEt|Air Orders}}
+|SeT={{Tgt|Target Ally}} '''&''' {{Tgt|Allies}}<br>in [[cardinal directions]] of<br>{{Tgt|Unit}} '''&''' {{Tgt|Target Ally}}
+|SeC={{Tgt|Target (Ally)}}<br>doesn't have a<br>{{Uti|Dance}} [[Dance Assist]]<br>'''or''' {{SEt|Isolation}}
+}}
+==Notes==
+{{CardinalDirections}}
+{{Bonuses}}
+{{Air Orders}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Gentle Dream
+|japanese=やさしいゆめ
+|german=Sanfter Traum
+|spanishEU=Ensueño gentil
+|spanishLA=Ensueño gentil
+|french=Beau rêve
+|italian=Sogni tranquilli
+|chineseTW=溫柔的夢
+|portuguese=Sonho afável
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%This skill treated as Sing or Dance%'}}
+{{Assists Navbox}}
+[[Category:Dance skills]][[Category:Sources of effects that grant "another action"]]

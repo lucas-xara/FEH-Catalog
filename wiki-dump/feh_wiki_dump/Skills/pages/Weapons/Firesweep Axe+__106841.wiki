@@ -1,0 +1,31 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_火薙ぎの斧＋
+|weaponType=Axe
+|weaponName=Firesweep Axe+
+|required=Firesweep Axe
+|might=15
+|range=1
+|effect=Unit and foe cannot counterattack.
+|cost=300
+|exclusive=0
+|statModifiers=0,15,0,0,0
+|properties=random_owner
+}}
+==Notes==
+{{Firesweep interaction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=火薙ぎの斧＋
+|german=Feuerfegeraxt+
+|spanishEU=Hacha Vulcano +
+|spanishLA=Hacha Vulcano +
+|french=H. enflammée +
+|italian=Troncafuoco+
+|chineseTW=火薙之斧＋
+|portuguese=Machado vulcão+
+}}
+==See also==
+* [[Skill families#Firesweep|Firesweep weapons]]
+{{Weapons Navbox}}

@@ -1,0 +1,43 @@
+{{Weapon Infobox
+|tagid=SID_バルボの勇槍
+|intID=3584
+|image=wep_lc146
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=16
+|range=1
+|effect=If unit is within 3 spaces of an ally, grants Atk/Def+5 to unit during combat, and also, if foe initiates combat, reduces damage from foe's follow-up attack by 60% during combat ("follow-up attack" normally means only the second strike; for effects that grant "unit attacks twice," it means the third and fourth strikes).
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If foe initiates combat or foe's HP ≥ 75% at start of combat, grants Atk/Def+5 to unit, grants Special cooldown charge +1 to unit per attack during combat (only highest value applied; does not stack), and restores 7 HP to unit after combat.
+|properties=
+}}
+==Notes==
+{{Temporary buffs}}
+{{IfFoeInitiates}}
+{{DamagePercentageReduction}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{CooldownChargePlus|name={{St|Valbar's Lance|refine=Skill1}}}}
+{{After combat healing}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=バルボの勇槍
+|german=Valbars Lanze
+|spanishEU=Lanza de Valbar
+|spanishLA=Lanza de Valbar
+|french=Lance de Valbar
+|italian=Lancia di Valbar
+|chineseTW=巴爾博勇槍
+|portuguese=Lança de Valbar
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%third and fourth strikes%'}}
+{{Weapons Navbox}}

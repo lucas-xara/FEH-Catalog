@@ -1,0 +1,82 @@
+{{#invoke:NameAbout|main|Name=Nephenee|Name2=Sakura}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Nephenee
+|Title=Festival Harmony
+|WeaponType=Red Tome
+|MoveType=Flying
+|secondPerson=Sakura
+|Origin=Fire Emblem: Path of Radiance,Fire Emblem Fates
+|Gender=FF
+|harmonized=Grants Atk/Spd+6,【Resonance: Blades】, and "unit can move 1 extra space (that turn only; does not stack)" to unit and allies from the same titles as unit for 1 turn and neutralizes any【Penalty】on unit and allies from the same titles as unit.<br><br>【Resonance: Blades】<br>Grants Atk/Spd+4 during combat for 1 turn.<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|actorEN=Julie Ann Taylor,Brianna Knickerbocker
+|actorJP=大本眞基子,金元寿子
+|artist=あんべよしろう
+|additionDate=August 6, 2024
+|releaseDate=August 7, 2024
+|entry=8;11
+|cv1=8
+|cv2=300100
+|TagID=双界ネフェニー
+|InternalID=1126
+|Properties=special,harmonized,mask,hat
+|description=Nephenee, a Crimean villager, and Sakura, a Hoshidan princess, overcome barriers of status and celebrate the summer festival together. They appear in Fire Emblem: Path of Radiance / Fates.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=10|Lv1SPD=8|Lv1DEF=6|Lv1RES=7
+|GRHP=60|GRATK=80|GRSPD=90|GRDEF=35|GRRES=30
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elfire
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Bolganone
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Fluttering Fan
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Moonbow
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Catch 1
+|passiveA2=Atk/Spd Catch 2
+|passiveA3=Atk/Spd Catch 3
+|passiveA4=Atk/Spd Mastery
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Resonance 1
+|passiveB2=Resonance 2
+|passiveB3=Resonance 3
+|passiveB4=Resonance 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Spd/Res Rein 1
+|passiveC2=Spd/Res Rein 2
+|passiveC3=Spd/Res Rein 3
+|passiveC4=Spd/Res Crux
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}[[Category:Sources of bonuses]][[Category:Sources of Mobility increased]][[Category:Sources of negative status effect neutralization]]
+[[Category:Hoshidan Summer Festival units]]

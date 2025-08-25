@@ -1,0 +1,107 @@
+{{Weapon Infobox
+|tagid=SID_師の授けの書
+|intID=2890
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|exclusive=1
+|weaponType=Blue Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br>If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit and neutralizes effects that grant "Special cooldown charge +X" to foe or inflict "Special cooldown charge -X" on unit during combat.<br><br>Allies within 2 spaces gain: "Neutralizes effects that grant 'Special cooldown charge +X' to foe or inflict 'Special cooldown charge -X' on unit during combat."
+|statModifiers=0,14,0,0,0
+|required=Thoron;Shine
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1).<br><br>If unit initiates combat or if there is an ally within 3 rows or 3 columns centered on unit, grants Atk/Spd/Def/Res+5 to unit, reduces damage from foe's first attack by 30% (for standard attacks, "first attack" means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and neutralizes effects that grant "Special cooldown charge +X" to foe or inflict "Special cooldown charge -X" on unit during combat.<br><br>For allies within 3 rows or 3 columns centered on unit, grants Atk/Spd/Def/Res+4 and neutralizes effects that grant "Special cooldown charge +X" to foe or inflict "Special cooldown charge -X" on ally during their combat.
+|refineStatsSkill1=0,0,0,0,0
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants bonus to unit's Atk/Spd/Def/Res = number of allies within 3 rows or 3 columns centered on unit × 2, + 5 (max 11) and deals damage = 20% of unit's Spd during combat (excluding area-of-effect Specials), and also, when unit's Special triggers, neutralizes "reduces damage by X%" effects from foe's non-Special skills (excluding area-of-effect Specials).
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Accelerates Special}}
+|s1 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s1 Ce2={{Eft|Neutralize Guard}}
+|s1 Ce3={{Eft|Neutralize Accelerate Charge}}
+|s1 Ce3T={{Tgt|Foe}}
+|s1 Ce1-3C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s1 Ce4={{Eft|Neutralize Guard}}
+|s1 Ce4T={{Tgt|Allies}}<br>[[within 2 spaces]]
+|s1 Ce5={{Eft|Neutralize Accelerate Charge}}
+|s1 Ce5T={{Tgt|Foes}} of {{Tgt|Allies}}<br>[[within 2 spaces]]
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Accelerates Special}}
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s2 Ce2={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|s2 Ce3={{Eft|Neutralize Guard}}
+|s2 Ce4={{Eft|Neutralize Accelerate Charge}}
+|s2 Ce4T={{Tgt|Foe}}
+|s2 CeC1-4=Player Phase '''or'''<br>an {{Tgt|Ally}} is within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|s2 Ce5={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s2 Ce6={{Eft|Neutralize Guard}}
+|s2 Ce5-6T={{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|s2 Ce7={{Eft|Neutralize Accelerate Charge}}
+|s2 Ce7T={{Tgt|Foes}} of<br>{{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|skill3={{Si|Professorial Guide|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|2 x {{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}, + 5|max=11}}
+|s3 Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|s3 Ce3={{Eft|Neutralize Damage Reduction}}<br>per {{Tgt|Unit}}'s [[offensive Special]]
+|s3 Ce3T={{Tgt|Foe}}
+|s3 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{CooldownChargePlusNeutralization}}
+{{CooldownChargeMinusNeutralization}}
+{{AlliesCombatEffect|effect=cooldown charge neutralization effects}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{DamagePercentageReduction}}
+{{AlliesCombatEffect|effect=temporary buffs and cooldown charge neutralization effects|name=Refined Professorial Guide}}
+{{DamageBoost|name={{St|Professorial Guide|refine=Skill1}}}}
+{{DamageReductionNeutralization|name={{St|Professorial Guide|refine=Skill1}}}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Byleth: The Fódlan Light|t=Sothis: Girl on the Throne
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V6.0_211203_legend_Mag.webp|Sprite sheet for Professorial Guide's animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=師の授けの書
+|german=Magistra-Buch
+|spanishEU=Guía magistral
+|spanishLA=Guía magistral
+|french=Guide professoral
+|italian=Libro del docente
+|chineseTW=老師的傳授之書
+|portuguese=Guia professoral
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%allies within _ spaces gain%' OR Description LIKE '%grants%allies within _ spaces of unit during combat%' OR Description LIKE '%grants%allies within%rows%unit during combat%' OR Description LIKE '%for allies within%rows%grants%unit during combat%') AND Exclusive='1' AND Description NOT LIKE '%【Sabotage】%'}}
+* [[Tempo Passives]]
+{{Weapons Navbox}}

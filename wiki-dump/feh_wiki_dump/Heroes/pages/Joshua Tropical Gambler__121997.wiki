@@ -1,0 +1,68 @@
+{{#invoke:NameAbout|main|Name=Joshua}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Joshua
+|Title=Tropical Gambler
+|WeaponType=Red Bow
+|Origin=Fire Emblem: The Sacred Stones
+|Gender=Male
+|MoveType=Infantry
+|actorJP=野島裕史
+|actorEN=Todd Haberkorn
+|artist=スエカネクミコ
+|additionDate=June 18, 2020
+|releaseDate=June 18, 2020
+|cv1=7
+|cv2=400100
+|TagID=水着ヨシュア
+|InternalID=535
+|Properties=special,mask,hat,specRate_202402
+|description=A mercenary with a love for gambling. He's in the tropics hoping luck's tide turns in his favor. Appears in Fire Emblem: The Sacred Stones.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=10|Lv1SPD=9|Lv1DEF=6|Lv1RES=5
+|GRHP=50|GRATK=60|GRSPD=70|GRDEF=50|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Coral Bow
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Coral Bow+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Shove
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Atk/Spd Link 1
+|passiveB2=Atk/Spd Link 2
+|passiveB3=Atk/Spd Link 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Fortify Def 1
+|passiveC2=Fortify Def 2
+|passiveC3=Fortify Def 3
+|passiveC4=Fortify Def 4
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Summer units]]

@@ -1,0 +1,45 @@
+{{Special
+|tagid=SID_天風
+|intID=4833
+|exclusive=0
+|canUseWeapon={{WeaponList|Close}}
+|canUseMove={{MoveList|Flying}}
+|cost=500
+|cooldown=3
+|effect=Boosts damage by X% of unit's Spd when Special triggers (if any space within 2 spaces of unit or foe has a Divine Vein effect applied, is defensive terrain, or counts as difficult or impassable terrain for units other than flying, X = 60; otherwise, X = 40).<br><br>If unit's or foe's Special is ready, or unit's or foe's Special triggered before or during this combat, and also, if unit's Spd ≥ foe's Spd-4 or any space within 2 spaces of unit or foe has a Divine Vein effect applied, is defensive terrain, or counts as difficult or impassable terrain for units other than flying, reduces damage from foe's next attack by 40% (once per combat; excluding area-of-effect Specials).
+|required=Astra
+|properties=offensive_special,random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Damage Boost|2=(60% if Y; else X = 40%)<br>of {{Tgt|Unit}}'s Spd}}
+|Ce1C=Special triggers
+|Ce2={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s next attack
+|Ce2C=({{Tgt|Unit}} or {{Tgt|Foe}}'s<br>Special is ready '''or'''<br>triggered before or<br>during combat) '''&'''<br>({{Tgt|Unit}}'s Spd ≥<br>{{Tgt|Foe}}'s Spd-4 '''or''' Y)
+}}
+<span style="font-style:bold;width:29em;display:inline-block"><b>{{Hatnote|1=Y = Spaces [[within 2 spaces]] of {{Tgt|Unit}} or {{Tgt|Foe}} have a [[Divine Vein]] effect, [[Defensive terrain]], or difficult/impassable [[terrain]] for non-{{Mt|Flying}} units}}</b></span>
+
+==Notes==
+{{DamageBoost}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=Forma celestial
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+
+==See also==
+{{See also skills|cond=(Description LIKE '%a Divine Vein effect%' OR Description LIKE '%boosts damage%of unit_s Spd%') AND Exclusive='1'}}
+{{Specials Navbox}}

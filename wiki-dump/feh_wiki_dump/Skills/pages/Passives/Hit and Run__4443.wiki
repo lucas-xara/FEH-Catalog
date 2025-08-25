@@ -1,0 +1,42 @@
+{{Passive
+|type=B
+|exclusive=0
+|1name=Hit and Run
+|1tagid=SID_一撃離脱
+|1required=-
+|1effect=If unit initiates combat, unit moves 1 space away after combat.
+|1cost=150
+|canUseWeapon={{WeaponList|Close}}
+|canUseMove={{MoveList|all}}
+|properties=random_owner,random_inherit_base
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Drag Back Units}}
+|MeT={{Tgt|Unit}}
+|MeC=After combat<br>in Player Phase
+}}
+
+==Notes==
+{{IfUnitInitiates}}
+{{Movement Passive notes}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=一撃離脱
+|german=Überfall
+|spanishEU=Cabriola
+|spanishLA=Cabriola
+|french=Coup-esquive
+|italian=Toccata e fuga
+|chineseTW=一擊即離
+|portuguese=Bate-volta
+}}
+==See also==
+* [[Movement Passives]]
+{{Passives Navbox|B}}

@@ -1,0 +1,59 @@
+{{Passive
+|name=Believe in Love?
+|type=B
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Believe in Love?
+|alt1name=Believe in Love
+|1tagid=SID_愛する人がいますか
+|1effect=If a skill compares unit's Spd to a foe's or ally's Spd, treats unit's Spd as if granted +7. Inflicts Atk/Spd/Def-5 on foe during combat and grants bonus to unit's Atk/Spd/Def/Res during combat = current penalty on each of unit's stats × 2 (example: if unit has -7 penalty to Atk, grants Atk+14, for a net bonus of Atk+7; calculates each stat bonus independently), and also, if unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 5 (max 50%). If foe is armored or cavalry, reduces damage dealt to unit by X (X = highest total bonuses among unit and allies within 2 spaces of unit; including from area-of-effect Specials), and if foe is not armored or cavalry, reduces damage from foe's first attack by 40% of X during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes).
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{Eft|Phantom|Spd|7}}
+|CombatEffect 2={{Eft|Temporary Debuffs|Atk/Spd/Def|5}}
+|CombatEffect 2 Targets={{Tgt|Foe}}
+|CombatEffect 3={{Eft|Temporary buffs|Atk/Spd/Def/Res|2 x {{SEt|Penalties}} on<br>each of {{Tgt|Unit}}'s stats}}
+|CombatEffect 4={{Eft|Damage Reduction|5 x  ({{Tgt|Unit}}'s Spd - {{Tgt|Foe)}}'s Spd)<br>from attacks & Non-Røkkr [[AoE Specials]]|percent=1|max=50%}}
+|CombatEffect 4 Conditions={{Tgt|Unit}}'s Spd ><br>{{Tgt|Foe)}}'s Spd
+|CombatEffect 5={{Eft|Damage Reduction|highest total {{SEt|bonuses}}<br>on {{Tgt|Unit}} & {{Tgt|Allies}}<br>[[within 2 spaces]]}} from attacks<br>& Non-Røkkr [[AoE Specials]]
+|CombatEffect 5 Conditions={{Tgt|Foe}} is<br>{{Mt|Armored}}<br>'''or''' {{Mt|Cavalry}}
+|CombatEffect 6={{Eft|Damage Reduction|percent=0|40% of highest total {{SEt|bonuses}}<br>on {{Tgt|Unit}} & {{Tgt|Allies}}<br>[[within 2 spaces]]}} from<br>{{Tgt|Foe}}'s first attack<br>(including second attacks)
+|CombatEffect 6 Conditions={{Tgt|Foe}} is<br>{{Mt|Infantry}}<br>'''or''' {{Mt|Flying}}
+|CombatEffect 3-6 Targets={{Tgt|Unit}}
+}}
+
+==Note==
+{{Phantom|Spd}}
+{{Temporary debuffs}}
+{{TemporaryBufffromPenalty|source=the unit}}
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+{{FlatDamageReduction}}
+{{FlatAoEDamageReduction}}
+{{EffectfromBonuses|multiTarget=1|target=unit or allies [[within 2 spaces]]|flat damage-reduction effects}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=愛する人がいますか
+|german=Wunder der Liebe
+|spanishEU=Creo en el amor
+|spanishLA=Creo en el amor
+|french=Croire en l'amour
+|italian=Credi nell'amore
+|chineseTW=你有心愛的人嗎
+|portuguese=Crença no amor
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%if unit_s Spd > foe_s Spd%educes damage from%area-of-effect Specials%' AND Description NOT LIKE '%【Dodge】%') AND Exclusive='1'}}
+* [[Dodge Passives]]
+* [[Phantom Passives]]
+{{Passives Navbox|B}}

@@ -1,0 +1,69 @@
+{{#invoke:NameAbout|main|Name=Arlen}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Arlen
+|Title=Mage of Khadein
+|WeaponType=Colorless Tome
+|MoveType=Infantry
+|Origin=Fire Emblem: Mystery of the Emblem
+|Gender=Male
+|actorEN=Bobby Foley
+|actorJP=大塚剛央
+|artist=霜村航
+|randomStartTime=2024-04-15T07:00:00Z
+|additionDate=March 15, 2024
+|releaseDate=March 15, 2024
+|poolDate=April 5, 2024
+|poolRarities=5
+|cv1=1
+|cv2=500200
+|TagID=エルレーン
+|InternalID=1077
+|Properties=
+|description=A mage entrusted with Khadein's future by the sage Wendell. He is envious of Merric, who inherited Excalibur. Appears in Fire Emblem: Mystery of the Emblem.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=9|Lv1SPD=12|Lv1DEF=8|Lv1RES=4
+|GRHP=50|GRATK=75|GRSPD=75|GRDEF=70|GRRES=30
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Stone
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elstone
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Atlas (weapon)
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Lightburst Tome
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=4
+|special1Unlock=3
+|special2=Ignis
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Close Counter
+|passiveA2=C Bonus Doubler
+|passiveA1Unlock=4
+|passiveA2Unlock=5
+|passiveB1=Atk/Res Tempo 1
+|passiveB2=Atk/Res Tempo 2
+|passiveB3=Atk/Res Tempo 3
+|passiveB4=Atk/Res Tempo 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+}}
+{{Heroes Navbox}}

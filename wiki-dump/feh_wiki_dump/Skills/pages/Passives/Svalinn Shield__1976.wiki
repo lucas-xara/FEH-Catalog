@@ -1,0 +1,38 @@
+{{Passive
+|type=A
+|exclusive=0
+|1name=Svalinn Shield
+|1tagid=SID_スヴェルの盾
+|1required=-
+|1effect=Neutralizes "effective against armored" bonuses.
+|1cost=200
+|canUseWeapon={{WeaponList|all}}
+|canUseMove=Armored
+|properties=random_owner
+}}
+==Notes==
+{{Effectiveness neutralization|armored}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=スヴェルの盾
+|german=Svalinnschild
+|spanishEU=Escudo Svalinn
+|spanishLA=Escudo Svalinn
+|french=Écu de Svalinn
+|italian=Scudo di Svalinn
+|chineseTW=斯瓦爾之盾
+|portuguese=Escudo Svalinn
+}}
+==See also==
+* [[Shield Passives]]
+* [[Maltet]]
+* [[Dragonskin]]
+* [[Dragonhide]]
+* [[Shield Skills]]
+{{Passives Navbox|A}}

@@ -1,0 +1,46 @@
+{{Weapon Infobox
+|tagid=SID_気鋭ワユの剣
+|weaponType=Sword
+|might=16
+|range=1
+|effect=Grants Atk+3. Deals +10 damage when Special triggers.
+|cost=400
+|exclusive=1
+|statModifiers=0,19,0,0,0
+|required=Wo Dao
+|userVersion1=Weapon
+|userVersion2=Gleam
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If unit's Spd > foe's Spd, deals damage = 70% of difference between stats. (Maximum bonus of +7 damage. Combos with Phantom Spd.)
+|iconSkill1=Resolute Blade W.png
+|tagidExtraSkill1=差
+|properties=random_owner
+}}
+==Notes==
+{{FlatDamage|special=1|10}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{BonusStatDamage|stat=Spd}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|ダメージ強化R差分|Damage Enhancement R Difference}}
+==In other languages==
+{{OtherLanguages
+|japanese=気鋭ワユの剣
+|german=Resolute Klinge
+|spanishEU=Hoja resoluta
+|spanishLA=Hoja resoluta
+|french=Lame déterminée
+|italian=Lama risoluta
+|chineseTW=氣銳瓦育之劍
+|portuguese=Lâmina resoluta
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If unit_s%> foe_s%, deals damage =%difference between stats%'|columns=3}}
+* [[Weapons that boost Special damage]]
+{{Weapons Navbox}}

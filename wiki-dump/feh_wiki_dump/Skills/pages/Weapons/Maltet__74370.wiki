@@ -1,0 +1,71 @@
+{{Weapon Infobox
+|tagid=SID_マルテ
+|weaponType=Lance
+|might=16
+|range=1
+|effect=Accelerates Special trigger (cooldown count-1). If unit's HP ≥ 50% and foe initiates combat, unit makes a guaranteed follow-up attack.
+|cooldown=-1
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Silver Lance
+|userVersion1=Weapon
+|userVersion2=Gleam
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1). Neutralizes "effective against armored" bonuses. If unit's HP ≥ 25% and foe initiates combat, neutralizes unit's penalties during combat and unit makes a guaranteed follow-up attack.
+|tagidExtraSkill1=追
+|effectSkill1=If foe initiates combat or if foe's HP = 100% at start of combat, inflicts Atk/Def-6 on foe during combat and foe cannot make a follow-up attack.
+|iconSkill1=Maltet W.png
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Accelerate Special}}
+|s1 Ce={{Eft|Guaranteed Follow-up}}
+|s1 CeC=Enemy Phase '''&'''<br>{{Tgt|Unit}}'s HP ≥ 50%
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Accelerate Special}}
+|s2 Ce1={{Eft|Neutralize Weakness|{{Mt|Armored}}}}
+|s2 Ce2={{Eft|Neutralize Penalties}}
+|s2 Ce3={{Eft|Guaranteed Follow-ups}}
+|s2 Ce2-3C=Enemy Phase '''&'''<br>{{Tgt|Unit}}'s HP ≥ 25%
+|skill3={{Si|Maltet|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary Debuffs|Atk/Def|6}}
+|s3 Ce2={{Eft|Prevent Follow-ups}}
+|s3 CeT={{Tgt|Foe}}
+|s3 CeC=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP = 100%<br>at start of combat
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Guaranteed follow-up interaction}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+* Refined Maltet has the same effects as {{St|Svalinn Shield}} and {{St|Slick Fighter 3}}.
+{{Effectiveness neutralization|armored|name=Refined Maltet}}
+{{Penalty neutralization|name=Refined Maltet}}
+{{Temporary debuffs|name={{St|Maltet|refine=Skill1}}}}
+{{Prevent follow-up|name={{St|Maltet|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|追撃不可R攻守6|Follow-Up Disable R Atk/Def 6}}
+==In other languages==
+{{OtherLanguages
+|japanese=マルテ
+|german=Maltet
+|spanishEU=Maltet
+|spanishLA=Maltet
+|french=Maltet
+|italian=Maltet
+|chineseTW=馬爾堤
+|portuguese=Maltet
+}}
+==See also==
+{{See also skills|cond=WikiName LIKE '%Maltet%' OR Description LIKE '%neutralizes _effective against armored_ bonuses%' OR Description LIKE '%If foe initiates combat or if foe_s HP%inflicts Atk/%-%during combat%' AND Description NOT LIKE '%inflicts Atk/%-%neutralizes%bonuses%' OR Description LIKE '%If foe initiates combat or if foe_s HP%cannot make a follow-up attack%' OR Description LIKE '%neutralizes%penalties during combat%makes a guaranteed follow-up attack%'|columns=3}}
+* [[Weapons that accelerate the Special trigger]]
+{{Weapons Navbox}}

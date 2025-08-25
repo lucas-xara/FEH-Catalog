@@ -1,0 +1,89 @@
+{{#invoke:NameAbout|main|Name=Nerþuz}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Nerþuz
+|Title=God of the Land
+|Origin=Fire Emblem Heroes
+|Person=Nerþuz
+|Gender=F
+|WeaponType=Blue Beast
+|MoveType=Cavalry
+|MythicEffect=Light
+|MythicEffect2=Raiding Party Bonus
+|BoostHP=5
+|BoostSpd=4
+|actorEN=Cristina "Vee" Valenzuela
+|actorJP=日髙のり子
+|artist=四々九
+|additionDate=2023-02-17
+|releaseDate=April 28, 2023
+|cv1=0
+|cv2=701100
+|Properties=mythic,tiara
+|description=Goddess of Vanaheimr, the realm of light. She exudes a maternal aura and adores all the many creatures who live upon the land.
+|TagID=ネルトゥス
+|InternalID=944
+|EnemyInternalID=96
+}}
+==Ally stats==
+{{Stats Page|noheader=1
+|Lv1HP=18|Lv1ATK=12|Lv1SPD=14|Lv1DEF=4|Lv1RES=3
+|GRHP=50|GRATK=70|GRSPD=75|GRDEF=60|GRRES=40
+}}
+==Enemy stats==
+{{Stats Page/Enemy|noheader=1
+|Lv1HP=18|Lv1ATK=12|Lv1SPD=14|Lv1DEF=4|Lv1RES=3
+|GRHP=50|GRATK=70|GRSPD=75|GRDEF=60|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Whelp (Cavalry)
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Yearling (Cavalry)
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Adult (Cavalry)
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Horn of the Land
+|weapon4Default=5
+|weapon4Unlock=5
+|hasEnemy=1
+}}
+
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Astra
+|special2Unlock=4
+|special3=Galeforce
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Clash 1
+|passiveA2=Atk/Spd Clash 2
+|passiveA3=Atk/Spd Clash 3
+|passiveA4=Atk/Spd Clash 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Fruit of Life
+|passiveB1Unlock=5
+|passiveC1=Rouse Atk/Spd 1
+|passiveC2=Rouse Atk/Spd 2
+|passiveC3=Rouse Atk/Spd 3
+|passiveC4=Alarm Atk/Spd
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+{{Enemies Navbox}}

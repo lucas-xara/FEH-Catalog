@@ -1,0 +1,54 @@
+{{Passive
+|name=Shield Fighter
+|type=B
+|exclusive=0
+|canUseWeapon={{WeaponList|Close}}
+|canUseMove={{MoveList|Armored}}
+|properties=random_owner
+|1name=Shield Fighter
+|1tagid=SID_連盾隊形
+|1effect=Inflicts Atk/Spd-4 on foe during combat.<br><br>If foe's attack can trigger unit's Special, triggers the following effects during combat: grants Special cooldown count-1 to unit before foe's first attack; if foe's first attack triggers the "attacks twice" effect, grants Special cooldown count-1 to unit before foe's second strike as well; grants Special cooldown count-1 to unit before foe's first follow-up attack. If foe's attack triggers unit's Special and Special has the "reduces damage by X%" effect, Special triggers twice, then reduces damage by 7. Each Special trigger is calculated as a separate activation.
+|1cost=300
+|1required=Hardy Fighter 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary debuffs|Atk/Spd|4}}
+|Ce1T={{Tgt|Foe}}
+|Ce2={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce3={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Foe}}'s first [[follow-up]]
+|Ce2-3C={{Tgt|Unit}} has a<br>[[Defensive Special]]
+|Ce4=[[File:Icon Skill Special.png|x26px|class=inline-icon|alt=Defensive Special|link=]] [[Defensive Special]]<br>triggers twice
+|Ce5={{Eft|Damage Reduction|7}}<br>from {{Tgt|Foe}}'s attack
+|Ce4-5C=A "Reduces damage by X%"<br>[[defensive Special]] triggers
+}}
+
+==Notes==
+{{Temporary debuffs}}
+{{CombatCooldownCount|-1}}
+*Specials that "reduce damage by X%" activating twice will also have other effects those specials have activate twice, such as {{St|Ice Mirror}}'s effect of boosting the damage of the unit's next attack equal to the total damage reduced when triggered.
+**Although the effect of the special will activate twice, the special will only ''visually'' activate once.
+{{FlatDamageReduction|7}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%foe_s attack triggers unit_s special%special triggers twice%' OR Description LIKE '%grants Special cooldown count-%before foe_s second strike%' OR Description LIKE '%foe%"attacks twice" effect%grants Special cooldown count-%') AND Exclusive='1'}}
+* [[Fighter Passives]]
+{{Passives Navbox|B}}
+[[Category:Fighter Passives]]

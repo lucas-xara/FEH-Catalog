@@ -1,0 +1,65 @@
+{{#invoke:NameAbout|main|Name=Saleh}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Saleh
+|Title=Vernal Sage
+|WeaponType=Green Axe
+|MoveType=Cavalry
+|Origin=Fire Emblem: The Sacred Stones
+|Gender=Male
+|actorEN=Kamran R. Khan
+|actorJP=村上聡
+|artist=ミヤジマハル
+|additionDate=March 17, 2021
+|releaseDate=March 17, 2021
+|cv1=7
+|cv2=700200
+|TagID=春祭サレフ
+|InternalID=642
+|Properties=limited,tempest,specDisplay
+|description=Sage of Caer Pelyn, come to celebrate in the spring festival. Also Ewan's teacher. Appears in Fire Emblem: The Sacred Stones.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=9|Lv1SPD=8|Lv1DEF=7|Lv1RES=6
+|GRHP=50|GRATK=65|GRSPD=65|GRDEF=45|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Springy Axe
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Springy Axe+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Reciprocal Aid
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Resistance +1
+|passiveA2=HP/Res 1
+|passiveA3=HP/Res 2
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Rouse Atk/Res 1
+|passiveC2=Rouse Atk/Res 2
+|passiveC3=Rouse Atk/Res 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Spring Festival units]]

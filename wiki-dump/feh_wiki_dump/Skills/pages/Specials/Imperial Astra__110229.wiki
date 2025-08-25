@@ -1,0 +1,30 @@
+{{Special
+|tagid=SID_剣皇の流星
+|charge=2
+|effect=Boosts damage by 40% of unit's Spd.
+|cost=500
+|exclusive=1
+|required=Astra
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_owner,offensive_special
+}}
+==Notes==
+{{DamageBoost}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Imperial Astra
+|japanese=剣皇の流星
+|german=Imperiale Astra
+|spanishEU=Meteoro radiante
+|spanishLA=Meteoro radiante
+|french=Stellaire impérial
+|italian=Astra imperiale
+|chineseTW=劍皇的流星
+|portuguese=Astro imperial
+}}
+==See also==
+{{See also skills|cond=SCategory='special' AND Exclusive='1' AND Description LIKE '%Boosts%damage by __% of unit_s Spd%'|columns=3}}
+{{Specials Navbox}}

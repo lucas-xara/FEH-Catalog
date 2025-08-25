@@ -1,0 +1,37 @@
+{{Passive
+|type=B
+|1name=Sacae's Blessing
+|1tagid=SID_サカの加護
+|1required=-
+|1effect=If foe uses sword, lance, or axe, foe cannot counterattack.<br>(Skill cannot be inherited.)
+|1cost=300
+|exclusive=1
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect={{Eft|Prevent Counter}}
+|CombatEffect Targets={{Cwtt|Melee}}<br>{{Tgt|Foe}}
+}}
+
+==Notes==
+{{Prevent counterattacks}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=サカの加護
+|german=Sacaes Segen
+|spanishEU=Favor de Sacae
+|spanishLA=Favor de Sacae
+|french=Don de Sacae
+|italian=Grazia di Sacae
+|chineseTW=塞迦的加護
+|portuguese=Dádiva de Sacae
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe uses%foe cannot counterattack%' AND Exclusive='1'}}
+{{Passives Navbox|B}}
+[[Category:Exclusive Passives]]

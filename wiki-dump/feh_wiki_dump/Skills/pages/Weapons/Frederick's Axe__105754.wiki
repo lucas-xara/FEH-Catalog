@@ -1,0 +1,54 @@
+{{Weapon Infobox
+|tagid=SID_フレデリクの堅斧
+|weaponType=Axe
+|might=16
+|range=1
+|effectiveness=armored
+|effect=Effective against armored foes.
+|cost=400
+|exclusive=1
+|userVersion1=Weapon
+|userVersion2=Upgrade Gleam
+|statModifiers=0,16,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If unit initiates combat, grants Atk+6 during combat.
+|iconSkill1=Death Blow W.png
+|tagidExtraSkill1=一
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Ce={{Eft|Effectiveness|{{Mt|Armored}}}}
+|skill2={{Si|Frederick's Axe|refine=Skill1}} Skill refine effects
+|s2 Ce={{Eft|Temporary buffs|Atk|6}}
+|s2 CeC=Player Phase
+}}
+==Notes==
+{{Effective damage bonus|armored}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+* {{St|Frederick's Axe|refine=Skill1}} has the same effect as {{St|Death Blow 3}}.
+{{IfUnitInitiates}}
+{{Temporary buffs|name={{St|Frederick's Axe|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=フレデリクの堅斧
+|german=Fredericks Axt
+|spanishEU=Hacha Frederick
+|spanishLA=Hacha Frederick
+|french=Hache (Frederick)
+|italian=Ascia di Frederick
+|chineseTW=弗雷德里克的堅斧
+|portuguese=Machado cortês
+}}
+==See also==
+* [[Weapons that are effective against armored foes]]
+{{Weapons Navbox}}

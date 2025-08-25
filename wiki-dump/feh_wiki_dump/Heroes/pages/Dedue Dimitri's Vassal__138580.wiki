@@ -1,0 +1,74 @@
+{{#invoke:NameAbout|main|Name=Dedue}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Dedue
+|Title=Dimitri's Vassal
+|WeaponType=Green Axe
+|MoveType=Armored
+|Origin=Fire Emblem: Three Houses
+|Gender=Male
+|actorEN=Ben Lepley
+|actorJP=高橋英則
+|artist=北千里
+|randomStartTime=2021-04-05T07:00:00Z
+|additionDate=March 4, 2021
+|releaseDate=March 5, 2021
+|poolDate=March 30, 2021
+|poolRarities=5
+|cv1=12
+|cv2=300200
+|TagID=ドゥドゥ―
+|InternalID=633
+|Properties=specRate_202402
+|description=Survivor of the tribe that inhabited the Duscur Region west of the Holy Kingdom of Faerghus. Swore loyalty to Dimitri. Appears in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=20|Lv1ATK=12|Lv1SPD=4|Lv1DEF=12|Lv1RES=9
+|GRHP=70|GRATK=75|GRSPD=30|GRDEF=75|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=3
+|weapon2Unlock=3
+|weapon3=Steadfast Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Steadfast Axe+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Taciturn Axe
+|weapon5Default=
+|weapon5Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Buckler
+|special1Default=4
+|special1Unlock=3
+|special2=Pavise
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Steady Stance 1
+|passiveA2=Sturdy Stance 1
+|passiveA3=Sturdy Stance 2
+|passiveA4=Sturdy Stance 3
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveC1=A/D Near Save 1
+|passiveC2=A/D Near Save 2
+|passiveC3=A/D Near Save 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

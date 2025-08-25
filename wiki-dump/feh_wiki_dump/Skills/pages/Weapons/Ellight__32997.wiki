@@ -1,0 +1,34 @@
+{{Weapon Infobox
+|tagid=SID_エルライト
+|weaponType=Blue Tome
+|weaponName={{PAGENAME}}
+|might=6
+|range=2
+|effect=
+|cost=100
+|exclusive=0
+|userVersion1=Closed|userVersion2=Open|statModifiers=0,6,0,0,0
+|next=Shine
+|promotionRarity=4
+|promotionTier=1
+|required=Light
+|SE=se_effect_light02.flac
+|properties=random_all
+}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=エルライト
+|german=Elfenblitz
+|spanishEU=Ellight
+|spanishLA=Ellight
+|french=Éclat
+|italian=Luce d'elfo
+|chineseTW=狂光
+|portuguese=Ellight
+}}
+==See also==
+* [[Steel Weapons]]
+{{Weapons Navbox}}
+[[Category:Steel weapons]]

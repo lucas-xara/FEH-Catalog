@@ -1,0 +1,95 @@
+{{Weapon Infobox
+|tagid=SID_アッサルの槍
+|weaponName=Spear of Assal
+|image=wep_lc085
+|weaponType=Lance
+|might=16
+|range=1
+|effect=Grants Spd+3. If unit is within 2 spaces of an ally, grants Atk/Spd+4 to unit during combat and neutralizes foe's bonuses to Atk/Spd (from skills like Fortify, Rally, etc.) during combat. Grants Atk/Spd+4 to allies within 2 spaces during combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,3,0,0
+|required=Silver Lance
+|intID=2272
+|sort=458
+|effectRange=2
+|value=20
+|timingID=20
+|abilityID=143
+|randomTimestamp=2020-11-19T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Effective against cavalry foes. Grants Spd+3. If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+4 to unit and neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.<br><br>Grants Atk/Spd/Def/Res+4 to allies within 3 spaces of unit and neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during their combat.
+|upgradedEffectiveness=Cavalry
+|effectSkill1=If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+4 to unit, unit deals +7 damage (excluding area-of-effect Specials), and reduces damage from foe's first attack by 7 during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and restores 7 HP to unit after combat.<br><br>For allies within 3 spaces of unit, grants Atk/Spd/Def/Res+4 to ally, ally deals +7 damage (excluding area-of-effect Specials), and reduces damage from foe's first attack by 7 during their combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes).
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Spd|3}}
+|s1 Ce1={{Eft|Temporary buffs|Atk/Spd|4}}
+|s1 Ce2={{Eft|Neutralize Bonuses}}
+|s1 Ce2T={{Tgt|Foe}}
+|s1 Ce1-2C=An {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s1 Ce3={{Eft|Temporary buffs|Atk/Spd|4}}
+|s1 Ce3T={{Tgt|Allies}}<br>[[within 2 spaces]]
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Spd|3}}
+|s2 Ce1={{Eft|Effectiveness|{{Mt|Cavalry}}}}
+|s2 Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s2 Ce3={{Eft|Neutralize Bonuses}}
+|s2 Ce3T={{Tgt|Foe}}
+|s2 Ce2-3C=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|s2 Ce4={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s2 Ce4T={{Tgt|Allies}}<br>[[within 3 spaces]]
+|s2 Ce5={{Eft|Neutralize Bonuses}}
+|s2 Ce5T={{Tgt|Foes}} of {{Tgt|Allies}}<br>[[within 3 spaces]]
+|skill3={{Si|Spear of Assal|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s3 Ce2={{Eft|Damage Boost|7}}
+|s3 Ce3={{Eft|Damage Reduction|7}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|s3 Ce1-3C=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|s3 Ce4={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s3 Ce5={{Eft|Damage Boost|7}}
+|s3 Ce6={{Eft|Damage Reduction|7}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|s3 Ce4-6T={{Tgt|Allies}}<br>[[within 3 spaces]]
+|s3 Me={{Eft|Heal|7}}
+|s3 MeC=After combat if<br>an {{Tgt|Ally}} is<br>[[within 3 spaces]]
+}}
+==Notes==
+{{Temporary buffs}}
+{{Bonus neutralization}}
+{{AlliesCombatEffect|effect=temporary buffs}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Effective damage bonus|cavalry|name=Refined Spear of Assal}}
+{{AlliesCombatEffect|effect=temporary buffs and foe bonuses neutralization effects|name=Refined Spear of Assal}}
+{{FlatDamageBoost|7|name={{St|Spear of Assal|refine=Skill1}}}}
+{{FlatDamageReduction|7|name={{St|Spear of Assal|refine=Skill1}}}}
+{{After combat healing|name={{St|Spear of Assal|refine=Skill1}}}}
+{{AlliesCombatEffect|effect=damage boost and damage reduction effects|name={{St|Spear of Assal|refine=Skill1}}}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Spear of Assal
+|japanese=アッサルの槍
+|german=Assal-Lanze
+|spanishEU=Lanza de Assal
+|spanishLA=Lanza de Assal
+|french=Lance d'Assal
+|italian=Lancia di Assal
+|chineseTW=阿薩勒之槍
+|portuguese=Lança de Assal
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%grants%/%+%to allies within%spaces%if unit is within%spaces of an ally%grants%/%+%during combat%' OR Description LIKE '%if unit is within%spaces of an ally%grants%/%+%to unit and allies%during combat%') AND Exclusive='1' AND Name NOT LIKE 'Allied%'}}
+* [[Skill families/Weapons#Allied|Allied Weapons]]
+* [[Joint Drive Passives]]
+{{Weapons Navbox}}

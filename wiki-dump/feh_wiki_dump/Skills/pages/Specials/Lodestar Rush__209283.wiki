@@ -1,0 +1,44 @@
+{{Special
+|tagid=SID_スターラッシュ
+|intID=3981
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=2
+|effect=Boosts Special damage by 40% of unit's Spd. Neutralizes effects that inflict "Special cooldown charge -X" on unit during combat. If unit's Special is ready or has triggered during this combat,【Potent Follow X%】has triggered, and X ≤ 99, then X = 100. If unit's or foe's Special is ready or triggered before or during this combat, reduces damage from foe's next attack by 40% (once per combat; excluding area-of-effect Specials).<br><br>【Potent Follow X%】<br>Triggers an additional follow-up attack immediately after unit's standard follow-up attack and deals damage = X% of unit's normal attack damage (if unit cannot make a follow-up attack, this effect triggers when the standard follow-up attack would occur; this effect is treated like a follow-up attack, so effects like "reduce damage by X%" still apply, but this effect is not affected by effects that prevent follow-ups or "attacks twice" effects; only highest value applied; does not stack).
+|required=Glimmer
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{Eft|Damage Boost|40% of {{Tgt|Unit}}'s Spd}}
+|CombatEffect 1 Conditions=When special triggers
+|CombatEffect 2={{Eft|Neutralize Guard}}
+|CombatEffect 3={{Eft|Potent Follow Damage Boost}}
+|CombatEffect 3 Conditions={{Tgt|Unit}}'s Special<br>is ready or triggered<br>before or during combat,<br>{{Kp|Potent Follow X%}}<br>triggers '''&''' X ≤ 99%
+|CombatEffect 4={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s next attack
+|CombatEffect 4 Conditions={{Tgt|Unit}} or {{Tgt|Foe}}'s<br>Special is ready '''or'''<br>triggered before or<br>during combat
+}}
+
+==Notes==
+{{DamageBoost}}
+{{CooldownChargeMinusNeutralization}}
+{{DamagePercentageReduction|special=1}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=スターラッシュ
+|german=Sternenlord-Blitz
+|spanishEU=Ráfaga Polaris
+|spanishLA=Ráfaga Polaris
+|french=Adrénaline guide
+|italian=Raffica suprema
+|chineseTW=星之突擊
+|portuguese=Rajada sidérea
+}}
+==See also==
+{{See also skills|cond=SCategory='special' AND Exclusive='1' AND (Description LIKE '%Boosts%damage by __% of unit_s Spd%' OR Description LIKE '%reduces%foe_s next attack by%') OR Description LIKE '%unit or foe_s special is ready%' OR Description LIKE '%【Potent Follow X%】%' AND Exclusive='1'}}
+* [[Skill families/A Passives#Finish|Finish Passives]]
+{{Specials Navbox}}

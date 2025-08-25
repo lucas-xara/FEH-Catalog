@@ -1,0 +1,88 @@
+{{#invoke:NameAbout|main|Name=Baldr}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Baldr
+|Title=Celestial Sun God
+|Origin=Fire Emblem Heroes
+|Person=Baldr
+|Gender=F
+|WeaponType=Red Sword
+|MoveType=Flying
+|MythicEffect=Dark
+|MythicEffect2=Defensive Team Bonus
+|MythicEffect3=Defensive Team Call
+|BoostHP=5
+|BoostSpd=4
+|actorEN=Sam Slade
+|actorJP=津田美波
+|artist=前嶋重機
+|additionDate=2024-12-05
+|releaseDate=July 29, 2025
+|Properties=mythic,tiara
+|description=A god of Ásgarðr, the celestial realm, with a conceited nature. Responsible for accompanying accused criminals to the place of judgment.
+|cv1=0
+|cv2=900200
+|TagID=バルドル
+|InternalID=1270
+|EnemyInternalID=112
+}}
+==Ally stats==
+{{Stats Page|noheader=1
+|Lv1HP=19|Lv1ATK=12|Lv1SPD=9|Lv1DEF=6|Lv1RES=9
+|GRHP=50|GRATK=80|GRSPD=90|GRDEF=55|GRRES=45
+}}
+==Enemy stats==
+{{Stats Page/Enemy|noheader=1
+|Lv1HP=19|Lv1ATK=12|Lv1SPD=9|Lv1DEF=6|Lv1RES=9
+|GRHP=50|GRATK=80|GRSPD=90|GRDEF=55|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Sun Sword
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Astra
+|special2Unlock=4
+|special3=Celestial Form
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Blue Skies 1
+|passiveA2=Blue Skies 2
+|passiveA3=Blue Skies 3
+|passiveA4=Blue Skies 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Justice Enforcer
+|passiveB1Unlock=5
+|passiveC1=Atk/Spd Rein 1
+|passiveC2=Atk/Spd Rein 2
+|passiveC3=Atk/Spd Rein 3
+|passiveC4=A/S Hold Guide
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+{{Enemies Navbox}}

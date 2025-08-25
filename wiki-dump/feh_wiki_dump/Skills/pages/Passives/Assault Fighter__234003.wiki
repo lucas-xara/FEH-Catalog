@@ -1,0 +1,54 @@
+{{Passive
+|name=Assault Fighter
+|type=B
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|Armored}}
+|properties=random_owner
+|1name=Assault Fighter
+|1tagid=SID_強襲隊形
+|1effect=If unit initiates combat or is within 3 spaces of an ally, inflicts Atk/Def-4 on foe, deals damage = 20% of unit's Def (excluding area-of-effect Specials), reduces damage from foe's attacks by 20% of unit's Def (excluding area-of-effect Specials), unit makes a guaranteed follow-up attack, and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials).
+|1cost=300
+|1required=Bold Fighter 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary debuffs|Atk/Def|4}}
+|Ce2={{Eft|Reduce Damage Reduction|50%}}
+|Ce1-2T={{Tgt|Foe}}
+|Ce3={{Eft|Guaranteed Follow-Ups}}
+|Ce4={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Def}}
+|Ce5={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Def}}<br>from {{Tgt|Foe}}'s attacks
+|CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 3 spaces]]
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary debuffs}}
+{{DamageBoost}}
+{{FlatDamageReduction}}
+{{Guaranteed follow-up interaction}}
+{{Reduce Damage Reduction}}
+
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=強襲隊形
+|japaneseNotes=''assault formation''
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+* [[Fighter Passives]]
+{{Passives Navbox|B}}

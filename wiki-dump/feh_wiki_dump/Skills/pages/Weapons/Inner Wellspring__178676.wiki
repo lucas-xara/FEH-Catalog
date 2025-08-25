@@ -1,0 +1,88 @@
+{{Weapon Infobox
+|tagid=SID_内より溢れる魔力
+|intID=3206
+|image=wep_mg317
+|exclusive=1
+|weaponType=Colorless Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of turn, if unit is within 2 spaces of an ally, grants【Null Follow-Up】to unit for 1 turn, and also, if Special cooldown count is at its maximum value, grants Special cooldown count-1. If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit during combat and if Special triggers before or during combat, grants Special cooldown count-1 after combat.<br><br>【Null Follow-Up】<br>If unit's Spd > foe's Spd during combat, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks for 1 turn.
+|statModifiers=0,14,0,0,0
+|required=Atlas (weapon)
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1).<br><br>At start of turn, if unit is within 2 spaces of an ally, grants【Null Follow-Up】to unit for 1 turn, and also, if unit's Special cooldown count is at its maximum value, grants Special cooldown count-1 to unit.<br><br>If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit and reduces damage from foe's first attack by 20% of unit's Spd during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and also, if Special triggers before or during combat, grants Special cooldown count-1 after combat.<br><br>【Null Follow-Up】<br>If unit's Spd > foe's Spd during combat, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks for 1 turn.
+|refineStatsSkill1=0,0,0,0,0
+|effectSkill1=Enables【Canto (１)】.<br><br>At start of combat, if unit's HP ≥ 25%, grants bonus to unit's Atk/Spd/Def/Res = 5 + 10% of unit's Spd at start of combat, unit deals +7 damage (excluding area-of-effect Specials), and neutralizes effects that inflict "Special cooldown charge -X" on unit during combat, and also, when unit's Special triggers, neutralizes "reduces damage by X%" effects from foe's non-Special skills (excluding area-of-effect Specials).<br><br>【Canto (１)】<br>After an attack, Assist skill, or structure destruction, unit can move １ space(s).<br>(Once per turn. Only highest value applied. Does not stack.)
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Accelerates Special}}
+|s1 Se={{SEt|Null Follow-Up}}
+|s1 SeC=At start of turn<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s1 Me1={{Eft|Reduce Cooldown|1}}
+|s1 Me1C=At start of turn if<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]<br>'''&''' {{Tgt|Unit}}'s CD<br>is max value
+|s1 Me2={{Eft|Reduce Cooldown|1}}
+|s1 Me2C=After combat (in<br>Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]) '''&'''<br>Special triggers before<br>'''or''' during combat
+|s1 Ce={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s1 CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Accelerates Special}}
+|s2 Se={{SEt|Null Follow-Up}}
+|s2 SeC=At start of turn<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s2 Me1={{Eft|Reduce Cooldown|1}}
+|s2 Me1C=At start of turn if<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]<br>'''&''' {{Tgt|Unit}}'s CD<br>is max value
+|s2 Me2={{Eft|Reduce Cooldown|1}}
+|s2 Me2C=After combat (in<br>Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]) '''&'''<br>Special triggers before<br>'''or''' during combat
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s2 Ce2={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Spd}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|s2 CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|skill3={{Si|Inner Wellspring|refine=Skill1}} Skill refine effects
+|s3 Me={{Eft|Canto|1}}
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|10% of {{Tgt|Unit}}'s Spd<br>at start of combat, +5}}
+|s3 Ce2={{Eft|Damage Boost|7}}
+|s3 Ce3={{Eft|Neutralize Guard}}
+|s3 Ce4={{Eft|Neutralize Damage Reduction}}<br>per {{Tgt|Unit}}'s [[offensive Special]]
+|s3 Ce4T={{Tgt|Foe}}
+|s3 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Null Follow-Up}}
+{{Start of turn Special modification}}
+{{IfUnitInitiates}}
+{{Combat boosts}}
+{{Special Spiral notes}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{FlatDamageReduction}}
+{{At start of combat|name={{St|Inner WellSpring|refine=Skill1}}}}
+{{FlatDamageBoost|7|name={{St|Inner WellSpring|refine=Skill1}}}}
+{{CooldownChargeMinusNeutralization|name={{St|Inner WellSpring|refine=Skill1}}}}
+{{DamageReductionNeutralization|name={{St|Inner WellSpring|refine=Skill1}}}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=内より溢れる魔力
+|german=Innere Quelle
+|spanishEU=Manantial interno
+|spanishLA=Manantial interno
+|french=Source interne
+|italian=Fonte interiore
+|chineseTW=從內滿溢的魔力
+|portuguese=Força interior
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%grants Special cooldown count-_ after combat%' OR (Description LIKE '%special triggers%neutralizes "reduces damage by%' OR Description LIKE '%special triggers%neutralizes foe_s "reduces damage by%') AND NOT SCategory='special') AND Exclusive='1'}}
+{{Weapons Navbox}}

@@ -1,0 +1,66 @@
+{{#invoke:NameAbout|main|Name=Lon'qu}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Lon'qu
+|Title=Spring Jitters
+|WeaponType=Green Axe
+|MoveType=Infantry
+|Origin=Fire Emblem Awakening
+|Gender=Male
+|actorEN=Gabe Kunda
+|actorJP=子安武人
+|artist=萩谷薫
+|additionDate=March 6, 2025
+|releaseDate=March 7, 2025
+|cv1=10
+|cv2=300300
+|TagID=春祭ロンクー
+|InternalID=1218
+|Properties=limited,tempest,specDisplay
+|description=A skilled swordsman of Regna Ferox who is oddly skittish around women. He shows some hesitancy toward Askr's spring festival. Appears in Fire Emblem Awakening.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=10|Lv1SPD=9|Lv1DEF=10|Lv1RES=9
+|GRHP=55|GRATK=80|GRSPD=90|GRDEF=50|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Spring-Air Axe
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Spring-Air Axe+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Life and Death 1
+|passiveA2=Life and Death 2
+|passiveA3=Life and Death 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=Spurn 1
+|passiveB2=Spurn 2
+|passiveB3=Spurn 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+{{Heroes Navbox}}

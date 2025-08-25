@@ -1,0 +1,35 @@
+{{Weapon Infobox
+|tagid=SID_幼獣の化身・飛行
+|weaponType=Beast
+|might=4
+|range=1
+|effect=At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, unit can move 1 extra space. (That turn only. Does not stack.) If unit transforms, grants Atk+2.
+|cost=50
+|exclusive=0
+|statModifiers=0,4,0,0,0
+|next=Fledgling (Flier)
+|promotionRarity=3
+|promotionTier=1
+|required=-
+|canUseMove=Flying
+|properties=random_all
+}}
+==Notes==
+{{Beast (Flier)}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=幼獣の化身・飛行
+|german=Schlüpfling
+|spanishEU=Polluelo
+|spanishLA=Polluelo
+|french=Bébé (vol)
+|italian=Pulcino (volante)
+|chineseTW=幼獸化身・飛行
+|portuguese=Pássaro filhote
+}}
+
+==See also==
+{{See also skills|cond=Next LIKE 'Yearling%' OR Next='Fledgling Flier'}}
+{{Weapons Navbox}}

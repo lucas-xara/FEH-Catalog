@@ -1,0 +1,87 @@
+{{Weapon Infobox
+|tagid=SID_聖王の参謀の術書
+|intID=4292
+|userVersion1=Closed
+|userVersion2=Open
+|exclusive=1
+|weaponType=Colorless Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>If a Rally or movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit and if there is no【Divine Vein (Ice)】 currently applied by unit or allies, applies 【Divine Vein (Ice)】to spaces 2 spaces away from target after movement for 1 turn (excludes spaces occupied by a foe, destructible terrain other than【Divine Vein (Ice)】, and warp spaces in Rival Domains).<br><br>After unit acts (if Canto triggers, after Canto), or at start of enemy phase when defending in Aether Raids, if there is no【Divine Vein (Ice)】 currently applied by unit or allies, applies 【Divine Vein (Ice)】to spaces 2 spaces away from unit for 1 turn (excludes spaces occupied by a foe, destructible terrain, and warp spaces in Rival Domains).<br><br>At start of combat, if unit's HP ≥ 25%, inflicts penalty on foe's Atk/Spd/Res = 5 + number of allies within 3 rows or 3 columns centered on unit × 3 (max 14), neutralizes penalties on unit, and neutralizes effects that inflict "Special cooldown charge -X" on unit during combat, and also, when Special triggers, neutralizes foe's "reduces damage by X%" effects from foe's non-Special skills (excluding area-of-effect Specials).<br><br>【Divine Vein (Ice)】<br>Applies the following status on space: Foes treat space as impassable terrain while status is active, but status is destructible (with 1 HP). Allies can move into and occupy space. If any allies occupy spaces with Divine Vein (Ice) applied, attacks targeting those spaces will hit the ally over destroying the Divine Vein (Ice). (Divine Vein effects do not stack; replaces any existing Divine Vein effect; Divine Vein effects applied simultaneously cancel each other out. Does not count as defensive terrain. Does not trigger in Pawns of Loki.)
+|required=Atlas (weapon)
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Me1={{Eft|Divine Vein (Ice)}}
+|Me1T=Spaces 2<br>spaces away from<br>{{Tgt|Target Ally}}
+|Me1C=A [[Rally Assist|Rally]] or [[Movement Assist|Movement]]<br>Assist is used<br>by {{Tgt|Unit}} '''&'''<br>{{Tgt|Unit}} '''or''' {{Tgt|Allies}}<br>didn't apply<br>{{Eft|Divine Vein (Ice)}}
+|Me2={{Eft|Divine Vein (Ice)}}
+|Me2T=Spaces<br>2 spaces away<br>from {{Tgt|Unit}}
+|Me2C=(After action(s),<br>[[Canto]] movement, '''or''' at<br>start of Enemy Phase<br>when defending in<br>[[Aether Raids]]) if<br>{{Tgt|Unit}} '''or''' {{Tgt|Allies}}<br>didn't apply<br>{{Eft|Divine Vein (Ice)}}
+|Ce1={{Eft|Temporary debuffs|Atk/Spd/Res|3 x {{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}, + 5|max=14}}
+|Ce2={{Eft|Neutralize Damage Reduction}} per<br>{{Tgt|Unit}}'s [[offensive Special]]
+|Ce1-2T={{Tgt|Foe}}
+|Ce3={{Eft|Neutralize Penalties}}
+|Ce4={{Eft|Neutralize Guard}}
+|Ce3-4T={{Tgt|Unit}}
+|CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Divine Vein|Ice}}
+{{Temporary debuffs}}
+{{Penalty neutralization}}
+{{CooldownChargeMinusNeutralization}}
+{{DamageReductionNeutralization}}
+{|class="wikitable default mw-collapsible" 
+!colspan=2|Example of Area of Effect of Exalt's Tactics
+|-
+!{{Kp|Divine Vein (Ice)}}
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Robin: Exalt's Right Hand|s=Bolt Tower
+|-------
+|---x---
+|--s-x--
+|-x-u-x-
+|--x-x--
+|---x---
+|-------
+}}
+|-
+![[Temporary debuffs]]
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Robin: Exalt's Right Hand|t=Chrom: Fated Honor
+|---xxx---
+|---xxx---
+|---xxx---
+|xxxxxxxxx
+|xxtxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V8.8_v0808b_popularity_Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=聖王の参謀の術書
+|german=Erhabene Taktik
+|spanishEU=Genio venerable
+|spanishLA=Genio venerable
+|french=Tactique St-Roi
+|italian=Tattiche elette
+|chineseTW=聖王的參謀之兵法書
+|portuguese=Vias veneráveis
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Divine Vein (Ice)】%' OR (Description LIKE '%special triggers%neutralizes "reduces damage by%' OR Description LIKE '%special triggers%neutralizes foe_s "reduces damage by%') AND NOT SCategory='special') AND Exclusive='1'}}
+{{Weapons Navbox}}

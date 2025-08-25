@@ -1,0 +1,5 @@
+[[File:Icon Skill Special.png|alt=|right]][[File:se btl skill1.flac|right|thumb|The Special trigger sound.]]{{Quote|My special skill, {{Sp|Night Sky}}, is ready to use! It activates after I take a certain number of actions in a fight.|{{Ht|Anna: Commander}}}}Specials are skills that activate based on a [[cooldown]]. They are reminiscent of critical hits from the main series Fire Emblem titles.
+{{clear}}
+==List==
+{{Specials List}}
+{{Skills Navbox}}

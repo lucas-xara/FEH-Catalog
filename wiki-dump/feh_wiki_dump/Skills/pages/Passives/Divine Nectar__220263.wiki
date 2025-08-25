@@ -1,0 +1,50 @@
+{{About|the Passive skill|the [[status effect]]|Divine Nectar (status effect)}}{{Passive
+|name=Divine Nectar
+|type=C
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Divine Nectar
+|1tagid=SID_神獣の蜜
+|1effect=At start of player phase or enemy phase, if unit is within 2 spaces of an ally, grants 【Divine Nectar】to unit and allies within 2 spaces of unit for 1 turn.<br><br>If a Rally or movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by an ally with the【Divine Nectar】effect active (excluding unit), grants another action to that ally (once per turn; if another effect that grants action to unit has been activated at the same time, this effect is also considered to have been triggered).<br><br>If unit is within 3 spaces of an ally, inflicts Atk/Def-5 on foe and inflicts Special cooldown charge -1 on foe per attack during combat (only highest value applied; does not stack).<br><br>【Divine Nectar】<br>Neutralizes【Deep Wounds】during combat.<br><br>Restores 20 HP to unit as unit's combat begins (triggers after effects that deal damage as combat begins; only highest value applied; does not stack). If it is unit's first combat initiated by foe or first combat initiated by unit that turn, reduces damage from foe's attacks by 10 during combat (excluding area-of-effect Specials).<br><br>【Deep Wounds】<br>Unit's HP cannot be healed through its next action.
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se={{SEt|Divine Nectar}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=At start of both Phases<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Me={{Eft|Galeforce}}<br>(once per turn)
+|MeT={{Tgt|Allies}} with<br>{{SEt|Divine Nectar}}
+|MeC=A [[Rally Assist|Rally]] or [[Movement Assist|Movement]]<br>Assist is used<br>by an {{Tgt|Ally}}
+|Ce1={{Eft|Temporary Debuffs|Atk/Def|5}}
+|Ce2={{Eft|Guard}}
+|CeT={{Tgt|Foe}}
+|CeC=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+}}
+
+==Notes==
+{{Divine Nectar}}
+{{Galeforce notes}}
+{{Temporary debuffs}}
+{{CooldownChargeMinus}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=神獣の蜜
+|german=Heiliger Nektar
+|spanishEU=Néctar divino
+|spanishLA=Néctar divino
+|french=Nectar divin
+|italian=Nettare divino
+|chineseTW=神獸的蜜露
+|portuguese=Néctar divino
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%rally assist%another action to that ally%' OR Description LIKE '%【Divine Nectar】%' OR Description LIKE '%unit is within _ spaces of an ally%inflicts%-%Special cooldown charge -1%') AND Exclusive='1'}}
+{{Passives Navbox|C}}

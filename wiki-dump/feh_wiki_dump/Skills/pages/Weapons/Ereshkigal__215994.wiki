@@ -1,0 +1,61 @@
+{{Weapon Infobox
+|tagid=SID_エレシュキガル
+|intID=4139
+|userVersion1=Closed
+|userVersion2=Open
+|exclusive=1
+|weaponType=Green Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>At start of turn, if unit's HP ≥ 25%, grants Atk+6 and【Essence Drain】to unit and allies within 2 spaces of unit for 1 turn.<br><br>At start of combat, if unit's HP ≥ 25%, inflicts Atk/Res-6 on foe, inflicts penalty on foe's Atk/Res = 20% of unit's Res at start of combat, deals damage = number of【Bonus】effects active on unit × 5 (excluding stat bonuses; max 25; excluding area-of-effect Specials), and reduces damage by value = number of 【Bonus】effects active on unit × 3 (excluding stat bonuses; max 15; excluding area-of-effect Specials), and also, if unit's attack can trigger unit's Special, grants Special cooldown count-X to unit before unit's first attack during combat (X = number of【Bonus】effects active on unit; excluding stat bonuses; max 3).<br><br>【Essence Drain】<br>After combat, if unit attacked, grants any 【Bonus】effects active on target and foes within 2 spaces of target to unit and allies with the Essence Drain effect, and neutralizes any【Bonus】active on target and foes within 2 spaces of target (excluding Bonus effects being granted at the same time). After combat, if foe was defeated in combat, restores 10 HP to unit and allies with the Essence Drain effect.<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|required=Rexcalibur
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Se1={{Eft|Bonuses|Atk|6}}
+|Se2={{SEt|Essence Drain}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25%
+|Ce1={{Eft|Temporary debuffs|Atk/Res|6}}
+|Ce2={{Eft|Temporary debuffs|Atk/Res|20% of {{Tgt|Unit}}'s Res<br>at start of combat}}
+|CeT1-2={{Tgt|Foe}}
+|Ce3={{Eft|Damage Boost|5 x {{Kp|Bonus}} on {{Tgt|Unit}}<br>(excluding {{SEt|Bonuses}})|max=25}}
+|Ce4={{Eft|Damage Reduction|3 x {{Kp|Bonus}} on {{Tgt|Unit}}<br>(excluding {{SEt|Bonuses}})|max=15}}
+|CeC1-4={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce5={{Eft|Reduce Cooldown|{{Kp|Bonus}} on {{Tgt|Unit}}<br>(excluding {{SEt|Bonuses}})|max=3}}<br>before {{Tgt|Unit}}'s first attack
+|CeC5={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' {{Tgt|Unit}} has an<br>[[offensive Special]]
+}}
+
+==Notes==
+{{Bonuses}}
+{{Essence Drain}}
+{{Temporary debuffs}}
+{{At start of combat}}
+{{FlatDamageBoost|X (max: 25)}}
+{{FlatDamageReduction|X (max: 15)}}
+{{CombatCooldownCount|-X (max: 3)}}
+{{EffectfromBonus|damage boost, damage reduction and special cooldown count -X before unit's first attack}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V8.5_v0805a_dark_Mag.webp|Sprite sheet for {{St|Dead-Crow Tome}} and {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=エレシュキガル
+|german=Ereshkigal
+|spanishEU=Ereshkigal
+|spanishLA=Ereshkigal
+|french=Ereshkigal
+|italian=Ereskigal
+|chineseTW=埃列什基伽勒
+|portuguese=Ereshkigal
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Essence Drain】%' OR Description LIKE '%number of【Bonus】%effects active on unit%' OR Description LIKE '%Special cooldown count-X to unit before unit_s first attack%') AND Exclusive='1'}}
+{{Weapons Navbox}}

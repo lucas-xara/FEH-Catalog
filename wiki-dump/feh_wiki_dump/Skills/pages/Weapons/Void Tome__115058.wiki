@@ -1,0 +1,56 @@
+{{Weapon Infobox
+|tagid=SID_絶無の書
+|weaponType=Colorless Tome
+|might=14
+|range=2
+|effect=Grants Atk+3. At start of combat, if foe's Atk ≥ 50 or if【Penalty】is active on foe, grants Atk/Def/Res+5 to unit during combat. At start of combat, if foe's Spd ≥ 35 or if【Penalty】is active on foe, unit makes a guaranteed follow-up attack.<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|cost=400
+|exclusive=1
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|statModifiers=0,17,0,0,0
+|required=Atlas (weapon)
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=At start of combat, if foe's HP ≥ 50%, grants Atk/Spd/Def/Res+4 to unit during combat. If foe has a Special skill and that foe's maximum Special cooldown count is reduced (Special trigger is accelerated), grants Special cooldown count-1 to unit before unit's first attack during combat. If foe's Atk ≥ 50 at start of combat, deals damage during combat = 15% of foe's Atk at start of combat (excluding area-of-effect Specials). At start of combat, if foe's Def or Res ≥ 35 or if【Bonus】is active on foe, reduces damage from attacks by X% (X = the greater of foe's Def or Res at start of combat; max 50; excluding area-of-effect Specials) during combat.<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|properties=random_owner
+}}
+==Notes==
+{{At start of combat}}
+{{EffectfromPenalty|temporary buffs and guaranteed follow-up attack effects|target=foe}}
+{{Temporary buffs}}
+{{Guaranteed follow-up interaction}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{CombatCooldownCount|-1|name={{St|Void Tome|refine=Skill1}}}}
+{{DamageBoost|name={{St|Void Tome|refine=Skill1}}}}
+{{EffectfromBonus|target=foe|name={{St|Void Tome|refine=Skill1}}}}
+{{DamagePercentageReduction}}
+
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+File:v4.3 200303 legend Mag.webp|Sprite sheet for {{St|Stone}}, {{St|Elstone}}, {{St|Atlas}}, {{St|Atlas+}}, and {{St|Void Tome}}'s animations.
+</gallery>
+
+==In other languages==
+{{OtherLanguages
+|japanese=絶無の書
+|german=Buch des Nichts
+|spanishEU=Grimorio vacuo
+|spanishLA=Grimorio vacuo
+|french=Tome du néant
+|italian=Tomo dell'oblio
+|chineseTW=絕無之書
+|portuguese=Tomo vácuo
+}}
+
+==See also==
+{{See also skills|cond=Description LIKE '%if%penalty%active on foe%grants Atk%/Def/Res+%during combat%' OR Description LIKE '%if%penalty%active on foe%makes a guaranteed follow-up%' OR Description LIKE '%before unit_s first attack%grants special cooldown count-%' OR Description LIKE '%grants Special cooldown count-%before unit_s first attack%' OR Description LIKE '%deals damage =%of%foe_s Atk%' AND Name NOT LIKE '%time traveler%'}}
+{{Weapons Navbox}}

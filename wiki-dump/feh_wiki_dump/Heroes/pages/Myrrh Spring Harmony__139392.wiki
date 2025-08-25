@@ -1,0 +1,77 @@
+{{#invoke:NameAbout|main|Name=Myrrh|Name2=Nah}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Myrrh
+|Title=Spring Harmony
+|WeaponType=Colorless Breath
+|MoveType=Flying
+|Origin=Fire Emblem: The Sacred Stones,Fire Emblem Awakening
+|Gender=FF
+|harmonized=Grants【Resonance: Blades】and the following effect to unit and allies from the same titles as unit for 1 turn: "Foe cannot make a follow-up attack."<br><br>Grants the following effect to unit for 1 turn: "Neutralizes 'effective against flying' bonuses."<br><br>【Resonance: Blades】<br>Grants Atk/Spd+4 during combat for 1 turn.
+|secondPerson=Nah
+|actorEN=Erica Lindbeck,—
+|actorJP=門脇舞以,松嵜麗
+|artist=みわべさくら
+|additionDate=March 17, 2021
+|releaseDate=March 17, 2021
+|entry=7;10
+|cv1=7
+|cv2=700100
+|TagID=双界ミルラ
+|InternalID=638
+|Properties=special,harmonized,hat,tiara,specRate_202502
+|description=Myrrh and Nah journey to the spring festival, where they deepen their ties as manaketes. They appear in Fire Emblem: The Sacred Stones / Awakening.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=8|Lv1SPD=3|Lv1DEF=7|Lv1RES=7
+|GRHP=50|GRATK=70|GRSPD=50|GRDEF=75|GRRES=65
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire Breath
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Fire Breath+
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Flametongue
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Lilac-Jade Breath
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Daylight
+|special1Default=4
+|special1Unlock=3
+|special2=Noontime
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Distant Counter
+|passiveA1Unlock=5
+|passiveB1=Dragon's Ire 1
+|passiveB2=Dragon's Ire 2
+|passiveB3=Dragon's Ire 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Atk/Res Rein 1
+|passiveC2=Atk/Res Rein 2
+|passiveC3=Atk/Res Rein 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Sources of follow-up prevention]]
+[[Category:Sources of Foe Cannot Follow-Up]]
+[[Category:Sources of flying effectiveness neutralization]]
+[[Category:Sources of effectiveness neutralization]]
+[[Category:Sources of Neutralize Effective Against Flying]]
+[[Category:Spring Festival units]]

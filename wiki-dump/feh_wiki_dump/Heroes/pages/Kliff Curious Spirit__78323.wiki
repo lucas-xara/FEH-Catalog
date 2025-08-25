@@ -1,0 +1,77 @@
+{{#invoke:NameAbout|main|Name=Kliff}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Kliff
+|Title=Curious Spirit
+|GrowthModifier=
+|WeaponType=Blue Tome
+|Origin=Fire Emblem Echoes: Shadows of Valentia
+|Gender=Male
+|MoveType=Infantry
+|actorJP=斎賀みつき
+|actorEN=Christopher Patton
+|artist=Tobi
+|additionDate=October 23, 2018
+|releaseDate=October 23, 2018
+|poolDate=November 9, 2018
+|poolRarities=5
+|TagID=クリフ
+|InternalID=305
+|Properties=notRandomized,specRate_202108
+|cv1=2
+|cv2=100410
+|description=Alm's childhood friend from Ram Village. Loves learning and hungers to see more of the world. Appears in Fire Emblem Echoes: Shadows of Valentia.
+}}
+{{Stats Page
+|Lv1HP=15|Lv1ATK=6|Lv1SPD=4|Lv1DEF=3|Lv1RES=9
+|GRHP=50|GRATK=55|GRSPD=75|GRDEF=50|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Light
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Ellight
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Shine
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Sagittae
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Rising Light
+|special1Default=4
+|special1Unlock=3
+|special2=Growing Light
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Fortress Def 1
+|passiveA2=Fort. Def/Res 1
+|passiveA3=Fort. Def/Res 2
+|passiveA4=Fort. Def/Res 3
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Chill Spd 1
+|passiveB2=Chill Spd 2
+|passiveB3=Chill Spd 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Fortify Res 1
+|passiveC2=Fortify Res 2
+|passiveC3=Fortify Res 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

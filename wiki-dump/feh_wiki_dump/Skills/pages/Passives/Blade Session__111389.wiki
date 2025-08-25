@@ -1,0 +1,60 @@
+{{SkillPage Tabs}}{{Passive
+|type=A
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|1name=Blade Session 1
+|1tagid=SID_刃のセッション1
+|1effect=If unit initiates combat, grants bonus to unit's Atk/Spd during combat = 1 + number of allies who have already acted (max value of 3).
+|1required=-
+|1cost=60
+|1promotionRarity=4
+|1promotionTier=1
+|2name=Blade Session 2
+|2tagid=SID_刃のセッション2
+|2effect=If unit initiates combat, grants bonus to unit's Atk/Spd during combat = 2 + number of allies who have already acted × 2 (max value of 6).
+|2cost=120
+|2promotionRarity=5
+|2promotionTier=1
+|3name=Blade Session 3
+|3tagid=SID_刃のセッション3
+|3effect=If unit initiates combat, grants bonus to unit's Atk/Spd during combat = 3 + number of allies who have already acted × 3 (max value of 9).
+|3cost=240
+|properties=random_owner
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Combat boosts}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Blade Session 1;Blade Session 2;Blade Session 3
+|badgeColor=Scarlet
+|costs1=20;100;40
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|english=Blade Session
+|japanese=刃のセッション
+|german=Klingen-Session
+|spanishEU=Session espada
+|spanishLA=Session espada
+|french=Session lame
+|italian=Lama Session
+|chineseTW=刃之協奏
+|portuguese=Espada Session
+}}
+==See also==
+* [[Shield Session]]
+{{Seals Navbox}}
+{{Passives Navbox|A}}

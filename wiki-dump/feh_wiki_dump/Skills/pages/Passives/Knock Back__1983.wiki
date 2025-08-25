@@ -1,0 +1,42 @@
+{{Passive
+|type=B
+|exclusive=0
+|1name=Knock Back
+|1tagid=SID_叩き込み
+|1required=-
+|1effect=If unit initiates combat, target foe moves 1 space away after combat.
+|1cost=150
+|canUseWeapon={{WeaponList|Close}}
+|canUseMove={{MoveList|all}}
+|properties=random_owner,random_inherit_base
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Shove Units}}
+|MeT={{Tgt|Target Foe}}
+|MeC=After combat<br>in Player Phase
+}}
+
+==Notes==
+{{IfUnitInitiates}}
+{{Movement Passive notes}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=叩き込み
+|german=Niederschlagen
+|spanishEU=Repeler
+|spanishLA=Repeler
+|french=Projection
+|italian=Respinta
+|chineseTW=擊退
+|portuguese=Repulsão
+}}
+==See also==
+* [[Movement Passives]]
+{{Passives Navbox|B}}

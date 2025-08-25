@@ -1,0 +1,57 @@
+{{Weapon Infobox
+|tagid=SID_ジークムント
+|weaponType=Lance
+|might=16
+|range=1
+|effect=At start of turn, grants Atk+3 to adjacent allies for 1 turn.
+|cost=400
+|exclusive=1
+|userVersion1=Weapon
+|userVersion2=Upgrade Gleam
+|statModifiers=0,16,0,0,0
+|required=Heavy Spear
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=At start of turn, grants Atk+4 to adjacent allies for 1 turn.
+|effectSkill1=If unit's HP ≥ 90% and unit initiates combat, unit makes a guaranteed follow-up attack.
+|iconSkill1=Siegmund W.png
+|tagidExtraSkill1=追
+|properties=random_owner
+}}
+==Notes==
+* Has the same effect as {{St|Hone Atk 2}}.
+{{Bonuses}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+* Any of the upgrades grant Siegmund the same effect as {{St|Hone Atk 3}}.
+{{IfUnitInitiates}}
+{{Guaranteed follow-up interaction}}
+==Evolution==
+{{WEvo
+|weapon=Flame Siegmund
+|Medals=375
+|Dew=150
+}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|追撃攻R90|Follow-Up Attack}}
+==In other languages==
+{{OtherLanguages
+|japanese=ジークムント
+|german=Siegmund
+|spanishEU=Siegmund
+|spanishLA=Siegmund
+|french=Siegmund
+|italian=Siegmund
+|chineseTW=齊格蒙德
+|portuguese=Siegmund
+}}
+==See also==
+* [[Sieglinde]]
+* [[Storm Sieglinde]]
+* [[Festive Siegmund]]
+{{Weapons Navbox}}

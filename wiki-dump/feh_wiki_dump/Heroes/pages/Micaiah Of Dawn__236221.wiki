@@ -1,0 +1,91 @@
+{{#invoke:NameAbout|main|Name=Micaiah}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Micaiah
+|Title=Of Dawn
+|WeaponType=Colorless Tome
+|MoveType=Infantry
+|Origin=Fire Emblem: Radiant Dawn,Fire Emblem Engage
+|Gender=Female
+|emblemEffect=When Special triggers, boosts damage by unit's max Special cooldown count value × 4 (excluding area-of-effect Specials).<br><br>If a Rally or movement Assist skill is used by unit, restores 20 HP to target ally and neutralizes any【Penalty】on that ally, and grants another action to unit and inflicts 【Isolation】on unit and Pair Up cohort through their next action, and also, if unit's or Pair Up Cohort's Range = 2, inflicts "restricts movement to 1 space" on unit and Pair Up cohort, respectively, through their next action ("grants another action" effect and onward is once per turn; if another effect that grants additional action to unit has been triggered at the same time, this effect is also considered to have been triggered).<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).<br><br>【Isolation】<br>Target cannot use or be the target of Assist skills through its next action. (Target can neither use nor be the target of skills like Dance and Sing, skills that neutralize penalties, like Restore and Harsh Command+, etc.)
+|actorEN=Veronica Taylor
+|actorJP=桑谷夏子
+|artist=鈴木理華
+|additionDate=June 30, 2025
+|releaseDate=June 30, 2025
+|entry=9;14
+|cv1=9
+|cv2=100100
+|TagID=紋章ミカヤ
+|InternalID=1258
+|Properties=emblem
+|description=One of the Emblems who were summoned to Elyos. Resides in the Ring of the Dawn Maiden. Appears in Fire Emblem: Radiant Dawn / Fire Emblem Engage.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=10|Lv1SPD=8|Lv1DEF=7|Lv1RES=10
+|GRHP=50|GRATK=90|GRSPD=50|GRDEF=30|GRRES=90
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Stone
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elstone
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Atlas (weapon)
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Maiden's Tome
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Swap
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table
+|special1=Daylight
+|special1Default=4
+|special1Unlock=3
+|special2=Sol
+|special2Unlock=4
+|special3=Great Sacrifice
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Still Water 1
+|passiveA2=Still Water 2
+|passiveA3=Still Water 3
+|passiveA4=Crystalline Water
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Sabotage Res 1
+|passiveB2=Sabotage Res 2
+|passiveB3=Sabotage Res 3
+|passiveB4=Atk/Res Havoc
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Silence Ward 1
+|passiveC2=Silence Ward 2
+|passiveC3=Silence Ward 3
+|passiveC4=Silence Ward 4
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Sources_of_damage-boosting_effects]]
+[[Category:Sources of negative status effect neutralization]]
+[[Category:Sources of status effects]]
+[[Category:Sources of Isolation]]
+[[Category:Sources of Gravity]]

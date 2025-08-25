@@ -1,0 +1,47 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_ティアモの愛槍
+|weaponType=Lance
+|might=10
+|range=1
+|effect=Inflicts Spd-2. If unit initiates combat, unit attacks twice.
+|cost=400
+|exclusive=1
+|userVersion1=Weapon
+|userVersion2=Gleam
+|statModifiers=0,10,-2,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=At start of combat, if unit's HP ≥ 70%, grants Atk/Spd+4 during combat.
+|iconSkill1=Cordelias Lance W.png
+|tagidExtraSkill1=強
+|properties=
+}}
+==Notes==
+{{Brave weapon interaction}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Combat boosts}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|戦闘強化RHP70|Combat Bonuses R HP 70}}
+==In other languages==
+{{OtherLanguages
+|english=Cordelia's Lance
+|japanese=ティアモの愛槍
+|german=Cordelias Lanze
+|spanishEU=Lanza Cordelia
+|spanishLA=Lanza Cordelia
+|french=Lance de Cordelia
+|italian=Lancia di Cordelia
+|chineseTW=蒂亞莫的愛槍
+|portuguese=Lança Cordelia
+}}
+==See also==
+* [[Amiti]]
+* [[Mögþrasir]]
+{{Weapons Navbox}}

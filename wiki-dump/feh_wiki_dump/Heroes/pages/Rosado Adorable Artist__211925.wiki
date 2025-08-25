@@ -1,0 +1,73 @@
+{{#invoke:NameAbout|main|Name=Rosado}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Rosado
+|Title=Adorable Artist
+|WeaponType=Green Axe
+|MoveType=Flying
+|Origin=Fire Emblem Engage
+|Gender=Male
+|actorEN=Brian Timothy Anderson
+|actorJP=蒼井翔太
+|artist=いちかわはる
+|randomStartTime=2024-03-19T07:00:00Z
+|additionDate=February 19, 2024
+|releaseDate=February 19, 2024
+|poolDate=March 7, 2024
+|poolRarities=5
+|cv1=14
+|cv2=400600
+|TagID=ロサード
+|InternalID=1066
+|Properties=tiara
+|description=A soldier from the royal castle of Elusia and Hortensia's retainer. A talented painter and fashionista. Appears in Fire Emblem Engage.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=15|Lv1SPD=7|Lv1DEF=11|Lv1RES=3
+|GRHP=50|GRATK=65|GRSPD=90|GRDEF=75|GRRES=30
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Axe of Adoration
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=4
+|special1Unlock=3
+|special2=Bonfire
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Earth Boost 1
+|passiveA2=Earth Boost 2
+|passiveA3=Earth Boost 3
+|passiveA4=Earthwind Boost 3
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Wyvern Flight 1
+|passiveB2=Wyvern Flight 2
+|passiveB3=Wyvern Flight 3
+|passiveB4=Wyvern Rift
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+}}
+{{Heroes Navbox}}

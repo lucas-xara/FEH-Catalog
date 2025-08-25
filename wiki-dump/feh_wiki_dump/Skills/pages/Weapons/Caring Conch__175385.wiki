@@ -1,0 +1,38 @@
+{{Weapon Infobox
+|tagid=SID_深き優しさの聖器
+|intID=3144
+|image=wep_mg269
+|exclusive=1
+|weaponType=Green Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit during combat, neutralizes effects that prevent unit's follow-up attacks, and inflicts Special cooldown charge -1 on foe per attack, and also, after combat, if unit attacked, inflicts【Guard】on target and foes within 2 spaces of target. (Only highest value applied. Does not stack.)<br><br>【Guard】<br>Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)
+|statModifiers=0,14,0,0,0
+|required=Rexcalibur
+|properties=
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Combat boosts}}
+{{Follow-up effect neutralization|preventOnly=1}}
+{{CooldownChargeMinus}}
+{{IfUnitAttacked}}
+{{Guard}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=深き優しさの聖器
+|german=Gütige Muschel
+|spanishEU=Caracola amable
+|spanishLA=Caracola amable
+|french=Conque aimante
+|italian=Dolce conchiglia
+|chineseTW=仁慈溫柔的聖器
+|portuguese=Concha ciente
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants Atk/Spd/Def/Res+%during combat%inflict special cooldown charge-%' OR Description LIKE '%grants Atk/Spd/Def/Res+%during combat%neutralizes effects that prevent unit\'s follow-up attacks%' OR Description LIKE '%if unit attacked%【Guard】%'|columns=3}}
+{{Weapons Navbox}}

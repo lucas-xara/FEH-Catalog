@@ -1,0 +1,42 @@
+{{Weapon Infobox
+|tagid=SID_真夏の生命の輝き
+|intID=3677
+|image=wep_mg324
+|exclusive=1
+|weaponType=Colorless Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). If unit is within 3 spaces of an ally, inflicts Atk/Res-X on foe (X = 30% of unit's HP at start of combat + 6; max 18) and unit makes a guaranteed follow-up attack during combat, reduces damage from area-of-effect Specials by 75% (excluding Røkkr area-of-effect Specials), and restores 10 HP to unit after combat, and also, if foe can make a follow-up attack during combat, reduces damage from foe's first attack by 75%.
+|required=Atlas (weapon)
+|properties=
+}}
+==Notes==
+{{Temporary debuffs}}
+{{Guaranteed follow-up interaction}}
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+{{After combat healing}}
+
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V7.7_v0707a_summer_Mag_2.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=真夏の生命の輝き
+|german=Glitzernde Sonne
+|spanishEU=Sol luminoso
+|spanishLA=Sol luminoso
+|french=Soleil étincelant
+|italian=Luce solare
+|chineseTW=盛夏的生命光輝
+|portuguese=Luminossolar
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%inflicts%/%-X%on foe%=%of unit_s HP at start of combat%' OR Description LIKE '%if foe can make a follow-up%reduces damage%') AND Exclusive='1' AND Name NOT LIKE '%Stout%'}}
+* [[Skill families/Weapons#Stout|Stout Weapons]]
+{{Weapons Navbox}}

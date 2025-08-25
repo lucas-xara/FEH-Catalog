@@ -1,0 +1,48 @@
+{{Passive
+|name=Assault Force
+|type=B
+|exclusive=0
+|canUseWeapon={{WeaponList|Melee}}
+|canUseMove={{MoveList|Cavalry,Flying}}
+|properties=random_owner
+|1name=Assault Force
+|1tagid=SID_強襲・不屈
+|1effect=If unit initiates combat or is within 2 spaces of an ally, inflicts Spd/Def-4 on foe, neutralizes penalties on unit, deals damage = 20% of the greater of unit's Spd or Def (excluding area-of-effect Specials), and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials).
+|1cost=300
+|1required=Flow Force 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary debuffs|Spd/Def|4}}
+|Ce2={{Eft|Reduce Damage Reduction|50%}}
+|Ce1-2T={{Tgt|Foe}}
+|Ce3={{Eft|Neutralize Penalties}}
+|Ce4={{Eft|Damage Boost|20% of the greater<br>of {{Tgt|Spd}}'s Spd/Def}}
+|CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary debuffs}}
+{{Penalty neutralization}}
+{{DamageBoost}}
+{{Reduce Damage Reduction}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=Asalto fuerte
+|spanishLA= Asalto Fuerte
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%deals damage = __%/ the greater of unit_s ___ or ___ %' OR Description LIKE '%deals damage%reduces the percentage%') AND Exclusive='1'}}
+{{Passives Navbox|B}}

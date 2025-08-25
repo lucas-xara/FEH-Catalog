@@ -1,0 +1,61 @@
+{{SkillPage Tabs}}{{Passive
+|type=C
+|exclusive=0
+|1name=Def Ploy 1
+|1tagid=SID_守備の謀策1
+|1promotionRarity=4
+|1promotionTier=1
+|1effect=At start of turn, inflicts Def-3 on foes in cardinal directions with Res < unit's Res through their next actions.
+|1required=-
+|1cost=60
+|2name=Def Ploy 2
+|2tagid=SID_守備の謀策2
+|2promotionRarity=5
+|2promotionTier=1
+|2effect=At start of turn, inflicts Def-4 on foes in cardinal directions with Res < unit's Res through their next actions.
+|2cost=120
+|3name=Def Ploy 3
+|3tagid=SID_守備の謀策3
+|3effect=At start of turn, inflicts Def-5 on foes in cardinal directions with Res < unit's Res through their next actions.
+|3cost=240
+|canUseWeapon={{WeaponList|all}}
+|canUseMove={{MoveList|all}}
+|properties=random_all,random_inherit_base
+}}
+==Notes==
+{{Ploy interaction}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Def Ploy 1;Def Ploy 2;Def Ploy 3
+|badgeColor=Verdant
+|costs1=20;100;20
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=守備の謀策
+|german=Ver.-Trick
+|spanishEU=Ardid Def
+|spanishLA=Ardid Def.
+|french=Ruse Déf
+|italian=Complotto Dif
+|chineseTW=防守謀策
+|portuguese=Manobra Def.
+}}
+==See also==
+* [[Ploy Passives]]
+{{Seals Navbox}}
+{{Passives Navbox|C}}
+[[Category: Ploy Passives]]

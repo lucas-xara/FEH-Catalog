@@ -1,0 +1,41 @@
+{{Weapon Infobox
+|tagid=SID_白波の弓
+|intID=3118
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=0
+|weaponType=Bow
+|cost=200
+|might=8
+|range=2
+|effectiveness=Flying
+|effect=Effective against flying foes. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+5 during combat, and also, if unit initiates combat and unit's Spd ≥ foe's Spd+10, unit attacks twice.
+|statModifiers=0,8,0,0,0
+|required=Steel Bow
+|next=Whitecap Bow+
+|promotionRarity=5
+|promotionTier=1
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{Combat boosts}}
+{{IfUnitInitiates}}
+{{UnitStatMinusFoeStat|stat=Spd}}
+{{Brave weapon interaction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=白波の弓
+|german=Gischtbogen
+|spanishEU=Arco espumoso
+|spanishLA=Arco espumoso
+|french=Arc écume
+|italian=Arco spumoso
+|chineseTW=白波之弓
+|portuguese=Arco espumoso
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants Atk/%+%during combat%if unit initiates%unit attacks twice%'|columns=3}}
+{{Weapons Navbox}}

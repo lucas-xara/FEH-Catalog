@@ -1,0 +1,70 @@
+{{Passive
+|name=Absolute Closure
+|type=C
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Absolute Closure
+|1tagid=SID_すべてを鎖す世界
+|1effect=At start of turn, inflicts【Undefended】and 【Feud】on foes within 3 columns or 3 rows centered on unit through their next actions. At start of turn, if any foe is within 3 columns or 3 rows centered on unit, grants【Dodge】to unit and neutralizes any【Penalty】 (excluding penalties inflicted at start of turn). If unit transforms, grants Atk/Spd/Def/Res+4 to unit and neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat.<br><br>【Undefended】<br>Unit cannot be protected by Savior through their next action.<br><br>【Feud】<br>Disables all ally skills (excluding unit's) during combat through unit's next action.<br><br>【Dodge】<br>If unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 4 (max 40%).<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{SEt|Undefended}}
+|Se2={{SEt|Feud}}
+|SeT1-2={{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|SeC1-2=At start of turn
+|Se3={{SEt|Dodge}}
+|SeC3-4=At start of turn<br>if a {{Tgt|Foe}} is within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|Se4=Removes {{Kp|Penalty}} effects
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|Ce2={{Eft|Neutralize Prevent Follow-Ups}}
+|Ce3={{Eft|Neutralize Guaranteed Follow-Ups}}
+|CeT3={{Tgt|Foe}}
+|CeC={{SkillTargetText|Unit}} is transformed
+}}
+
+==Notes==
+{{Undefended}}
+{{Feud}}
+{{Penalty neutralization|negstatuses=all {{Kp|Penalty}} effects}}
+{{Dodge}}
+{{IfUnitTransforms}}
+{{Temporary buffs}}
+{{Follow-up effect neutralization}}
+{|class="wikitable default mw-collapsible" style="text-align:center;” 
+!Example of Area of Effect for Severance
+|-
+|style="max-width:450px;margin:auto;" align="middle"|{{AoE|u=Embla: Closed-Off Bride|t=Sharena: Pillars of Peace
+|---xxx---
+|---xxx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xtx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=すべてを鎖す世界
+|german=Absolute Distanz
+|spanishEU=Cierre absoluto
+|spanishLA=Cierre absoluto
+|french=Fermeture totale
+|italian=Chiusura assoluta
+|chineseTW=一切都被封鎖的世界
+|portuguese=Oclusão absoluta
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Dodge】%' OR Description LIKE '%【Undefended】%' OR Description LIKE '%【Feud】%' OR Description LIKE '%neutralizes any【Penalty】%') OR (Description LIKE '%Savior skills will not trigger%' OR (WikiName NOT LIKE '%Feud%' AND Description LIKE '%disable%skills of all%excluding%') AND (Exclusive=1 AND Name NOT LIKE '%+'))}}
+* [[Dodge Passives]]
+* [[Feud Passives]]
+{{Passives Navbox|C}}

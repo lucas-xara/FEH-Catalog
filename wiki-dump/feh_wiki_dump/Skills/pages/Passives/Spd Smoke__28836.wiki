@@ -1,0 +1,87 @@
+{{Passive
+|type=C
+|name=Spd Smoke
+|exclusive=0
+|1name=Spd Smoke 1
+|1tagid=SID_速さの紫煙1
+|1promotionRarity=4
+|1promotionTier=1
+|properties1=random_all
+|1required=-
+|1effect=Inflicts Spd-3 on foes within 2 spaces of target through their next actions after combat.
+|1cost=60
+|2name=Spd Smoke 2
+|2tagid=SID_速さの紫煙2
+|2promotionRarity=5
+|2promotionTier=1
+|properties2=random_all
+|2effect=Inflicts Spd-5 on foes within 2 spaces of target through their next actions after combat.
+|2cost=120
+|3name=Spd Smoke 3
+|3tagid=SID_速さの紫煙3
+|3effect=Inflicts Spd-7 on foes within 2 spaces of target through their next actions after combat.
+|3next=-
+|properties3=random_all
+|4name=Spd Smoke 4
+|4tagid=SID_速さの紫煙4
+|4cost=300
+|4effect=After combat, inflicts Spd-7 on target and foes within 2 spaces of target through their next actions, and grants Spd+6 and【Dodge】 to unit for 1 turn.<br><br>【Dodge】<br>If unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 4 (max 40%).
+|properties4=random_owner
+|3cost=240
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|properties=random_all
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Spd Smoke 3}} Spd Smoke 3
+|skill1 StatusEffect={{SkillEffectText|Penalties|Spd|7}}
+|skill1 StatusEffect Targets={{SkillTargetText|Foes}}<br>[[within 2 spaces]]<br>of {{SkillTargetText|Target Foe}}
+|skill1 StatusEffect Conditions=After combat
+|skill2={{Si|Spd Smoke 4}} Spd Smoke 4
+|skill2 StatusEffect 1={{SkillEffectText|Bonuses|Spd|6}}
+|skill2 StatusEffect 2={{SEt|Dodge}}
+|skill2 StatusEffect 3={{SkillEffectText|Penalties|Spd|7}}
+|skill2 StatusEffect 3 Targets={{SkillTargetText|Target Foe}} '''&''' {{SkillTargetText|Foes}}<br>[[within 2 spaces]]<br>of {{SkillTargetText|Target Foe}}
+|skill2 StatusEffect Conditions=After combat
+}}
+==Notes==
+{{After combat note|{{SEt|penalty}}}}
+{{Penalties}}
+{{Bonuses|name=Spd Smoke 4}}
+{{Dodge|name=Spd Smoke 4}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===Sacred Seal Forge===
+{{SealCosts
+|seals=Spd Smoke 1;Spd Smoke 2;Spd Smoke 3
+|badgeColor=Azure
+|costs1=20;100;20
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=速さの紫煙
+|german=Ges.-Rauch
+|spanishEU=Humo de Vel
+|spanishLA=Humo de Vel.
+|french=Fumée Vit
+|italian=Vel in fumo
+|chineseTW=速度紫煙
+|portuguese=Fumaça Vel.
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【Dodge】%' AND Exclusive='1'}}
+* [[Smoke Passives]]
+{{Seals Navbox}}
+{{Passives Navbox|C}}
+[[Category:Smoke Passives]]

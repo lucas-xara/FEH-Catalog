@@ -1,0 +1,46 @@
+{{Special
+|tagid=SID_覇天・承
+|intID=4136
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=2
+|effect=At start of turn, if unit's Special cooldown count is at its maximum value, grants Special cooldown count-1 to unit.<br><br>Boosts Special damage by 30% of unit's Atk. If in combat against a dragon foe or beast foe, boosts Special damage by 60% instead of 30%.<br><br>When Special triggers, neutralizes "reduces damage by X%" effects from non-Special skills.
+|required=Sublime Heaven
+|properties=offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Reduce Cooldown|1}}
+|MeC=At start of turn<br>if {{Tgt|Unit}}'s CD<br>is max value
+|Ce1={{Eft|Damage Boost|(60% if against a<br>{{Cwti|group=1|Beast,Dragon}} [[Dragon]]/[[Beast]]<br>{{Tgt|Foe}}; else 30%)<br>of {{Tgt|Unit}}'s Atk}}
+|Ce2={{Eft|Neutralize Damage Reduction}}
+|CeT2={{Tgt|Foe}}
+|CeC1-2=Special triggers
+}}
+
+==Notes==
+* Sublime Heaven II has the same effect as {{St|Time's Pulse 3}}.
+{{AtkDamageBoost}}
+{{DamageReductionNeutralization}}
+{{Start of turn Special modification}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=覇天・承
+|german=Ewiger Himmel II
+|spanishEU=Cielo sublime II
+|spanishLA=Cielo sublime II
+|french=Ciel suprême II
+|italian=Cieli supremi II
+|chineseTW=霸天・承
+|portuguese=Paraíso sublime II
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%disables%reduce%damage by x%' OR Description LIKE '%neutralizes%reduce%damage by x%') AND Description LIKE '%non-Special%' AND Description NOT LIKE '%reduces the percentage%' OR Description LIKE '%if in combat against a dragon%or beast foe%' OR (Description LIKE '%maximum value%Special cooldown count-1%' OR Description LIKE '%start of turn%Special cooldown count-1%maximum value%') AND Exclusive='1'}}
+* [[Time Pulse Passives]]
+{{Specials Navbox}}

@@ -1,0 +1,40 @@
+{{Weapon Infobox
+|tagid=SID_ハンマー2
+|weaponType=Axe
+|might=10
+|range=1
+|effectiveness=armored
+|effect=Effective against armored foes.
+|cost=200
+|exclusive=0
+|userVersion1=Weapon
+|userVersion2=Gleam
+|statModifiers=0,10,0,0,0
+|next=Slaying Hammer+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Axe
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce={{Eft|Effectiveness|{{Mt|Armored}}}}
+}}
+==Notes==
+{{Effective damage bonus|armored}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ハンマー鍛
+|german=Gnadenhammer
+|spanishEU=Martillo ejecutor
+|spanishLA=Martillo cruel
+|french=Marteau meurt.
+|italian=Martello falciante
+|chineseTW=戰錘鍛
+|portuguese=Martelo cruel
+}}
+==See also==
+* [[Sources of effective against armored foes]]
+{{Weapons Navbox}}

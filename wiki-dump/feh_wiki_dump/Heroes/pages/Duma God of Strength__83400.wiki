@@ -1,0 +1,83 @@
+{{#invoke:NameAbout|main|Name=Duma}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Duma
+|Title=God of Strength
+|WeaponType=Colorless Breath
+|Origin=Fire Emblem Echoes: Shadows of Valentia
+|Gender=Male
+|MythicEffect=Anima
+|MythicEffect2=None
+|BoostHP=5
+|BoostAtk=3
+|MoveType=Armored
+|actorJP=銀河万丈
+|actorEN=Josh Petersdorf
+|artist=米子
+|additionDate=January 30, 2019
+|releaseDate=January 30, 2019
+|TagID=神階ドーマ
+|InternalID=338
+|Properties=mythic,tiara
+|cv1=2
+|cv2=930100
+|description=God of Strength and brother of the goddess Mila. He and Mila fought over the continent of Valentia and split it in twain. Rigel, the north of Valentia, is his domain. Appears in Fire Emblem Echoes: Shadows of Valentia.
+}}
+{{Stats Page
+|Lv1HP=24|Lv1ATK=10|Lv1SPD=6|Lv1DEF=8|Lv1RES=7
+|GRHP=55|GRATK=70|GRSPD=35|GRDEF=60|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire Breath
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Fire Breath+
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Flametongue
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Fell Breath
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Draconic Aura
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Def/Res Solo 1
+|passiveA2=Def/Res Solo 2
+|passiveA3=Def/Res Solo 3
+|passiveA4=Fury 1
+|passiveA5=Fury 2
+|passiveA6=Fury 3
+|passiveA7=Fury 4
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveA4Unlock=1
+|passiveA5Unlock=2
+|passiveA6Unlock=4
+|passiveA7Unlock=5
+|passiveB1=Bold Fighter 1
+|passiveB2=Bold Fighter 2
+|passiveB3=Bold Fighter 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Upheaval
+|passiveC2=Upheaval+
+|passiveC1Unlock=5
+|passiveC2Unlock=5
+}}
+{{Heroes Navbox}}

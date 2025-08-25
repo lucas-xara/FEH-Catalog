@@ -1,0 +1,37 @@
+{{Assist
+|tagid=SID_リカバー＋
+|range=1
+|effect=Restores HP = 50% of Atk +10. (Minimum of 15 HP.)
+|cost=300
+|required=Recover
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|Staff}}
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Heal|min=15|50% of {{Tgt|Unit}}'s Atk +10}}
+|MeT1={{Tgt|Target Ally}}
+|MeC1={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}<br>'''or''' {{SEt|Deep Wounds}}
+}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+Weapon Recover.png|Recover+ Sprite
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=リカバー＋
+|german=Erholung+
+|spanishEU=Recuperar +
+|spanishLA=Recuperar +
+|french=Restitution +
+|italian=Recupero+
+|chineseTW=聖癒＋
+|portuguese=Recuperação+
+}}
+==See also==
+* [[Staff Assists]]
+{{Assists Navbox}}

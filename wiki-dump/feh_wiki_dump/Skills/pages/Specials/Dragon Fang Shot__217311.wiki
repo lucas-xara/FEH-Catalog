@@ -1,0 +1,51 @@
+{{Special
+|tagid=SID_竜穿射
+|intID=4168
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=2
+|effect=Boosts Special damage by 40% of unit's Res when Special triggers.<br><br>If unit's Res > foe's Res, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage =  4 - current Special cooldown count value, × difference between stats (max difference between stats: 10).<br><br>If unit's Special is ready or unit's Special triggered during combat, reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50%.<br><br>After combat, if unit's Special triggered, applies【Divine Vein (Water)】on target's space and on each space within 2 spaces of target's space for 1 turn.<br><br>【Divine Vein (Water)】<br>Applies the following effects on space: Acts as difficult terrain for foes with Range = 2 (moving over this space costs +1 movement; does not apply to "cannot be slowed by terrain" effects; movement cost cannot exceed unit's allowed movement). Inflicts Spd-5 on foe and reduces the percentage of non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials). (Divine Vein effects do not stack; replaces any existing Divine Vein effect; Divine Vein effects applied simultaneously cancel each other out. Does not count as defensive terrain.)
+|required=Dragon Fang
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Damage Boost|40% of {{Tgt|Unit}}'s Res}}
+|CeC1=Special triggers
+|Ce2={{Eft|Damage Reduction|(4 - {{Tgt|Unit}}'s current CD)<br>x ({{Tgt|Unit}}'s Res - {{Tgt|Foe)}}'s Res)<br>from attacks & Non-Røkkr [[AoE Specials]]|percent=1|max=40%}}
+|CeC2={{Tgt|Unit}}'s Res ><br>{{Tgt|Foe}}'s Res
+|Ce3={{Eft|Reduce Damage Reduction|50%}}
+|CeT3={{Tgt|Foe}}
+|CeC3={{Tgt|Unit}}'s Special is<br>ready '''or''' triggered<br>during combat
+|Me={{Eft|Divine Vein (Water)}}
+|MeT=Spaces<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|MeC=After combat if<br>Special triggered
+}}
+
+==Notes==
+{{DamageBoost}}
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+{{Reduce Damage Reduction}}
+{{Divine Vein|Water}}
+{{After combat note}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=竜穿射
+|german=Drachenmacht
+|spanishEU=Tiro de dragón
+|spanishLA=Tiro colmillo drag.
+|french=Tir de dragon
+|italian=Colpo di zanna
+|chineseTW=龍穿射
+|portuguese=Golpe dracônico
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%boosts damage by%of unit_s Res%reduces damage%area-of-effect%' OR Description LIKE '%unit_s Res > foe_s Res%reduces damage%attacks%area-of-effect%' OR Description LIKE '%reduces damage from%-% current Special cooldown count value%' OR Description LIKE '%【Divine Vein (Water)】%') AND Exclusive='1'}}
+* [[Dragon Wall]]
+{{Specials Navbox}}

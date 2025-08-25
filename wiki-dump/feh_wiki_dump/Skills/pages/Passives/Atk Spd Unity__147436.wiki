@@ -1,0 +1,57 @@
+{{Passive
+|name=Atk/Spd Unity
+|type=A
+|exclusive=0
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|intID=2708
+|sort=11203
+|value=8
+|timingID=1
+|abilityID=212
+|limit1ID=14
+|randomTimestamp=2021-09-17T07:00:00Z
+|randomMinLv=36
+|properties=random_owner
+|1name=Atk/Spd Unity
+|alt1name=Atk Spd Unity
+|1effect=If unit is within 2 spaces of an ally, grants Atk/Spd+5 to unit during combat, and also, if unit is inflicted with any Atk/Spd penalty, grants bonus to unit's Atk/Spd during combat = current penalty on each of those stats × 2. (Example: if unit has -7 penalty to Atk, grants Atk+14, for a net bonus of Atk+12.) Calculates each stat bonus independently.
+|1tagid=SID_攻撃速さの連帯4
+|1required=Atk/Spd Bond 3
+|1cost=300
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary buffs|Atk/Spd|5}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd|2 x {{SEt|penalties}} on<br>each of {{Tgt|Unit}}'s stats}}
+|CeC=An {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+==Notes==
+{{TemporaryBufffromPenalty|source=the unit|ptySource=the unit}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Atk/Spd Unity
+|japanese=攻撃速さの連帯
+|german=Agr./Ges.-Bündnis
+|spanishEU=Alianza Ata/Vel
+|spanishLA=Alianza Atq./Vel.
+|french=Unité Atq/Vit
+|italian=Coesione Att/Vel
+|chineseTW=攻擊速度的連帶
+|portuguese=Aliança Atq./Vel.
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%Example: if unit has -%penalty to%, grants%, for a net bonus of%' AND Exclusive='1'}}
+* [[Skill families/A Passives#Unity|Unity Passives]]
+{{Passives Navbox|A}}
+[[Category:Unity Passives]]
+[[Category:Bond Passives]]

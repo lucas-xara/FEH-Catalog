@@ -1,0 +1,57 @@
+{{SkillPage Tabs}}{{Passive
+|name=Threat. Atk/Spd
+|type=C
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|1name=Threat. Atk/Spd 1
+|alt1name=Threat. Atk Spd 1
+|1tagid=SID_攻撃速さの威嚇1
+|1effect=At start of turn, inflicts Atk/Spd-3 on foes within 2 spaces through their next actions.
+|1required=Threaten Atk 1;Threaten Spd 1
+|1cost=100
+|1promotionRarity=5
+|1promotionTier=1
+|2name=Threat. Atk/Spd 2
+|alt2name=Threat. Atk Spd 2
+|2tagid=SID_攻撃速さの威嚇2
+|2effect=At start of turn, inflicts Atk/Spd-4 on foes within 2 spaces through their next actions.
+|2cost=200
+|2next=-
+|3name=Threat. Atk/Spd 3
+|alt3name=Threat. Atk Spd 3
+|3tagid=SID_攻撃速さの威嚇3
+|3effect=At start of turn, if unit is within 2 spaces of a foe, grants Atk/Spd+5 to unit for 1 turn and inflicts Atk/Spd-5 on foes within 2 spaces through their next actions.
+|3cost=300
+|properties1=random_owner
+|properties2=random_owner,random_inherit_base
+|properties3=random_owner,random_inherit_base
+}}
+==Notes==
+{{Bonuses|name=Threat. Atk/Spd 3}}
+{{Penalties|name=Threat. Atk/Spd}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Trivia==
+*
+==In other languages==
+{{OtherLanguages
+|english=Threat. Atk/Spd
+|japanese=攻撃速さの威嚇
+|german=Agr./Ges. gefähr.
+|spanishEU=Reducir Ata/Vel
+|spanishLA=Red. Atq./Vel.
+|french=Atq/Vit réduites
+|italian=Mina Att/Vel
+|chineseTW=攻擊速度的威嚇
+|portuguese=Atq./Vel. minaz
+}}
+==See also==
+* [[Threaten Passives]]
+{{Passives Navbox|C}}
+[[Category:Threaten Passives]]

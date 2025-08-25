@@ -1,0 +1,75 @@
+{{#invoke:NameAbout|main|Name=Quan}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Quan
+|Title=Lightfoot Prince
+|WeaponType=Blue Bow
+|MoveType=Flying
+|Origin=Fire Emblem: Genealogy of the Holy War
+|Gender=Male
+|actorEN=Chris Hackney
+|actorJP=鈴村健一
+|artist=悌太
+|additionDate=September 7, 2020
+|releaseDate=September 8, 2020
+|cv1=3
+|cv2=700100
+|TagID=舞踏キュアン
+|InternalID=561
+|Properties=refresher,special,specRate_202402
+|description=Prince of Leonster. Gallantly taking part in the dance festival is part of his royal duty. Appears in Fire Emblem: Genealogy of the Holy War.
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=8|Lv1SPD=5|Lv1DEF=6|Lv1RES=5
+|GRHP=55|GRATK=75|GRSPD=35|GRDEF=70|GRRES=35
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Courtly Bow
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Courtly Bow+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Dance
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Def Bond 1
+|passiveA2=Atk/Def Bond 2
+|passiveA3=Atk/Def Bond 3
+|passiveA4=Atk/Def Bond 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Flier Formation 1
+|passiveB2=Flier Formation 2
+|passiveB3=Flier Formation 3
+|passiveB1Unlock=1
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveC1=Fortify Def 1
+|passiveC2=Fortify Def 2
+|passiveC3=Fortify Def 3
+|passiveC4=Joint Hone Def
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Dance Festival units]]

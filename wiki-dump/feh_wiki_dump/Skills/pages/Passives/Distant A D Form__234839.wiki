@@ -1,0 +1,51 @@
+{{Passive
+|name=Distant A/D Form
+|type=A
+|exclusive=0
+|canUseWeapon={{WeaponList|Close}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Distant A/D Form
+|alt1name=Distant A D Form
+|1tagid=SID_遠反・攻守の密集
+|1effect=Unit can counterattack regardless of foe's range.<br><br>If unit is within 3 spaces of an ally, grants bonus to unit's Atk/Def during combat = number of allies within 3 spaces of unit × 3 (max 9; if unit triggers Savior, value is treated as 9).
+|1cost=300
+|1required=Distant Counter
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Distant Counter}}
+|Ce2={{Eft|Temporary buffs|Atk/Def|3 x {{Tgt|Allies}} [[within 3 spaces]]|max=9*}}
+|Ce2C=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+}}
+<b>{{Hatnote|* If {{Tgt|Unit}} triggers {{Eft|Savior}}, value is treated as max.}}</b>
+==Notes==
+{{Temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Distant A/D Form
+|japanese=遠反・攻守の密集
+|german=A/V-Fernschar
+|spanishEU=Pelotón A/D largo
+|spanishLA=Forma A/D larga
+|french=Troupe A/D dist.
+|italian=Forma A/D lon.
+|chineseTW=遠反・攻防的密集
+|portuguese=Forma dist. A/D
+}}
+
+==See also==
+{{See also skills|cond=(Description LIKE '%counterattack regardless of%range%' AND SCategory!='Weapon') AND ((Exclusive='1' AND Name NOT LIKE '%+') OR SCategory='captain')}}
+* [[Counter Passives]]
+* [[Counter Seals]]
+* [[Form Passives]]
+* [[Prime Passives]]
+* [[Weapons with Distant Counter]]
+* [[Weapons with Close Counter]]
+{{Passives Navbox|A}}

@@ -1,0 +1,68 @@
+{{SkillPage Tabs}}{{Passive
+|type=C
+|exclusive=0
+|seal=
+|1name=Close Guard 1
+|1tagid=SID_近距離警戒1
+|1promotionRarity=4
+|1promotionTier=1
+|1effect=Allies within 2 spaces gain: "If foe uses sword, lance, axe, dragonstone, or beast damage, grants Def/Res+2 during combat."
+|1cost=60
+|1required=-
+|2name=Close Guard 2
+|2tagid=SID_近距離警戒2
+|2promotionRarity=5
+|2promotionTier=1
+|2effect=Allies within 2 spaces gain: "If foe uses sword, lance, axe, dragonstone, or beast damage, grants Def/Res+3 during combat."
+|2cost=120
+|3name=Close Guard 3
+|3tagid=SID_近距離警戒3
+|3effect=Allies within 2 spaces gain: "If foe uses sword, lance, axe, dragonstone, or beast damage, grants Def/Res+4 during combat."
+|3cost=240
+|canUseWeapon={{WeaponList|all}}
+|canUseMove={{MoveList|all}}
+|properties=random_owner,random_inherit_base
+}}
+==Notes==
+{{Combat boosts}}
+{{AlliesCombatEffect|effect=combat boost}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Close Guard 1;Close Guard 2;Close Guard 3
+|badgeColor=Scarlet
+|costs1=20;100;40
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=近距離警戒
+|german=Nahschutz
+|spanishEU=Guardia cerc.
+|spanishLA=Guardia cerc.
+|french=Garde proche
+|italian=Guardia vicina
+|chineseTW=近距離警戒
+|portuguese=Guarda rente
+}}
+
+==See also==
+* [[Close Defense]]
+* [[Distant Defense]]
+* [[Distant Guard]]
+* [[Infantry Rush]]
+* [[Drive Passives]]
+{{Seals Navbox}}
+{{Passives Navbox|C}}

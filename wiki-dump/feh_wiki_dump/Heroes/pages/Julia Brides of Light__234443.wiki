@@ -1,0 +1,78 @@
+{{#invoke:NameAbout|main|Name=Julia|Name2=Ishtar}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Julia
+|Title=Brides of Light
+|WeaponType=Colorless Tome
+|MoveType=Infantry
+|secondPerson=Ishtar
+|Origin=Fire Emblem: Genealogy of the Holy War
+|Gender=FF
+|duo=Grants【Empathy】to unit and allies within 2 spaces for 1 turn, and grants Special cooldown count-1 to unit and those allies.<br><br>Once used, Duo Skill cannot be activated again right away. At start of every third turn, if Duo Skill has already been used, unit can use Duo Skill again.<br><br>【Empathy】<br>Grants bonus to unit's Atk/Spd/Def/Res = number of types of【Bonus】effects, excluding stat bonuses, and【Penalty】effects, excluding stat penalties, active on player team and enemy team during combat (max 7).<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|Duel=215
+|actorEN=Cassandra Lee Morris,Ratana
+|actorJP=佐倉綾音,門脇舞以
+|artist=HACCAN
+|additionDate=May 16, 2025
+|releaseDate=May 16, 2025
+|cv1=3
+|cv2=7900100
+|TagID=比翼ユリア
+|InternalID=1242
+|Properties=special,duo,hat,tiara
+|description=Princess of the Grannvale Empire whose veins run strong with the blood of the 12 crusaders. She participates in the festival alongside Ishtar. They appear in Fire Emblem: Genealogy of the Holy War.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=10|Lv1SPD=4|Lv1DEF=11|Lv1RES=10
+|GRHP=50|GRATK=90|GRSPD=30|GRDEF=50|GRRES=90
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Stone
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elstone
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Atlas (weapon)
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Loving Bouquets
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Glacies
+|special2Unlock=4
+|special3=Ice Wall
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Res Finish 1
+|passiveA2=Atk/Res Finish 2
+|passiveA3=Atk/Res Finish 3
+|passiveA4=Atk/Res Finish 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Full Light & Dark
+|passiveB1Unlock=5
+|passiveC1=Time's Pulse 1
+|passiveC2=Time's Pulse 2
+|passiveC3=Time's Pulse 3
+|passiveC4=Time Pulse Helm
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Sources of temporary buffs]][[Category:Sources of status effects]][[Category:Sources of Empathy]][[Category:Sources of Special cooldown count modifications out of combat]]

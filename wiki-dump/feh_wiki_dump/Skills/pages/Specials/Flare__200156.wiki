@@ -1,0 +1,39 @@
+{{Special
+|tagid=SID_陽光
+|intID=3739
+|exclusive=0
+|canUseWeapon={{WeaponList|Magic}}
+|canUseMove={{MoveList|Infantry}}
+|cost=500
+|cooldown=3
+|effect=If unit's HP ≥ 70% when Special triggers, boosts damage by 60% of foe's Res. If unit's HP < 70% when Special triggers, boosts damage by 40% of foe's Res and restores 30% of unit's maximum HP.
+|required=Noontime
+|properties=random_owner,offensive_special
+}}
+==Notes==
+{{DamageBoost}}
+{{CombatHPRecovery}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Gallery==
+<gallery>
+V7.8_v0708b_popularity_Skl.webp|Sprite sheet for {{St|Flare}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=陽光
+|german=Schein
+|spanishEU=Llamarada
+|spanishLA=Llamarada
+|french=Faisceau
+|italian=Fiammata
+|chineseTW=陽光
+|portuguese=Fagulha
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%boosts damage by%of foe_s Res%' OR Description LIKE '%restores%of unit_s maximum HP%'}}
+{{Specials Navbox}}

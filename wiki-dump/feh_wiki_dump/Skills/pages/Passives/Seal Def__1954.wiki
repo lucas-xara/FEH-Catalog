@@ -1,0 +1,79 @@
+{{Passive
+|type=B
+|name=Seal Def
+|exclusive=0
+|1name=Seal Def 1
+|1tagid=SID_守備封じ1
+|1promotionRarity=4
+|1promotionTier=1
+|properties1=random_all
+|1required=-
+|1effect=Inflicts Def-3 on foe through its next action after combat.
+|1cost=40
+|2name=Seal Def 2
+|2tagid=SID_守備封じ2
+|2promotionRarity=5
+|2promotionTier=1
+|properties2=random_all
+|2effect=Inflicts Def-5 on foe through its next action after combat.
+|2cost=80
+|3name=Seal Def 3
+|3tagid=SID_守備封じ3
+|3effect=Inflicts Def-7 on foe through its next action after combat.
+|3next=-
+|properties3=random_all
+|4name=Seal Def 4
+|4tagid=SID_守備封じ4
+|4cost=300
+|4effect=Inflicts Def-4 on foe during combat, and if no effect neutralizes penalties to foe's Def, inflicts penalty on foe's Def during combat = 7 - current penalty on foe's Def (min: 0). If penalty is active on foe's Def, inflicts Special cooldown charge -1 on foe per attack during combat. (Only highest value applied. Does not stack.) Inflicts Def-7 on foe through its next action after combat.
+|properties4=random_owner
+|3cost=160
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|properties=random_all
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Seal Def 3}} Seal Def 3
+|skill1 StatusEffect={{SkillEffectText|Penalties|Def|7}}
+|skill1 StatusEffect Targets={{SkillTargetText|Foe}}
+|skill1 StatusEffect Conditions=After combat
+|skill2={{Si|Seal Def 4}} Seal Def 4
+|skill2 CombatEffect 1={{SkillEffectText|Temporary Debuffs|Def|4}}
+|skill2 CombatEffect 2={{SkillEffectText|Temporary Debuffs|Def|7 - {{SEt|penalty}}<br>on {{SkillTargetText|Foe}}'s Def|min=0}}
+|skill2 CombatEffect 2 Conditions={{SkillTargetText|Foe}} doesn't<br>neutralize Def<br>{{SEt|penalties}}
+|skill2 CombatEffect 3={{SkillEffectText|Guard}}
+|skill2 CombatEffect Targets={{SkillTargetText|Foe}}
+|skill2 CombatEffect 3 Conditions={{SEt|Penalty}} is active<br>on {{SkillTargetText|Foe}}'s Def
+|skill2 StatusEffect={{SkillEffectText|Penalties|Def|7}}
+|skill2 StatusEffect Targets={{SkillTargetText|Foe}}
+|skill2 StatusEffect Conditions=After combat
+}}
+
+==Notes==
+{{After combat note|{{SEt|penalty}}}}
+{{Penalties}}
+{{Temporary debuffs|name=Seal Def 4}}
+{{CooldownChargeMinus}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=守備封じ
+|german=Ver. rauben
+|spanishEU=Sellar Def
+|spanishLA=Sellar Def.
+|french=Sceau Déf
+|italian=Sigilla Dif
+|chineseTW=防守封印
+|portuguese=Selo Def.
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%- current penalt%on%' AND Exclusive='1'}}
+* [[Seal Passives]]
+{{Passives Navbox|B}}
+[[Category:Seal Passives]]

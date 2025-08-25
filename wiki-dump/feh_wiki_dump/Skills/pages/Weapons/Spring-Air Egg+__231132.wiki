@@ -1,0 +1,73 @@
+{{Weapon Infobox
+|tagid=SID_春光の卵＋
+|intID=4620
+|image=wep_mg295
+|exclusive=0
+|weaponType=Green Tome
+|cost=300
+|might=12
+|range=2
+|effect=Inflicts Atk/Spd/Def/Res-5 on foes within 3 rows or 3 columns centered on unit and neutralizes effects that grant "Special cooldown charge +X" to those foes during their combat.<br><br>At start of combat, if unit's HP ≥ 25%, unit deals +X × 5 damage during combat (max 20; X = number of foes within 3 spaces of target, including target; excluding area-of-effect Specials).
+|required=Spring-Air Egg
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary debuffs|Atk/Spd/Def/Res|5}}
+|Ce2={{Eft|Neutralize Accelerate Charge}}
+|Ce1-2T={{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|Ce3={{Eft|Damage Boost|5 x {{Tgt|Foes}} [[within 3 spaces|within 3<br>spaces]] of {{Tgt|Target Foe}}<br>(including {{Tgt|Target Foe}})|max=20}}
+|Ce3C={{Tgt|Unit}}'s HP  ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{Temporary buffs}}
+{{CooldownChargePlusNeutralization}}
+{{FoesCombatEffect|temporary debuffs and neutralize "special cooldown charge +X" effects}}
+{{FlatDamageBoost|X (max: 20)}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Mae: Spring Cheer|t=Sonya: Dazzling Rabbits
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Gallery==
+<gallery>
+V9.3 v0903a spring Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%inflicts %/%rows%neutralizes%"Special cooldown charge +X"%' OR Description LIKE '%rows%inflicts %/%neutralizes%"Special cooldown charge +X"%' OR Description LIKE '%number of foes within _ spaces of target%') AND Exclusive='1'}}
+* [[Rein Passives]]
+* [[Skill families/A Passives#Crux|Crux Passives]]
+{{Weapons Navbox}}

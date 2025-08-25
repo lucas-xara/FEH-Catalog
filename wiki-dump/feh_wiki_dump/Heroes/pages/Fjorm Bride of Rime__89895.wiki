@@ -1,0 +1,75 @@
+{{#invoke:NameAbout|main|Name=Fjorm}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Fjorm
+|Title=Bride of Rime
+|GrowthModifier=Gen 3
+|WeaponType=Colorless Staff
+|Origin=Fire Emblem Heroes
+|Gender=Female
+|MoveType=Flying
+|actorJP=高橋李依
+|actorEN=Heather Watson
+|artist=前嶋重機
+|additionDate=May 21, 2019
+|releaseDate=May 21, 2019
+|TagID=花嫁フィヨルム
+|InternalID=377
+|Properties=special,specRate_202302
+|cv1=0
+|cv2=200100
+|description=The middle princess of Nifl. Dressed in an elegant dress with clean lines, she elevates the style of the bridal festival.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=8|Lv1SPD=10|Lv1DEF=4|Lv1RES=4
+|GRHP=55|GRATK=60|GRSPD=55|GRDEF=30|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Assault
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Gjallarbrú
+|weapon2Default=5
+|weapon2Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Heal
+|assist1Default=1
+|assist1Unlock=1
+|assist2=Reconcile
+|assist2Default=3
+|assist2Unlock=2
+|assist3=Restore
+|assist3Default=4
+|assist3Unlock=3
+|assist4=Restore+
+|assist4Default=5
+|assist4Unlock=5
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=HP +3
+|passiveA2=HP/Atk 1
+|passiveA3=HP/Atk 2
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=Dazzling Staff 1
+|passiveB2=Dazzling Staff 2
+|passiveB3=Dazzling Staff 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Ground Orders 1
+|passiveC2=Ground Orders 2
+|passiveC3=Ground Orders 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Bridal Festival units]]

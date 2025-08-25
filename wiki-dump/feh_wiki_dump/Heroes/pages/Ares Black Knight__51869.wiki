@@ -1,0 +1,71 @@
+{{#invoke:NameAbout|main|Name=Ares}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Ares
+|Title=Black Knight
+|WeaponType=Red Sword
+|Origin=Fire Emblem: Genealogy of the Holy War
+|GrowthModifier=Gen 2
+|Gender=Male
+|MoveType=Cavalry
+|actorEN=Robbie Daymond
+|actorJP=興津和幸
+|artist=п猫Ｒ
+|releaseDate=May 10, 2018
+|additionDate=May 9, 2018
+|poolDate=May 21, 2018
+|randomStartTime=2018-06-10T07:00:00Z
+|poolRarities=3,4
+|TagID=アレス
+|InternalID=246
+|cv1=3
+|cv2=7900200
+|description=Eldigan's son and heir to Mystletainn. After his parents passed away, he joined up with a mercenary captain called Javarro. Appears in Fire Emblem: Genealogy of the Holy War.
+|Properties=demoted_201904
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=8|Lv1SPD=8|Lv1DEF=7|Lv1RES=5
+|GRHP=50|GRATK=65|GRSPD=50|GRDEF=60|GRRES=30
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Slaying Edge
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Dark Mystletainn
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Draconic Aura
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Brazen Atk/Def 1
+|passiveA2=Brazen Atk/Def 2
+|passiveA3=Brazen Atk/Def 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=Seal Def 1
+|passiveB2=Seal Def/Res 1
+|passiveB3=Seal Def/Res 2
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+{{Heroes Navbox}}

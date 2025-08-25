@@ -1,0 +1,43 @@
+{{Special
+|tagid=SID_凶弾・神
+|intID=4406
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=3
+|effect=At the start of turns 1 through 4, grants Special cooldown count-3 to unit.<br><br>When Special triggers, boosts damage by 50% of the greater of unit's or foe's Def.<br><br>If unit's or foe's Special is ready or triggered before or during this combat, reduces damage from foe's next attack by 40% (once per combat; excluding area-of-effect Specials).
+|required=Brutal Shell
+|properties=offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Reduce Cooldown|3}}
+|MeC=At start of turns 1 - 4
+|Ce1={{Eft|Damage Boost|50% of the greater of<br>{{Tgt|Unit}}'s '''or''' {{Tgt|Foe}}'s Def}}
+|Ce1C=Special triggers
+|Ce2={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s next attack
+|Ce2C={{Tgt|Unit}} or {{Tgt|Foe}}'s<br>Special is ready '''or'''<br>triggered before or<br>during combat
+}}
+==Notes==
+{{Start of turn Special modification}}
+{{DamageBoost}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%At the start of turns 1 through 4%' OR Description LIKE '%boosts damage%the greater of%' OR SCategory='special' AND (Description LIKE '%reduces damage from foe_s next attack%' OR Description LIKE '%at%start of turn%special cooldown count-%')) AND Exclusive='1'}}
+{{Specials Navbox}}

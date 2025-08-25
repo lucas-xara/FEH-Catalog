@@ -1,0 +1,45 @@
+{{Special
+|tagid=SID_霞切り
+|intID=4573
+|exclusive=0
+|canUseWeapon={{WeaponList|Melee}}
+|canUseMove={{MoveList|exclude=Armored}}
+|cost=500
+|cooldown=3
+|effect=Boosts damage by 35% of unit's Atk when Special triggers.<br><br>If unit initiates combat, grants Special cooldown count-1 to unit before unit's first attack and reduces damage from foe's attacks by 40% during combat (excluding area-of-effect Specials).
+|required=Draconic Aura
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Damage Boost|35% of {{Tgt|Unit}}'s Atk}}
+|Ce1C=Special triggers
+|Ce2={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Unit}}'s first attack
+|Ce3={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s attacks
+|Ce2-3C=Player Phase
+}}
+==Notes==
+{{AtkDamageBoost}}
+{{IfUnitInitiates}}
+{{CombatCooldownCount|-1}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=Corte niebla
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=SCategory='special' AND Description LIKE '%Boosts%of unit_s Atk%' AND Exclusive='1'}}
+{{Specials Navbox}}

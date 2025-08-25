@@ -1,0 +1,52 @@
+{{Passive
+|type=B
+|name=Solar Brace
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Solar Brace
+|1tagid=SID_太陽の腕輪
+|1required=-
+|1next=-
+|1effect=Restores HP = 30% of damage dealt when Special triggers. (Stacks with effects of skills like Sol.)
+|1cost=300
+|2name=Solar Brace II
+|2tagid=SID_太陽の腕輪・承
+|2cost=300
+|properties2=
+|2effect=Enables【Canto (２)】.<br><br>Neutralizes effects that inflict "Special cooldown charge -X" on unit during combat. Restores 10 HP to unit after combat.<br><br>【Canto (２)】<br>After an attack, Assist skill, or structure destruction, unit can move ２ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Solar Brace}} Solar Brace
+|s1 Ce={{Eft|Heal|30% of damage dealt}} per<br>{{Tgt|Unit}}'s [[offensive Special]]
+|skill2={{Si|Solar Brace II}} Solar Brace II
+|s2 Me1={{Eft|Canto|2}}
+|s2 Me2={{Eft|Heal|10}}
+|s2 Me2C=After combat
+|s2 Ce={{Eft|Neutralize Guard}}
+}}
+==Notes==
+* The healing calculation will always use the [[Damage calculation#Final Damage calculation|final damage number]] for the damage dealt.
+{{CombatHPRecovery}}
+{{Canto|2}}
+{{CooldownChargeMinusNeutralization|name=Solar Brace II}}
+{{After combat healing|name=Solar Brace II}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=太陽の腕輪
+|german=Sol-Band
+|spanishEU=Brazalete solar
+|spanishLA=Brazalete solar
+|french=Bracelet solaire
+|italian=Bracciale solare
+|chineseTW=太陽手鐲
+|portuguese=Bracelete solar
+}}
+==See also==
+{{See also skills|cond=WikiName IN ('Lunar Brace') OR WikiName LIKE '%li%t% Bangle%' OR Description LIKE '%estores HP = % of damage dealt%' AND Exclusive='1'}}
+* [[Self-Healing Specials]]
+{{Passives Navbox|B}}

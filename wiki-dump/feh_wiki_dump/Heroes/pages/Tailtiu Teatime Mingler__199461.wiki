@@ -1,0 +1,65 @@
+{{#invoke:NameAbout|main|Name=Tailtiu}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Tailtiu
+|Title=Teatime Mingler
+|WeaponType=Green Tome
+|MoveType=Infantry
+|Origin=Fire Emblem: Genealogy of the Holy War
+|Gender=Female
+|actorEN=Heather Watson
+|actorJP=桑島法子
+|artist=うらたあさお
+|additionDate=August 7, 2023
+|releaseDate=August 8, 2023
+|cv1=3
+|cv2=500100
+|TagID=お茶会ティルテュ
+|InternalID=985
+|Properties=limited,tempest,specDisplay,tiara
+|description=Noblewoman of House Friege and descendant of the crusader Thrud. She holds tea parties to form personal connections. Appears in Fire Emblem: Genealogy of the Holy War.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=12|Lv1SPD=9|Lv1DEF=4|Lv1RES=9
+|GRHP=50|GRATK=70|GRSPD=80|GRDEF=40|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Wind
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elwind
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Teacake Tower
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Teacake Tower+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Reciprocal Aid
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Still Water 1
+|passiveA2=Still Water 2
+|passiveA3=Still Water 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Spur Atk 1
+|passiveC2=Drive Atk 1
+|passiveC3=Drive Atk 2
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Tea Party units]]

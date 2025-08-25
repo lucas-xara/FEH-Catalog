@@ -1,0 +1,107 @@
+{{Weapon Infobox
+|tagid=SID_天日の神剣
+|intID=4454
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br>Neutralizes "effective against flying" bonuses.<br><br>After start-of-turn effects trigger on enemy phase, converts bonuses on closest foes and foes within 2 spaces of those foes into penalties (does not convert bonuses applied at the same time).<br><br>If unit initiates combat or is within 2 spaces of an ally, grants bonus to unit's Atk/Spd/Def/Res = number of foes within 3 rows or 3 columns centered on unit × 3, + 5 (max 14), grants Special cooldown charge +1 per attack (only highest value applied; does not stack), deals damage = 20% of unit's Spd (excluding area-of-effect Specials), and reduces damage from foe's attacks by X during combat (if foe is red, green, or colorless, X = 50% of unit's Spd; otherwise, X = 20% of unit's Spd; excluding area-of-effect Specials), and also, when foe's attack triggers foe's Special, reduces damage from foe's attacks by an additional X (excluding area-of-effect Specials).<br><br>If unit initiates combat, applies 【Divine Vein (Flame)】on 5 spaces in a line centered on foe's space and on the 5 spaces behind those spaces (based on direction unit is facing) for 1 turn after combat.<br><br>【Divine Vein (Flame)】<br>Applies the following effects on space: Acts as difficult terrain for foes with Range = 2 (moving over this space costs +1 movement; does not apply to "cannot be slowed by terrain" effects; movement cost cannot exceed unit's allowed movement). At start of enemy phase, deals 7 damage to foe, and also, as combat begins, deals an additional 7 damage to foe (effects that reduce damage "during combat" do not apply; will not reduce foe's HP below 1). (Divine Vein effects do not stack; replaces any existing Divine Vein effect; Divine Vein effects applied simultaneously cancel each other out.)
+|required=Silver Sword
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Se1={{Eft|Penalties|Atk/Spd/Def/Res|{{SEt|Bonus}} on each stat}}
+|Se2=Removes {{SEt|Bonuses}}
+|SeT=Nearest {{Tgt|Foes}}<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}
+|SeC=After start-of-turn<br>effects on<br>Enemy Phase
+|Me={{Eft|Divine Vein (Flame)}}
+|MeT=2 5 space lines with<br>closest line centered<br>on {{Tgt|Target Foe}}
+|MeC=After combat<br>in Player Phase
+|Ce1={{Eft|Neutralize Weakness|{{Mt|Flying}}}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|3 x {{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}, + 5|max=14}}
+|Ce3={{Eft|Accelerate Charge}}
+|Ce4={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|Ce5={{Eft|Damage Reduction|(50% if {{Tgt|Foe}} isn't<br>{{Wti|group=1|Blue}} Blue; else 20%)<br>of {{Tgt|Unit}}'s Spd}}<br>from {{Tgt|Foe}}'s attacks
+|Ce6={{Eft|Damage Reduction|(50% if {{Tgt|Foe}} isn't<br>{{Wti|group=1|Blue}} Blue; else 20%)<br>of {{Tgt|Unit}}'s Spd}} per<br>{{Tgt|Foe}}'s [[offensive Special]]
+|Ce2-6C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+
+==Notes==
+* Sun Sword has the same effect as {{St|Iote's Shield}}.
+{{Effectiveness neutralization|flying}}
+{{Bonus conversion}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{CooldownChargePlus}}
+{{DamageBoost}}
+{{FlatDamageReduction}}
+{{Divine Vein|Flame}}
+{{After combat note}}
+{| class="wikitable default mw-collapsible"
+!colspan=2 style="text-align:center;max-width:450px;margin:auto;" align="middle"|Examples of area-of-effect
+|-
+![[Temporary buffs]]
+|align="middle"|{{AoE|u=Baldr: Celestial Sun God|t=Rune: Source of Wisdom
+|---xxx---
+|---xxx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xtx---
+|---xxx---
+}}
+|-
+!{{Eft|Divine Vein (Flame)}}<br>Horizontal 
+|align="middle"|{{AoE|u=Baldr: Celestial Sun God|t=Rune: Source of Wisdom
+|-------
+|-xxxxx-
+|-xxtxx-
+|---u---
+|-------
+|-------
+|-------
+}}
+|-
+!{{Eft|Divine Vein (Flame)}}<br>Vertical
+|align="middle"|{{AoE|u=Baldr: Celestial Sun God|t=Rune: Source of Wisdom
+|-------
+|-xx----
+|-xx----
+|-xtu---
+|-xx----
+|-xx----
+|-------
+}}
+|}
+
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+Wep_sw187.webp|Sprite sheet
+Wep_sw187.gif|Animated weapon
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=Filo del albor
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+
+==See also==
+{{See also skills|cond=(Description LIKE '%Neutralizes "effective against flying" bonuses.%' OR Description LIKE '%After start-of-turn effects trigger on enemy phase, converts bonuses on closest foes and foes within _ spaces of those foes into penalties%' OR Description LIKE '%【Divine Vein (Flame)】%' OR Description LIKE '%foe_s attack triggers foe_s Special, reduces damage from foe_s attacks by an additional%') AND Exclusive='1'}}
+* [[Shield Passives]]
+* [[Excel Passives]]
+* [[Flare Passives]]
+{{Weapons Navbox}}

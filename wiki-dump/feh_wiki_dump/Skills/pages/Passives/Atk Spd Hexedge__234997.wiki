@@ -1,0 +1,53 @@
+{{Passive
+|name=Atk/Spd Hexedge
+|type=A
+|exclusive=0
+|canUseWeapon={{WeaponList|Missile,Melee}}
+|canUseMove={{MoveList|Infantry}}
+|properties=random_owner
+|1name=Atk/Spd Hexedge
+|alt1name=Atk Spd Hexedge
+|1tagid=SID_攻撃速さの呪刃
+|1effect=At start of turn, if unit is within 3 spaces of a magic, staff, or dragon ally, grants【Anathema】 to unit for 1 turn.<br><br>If【Anathema】is active on unit, grants Atk/Spd+7 to unit, unit deals +5 damage (excluding area-of-effect Specials), and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials).<br><br>【Anathema】<br>Inflicts Spd/Def/Res-4 on foes within 3 spaces of unit during combat.
+|1cost=300
+|1required=Sorcery Blade 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se={{SEt|Anathema}}
+|SeC=At start of turn<br>if {{Tgt|Unit}} is<br>[[within 3 spaces]]<br>of a {{Cwti|Magical|group=1}}<br>[[Magical]] {{Tgt|Ally}}
+|Ce1={{Eft|Temporary buffs|Atk/Spd|7}}
+|Ce2={{Eft|Damage Boost|5}}
+|Ce3={{Eft|Reduce Damage Reduction|50%}}
+|Ce3T={{Tgt|Foe}}
+|CeC={{SEt|Anathema}} is<br>active on {{Tgt|Unit}}
+}}
+
+==Notes==
+{{Anathema}}
+{{Temporary buffs}}
+{{FlatDamageBoost|5}}
+{{Reduce Damage Reduction}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Atk/Spd Hexedge
+|japanese=攻撃速さの呪刃
+|german=A/G-Fluchklinge
+|spanishEU=Filo aojo Ata/Vel
+|spanishLA=Filo umb. Atq./Vel
+|french=Épée sort Atq/Vit
+|italian=Lama nefasta A/V
+|chineseTW=攻擊速度之咒刃
+|portuguese=Lâminahexa A/V
+}}
+
+==See also==
+{{See also skills|cond=(Description LIKE '%【Anathema】%') AND Exclusive='1'}}
+* [[Skill families/A Passives#Hexedge|Hexedge Passives]]
+{{Passives Navbox|A}}

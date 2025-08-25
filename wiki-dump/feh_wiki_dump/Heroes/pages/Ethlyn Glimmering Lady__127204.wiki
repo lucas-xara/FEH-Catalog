@@ -1,0 +1,73 @@
+{{#invoke:NameAbout|main|Name=Ethlyn}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Ethlyn
+|Title=Glimmering Lady
+|WeaponType=Colorless Dagger
+|MoveType=Flying
+|Origin=Fire Emblem: Genealogy of the Holy War
+|Gender=Female
+|actorEN=Allegra Clark
+|actorJP=かかずゆみ
+|artist=kaya8
+|additionDate=September 7, 2020
+|releaseDate=September 8, 2020
+|cv1=3
+|cv2=700200
+|TagID=舞踏エスリン
+|InternalID=562
+|Properties=refresher,special,specRate_202402
+|description=Noblewoman of Chalphy, attending the dance festival with her husband, Quan. As always, she supports him every step of the way. Appears in Fire Emblem: Genealogy of the Holy War.
+}}
+{{Stats Page
+|Lv1HP=15|Lv1ATK=8|Lv1SPD=8|Lv1DEF=3|Lv1RES=6
+|GRHP=50|GRATK=65|GRSPD=75|GRDEF=30|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Dagger
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Dagger
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Courtly Fan
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Courtly Fan+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Dance
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=AR-D Atk/Spd 1
+|passiveA2=AR-D Atk/Spd 2
+|passiveA3=AR-D Atk/Spd 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Windsweep 1
+|passiveB2=Windsweep 2
+|passiveB3=Windsweep 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Spur Spd 1
+|passiveC2=Drive Spd 1
+|passiveC3=Drive Spd 2
+|passiveC4=Joint Drive Spd
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Dance Festival units]]

@@ -1,0 +1,71 @@
+{{#invoke:NameAbout|main|Name=Corrin}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Corrin
+|Title=Enjoying Tradition
+|GrowthModifier=Gen 2
+|WeaponType=Colorless Bow
+|MoveType=Infantry
+|Origin=Fire Emblem Fates
+|Gender=Male
+|actorEN=Cam Clarke
+|actorJP=島﨑信長
+|artist=まいぽんぽん
+|releaseDate=January 16, 2018
+|additionDate=December 31, 2017
+|TagID=年明けカムイ男
+|InternalID=200
+|Person=Corrin M
+|Properties=tempest,specDisplay,limited
+|cv1=11
+|cv2=100100
+|description=A Hoshidan prince raised in Nohr. His kimono was prepared by Mikoto while she was still alive. Appears in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=8|Lv1SPD=8|Lv1DEF=6|Lv1RES=5
+|GRHP=45|GRATK=55|GRSPD=50|GRDEF=65|GRRES=30
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Hama Ya
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Hama Ya+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Rally Defense
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Rally Def/Res
+|assist2Default=
+|assist2Unlock=4
+}}
+
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Defense +1
+|passiveA2=Attack/Def +1
+|passiveA3=Attack/Def +2
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Spur Def 1
+|passiveC2=Spur Def/Res 1
+|passiveC3=Spur Def/Res 2
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:New Year's units]]

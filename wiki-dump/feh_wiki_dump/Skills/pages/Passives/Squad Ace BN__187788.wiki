@@ -1,0 +1,50 @@
+{{Passive
+|type=S
+|name=Squad Ace BN
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|1name=Squad Ace BN 1
+|alt1name=Squad Ace AJ 1
+|1tagid=SID_第66迷宮の覇者1
+|1cost=80
+|1effect=Grants Atk/Def+1.
+|statModifiers1=0,1,0,1,0
+|1required=-
+|1next=-
+|2name=Squad Ace BN 2
+|alt2name=Squad Ace AJ 2
+|2tagid=SID_第66迷宮の覇者2
+|2cost=160
+|2effect=Grants Atk/Def+2.
+|statModifiers2=0,2,0,2,0
+}}
+==Seal acquired from==
+===Squad Assault reward===
+* Complete the [[66th Assault]].
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Squad Ace BN 1;Squad Ace BN 2
+|badgeColor=Scarlet
+|costs1=-<!--0;0;0-->
+|costs2=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|english=Squad Ace BN
+|japanese=第６６迷宮の覇者
+|german=Überfall-Ass BN
+|spanishEU=As del asalto BN
+|spanishLA=As del asalto BN
+|french=Assaut réussi BN
+|italian=Asso sq. BN
+|chineseTW=第６６迷宮的霸王
+|portuguese=Esquad. ás BN
+}}
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}
+[[Category:Squad Ace Seals]]

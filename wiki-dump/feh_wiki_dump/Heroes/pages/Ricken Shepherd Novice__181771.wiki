@@ -1,0 +1,69 @@
+{{#invoke:NameAbout|main|Name=Ricken}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Ricken
+|Title=Shepherd Novice
+|WeaponType=Green Tome
+|MoveType=Infantry
+|Origin=Fire Emblem Awakening
+|Gender=Male
+|actorEN=Yuri Lowenthal
+|actorJP=増田ゆき
+|artist=えいひ
+|randomStartTime=2022-11-17T07:00:00Z
+|additionDate=October 17, 2022
+|releaseDate=October 17, 2022
+|poolDate=October 17, 2022
+|poolRarities=3,4
+|cv1=10
+|cv2=101300
+|TagID=リヒト
+|InternalID=865
+|Properties=hat,tiara
+|description=A mage who joined the Shepherds as an apprentice in hopes of learning all he's able from his mentor, Chrom. Young, but a hard worker. Appears in Fire Emblem Awakening.
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=13|Lv1SPD=9|Lv1DEF=5|Lv1RES=8
+|GRHP=55|GRATK=70|GRSPD=70|GRDEF=45|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Wind
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elwind
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Gronnrabbit
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Gronnrabbit+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Form 1
+|passiveA2=Atk/Spd Form 2
+|passiveA3=Atk/Spd Form 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Spur Spd 1
+|passiveC2=Spur Atk/Spd 1
+|passiveC3=Spur Atk/Spd 2
+|passiveC1Unlock=1
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

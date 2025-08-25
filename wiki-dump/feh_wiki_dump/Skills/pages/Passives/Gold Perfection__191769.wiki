@@ -1,0 +1,49 @@
+{{Passive
+|name=Gold Perfection
+|type=S
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=enemy_only
+|1name=Gold Perfection
+|1tagid=SID_完全なる黄金
+|1effect=Reduces damage dealt to unit to 0.
+|1cost=0
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce={{Eft|Prevent Damage}}<br>outside '''or''' during combat
+}}
+==Notes==
+* A unit with Gold Perfection will still take damage from [[Umbra Burst]] weapons and [[Røkkr AoE Specials]].
+==Usage in Story Maps==
+{{#cargo_query:tables=MapUnits=MU,Units=U,Skills=S
+|fields=CONCAT('[[',MU._pageName,'{{!}}{{(}}#invoke:GetFancyMapName{{!}}getFancyName{{!}}',MU._pageName,'{{)}}]] — {{(}}Ut{{!}}',U.WikiName,'{{)}}')
+|join on=MU.Unit=U.WikiName,S.WikiName=MU.Seal
+|where=S.WikiName='Gold Perfection'
+|group by=MU._pageName
+|order by=MU._pageID
+|format=ul
+}}
+==Seal acquired from==
+* This is a story exclusive Sacred Seal. It is exclusively equipped by {{Ht|Gullveig: Golden Seer}} in [[:Category:Defensive battle maps|defensive battle maps]].
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Gold Perfection
+|badgeColor=-
+|costs1=-
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=完全なる黄金
+|german=Gold. Perfektion
+|spanishEU=Excelencia áurea
+|spanishLA=Excelencia áurea
+|french=Perfection dorée
+|italian=Perfezione aurea
+|chineseTW=完美的黃金
+|portuguese=Perfeição áurea
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%Reduces damage dealt to unit to 0.%'}}
+{{Seals Navbox}}

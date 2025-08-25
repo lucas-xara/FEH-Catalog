@@ -1,0 +1,33 @@
+{{Passive
+|type=B
+|exclusive=0
+|1name=Live for Honor
+|1tagid=SID_栄誉の喜び
+|1required=-
+|1effect=If unit survives, get 1.5x badges from a Training Tower map.<br>(Only highest value applied. Does not stack.)
+|1cost=100
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=
+}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=栄誉の喜び
+|german=Für Ehre
+|spanishEU=Vivir por el honor
+|spanishLA=Vivir por el honor
+|french=Honneur
+|italian=Vita e onore
+|chineseTW=榮譽之喜悅
+|portuguese=Viver pela honra
+}}
+==See also==
+* [[Live for Bounty]]
+{{Passives Navbox|B}}
+[[Category:Live Passives]]

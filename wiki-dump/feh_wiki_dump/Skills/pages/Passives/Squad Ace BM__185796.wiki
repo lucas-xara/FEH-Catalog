@@ -1,0 +1,49 @@
+{{Passive
+|type=S
+|name=Squad Ace BM
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|1name=Squad Ace BM 1
+|alt1name=Squad Ace AI 1
+|1tagid=SID_第65迷宮の覇者1
+|1cost=80
+|1effect=Grants Atk/Spd+1.
+|statModifiers1=0,1,1,0,0
+|1required=-
+|1next=-
+|2name=Squad Ace BM 2
+|alt2name=Squad Ace AI 2
+|2tagid=SID_第65迷宮の覇者2
+|2cost=160
+|2effect=Grants Atk/Spd+2.
+|statModifiers2=0,2,2,0,0
+}}
+==Seal acquired from==
+===Squad Assault reward===
+* Complete the [[65th Assault]].
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Squad Ace BM 1;Squad Ace BM 2
+|badgeColor=Azure
+|costs1=-<!--0;0;0-->
+|costs2=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|english=Squad Ace BM
+|japanese=第６５迷宮の覇者
+|german=Überfall-Ass BM
+|spanishEU=As del asalto BM
+|spanishLA=As del asalto BM
+|french=Assaut réussi BM
+|italian=Asso sq. BM
+|chineseTW=第６５迷宮的霸王
+|portuguese=Esquad. ás BM
+}}
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}

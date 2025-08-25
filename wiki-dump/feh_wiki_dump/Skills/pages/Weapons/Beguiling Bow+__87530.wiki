@@ -1,0 +1,41 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_春の妖弓＋
+|weaponType=Bow
+|might=12
+|range=2
+|effectiveness=flying
+|effect=Effective against flying foes. At start of combat, if foe’s HP = 100%, grants Atk/Spd/Def/Res+2 during combat.
+|cost=300
+|exclusive=0
+|userVersion1=Bow
+|userVersion2=Arrow
+|statModifiers=0,12,0,0,0
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{Combat boosts}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=春の妖弓＋
+|german=Gaunerbogen+
+|spanishEU=Arco seductor +
+|spanishLA=Arco seductor +
+|french=Arc sournois +
+|italian=Arco subdolo+
+|chineseTW=春之妖弓＋
+|portuguese=Arco atraente+
+}}
+
+==See also==
+* 
+{{Weapons Navbox}}

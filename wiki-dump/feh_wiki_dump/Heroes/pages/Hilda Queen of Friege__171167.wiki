@@ -1,0 +1,66 @@
+{{#invoke:NameAbout|main|Name=Hilda}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Hilda
+|Title=Queen of Friege
+|WeaponType=Red Tome
+|MoveType=Infantry
+|Origin=Fire Emblem: Genealogy of the Holy War
+|Gender=Female
+|actorEN=Liz Morey
+|actorJP=三瓶由布子
+|artist=motsutsu
+|additionDate=April 18, 2022
+|releaseDate=April 19, 2022
+|cv1=3
+|cv2=9901100
+|TagID=聖戦ヒルダ
+|InternalID=797
+|Properties=limited,ghb
+|description=Wife of Bloom, leader of House Friege. Feared for her cruelty after it is revealed she forces children to participate in evil rituals. Appears in Fire Emblem: Genealogy of the Holy War.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=10|Lv1SPD=8|Lv1DEF=5|Lv1RES=10
+|GRHP=55|GRATK=70|GRSPD=40|GRDEF=45|GRRES=70
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elfire
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Bolganone
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Fiery Bolganone
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Glacies
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Res Ideal 1
+|passiveA2=Atk/Res Ideal 2
+|passiveA3=Atk/Res Ideal 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Rouse Atk/Res 1
+|passiveC2=Rouse Atk/Res 2
+|passiveC3=Rouse Atk/Res 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

@@ -1,0 +1,71 @@
+{{#invoke:NameAbout|main|Name=Ced}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Ced
+|Title=Hero on the Wind
+|WeaponType=Green Tome
+|Origin=Fire Emblem: Genealogy of the Holy War
+|Gender=Male
+|MoveType=Infantry
+|actorJP=梶原岳人
+|actorEN=Phillip Reich
+|artist=須田彩加
+|additionDate=January 8, 2020
+|releaseDate=January 9, 2020
+|poolDate=January 30, 2020
+|poolRarities=5
+|randomStartTime=2020-02-09T07:00:00Z
+|TagID=セティ
+|InternalID=473
+|Properties=specRate_202208
+|cv1=3
+|cv2=8100100
+|description=Son of Silesse's pegasus knight Erinys. A hero that stood up for the liberation of Munster. Appears in Fire Emblem: Genealogy of the Holy War.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=7|Lv1SPD=11|Lv1DEF=4|Lv1RES=7
+|GRHP=45|GRATK=65|GRSPD=65|GRDEF=35|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Wind
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elwind
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Rexcalibur
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Winds of Silesse
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Spd/Res Solo 1
+|passiveA2=Spd/Res Solo 2
+|passiveA3=Spd/Res Solo 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Pulse Smoke 1
+|passiveC2=Pulse Smoke 2
+|passiveC3=Pulse Smoke 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

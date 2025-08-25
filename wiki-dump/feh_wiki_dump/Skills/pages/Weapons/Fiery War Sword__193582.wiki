@@ -1,0 +1,37 @@
+{{Weapon Infobox
+|tagid=SID_戦神の烈剣
+|intID=3546
+|image=wep_sw149
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+X to unit during combat (X = number of【Bonus】effects active on unit, excluding stat bonuses × 3, + 5; max 17), neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks, and reduces damage from foe's first attack by 40% during combat.<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|statModifiers=0,16,0,0,0
+|required=Silver Sword
+|properties=
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{EffectfromBonus|nonStat=1|temporary buffs}}
+{{Follow-up effect neutralization}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=戦神の烈剣
+|german=Feuerkriegsklinge
+|spanishEU=Hoja bélica ígnea
+|spanishLA=Hoja bélica ígnea
+|french=Feu belliqueux
+|italian=Fiamma di guerra
+|chineseTW=戰神的烈劍
+|portuguese=Espada flamante
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%number of【Bonus】%effects active on%' OR Description LIKE '%grants Atk/Spd/Def/Res+%neutralizes effects%reduces damage from foe_s first attack%' OR Description LIKE '%grants Atk/Spd/Def/Res+%reduces damage from foe_s first attack%neutralizes effects%') AND (Exclusive='1' AND Name NOT LIKE '%+')}}
+{{Weapons Navbox}}

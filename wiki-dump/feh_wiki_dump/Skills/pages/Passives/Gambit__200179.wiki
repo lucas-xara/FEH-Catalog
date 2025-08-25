@@ -1,0 +1,70 @@
+{{Passive
+|name=Gambit
+|type=B
+|exclusive=0
+|canUseWeapon={{WeaponList|Melee}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Gambit 1
+|1tagid=SID_奥の手1
+|1effect=If unit's or foe's attack can trigger unit's Special, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = unit's max Special cooldown count value × 4 (max 20%).
+|1cost=60
+|1required=-
+|1promotionTier=1
+|1promotionRarity=4
+|2name=Gambit 2
+|2tagid=SID_奥の手2
+|2effect=If unit's or foe's attack can trigger unit's Special, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = unit's max Special cooldown count value × 7 (max 35%).
+|2cost=120
+|2promotionTier=1
+|2promotionRarity=5
+|3name=Gambit 3
+|3tagid=SID_奥の手3
+|3effect=If unit's or foe's attack can trigger unit's Special, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = unit's max Special cooldown count value × 10 (max 50%).
+|3cost=240
+|3next=-
+|4name=Gambit 4
+|4tagid=SID_奥の手4
+|4effect=Inflicts Spd/Def-4 on foe during combat, and also, if unit's or foe's attack can trigger unit's Special, deals damage during combat = unit's max Special cooldown count value - 2, × 5 (min 0; max 15; excluding area-of-effect Specials) and reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = unit's max Special cooldown count value × 10 (max 50%).
+|4cost=300
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Gambit 3}} Gambit 3
+|s1 Ce={{Eft|Damage Reduction|10 x ({{Tgt|Unit}}'s max Special CD)<br>from attacks & Non-Røkkr [[AoE Specials]]|percent=1|max=50%}}
+|s1 CeC={{Tgt|Unit}} has a<br>combat [[Special]]
+|skill2={{Si|Gambit 4}} Gambit 4
+|s2 Ce1={{Eft|Temporary debuffs|Spd/Def|4}}
+|s2 CeT1={{Tgt|Foe}}
+|s2 Ce2={{Eft|Damage Boost|5 x ({{Tgt|Unit}}'s max Special CD -2)|min=0|max=15}}
+|s2 Ce3={{Eft|Damage Reduction|10 x ({{Tgt|Unit}}'s max Special CD)<br>from attacks & Non-Røkkr [[AoE Specials]]|percent=1|max=50%}}
+|s2 CeC2-3={{Tgt|Unit}} has a<br>combat [[Special]]
+}}
+==Notes==
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+{{Temporary debuffs|name=Gambit 4}}
+{{DamageBoost|name=Gambit 4}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Gambit
+|japanese=奥の手
+|german=Schachzug
+|spanishEU=Táctica especial
+|spanishLA=Táctica especial
+|french=Manœuvre
+|italian=Stratagemma
+|chineseTW=底牌
+|portuguese=Estratagema
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%unit_s max special cooldown count value%') AND (Exclusive='1' AND Name NOT LIKE '%+' AND Properties HOLDS NOT 'arcane')}}
+* [[Gambit Passives]]
+{{Passives Navbox|B}}

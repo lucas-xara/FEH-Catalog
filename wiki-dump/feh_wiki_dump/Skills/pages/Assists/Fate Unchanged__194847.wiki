@@ -1,0 +1,50 @@
+{{Assist
+|tagid=SID_運命ハ変ワラナイ…
+|intID=3601
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|range=1
+|effect=Moves target ally to opposite side of unit, grants another action to unit, inflicts【Isolation】 on unit and Pair Up cohort (if any) through their next action, inflicts【Exposure】on nearest foes within 4 spaces of both unit and target ally after movement through their next actions and on foes within 2 spaces of those foes equipped with a skill that can trigger the Savior effect through their next actions. (Additional action granted and Isolation inflicted once per turn only.)<br><br>【Isolation】<br>Target cannot use or be the target of Assist skills through its next action. (Target can neither use nor be the target of skills like Dance and Sing, skills that neutralize penalties, like Restore and Harsh Command+, etc.)<br><br>【Exposure】<br>Foe's attacks deal +10 damage.
+|required=Reposition
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|StatusEffect 1={{SEt|Isolation}}
+|StatusEffect 1 Targets={{Tgt|Unit}} '''&'''<br>{{Tgt|Cohort}}
+|StatusEffect 2={{SEt|Exposure}}
+|StatusEffect 2 Targets=Nearest {{Tgt|Foes}}<br>[[within 4 spaces]] of<br>{{Tgt|Unit}} '''&''' {{Tgt|Target Ally}}<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}<br>with {{Eft|Savior}}
+|Se1C={{Tgt|Unit}} uses Assist
+|Se2C={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}
+|MapEffect 1={{Eft|Reposition Units}}
+|MapEffect 1 Targets={{Tgt|Target Ally}}
+|MapEffect 2={{Eft|Another Action}}<br>(once per turn)
+|MapEffect 2 Targets={{Tgt|Unit}}
+|Me1C={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}
+|Me2C={{Tgt|Unit}} uses Assist
+}}
+
+==Notes==
+* Has the same effect as {{St|Reposition}}.
+{{Movement skill notes|notBeforeRokkr=1}}
+{{Isolation}}
+{{Exposure}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=運命ハ変ワラナイ…
+|german=Stetes Schicksal
+|spanishEU=Sino inalterado
+|spanishLA=Sino inalterado
+|french=Destin immuable
+|italian=Svolta inesorabile
+|chineseTW=命運不會改變……
+|portuguese=Destino imutável
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%another action to unit%' OR Description LIKE '%grants unit another action%' OR (Description LIKE '%can trigger the Savior effect%' OR Description LIKE '%【Exposure】%') AND Exclusive='1'}}
+* [[Snag Passives]]
+{{Assists Navbox}}

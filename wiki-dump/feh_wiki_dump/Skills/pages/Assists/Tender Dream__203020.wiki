@@ -1,0 +1,44 @@
+{{Assist
+|tagid=SID_やさしいひとのゆめ
+|intID=3829
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=400
+|range=1
+|effect=Grants another action to target ally. Grants Atk/Spd/Def/Res+4, "unit can move to a space adjacent to any ally within 2 spaces," and 【Canto (１)】to target ally and allies in cardinal directions of unit and target ally (excluding unit) for 1 turn. (Cannot target an ally with Sing or Dance. This skill treated as Sing or Dance.)<br><br>【Canto (１)】<br>After an attack, Assist skill, or structure destruction, unit can move １ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|required=Dance
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Another Action}}
+|MeT={{Tgt|Target Ally}}
+|MeC={{Tgt|Target (Ally)}}<br>doesn't have a<br>{{Uti|Dance}} [[Dance Assist]]<br>'''or''' {{SEt|Isolation}}
+|Se1={{Eft|Bonus|Atk/Spd/Def/Res|4}}
+|Se2={{SEt|Air Orders}}
+|Se3={{SEt|Canto (1)}}
+|Se1-3T={{Tgt|Target Ally}} '''&''' {{Tgt|Allies}}<br>in [[cardinal directions]] of<br>{{Tgt|Unit}} '''&''' {{Tgt|Target Ally}}
+|SeC={{Tgt|Target (Ally)}}<br>doesn't have a<br>{{Uti|Dance}} [[Dance Assist]]<br>'''or''' {{SEt|Isolation}}
+}}
+==Notes==
+{{Bonuses}}
+{{Air Orders}}
+{{Canto|1|statusEffect=1}}
+{{CardinalDirections}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=やさしいひとのゆめ
+|german=Zarter Traum
+|spanishEU=Ensueño tierno
+|spanishLA=Ensueño tierno
+|french=Rêve agréable
+|italian=Sogni soffici
+|chineseTW=溫柔之人的夢
+|portuguese=Sonho terno
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%This skill treated as Sing or Dance%' OR Description LIKE '%【Canto (１)】%') AND (Exclusive='1' AND Name NOT LIKE '%+' AND Properties HOLDS NOT 'arcane')}}
+{{Assists Navbox}}

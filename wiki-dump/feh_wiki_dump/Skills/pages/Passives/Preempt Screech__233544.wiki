@@ -1,0 +1,45 @@
+{{Passive
+|name=Preempt Screech
+|type=C
+|exclusive=0
+|canUseWeapon={{WeaponList|Beast}}
+|canUseMove={{MoveList|Infantry,Cavalry,Flying}}
+|properties=random_owner
+|1name=Preempt Screech
+|1tagid=SID_暗獣・初撃の鼓動
+|1effect=Inflicts Spd/Def-4 on foe, disables skills of all foes, excluding foe in combat, and grants Special cooldown count-1 to unit before unit's first attack during combat.
+|1cost=300
+|1required=C Feud 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary debuffs|Spd/Def|4}}
+|Ce2={{Eft|Disable Ally Skills}}
+|Ce1-2T={{Tgt|Foe}}
+|Ce3={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Unit}}'s first attack
+}}
+==Notes==
+{{Temporary debuffs}}
+{{CombatEffectNeutralization}}
+{{CombatCooldownCount|-1}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%disable%skills of all%excluding%' AND WikiName NOT LIKE '%Feud%') OR Description LIKE '%【Feud】%'}}
+* [[Skill families/C Passives#Feud|Feud Passives]]
+{{Passives Navbox|C}}

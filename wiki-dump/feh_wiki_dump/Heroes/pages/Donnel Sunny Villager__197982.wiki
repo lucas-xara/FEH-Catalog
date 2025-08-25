@@ -1,0 +1,65 @@
+{{#invoke:NameAbout|main|Name=Donnel}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Donnel
+|Title=Sunny Villager
+|WeaponType=Green Axe
+|MoveType=Infantry
+|Origin=Fire Emblem Awakening
+|Gender=Male
+|actorEN=Sam Regal
+|actorJP=市来光弘
+|artist=みく郎
+|additionDate=July 6, 2023
+|releaseDate=July 7, 2023
+|cv1=10
+|cv2=200200
+|TagID=水着ドニ
+|InternalID=972
+|Properties=limited,tempest,specDisplay,hat
+|description=A farm boy from the countryside of Ylisse out enjoying the ocean with his beloved pot. Appears in Fire Emblem Awakening.
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=10|Lv1SPD=5|Lv1DEF=10|Lv1RES=6
+|GRHP=70|GRATK=80|GRSPD=60|GRDEF=70|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Wooden Tackle
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Wooden Tackle+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Reciprocal Aid
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Def Form 1
+|passiveA2=Atk/Def Form 2
+|passiveA3=Atk/Def Form 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=Chill Def 1
+|passiveB2=Chill Def/Res 1
+|passiveB3=Chill Def/Res 2
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Summer units]]

@@ -1,0 +1,38 @@
+{{Weapon Infobox
+|tagid=SID_忍の和弓＋
+|intID=2822
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=0
+|weaponType=Bow
+|cost=300
+|might=7
+|range=2
+|effectiveness=Flying
+|effect=Effective against flying foes. Inflicts Def/Res-4. If unit initiates combat, unit attacks twice, and also, if unit's Spd > foe's Spd, deals damage = 50% of difference between stats. (Maximum bonus of +4 damage.)
+|statModifiers=0,7,0,-4,-4
+|required=Ninja Yumi
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|Flying}}
+{{IfUnitInitiates}}
+{{Brave weapon interaction}}
+{{BonusStatDamage|stat=Spd|4|8}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=忍の和弓＋
+|german=Ninja Yumi+
+|spanishEU=Yumi ninja +
+|spanishLA=Yumi ninja +
+|french=Yumi ninja +
+|italian=Yumi ninja+
+|chineseTW=忍之和弓＋
+|portuguese=Yumi ninja+
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%inflicts Def/Res-%unit attacks twice%' OR Description LIKE '%unit_s Spd%>%foe_s%deals damage =%difference between%') AND (SP=300 OR Exclusive='1')}}
+* [[Brave Weapons]]
+{{Weapons Navbox}}

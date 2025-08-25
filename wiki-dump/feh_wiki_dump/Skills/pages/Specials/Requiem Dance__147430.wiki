@@ -1,0 +1,48 @@
+{{Special
+|tagid=SID_鎮魂の舞
+|charge=3
+|effect=If unit initiates combat, after combat, grants another action to ally with the highest HP within 2 spaces (excluding unit) that has already acted. (Once per turn.) (Allies with Sing or Dance can be granted this effect as well. If multiple units meet the conditions, effect will not trigger.) If an ally is granted an additional action this way, inflicts "restricts movement to 1 space" on that ally (and their Pair Up cohort).
+|cost=500
+|exclusive=1
+|required=Glacies
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|intID=2704
+|sort=580
+|effectRange=2
+|value=12
+|timingID=6
+|abilityID=302
+|limit1ID=1
+|randomTimestamp=2021-09-17T07:00:00Z
+|randomMinLv=31
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Another Action}}
+|MeT={{Tgt|Ally}} with<br>the highest HP<br>[[within 2 spaces]]<br>that has acted
+|MeC=After combat in<br>Player Phase if<br>1 {{Tgt|Target Ally}}
+|Se={{SEt|Gravity}}
+|SeT={{Tgt|Ally}} with<br>the highest HP<br>[[within 2 spaces]]<br>that has acted<br>'''&''' {{Tgt|Cohort}}
+|SeC=After combat in<br>Player Phase if<br>1 {{Tgt|Target Ally}}
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Gravity}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=鎮魂の舞
+|german=Requiemtanz
+|spanishEU=Réquiem bailarín
+|spanishLA=Réquiem bailarín
+|french=Danse requiem
+|italian=Danza macabra
+|chineseTW=鎮魂之舞
+|portuguese=Dança fúnebre
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%another action to target%' OR Description LIKE '%another action to that ally%') AND Description NOT LIKE '%【Canto%】%'}}
+{{Specials Navbox}}

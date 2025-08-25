@@ -1,0 +1,75 @@
+{{#invoke:NameAbout|main|Name=Reinhardt}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Reinhardt
+|Title=Lightning's Rondo
+|GrowthModifier=Gen 4
+|WeaponType=Green Tome
+|Origin=Fire Emblem: Thracia 776
+|Gender=Male
+|MoveType=Flying
+|actorJP=利根健太朗
+|actorEN=Chris Smith
+|artist=山田孝太郎
+|additionDate=September 5, 2019
+|releaseDate=September 6, 2019
+|TagID=舞踏ラインハルト
+|InternalID=417
+|Properties=refresher,special,specRate_202302
+|cv1=4
+|cv2=1100100
+|description=A shining example of the mage knights of Friege's army. Leads his partners with nimble, precise steps. Appears in Fire Emblem: Thracia 776.
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=8|Lv1SPD=4|Lv1DEF=3|Lv1RES=6
+|GRHP=50|GRATK=60|GRSPD=40|GRDEF=55|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Wind
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elwind
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Rexcalibur
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Vafþrúðnir
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Dance
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Death Blow 1
+|passiveA2=Death Blow 2
+|passiveA3=Death Blow 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=Chill Res 1
+|passiveB2=Chill Res 2
+|passiveB3=Chill Res 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Hone Atk 1
+|passiveC2=Hone Atk 2
+|passiveC3=Hone Atk 3
+|passiveC4=Joint Hone Atk
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Dance Festival units]]

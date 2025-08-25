@@ -1,0 +1,72 @@
+{{#invoke:NameAbout|main|Name=Sothe}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Sothe
+|Title=Zephyr
+|GrowthModifier=Gen 2
+|WeaponType=Colorless Dagger
+|MoveType=Infantry
+|Origin=Fire Emblem: Radiant Dawn
+|Gender=Male
+|actorEN=Nicolas Roye
+|actorJP=間島淳司
+|artist=久杉トク
+|resplendentArtist=Daisuke Izuka
+|releaseDate=January 12, 2018
+|poolDate=January 25, 2018
+|randomStartTime=2018-02-12T07:00:00Z
+|poolRarities=3,4
+|TagID=サザ
+|InternalID=206
+|cv1=9
+|cv2=100200
+|description=A thief for the Dawn Brigade. He generally shows little interest in others but tends to be overprotective of Micaiah, who's like a sister to him. Appears in Fire Emblem: Radiant Dawn.
+|Properties=demoted_201904,resplendent,nidavellir
+|resplendentStartTime=2021-09-25T07:00:00Z
+|resplendentEndTime=2021-10-10T06:59:59Z
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=10|Lv1SPD=9|Lv1DEF=5|Lv1RES=4
+|GRHP=50|GRATK=60|GRSPD=55|GRDEF=40|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Dagger
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Dagger
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Dagger
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Peshkatz
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Glimmer
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Life and Death 1
+|passiveA2=Life and Death 2
+|passiveA3=Life and Death 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Spur Atk 1
+|passiveC2=Spur Atk/Spd 1
+|passiveC3=Spur Atk/Spd 2
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

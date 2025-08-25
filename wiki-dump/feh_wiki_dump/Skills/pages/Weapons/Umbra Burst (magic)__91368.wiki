@@ -1,0 +1,46 @@
+{{Weapon Infobox
+|tagid=SID_影没の波動・魔
+|wikiName=Umbra Burst (magic)
+|weaponName=Umbra Burst
+|weaponType=Magic
+|might=14
+|range=2
+|effect=Unit can counterattack regardless of foe's range. Deals a minimum of 1 damage.
+|cost=0
+|exclusive=0
+|userVersion1=Closed
+|userVersion2=Open
+|statModifiers=0,14,0,0,0
+|required=-
+|properties=enemy_only
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Close Counter}}
+|Ce2={{Efi|Damage Boost}} Deals minimum 1 damage
+}}
+==Notes==
+{{Umbra Burst notes}}
+==Usage in Røkkr Sieges==
+{{Umbra Burst Hero List|type=Tome}}
+==Gallery==
+<gallery>
+File:Shadow v3.6 85 kakusei03.webp|Sprite sheet for [[:Category:Røkkr Sieges skills|Røkkr Sieges skills']] animations.
+</gallery>
+==Trivia==
+* This is the first weapon that can be equipped by any {{Cwtt|magic}} user, regardless of color.
+==In other languages==
+{{OtherLanguages
+|english=Umbra Burst
+|japanese=影没の波動
+|german=Umbra-Stoß
+|spanishEU=Colisión sombría
+|spanishLA=Colisión sombría
+|french=Rafale sombre
+|italian=Boato notte
+|chineseTW=影沒之波動
+|portuguese=Maré umbra
+}}
+==See also==
+* [[Umbra Burst|Umbra Burst weapons]]
+{{Weapons Navbox|Multicolor}}

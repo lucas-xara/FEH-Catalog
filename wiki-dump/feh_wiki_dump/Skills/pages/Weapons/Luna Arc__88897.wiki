@@ -1,0 +1,72 @@
+{{Weapon Infobox
+|tagid=SID_月光弓
+|weaponType=Bow
+|might=14
+|range=2
+|effectiveness=Flying
+|effect=Effective against flying foes. Grants Spd+3. If unit initiates combat, deals damage = 25% of foe's Def. (Ignores reductions to Def from special skills like Lunar Flash.)
+|cost=400
+|exclusive=1
+|userVersion1=Bow
+|userVersion2=Arrow
+|statModifiers=0,14,3,0,0
+|required=Silver Bow
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Effective against flying foes. Grants Spd+3. If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd+5 to unit during combat and deals damage = 25% of foe's Def, including when dealing damage with a Special triggered before combat. (Ignores reductions to Def from Special skills like Lunar Flash II.)
+|tagidExtraSkill1=一
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+5 to unit and neutralizes effects that inflict "Special cooldown charge -X" on unit during combat, and also, if foe uses sword, lance, axe, bow, dagger, or beast damage and unit's Spd ≥ foe's Spd+5, foe cannot counterattack.
+|iconSkill1=Luna Arc W.png
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Spd|3}}
+|s1 Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|s1 Ce2={{Eft|Damage Boost|25% of {{Tgt|Foe}}'s Def}}
+|s1 Ce2C=Player Phase
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Spd|3}}
+|s2 Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|s2 Ce2={{Eft|Temporary buffs|Atk/Spd|5}}
+|s2 Ce3={{Eft|Damage Boost|25% of {{Tgt|Foe}}'s Def}}<br>before '''&''' during combat
+|s2 Ce2-3C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|skill3={{Si|Luna Arc|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd|5}}
+|s3 Ce2={{Eft|Neutralize Guard}}
+|s3 Ce1-2C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s3 Ce3={{Eft|Prevent Counter}}
+|s3 Ce3T=[[Physical]]<br>{{Tgt|Foe}}
+|s3 Ce3C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' {{Tgt|Unit}}'s Spd<br>≥ {{Tgt|Foe}}'s Spd+5
+}}
+
+==Notes==
+{{Effective damage bonus|flying}}
+{{IfUnitInitiates}}
+{{DamageBoost}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary buffs|name=Refined Luna Arc}}
+{{CooldownChargeMinusNeutralization|name={{St|Luna Arc|refine=Skill1}}}}
+{{Prevent counterattacks|name={{St|Luna Arc|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=月光
+|japaneseNotes=''[[fireemblemwiki:Luna (weapon)|Luna]]''
+|german=Gebogener Mond
+|spanishEU=Arco Selene
+|spanishLA=Arco Selene
+|french=Arc lunaire
+|italian=Arco luna
+|chineseTW=月光弓
+|portuguese=Arco lua
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%deals damage =%of foe_s Def%' AND Description LIKE '%the lower of foe_s Def or Res%' OR Description LIKE '%if foe uses%foe cannot counterattack%') AND Exclusive='1'}}
+{{Weapons Navbox}}

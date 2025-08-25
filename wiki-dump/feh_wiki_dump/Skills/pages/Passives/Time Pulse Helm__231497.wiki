@@ -1,0 +1,51 @@
+{{Passive
+|name=Time Pulse Helm
+|type=C
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|Infantry}}
+|properties=random_owner
+|1name=Time Pulse Helm
+|1tagid=SID_始まりの鼓動・兜
+|1effect=At start of turn, if unit's Special cooldown count is at its maximum value, grants Special cooldown count-1 to unit.<br><br>Grants bonus to unit's Atk/Res during combat = unit's maximum Special cooldown count value + 2, and also, if unit's Special cooldown count is at its maximum value after combat, grants Special cooldown count-1 to unit.
+|1cost=300
+|1required=Time's Pulse 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Reduce Cooldown|1}}
+|MeC1=At start of turn<br>if {{Tgt|Unit}}'s CD<br>is max value
+|Me2={{Eft|Reduce Cooldown|1}}
+|MeC2=After combat<br>if {{Tgt|Unit}}'s CD<br>is max value
+|Ce={{Eft|Temporary buffs|Atk/Res|2 + {{Tgt|Unit}}'s max CD}}
+}}
+==Notes==
+{{Start of turn Special modification}}
+{{Temporary buffs}}
+{{After combat note}}
+{{After combat Special modification}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%maximum value%Special cooldown count-1%' OR Description LIKE '%start of turn%Special cooldown count-1%maximum value%' OR Description LIKE '%=%unit_s max% special cooldown count value%') AND Exclusive='1'}}
+* [[Time Pulse Passives]]
+{{Passives Navbox|C}}

@@ -1,0 +1,59 @@
+{{Weapon Infobox
+|tagid=SID_貴族的な弓
+|weaponType=Bow
+|might=14
+|range=2
+|effectiveness=flying
+|effect=Effective against flying foes. At start of turn, if any foe's HP ≤ unit's HP-1 and that foe is adjacent to another foe, inflicts【Panic】on that foe.<br><br>【Panic】<br>Converts bonuses on target into penalties through its next action.
+|cost=400
+|exclusive=1
+|userVersion1=Bow
+|userVersion2=Arrow
+|statModifiers=0,14,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=At start of combat, if unit's max HP ≥ foe's HP+1, grants Atk/Spd/Def/Res+4 to unit during combat.
+|iconSkill1=Combat Bonuses Life W.png
+|tagidExtraSkill1=強
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|Weapon}} Base weapon
+|s1 Se={{SEt|Panic}}
+|s1 SeT=Any<br>{{Tgt|Foe}}
+|s1 SeC={{Tgt|Foe}}'s HP ≤<br>{{Tgt|Unit}}'s HP-1 '''&'''<br>{{Tgt|Foe}} is [[adjacent]]<br>to another {{Tgt|Foe}}
+|s1 Ce={{Eft|Effectiveness|{{Mt|Flying}}}}
+|skill2={{Si|Dignified Bow|refine=Skill1}} Skill refine effects
+|s2 Ce={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s2 CeC={{Tgt|Unit}}'s max HP<br>≥ {{Tgt|Foe}}'s HP+1<br>at start of combat
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+* Dignified Bow has the same effect as {{St|Sudden Panic 3}}.
+{{Panic}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|戦闘強化R生命|Combat Bonuses R Life}}
+==In other languages==
+{{OtherLanguages
+|japanese=貴族的な弓
+|german=Würdiger Bogen
+|spanishEU=Arco ilustre
+|spanishLA=Arco ilustre
+|french=Arc honorable
+|italian=Arco nobile
+|chineseTW=貴族式的弓
+|portuguese=Arco ilustre
+}}
+==See also==
+* [[Jubilant Blade]]
+{{Weapons Navbox}}

@@ -1,0 +1,51 @@
+{{Special
+|tagid=SID_鎮魂の願い
+|intID=4388
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=2
+|effect=When Special triggers, boosts damage by 40% of unit's Res and neutralizes "reduces damage by X%" effects from foe's non-Special skills.<br><br>If unit's Res > foe's Res, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = 4 - current Special cooldown count value, × difference between stats (max difference between stats: 10).<br><br>If unit triggers Special during the current turn, enables【Canto (２)】.<br><br>When Canto triggers, enables unit to use 【Sing/Dance】(can be triggered by any Canto effect other than the Canto effect from this Special; once per turn; if similar effects are active, this effect does not trigger; this effect is not treated as an Assist skill, nor is it treated as a Sing or Dance skill).<br><br>【Canto (２)】<br>After an attack, Assist skill, or structure destruction, unit can move ２ space(s).<br>(Once per turn. Only highest value applied. Does not stack.)<br><br>【Sing/Dance】<br>Range = 1. Grants another action to target ally.
+|required=Glacies
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Damage Boost|40% of {{Tgt|Unit}}'s Res}}
+|Ce2={{Eft|Neutralize Damage Reduction}}
+|Ce2T={{Tgt|Foe}}
+|Ce1-2C=Special triggers
+|Ce3={{Eft|Damage Reduction|(4 - {{Tgt|Unit}}'s current CD)<br>x ({{Tgt|Unit}}'s Res - {{Tgt|Foe)}}'s Res)<br>from attacks & Non-Røkkr [[AoE Specials]]|max=40%}}
+|Ce3T={{Tgt|Unit}}
+|Ce3C={{Tgt|Unit}}'s Res ><br>{{Tgt|Foe}}'s Res
+|Me1={{Eft|Canto|2}}
+|Me1C=After combat if<br>Special triggers
+|Me2={{Eft|Sing/Dance}}
+|Me2T={{Tgt|Target Ally}}
+|Me2C=After [[Canto]] movement
+}}
+
+==Note==
+{{DamageBoost}}
+{{DamageReductionNeutralization}}
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+{{Canto|2}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(SCategory='special' AND Description LIKE '%reduce%damage by X%' OR Description LIKE '%when canto triggers, enables unit to use%' OR Description LIKE '%reduces damage from%-% current Special cooldown count value%') AND Exclusive='1'}}
+{{Specials Navbox}}

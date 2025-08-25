@@ -1,0 +1,87 @@
+{{Passive
+|name=Spd/Def Clash
+|type=A
+|exclusive=0
+|canUseWeapon={{WeaponList|Close}}
+|canUseMove={{MoveList|Infantry,Cavalry,Flying}}
+|properties=random_owner
+|1name=Spd/Def Clash 1
+|alt1name=Spd Def Clash 1
+|1tagid=SID_速さ守備の激突1
+|1effect=If unit or foe initiates combat after moving to a different space, grants bonus to unit's Spd/Def during combat = X + 1. (X = number of spaces from start position to end position of whoever initiated combat; max 1.)
+|1cost=60
+|1required=-
+|1promotionTier=1
+|1promotionRarity=4
+|2name=Spd/Def Clash 2
+|alt2name=Spd Def Clash 2
+|2tagid=SID_速さ守備の激突2
+|2effect=If unit or foe initiates combat after moving to a different space, grants bonus to unit's Spd/Def during combat = X + 3. (X = number of spaces from start position to end position of whoever initiated combat; max 2.)
+|2cost=120
+|2promotionTier=1
+|2promotionRarity=5
+|3name=Spd/Def Clash 3
+|alt3name=Spd Def Clash 3
+|3tagid=SID_速さ守備の激突3
+|3effect=If unit or foe initiates combat after moving to a different space, grants bonus to unit's Spd/Def during combat = X + 5. (X = number of spaces from start position to end position of whoever initiated combat; max 3.)
+|3cost=240
+|3next=-
+|4name=Spd/Def Clash 4
+|alt4name=Spd Def Clash 4
+|4tagid=SID_速さ守備の激突4
+|4effect=If unit or foe initiates combat after moving to a different space, grants bonus to unit's Spd/Def during combat = X + 6. (X = number of spaces from start position to end position of whoever initiated combat; max 4.) If X ≥ 2, neutralizes unit's penalties to Spd/Def during combat.
+|4cost=300
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Spd/Def Clash 3}} Spd/Def Clash 3
+|s1 Ce={{Eft|Temporary buffs|Spd/Def|5 + Spaces initiator moved|max=8}}
+|s1 CeC=Initiator moved to<br>a different space
+|skill2={{Si|Spd/Def Clash 4}} Spd/Def Clash 4
+|s2 Ce1={{Eft|Temporary buffs|Spd/Def|6 + Spaces initiator moved|max=10}}
+|s2 CeC1=Initiator moved to<br>a different space
+|s2 Ce2={{Eft|Neutralize Penalties|Spd/Def}}
+|s2 CeC2=Initiator moved to<br>a different space '''&'''<br>Spaces moved ≥ 2
+}}
+
+==Notes==
+{{IfUnitInitiates}}
+{{IfFoeInitiates}}
+{{SpacesFromStarttoEnd}}
+{{Temporary buffs}}
+{{Penalty neutralization|name=Spd/Def Clash 4}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Spd/Def Clash 1;Spd/Def Clash 2;Spd/Def Clash 3
+|badgeColor=Verdant
+|costs1=20;100;20
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|english=Spd/Def Clash
+|japanese=速さ守備の激突
+|german=G/V-Impuls
+|spanishEU=Choque Vel/Def
+|spanishLA=Duelo Vel./Def.
+|french=Conflit Vit/Déf
+|italian=Scontro Vel/Dif
+|chineseTW=速度防守的激戰
+|portuguese=Coça Vel./Def.
+}}
+
+==See also==
+{{See also skills|cond=(Description LIKE '%if unit or foe initiates combat after moving to a different space%' OR Description LIKE '%=%number of spaces from start position to end position%' OR Description LIKE '%=%number of spaces moved%') AND Exclusive='1' AND Description NOT LIKE '%transforms%if _ ≥ 5%'}}
+* [[Skill families/A Passives#Clash|Clash Passives]] 
+{{Passives Navbox|A}}
+{{Seals Navbox}}

@@ -1,0 +1,52 @@
+{{Passive
+|name=C Time Traveler
+|type=S
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=enemy_only
+|1name=C Time Traveler
+|1tagid=SID_時を彷徨う者・無
+|1effect=Against a foe equipped with this Sacred Seal, grants player's unit one of the following advantages or inflicts one of the following disadvantages based on that unit's color:<br>&nbsp;&nbsp;&nbsp;- If red, blue, or green, grants advantage: unit deals damage = 20% of unit's Atk during combat (excluding area-of-effect Specials).<br>&nbsp;&nbsp;&nbsp;- If colorless, inflicts extreme disadvantage: foe deals damage = 40% of foe's Atk and reduces damage from attacks by 40% of unit's Atk during combat (excluding area-of-effect Specials), and reduces damage from unit's area-of-effect Specials by 80%.
+|1cost=0
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Atk}}
+|CeT1=Player's<br>{{Tgt|Unit}}
+|CeC1=Player's {{Tgt|Unit}}<br>isn't {{Wti|group=1|Colorless}} Colorless
+|Ce2={{Eft|Damage Boost|40% of {{Tgt|Foe}}'s Atk}}
+|Ce3={{Eft|Damage Reduction|40% of {{Tgt|Unit}}'s Atk}}
+|CeT2-3={{Tgt|Foe}} with<br>this skill
+|CeC2-3=Player's {{Tgt|Unit}}<br>is {{Wti|group=1|Colorless}} Colorless
+|Me1={{Eft|Damage Reduction|80%}} from<br>{{Tgt|Unit}}'s Non-Røkkr [[AoE Specials]]
+|MeT1={{Tgt|Foe}} with<br>this skill
+|MeC1=Player's {{Tgt|Unit}}<br>is {{Wti|group=1|Colorless}} Colorless
+}}
+
+==Notes==
+{{Time Traveler Seals}}
+==Seal acquired from==
+* This is a [[Seer's Snare]] exclusive Sacred Seal. It is exclusively equipped by all enemy units in Seer's Snare except for final bosses.
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=C Time Traveler
+|badgeColor=-
+|costs1=-
+}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=時を彷徨う者・無
+|german=Zeitreise F
+|spanishEU=Viaje temporal G
+|spanishLA=Viaje temporal G
+|french=Dépl. temporel (G)
+|italian=Viaggio tempo N
+|chineseTW=徘徊於時間之人・無
+|portuguese=Via temporal C
+}}
+==See also==
+{{See also skills|cond=Name LIKE '%Time Traveler'}}
+{{Seals Navbox}}

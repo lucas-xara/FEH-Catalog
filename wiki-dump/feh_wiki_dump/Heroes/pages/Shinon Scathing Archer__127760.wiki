@@ -1,0 +1,79 @@
+{{#invoke:NameAbout|main|Name=Shinon}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Shinon
+|Title=Scathing Archer
+|WeaponType=Colorless Bow
+|MoveType=Infantry
+|Origin=Fire Emblem: Path of Radiance
+|Gender=Male
+|actorEN=Brendan McKian
+|actorJP=間島淳司
+|artist=ワダサチコ
+|randomStartTime=2020-10-18T07:00:00Z
+|additionDate=September 18, 2020
+|releaseDate=September 18, 2020
+|poolDate=October 8, 2020
+|poolRarities=5
+|cv1=8
+|cv2=100800
+|TagID=シノン
+|InternalID=567
+|Properties=tiara,specRate_202308
+|description=A sniper with the Greil Mercenaries. Has a sharp tongue and is a master of the bow, a fact that neither he nor his foes will deny. Appears in Fire Emblem: Path of Radiance.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=10|Lv1SPD=12|Lv1DEF=5|Lv1RES=5
+|GRHP=50|GRATK=65|GRSPD=70|GRDEF=50|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Bow
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Double Bow
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Glimmer
+|special2Unlock=4
+|special3=Deadeye
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Def Solo 1
+|passiveA2=Atk/Def Solo 2
+|passiveA3=Atk/Def Solo 3
+|passiveA4=Atk/Def Solo 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Lull Atk/Spd 1
+|passiveB2=Lull Atk/Spd 2
+|passiveB3=Lull Atk/Spd 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Time's Pulse 1
+|passiveC2=Time's Pulse 2
+|passiveC3=Time's Pulse 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

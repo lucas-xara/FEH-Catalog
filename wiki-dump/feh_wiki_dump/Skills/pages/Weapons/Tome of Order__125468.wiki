@@ -1,0 +1,75 @@
+{{Weapon Infobox
+|tagid=SID_魔道軍将の書
+|weaponName=Tome of Order
+|image=wep_mg246
+|weaponType=Green Tome
+|might=14
+|range=2
+|effectiveness=Flying
+|effect=Effective against flying foes. Grants weapon-triangle advantage against colorless foes, and inflicts weapon-triangle disadvantage on colorless foes during combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,0,0,0
+|required=-
+|intID=2165
+|sort=434
+|value=20
+|timingID=1
+|abilityID=37
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%.
+|iconSkill1=Triangle Adept W.png
+|tagidExtraSkill1=相
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|s1 Ce2={{Eft|New WTA}}
+|s1 Ce3={{Eft|New WTD}}
+|s1 Ce3T={{Tgt|Foe}}
+|s1 Ce2-3C={{Tgt|Foe}} is<br>{{Wti|group=1|Colorless}} Colorless
+|skill2={{Si|Tome of Order|refine=Skill1}} Skill refine effects
+|s2 Ce1={{Eft|WTA boost}}
+|s2 Ce2={{Eft|WTA reduction}}
+|s2 Ce1-2T={{Tgt|Unit}}
+|s2 Ce1C={{Tgt|Unit}} has<br>[[Weapon-triangle]]<br>advantage
+|s2 Ce2C={{Tgt|Unit}} has<br>[[Weapon-triangle]]<br>disadvantage
+}}
+==Notes==
+{{Effective damage bonus|Flying}}
+{{New WTA|colorless}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+* {{St|Tome of Order|refine=Skill1}} has the same effect as {{St|Triangle Adept 3}}.
+{{WTA boost|name={{St|Tome of Order|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Tome of Order
+|japanese=魔道軍将の書
+|german=Buch d. Ordnung
+|spanishEU=Grimorio marcial
+|spanishLA=Grimorio marcial
+|french=Tome de l'ordre
+|italian=Tomo dell'ordine
+|chineseTW=魔道軍將之書
+|portuguese=Tomo da ordem
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%grants weapon-triangle advantage%' AND Description LIKE '%colorless%weapon-triangle%' OR Description LIKE '%unit has weapon-triangle advantage%boosts%' AND Description NOT LIKE '%"if unit has%') AND Exclusive='1' OR Description LIKE '%effective against flying foes%' AND (CanUseWeapon__full='Red Tome' OR CanUseWeapon__full='Blue Tome' OR CanUseWeapon__full='Green Tome' OR CanUseWeapon__full='Colorless Tome')}}
+* [[Raven Tomes]]
+* [[Gem Weapons]]
+{{Weapons Navbox}}
+[[Category:Weapons that grant triangle advantage against colorless foes]]
+[[Category:Gem weapons]]

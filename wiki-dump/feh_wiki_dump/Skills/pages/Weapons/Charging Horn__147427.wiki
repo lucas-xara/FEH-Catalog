@@ -1,0 +1,108 @@
+{{Weapon Infobox
+|tagid=SID_突撃の角笛
+|weaponName=Charging Horn
+|image=wep_mg258
+|weaponType=Green Tome
+|might=14
+|range=2
+|effect=Grants Def+3. Grants Atk/Spd+5 to allies within 3 rows or 3 columns centered on unit during combat. The following effects will occur based on the number of allies within 3 rows or 3 columns centered on unit: If ≥ 1 ally, inflicts Atk/Res-X on foe during combat (X = number of allies in the area × 2; max -6). If ≥ 3 allies, foe cannot make a follow-up attack. (If unit is within 2 spaces of a structure that a foe can destroy, the number of allies in the area is treated as 3.)
+|cost=400
+|exclusive=1
+|statModifiers=0,14,0,3,0
+|required=Rexcalibur
+|intID=2701
+|sort=577
+|effectRange=1
+|value=20
+|timingID=20
+|abilityID=300
+|randomTimestamp=2021-09-17T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Def+3. Grants Atk/Spd+5 to allies within 3 rows or 3 columns centered on unit during their combat. The following effects will occur during unit's combat based on the number of allies within 3 rows or 3 columns centered on unit: if ≥ 1, inflicts Atk/Res-X on foe (X = number of allies in the area × 3; max 9); if ≥ 2, inflicts Special cooldown charge -1 on foe per attack (only highest value applied; does not stack); and if ≥ 3, foe cannot make a follow-up attack. (If unit is within 2 spaces of a structure that a foe can destroy, the number of allies in the area is treated as 3.)
+|effectSkill1=Grants Def/Res+5 to allies within 3 rows or 3 columns centered on unit during their combat and restores 7 HP to those allies after their combat. At start of combat, if unit's HP ≥ 25%, inflicts Atk/Res-6 on foe and reduces damage from foe's attacks by 20% of unit's Def (excluding area-of-effect Specials) during combat, and also restores 7 HP to unit after combat.
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Def|3}}
+|s1 Ce1={{Eft|Temporary Buffs|Atk/Spd|5}}
+|s1 Ce1T={{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|s1 Ce2={{Eft|Temporary Debuffs|Atk/Res|max=6|2 x {{Tgt|Allies}} in the area*<br>of {{Eft|Temporary Buffs|Atk/Spd|5}} effect}}
+|s1 Ce2C={{Tgt|Allies}} in the area* of<br>{{Eft|Temporary Buffs|Atk/Spd|5}} effect ≥ 1
+|s1 Ce3={{Eft|Prevent Follow-Up}}
+|s1 Ce2-3T={{Tgt|Foe}}
+|s1 Ce3C={{Tgt|Allies}} in the area* of<br>{{Eft|Temporary Buffs|Atk/Spd|5}} effect ≥ 3
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Def|3}}
+|s2 Ce1={{Eft|Temporary Buffs|Atk/Spd|5}}
+|s2 Ce1T={{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|s2 Ce2={{Eft|Temporary Debuffs|Atk/Res|max=9|3 x {{Tgt|Allies}} in the area*<br>of {{Eft|Temporary Buffs|Atk/Spd|5}} effect}}
+|s2 Ce2C={{Tgt|Allies}} in the area* of<br>{{Eft|Temporary Buffs|Atk/Spd|5}} effect ≥ 1
+|s2 Ce3={{Eft|Guard}}
+|s2 Ce3C={{Tgt|Allies}} in the area* of<br>{{Eft|Temporary Buffs|Atk/Spd|5}} effect ≥ 2
+|s2 Ce4={{Eft|Prevent Follow-Up}}
+|s2 Ce2-4T={{Tgt|Foe}}
+|s2 Ce4C={{Tgt|Allies}} in the area* of<br>{{Eft|Temporary Buffs|Atk/Spd|5}} effect ≥ 3
+|skill3={{Si|Charging Horn|refine=Skill1}} Skill refine effects
+|s3 Me1={{Eft|Heal|7}}
+|s3 Me1T={{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|s3 Me1C=After {{Tgt|Allies}}' combat
+|s3 Me2={{Eft|Heal|7}}
+|s3 Me2C=After combat if<br>{{Tgt|Unit}} HP ≥ 25%<br>at start of combat
+|s3 Ce1={{Eft|Temporary Buffs|Def/Res|5}}
+|s3 Ce1T={{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|s3 Ce2={{Eft|Temporary Debuffs|Atk/Res|6}}
+|s3 Ce3={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Def}}<br>from {{Tgt|Foe}}'s attacks
+|s3 Ce2T={{Tgt|Foe}}
+|s3 CeC={{Tgt|Unit}} HP ≥ 25%<br>at start of combat
+}}
+<b>{{Hatnote|1=* If {{Tgt|Unit}} is [[within 2 spaces]] of a [[structure]] that<br>a {{Tgt|Foe}} can destroy, {{Tgt|Allies}} in the area = 3}}</b>
+
+==Notes==
+{{Temporary buffs}}
+{{AlliesCombatEffect|effect=temporary buffs}}
+{{Temporary debuffs}}
+{{Prevent follow-up}}
+{|class="wikitable default mw-collapsible" 
+!align="middle"|Example of Area of Effect
+|-
+|align="middle"!|<div style="max-width:450px;margin: auto;>{{AoE|u=Gatekeeper: Nothing to Report|t=Byleth: Tested Professor
+|---xxx---
+|---xxx---
+|---xtx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}</div>
+|}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{CooldownChargeMinus}}
+{{After combat healing|allies=1|name={{St|Charging Horn|refine=Skill1}}}}
+{{FlatDamageReduction}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=突撃の角笛
+|german=Angriffshorn
+|spanishEU=Cuerno de carga
+|spanishLA=Cuerno de carga
+|french=Cor d'attaque
+|italian=Corno della carica
+|chineseTW=突擊號角
+|portuguese=Chifre de assalto
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants%allies within%_ rows%' OR Description LIKE '%grants%allies within%_ columns%' OR Description LIKE '%ally in%cardinal%during%combat%' OR Description LIKE '%number of allies within%/%-%' AND Description NOT LIKE '%boosts unit_s%+%-%' OR (Description LIKE '%restores%HP%allies%after combat%' OR Description LIKE '%after combat%restores%HP%allies%' AND Description NOT LIKE '%elixir%') AND Exclusive='1' AND Name NOT LIKE '%+' OR Description LIKE '%reduces damage%by%20% of unit_s Def%'}}
+{{Weapons Navbox}}

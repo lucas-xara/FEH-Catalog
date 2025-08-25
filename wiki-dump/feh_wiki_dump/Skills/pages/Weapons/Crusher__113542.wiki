@@ -1,0 +1,89 @@
+{{Weapon Infobox
+|tagid=SID_打ち砕くもの
+|weaponType=Axe
+|might=16
+|range=1
+|effect=Grants Atk+3. Calculates damage using the lower of foe's Def or Res. If a Rally Assist skill is used by unit, target can move 1 extra space. (That turn only. Does not stack. No effect on cavalry allies with Range = 2.)
+|cost=400
+|exclusive=1
+|userVersion1=Weapon
+|userVersion2=Upgrade Weapon
+|userVersion3=Upgrade Gleam
+|statModifiers=0,19,0,0,0
+|required=Silver Axe
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Atk+3. Calculates damage using the lower of foe's Def or Res. If a Rally Assist skill is used by unit, target can move 1 extra space (that turn only; does not stack; no effect on cavalry allies with Range = 2), and afterward, once per turn, grants another action to unit. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit and reduces damage from foe's first attack by 40% during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes).
+|refineStatsSkill1=3,0,0,0,0
+|effectSkill1=If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+4 to unit, inflicts penalty on foe's Spd/Def/Res = 6 - current penalty on each of those stats (min: 0; calculates each stat penalty independently; still inflicts penalty on foe even if foe triggers an effect that neutralizes penalties during combat), unit makes a guaranteed follow-up attack, and if penalty is active on foe's Spd, Def, or Res, deals damage = 15% of unit's Atk (excluding area-of-effect Specials) during combat. If unit initiates combat or is within 2 spaces of an ally, after combat, inflicts Spd/Def/Res-6 on foe through its next action.
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Atk|3}}
+|s1 Ce={{Eft|Lower Def Res}}
+|s1 Se={{SEt|Mobility Increased}}
+|s1 SeT={{Tgt|Target Ally}}
+|s1 SeC=A [[Rally Assist]] is<br>used by {{Tgt|Unit}} '''&'''<br>{{Tgt|Target Ally}} isn't<br>Range = 2 {{Mt|Cavalry}}
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Atk|3}}
+|s2 Ce1={{Eft|Lower Def Res}}
+|s2 Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s2 Ce3={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|s2 Ce2-3C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s2 Se={{SEt|Mobility Increased}}
+|s2 SeT={{Tgt|Target Ally}}
+|s2 SeC=A [[Rally Assist]] is<br>used by {{Tgt|Unit}} '''&'''<br>{{Tgt|Target Ally}} isn't<br>Range = 2 {{Mt|Cavalry}}
+|s2 Me={{Eft|Another Action}}<br>(once per turn)
+|s2 MeC=A [[Rally Assist]] is<br>used by {{Tgt|Unit}}
+|skill3={{Si|Crusher|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s3 Ce2={{Eft|Temporary debuffs|Spd/Def/Res|min=0|6 - {{SEt|Penalty}} on each<br>of {{Tgt|Foe}}'s stats*}}
+|s3 Ce2T={{Tgt|Foe}}
+|s3 Ce3={{Eft|Guaranteed Follow-Ups}}
+|s3 Ce1-3C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s3 Ce4={{Eft|Damage Boost|15% of {{Tgt|Unit}}'s Atk}}
+|s3 Ce3-4T={{Tgt|Unit}}
+|s3 Ce4C=({{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}<br>conditions) '''&'''<br>{{Tgt|Foe}} has Spd, Def,<br>'''or''' Res {{SEt|Penalties}}
+|s3 Se={{Eft|Penalties|Spd/Def/Res|6}}
+|s3 SeT={{Tgt|Foe}}
+|s3 SeC=After combat in<br>Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+<b>{{Hatnote|* ×2 if {{Tgt|Foe}} has a {{Eft|Neutralize Penalties}} effect}}</b>
+
+==Notes==
+{{LowerDefRes}}
+{{Mobility increased}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Galeforce notes|name=Refined Crusher}}
+{{DamagePercentageReduction}}
+{{IfUnitInitiates}}
+{{Temporary debuffs|name={{St|Crusher|refine=Skill1}}}}
+{{Guaranteed follow-up interaction|name={{St|Crusher|refine=Skill1}}}}
+{{DamageBoost|name={{St|Crusher|refine=Skill1}}}}
+{{EffectfromPenalties|damage boost|name={{St|Crusher|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=打ち砕くもの
+|german=Zerschmetterer
+|spanishEU=Triturador
+|spanishLA=Triturador
+|french=Broyeur
+|italian=Frantumatore
+|chineseTW=擊碎者
+|portuguese=Triturador
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%rally assist skill%' OR Description LIKE '%Calculates damage using the lower of foe_s Def or Res%' AND Description NOT LIKE '%if foe_s range = 2%' AND Description NOT LIKE '%"calculates%' OR Description LIKE '%target can move 1 extra space%' OR Description LIKE '%no effect neutralizes penalties to foe_s%') AND Exclusive='1'}}
+* [[Skill families/Assists#Rally|Rally Skills]]
+* [[Seal Passives]]
+{{Weapons Navbox}}

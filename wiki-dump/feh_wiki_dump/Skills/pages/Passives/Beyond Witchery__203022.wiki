@@ -1,0 +1,36 @@
+{{Passive
+|name=Beyond Witchery
+|type=A
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Beyond Witchery
+|1tagid=SID_魔女を超える者
+|1effect=Grants Atk/Spd/Def/Res+8 to unit. At start of turn, grants Special cooldown count-X to unit and deals X damage to unit (on turn 1, X = 2; otherwise, X = 1). Neutralizes effects that inflict "Special cooldown charge -X" on unit during combat.
+|statModifiers1=0,8,8,8,8
+|1cost=300
+|1required=-
+}}
+==Notes==
+{{Start of turn Special modification}}
+{{DamageToUnit}}
+{{CooldownChargeMinusNeutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=魔女を超える者
+|german=Keine Hexerei
+|spanishEU=Allende la brujería
+|spanishLA=Allende la brujería
+|french=Sorcellerie reniée
+|italian=Oltre la magia
+|chineseTW=超越魔女者
+|portuguese=Bruxaria excelsa
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%start of turn%Special cooldown count-%' OR Description LIKE '%at start of turn%deals _ damage to unit%') AND Exclusive='1'}}
+{{Passives Navbox|A}}

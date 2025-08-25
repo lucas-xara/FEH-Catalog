@@ -1,0 +1,71 @@
+{{#invoke:NameAbout|main|Name=Conrad}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Conrad
+|Title=Masked Knight
+|WeaponType=Blue Lance
+|Origin=Fire Emblem Echoes: Shadows of Valentia
+|Gender=Male
+|MoveType=Cavalry
+|actorJP=佐藤拓也
+|actorEN=Marc Diraison
+|artist=悌太
+|additionDate=October 21, 2019
+|releaseDate=October 24, 2019
+|TagID=コンラート
+|InternalID=439
+|Properties=ghb,limited
+|cv1=2
+|cv2=400500
+|description=A mysterious knight who rushes to Celica's aid whenever she is in danger. When he wears his mask, his personality changes entirely. Appears in Fire Emblem Echoes: Shadows of Valentia.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=7|Lv1SPD=5|Lv1DEF=8|Lv1RES=9
+|GRHP=50|GRATK=55|GRSPD=40|GRDEF=60|GRRES=60
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Barrier Lance
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Barrier Lance+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Masked Lance
+|weapon5Default=
+|weapon5Unlock=5
+}}
+===Assists===
+{{Assists Table
+}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Glacies
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Warding Stance 1
+|passiveA2=Bracing Stance 1
+|passiveA3=Bracing Stance 2
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=Chill Atk 1
+|passiveB2=Chill Atk 2
+|passiveB3=Chill Atk 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+{{Heroes Navbox}}

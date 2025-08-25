@@ -1,0 +1,80 @@
+{{#invoke:NameAbout|main|Name=Marianne}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Marianne
+|Title=Cursed Blessing
+|WeaponType=Red Tome
+|MoveType=Flying
+|Origin=Fire Emblem: Three Houses
+|Gender=Female
+|actorEN=Xanthe Huynh
+|actorJP=秦佐和子
+|artist=azuタロウ
+|additionDate=October 15, 2024
+|releaseDate=October 15, 2024
+|cv1=12
+|cv2=400600
+|TagID=魔器マリアンヌ
+|InternalID=1154
+|Properties=rearmed
+|description=Adopted daughter of Margrave Edmund. She is more optimistic about herself than ever before. Appears in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=15|Lv1ATK=11|Lv1SPD=7|Lv1DEF=3|Lv1RES=15
+|GRHP=50|GRATK=80|GRSPD=75|GRDEF=30|GRRES=70
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Flux
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Ruin
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Fenrir
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Arcane Blutgang
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Glacies
+|special2Unlock=4
+|special3=Requiem Prayer
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Still Water 1
+|passiveA2=Still Water 2
+|passiveA3=Still Water 3
+|passiveA4=Crystalline Water
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Sabotage Res 1
+|passiveB2=Sabotage Res 2
+|passiveB3=Sabotage Res 3
+|passiveB4=Spd/Res Discord
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Spd/Res Rein 1
+|passiveC2=Spd/Res Rein 2
+|passiveC3=Spd/Res Rein 3
+|passiveC4=Spd/Res Crux
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}

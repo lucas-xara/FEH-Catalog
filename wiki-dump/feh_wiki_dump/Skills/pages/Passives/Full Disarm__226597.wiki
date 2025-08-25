@@ -1,0 +1,50 @@
+{{Passive
+|name=Full Disarm
+|type=B
+|exclusive=0
+|canUseWeapon={{WeaponList|Dagger}}
+|canUseMove={{MoveList|Infantry,Cavalry,Flying}}
+|properties=random_owner
+|1name=Full Disarm
+|1tagid=SID_罠解除・周到
+|1effect=Inflicts Spd/Def-X on foe (X = total number of【Bonus】effects active on unit, excluding stat bonuses, and【Penalty】effects active on foe, excluding stat penalties, × 2, + 4; max 12), and neutralizes effects that inflict "Special cooldown charge -X" on unit during combat.<br><br>While attacking in Aether Raids, if unit ends movement on a space with a Bolt Trap or a Heavy Trap, cancels trap's effect; if unit ends movement on a space with a Hex Trap, reduces trap's trigger condition by 10 HP.<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|1cost=300
+|1required=Disarm Trap 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1=Cancels the effects of<br>{{Sct|Bolt Trap}} '''&''' {{Sct|Heavy Trap}}
+|Me2=Reduces {{Sct|Hex Trap}}'s HP<br>trigger condition by 10 HP
+|MeC={{Tgt|Unit}} ends turn<br>on {{Stt|Traps}}
+|Ce1={{Eft|Temporary debuffs|Spd/Def|2 x ({{Kp|Bonus}} effects<br>on {{Tgt|Unit}} '''&''' {{Kp|Penalty}}<br>effects on {{Tgt|Foe}}), +4<br>(exc. {{SEt|Bonuses}} '''&''' {{SEt|Penalties}})|max=12}}
+|Ce1T={{Tgt|Foe}}
+|Ce2={{Eft|Neutralize Guard}}
+}}
+==Notes==
+{{Disarm notes}}
+{{Temporary debuffs}}
+{{EffectfromBonus|temporary debuffs|nonStat=1}}
+{{EffectfromPenalty|temporary debuffs|nonStat=1}}
+{{CooldownChargeMinusNeutralization}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%cancels trap_s effect%' OR Description LIKE '%number of%bonus%penalty%effects active%') AND (Exclusive='1' AND Name NOT LIKE '%+' AND Properties HOLDS NOT 'arcane')}}
+* [[Disarm Passives]]
+{{Passives Navbox|B}}

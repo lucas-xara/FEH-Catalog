@@ -1,0 +1,83 @@
+{{#invoke:NameAbout|main|Name=Elimine}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Elimine
+|Title=Scouring Saint
+|WeaponType=Colorless Staff
+|MoveType=Flying
+|Origin=Fire Emblem: The Binding Blade
+|Gender=Female
+|MythicEffect=Astra
+|MythicEffect2=Raiding Party Bonus
+|BoostHP=5
+|BoostSpd=4
+|actorEN=AmaLee
+|actorJP=田中理恵
+|artist=阿藍澄史
+|additionDate=January 28, 2022
+|releaseDate=January 28, 2022
+|cv1=5
+|cv2=5900700
+|TagID=神階エリミーヌ
+|InternalID=765
+|Properties=mythic
+|description=One of the Eight Legends who defeated the dragons during the Scouring. Her teachings live on as passed down by the Elimine Church. Appears in Fire Emblem: The Binding Blade.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=10|Lv1SPD=10|Lv1DEF=3|Lv1RES=8
+|GRHP=45|GRATK=55|GRSPD=70|GRDEF=30|GRRES=75
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Assault
+|weapon1Unlock=1
+|weapon2=Staff of the Saint
+|weapon2Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Heal
+|assist1Default=1
+|assist1Unlock=1
+|assist2=Reconcile
+|assist2Default=3
+|assist2Unlock=2
+|assist3=Nudge
+|assist3Default=4
+|assist3Unlock=3
+|assist4=Nudge+
+|assist4Default=5
+|assist4Unlock=5
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Res Push 1
+|passiveA2=Atk/Res Push 2
+|passiveA3=Atk/Res Push 3
+|passiveA4=Atk/Res Push 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=A/S Far Trace 1
+|passiveB2=A/S Far Trace 2
+|passiveB3=A/S Far Trace 3
+|passiveB4=Sabotage Spd 1
+|passiveB5=Sabotage Spd 2
+|passiveB6=Sabotage Spd 3
+|passiveB7=Spd/Res Discord
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveB4Unlock=1
+|passiveB5Unlock=2
+|passiveB6Unlock=4
+|passiveB7Unlock=5
+|passiveC1=Holy Ground
+|passiveC2=Holy Ground+
+|passiveC1Unlock=5
+|passiveC2Unlock=5
+}}
+{{Heroes Navbox}}

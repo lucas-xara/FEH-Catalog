@@ -1,0 +1,68 @@
+{{Weapon Infobox
+|tagid=SID_永き愛のブレス
+|intID=4570
+|noImg=1
+|exclusive=1
+|weaponType=Dragonstone
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br>Neutralizes "effective against dragons" bonuses.<br>If foe's Range = 2, calculates damage using the lower of foe's Def or Res.<br><br>For allies within 3 spaces of unit, grants Def/Res+5 and reduces damage from foe's first attack by 7 during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes).<br><br>For allies within 3 spaces of unit, if foe initiates combat, ally's HP > 1, and foe would reduce ally's HP to 0 during combat, ally survives with 1 HP (once per turn; does not stack with non-Special effects that allow unit to survive with 1 HP if foe's attack would reduce unit's HP to 0; when any other such effect triggers, this effect will trigger too).<br><br>If foe initiates combat or foe's HP ≥ 75% at start of combat, grants bonus to unit's Atk/Def/Res = 20% of unit's Res at start of combat + 5, unit deals +X damage (X = number of allies within 3 spaces of unit × 5; max 15; if unit triggers Savior, value is treated as 15; excluding area-of-effect Specials), reduces damage from foe's attacks by X (excluding area-of-effect Specials), unit makes a guaranteed follow-up attack, and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials), and also, if unit's HP > 1 and foe would reduce unit's HP to 0, unit survives with 1 HP (once per combat; does not stack with non-Special effects that allow unit to survive with 1 HP if foe's attack would reduce HP to 0).
+|required=Flametongue
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Ce1={{Eft|Neutralize Weakness|{{Cwti|Dragonstone|group=1}} [[Dragon]]}}
+|Ce2={{Eft|Lower Def Res}}
+|Ce2C={{Tgt|Foe}}'s Range = 2
+|Ce3={{Eft|Temporary buffs|Def/Res|5}}
+|Ce4={{Eft|Damage Reduction|7}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce5={{Eft|Miracle}}<br>(once per turn)
+|Ce3-5T={{Tgt|Allies}}<br>[[within 3 spaces]]
+|Ce5C=Enemy Phase '''&'''<br>{{Tgt|Ally}}'s HP > 1
+|Ce6={{Eft|Temporary buffs|Atk/Def/Res|20% of {{Tgt|Unit}}'s Res<br>at start of combat, +5}}
+|Ce7={{Eft|Damage Boost|5 x {{Tgt|Allies}}<br>[[within 3 spaces]]|max=15*}}
+|Ce8={{Eft|Damage Reduction|5 x {{Tgt|Allies}}<br>[[within 3 spaces]]|max=15*}}<br>from {{Tgt|Foe}}'s attacks
+|Ce9={{Eft|Guaranteed Follow-Ups}}
+|Ce10={{Eft|Reduce Damage Reduction|50%}}
+|Ce10T={{Tgt|Foe}}
+|Ce6-10C=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|Ce11={{Eft|Miracle}}
+|Ce11C=(Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat)<br>'''&''' {{Tgt|Unit}}'s HP > 1
+}}
+<b>{{Hatnote|* If {{Tgt|Unit}} triggers {{Eft|Savior}} triggers, value is treated as max.}}</b>
+==Notes==
+{{Effectiveness neutralization|Dragon}}
+{{Temporary buffs}}
+{{FlatDamageReduction|7}}
+{{IfFoeInitiates}}
+{{Survive with 1 HP}}
+{{AlliesCombatEffect|temporary buffs, damage reduction and survive with 1 HP effects}}
+{{At start of combat}}
+{{FlatDamageBoost|X (max: 15)}}
+{{FlatDamageReduction|X (max: 15)}}
+{{Guaranteed follow-up interaction}}
+{{Reduce Damage Reduction}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V9.2_v0902a_valentine_Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%Neutralizes "effective against dragons"%' OR (Description LIKE '%survive%with 1 HP%' AND Description NOT LIKE '%"if foe would reduce%' AND (Description LIKE '%for allies within%survive%with 1 HP%' OR Description LIKE '%survive%with 1 HP%to allies within%'))) AND Exclusive='1'}}
+{{Weapons Navbox}}

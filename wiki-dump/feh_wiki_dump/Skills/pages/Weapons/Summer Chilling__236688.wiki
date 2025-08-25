@@ -1,0 +1,75 @@
+{{Weapon Infobox
+|tagid=SID_夏涼む二人の夏氷
+|intID=4803
+|image=wep_mg503
+|exclusive=1
+|weaponType=Blue Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effectiveness=Dragonstone,Beast
+|effect=Accelerates Special trigger (cooldown count-1).<br>Effective against dragon and beast foes.<br><br>Allies within 2 spaces and dragon and beast allies within 6 spaces of unit can move to a space within 2 spaces of unit.<br><br>For dragon and beast allies, when Canto triggers, if ally is within 6 spaces of unit, ally can move to a space within 2 spaces of unit, even if that movement exceeds the Canto distance limit.<br><br>At start of turn, if unit is within 2 spaces of an ally, grants Special cooldown count-X to unit (X = number of allies within 2 spaces of unit; max 2), grants Atk/Spd+6,【Treachery】, and "neutralizes foe's bonuses during combat" to unit and allies within 2 spaces of unit for 1 turn, and grants【Canto (１)】to dragon and beast allies within 2 spaces of unit for 1 turn.<br><br>If unit initiates combat or is within 2 spaces of an ally, grants bonus to unit's Atk/Spd = 20% of unit's Spd at start of combat + 6 and deals damage = 20% of unit's Spd during combat (including area-of-effect Specials).<br><br>If unit initiates combat, unit can make a follow-up attack before foe's next attack.<br><br>【Treachery】<br>Unit deals additional damage = total bonuses on unit for 1 turn.<br><br>【Canto (１)】<br>After an attack, Assist skill, or structure destruction, unit can move １ space(s). (Once per turn. Only highest value applied. Does not stack.)
+|required=Thoron;Shine
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Se1={{Eft|Bonuses|Atk/Spd|6}}
+|Se2={{SEt|Treachery}}
+|Se3={{SEt|Neutralize Bonuses}}
+|Se1-3T={{Tgt|Allies}}<br>[[within 2 spaces]]
+|Se4={{SEt|Canto (1)}}
+|Se4T=[[Dragon]]/[[Beast]]<br>{{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=At start of turn<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Me1={{Eft|Warp|[[within 2 spaces]]<br>of {{Tgt|Unit}}}}
+|Me1T={{Tgt|Allies}}<br>[[within 2 spaces]]
+|Me2={{Eft|Warp|[[within 2 spaces]]<br>of {{Tgt|Unit}}}}
+|Me3={{Eft|Warp|[[within 2 spaces]]<br>of {{Tgt|Unit}}}}
+|Me2-3T=[[Dragon]]/[[Beast]]<br>{{Tgt|Allies}}<br>[[within 6 spaces]]
+|Me3C=[[Dragon]]/[[Beast]]<br>{{Tgt|Ally}} triggers<br>[[Canto]]
+|Me4={{Eft|Reduce Cooldown|{{Tgt|Allies}} [[within 2 spaces]]|max=2}}
+|Me4C=At start of turn<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce1={{Eft|Effectiveness|{{Cwti|Dragon,Beast|group=1}} [[Dragon]]/[[Beast]]}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd|20% of {{Tgt|Unit}}'s Spd<br>at start of combat, +6}}
+|Ce3={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|Ce2-3C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce4={{Eft|Desperation}}
+|Ce4C=Player Phase
+}}
+==Notes==
+{{Effective damage bonus|dragonstone,beast}}
+{{Warp interaction}}
+{{Start of turn Special modification}}
+{{Bonuses}}
+{{Treachery}}
+{{Neutralize Bonuses}}
+{{Canto|1|statusEffect=1}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{At start of combat}}
+{{DamageBoost}}
+{{Follow-up before counter}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V9.7_v0907a_summer_Mag.webp|Sprite sheet of {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%【Treachery】%' OR Description LIKE '%exceeds the Canto distance limit%') AND Exclusive='1'}}
+{{Weapons Navbox}}

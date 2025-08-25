@@ -1,0 +1,57 @@
+{{Weapon Infobox
+|tagid=SID_新年の妖狐娘の爪牙
+|weaponType=Beast
+|might=14
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). If unit's Res > foe's Res, deals damage = 70% of difference between stats. (Maximum bonus of +7 damage.) If unit's Res > foe's Res, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 4 (max 40%).<br><br>At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack.
+|cost=400
+|exclusive=1
+|canUseMove=Cavalry
+|statModifiers=0,14,0,0,0
+|required=Adult (Cavalry)
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1). If unit's Res > foe's Res, deals damage = 70% of difference between stats (max +7 damage) and reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 4 (max 40%). If foe initiates combat or if foe's HP ≥ 75% at start of combat, grants Atk/Spd/Def/Res+4 to unit during combat. At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack.
+|upgradedEffect2=Accelerates Special trigger (cooldown count-1). If unit's Res > foe's Res, deals damage = 70% of difference between stats (max +7 damage) and reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 4 (max 40%). If foe initiates combat or if foe's HP ≥ 75% at start of combat, grants Atk/Spd/Def/Res+4 to unit during combat. At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 to unit, inflicts Atk/Def-X on foe during combat (X = number of spaces from start position to end position of whoever initiated combat + 3; max 6), and also, if X ≥ 5, reduces damage from foe's first attack by 30% during combat.
+|tagidExtraSkill1=一
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks, and if unit is transformed, inflicts Atk/Spd/Def/Res-4 on foe during combat.
+|iconSkill1=New Foxkit Fang W.png
+|properties=
+}}
+==Notes==
+{{BonusStatDamage|stat=Res}}
+* New Foxkit Fang has the same effect as {{St|Dragon Wall 3}}.
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+{{Beast (Cavalry)}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfFoeInitiates}}
+{{Temporary buffs|name=Refined New Foxkit Fang}}
+{{Follow-up effect neutralization|name={{St|New Foxkit Fang|refine=Skill1}}}}
+{{Temporary debuffs|name={{St|New Foxkit Fang|refine=Skill1}}}}
+{{IfUnitTransforms|temporary debuffs of {{St|New Foxkit Fang|refine=Skill1}}}}
+{{Beast (Cavalry) Upgrade}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=New Foxkit Fang
+|japanese=新年の妖狐娘の爪牙
+|german=Neujahrs-Kitsune
+|spanishEU=Colmillo festivo
+|spanishLA=Col. joven festivo
+|french=Croc festif
+|italian=Zanna festosa
+|chineseTW=新年妖狐之女的爪牙
+|portuguese=Nova presa mirim
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If unit_s%> foe_s%, deals damage =%difference between stats%' AND (Exclusive='1' OR SP='300') OR Description LIKE '%unit_s Res > foe_s Res%educes damage%percentage = difference between stats ×%'}}
+* [[Evasion Passives]]
+{{Weapons Navbox}}

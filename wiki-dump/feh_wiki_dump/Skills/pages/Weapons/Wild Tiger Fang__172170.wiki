@@ -1,0 +1,39 @@
+{{Weapon Infobox
+|tagid=SID_暴走の虎の爪牙
+|intID=3067
+|exclusive=1
+|weaponType=Beast
+|canUseMove=Infantry
+|cost=400
+|might=14
+|range=1
+|effect=Grants Atk+3. At start of turn, inflicts Atk/Spd/Def/Res-6 on foes within 4 spaces of unit through their next actions. At start of combat, if foe's HP ≥ 75%, grants Atk/Spd+6 to unit and neutralizes bonuses (from skills like Fortify, Rally, etc.) on foe during combat.<br><br>At start of turn 2, turn 4, and all later turns, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, deals +7 damage when Special triggers, and neutralizes effects that grant "Special cooldown charge +X" to foe or inflict "Special cooldown charge -X" on unit during combat, but after combat, if unit attacked, deals 5 damage to unit.
+|statModifiers=0,17,0,0,0
+|required=Adult (Infantry)
+|properties=random_owner
+}}
+==Notes==
+{{Penalties}}
+{{Combat boosts}}
+{{Bonus neutralization}}
+{{Beast (Infantry)|turn24+=1}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+* Wild Tiger Fang is the first Beast weapon that has different transformation conditions.
+
+==In other languages==
+{{OtherLanguages
+|japanese=暴走の虎の爪牙
+|german=Tigerfangzahn
+|spanishEU=Colmillo de tigre
+|spanishLA=Colmillo de tigre
+|french=Croc de félin
+|italian=Zanna tigresca
+|chineseTW=失控之虎的爪牙
+|portuguese=Presa tigresa
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%at start of turn%inflicts%/%on foes within _ spaces%' AND Exclusive='1'|columns=3}}
+* [[Skill families#Threaten|Threaten Passives]]
+{{Weapons Navbox}}

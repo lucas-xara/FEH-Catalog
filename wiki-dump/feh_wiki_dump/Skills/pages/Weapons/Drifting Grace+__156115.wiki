@@ -1,0 +1,41 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_聖祭の風光＋
+|intID=2733
+|userVersion1=Closed|userVersion2=Open
+|weaponType=Blue Tome
+|might=12
+|range=2
+|effect=At start of turn, restores 10 HP. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+5 to unit during combat.
+|exclusive=0
+|cost=300
+|statModifiers=0,12,0,0,0
+|required=Drifting Grace
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Notes==
+* Has the same effect as {{St|Recover Ring}}.
+{{Start-of-turn healing}}
+{{Combat boosts}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=聖祭の風光＋
+|german=Luftige Grazie+
+|spanishEU=Brisa grácil +
+|spanishLA=Brisa grácil +
+|french=Grâce errante +
+|italian=Grazia leggiadra+
+|chineseTW=聖祭風光＋
+|portuguese=Brisa graciosa+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%start of turn, restores 10 HP.%' OR Description LIKE '%if unit_s HP ≥%grants Atk/Spd+_%during combat%'|columns=3}}
+{{Weapons Navbox}}

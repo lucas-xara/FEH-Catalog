@@ -1,0 +1,83 @@
+{{Weapon Infobox
+|tagid=SID_人見知りの縁の祭器
+|intID=4278
+|image=wep_mg092
+|exclusive=1
+|weaponType=Red Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>If there is an ally within 3 rows or 3 columns centered on unit, grants bonus to unit's Atk/Spd/Def/Res = 5 + number of foes within 3 rows or 3 columns centered on unit × 3 (max 14; if any space within 2 spaces of unit has a Divine Vein effect applied or counts as difficult terrain, excluding impassable terrain, value is treated as 14) and neutralizes foe's bonuses to Spd/Res (from skills like Fortify, Rally, etc.) during combat, and also, if unit's attack can trigger unit's Special, grants Special cooldown count-1 to unit before unit's first attack and Special cooldown count-1 to unit before unit's first follow-up attack during combat, and also, if unit's HP ≤ 99% when triggering their Special, unit deals +10 damage.<br><br>If there is an ally within 3 rows or 3 columns centered on unit and if unit's Spd > foe's Spd, foe cannot counterattack.<br><br>For allies within 3 rows or 3 columns centered on unit, if ally's attack can trigger ally's Special, neutralizes effects that inflict "Special cooldown charge -X" on ally and grants Special cooldown count-1 to ally before ally's first attack during their combat, and also, if ally's HP ≤ 99% when triggering their Special, ally deals +10 damage.
+|required=Bolganone;Fenrir
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|3 x {{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}, + 5|max=14*}}
+|Ce2={{Eft|Neutralize Bonuses|Spd/Res}}
+|Ce2T={{Tgt|Foe}}
+|Ce1-2C=An {{Tgt|Ally}} is within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|Ce3={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Unit}}'s first attack
+|Ce4={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Unit}}'s first [[follow-up]]
+|Ce3-5T={{Tgt|Unit}}<br>
+|Ce3-4C=<span style="width:12em;display:inline-block"/>{{Eft|Neutralize Bonuses|Spd/Res}} conditions<br>'''&''' {{Tgt|Unit}} has an<br>[[offensive Special]]
+|Ce5={{Eft|Damage Boost|10}}  per<br>{{Tgt|Unit}}'s [[Area-of-effect Specials|AoE]] '''or''' [[offensive Special]]
+|Ce5C=<span style="width:12em;display:inline-block"/>{{Eft|Neutralize Bonuses|Spd/Res}} conditions<br>'''&''' {{Tgt|Unit}}'s HP ≤ 99%
+|Ce6={{Eft|Prevent Counter}}
+|Ce6T={{Tgt|Foe}}<br>
+|Ce6C=<span style="width:12em;display:inline-block"/>{{Eft|Neutralize Bonuses|Spd/Res}} conditions<br>'''&''' {{Tgt|Unit}}'s Spd<br>> {{Tgt|Foe}}'s Spd
+|Ce7={{Eft|Neutralize Guard}}
+|Ce8={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Ally}}'s first attack
+|Ce9={{Eft|Damage Boost|10}} per<br>{{Tgt|Ally}}'s [[Area-of-effect Specials|AoE]] '''or''' [[offensive Special]]
+|Ce7-9T={{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|Ce7-8C={{Tgt|Ally}} has an<br>[[offensive Special]]
+|Ce9C={{Tgt|Ally}} has an<br>[[offensive Special]]<br>'''&''' {{Tgt|Ally}}'s HP ≤ 99%
+}}
+<b>{{Hatnote|* If {{Tgt|Unit}} is [[within 2 spaces]] of a [[Divine Vein]] '''or''' difficult [[terrain]],<br>value is treated as max.}}</b>
+
+==Notes==
+{{Temporary buffs}}
+{{Bonus neutralization}}
+{{CombatCooldownCount|-1}}
+{{Prevent counterattacks}}
+{{FlatDamageBoost|10}}
+{{CooldownChargeMinusNeutralization}}
+{{AlliesCombatEffect|neutralize "Special cooldown charge -X", cooldown reduction before first attack and damage boost effects}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Nephenee: Festival Harmony|t=Elincia: Estival Princess
+|---xxx---
+|---xxx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xtx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V8.8_v0808a_yukata_Mag.webp|Sprite sheet for {{St|Juicy Bucketful+}} and {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=人見知りの縁の祭器
+|german=Fächer der Scheu
+|spanishEU=Abanico cohibido
+|spanishLA=Abanico cohibido
+|french=Éventail timide
+|italian=Ventaglio leggero
+|chineseTW=怕生之緣的祭器
+|portuguese=Leque vibrante
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%if any space within _ spaces of unit has a Divine Vein effect applied or counts as difficult terrain%' OR Description LIKE '%special cooldown count-%to unit%before unit_s first follow-up attack%' OR (Description LIKE '%if unit_s HP%trigger%special%deals%damage%' AND (Description LIKE '%if unit_s HP <%' OR Description LIKE '%if unit_s HP ≤%'))) AND Exclusive='1'}}
+* [[Skill families/A Passives#Mastery|Mastery Passives]]
+{{Weapons Navbox}}

@@ -1,0 +1,73 @@
+{{SkillPage Tabs}}{{Passive
+|type=A
+|exclusive=0
+|1name=Atk/Res Bond 1
+|1tagid=SID_攻撃魔防の絆1
+|1promotionRarity=4
+|1promotionTier=1
+|alt1name=Atk Res Bond 1
+|1effect=If unit is adjacent to an ally, grants Atk/Res+3 during combat.
+|1required=-
+|1cost=60
+|2name=Atk/Res Bond 2
+|2tagid=SID_攻撃魔防の絆2
+|2promotionRarity=5
+|2promotionTier=1
+|alt2name=Atk Res Bond 2
+|2effect=If unit is adjacent to an ally, grants Atk/Res+4 during combat.
+|2cost=120
+|3name=Atk/Res Bond 3
+|3tagid=SID_攻撃魔防の絆3
+|alt3name=Atk Res Bond 3
+|3effect=If unit is adjacent to an ally, grants Atk/Res+5 during combat.
+|3cost=240
+|3next=-
+|4name=Atk/Res Bond 4
+|4tagid=SID_攻撃魔防の絆4
+|alt4name=Atk Res Bond 4
+|4effect=If unit is adjacent to an ally, grants Atk/Res+7 to unit and neutralizes unit's penalties to Atk/Res during combat.
+|4cost=300
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=random_owner
+}}
+==Notes==
+{{Combat boosts|name=Atk/Res Bond}}
+{{Penalty neutralization|name=Atk/Res Bond 4}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Atk/Res Bond 1;Atk/Res Bond 2;Atk/Res Bond 3
+|badgeColor=Transparent
+|costs1=20;100;40
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|english=Atk/Res Bond
+|japanese=攻撃魔防の絆
+|german=Agr./Res.-Band
+|spanishEU=Lazo Ata/Res
+|spanishLA=Lazo Atq./Res.
+|french=Lien Atq/Rés
+|italian=Vincolo Att/Res
+|chineseTW=攻擊魔防的羈絆
+|portuguese=Laço Atq./Res.
+}}
+==See also==
+* [[Bond Passives]]
+* [[Owl Tomes]]
+{{Seals Navbox}}
+{{Passives Navbox|A}}
+[[Category: Bond Passives]]

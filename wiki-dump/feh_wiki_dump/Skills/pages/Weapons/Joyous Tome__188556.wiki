@@ -1,0 +1,44 @@
+{{Weapon Infobox
+|tagid=SID_幸福の良書
+|intID=3439
+|userVersion1=Closed
+|userVersion2=Open
+|exclusive=1
+|weaponType=Green Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of turn, if unit is within 3 spaces of an ally, restores 7 HP to unit and allies within 3 spaces of unit. Restores 7 HP to allies within 3 spaces of unit after their combat. Reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = number of allies with HP ≥ 50% within 3 spaces of unit × 15 (max 45%). If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit during combat and deals damage = number of allies with HP ≥ 50% within 3 spaces of unit × 5 (excluding area-of-effect Specials; max 15), and restores 7 HP after combat.
+|statModifiers=0,14,0,0,0
+|required=Rexcalibur
+|properties=random_owner
+}}
+==Notes==
+{{Start-of-turn healing|allies=1}}
+{{After combat healing|allies=1}}
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+{{Temporary buffs}}
+{{DamageBoost}}
+
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V7.1_v0701b_engage_Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=幸福の良書
+|german=Wonnebuch
+|spanishEU=Grimorio dichoso
+|spanishLA=Grimorio dichoso
+|french=Tome jovial
+|italian=Tomo gioioso
+|chineseTW=幸福良書
+|portuguese=Tomo alegre
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%start of%restores%HP%allies within _ spaces of unit%' AND Exclusive='1' OR (Description LIKE '%restores%HP%unit%after combat%' AND Description NOT LIKE '%holder%' AND Description NOT LIKE '%deals%damage%after combat%' OR Description LIKE '%restores%HP%allies%after combat%' OR Description LIKE '%after combat%restores%HP%allies%' AND Description NOT LIKE '%elixir%') AND Exclusive='1' AND Name NOT LIKE '%+' OR Description LIKE '%deals damage%=%number of allies%within _ spaces%'}}
+{{Weapons Navbox}}

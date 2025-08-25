@@ -1,0 +1,59 @@
+{{Weapon Infobox
+|tagid=SID_セツナの緩弓
+|weaponName=Setsuna's Yumi
+|weaponType=Bow
+|might=14
+|range=2
+|effectiveness=Flying
+|effect=Effective against flying foes. If foe uses bow, dagger, magic, or staff, grants Atk/Spd/Def/Res+4 during combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,0,0,0
+|intID=2164
+|sort=433
+|value=20
+|timingID=1
+|abilityID=35
+|limit2ID=9
+|userVersion1=Bow
+|userVersion2=Arrow
+|userVersion3=Upgrade Gleam
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If【Bonus】is active on unit, grants Atk/Spd+5 and neutralizes unit's penalties to Atk/Spd during combat.<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|iconSkill1=Setsunas Yumi W.png
+|tagidExtraSkill1=無
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|Flying}}
+{{Combat boosts}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{EffectfromBonusKeyword|combat boosts and penalty neutralization effects}}
+{{Combat boosts}}
+{{Penalty neutralization}}
+
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|弱化無効個別R攻速5|Penalty Neutralization Individual R Atk/Spd 5}}
+==In other languages==
+{{OtherLanguages
+|english=Setsuna's Yumi
+|japanese=セツナの緩弓
+|german=Setsunas Yumi
+|spanishEU=Yumi Setsuna
+|spanishLA=Yumi Setsuna
+|french=Yumi de Setsuna
+|italian=Yumi di Setsuna
+|chineseTW=剎那的緩弓
+|portuguese=Yumi de Setsuna
+}}
+==See also==
+* [[Huge Fan+]]
+{{Weapons Navbox}}

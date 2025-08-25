@@ -1,0 +1,37 @@
+{{Weapon Infobox
+|tagid=SID_フレリアの重槍
+|intID=3519
+|image=wep_lc141
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of turn, grants "neutralizes 'effective against flying' bonuses" to flying allies within 2 spaces of unit for 1 turn. If foe initiates combat or foe's HP ≥ 75% at start of combat, grants Atk+6 to unit, inflicts Atk-6 on foe, inflicts penalty on foe's Atk/Def = 20% of unit's Def at start of combat, and reduces damage from foe's first attack by 40% during combat.
+|required=Silver Lance
+|properties=random_owner
+}}
+==Notes==
+{{Neutralize Effective Against Flying}}
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+{{Temporary debuffs}}
+{{At start of combat}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=フレリアの重槍
+|german=Lanze Frelias
+|spanishEU=Lanza de Frelia
+|spanishLA=Lanza de Frelia
+|french=Lance frelianne
+|italian=Lancia freliana
+|chineseTW=弗萊利亞的重槍
+|portuguese=Lança de Frelia
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%"neutralizes \'effective against flying\' bonuses%' OR (Description LIKE '%inflicts penalty on foe_s%=%of unit_s%at start of combat%' OR Description LIKE '%if foe initiates combat or if foe_s HP%reduces damage from foe_s first attack%') AND Exclusive='1'}}
+{{Weapons Navbox}}

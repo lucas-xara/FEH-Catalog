@@ -1,0 +1,79 @@
+{{#invoke:NameAbout|main|Name=Ivy}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Ivy
+|Title=Tidal Breeze
+|WeaponType=Green Tome
+|MoveType=Flying
+|Origin=Fire Emblem Engage
+|Gender=Female
+|actorEN=Reba Buhr
+|actorJP=日笠陽子
+|artist=cuboon
+|additionDate=July 6, 2023
+|releaseDate=July 7, 2023
+|cv1=14
+|cv2=400200
+|TagID=水着アイビー
+|InternalID=970
+|Properties=special,hat,tiara
+|description=Crown princess of Elusia. Though she has no enthusiasm for summer, it is tolerable spent by the Divine Dragon's side. Appears in Fire Emblem Engage.
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=16|Lv1SPD=3|Lv1DEF=3|Lv1RES=11
+|GRHP=50|GRATK=70|GRSPD=50|GRDEF=40|GRRES=75
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Wind
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elwind
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Rexcalibur
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Divine Draught
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Glimmer
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Still Water 1
+|passiveA2=Still Water 2
+|passiveA3=Still Water 3
+|passiveA4=Still Water 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Sabotage Res 1
+|passiveB2=Sabotage Res 2
+|passiveB3=Sabotage Res 3
+|passiveB4=Sabotage A/R 3
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Flier Guidance 1
+|passiveC2=Flier Guidance 2
+|passiveC3=Flier Guidance 3
+|passiveC4=Soaring Guidance
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Summer units]]

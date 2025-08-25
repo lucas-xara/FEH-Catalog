@@ -1,0 +1,39 @@
+{{Weapon Infobox
+|tagid=SID_ローローの斧＋
+|weaponType=Axe
+|weaponName=Legion's Axe+
+|altWeaponName=Legion's Axe Plus
+|might=14
+|range=1
+|effect=After combat, if unit attacked, converts bonuses on foe into penalties through its next action.
+|cost=300
+|exclusive=0
+|statModifiers=0,14,0,0,0
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|upgradedEffect=After combat, if unit attacked, converts bonuses on target and foes within 2 spaces of target into penalties through their next actions.
+|properties=
+}}
+==Notes==
+{{IfUnitAttacked}}
+{{Panic}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ローローの斧＋
+|german=Legions Axt +
+|spanishEU=Hacha Legion +
+|spanishLA=Hacha Legion +
+|french=Hache Legion +
+|italian=Ascia di Legion+
+|chineseTW=羅羅之斧＋
+|portuguese=Machado legião+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit attacked%into penalties through%'|columns=3}}
+{{Weapons Navbox}}

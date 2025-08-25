@@ -1,0 +1,71 @@
+{{#invoke:NameAbout|main|Name=Nyx}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Nyx
+|Title=Rulebreaker Mage
+|WeaponType=Red Tome
+|MoveType=Infantry
+|Origin=Fire Emblem Fates
+|Gender=Female
+|actorEN=Amber Hood
+|actorJP=木村珠莉
+|artist=恒星ホリグチ
+|randomStartTime=2021-08-19T07:00:00Z
+|additionDate=July 19, 2021
+|releaseDate=July 19, 2021
+|poolDate=August 5, 2021
+|poolRarities=5
+|cv1=11
+|cv2=4900100
+|TagID=ニュクス
+|InternalID=685
+|Properties=specRate_202402
+|description=A mage who once grew so overwhelmed by her own power, she cast a forbidden spell, inflicting unspeakable loss. Appears in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=12|Lv1SPD=10|Lv1DEF=4|Lv1RES=6
+|GRHP=45|GRATK=70|GRSPD=70|GRDEF=35|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Flux
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Ruin
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Fenrir
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Ginnungagap (weapon)
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Spd/Res Solo 1
+|passiveA2=Spd/Res Solo 2
+|passiveA3=Spd/Res Solo 3
+|passiveA4=Spd/Res Solo 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Null Follow-Up 1
+|passiveB2=Null Follow-Up 2
+|passiveB3=Null Follow-Up 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+}}
+{{Heroes Navbox}}

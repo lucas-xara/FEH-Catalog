@@ -1,0 +1,40 @@
+{{Weapon Infobox
+|tagid=SID_魚の弓
+|weaponType=Bow
+|weaponName={{PAGENAME}}
+|might=8
+|range=2
+|effectiveness=flying
+|effect=Effective against flying foes. If unit's HP ≤ 75% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.
+|cost=200
+|exclusive=0
+|userVersion1=Bow|userVersion2=Arrow|statModifiers=0,8,0,0,0
+|next=Fishie Bow+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Bow
+|properties=
+}}
+==Notes==
+* Has the same effect as {{St|Desperation 3}}.
+{{Effective damage bonus|flying}}
+{{Follow-up before counterattack}}
+
+==List of owners==
+{{Skill Hero List}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=魚の弓
+|german=Fischbogen
+|spanishEU=Arco de pez
+|spanishLA=Arco de pez
+|french=Arc poisson
+|italian=Arco ittico
+|chineseTW=魚弓
+|portuguese=Arco náutico
+}}
+
+==See also==
+{{Weapons Navbox}}
+[[Category:A Sketchy Summer weapons]]

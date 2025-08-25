@@ -1,0 +1,43 @@
+{{Weapon Infobox
+|tagid=SID_操舵の斧
+|weaponName=Helmsman Axe
+|image=wep_ax095
+|weaponType=Axe
+|might=10
+|range=1
+|effect=If unit initiates combat, inflicts Atk/Spd/Def/Res-4 on foe during combat.
+|cost=200
+|exclusive=0
+|statModifiers=0,10,0,0,0
+|required=Steel Axe
+|next=
+|promotionRarity=5
+|promotionTier=1
+|intID=2680
+|sort=94000
+|value=11
+|timingID=1
+|abilityID=97
+|limit1ID=1
+|properties=
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Combat reductions}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=操舵の斧
+|german=Steuermannsaxt
+|spanishEU=Hacha timonel
+|spanishLA=Hacha timonel
+|french=Hache timonier
+|italian=Ascia timoniere
+|chineseTW=操舵之斧
+|portuguese=Machado timão
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit%inflicts Atk/Spd/Def/Res-%on foe%during combat%' AND WikiName NOT LIKE '%fox%'|columns=3}}
+* [[Skill families#Fox|Fox Weapons]]
+{{Weapons Navbox}}

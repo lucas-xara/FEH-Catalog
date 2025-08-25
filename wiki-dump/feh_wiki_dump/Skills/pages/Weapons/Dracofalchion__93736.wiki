@@ -1,0 +1,76 @@
+{{Weapon Infobox
+|tagid=SID_竜剣ファルシオン
+|weaponType=Red Sword
+|might=16
+|range=1
+|userVersion1=Weapon
+|userVersion2=Gleam
+|userVersion3=Upgrade Weapon
+|userVersion4=Upgrade Gleam
+|effectiveness=dragon
+|effect=Effective against dragon foes. Grants Atk+3. If the number of foes within 2 spaces (excluding target) ≥ the number of allies within 2 spaces (excluding unit), grants Atk/Spd/Def/Res+5 during combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,19,0,0,0
+|required=Silver Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Effective against dragon foes. Grants Atk+3. At start of turn, unit can move 1 extra space. (That turn only. Does not stack.) If unit initiates combat or is not adjacent to an ally, grants Atk/Spd/Def/Res+5 to unit during combat.
+|tagidExtraSkill1=一
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit during combat, and also, if foe uses sword, lance, axe, bow, dagger, or beast damage and unit's Spd > foe's Spd, neutralizes effects that prevent unit's follow-up attacks and foe cannot counterattack.
+|iconSkill1=Dracofalchion W.png
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Atk|3}}
+|s1 Ce1={{Eft|Effectiveness|{{Cwti|group=1|Dragon}} [[Dragon]]}}
+|s1 Ce2={{Eft|Temporary Buffs|Atk/Spd/Def/Res|5}}
+|s1 CeC2={{Tgt|Foes}} [[within 2 spaces]]<br>(excluding {{Tgt|Target Foe}}) ≥<br>{{Tgt|Allies}} [[within 2 spaces]]<br>(excluding {{Tgt|Unit}})
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Se={{SEt|Mobility increased}}
+|s2 SeC=At start of turn
+|s2 Pe={{Eft|Stat Boosts|Atk|3}}
+|s2 Ce1={{Eft|Effectiveness|{{Cwti|group=1|Dragon}} [[Dragon]]}}
+|s2 Ce2={{Eft|Temporary Buffs|Atk/Spd/Def/Res|5}}
+|s2 CeC2=Player Phase '''or'''<br>{{Tgt|Unit}} isn't [[adjacent]]<br>to an {{Tgt|Ally}}
+|skill3={{Si|Dracofalchion|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary Buffs|Atk/Spd/Def/Res|5}}
+|s3 CeC1={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s3 Ce2={{Eft|Neutralize Prevent Follow-Up}}
+|s3 Ce3={{Eft|Prevent Counter}}
+|s3 CeT3={{Tgt|Foe}}
+|s3 Ce2-3C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat,<br>{{Tgt|Foe}} is [[Physical]],<br>'''&''' {{Tgt|Unit}}'s Spd<br>> {{Tgt|Foe}}'s Spd
+}}
+
+==Notes==
+{{Effective damage bonus|dragon}}
+{{Temporary buffs}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfUnitInitiates}}
+{{Mobility increased|name=Refined Dracofalchion}}
+{{Prevent counterattacks|name={{St|Dracofalchion|refine=Skill1}}}}
+{{Follow-up effect neutralization|name={{St|Dracofalchion|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=竜剣ファルシオン
+|german=Drachen-Falchion
+|spanishEU=Falchion dragón
+|spanishLA=Falchion dragón
+|french=Falchion dragon
+|italian=Falchion drago
+|chineseTW=龍劍法爾西昂
+|portuguese=Dracofalchion
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%unit_s Spd%foe cannot counterattack%' OR Description LIKE '%start of turn, unit can move 1 extra space%' OR (Description LIKE '%start of%turn%move 1 extra space%' AND Description NOT LIKE '%transforms%' AND Description NOT LIKE '%restricts%' AND Description NOT LIKE '%excluding%1 extra space%') OR WikiName LIKE '%Falchion%') AND (Exclusive=1 AND Name NOT LIKE '%+' AND Name NOT LIKE 'Arcane%')}}
+* [[Skill families/C Passives#Tempest|Tempest Passives]]
+* [[Skill families/B Passives#Sweep|Sweep Passives]]
+{{Weapons Navbox}}

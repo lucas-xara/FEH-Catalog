@@ -1,0 +1,50 @@
+{{Passive
+|name=Wrathful Tempo
+|type=B
+|exclusive=0
+|canUseWeapon={{WeaponList|Staff}}
+|canUseMove={{MoveList|Infantry}}
+|properties=random_owner
+|1name=Wrathful Tempo
+|1tagid=SID_神罰・拍節
+|1effect=Calculates damage from staff like other weapons. Inflicts Spd/Res-4 on foe and neutralizes effects that grant "Special cooldown charge +X" to foe or inflict "Special cooldown charge -X" on unit during combat.
+|1cost=300
+|1required=Wrathful Staff 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Wrathful Staff}}
+|Ce2={{Eft|Temporary debuffs|Spd/Res|4}}
+|Ce3={{Eft|Neutralize Charge +1}}
+|CeT2-3={{Tgt|Foe}}
+|Ce4={{Eft|Neutralize Guard}}
+|CeT4={{Tgt|Unit}}
+}}
+
+==Notes==
+{{Wrathful Staff}}
+{{Temporary debuffs}}
+{{CooldownChargePlusNeutralization}}
+{{CooldownChargeMinusNeutralization}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=神罰・拍節
+|german=Rachsuchttakt
+|spanishEU=Tempo furioso
+|spanishLA=Tempo furioso
+|french=Tempo furieux
+|italian=Ritmo irato
+|chineseTW=神罰・節拍
+|portuguese=Tempo da ira
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%damage from staff%' AND Description NOT LIKE '%disable%"%damage from staff%"%' AND Name NOT LIKE '%+' OR Description LIKE '%neutralizes%"Special cooldown charge +X"%"Special cooldown charge -X"%' AND Description NOT LIKE '%transforms%when special triggers%') AND Exclusive='1'}}
+* [[Skill families/B Passives#Staff|Staff Passives]]
+* [[Tempo Passives]]
+{{Passives Navbox|B}}

@@ -1,0 +1,38 @@
+{{Assist
+|tagid=SID_速さ魔防の応援
+|name=Rally Spd/Res
+|range=1
+|effect=Grants Spd/Res+3 to target ally for 1 turn.
+|cost=300
+|required=Rally Speed;Rally Resistance
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_all,random_inherit_base
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se={{Eft|Bonuses|Spd/Res|3}}
+|SeT={{Tgt|Target Ally}}
+|SeC={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}
+}}
+==Notes==
+{{Bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Rally Spd/Res
+|japanese=速さ魔防の応援
+|german=Ges./Res. sam.
+|spanishEU=Potenc. Vel/Res
+|spanishLA=Potenc. Vel./Res.
+|french=Rall. : Vit/Rés
+|italian=Sprone Vel/Res
+|chineseTW=速度魔防支援
+|portuguese=Vel./Res. nímias
+}}
+==See also==
+* [[Rally Assists]]
+{{AssistSkillBox}}
+[[Category:Rally Assists]]

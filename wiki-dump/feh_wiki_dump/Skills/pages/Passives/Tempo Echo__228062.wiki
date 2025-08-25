@@ -1,0 +1,48 @@
+{{Passive
+|name=Tempo Echo
+|type=X
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|Infantry}}
+|1name=Tempo Echo
+|1tagid=SID_響・拍節
+|1effect=Neutralizes effects that grant "Special cooldown charge +X" to foe or inflict "Special cooldown charge -X" on unit and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials).
+|1cost=0
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Reduce Damage Reduction|50%}}
+|Ce2={{Eft|Neutralize Special Cooldown Charge +1}}
+|Ce1-2T={{Tgt|Foe}}
+|Ce3={{Eft|Neutralize Guard}}
+|Ce3T={{Tgt|Unit}}
+}}
+==Notes==
+{{CooldownChargePlusNeutralization}}
+{{CooldownChargeMinusNeutralization}}
+{{Reduce Damage Reduction}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU= Eco tempo
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+
+==See also==
+{{See also skills|cond=(Description LIKE '%neutralizes effects%grant "Special cooldown charge +X" to foe%"Special cooldown charge -X" on unit%' AND Description NOT LIKE '%transforms%+7 damage when%' AND WikiName NOT LIKE '%Tempo%') AND Exclusive='1'}}
+* [[Tempo Passives]]
+{{Passives Navbox|X}}

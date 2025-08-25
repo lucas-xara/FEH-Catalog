@@ -1,0 +1,56 @@
+{{About|the [[Passive]] skill Paranoia|the [[status effect]] Paranoia|Paranoia (status effect)}}
+{{Passive
+|name=Paranoia
+|type=C
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Paranoia
+|1tagid=SID_被害妄想
+|1effect=At start of turn, grants【Null Follow-Up】 to unit and grants【Paranoia】to unit and allies within 2 spaces of unit for 1 turn, and deals 1 damage to unit and those allies. At start of turn, if unit is within 5 spaces of a foe, inflicts【Penalty】effects active on unit on closest foes and any foe within 2 spaces of those foes, and neutralizes any【Penalty】 effects active on unit (excluding penalties inflicted at the start of the same turn).<br><br>At start of combat, if unit's HP ≤ 99%, grants Atk/Spd+5 to unit and neutralizes effects that inflict "Special cooldown charge -X" on unit during combat.<br><br>【Null Follow-Up】<br>If unit's Spd > foe's Spd during combat, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks for 1 turn.<br><br>【Paranoia】<br>At start of combat, if unit's HP ≤ 99%, grants Atk+5 to unit during combat, and also, if unit initiates combat, unit can make a follow-up attack before foe's next attack.<br><br>At start of combat, if unit's HP ≤ 99%, if foe initiates combat, and if either that foe's Range = unit's Range or number of【Penalty】effects active on foe excluding stat penalties ≥ 3, unit can counterattack before foe's first attack (excluding when unit's Savior effect triggers).<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Damage|1}}
+|MeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|MeC=At start of turn
+|Se1={{SEt|Null Follow-Up}}
+|Se2={{SEt|Paranoia}}
+|Se2T={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|Se1-2C=At start of turn
+|Se3=All {{Kp|Penalty}} effects<br>active on {{Tgt|Unit}}
+|Se3T=Closest {{Tgt|Foes}}<br>[[within 5 spaces]]<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}
+|Se4=Removes {{Kp|Penalty}} effects
+|Se4T={{Tgt|Unit}}
+|Se3-4C=At start of turn<br>if a {{Tgt|Foe}} is<br>[[within 5 spaces]]
+|Ce1={{Eft|Temporary buffs|Atk/Spd|5}}
+|Ce2={{Eft|Neutralize Guard}}
+|CeC={{Tgt|Unit}}'s HP ≤ 99%<br>at start of combat
+}}
+==Notes==
+{{Null Follow-Up}}
+{{Paranoia}}
+{{Out of combat damage}}
+{{CopyPenalty|neutralize=1|target=the closest foes [[within 5 spaces]] & foes [[within 2 spaces]] of those foes}}
+{{Temporary buffs}}
+{{CooldownChargeMinusNeutralization}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=被害妄想
+|german=Paranoia
+|spanishEU=Paranoia
+|spanishLA=Paranoia
+|french=Paranoïa
+|italian=Paranoia
+|chineseTW=被害妄想
+|portuguese=Paranoia
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Paranoia】%' OR Description LIKE '%at start of turn%deals 1 damage%to unit and allies within _ spaces%' OR Description LIKE '%neutralize%any%【Penalty】%') and Exclusive='1'}}
+{{Passives Navbox|C}}

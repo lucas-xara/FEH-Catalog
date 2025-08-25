@@ -1,0 +1,45 @@
+{{Assist
+|tagid=SID_あまいよるのゆめ
+|intID=4621
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=400
+|range=1
+|effect=Grants another action to target ally, and if Canto has already been triggered by target ally, re-enables Canto. Inflicts Atk/Def/Res-7, 【Frozen】, and【Sabotage】on closest foes to target ally and any foe within 2 spaces of those foes through their next actions (cannot target an ally with Sing or Dance; this skill treated as Sing or Dance).<br><br>【Frozen】<br>Reduces inflicted unit's follow-up ability and increases foe's follow-up ability through unit's next action:<br><br>Increases Spd difference necessary for unit to make a follow-up attack by X and decreases Spd difference necessary for foe to make a follow-up attack by X during combat (if foe's Def > unit's Def, X = 10 + difference between Def stats × 2; otherwise, X = 10). (For example, if Spd difference necessary increases by 10, Spd must be ≥ 15 more than foe's Spd to make a follow-up attack; stacks with similar skills.)<br><br>【Sabotage】<br>Inflicts penalty on unit's Atk/Spd/Def/Res during combat = highest penalty on each stat between unit and allies within 2 spaces of unit through its next action. Calculates each stat penalty independently.
+|required=Dance
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{Eft|Penalties|Atk/Def/Res|7}}
+|Se2={{SEt|Frozen}}
+|Se3={{SEt|Sabotage}}
+|SeT=Closest {{Tgt|Foes}}<br>of {{Tgt|Target Ally}}<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}} 
+|SeC={{Tgt|Target (Ally)}}<br>doesn't have a<br>{{Uti|Dance}} [[Dance Assist]]<br>'''or''' {{SEt|Isolation}}
+|Me1={{Eft|Another Action}}
+|Me2=Re-enables [[Canto]]
+|MeT={{Tgt|Target Ally}}
+|MeC={{Tgt|Target (Ally)}}<br>doesn't have a<br>{{Uti|Dance}} [[Dance Assist]]<br>'''or''' {{SEt|Isolation}}
+}}
+
+==Notes==
+{{Penalties}}
+{{Frozen}}
+{{Sabotage}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%This skill treated as Sing or Dance%' OR Description LIKE '%【Frozen】%' AND Exclusive='1'}}
+{{Assists Navbox}}

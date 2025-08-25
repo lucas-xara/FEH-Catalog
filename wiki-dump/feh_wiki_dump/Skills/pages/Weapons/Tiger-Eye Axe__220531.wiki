@@ -1,0 +1,71 @@
+{{Weapon Infobox
+|tagid=SID_虎目石の荒斧
+|intID=4264
+|image=wep_ax156
+|exclusive=1
+|weaponType=Axe
+|cost=400
+|might=16
+|range=1
+|effect=At start of turn, if unit's HP ≥ 25%, inflicts Atk/Def-7 and【Discord】on closest foes and any foe within 2 spaces of those foes through their next actions.<br><br>At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit and reduces damage from foe's first attack by 30% during combat, and unit's next attack deals damage = 30% of foe's attack damage prior to reductions (resets at end of combat; only highest value applied; does not stack).<br><br>【Discord】<br>Inflicts Atk/Spd/Def/Res-X on unit during combat (X = 2 + number of allies within 2 spaces of unit; max 5) through its next action.
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|refineStatsSkill1=3,0,0,0,0
+|effectSkill1=If any【Bonus】is active on unit or any【Penalty】is active on foe, grants Atk/Spd/Def/Res+4 to unit, inflicts penalty on foe's Atk/Spd/Def = highest penalty on each stat between target and foes within 2 spaces of target (calculates each stat penalty independently), unit makes a guaranteed follow-up attack, and unit deals damage = 10% of unit's Atk during combat (excluding area-of-effect Specials).<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Se1={{Eft|Penalties|Atk/Def|7}}
+|s1 Se2={{SEt|Discord}}
+|s1 SeT=Closest {{Tgt|Foes}}<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}
+|s1 SeC=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25%
+|s1 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s1 Ce2={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s first attack
+|s1 Ce3={{Eft|Damage Boost|30% of {{Tgt|Foe}}'s attack<br>damage prior to reductions}}
+|s1 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|skill2={{Si|Tiger-Eye Axe|refine=Skill1}} Skill refine effects
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s2 Ce2={{Eft|Temporary debuffs|Atk/Spd/Def|highest {{SEt|Penalty}}<br>on {{Tgt|Target Foe}} & {{Tgt|Foes}}<br>[[within 2 spaces]] of {{Tgt|Target Foe}}}}
+|s2 Ce2T={{Tgt|Foe}}
+|s2 Ce3={{Eft|Guaranteed Follow-Ups}}
+|s2 Ce4={{Eft|Damage Boost|10% of {{Tgt|Unit}}'s Atk}}
+|s2 Ce2-4T={{Tgt|Unit}}
+|s2 CeC=A {{Kp|Bonus}} is<br>active on {{Tgt|Unit}}<br>'''or''' a {{Kp|Penalty}} is<br>active on {{Tgt|Foe}}
+}}
+
+==Notes==
+{{Penalties}}
+{{Discord}}
+{{Temporary buffs}}
+{{DamagePercentageReduction}}
+{{DamageBoost|beforeReductions=1}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{TemporaryDebufffromPenalty|multisource=1|source=the foe and foes within 2 spaces of those foes|name={{St|Tiger-Eye Axe|refine=Skill1}}}}
+{{Guaranteed follow-up interaction}}
+{{DamageBoost|name={{St|Tiger-Eye Axe|refine=Skill1}}}}
+{{EffectfromBonus|temporary buffs, temporary debuffs, guaranteed follow-up and damage boost effects|name={{St|Tiger-Eye Axe|refine=Skill1}}}}
+{{EffectfromPenalty|temporary buffs, temporary debuffs, guaranteed follow-up and damage boost effects|name={{St|Tiger-Eye Axe|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=虎目石の荒斧
+|german=Tigeraugenaxt
+|spanishEU=Hacha Ojo Tigre
+|spanishLA=Hacha atigrada
+|french=Hache du tigre
+|italian=Ascia di Tigre
+|chineseTW=虎眼石的荒斧
+|portuguese=Fio olho de tigre
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%prior to reductions%' OR Description LIKE '%【Discord】%' OR Description LIKE '%highest%penalt%between foe and foes within _ spaces of that foe%') AND Exclusive='1'}}
+{{Weapons Navbox}}

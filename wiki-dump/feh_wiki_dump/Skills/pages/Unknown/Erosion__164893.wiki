@@ -1,0 +1,37 @@
+{{Captain Skill
+|name=Erosion
+|effect=When your captain is in combat, foes' Savior effects will not trigger.<br><br>When a foe's Savior effect triggers, inflicts Def/Res-4 on that foe during combat and that foe cannot counterattack.
+|statModifiers=
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|MapEffect={{Eft|Prevent Savior}}
+|MapEffect Targets={{Tgt|Foe}}
+|MapEffect Conditions={{Tgt|Captain}} is in combat
+|CombatEffect 1={{Eft|Temporary debuffs|Def/Res|4|}}
+|CombatEffect 2={{Eft|Prevent Counter}}
+|CombatEffect Targets={{Tgt|Foe}}
+|CombatEffect Conditions={{Tgt|Ally}} is in combat<br>'''&''' {{Tgt|Foe}} triggers a<br>{{Eft|Savior}} effect
+}}
+
+==Notes==
+{{Prevent Savior}}
+{{Temporary debuffs}}
+{{Prevent counterattacks}}
+{{FoesCombatEffect}}
+==In other languages==
+{{OtherLanguages
+|english=Erosion
+|japanese=水滴石穿
+|german=Erosion
+|spanishEU=Erosión
+|spanishLA=Erosión
+|french=Érosion
+|italian=Erosione
+|chineseTW=水滴石穿
+|portuguese=Erosão
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%cannot be protected by Savior%' OR Description LIKE '%foes_ Savior %will not trigger%'}}
+{{Captain Skills Navbox}}

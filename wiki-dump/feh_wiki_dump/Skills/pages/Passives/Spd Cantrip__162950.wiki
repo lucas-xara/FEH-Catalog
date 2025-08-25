@@ -1,0 +1,47 @@
+{{Passive
+|type=B
+|name=Spd Cantrip
+|exclusive=0
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Spd Cantrip 1
+|1tagid=SID_速さの魅了1
+|1cost=60
+|1effect=If Sing or Dance is used, inflicts Spd-3 on nearest foes within 4 spaces of unit through their next actions.
+|1required=-
+|1promotionRarity=4
+|1promotionTier=1
+|2name=Spd Cantrip 2
+|2tagid=SID_速さの魅了2
+|2cost=120
+|2effect=If Sing or Dance is used, inflicts Spd-5 on nearest foes within 4 spaces of unit through their next actions.
+|2promotionRarity=5
+|2promotionTier=1
+|3name=Spd Cantrip 3
+|3tagid=SID_速さの魅了3
+|3cost=240
+|3effect=If Sing or Dance is used, inflicts Spd-7 on nearest foes within 4 spaces of unit through their next actions.
+}}
+==Notes==
+{{Cantrip passive interaction}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=速さの魅了
+|german=Ges.-List
+|spanishEU=Aquelarre Vel
+|spanishLA=Embrujo Vel.
+|french=Sortilège Vit
+|italian=Silenzia Vel
+|chineseTW=速度魅惑
+|portuguese=Malefício Vel.
+}}
+==See also==
+* [[Dance Passives]]
+{{Passives Navbox|B}}

@@ -1,0 +1,54 @@
+{{Passive
+|name=Weaving Fighter
+|type=B
+|exclusive=0
+|canUseWeapon={{WeaponList|Physical}}
+|canUseMove={{MoveList|Armored}}
+|properties=random_owner
+|1name=Weaving Fighter
+|1tagid=SID_理の守備隊形
+|1effect=At start of combat, if unit's HP ≥ 25%, inflicts Atk/Def-4 on foe, unit and foe cannot make a follow-up attack, reduces damage from foe's first attack by X% (if foe can make a follow-up attack, X = 80; otherwise, X = 40), and reduces damage from foe's follow-up attack by 40% during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes; likewise, "follow-up attack" normally means the second strike; for effects that grant "unit attacks twice," it means the third and fourth strikes), and restores 7 HP to unit after combat.
+|1cost=300
+|1required=Wary Fighter 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|MapEffect={{Eft|Healing|7}}
+|MapEffect Conditions=After combat if<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|CombatEffect 1={{Eft|Temporary debuffs|Atk/Def|4}}
+|CombatEffect 1 Targets={{Tgt|Foe}}
+|CombatEffect 2={{Eft|Prevent Follow-Ups}}
+|CombatEffect 2 Targets={{Tgt|Unit}}<br>'''&''' {{Tgt|Foe}}
+|CombatEffect Conditions={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|CombatEffect 3={{Eft|Damage Reduction|(80% if {{Tgt|Foe}} can<br>make a [[follow-up]]; else 40%)}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|CombatEffect 4={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s [[follow-up]]<br>(including fourth attacks)
+|CombatEffect 3-4 Targets={{Tgt|Unit}}
+}}
+
+==Notes==
+{{Prevent follow-up|target=the unit and foe}}
+{{DamagePercentageReduction}}
+{{After combat healing}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=理の守備隊形
+|japaneseNotes=<i>physical defense formation</i>
+|german=Vorkehrung
+|spanishEU=Cauteloso
+|spanishLA=Cauteloso
+|french=Précaution
+|italian=Intreccio
+|chineseTW=理之防守隊形
+|portuguese=Precaução
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%unit and foe%cannot make a follow-up attack%' AND Description NOT LIKE '%grants%+_ to unit and foe%' AND Exclusive='1'}}
+* [[Fighter Passives]]
+{{Passives Navbox|B}}
+[[Category:Fighter Passives]]

@@ -1,0 +1,45 @@
+{{Weapon Infobox
+|tagid=SID_美味しい焼き菓子
+|intID=3726
+|image=wep_mg325
+|exclusive=1
+|weaponType=Colorless Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Enables【Canto (１)】.<br><br>Accelerates Special trigger (cooldown count-1). At start of turn, inflicts Spd/Res-6 and 【Sabotage】on nearest foes within 5 spaces of unit and foes within 2 spaces of those foes through their next actions. If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd+6 to unit, neutralizes effects that prevent unit's follow-up attacks, and neutralizes foe's bonuses to Spd/Res (from skills like Fortify, Rally, etc.) during combat.<br><br>【Canto (１)】<br>After an attack, Assist skill, or structure destruction, unit can move １ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)<br><br>【Sabotage】<br>Inflicts penalty on unit's Atk/Spd/Def/Res during combat = highest penalty on each stat between unit and allies within 2 spaces of unit through its next action. Calculates each stat penalty independently.
+|required=Atlas (weapon)
+|properties=
+}}
+==Notes==
+{{Canto|1}}
+{{Penalties}}
+{{Sabotage}}
+{{IfUnitInitiates}}
+{{Follow-up effect neutralization|preventOnly=1}}
+{{Temporary buffs}}
+{{Bonus neutralization}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V7.8_v0708a_teatime_Mag.webp|Sprite sheet for {{St|Knightly Manner}} , {{St|Teacake Tower+|Teacake Tower(+)}}, {{St|Teatime Set+|Teatime Set(+)}} and {{PAGENAME}}'s animations.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=美味しい焼き菓子
+|german=Teegebäck
+|spanishEU=Galletas
+|spanishLA=Galletas
+|french=Panier de délices
+|italian=Dolci regali
+|chineseTW=好吃的點心
+|portuguese=Doces presentes
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%【Sabotage】%' OR Description LIKE '%at start of turn%inflicts%/%-%est foe%' OR Description LIKE '%at start of turn%, inflicts%est foes%and foes within _ spaces of those foes%') AND Exclusive='1'}}
+* [[Menace Passives]]
+{{Weapons Navbox}}

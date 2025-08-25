@@ -1,0 +1,49 @@
+{{Passive
+|name=Squad Ace AF
+|type=S
+|exclusive=0
+|1name=Squad Ace AF 1
+|1tagid=SID_第32迷宮の覇者1
+|1effect=Grants HP+3, Spd+1.
+|1cost=100
+|1required=-
+|1next=-
+|2name=Squad Ace AF 2
+|2tagid=SID_第32迷宮の覇者2
+|2effect=Grants HP+4, Spd+2.
+|2cost=200
+|statModifiers1=3,0,1,0,0
+|statModifiers2=4,0,2,0,0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=
+}}
+==Seal acquired from==
+===Squad Assault reward===
+* Complete the [[32nd Assault]].
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Squad Ace AF 1;Squad Ace AF 2
+|badgeColor=Azure
+|costs1=-
+|costs2=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|english=Squad Ace AF
+|japanese=第３２迷宮の覇者
+|german=Überfall-Ass AF
+|spanishEU=As del asalto AF
+|spanishLA=As del asalto AF
+|french=Assaut réussi AF
+|italian=Asso sq. AF
+|chineseTW=第３２迷宮的霸王
+|portuguese=Esquadrão ás AF
+}}
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}
+[[Category:Squad Ace Seals]]

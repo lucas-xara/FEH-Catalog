@@ -1,0 +1,66 @@
+{{#invoke:NameAbout|main|Name=Vaida}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Vaida
+|Title=Dracofang General
+|Origin=Fire Emblem: The Blazing Blade
+|Gender=F
+|WeaponType=Blue Lance
+|MoveType=Flying
+|actorEN=Colleen Clinkenbeard
+|actorJP=
+|artist=∀ir
+|additionDate=2024-12-06
+|releaseDate=2024-12-07
+|cv1=6
+|cv2=900300
+|TagID=ヴァイダ
+|InternalID=1179
+|Properties=ghb
+|description=Praised as the most powerful Wyvern General of Bern. When she expressed anger toward the corrupt military, she was falsely accused of a crime and expelled from her country. Appears in Fire Emblem: The Blazing Blade.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=12|Lv1SPD=11|Lv1DEF=8|Lv1RES=6
+|GRHP=50|GRATK=80|GRSPD=60|GRDEF=90|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=3
+|weapon2Unlock=3
+|weapon3=Silver Lance
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Spear
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=5
+|special1Unlock=3
+|special2=Dragon Fang
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Wyvern Flight 1
+|passiveB2=Wyvern Flight 2
+|passiveB3=Wyvern Flight 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Atk/Def Rein 1
+|passiveC2=Atk/Def Rein 2
+|passiveC3=Atk/Def Rein 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

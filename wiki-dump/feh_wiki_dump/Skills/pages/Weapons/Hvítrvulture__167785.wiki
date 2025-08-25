@@ -1,0 +1,52 @@
+{{Weapon Infobox
+|tagid=SID_ヒータバルチャー
+|intID=2969
+|userVersion1=Closed
+|userVersion2=Open
+|exclusive=0
+|weaponType=Colorless Tome
+|cost=200
+|might=8
+|range=2
+|effect=If unit is not adjacent to an ally, inflicts penalty on foe's Atk/Res during combat = 5 + any current penalty on each of those stats. (Example: if foe has -7 penalty to Atk, inflicts Atk-12, for a net penalty of Atk-19 during combat.) Calculates each stat penalty independently.
+|statModifiers=0,8,0,0,0
+|required=Elstone
+|next=Hvítrvulture+
+|promotionRarity=5
+|promotionTier=1
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce={{Eft|Temporary Debuffs|Atk/Res|5 + {{SEt|penalties}}<br>on {{Tgt|Foe}}'s Atk/Res}}
+|CeT={{Tgt|Foe}}
+|CeC=No {{Tgt|Allies}}<br>are [[adjacent]]
+}}
+
+==Notes==
+{{TemporaryDebufffromPenalty}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V6.2_v0602b_fuin_Mag.webp|Sprite sheet for the [[Skill families/Weapons#Vulture|Vulture Tomes]]'s animation.
+</gallery>
+==Trivia==
+{{TomeColorTrivia|hvitr}}
+==In other languages==
+{{OtherLanguages
+|japanese=ヒータバルチャー
+|german=Hvítr-Geier
+|spanishEU=Buitre gríseo
+|spanishLA=Buitre gríseo
+|french=Vautour grisé
+|italian=Vitreavvoltoio
+|chineseTW=純白禿鷹
+|portuguese=Abutre de Hvítr
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%penalty on foe_s%+%current penalty on each of those stats%' AND Description NOT LIKE '%【Foe Penalty Doubler】%' AND WikiName NOT LIKE '%vulture%' AND Exclusive=1}}
+* [[Skill families/Weapons#Vulture|Vulture Weapons]]
+{{Weapons Navbox}}

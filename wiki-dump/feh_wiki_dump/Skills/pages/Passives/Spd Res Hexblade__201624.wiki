@@ -1,0 +1,44 @@
+{{Passive
+|name=Spd/Res Hexblade
+|type=A
+|exclusive=0
+|canUseWeapon={{WeaponList|Missile,Melee}}
+|canUseMove={{MoveList|Infantry}}
+|properties=random_owner
+|1name=Spd/Res Hexblade
+|alt1name=Spd Res Hexblade
+|1tagid=SID_速さ魔防の魔刃4
+|1effect=At start of turn, if unit is within 2 spaces of a magic ally, grants【Hexblade】to unit. If【Bonus】is active on unit, grants Spd/Res+7 to unit during combat.<br><br>【Hexblade】<br>Calculates damage using the lower of foe's Def or Res during combat for 1 turn (including damage dealt by Specials before combat).<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|1cost=300
+|1required=Sorcery Blade 3
+}}
+==Notes==
+{{TermRefersTo|Magic}}
+{{Hexblade}}
+{{Temporary buffs}}
+{{EffectfromBonus|temporary buffs}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Spd/Res Hexblade
+|japanese=速さ魔防の魔刃
+|german=G/R-Hexklinge
+|spanishEU=Sortilegio Vel/Res
+|spanishLA=Sortilegio Vel./Res.
+|french=Lame m. Vit/Rés
+|italian=Lama magica V/R
+|chineseTW=速度魔防之魔刃
+|portuguese=Espadahexa V/R
+}}
+
+==See also==
+{{See also skills|cond=(Description LIKE '%【Hexblade】%' OR Description LIKE '%calculates%damage using the lower of foe_s Def or Res%' AND CanUseWeapon__full NOT LIKE '%breath%' AND WikiName NOT LIKE '%/%Hexblade%' OR Description LIKE '%if%bonus%active on unit%grants Spd/Res+%during combat%') AND Exclusive='1'}}
+* [[Skill families/A Passives#Hexblade|Hexblade Passives]]
+* [[Skill families/A Passives#Ideal|Ideal Passives]]
+{{Passives Navbox|A}}

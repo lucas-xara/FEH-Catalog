@@ -1,0 +1,31 @@
+{{Special
+|tagid=SID_業火疾風の祝福
+|name=Windfire Balm
+|charge=1
+|effect=When healing an ally with a staff, grants Atk/Spd+4 to all allies for 1 turn.
+|cost=200
+|exclusive=0
+|required=Kindled-Fire Balm;Swift-Winds Balm
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|Staff}}
+|properties=random_owner
+}}
+==Notes==
+{{Bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=業火疾風の祝福
+|german=Windfeuerbalsam
+|spanishEU=Cefirobálsamo
+|spanishLA=Cefirobálsamo
+|french=Baume éclatant
+|italian=Balsamo f./v.
+|chineseTW=業火疾風的祝福
+|portuguese=Eoliopirobáls.
+}}
+==See also==
+* [[Skill families/Specials#Balm|Balm Specials]]
+{{Specials Navbox}}
+[[Category:Balm Specials]]

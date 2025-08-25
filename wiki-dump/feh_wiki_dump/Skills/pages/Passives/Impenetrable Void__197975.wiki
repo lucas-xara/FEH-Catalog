@@ -1,0 +1,35 @@
+{{Passive
+|name=Impenetrable Void
+|type=C
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|1name=Impenetrable Void
+|1tagid=SID_見通せぬ深き…・神
+|1effect=Disables skills of all foes excluding foe in combat, inflicts Atk/Spd/Def/Res-5 on foe, and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (example: a foe with a "reduce damage by 45%" skill would reduce damage by 23% instead).
+|1cost=300
+|1required=Impenetrable Dark
+}}
+==Notes==
+{{CombatEffectNeutralization}}
+{{Temporary debuffs}}
+{{Reduce Damage Reduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=見通せぬ深き…・神
+|german=Tiefe Leere
+|spanishEU=Vacío total
+|spanishLA=Vacío total
+|french=Vide opaque
+|italian=Puro vuoto
+|chineseTW=無法看透的……・神
+|portuguese=Vazio impérvio
+}}
+==See also==
+{{See also skills|cond=((Description LIKE '%disables skills of all%excluding%' AND WikiName NOT LIKE '%Feud%') OR Description Like '%【Feud】%' OR Description LIKE '%percentage of foe_s non-Special "reduce damage by X%" skills by 50%') AND (Exclusive=1 AND Name NOT LIKE '%+')}}
+* [[Feud Passives]]
+* [[Null Passives]]
+* [[Skill families/B Passives#Tempo|Tempo Passives]]
+{{Passives Navbox|C}}

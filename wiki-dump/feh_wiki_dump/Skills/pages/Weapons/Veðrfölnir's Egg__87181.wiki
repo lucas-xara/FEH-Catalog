@@ -1,0 +1,47 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_フェルニルの妖卵
+|weaponType=Green Tome
+|might=14
+|range=2
+|effect=Grants Spd+3. At start of combat, if unit's HP ≥ 75%, grants Atk/Spd/Def/Res+4 during combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,3,0,0
+|required=Rexcalibur
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Spd+3. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit during combat and grants bonus to unit's Atk during combat = total bonuses on ally with the highest total bonuses within 2 spaces. (Example: if an ally within 2 spaces has Atk/Spd/Def/Res+6, grants Atk+24.)
+|tagidExtraSkill1=一
+|effectSkill1=At start of turn, if unit is within 2 spaces of an ally, grants Atk/Spd+6 and the following status to unit and allies within 2 spaces for 1 turn: "unit can move to a space adjacent to any ally within 2 spaces." If unit is within 3 spaces of an ally, grants Atk/Spd+5 to unit during combat.
+|iconSkill1=Vedrfolnirs Egg W.png
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{BonusesToAtk|noNeutralize=1|source=ally with the highest total bonuses within 2 spaces}}
+{{Bonuses}}
+{{Air Orders}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{NorseMyth|name=Veðrfölnir|is the hawk that sits between the eyes of an unnamed eagle that sits on top of [[Wikipedia:Yggdrasil|Yggdrasil]].}}
+==In other languages==
+{{OtherLanguages
+|japanese=フェルニルの妖卵
+|japaneseNotes=Folnir's Egg
+|german=Veðrfölnirs Ei
+|spanishEU=Huevo Veðrfölnir
+|spanishLA=Huevo Veðrfölnir
+|french=Œuf de Veðrfölnir
+|italian=Uovo Veðrfölnir
+|chineseTW=佛爾尼爾的妖卵
+|portuguese=Ovo Veðrfölnir
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%total bonuses on ally with the highest total bonuses within 2 spaces%' OR Description LIKE '%at start of turn, if unit is within _ spaces of an ally%grants%+%to unit and allies%for 1 turn%'|columns=3}}
+{{Weapons Navbox}}

@@ -1,0 +1,75 @@
+{{#invoke:NameAbout|main|Name=Ilyana}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Ilyana
+|Title=Hungering Mage
+|WeaponType=Blue Tome
+|MoveType=Infantry
+|Origin=Fire Emblem: Path of Radiance
+|Gender=Female
+|actorEN=Ryan Bartley
+|actorJP=後藤沙緒里
+|artist=はねこと
+|resplendentArtist=うらたあさお
+|randomStartTime=2020-10-18T07:00:00Z
+|additionDate=September 19, 2020
+|releaseDate=September 19, 2020
+|poolDate=October 8, 2020
+|poolRarities=3,4
+|cv1=8
+|cv2=4900500
+|TagID=イレース
+|InternalID=566
+|Properties=resplendent,nifl
+|description=A girl whose constant hunger pangs cause stress for her and worry for others. Has a seemingly bottomless stomach. Appears in Fire Emblem: Path of Radiance.
+|resplendentStartTime=2024-01-10T07:00:00Z
+|resplendentEndTime=2024-01-25T06:59:59Z
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=10|Lv1SPD=8|Lv1DEF=4|Lv1RES=10
+|GRHP=50|GRATK=65|GRSPD=55|GRDEF=30|GRRES=70
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Thunder
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elthunder
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Blárfox
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Blárfox+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Craver's Tome
+|weapon5Default=
+|weapon5Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Iceberg
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Warding Blow 1
+|passiveA2=Mirror Strike 1
+|passiveA3=Mirror Strike 2
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Res Ploy 1
+|passiveC2=Res Ploy 2
+|passiveC3=Res Ploy 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

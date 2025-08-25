@@ -1,0 +1,41 @@
+{{Weapon Infobox
+|tagid=SID_瞬撃の剣＋
+|intID=2832
+|image=wep_sw119
+|exclusive=0
+|weaponType=Sword
+|cost=300
+|might=14
+|range=1
+|effect=If unit initiates combat, grants Atk/Def+4 during combat and foe cannot make a follow-up attack.
+|statModifiers=0,14,0,0,0
+|required=Instant Sword
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=random_owner
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Combat boosts}}
+{{Prevent follow-up}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=瞬撃の剣＋
+|german=Sekundenschw.+
+|spanishEU=Espada fugaz +
+|spanishLA=Espada fugaz +
+|french=Épée vive +
+|italian=Spada rapida+
+|chineseTW=瞬擊之劍＋
+|portuguese=Espada fugaz+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If unit initiates combat, grants Atk%Def+%and foe cannot make a follow-up attack%' AND WikiName NOT LIKE '%Instant%'|columns=3}}
+* [[Skill families#Instant|Instant Weapons]]
+{{Weapons Navbox}}

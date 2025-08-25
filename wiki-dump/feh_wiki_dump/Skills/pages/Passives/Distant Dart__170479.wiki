@@ -1,0 +1,42 @@
+{{Passive
+|type=A
+|name=Distant Dart
+|exclusive=0
+|canUseWeapon={{WeaponList|Close}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Distant Dart
+|1tagid=SID_遠反・飛燕の構え
+|1cost=300
+|1effect=Unit can counterattack regardless of foe's range. If foe initiates combat, grants Spd+5 to unit during combat.
+|1required=Distant Counter
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Combat boosts}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=遠反・飛燕の構え
+|german=Ferner Sturzflug
+|spanishEU=Fulgor lejano
+|spanishLA=Fulgor lejano
+|french=Foudre distante
+|italian=Saetta lontana
+|chineseTW=遠反・飛燕架勢
+|portuguese=Dardo distante
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%counterattack regardless of%range%' AND SCategory!='Weapon') AND ((Exclusive='1' AND Name NOT LIKE '%+') OR SCategory='captain')}}
+* [[Counter Passives]]
+* [[Counter Seals]]
+* [[Stance Passives]]
+* [[Prime Passives]]
+* [[Weapons with Distant Counter]]
+* [[Weapons with Close Counter]]
+{{Passives Navbox|A}}

@@ -1,0 +1,80 @@
+{{#invoke:NameAbout|main|Name=Larcei}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Larcei
+|Title=Bride of Astra
+|WeaponType=Blue Lance
+|MoveType=Infantry
+|Origin=Fire Emblem: Genealogy of the Holy War
+|Gender=Female
+|actorEN=Lizzie Freeman
+|actorJP=種﨑敦美
+|artist=麻谷知世
+|additionDate=May 16, 2025
+|releaseDate=May 16, 2025
+|cv1=3
+|cv2=5100300
+|TagID=花嫁ラクチェ
+|InternalID=1243
+|Properties=special
+|description=A swordswoman and descendant of the crusader Od. She strikes with all her might like lightning. What fated partner will match her fervor? Appears in Fire Emblem: Genealogy of the Holy War.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=10|Lv1SPD=9|Lv1DEF=11|Lv1RES=9
+|GRHP=50|GRATK=80|GRSPD=90|GRDEF=55|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Lance
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Brilliant Brident
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Astra
+|special2Unlock=4
+|special3=Crusader's Astra
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Ideal 1
+|passiveA2=Atk/Spd Ideal 2
+|passiveA3=Atk/Spd Ideal 3
+|passiveA4=Perfect Atk/Spd
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Potent 1
+|passiveB2=Potent 2
+|passiveB3=Potent 3
+|passiveB4=Potent Finish
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Odd Tempest 1
+|passiveC2=Odd Tempest 2
+|passiveC3=Odd Tempest 3
+|passiveC4=Brutal Tempest
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}

@@ -1,0 +1,43 @@
+{{Weapon Infobox
+|tagid=SID_うたた寝の春の弓
+|intID=3512
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=1
+|weaponType=Bow
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effectiveness=Flying
+|effect=Accelerates Special trigger (cooldown count-1). Effective against flying foes. At start of turn, if unit's HP = 100% and unit is within 2 spaces of an ally, deals 1 damage to unit and allies within 2 spaces of unit. At start of combat, if unit's HP ≤ 99%, grants Atk/Spd/Def/Res+5 to unit and inflicts Spd/Def-X on foe during combat (X = number of spaces from start position to end position of whoever initiates combat × 2, + 3; max 11), and also, the following effects will occur based on that number of spaces: if ≥ 1 space, reduces damage from foe's first attack during combat by 30%; if ≥ 2, also neutralizes effects that prevent unit's follow-up attacks during combat and effects that inflict "Special cooldown charge -X" on unit during combat.
+|statModifiers=0,14,0,0,0
+|required=Silver Bow
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{DamageToUnit}}
+{{Temporary buffs}}
+{{Temporary debuffs}}
+{{SpacesFromStarttoEnd}}
+{{DamagePercentageReduction}}
+{{Follow-up effect neutralization|preventOnly='1'}}
+{{CooldownChargeMinusNeutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=うたた寝の春の弓
+|german=Bogen der Ruhe
+|spanishEU=Arco del letargo
+|spanishLA=Arco del letargo
+|french=Arc du repos
+|italian=Arco del riposo
+|chineseTW=打瞌睡之春弓
+|portuguese=Arco do repouso
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%at start of turn, if%deals _ damage to unit%' OR (Description LIKE '%If unit_s HP < 100%' OR Description LIKE '%if unit_s HP ≤ 99%' OR (Description LIKE '%=%number of spaces from start position to end position%' OR Description LIKE '%=%number of spaces moved%') AND Description NOT LIKE '%transforms%if X ≥ 5%') AND Exclusive='1'}}
+* [[Skill families/A Passives#Clash|Clash Passives]] 
+{{Weapons Navbox}}

@@ -1,0 +1,47 @@
+{{Passive
+|name=Ashera's Chosen
+|type=A
+|exclusive=1
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|1name=Ashera's Chosen
+|1tagid=SID_女神の三雄
+|1effect=Neutralizes "effective against flying" bonuses. If unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, grants Atk/Def+6 during combat.
+|1required=-
+|1next=-
+|1cost=300
+|2name=Ashera's Chosen+
+|alt2name=Asheras Chosen Plus
+|2tagid=SID_女神の三雄・神
+|2cost=300
+|2effect=Neutralizes "effective against flying" bonuses. If unit is adjacent to only beast or dragon allies, if unit is not adjacent to any ally, or if foe's HP ≥ 75% at start of combat, grants Atk/Def/Res+9 to unit during combat, and also, if unit's Res > foe's Res, deals damage = 70% of the difference between stats (max 7) and reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 4 (max 40%).
+|properties=random_owner
+}}
+==Notes==
+* Has the same effect as {{St|Iote's Shield}}.
+{{Effectiveness neutralization|Flying}}
+{{TermRefersTo|Beast}}
+{{TermRefersTo|Dragon}}
+{{Temporary buffs}}
+{{BonusStatDamage|stat=Res|name=Ashera's Chosen+}}
+{{DamagePercentageReduction|name=Ashera's Chosen+}}
+{{AoEDamageReduction}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Ashera's Chosen
+|japanese=女神の三雄
+|german=Asheras Gunst
+|spanishEU=Auxilio de Ashera
+|spanishLA=Auxilio de Ashera
+|french=Favori d'Ashera
+|italian=Scelta di Ashera
+|chineseTW=女神的三雄
+|portuguese=Ajuda de Ashera
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%Neutralizes "effective against flying%' OR Description LIKE '%if unit is adjacent to only beast or dragon allies%if unit is not adjacent to any ally, grants%' OR Description LIKE '%unit_s Res%>%foe_s Res%deals damage%=%of the difference%' OR Description LIKE '%unit_s Res%>%foe_s Res%educes damage from attacks during combat%'}}
+* [[Shield Passives]]
+{{Passives Navbox|A}}

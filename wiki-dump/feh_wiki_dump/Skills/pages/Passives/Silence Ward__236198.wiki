@@ -1,0 +1,78 @@
+{{Passive
+|name=Silence Ward
+|type=C
+|exclusive=0
+|canUseWeapon={{WeaponList|Magic,Colorless Staff}}
+|canUseMove={{MoveList|Infantry,Armored,Flying}}
+|properties=random_owner
+|1name=Silence Ward 1
+|1tagid=SID_サイレスガード1
+|1effect=For allies within 2 spaces of unit, grants Atk/Res+1 and neutralizes effects that prevent ally's counterattacks during combat.<br><br>If unit initiates combat or is within 2 spaces of an ally, grants Atk/Res+1 to unit and neutralizes effects that prevent unit's counterattacks during combat.
+|1cost=60
+|1required=-
+|1promotionTier=1
+|1promotionRarity=4
+|2name=Silence Ward 2
+|2tagid=SID_サイレスガード2
+|2effect=For allies within 2 spaces of unit, grants Atk/Res+2 and neutralizes effects that prevent ally's counterattacks during combat.<br><br>If unit initiates combat or is within 2 spaces of an ally, grants Atk/Res+2 to unit and neutralizes effects that prevent unit's counterattacks during combat.
+|2cost=120
+|2promotionTier=1
+|2promotionRarity=5
+|3name=Silence Ward 3
+|3tagid=SID_サイレスガード3
+|3effect=For allies within 2 spaces of unit, grants Atk/Res+3 and neutralizes effects that prevent ally's counterattacks during combat.<br><br>If unit initiates combat or is within 2 spaces of an ally, grants Atk/Res+3 to unit and neutralizes effects that prevent unit's counterattacks during combat.
+|3cost=240
+|3next=-
+|4name=Silence Ward 4
+|4tagid=SID_サイレスガード4
+|4effect=For allies within 2 spaces of unit, grants Atk/Res+4 and neutralizes effects that prevent ally's counterattacks during combat, and also, if ally's attack can trigger ally's Special, grants Special cooldown count-1 to ally before ally's first attack during combat.<br><br>If unit initiates combat or is within 2 spaces of an ally, grants Atk/Res+4 to unit and neutralizes effects that prevent unit's counterattacks during combat, and also, if unit's attack can trigger unit's Special, grants Special cooldown count-1 to unit before unit's first attack during combat.
+|4cost=300
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Silence Ward 3}} Silence Ward 3
+|s1 Ce1={{Eft|Temporary buffs|Atk/Res|3}}
+|s1 Ce2={{Eft|Neutralize Prevent Counter}}
+|s1 Ce1-2T={{Tgt|Allies}}<br>[[within 2 spaces]]
+|s1 Ce3={{Eft|Temporary buffs|Atk/Res|3}}
+|s1 Ce4={{Eft|Neutralize Prevent Counter}}
+|s1 Ce3-4C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|skill2={{Si|Silence Ward 4}} Silence Ward 4
+|s2 Ce1={{Eft|Temporary buffs|Atk/Res|4}}
+|s2 Ce2={{Eft|Neutralize Prevent Counter}}
+|s2 Ce3={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Ally}}'s first attack
+|s2 Ce1-3T={{Tgt|Allies}}<br>[[within 2 spaces]]
+|s2 Ce3C={{Tgt|Ally}} has an<br>[[offensive Special]]
+|s2 Ce4={{Eft|Temporary buffs|Atk/Res|4}}
+|s2 Ce5={{Eft|Neutralize Prevent Counter}}
+|s2 Ce4-5C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s2 Ce6={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Unit}}'s first attack
+|s2 Ce6C={{Eft|Temporary buffs|Atk/Res|4}} conditions<br>'''&''' {{Tgt|Unit}} has an<br>[[offensive Special]]
+}}
+==Notes==
+{{Temporary buffs}}
+{{Prevent counter neutralization}}
+{{AlliesCombatEffect|temporary buffs and prevent counter neutralization effects}}
+{{IfUnitInitiates}}
+{{CombatCooldownCount|-1|name=Silence Ward 4}}
+{{AlliesCombatEffect|special cooldown count-1|name=Silence Ward 4}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%that prevent those allies_ counterattacks%' OR Description LIKE '%prevent ally_s counterattack%' OR Description LIKE '%before ally_s first attack%' OR Description LIKE '%before their first attack%') AND Exclusive='1'}}
+{{Passives Navbox|C}}

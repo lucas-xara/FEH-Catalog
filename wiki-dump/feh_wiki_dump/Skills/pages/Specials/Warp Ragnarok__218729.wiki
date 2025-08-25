@@ -1,0 +1,47 @@
+{{Special
+|tagid=SID_ワープライナ
+|intID=4208
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=2
+|effect=Boosts Special damage by 25% of unit's Atk.<br><br>Unit can move through foes' spaces. For each foe within 6 spaces of unit, unit can move to the nearest spaces that are 2 spaces away from that foe (unless space is impassable terrain).<br><br>At start of turn, if Special cooldown count is at its maximum value, grants Special cooldown count-1.
+|required=Moonbow
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce={{Eft|Damage Boost|25% of {{Tgt|Unit}}'s Atk}}
+|CeC=Special triggers
+|Me1={{Eft|Neutralize Bulwark}}
+|Me2={{Eft|Neutralize Prevent Warp}}
+|Me3={{Eft|Warp|nearest=1|2 spaces from {{Tgt|Foes}}<br>[[within 6 spaces]]}}
+|Me4={{Eft|Reduce Cooldown|1}}
+|Me4C=At start of turn<br>if {{Tgt|Unit}}'s CD<br>is max value
+}}
+
+==Notes==
+* Warp Ragnarok has the same effect as {{St|Time's Pulse 3}}.
+{{DamageBoost}}
+{{Pass notes}}
+{{Warp interaction}}
+{{Start of turn Special modification}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ワープライナ
+|german=Teleport-Ragna
+|spanishEU=Teleragnarok
+|spanishLA=Teleragnarok
+|french=Téléragnation
+|italian=Teleragnarok
+|chineseTW=傳送末世烈焰
+|portuguese=Teleragnarok
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%unit can move through foes_ spaces%' OR Description LIKE '%unit can move to%nearest spaces%that foe%' OR (Description LIKE '%maximum value%Special cooldown count-1%' OR Description LIKE '%start of turn%Special cooldown count-1%maximum value%') AND SCategory='special'}}
+{{Specials Navbox}}

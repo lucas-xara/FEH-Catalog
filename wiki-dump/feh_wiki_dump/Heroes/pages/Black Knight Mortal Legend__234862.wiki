@@ -1,0 +1,80 @@
+{{#invoke:NameAbout|main|Name=Black Knight|Name2=Zelgius}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Black Knight
+|Title=Mortal Legend
+|WeaponType=Red Sword
+|MoveType=Armored
+|Origin=Fire Emblem: Radiant Dawn
+|Gender=Male
+|LegendaryEffect=Fire
+|BoostHP=3
+|BoostAtk=2
+|Duel=215
+|actorEN=Robert Clotworthy
+|actorJP=間島淳司
+|artist=北千里
+|additionDate=May 30, 2025
+|releaseDate=May 30, 2025
+|cv1=9
+|cv2=901150
+|TagID=伝承漆黒の騎士
+|InternalID=1247
+|Properties=legendary
+|description=A swordsman and general, revered as the strongest of Daein's Four Riders under Mad King Ashnard. It is said he protected the Dawn Maiden, who sought to restore Daein's former prosperity. Appears in Fire Emblem: Radiant Dawn.
+}}
+{{Stats Page
+|Lv1HP=25|Lv1ATK=10|Lv1SPD=3|Lv1DEF=12|Lv1RES=11
+|GRHP=50|GRATK=90|GRSPD=30|GRDEF=85|GRRES=80
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Final Sword
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Unlock=4
+|special3=Pitch-Dark Luna
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Distant Counter
+|passiveA2=Distant A/D Form
+|passiveA1Unlock=4
+|passiveA2Unlock=5
+|passiveB1=Vengeful Fighter 1
+|passiveB2=Vengeful Fighter 2
+|passiveB3=Vengeful Fighter 3
+|passiveB4=Counter Fighter
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=A/D Far Save 1
+|passiveC2=A/D Far Save 2
+|passiveC3=A/D Far Save 3
+|passiveC4=A/D Briar F Save
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}

@@ -1,0 +1,66 @@
+{{Passive
+|name=Spur Def/Res
+|type=C
+|exclusive=0
+|1name=Spur Def/Res 1
+|1tagid=SID_守備魔防の紋章1
+|1promotionRarity=5
+|1promotionTier=1
+|alt1name=Spur Def Res 1
+|1effect=Grants Def/Res +2 to adjacent allies during combat.
+|1cost=120
+|1required=Spur Res 1;Spur Def 1
+|2name=Spur Def/Res 2
+|2tagid=SID_守備魔防の紋章2
+|alt2name=Spur Def Res 2
+|2effect=Grants Def/Res +3 to adjacent allies during combat.
+|2cost=240
+|3name=
+|3effect=
+|3cost=
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=random_all,random_inherit_base
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce={{Eft|Temporary buffs|Def/Res|3}}
+|CeT=[[Adjacent]]<br>{{Tgt|Allies}}
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{AlliesCombatEffect|effect=temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Spur Def/Res 1;Spur Def/Res 2
+|badgeColor=Transparent
+|costs1=20;100;20
+|costs2=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|english=Spur Def/Res
+|japanese=守備魔防の紋章
+|german=Ver./Res. ansp.
+|spanishEU=Mej. Def/Res
+|spanishLA=Sube Def./Res.
+|french=Ence. Déf/Rés
+|italian=Migl. Dif/Res
+|chineseTW=防守魔防紋章
+|portuguese=Def./Res. realç.
+}}
+==See also==
+* [[Spur Passives]]
+{{Seals Navbox}}
+{{Passives Navbox|C}}
+[[Category:Spur Passives]]

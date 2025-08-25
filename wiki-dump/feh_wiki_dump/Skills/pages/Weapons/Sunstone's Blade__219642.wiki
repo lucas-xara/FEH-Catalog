@@ -1,0 +1,73 @@
+{{Weapon Infobox
+|tagid=SID_日長石の剣
+|intID=4241
+|image=wep_sw180
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=16
+|range=1
+|effect=Grants Def+3.<br><br>Grants Atk/Def+4 to allies within 3 rows or 3 columns centered on unit during their combat and restores 10 HP to those allies after their combat.<br><br>If unit initiates combat or if there is an ally within 3 rows or 3 columns centered on unit, grants Atk/Spd/Def/Res+5 to unit, inflicts penalty on foe's Atk/Def = 20% of unit's Def at start of combat, reduces damage from foe's attacks by 15% of unit's Def (excluding area-of-effect Specials), and unit makes a guaranteed follow-up attack during combat, and restores 10 HP to unit after combat.
+|statModifiers=0,16,0,3,0
+|required=Silver Sword
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Stat Boosts|Def|3}}
+|Ce1={{Eft|Temporary buffs|Atk/Def|4}}
+|Ce1T={{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce3={{Eft|Temporary Debuffs|Atk/Def|20% of {{Tgt|Unit}}'s Def<br>at start of combat}}
+|Ce3T={{Tgt|Foe}}
+|Ce4={{Eft|Damage Reduction|15% of {{Tgt|Unit}}'s Def}}<br>from {{Tgt|Foe}}'s attacks
+|Ce5={{Eft|Guaranteed Follow-Ups}}
+|Ce4-5T={{Tgt|Unit}}
+|Ce2-5C=Player Phase '''or'''<br>an {{Tgt|Ally}} is within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|Me1={{Eft|Heal|10}}
+|Me1T={{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|Me1C=After {{Tgt|Ally}}'s<br>combat
+|Me2={{Eft|Heal|10}}
+|Me2T={{Tgt|Unit}}
+|Me2C=After combat in<br>Player Phase '''or'''<br>an {{Tgt|Ally}} is within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+}}
+==Notes==
+{{Temporary buffs}}
+{{AlliesCombatEffect|effect=temporary buffs}}
+{{After combat healing|allies=1}}
+{{IfUnitInitiates}}
+{{Temporary debuffs}}
+{{At start of combat}}
+{{FlatDamageReduction}}
+{{Guaranteed follow-up interaction}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Glen: Sunstone|t=Cormag: Aloof Lanceman
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=日長石の剣
+|german=Sonnensteinklinge
+|spanishEU=Hoja de Granate
+|spanishLA=Hoja de Granate
+|french=Lame Pierre soleil
+|italian=Lama Solare
+|chineseTW=日長石之劍
+|portuguese=Lâmina de Glen
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%restore%after their combat%') AND Exclusive='1'}}
+{{Weapons Navbox}}

@@ -1,0 +1,56 @@
+{{Passive
+|name=Counter Roar
+|type=B
+|exclusive=0
+|canUseWeapon={{WeaponList|Dragonstone,Beast}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Counter Roar 1
+|1tagid=SID_反撃の咆哮1
+|1effect=Reduces damage from foe's first attack during combat by 10% and unit's next attack deals damage = 10% of foe's attack damage prior to reductions (resets at end of combat; only highest value applied; does not stack).
+|1cost=60
+|1required=-
+|1promotionTier=1
+|1promotionRarity=4
+|2name=Counter Roar 2
+|2tagid=SID_反撃の咆哮2
+|2effect=Reduces damage from foe's first attack during combat by 20% and unit's next attack deals damage = 20% of foe's attack damage prior to reductions (resets at end of combat; only highest value applied; does not stack).
+|2cost=120
+|2promotionTier=1
+|2promotionRarity=5
+|3name=Counter Roar 3
+|3tagid=SID_反撃の咆哮3
+|3effect=Reduces damage from foe's first attack during combat by 30% and unit's next attack deals damage = 30% of foe's attack damage prior to reductions (resets at end of combat; only highest value applied; does not stack).
+|3cost=240
+|3next=-
+|4name=Counter Roar 4
+|4tagid=SID_反撃の咆哮4
+|4effect=Inflicts Atk/Spd-4 on foe, reduces damage from foe's first attack during combat by 30% (for standard attacks, "first attack" means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and unit's next attack deals damage = 30% of foe's attack damage prior to reductions (resets at end of combat; only highest value applied; does not stack). Restores 7 HP to unit after combat.
+|4cost=300
+}}
+==Notes==
+{{DamagePercentageReduction}}
+{{DamageBoost|beforeReductions=1}}
+{{Temporary debuffs|name=Counter Roar 4}}
+{{After combat healing|name=Counter Roar 4}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Counter Roar
+|japanese=反撃の咆哮
+|german=Konter-Gebrüll
+|spanishEU=Contra rugiente
+|spanishLA=Contra rugiente
+|french=Contre hurlant
+|italian=Contro-ruggito
+|chineseTW=反擊的咆哮
+|portuguese=Contrarrugido
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%deals damage%attack damage prior to reductions%' OR Description LIKE '%first and second strikes%'}}
+{{Passives Navbox|B}}

@@ -1,0 +1,74 @@
+{{#invoke:NameAbout|main|Name=Noire}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Noire
+|Title=Of Two Minds
+|WeaponType=Red Bow
+|MoveType=Infantry
+|Origin=Fire Emblem Awakening
+|Gender=Female
+|actorEN=Michelle Ruff
+|actorJP=吉田聖子
+|artist=久蒼穹
+|additionDate=June 5, 2025
+|releaseDate=June 6, 2025
+|cv1=10
+|cv2=6901100
+|TagID=魔器ノワール
+|InternalID=1249
+|Properties=rearmed
+|description=Daughter of Tharja. Timid and pessimistic, but turns into a totally different person when enraged. Appears in Fire Emblem Awakening.
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=11|Lv1SPD=8|Lv1DEF=13|Lv1RES=6
+|GRHP=50|GRATK=80|GRSPD=90|GRDEF=50|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Bow
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Arcane Hex Bow
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Moonbow
+|special2Unlock=4
+|special3=Curved Shot
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Sorcery Blade 1
+|passiveA2=Sorcery Blade 2
+|passiveA3=Sorcery Blade 3
+|passiveA4=Atk/Spd Hexedge
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Speedtaker 1
+|passiveB2=Speedtaker 2
+|passiveB3=Speedtaker 3
+|passiveB4=Speedtaker 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Blood & Thunder
+|passiveC1Unlock=5
+}}
+{{Heroes Navbox}}

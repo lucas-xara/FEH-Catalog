@@ -1,0 +1,47 @@
+{{Special
+|tagid=SID_聖神と暗黒神…・承
+|intID=4708
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=2
+|effect=When Special triggers, boosts damage by 40% of unit's Res and neutralizes "reduces damage by X%" effects from foe's non-Special skills.<br><br>If unit's or foe's Special is ready or if unit's or foe's Special triggered before or during this combat and if unit can attack in combat, reduces damage from foe's next attack by 40% (once per combat; excluding area-of-effect Specials).<br><br>If unit’s HP > 1 and foe would reduce unit's HP to 0 during combat, unit survives with 1 HP (once per combat; considered a non-Special effect; does not stack with non-Special effects that allow unit to survive with 1 HP if foe's attack would reduce unit's HP to 0).
+|required=Circlet of Balance
+|properties=offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Damage Boost|40% of {{Tgt|Unit}}'s Res}}
+|Ce2={{Eft|Neutralize Damage Reduction}}
+|Ce2T={{Tgt|Foe}}
+|Ce1-2C=Special triggers
+|Ce3={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s next attack
+|Ce3C=({{Tgt|Unit}} or {{Tgt|Foe}}'s<br>Special is ready '''or'''<br>triggered before or<br>during combat) '''&'''<br>{{Tgt|Unit}} can attack
+|Ce4={{Eft|Miracle}}<br>(once per combat)
+|Ce4C={{Tgt|Unit}}'s HP > 1
+}}
+
+==Note==
+{{DamageBoost}}
+{{DamageReductionNeutralization}}
+{{DamagePercentageReduction}}
+{{IfUnitCanCounter|[[Special "reduces damage by X%" effect]]}}
+{{Miracle|special=0}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%unit survives with 1 HP%' AND Description NOT LIKE '%"if foe would reduce%' OR SCategory='special' AND Description LIKE '%Boosts%damage by __% of unit_s Res%') AND Exclusive='1'}}
+{{Specials Navbox}}

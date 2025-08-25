@@ -1,0 +1,52 @@
+{{Weapon Infobox
+|tagid=SID_ビーチフラッグ＋
+|weaponType=Axe
+|weaponName={{PAGENAME}}
+|might=14
+|range=1
+|effectiveness=
+|effect=If unit initiates combat, grants Atk/Spd/Def/Res+2 during combat.
+|cost=300
+|exclusive=0
+|userVersion1=Weapon
+|userVersion2=
+|userVersion3=
+|userVersion4=
+|statModifiers=0,14,0,0,0
+|required=
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Combat boosts}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+Weapon_Beach_Banner.png
+Weapon_Beach_Banner_V2.png
+Weapon_Beach_Banner_V3.png
+Weapon_Beach_Banner_V4.png
+Weapon_Beach_Banner_V5.png
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=ビーチフラッグ＋
+|german=Strandfahne+
+|spanishEU=Bandera estival +
+|spanishLA=Bandera estival +
+|french=Fanion de plage +
+|italian=Bandiera estiva+
+|chineseTW=沙灘旗＋
+|portuguese=Bandeira praia+
+}}
+==See also==
+* [[Summer's Arrival Weapons]]
+{{Weapons Navbox}}
+[[Category:Summer's Arrival weapons]]

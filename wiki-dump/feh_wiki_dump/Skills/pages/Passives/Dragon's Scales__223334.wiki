@@ -1,0 +1,51 @@
+{{Passive
+|name=Dragon's Scales
+|type=B
+|exclusive=0
+|canUseWeapon={{WeaponList|Dragonstone}}
+|canUseMove={{MoveList|All}}
+|properties=random_inherit_base
+|1name=Dragon's Scales
+|alt1name=Dragons Scales
+|1tagid=SID_竜の堅鱗
+|1effect=If foe initiates combat or if unit's HP ≥ 25% at start of combat, inflicts Atk/Def/Res-X on foe (X = 4 + the greater of the difference between Def stats or difference between Res stats (unit's Def/Res minus foe's Def/Res); max 11; if either of unit's stats < foe's stat, difference is treated as 0), unit makes a guaranteed follow-up attack, grants Special cooldown count-1 to unit before foe's first attack, and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials).
+|1cost=300
+|1required=Dragon's Ire 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Penalties|Atk/Def/Res|4 + (The greater of the<br>difference between<br>Def or Res stats<br>({{Tgt|Unit}}'s Def/Res -<br>{{Tgt|Foe}}'s Def/Res))|max=11|min=4}}
+|Ce2={{Eft|Reduce Damage Reduction|50%}}
+|Ce1-2T={{Tgt|Foe}}
+|Ce3={{Eft|Guaranteed Follow-Ups}}
+|Ce4={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Foe}}'s first attack
+|CeC=Enemy Phase '''or'''<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{IfFoeInitiates}}
+{{Temporary debuffs}}
+{{Guaranteed follow-up interaction}}
+{{CombatCooldownCount|-1}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=Drachenschuppen
+|spanishEU=
+|spanishLA=Escamas Dragón
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants Special cooldown count-%before foe_s first attack%' AND Exclusive='1'}}
+* [[Dragon Passives]]
+{{Passives Navbox|B}}

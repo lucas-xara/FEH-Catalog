@@ -1,0 +1,56 @@
+{{Weapon Infobox
+|tagid=SID_砂塵貫く蒼き剛槍
+|intID=4535
+|image=wep_lc187
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>At start of player phase or enemy phase, if unit is within 2 spaces of an ally, grants Spd/Def+6, "increases Spd difference necessary for foe to make a follow-up attack by 10 during combat," and【Null Panic】to unit and allies within 2 spaces of unit for 1 turn.<br><br>If unit is within 3 spaces of an ally, grants bonus to unit's Atk/Spd/Def/Res = number of allies within 3 spaces of unit × 3, + 5 (max 14), deals damage = 20% of unit's Spd (excluding area-of-effect Specials), reduces damage from foe's attacks by 20% of unit's Spd (excluding area-of-effect Specials), and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials).<br><br>【Null Panic】<br>If unit is inflicted with Panic (bonuses converted into penalties), neutralizes the "converts bonuses on target into penalties" effect for 1 turn. (Even though the effect is neutralized, the Panic status remains, and is treated as a Penalty status.)
+|required=Silver Lance
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Se1={{Eft|Bonuses|Spd/Def|6}}
+|Se2=<span style="width:14em;display:inline-block"/>{{SEt|Spd difference necessary for foe follow-up attack +10}}
+|Se3={{SEt|Null Panic}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=At start of both Phases<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|3 x {{Tgt|Allies}}<br>[[within 3 spaces]], + 5|max=14}}
+|Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|Ce3={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Spd}}<br>from {{Tgt|Foe}}'s attacks
+|Ce4={{Eft|Reduce Damage Reduction|50%}}
+|Ce4T={{Tgt|Foe}}
+|CeC=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+}}
+
+==Notes==
+{{Bonuses}}
+{{Spd difference necessary for foe follow-up attack +10}}
+{{Null Panic}}
+{{Temporary buffs}}
+{{DamageBoost}}
+{{FlatDamageReduction}}
+{{Reduce Damage Reduction}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%"increases Spd difference necessary%' OR Description LIKE '%reduces damage from foe_s attacks%of unit_s Spd%') AND Exclusive='1'}}
+* [[Form Passives]]
+{{Weapons Navbox}}

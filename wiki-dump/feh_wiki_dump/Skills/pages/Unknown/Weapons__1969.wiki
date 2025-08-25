@@ -1,0 +1,46 @@
+{{About|a complete list of weapons split by weapon type|a complete list of weapons not sorted by type|Weapons (Full)|a complete list of only unique weapons, with wielders, sorted by type|Unique Weapons}}{{Hatnote|''Some weapons can be upgraded or evolved using the [[Weapon Refinery]], for a complete list of these weapons, see [[List of Upgradable Weapons]] or [[List of Evolving Weapons]].''}}
+__TOC__
+==Red weapons==
+===Swords===
+{{Main|:Category:Swords}}
+{{Weapons List|weaponType=Sword}}
+===Red Tomes===
+{{Main|:Category:Red Tomes}}
+{{Weapons List|weaponType=Red Tome}}
+==Blue weapons==
+===Lances===
+{{Main|:Category:Lances}}
+{{Weapons List|weaponType=Lance}}
+===Blue Tomes===
+{{Main|:Category:Blue Tomes}}
+{{Weapons List|weaponType=Blue Tome}}
+==Green weapons==
+===Axes===
+{{Main|:Category:Axes}}
+{{Weapons List|weaponType=Axe}}
+
+===Green Tomes===
+{{Main|:Category:Green Tomes}}
+{{Weapons List|weaponType=Green Tome}}
+==Colorless weapons==
+===Colorless Tomes===
+{{Main|:Category:Colorless Tomes}}
+{{Weapons List|weaponType=Colorless Tome}}
+===Staves===
+{{Main|:Category:Staves}}
+{{Weapons List|weaponType=Staff}}
+
+==Multicolor weapons==
+===Beast weapons===
+{{Main|:Category:Beast weapons}}
+{{Weapons List|weaponType=Beast}}
+===Dragonstones===
+{{Main|:Category:Dragonstones}}
+{{Weapons List|weaponType=Dragonstone}}
+===Bows===
+{{Main|:Category:Bows}}
+{{Weapons List|weaponType=Bow}}
+===Daggers===
+{{Main|:Category:Daggers}}
+{{Weapons List|weaponType=Dagger}}
+{{Skills Navbox}}

@@ -1,0 +1,76 @@
+{{#invoke:NameAbout|main|Name=Soleil}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Soleil
+|Title=Adorable Adorer
+|GrowthModifier=Gen 2
+|WeaponType=Red Sword
+|MoveType=Infantry
+|Origin=Fire Emblem Fates
+|Gender=Female
+|actorEN=Michelle Ruff
+|actorJP=鈴木絵理
+|artist=円居雄一郎
+|resplendentArtist=姐川
+|releaseDate=December 4, 2017
+|additionDate=November 28, 2017
+|poolDate=December 18, 2017
+|randomStartTime=2017-12-28T07:00:00Z
+|poolRarities=3,4
+|TagID=ソレイユ
+|InternalID=194
+|cv1=11
+|cv2=6902100
+|description=Laslow's daughter. Cheerful and not even slightly shy. Looks up to cool women. Appears in Fire Emblem Fates.
+|Properties=demoted_201904,resplendent,askr
+|resplendentStartTime=2025-07-10T07:00:00Z
+|resplendentEndTime=2025-07-25T06:59:59Z
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=10|Lv1SPD=9|Lv1DEF=6|Lv1RES=5
+|GRHP=45|GRATK=65|GRSPD=60|GRDEF=50|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Firesweep S
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Firesweep S+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Soleil's Shine
+|weapon5Unlock=5
+}}
+
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Rising Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Blazing Wind
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Darting Blow 1
+|passiveA2=Darting Blow 2
+|passiveA3=Darting Blow 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Spur Res 1
+|passiveC2=Drive Res 1
+|passiveC3=Drive Res 2
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

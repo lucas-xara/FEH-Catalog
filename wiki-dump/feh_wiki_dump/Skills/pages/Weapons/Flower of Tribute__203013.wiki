@@ -1,0 +1,52 @@
+{{Weapon Infobox
+|tagid=SID_犠牲の花
+|intID=3822
+|image=wep_sw166
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). For foes within 3 rows or 3 columns centered on unit, deals 5 damage to foe as their combat begins (effects that reduce damage during combat do not apply; will not reduce foe's HP below 1) and inflicts Spd/Def-5 on foe during their combat. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit and deals damage = 20% of unit's Spd during combat (excluding area-of-effect Specials).
+|required=Silver Sword
+|properties=random_owner
+}}
+==Notes==
+{{CombatDamage|5}}
+{{Temporary debuffs}}
+{{FoesCombatEffect|effect=damage dealt as combat begins and temporary debuffs}}
+{{Temporary buffs}}
+{{DamageBoost}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Triandra: Reverent Dream|t=Peony: Cherished Dream
+|---xxx---
+|---xxx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xtx---
+|---xxx---
+}}
+|}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=犠牲の花
+|german=Gedenkblume
+|spanishEU=Flor de tributo
+|spanishLA=Flor de tributo
+|french=Fleur souvenir
+|italian=Fiore dell'offerta
+|chineseTW=犧牲之花
+|portuguese=Flor do tributo
+}}
+==See also==
+{{See also skills|cond=Name LIKE 'Flower of%' OR Description LIKE '%combat begins%'}}
+{{Weapons Navbox}}

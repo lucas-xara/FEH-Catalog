@@ -1,0 +1,37 @@
+{{Weapon Infobox
+|tagid=SID_フレリアの麗剣
+|intID=3518
+|image=wep_sw148
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). If foe initiates combat or if foe's HP ≥ 75% at start of combat, grants Atk/Spd/Def/Res+5 to unit, inflicts penalty on foe's Atk/Spd/Def = 15% of unit's Spd at start of combat, neutralizes effects that prevent unit's follow-up attacks, and reduces damage from foe's first attack by 40% during combat.
+|required=Silver Sword
+|properties=random_owner
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+{{Temporary debuffs}}
+{{At start of combat}}
+{{Follow-up effect neutralization|preventOnly=1}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=フレリアの麗剣
+|german=Klinge Frelias
+|spanishEU=Hoja freliana
+|spanishLA=Hoja freliana
+|french=Lame frelianne
+|italian=Lama freliana
+|chineseTW=弗萊利亞的麗劍
+|portuguese=Espada de Frelia
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%inflicts penalty on foe_s%=%of unit_s%at start of combat%' OR Description LIKE '%if foe initiates combat or if foe_s HP%reduces damage from foe_s first attack%') AND Exclusive='1'}}
+{{Weapons Navbox}}

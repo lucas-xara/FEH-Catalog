@@ -1,0 +1,57 @@
+{{Passive
+|name=Squad Ace AM
+|type=S
+|exclusive=0
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|timingID=0
+|abilityID=0
+|properties=
+|1name=Squad Ace AM 1
+|1tagid=SID_第39迷宮の覇者1
+|1effect=Grants Spd/Res+1.
+|1required=-
+|1cost=80
+|statModifiers1=0,0,1,0,1
+|intID1=2248
+|sort1=50380
+|value1=2
+|2name=Squad Ace AM 2
+|2tagid=SID_第39迷宮の覇者2
+|2effect=Grants Spd/Res+2.
+|2required=Squad Ace AM 1
+|2cost=160
+|statModifiers2=0,0,2,0,2
+|intID2=2249
+|sort2=50381
+|value2=4
+}}
+==Seal acquired from==
+===Squad Assault reward===
+* Complete the [[39th Assault]].
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Squad Ace AM 1;Squad Ace AM 2
+|badgeColor=Transparent
+|costs1=-
+|costs2=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|english=Squad Ace AM
+|japanese=第３９迷宮の覇者
+|german=Überf.-Ass AM
+|spanishEU=As de asalto AM
+|spanishLA=As de asalto AM
+|french=Assaut réussi AM
+|italian=Asso sq. AM
+|chineseTW=第３９迷宮的霸王
+|portuguese=Esquadrão ás AM
+}}
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}
+[[Category:Squad Ace Seals]]

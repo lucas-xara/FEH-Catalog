@@ -1,0 +1,43 @@
+{{Weapon Infobox
+|tagid=SID_デッキブラシ
+|image=wep_ax071
+|weaponType=Axe
+|might=10
+|range=1
+|effect=If unit is not adjacent to an ally, inflicts Atk/Def-5 on foe and neutralizes foe's bonuses to Atk/Def (from skills like Fortify, Rally, etc.) during combat.
+|cost=200
+|exclusive=0
+|statModifiers=0,10,0,0,0
+|required=Steel Axe
+|next=Deck Swabber+
+|promotionRarity=5
+|promotionTier=1
+|intID=2174
+|sort=84000
+|value=11
+|timingID=1
+|abilityID=162
+|limit1ID=19
+|properties=
+}}
+==Notes==
+{{Combat reductions}}
+{{Bonus neutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Deck Swabber
+|japanese=デッキブラシ
+|german=Deckschrubber
+|spanishEU=Barremuelles
+|spanishLA=Barremuelles
+|french=Balai de pont
+|italian=Scopa da mozzo
+|chineseTW=長柄刷
+|portuguese=Esfrega-convés
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If unit is not adjacent to an ally, inflicts%neutralizes foe_s bonuses%' AND WikiName NOT LIKE '%Unbound%'|columns=3}}
+* [[Skill families#Unbound|Unbound Weapons]]
+{{Weapons Navbox}}

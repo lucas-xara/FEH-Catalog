@@ -1,0 +1,69 @@
+{{#invoke:NameAbout|main|Name=Takumi}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Takumi
+|Title=Wild Card
+|GrowthModifier=None
+|WeaponType=Colorless Bow
+|Origin=Fire Emblem Fates
+|Gender=Male
+|MoveType=Infantry
+|actorEN=Michael Sinterniklaas
+|actorJP=梶裕貴
+|artist=日野慎之助
+|releaseDate=February 2, 2017
+|poolDate=February 2, 2017
+|randomStartTime=2017-02-02T07:00:00Z
+|poolRarities=5
+|TagID=タクミ
+|InternalID=65
+|Properties=prologue,tiara,specRate_201904,resplendent,hel
+|cv1=11
+|cv2=200900
+|description=Prince of Hoshido who wields the divine bow Fujin Yumi. Prickly at times. Appears in Fire Emblem Fates.
+|resplendentArtist=hou
+|resplendentStartTime=2020-10-10T07:00:00Z
+|resplendentEndTime=2020-10-25T06:59:59Z
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=8|Lv1SPD=7|Lv1DEF=6|Lv1RES=5
+|GRHP=50|GRATK=55|GRSPD=60|GRDEF=45|GRRES=30
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Bow
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Fujin Yumi
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Retribution
+|special1Default=4
+|special1Unlock=3
+|special2=Vengeance
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Close Counter
+|passiveA1Unlock=5
+|passiveC1=Threaten Spd 1
+|passiveC2=Threaten Spd 2
+|passiveC3=Threaten Spd 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

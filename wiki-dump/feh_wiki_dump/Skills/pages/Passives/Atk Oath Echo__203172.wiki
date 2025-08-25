@@ -1,0 +1,43 @@
+{{Passive
+|name=Atk Oath Echo
+|type=X
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|Infantry,Flying}}
+|1name=Atk Oath Echo
+|1tagid=SID_響・攻撃の信義
+|1effect=At start of turn, if unit is within 2 spaces of an ally, grants Atk+6 and "unit can move to a space adjacent to any ally within 2 spaces" to unit for 1 turn.
+|1cost=0
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{Eft|Bonuses|Atk|6}}
+|Se2={{SEt|Air Orders}}
+|SeC=At start of turn<br>if {{Tgt|Unit}} is<br>[[within 2 spaces]]<br>of an {{Tgt|Ally}}
+}}
+==Notes==
+{{Bonuses}}
+{{Air Orders}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=響・攻撃の信義
+|german=Angr.-Eid-Hall
+|spanishEU=Eco lealtad Ata
+|spanishLA=Eco pacto Atq.
+|french=Symb. vœu Atq
+|italian=Eco lealtà Att
+|chineseTW=響・攻擊的信義
+|portuguese=Eco pacto Atq.
+}}
+==See also==
+* [[Oath Passives]]
+* [[Pledge Passives]]
+{{Passives Navbox|X}}

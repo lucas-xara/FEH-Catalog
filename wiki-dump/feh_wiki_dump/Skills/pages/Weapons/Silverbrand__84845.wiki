@@ -1,0 +1,52 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_真銀の聖剣
+|weaponType=Sword
+|weaponName=Silverbrand
+|might=16
+|range=1
+|effect=If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%.
+|cost=400
+|exclusive=1
+|userVersion1=Weapon|userVersion2=Gleam
+|statModifiers=0,16,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=At start of turn, grants Spd+6 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2.
+|iconSkill1=Spd Tactic W.png
+|tagidExtraSkill1=指
+|properties=
+}}
+==Notes==
+* Has the same effect as {{St|Triangle Adept 3}}.
+{{WTA boost}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+* The refined version listed first has the same effect as {{St|Spd Tactic 3}}.
+{{Tactic Passive notes}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=真銀の聖剣
+|german=Silberstich
+|spanishEU=Hoja argentada
+|spanishLA=Espada argentada
+|french=Lame d'argent
+|italian=Lama argentea
+|chineseTW=純銀的聖劍
+|portuguese=Espada prateada
+}}
+==See also==
+* [[Fólkvangr]]
+* [[Draconic Poleax]]
+* [[Trilemma]]
+* [[Trilemma+]]
+* [[Gem Weapons]]
+{{Weapons Navbox}}
+[[Category:Gem weapons]]

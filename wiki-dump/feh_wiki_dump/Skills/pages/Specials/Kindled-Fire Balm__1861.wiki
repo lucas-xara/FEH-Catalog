@@ -1,0 +1,31 @@
+{{Special
+|tagid=SID_業火の祝福
+|name=Kindled-Fire Balm
+|charge=1
+|effect=When healing an ally with a staff, grants Atk+4 to all allies for 1 turn.
+|cost=150
+|exclusive=0
+|required=-
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|Staff}}
+|properties=random_all
+}}
+==Notes==
+{{Bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=業火の祝福
+|german=Feuerbalsam
+|spanishEU=Pirobálsamo
+|spanishLA=Pirobálsamo
+|french=Baume ardent
+|italian=Balsamo fuoco
+|chineseTW=業火的祝福
+|portuguese=Pirobálsamo
+}}
+==See also==
+* [[Skill families/Specials#Balm|Balm Specials]]
+{{Specials Navbox}}
+[[Category:Balm Specials]]

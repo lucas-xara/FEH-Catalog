@@ -1,0 +1,55 @@
+{{Weapon Infobox
+|tagid=SID_雷神と戯神の気紛れ
+|intID=3143
+|image=wep_mg172
+|exclusive=1
+|weaponType=Blue Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of turn, inflicts【Exposure】and 【Stall】on foes on the enemy team with the lowest Spd and any foes within 2 spaces of those foes through their next actions, and also, if unit is within 2 spaces of an ally, grants Special cooldown count-1 to unit. At start of combat, if unit's HP ≥ 25%, grants Atk+6 to unit and inflicts Atk-6 on foe during combat.<br><br>【Exposure】<br>Foe's attacks deal +10 damage.<br><br>【Stall】<br>If unit has "unit can move 1 extra space," converts that effect into "restricts movement to 1 space" through its next action.
+|statModifiers=0,14,0,0,0
+|required=Thoron;Shine
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Se1={{SEt|Exposure}}
+|Se2={{SEt|Stall}}
+|SeT={{Tgt|Foes}} with the<br>lowest Spd '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}
+|SeC=At start of turn
+|Me={{Eft|Reduce Cooldown|1}}
+|MeC=At start of turn<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce1={{Eft|Temporary buffs|Atk|6}}
+|Ce2={{Eft|Temporary debuffs|Atk|6}}
+|Ce2T={{Tgt|Foe}}
+|CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{Exposure}}
+{{Stall}}
+{{SelectStat|Spd|lowest=1}}
+{{Start of turn Special modification}}
+{{Combat boosts}}
+{{Combat reductions}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=戦神と戯神の気紛れ
+|german=Göttliche Laune
+|spanishEU=Capricho divino
+|spanishLA=Capricho divino
+|french=Caprice divin
+|italian=Capriccio divino
+|chineseTW=戰神與戲神心血來潮
+|portuguese=Requinte divino
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%【Stall】%' AND Description NOT LIKE '%Stall%active on unit%neutralize%') AND Exclusive='1'}}
+* [[Time Pulse Passives]]
+{{Weapons Navbox}}

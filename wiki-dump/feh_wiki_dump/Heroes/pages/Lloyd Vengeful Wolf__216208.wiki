@@ -1,0 +1,66 @@
+{{#invoke:NameAbout|main|Name=Lloyd}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Lloyd
+|Title=Vengeful Wolf
+|WeaponType=Red Sword
+|MoveType=Infantry
+|Origin=Fire Emblem: The Blazing Blade
+|Gender=Male
+|actorEN=Kaiji Tang
+|actorJP=松田健一郎
+|artist=北千里
+|additionDate=May 7, 2024
+|releaseDate=May 9, 2024
+|cv1=6
+|cv2=2900500
+|TagID=闇ロイド
+|InternalID=1095
+|Properties=limited,ghb,fallen
+|description=Member of the Black Fang assassins. After the loss of his younger brother, he dies himself, only to be made into a morph by Nergal. Appears in Fire Emblem: The Blazing Blade.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=13|Lv1SPD=11|Lv1DEF=7|Lv1RES=6
+|GRHP=50|GRATK=70|GRSPD=80|GRDEF=55|GRRES=60
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Dead-Wolf Blade
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Dragon Fang
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Ideal 1
+|passiveA2=Atk/Spd Ideal 2
+|passiveA3=Atk/Spd Ideal 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=Repel 1
+|passiveB2=Repel 2
+|passiveB3=Repel 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+{{Heroes Navbox}}

@@ -1,0 +1,53 @@
+{{SkillPage Tabs}}{{Passive
+|name=Spd/Res Gap
+|type=C
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|1name=Spd/Res Gap 1
+|1tagid=SID_速さ魔防の大開放1
+|alt1name=Spd Res Gap 1
+|1effect=At start of turn, grants Spd/Res+1 to ally with the highest Spd+Res total for 1 turn. (Excludes unit.)
+|1required=-
+|1cost=60
+|1promotionRarity=4
+|1promotionTier=1
+|2name=Spd/Res Gap 2
+|2tagid=SID_速さ魔防の大開放2
+|alt2name=Spd Res Gap 2
+|2effect=At start of turn, grants Spd/Res+3 to ally with the highest Spd+Res total for 1 turn. (Excludes unit.)
+|2cost=120
+|2promotionRarity=5
+|2promotionTier=1
+|3name=Spd/Res Gap 3
+|3tagid=SID_速さ魔防の大開放3
+|alt3name=Spd Res Gap 3
+|3effect=At start of turn, grants Spd/Res+5 to ally with the highest Spd+Res total for 1 turn. (Excludes unit.)
+|3cost=240
+|properties=random_owner
+}}
+==Notes==
+{{Bonuses}}
+{{SelectStat|Spd+Res total}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Spd/Res Gap
+|japanese=速さ魔防の大開放
+|german=Ges./Res.-Lücke
+|spanishEU=Lapso Vel/Res
+|spanishLA=Lapso Vel./Res.
+|french=Brèche Vit/Rés
+|italian=Occ. Vel/Res
+|chineseTW=速度魔防大開放
+|portuguese=Lapso Vel./Res.
+}}
+==See also==
+* [[Opening Passives]]
+{{Passives Navbox|C}}
+[[Category:Gap Passives]]

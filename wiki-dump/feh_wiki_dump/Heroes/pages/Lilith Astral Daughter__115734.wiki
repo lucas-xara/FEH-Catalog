@@ -1,0 +1,76 @@
+{{#invoke:NameAbout|main|Name=Lilith}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Lilith
+|Title=Astral Daughter
+|WeaponType=Blue Breath
+|Origin=Fire Emblem Fates
+|Gender=Female
+|MoveType=Flying
+|actorJP=村井かずさ
+|actorEN=Danielle Judovitz
+|artist=恒星ホリグチ
+|additionDate=April 7, 2020
+|releaseDate=April 8, 2020
+|randomStartTime=2020-05-08T07:00:00Z
+|poolDate=April 30, 2020
+|poolRarities=5
+|TagID=リリス
+|InternalID=506
+|Properties=specRate_202302
+|cv1=11
+|cv2=100700
+|description=Corrin's attendant, whose true form is that of an astral dragon. She reveals her true self to rescue Corrin from a crisis. Appears in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=6|Lv1SPD=8|Lv1DEF=5|Lv1RES=6
+|GRHP=50|GRATK=70|GRSPD=75|GRDEF=50|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire Breath
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Fire Breath+
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Water Breath
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Astral Breath
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Reposition
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Bond 1
+|passiveA2=Atk/Spd Bond 2
+|passiveA3=Atk/Spd Bond 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Def/Res Link 1
+|passiveB2=Def/Res Link 2
+|passiveB3=Def/Res Link 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Spur Atk 1
+|passiveC2=Drive Atk 1
+|passiveC3=Drive Atk 2
+|passiveC4=Joint Drive Atk
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}

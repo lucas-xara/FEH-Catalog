@@ -1,0 +1,41 @@
+{{Passive
+|name=Surtr's Portent
+|type=C
+|exclusive=1
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|intID=2689
+|sort=574
+|effectRange=4
+|value=8
+|timingID=8
+|abilityID=276
+|randomTimestamp=2021-09-05T07:00:00Z
+|randomMinLv=31
+|properties=random_owner
+|1name=Surtr's Portent
+|1tagid=SID_炎王の脅嚇
+|1effect=At start of turn, if unit is within 4 spaces of a foe, inflicts Atk/Spd/Def/Res-5 on closest foes through their next actions and grants Atk/Spd/Def/Res+5 to unit for 1 turn.
+|1required=-
+|1cost=300
+}}
+==Notes==
+{{Bonuses}}{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+* Surtr's Portent's Japanese name "炎王の脅嚇" can be translated as "Flame King's Menace", connecting Surtr's Portent to the [[Menace Passives]], unlike {{St|Surtr's Menace}}, which is more connected to the [[Threaten Passives]].
+==In other languages==
+{{OtherLanguages
+|japanese=炎王の脅嚇
+|german=Surtrs Drohung
+|spanishEU=Augurio de Surtr
+|spanishLA=Augurio de Surtr
+|french=Augure de Surtr
+|italian=Portento di Surtr
+|chineseTW=炎王恐嚇
+|portuguese=Presságio de Surtr
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%At start of turn%inflicts Atk/Spd/Def/Res-%within%' OR Description LIKE '%At start of turn, if unit is within%spaces of a foe%inflicts%and grants%' OR Description LIKE '%At start of turn%inflicts%and grants%for 1 turn%'}}
+{{Passives Navbox|C}}

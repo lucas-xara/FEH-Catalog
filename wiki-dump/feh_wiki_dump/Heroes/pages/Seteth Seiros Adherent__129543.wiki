@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Seteth}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Seteth
+|Title=Seiros Adherent
+|WeaponType=Blue Lance
+|MoveType=Flying
+|Origin=Fire Emblem: Three Houses
+|Gender=Male
+|actorEN=Mark P. Whitten
+|actorJP=子安武人
+|artist=大熊ゆうご
+|randomStartTime=2020-11-19T07:00:00Z
+|additionDate=October 19, 2020
+|releaseDate=October 19, 2020
+|poolDate=November 6, 2020
+|poolRarities=3, 4
+|cv1=12
+|cv2=500200
+|TagID=セテス
+|InternalID=578
+|Properties=
+|description=Serves the Church of Seiros as Rhea's right hand. He is serious and stubborn with most, but dotes on his younger sister, Flayn. Appears in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=10|Lv1SPD=8|Lv1DEF=8|Lv1RES=7
+|GRHP=60|GRATK=60|GRSPD=65|GRDEF=55|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Lance
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Spear of Assal
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Swap
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Brazen Atk/Spd 1
+|passiveA2=Brazen Atk/Spd 2
+|passiveA3=Brazen Atk/Spd 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Spur Atk 1
+|passiveC2=Drive Atk 1
+|passiveC3=Drive Atk 2
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

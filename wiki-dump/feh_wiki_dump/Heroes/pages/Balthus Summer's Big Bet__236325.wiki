@@ -1,0 +1,65 @@
+{{#invoke:NameAbout|main|Name=Balthus}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Balthus
+|Title=Summer's Big Bet
+|WeaponType=Blue Lance
+|MoveType=Infantry
+|Origin=Fire Emblem: Three Houses
+|Gender=Male
+|actorEN=Nathan Hedrick
+|actorJP=木村昴
+|artist=kuren
+|additionDate=July 7, 2025
+|releaseDate=July 8, 2025
+|cv1=12
+|cv2=450200
+|TagID=水着バルタザール
+|InternalID=1263
+|Properties=specDisplay,tempest,limited
+|description=A former noble who loves gambling and alcohol. He feels lucky at Askr's ocean and decides to go for the big win. Appears in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=21|Lv1ATK=10|Lv1SPD=7|Lv1DEF=12|Lv1RES=7
+|GRHP=60|GRATK=90|GRSPD=55|GRDEF=75|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Osseous Trident
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Osseous Trident+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Smite
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveB1=Atk/Def Bulwark 1
+|passiveB2=Atk/Def Bulwark 2
+|passiveB3=Atk/Def Bulwark 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Atk/Def Oath 1
+|passiveC2=Atk/Def Oath 2
+|passiveC3=Atk/Def Oath 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Summer units]]

@@ -1,0 +1,35 @@
+{{Weapon Infobox
+|tagid=SID_鉄の槍
+|weaponType=Lance
+|weaponName={{PAGENAME}}
+|might=6
+|range=1
+|effect=
+|cost=50
+|exclusive=0
+|statModifiers=0,6,0,0,0
+|next=Steel Lance
+|promotionRarity=3
+|promotionTier=1
+|required=-
+|properties=random_all
+}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=鉄の槍
+|german=Eisenlanze
+|spanishEU=Lanza hierro
+|spanishLA=Lanza hierro
+|french=Lance fer
+|italian=Lancia ferro
+|chineseTW=鐵槍
+|portuguese=Lança de ferro
+}}
+==See also==
+* [[Iron Weapons]]
+{{Weapons Navbox}}
+[[Category:Iron weapons]]

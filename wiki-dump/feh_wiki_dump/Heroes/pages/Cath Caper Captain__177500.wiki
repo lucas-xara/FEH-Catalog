@@ -1,0 +1,73 @@
+{{#invoke:NameAbout|main|Name=Cath}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Cath
+|Title=Caper Captain
+|WeaponType=Blue Tome
+|MoveType=Cavalry
+|Origin=Fire Emblem: The Binding Blade
+|Gender=Female
+|actorEN=Antonia Flynn
+|actorJP=矢作紗友里
+|artist=ぷきゅのすけ
+|additionDate=August 8, 2022
+|releaseDate=August 9, 2022
+|cv1=5
+|cv2=4900500
+|TagID=怪盗キャス
+|InternalID=835
+|Properties=special
+|description=Leader of a group of thieves who steal from the rich. Eager to recruit strong members into her crew. Appears in Fire Emblem: The Binding Blade.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=7|Lv1SPD=13|Lv1DEF=4|Lv1RES=5
+|GRHP=50|GRATK=70|GRSPD=70|GRDEF=40|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Thunder
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elthunder
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Thoron
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Lofty Leaflet
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Draw Back
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Push 1
+|passiveA2=Atk/Spd Push 2
+|passiveA3=Atk/Spd Push 3
+|passiveA4=Atk/Spd Push 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Atk/Res Snag 1
+|passiveB2=Atk/Res Snag 2
+|passiveB3=Atk/Res Snag 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Blue Feud 1
+|passiveC2=Blue Feud 2
+|passiveC3=Blue Feud 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Thief Festival units]]

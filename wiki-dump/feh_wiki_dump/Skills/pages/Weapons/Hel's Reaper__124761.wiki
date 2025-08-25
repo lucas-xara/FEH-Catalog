@@ -1,0 +1,80 @@
+{{Weapon Infobox
+|tagid=SID_死鎌ヘル
+|weaponType=Axe
+|might=16
+|range=1
+|effect=Accelerates Special trigger (cooldown count-1).<br>Neutralizes "effective against flying" bonuses. If foe does not use magic or staff, calculates damage using foe's Res, and if unit’s HP > 1 and foe would reduce unit’s HP to 0, unit survives with 1 HP. (Once per combat. Does not stack.)
+|cooldown=-1
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Silver Axe
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1).<br>Neutralizes "effective against flying" bonuses. If foe does not use magic or staff, calculates damage using foe's Res, and also, if unit's HP > 1 and foe would reduce unit's HP to 0 during combat, unit survives with 1 HP (once per combat; does not stack). If foe initiates combat or foe's HP ≥ 50% at start of combat, grants Atk/Spd/Def/Res+4 to unit during combat and restores 7 HP to unit after combat.
+|effectSkill1=At start of combat, if unit's HP ≥ 25% or 【Penalty】is active on foe, grants Atk/Spd/Def/Res+4 to unit, deals damage = 20% of unit's Spd (including when dealing damage with a Special triggered before combat), and reduces damage from foe's first attack by 40% during combat.<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Accelerate Special}}
+|s1 Ce1={{Eft|Neutralize Weakness|{{Mt|Flying}}}}
+|s1 Ce2={{Efi|Lower Def Res}} Damage uses {{Tgt|Foe}}'s Res
+|s1 Ce3={{Eft|Miracle}}
+|s1 CeC2={{Tgt|Foe}} doesn't use<br>{{Cwti|group=1|Magic,Staff}} [[Magic]]/{{Wtp|Colorless Staff}}
+|s1 CeC3={{Tgt|Foe}} doesn't use<br>{{Cwti|group=1|Magic,Staff}} [[Magic]]/{{Wtp|Colorless Staff}}<br>'''&''' {{Tgt|Unit}}'s HP > 1
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Accelerate Special}}
+|s2 Me={{Eft|Heal|7}}
+|s2 MeC=After combat in<br>(Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 50%<br>at start of combat)
+|s2 Ce1={{Eft|Neutralize Weakness|{{Mt|Flying}}}}
+|s2 Ce2={{Efi|Lower Def Res}} Damage uses {{Tgt|Foe}}'s Res
+|s2 Ce3={{Eft|Miracle}}
+|s2 Ce4={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s2 CeC2={{Tgt|Foe}} doesn't use<br>{{Cwti|group=1|Magic,Staff}} [[Magic]]/{{Wtp|Colorless Staff}}
+|s2 CeC3={{Tgt|Foe}} doesn't use<br>{{Cwti|group=1|Magic,Staff}} [[Magic]]/{{Wtp|Colorless Staff}}<br>'''&''' {{Tgt|Unit}}'s HP > 1
+|s2 CeC4=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 50%<br>at start of combat
+|skill3={{Si|Hel's Reaper|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s3 Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}<br>before '''&''' during combat
+|s3 Ce3={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s first attack
+|s3 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat '''or'''<br>a {{Kp|Penalty}} effect<br>is active on {{Tgt|Foe}}
+}}
+
+==Notes==
+* Hel's Reaper has the same effect as {{St|Iote's Shield}}.
+{{Effectiveness neutralization|flying}}
+{{SingleStatDamageCalc}}
+{{DefensiveSkill}}
+{{Survive with 1 HP}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfFoeInitiates}}
+{{Temporary buffs|name=Refined Hel's Reaper}}
+{{After combat healing|name=Refined Hel's Reaper}}
+{{DamageBoost|name={{St|Hel's Reaper|refine=Skill1}}}}
+{{DamagePercentageReduction}}
+{{EffectfromPenalty|name={{St|Hel's Reaper|refine=Skill1}}|temporary buffs, damage boost and damage reduction effects}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Hel's Reaper
+|japanese=死鎌ヘル
+|german=Hels Schnitter
+|spanishEU=Guadaña de Hel
+|spanishLA=Guadaña de Hel
+|french=Faux de Hel
+|italian=Falce di Hel
+|chineseTW=死鐮赫爾
+|portuguese=Foice de Hel
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%f unit_s HP > 1 and foe would reduce unit_s HP to 0, unit survives with 1 HP%' AND Description NOT LIKE '%neutralizes%"if foe would reduce%' AND Exclusive='1'}}
+* [[Shield Passives]]
+{{Weapons Navbox}}

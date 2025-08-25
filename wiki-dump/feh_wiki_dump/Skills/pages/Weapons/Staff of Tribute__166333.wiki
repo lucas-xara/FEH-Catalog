@@ -1,0 +1,36 @@
+{{Weapon Infobox
+|tagid=SID_感謝の花の杖
+|intID=2953
+|image=wep_rd047
+|exclusive=0
+|weaponType=Colorless Staff
+|cost=200
+|might=8
+|range=2
+|effect=If unit is within 3 spaces of an ally, grants Def/Res+6 to unit during combat and restores 5 HP to unit and adjacent allies after combat.
+|statModifiers=0,8,0,0,0
+|required=Assault
+|next=Staff of Tribute+
+|promotionRarity=5
+|promotionTier=2
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+{{After combat healing|allies=1}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=感謝の花の杖
+|german=Hingabestab
+|spanishEU=Bastón tributo
+|spanishLA=Bastón tributo
+|french=Bâton d'éloge
+|italian=Bastone elogio
+|chineseTW=感謝之花杖
+|portuguese=Bastão do tributo
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit is within _ spaces of an ally%grants Def/Res+_ to unit during combat%' OR Description LIKE '%restores _ HP to%adjacent allies%'|columns=3}}
+{{Weapons Navbox}}

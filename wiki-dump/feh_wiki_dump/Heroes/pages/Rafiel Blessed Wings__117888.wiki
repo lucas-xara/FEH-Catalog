@@ -1,0 +1,66 @@
+{{#invoke:NameAbout|main|Name=Rafiel}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Rafiel
+|Title=Blessed Wings
+|WeaponType=Blue Beast
+|Origin=Fire Emblem: Radiant Dawn
+|Gender=Male
+|MoveType=Infantry
+|actorJP=関智一
+|actorEN=Vernon Dew
+|artist=霜村航
+|additionDate=May 20, 2020
+|releaseDate=May 20, 2020
+|TagID=花婿ラフィエル
+|InternalID=523
+|Properties=special,refresher
+|cv1=9
+|cv2=700200
+|description=Prince of Serenes, the destroyed heron country. Fell in love with Nailah after she saved his life. Appears in Fire Emblem: Radiant Dawn.
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=4|Lv1SPD=7|Lv1DEF=5|Lv1RES=11
+|GRHP=50|GRATK=55|GRSPD=65|GRDEF=35|GRRES=70
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Whelp (Infantry)
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Yearling (Infantry)
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Adult (Infantry)
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Groom's Wing
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Sing
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Gale Dance 1
+|passiveB2=Firestorm Dance 1
+|passiveB3=Firestorm Dance 2
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Spur Res 1
+|passiveC2=Spur Res 2
+|passiveC3=Ward Beasts
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Bridal Festival units]]

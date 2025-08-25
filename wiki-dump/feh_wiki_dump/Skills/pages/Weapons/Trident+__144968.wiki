@@ -1,0 +1,44 @@
+{{Weapon Infobox
+|tagid=SID_トライデント＋
+|weaponName=Trident+
+|image=wep_lc106
+|weaponType=Lance
+|might=14
+|range=1
+|effect=At start of turn, if unit is within 3 spaces of an ally, grants Atk+6 to unit for 1 turn. If unit is within 3 spaces of an ally, grants Atk/Def+5 to unit during combat.
+|cost=300
+|exclusive=0
+|statModifiers=0,14,0,0,0
+|required=Trident
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|intID=2641
+|sort=93011
+|value=15
+|timingID=8
+|abilityID=23
+|limit1ID=14
+|properties=
+}}
+==Notes==
+{{Bonuses}}{{Combat boosts}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=トライデント＋
+|german=Dreizack+
+|spanishEU=Tridente +
+|spanishLA=Tridente +
+|french=Trident +
+|italian=Tridente+
+|chineseTW=三叉戟＋
+|portuguese=Tridente+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%At start of turn, if unit is within%ally%grants%+%to unit for 1 turn%' OR Description LIKE '%If unit is within 3 spaces of an ally%grants%+%during combat%'}}
+{{Weapons Navbox}}

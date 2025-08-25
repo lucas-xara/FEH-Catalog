@@ -1,0 +1,53 @@
+{{Passive
+|type=B
+|name=Flow N Trace
+|exclusive=0
+|canUseWeapon={{WeaponList|Melee}}
+|canUseMove={{MoveList|Cavalry,Flying}}
+|properties=random_inherit_base,random_owner
+|1name=Flow N Trace 1
+|1tagid=SID_怒涛・近影1
+|1cost=60
+|1effect=Enables【Canto (Rem. +1)】.<br><br>At the start of combat, if unit's HP = 100% and unit initiates combat, neutralizes effects that prevent unit's follow-up attacks.<br><br>【Canto (Rem. +1)】<br>After an attack, Assist skill, or structure destruction, unit can move again.<br><br>The distance of the movement is the remaining movement the unit had before the actions listed above+1 (If unit used a movement skill that warps them, the remainder is 0).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|1required=-
+|1promotionRarity=4
+|1promotionTier=1
+|2name=Flow N Trace 2
+|2tagid=SID_怒涛・近影2
+|2cost=120
+|2effect=Enables【Canto (Rem. +1)】.<br><br>At the start of combat, if unit's HP ≥ 50% and unit initiates combat, neutralizes effects that prevent unit's follow-up attacks.<br><br>【Canto (Rem. +1)】<br>After an attack, Assist skill, or structure destruction, unit can move again.<br><br>The distance of the movement is the remaining movement the unit had before the actions listed above+1 (If unit used a movement skill that warps them, the remainder is 0).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|2promotionRarity=5
+|2promotionTier=1
+|3name=Flow N Trace 3
+|3tagid=SID_怒涛・近影3
+|3cost=240
+|3effect=Enables【Canto (Rem. +1)】.<br><br>If unit initiates combat, neutralizes effects that prevent unit's follow-up attacks.<br><br>【Canto (Rem. +1)】<br>After an attack, Assist skill, or structure destruction, unit can move again.<br><br>The distance of the movement is the remaining movement the unit had before the actions listed above+1 (If unit used a movement skill that warps them, the remainder is 0).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+}}
+==Notes==
+{{Canto|Rem. +1}}
+{{IfUnitInitiates}}
+{{Follow-up effect neutralization|preventOnly=1}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Flow N Trace
+|japanese=怒涛・近影
+|german=Fließ. Spur nah
+|spanishEU=Corriente afín
+|spanishLA=Corriente afín
+|french=Trace pr. 1 (Flots)
+|italian=Scia vic. fluida
+|chineseTW=怒濤・近影
+|portuguese=Onda rastro p.
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【Canto (Rem. +1)】%' AND (Exclusive=1 AND Name NOT LIKE '%+') OR GroupName IN ('Beast N Trace','Gullinbursti')}}
+* [[Flow Passives]]
+* [[Trace Passives]]
+{{Passives Navbox|B}}

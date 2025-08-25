@@ -1,0 +1,48 @@
+{{Passive
+|type=C
+|exclusive=0
+|1name=Joint Drive Spd
+|1tagid=SID_速さの相互大紋章
+|1effect=Grants Spd+4 to allies within 2 spaces during combat. If unit is within 2 spaces of an ally, grants Spd+4 to unit during combat.
+|1cost=300
+|1required=Drive Spd 2
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner,random_inherit_base
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary buffs|Spd|4}}
+|Ce1T={{Tgt|Allies}}<br>[[within 2 spaces]]
+|Ce2={{Eft|Temporary buffs|Spd|4}}
+|Ce2C={{Tgt|Unit}} is<br>[[within 2 spaces]]<br>of an {{Tgt|Ally}}
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{AlliesCombatEffect|effect=temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=速さの相互大紋章
+|german=Nachbar-Ges. ant.
+|spanishEU=Maximpulsar Vel
+|spanishLA=Maximpulsar Vel.
+|french=Entraide stim. Vit
+|italian=Tras. Vel gruppo
+|chineseTW=速度相互大紋章
+|portuguese=Vel. omnimpulso
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%grants%Spd%+%to allies within _ spaces%is within _ space%grants%Spd%+%' OR Description LIKE '%is within _ space%grants%Spd%+%grants%Spd%+%to allies within _ spaces%') AND Exclusive='1'}}
+* [[Drive Passives]]
+* [[Joint Drive Passives]]
+{{Passives Navbox|C}}
+[[Category:Drive Passives]]
+[[Category:Joint Drive Passives]]
+[[Category:Spur Passives]]

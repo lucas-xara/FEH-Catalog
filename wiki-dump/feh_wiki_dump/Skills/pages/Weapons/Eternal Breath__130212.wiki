@@ -1,0 +1,46 @@
+{{Weapon Infobox
+|tagid=SID_悠久のブレス
+|weaponType=Dragonstone
+|might=16
+|range=1
+|effect=At start of turn, if an ally is within 2 spaces of unit, grants Atk/Spd/Def/Res+5 to unit and allies within 2 spaces for 1 turn. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|userVersion1=Weapon
+|userVersion2=Gleam
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If【Bonus】is active on unit, inflicts Atk/Res-4 on foe and grants Special cooldown charge +1 per foe's attack during combat. (Only highest value applied. Does not stack. Special cooldown charge granted even if foe's attack deals 0 damage.)<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|iconSkill1=Eternal Breath W.png
+|tagidExtraSkill1=奥
+|properties=
+}}
+==Notes==
+{{Bonuses}}
+{{LowerDefRes}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{EffectfromBonusKeyword}}
+{{Combat reductions}}
+{{CooldownChargePlus|perAttack=foe}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=悠久のブレス
+|german=Ewiger Atem
+|spanishEU=Aliento eterno
+|spanishLA=Soplo eterno
+|french=Souffle éternel
+|italian=Soffio eterno
+|chineseTW=悠久吐息
+|portuguese=Sopro eterno
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%at start of turn%grants Atk/%+%to unit and allies within _ spaces%'}}
+{{Weapons Navbox}}

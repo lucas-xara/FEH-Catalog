@@ -1,0 +1,41 @@
+{{Weapon Infobox
+|tagid=SID_キャンディケイン
+|weaponName=Candy Cane
+|image=wep_lc091
+|weaponType=Lance
+|might=10
+|range=1
+|effect=If unit is within 2 spaces of an ally, grants Atk/Def+5 to unit during combat and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)
+|cost=200
+|exclusive=0
+|statModifiers=0,10,0,0,0
+|required=Steel Lance
+|next=
+|promotionRarity=5
+|promotionTier=1
+|intID=2344
+|sort=88000
+|value=11
+|timingID=1
+|abilityID=116
+|limit1ID=14
+|properties=
+}}
+==Notes==
+{{Combat boosts}}{{CooldownChargeMinus}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=キャンディケイン
+|german=Zuckerstange
+|spanishEU=Bastón azúcar
+|spanishLA=Bastón azúcar
+|french=Sucre d'orge
+|italian=Caramella
+|chineseTW=拐杖糖
+|portuguese=Doce bengala
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit is within _ spaces of an ally%grants Atk/Def+%during combat%' OR Description LIKE '%if unit is within _ spaces of an ally%inflicts special cooldown charge -1%'|columns=3}}
+{{Weapons Navbox}}

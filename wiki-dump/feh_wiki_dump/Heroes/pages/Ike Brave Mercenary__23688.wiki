@@ -1,0 +1,75 @@
+{{#invoke:NameAbout|main|Name=Ike}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Ike
+|Title=Brave Mercenary
+|Origin=Fire Emblem: Path of Radiance
+|GrowthModifier=CYL Winner
+|Gender=Male
+|WeaponType=Green Axe
+|MoveType=Infantry
+|actorEN=Greg Chun 
+|actorJP=萩道彦
+|artist=北千里
+|releaseDate=August 31, 2017
+|poolDate=September 15, 2017
+|poolRarities=5
+|TagID=総選挙アイク
+|InternalID=165
+|Properties=brave,specRate_201904,resplendent,nidavellir
+|cv1=8
+|cv2=100100
+|description=A kindhearted but stoic young man who has taken command of his father's mercenary band. Wields the axe of his father, Greil. Appears in Fire Emblem: Path of Radiance.
+|resplendentArtist=萩谷薫
+|resplendentStartTime=2021-02-10T07:00:00Z
+|resplendentEndTime=2021-02-25T06:59:59Z
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=10|Lv1SPD=6|Lv1DEF=9|Lv1RES=5
+|GRHP=60|GRATK=60|GRSPD=50|GRDEF=60|GRRES=35
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Urvan
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Unlock=4
+|special3=Aether
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Steady Stance 1
+|passiveA2=Steady Stance 2
+|passiveA3=Steady Breath
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Beorc's Blessing
+|passiveB1Unlock=5
+|passiveC1=Threaten Def 1
+|passiveC2=Threaten Def 2
+|passiveC3=Threaten Def 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

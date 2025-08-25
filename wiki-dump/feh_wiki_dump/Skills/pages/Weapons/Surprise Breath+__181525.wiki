@@ -1,0 +1,45 @@
+{{Weapon Infobox
+|tagid=SID_一驚のブレス＋
+|intID=3286
+|image=wep_ac064
+|exclusive=0
+|weaponType=Dragonstone
+|cost=300
+|might=14
+|range=1
+|effect=At start of combat, if unit's HP ≥ 25%, grants Atk/Res+5 to unit during combat and inflicts penalty on foe's Atk/Res during combat = 20% of unit's Res at start of combat. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|statModifiers=0,14,0,0,0
+|required=Surprise Breath
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Notes==
+{{Temporary buffs}}
+{{Temporary debuffs}}
+{{At start of combat}}
+{{LowerDefRes}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V6.10_v0610a_halloween_Mag.webp|Sprite sheet for {{St|Ghostly Lanterns}}, {{St|Moonlight Stone}}, {{St|Serenity Breath+}}, {{St|Starlight Stone}} and {{St|Surprise Breath+}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=一驚のブレス＋
+|german=Erstaunter Atem+
+|spanishEU=Aliento estupor +
+|spanishLA=Soplo estupor +
+|french=Souffle surpris +
+|italian=Soffio sorpreso+
+|chineseTW=一驚吐息＋
+|portuguese=Sopro atônito+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%inflicts penalty on foe_s Atk/%=%of unit_s%at start of combat%'}}
+{{Weapons Navbox}}

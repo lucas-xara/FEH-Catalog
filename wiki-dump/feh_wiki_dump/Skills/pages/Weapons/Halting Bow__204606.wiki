@@ -1,0 +1,50 @@
+{{Weapon Infobox
+|tagid=SID_制止の弓
+|intID=3871
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=0
+|weaponType=Bow
+|cost=200
+|might=8
+|range=2
+|effectiveness=Flying
+|effect=Effective against flying foes. At start of combat, if unit's HP ≥ 25%, inflicts Atk/Def-5 on foe and foe cannot make a follow-up attack during combat.
+|required=Steel Bow
+|next=Halting Bow+
+|promotionRarity=5
+|promotionTier=1
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{SkillEffectText|Effectiveness|{{Mt|Flying}}}}
+|CombatEffect 2={{SkillEffectText|Temporary debuffs|Atk/Def|5}}
+|CombatEffect 3={{SkillEffectText|Prevent Follow-ups}}
+|CombatEffect 2-3 Targets={{SkillTargetText|Foe}}
+|CombatEffect 2-3 Conditions={{SkillTargetText|Unit}}'s HP ≥ 25%
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{Temporary debuffs}}
+{{Prevent follow-up}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=制止の弓
+|german=Hemmnisbogen
+|spanishEU=Arco inhibidor
+|spanishLA=Arco inhibidor
+|french=Arc restrictif
+|italian=Arco incerto
+|chineseTW=制止之弓
+|portuguese=Arco retentor
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%inflicts Atk/Def-%cannot make a follow-up%' AND Description NOT LIKE '%transforms%Atk/Def-4%' AND Exclusive='1'}}
+{{Weapons Navbox}}

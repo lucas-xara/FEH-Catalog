@@ -1,0 +1,50 @@
+{{Passive
+|name=Moonlit Bangle Q
+|type=B
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Moonlit Bangle Q
+|1tagid=SID_華月の腕輪・先
+|1effect=If foe initiates combat and unit's Spd ≥ foe's Spd-4, unit can counterattack before foe's first attack.<br><br>Inflicts Atk/Spd/Def-5 on foe during combat. Unit deals damage = 25% of foe's Def (excluding area-of-effect Specials), grants Special cooldown count-1 to unit before unit's first attack and Special cooldown count-1 to unit before unit's first follow-up attack, and neutralizes effects that inflict "Special cooldown charge -X" on unit during combat.
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary debuffs|Atk/Spd/Def|5}}
+|Ce1T={{Tgt|Foe}}
+|Ce1C=—
+|Ce2={{Eft|Vantage}}
+|Ce2C=Enemy Phase '''&'''<br>{{Tgt|Unit}}'s Spd ≥<br>{{Tgt|Foe}}'s Spd-4
+|Ce3={{Eft|Damage Boost|25% of {{Tgt|Foe}}'s Def}}
+|Ce4={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Unit}}'s first attack
+|Ce5={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Unit}}'s first [[follow-up]]
+|Ce6={{Eft|Neutralize Guard}}
+|Ce2-6T={{Tgt|Unit}}
+}}
+
+==Notes==
+{{Preempt}}
+{{Temporary debuffs}}
+{{DamageBoost}}
+{{CombatCooldownCount|-1}}
+{{CooldownChargeMinusNeutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=華月の腕輪・先
+|german=Mondarmband Q
+|spanishEU=Pulsera lunar vel.
+|spanishLA=Pulsera lunar vel.
+|french=Bracelet nuit vif
+|italian=Bracc. di luna V
+|chineseTW=華月手鐲・先
+|portuguese=Pulseira do luar V
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%unit_s%foe_s%unit can counterattack before foe_s first attack%' OR Description LIKE '%special cooldown count-%to unit%before unit_s first follow-up attack%') AND Exclusive='1'}}
+* [[Skill families/B Passives#Preempt|Preempt Passives]]
+{{Passives Navbox|B}}

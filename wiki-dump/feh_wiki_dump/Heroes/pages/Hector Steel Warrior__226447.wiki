@@ -1,0 +1,76 @@
+{{#invoke:NameAbout|main|Name=Hector}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Hector
+|Title=Steel Warrior
+|Origin=Fire Emblem: The Blazing Blade
+|Gender=M
+|WeaponType=Red Sword
+|MoveType=Armored
+|actorEN=Patrick Seitz
+|actorJP=
+|artist=ワダサチコ
+|additionDate=2024-12-06
+|releaseDate=2024-12-06
+|cv1=6
+|cv2=100300
+|TagID=響心ヘクトル
+|InternalID=1175
+|Properties=attuned
+|description=Brother of Marquess Ostia and rumored to be a little rough around the edges. He dashes to aid his best friend Eliwood whenever he's in danger. Appears in Fire Emblem: The Blazing Blade.
+}}
+{{Stats Page
+|Lv1HP=24|Lv1ATK=10|Lv1SPD=4|Lv1DEF=11|Lv1RES=12
+|GRHP=55|GRATK=90|GRSPD=30|GRDEF=85|GRRES=75
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=3
+|weapon2Unlock=3
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Fellowship Blade
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=5
+|special1Unlock=3
+|special2=Bonfire
+|special2Unlock=4
+|special3=Armored Beacon
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Oath of Ostia
+|passiveA1Unlock=5
+|passiveB1=Wily Fighter 1
+|passiveB2=Wily Fighter 2
+|passiveB3=Wily Fighter 3
+|passiveB4=Wily Fighter 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=A/D Far Save 1
+|passiveC2=A/D Far Save 2
+|passiveC3=A/D Far Save 3
+|passiveC4=A/D Twin F Save
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+|passiveX1=D Counter Echo
+|passiveX1Unlock=5
+}}
+{{Heroes Navbox}}

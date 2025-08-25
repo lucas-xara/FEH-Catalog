@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Sothe}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Sothe
+|Title=Rushing Dawn
+|WeaponType=Green Dagger
+|MoveType=Flying
+|Origin=Fire Emblem: Radiant Dawn
+|Gender=Male
+|actorEN=Nicolas Roye
+|actorJP=間島淳司
+|artist=北千里
+|additionDate=August 8, 2022
+|releaseDate=August 9, 2022
+|cv1=9
+|cv2=100200
+|TagID=怪盗サザ
+|InternalID=837
+|Properties=special
+|description=A thief for the Dawn Brigade wearing a disguise in celebration of masked gentleman thieves. Appears in Fire Emblem: Radiant Dawn.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=9|Lv1SPD=11|Lv1DEF=6|Lv1RES=6
+|GRHP=55|GRATK=70|GRSPD=70|GRDEF=50|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Dagger
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Dagger
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Florid Knife
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Florid Knife+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Harsh Command
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Harsh Command+
+|assist2Unlock=5
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Death Blow 1
+|passiveA2=Swift Sparrow 1
+|passiveA3=Swift Sparrow 2
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Atk/Def Rein 1
+|passiveC2=Atk/Def Rein 2
+|passiveC3=Atk/Def Rein 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Thief Festival units]]

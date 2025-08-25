@@ -1,0 +1,36 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_奇夜の福音
+|intID=2772
+|image=wep_ac039
+|exclusive=1
+|weaponType=Dragonstone
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). Neutralizes "effective against dragons" bonuses. Unit can counterattack regardless of foe's range. If foe initiates combat or if foe's HP ≥ 75% at start of combat, grants Atk/Spd/Def/Res+5 to unit during combat. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|statModifiers=0,16,0,0,0
+|required=Flametongue
+|properties=
+}}
+==Notes==
+* Has the same effect as {{St|Distant Counter}}.
+{{Effectiveness neutralization|dragon}}
+{{Combat boosts}}
+{{LowerDefRes}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=奇夜の福音
+|german=Gruselschrift
+|spanishEU=Escrito aterrador
+|spanishLA=Escrito aterrador
+|french=Écriture étrange
+|italian=Dogmi sinistri
+|chineseTW=奇妙夜晚的福音
+|portuguese=Versos sinistros
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%eutralizes "effective against dragons" bonuses%' OR Description LIKE '%can counterattack regardless of foe_s range%calculates damage using the lower of foe_s Def or Res%' AND WikiName NOT LIKE '%umbra%' OR Description LIKE '%if foe initiates combat%foe_s HP%grants Atk/Spd/Def/Res+%during combat%'|columns=3}}
+{{Weapons Navbox}}

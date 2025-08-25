@@ -1,0 +1,51 @@
+{{Passive
+|name=Nine-Realm Pact
+|type=S
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=enemy_only
+|1name=Nine-Realm Pact
+|1tagid=SID_九の世界の誓約
+|1effect=Reduces damage dealt to unit to 0.
+|1cost=0
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce={{Eft|Prevent Damage}}<br>outside '''or''' during combat
+}}
+==Notes==
+* A unit with Nine-Realm Pact will still take damage from [[Umbra Burst]] weapons and [[Røkkr AoE Specials]].
+==Usage in Story Maps==
+{{#cargo_query:tables=MapUnits=MU,Units=U,Skills=S
+|fields=CONCAT('[[',MU._pageName,'{{!}}{{(}}#invoke:GetFancyMapName{{!}}getFancyName{{!}}',MU._pageName,'{{)}}]] — {{(}}Ut{{!}}',U.WikiName,'{{)}}')
+|join on=MU.Unit=U.WikiName,S.WikiName=MU.Seal
+|where=S.WikiName='Nine-Realm Pact'
+|group by=MU._pageName
+|order by=MU._pageID
+|format=ul
+}}
+==Seal acquired from==
+* This is a story exclusive Sacred Seal. It is exclusively equipped by {{Ut|Baldr: Celestial Sun God}} in [[:Category:Defensive battle maps|defensive battle maps]].
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Nine-Realm Pact
+|badgeColor=-
+|costs1=-
+}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%Reduces damage dealt to unit to 0.%'}}
+{{Seals Navbox}}

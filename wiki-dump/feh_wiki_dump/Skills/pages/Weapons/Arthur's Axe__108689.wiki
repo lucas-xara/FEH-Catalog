@@ -1,0 +1,52 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_ハロルドの雄斧
+|weaponType=Axe
+|might=16
+|range=1
+|effect=If a bonus granted by a skill like Rally or Hone is active on unit, grants Atk/Spd/Def/Res+3 during combat.
+|cost=400
+|exclusive=1
+|userVersion1=Weapon
+|userVersion2=Gleam
+|statModifiers=0,16,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=At start of combat, if【Penalty】 is active on unit or if unit's HP < 100%, grants Atk/Spd/Def/Res+5 during combat.<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|iconSkill1=Arthurs Axe W.png
+|tagidExtraSkill1=強
+|properties=
+}}
+==Notes==
+{{CombatBoostfromBonus}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Combat boosts}}
+{{EffectfromPenalty|combat boosting effect|target=unit}}
+** The skill description is incorrect. Penalties are considered during combat, not at the start of combat.<ref>https://www.reddit.com/r/FireEmblemHeroes/comments/ecbyj0/do_not_run_bond_4_arthur/</ref>
+
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|戦闘強化R被弱化|Combat Bonuses R Recieved Penalties}}
+
+==In other languages==
+{{OtherLanguages
+|english=Arthur's Axe
+|japanese=ハロルドの雄斧
+|german=Arthurs Axt
+|spanishEU=Hacha Arthur
+|spanishLA=Hacha Arthur
+|french=Hache d'Arthur
+|italian=Ascia di Arthur
+|chineseTW=哈洛德的雄斧
+|portuguese=Machado Arthur
+}}
+==References==
+<references/>
+==See also==
+* [[Weirding Tome]]
+{{Weapons Navbox}}

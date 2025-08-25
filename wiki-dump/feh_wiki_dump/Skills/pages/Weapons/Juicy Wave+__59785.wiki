@@ -1,0 +1,45 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_南国のジュース＋
+|weaponType=Blue Tome
+|altWeaponName=Juicy Wave
+|might=12
+|range=2
+|effect=If unit's HP ≤ 75% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.
+|cost=300
+|exclusive=0
+|statModifiers=0,12,0,0,0
+|SE=se_effect_tropicaljuice.flac
+|required=Juicy Wave
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Notes==
+* Has the same effect as {{St|Desperation 3}}.
+{{Follow-up before counterattack}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+v2.7_55_summer04_Hit.png|Sprite sheet for {{PAGENAME}}'s hit animation.
+v2.7_55_summer04_Mag.png|Sprite sheet for the animations of {{PAGENAME}}, {{St|Summer's Breath}}, and {{St|Reese's Tome}}.
+</gallery>
+
+==In other languages==
+{{OtherLanguages
+|japanese=南国のジュース＋
+|german=Saftige Welle+
+|spanishEU=Ola de zumo +
+|spanishLA=Ola de jugo +
+|french=Jus tropical +
+|italian=Onda succosa+
+|chineseTW=南國果汁＋
+|portuguese=Onda suculenta+
+}}
+{{Weapons Navbox}}
+[[Category:A Sketchy Summer weapons]]

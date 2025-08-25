@@ -1,0 +1,76 @@
+{{Weapon Infobox
+|tagid=SID_幻影ロッド
+|weaponType=Red Tome
+|might=14
+|range=2
+|effect=Grants Atk+3. Inflicts Atk/Res-6 on foes within 2 spaces during combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,17,0,0,0
+|required=Bolganone;Fenrir
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Atk+3. Inflicts Atk/Res-6 on foes within 2 spaces during combat. At start of combat, if unit's HP ≥ 25%, unit makes a guaranteed follow-up attack and reduces damage from foe's follow-up attack by 75% ("follow-up attack" normally means the second strike; for effects that grant "unit attacks twice," it means the third and fourth strikes).
+|effectSkill1=At start of turn, inflicts Atk/Res-6 and【Sabotage】on foes within 3 columns or 3 rows centered on unit through their next actions. If foe initiates combat or if foe's HP ≥ 75% at start of combat, inflicts Atk/Res-5 on foe during combat, deals damage = 15% of unit's Atk (excluding area-of-effect Specials), and restores 7 HP to unit after combat.<br><br>【Sabotage】<br>Inflicts penalty on unit's Atk/Spd/Def/Res during combat = highest penalty on each stat between unit and allies within 2 spaces of unit through its next action. Calculates each stat penalty independently.
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Atk|3}}
+|s1 Ce={{Eft|Temporary debuffs|Atk/Res|6}}
+|s1 CeT={{Tgt|Foes}}<br>[[within 2 spaces]]
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Atk|3}}
+|s2 Ce1={{Eft|Temporary debuffs|Atk/Res|6}}
+|s2 Ce1T={{Tgt|Foes}}<br>[[within 2 spaces]]
+|s2 Ce2={{Eft|Guaranteed Follow-Up}}
+|s2 Ce3={{Eft|Damage Reduction|75%}}<br>from {{Tgt|Foe}}'s [[follow-up]]<br>(including fourth attacks)
+|s2 Ce2-3T={{Tgt|Unit}}
+|s2 Ce2-3C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|skill3={{Si|Mirage Rod|refine=Skill1}} Skill refine effects
+|s3 Se1={{Eft|Penalties|Atk/Res|6}}
+|s3 Se2={{SEt|Sabotage}}
+|s3 SeT={{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|s3 SeC=At start of turn
+|s3 Ce1={{Eft|Temporary debuffs|Atk/Res|5}}
+|s3 Ce1T={{Tgt|Foe}}
+|s3 Ce2={{Eft|Damage boost|15% of {{Tgt|Unit}}'s Atk}}
+|s3 Ce2T={{Tgt|Unit}}
+|s3 CeC=Enemy phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|s3 Me={{Eft|Heal|7}}
+|s3 MeC=After combat in<br>Enemy phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+}}
+==Notes==
+{{Temporary debuffs}}
+{{FoesCombatEffect|effect=temporary debuffs}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Guaranteed follow-up interaction|name=refined Mirage Rod}}
+{{DamagePercentageReduction}}
+{{Penalties|name={{St|Mirage Rod|refine=skill1}}}}
+{{Sabotage|name={{St|Mirage Rod|refine=skill1}}}}
+{{AtkDamageBoost|name={{St|Mirage Rod|refine=skill1}}}}
+{{After combat healing|name={{St|Mirage Rod|refine=skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Mirage Rod
+|japanese=幻影ロッド
+|german=Mirage-Stab
+|spanishEU=Vara Mirage
+|spanishLA=Vara Mirage
+|french=Bâton mirage
+|italian=Asta Mirage
+|chineseTW=幻影鐵杖
+|portuguese=Vara Mirage
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%inflicts Atk/%Res-%on foes within _ spaces%during combat%' OR Description LIKE '%at start of%inflicts%columns%next actions%') AND Exclusive='1'}}
+* [[Rein Passives]]
+* [[Ploy Passives]]
+{{Weapons Navbox}}

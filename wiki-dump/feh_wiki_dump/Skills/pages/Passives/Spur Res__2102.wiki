@@ -1,0 +1,65 @@
+{{Passive
+|type=C
+|exclusive=0
+|1name=Spur Res 1
+|1tagid=SID_魔防の紋章1
+|1promotionRarity=4
+|1promotionTier=1
+|1required=-
+|1effect=Grants Res+2 to adjacent allies during combat.
+|1cost=50
+|2name=Spur Res 2
+|2tagid=SID_魔防の紋章2
+|2promotionRarity=5
+|2promotionTier=1
+|2effect=Grants Res+3 to adjacent allies during combat.
+|2cost=100
+|3name=Spur Res 3
+|3tagid=SID_魔防の紋章3
+|3effect=Grants Res+4 to adjacent allies during combat.
+|3cost=200
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=random_all,random_inherit_base
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{Eft|Temporary buffs|Atk|4}}
+|CombatEffect 1 Targets=[[Adjacent]]<br>{{Tgt|Allies}}
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{AlliesCombatEffect|effect=temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Sacred Seal Forge===
+{{SealCosts
+|seals=Spur Res 1;Spur Res 2;Spur Res 3
+|badgeColor=Transparent
+|costs1=20;100;20
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=魔防の紋章
+|german=Res. ansporn.
+|spanishEU=Mejora Res
+|spanishLA=Mejora Res.
+|french=Encens Rés
+|italian=Migliora Res
+|chineseTW=魔防紋章
+|portuguese=Res. realçada
+}}
+==See also==
+* [[Spur Passives]]
+{{Seals Navbox}}
+{{Passives Navbox|C}}
+[[Category:Spur Passives]]

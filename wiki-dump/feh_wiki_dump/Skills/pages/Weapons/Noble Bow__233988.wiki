@@ -1,0 +1,91 @@
+{{Weapon Infobox
+|tagid=SID_貴婦人の弓
+|intID=4699
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=1
+|weaponType=Bow
+|cost=400
+|might=14
+|range=2
+|effectiveness=Flying
+|effect=Effective against flying foes.<br><br>For foes within 3 rows or 3 columns centered on unit, inflicts Atk/Spd/Def/Res-5 and neutralizes foe's bonuses during combat, and those foes cannot recover HP during or after combat. (When an effect such as 【Feud】is triggered for allies, excluding unit, that effect will also neutralize this skill's "cannot recover HP after combat" effect on their foes.)<br><br>At start of combat, if unit's HP ≥ 25%, grants bonus to unit's Atk/Spd/Def/Res = 10% of unit's Spd at start of combat and reduces damage from foe's first attack by 7 during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes).<br><br>【Feud】<br>Disables all ally skills (excluding unit's) during combat through unit's next action.
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|refineStatsSkill1=0,0,0,0,0
+|effectSkill1=Accelerates Special trigger (cooldown count-1).<br><br>If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit, deals damage = 20% of unit's Spd (excluding area-of-effect Specials), and grants Special cooldown count-1 to unit before unit's first attack during combat, and restores 7 HP to unit after combat.
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|s1 Ce2={{Eft|Temporary debuffs|Atk/Spd/Def/Res|5}}
+|s1 Ce3={{Eft|Neutralize Bonuses}}
+|s1 Ce4={{Eft|Prevent Heal}}<br>during '''or''' after combat
+|s1 Ce2-4T={{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|s1 Ce5={{Eft|Temporary buffs|Atk/Spd/Def/Res|10% of {{Tgt|Unit}}'s Spd<br>at start of combat}}
+|s1 Ce6={{Eft|Damage Reduction|7}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|s1 Ce5-6C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|skill2={{Si|Noble Bow|refine=Skill1}} Skill refine effects
+|s2 Pe={{Eft|Accelerates Special}}
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s2 Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|s2 Ce3={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Unit}}'s first attack
+|s2 CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s2 Me={{Eft|Heal|7}}
+|s2 MeC=After combat on<br>Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+
+==Notes==
+{{Effective damage bonus|flying}}
+{{Temporary debuffs}}
+{{Bonus neutralization}}
+{{Prevent healing}}
+{{FoesCombatEffect|temporary debuffs, bonus neutralization and prevent healing effects}}
+{{Temporary buffs}}
+{{At start of combat}}
+{{FlatDamageReduction|7}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Louise: Lady of Violets|t=Sonia: Inhuman Beauty
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfUnitInitiates}}
+{{DamageBoost|name={{St|Noble Bow|refine=Skill1}}}}
+{{CombatCooldownCount|-1|name={{St|Noble Bow|refine=Skill1}}}}
+{{After combat healing|name={{St|Noble Bow|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%inflicts%/%/%on%foes within%rows%during combat%' AND Description NOT LIKE '%at start of turn%inflicts%on foes within%rows%next action%during combat%') AND Exclusive='1'}}
+* [[Rein Passives]]
+* [[Skill families/C Passives#Crux|Crux Passives]]
+{{Weapons Navbox}}

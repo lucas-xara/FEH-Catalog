@@ -1,0 +1,37 @@
+{{Weapon Infobox
+|tagid=SID_リリスの浮き輪
+|weaponType=Axe
+|weaponName={{PAGENAME}}
+|might=10
+|range=1
+|effect=Grants Atk/Spd+1 to allies within 2 spaces during combat.
+|cost=200
+|exclusive=0
+|statModifiers=0,10,0,0,0
+|next=Lilith Floatie+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Axe
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+{{AlliesCombatEffect|effect=combat boost}}
+==List of owners==
+{{Skill Hero List}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=リリスの浮き輪
+|german=Gummi-Lilith
+|spanishEU=Flotador Lilith
+|spanishLA=Flotador Lilith
+|french=Bouée Lilith
+|italian=Lilith gonfiabile
+|chineseTW=莉莉絲的浮排
+|portuguese=Boia Lilith
+}}
+==See also==
+* [[Nohrian Summer Weapons]]
+{{Weapons Navbox}}
+[[Category:Nohrian Summer weapons]]

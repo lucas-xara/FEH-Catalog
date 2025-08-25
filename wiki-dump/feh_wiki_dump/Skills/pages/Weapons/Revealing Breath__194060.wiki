@@ -1,0 +1,43 @@
+{{Weapon Infobox
+|tagid=SID_福音のブレス
+|intID=3565
+|image=wep_ac068
+|exclusive=1
+|weaponType=Dragonstone
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). If foe initiates combat or foe's HP ≥ 75% at start of combat, grants Atk/Spd/Def/Res+5 to unit, unit makes a guaranteed follow-up attack, inflicts Special cooldown charge -1 on foe per attack (only highest value applied; does not stack), and reduces damage from foe's follow-up attack by 30% of unit's Res during combat ("follow-up attack" normally means only the second strike; for effects that grant "unit attacks twice," it means the third and fourth strikes). If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|statModifiers=0,16,0,0,0
+|required=Flametongue
+|properties=random_owner
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+{{Guaranteed follow-up interaction}}
+{{CooldownChargeMinus}}
+{{FlatDamageReduction}}
+{{LowerDefRes}}
+
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V7.4_v0704b_abc_Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=福音のブレス
+|german=Enthüllungsatem
+|spanishEU=Aliento revelador
+|spanishLA=Soplo revelador
+|french=Souffle révélateur
+|italian=Soffio rivelatore
+|chineseTW=福音吐息
+|portuguese=Sopro revelador
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%makes a guaranteed follow-up%inflicts special cooldown charge -%' AND Exclusive='1' OR Description LIKE '%reduces damage from foe_s follow-up attack%'}}
+{{Weapons Navbox}}

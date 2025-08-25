@@ -1,0 +1,73 @@
+{{Weapon Infobox
+|tagid=SID_スカディ
+|weaponType=Bow
+|might=14
+|range=2
+|effectiveness=flying
+|effect=Effective against flying foes.<br>Grants Spd+3. At the start of turn 3, deals 10 damage to foes within 3 columns centered on unit, and converts bonuses on those foes into penalties through their next actions.
+|cost=400
+|exclusive=1
+|userVersion1=Bow
+|userVersion2=Bow Aura
+|userVersion3=Arrow
+|userVersion4=Upgrade Gleam
+|statModifiers=0,14,3,0,0
+|required=Silver Bow
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Effective against flying foes. Grants Spd+3. At the start of turns 2 and 3, deals 7 damage to foes within 3 columns centered on unit and inflicts【Panic】on those foes.<br><br>【Panic】<br>Converts bonuses on target into penalties through its next action.
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+5 to unit during combat, and also, after combat, if unit attacked, deals 7 damage to target and foes within 2 spaces of target.
+|iconSkill1=Skadi W.png
+|tagidExtraSkill1=息
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{Out of combat damage}}
+{{Panic}}
+* Skadi activates only on the 3rd [[turn]] of combat.
+{|class="wikitable default mw-collapsible"
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Takumi: Empty Vessel|t=Corrin: Fateful Prince
+|-xxx-
+|-xxx-
+|-xux-
+|-xxx-
+|-xxx-
+|-xxx-
+|-xtx-
+|-xxx-
+}}
+|}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Combat boosts}}
+{{IfUnitAttacked}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+Weapon Skadi V5.png
+Weapon Skadi V6.png
+</gallery>
+==Trivia==
+{{NorseMyth|is a giantess and goddess associated with bowhunting, skiing, winter, and mountains.}}
+==In other languages==
+{{OtherLanguages
+|japanese=スカディ
+|german=Skadi
+|spanishEU=Skadi
+|spanishLA=Skadi
+|french=Skadi
+|italian=Skadi
+|chineseTW=斯卡蒂
+|portuguese=Skadi
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%at the start of%turn%inflicts%' AND Description NOT LIKE '%grants special%' OR Description LIKE '%at start of%turns%if any%inflicts%' AND Description NOT LIKE '%special cooldown count%' OR Description LIKE '%at start of%turns%inflicts%-%' OR Description LIKE '%at start of%turn%inflicts%penalties%' OR Description LIKE '%start of turn%deals % damage to%foes%' OR Description LIKE '%if unit attacked, deals%damage%to target and foes within _ spaces of target%'|columns=3}}
+{{Weapons Navbox}}

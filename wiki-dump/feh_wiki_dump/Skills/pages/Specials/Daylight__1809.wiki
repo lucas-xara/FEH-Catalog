@@ -1,0 +1,38 @@
+{{Special
+|tagid=SID_陽影
+|name=Daylight
+|charge=3
+|effect=Restores HP = 30% of damage dealt.
+|cost=100
+|staffOnly=
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|next=Sol
+|promotionRarity=4
+|promotionTier=2
+|required=-
+|properties=random_all,offensive_special
+}}
+==Notes==
+* The healing calculation will always use the [[Damage calculation#Final Damage calculation|final damage number]] for the damage dealt.
+{{CombatHPRecovery}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==Trivia==
+* Daylight's cooldown was reduced by 1 with {{Version|2}}, released on November 28th, 2017.
+==In other languages==
+{{OtherLanguages
+|japanese=陽影
+|german=Tageslicht
+|spanishEU=Alba
+|spanishLA=Alba
+|french=Diurne
+|italian=Luce diurna
+|chineseTW=黎明
+|portuguese=Aurora
+}}
+==See also==
+{{See also skills|cond=SCategory='special' AND Exclusive='1' AND Description LIKE '%Restores HP = __% of damage dealt%'}}
+{{Specials Navbox}}

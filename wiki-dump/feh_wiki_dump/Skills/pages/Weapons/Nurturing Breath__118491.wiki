@@ -1,0 +1,48 @@
+{{Weapon Infobox
+|tagid=SID_大地母神のブレス
+|weaponType=Dragonstone
+|image=wep_ac024
+|might=16
+|range=1
+|effect=Grants Def+3. If foe's Range = 2, calculates damage using the lower of foe's Def or Res. Grants Atk/Spd/Def/Res+2 to allies within 7 rows and 7 columns centered on unit during combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,3,0
+|required=Flametongue
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Def+3. Grants Atk/Spd/Def/Res+X during combat (X = number of allies within 7 rows and 7 columns centered on unit × 2; max 6). Grants Atk/Spd/Def/Res+4 to allies within 7 rows and 7 columns centered on unit during combat. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|tagidExtraSkill1=一
+|effectSkill1=Grants Atk/Spd/Def/Res+4. If allies are within 7 rows and 7 columns centered on unit, unit neutralizes bonuses to foe's Atk (from skills like Fortify, Rally, etc.) during combat. Allies within 7 rows and 7 columns centered on unit gain "neutralizes bonuses to foe's Atk (from skills like Fortify, Rally, etc.)" during combat.
+|iconSkill1=Nurturing Breath W.png
+|statModifiersSkill1=3,20,4,7,4
+|properties=random_owner
+}}
+==Notes==
+{{LowerDefRes}}
+{{Temporary buffs}}
+{{AlliesCombatEffect|effect=temporary buffs}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Bonus neutralization|name={{St|Nurturing Breath|refine=Skill1}}}}
+{{AlliesCombatEffect|effect=bonus neutralization effect|name={{St|Nurturing Breath|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=大地母神のブレス
+|german=Nährender Atem
+|spanishEU=Aliento benigno
+|spanishLA=Soplo benigno
+|french=Souffle bénéfique
+|italian=Soffio benigno
+|chineseTW=大地母神吐息
+|portuguese=Sopro vital
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%= number of allies within%' OR (Description LIKE '%grants%/%+%to allies within%during combat%' AND (Description LIKE '%rows%' OR Description LIKE '%columns%'))) AND (Exclusive='1' AND Name NOT LIKE'%+') OR Description LIKE '%Allies%gain "neutralizes bonuses%during combat%'}}
+* [[Form Passives]]
+{{Weapons Navbox}}

@@ -1,0 +1,37 @@
+{{Passive
+|name=Yune's Whispers
+|type=B
+|exclusive=1
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|1name=Yune's Whispers
+|1tagid=SID_ユンヌの囁き
+|1required=-
+|1cost=300
+|1effect=At start of turn, if any foe's Res ≤ unit's Res-3 and that foe is adjacent to another foe, inflicts Atk/Spd-6 on that foe through its next action. 
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se={{Eft|Penalties|Atk/Spd|6}}
+|SeT=Any<br>{{Tgt|Foe}}
+|SeC=At start of turn if<br>{{Tgt|Foe}}'s Res ≤<br>{{Tgt|Unit}}'s Res-3 '''&'''<br>{{Tgt|Foe}} is [[adjacent]]<br>to another {{Tgt|Foe}}
+}}
+==Notes==
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ユンヌの囁き
+|german=Yunes Flüstern
+|spanishEU=Revelación Yune
+|spanishLA=Revelación Yune
+|french=Soupirs de Yune
+|italian=Sussurri di Yune
+|chineseTW=芸娜的低語
+|portuguese=Sussurro de Yune
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%foe_s Res%unit_s Res%foe is adjacent to another foe%'|columns=3}}
+{{Passives Navbox|B}}

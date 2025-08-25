@@ -1,0 +1,77 @@
+{{#invoke:NameAbout|main|Name=Saul}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Saul
+|Title=Loving Shepherd
+|WeaponType=Colorless Staff
+|MoveType=Infantry
+|Origin=Fire Emblem: The Binding Blade
+|Gender=Male
+|actorEN=Damien Haas
+|actorJP=佐藤元
+|artist=とよた瑣織
+|randomStartTime=2023-07-08T07:00:00Z
+|additionDate=June 7, 2023
+|releaseDate=June 8, 2023
+|poolDate=June 30, 2023
+|poolRarities=3,4
+|cv1=5
+|cv2=600200
+|TagID=サウル
+|InternalID=958
+|Properties=
+|description=A priest of Saint Elimine who cannot refrain from speaking with any beautiful woman he comes across in his travels. Appears in Fire Emblem: The Binding Blade.
+}}
+{{Stats Page
+|Lv1HP=15|Lv1ATK=12|Lv1SPD=9|Lv1DEF=3|Lv1RES=12
+|GRHP=50|GRATK=65|GRSPD=80|GRDEF=30|GRRES=65
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Assault
+|weapon1Unlock=1
+|weapon2=Incurable
+|weapon2Unlock=3
+|weapon3=Incurable+
+|weapon3Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Heal
+|assist1Default=1
+|assist1Unlock=1
+|assist2=Reconcile
+|assist2Default=3
+|assist2Unlock=2
+|assist3=Restore
+|assist3Default=4
+|assist3Unlock=3
+|assist4=Restore+
+|assist4Default=5
+|assist4Unlock=5
+}}
+===Specials===
+{{Specials Table
+|special1=Imbue
+|special1Default=4
+|special1Unlock=2
+|special2=Heavenly Light
+|special2Default=5
+|special2Unlock=3
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Distant Def 1
+|passiveA2=Distant Def 2
+|passiveA3=Distant Def 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Spur Res 1
+|passiveC2=Drive Res 1
+|passiveC3=Drive Res 2
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

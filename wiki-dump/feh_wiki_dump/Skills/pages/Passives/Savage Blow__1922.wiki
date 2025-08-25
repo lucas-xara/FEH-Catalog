@@ -1,0 +1,64 @@
+{{Passive
+|type=C
+|exclusive=0
+|1name=Savage Blow 1
+|1tagid=SID_死の吐息1
+|1promotionRarity=4
+|1promotionTier=1
+|1required=-
+|1effect=If unit initiates combat, deals 3 damage to foes within 2 spaces of target after combat.
+|1cost=50
+|2name=Savage Blow 2
+|2tagid=SID_死の吐息2
+|2promotionRarity=5
+|2promotionTier=1
+|2effect=If unit initiates combat, deals 5 damage to foes within 2 spaces of target after combat.
+|2cost=100
+|3name=Savage Blow 3
+|3tagid=SID_死の吐息3
+|3effect=If unit initiates combat, deals 7 damage to foes within 2 spaces of target after combat.
+|3cost=200
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=random_all,random_inherit_base
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{After combat note}}
+{{Out of combat damage}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===Sacred Seal Forge===
+{{SealCosts
+|seals=Savage Blow 1;Savage Blow 2;Savage Blow 3
+|badgeColor=Transparent
+|costs1=20;100;20
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==Trivia==
+*This skill appears in {{FE|14}}, where foes within 2 spaces of target take 20% of maximum HP in damage after combat.
+==In other languages==
+{{OtherLanguages
+|japanese=死の吐息
+|german=Wilder Hieb
+|spanishEU=Arrebato brutal
+|spanishLA=Golpe salvaje
+|french=Coup sauvage
+|italian=Colpo selv.
+|chineseTW=死亡氣息
+|portuguese=Golpe indócil
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%deals%damage%foes within _ spaces%after combat%' OR Description LIKE '%after combat%deals%damage%to target%and foes within _ spaces%')AND Exclusive='1'}}
+{{Seals Navbox}}
+{{Passives Navbox|C}}

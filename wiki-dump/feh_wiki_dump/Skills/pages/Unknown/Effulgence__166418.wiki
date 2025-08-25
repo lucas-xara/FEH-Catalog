@@ -1,0 +1,33 @@
+{{Captain Skill
+|name=Effulgence
+|effect=Grants Atk/Spd+4 and neutralizes penalties to your captain and allies within 2 spaces of your captain during combat.
+|statModifiers=
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{SkillEffectText|Temporary buffs|Atk/Spd|4}}
+|CombatEffect 2={{SkillEffectText|Neutralize Penalties}}
+|CombatEffect Targets={{SkillTargetText|Captain}} '''&''' {{SkillTargetText|Allies}}<br>[[within 2 spaces]]
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{Penalty neutralization}}
+{{AlliesCombatEffect}}
+==In other languages==
+{{OtherLanguages
+|japanese=光輝燦然
+|german=Strahlenglanz
+|spanishEU=Refulgencia
+|spanishLA=Refulgencia
+|french=Splendeur
+|italian=Brillantezza
+|chineseTW=光輝燦爛
+|portuguese=Refulgência
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants Atk/Spd+%to%allies%within 2 spaces%during combat%' AND Exclusive=1}}
+* [[Skill families/C Passives#Drive|Drive Passives]]
+* [[Skill families/C Passives#Goad.2FWard|Goad Passives]]
+{{Captain Skills Navbox}}

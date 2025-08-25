@@ -1,0 +1,82 @@
+{{Weapon Infobox
+|tagid=SID_大漁呼ぶ魚獲りの銛
+|intID=4767
+|image=wep_lc193
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Enables【Canto (Dist. +1; Max ４)】.<br>Accelerates Special trigger (cooldown count-1).<br><br>When Canto triggers, enables unit to use 【Distant Swap】on ally (this effect is not treated as an Assist skill; if similar effects are active, this effect does not trigger).<br><br>If unit initiates combat or is within 2 spaces of an ally, grants bonus to unit's Atk/Spd/Def/Res = number of allies within 3 rows or 3 columns centered on unit × 3, + 5 (max 14), grants Special cooldown count-1 to unit before unit's first attack, unit deals +X × 8 damage (max 32; excluding area-of-effect Specials; X = number of foes within 3 spaces of target, including target), and reduces damage from foe's attacks by 20% of unit's Spd during combat (excluding area-of-effect Specials), and also, reduces damage by an additional 20% of unit's Spd when foe's attack triggers foe's Special (excluding area-of-effect Specials).<br><br>If unit initiates combat, after combat, deals 10 damage to foe and foes within 2 spaces of that foe, and inflicts【Share Spoils+】on those foes through their next actions.<br><br>【Canto (Dist. +1; Max ４)】<br>After an attack, Assist skill, or structure destruction, unit can move spaces = number of spaces from start position to end position of unit before the above, +1. (Max ４.)<br><br>【Distant Swap】<br>Range = 2. Unit and target ally swap spaces.<br><br>【Share Spoils+】<br>Inflicts Atk/Spd/Def/Res-5 on unit during combat and neutralizes "reduces damage by X%" effects from unit's non-Special skills (excluding area-of-effect Specials).<br><br>Once per turn for the entire map, if foe initiates combat and if unit is defeated in combat, grants another action to that foe after combat (this effect has priority over other similar effects aside from Share Spoils; if this status and Share Spoils are both active at the same time, they are both treated as having been triggered; other similar effects aside from Share Spoils are treated as not having triggered).
+|required=Silver Lance
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Me1={{Eft|Canto|Dist. +1; Max 4}}
+|Me2={{Eft|Distant Swap}}
+|Me2T={{Tgt|Unit}} '''&'''<br>{{Tgt|Target Ally}}
+|Me2C=When [[Canto]] triggers
+|Me3={{Eft|Damage|10}}
+|Me3T={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|Me3C=After combat<br>in Player Phase
+|Se={{SEt|Share Spoils+}}
+|SeT={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|SeC=After combat<br>in Player Phase
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|3 x {{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}, + 5|max=14}}
+|Ce2={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Unit}}'s first attack
+|Ce3={{Eft|Damage Boost|8 x {{Tgt|Foes}}<br>[[within 3 spaces]]<br>of {{Tgt|Target Foe}}<br>(including {{Tgt|Target Foe}})|max=32}}
+|Ce4={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Spd|percent=0}}<br>from {{Tgt|Foe}}'s attacks
+|Ce5={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Spd|percent=0}}<br>per {{Tgt|Foe}}'s [[offensive Special]]
+|CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+
+==Notes==
+{{Canto|Dist. +1; Max 4}}
+{{Movement skill notes|notBeforeRokkr=1}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{CombatCooldownCount|-1}}
+{{FlatDamageBoost|X (max:32)}}
+{{FlatDamageReduction}}
+{{Out of combat damage}}
+{{Share Spoils+}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Lapis: Forager of the Sea|t=Alear: Seaside Dragon
+|---xxx---
+|---xxx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xtx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU= Arpón de pesca
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%【Share Spoils%】%' OR Description LIKE '%number of foes within _ spaces of target%' OR Description LIKE '%Unit and%swap spaces%' OR Description LIKE '%not treated as an Assist skill%') AND Exclusive='1'}}
+* [[Shadow Passives]]
+* [[Lookout Passives]]
+* [[Movement Assists]]
+{{Weapons Navbox}}

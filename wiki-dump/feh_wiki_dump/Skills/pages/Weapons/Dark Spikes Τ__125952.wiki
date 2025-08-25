@@ -1,0 +1,80 @@
+{{Weapon Infobox
+|tagid=SID_ダークスパイクΤ
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|weaponType=Red Tome
+|might=14
+|range=2
+|effectiveness=Cavalry
+|effect=Effective against cavalry foes. Grants Spd+3. At the start of combat, if foe's HP ≥ 75%, grants Atk/Spd+6 during combat. If unit's HP < 100% and unit initiates combat, unit makes a guaranteed follow-up attack before foe can counterattack.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,3,0,0
+|required=Bolganone;Fenrir
+|intID=2192
+|sort=441
+|value=20
+|timingID=1
+|abilityID=226
+|randomTimestamp=2020-09-18T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=Accelerates Special trigger (cooldown count-1).<br>At start of turn, grants the following status to unit for 1 turn and deals 1 damage to unit: "Unit can move to a space adjacent to any ally within 2 spaces." If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd+6 to unit during combat and Special cooldown charge +1 per unit's attack. (Only highest value applied. Does not stack.)
+|cooldownSkill1=-1
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Spd|3}}
+|s1 Ce1={{Eft|Effectiveness|{{Mt|Cavalry}}}}
+|s1 Ce2={{Eft|Temporary Buffs|Atk/Spd|6}}
+|s1 CeC2={{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|s1 Ce3={{Eft|Guaranteed Follow-Up}}
+|s1 Ce4={{Eft|Desperation}}
+|s1 CeC3-4=Player Phase '''&'''<br>{{Tgt|Unit}}'s HP < 100%
+|skill2={{Si|Dark Spikes Τ|refine=Skill1}} Skill refine effects
+|s2 Pe={{Eft|Accelerates Special}}
+|s2 Se={{SEt|Air Orders}}
+|s2 SeC=At start of turn
+|s2 Me={{Eft|Damage|1}}
+|s2 MeC=At start of turn
+|s2 Ce1={{Eft|Temporary Buffs|Atk/Spd|6}}
+|s2 Ce2={{Eft|Accelerate Charge}}
+|s2 CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+
+==Notes==
+{{Effective damage bonus|Cavalry}}
+{{Temporary buffs}}
+{{Follow-up before counterattack|guaranteed=1}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{DamageToUnit|name={{St|Dark Spikes Τ|refine=skill1}}}}
+{{Air Orders|name={{St|Dark Spikes Τ|refine=skill1}}}}
+{{IfUnitInitiates}}
+{{CooldownChargePlus|perAttack=unit}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Dark Spikes Τ
+|japanese=ダークスパイクΤ
+|german=Dunkle Spieße Τ
+|spanishEU=Púas oscuras T
+|spanishLA=Púas oscuras T
+|french=Piques noires T
+|italian=Scaglie nere T
+|chineseTW=暗黑衝擊Τ
+|portuguese=Pua obscura T
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit_s HP ≤%follow-up attack before%can counterattack%' OR Description LIKE '%if unit_s HP <%follow-up attack before%can counterattack%' OR Description LIKE '%at start of turn%deals _ damage to unit%'}}
+*[[Skill_families/Weapons#Cavalry_killers|Effective against Cavalry weapons]]
+{{Weapons Navbox}}

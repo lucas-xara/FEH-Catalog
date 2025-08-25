@@ -1,0 +1,45 @@
+{{Special
+|tagid=SID_魔光
+|intID=4774
+|exclusive=0
+|canUseWeapon={{WeaponList|Magic}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=3
+|effect=When Special triggers, treats foe's Def/Res as if reduced by 50% and neutralizes foe's "reduces damage by X%" effects from foe's non-Special skills.
+|required=Luna
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1=Treats {{Tgt|foe}}'s Def/Res<br>as if reduced by 50%
+|Ce2={{Eft|Neutralize Damage Reduction}}
+|CeT={{Tgt|Foe}}
+|CeC=Special triggers
+}}
+==Notes==
+{{DamageReductionNeutralization}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Gallery==
+<gallery>
+V9.6_v0906b_summer_Skl.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(SCategory='special' AND (Description LIKE '%Treats foe_s Def/Res as if reduced by __%' OR (Description LIKE '%disables%reduce%damage by x%' OR Description LIKE '%neutralizes%reduce%damage by x%') AND Description LIKE '%non-Special%') AND Description NOT LIKE '%reduces the percentage%') AND Exclusive='1'}}
+{{Specials Navbox}}

@@ -1,0 +1,69 @@
+{{#invoke:NameAbout|main|Name=Aelfric}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Aelfric
+|Title=Custodian Monk
+|WeaponType=Red Tome
+|MoveType=Infantry
+|Origin=Fire Emblem: Three Houses
+|Gender=Male
+|actorEN=Michael Sinterniklaas
+|actorJP=平川大輔
+|artist=北千里
+|additionDate=September 17, 2021
+|releaseDate=September 18, 2021
+|cv1=12
+|cv2=450500
+|TagID=アルファルド
+|InternalID=711
+|Properties=limited,ghb
+|description=Cardinal of Garreg Mach Monastery who oversees Abyss. Formed the Ashen Wolf House. Appears in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=10|Lv1SPD=7|Lv1DEF=5|Lv1RES=9
+|GRHP=55|GRATK=70|GRSPD=55|GRDEF=35|GRRES=65
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elfire
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Rauðrrabbit
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Rauðrrabbit+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Cardinal's Tome
+|weapon5Default=
+|weapon5Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Glacies
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Res Push 1
+|passiveA2=Atk/Res Push 2
+|passiveA3=Atk/Res Push 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Threaten Res 1
+|passiveC2=Threat. Def/Res 1
+|passiveC3=Threat. Def/Res 2
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

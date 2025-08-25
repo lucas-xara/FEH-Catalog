@@ -1,0 +1,42 @@
+{{Weapon Infobox
+|tagid=SID_透き通る玻璃の弓
+|weaponName=Rose-Quartz Bow
+|weaponType=Bow
+|userVersion1=Bow
+|userVersion2=Arrow
+|might=14
+|range=2
+|effectiveness=Flying
+|effect=Effective against flying foes. Grants Atk+3. If unit initiates combat or if unit is within 2 spaces of an ally, deals damage = 20% of unit's Spd and grants Atk/Spd+6 to unit during combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,17,0,0,0
+|required=Silver Bow
+|intID=2563
+|sort=544
+|value=20
+|timingID=21
+|abilityID=206
+|limit1ID=58
+|properties=
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{DamageBoost}}
+{{Temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=透き通る玻璃の弓
+|german=Rosenquarzbogen
+|spanishEU=Arco de cuarzo
+|spanishLA=Arco de cuarzo
+|french=Arc quartz rose
+|italian=Arco quarzoso
+|chineseTW=透明玻璃弓
+|portuguese=Arco de quartzo
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%deals damage =%of unit_s Spd%'}}
+{{Weapons Navbox}}

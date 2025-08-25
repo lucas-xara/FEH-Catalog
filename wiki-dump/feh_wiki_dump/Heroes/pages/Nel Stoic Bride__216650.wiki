@@ -1,0 +1,65 @@
+{{#invoke:NameAbout|main|Name=Nel}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Nel
+|Title=Stoic Bride
+|WeaponType=Green Breath
+|MoveType=Infantry
+|Origin=Fire Emblem Engage
+|Gender=Female
+|actorEN=Liz Morey
+|actorJP=朴璐美
+|artist=kiyu
+|additionDate=May 20, 2024
+|releaseDate=May 20, 2024
+|cv1=14
+|cv2=950100
+|TagID=花嫁エル
+|InternalID=1098
+|Properties=special,hat,tiara
+|description=A dragon from another world donning bridal dress and thinking of the precious one she lost long ago. Appears in Fire Emblem Engage.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=9|Lv1SPD=7|Lv1DEF=8|Lv1RES=14
+|GRHP=50|GRATK=75|GRSPD=90|GRDEF=50|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire Breath
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Fire Breath+
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Dragonbloom
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Dragonbloom+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Reciprocal Aid
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Scowl 1
+|passiveA2=Atk/Spd Scowl 2
+|passiveA3=Atk/Spd Scowl 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=Counter Roar 1
+|passiveB2=Counter Roar 2
+|passiveB3=Counter Roar 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Bridal Festival units]]

@@ -1,0 +1,54 @@
+{{Special
+|tagid=SID_剣聖の流星雨
+|intID=4549
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=2
+|effect=When Special triggers, boosts damage by 40% of unit's Spd and neutralizes foe's "reduces damage by X%" effects from foe's non-Special skills.<br><br>Grants Special cooldown count-1 to unit before unit's first attack and before each of unit's follow-up attacks during combat, and also, when unit's Special is triggered during a follow-up attack, prevents foe's Specials that are triggered by unit's attack.<br><br>If unit's or foe's Special is ready or triggered before or during this combat, reduces damage from foe's next attack by 40% (once per combat; excluding area-of-effect Specials).
+|required=Astra
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Damage Boost|40% of {{Tgt|Unit}}'s Spd}}
+|Ce2={{Eft|Neutralize Damage Reduction}}
+|Ce2T={{Tgt|Foe}}
+|Ce1-2C=Special triggers
+|Ce3={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Unit}}'s first attack
+|Ce4={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Unit}}'s [[follow-up]] attacks
+|Ce5={{Eft|Prevent Special|<br>[[Defensive Specials]]}}
+|Ce5T={{Tgt|Foe}}<br>
+|Ce5C=Special triggers on<br>{{Tgt|Unit}}'s [[follow-up]] attacks
+|Ce6={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s next attack
+|Ce6C={{Tgt|Unit}} or {{Tgt|Foe}}'s<br>Special is ready '''or'''<br>triggered before or<br>during combat 
+}}
+
+==Notes==
+{{DamageBoost}}
+{{DamageReductionNeutralization}}
+{{CombatCooldownCount|-1}}
+{{Prevent Special|defensive}}
+{{DamagePercentageReduction}}
+
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V9.1_v0901c_legend_Skl.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=SCategory='special' AND Exclusive='1' AND (WikiName LIKE '%astra' OR Description LIKE '%Boosts%damage by __% of unit_s Spd%reduces damage%')}}
+{{Specials Navbox}}

@@ -1,0 +1,70 @@
+{{#invoke:NameAbout|main|Name=Hardin}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Hardin
+|Title=Dark Emperor
+|GrowthModifier=Gen 2
+|WeaponType=Blue Lance
+|MoveType=Armored
+|Origin=Fire Emblem: Mystery of the Emblem
+|Gender=Male
+|actorEN=Richard Epcar
+|actorJP=中谷一博
+|artist=Daisuke Izuka
+|releaseDate=February 22, 2018
+|poolDate=March 9, 2018
+|randomStartTime=2018-03-21T07:00:00Z
+|poolRarities=5
+|TagID=暗黒ハーディン
+|InternalID=223
+|cv1=1
+|cv2=600100
+|Properties=fallen,specRate_202008
+|description=Emperor of the Holy Empire of Archanea. Known as the Dark Emperor due to his bloody reign. Appears in Fire Emblem: Mystery of the Emblem.
+}}
+{{Stats Page
+|Lv1HP=23|Lv1ATK=8|Lv1SPD=6|Lv1DEF=10|Lv1RES=8
+|GRHP=50|GRATK=60|GRSPD=50|GRDEF=60|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Lance
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Gradivus
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Retribution
+|special1Default=4
+|special1Unlock=3
+|special2=Vengeance
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Brazen Def/Res 1
+|passiveA2=Brazen Def/Res 2
+|passiveA3=Brazen Def/Res 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Bold Fighter 1
+|passiveB2=Bold Fighter 2
+|passiveB3=Bold Fighter 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+}}
+{{Heroes Navbox}}

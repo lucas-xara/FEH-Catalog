@@ -1,0 +1,32 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_魔女のブレス
+|intID=2774
+|image=wep_ac041
+|exclusive=1
+|weaponType=Dragonstone
+|cost=400
+|might=16
+|range=1
+|effect=Grants Atk+3. At start of combat, if foe's HP ≥ 50%, grants Atk+6 to unit during combat and unit makes a guaranteed follow-up attack. At start of combat, if unit's HP ≥ 50%, inflicts Atk-6 on foe during combat and foe cannot make a follow-up attack. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|statModifiers=0,19,0,0,0
+|required=Flametongue
+|properties=
+}}
+==Notes==
+{{Combat boosts}}{{Guaranteed follow-up interaction}}{{Combat reductions}}{{Prevent follow-up}}{{LowerDefRes}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=魔女のブレス
+|german=Hexenatem
+|spanishEU=Aliento de bruja
+|spanishLA=Soplo de bruja
+|french=Souffle ensorcelé
+|italian=Soffio stregato
+|chineseTW=魔女吐息
+|portuguese=Sopro de bruxa
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe_s HP%unit makes a guaranteed follow-up attack%' OR Description LIKE '%if unit_s HP%foe cannot make a follow-up attack%' AND Description NOT LIKE '%combat against%' OR Description LIKE'%grants Atk+%to unit%inflicts Atk-%on foe%'|columns=3}}
+{{Weapons Navbox}}

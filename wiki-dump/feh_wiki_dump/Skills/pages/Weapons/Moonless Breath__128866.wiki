@@ -1,0 +1,93 @@
+{{Weapon Infobox
+|tagid=SID_暁闇のブレス
+|weaponType=Dragonstone
+|might=16
+|range=1
+|effect=Unit can counterattack regardless of foe's range. If unit is within 2 spaces of an ally and deals damage to foe using a Special, restores 30% of unit's maximum HP. (Triggers even if 0 damage is dealt.) If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Flametongue
+|intID=2252
+|sort=454
+|value=20
+|adaptive=Flying
+|timingID=28
+|abilityID=225
+|limit1ID=14
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Unit can counterattack regardless of foe's range.<br>If foe's Range = 2, calculates damage using the lower of foe's Def or Res.<br><br>If unit is within 3 spaces of an ally, inflicts Atk/Def/Res-5 on foe and reduces the effect of【Deep Wounds】on unit by 50% during combat, and also, when Special triggers (excluding area-of-effect Specials), unit deals +10 damage and neutralizes foe's "reduces damage by X%" effects from foe's non-Special skills, and also, if unit also deals damage to foe using a Special during combat, restores 50% of unit's maximum HP (triggers even if 0 damage is dealt).<br><br>【Deep Wounds】<br>Unit's HP cannot be healed through its next action.
+|cooldownSkill1=-1
+|effectSkill1=Accelerates Special trigger (cooldown count-1).<br><br>Grants Atk/Def/Res+4 to allies within 2 spaces of unit during combat.<br><br>For allies within 2 spaces of unit, if this unit's Res ≥ ally's foe's Res+5 at start of combat and foe's attack can trigger foe's Special, inflicts Special cooldown count+1 on foe before foe's first attack during ally's combat (cannot exceed foe's maximum Special cooldown).<br><br>At start of combat, if unit's HP ≥ 25%, inflicts Atk/Def/Res-X on foe (X = 10% of unit's Res at start of combat + 5) and reduces damage from foe's attacks by 20% of unit's Res during combat (excluding area-of-effect Specials), and also, if foe's attack can trigger foe's Special and unit's Res ≥ foe's Res+5, inflicts Special cooldown count+1 on foe before foe's first attack (cannot exceed the foe's maximum Special cooldown).
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Ce1={{Eft|Distant Counter}}
+|s1 Ce2={{Eft|Heal|30% of {{Tgt|Unit}}'s max HP}}<br>per {{Tgt|Unit}}'s [[offensive Special]]
+|s1 Ce2C=An {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s1 Ce3={{Eft|Lower Def Res}}
+|s1 Ce3C={{Tgt|Foe}}'s Range = 2
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Ce1={{Eft|Distant Counter}}
+|s2 Ce2={{Eft|Temporary debuffs|Atk/Def/Res|5}}
+|s2 Ce3={{Eft|Neutralize Damage Reduction}}<br>per {{Tgt|Unit}}'s [[offensive Special]]
+|s2 Ce2-3T={{Tgt|Foe}}
+|s2 Ce4={{Eft|Reduce Deep Wounds|50%}}
+|s2 Ce5={{Eft|Damage Boost|10}}<br>per {{Tgt|Unit}}'s [[offensive Special]]
+|s2 Ce6={{Eft|Heal|50% of {{Tgt|Unit}}'s max HP}}<br>per {{Tgt|Unit}}'s [[offensive Special]]
+|s2 Ce2-6C=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|s2 Ce7={{Eft|Lower Def Res}}
+|s2 Ce7C={{Tgt|Foe}}'s Range = 2
+|skill3={{Si|Moonless Breath|refine=Skill1}} Skill refine effects
+|s3 Pe={{Eft|Accelerates Special}}
+|s3 Ce1={{Eft|Temporary buffs|Atk/Def/Res|4}}
+|s3 Ce1T={{Tgt|Allies}}<br>[[within 2 spaces]]
+|s3 Ce2={{Eft|Increase Cooldown|1}}<br>before {{Tgt|Foe}}'s first attack
+|s3 Ce2T={{Tgt|Foes}} of<br>{{Tgt|Allies}}<br>[[within 2 spaces]]
+|s3 Ce2C={{Tgt|Unit}}'s Res<br>≥ {{Tgt|Foe}}'s Res+5<br>'''&''' {{Tgt|Foe}} has<br>an [[Offensive Special]]
+|s3 Ce3={{Eft|Temporary debuffs|Atk/Def/Res|10% of {{Tgt|Unit}}'s Res<br>at start of combat, +5}}
+|s3 Ce3T={{Tgt|Foe}}
+|s3 Ce4={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Res}}<br>from {{Tgt|Foe}}'s attacks
+|s3 Ce3-4C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s3 Ce5={{Eft|Increase Cooldown|1}}<br>before {{Tgt|Foe}}'s first attack
+|s3 Ce5C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' {{Tgt|Unit}}'s Res<br>≥ {{Tgt|Foe}}'s Res+5<br>'''&''' {{Tgt|Foe}} has<br>an [[Offensive Special]]
+}}
+==Notes==
+* Moonless Breath the same effect as {{St|Distant Counter}}.
+{{CombatHPRecovery}}
+{{LowerDefRes}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary debuffs|name=Refined Moonless Breath}}
+{{CombatHPRecovery|DWreduction=50|name=Refined Moonless Breath}}
+{{FlatDamageBoost|10|name=Refined Moonless Breath}}
+{{DamageReductionNeutralization|name=Refined Moonless Breath}}
+{{Temporary buffs|name={{St|Moonless Breath|refine=Skill1}}}}
+{{AlliesCombatEffect|temporary buffs|name={{St|Moonless Breath|refine=Skill1}}}}
+{{CombatCooldownCount|increase=1|name={{St|Moonless Breath|refine=Skill1}}}}
+{{FlatDamageReduction}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Moonless Breath
+|japanese=暁闇のブレス
+|german=Mondloser Atem
+|spanishEU=Aliento sin luna
+|spanishLA=Soplo sin luna
+|french=Souffle sans lune
+|italian=Soffio d'eclissi
+|chineseTW=曉闇吐息
+|portuguese=Sopro eclipse
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%deals damage to foe using a Special%restores%of unit_s maximum HP%' OR Description LIKE '%Unit can counterattack regardless of foe_s range%if foe_s range%lower of foe_s Def or Res%' OR Description LIKE '%reduces the effect of%【Deep Wounds】%' OR Description LIKE '%For allies within _ spaces of unit%inflicts Special cooldown count+%before foe_s first attack%') AND Exclusive='1'}}
+* [[Skill families/A Passives#Scowl|Scowl Passives]]
+{{Weapons Navbox}}

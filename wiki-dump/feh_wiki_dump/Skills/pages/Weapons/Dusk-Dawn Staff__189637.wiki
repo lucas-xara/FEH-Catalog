@@ -1,0 +1,44 @@
+{{Weapon Infobox
+|tagid=SID_白夜暗夜の姫の花杖
+|intID=3477
+|image=wep_rd052
+|exclusive=1
+|weaponType=Colorless Staff
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Foe cannot counterattack. Accelerates Special trigger (cooldown count-1; max cooldown count value cannot be reduced below 1). If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd+6 to unit, neutralizes effects that prevent unit's follow-up attacks, grants Special cooldown charge +1 to unit per attack during combat (only highest value applied; does not stack), and after combat, if unit attacked, inflicts status on target and foes within 2 spaces of target preventing counterattacks through their next actions.
+|statModifiers=0,14,0,0,0
+|required=Assault
+|properties=
+}}
+==Notes==
+* Has the same effect as {{St|Dazzling Staff}}.
+{{Prevent counterattacks}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Follow-up effect neutralization|preventOnly=1}}
+{{CooldownChargePlus}}
+{{IfUnitAttacked}}
+{{Counterattacks disrupted}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V7.2_v0702a_valentine_Rod.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=白夜暗夜の姫の花杖
+|german=Zwielichtsstab
+|spanishEU=Bastón dual
+|spanishLA=Bastón dual
+|french=Bâton dilemme
+|italian=Asta divergente
+|chineseTW=白夜暗夜公主的花杖
+|portuguese=Bastão noite/dia
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%grants Atk/Spd+_ during combat%' AND CanUseWeapon__full='Colorless Staff') OR Description LIKE '%inflicts%status%preventing counterattacks%next actions%'}}
+{{Weapons Navbox}}

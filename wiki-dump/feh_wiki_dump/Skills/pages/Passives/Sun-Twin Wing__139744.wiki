@@ -1,0 +1,70 @@
+{{Passive
+|name=Sun-Twin Wing
+|type=B
+|exclusive=1
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|intID=2490
+|sort=516
+|value=8
+|timingID=1
+|abilityID=181
+|limit1ID=42
+|randomTimestamp=2021-04-30T07:00:00Z
+|randomMinLv=31
+|properties=random_owner
+|1name=Sun-Twin Wing
+|1tagid=SID_双姫の陽翼
+|1effect=At start of combat, if unit's HP ≥ 25%, inflicts Spd/Def-5 on foe and also neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat.
+|1required=-
+|1next=-
+|2name=Sun-Twin Wing+
+|alt2name=Sun-Twin Wing Plus
+|2tagid=SID_双姫の陽翼・神
+|2effect=At start of combat, if unit's HP ≥ 25%, inflicts Atk/Spd/Def-5 on foe, neutralizes effects that guarantee foe's follow-up attacks and prevent unit's follow-up attacks, deals damage = 20% of unit's Spd (excluding area-of-effect Specials), and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials).
+|2cost=300
+|properties2=
+|1cost=300
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Sun-Twin Wing}} Sun-Twin Wing
+|s1 Ce1={{Eft|Temporary Debuffs|Spd/Def|5}}
+|s1 Ce2={{Eft|Neutralize Guaranteed Follow-Ups}}
+|s1 Ce1-2T={{Tgt|Foe}}
+|s1 Ce3={{Eft|Neutralize Prevent Follow-Ups}}
+|s1 Ce3T={{Tgt|Unit}}
+|s1 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|skill2={{Si|Sun-Twin Wing+}} Sun-Twin Wing+
+|s2 Ce1={{Eft|Temporary Debuffs|Atk/Spd/Def|5}}
+|s2 Ce2={{Eft|Neutralize Guaranteed Follow-Ups}}
+|s2 Ce1-2T={{Tgt|Foe}}
+|s2 Ce3={{Eft|Neutralize Prevent Follow-Ups}}
+|s2 Ce4={{Eft|Damage Boost|percent=1|20% of {{Tgt|Unit}}'s Spd}}
+|s2 Ce5={{Eft|Reduce Damage Reduction|50%}}
+|s2 Ce3-5T={{Tgt|Foe}}
+|s2 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{Temporary debuffs}}
+{{Follow-up effect neutralization}}
+{{DamageBoost|name=Sun-Twin Wing+}}
+{{Reduce Damage Reduction|name=Sun-Twin Wing+}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=双姫の陽翼
+|german=Sonnenflügel
+|spanishEU=Ala gemela solar
+|spanishLA=Ala gemela solar
+|french=Aile sœur-solaire
+|italian=Ala solare
+|chineseTW=雙姬的陽翼
+|portuguese=Asa gêmea sol
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%inflicts%/%guarantee foe_s follow-up%prevent unit_s follow-up%' AND Description NOT LIKE '%transforms%Atk/Def-%' OR Description LIKE '%percentage of foe_s non-Special "reduce damage by X%" skills by 50%') AND Exclusive='1'}}
+* [[Null Passives]]
+* [[Tempo Passives]]
+{{Passives Navbox|B}}

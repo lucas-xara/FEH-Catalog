@@ -1,0 +1,59 @@
+{{Weapon Infobox
+|tagid=SID_イズンの果実
+|weaponType=Red Tome
+|weaponName=Fruit of Iðunn
+|might=14
+|range=2
+|effect=Grants Spd+3. If unit's HP ≥ 50%, allies within 2 spaces can move to a space adjacent to unit.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,3,0,0
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|required=Bolganone
+|SE=se_effect_izunn.flac
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Spd+3. Allies within 2 spaces can move to a space within 2 spaces of unit. At start of combat, if foe's HP ≥ 75%, grants Atk/Spd+5 to unit during combat.
+|tagidExtraSkill1=一
+|effectSkill1=Grants Atk/Spd+4 to allies within 2 spaces during combat. If unit is within 2 spaces of an ally, grants Atk/Spd+4 to unit during combat.
+|iconSkill1=Giga Excalibur W.png
+|properties=
+}}
+==Notes==
+{{Warp interaction}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary buffs}}
+{{AlliesCombatEffect}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+v2.5_54_summer03_Mag.png|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==Trivia==
+* In Norse mythology, [[Wikipedia:Iðunn#cite_ref-FAULKES76_14-0|the fruits of Iðunn]] are sacred apples that grant the Norse gods eternal youth.
+==In other languages==
+{{OtherLanguages
+|japanese=イズンの果実
+|german=Frucht von Iðunn
+|spanishEU=Fruto de Iðunn
+|spanishLA=Fruto de Iðunn
+|french=Fruit d'Iðunn
+|italian=Frutto di Iðunn
+|chineseTW=伊登的果實
+|portuguese=Fruto de Iðunn
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%allies%within 2 spaces%can move to a%space%unit%' OR Description LIKE '%grants%Atk%+%to allies within%spaces%if unit is within%spaces of an ally%grants%Atk%+%during combat%' OR Description LIKE '%if unit is within%spaces of an ally%grants%Atk%+%to unit and allies%during combat%') AND Exclusive='1' AND Name NOT LIKE '%allied%'}} 
+* [[Skill families/C Passives#Guidance|Guidance Passives]]
+* [[Skill families/Weapons#Allied|Allied Weapons]]
+* [[Skill families/C Passives#Joint Drive|Joint Drive Passives]]
+{{Weapons Navbox}}
+[[Category:Summer's Arrival weapons]]

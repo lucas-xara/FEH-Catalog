@@ -1,0 +1,44 @@
+{{Weapon Infobox
+|tagid=SID_護衛の斧
+|weaponName=Steadfast Axe
+|image=wep_ax085
+|weaponType=Axe
+|might=10
+|range=1
+|effect=If unit is within 2 spaces of an ally, grants Atk/Def+5 to unit and neutralizes unit's penalties to Atk/Def during combat.
+|cost=200
+|exclusive=0
+|statModifiers=0,10,0,0,0
+|required=Steel Axe
+|next=
+|promotionRarity=5
+|promotionTier=1
+|intID=2468
+|sort=10200
+|effectRange=2
+|value=11
+|timingID=1
+|abilityID=171
+|randomTimestamp=2021-04-05T07:00:00Z
+|randomMinLv=21
+|randomMaxLv=35
+|properties=random_owner
+}}
+==Notes==
+{{Combat boosts}}{{Penalty neutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=護衛の斧
+|german=Loyale Axt
+|spanishEU=Hacha leal
+|spanishLA=Hacha leal
+|french=Hache loyale
+|italian=Ascia risoluta
+|chineseTW=護衛之斧
+|portuguese=Machado leal
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If unit is within%spaces of an ally%grants%/%+%neutralizes unit_s penalties%'|columns=3}}
+{{Weapons Navbox}}

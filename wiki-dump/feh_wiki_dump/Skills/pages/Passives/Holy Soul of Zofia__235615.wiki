@@ -1,0 +1,57 @@
+{{Passive
+|name=Holy Soul of Zofia
+|type=B
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Holy Soul of Zofia
+|1tagid=SID_ソフィアの聖魂
+|1effect=Enables【Canto (Dist.; Max ３)】.<br><br>At start of turn, inflicts Spd/Res-7,【Sabotage】, and【Discord】on closest foes and foes within 2 spaces of those foes through their next actions.<br><br>Inflicts Spd/Res-5 on foe and deals damage = 20% of unit's Spd during combat (excluding area-of-effect Specials), and also, if unit's HP > 1 and foe would reduce unit's HP to 0, unit survives with 1 HP (once per combat; does not stack with non-Special effects that allow unit to survive with 1 HP if foe's attack would reduce HP to 0). Restores 7 HP to unit after combat.<br><br>【Canto (Dist.; Max ３)】<br>After an attack, Assist skill, or structure destruction, unit can move spaces = number of spaces from start position to end position unit moved prior to taking action (max ３).<br><br>【Sabotage】<br>Inflicts penalty on unit's Atk/Spd/Def/Res during combat = highest penalty on each stat between unit and allies within 2 spaces of unit through its next action. Calculates each stat penalty independently.<br><br>【Discord】<br>Inflicts Atk/Spd/Def/Res-X on unit during combat (X = 2 + number of allies within 2 spaces of unit; max 5) through its next action.
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Canto|Dist.; Max 3}}
+|Me2={{Eft|Heal|7}}
+|Me2C=After combat
+|Se1={{Eft|Penalties|Spd/Res|7}}
+|Se2={{SEt|Sabotage}}
+|Se3={{SEt|Discord}}
+|SeT=Closest {{Tgt|Foes}}<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}
+|SeC=At start of turn
+|Ce1={{Eft|Temporary debuffs|Spd/Res|5}}
+|Ce1T={{Tgt|Foe}}
+|Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd|percent=0}}
+|Ce3={{Eft|Miracle}}<br>(once per combat)
+|Ce3C={{Tgt|Unit}}'s HP > 1
+}}
+==Notes==
+{{Canto|Dist.; Max 3}}
+{{Penalties}}
+{{Sabotage}}
+{{Discord}}
+{{Temporary debuffs}}
+{{DamageBoost}}
+{{Survive with 1 HP}}
+{{After combat healing}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%unit survives with 1 HP%' AND Description NOT LIKE '%"if foe would reduce%') AND Exclusive='1'}}
+* [[Trace Passives]]
+{{Passives Navbox|B}}

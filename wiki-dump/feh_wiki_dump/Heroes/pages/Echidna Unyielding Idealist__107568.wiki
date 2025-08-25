@@ -1,0 +1,74 @@
+{{#invoke:NameAbout|main|Name=Echidna}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Echidna
+|Title=Unyielding Idealist
+|WeaponType=Green Axe
+|Origin=Fire Emblem: The Binding Blade
+|Gender=Female
+|MoveType=Infantry
+|actorJP=石上静香
+|actorEN=Julia McIlvaine
+|artist=п猫Ｒ
+|additionDate=November 19, 2019
+|releaseDate=November 19, 2019
+|randomStartTime=2019-12-19T07:00:00Z
+|poolDate=December 6, 2019
+|poolRarities=3,4
+|TagID=エキドナ
+|InternalID=447
+|Properties=demoted_202004
+|cv1=5
+|cv2=900100
+|description=Resistance leader of the Western Isles. She's highly capable and many rely on her. Appears in Fire Emblem: The Binding Blade.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=8|Lv1SPD=10|Lv1DEF=6|Lv1RES=8
+|GRHP=60|GRATK=60|GRSPD=60|GRDEF=55|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Rearguard
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Rearguard+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Western Axe
+|weapon5Default=
+|weapon5Unlock=5
+}}
+===Assists===
+{{Assists Table
+}}
+===Specials===
+{{Specials Table
+|special1=Daylight
+|special1Default=4
+|special1Unlock=3
+|special2=Sol
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Brazen Spd/Res 1
+|passiveA2=Brazen Spd/Res 2
+|passiveA3=Brazen Spd/Res 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Spur Atk 1
+|passiveC2=Drive Atk 1
+|passiveC3=Drive Atk 2
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

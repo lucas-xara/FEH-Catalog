@@ -1,0 +1,55 @@
+{{Passive
+|type=S
+|exclusive=0
+|1name=Squad Ace U 1
+|1tagid=SID_第21迷宮の覇者1
+|1effect=Grants HP+3.
+|1cost=40
+|1next=-
+|2name=Squad Ace U 2
+|2tagid=SID_第21迷宮の覇者2
+|2effect=Grants HP+4.
+|2cost=80
+|2next=-
+|3name=Squad Ace U 3
+|3tagid=SID_第21迷宮の覇者3
+|3effect=Grants HP+5.
+|3cost=160
+|statModifiers1=3,0,0,0,0
+|statModifiers2=4,0,0,0,0
+|statModifiers3=5,0,0,0,0
+|alt1name=Squad Ace A 1
+|alt2name=Squad Ace A 2
+|alt3name=Squad Ace A 3
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=
+}}
+==Seal acquired from==
+===Squad Assault reward===
+* Complete the [[21st Assault]].
+===Sacred Seal Forge===
+{{SealCosts
+|seals=Squad Ace U 1;Squad Ace U 2;Squad Ace U 3
+|badgeColor=Transparent 
+|costs1=-
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=第２１迷宮の覇者
+|german=Überfall-Ass U
+|spanishEU=As del asalto U
+|spanishLA=As del asalto U
+|french=Assaut réussi U
+|italian=Asso squadra U
+|chineseTW=第２１迷宮的霸王
+|portuguese=Esquadrão ás U
+}}
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}

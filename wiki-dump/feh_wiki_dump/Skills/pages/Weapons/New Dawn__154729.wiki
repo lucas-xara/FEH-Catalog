@@ -1,0 +1,90 @@
+{{Weapon Infobox
+|tagid=SID_明日の光
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|weaponType=Colorless Tome
+|might=14
+|range=2
+|effectiveness=Armored,Cavalry
+|effect=Effective against armored and cavalry foes. Grants Atk+3. If unit initiates combat or if unit is within 2 spaces of an ally, grants Atk/Res+6 during combat and unit makes a guaranteed follow-up attack. If unit's HP ≤ 50% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.
+|cost=400
+|exclusive=1
+|statModifiers=0,17,0,0,0
+|required=Atlas (weapon)
+|intID=2712
+|sort=583
+|value=20
+|timingID=1
+|abilityID=304
+|limit1ID=58
+|randomTimestamp=2021-10-01T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Effective against armored and cavalry foes.<br>Grants Atk+3.<br><br>If unit initiates combat or is within 2 spaces of an ally, grants Atk/Res+6 and Spd/Def+5 to unit, grants Atk/Spd/Def/Res+X to unit (X = 10% of unit's Res at start of combat), and unit makes a guaranteed follow-up attack during combat.<br><br>If unit initiates combat, unit can make a follow-up attack before foe can counterattack.
+|cooldownSkill1=-1
+|effectSkill1=Accelerates Special trigger (cooldown count-1).<br><br>At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit, neutralizes penalties to Atk/Res, deals damage = 20% of unit's Res (excluding area-of-effect Specials), and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials).
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Atk|3}}
+|s1 Ce1={{Eft|Effectiveness|{{Mt|Armored}} '''&''' {{Mt|Cavalry}}<br>}}
+|s1 Ce2={{Eft|Temporary buffs|Atk/Res|6}}
+|s1 Ce3={{Eft|Guaranteed Follow-Ups}}
+|s1 Ce2-3C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s1 Ce4={{Eft|Desperation}}
+|s1 Ce4C=Player Phase '''&'''<br>{{Tgt|Unit}}'s HP ≤ 50%<br>at start of combat
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Atk|3}}
+|s2 Ce1={{Eft|Effectiveness|{{Mt|Armored}} '''&''' {{Mt|Cavalry}}<br>}}
+|s2 Ce2={{Eft|Temporary buffs|Atk/Res|6}}, {{Eft|Temporary buffs|Spd/Def|5}}
+|s2 Ce3={{Eft|Temporary buffs|Atk/Spd/Def/Res|10% of {{Tgt|Unit}}'s Res<br>at start of combat}}
+|s2 Ce4={{Eft|Guaranteed Follow-Ups}}
+|s2 Ce2-4C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s2 Ce5={{Eft|Desperation}}
+|s2 Ce5C=Player Phase
+|skill3={{Si|New Dawn|refine=Skill1}} Skill refine effects
+|s3 Pe={{Eft|Accelerates Special}}
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s3 Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Res}}
+|s3 Ce3={{Eft|Neutralize Bonuses|Atk/Res}}
+|s3 Ce4={{Eft|Reduce Damage Reduction|50%}}
+|s3 Ce3-4T={{Tgt|Foe}}
+|s3 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+* New Dawn has the same effect as {{St|Desperation 2}}.
+{{Effective damage bonus|armored,cavalry}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Follow-up before counterattack|guaranteed=1}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{At start of combat|name=Refined New Dawn}}
+{{Bonus neutralization|name={{St|New Dawn|refine=Skill1}}}}
+{{DamageBoost|name={{St|New Dawn|refine=Skill1}}}}
+{{Reduce Damage Reduction|name={{St|New Dawn|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=明日の光
+|german=Morgenröte
+|spanishEU=Nueva aurora
+|spanishLA=Nueva aurora
+|french=Nouvelle aube
+|italian=Nuova alba
+|chineseTW=明日之光
+|portuguese=Nova aurora
+}}
+==See also==
+{{See also skills|cond=WeaponEffectiveness='armored,cavalry'}}
+{{Weapons Navbox}}

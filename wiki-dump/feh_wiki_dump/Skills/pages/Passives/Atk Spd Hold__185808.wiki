@@ -1,0 +1,45 @@
+{{Passive
+|type=C
+|name=Atk/Spd Hold
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|Flying}}
+|properties=random_owner
+|1name=Atk/Spd Hold
+|alt1name=Atk Spd Hold
+|1tagid=SID_攻撃速さの大牽制
+|1cost=300
+|1effect=Inflicts Atk/Spd-4 on foes within 3 spaces during combat.
+|1required=Atk/Spd Rein 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce={{Eft|Temporary debuffs|Atk/Spd|4}}
+|CeT={{Tgt|Foes}}<br>[[within 3 spaces]]
+}}
+==Notes==
+{{Temporary debuffs}}
+{{FoesCombatEffect|effect=temporary debuffs}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Atk/Spd Hold
+|japanese=攻撃速さの大牽制
+|german=Angr./Ges.-Halt
+|spanishEU=Aguante Ata/Vel
+|spanishLA=Aguante Atq./Vel.
+|french=Frein Atq/Vit
+|italian=Redine Att/Vel
+|chineseTW=攻擊速度大牽制
+|portuguese=Freio Atq./Vel.
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%inflicts%Atk/Spd%-%on foes within _ spaces during combat%' AND Exclusive='1'}}
+* [[Rein Passives]]
+* [[Skill families/C Passives#Hold|Hold Passives]]
+{{Passives Navbox|C}}

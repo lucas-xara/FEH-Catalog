@@ -1,0 +1,55 @@
+{{Weapon Infobox
+|tagid=SID_魔竜のブレス
+|weaponType=Dragonstone
+|might=16
+|range=1
+|effectiveness=armored
+|effect=Grants Def+3. Effective against armored foes. At start of combat, if a negative status effect is active on unit, or if unit's HP < 100%, neutralizes penalties on unit and grants Atk/Spd/Def/Res+4 during combat. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,3,0
+|required=Flametongue
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Def+3. Effective against armored foes. If foe initiates combat, if a negative status effect is active on unit at start of combat, or if unit's HP < 100% at start of combat, neutralizes penalties on unit and grants Atk/Spd/Def/Res+4 during combat. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|tagidExtraSkill1=一
+|effectSkill1=If foe initiates combat or if foe's HP ≥ 75% at start of combat, grants Atk+5 to unit, inflicts Atk-5 on foe, and also, if foe can make a follow-up attack, reduces damage from foe's first attack by 70% during combat.
+|iconSkill1=Demonic Breath W.png
+|properties=random_owner
+}}
+==Notes==
+{{Effective damage bonus|armored}}
+{{EffectfromPenalty|target=unit|temporary buffs and penalty neutralization effects}}
+{{Temporary buffs}}
+{{Penalty neutralization}}
+{{LowerDefRes}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfFoeInitiates}}
+{{Temporary debuffs|name={{St|Demonic Breath|refine=skill1}}}}
+{{DamagePercentageReduction|name={{St|Demonic Breath|refine=skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V3.3 79 fuin01 Mag.png|Sprite sheet for Demonic Breath's animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=魔竜のブレス
+|german=Höllenatem
+|spanishEU=Alien. demoniaco
+|spanishLA=Aliento maligno
+|french=Souffle de démon
+|italian=Soffio demoniaco
+|chineseTW=魔龍吐息
+|portuguese=Sopro demoníaco
+}}
+==See also==
+{{See also skills|cond=WeaponEffectiveness='armored' AND WikiName LIKE '%breath%' OR Description LIKE '%if unit_s HP < 100%grants%/%+%during combat%' OR Description LIKE '%if%penalty%active on unit%grants%/%+%during combat%' OR Description LIKE '%if foe can make a follow-up%reduces damage%foe_s first attack%' AND WikiName NOT LIKE '%stout%' AND Exclusive='1'}}
+* [[Sources of effective against armored foes]]
+* [[Skill families/Weapons#Stout|Stout Weapons]]
+{{Weapons Navbox}}

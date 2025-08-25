@@ -1,0 +1,41 @@
+{{Passive
+|type=A
+|name=Dragonhide
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Dragonhide
+|1tagid=SID_邪竜の重鱗
+|1cost=300
+|1effect=Neutralizes "effective against armored" bonuses. If foe initiates combat or foe's HP ≥ 75% at start of combat, inflicts Atk/Spd/Def/Res-8 on foe and grants Special cooldown charge +1 to unit per attack during combat. (Only highest value applied. Does not stack.)
+|1required=-
+}}
+==Notes==
+* Has the same effect as {{St|Svalinn Shield}}.
+{{Effectiveness neutralization|armored}}
+{{IfFoeInitiates}}
+{{Temporary debuffs}}
+{{CooldownChargePlus}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=邪竜の重鱗
+|german=Drachenleder
+|spanishEU=Pellejo dragontino
+|spanishLA=Pellejo dragontino
+|french=Peau de dragon
+|italian=Derma di drago
+|chineseTW=邪龍的重鱗
+|portuguese=Couro de dragão
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%neutralizes%effective against%if foe initiates combat%' OR Description LIKE '%if foe initiates combat%special cooldown charge +%per attack%' AND Exclusive='1'}}
+* [[Skill families/A Passives#Shield|Shield Passives]]
+* [[Skill families/A Passives#Breath|Breath Passives]]
+{{Passives Navbox|A}}

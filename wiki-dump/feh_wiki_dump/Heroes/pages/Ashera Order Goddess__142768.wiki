@@ -1,0 +1,78 @@
+{{#invoke:NameAbout|main|Name=Ashera}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Ashera
+|Title=Order Goddess
+|WeaponType=Colorless Tome
+|MoveType=Infantry
+|Origin=Fire Emblem: Radiant Dawn
+|Gender=Female
+|MythicEffect=Astra
+|MythicEffect2=Raiding Party Bonus
+|BoostHP=5
+|BoostRes=5
+|actorEN=Jessica Gee-George
+|actorJP=佐久間紅美
+|artist=北千里
+|additionDate=May 31, 2021
+|releaseDate=May 31, 2021
+|cv1=9
+|cv2=4900100
+|TagID=神階アスタルテ
+|InternalID=665
+|Properties=mythic
+|description=The once-slumbering goddess of order, half of the goddess Ashunera. She desires to create a world of structure and peace. Appears in Fire Emblem: Radiant Dawn.
+}}
+{{Stats Page
+|Lv1HP=15|Lv1ATK=13|Lv1SPD=9|Lv1DEF=5|Lv1RES=7
+|GRHP=50|GRATK=50|GRSPD=70|GRDEF=25|GRRES=75
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Stone
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elstone
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Atlas (weapon)
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Order's Sentence
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Glacies
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Res Ideal 1
+|passiveA2=Atk/Res Ideal 2
+|passiveA3=Atk/Res Ideal 3
+|passiveA4=Atk/Res Ideal 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Lull Spd/Res 1
+|passiveB2=Lull Spd/Res 2
+|passiveB3=Lull Spd/Res 3
+|passiveB4=Lull Spd/Res 4
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Order's Restraint
+|passiveC2=Order's Restraint+
+|passiveC1Unlock=5
+|passiveC2Unlock=5
+}}
+{{Heroes Navbox}}

@@ -1,0 +1,50 @@
+{{Weapon Infobox
+|tagid=SID_攻防の暗器
+|intID=3957
+|image=wep_dg084
+|exclusive=0
+|weaponType=Dagger
+|cost=200
+|might=8
+|range=2
+|effect=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+5 during combat and reduces damage from foe's first attack during combat by 30%.<br><br>Effect:【Dagger ５】<br><br>【Dagger ５】<br>After combat, if unit attacked, inflicts Def/Res-５ on target and foes within 2 spaces of target through their next actions.
+|required=Steel Dagger
+|next=Clever Dagger+
+|promotionRarity=5
+|promotionTier=1
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{SkillEffectText|Temporary buffs|Atk/Spd|5}}
+|CombatEffect 2={{SkillEffectText|Damage Reduction|30%}}<br>from {{SkillTargetText|Foe}}'s first attack
+|CombatEffect Conditions={{SkillTargetText|Unit}}'s HP ≥ 25%<br>at start of combat
+|StatusEffect={{SkillEffectText|Penalties|Def/Res|5}}
+|StatusEffect Targets={{SkillTargetText|Target Foe}} '''&''' {{SkillTargetText|Foes}}<br>[[within 2 spaces]]<br>of {{SkillTargetText|Target Foe}}
+|StatusEffect Conditions=After combat<br>if {{SkillTargetText|Unit}} attacked
+}}
+==Notes==
+{{Temporary buffs}}
+{{DamagePercentageReduction}}
+{{IfUnitAttacked}}
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=攻防の暗器
+|german=Gewiefter Dolch
+|spanishEU=Daga audaz
+|spanishLA=Daga astuta
+|french=Dague futée
+|italian=Pugnale versatile
+|chineseTW=攻防暗器
+|portuguese=Adaga versátil
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit_s HP ≥ 25%grants Atk/%+%during combat and reduces damage from foe_s first attack%' AND Exclusive='1'}}
+{{Weapons Navbox}}

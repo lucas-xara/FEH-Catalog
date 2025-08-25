@@ -1,0 +1,49 @@
+{{Weapon Infobox
+|tagid=SID_農具
+|intID=3810
+|image=wep_sw165
+|exclusive=0
+|weaponType=Sword
+|cost=200
+|might=10
+|range=1
+|effect=At start of turn, if unit is within 2 spaces of an ally, grants Atk/Def+6 to unit and allies within 2 spaces of unit for 1 turn. If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+X to unit during combat (X = 4 + highest bonus on each stat between unit and allies within 2 spaces of unit; calculates each stat bonus independently).
+|required=Steel Sword
+|next=Farmer's Tool+
+|promotionRarity=5
+|promotionTier=1
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se={{Eft|Bonuses|Atk/Def|6}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=At start of turn
+|Ce={{Eft|Temporary buffs|Atk/Spd/Def/Res|4 + highest {{SEt|Bonus}}<br>on {{Tgt|Unit}} & {{Tgt|Allies}}<br>[[within 2 spaces]]}}
+|CeC=Player Phase<br>'''or''' an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+==Notes==
+{{Bonuses}}
+{{IfUnitInitiates}}
+{{TemporaryBufffromBonus|multiSource=1|source=unit or allies with the highest bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=農具
+|german=Harke
+|spanishEU=Rastrillo cultivo
+|spanishLA=Rastrillo cultivo
+|french=Outil de fermier
+|italian=Rastrello
+|chineseTW=農具
+|portuguese=Ancinho rural
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%Atk/Spd/Def/Res%=%highest bonus on%allies%within _ spaces%' AND Exclusive='1' AND Description NOT LIKE '%grants allies within _ spaces%' AND Name NOT LIKE 'Doubler%+'}}
+* [[Skill families/Weapons#Doubler|Doubler Weapons]]
+{{Weapons Navbox}}

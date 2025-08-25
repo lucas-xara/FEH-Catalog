@@ -1,0 +1,40 @@
+{{Weapon Infobox
+|tagid=SID_ベルクトの槍＋
+|weaponType=Lance
+|might=14
+|range=1
+|effect=If foe initiates combat, grants Res+4 during combat.
+|cost=300
+|exclusive=0
+|statModifiers=0,14,0,0,0
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|upgradedEffect=If foe initiates combat, grants Res+7 during combat.
+|properties=
+}}
+==Notes==
+* Has the same effect as {{Pt|Warding Stance 2}}.
+{{IfFoeInitiates}}
+{{Combat boosts}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ベルクトの槍＋
+|german=Berkuts Lanze+
+|spanishEU=Lanza Berkut +
+|spanishLA=Lanza Berkut +
+|french=Lance Berkut +
+|italian=Lancia di Berkut+
+|chineseTW=貝爾克特之槍＋
+|portuguese=Lança Berkut+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe initiates combat, grants Res+%during combat%' AND WikiName NOT LIKE '%barrier%'|columns=3}}
+* [[Skill families#Barrier|Barrier Weapons]]
+* [[Skill families#Guard (combat boosts)|Guard Weapons]]
+{{Weapons Navbox}}

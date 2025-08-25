@@ -1,0 +1,37 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_赤いアヒル
+|weaponType=Dagger
+|might=8
+|range=2
+|effect=If unit's Spd > foe's Spd, deals damage = 70% of difference between stats. (Maximum bonus of +7 damage. Combos with Phantom Spd.) After combat, if unit attacked, inflicts Def/Res-5 on foes within 2 spaces of target through their next actions.
+|cost=200
+|exclusive=0
+|canUseMove=
+|statModifiers=0,8,0,0,0
+|next=Red-Hot Ducks+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Dagger
+|properties=
+}}
+==Notes==
+{{BonusStatDamage|stat=Spd}}
+{{IfUnitAttacked}}
+{{Penalties}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=赤いアヒル
+|german=Rote Entchen
+|spanishEU=Patitos rojos
+|spanishLA=Patitos rojos
+|french=Canards rouges
+|italian=Paperelle rosse
+|chineseTW=紅色小鴨
+|portuguese=Patos vermelhos
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If unit_s%> foe_s%, deals damage =%of difference between stats%'|columns=3}}
+{{Weapons Navbox}}

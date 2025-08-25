@@ -1,0 +1,43 @@
+{{Passive
+|name=Distant Ward
+|type=A
+|exclusive=0
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|Close}}
+|1name=Distant Ward
+|1tagid=SID_明鏡の反撃・遠距離
+|1effect=If magic, staff, or dragonstone foe initiates combat, grants Atk/Res+5 to unit during combat and unit can counterattack regardless of foe's range.
+|1required=-
+|1cost=300
+|properties=random_owner
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Distant Ward
+|japanese=明鏡の反撃・遠距離
+|japaneseNotes=''Warding Counter, Long Distance''
+|german=Fernbann
+|spanishEU=Contra guardiana
+|spanishLA=Contra protectora
+|french=Gardien distant
+|italian=Scudo lontano
+|chineseTW=明鏡反擊・遠距離
+|portuguese=Zelo distante
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%counterattack regardless of%range%' AND SCategory!='Weapon') AND ((Exclusive='1' AND Name NOT LIKE '%+') OR SCategory='captain')}}
+* [[Counter Passives]]
+* [[Counter Seals]]
+* [[Prime Passives]]
+* [[Weapons with Distant Counter]]
+* [[Weapons with Close Counter]]
+{{Passives Navbox|A}}

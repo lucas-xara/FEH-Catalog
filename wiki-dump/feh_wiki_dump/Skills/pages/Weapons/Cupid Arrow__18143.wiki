@@ -1,0 +1,38 @@
+{{Weapon Infobox
+|tagid=SID_キューピッドの矢
+|weaponType=Bow
+|weaponName={{PAGENAME}}
+|might=8
+|range=2
+|effectiveness=flying
+|effect=Effective against flying foes.<br>If unit initiates combat, grants Def/Res+2 to allies within 2 spaces for 1 turn after combat.
+|cost=200
+|exclusive=0
+|userVersion1=Bow|userVersion2=Arrow|statModifiers=0,8,0,0,0
+|next=Cupid Arrow+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Bow
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{IfUnitInitiates}}
+{{Bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=キューピッドの矢
+|german=Amorpfeil
+|spanishEU=Flecha Cupido
+|spanishLA=Flecha Cupido
+|french=Flèche Cupidon
+|italian=Freccia Cupido
+|chineseTW=邱比特之弓
+|portuguese=Arco cupido
+}}
+==See also==
+* [[Bridal Blessings Weapons]]
+{{Weapons Navbox}}
+[[Category:Bridal Blessings weapons]]

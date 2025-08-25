@@ -1,0 +1,78 @@
+{{#invoke:NameAbout|main|Name=Byleth}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Byleth
+|Person=Byleth M
+|Title=Tested Professor
+|GrowthModifier=Gen 3
+|WeaponType=Red Sword
+|Origin=Fire Emblem: Three Houses
+|Gender=Male
+|MoveType=Infantry
+|actorJP=小林裕介
+|actorEN=Zach Aguilar
+|artist=悌太
+|additionDate=July 21, 2019
+|releaseDate=July 26, 2019
+|poolDate=August 7, 2019
+|randomStartTime=2019-08-22T07:00:00Z
+|poolRarities=5
+|TagID=ベレト
+|InternalID=403
+|Properties=specRate_202202
+|cv1=12
+|cv2=100100
+|description=Child of the former captain of the Knights of Seiros, Jeralt. A stoic, capable professor at the Officers Academy. Appears in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=12|Lv1SPD=8|Lv1DEF=8|Lv1RES=3
+|GRHP=50|GRATK=55|GRSPD=70|GRDEF=60|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Creator Sword
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Draconic Aura
+|special2Default=
+|special2Unlock=4
+|special3=Ruptured Sky
+|special3Default=
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Distant Counter
+|passiveA1Unlock=5
+|passiveB1=Chill Spd 1
+|passiveB2=Chill Spd 2
+|passiveB3=Chill Spd 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Odd Spd Wave 1
+|passiveC2=Odd Spd Wave 2
+|passiveC3=Odd Spd Wave 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

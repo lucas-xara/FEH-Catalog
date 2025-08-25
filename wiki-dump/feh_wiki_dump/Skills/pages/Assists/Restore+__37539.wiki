@@ -1,0 +1,45 @@
+{{Assist
+|tagid=SID_レスト＋
+|name=Restore+
+|range=1
+|effect=Restores HP = 50% of Atk. (Minimum of 8 HP.)<br>Neutralizes ally's penalties (from skills like Panic, Threaten, etc.) and negative status effects (preventing counterattacks, restricting movement, etc.) that last through ally's next action.
+|cost=300
+|required=Restore
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|Staff}}
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Heal|min=8|50% of {{Tgt|Unit}}'s Atk}}
+|MeT={{Tgt|Target Ally}}
+|MeC={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}<br>'''or''' {{SEt|Deep Wounds}}
+|Se=Removes {{Kp|Penalty}} effects
+|SeT={{Tgt|Target Ally}}
+|SeC={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}
+}}
+
+==Notes==
+{{Penalty neutralization|negstatuses=all {{Kp|Penalty}} effects}}
+
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+Weapon Restore.png|Restore+ Sprite
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=レスト＋
+|german=Erneuerung+
+|spanishEU=Restaurar +
+|spanishLA=Restaurar +
+|french=Vitalis +
+|italian=Ripristino+
+|chineseTW=休息＋
+|portuguese=Restauração+
+}}
+==See also==
+* [[Staff Assists]]
+{{Assists Navbox}}

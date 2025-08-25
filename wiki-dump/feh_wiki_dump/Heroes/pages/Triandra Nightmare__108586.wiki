@@ -1,0 +1,99 @@
+{{#invoke:NameAbout|main|Name=Triandra}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Triandra
+|Title=Nightmare
+|WeaponType=Green Tome
+|Origin=Fire Emblem Heroes
+|Gender=Female
+|MythicEffect=Dark
+|MythicEffect2=None
+|BoostHP=5
+|BoostSpd=4
+|MoveType=Flying
+|actorJP=井口裕香
+|actorEN=Lexi Klein
+|artist=四々九
+|additionDate=December 5, 2019
+|releaseDate=November 27, 2020
+|cv1=0
+|cv2=400400
+|TagID=スカビオサ
+|InternalID=592
+|EnemyInternalID=54
+|Properties=mythic,refresher,hat
+|description=A dökkálfr from Dökkálfheimr, the realm of nightmares. Delivers terrible dreams to mortals. Cold and distant, she lives on without hope.
+}}
+==Ally stats==
+{{Stats Page|noheader=1
+|Lv1HP=16|Lv1ATK=7|Lv1SPD=8|Lv1DEF=3|Lv1RES=5
+|GRHP=50|GRATK=70|GRSPD=70|GRDEF=30|GRRES=40
+}}
+==Enemy stats==
+{{Stats Page/Enemy|noheader=1
+|Lv1HP=16|Lv1ATK=6|Lv1SPD=7|Lv1DEF=3|Lv1RES=5
+|GRHP=50|GRATK=65|GRSPD=65|GRDEF=30|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Wind
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elwind
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Rexcalibur
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Flower of Sorrow
+|weapon4Default=5
+|weapon4Unlock=5
+|hasEnemy=1
+}}
+===Assists===
+{{Assists Table
+|assist1=Dance
+|assist1Default=4
+|assist1Unlock=3
+|hasEnemy1=1
+|assist2=Frightful Dream
+|assist2Unlock=5
+|hasEnemy2=1
+|assist3=Frightful Dream+
+|assist3Unlock=5
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Push 1
+|passiveA2=Atk/Spd Push 2
+|passiveA3=Atk/Spd Push 3
+|passiveA4=Atk/Spd Push 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Aerobatics 1
+|passiveB2=Aerobatics 2
+|passiveB3=Aerobatics 3
+|passiveB4=Gale Dance 1
+|passiveB5=Firestorm Dance 1
+|passiveB6=Firestorm Dance 2
+|passiveB7=Firestorm Dance 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveB4Unlock=1
+|passiveB5Unlock=2
+|passiveB6Unlock=4
+|passiveB7Unlock=5
+|passiveC1=Spd/Res Rein 1
+|passiveC2=Spd/Res Rein 2
+|passiveC3=Spd/Res Rein 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+{{Enemies Navbox}}

@@ -1,0 +1,84 @@
+{{#invoke:NameAbout|main|Name=Marth|Name2=Elice}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Marth
+|Title=Royal Altean Duo
+|WeaponType=Colorless Bow
+|Origin=Fire Emblem: Mystery of the Emblem
+|Gender=MF
+|duo=Grants Atk/Spd/Def/Res+3 and【Bonus Doubler】to armored and flying allies within 3 rows centered on unit. (That turn only. Does not stack.)<br><br>【Bonus Doubler】<br>Grants bonus to Atk/Spd/Def/Res during combat = current bonus on each of unit's stats for 1 turn. Calculates each stat bonus independently.
+|Duel=185
+|MoveType=Armored
+|actorJP=緑川光,島本須美
+|actorEN=Yuri Lowenthal,Jenny Yokobori
+|secondPerson=Elice
+|artist=まよ
+|additionDate=December 16, 2019
+|releaseDate=December 16, 2019
+|TagID=比翼マルス
+|InternalID=460
+|Properties=duo,special,specRate_202302
+|cv1=1
+|cv2=100100
+|description=Marth and Elice enjoying a brief moment of relaxation. After a long period of struggle, these siblings are entering a new phase of their lives. Appear in Fire Emblem: Mystery of the Emblem.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=10|Lv1SPD=11|Lv1DEF=8|Lv1RES=6
+|GRHP=55|GRATK=60|GRSPD=70|GRDEF=50|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Bow
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Tanngrisnir
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Draconic Aura
+|special2Default=
+|special2Unlock=4
+|special3=Fire Emblem
+|special3Default=
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Form 1
+|passiveA2=Atk/Spd Form 2
+|passiveA3=Atk/Spd Form 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=Daring Fighter 1
+|passiveB2=Daring Fighter 2
+|passiveB3=Daring Fighter 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Hone Spd 1
+|passiveC2=Hone Spd 2
+|passiveC3=Hone Spd 3
+|passiveC4=Joint Hone Spd
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Sources of bonuses]][[Category:Sources of Bonus Doubler]][[Category:Sources of temporary buffs]][[Category:Sources of status effects]]
+[[Category:Christmas units]]

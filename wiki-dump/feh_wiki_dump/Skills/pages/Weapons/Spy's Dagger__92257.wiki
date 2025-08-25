@@ -1,0 +1,60 @@
+{{Weapon Infobox
+|tagid=SID_密偵の暗器
+|weaponType=Dagger
+|might=14
+|range=2
+|effect=After combat, if unit attacked, grants Def/Res+6 to unit and allies within 2 spaces of unit for 1 turn.<br>Effect:【Dagger ６】<br><br>【Dagger ６】<br>After combat, if unit attacked, inflicts Def/Res-６ on target and foes within 2 spaces of target through their next actions.
+|cost=400
+|exclusive=yes
+|userVersion1=Weapon
+|userVersion2=Upgrade Gleam
+|statModifiers=0,14,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=Grants bonus to unit's Atk = total penalties on foe during combat.
+|iconSkill1=Weakness Atk W.png
+|tagidExtraSkill1=撃
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|Weapon}} Base weapon
+|s1 Se1={{Eft|Penalties|Def/Res|6}}
+|s1 SeT1={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|s1 Se2={{Eft|Bonuses|Def/Res|6}}
+|s1 SeT2={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|s1 SeC=After combat if<br>{{Tgt|Unit}} attacked
+|skill2={{Si|Spy's Dagger|refine=Skill1}} Skill refine effects
+|s2 Ce={{Eft|Temporary buffs|Atk|total {{SEt|Penalties}}<br>on {{Tgt|Foe}}}}
+}}
+
+==Notes==
+{{Bonuses}}
+{{Penalties}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{BonusesToAtkFoePenalty}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|弱撃R|Weakness Atk R}}
+==In other languages==
+{{OtherLanguages
+|japanese=密偵の暗器
+|german=Spionsdolch
+|spanishEU=Daga acechante
+|spanishLA=Daga acechante
+|french=Dague d'espion
+|italian=Pugnale della spia
+|chineseTW=密探暗器
+|portuguese=Adaga de espião
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%Grants bonus to unit\'s Atk = total penalties on foe during combat%'}}
+{{Weapons Navbox}}

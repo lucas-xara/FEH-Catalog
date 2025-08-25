@@ -1,0 +1,70 @@
+{{#invoke:NameAbout|main|Name=Cormag}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Cormag
+|Title=Aloof Lanceman
+|WeaponType=Blue Lance
+|Origin=Fire Emblem: The Sacred Stones
+|Gender=Male
+|MoveType=Flying
+|actorJP=関幸司
+|actorEN=Brad Venable
+|artist=argon
+|additionDate=November 6, 2019
+|releaseDate=November 11, 2019
+|TagID=クーガー
+|InternalID=446
+|Properties=ghb,limited
+|cv1=7
+|cv2=301100
+|description=A wyvern knight of Grado and younger brother of the Sunstone, Glen. Although he left his army behind, he fights with love and pride for his homeland. Appears in Fire Emblem: The Sacred Stones.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=10|Lv1SPD=6|Lv1DEF=12|Lv1RES=4
+|GRHP=55|GRATK=60|GRSPD=60|GRDEF=50|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Slaying Lance
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Slaying Lance+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Revenger Lance
+|weapon5Default=
+|weapon5Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=4
+|special1Unlock=3
+|special2=Ignis
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Dull Close 1
+|passiveB2=Dull Close 2
+|passiveB3=Dull Close 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Def Opening 1
+|passiveC2=Def Opening 2
+|passiveC3=Def Opening 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

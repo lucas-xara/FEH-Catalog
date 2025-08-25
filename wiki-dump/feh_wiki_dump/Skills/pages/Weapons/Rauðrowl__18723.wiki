@@ -1,0 +1,39 @@
+{{Weapon Infobox
+|tagid=SID_ラウアアウル
+|weaponType=Red Tome
+|might=6
+|range=2
+|effect=During combat, boosts unit's Atk/Spd/Def/Res by number of adjacent allies × 2.
+|cost=200
+|exclusive=0
+|userVersion1=Closed
+|userVersion2=Open
+|statModifiers=0,6,0,0,0
+|next=Rauðrowl+
+|promotionRarity=5
+|promotionTier=1
+|required=Elfire;Ruin
+|properties=random_all
+}}
+==Notes==
+{{Combat boosts}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{TomeColorTrivia|rauðr}}
+* Either {{St|Elfire}} or {{St|Ruin}} is required to inherit this weapon.
+==In other languages==
+{{OtherLanguages
+|japanese=ラウアアウル
+|german=Rauðreule
+|spanishEU=Búho carmesí
+|spanishLA=Búho carmesí
+|french=Ailes rubis
+|italian=Rubingufo
+|chineseTW=赤紅夜梟
+|portuguese=Coruja rubra
+}}
+==See also==
+* [[Owl Weapons]]
+{{Weapons Navbox}}
+[[Category:Owl weapons]]

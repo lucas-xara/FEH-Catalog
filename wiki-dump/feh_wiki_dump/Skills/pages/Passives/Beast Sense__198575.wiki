@@ -1,0 +1,61 @@
+{{Passive
+|name=Beast Sense
+|type=B
+|exclusive=0
+|canUseWeapon={{WeaponList|Beast}}
+|canUseMove={{MoveList|Infantry,Cavalry,Flying}}
+|properties=random_inherit_base,random_owner
+|1name=Beast Sense 1
+|1tagid=SID_絶対化身・察知1
+|1effect=If unit's HP = 100%, removes the condition to transform. If unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by X% (X = difference between Spd stats; max 10).
+|1cost=60
+|1required=-
+|1promotionTier=1
+|1promotionRarity=4
+|2name=Beast Sense 2
+|2tagid=SID_絶対化身・察知2
+|2effect=If unit's HP ≥ 50%, removes the condition to transform. If unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by X% (X = difference between Spd stats × 2; max 20).
+|2cost=120
+|2promotionTier=1
+|2promotionRarity=5
+|3name=Beast Sense 3
+|3tagid=SID_絶対化身・察知3
+|3effect=Removes the condition to transform. If unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by X% (X = difference between Spd stats × 3; max 30).
+|3cost=240
+|3next=-
+|4name=Beast Sense 4
+|4tagid=SID_絶対化身・察知4
+|4effect=Removes the condition to transform. Inflicts Spd/Def-4 on foe during combat. If a skill compares unit's Spd to a foe's or ally's Spd, treats unit's Spd as if granted +7. If unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by X% (X = difference between Spd stats × 4; max 40).
+|4cost=300
+}}
+==Notes==
+{{TransformConditionRemoval}}
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+{{Temporary debuffs|name=Beast Sense 4}}
+{{Phantom|Spd|name=Beast Sense 4}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Beast Sense
+|japanese=絶対化身・察知
+|german=Sinn der Bestie
+|spanishEU=Olfato de bestia
+|spanishLA=Olfato de bestia
+|french=Sens de bête
+|italian=Senso bestiale
+|chineseTW=絕對化身・察覺
+|portuguese=Sentido fera
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit_s Spd%foe_s Spd%reduces damage from%area-of-effect Specials%difference between stats%' AND Exclusive='1'}}
+* [[Beast Passives]]
+* [[Dodge Passives]]
+* [[Phantom Passives]]
+{{Passives Navbox|B}}

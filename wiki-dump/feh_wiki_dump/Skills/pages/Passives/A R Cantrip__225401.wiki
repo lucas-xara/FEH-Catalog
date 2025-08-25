@@ -1,0 +1,52 @@
+{{Passive
+|name=A/R Cantrip
+|type=B
+|exclusive=0
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=A/R Cantrip 3
+|alt1name=A R Cantrip 3
+|1tagid=SID_攻撃魔防の魅了3
+|1effect=If Sing or Dance is used, inflicts Atk/Res-7 and【Sabotage】on foes in cardinal directions of unit and target through their next actions.<br><br>【Sabotage】<br>Inflicts penalty on unit's Atk/Spd/Def/Res during combat = highest penalty on each stat between unit and allies within 2 spaces of unit through its next action. Calculates each stat penalty independently.
+|1cost=300
+|1required=Atk Cantrip 3;Res Cantrip 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{Eft|Penalties|Atk/Res|7}}
+|Se2={{SEt|Sabotage}}
+|SeT={{Tgt|Foes}} within<br>[[cardinal directions]]<br>of {{Tgt|Unit}} '''&'''<br>{{Tgt|Target Ally}}
+|SeC=A {{Uti|Dance}} [[Dance Assist]]<br>is used by {{Tgt|Unit}}
+}}
+==Notes==
+{{Penalties}}
+{{Sabotage}}
+{{CardinalDirections}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=A/R Cantrip
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%sing or dance%inflicts%cardinal%' AND Exclusive='1'}}
+* [[Skill families/B Passives#Cantrip|Cantrip Passives]]
+* [[Ruse Passives]]
+{{Passives Navbox|B}}
+[[Category:Cantrip Passives]]

@@ -1,0 +1,44 @@
+{{Special
+|tagid=SID_重装の大氷
+|intID=4760
+|exclusive=0
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|Armored}}
+|cost=500
+|cooldown=3
+|effect=Boosts damage by 40% of unit's Res when Special triggers. If foe's Range = 1 and unit or foe's Special is ready or triggered before or during this combat, reduces damage from foe's next attack by 40% (once per combat; excluding area-of-effect Specials).
+|required=Iceberg
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Damage Boost|40% of {{Tgt|Unit}}'s Res}}
+|Ce1C=Special triggers
+|Ce2={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s next attack
+|CeT={{Tgt|Unit}}
+|Ce2C={{Tgt|Foe}}'s Range = 1 '''&'''<br>({{Tgt|Unit}} or {{Tgt|Foe}}'s<br>Special is ready '''or'''<br>triggered before or<br>during combat)
+}}
+==Notes==
+{{DamageBoost}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=重装の大氷
+|german=Rüstgletscher
+|spanishEU=Glaciar blindado
+|spanishLA=Glaciar blindado
+|french=Glacier blindé
+|italian=Freddo corazzato
+|chineseTW=重裝之大冰
+|portuguese=Geleira blindada
+}}
+
+==See also==
+{{See also skills|cond=((SCategory='special' AND (Description LIKE '%of unit_s Def%' OR Description LIKE '%reduces damage from foe_s next attack%')) OR (Description LIKE '%special is ready%' OR Description LIKE '%special%triggered before or during%')) AND Exclusive='1' OR (SCategory='special' AND Name LIKE 'Armored%')}}
+{{Specials Navbox}}

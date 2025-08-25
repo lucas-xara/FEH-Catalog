@@ -1,0 +1,75 @@
+{{#invoke:NameAbout|main|Name=Robin}}{{HeroPage Tabs|{{PAGENAME}}}}
+{{Hero Infobox
+|Name= Robin
+|Title= Festive Tactician
+|GrowthModifier = Gen 2
+|WeaponType= Blue Lance
+|MoveType= Armored
+|Origin= Fire Emblem Awakening
+|Gender= Male
+|actorEN = David Vincent
+|actorJP=細谷佳正
+|artist=冨士原良
+|releaseDate = December 18, 2017
+|TagID=冬祭ルフレ男
+|InternalID=197
+|Person=Robin M
+|Properties=special,specRate_202202
+|cv1=10
+|cv2=100200
+|description=Chrom's right-hand man and a tactician who has amnesia. Spends all day thinking of plans for enjoying the winter festival. Appears in Fire Emblem Awakening.
+}}
+
+__TOC__
+
+{{Stats Page|Hero={{BASEPAGENAME}}
+|Lv1HP=23|Lv1ATK=9|Lv1SPD=8|Lv1DEF=9|Lv1RES=6
+|GRHP=50|GRATK=60|GRSPD=60|GRDEF=60|GRRES=45
+}}
+
+== Skills ==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Tannenboom!
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Tannenboom!+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+
+===Assists===
+{{Assists Table
+|assist1=Reciprocal Aid
+|assist1Default=4
+|assist1Unlock=3
+}}
+
+===Specials===
+{{Specials Table
+}}
+
+===Passives===
+{{Passives Table
+|passiveA1=Brazen Atk/Spd 1
+|passiveA2=Brazen Atk/Spd 2
+|passiveA3=Brazen Atk/Spd 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Armor March 1
+|passiveC2=Armor March 2
+|passiveC3=Armor March 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+
+{{Heroes Navbox}}
+[[Category:Christmas units]]

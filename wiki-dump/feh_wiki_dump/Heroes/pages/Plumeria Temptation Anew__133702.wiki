@@ -1,0 +1,69 @@
+{{#invoke:NameAbout|main|Name=Plumeria}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Plumeria
+|Title=Temptation Anew
+|WeaponType=Colorless Bow
+|MoveType=Flying
+|Origin=Fire Emblem Heroes
+|Gender=Female
+|actorEN=Nicole Gose
+|actorJP=堀江由衣
+|artist=teffish
+|additionDate=December 28, 2020
+|releaseDate=January 1, 2021
+|cv1=0
+|cv2=400500
+|TagID=年明プルメリア
+|InternalID=607
+|Properties=special,refresher,tiara,specRate_202402
+|description=A dökkálfr from Dökkálfheimr, the realm of nightmares. Delivers dreams crafted from mortal desires. In Askr for the New Year with enticing visions of broken resolutions.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=12|Lv1SPD=4|Lv1DEF=3|Lv1RES=4
+|GRHP=55|GRATK=70|GRSPD=30|GRDEF=35|GRRES=80
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Bow
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=First-Dream Bow
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Dance
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Sweet Dreams
+|assist2Unlock=5
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Close Ward
+|passiveA1Unlock=5
+|passiveB1=Quick Riposte 1
+|passiveB2=Quick Riposte 2
+|passiveB3=Quick Riposte 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Atk/Def Rein 1
+|passiveC2=Atk/Def Rein 2
+|passiveC3=Atk/Def Rein 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:New Year's units]]

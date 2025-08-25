@@ -1,0 +1,71 @@
+{{Weapon Infobox
+|tagid=SID_太陽槍
+|weaponType=Blue Lance
+|might=16
+|range=1
+|effect=Grants Res+3. When unit deals damage to foe during combat, restores 10 HP to unit. (Triggers even if 0 damage is dealt.)
+|cost=400
+|required=Silver Lance
+|exclusive=1
+|statModifiers=0,16,0,0,3
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Res+3. When unit deals damage to foe during combat, restores 14 HP to unit (triggers even if 0 damage is dealt). At start of combat, if unit's HP ≥ 25%, inflicts Atk/Def-5 on foe and reduces the effect of【Deep Wounds】by 50% during combat.<br><br>【Deep Wounds】<br>Unit's HP cannot be healed through its next action.
+|tagidExtraSkill1=一
+|effectSkill1=If unit is within 3 spaces of an ally, inflicts Atk/Def-5 on foe during combat, foe cannot make a follow-up attack, and also, if unit's HP ≥ 50% at start of combat, reduces damage from foe's first attack by 30%.
+|iconSkill1=Sol Lance W.png
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Res|3}}
+|s1 Ce1={{Eft|Heal|10}}<br>per {{Tgt|Unit}}'s attack
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Res|3}}
+|s2 Ce1={{Eft|Heal|14}}<br>per {{Tgt|Unit}}'s attack
+|s2 Ce2={{Eft|Temporary Debuffs|Atk/Def|5}}
+|s2 Ce2T={{Tgt|Foe}}
+|s2 Ce3={{Eft|Reduce Deep Wounds|50%}}
+|s2 Ce3T={{Tgt|Unit}}
+|s2 Ce2-3C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|skill3={{Si|Sol Lance|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary debuffs|Atk/Def|5}}
+|s3 Ce2={{Eft|Prevent Follow-Up}}
+|s3 Ce1-2T={{Tgt|Foe}}
+|s3 Ce3={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s first attack
+|s3 Ce1-2C=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|s3 Ce3C=(An {{Tgt|Ally}} is<br>[[within 3 spaces]]) '''&'''<br>{{Tgt|Unit}}'s HP ≥ 50%<br>at start of combat
+}}
+
+==Notes==
+{{CombatHPRecovery}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary debuffs|name=Refined Sol Lance}}
+{{CombatHPRecovery|DWreduction=50|name=Refined Sol Lance}}
+{{Prevent follow-up|name={{St|Sol Lance|refine=Skill1}}}}
+{{DamagePercentageReduction}}
+
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+* This weapon, in its home game [[Fire Emblem Echoes: Shadows of Valentia|Shadows of Valentia]], is known simply as "Sol."
+==In other languages==
+{{OtherLanguages
+|japanese=太陽
+|japaneseNotes=Has the same name as [[Sol]].
+|german=Sonnenlanze
+|spanishEU=Lanza Helios
+|spanishLA=Lanza Helios
+|french=Lance solaire
+|italian=Lancia Sole
+|chineseTW=太陽槍
+|portuguese=Lança sol
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%Reduces the effect of【Deep Wounds】by%') AND Exclusive='1'}}
+{{Weapons Navbox}}

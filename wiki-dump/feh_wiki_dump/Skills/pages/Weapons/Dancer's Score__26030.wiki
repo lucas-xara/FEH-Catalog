@@ -1,0 +1,38 @@
+{{Weapon Infobox
+|tagid=SID_楽譜
+|weaponType=Blue Tome
+|might=8
+|range=2
+|effect=If unit initiates combat, restores 7 HP to adjacent allies after combat.
+|cost=200
+|exclusive=0
+|userVersion1=Closed
+|userVersion2=Open
+|statModifiers=0,8,0,0,0
+|next=Dancer's Score+
+|promotionRarity=5
+|promotionTier=1
+|required=Elthunder;Ellight
+|properties=
+}}
+==Notes==
+* Has the same effect as {{St|Breath of Life 3}}.
+{{IfUnitInitiates}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=舞踏祭の楽譜
+|german=Tanzschrift
+|spanishEU=Partitura de baile
+|spanishLA=Partitura de baile
+|french=Partition festive
+|italian=Spartito d'arte
+|chineseTW=舞會樂章
+|portuguese=Solfa de dança
+}}
+==See also==
+* [[Performing Arts Weapons]]
+* [[Aura]]
+{{Weapons Navbox}}
+[[Category:Performing Arts weapons]]

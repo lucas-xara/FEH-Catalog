@@ -1,0 +1,62 @@
+{{Passive
+|name=Vengeful Fighter
+|type=B
+|exclusive=0
+|1name=Vengeful Fighter 1
+|1tagid=SID_迎撃隊形1
+|1promotionRarity=4
+|1promotionTier=1
+|1required=-
+|1effect=If unit's HP ≥ 90% and foe initiates combat, grants Special cooldown charge +1 per unit's attack, and unit makes a guaranteed follow-up attack. (Does not stack.)
+|1cost=60
+|2name=Vengeful Fighter 2
+|2tagid=SID_迎撃隊形2
+|2promotionRarity=5
+|2promotionTier=1
+|2effect=If unit's HP ≥ 70% and foe initiates combat, grants Special cooldown charge +1 per unit's attack, and unit makes a guaranteed follow-up attack. (Does not stack.)
+|2cost=120
+|3name=Vengeful Fighter 3
+|3tagid=SID_迎撃隊形3
+|3effect=If unit's HP ≥ 50% and foe initiates combat, grants Special cooldown charge +1 per unit's attack, and unit makes a guaranteed follow-up attack. (Does not stack.)
+|3cost=240
+|3next=-
+|4name=Vengeful Fighter 4
+|4tagid=SID_迎撃隊形4
+|4effect=If unit's HP ≥ 25% and foe initiates combat, inflicts Atk-4 on foe during combat, unit makes a guaranteed follow-up attack, foe cannot make a follow-up attack, and grants Special cooldown charge +1 to unit per attack during combat (only highest value applied; does not stack).
+|4cost=300
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|Armored}}
+|properties=random_owner
+}}
+==Notes==
+* The HP threshold applies both to the guaranteed follow-up attack '''and''' the Special [[cooldown]] charge +1.
+** The HP threshold is checked at start of combat, and the skill either applies throughout the entire combat, or not at all.
+{{IfFoeInitiates}}
+{{Guaranteed follow-up interaction}}
+{{CooldownChargePlus}}
+{{Temporary debuffs|name=Vengeful Fighter 4}}
+{{Prevent follow-up|name=Vengeful Fighter 4}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=迎撃隊形
+|japaneseNotes=''Interception formation''
+|german=Rachsucht
+|spanishEU=Vengativo
+|spanishLA=Vengativo
+|french=Rancune
+|italian=Vendetta
+|chineseTW=迎擊隊形
+|portuguese=Punição
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%foe initiates combat%foe cannot make a follow-up%unit makes a guaranteed follow-up%' OR Description LIKE '%foe initiates combat%unit makes a guaranteed follow-up%foe cannot make a follow-up%'}}
+* [[Fighter Passives]]
+{{Passives Navbox|B}}
+[[Category:Fighter Passives]]

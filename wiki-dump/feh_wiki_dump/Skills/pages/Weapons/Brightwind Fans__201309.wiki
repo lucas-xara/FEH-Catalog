@@ -1,0 +1,38 @@
+{{Weapon Infobox
+|tagid=SID_風舞う白夜の呪扇
+|intID=3775
+|image=wep_dg074
+|exclusive=1
+|weaponType=Dagger
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Enables【Canto (Dist.; Max ３)】.<br><br>Accelerates Special trigger (cooldown count-1). At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit, grants Atk/Spd+X to unit (X = 20% of unit's Spd at start of combat), and neutralizes effects that inflict "Special cooldown charge -X" on unit during combat, and also, if unit initiates combat, reduces damage from foe's first attack by 50% during combat, and unit's next attack deals damage = total damage reduced (by any source, including other skills; resets at end of combat).<br>Effect:【Dagger ７】<br><br>【Canto (Dist.; Max ３)】<br>After an attack, Assist skill, or structure destruction, unit can move spaces = number of spaces from start position to end position unit moved prior to taking action (max ３).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|required=Silver Dagger
+|properties=
+}}
+==Notes==
+{{Canto|Dist.; Max 3}}
+{{Temporary buffs}}
+{{At start of combat}}
+{{CooldownChargeMinusNeutralization}}
+{{DamageBoostFromDamageReduction}}
+{{IfUnitAttacked}}
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=風舞う白夜の呪扇
+|german=Windtanz
+|spanishEU=Viento hoshidano
+|spanishLA=Viento hoshidano
+|french=Éventails du vent
+|italian=Ventagli danzanti
+|chineseTW=隨風飛舞的白夜咒扇
+|portuguese=Leques galernos
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Canto (Dist.;%' OR Description LIKE '%grants Atk/%+%=%of unit_s%at start of combat%') AND (Exclusive=1 AND Name NOT LIKE '%+') OR Description LIKE '%reduces damage%next attack%'}}
+{{Weapons Navbox}}

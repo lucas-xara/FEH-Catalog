@@ -1,0 +1,77 @@
+{{#invoke:NameAbout|main|Name=Nergal}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Nergal
+|Title=Traitor to Nabata
+|WeaponType=Green Tome
+|MoveType=Infantry
+|Origin=Fire Emblem: The Blazing Blade
+|Gender=Male
+|actorEN=Major Attaway
+|actorJP=西垣俊作
+|artist=shibayama wankuro
+|randomStartTime=2024-06-08T07:00:00Z
+|additionDate=May 7, 2024
+|releaseDate=May 8, 2024
+|poolDate=June 7, 2024
+|poolRarities=5
+|cv1=6
+|cv2=2900100
+|TagID=闇ネルガル
+|InternalID=1094
+|Properties=hat,tiara,fallen
+|description=A fiend who steals human quintessence to create living constructs called morphs to do his bidding. Appears in Fire Emblem: The Blazing Blade.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=15|Lv1SPD=3|Lv1DEF=6|Lv1RES=10
+|GRHP=50|GRATK=70|GRSPD=30|GRDEF=75|GRRES=75
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Wind
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elwind
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Rexcalibur
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Ereshkigal
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Glacies
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Close Counter
+|passiveA2=C Bonus Doubler
+|passiveA1Unlock=4
+|passiveA2Unlock=5
+|passiveB1=Special Spiral 1
+|passiveB2=Special Spiral 2
+|passiveB3=Special Spiral 3
+|passiveB4=Special Spiral 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Def/Res Oath 1
+|passiveC2=Def/Res Oath 2
+|passiveC3=Def/Res Oath 3
+|passiveC4=Def/Res Oath 4
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}

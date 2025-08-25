@@ -1,0 +1,50 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_レベッカの猟弓
+|weaponType=Bow
+|might=14
+|range=2
+|effectiveness=Flying
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). Effective against flying foes.
+|cost=400
+|exclusive=1
+|userVersion1=Bow
+|userVersion2=Arrow
+|userVersion3=Gleam
+|statModifiers=0,14,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=50
+|refineDews=20
+|effectSkill1=If a bonus granted by a skill like Rally or Hone is active on unit, grants Atk/Spd/Def/Res+4 during combat.
+|iconSkill1=Rebeccas Bow W.png
+|tagidExtraSkill1=強
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|Flying}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{CombatBoostfromBonus}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|戦闘強化R被強化2|Combat Bonuses R Recieved Bonuses 2}}
+
+==In other languages==
+{{OtherLanguages
+|english=Rebecca's Bow
+|japanese=レベッカの猟弓
+|german=Rebeccas Bogen
+|spanishEU=Arco Rebecca
+|spanishLA=Arco Rebecca
+|french=Arc de Rebecca
+|italian=Arco di Rebecca
+|chineseTW=蕾貝卡的獵弓
+|portuguese=Arco Rebecca
+}}
+==See also==
+* [[Grado Poleax]]
+{{Weapons Navbox}}

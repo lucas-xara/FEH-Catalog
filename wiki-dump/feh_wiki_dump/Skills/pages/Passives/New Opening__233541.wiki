@@ -1,0 +1,55 @@
+{{Passive
+|name=New Opening
+|type=A
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=New Opening
+|1tagid=SID_開く者たちとの奇縁
+|1effect=If unit can transform, transformation effects gain "if unit is within 2 spaces of a beast or dragon ally, or if number of adjacent allies other than beast or dragon allies ≤ 2" as a trigger condition (in addition to existing conditions).<br><br>If defending in Aether Raids, at the start of enemy turn 1, if conditions for transforming are met, unit transforms.<br><br>If unit is transformed or if foe's HP ≥ 75% at start of combat, grants Atk/Spd/Def/Res+9 to unit, neutralizes effects that inflict "Special cooldown charge -X" on unit, unit deals +X damage (excluding area-of-effect Specials), reduces damage from foe's first attack by X ("first attack" normally means only the first strike; for effects that grant "unit attacks twice,"it means the first and second strikes), and reduces damage from foe's Specials by an additional X during combat (excluding area-of-effect Specials; X = number of spaces from start position to end position of whoever initiated combat × 4; max 12), and restores 7 HP to unit after combat.
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Added Transform Condition|if a {{Cwti|group=1|Dragon,Beast}} [[Dragon]]/[[Beast]]<br>{{Tgt|Ally}} is [[within 2 spaces]] '''or''' [[adjacent]]<br>non-[[Dragon]]/[[Beast]] {{Tgt|Allies}} ≤ 2}}
+|Me2={{Eft|AR-D Transform}}
+|Me2C=At start of<br>Enemy Turn 1
+|Me3={{Eft|Heal|7}}
+|Me3C=After combat if<br>{{Tgt|Unit}} is transformed<br>'''or'''{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|9}}
+|Ce2={{Eft|Neutralize Guard}}
+|Ce3={{Eft|Damage Boost|4 x Spaces {{Tgt|Unit}} moved|max=12}}
+|Ce4={{Eft|Damage Reduction|4 x Spaces {{Tgt|Unit}} moved|max=12}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce5={{Eft|Damage Reduction|4 x Spaces initiator moved|max=12}}<br>per {{Tgt|Foe}}'s [[offensive special]]
+|CeC={{Tgt|Unit}} is transformed<br>'''or'''{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+}}
+
+==Notes==
+{{TransformConditionAdd}}
+{{IfUnitTransforms}}
+{{Temporary buffs}}
+{{CooldownChargeMinusNeutralization}}
+{{FlatDamageBoost|X (max: 12)}}
+{{FlatDamageReduction|X (max: 12)}}
+{{SpacesFromStarttoEnd}}
+{{After combat healing}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%If unit can transform, transformation effects gain%' OR Description LIKE '%If defending in Aether Raids, at the start of enemy turn 1%' OR Description LIKE '%reduces damage%=%number of spaces from start position to end position%' OR Description LIKE '%reduces damage%=%number of spaces moved%') AND Description NOT LIKE '%transforms%if _ ≥ 5%' AND (Exclusive=1 AND Name NOT LIKE '%+' AND Properties HOLDS NOT 'arcane')}}
+* [[Skill families/A Passives#Fortune|Fortune Passives]]
+* [[Excel Passives]]
+{{Passives Navbox|A}}

@@ -1,0 +1,51 @@
+{{Passive
+|name=Tempest Burst
+|type=C
+|exclusive=0
+|canUseWeapon={{WeaponList|Close}}
+|canUseMove={{MoveList|Infantry}}
+|properties=random_owner
+|1name=Tempest Burst
+|1tagid=SID_迅雷風烈・初撃鼓動
+|1effect=At start of turn, unit can move 1 extra space (that turn only; does not stack).<br><br>Grants bonus to unit's Atk/Spd/Def/Res during combat = number of spaces from start position to end position of whoever initiated combat (max 3), and also, if unit's attack can trigger unit's Special, grants Special cooldown count-1 to unit before unit's first attack during combat.
+|1cost=300
+|1required=Odd Tempest 3;Even Tempest 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se={{SEt|Mobility Increased}}
+|SeC=At start of turn
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|Spaces initiator moved|max=3}}
+|Ce2={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Unit}}'s first attack
+|Ce2C={{Tgt|Unit}} has an<br>[[offensive Special]]
+}}
+==Notes==
+{{Mobility increased}}
+{{IfUnitInitiates}}
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+{{SpacesFromStarttoEnd}}
+{{CombatCooldownCount|-1}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%unit can move 1 extra space%') AND Description NOT LIKE '%transforms%' AND Description NOT LIKE '%inflict%【Stall】%' AND Exclusive='1'}}
+* [[Skill families/C Passives#Tempest|Tempest Passives]]
+* [[Clash Passives]]
+* [[Pulse Passives]]
+{{Passives Navbox|C}}

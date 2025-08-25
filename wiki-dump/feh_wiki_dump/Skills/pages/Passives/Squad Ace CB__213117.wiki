@@ -1,0 +1,55 @@
+{{Passive
+|name=Squad Ace CB
+|type=S
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|1name=Squad Ace CB 1
+|1tagid=SID_第80迷宮の覇者1
+|1effect=Grants Spd/Def/Res+1.
+|statModifiers1=0,0,1,1,1
+|1cost=120
+|1required=-
+|1next=-
+|2name=Squad Ace CB 2
+|2tagid=SID_第80迷宮の覇者2
+|2effect=Grants Spd/Def/Res+2.
+|statModifiers2=0,0,2,2,2
+|2cost=180
+|2next=-
+|3name=Squad Ace CB 3
+|3tagid=SID_第80迷宮の覇者3
+|3effect=Grants Spd/Def/Res+3.
+|statModifiers3=0,0,3,3,3
+|3cost=240
+}}
+==Seal acquired from==
+===Squad Assault reward===
+* Complete the [[80th Assault]].
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Squad Ace CB 1;Squad Ace CB 2;Squad Ace CB 3
+|badgeColor=Scarlet
+|costs1=-
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|english=Squad Ace CB
+|japanese=第８０迷宮の覇者
+|german=Überfall-Ass CB
+|spanishEU=As del asalto CB
+|spanishLA=As del asalto CB
+|french=Assaut réussi CB
+|italian=Asso sq. CB
+|chineseTW=第８０迷宮的霸王
+|portuguese=Esquad. ás CB
+}}
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}
+[[Category:Squad Ace Seals]]

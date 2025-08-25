@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Leo}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Leo
+|Title=Seashore's Prince
+|WeaponType=Red Tome
+|MoveType=Infantry
+|Origin=Fire Emblem Fates
+|Gender=Male
+|actorEN=Max Mittelman
+|actorJP=宮野真守
+|artist=Tobi
+|releaseDate=July 28, 2017
+|TagID=水着レオン
+|InternalID=156
+|Properties=special,specRate_202202
+|cv1=11
+|cv2=500800
+|description=A suntan-despising Nohrian prince who wields the divine tome Brynhildr. Loves red summer produce. Appears in Fire Emblem Fates.
+|GrowthModifier=None
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=8|Lv1SPD=5|Lv1DEF=6|Lv1RES=7
+|GRHP=45|GRATK=55|GRSPD=50|GRDEF=25|GRRES=65
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Flux
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Ruin
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Tomato Tome
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Tomato Tome+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Iceberg
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Seal Res 1
+|passiveB2=Seal Res 2
+|passiveB3=Seal Res 3
+|passiveB1Unlock=1
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveC1=Atk Ploy 1
+|passiveC2=Atk Ploy 2
+|passiveC3=Atk Ploy 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Summer units]]

@@ -1,0 +1,44 @@
+{{Special
+|tagid=SID_竜の咆哮
+|intID=4038
+|exclusive=0
+|canUseWeapon={{WeaponList|Dragon}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=3
+|effect=Boosts Special damage by 40% of unit's Res when Special triggers. If unit's or foe's Special is ready, or if unit's or foe's Special triggered before or during this combat, and also, if unit's Res ≥ foe's Res-4 during combat, reduces damage from foe's next attack by 40% (once per combat; excluding area-of-effect Specials).
+|required=Iceberg
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|ce1={{Eft|Damage Boost|percent=1|40% of {{Tgt|Unit}}'s Res}}
+|ce1c=Special triggers
+|ce2={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s next attack
+|ce2c=({{Tgt|Unit}} or {{Tgt|Foe}}'s<br>Special is ready '''or'''<br>triggered before or<br>during combat) '''&'''<br>{{Tgt|Unit}}'s Res ≥<br>{{Tgt|Foe}}'s Res -4
+}}
+==Notes==
+{{DamageBoost}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=竜の咆哮
+|german=Drachenschrei
+|spanishEU=Furia del dragón
+|spanishLA=Furia del dragón
+|french=Cri du Dragon
+|italian=Ruggito di drago
+|chineseTW=龍之咆哮
+|portuguese=Rugido do dragão
+}}
+==See also==
+{{See also skills|cond=SCategory='special' AND Exclusive='1' AND (Description LIKE '%of unit_s Res%' OR Description LIKE '%reduces damage from foe_s next attack%') OR (Description LIKE '%special is ready%' OR Description LIKE '%special%triggered before or during%') AND Exclusive='1'}}
+{{Specials Navbox}}

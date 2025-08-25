@@ -1,0 +1,98 @@
+{{Passive
+|name=Atk/Spd Ideal
+|type=A
+|exclusive=0
+|canUseMove={{MoveList|Infantry,Armored}}
+|canUseWeapon={{WeaponList|All}}
+|timingID=1
+|abilityID=272
+|randomTimestamp=2021-05-06T07:00:00Z
+|properties=random_owner
+|1name=Atk/Spd Ideal 1
+|alt1name=Atk Spd Ideal 1
+|1tagid=SID_攻撃速さの万全1
+|1effect=At start of combat, if unit's HP = 100% or if【Bonus】is active on unit, grants Atk/Spd+3 to unit during combat.<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|1required=-
+|1cost=60
+|1promotionRarity=4
+|1promotionTier=1
+|intID1=2508
+|sort1=22000
+|value1=2
+|randomMinLv1=21
+|randomMaxLv1=30
+|2name=Atk/Spd Ideal 2
+|alt2name=Atk Spd Ideal 2
+|2tagid=SID_攻撃速さの万全2
+|2effect=At start of combat, if unit's HP = 100% or if【Bonus】is active on unit, grants Atk/Spd+4 to unit during combat.<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|2required=Atk/Spd Ideal 1
+|2cost=120
+|2promotionRarity=5
+|2promotionTier=1
+|intID2=2509
+|sort2=22001
+|value2=4
+|randomMinLv2=26
+|randomMaxLv2=35
+|3name=Atk/Spd Ideal 3
+|alt3name=Atk Spd Ideal 3
+|3tagid=SID_攻撃速さの万全3
+|3effect=At start of combat, if unit's HP = 100% or if【Bonus】is active on unit, grants Atk/Spd+5 to unit during combat.<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|3required=Atk/Spd Ideal 2
+|3cost=240
+|3next=-
+|intID3=2510
+|sort3=22002
+|value3=6
+|randomMinLv3=31
+|4name=Atk/Spd Ideal 4
+|alt4name=Atk Spd Ideal 4
+|4tagid=SID_攻撃速さの万全4
+|4effect=At start of combat, if unit's HP = 100% or if【Bonus】is active on unit, grants Atk/Spd+7 to unit during combat. At start of combat, if unit's HP = 100% and【Bonus】is active on unit, grants an additional Atk/Spd+2 to unit during combat.<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|4required=Atk/Spd Ideal 3
+|4cost=300
+|intID4=2511
+|sort4=22003
+|value4=8
+|randomMinLv4=36
+}}
+==Notes==
+{{Temporary buffs}}
+{{EffectfromBonus}}
+
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Atk/Spd Ideal 1;Atk/Spd Ideal 2;Atk/Spd Ideal 3
+|badgeColor=Azure
+|costs1=20;100;20
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|english=Atk/Spd Ideal
+|japanese=攻撃速さの万全
+|german=Agr./Ges.-Ideal
+|spanishEU=Ata/Vel ideal
+|spanishLA=Atq./Vel. ideal
+|french=Idéal Atq/Vit
+|italian=Att/Vel ideali
+|chineseTW=攻擊速度萬全
+|portuguese=Atq./Vel. ideal
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit_s HP = 100%grants Atk/Spd+%' AND Description NOT LIKE '%if unit_s HP = 100%deals 1 damage to unit and%' OR Description LIKE '%if%bonus%active on unit%grants Atk/Spd+%during combat%'|columns=3}}
+* [[Skill families#Ideal|Ideal Passives]]
+{{Passives Navbox|A}}
+{{Seals Navbox}}

@@ -1,0 +1,54 @@
+{{Passive
+|name=Veðrfölnir's Wing
+|type=B
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Veðrfölnir's Wing
+|alt1name=Vedrfolnirs Wing
+|1tagid=SID_始祖の炎翼
+|1effect=Effect:【Pathfinder】<br><br>At start of turn, if unit is on a team with only 1 support partner, grants【Pathfinder】to support partner for 1 turn.<br><br>At start of turn, if unit is not on a team with support partner and if there is only 1 ally who has the highest Def, grants【Pathfinder】to that ally for 1 turn.<br><br>At start of combat, if unit's HP ≥ 25%, inflicts penalty on foe's Atk/Spd/Def = 5 + current bonus on each of foe's stats × 2 (calculates each stat penalty independently; example: if foe has a +7 bonus to Atk, inflicts Atk-19, for a net penalty of Atk-12), and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials), and restores 7 HP to unit after combat.<br><br>【Pathfinder】<br>When an ally moves through unit's space, that space is counted as 0 spaces moved instead of 1 space. (Unit's space can be freely added to ally's normal movement. Applies only to allies with movement types that allow movement through unit's space.)
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Pathfinder}}
+|Me2={{Eft|Heal|7}}
+|Me2C=After combat if<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce1={{Eft|Temporary debuffs|Atk/Spd/Def|5}}
+|Ce2={{Eft|Temporary debuffs|Atk/Spd/Def|2 x {{SEt|Bonuses}} on<br>each of {{Tgt|Foe}}'s stats}}
+|Ce3={{Eft|Reduce Damage Reduction|50%}}
+|CeT={{Tgt|Foe}}
+|CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Se={{SEt|Pathfinder}}
+|SeT={{Tgt|Partner}} '''or'''<br>{{Tgt|Ally}} with the<br>highest Def
+|SeC=At start of turn<br>if 1 {{Tgt|Partner}}<br>'''or''' 1 {{Tgt|Target Ally}}<br>is deployed
+}}
+==Notes==
+{{Pathfinder}}
+{{Pathfinder|statusEffect=1}}
+{{SupportPartner|effect={{SEt|Pathfinder}} to support partner}}
+{{TemporaryDebufffromBonus|source=the foe}}
+{{Reduce Damage Reduction|50%}}
+{{After combat healing}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{NorseMyth|name=Veðrfölnir|is the hawk that sits between the eyes of an unnamed eagle that sits on top of [[Wikipedia:Yggdrasil|Yggdrasil]].}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Pathfinder】%' AND Description NOT LIKE '%excluding%【Pathfinder】%' AND Description NOT LIKE '%【Schism】%' OR Description LIKE '%current penalty on each of those stats × 2%' OR Description LIKE '%inflicts penalty%current bonus on each of foe_s stats _ 2%') AND Exclusive='1' AND Name NOT LIKE '%reversal%'}}
+* [[Skill families/Weapons#Reversal|Reversal Weapons]]
+{{Passives Navbox|B}}

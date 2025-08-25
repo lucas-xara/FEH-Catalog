@@ -1,0 +1,43 @@
+{{SkillPage Tabs}}{{Passive
+|type=B
+|exclusive=0
+|1name=Geyser Dance 1
+|1tagid=SID_大地静水の舞い1
+|1promotionRarity=5
+|1promotionTier=1
+|1effect=If Sing or Dance is used, grants Def/Res+3 to target.
+|1cost=120
+|1required=Earth Dance 1;Torrent Dance 1
+|2name=Geyser Dance 2
+|2tagid=SID_大地静水の舞い2
+|2effect=If Sing or Dance is used, grants Def/Res+4 to target.
+|2cost=240
+|3name=
+|3effect=
+|3cost=
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|all}}
+|properties=random_owner
+}}
+==Notes==
+{{Dance passive interaction}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=大地静水の舞い
+|german=Geysirtanz
+|spanishEU=Géiser bailarín
+|spanishLA=Géiser bailarín
+|french=Danse geyser
+|italian=Danza geyser
+|chineseTW=大地靜水之舞
+|portuguese=Dança gêiser
+}}
+==See also==
+* [[Dance Passives]]
+{{Passives Navbox|B}}

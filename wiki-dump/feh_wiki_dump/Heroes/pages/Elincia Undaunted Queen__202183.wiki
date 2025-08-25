@@ -1,0 +1,76 @@
+{{#invoke:NameAbout|main|Name=Elincia}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Elincia
+|Title=Undaunted Queen
+|WeaponType=Red Sword
+|MoveType=Flying
+|Origin=Fire Emblem: Radiant Dawn
+|Gender=Female
+|LegendaryEffect=Wind
+|BoostHP=3
+|BoostRes=4
+|Duel=200
+|actorEN=Heather Gonzalez
+|actorJP=滝田樹里
+|artist=藤川祥
+|additionDate=September 28, 2023
+|releaseDate=September 28, 2023
+|cv1=9
+|cv2=200100
+|TagID=伝承エリンシア
+|InternalID=1003
+|Properties=legendary,tiara
+|description=A queen who always stood by her people and healed her country in the wake of war. Praised as Crimea's heart, she has earned her subjects' respect. Appears in Fire Emblem: Radiant Dawn.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=10|Lv1SPD=8|Lv1DEF=6|Lv1RES=12
+|GRHP=50|GRATK=80|GRSPD=90|GRDEF=40|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Absolute Amiti
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Dragon Fang
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Clash 1
+|passiveA2=Atk/Spd Clash 2
+|passiveA3=Atk/Spd Clash 3
+|passiveA4=Atk/Spd Clash 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Dive-Bomb 1
+|passiveB2=Dive-Bomb 2
+|passiveB3=Dive-Bomb 3
+|passiveB4=Aerial Maneuvers
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Heart of Crimea
+|passiveC1Unlock=5
+}}
+{{Heroes Navbox}}

@@ -1,0 +1,55 @@
+{{Passive
+|name=Surge Sparrow
+|type=A
+|exclusive=0
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|Close}}
+|intID=2705
+|sort=4103
+|value=8
+|timingID=28
+|abilityID=225
+|limit1ID=1
+|randomTimestamp=2021-09-17T07:00:00Z
+|randomMinLv=36
+|properties=random_owner
+|1name=Surge Sparrow
+|1tagid=SID_鬼神飛燕の迫撃3
+|1required=Swift Sparrow 2
+|1effect=If unit initiates combat, grants Atk/Spd+7 to unit during combat, and also, if unit deals damage to foe using a Special, restores HP = X% of unit's max HP (X = unit's max Special cooldown count value × 20, + 10; max 100). (Triggers even if 0 damage is dealt.)
+|1cost=300
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary buffs|Atk/Spd|7}}
+|CeC=Player Phase
+|Ce2={{Eft|Heal|20 x {{Tgt|Unit}}'s max<br>Special CD count, +10|percent=1|max=100%}} per<br>{{Tgt|Unit}}'s [[offensive Special]]
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{CombatHPRecovery}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=鬼神飛燕の迫撃
+|german=Dreister Spatz
+|spanishEU=Gorrión raudo
+|spanishLA=Gorrión raudo
+|french=Pic d'hirondelle
+|italian=Rondine scattante
+|chineseTW=鬼神飛燕迫擊
+|portuguese=Pardal certeiro
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%restores HP%of unit_s max HP%' OR Description LIKE '%restores%of unit_s maximum HP%' OR Description LIKE '%X = unit_s max special cooldown count value%') AND Exclusive='1'}}
+* [[Blow Passives]]
+* [[Skill families/A Passives#Surge|Surge Passives]]
+{{Passives Navbox|A}}
+[[Category:Surge Passives]]
+[[Category:Blow Passives]]

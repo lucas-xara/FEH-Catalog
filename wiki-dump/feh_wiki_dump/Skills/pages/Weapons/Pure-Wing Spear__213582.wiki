@@ -1,0 +1,58 @@
+{{Weapon Infobox
+|tagid=SID_純白ウイングスピア
+|intID=4065
+|image=wep_lc166
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effectiveness=Armored,Cavalry
+|effect=Accelerates Special trigger (cooldown count-1). Effective against armored and cavalry foes. At start of turn, if unit is within 2 spaces of an ally, grants Atk/Spd+6 and the following status to unit and allies within 2 spaces for 1 turn: "unit can move to a space adjacent to any ally within 2 spaces." If unit is within 3 spaces of an ally, grants bonus to unit's Atk/Spd/Def/Res during combat = number of allies within 3 spaces of unit × 3, + 5 (max 14), reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% (excluding area-of-effect Specials), reduces damage from attacks by 30% (excluding area-of-effect Specials), and also, if unit deals damage to foe during combat, restores X HP to unit (if foe is armored or cavalry, X = 14; otherwise, X = 7; triggers even if 0 damage is dealt).
+|required=Silver Lance
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|PermanentEffect={{Eft|Accelerates Special}}
+|Ce1={{Eft|Effectiveness|{{Mt|Armored}} & {{Mt|Cavalry}}<br>}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|3 x {{Tgt|Allies}}<br>[[within 3 spaces]], +5|max=14}}
+|Ce3={{Eft|Reduce Damage Reduction|50%}}
+|CeT3={{Tgt|Foe}}
+|Ce4={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s attacks
+|Ce5={{Eft|Heal|2=(14 if {{Tgt|Foe}} is<br>{{Mt|Armored}} or {{Mt|Cavalry}};<br>else, X = 7)}}<br>per {{Tgt|Unit}}'s attack
+|CeT4-5={{Tgt|Unit}}
+|CeC2-5=An {{Tgt|Ally}} is<br>[[within 3 spaces]]<br>of {{Tgt|Unit}}
+|Se1={{Eft|Bonus|Atk/Spd|6}}
+|Se2={{SEt|Air Orders}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=At start of turn<br>if {{Tgt|Unit}} is<br>[[within 2 spaces]]<br>of an {{Tgt|Ally}}
+}}
+
+==Notes==
+{{Effective damage bonus|armored,cavalry}}
+{{Bonuses}}
+{{Air Orders}}
+{{Temporary buffs}}
+{{Reduce Damage Reduction}}
+{{DamagePercentageReduction}}
+{{CombatHPRecovery}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=純白ウイングスピア
+|german=Weißlanze
+|spanishEU=Lanza límpida
+|spanishLA=Lanza intachable
+|french=Épieu immaculé
+|italian=Asta candida
+|chineseTW=純白羽翼之槍
+|portuguese=Lança imaculada
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%at start of turn%"%can move to%ally%within 2 spaces%' OR Description LIKE '%percentage of foe_s non-Special "reduce damage by X%" skills by 50%') AND Exclusive='1'}}
+* [[Null Passives]]
+* [[Tempo Passives]]
+{{Weapons Navbox}}

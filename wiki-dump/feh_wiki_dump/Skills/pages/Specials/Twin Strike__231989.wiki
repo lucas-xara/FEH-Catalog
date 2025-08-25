@@ -1,0 +1,43 @@
+{{Special
+|tagid=SID_ツインストライク
+|intID=4646
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=3
+|effect=Boosts damage by 60% of unit's Spd when Special triggers.<br><br>Unit attacks twice (even if foe initiates combat, unit attacks twice) and neutralizes effects that inflict "Special cooldown charge -X" on unit during combat.<br><br>If unit's or foe's Special is ready or triggered before or during this combat, reduces damage from foe's next attack by 40% (once per combat; excluding area-of-effect Specials).
+|required=Luna
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Damage Boost|60% of {{Tgt|Unit}}'s Spd}}
+|Ce1C=Special triggers
+|Ce2={{Eft|Attack Twice}}
+|Ce3={{Eft|Neutralize Guard}}
+|Ce4={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s next attack
+|Ce4C={{Tgt|Unit}} or {{Tgt|Foe}}'s<br>Special is ready '''or'''<br>triggered before or<br>during combat
+}}
+==Notes==
+{{DamageBoost}}
+{{AttackTwice}}
+{{CooldownChargeMinusNeutralization}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ツインストライク
+|german=Zwillingsschlag
+|spanishEU=Golpe gemelo
+|spanishLA=Golpe gemelo
+|french=Frappe jumelle
+|italian=Colpo gemello
+|chineseTW=雙流
+|portuguese=Golpe gêmeo
+}}
+
+==See also==
+{{See also skills|cond=(SCategory='special' AND (Description LIKE '%Boosts%damage by%60% of unit_s Spd%' OR Description LIKE '%neutralize%charge%-%')) AND Exclusive='1'}}
+{{Specials Navbox}}

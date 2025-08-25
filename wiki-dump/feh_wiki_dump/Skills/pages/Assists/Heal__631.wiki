@@ -1,0 +1,42 @@
+{{Assist
+|tagid=SID_ライブ
+|range=1
+|effect=Restores 5 HP to target ally.
+|cost=50
+|exclusive=0
+|next=Mend
+|promotionRarity=3
+|promotionTier=2
+|required=-
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|Staff}}
+|properties=random_all
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Heal|5}}
+|Me1T={{Tgt|Target Ally}}
+|MeC1={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}<br>'''or''' {{SEt|Deep Wounds}}
+}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==Gallery==
+<gallery>
+File:Weapon_Heal.png|Heal Sprite
+File:se_effect_live.flac|SE
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=ライブ
+|german=Heilung
+|spanishEU=Curar
+|spanishLA=Curar
+|french=Soin
+|italian=Cura
+|chineseTW=聖療
+|portuguese=Cura
+}}
+==See also==
+* [[Staff Assists]]
+{{Assists Navbox}}

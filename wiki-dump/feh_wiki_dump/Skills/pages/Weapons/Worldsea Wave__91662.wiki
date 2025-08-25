@@ -1,0 +1,48 @@
+{{Weapon Infobox
+|tagid=SID_四海の祭器
+|weaponType=Blue Tome
+|might=14
+|range=2
+|effect=Grants Spd+3. If unit's HP ≥ 50% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.
+|cost=400
+|exclusive=1
+|userVersion1=Closed
+|statModifiers=0,14,3,0,0
+|required=Shine
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Spd+3. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+5 to unit during combat, and also, if unit initiates combat, unit can make a follow-up attack before foe can counterattack.
+|tagidExtraSkill1=一
+|effectSkill1=If unit initiates combat or is within 2 spaces of an ally, grants bonus to unit's Atk/Spd during combat = 5 + 40% of total bonuses on unit and foe (max +10). If unit initiates combat and unit's Spd ≥ foe's Spd+10, neutralizes effects that prevent unit's follow-up attacks.
+|iconSkill1=Worldsea Wave W.png
+|properties=
+}}
+==Notes==
+{{Follow-up before counterattack}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{CombatBoostfromBonus|multiSource=1|bnsSource=the unit and foe|source=the unit and foe|percent=40%}}
+{{Follow-up effect neutralization|preventsOnly=1}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+File:V3.6 86 summer05 Mag.webp|Sprite sheet for {{St|Buoyboard+}} and Worldsea Wave's animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=四海の祭器
+|german=Weltmeerwelle
+|spanishEU=Ola colosal
+|spanishLA=Ola colosal
+|french=Onde océanique
+|italian=Onda oceanica
+|chineseTW=四海祭器
+|portuguese=Onda do mar
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If unit_s HP ≥%can make a follow-up attack before foe can counterattack%' OR Description LIKE '%grants%Atk/%during combat%=%total bonus%' AND Description NOT LIKE '%lower of%' AND Description NOT LIKE '%penalty%' AND Description NOT LIKE '%Atk during combat%'}}
+{{Weapons Navbox}}

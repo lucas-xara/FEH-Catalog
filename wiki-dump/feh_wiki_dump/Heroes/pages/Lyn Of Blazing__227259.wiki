@@ -1,0 +1,84 @@
+{{#invoke:NameAbout|main|Name=Lyn}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Lyn
+|Title=Of Blazing
+|WeaponType=Green Bow
+|MoveType=Infantry
+|Origin=Fire Emblem: The Blazing Blade,Fire Emblem Engage
+|Gender=Female
+|emblemEffect=When Special triggers, boosts damage by unit's max Special cooldown count value × 4 (excluding area-of-effect Specials).<br><br>Unit can use the following【Style】:<br>――――― Emblem Lyn Style ―――――<br>Unit can attack foes within 5 spaces of unit and 3 rows or 3 columns centered on unit regardless of unit's range. Unit suffers a counterattack if any of the following conditions are met: foe is armored with Range = 2, foe can counterattack regardless of unit's range, foe's Range is the same as the distance between unit and the foe.<br><br>Unit cannot move or attack structures, after-combat movement effects do not occur, unit's area-of-effect Specials cannot be triggered, and remaining movement granted from Canto is treated as 0. Skill effect's Range is treated as 2, including by skill effects determined by attack Range, like Pavise and Aegis. This Style can be used only when unit's Range = 2, cannot be used on the first turn, and once used, cannot be used for two turns.<br>――――――――――――――――――――<br><br>【Style】<br>Change Style using the Style button at the bottom of the screen.<br><br>A unit's Style is only active when that unit is taking an action. When unit is equipped with a skill that has a Style, unit will not be able to use skills like Duo Skills or Harmonized Skills. Style use is disabled when unit is deployed using Pair Up or when unit is equipped with multiple skills that have a Style.
+|actorEN=Wendee Lee
+|actorJP=大本眞基子
+|artist=エシュアル
+|additionDate=December 25, 2024
+|releaseDate=December 25, 2024
+|entry=6;14
+|cv1=6
+|cv2=100200
+|TagID=紋章リン
+|InternalID=1185
+|Properties=emblem,tiara
+|description=One of the Emblems who were summoned to Elyos. Resides in the Ring of the Lady of the Plains. Appears in Fire Emblem: The Blazing Blade / Fire Emblem Engage.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=11|Lv1SPD=9|Lv1DEF=7|Lv1RES=9
+|GRHP=50|GRATK=80|GRSPD=90|GRDEF=50|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Bow
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Lady's Bow
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Astra
+|special2Unlock=4
+|special3=Astra Storm
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Finish 1
+|passiveA2=Atk/Spd Finish 2
+|passiveA3=Atk/Spd Finish 3
+|passiveA4=Atk/Spd Finish 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Speedtaker 1
+|passiveB2=Speedtaker 2
+|passiveB3=Speedtaker 3
+|passiveB4=Speedtaker 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Panic Smoke 1
+|passiveC2=Panic Smoke 2
+|passiveC3=Panic Smoke 3
+|passiveC4=Panic Smoke 4
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Sources of damage-boosting effects]]
+[[Category:Sources of Style]]

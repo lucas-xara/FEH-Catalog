@@ -1,0 +1,47 @@
+{{Weapon Infobox
+|tagid=SID_義勇の槍
+|weaponType=Lance
+|might=16
+|range=1
+|effectiveness=armored
+|effect=Accelerates Special trigger (cooldown count-1). Effective against armored foes.
+|cooldown=-1
+|cost=400
+|exclusive=1
+|userVersion1=Weapon
+|userVersion2=Gleam
+|statModifiers=0,16,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If foe initiates combat, grants Spd/Def+4 during combat.
+|iconSkill1=Steady Posture W.png
+|tagidExtraSkill1=構
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|armored}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+* {{St|Dauntless Lance|refine=skill1}} has the same effect as {{St|Steady Posture 2}}.
+{{IfFoeInitiates}}
+{{Temporary buffs|name={{St|Dauntless Lance|refine=skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=義勇の槍
+|german=Kühne Lanze
+|spanishEU=Lanza intrépida
+|spanishLA=Lanza intrépida
+|french=Lance intrépide
+|italian=Lancia intrepida
+|chineseTW=義勇之槍
+|portuguese=Lança intrépida
+}}
+==See also==
+* [[Sources of effective against armored foes]]
+{{Weapons Navbox}}

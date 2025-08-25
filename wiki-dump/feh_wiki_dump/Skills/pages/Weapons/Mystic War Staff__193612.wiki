@@ -1,0 +1,41 @@
+{{Weapon Infobox
+|tagid=SID_戦神の天杖
+|intID=3550
+|image=wep_rd055
+|exclusive=1
+|weaponType=Colorless Staff
+|cost=400
+|might=14
+|range=2
+|effect=Grants Atk+3. Calculates damage from staff like other weapons. At start of turn, if unit is within 2 spaces of an ally, grants Def/Res+6 and "foe cannot make a follow-up attack" to unit and allies within 2 spaces of unit for 1 turn. If unit is within 3 spaces of an ally, grants Atk/Res+6 to unit and unit makes a guaranteed follow-up attack during combat.
+|statModifiers=0,17,0,0,0
+|required=Assault
+|properties=
+}}
+==Notes==
+* Has the same effect as {{St|Wrathful Staff}}.
+{{Wrathful Staff}}
+{{Bonuses}}
+{{Foe Cannot Follow-Up}}
+{{Temporary buffs}}
+{{Guaranteed follow-up interaction}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V7.4_v0704a_child_Rod.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=戦神の天杖
+|german=Mystik-Kriegsstab
+|spanishEU=Bastón bél. fervor
+|spanishLA=Bastón bél. fervor
+|french=Bâton belliqueux
+|italian=Bastone di guerra
+|chineseTW=戰神的天杖
+|portuguese=Bastão místico
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%at start of turn%grants%+%unit and allies within _ spaces%' AND Description NOT LIKE '%restores%HP%unit and allies within _ spaces%' OR Description LIKE '%at start of turn%"foe cannot make a follow-up attack%'}}
+{{Weapons Navbox}}

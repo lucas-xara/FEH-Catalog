@@ -1,0 +1,47 @@
+{{Special
+|tagid=SID_車懸
+|intID=3916
+|exclusive=0
+|canUseWeapon={{WeaponList|Melee}}
+|canUseMove={{MoveList|Infantry,Cavalry,Flying}}
+|cost=500
+|cooldown=3
+|effect=Boosts damage by X% of unit's Atk when Special triggers (if foe is armored, X = 40; otherwise, X = 30). If Special triggers, neutralizes foe's "reduces damage by X%" effects from non-Special skills.
+|required=Draconic Aura
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{Eft|Damage Boost|percent=1|(40% if against an<br>{{Mt|Armored}} {{Tgt|Foe}};<br>else 30%) of {{Tgt|Unit}}'s Atk}}
+|CombatEffect 1-2 Conditions=Special triggers
+|CombatEffect 2={{Eft|Neutralize Damage Reduction}}
+|CombatEffect 2 Targets={{Tgt|Foe}}
+}}
+
+==Notes==
+{{AtkDamageBoost}}
+{{DamageReductionNeutralization}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Gallery==
+<gallery>
+V8.0_v0800b_winter_Skl.webp|Sprite sheet for {{PAGENAME}}'s animation
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=車懸
+|german=Keine Gnade
+|spanishEU=Sin cuartel
+|spanishLA=Sin cuartel
+|french=Pas de quartier
+|italian=Ondata tattica
+|chineseTW=車懸
+|portuguese=Sem trégua
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%disables%reduce%damage by x%' OR Description LIKE '%neutralizes%reduce%damage by x%') AND Description LIKE '%non-Special%' AND Description NOT LIKE '%reduces the percentage%'}}
+{{Specials Navbox}}

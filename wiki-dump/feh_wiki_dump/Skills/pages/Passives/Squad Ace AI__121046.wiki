@@ -1,0 +1,49 @@
+{{SkillPage Tabs}}{{Passive
+|name=Squad Ace AI
+|type=S
+|exclusive=0
+|1name=Squad Ace AI 1
+|1tagid=SID_第35迷宮の覇者1
+|1effect=Grants Atk/Spd+1.
+|1cost=80
+|1required=-
+|1next=-
+|2name=Squad Ace AI 2
+|2tagid=SID_第35迷宮の覇者2
+|2effect=Grants Atk/Spd+2.
+|2cost=160
+|statModifiers1=0,1,1,0,0
+|statModifiers2=0,2,2,0,0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=
+}}
+==Seal acquired from==
+===Squad Assault reward===
+* Complete the [[35th Assault]].
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Squad Ace AI 1;Squad Ace AI 2
+|badgeColor=Azure
+|costs1=-
+|costs2=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|english=Squad Ace AI
+|japanese=第３５迷宮の覇者
+|german=Überfall-Ass AI
+|spanishEU=As del asalto AI
+|spanishLA=As del asalto AI
+|french=Assaut réussi AI
+|italian=Asso sq. AI
+|chineseTW=第３５迷宮的霸王
+|portuguese=Esquadrão ás AI
+}}
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}
+[[Category:Squad Ace Seals]]

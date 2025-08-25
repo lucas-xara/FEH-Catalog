@@ -1,0 +1,54 @@
+{{Weapon Infobox
+|tagid=SID_世界樹の栗鼠の尻尾
+|intID=3903
+|exclusive=1
+|weaponType=Beast
+|canUseMove=Cavalry
+|cost=400
+|might=14
+|range=1
+|cooldown=-1
+|effect=Enables【Canto (２)】.<br><br>Accelerates Special trigger (cooldown count-1). At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit, grants Atk/Spd+X to unit (X = 9, - 3 × number of allies with HP ≤ 40%; min 0), grants Special cooldown charge +1 to unit per attack (only highest value applied; does not stack), and reduces damage from foe's first attack by 40% during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes). At start of turn, if unit is adjacent to only beast or dragon allies or is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 to unit, inflicts Atk/Def-Y on foe during combat (Y = number of spaces from start position to end position of whoever initiated combat, + 3; max 6), and also, if Y ≥ 5, reduces damage from foe's first attack by 30% during combat.<br><br>【Canto (２)】<br>After an attack, Assist skill, or structure destruction, unit can move ２ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|required=Adult (Cavalry)
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe1={{Eft|Accelerates Special}}
+|Pe2={{Eft|Stat Boosts|Atk|2}}
+|Pe2C={{Tgt|Unit}} is transformed
+|Me1={{Eft|Canto|2}}
+|Me2={{Eft|Transform}}
+|Me2C=At start of turn if<br>{{Tgt|Unit}} is [[adjacent]] to only<br>{{Cwti|group=1|Beast,Dragon}} [[Dragon]]/[[Beast]]<br>{{Tgt|Allies}} '''or''' not [[adjacent]]<br>to any {{Tgt|Ally}}
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|9 - (3 x {{Tgt|Allies}} with HP ≤ 40%)|min=0}}
+|Ce2={{Eft|Special Cooldown Charge +1}}
+|Ce3={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce1-3C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce4={{Eft|Temporary debuffs|Atk/Def|Spaces initiator moved + 3|max=6}}
+|Ce4T={{Tgt|Foe}}
+|Ce4C={{Tgt|Unit}} is transformed
+|Ce5={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s first attack
+|Ce5C={{Tgt|Unit}} is transformed '''&'''<br>Spaces initiator moved ≥ 2
+}}
+==Notes==
+{{Canto|2}}
+{{Temporary buffs}}
+{{CooldownChargePlus}}
+{{DamagePercentageReduction}}
+{{Beast (Cavalry)}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=世界樹の栗鼠の尻尾
+|german=Yggdrasil-Schweif
+|spanishEU=Cola de Yggdrasill
+|spanishLA=Cola de Yggdrasill
+|french=Queue Yggdrasill
+|italian=Coda di Yggdrasill
+|chineseTW=世界樹松鼠的尾巴
+|portuguese=Cauda da árvore
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants%number of allies with HP%' AND Exclusive='1'}}
+{{Weapons Navbox}}

@@ -1,0 +1,72 @@
+{{#invoke:NameAbout|main|Name=Ranulf}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Ranulf
+|Title=Friend of Nations
+|GrowthModifier=Gen 3
+|WeaponType=Green Beast
+|Origin=Fire Emblem: Radiant Dawn
+|Gender=Male
+|MoveType=Cavalry
+|actorJP=鈴木達央
+|actorEN=Armen Taylor
+|artist=めか
+|additionDate=2019-04-09
+|releaseDate=2019-04-10
+|poolDate=2019-04-27
+|randomStartTime=2019-05-10T07:00:00Z
+|poolRarities=5
+|TagID=ライ
+|InternalID=361
+|Properties=specRate_202202
+|cv1=9
+|cv2=400400
+|description=A cat warrior from Gallia, the home of the beast tribe of laguz. Though young, his king trusts him deeply. Considered the right hand of the future king. Appears in Fire Emblem: Radiant Dawn.
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=8|Lv1SPD=11|Lv1DEF=7|Lv1RES=4
+|GRHP=55|GRATK=50|GRSPD=60|GRDEF=60|GRRES=30
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Whelp (Cavalry)
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Yearling (Cavalry)
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Adult (Cavalry)
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Covert Cat Fang
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Rally Defense
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Rally Atk/Def
+|assist2Unlock=4
+|assist3=Rally Atk/Def+
+|assist3Unlock=5
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveB1=Chill Atk 1
+|passiveB2=Chill Atk 2
+|passiveB3=Chill Atk 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Spur Def 1
+|passiveC2=Spur Def 2
+|passiveC3=Ward Beasts
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

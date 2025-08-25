@@ -1,0 +1,34 @@
+{{SkillPage Tabs}}{{Passive
+|name=Impenetrable Dark
+|type=C
+|exclusive=1
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|1name=Impenetrable Dark
+|1tagid=SID_見通せぬ深き暗闇
+|1effect=During combat, disables skills of all foes excluding foe in combat.
+|1required=-
+|1cost=300
+|properties=random_owner
+}}
+==Notes==
+{{CombatEffectNeutralization}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Impenetrable Dark
+|japanese=見通せぬ深き暗闇
+|german=Tiefe Dunkelheit
+|spanishEU=Calígine total
+|spanishLA=Calígine total
+|french=Ténèbres opaques
+|italian=Pura oscurità
+|chineseTW=無法看透的深邃黑暗
+|portuguese=Treva impérvia
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%disables skills of all%excluding%' AND WikiName NOT LIKE '%Feud%') OR Description LIKE '%【Feud】%'|columns=3}}
+* [[Feud Passives]]
+{{Passives Navbox|C}}

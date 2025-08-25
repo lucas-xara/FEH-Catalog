@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Lyon}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Lyon
+|Title=Sunlit Prince
+|WeaponType=Red Sword
+|MoveType=Infantry
+|Origin=Fire Emblem: The Sacred Stones
+|Gender=Male
+|actorEN=Mark P. Whitten
+|actorJP=中村悠一
+|artist=hou
+|additionDate=July 7, 2022
+|releaseDate=July 7, 2022
+|cv1=7
+|cv2=300100
+|TagID=水着リオン
+|InternalID=825
+|Properties=special
+|description=Prince of Grado who has made his way to the tropics after receiving an invite from his old friend, Eirika. Appears in Fire Emblem: The Sacred Stones.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=12|Lv1SPD=6|Lv1DEF=9|Lv1RES=9
+|GRHP=55|GRATK=70|GRSPD=35|GRDEF=65|GRRES=70
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Coral Saber
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Coral Saber+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Moonbow
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Def Ideal 1
+|passiveA2=Atk/Def Ideal 2
+|passiveA3=Atk/Def Ideal 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=Lull Atk/Def 1
+|passiveB2=Lull Atk/Def 2
+|passiveB3=Lull Atk/Def 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Summer units]]

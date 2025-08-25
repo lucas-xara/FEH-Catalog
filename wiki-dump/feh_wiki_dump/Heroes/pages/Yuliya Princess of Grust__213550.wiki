@@ -1,0 +1,79 @@
+{{#invoke:NameAbout|main|Name=Yuliya}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Yuliya
+|Title=Princess of Grust
+|WeaponType=Colorless Staff
+|MoveType=Infantry
+|Origin=Fire Emblem: Mystery of the Emblem
+|Gender=Female
+|actorEN=Lexi Fontaine
+|actorJP=稲垣好
+|artist=恒星ホリグチ
+|randomStartTime=2024-04-15T07:00:00Z
+|additionDate=March 15, 2024
+|releaseDate=March 15, 2024
+|poolDate=April 5, 2024
+|poolRarities=3,4
+|cv1=1
+|cv2=700100
+|TagID=ユミナ
+|InternalID=1076
+|Properties=
+|description=Surviving member of the royal family of Grust, and sister to a twin. After the War of Shadows, Wendell took her under his protection. Appears in Fire Emblem: Mystery of the Emblem.
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=11|Lv1SPD=7|Lv1DEF=6|Lv1RES=12
+|GRHP=50|GRATK=70|GRSPD=90|GRDEF=35|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Assault
+|weapon1Unlock=1
+|weapon2=Sunlight
+|weapon2Unlock=3
+|weapon3=Sunlight+
+|weapon3Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Heal
+|assist1Default=1
+|assist1Unlock=1
+|assist2=Mend
+|assist2Default=3
+|assist2Unlock=2
+|assist3=Physic
+|assist3Default=4
+|assist3Unlock=3
+|assist4=Physic+
+|assist4Default=5
+|assist4Unlock=5
+}}
+===Specials===
+{{Specials Table
+|special1=Imbue
+|special1Default=4
+|special1Unlock=2
+|special2=Still-Water Balm
+|special2Default=5
+|special2Unlock=3
+|special3=Deluge Balm
+|special3Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Spd/Res Finish 1
+|passiveA2=Spd/Res Finish 2
+|passiveA3=Spd/Res Finish 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Atk/Def Gap 1
+|passiveC2=Atk/Def Gap 2
+|passiveC3=Atk/Def Gap 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

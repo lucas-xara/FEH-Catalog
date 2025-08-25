@@ -1,0 +1,55 @@
+{{About|the weapon|the story chapter|Book III, Chapter 1: Death/Story}}
+{{Weapon Infobox
+|tagid=SID_デス
+|weaponType=Blue Tome
+|might=14
+|range=2
+|effect=Grants Res+3. Grants Atk/Spd/Def/Res+4 during combat. After combat, if unit attacked, deals 4 damage to unit.
+|cost=400
+|exclusive=1
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|statModifiers=0,14,0,0,3
+|required=Thoron
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Res+3. Grants Atk/Spd/Def/Res+5 to unit during combat, inflicts penalty on foe's Spd/Res during combat = unit's max Special cooldown count value + 1 (minimum penalty of 1; if unit does not have a Special skill, penalty = 1), and neutralizes foe's bonuses to Spd/Res (from skills like Fortify, Rally, etc.) during combat. After combat, if unit attacked, deals 4 damage to unit.
+|tagidExtraSkill1=一
+|effectSkill1=Unit can move to a space within 2 spaces of any ally within 2 spaces. At start of combat, if foe's HP ≥ 75%, grants Atk/Spd/Def/Res+4 to unit during combat.
+|iconSkill1=Death W.png
+|properties=random_owner
+}}
+==Notes==
+{{Temporary buffs}}
+{{IfUnitAttacked}}
+{{DamageToUnit}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary debuffs}}
+{{Bonus neutralization}}
+{{Warp interaction}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+v3.5_83_dark02_Mag.png|Sprite sheet for {{St|Razing Breath}}, {{St|Savage Breath}} and {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=デス
+|german=Tod
+|spanishEU=Agonía
+|spanishLA=Agonía
+|french=Agonie
+|italian=Morte
+|chineseTW=死神
+|portuguese=Morte
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grant%+%during combat%if unit attacked%deal%damage%unit%' AND Exclusive='1' OR Description LIKE '%penalty on foe_s%=%max special cooldown%' OR Description LIKE '%Unit can move to a space within 2 spaces of any ally within 2 spaces%'}}
+{{Weapons Navbox}}

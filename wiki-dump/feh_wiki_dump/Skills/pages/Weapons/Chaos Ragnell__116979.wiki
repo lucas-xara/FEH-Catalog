@@ -1,0 +1,70 @@
+{{Weapon Infobox
+|tagid=SID_混沌ラグネル
+|weaponType=Sword
+|might=16
+|range=1
+|effect=Unit can counterattack regardless of foe's range. Grants bonus to Atk/Spd/Def/Res during combat = current penalty on each of unit's stats × 2. (Example: if unit has -7 penalty to Atk, grants Atk+14, for a net bonus of Atk+7.) Calculates each stat bonus independently.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Silver Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Unit can counterattack regardless of foe's range.<br><br>Grants Atk/Spd/Def/Res+4 to unit during combat. Grants bonus to unit's Atk/Spd/Def/Res during combat = current penalty on each of unit's stats × 2 (example: if unit has -7 penalty to Atk, grants Atk+18, for a net bonus of Atk+11; calculates each stat bonus independently). Neutralizes effects that inflict "Special cooldown charge-X" on unit during combat.
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit and reduces damage from foe's first attack by 7 during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and also, when unit's Special triggers, neutralizes foe's "reduces damage by X%" effects from foe's non-Special skills (excluding when dealing damage with an area-of-effect Special).<br><br>At start of combat, if unit's HP ≥ 25% and unit's attack can trigger unit's Special, grants Special cooldown count-X to unit before unit's first attack during combat (X = 50% of unit's max Special cooldown count value).
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Ce1={{Eft|Distant Counter}}
+|s1 Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|2 x {{SEt|penalties}} on<br>each of {{Tgt|Unit}}'s stats}}
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Ce1={{Eft|Distant Counter}}
+|s2 Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s2 Ce3={{Eft|Temporary buffs|Atk/Spd/Def/Res|2 x {{SEt|penalties}} on<br>each of {{Tgt|Unit}}'s stats}}
+|s2 Ce4={{Eft|Neutralize Guard}}
+|skill3={{Si|Chaos Ragnell|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s3 Ce2={{Eft|Damage Reduction|7}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|s3 Ce3={{Eft|Neutralize Damage Reduction}}<br>per {{Tgt|Unit}}'s [[offensive special]]
+|s3 Ce3T={{Tgt|Foe}}
+|s3 Ce4={{Eft|Reduce Cooldown|50% of {{Tgt|Unit}}'s max<br>[[offensive special]] CD}}<br>before {{Tgt|Unit}}'s first attack
+|s3 Ce4T={{Tgt|Unit}}
+|s3 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+* Chaos Ragnell has the same effect as {{St|Distant Counter}}.
+{{TemporaryBufffromPenalty|source=the unit|ptySource=the unit}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{CooldownChargeMinusNeutralization|name=Refined Chaos Ragnell}}
+{{FlatDamageReduction|7}}
+{{DamageReductionNeutralization}}
+{{CombatCooldownCount|1=-X (50% of Unit's max cooldown count)|name={{St|Chaos Ragnell|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Chaos Ragnell
+|japanese=混沌ラグネル
+|german=Chaos-Ragnell
+|spanishEU=Ragnell del caos
+|spanishLA=Ragnell del caos
+|french=Ragnell du chaos
+|italian=Ragnell caotica
+|chineseTW=混沌瑞格內爾
+|portuguese=Ragnell do caos
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=WikiName LIKE '%Ragnell%' OR Description LIKE '%current penalty on each of%stats × 2%' AND (Exclusive=1 AND Name NOT LIKE '%+' AND Properties HOLDS NOT 'arcane')}}
+* [[Unity Passives]]
+* [[Weapons with Distant Counter]]
+* [[Sources of flat damage-reduction]]
+* [[Sources of damage-reduction neutralization]]
+{{Weapons Navbox}}

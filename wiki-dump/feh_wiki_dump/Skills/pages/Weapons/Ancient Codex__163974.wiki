@@ -1,0 +1,54 @@
+{{Weapon Infobox
+|tagid=SID_古代魔道の稀書
+|intID=2901
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|exclusive=1
+|weaponType=Red Tome
+|cost=400
+|might=14
+|range=2
+|effect=If unit is within 3 spaces of an ally, deals damage = 20% of the greater of unit's Res or foe's Res and grants Atk/Res+5 to unit during combat.
+|statModifiers=0,14,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|tagidExtraSkill1=一
+|effectSkill1=At the start of turns 1 through 3, grants Special cooldown count-1 to unit. At start of combat, if foe's HP ≥ 75%, grants Atk/Res+5 to unit during combat.
+|iconSkill1=Ancient Codex W.png
+|properties=
+}}
+==Notes==
+{{DamageBoost}}
+{{Temporary buffs}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Start of turn Special modification|name={{St|Ancient Codex|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V6.1_v0601a_seima_Mag.webp|Sprite sheet for {{St|Argent Aura}} and {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=古代魔道の稀書
+|german=Alte Magie
+|spanishEU=Códice vetusto
+|spanishLA=Códice vetusto
+|french=Codex ancien
+|italian=Codice arcaico
+|chineseTW=古代魔道的珍本
+|portuguese=Códice vetusto
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%deals damage =%of%foe\'s Res%' OR Description LIKE '%start of turn 1%grants special cooldown count-_ to unit%' AND Exclusive='1' OR Description LIKE '%if foe\'s HP ≥%grants Atk/Res+%during combat%' AND WikiName NOT LIKE '%lion%'}}
+* [[Skill families#Lion|Lion Weapons]]
+{{Weapons Navbox}}

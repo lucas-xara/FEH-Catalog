@@ -1,0 +1,60 @@
+{{Weapon Infobox
+|tagid=SID_夏夜の悪夢の角
+|weaponType=Beast
+|canUseMove=Cavalry
+|might=14
+|range=1
+|effect=Grants Spd+3. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 during combat, and also, if unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 4 (max 40%).<br><br>At start of combat, if unit's HP ≥ 25% while transformed, neutralizes effects that prevent unit's follow-up attacks during combat.<br><br>At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,3,0,0
+|required=Adult (Cavalry)
+|intID=2645
+|sort=561
+|value=20
+|timingID=1
+|abilityID=182
+|limit1ID=42
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe1={{Eft|Stat Boosts|Spd|3}}
+|Pe2={{Eft|Stat Boosts|Atk|2}}
+|PeC2={{Tgt|Unit}} is transformed
+|Me={{Eft|Transform}}
+|MeC=At start of turn if<br>{{Tgt|Unit}} is [[adjacent]] to only<br>{{Cwti|group=1|Dragon,Beast}} [[Dragon]]/[[Beast]]<br>{{Tgt|Allies}} '''or''' not [[adjacent]]<br>to any {{Tgt|Ally}}
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce1C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce2={{Eft|Damage Reduction|4 x ({{Tgt|Unit}}'s Spd - {{Tgt|Foe)}}'s Spd)<br>from attacks & Non-Røkkr [[AoE Specials]]|percent=1|max=40%}}
+|Ce2C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' {{Tgt|Unit}}'s Spd ><br>{{Tgt|Foe}}'s Spd
+|Ce3={{Eft|Neutralize Prevent Follow-Ups}}
+|Ce3C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat '''&'''<br>{{Tgt|Unit}} is transformed
+|Ce4={{Eft|Temporary debuffs|Atk/Def|4}}
+|Ce5={{Eft|Prevent Follow-Ups}}
+|Ce4-5T={{Tgt|Foe}}
+|Ce4-5C=Player Phase '''&'''<br>{{Tgt|Unit}} is transformed
+}}
+==Notes==
+{{Temporary buffs}}
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+{{Follow-up effect neutralization|preventOnly=1}}
+{{Beast (Cavalry)}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=夏夜の悪夢の角
+|german=Sommeralbtraum
+|spanishEU=Cuerno verandilla
+|spanishLA=Cuerno pesadilla
+|french=Corne conchemar
+|italian=Incubicorno
+|chineseTW=夏夜惡夢之角
+|portuguese=Chifre distópico
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit_s Spd > foe_s Spd%reduces damage from attacks during combat%' AND Description NOT LIKE '%【Dodge】%' AND Exclusive='1'}}
+* [[Dodge Passives]]
+{{Weapons Navbox}}

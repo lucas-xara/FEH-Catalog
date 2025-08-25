@@ -1,0 +1,30 @@
+{{Special
+|tagid=SID_凶星
+|charge=2
+|effect=Boosts damage dealt by 50%.
+|cost=200
+|required=Night Sky
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_all,offensive_special
+}}
+==Notes==
+{{DamageBoost}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==Trivia==
+* Glimmer's cooldown was reduced by 1 with {{Version|2}}, released on November 28th, 2017.
+==In other languages==
+{{OtherLanguages
+|japanese=凶星
+|german=Schimmer
+|spanishEU=Destello
+|spanishLA=Destello
+|french=Lueur
+|italian=Lucore
+|chineseTW=凶星
+|portuguese=Lucilo
+}}
+{{Specials Navbox}}

@@ -1,0 +1,48 @@
+{{Special
+|tagid=SID_双氷の聖鏡
+|intID=4327
+|exclusive=1
+|canUseWeapon={{WeaponList|Close}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=2
+|effect=When Special triggers, if foe is 2 spaces from unit, reduces damage from foe's attacks by 40%.<br><br>After Special triggers, unit's next attack deals damage = total damage reduced (by any source, including other skills; resets at end of combat; min 40% of unit's Res) and neutralizes foe's "reduces damage by X%" effects from foe's non-Special skills for that attack (resets at end of combat).<br><br>Unit can counterattack regardless of foe's range during combat.
+|required=Sacred Cowl
+|properties=random_owner,defensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s attack
+|Ce1C=Special triggers '''&'''<br>{{Tgt|Foe}} is 2 spaces<br>from {{Tgt|Unit}}
+|Ce2={{Eft|Damage Boost|total damage reduced|min=<br>40% of {{Tgt|Unit}}'s Res}}<br>for {{Tgt|Unit}}'s next attack<br>(including other sources)
+|Ce3={{Eft|Neutralize Damage Reduction}}<br>on {{Tgt|Unit}}'s next attack
+|Ce2-3C=After Special triggers
+|Ce4={{Eft|Distant Counter}}
+}}
+
+==Notes==
+* Dual Ice Mirrors has the same effect as {{St|Distant Counter}}.
+{{DamageBoostFromDamageReduction|afterAttack=1|special=1}}
+{{DamageReductionNeutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%reduces damage%unit_s next attack%damage reduced%' OR Description LIKE '%unit_s attac% triggers unit_s special%neutralize%"reduces damage by X%' OR (Description LIKE '%counterattack regardless of%range%' AND (SCategory!='Weapon' AND Name NOT LIKE 'Distant%' AND Name NOT LIKE 'Close%') AND (Exclusive='1' OR SCategory='captain'))}}
+* [[Defensive Specials]]
+* [[Counter Passives]]
+* [[Counter Seals]]
+* [[Prime Passives]]
+* [[Weapons with Distant Counter]]
+* [[Weapons with Close Counter]]
+{{Specials Navbox}}

@@ -1,0 +1,72 @@
+{{#invoke:NameAbout|main|Name=Est}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Est
+|Title=Junior Whitewing
+|GrowthModifier=None
+|WeaponType=Blue Lance
+|Origin=Fire Emblem: Mystery of the Emblem
+|Gender=Female
+|MoveType=Flying
+|actorEN=Brianna Knickerbocker
+|actorJP=村川梨衣
+|artist=みわべさくら
+|resplendentArtist=紺藤ココン
+|releaseDate=February 2, 2017
+|poolDate=February 2, 2017
+|randomStartTime=2017-02-02T07:00:00Z
+|poolRarities=3,4
+|TagID=エスト
+|InternalID=42
+|cv1=1
+|cv2=400600
+|description=Youngest of three sisters who are pegasus knights for Macedon. Appears in Fire Emblem: Mystery of the Emblem.
+|Properties=resplendent,ljosalfheimr
+|resplendentStartTime=2022-01-10T07:00:00Z
+|resplendentEndTime=2022-01-25T06:59:59Z
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=9|Lv1SPD=8|Lv1DEF=5|Lv1RES=8
+|GRHP=45|GRATK=60|GRSPD=50|GRDEF=45|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Heavy Spear
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Heavy Spear+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Whitewing Spear
+|weapon5Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Shove
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Defiant Res 1
+|passiveA2=Defiant Res 2
+|passiveA3=Defiant Res 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=Seal Spd 1
+|passiveB2=Seal Spd 2
+|passiveB3=Seal Spd 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+{{Heroes Navbox}}

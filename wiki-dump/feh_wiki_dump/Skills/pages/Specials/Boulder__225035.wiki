@@ -1,0 +1,42 @@
+{{Special
+|tagid=SID_巨岩
+|intID=4416
+|exclusive=0
+|canUseWeapon={{WeaponList|Melee}}
+|canUseMove={{MoveList|Infantry}}
+|cost=500
+|cooldown=3
+|effect=Boosts Special damage by 50% of unit's Def when Special triggers.<br><br>If unit's or foe's Special is ready, or unit's or foe's Special triggered before or during this combat, and also, if unit's Def ≥ foe's Def-4 during combat, reduces damage from foe's next attack by 40% (once per combat; excluding area-of-effect Specials).
+|required=Bonfire
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Damage Boost|50% of {{Tgt|Unit}}'s Def}}
+|Ce1C=Special triggers
+|Ce2={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s next attack
+|Ce2C=({{Tgt|Unit}} or {{Tgt|Foe}}'s<br>Special is ready '''or'''<br>triggered before or<br>during combat) '''&'''<br>{{Tgt|Unit}}'s Def ≥<br>{{Tgt|Foe}}'s Def-4
+}}
+==Notes==
+{{DamageBoost}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=((SCategory='special' AND Description LIKE '%reduces damage from foe_s next attack%') OR (Description LIKE '%special is ready%' OR Description LIKE '%special%triggered before or during%')) AND (Exclusive='1' AND Name NOT LIKE '%+' AND Properties HOLDS NOT 'arcane')}}
+{{Specials Navbox}}

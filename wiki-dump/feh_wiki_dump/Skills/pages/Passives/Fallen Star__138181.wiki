@@ -1,0 +1,77 @@
+{{About|the passive skill|the [[status effect]]|Fallen Star (status effect)}}{{Passive
+|name=Fallen Star
+|type=B
+|exclusive=1
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|intID=2458
+|sort=509
+|effectRange=1
+|value=8
+|timingID=15
+|abilityID=266
+|limit1ID=1
+|randomTimestamp=2021-03-26T07:00:00Z
+|randomMinLv=31
+|properties=random_owner
+|1name=Fallen Star
+|1tagid=SID_落星
+|1effect=If unit initiates combat, reduces damage from foe's first attack by 80% during combat, and after combat, grants【Fallen Star】to unit and inflicts【Gravity】on target and foes within 1 space of target.<br><br>【Fallen Star】<br>For 1 turn, during unit's first combat in player phase and enemy phase, reduces damage from foe's first attack by 80%.<br><br>【Gravity】<br>Restricts target's movement to 1 space through its next action.
+|1required=-
+|1next=-
+|2name=Fallen Star II
+|2tagid=SID_落星・承
+|2effect=If unit initiates combat or【Deep Star】is active on unit, inflicts Spd/Def-5 on foe, unit deals +X × 5 damage (max 25; excluding area-of-effect Specials), and reduces damage from foe's first attack by X × 3 during combat (max 15; X = number of【Bonus】effects active on unit, excluding stat bonuses + number of【Penalty】effects active on foe, excluding stat penalties). If unit initiates combat, reduces damage from foe's first attack by 80% during combat. ("First attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes.)<br><br>If unit initiates combat, grants【Deep Star】to unit and inflicts【Gravity】on target and foes within 1 space of target after combat.<br><br>【Deep Star】<br>For 1 turn, if it is unit's first combat initiated by foe that turn, reduces damage from foe's first attack by 80% during combat (that turn only; "first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes).<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).<br><br>【Gravity】<br>Restricts target's movement to 1 space through its next action.
+|2cost=300
+|properties2=
+|1cost=300
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Fallen Star}} Fallen Star
+|s1 Se1={{SEt|Fallen Star}}
+|s1 Se2={{SEt|Gravity}}
+|s1 Se2T={{Tgt|Target Foe}} &<br>{{Tgt|Foes}} [[adjacent]]<br>to {{Tgt|Target Foe}}
+|s1 SeC=After combat<br>in Player Phase
+|s1 Ce={{Eft|Damage Reduction|80%}}<br>from {{Tgt|Foe}}'s first attack
+|s1 CeC=Player Phase
+|skill2={{Si|Fallen Star II}} Fallen Star II
+|s2 Se1={{SEt|Deep Star}}
+|s2 Se2={{SEt|Gravity}}
+|s2 Se2T={{Tgt|Target Foe}} '''&'''<br>{{Tgt|Foes}} [[adjacent]]<br>to {{Tgt|Target Foe}}
+|s2 SeC=After combat<br>in Player Phase
+|s2 Ce1={{Eft|Temporary Debuffs|Spd/Def|5}}
+|s2 Ce2={{Eft|Damage Boost|5 x ({{Kp|Bonus}} effects<br>on {{Tgt|Unit}} '''&''' {{Kp|Penalty}}<br>effects on {{Tgt|Foe}}), +5<br>(exc. {{SEt|Bonuses}} '''&''' {{SEt|Penalties}})|max=25}}
+|s2 Ce3={{Eft|Damage Reduction|3 x ({{Kp|Bonus}} effects<br>on {{Tgt|Unit}} '''&''' {{Kp|Penalty}}<br>effects on {{Tgt|Foe}}), +5<br>(exc. {{SEt|Bonuses}} '''&''' {{SEt|Penalties}})|max=15}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|s2 Ce4={{Eft|Damage Reduction|80%}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|s2 CeC=Player Phase '''or'''<br>{{SEt|Deep Star}} is<br>active on {{Tgt|Unit}}
+}}
+
+==Notes==
+{{IfUnitInitiates}}
+{{DamagePercentageReduction}}
+{{Fallen Star}}
+{{Gravity}}
+{{Temporary debuffs|name=Fallen Star II}}
+{{FlatDamage|name=Fallen Star II}}
+{{FlatDamageReduction|name=Fallen Star II}}
+{{EffectfromBonus|damage boost and flat damage reduction|nonStat=1|name=Fallen Star II}}
+{{EffectfromPenalty|damage boost and flat damage reduction|nonStat=1|name=Fallen Star II}}
+{{Deep Star|name=Fallen Star II}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=落星
+|german=Gefallener Stern
+|spanishEU=Astro caído
+|spanishLA=Astro caído
+|french=Astre déchu
+|italian=Astro Caduto
+|chineseTW=落星
+|portuguese=Estrela caída
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Fallen Star】%' OR Description LIKE '%【Deep Star】%' OR Description LIKE '%Gravity%target and foes within 1 space%' OR Description LIKE '%target and foes within 1 space%restricting movement%' OR Description LIKE '%number of%Bonus%effects active on unit%') AND (Exclusive='1' AND Name NOT LIKE '%+' AND Properties HOLDS NOT 'arcane')}}
+{{Passives Navbox|B}}

@@ -1,0 +1,61 @@
+{{Weapon Infobox
+|tagid=SID_草原の公女の弓
+|intID=4489
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=1
+|weaponType=Bow
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effectiveness=Flying
+|effect=Accelerates Special trigger (cooldown count-1).<br>Effective against flying foes.<br><br>At start of turn, if unit is within 2 spaces of an ally, grants Atk/Spd+6,【Desperation】, and 【Preempt Pulse】to unit and allies within 2 spaces of unit for 1 turn.<br><br>If unit is within 3 spaces of an ally, grants bonus to unit's Atk/Spd = 6 + 20% of unit's Spd at start of combat, deals +7 damage (excluding area-of-effect Specials), and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials), and also, if decreasing the Spd difference necessary to make a follow-up attack by 25 would allow unit to trigger a follow-up attack (excluding guaranteed or prevented follow-ups), triggers【Potent Follow X%】 during combat (if unit cannot perform follow-up and attack twice, X = 80; otherwise, X = 40).<br><br>【Desperation】<br>Grants the following effect for 1 turn: "If unit initiates combat, unit can make a follow-up attack before foe can counterattack."<br><br>【Preempt Pulse】<br>Grants Special cooldown count-1 to unit before unit's first attack during combat.<br><br>【Potent Follow X%】<br>Triggers an additional follow-up attack immediately after unit's standard follow-up attack and deals damage = X% of unit's normal attack damage (if unit cannot make a follow-up attack, this effect triggers when the standard follow-up attack would occur; this effect is treated like a follow-up attack, so effects like "reduce damage by X%" still apply, but this effect is not affected by effects that prevent follow-ups or "attacks twice" effects; only highest value applied; does not stack).
+|required=Silver Bow
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Se1={{Eft|Bonuses|Atk/Spd|6}}
+|Se2={{SEt|Desperation}}
+|Se3={{SEt|Preempt Pulse}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=At start of turn<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd|6 + 20% of {{Tgt|Unit}}'s Spd<br>at start of combat}}
+|Ce3={{Eft|Damage Boost|7}}
+|Ce4={{Eft|Reduce Damage Reduction|50%}}
+|Ce4T={{Tgt|Foe}}
+|Ce2-4C=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|Ce5={{Eft|Potent Follow X%|2=80% if {{Tgt|Unit}} can't<br>[[follow-up]] '''&''' [[attack twice]];<br>else, X = 40%}}
+|Ce5T={{Tgt|Unit}}
+|Ce5C=An {{Tgt|Ally}} is<br>[[within 3 spaces]]<br>'''&''' {{Tgt|Unit}}'s Spd ≥<br>{{Tgt|Foe}}'s Spd-20
+}}
+
+==Notes==
+{{Effective damage bonus|Flying}}
+{{Bonuses}}
+{{Desperation}}
+{{Preempt Pulse}}
+{{Temporary buffs}}
+{{At start of combat}}
+{{FlatDamageBoost|7}}
+{{Reduce Damage Reduction}}
+{{Potent Follow|X%}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【Potent Follow%】%' OR (Description LIKE '%【Desperation】%' OR Description LIKE '%【Preempt Pulse】%') AND Exclusive='1'}}
+{{Weapons Navbox}}

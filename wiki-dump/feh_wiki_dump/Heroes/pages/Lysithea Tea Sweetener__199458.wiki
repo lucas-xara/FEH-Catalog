@@ -1,0 +1,73 @@
+{{#invoke:NameAbout|main|Name=Lysithea}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Lysithea
+|Title=Tea Sweetener
+|WeaponType=Colorless Tome
+|MoveType=Flying
+|Origin=Fire Emblem: Three Houses
+|Gender=Female
+|actorEN=Janice Kawaye
+|actorJP=悠木碧
+|artist=雨傘ゆん
+|additionDate=August 7, 2023
+|releaseDate=August 8, 2023
+|cv1=12
+|cv2=400500
+|TagID=お茶会リシテア
+|InternalID=982
+|Properties=special
+|description=Daughter of Count Ordelia and noble of the Leicester Alliance. Renowned for her brilliance, she is trying her hand at the role of waitress. Appears in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=11|Lv1SPD=16|Lv1DEF=3|Lv1RES=3
+|GRHP=50|GRATK=80|GRSPD=70|GRDEF=40|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Stone
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elstone
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Atlas (weapon)
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Baked Treats
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Glimmer
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Mastermind
+|passiveA1Unlock=5
+|passiveB1=Desperation 1
+|passiveB2=Desperation 2
+|passiveB3=Desperation 3
+|passiveB4=Desperation 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Atk/Spd Oath 1
+|passiveC2=Atk/Spd Oath 2
+|passiveC3=Atk/Spd Oath 3
+|passiveC4=Atk/Spd Oath 4
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Tea Party units]]

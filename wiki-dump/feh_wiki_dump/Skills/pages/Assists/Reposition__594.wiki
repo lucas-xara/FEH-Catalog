@@ -1,0 +1,38 @@
+{{Assist
+|tagid=SID_引き戻し
+|name=Reposition
+|range=1
+|effect=Target ally moves to opposite side of unit.
+|cost=150
+|exclusive=0
+|required=-
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_all,random_inherit_base
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Reposition Units}}
+|MeT={{Tgt|Target Ally}}
+|MeC={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}
+}}
+
+==Notes==
+{{Movement skill notes|notBeforeRokkr=1}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==In other languages==
+{{OtherLanguages
+|japanese=引き戻し
+|german=Verlegung
+|spanishEU=Refugio
+|spanishLA=Refugio
+|french=Pivot
+|italian=Spostamento
+|chineseTW=帶回
+|portuguese=Refúgio
+}}
+==See also==
+* [[Movement Assists]]
+{{Assists Navbox}}

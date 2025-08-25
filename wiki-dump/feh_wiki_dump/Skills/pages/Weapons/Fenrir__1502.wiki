@@ -1,0 +1,36 @@
+{{Weapon Infobox
+|tagid=SID_ノスフェラート
+|weaponType=Red Tome
+|weaponName={{PAGENAME}}
+|might=9
+|range=2
+|effect=
+|cost=200
+|exclusive=0
+|userVersion1=Closed|userVersion2=Open|statModifiers=0,9,0,0,0
+|next=Fenrir+
+|promotionRarity=5
+|promotionTier=1
+|required=Ruin
+|SE=se_effect_nosferatu.flac
+|properties=random_all
+}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=ノスフェラート
+|german=Fenrir
+|spanishEU=Fenrir
+|spanishLA=Fenrir
+|french=Fenrir
+|italian=Fenrir
+|chineseTW=地獄之炎
+|portuguese=Fenrir
+}}
+==See also==
+* [[Silver Weapons]]
+{{Weapons Navbox}}
+[[Category:Silver weapons]]

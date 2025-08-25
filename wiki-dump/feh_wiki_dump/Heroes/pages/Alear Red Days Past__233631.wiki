@@ -1,0 +1,83 @@
+{{#invoke:NameAbout|main|Name=Alear}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Alear
+|Title=Red Days Past
+|WeaponType=Green Breath
+|MoveType=Armored
+|Person=Alear F
+|Origin=Fire Emblem Engage
+|Gender=Female
+|actorEN=遠藤綾
+|actorJP=遠藤綾
+|artist=kainown
+|additionDate=May 7, 2025
+|releaseDate=May 7, 2025
+|poolDate=June 6, 2025
+|poolRarities=5
+|cv1=14
+|cv2=100200
+|TagID=闇リュール女
+|InternalID=1238
+|Properties=fallen,notRandomized
+|description=One of the Fell Dragon's countless children. At her father's command, she desires the Emblem Rings. Appears in Fire Emblem Engage.
+}}
+{{Stats Page
+|Lv1HP=21|Lv1ATK=9|Lv1SPD=3|Lv1DEF=10|Lv1RES=10
+|GRHP=70|GRATK=90|GRSPD=35|GRDEF=80|GRRES=90
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire Breath
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Fire Breath+
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Flametongue
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Fell Child's Arts
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Glimmer
+|special2Unlock=4
+|special3=Fell Blast
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Water Boost 1
+|passiveA2=Water Boost 2
+|passiveA3=Water Boost 3
+|passiveA4=Diluvial Boost
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Special Fighter 1
+|passiveB2=Special Fighter 2
+|passiveB3=Special Fighter 3
+|passiveB4=Scowling Fighter
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Distant Guard 1
+|passiveC2=Distant Guard 2
+|passiveC3=Distant Guard 3
+|passiveC4=Higher Ground
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}

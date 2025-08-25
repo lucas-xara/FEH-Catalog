@@ -1,0 +1,63 @@
+{{Weapon Infobox
+|tagid=SID_ノヴァ
+|intID=4584
+|userVersion1=Closed
+|userVersion2=Open
+|exclusive=1
+|weaponType=Green Tome
+|cost=400
+|might=9
+|range=2
+|effect=Enables【Canto (Ally 5)】. Grants Atk+3.<br><br>If unit initiates combat, unit attacks twice.<br><br>For each foe within 5 spaces of unit, unit can move to any of the nearest spaces that are two spaces away from that foe (unless space is impassable terrain).<br><br>At start of turn, inflicts Atk/Res-7 and 【Sabotage】on closest foes and any foes within 2 spaces of those foes through their next actions.<br><br>If either unit or foe has an active【Bonus】 or【Penalty】effect, grants bonus to unit's Atk/Res during combat = 20% of unit's Res at start of combat + 6.<br><br>【Canto (Ally 5)】<br>After an attack, Assist skill, or structure destruction, unit can move to a space adjacent to any ally within 5 spaces.<br><br>(Once per turn. Cannot attack or assist. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Granted movement treated as Warp movement.)<br><br>【Sabotage】<br>Inflicts penalty on unit's Atk/Spd/Def/Res during combat = highest penalty on each stat between unit and allies within 2 spaces of unit through its next action. Calculates each stat penalty independently.<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|statModifiers=0,12,0,0,0
+|required=Rexcalibur
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Stat Boosts|Atk|3}}
+|Se1={{Eft|Penalties|Atk/Res|7}}
+|Se2={{SEt|Sabotage}}
+|SeT=Closest {{Tgt|Foes}}<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}
+|SeC=At start of turn
+|Me1={{Eft|Canto|Ally 5}}
+|Me2={{Eft|Warp|nearest=1|2 spaces from {{Tgt|Foes}}<br>[[within 5 spaces]]}}
+|Ce1={{Eft|Attack Twice}}
+|Ce1C=Player Phase
+|Ce2={{Eft|Temporary buffs|Atk/Res|20% of {{Tgt|Unit}}'s Res<br>at start of combat, + 6}}
+|Ce2C=A {{Kp|Bonus}} effect<br>'''or''' a {{Kp|Penalty}}<br>effect is active on<br>{{Tgt|Unit}} '''or''' {{Tgt|Foe}}
+}}
+
+==Notes==
+{{Canto|Ally 5}}
+{{IfUnitInitiates}}
+{{AttackTwice}}
+{{Warp interaction}}
+{{Penalties}}
+{{Sabotage}}
+{{TemporaryBufffromPenalty}}
+{{At start of combat}}
+{{EffectfromBonusPenalty|temporary buffs|target=unit or foe}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V9.2_v0902b_engage_Mag_2.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=ノヴァ
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%【Canto (Ally%)】%' OR Description LIKE '%unit can move to%nearest spaces%that foe%') AND Exclusive='1'}}
+* [[Brave Weapons]]
+{{Weapons Navbox}}

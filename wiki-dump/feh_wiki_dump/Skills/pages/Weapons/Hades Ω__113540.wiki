@@ -1,0 +1,80 @@
+{{Weapon Infobox
+|tagid=SID_ハデスΩ
+|weaponType=Red Tome
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). If unit initiates combat, grants Atk/Spd+4 during combat, and if unit's Special is ready, grants an additional Atk+6 during combat.
+|cost=400
+|exclusive=1
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|statModifiers=0,14,0,0,0
+|required=Bolganone;Fenrir
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1). If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd+5 to unit and neutralizes unit's penalties to Atk/Spd during combat, and also, if unit is equipped with a Special and unit's Special cooldown count ≤ 2 at start of combat, grants an additional Atk/Spd+7 to unit during combat.
+|refineStatsSkill1=0,0,0,0,0
+|effectSkill1=If unit initiates combat or foe's Range = 2, grants Atk/Spd+5 to unit, unit deals damage = 20% of unit's Spd (excluding area-of-effect Specials), and neutralizes foe's bonuses to Spd/Res (from skills like Fortify, Rally, etc.) during combat, and also, if unit's attack can trigger unit's Special, grants Special cooldown count-1 to unit before unit's first attack during combat.
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Accelerates Special}}
+|s1 Ce1={{Eft|Temporary buffs|Atk/Spd|4}}
+|s1 CeC1=Player Phase
+|s1 Ce2={{Eft|Temporary buffs|Atk|6}}
+|s1 CeC2=Player Phase '''&'''<br>{{Tgt|Unit}}'s Special<br>is ready
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 PermanentEffect={{Eft|Accelerates Special}}
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd|5}}
+|s2 CeC1=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s2 Ce2={{Eft|Temporary buffs|Atk/Spd|7}}
+|s2 CeC2=({{Eft|Temporary buffs|Atk/Spd|5}}<br>conditions) '''&'''<br>{{Tgt|Unit}}'s Special<br>CD count ≤ 2<br>at start of combat
+|skill3={{Si|Hades Ω|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd|5}}
+|s3 Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|s3 Ce3={{Eft|Neutralize Bonuses|Spd/Res}}
+|s3 CeT3={{Tgt|Foe}}
+|s3 CeC1-3=Player Phase '''or'''<br>{{Tgt|Foe}}'s Range = 2
+|s3 Ce4={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Unit}}'s first attack
+|s3 CeT4={{Tgt|Unit}}
+|s3 CeC4=(Player Phase '''or'''<br>{{Tgt|Foe}}'s Range = 2)<br>'''&''' {{Tgt|Unit}} has an<br>[[offensive special]]
+}}
+
+==Notes==
+* Hades Ω has the same effect as {{St|Swift Sparrow 2}}.
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{DamageBoost|name={{St|Hades Ω|refine=Skill1}}}}
+{{Bonus neutralization|name={{St|Hades Ω|refine=Skill1}}}}
+{{CombatCooldownCount|-1|name={{St|Hades Ω|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V4.3_200301_abc_Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=ハデスΩ
+|german=Hades Ω
+|spanishEU=Hades Ω
+|spanishLA=Hades Ω
+|french=Hades Ω
+|italian=Abisso Ω
+|chineseTW=黑帝斯Ω
+|portuguese=Hades Ω
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%if special is ready%' OR Description LIKE '%if unit_s special is ready%' OR Description LIKE '%Special cooldown count-_ to unit%before unit_s first attack%' OR Description LIKE '%if unit is equipped with a Special and unit_s Special cooldown count%') AND Exclusive='1'}}
+* [[Skill families/A Passives#Finish|Finish Passives]]
+{{Weapons Navbox}}

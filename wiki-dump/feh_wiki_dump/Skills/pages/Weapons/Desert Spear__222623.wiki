@@ -1,0 +1,59 @@
+{{Weapon Infobox
+|tagid=SID_闘いの熱砂の槍
+|intID=4334
+|image=wep_lc179
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). Unit can counterattack regardless of foe's range.<br><br>Foes with Range = 1 cannot move through spaces adjacent to unit (does not affect foes with Pass skills). Foes with Range = 2 cannot move through spaces within 2 spaces of unit (does not affect foes with Pass skills).<br><br>For allies within 3 spaces of unit, grants Spd/Def+4 during combat, and also, when foe's attack triggers foe's Special, reduces damage from foe's attacks by 10 during that ally's combat (excluding area-of-effect Specials).<br><br>If unit is within 3 spaces of an ally, grants bonus to unit's Atk/Spd/Def/Res = 5 + 15% of unit's Def at start of combat, and neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat, and also, when foe's attack triggers foe's Special, reduces damage from foe's attacks by 10 during combat (excluding area-of-effect Specials).
+|required=Silver Lance
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Me1={{Eft|Obstruct|[[adjacent]] to {{Tgt|Unit}}}}
+|MeT1=Range = 1<br>{{Tgt|Foes}}
+|Me2={{Eft|Obstruct|[[within 2 spaces]] of {{Tgt|Unit}}}}
+|MeT2=Range = 2<br>{{Tgt|Foes}}
+|Ce1={{Eft|Distant Counter}}
+|Ce2={{Eft|Temporary buffs|Spd/Def|4}}
+|Ce3={{Eft|Damage Reduction|10}}<br>per {{Tgt|Foe}}'s [[offensive Special]]
+|Ce2-3T={{Tgt|Allies}}<br>[[within 3 spaces]]
+|Ce4={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce5={{Eft|Temporary buffs|Atk/Spd/Def/Res|15% of {{Tgt|Unit}}'s Def<br>at start of combat}}
+|Ce6={{Eft|Damage Reduction|10}}<br>per {{Tgt|Foe}}'s [[offensive Special]]
+|Ce7={{Eft|Neutralize Bonus}}
+|Ce7T={{Tgt|Foe}}
+|Ce4-7C=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+}}
+==Notes==
+* Desert Spear has the same effect as {{St|Distant Counter}}.
+{{Obstruct notes}}
+{{Temporary buffs}}
+{{FlatDamageReduction|10}}
+{{AlliesCombatEffect|temporary buffs and damage reduction}}
+{{At start of combat}}
+{{Bonus neutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%foe%cannot move through spaces%unit%' AND WikiName NOT LIKE '%Bulwark%' OR Description LIKE '%foe_s attack triggers foe_s Special%reduces damage from foe_s attacks%' AND Exclusive='1'}}
+* [[Weapons with Distant Counter]]
+* [[Weapons with Close Counter]]
+* [[Bulwark Passives]]
+{{Weapons Navbox}}

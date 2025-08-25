@@ -1,0 +1,47 @@
+{{Weapon Infobox
+|tagid=SID_友情の花の杖＋
+|weaponType=Staff
+|might=12
+|range=2
+|effect=At start of turn, grants Atk/Def+5 to ally with the highest Spd for 1 turn. (Excludes unit.)
+|cost=300
+|exclusive=0
+|statModifiers=0,12,0,0,0
+|required=Rapport Wand
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|effectSkill1=Calculates damage from staff like other weapons.
+|iconSkill1=Wrathful Staff W.png
+|tagidExtraSkill1=神
+|effectSkill2=Foe cannot counterattack.
+|iconSkill2=Dazzling Staff W.png
+|tagidExtraSkill2=幻
+|properties=
+}}
+==Notes==
+{{Bonuses}}{{SelectStat|Spd}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Staff Plus Refines}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Rapport Wand+
+|japanese=友情の花の杖＋
+|german=Blütenstab+
+|spanishEU=Varita afable +
+|spanishLA=Varita afable +
+|french=Bâton fleuri +
+|italian=Stecca amicale+
+|chineseTW=友情之花杖＋
+|portuguese=Vara harmonia+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%start of turn%grants%to ally with the highest%' AND NOT (Description LIKE '% Atk+%' OR Description LIKE '% Spd+%' OR Description LIKE '% Def+%' OR Description LIKE '% Res+%') OR Description LIKE '%start of turn%grants%bonus%to ally with the highest%'|columns=3}}
+* [[Skill families#Opening|Opening Passives]]
+* [[Skill families#Gap|Gap Passives]]
+{{Weapons Navbox}}

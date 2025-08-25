@@ -1,0 +1,82 @@
+{{Weapon Infobox
+|tagid=SID_おまじないの弓
+|intID=4044
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=1
+|weaponType=Bow
+|cost=400
+|might=14
+|range=2
+|effectiveness=Flying
+|effect=Effective against flying foes. If foe initiates combat or if foe's HP ≥ 75% at start of combat, grants Atk/Spd/Def/Res+4 to unit, grants an additional Atk+7 to unit and inflicts Atk-7 on foe, deals damage = 15% of unit's Atk, and reduces damage from foe's attacks by 15% of unit's Atk during combat (excluding area-of-effect Specials), and after combat, if unit attacked, inflicts Special cooldown count+2 on unit (cannot exceed the unit's maximum Special cooldown).
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|refineStatsSkill1=0,0,0,0,0
+|effectSkill1=At start of turn, if unit is within 2 spaces of an ally, neutralizes any【Penalty】on unit and allies within 2 spaces of unit (excluding penalties inflicted at start of turn), and restores 10 HP to unit and those allies. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit during combat, unit makes a guaranteed follow-up attack, and foe cannot make a follow-up attack.<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|s1 Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s1 Ce3={{Eft|Temporary buffs|Atk|7}}
+|s1 Ce4={{Eft|Damage Boost|15% of {{Tgt|Unit}}'s Atk}}
+|s1 Ce5={{Eft|Damage Reduction|15% of {{Tgt|Unit}}'s Atk}}<br>from {{Tgt|Foe}}'s attacks
+|s1 Ce6={{Eft|Temporary debuffs|Atk|7}}
+|s1 Ce6T={{Tgt|Foe}}
+|s1 Ce2-6C=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|s1 Me={{Eft|Increase Cooldown|2}}
+|s1 MeC=After combat if<br>{{Tgt|Unit}} attacked '''&'''<br>(Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat)
+|skill2={{Si|Lucky Bow|refine=Skill1}} Skill refine effects
+|s2 Se=Removes {{Kp|Penalty}} effects
+|s2 SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|s2 SeC=At start of turn<br>if {{Tgt|Unit}} is<br>[[within 2 spaces]]<br>of an {{Tgt|Ally}}
+|s2 Me={{Eft|Heal|10}}
+|s2 MeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|s2 MeC=At start of turn<br>if {{Tgt|Unit}} is<br>[[within 2 spaces]]<br>of an {{Tgt|Ally}}
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s2 Ce2={{Eft|Guaranteed Follow-Ups}}
+|s2 Ce3={{Eft|Prevent Follow-Ups}}
+|s2 Ce3T={{Tgt|Foe}}
+|s2 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Effective damage bonus|Flying}}
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+{{Temporary debuffs}}
+{{DamageBoost}}
+{{FlatDamageReduction}}
+{{After combat Special modification}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Penalty neutralization|negstatuses=all {{Kp|Penalty}} effects|name={{St|Lucky Bow|refine=Skill1}}}}
+{{Start-of-turn healing|allies=1|name={{St|Lucky Bow|refine=Skill1}}}}
+{{Guaranteed follow-up interaction|name={{St|Lucky Bow|refine=Skill1}}}}
+{{Prevent follow-up|name={{St|Lucky Bow|refine=Skill1}}}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=おまじないの弓
+|german=Bogen des Glücks
+|spanishEU=Arco de la suerte
+|spanishLA=Arco de la suerte
+|french=Arc de chance
+|italian=Arco portafortuna
+|chineseTW=咒語之弓
+|portuguese=Arco da sorte
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%start of%turn%neutralize%【Penalty】%unit%' OR Description LIKE '%start of%turn%restores%unit and allies%' OR Description LIKE '%start of%turn%unit and allies%restores%' OR Name LIKE '%spendthrift%') AND Description NOT LIKE '%restores _ HP to unit after combat%' AND Exclusive='1'}}
+* [[Skill families/C Passives#Recovery|Recovery Passives]]
+{{Weapons Navbox}}

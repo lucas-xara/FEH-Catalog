@@ -1,0 +1,55 @@
+{{Weapon Infobox
+|tagid=SID_邪竜の御子の体術
+|intID=4713
+|noImg=1
+|exclusive=1
+|weaponType=Dragonstone
+|cost=400
+|might=11
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br>Unit attacks twice (even if foe initiates combat, unit attacks twice).<br><br>If foe's Range = 2, calculates damage using the lower of foe's Def or Res.<br><br>If foe initiates combat or if unit's HP ≥ 25% at start of combat, inflicts penalty on foe's Atk/Def/Res = number of distinct game titles among allies within 3 spaces of unit × 3, + 9 (max 15; if unit triggers Savior, value is treated as 15), reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% (excluding area-of-effect Specials), unit deals +X damage (X = 20% of unit's Res; excluding area-of-effect Specials), reduces damage from foe's attacks by X (excluding area-of-effect Specials), and reduces damage from foe's Specials by X during combat (excluding area-of-effect Specials).
+|required=Flametongue
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Ce1={{Eft|Attacks Twice}}
+|Ce2={{Eft|Temporary Debuffs|Atk/Def/Res|3 x {{Tgt|Allies}} from distinct<br>[[titles]] [[within 3 spaces]], +9|max=15*}}
+|Ce3={{Eft|Reduce Damage Reduction|50%}}
+|Ce2-3T={{Tgt|Foe}}
+|Ce4={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Res}}
+|Ce5={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Res}}<br>from {{Tgt|Foe}}'s attacks
+|Ce6={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Res}}<br>per {{Tgt|Foe}}'s [[offensive special]]
+|Ce2-6C=Enemy Phase '''or'''<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce7={{Eft|Lower Def Res}}
+|Ce7T={{Tgt|Unit}}
+|Ce7C={{Tgt|Foe}}'s Range = 2
+}}
+<b>{{Hatnote|* If {{Tgt|Unit}} triggers {{Eft|Savior}}, value is treated as max.}}</b>
+==Notes==
+{{AttackTwice}}
+{{LowerDefRes}}
+{{Temporary debuffs}}
+{{DistinctGameTitles}}
+{{Reduce Damage Reduction}}
+{{DamageBoost}}
+{{FlatDamageReduction}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=CanUseWeapon__full='{{WeaponList|Dragonstone}}' AND Description LIKE '%unit attacks twice%even if foe%' AND Description NOT LIKE '%third and fourth strikes%' OR Description LIKE '%distinct game titles%'}}
+{{Weapons Navbox}}

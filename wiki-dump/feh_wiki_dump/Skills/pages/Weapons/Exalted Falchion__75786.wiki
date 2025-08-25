@@ -1,0 +1,72 @@
+{{Weapon Infobox
+|tagid=SID_神剣ファルシオン
+|weaponType=Sword
+|might=16
+|range=1
+|effectiveness=Dragon
+|effect=Effective against dragon foes. Grants Spd+3.<br>Grants bonus to Atk/Spd/Def/Res during combat = current bonus on each of unit's stats. Calculates each stat bonus independently.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,3,0,0
+|required=Silver Sword
+|userVersion1=Weapon
+|userVersion2=Gleam
+|userVersion3=Upgrade Gleam
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Effective against dragon foes. Grants Spd+3. Grants bonus to Atk/Spd/Def/Res during combat = current bonus on each of unit's stats. Calculates each stat bonus independently. At start of combat, if unit's HP ≥ 50% or if 【Bonus】is active on unit, grants Atk/Spd/Def/Res+4 to unit during combat.<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|tagidExtraSkill1=一
+|effectSkill1=If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+4 and bonus to Atk/Spd/Def/Res during combat = current penalty on each of unit's stats × 2. (Example: if unit has -7 penalty to Atk, grants Atk+18, for a net bonus of Atk+11.) Calculates each stat bonus independently.
+|iconSkill1=Exalted Falchion W.png
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Spd|3}}
+|s1 Ce1={{Eft|Effectiveness|{{Cwti|Dragonstone|group=1}} [[Dragon]]}}
+|s1 Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|{{SEt|Bonuses}} on each<br>stat on {{Tgt|Unit}}}}
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Spd|3}}
+|s2 Ce1={{Eft|Effectiveness|{{Cwti|Dragonstone|group=1}} [[Dragon]]}}
+|s2 Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|{{SEt|Bonuses}} on each<br>stat on {{Tgt|Unit}}}}
+|s2 Ce3={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s2 Ce3C={{Tgt|Unit}}'s HP ≥ 50%<br>at start of combat<br>'''or''' a {{Kp|Bonus}} effect<br>is active on {{Tgt|Unit}}
+|skill3={{Si|Exalted Falchion|refine=Skill1}} Skill refine effects
+|s3 Ce={{Eft|Temporary buffs|Atk/Spd/Def/Res|4 + ({{SEt|Penalties}} on each<br>stat on {{Tgt|Unit}} x 2)}}
+|s3 CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+==Notes==
+{{Effective damage bonus|dragon}}
+* Exalted Falchion has the same effect as {{St|Bonus Doubler 3}}.
+{{TemporaryBufffromBonus}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary buffs|name=Refined Exalted Falchion}}
+{{EffectfromBonusKeyword|temporary buffs|name=Refined Exalted Falchion}}
+{{IfUnitInitiates}}
+{{TemporaryBufffromPenalty|source=the unit|name={{St|Exalted Falchion|refine=skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=神剣ファルシオン
+|german=Erhab. Falchion
+|spanishEU=Falchion divina
+|spanishLA=Falchion divina
+|french=Sainte-Falchion
+|italian=Falchion electa
+|chineseTW=神劍法爾西昂
+|portuguese=Falchion divina
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=WikiName LIKE '%Falchion%' OR ((Description LIKE '%bonus to Atk/Spd/Def/Res during combat%' AND Description NOT LIKE '%Grants allies%bonus to%' AND Description NOT LIKE '%bonus doubler%' AND Description NOT LIKE '%dragonflowers%') OR Description LIKE '%current penalty on each of those stats × 2%') AND (Exclusive='1' AND Name NOT LIKE '%+' AND Properties HOLDS NOT 'arcane')}}
+* [[Sources of effective against dragon foes]]
+* [[Skill families/Weapons#Doubler|Doubler Weapons]]
+* [[Unity Passives]]
+{{Weapons Navbox}}

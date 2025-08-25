@@ -1,0 +1,52 @@
+{{Weapon Infobox
+|tagid=SID_蝙蝠の爪牙
+|intID=3107
+|exclusive=1
+|weaponType=Beast
+|canUseMove=Flying
+|cost=400
+|might=14
+|range=1
+|effect=Grants Spd+3. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+6 to unit during combat, and also, if unit's Spd > foe's Spd, deals damage = 70% of difference between stats. (Maximum bonus of +7 damage.) At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, unit can move 1 extra space. (That turn only. Does not stack.) If unit transforms, grants Atk+2.
+|statModifiers=0,14,3,0,0
+|required=Adult (Flier)
+|properties=random_owner,enemy_only
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe1={{Eft|Stat Boosts|Spd|3}}
+|Pe2={{Eft|Stat Boosts|Atk|2}}
+|Pe2C={{Tgt|Unit}} is transformed
+|Se={{SEt|Mobility Increased}}
+|SeT={{Tgt|Unit}}
+|SeC=At start of turn if<br>{{Tgt|Unit}} is transformed
+|Me={{Eft|Transform}}
+|MeC=At start of turn if<br>{{Tgt|Unit}} is [[adjacent]] to only<br>{{Cwti|group=1|Beast,Dragon}} [[Dragon]]/[[Beast]]<br>{{Tgt|Allies}} '''or''' not [[adjacent]]<br>to any {{Tgt|Ally}}
+|Ce1={{Eft|Temporary buffs|Atk/Spd|6}}
+|Ce2={{Eft|Damage boost|percent=0|max=7|70% of ({{Tgt|Unit}}'s Spd<br>- {{Tgt|Foe)}}'s Spd)}}
+|Ce1C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce2C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' {{Tgt|Unit}}'s Spd<br>> {{Tgt|Foe)}}'s Spd
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{BonusStatDamage|stat=Spd}}
+{{Beast (Flier)}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+* Bat Fang is the first exclusive {{Cwtt|group=1|Beast}} weapon that is available to generic units.
+==In other languages==
+{{OtherLanguages
+|japanese=蝙蝠の爪牙
+|german=Fledermauszahn
+|spanishEU=Colmillo vampiro
+|spanishLA=Colmillo vampiro
+|french=Croc chiroptère
+|italian=Zanna pipistrello
+|chineseTW=蝙蝠的爪牙
+|portuguese=Presa morcego
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit\'s Spd > foe\'s Spd%deals damage = 70% of difference between stats%'|columns=3}}
+{{Weapons Navbox}}

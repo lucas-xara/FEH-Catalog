@@ -1,0 +1,30 @@
+{{Special
+|tagid=SID_長盾
+|name=Escutcheon
+|charge=2
+|effect=Reduces damage from an adjacent foe's attack by 30%.
+|cost=200
+|required=Buckler
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|Close}}
+|properties=random_all,defensive_special
+}}
+==Notes==
+{{DefensiveSpecial}}
+{{DamagePercentageReduction}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=長盾
+|german=Langschild
+|spanishEU=Escudo
+|spanishLA=Escudo
+|french=Écusson
+|italian=Scudo lungo
+|chineseTW=長盾
+|portuguese=Escudo micênico
+}}
+{{Specials Navbox}}

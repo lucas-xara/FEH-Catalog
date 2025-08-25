@@ -1,0 +1,71 @@
+{{#invoke:NameAbout|main|Name=Chad}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Chad
+|Title=Lycian Wildcat
+|WeaponType=Colorless Dagger
+|Origin=Fire Emblem: The Binding Blade
+|Gender=Male
+|MoveType=Infantry
+|actorJP=花江夏樹
+|actorEN=Griffin Puatu
+|artist=日向悠二
+|additionDate=November 19, 2019
+|releaseDate=November 19, 2019
+|randomStartTime=2019-12-19T07:00:00Z
+|poolDate=2019-11-19
+|poolRarities=3,4
+|TagID=チャド
+|InternalID=451
+|Properties=
+|cv1=5
+|cv2=300300
+|description=Grew up in an orphanage in Lycia with a pair of brothers, Lugh and Raigh. Seeks revenge on Bern for killing the caretaker of the orphanage. Appears in Fire Emblem: The Binding Blade.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=6|Lv1SPD=9|Lv1DEF=7|Lv1RES=6
+|GRHP=60|GRATK=55|GRSPD=65|GRDEF=45|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Dagger
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Dagger
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Rogue Dagger
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Rogue Dagger+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Wildcat Dagger
+|weapon5Default=
+|weapon5Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Draw Back
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Escape Route 1
+|passiveB2=Escape Route 2
+|passiveB3=Escape Route 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Spd Smoke 1
+|passiveC2=Spd Smoke 2
+|passiveC3=Spd Smoke 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

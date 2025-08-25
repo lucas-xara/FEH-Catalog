@@ -1,0 +1,88 @@
+{{Weapon Infobox
+|tagid=SID_聖血イチイバル
+|weaponName=Holy Yewfelle
+|userVersion1=Bow
+|userVersion2=Arrow
+|weaponType=Bow
+|might=14
+|range=2
+|effectiveness=Flying
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). Effective against flying foes. If unit initiates combat or if foe's HP ≥ 75% at start of combat, grants Atk/Spd+6 to unit during combat and neutralizes penalties to unit's Atk/Spd and effects that inflict "Special cooldown charge -X" on unit during combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,0,0,0
+|required=Silver Bow
+|intID=2668
+|sort=566
+|value=20
+|timingID=1
+|abilityID=296
+|limit1ID=68
+|randomTimestamp=2021-08-29T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1). Effective against flying foes.<br><br>If unit initiates combat or if foe's HP ≥ 75% at start of combat, grants Atk/Spd+6 to unit, neutralizes unit's penalties to Atk/Spd, neutralizes effects that inflict "Special cooldown charge -X" on unit, and disables skills of all foes excluding foe in combat during combat.
+|refineStatsSkill1=0,0,0,0,0
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+5 to unit, grants bonus to unit's Atk/Spd = 15% of unit's Spd at start of combat, neutralizes foe's bonuses to Spd/Def (from skills like Fortify, Rally, etc.), and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials).
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Accelerates Special}}
+|s1 Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|s1 Ce2={{Eft|Temporary buffs|Atk/Spd|6}}
+|s1 Ce3={{Eft|Neutralize Penalties|Atk/Spd}}
+|s1 Ce4={{Eft|Neutralize Guard}}
+|s1 Ce2-4C=Player Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Accelerates Special}}
+|s2 Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|s2 Ce2={{Eft|Temporary buffs|Atk/Spd|6}}
+|s2 Ce3={{Eft|Neutralize Penalties|Atk/Spd}}
+|s2 Ce4={{Eft|Neutralize Guard}}
+|s2 Ce5={{Eft|Disable Ally Skills}}
+|s2 Ce5T={{Tgt|Foe}}
+|s2 Ce2-5C=Player Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|skill3={{Si|Holy Yewfelle|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd|5}}
+|s3 Ce2={{Eft|Temporary buffs|Atk/Spd|15% of {{Tgt|Unit}}'s Spd<br>at start of combat}}
+|s3 Ce3={{Eft|Neutralize Bonuses|Spd/Def}}
+|s3 Ce4={{Eft|Reduce Damage Reduction|50%}}
+|s3 Ce3-4T={{Tgt|Foe}}
+|s3 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Penalty neutralization}}
+{{CooldownChargeMinusNeutralization}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{CombatEffectNeutralization|name=Refined Holy Yewfelle}}
+{{At start of combat|name={{St|Holy Yewfelle|refine=Skill1}}}}
+{{Bonus neutralization|name={{St|Holy Yewfelle|refine=Skill1}}}}
+{{Reduce Damage Reduction|name={{St|Holy Yewfelle|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=聖弓イチイバル
+|german=Heiliger Yewfelle
+|spanishEU=Yewfelle sagrada
+|spanishLA=Yewfelle sagrada
+|french=Yewfelle sacré
+|italian=Yewfelle sacro
+|chineseTW=聖弓伊奇巴爾
+|portuguese=Yewfelle sagrada
+}}
+==See also==
+{{See also skills|cond=WikiName LIKE '%yewfelle%' OR Description LIKE '%disables%skill%excluding%' AND Exclusive='1'}}
+* [[Feud Passives]]
+{{Weapons Navbox}}

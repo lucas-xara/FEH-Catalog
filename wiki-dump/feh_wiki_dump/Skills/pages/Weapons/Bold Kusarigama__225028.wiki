@@ -1,0 +1,60 @@
+{{Weapon Infobox
+|tagid=SID_黒鉄忍者の鎖鎌
+|intID=4409
+|image=wep_ax164
+|exclusive=1
+|weaponType=Axe
+|cost=400
+|might=11
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br>Unit attacks twice (even if foe initiates combat, unit attacks twice).<br><br>If unit initiates combat or is within 2 spaces of an ally, grants bonus to unit's Atk/Spd/Def/Res = 15% of unit's Def at start of combat + 5, deals damage = 25% of unit's Def (excluding area-of-effect Specials), reduces damage from foe's attacks by 25% of unit's Def (including from area-of-effect Specials; excluding Røkkr area-of-effect Specials), neutralizes "reduces damage by X%" effects from unit's and foe's non-Special skills (excluding area-of-effect Specials), neutralizes effects that guarantee unit's and foe's follow-up attacks, and increases the Spd difference necessary for unit or foe to make a follow-up attack by 20 during combat (Spd must be ≥ 25 to make a follow-up attack; stacks with similar skills).<br><br>If unit initiates combat, grants Special cooldown count-1 to unit before unit's first attack during combat.
+|required=Silver Axe
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Ce1={{Eft|Attack Twice}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|15% of {{Tgt|Unit}}'s Def<br>at start of combat, +5}}
+|Ce3={{Eft|Damage Boost|25% of {{Tgt|Unit}}'s Def}}
+|Ce4={{Eft|Damage Reduction|25% of {{Tgt|Unit}}'s Def}}<br>from {{Tgt|Foe}}'s attacks<br>& Non-Røkkr [[AoE Specials]]
+|Ce5={{Eft|Neutralize Damage Reduction}}
+|Ce6={{Eft|Neutralize Guaranteed Follow-Ups}}
+|Ce7={{Eft|Spd Difference Increase|20}}
+|Ce5-7T={{Tgt|Unit}} '''&'''<br>{{Tgt|Foe}}
+|Ce2-7C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce8={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Unit}}'s first attack
+|Ce8T={{Tgt|Unit}}
+|Ce8C=Player Phase
+}}
+
+==Notes==
+{{AttackTwice}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{At start of combat}}
+{{DamageBoost}}
+{{FlatDamageReduction}}
+{{FlatAoEDamageReduction}}
+{{DamageReductionNeutralization}}
+{{Follow-up effect neutralization|guaranteeOnly=1}}
+{{SpdDiffIncrease}}
+{{CombatCooldownCount|-1}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%of unit_s Def at start of combat%' OR Description LIKE '%increases the Spd difference necessary%') AND Exclusive='1'}}
+{{Weapons Navbox}}

@@ -1,0 +1,76 @@
+{{#invoke:NameAbout|main|Name=Veyle}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Veyle
+|Title=Gentle Dragon
+|WeaponType=Blue Tome
+|MoveType=Infantry
+|Origin=Fire Emblem Engage
+|Gender=Female
+|MythicEffect=Astra
+|MythicEffect2=Raiding Party Bonus
+|BoostHP=5
+|BoostDef=5
+|actorEN=Megan Taylor Harvey
+|actorJP=上田麗奈
+|artist=館田ダン
+|additionDate=October 31, 2023
+|releaseDate=October 31, 2023
+|cv1=14
+|cv2=900200
+|TagID=神階ヴェイル
+|InternalID=1015
+|Properties=mythic,hat
+|description=Daughter of the Fell Dragon. She has devoted a loving heart to working for the good of humanity. Appears in Fire Emblem Engage.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=16|Lv1SPD=8|Lv1DEF=4|Lv1RES=7
+|GRHP=50|GRATK=70|GRSPD=50|GRDEF=40|GRRES=90
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Thunder
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elthunder
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Thoron
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Obscurité
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Iceberg
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Res Finish 1
+|passiveA2=Atk/Res Finish 2
+|passiveA3=Atk/Res Finish 3
+|passiveA4=Atk/Res Finish 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Atk/Res Tempo 1
+|passiveB2=Atk/Res Tempo 2
+|passiveB3=Atk/Res Tempo 3
+|passiveB4=Atk/Res Tempo 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Fell Protection
+|passiveC1Unlock=5
+}}
+{{Heroes Navbox}}

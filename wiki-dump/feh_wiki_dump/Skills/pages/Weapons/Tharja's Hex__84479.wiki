@@ -1,0 +1,59 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_サーリャの禁呪
+|weaponType=Red Tome
+|might=14
+|range=2
+|effect=Grants bonus to unit’s Atk = total bonuses on unit during combat.
+|cost=400
+|exclusive=1
+|required=-
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|statModifiers=0,14,0,0,0
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=Inflicts Atk/Spd-4 on foes within 2 spaces during combat.
+|iconSkill1=Tharjas Hex W.png
+|tagidExtraSkill1=呪
+|SE=se_effect_sariya.wav
+|properties=
+}}
+==Notes==
+{{BonusesToAtk}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Combat reductions}}
+*The Atk/Spd-4 works on all foes within 2 spaces of the user, even if the user does not participate in combat with that foe.<ref>[[Media:Tharjas_Hex_Anathema.webm]]</ref>
+{{FoesCombatEffect|effect=combat reduction}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+v3.2_77_valentine02_Mag.png|Sprite sheet for the animations of {{PAGENAME}}, {{St|Blárblooms+}}, {{St|Gronnblooms+}}, {{St|Loyal Wreath+}} and {{St|Iris's Tome}}.
+</gallery>
+==Trivia==
+* The skill ID for the refined effect listed first is <code>SID_赤の呪いR4</code>. [[fireemblemwiki:Anathema|Anathema]] (赤の呪い) is a skill that appears in {{FE|13}}.
+* Tharja's Hex originally debuted as a weapon exclusive to Tharja in the spinoff title {{FE|W}}.
+==In other languages==
+{{OtherLanguages
+|japanese=サーリャの禁呪
+|german=Tharjas Fluch
+|spanishEU=Maleficio Tharja
+|spanishLA=Maleficio Tharja
+|french=Maléfice (Tharja)
+|italian=Sortilegio Tharja
+|chineseTW=撒拉的禁咒
+|portuguese=Feitiço de Tharja
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%inflicts Atk/Spd-_ on foes%within _ spaces during combat%'|columns=3}}
+* [[Blade Weapons]]
+{{Weapons Navbox}}
+[[Category:Blade weapons]]

@@ -1,0 +1,39 @@
+{{About|the [[Weapon]]|the [[Tactics Drills]] map|Skill Studies 166: Dancing Flames}}
+{{Weapon Infobox
+|tagid=SID_響き渡る合唱の祭器
+|intID=2926
+|exclusive=1
+|weaponType=Green Tome
+|cost=400
+|might=14
+|range=2
+|effect=Grants Atk+3. If Sing or Dance is used, grants Atk/Spd/Def/Res+6 to adjacent allies for 1 turn. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+6 to unit during combat.
+|statModifiers=0,17,0,0,0
+|required=Rexcalibur
+|properties=
+}}
+==Notes==
+{{Bonuses}}
+{{Temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+wep_mg262.webp|Sprite sheet used for the animatation.
+wep_mg262.gif|Animation of '''Dancing Flames'''
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=響き渡る合唱の祭器
+|german=Feuertanz
+|spanishEU=Llama danzante
+|spanishLA=Llama danzante
+|french=Feu dansant
+|italian=Fuoco danzante
+|chineseTW=迴盪合唱祭器
+|portuguese=Chama dançante
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if%Sing or Dance is used, grants%' and SCategory NOT LIKE 'passive_'|columns=1}}
+* [[Skill families#Dance|Dance Passives]]
+{{Weapons Navbox}}

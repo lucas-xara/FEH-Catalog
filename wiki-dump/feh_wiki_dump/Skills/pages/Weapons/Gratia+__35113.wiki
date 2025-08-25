@@ -1,0 +1,44 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_グラーティア＋
+|weaponType=Bow
+|weaponName={{PAGENAME}}
+|altWeaponName=Gratia Plus
+|might=12
+|range=2
+|effectiveness=flying
+|effect=Effective against flying foes. If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.
+|cost=300
+|userVersion1=Bow|userVersion2=Arrow|statModifiers=0,12,0,0,0
+|required=Gratia
+|exclusive=0
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+* Has the same effect as {{St|Dull Ranged 3}}.
+{{Bonus neutralization}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=グラーティア＋
+|german=Gratia+
+|spanishEU=Gratia +
+|spanishLA=Gratia +
+|french=Gratia +
+|italian=Gratia+
+|chineseTW=格蘭蒂亞＋
+|portuguese=Gratia+
+}}
+==See also==
+* [[Love Abounds Weapons]]
+* [[Skills that neutralize bonuses]]
+{{Weapons Navbox}}
+[[Category:Love Abounds weapons]]

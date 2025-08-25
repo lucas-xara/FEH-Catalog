@@ -1,0 +1,80 @@
+{{#invoke:NameAbout|main|Name=Tibarn}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Tibarn
+|Title=Shipless Pirate
+|WeaponType=Colorless Beast
+|Origin=Fire Emblem: Radiant Dawn
+|Gender=Male
+|MoveType=Flying
+|actorJP=鈴木達央
+|actorEN=Joe J. Thomas
+|artist=北千里
+|additionDate=August 6, 2020
+|releaseDate=August 7, 2020
+|cv1=9
+|cv2=600100
+|TagID=海賊ティバーン
+|InternalID=552
+|Properties=special,specRate_202402
+|description=King of Phoenicis, the nation of the Hawk Tribe of laguz. Swooping in just in time to participate in the pirate festival by coincidence. Appears in Fire Emblem: Radiant Dawn.
+}}
+{{Stats Page
+|Lv1HP=20|Lv1ATK=11|Lv1SPD=6|Lv1DEF=10|Lv1RES=3
+|GRHP=50|GRATK=70|GRSPD=55|GRDEF=60|GRRES=35
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Hatchling (Flier)
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Fledgling (Flier)
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Adult (Flier)
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Sky-Pirate Claw
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+}}
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Astra
+|special2Default=
+|special2Unlock=4
+|special3=Galeforce
+|special3Default=
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Heavy Blade 1
+|passiveA2=Heavy Blade 2
+|passiveA3=Heavy Blade 3
+|passiveA4=Heavy Blade 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Dive-Bomb 1
+|passiveB2=Dive-Bomb 2
+|passiveB3=Dive-Bomb 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Atk Smoke 1
+|passiveC2=Atk Smoke 2
+|passiveC3=Atk Smoke 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Pirate Festival units]]

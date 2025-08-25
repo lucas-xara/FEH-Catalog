@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Zihark}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Zihark
+|Title=Ninja Blademaster
+|WeaponType=Red Sword
+|MoveType=Infantry
+|Origin=Fire Emblem: Path of Radiance
+|Gender=Male
+|actorEN=Zeno Robinson
+|actorJP=大須賀純
+|artist=叶之明
+|additionDate=November 5, 2020
+|releaseDate=November 6, 2020
+|cv1=8
+|cv2=310100
+|TagID=忍者ツイハーク
+|InternalID=583
+|Properties=special
+|description=A skilled mercenary swordsman. Friendly and free from prejudice, he's answered the call to join the ninja festival. Appears in Fire Emblem: Path of Radiance.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=9|Lv1SPD=12|Lv1DEF=8|Lv1RES=5
+|GRHP=55|GRATK=65|GRSPD=70|GRDEF=50|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Ninja Katana
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Ninja Katana+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Astra
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Chill Spd 1
+|passiveB2=Chill Spd 2
+|passiveB3=Chill Spd 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Spd/Def Gap 1
+|passiveC2=Spd/Def Gap 2
+|passiveC3=Spd/Def Gap 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Ninja Festival units]]

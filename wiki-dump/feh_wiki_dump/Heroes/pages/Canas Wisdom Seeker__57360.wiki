@@ -1,0 +1,69 @@
+{{#invoke:NameAbout|main|Name=Canas}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Canas
+|Title=Wisdom Seeker
+|GrowthModifier=Gen 2
+|WeaponType=Red Tome
+|MoveType=Infantry
+|Origin=Fire Emblem: The Blazing Blade
+|Gender=Male
+|artist=Tobi
+|actorEN=Joe Zieja
+|actorJP=森久保祥太郎
+|additionDate=June 8, 2018
+|releaseDate=6/16/2018
+|TagID=カナス
+|InternalID=258
+|Properties=tempest,limited
+|cv1=6
+|cv2=1000400
+|description=Fourth son of Niime, the Mountain Hermit. Devoted entirely to research and reading. Appears in Fire Emblem: The Blazing Blade.
+}}
+__TOC__
+{{Stats Page|Hero=Canas: Wisdom Seeker
+|Lv1HP=17|Lv1ATK=10|Lv1SPD=5|Lv1DEF=4|Lv1RES=9
+|GRHP=45|GRATK=50|GRSPD=55|GRDEF=40|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Flux
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Ruin
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Rauðrowl
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Rauðrowl+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Ancient Codex
+|weapon5Default=
+|weapon5Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Reciprocal Aid
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Resistance +1
+|passiveA2=HP/Res 1
+|passiveA3=HP/Res 2
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Res Tactic 1
+|passiveC2=Res Tactic 2
+|passiveC3=Res Tactic 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

@@ -1,0 +1,49 @@
+{{Passive
+|name=Trample
+|type=A
+|exclusive=0
+|canUseWeapon={{WeaponList|Close}}
+|canUseMove={{MoveList|Flying}}
+|properties=random_owner
+|1name=Trample
+|1tagid=SID_見下す者
+|1effect=If unit initiates combat or if foe's HP ≥ 75% at start of combat, grants Atk/Spd+7 to unit during combat, and also, if foe is infantry or armored, or if any space within 2 spaces of unit has a Divine Vein effect applied or counts as difficult terrain, excluding impassable terrain, grants an additional Atk/Spd+3 to unit and unit deals +5 damage during combat (excluding area-of-effect Specials).<br><br>If unit initiates combat, unit can make a follow-up attack before foe's next attack.
+|1cost=300
+|1required=Atk/Spd Catch 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary buffs|Atk/Spd|7}}
+|Ce1C=Player Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|Ce2={{Eft|Temporary buffs|Atk/Spd|3}}
+|Ce3={{Eft|Damage Boost|5}}
+|Ce2-3C={{Eft|Temporary buffs|Atk/Spd|7}} conditions '''&'''<br>(({{Tgt|Foe}} is {{Mt|Infantry}}<br>'''or''' {{Mt|Armored}})<br>'''or'''{{Tgt|Unit}} is<br>[[within 2 spaces]]<br>of a [[Divine Vein]]<br>'''or''' difficult [[terrain]])
+|Ce4={{Eft|Desperation}}
+|Ce4C=Player Phase
+}}
+
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{FlatDamageBoost|5}}
+{{Follow-up before counter}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%within _ spaces of unit%a Divine Vein effect%' AND Exclusive='1'}}
+{{Passives Navbox|A}}

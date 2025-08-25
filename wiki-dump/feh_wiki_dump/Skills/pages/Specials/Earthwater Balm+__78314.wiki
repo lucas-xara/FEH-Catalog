@@ -1,0 +1,31 @@
+{{Special
+|tagid=SID_大地静水の祝福＋
+|name=Earthwater Balm+
+|charge=1
+|effect=When healing an ally with a staff, grants Def/Res+6 to all allies for 1 turn.
+|cost=300
+|exclusive=0
+|required=Earthwater Balm
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|Staff}}
+|properties=random_owner
+}}
+==Notes==
+{{Bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=大地静水の祝福＋
+|german=Erdwasserbals.+
+|spanishEU=Lodobálsamo +
+|spanishLA=Lodobálsamo +
+|french=Baume calmant +
+|italian=Balsamo fango+
+|chineseTW=大地靜水的祝福＋
+|portuguese=Lodobálsamo+
+}}
+==See also==
+* [[Balm Specials]]
+{{Specials Navbox}}
+[[Category:Balm Specials]]

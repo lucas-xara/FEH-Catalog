@@ -1,0 +1,60 @@
+{{Weapon Infobox
+|tagid=SID_オヴスキュリテ
+|intID=3839
+|userVersion1=Closed
+|userVersion2=Open
+|exclusive=1
+|weaponType=Blue Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of turn, if unit is within 2 spaces of an ally, grants Atk/Res+6,【Resonance: Blades】, and【Resonance: Shields】to unit and allies within 2 spaces of unit for 1 turn. If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit, unit makes a guaranteed follow-up attack, deals damage = 20% of unit's Res (excluding area-of-effect Specials), and neutralizes foe's bonuses to Atk/Res (from skills like Fortify, Rally, etc.) during combat.<br><br>【Resonance: Blades】<br>Grants Atk/Spd+4 during combat for 1 turn.<br><br>【Resonance: Shields】<br>Grants Def/Res+4 during combat and the following effect for 1 turn: "During unit's first combat in player phase or enemy phase, foe cannot make a follow-up attack."
+|required=Thoron;Shine
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerate Special}}
+|Se1={{Eft|Bonus|Atk/Res|6}}
+|Se2={{SEt|Resonance: Blades}}
+|Se3={{SEt|Resonance: Shields}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=At start of turn<br>if {{Tgt|Allies}}<br>[[within 2 spaces]] ≥ 1
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce2={{Eft|GFU}}
+|Ce3={{Eft|Damage Boost|20% of Unit's Res}}
+|Ce4={{Eft|Neutralize Bonuses|Atk/Res}}
+|Ce4T={{Tgt|Foe}}
+|CeC=Player Phase<br>'''or''' {{Tgt|Allies}}<br>[[within 2 spaces]] ≥ 1
+}}
+
+==Notes==
+{{Bonuses}}
+{{Resonance: Blades}}
+{{Resonance: Shields}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Guaranteed follow-up interaction}}
+{{DamageBoost}}
+{{Bonus neutralization}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V7.10_v0710c_legend_Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=オヴスキュリテ
+|german=Obscurité
+|spanishEU=Obscurité
+|spanishLA=Obscurité
+|french=Obscurité
+|italian=Obscurité
+|chineseTW=暗黑無光
+|portuguese=Obscurité
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【Resonance:%' OR Description LIKE '%deals damage =%of unit_s Res%'}}
+{{Weapons Navbox}}

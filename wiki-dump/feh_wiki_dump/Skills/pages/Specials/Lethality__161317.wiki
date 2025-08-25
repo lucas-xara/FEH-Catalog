@@ -1,0 +1,31 @@
+{{Special
+|tagid=SID_滅殺
+|intID=2841
+|exclusive=0
+|canUseWeapon={{WeaponList|Dagger}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=4
+|effect=When Special triggers, treats foe's Def/Res as if reduced by 75% during combat. Disables non-Special skills that "reduce damage by X%."
+|required=Luna
+|properties=random_owner,offensive_special
+}}
+==Notes==
+{{DamageReductionNeutralization}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==In other languages==
+{{OtherLanguages
+|japanese=滅殺
+|german=Exitus
+|spanishEU=Letalidad
+|spanishLA=Letalidad
+|french=Meurtrier
+|italian=Flagello
+|chineseTW=滅殺
+|portuguese=Letalidade
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%disables%reduce%damage by x%' OR Description LIKE '%neutralizes%reduce%damage by x%') AND Description LIKE '%non-Special%' AND Description NOT LIKE '%reduces the percentage%'}}
+{{Specials Navbox}}

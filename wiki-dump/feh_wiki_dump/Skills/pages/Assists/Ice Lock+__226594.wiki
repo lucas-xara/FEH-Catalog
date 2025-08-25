@@ -1,0 +1,73 @@
+{{Assist
+|tagid=SID_アイスロック＋
+|intID=4480
+|exclusive=0
+|canUseWeapon={{WeaponList|Colorless Staff}}
+|canUseMove={{MoveList|All}}
+|cost=400
+|range=2
+|effect=This skill is treated as a Rally Assist skill.<br><br>Restores HP = 40% of unit's Atk (min: 6 HP) to target ally and grants Def/Res+6 to target ally for 1 turn, and also, if there is no 【Divine Vein (Ice)】currently applied by unit or allies, applies【Divine Vein (Ice)】to spaces 2 spaces away from target for 1 turn (excludes spaces occupied by a foe, destructible terrain other than【Divine Vein (Ice)】, and warp spaces in Rival Domains). If used on turn 2 onward, also grants another action to unit and inflicts "restricts movement to 1 space" on unit and Pair Up cohort through their next action. (Effects that can trigger on turn 2 onward will not trigger again for 2 turns after triggering; using this skill has no effect on Special cooldown charge and unit does not gain EXP or SP.)<br><br>【Divine Vein (Ice)】<br>Applies the following status on space: Foes treat space as impassable terrain while status is active, but status is destructible (with 1 HP). Allies can move into and occupy space. If any allies occupy spaces with Divine Vein (Ice) applied, attacks targeting those spaces will hit the ally over destroying the Divine Vein (Ice). (Divine Vein effects do not stack; replaces any existing Divine Vein effect; Divine Vein effects applied simultaneously cancel each other out. Does not count as defensive terrain. Does not trigger in Pawns of Loki.)
+|required=Ice Lock
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{Eft|Bonuses|Def/Res|6}}
+|Se1T={{Tgt|Target Ally}}
+|Se1C={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}
+|Se2={{SEt|Gravity}}
+|Se2T={{Tgt|Unit}} '''&'''<br>{{Tgt|Cohort}}
+|Se2C={{Tgt|Unit}} uses Assist<br>on turn 2 onward<br>(2 turn cooldown)
+|Me1={{Eft|Heal|40% of {{Tgt|Unit}}'s Atk|percent=0|min=6}}
+|MeT1={{Tgt|Target Ally}}
+|MeC1={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}<br>'''or''' {{SEt|Deep Wounds}}
+|Me2={{Eft|Divine Vein (Ice)}}
+|Me2T=Spaces 2<br>spaces away from<br>{{Tgt|Target Ally}}
+|Me2C=Assist is used<br>by {{Tgt|Unit}} '''&'''<br>{{Tgt|Unit}} '''or''' {{Tgt|Allies}}<br>didn't apply<br>{{Eft|Divine Vein (Ice)}}
+|Me3={{Eft|Galeforce}}
+|MeC3={{Tgt|Unit}} uses Assist<br>on turn 2 onward<br>(2 turn cooldown)
+|Ce={{Eft|No Special Cooldown Charge}}
+|CeC={{Tgt|Unit}} uses Assist
+}}
+
+==Notes==
+{{Bonuses}}
+{{Divine Vein|Ice}}
+{{Gravity}}
+{|class="wikitable default mw-collapsible" 
+!colspan=2|Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Goldmary: Coy Beach Divas|s=Bolt Tower
+|-------
+|---x---
+|--s-x--
+|-x-u-x-
+|--x-x--
+|---x---
+|-------
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Gallery==
+<gallery>
+wep_rd069.webp|<b>Ice Lock+</b> sprite
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【Divine Vein (Ice)】%' AND Exclusive='1' OR Description LIKE '%another action to unit%restricts movement%' OR Description LIKE '%unit another action%restricts movement%'}}
+{{Assists Navbox}}

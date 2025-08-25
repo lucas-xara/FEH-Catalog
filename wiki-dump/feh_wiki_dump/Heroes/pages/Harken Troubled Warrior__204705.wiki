@@ -1,0 +1,73 @@
+{{#invoke:NameAbout|main|Name=Harken}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Harken
+|Title=Troubled Warrior
+|WeaponType=Red Sword
+|MoveType=Infantry
+|Origin=Fire Emblem: The Blazing Blade
+|Gender=Male
+|actorEN=Jordan Woollen
+|actorJP=喜屋武和輝
+|artist=山田孝太郎
+|randomStartTime=2023-12-17T07:00:00Z
+|additionDate=November 17, 2023
+|releaseDate=November 17, 2023
+|poolDate=December 7, 2023
+|poolRarities=5
+|cv1=6
+|cv2=200200
+|TagID=ハーケン
+|InternalID=1024
+|Properties=
+|description=A knight who single-handedly infiltrated the Black Fang to exact his vengeance after failing to stop the abduction of the Marquess Pherae. Appears in Fire Emblem: The Blazing Blade.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=7|Lv1SPD=6|Lv1DEF=16|Lv1RES=8
+|GRHP=50|GRATK=90|GRSPD=60|GRDEF=70|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Troubling Blade
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=4
+|special1Unlock=3
+|special2=Bonfire
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Def Clash 1
+|passiveA2=Atk/Def Clash 2
+|passiveA3=Atk/Def Clash 3
+|passiveA4=Atk/Def Clash 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Brash Assault 1
+|passiveB2=Brash Assault 2
+|passiveB3=Brash Assault 3
+|passiveB4=Brash Assault 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+}}
+{{Heroes Navbox}}

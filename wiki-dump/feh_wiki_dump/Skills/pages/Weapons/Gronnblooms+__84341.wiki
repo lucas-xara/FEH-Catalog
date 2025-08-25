@@ -1,0 +1,47 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_緑の花かご＋
+|weaponType=Green Tome
+|might=12
+|range=2
+|effect=If unit is adjacent to an ally, grants Atk/Spd/Def/Res+3 during combat.
+|cost=300
+|exclusive=0
+|userVersion1=
+|userVersion2=
+|userVersion3=
+|userVersion4=
+|statModifiers=0,12,0,0,0
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|SE=se_effect_flowerbasket.wav
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+v3.2_77_valentine02_Hit.png|Sprite sheet for {{PAGENAME}}'s hit animation.
+v3.2_77_valentine02_Mag.png|Sprite sheet for the animations of {{PAGENAME}}, {{St|Blárblooms+}}, {{St|Loyal Wreath+}}, {{St|Tharja's Hex}} and {{St|Iris's Tome}}.
+</gallery>
+==Trivia==
+{{TomeColorTrivia|gronn}}
+==In other languages==
+{{OtherLanguages
+|japanese=緑の花かご＋
+|german=Gronnblüten+
+|spanishEU=Flores glaucas +
+|spanishLA=Flores jade +
+|french=Fleurs émer. +
+|italian=Viridefiore+
+|chineseTW=綠之花籃＋
+|portuguese=Flores jade+
+}}
+==See also==
+* 
+{{Weapons Navbox}}

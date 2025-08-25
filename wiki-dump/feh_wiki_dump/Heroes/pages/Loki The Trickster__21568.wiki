@@ -1,0 +1,89 @@
+{{#invoke:NameAbout|main|Name=Loki}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Loki
+|Title=The Trickster
+|GrowthModifier=
+|WeaponType=Colorless Staff
+|Origin=Fire Emblem Heroes
+|Gender=Female
+|MoveType=Infantry
+|actorJP=新井里美
+|actorEN=Erika Ishii
+|artist=前嶋重機
+|additionDate=October 23, 2018
+|releaseDate=October 23, 2018
+|poolDate=November 9, 2018
+|poolRarities=5
+|TagID=ロキ
+|InternalID=304
+|EnemyInternalID=33
+|Properties=hat,tiara,notRandomized,specRate_202108
+|cv1=0
+|cv2=400100
+|description=Strategist for Múspell, the Kingdom of Flame. Likes to play tricks and manipulate people.
+}}
+==Ally stats==
+{{Stats Page|noheader=1
+|Lv1HP=18|Lv1ATK=9|Lv1SPD=9|Lv1DEF=3|Lv1RES=6
+|GRHP=55|GRATK=55|GRSPD=60|GRDEF=30|GRRES=45
+}}
+==Enemy stats==
+{{Stats Page/Generic|noheader=1
+|Lv1HP=18|Lv1ATK=9|Lv1SPD=9|Lv1DEF=4|Lv1RES=8
+|GRHP=55|GRATK=55|GRSPD=60|GRDEF=35|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Assault
+|weapon1Unlock=1
+|weapon2=Thökk
+|weapon2Unlock=5
+|hasEnemy=1
+}}
+
+===Assists===
+{{Assists Table
+|assist1=Heal
+|assist1Default=1
+|assist1Unlock=1
+|assist2=Reconcile
+|assist2Default=3
+|assist2Unlock=2
+|assist3=Restore
+|assist3Default=4
+|assist3Unlock=3
+|assist4=Restore+
+|assist4Default=5
+|assist4Unlock=5
+}}
+===Specials===
+{{Specials Table
+|special1=Imbue
+|special1Default=4
+|special1Unlock=2
+|special2=Still-Water Balm
+|special2Default=5
+|special2Unlock=3
+|special3=Earthwater Balm
+|special3Unlock=4
+|special4=Earthwater Balm+
+|special4Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=C Duel Infantry 1
+|passiveA2=C Duel Infantry 2
+|passiveA3=C Duel Infantry 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Odd Atk Wave 1
+|passiveC2=Odd Atk Wave 2
+|passiveC3=Odd Atk Wave 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+{{Enemies Navbox}}

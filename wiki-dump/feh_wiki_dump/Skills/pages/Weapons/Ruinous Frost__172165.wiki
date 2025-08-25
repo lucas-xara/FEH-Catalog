@@ -1,0 +1,43 @@
+{{Weapon Infobox
+|tagid=SID_滅亡の霜雪
+|intID=3064
+|image=wep_ac051
+|exclusive=1
+|weaponType=Dragonstone
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). If foe initiates combat or if foe's HP ≥ 75% at start of combat, grants Atk+6 to unit, inflicts Atk-6 on foe, and unit's first attack deals damage = 40% of foe's Res during combat, and also, both unit and foe cannot make a follow-up attack. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|statModifiers=0,16,0,0,0
+|required=Flametongue
+|properties=random_owner
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+{{Temporary debuffs}}
+{{DamageBoost}}
+{{Prevent follow-up|target=the unit and foe}}
+{{LowerDefRes}}
+
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V6.5_v0605a_dark_Mag_2.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=滅亡の霜雪
+|german=Frost des Verfalls
+|spanishEU=Helada atroz
+|spanishLA=Helada asoladora
+|french=Givre ravageur
+|italian=Gelo rovinoso
+|chineseTW=滅亡的霜雪
+|portuguese=Geada nociva
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%foe initiates combat%foe\'s HP%grants Atk+%to unit%inflicts Atk-%on foe%cannot make a follow-up attack%' OR Description LIKE '%deals damage =%of foe_s Res%' OR Description LIKE '%unit and foe%cannot make%follow-up%attack%'}}
+{{Weapons Navbox}}

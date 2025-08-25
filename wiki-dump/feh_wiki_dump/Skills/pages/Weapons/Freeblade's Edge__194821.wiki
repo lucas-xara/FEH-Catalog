@@ -1,0 +1,46 @@
+{{Weapon Infobox
+|tagid=SID_義勇軍の正剣
+|intID=3583
+|image=wep_sw151
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=16
+|range=1
+|effect=If foe initiates combat or foe's HP ≥ 75% at start of combat, grants Atk/Spd/Def/Res+4 to unit and inflicts Special cooldown charge -1 on foe per attack during combat (only highest value applied; does not stack), and reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by 30%.
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4, deals damage = 15% of unit's Def during combat, including when dealing damage with a Special triggered before combat, and unit makes a guaranteed follow-up attack during combat.
+|properties=
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+{{CooldownChargeMinus}}
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{DamageBoost|name={{St|Freeblade's Edge|refine=Skill1}}}}
+{{Guaranteed follow-up interaction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=義勇軍の正剣
+|german=Freiklinge
+|spanishEU=Espada Valiente
+|spanishLA=Espada Valiente
+|french=Fer affranchi
+|italian=Lama libera
+|chineseTW=義勇軍正劍
+|portuguese=Espada virtuosa
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%deals damage =%of unit_s Def%'}}
+{{Weapons Navbox}}

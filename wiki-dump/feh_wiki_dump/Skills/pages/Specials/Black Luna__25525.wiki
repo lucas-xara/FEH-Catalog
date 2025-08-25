@@ -1,0 +1,30 @@
+{{Special
+|tagid=SID_黒の月光
+|charge=3
+|effect=Treats foe's Def/Res as if reduced by 80% during combat. (Skill cannot be inherited.)
+|cost=500
+|exclusive=1
+|required=Luna
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_owner,offensive_special
+}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+* In {{FE|10}} there was a similar skill that could only be used by the [[Black Knight]], known as '''[[FireEmblemWiki:Eclipse (skill)|Eclipse]]'''.
+* Black Luna is the first [[exclusive Special]].
+==In other languages==
+{{OtherLanguages
+|japanese=黒の月光
+|german=Schwarzer Mond
+|spanishEU=Eclipse total
+|spanishLA=Eclipse total
+|french=Ombre lunaire
+|italian=Luna nera
+|chineseTW=漆黑月光
+|portuguese=Eclipse
+}}
+==See also==
+{{See also skills|cond=SCategory='special' AND Exclusive='1' AND Description LIKE '%Treats foe_s Def/Res as if reduced by __% during combat%'}}
+{{Specials Navbox}}

@@ -1,0 +1,46 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_光の剣
+|weaponType=Sword
+|might=16
+|range=1
+|effect=Grants Def+3. If foe's Def ≥ foe's Res+5, deals +7 damage.
+|cost=400
+|exclusive=1
+|userVersion1=Weapon
+|userVersion2=Gleam
+|statModifiers=0,16,0,3,0
+|required=Silver Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|tagidExtraSkill1=強
+|cooldownSkill1=-1
+|effectSkill1=Accelerates Special trigger (cooldown count-1).<br>At start of combat, if foe's HP = 100%, grants Spd/Def+4 to unit during combat.
+|iconSkill1=Light Brand W.png
+|properties=random_owner
+}}
+==Notes==
+{{FlatDamage|7}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|戦闘強化R光の剣|Combat Bonuses R Light Brand}}
+==In other languages==
+{{OtherLanguages
+|japanese=光の剣
+|german=Lichtklinge
+|spanishEU=Espada luminosa
+|spanishLA=Espada luminosa
+|french=Épée-lumière
+|italian=Spada di luce
+|chineseTW=光劍
+|portuguese=Espada luminosa
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%deals +7 damage%'|limit=9999}}
+{{Weapons Navbox}}

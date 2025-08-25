@@ -1,0 +1,33 @@
+{{Special
+|tagid=SID_天狼・神
+|intID=3237
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=2
+|effect=Neutralizes effects that inflict "Special cooldown charge -X" on unit. When Special triggers, boosts damage by 35% of unit's Spd and restores HP = 35% of damage dealt.
+|required=Sirius
+|properties=offensive_special
+}}
+==Notes==
+{{CooldownChargeMinusNeutralization}}
+{{DamageBoost}}
+* The healing calculation will always use the [[Damage calculation#Final Damage calculation|final damage number]] for the damage dealt.
+{{CombatHPRecovery}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=天狼・神
+|german=Sirius+
+|spanishEU=Sirius +
+|spanishLA=Sirius +
+|french=Sirius +
+|italian=Sirio+
+|chineseTW=天狼・神
+|portuguese=Sirius+
+}}
+==See also==
+{{See also skills|cond=SCategory='special' AND Exclusive='1' AND (Description LIKE '%Boosts%damage by __% of unit_s Spd%' OR Description LIKE '%Restores HP = __% of damage dealt%')|columns=3}}
+{{Specials Navbox}}

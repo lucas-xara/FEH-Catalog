@@ -1,0 +1,46 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_暗黒の剣
+|weaponType=Sword
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). If unit's HP ≥ 50% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Silver Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1). At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+5 to unit during combat, and also, if unit initiates combat, unit can make a follow-up attack before foe can counterattack.
+|tagidExtraSkill1=一
+|effectSkill1=At start of combat, if foe's HP ≥ 75%, grants Atk/Spd+5 to unit and neutralizes effects that inflict "Special cooldown charge -X" on unit during combat, and also, if foe's Spd > foe's Def at start of combat, inflicts Spd-8 on foe during combat; otherwise, inflicts Def-8 on foe during combat.
+|iconSkill1=Shadow Sword W.png
+|properties=random_owner
+}}
+==Notes==
+{{Follow-up before counterattack}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary buffs|name=refined Shadow Sword}}
+{{CooldownChargeMinusNeutralization|name={{St|Shadow Sword|refine=skill1}}}}
+{{Temporary debuffs|name={{St|Shadow Sword|refine=skill1}}}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=暗黒の剣
+|german=Schattenschwert
+|spanishEU=Espada oscura
+|spanishLA=Espada oscura
+|french=Épée d'ombre
+|italian=Spada ombra
+|chineseTW=黑暗之劍
+|portuguese=Espada sombria
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If unit_s HP ≥%can make a follow-up attack before foe can counterattack%' OR Description LIKE '%grants Atk/Spd%+% neutralizes effects%"Special cooldown charge -X"%' AND Description NOT LIKE '%transforms%+7 damage when%'|columns=3}}
+{{Weapons Navbox}}

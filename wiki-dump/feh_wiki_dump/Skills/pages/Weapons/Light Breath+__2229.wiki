@@ -1,0 +1,40 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_光のブレス＋
+|weaponType=Dragonstone
+|might=13
+|range=1
+|effect=If unit initiates combat, grants Def/Res+4 to adjacent allies for 1 turn after combat.
+|cost=300
+|exclusive=0
+|statModifiers=0,13,0,0,0
+|SE=se_effect_lightbreath.flac
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|upgradedMight=14
+|upgradedEffect=After combat, if unit attacked, grants Atk/Spd/Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|properties=random_all
+}}
+==Notes==
+{{Bonuses}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfUnitAttacked}}
+{{LowerDefRes}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=光のブレス＋
+|german=Heller Atem+
+|spanishEU=Aliento radiante +
+|spanishLA=Soplo de luz +
+|french=S. lumineux +
+|italian=Soffio di luce+
+|chineseTW=光之吐息＋
+|portuguese=Sopro de luz+
+}}
+{{Weapons Navbox}}

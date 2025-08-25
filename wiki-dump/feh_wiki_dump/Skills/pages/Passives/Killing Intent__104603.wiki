@@ -1,0 +1,46 @@
+{{Passive
+|name=Killing Intent
+|type=B
+|exclusive=1
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|1name=Killing Intent
+|1tagid=SID_死んでほしいの
+|1effect=At start of combat, if foe's HP < 100% or if【Penalty】is active on foe, inflicts Spd/Res-5 on foe, and if unit initiates combat, unit can make a follow-up attack before foe can counterattack.<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|1required=-
+|1next=-
+|1cost=300
+|properties1=random_owner
+|2name=Killing Intent+
+|alt2name=Killing Intent Plus
+|2tagid=SID_死んでほしいの・神
+|2cost=300
+|2effect=At start of turn, inflicts【Exposure】on nearest foes within 5 spaces of unit and foes within 2 spaces of those foes through their next actions. At start of combat, if foe's HP ≤ 99% or if【Penalty】is active on foe, inflicts Spd/Res-5 on foe during combat, and also, if unit initiates combat, unit can make a follow-up attack before foe can counterattack.<br><br>【Exposure】<br>Foe's attacks deal +10 damage.<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|2required=Killing Intent
+}}
+==Notes==
+{{EffectfromPenalty|temporary debuffs and follow-up attack before foe's counterattack|target=foe}}
+{{Temporary debuffs}}
+{{Follow-up before counterattack}}
+{{Foe's HP not full}}
+{{Exposure|name=Killing Intent+}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+* In {{Version|7.3}}, {{St|Killing Intent+}} had the [[About the Killing Intent+ skill (Notification)|additional unintended effect]] of "At start of combat, if foe's HP ≤ 99% or if【Penalty】is active on foe, unit makes a guaranteed follow-up attack during combat and if a stat penalty is active on any foe within 2 spaces of target, neutralizes effects that inflict "Special cooldown charge -X" on unit."
+
+==In other languages==
+{{OtherLanguages
+|japanese=死んでほしいの
+|japaneseNotes=<i>[[Thrasir: Omnicidal Witch/Quotes#Special trigger|Won't you just die?]]</i>
+|german=Tödliche Absicht
+|spanishEU=Furia homicida
+|spanishLA=Furia homicida
+|french=Intention mortelle
+|italian=Furia assassina
+|chineseTW=從世上消失吧
+|portuguese=Intuito de matar
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe_s HP < 100%' OR Description LIKE '%if foe_s HP ≤ 99%' OR Description LIKE '%【Exposure】%' OR Description LIKE '%and also, if unit initiates combat, unit can make a follow-up attack before foe can counterattack%' OR Description LIKE '%at start of turn%, inflicts%est foes%and foes within _ spaces of those foes%'}}
+{{Passives Navbox|B}}

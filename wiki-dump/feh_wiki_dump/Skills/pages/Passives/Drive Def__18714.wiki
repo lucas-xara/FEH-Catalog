@@ -1,0 +1,65 @@
+{{Passive
+|type=C
+|exclusive=0
+|1name=Drive Def 1
+|1tagid=SID_守備の大紋章1
+|1promotionRarity=5
+|1promotionTier=1
+|1effect=Grants Def+2 to allies within 2 spaces during combat.
+|1cost=120
+|1required=Spur Def 1
+|2name=Drive Def 2
+|2tagid=SID_守備の大紋章2
+|2effect=Grants Def+3 to allies within 2 spaces during combat.
+|2cost=240
+|3name=
+|3effect=
+|3cost=
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=random_all,random_inherit_base
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce={{Eft|Temporary buffs|Def|3}}
+|CeT={{Tgt|Allies}}<br>[[within 2 spaces]]
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{AlliesCombatEffect|effect=temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Drive Def 1;Drive Def 2
+|badgeColor=Verdant
+|costs1=20;100;40
+|costs2=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=守備の大紋章
+|german=Ver. antreiben
+|spanishEU=Impulsar Def
+|spanishLA=Impulsar Def.
+|french=Stimulant Déf
+|italian=Trascina Dif
+|chineseTW=防守大紋章
+|portuguese=Def. impulso
+}}
+==See also==
+* [[Drive Passives]]
+* [[Goad Passives]]
+* [[Ward Passives]]
+{{Seals Navbox}}
+{{Passives Navbox|C}}
+[[Category:Drive Passives]]
+[[Category:Spur Passives]]

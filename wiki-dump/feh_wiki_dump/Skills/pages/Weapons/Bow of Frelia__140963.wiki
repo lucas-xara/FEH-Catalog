@@ -1,0 +1,88 @@
+{{Weapon Infobox
+|tagid=SID_フレリアの玉弓
+|weaponType=Bow
+|might=14
+|range=2
+|effectiveness=Flying
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). Effective against flying foes. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+6 to unit during combat, and also, if Special triggers (excluding area-of-effect Specials), deals +7 damage and neutralizes "reduces damage by X%" effects from non-Special skills.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,0,0,0
+|userVersion1=Bow
+|userVersion2=Arrow
+|required=Silver Bow
+|intID=2517
+|sort=523
+|value=20
+|timingID=28
+|abilityID=278
+|limit1ID=42
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1). Effective against flying foes.<br><br>At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+6 and Def/Res+5 to unit during combat, and also, if Special triggers (excluding area-of-effect Specials), deals +15 damage and neutralizes "reduces damage by X%" effects from foe's non-Special skills.
+|refineStatsSkill1=0,0,0,0,0
+|effectSkill1=At start of turn, grants Special cooldown count-1.<br><br>If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit, neutralizes effects that inflict "Special cooldown charge -X" on unit and disables skills of all foes excluding foe in combat during combat.
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Accelerates Special}}
+|s1 Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|s1 Ce2={{Eft|Temporary buffs|Atk/Spd|6}}
+|s1 Ce3={{Eft|Damage Boost|7}}<br>per {{Tgt|Unit}}'s [[offensive Special]]
+|s1 Ce4={{Eft|Neutralize Damage Reduction}}<br>per {{Tgt|Unit}}'s [[offensive Special]]
+|s1 Ce4T={{Tgt|Foe}}
+|s1 Ce2-4C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Accelerates Special}}
+|s2 Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|s2 Ce2={{Eft|Temporary buffs|Atk/Spd|6}}, {{Eft|Temporary buffs|Def/Res|5}}
+|s2 Ce3={{Eft|Damage Boost|15}}<br>per {{Tgt|Unit}}'s [[offensive Special]]
+|s2 Ce4={{Eft|Neutralize Damage Reduction}}<br>per {{Tgt|Unit}}'s [[offensive Special]]
+|s2 Ce4T={{Tgt|Foe}}
+|s2 Ce2-4C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|skill3={{Si|Bow of Frelia|refine=Skill1}} Skill refine effects
+|s3 Me={{Eft|Reduce Cooldown|1}}
+|s3 MeC=At start of turn
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s3 Ce2={{Eft|Neutralize Guard}}
+|s3 Ce3={{Eft|Disable Ally Skills}}
+|s3 Ce3T={{Tgt|Foe}}
+|s3 CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+==Notes==
+{{Effective damage bonus|Flying}}
+{{Temporary buffs}}
+{{FlatDamageBoost|special=1|7}}
+{{DamageReductionNeutralization}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{FlatDamageBoost|special=1|15|name=Refined Bow of Frelia}}
+{{Start of turn Special modification|name={{St|Bow of Frelia|refine=Skill1}}}}
+{{CooldownChargeMinusNeutralization|name={{St|Bow of Frelia|refine=Skill1}}}}
+{{CombatEffectNeutralization|name={{St|Bow of Frelia|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=フレリアの玉弓
+|german=Frelia-Bogen
+|spanishEU=Arco freliano
+|spanishLA=Arco freliano
+|french=Arc de Frelia
+|italian=Arco di Frelia
+|chineseTW=弗萊利亞的玉弓
+|portuguese=Arco de Frelia
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%disables skills of all foes excluding foe%' AND Exclusive='1'}}
+* [[Feud Passives]]
+* [[Weapons that boost Special damage]]
+{{Weapons Navbox}}

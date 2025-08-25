@@ -1,0 +1,84 @@
+{{Passive
+|name=Lady Knight
+|type=A
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Lady Knight
+|1tagid=SID_女騎士
+|1effect=Enables【Canto (Dist. +1; Max ４)】.<br><br>If unit initiates combat or if unit is within 2 spaces of an ally, if Potent Follow X% has triggered, and X ≤ 99, then X = 100 during combat.<br><br>If unit initiates combat or is within 2 spaces of an ally, deals 7 damage to foe as combat begins (activates only when unit can attack in combat; effects that reduce damage "during combat" do not apply; will not reduce foe's HP below 1), grants Atk/Spd/Def/Res+8+Y to unit, unit deals +Y × 4 damage (excluding area-of-effect Specials), and reduces damage from foe's attacks by Y × 4 during combat (excluding area-of-effect Specials), and also, when foe's attack triggers foe's Special, reduces damage by an additional Y × 4 (excluding area-of-effect Specials; Y = number of spaces from start position to end position of whoever initiated combat; max 3).<br><br>If unit initiates combat, applies 【Divine Vein (Flame)】on 5 spaces in a line centered on foe's space (oriented left to right based on the direction unit is facing) for 1 turn after combat.<br><br>【Canto (Dist. +1; Max ４)】<br>After an attack, Assist skill, or structure destruction, unit can move spaces = number of spaces from start position to end position of unit before the above, +1. (Max ４.)<br><br>【Divine Vein (Flame)】<br>Applies the following effects on space: Acts as difficult terrain for foes with Range = 2 (moving over this space costs +1 movement; does not apply to "cannot be slowed by terrain" effects; movement cost cannot exceed unit's allowed movement). At start of enemy phase, deals 7 damage to foe, and also, as combat begins, deals an additional 7 damage to foe (effects that reduce damage "during combat" do not apply; will not reduce foe's HP below 1).
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Canto|Dist. +1; Max 4}}
+|Me2={{Eft|Divine Vein (Flame)}}
+|Me2T=A 5 space line<br>centered on {{Tgt|Target Foe}}
+|Me2C=After combat<br>in Player Phase
+|Ce1={{Eft|Potent Follow Damage Boost}}
+|Ce1C=(Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]),<br>{{Kp|Potent Follow X%}}<br>triggers, '''&''' X ≤ 99%
+|Ce2={{Eft|Damage|7}}<br>as combat begins
+|Ce2T={{Tgt|Foe}}
+|Ce2C=(Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]) '''&'''<br>{{Tgt|Unit}} can attack
+|Ce3={{Eft|Temporary buffs|Atk/Spd/Def/Res|Spaces initiator moved, +8|max=11}}
+|Ce4={{Eft|Damage Boost|4 x spaces initiator moved|max=12}}
+|Ce5={{Eft|Damage Reduction|4 x spaces initiator moved|max=12}}
+|Ce6={{Eft|Damage Reduction|4 x spaces initiator moved|max=12}}<br>per {{Tgt|Foe}}'s [[offensive Special]]
+|Ce3-6C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+
+==Notes==
+{{Canto|Dist. +1; Max 4}}
+{{IfUnitInitiates}}
+{{CombatDamage|noCounter=1}}
+{{Temporary buffs}}
+{{TemporaryDebufffromPenalty}}
+{{FlatDamageBoost|X (max: 12)}}
+{{FlatDamageReduction|X (max: 12)}}
+{{After combat note}}
+{{Divine Vein|Flame}}
+{| class="wikitable default mw-collapsible"
+!colspan=2 style="text-align:center;max-width:450px;margin:auto;" align="middle"|Examples of {{Eft|Divine Vein (Flame)}}'s<br>area-of-effect
+|-
+!Horizontal 
+|{{AoE|u=Ingrid: Cordial Teatime|t=Cornelia: Saint Consumed
+|-------
+|-------
+|-xxtxx-
+|---u---
+|-------
+|-------
+|-------
+}}
+|-
+!Vertical
+|{{AoE|u=Ingrid: Cordial Teatime|t=Cornelia: Saint Consumed
+|-------
+|--x----
+|--x----
+|--tu---
+|--x----
+|--x----
+|-------
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Divine Vein (Flame)】%' OR Description LIKE '%Potent Follow X%X ≤ 99%') AND Exclusive='1'}}
+* [[Flare Passives]]
+* [[Skill families/A Passives#Excel|Excel Passives]]
+{{Passives Navbox|A}}

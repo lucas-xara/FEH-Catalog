@@ -1,0 +1,53 @@
+{{Weapon Infobox
+|tagid=SID_神竜の体術
+|intID=3755
+|image=wep_ac072
+|exclusive=1
+|weaponType=Dragonstone
+|cost=400
+|might=11
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). Unit attacks twice (even if foe initiates combat, unit attacks twice). At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit during combat, inflicts Atk/Spd/Def/Res-X on foe during combat (X = number of distinct game titles among allies within 3 spaces of unit × 3, + 4; max 10), and reduces damage from area-of-effect Specials (excluding Røkkr area-of-effect Specials) and from foe's first attack during combat by 40% ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes). If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|required=Flametongue
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|PermanentEffect={{SkillEffectText|Accelerates Special}}
+|CombatEffect 1={{SkillEffectText|Attacks Twice}}
+|CombatEffect 2={{SkillEffectText|Temporary buffs|Atk/Spd/Def/Res|5}}
+|CombatEffect 3={{SkillEffectText|Damage Reduction|40%}}<br>from {{SkillTargetText|Foe}}'s first attack<br>(including second attacks)<br>'''&''' Non-Røkkr [[AoE Specials]]
+|CombatEffect 4={{SkillEffectText|Temporary Debuffs|Atk/Spd/Def/Res|3 x {{SkillTargetText|Allies}} from distinct<br>[[titles]] [[within 3 spaces]], +4|max=10}}
+|CombatEffect 4 Targets={{SkillTargetText|Foe}}
+|CombatEffect 2-4 Conditions={{SkillTargetText|Unit}}'s HP ≥ 25%<br>at start of combat
+|CombatEffect 5={{SkillEffectText|Lower Def Res}}
+|CombatEffect 5 Targets={{SkillTargetText|Unit}}
+|CombatEffect 5 Conditions={{SkillTargetText|Foe}}'s Range = 2
+}}
+
+==Notes==
+{{Brave weapon interaction}}
+{{Temporary buffs}}
+{{Temporary debuffs}}
+{{DistinctGameTitles}}
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+{{LowerDefRes}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=神竜の体術
+|german=Drachenfaust
+|spanishEU=Puño de dragón
+|spanishLA=Puño de dragón
+|french=Poing du dragon
+|italian=Pugno di drago
+|chineseTW=神龍體術
+|portuguese=Punho do dragão
+}}
+==See also==
+{{See also skills|cond=CanUseWeapon__full='{{WeaponList|Dragonstone}}' AND Description LIKE '%unit attacks twice%even if foe%' AND Description NOT LIKE '%third and fourth strikes%' OR Description LIKE '%distinct game titles%' OR (Description LIKE '%reduces damage%area-of-effect Specials%from foe_s first attack%' OR Description LIKE '%reduces damage%from foe_s first attack%area-of-effect Specials%') AND Description NOT LIKE '%exc%area-of-effect Specials%' AND Description NOT LIKE '%transforms%Atk/Def-%'}}
+{{Weapons Navbox}}

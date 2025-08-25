@@ -1,0 +1,44 @@
+{{Weapon Infobox
+|tagid=SID_巻貝の槍＋
+|weaponName=Shellpoint Lance+
+|image=wep_lc105
+|weaponType=Lance
+|might=14
+|range=1
+|effect=At start of turn, if unit is within 3 spaces of an ally, grants Def+6 to unit for 1 turn. If unit is within 3 spaces of an ally, grants Atk/Def+5 to unit during combat.
+|cost=300
+|exclusive=0
+|statModifiers=0,14,0,0,0
+|required=Shellpoint Lance
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|intID=2639
+|sort=93001
+|value=15
+|timingID=8
+|abilityID=23
+|limit1ID=14
+|properties=
+}}
+==Notes==
+{{Bonuses}}{{Combat boosts}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=巻貝の槍＋
+|german=Perlmuttlanze+
+|spanishEU=Lanza concha +
+|spanishLA=Lanza marina +
+|french=Lance nacrée +
+|italian=Lancia valvica+
+|chineseTW=海螺之槍＋
+|portuguese=Lança de concha+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%At start of turn, if unit is within%ally%grants%+%to unit for 1 turn%' OR Description LIKE '%If unit is within 3 spaces of an ally%grants%+%during combat%'}}
+{{Weapons Navbox}}

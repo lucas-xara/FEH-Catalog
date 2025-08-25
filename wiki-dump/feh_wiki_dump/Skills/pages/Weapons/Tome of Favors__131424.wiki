@@ -1,0 +1,69 @@
+{{Weapon Infobox
+|tagid=SID_寵愛の書
+|weaponType=Blue Tome
+|weaponName=Tome of Favors
+|might=14
+|range=2
+|effect=If foe does not use beast damage, grants Atk/Res+5 to unit during combat and restores 7 HP to unit after combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,0,0,0
+|required=-
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=Unit can move to a space adjacent to a beast ally that can equip Sing or Dance.<br>If unit is within 3 spaces of a beast ally that can equip Sing or Dance, grants Atk/Res+5 to unit during combat. 
+|iconSkill1=Tome of Favors W.png
+|tagidExtraSkill1=愛
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Ce={{Eft|Temporary buffs|Atk/Res|5}}
+|s1 CeC={{Tgt|Foe}} is not<br>a {{Cwti|Beast|group=1}} [[Beast]]
+|s1 Me={{Eft|Heal|7}}
+|s1 MeC=After combat if<br>{{Tgt|Foe}} is not<br>a {{Cwti|Beast|group=1}} [[Beast]]
+|skill2={{Si|Tome of Favors|refine=Skill1}} Skill refine effects
+|s2 Ce={{Eft|Temporary buffs|Atk/Res|5}}
+|s2 CeC=A {{Cwti|Beast|group=1}} [[Beast]]<br>{{Tgt|Ally}} is<br>[[within 3 spaces]]
+|s2 Me={{Eft|Warp|[[adjacent]] to<br>{{Cwti|Beast|group=1}} [[Beast]] {{Tgt|Allies}}<br>that can use a<br>{{Uti|Dance}} [[Dance Assist]]}}
+}}
+==Notes==
+{{TermRefersTo|Beast}}
+{{Temporary buffs}}
+{{After combat healing}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+* {{Cwtt|Beast}} units that can equip {{St|Sing}} or {{St|Dance}} include: {{#cargo_query:tables=Units
+|fields=CONCAT('{{(}}Ut{{!}}',WikiName,'{{)}}')
+|where=Properties HOLDS 'refresher' AND WeaponType LIKE '%Beast' AND _pageName!='Rafiel: Blessed Wings'
+}}, and {{Ut|Rafiel: Blessed Wings}}.
+{{Warp interaction}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V5.0_201201_nisaveril_Mag.webp|Sprite sheet for {{St|Tome of Storms}} and {{PAGENAME}}'s animations.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=寵愛の書
+|german=Buch der Gunst
+|spanishEU=Grimorio de favor
+|spanishLA=Grimorio de favor
+|french=Tome des faveurs
+|italian=Tomo del diletto
+|chineseTW=寵愛之書
+|portuguese=Tomo de favor
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%unit can move to a space%adjacent%' AND Description NOT LIKE '%status%'AND Exclusive='1'}}
+* [[Skill families/Weapons#Rabbit|Rabbit Tomes]]
+{{Weapons Navbox}}

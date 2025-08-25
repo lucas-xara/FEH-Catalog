@@ -1,0 +1,46 @@
+{{Passive
+|type=A
+|exclusive=0
+|1name=Mirror Impact
+|1tagid=SID_鬼神明鏡の瞬撃3
+|1effect=If unit initiates combat, grants Atk+6, Res+10 during combat and foe cannot make a follow-up attack.
+|1cost=300
+|1required=Mirror Strike 2
+|canUseMove=Infantry,Flying
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{SkillEffectText|Temporary buffs|Atk|6}}, {{SkillEffectText|Temporary buffs|Res|10}}
+|CombatEffect 2={{SkillEffectText|Foe Cannot Follow-Up}}
+|CombatEffect 2 Targets={{SkillTargetText|Foe}}
+|CombatEffect Conditions=Player Phase
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Prevent follow-up}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=鬼神明鏡の瞬撃
+|german=Spiegelprall
+|spanishEU=Impacto espejo
+|spanishLA=Impacto espejo
+|french=Impact résolu
+|italian=Impatto specchio
+|chineseTW=鬼神明鏡瞬擊
+|portuguese=Impacto espelho
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit initiates combat, grants Atk%Res+%and foe cannot make a follow-up attack%' AND Description NOT LIKE '%if unit initiates combat%if foe initiates combat%'}}
+* [[Blow Passives]]
+{{Passives Navbox|A}}
+[[Category:Impact Passives]]
+[[Category:Blow Passives]]

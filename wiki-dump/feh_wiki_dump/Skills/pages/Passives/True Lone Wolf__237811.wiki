@@ -1,0 +1,63 @@
+{{Passive
+|name=True Lone Wolf
+|type=B
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=True Lone Wolf
+|1tagid=SID_真・一匹狼
+|1effect=If a skill compares unit's Spd to a foe's or ally's Spd, treats unit's Spd as if granted +7.<br><br>If unit has not used or been the target of an Assist skill during the current turn, grants another action to unit and inflicts 【Isolation】on unit and Pair Up cohort through their next action in the following cases: A) unit initiated combat, or B) unit took action without entering combat (takes priority over Canto; once per turn, with A and B counted separately; does not trigger when affected by effects of Foresight Snare or traps in Aether Raids).<br><br>At start of combat, if unit's HP ≥ 25% or if number of allies adjacent to unit ≤ 1, inflicts Atk/Spd/Def/Res-5 on foe, deals damage = 20% of unit's Spd (including when dealing damage with a Special triggered before combat), and reduces damage from foe's attacks by 20% of unit's Spd during combat (including when taking damage from a Special triggered before combat), and reduces damage by an additional 20% of unit's Spd when foe's attack triggers foe's Special (including when taking damage from a Special triggered before combat), and neutralizes foe's "reduces damage by X%" effects from foe's non-Special skills when unit's Special triggers (excluding area-of-effect Specials).<br><br>【Isolation】<br>Target cannot use or be the target of Assist skills through its next action. (Target can neither use nor be the target of skills like Dance and Sing, skills that neutralize penalties, like Restore and Harsh Command+, etc.)
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Galeforce}}<br>(once per turn)*
+|Me1C=After combat in<br>Player Phase '''&'''<br>(An [[Assist]] isn't used<br>on '''or''' by {{Tgt|Unit}})
+|Me2={{Eft|Galeforce}}<br>(once per turn)*
+|Me2C={{Tgt|Unit}} acted without<br>entering combat '''&'''<br>(An [[Assist]] isn't used<br>on '''or''' by {{Tgt|Unit}})
+|Se={{SEt|Isolation}}
+|SeT={{Tgt|Unit}} '''&'''<br>{{Tgt|Cohort}}
+|SeC=After first<br>{{Eft|Galeforce}}<br>effect triggers
+|Ce1={{Eft|Phantom|Spd|7}}
+|Ce2={{Eft|Temporary debuffs|Atk/Spd/Def/Res|5}}
+|Ce3={{Eft|Reduce Damage Reduction|50%}}
+|Ce2-3T={{Tgt|Foe}}
+|Ce4={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}<br>before '''&''' during combat
+|Ce5={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Spd}} from<br>attacks & Non-Røkkr [[AoE Specials]]
+|Ce6={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Spd}}<br>per {{Tgt|Foe}}'s [[offensive special|offensive]]<br>& Non-Røkkr [[AoE Specials]]
+|Ce4-6T={{Tgt|Unit}}
+|Ce2-6C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat '''or'''<br>[[adjacent]] {{Tgt|Allies}} ≤ 1
+}}
+<b>{{Hatnote|1=* Does not trigger if {{Tgt|Unit}} triggers<br>a {{Tgt|Foe}}'s {{SEt|Foresight Snare}} or {{Stt|Traps}}.}}</b>
+
+==Notes==
+{{Galeforce notes}}
+{{Isolation}}
+{{Phantom|Spd}}
+{{Temporary debuffs}}
+{{DamageBoost}}
+{{FlatDamageReduction}}
+{{FlatAoEDamageReduction}}
+{{Reduce Damage Reduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%deals damage =%reduces damage%of unit_s Spd%'  OR Description LIKE '%another action%【Isolation】%') AND Exclusive='1'}}
+* [[Phantom Passives]]
+* [[Dodge Passives]]
+{{Passives Navbox|B}}

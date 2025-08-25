@@ -1,0 +1,79 @@
+{{#invoke:NameAbout|main|Name=Yunaka}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Yunaka
+|Title=Spirited Envoy
+|WeaponType=Colorless Dagger
+|MoveType=Cavalry
+|Origin=Fire Emblem Engage
+|Gender=Female
+|actorEN=Laura Post
+|actorJP=ファイルーズあい
+|artist=ネコモチ
+|additionDate=December 14, 2023
+|releaseDate=December 14, 2023
+|cv1=14
+|cv2=600300
+|TagID=冬祭ユナカ
+|InternalID=1038
+|Properties=special,hat,tiara
+|description=A wandering thief who has taken it upon herself to stir up excitement for the winter festival with her spirited outfit and attitude. Appears in Fire Emblem Engage.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=10|Lv1SPD=8|Lv1DEF=8|Lv1RES=6
+|GRHP=50|GRATK=75|GRSPD=90|GRDEF=30|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Dagger
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Dagger
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Dagger
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Silent Yule Knife
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Darting Blow 1
+|passiveA2=Swift Sparrow 1
+|passiveA3=Swift Sparrow 2
+|passiveA4=Flared Sparrow
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Poison Strike 1
+|passiveB2=Poison Strike 2
+|passiveB3=Poison Strike 3
+|passiveB4=Assassin's Strike
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Fatal Smoke 1
+|passiveC2=Fatal Smoke 2
+|passiveC3=Fatal Smoke 3
+|passiveC4=Fatal Smoke 4
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Christmas units]]

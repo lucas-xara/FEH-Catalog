@@ -1,0 +1,50 @@
+{{Weapon Infobox
+|tagid=SID_砂糖菓子の暗器
+|weaponType=Dagger
+|might=14
+|range=2
+|effect=If unit initiates combat, grants Spd+4 and deals damage = 10% of unit's Spd during combat.<br>Effect:【Dagger ７】<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|cost=400
+|exclusive=1
+|userVersion1=Weapon
+|userVersion2=Gleam
+|statModifiers=0,14,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=At start of combat, if foe's HP = 100%, deals +7 damage. When a Special triggers before combat, if foe's HP = 100%, deals +7 damage before combat.
+|iconSkill1=Candied Dagger W.png
+|tagidExtraSkill1=ダ
+|properties=
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{DamageBoost}}
+{{IfUnitAttacked}}
+{{Penalties}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{FixedDamage|7}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|ダメージ強化R敵HP|Damage Bonus R Enemy HP}}
+==In other languages==
+{{OtherLanguages
+|english=Candied Dagger
+|japanese=砂糖菓子の暗器
+|german=Kandierter Dolch
+|spanishEU=Daga azucarada
+|spanishLA=Daga azucarada
+|french=Dague confite
+|italian=Pugnale candito
+|chineseTW=甜點暗器
+|portuguese=Adaga açucarada
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit initiates combat%deals damage =%of unit_s Spd%'}}
+{{Weapons Navbox}}

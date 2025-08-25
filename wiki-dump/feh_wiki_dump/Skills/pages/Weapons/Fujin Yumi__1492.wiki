@@ -1,0 +1,61 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_風神弓
+|weaponType=Bow
+|might=14
+|range=2
+|effectiveness=flying
+|effect=Effective against flying foes. If unit's HP ≥ 50%, unit can move through foes' spaces.
+|cost=400
+|exclusive=1
+|userVersion1=Bow
+|userVersion2=Bow Glow
+|userVersion3=Arrow
+|userVersion4=Upgrade Gleam
+|statModifiers=0,14,0,0,0
+|required=Silver Bow
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Effective against flying foes. If unit's HP ≥ 50%, unit cannot be slowed by terrain. (Does not apply to impassable terrain.)
+|effectSkill1=If unit's HP ≥ 50%, unit can move to a space adjacent to any ally within 2 spaces.
+|iconSkill1=Follow W.png
+|tagidExtraSkill1=従
+|properties=random_owner
+}}
+==Notes==
+* Has the same effect as {{St|Pass 2}}.
+{{Pass notes}}
+{{Effective damage bonus|flying}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{TerrainNeutralization}}
+{{Warp interaction}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|追従R50|Follow}}
+==Gallery==
+<gallery>
+File:Wep bw007.webp|Spritesheet of '''Fujin Yumi'''
+File:Wep ar007.webp|Spritesheet of '''Fujin Yumi''''s arrow
+File:Weapon Fujin Yumi V5.png|Arrow Phase 2
+File:Weapon Fujin Yumi V6.png|Arrow Phase 3
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=風神弓
+|german=Fujin Yumi
+|spanishEU=Yumi Fujin
+|spanishLA=Yumi Fujin
+|french=Yumi Fujin
+|italian=Fujin Yumi
+|chineseTW=風神弓
+|portuguese=Fujin Yumi
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%nit cannot be slowed by terrain%' OR Name LIKE '%Fujin%Yumi%'}}
+* [[Nóatún]]
+{{Weapons Navbox}}

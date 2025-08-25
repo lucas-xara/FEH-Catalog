@@ -1,0 +1,83 @@
+{{#invoke:NameAbout|main|Name=Ashe}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Ashe
+|Title=Chivalric Amends
+|WeaponType=Green Bow
+|MoveType=Cavalry
+|Origin=Fire Emblem: Three Houses
+|Gender=Male
+|actorEN=Shannon McKain
+|actorJP=井上雄貴
+|artist=Tobi
+|randomStartTime=2024-11-15T07:00:00Z
+|additionDate=October 15, 2024
+|releaseDate=October 15, 2024
+|poolDate=November 6, 2024
+|poolRarities=5
+|cv1=12
+|cv2=300400
+|TagID=アッシュ
+|InternalID=1157
+|Properties=
+|description=A student of the Blue Lions. Though he was born a commoner, by a twist of fate Lord Lonato took him in. Appears in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=11|Lv1SPD=8|Lv1DEF=8|Lv1RES=6
+|GRHP=50|GRATK=75|GRSPD=90|GRDEF=45|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Bow
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Just Bow
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Moonbow
+|special2Unlock=4
+|special3=Curved Shot
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Darting Blow 1
+|passiveA2=Swift Sparrow 1
+|passiveA3=Swift Sparrow 2
+|passiveA4=Flared Sparrow
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Seal Spd 1
+|passiveB2=Seal Spd/Def 1
+|passiveB3=Seal Spd/Def 2
+|passiveB4=Seal Spd/Def 3
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Odd Spd Wave 1
+|passiveC2=Odd Spd Wave 2
+|passiveC3=Odd Spd Wave 3
+|passiveC4=Odd Spd Wave 4
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}

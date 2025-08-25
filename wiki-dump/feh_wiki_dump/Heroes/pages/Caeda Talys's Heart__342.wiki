@@ -1,0 +1,73 @@
+{{#invoke:NameAbout|main|Name=Caeda}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Caeda
+|Title=Talys's Heart
+|GrowthModifier=None
+|WeaponType=Red Sword
+|Origin=Fire Emblem: Mystery of the Emblem
+|Gender=Female
+|MoveType=Flying
+|actorEN=Cherami Leigh
+|actorJP=早見沙織
+|artist=羽公
+|releaseDate=February 2, 2017
+|poolDate=February 2, 2017
+|randomStartTime=2017-02-02T07:00:00Z
+|poolRarities=3,4
+|TagID=シーダ
+|InternalID=28
+|Properties=demoted_240,resplendent,nifl
+|resplendentArtist=LAL!ROLE
+|resplendentStartTime=2020-10-25T07:00:00Z
+|resplendentEndTime=2020-11-10T06:59:59Z
+|cv1=1
+|cv2=200100
+|description=Princess of Talys who's as talented as she is charming. Marth's betrothed. Appears in Fire Emblem: Mystery of the Emblem.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=6|Lv1SPD=9|Lv1DEF=5|Lv1RES=10
+|GRHP=45|GRATK=45|GRSPD=65|GRDEF=45|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Armorslayer
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Armorslayer+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Wing Sword
+|weapon5Default=
+|weapon5Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Rally Speed
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Darting Blow 1
+|passiveA2=Darting Blow 2
+|passiveA3=Darting Blow 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Fortify Res 1
+|passiveC2=Fortify Res 2
+|passiveC3=Fortify Fliers
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

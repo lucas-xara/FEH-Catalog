@@ -1,0 +1,61 @@
+{{SkillPage Tabs}}{{Passive
+|type=B
+|exclusive=0
+|1name=Gale Dance 1
+|1tagid=SID_疾風の舞い1
+|1promotionRarity=4
+|1promotionTier=1
+|1required=-
+|1effect=If Sing or Dance is used, grants Spd+2 to target.
+|1cost=50
+|2name=Gale Dance 2
+|2tagid=SID_疾風の舞い2
+|2promotionRarity=5
+|2promotionTier=1
+|2effect=If Sing or Dance is used, grants Spd+3 to target.
+|2cost=100
+|3name=Gale Dance 3
+|3tagid=SID_疾風の舞い3
+|3effect=If Sing or Dance is used, grants Spd+4 to target.
+|3cost=200
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|all}}
+|properties=random_owner
+}}
+==Notes==
+{{Dance passive interaction}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Gale Dance 1;Gale Dance 2;Gale Dance 3
+|badgeColor=Azure
+|costs1=20;100;20
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=疾風の舞い
+|german=Sturmtanz
+|spanishEU=Viento bailarín
+|spanishLA=Viento bailarín
+|french=Danse du vent
+|italian=Danza bufera
+|chineseTW=疾風之舞
+|portuguese=Dança ventania
+}}
+==See also==
+* [[Dance Passives]]
+{{Seals Navbox}}
+{{Passives Navbox|B}}

@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Takumi}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Takumi
+|Title=Empty Vessel
+|GrowthModifier=Gen 2
+|WeaponType=Colorless Bow
+|MoveType=Infantry
+|Origin=Fire Emblem Fates
+|Gender=Male
+|actorEN=Michael Sinterniklaas
+|actorJP=梶裕貴
+|artist=日野慎之助
+|additionDate=February 22, 2018
+|releaseDate=February 24, 2018
+|TagID=眷属タクミ
+|InternalID=220
+|Properties=fallen,ghb,tiara,limited
+|cv1=11
+|cv2=200900
+|description=Prince of Hoshido who wields the evil bow Skadi. While his love for his homeland remains, he was forced to become a servant of one of the First Dragons. Appears in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=15|Lv1ATK=9|Lv1SPD=10|Lv1DEF=6|Lv1RES=5
+|GRHP=50|GRATK=50|GRSPD=55|GRDEF=45|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Bow
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Skadi
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Retribution
+|special1Default=4
+|special1Unlock=3
+|special2=Vengeance
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Fury 1
+|passiveA2=Fury 2
+|passiveA3=Fury 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Spd Smoke 1
+|passiveC2=Spd Smoke 2
+|passiveC3=Spd Smoke 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

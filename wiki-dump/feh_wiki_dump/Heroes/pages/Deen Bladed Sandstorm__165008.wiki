@@ -1,0 +1,65 @@
+{{#invoke:NameAbout|main|Name=Deen}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Deen
+|Title=Bladed Sandstorm
+|WeaponType=Colorless Dagger
+|MoveType=Cavalry
+|Origin=Fire Emblem Echoes: Shadows of Valentia
+|Gender=Male
+|actorEN=Joe J. Thomas
+|actorJP=最上嗣生
+|artist=п猫Ｒ
+|additionDate=January 17, 2022
+|releaseDate=January 17, 2022
+|cv1=2
+|cv2=300400
+|TagID=ハタリディーン
+|InternalID=764
+|Properties=limited,tempest,specDisplay
+|description=A skilled mercenary who once came to Celica's aid. Having been invited to the Hatari festival, he decided he would see it for himself. Appears in Fire Emblem Echoes: Shadows of Valentia.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=8|Lv1SPD=9|Lv1DEF=5|Lv1RES=6
+|GRHP=55|GRATK=65|GRSPD=70|GRDEF=50|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Dagger
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Dagger
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Bone Carver
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Bone Carver+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Swap
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveB1=Spd/Def Snag 1
+|passiveB2=Spd/Def Snag 2
+|passiveB3=Spd/Def Snag 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Odd Spd Wave 1
+|passiveC2=Odd Spd Wave 2
+|passiveC3=Odd Spd Wave 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Desert Festival units]]

@@ -1,0 +1,65 @@
+{{#invoke:NameAbout|main|Name=Lachesis}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Lachesis
+|Title=Ballroom Bloom
+|WeaponType=Green Dagger
+|MoveType=Flying
+|Origin=Fire Emblem: Genealogy of the Holy War
+|Gender=Female
+|actorEN=Cristina Vee
+|actorJP=大西沙織
+|artist=みわべさくら
+|additionDate=September 7, 2020
+|releaseDate=September 8, 2020
+|cv1=3
+|cv2=1100200
+|TagID=舞踏ラケシス
+|InternalID=563
+|Properties=refresher,special
+|description=Younger sister of Eldigan, ruler of Nordion. Sheds her armor for a gorgeous dress and a night of dancing. Appears in Fire Emblem: Genealogy of the Holy War.
+}}
+{{Stats Page
+|Lv1HP=15|Lv1ATK=7|Lv1SPD=5|Lv1DEF=4|Lv1RES=9
+|GRHP=50|GRATK=70|GRSPD=50|GRDEF=35|GRRES=65
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Dagger
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Dagger
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Courtly Mask
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Courtly Mask+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Dance
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveB1=Def Cantrip 1
+|passiveB2=Def Cantrip 2
+|passiveB3=Def Cantrip 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Air Orders 1
+|passiveC2=Air Orders 2
+|passiveC3=Air Orders 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Dance Festival units]]

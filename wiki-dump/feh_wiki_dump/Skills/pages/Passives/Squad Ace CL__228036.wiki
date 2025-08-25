@@ -1,0 +1,57 @@
+{{Passive
+|name=Squad Ace CL
+|type=S
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|1name=Squad Ace CL 1
+|alt1name=Squad Ace CB 1
+|1tagid=SID_第90迷宮の覇者1
+|1effect=Grants Spd/Def/Res+1.
+|statModifiers1=0,0,1,1,1
+|1cost=120
+|1required=-
+|1next=-
+|2name=Squad Ace CL 2
+|alt2name=Squad Ace CB 2
+|2tagid=SID_第90迷宮の覇者2
+|2effect=Grants Spd/Def/Res+2.
+|statModifiers2=0,0,2,2,2
+|2cost=180
+|2next=-
+|3name=Squad Ace CL 3
+|alt3name=Squad Ace CB 3
+|3tagid=SID_第90迷宮の覇者3
+|3effect=Grants Spd/Def/Res+3.
+|statModifiers3=0,0,3,3,3
+|3cost=240
+}}
+==Seal acquired from==
+===Squad Assault reward===
+* Complete the [[90th Assault]].
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Squad Ace CL 1;Squad Ace CL 2;Squad Ace CL 3
+|badgeColor=Scarlet
+|costs1=-
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}
+[[Category:Squad Ace Seals]]

@@ -1,0 +1,77 @@
+{{#invoke:NameAbout|main|Name=Yuri}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Yuri
+|Title=Ashen Valiant
+|WeaponType=Colorless Dagger
+|MoveType=Infantry
+|Origin=Fire Emblem: Three Houses
+|Gender=Male
+|actorEN=Alejandro Saab
+|actorJP=榎木淳弥
+|artist=とよた瑣織
+|randomStartTime=2021-10-17T07:00:00Z
+|additionDate=September 17, 2021
+|releaseDate=September 17, 2021
+|poolDate=October 7, 2021
+|poolRarities=5
+|cv1=12
+|cv2=450100
+|TagID=ユーリス
+|InternalID=707
+|Properties=specRate_202408
+|description=Leader of the Ashen Wolf House. Behind the tough talk lies a valiant defender of the weak. Appears in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=11|Lv1SPD=13|Lv1DEF=4|Lv1RES=5
+|GRHP=50|GRATK=65|GRSPD=70|GRDEF=50|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Dagger
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Dagger
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Dagger
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Honorable Blade
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Swap
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Foul Play
+|assist2Unlock=5
+}}
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Glimmer
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=C Duel Infantry 1
+|passiveA2=C Duel Infantry 2
+|passiveA3=C Duel Infantry 3
+|passiveA4=C Duel Infantry 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveC1=Time's Pulse 1
+|passiveC2=Time's Pulse 2
+|passiveC3=Time's Pulse 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

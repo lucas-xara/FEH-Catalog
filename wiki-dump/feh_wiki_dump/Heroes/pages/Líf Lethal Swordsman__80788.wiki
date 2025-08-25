@@ -1,0 +1,87 @@
+{{#invoke:NameAbout|main|Name=Líf|Name2=Alfonse}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Líf
+|Title=Lethal Swordsman
+|WeaponType=Red Sword
+|MoveType=Infantry
+|Origin=Fire Emblem Heroes
+|Gender=Male
+|MythicEffect=Anima
+|MythicEffect2=None
+|BoostHP=5
+|BoostSpd=4
+|actorEN=Edward Bosco
+|actorJP=前野智昭
+|artist=コザキユースケ
+|additionDate=1/30/2020
+|releaseDate=1/30/2020
+|cv1=0
+|cv2=330300
+|TagID=リーヴ
+|EnemyInternalID=50
+|InternalID=481
+|Properties=mythic
+|description=General of the realm of the dead. At his queen's command, this dark swordsman fights in hopes that all the living will join the ranks of the dead.
+}}
+==Ally stats==
+{{Stats Page|noheader=1|Hero=Líf: Lethal Swordsma
+|Lv1HP=18|Lv1ATK=8|Lv1SPD=8|Lv1DEF=10|Lv1RES=7
+|GRHP=55|GRATK=70|GRSPD=50|GRDEF=55|GRRES=50
+}}
+==Enemy stats==
+{{Stats Page/Enemy|noheader=1
+|Lv1HP=18|Lv1ATK=11|Lv1SPD=8|Lv1DEF=8|Lv1RES=6
+|GRHP=55|GRATK=60|GRSPD=50|GRDEF=60|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Sökkvabekkr
+|weapon4Default=5
+|weapon4Unlock=5
+|hasEnemy=1
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=4
+|special1Unlock=3
+|special2=Bonfire
+|special2Unlock=4
+|special3=Open the Future
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Distant Counter
+|passiveA1Unlock=5
+|passiveB1=Deadly Balance
+|passiveB2=Deadly Balance+
+|passiveB1Unlock=5
+|passiveB2Unlock=5
+|passiveC1=Time's Pulse 1
+|passiveC2=Time's Pulse 2
+|passiveC3=Time's Pulse 3
+|passiveC4=Even Tempest 1
+|passiveC5=Even Tempest 2
+|passiveC6=Even Tempest 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+|passiveC4Unlock=1
+|passiveC5Unlock=2
+|passiveC6Unlock=4
+}}
+{{Heroes Navbox}}
+{{Enemies Navbox}}

@@ -1,0 +1,82 @@
+{{Weapon Infobox
+|tagid=SID_感謝の戦猫の爪牙
+|intID=4371
+|noImg=1
+|exclusive=1
+|weaponType=Beast
+|canUseMove=Cavalry
+|cost=400
+|might=14
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>At start of turn, if unit's Special cooldown count is at its maximum value, grants Special cooldown count-1 to unit.<br><br>At start of combat, if unit's HP ≥ 25%, grants bonus to unit's Atk/Spd/Def/Res = 5 + number of foes within 3 rows or 3 columns centered on unit × 3 (max 14), neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks, and neutralizes effects that inflict "Special cooldown charge -X" on unit during combat, and also, when unit's Special triggers, neutralizes foe's "reduces damage by X%" effects from foe's non-Special skills (excluding area-of-effect Specials) during combat.<br><br>If unit's HP ≥ 25% at start of combat and unit's Special cooldown count is at its maximum value after combat, grants Special cooldown count-1 to unit after combat.<br><br>At start of turn, if unit is adjacent to only beast or dragon allies or is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 to unit, inflicts Atk/Def-X on foe during combat (X = number of spaces from start position to end position of whoever initiated combat, + 3; max 6), and also, if X ≥ 5, reduces damage from foe's first attack by 30% during combat.
+|required=Adult (Cavalry)
+|properties=random_inherit_base
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe1={{Eft|Accelerates Special}}
+|Pe2={{Eft|Stat Boosts|Atk|2}}
+|PeC2={{Tgt|Unit}} is transformed
+|Me1={{Eft|Transform}}
+|Me1C=At start of turn if<br>{{Tgt|Unit}} is [[adjacent]] to only<br>{{Cwti|group=1|Dragon,Beast}} [[Dragon]]/[[Beast]]<br>{{Tgt|Allies}} '''or''' not [[adjacent]]<br>to any {{Tgt|Ally}}
+|Me2={{Eft|Reduce Cooldown|1}}
+|Me2C=At start of turn<br>if {{Tgt|Unit}}'s CD<br>is max value
+|Me3={{Eft|Reduce Cooldown|1}}
+|Me3C=After combat if<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' {{Tgt|Unit}}'s CD<br>is max value
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|3 x {{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}, + 5|max=14}}
+|Ce2={{Eft|Neutralize Guard}}
+|Ce3={{Eft|Neutralize Prevent Follow-Ups}}
+|Ce4={{Eft|Neutralize Guaranteed Follow-Ups}}
+|Ce5={{Eft|Neutralize Damage Reduction}} per<br>{{Tgt|Unit}}'s [[offensive Special]]
+|Ce1-5C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce4-6T={{Tgt|Foe}}
+|Ce6={{Eft|Temporary debuffs|Atk/Def|Spaces initiator moved + 3|max=6}}
+|Ce6C={{Tgt|Unit}} is transformed
+|Ce7={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s first attack
+|Ce7T={{Tgt|Unit}}
+|Ce7C={{Tgt|Unit}} is transformed '''&'''<br>Spaces initiator moved ≥ 2
+}}
+==Notes==
+* Hungry Cat Fang has the same effect as {{St|Time's Pulse 3}}.
+{{Start of turn Special modification}}
+{{Temporary buffs}}
+{{Follow-up effect neutralization}}
+{{CooldownChargeMinusNeutralization}}
+{{DamageReductionNeutralization}}
+{{After combat Special modification}}
+{{Beast (Cavalry)}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Lethe: Cat Attack|t=Petrine: Icy Flame-Lancer
+|---xxx---
+|---xxx---
+|---xxx---
+|xxxxxxxxx
+|xtxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%its maximum value%grants Special cooldown count-%after combat%' OR Description LIKE '%after combat%its maximum value%grants Special cooldown count-%') AND Description NOT LIKE '%【Dagger ７】%' AND Exclusive='1'}}
+* [[Time Pulse Passives]]
+{{Weapons Navbox}}

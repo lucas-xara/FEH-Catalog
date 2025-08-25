@@ -1,0 +1,48 @@
+{{About|the passive skill|the [[status effect]]|Cancel Affinity (status effect)}}{{Passive
+|type=B
+|exclusive=0
+|1name=Cancel Affinity 1
+|1tagid=SID_相性殺し1
+|1promotionRarity=4
+|1promotionTier=1
+|1effect=Neutralizes all weapon-triangle advantage granted by unit's and foe's skills.
+|1required=-
+|1cost=50
+|2name=Cancel Affinity 2
+|2tagid=SID_相性殺し2
+|2promotionRarity=5
+|2promotionTier=1
+|2effect=Neutralizes weapon-triangle advantage granted by unit's skills. If unit has weapon-triangle disadvantage, neutralizes weapon-triangle advantage granted by foe's skills.
+|2cost=100
+|3name=Cancel Affinity 3
+|3tagid=SID_相性殺し3
+|3effect=Neutralizes weapon-triangle advantage granted by unit's skills. If unit has weapon-triangle disadvantage, reverses weapon-triangle advantage granted by foe's skills.
+|3cost=200
+|canUseWeapon={{WeaponList|colorless,close|exclude=Staff}}
+|canUseMove={{MoveList|all}}
+|properties=random_owner
+}}
+==Notes==
+{{Reverse WTA}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=相性相殺
+|german=Bindung lösen
+|spanishEU=Anular afinidad
+|spanishLA=Anular afinidad
+|french=Anti-avantage
+|italian=Annulla affinità
+|chineseTW=抵銷互克
+|portuguese=Afinidade nula
+}}
+==See also==
+* [[Triangle Adept]]
+* [[Gem Weapons]]
+{{Passives Navbox|B}}

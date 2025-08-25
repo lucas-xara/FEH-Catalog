@@ -1,0 +1,92 @@
+{{#invoke:NameAbout|main|Name=Níðhöggr}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Níðhöggr
+|Title=Quieting Dose
+|Origin=Fire Emblem Heroes
+|Person=Níðhöggr
+|Gender=F
+|WeaponType=Red Beast
+|MoveType=Armored
+|MythicEffect=Astra
+|MythicEffect2=Raiding Party Bonus
+|BoostHP=5
+|BoostRes=5
+|actorEN=Anjali Kunapaneni
+|actorJP=豊崎愛生
+|artist=コザキユースケ
+|additionDate=2024-03-15
+|releaseDate=November 29, 2024
+|Properties=mythic,tiara
+|description=A member of Yggdrasill's Healing Hands who prefers to remain intoxicated in order to keep her true feelings from coming to the surface.
+|cv1=0
+|cv2=800300
+|TagID=ニーズヘッグ
+|InternalID=1173
+|EnemyInternalID=105
+}}
+==Ally stats==
+{{Stats Page|noheader=1
+|Lv1HP=22|Lv1ATK=16|Lv1SPD=4|Lv1DEF=9|Lv1RES=10
+|GRHP=65|GRATK=75|GRSPD=30|GRDEF=90|GRRES=75
+}}
+==Enemy stats==
+{{Stats Page/Enemy|noheader=1
+|Lv1HP=22|Lv1ATK=17|Lv1SPD=4|Lv1DEF=8|Lv1RES=9
+|GRHP=60|GRATK=70|GRSPD=30|GRDEF=90|GRRES=75
+}}
+==Skills==
+===Ally Weapons===
+{{Weapons Table
+|weapon1=Whelp (Armored)
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Yearling (Arm.)
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Adult (Armored)
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Enticing Dose
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Enemy Weapons===
+{{Weapons Table/enemy
+|weapon4=Dosing Fang
+}}
+
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=4
+|special1Unlock=3
+|special2=Ignis
+|special2Unlock=4
+|special3=Sturdy Beast
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Divine Toxin
+|passiveA1Unlock=5
+|passiveB1=Slick Fighter 1
+|passiveB2=Slick Fighter 2
+|passiveB3=Slick Fighter 3
+|passiveB4=Slick Fighter 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=A/D Far Save 1
+|passiveC2=A/D Far Save 2
+|passiveC3=A/D Far Save 3
+|passiveC4=A/D Twin F Save
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+{{Enemies Navbox}}

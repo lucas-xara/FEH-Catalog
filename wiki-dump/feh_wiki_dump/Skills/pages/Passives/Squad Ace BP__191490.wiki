@@ -1,0 +1,49 @@
+{{Passive
+|type=S
+|name=Squad Ace BP
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|1name=Squad Ace BP 1
+|alt1name=Squad Ace AL 1
+|1tagid=SID_第68迷宮の覇者1
+|1cost=80
+|1effect=Grants Spd/Def+1.
+|statModifiers1=0,0,1,1,0
+|1required=-
+|1next=-
+|2name=Squad Ace BP 2
+|alt2name=Squad Ace AL 2
+|2tagid=SID_第68迷宮の覇者2
+|2cost=160
+|2effect=Grants Spd/Def+2.
+|statModifiers2=0,0,2,2,0
+}}
+==Seal acquired from==
+===Squad Assault reward===
+* Complete the [[68th Assault]].
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Squad Ace BP 1;Squad Ace BP 2
+|badgeColor=Verdant
+|costs1=-<!--0;0;0-->
+|costs2=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=第６８迷宮の覇者
+|german=Überfall-Ass BP
+|spanishEU=As del asalto BP
+|spanishLA=As del asalto BP
+|french=Assaut réussi BP
+|italian=Asso sq. BP
+|chineseTW=第６８迷宮的霸王
+|portuguese=Esquad. ás BP
+}}
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}
+[[Category:Squad Ace Seals]]

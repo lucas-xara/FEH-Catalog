@@ -1,0 +1,33 @@
+{{Passive
+|name=Belief in Love
+|type=B
+|exclusive=1
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|1name=Belief in Love
+|1tagid=SID_愛を信じますか？
+|1effect=If foe initiates combat or if foe's HP = 100% at start of combat, inflicts Atk/Def-5 on foe during combat.
+|1required=-
+|1cost=300
+|properties=random_owner
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Combat reductions}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Belief in Love
+|japanese=愛を信じますか？
+|german=Kraft der Liebe
+|spanishEU=Corazón tenaz
+|spanishLA=Corazón tenaz
+|french=Foi amoureuse
+|italian=Credo d'amore
+|chineseTW=你相信愛嗎？
+|portuguese=Por amor
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If foe initiates combat or if foe_s HP%inflicts Atk/Def-%during combat%'|columns=3}}
+{{Passives Navbox|B}}

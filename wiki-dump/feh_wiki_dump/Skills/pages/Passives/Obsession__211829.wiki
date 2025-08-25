@@ -1,0 +1,48 @@
+{{Passive
+|name=Obsession
+|type=A
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Obsession
+|1tagid=SID_執着
+|1effect=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+9 to unit during combat, unit makes a guaranteed follow-up attack, foe cannot make a follow-up attack, and also, when unit performs a follow-up attack, neutralizes "reduces damage by X%" effects from foe's non-Special skills (excluding area-of-effect Specials). At start of combat, if unit's HP ≥ 25% and if decreasing the Spd difference necessary to make a follow-up attack by 25 would allow unit to trigger a follow-up attack (excluding guaranteed or prevented follow-ups), triggers【Potent Follow X%】during combat (if unit cannot perform follow-up and attack twice, X = 80; otherwise, X = 40).<br><br>【Potent Follow X%】<br>Triggers an additional follow-up attack immediately after unit's standard follow-up attack and deals damage = X% of unit's normal attack damage (if unit cannot make a follow-up attack, this effect triggers when the standard follow-up attack would occur; this effect is treated like a follow-up attack, so effects like "reduce damage by X%" still apply, but this effect is not affected by effects that prevent follow-ups or "attacks twice" effects; only highest value applied; does not stack).
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|9}}
+|Ce2={{Eft|Guaranteed Follow-Ups}}
+|Ce3={{Eft|Prevent Follow-Ups}}
+|Ce4={{Eft|Neutralize Damage Reduction}}<br>per {{Tgt|Unit}}'s follow-up attacks
+|Ce3-4T={{Tgt|Foe}}
+|Ce1-4C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce5={{Eft|Potent Follow X%|2=80% if {{Tgt|Unit}} can't<br>[[follow-up]] '''&''' [[attack twice]];<br>else, X = 40%}}
+|Ce5T={{Tgt|Unit}}
+|Ce5C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' {{Tgt|Unit}}'s Spd ≥<br>{{Tgt|Foe}}'s Spd-20
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{Guaranteed follow-up interaction}}
+{{Prevent follow-up}}
+{{DamageReductionNeutralization}}
+{{Potent Follow|X%}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=執着
+|german=Obsession
+|spanishEU=Obsesión
+|spanishLA=Obsesión
+|french=Obsession
+|italian=Ossessione
+|chineseTW=執著
+|portuguese=Obsessão
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【Potent Follow%】%'}}
+{{Passives Navbox|A}}

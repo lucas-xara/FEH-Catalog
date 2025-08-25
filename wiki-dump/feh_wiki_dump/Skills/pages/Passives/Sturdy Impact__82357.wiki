@@ -1,0 +1,47 @@
+{{Passive
+|type=A
+|exclusive=0
+|1name=Sturdy Impact
+|1tagid=SID_鬼神金剛の一撃3
+|1effect=If unit initiates combat, grants Atk+6, Def+10 during combat and foe cannot make a follow-up attack.
+|1cost=300
+|1required=Sturdy Blow 2
+|canUseMove=Infantry,Flying
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{SkillEffectText|Temporary buffs|Atk|6}}, {{SkillEffectText|Temporary buffs|Def|10}}
+|CombatEffect 2={{SkillEffectText|Foe Cannot Follow-Up}}
+|CombatEffect 2 Targets={{SkillTargetText|Foe}}
+|CombatEffect Conditions=Player Phase
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Prevent follow-up}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=鬼神金剛の瞬撃
+|german=Kraftprall
+|spanishEU=Impacto duro
+|spanishLA=Impacto duro
+|french=Impact robuste
+|italian=Impatto ferreo
+|chineseTW=鬼神金剛瞬擊
+|portuguese=Choque robusto
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit initiates combat, grants Atk%Def+%and foe cannot make a follow-up attack%' AND Exclusive='1' AND Name NOT LIKE '%Instant%'}}
+* [[Skill families/Weapons#Instant|Instant Weapons]]
+* [[Blow Passives]]
+{{Passives Navbox|A}}
+[[Category:Impact Passives]]
+[[Category:Blow Passives]]

@@ -1,0 +1,79 @@
+{{#invoke:NameAbout|main|Name=Anankos}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Anankos
+|Title=Seething Silence
+|WeaponType=Blue Breath
+|MoveType=Armored
+|Origin=Fire Emblem Fates
+|Gender=Male
+|actorEN=Imari Williams
+|actorJP=島﨑信長
+|artist=米子
+|randomStartTime=2023-06-09T07:00:00Z
+|additionDate=May 8, 2023
+|releaseDate=May 9, 2023
+|poolDate=June 8, 2023
+|poolRarities=5
+|cv1=11
+|cv2=9901000
+|TagID=闇ハイドラ
+|InternalID=948
+|Properties=fallen,hat
+|description=The dragon of wisdom having succumbed to madness. The memories of those he once held dear lie in the depths beneath the waves. Appears in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=10|Lv1SPD=14|Lv1DEF=10|Lv1RES=7
+|GRHP=55|GRATK=75|GRSPD=70|GRDEF=60|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire Breath
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Fire Breath+
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Flametongue
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Silent Breath
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Daylight
+|special1Default=4
+|special1Unlock=3
+|special2=Noontime
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Darting Stance 1
+|passiveA2=Kestrel Stance 1
+|passiveA3=Kestrel Stance 2
+|passiveA4=Kestrel Stance 3
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Savvy Fighter 1
+|passiveB2=Savvy Fighter 2
+|passiveB3=Savvy Fighter 3
+|passiveB4=Savvy Fighter 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=A/S Near Save 1
+|passiveC2=A/S Near Save 2
+|passiveC3=A/S Near Save 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

@@ -1,0 +1,88 @@
+{{Passive
+|type=A
+|name=Atk/Res Finish
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|Infantry}}
+|properties=random_owner
+|1name=Atk/Res Finish 1
+|alt1name=Atk Res Finish 1
+|1tagid=SID_攻撃魔防の秘奥1
+|1cost=60
+|1effect=If unit is within 3 spaces of an ally, grants Atk/Res+2 to unit during combat, and also, if unit's Special is ready or unit's Special triggered before or during this combat, deals +1 damage during combat. (Except when dealing damage with area-of-effect Specials.)
+|1required=-
+|1promotionRarity=4
+|1promotionTier=1
+|2name=Atk/Res Finish 2
+|alt2name=Atk Res Finish 2
+|2tagid=SID_攻撃魔防の秘奥2
+|2cost=120
+|2effect=If unit is within 3 spaces of an ally, grants Atk/Res+4 to unit during combat, and also, if unit's Special is ready or unit's Special triggered before or during this combat, deals +3 damage during combat. (Except when dealing damage with area-of-effect Specials.)
+|2promotionRarity=5
+|2promotionTier=1
+|3name=Atk/Res Finish 3
+|alt3name=Atk Res Finish 3
+|3tagid=SID_攻撃魔防の秘奥3
+|3cost=240
+|3effect=If unit is within 3 spaces of an ally, grants Atk/Res+6 to unit during combat, and also, if unit's Special is ready or unit's Special triggered before or during this combat, deals +5 damage during combat. (Except when dealing damage with area-of-effect Specials.)
+|3next=-
+|4name=Atk/Res Finish 4
+|alt4name=Atk Res Finish 4
+|4tagid=SID_攻撃魔防の秘奥4
+|4cost=300
+|4effect=If unit is within 3 spaces of an ally, grants Atk/Res+7 to unit during combat, and also, if unit's Special is ready or unit's Special triggered before or during this combat, deals +5 damage during combat (except when dealing damage with area-of-effect Specials), and when unit deals damage to foe during combat, restores 7 HP to unit. (Triggers even if 0 damage is dealt.)
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Skill1={{Si|Atk/Res Finish 3}} Atk/Res Finish 3
+|s1 Ce1={{Eft|Temporary buffs|Atk/Res|6}}
+|s1 Ce1C=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|s1 Ce2={{Eft|Damage Boost|5}}
+|s1 Ce2C=An {{Tgt|Ally}} is<br>[[within 3 spaces]] '''&'''<br>{{Tgt|Unit}}'s Special is<br>ready '''or''' triggered<br>before or during combat
+|Skill2={{Si|Atk/Res Finish 4}} Atk/Res Finish 4
+|s2 Ce1={{Eft|Temporary buffs|Atk/Res|7}}
+|s2 Ce1C=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|s2 Ce2={{Eft|Damage Boost|5}}
+|s2 Ce3={{Eft|Heal|7}}<br>per {{Tgt|Unit}}'s attack
+|s2 Ce2-3C=An {{Tgt|Ally}} is<br>[[within 3 spaces]] '''&'''<br>{{Tgt|Unit}}'s Special is<br>ready '''or''' triggered<br>before or during combat
+}}
+==Notes==
+{{Temporary buffs}}
+{{FlatDamageBoost|1/3/5}}
+{{CombatHPRecovery|name=Atk/Res Finish 4}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Atk/Res Finish 1;Atk/Res Finish 2;Atk/Res Finish 3
+|badgeColor=Transparent
+|costs1=20;100;20
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|english=Atk/Res Finish
+|japanese=攻撃魔防の秘奥
+|german=A/R-Anstoß
+|spanishEU=Final Ata/Res
+|spanishLA=Final Atq./Res.
+|french=Finition Atq/Rés
+|italian=Finale Att/Res
+|chineseTW=攻擊魔防的奧秘
+|portuguese=Final Atq./Res.
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if%special is ready%before or during%' AND Exclusive='1'}}
+* [[Skill families/A Passives#Finish|Finish Passives]]
+{{Seals Navbox}}
+{{Passives Navbox|A}}

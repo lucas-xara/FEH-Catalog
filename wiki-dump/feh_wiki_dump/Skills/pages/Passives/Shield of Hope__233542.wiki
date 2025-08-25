@@ -1,0 +1,56 @@
+{{Passive
+|name=Shield of Hope
+|type=B
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Shield of Hope
+|1tagid=SID_人と竜との盾
+|1effect=Inflicts Atk/Spd/Def-5 on foe, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks, and grants effects based on the total value of bonuses on the 3 allies with the highest bonus totals during combat (excluding unit):<br><br>If value ≥ 20, if decreasing the Spd difference necessary to make a follow-up attack by 10 would allow unit to trigger a follow-up attack (excluding guaranteed or prevented follow-ups), triggers【Potent Follow 100%】; if value ≥ 40, if foe initiates combat, unit can counterattack before foe's first attack; and if value ≥ 60, neutralizes effects that prevent unit's counterattacks, and also, if it is first combat initiated by foe that turn, unit can make a follow-up attack before foe's next attack.<br><br>【Potent Follow 100%】<br>Triggers an additional follow-up attack immediately after unit's standard follow-up attack and deals damage = 100% of unit's normal attack damage (if unit cannot make a follow-up attack, this effect triggers when the standard follow-up attack would occur; this effect is treated like a follow-up attack, so effects like "reduce damage by X%" still apply, but this effect is not affected by effects that prevent follow-ups or "attacks twice" effects; only highest value applied; does not stack).
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary debuffs|Atk/Spd/Def|5}}
+|Ce2={{Eft|Neutralize Guaranteed Follow-Ups}}
+|Ce1-2T={{Tgt|Foe}}
+|Ce3={{Eft|Neutralize Prevent Follow-Ups}}
+|Ce4={{Eft|Potent Follow 100%}}
+|Ce4C=X ≥ 20 '''&''' {{Tgt|Unit}}'s<br>Spd ≥ {{Tgt|Foe}}'s Spd-5
+|Ce5={{Eft|Vantage}}
+|Ce5C=Enemy Phase '''&''' X ≥ 40
+|Ce6={{Eft|Neutralize Prevent Counter}}
+|Ce6C=X ≥ 60
+|Ce7={{Eft|Desperation}}
+|Ce7C={{Tgt|Foe}}'s first combat in<br>Enemy Phase '''&''' X ≥ 60
+}}
+<b>{{Hatnote|1=X = Total {{SEt|Bonuses}} on 3 {{Tgt|Allies}} with the highest {{SEt|Bonus}} totals}}</b>
+
+==Notes==
+{{Temporary debuffs}}
+{{Follow-up effect neutralization}}
+{{Potent Follow|100%}}
+{{Preempt}}
+{{Counterattack prevention neutralization}}
+{{Follow-up before counter|phase=Enemy|preempt=1}}
+{{FirstCombat|follow-up before foe's next attack|target=foe|phase=EP}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=Escudo de esperanza
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+
+==See also==
+{{See also skills|cond=(Description LIKE '%total value of bonuses%' OR Description LIKE '%counterattack before foe_s first attack%follow-up attack before foe%' OR Description LIKE '%prevent unit_s counterattacks%' OR Description LIKE '%prevent counterattacks%') AND Exclusive='1'}}
+* [[Null Passives]]
+{{Passives Navbox|B}}

@@ -1,0 +1,70 @@
+{{Passive
+|name=Brash Assault
+|type=B
+|exclusive=0
+|1name=Brash Assault 1
+|1tagid=SID_差し違え1
+|1promotionRarity=4
+|1promotionTier=1
+|1effect=If unit initiates combat against a foe that can counter and unit's HP ≤ 30%, unit makes a guaranteed follow-up attack.
+|1required=-
+|1cost=50
+|2name=Brash Assault 2
+|2tagid=SID_差し違え2
+|2promotionRarity=5
+|2promotionTier=1
+|2effect=If unit initiates combat against a foe that can counter and unit's HP ≤ 40%, unit makes a guaranteed follow-up attack.
+|2cost=100
+|3name=Brash Assault 3
+|3tagid=SID_差し違え3
+|3effect=If unit initiates combat against a foe that can counter and unit's HP ≤ 50%, unit makes a guaranteed follow-up attack.
+|3cost=200
+|3next=-
+|4name=Brash Assault 4
+|4tagid=SID_差し違え4
+|4effect=At start of combat, if unit's HP ≤ 99% and unit initiates combat or if foe's HP = 100% and unit initiates combat, inflicts Def/Res-4 on foe, reduces damage from foe's first attack by 30%, unit makes a guaranteed follow-up attack, and unit's next attack deals damage = 30% of foe's attack damage prior to reductions (resets at end of combat; only highest value applied; does not stack).
+|4cost=300
+|properties4=random_owner
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|properties=random_all
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{IfFoeCanCounter}}
+{{Guaranteed follow-up interaction}}
+{{Temporary debuffs|name=Brash Assault 4}}
+{{DamagePercentageReduction}}
+{{DamageBoost|beforeReductions=1|name=Brash Assault 4}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Brash Assault 1;Brash Assault 2;Brash Assault 3
+|badgeColor=Transparent
+|costs1=20;100;20
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=差し違え
+|german=Dreistigkeit
+|spanishEU=Rompecontras
+|spanishLA=Rompecontras
+|french=Casse-cou
+|italian=Impudenza
+|chineseTW=同歸於盡
+|portuguese=Contraofensiva
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%deals damage%attack damage prior to reductions%' OR Description LIKE '%if%foe%can counter%makes a guaranteed follow-up%' AND Description NOT LIKE '%unit can counterattack regardless%'}}
+{{Seals Navbox}}
+{{Passives Navbox|B}}

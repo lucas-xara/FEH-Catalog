@@ -1,0 +1,91 @@
+{{#invoke:NameAbout|main|Name=Edain}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Edain
+|Title=Lady of Yngvi
+|WeaponType=Colorless Staff
+|MoveType=Infantry
+|Origin=Fire Emblem: Genealogy of the Holy War
+|Gender=Female
+|actorEN=Kana Shimanuki
+|actorJP=石村知子
+|artist=あんべよしろう
+|randomStartTime=2025-02-07T07:00:00Z
+|additionDate=January 6, 2025
+|releaseDate=January 7, 2025
+|poolDate=January 28, 2025
+|poolRarities=5
+|cv1=3
+|cv2=200200
+|TagID=エーディン
+|InternalID=1192
+|Properties=
+|description=A lady of Yngvi and descendant of the crusader Ullr. She was captured by Verdane but escaped with Jamke's aid. Appears in Fire Emblem: Genealogy of the Holy War.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=9|Lv1SPD=9|Lv1DEF=7|Lv1RES=10
+|GRHP=60|GRATK=90|GRSPD=50|GRDEF=30|GRRES=80
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Assault
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Staff of Yngvi
+|weapon2Default=5
+|weapon2Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Heal
+|assist1Default=1
+|assist1Unlock=1
+|assist2=Mend
+|assist2Default=3
+|assist2Unlock=2
+|assist3=Magic Shield
+|assist3Default=4
+|assist3Unlock=3
+|assist4=Magic Shield+
+|assist4Default=5
+|assist4Unlock=5
+}}
+===Specials===
+{{Specials Table
+|special1=Imbue
+|special1Default=4
+|special1Unlock=2
+|special2=Miracle
+|special2Default=5
+|special2Unlock=3
+|special3=Glitter of Light
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Res Form 1
+|passiveA2=Atk/Res Form 2
+|passiveA3=Atk/Res Form 3
+|passiveA4=Sway Atk/Res
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Sabotage Res 1
+|passiveB2=Sabotage Res 2
+|passiveB3=Sabotage Res 3
+|passiveB4=Spd/Res Discord
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Infantry Pulse 1
+|passiveC2=Infantry Pulse 2
+|passiveC3=Infantry Pulse 3
+|passiveC4=Infantry Pulse 4
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}

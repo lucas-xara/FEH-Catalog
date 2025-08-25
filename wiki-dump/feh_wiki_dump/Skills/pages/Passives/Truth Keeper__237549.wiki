@@ -1,0 +1,72 @@
+{{Passive
+|name=Truth Keeper
+|type=C
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Truth Keeper
+|1tagid=SID_真実の弁護者
+|1effect=If defending in Aether Raids during Anima or Chaos season, after combat for unit or allies on the map, destroys foe's Safety Fence (O) structure (triggers even if unit or ally is defeated in combat).<br><br>For allies within 3 rows or 3 columns centered on unit, grants Atk/Res+5 and reduces damage from foe's first attack by 7 during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and restores 7 HP to ally after combat.<br><br>If there is an ally within 3 rows or 3 columns centered on unit, grants Atk/Res+5 to unit, unit deals +X × 5 damage (max 15; excluding area-of-effect Specials), reduces damage from foe's attacks by 7 (excluding area-of-effect Specials), and grants Special cooldown count-X to unit before unit's first attack during combat (max 2; X = number of allies within 3 rows or 3 columns centered on unit), and restores 7 HP to unit after combat.
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1=Destroys {{Sct|Safety Fence (O)}}
+|Me1T={{Tgt|Foe}}
+|Me1C=After {{Tgt|Unit}} '''or'''<br>{{Tgt|Ally}}'s combat<br>if Defending in<br>[[File:Icon Season Anima.png|x26px|class=inline-icon|link=]] Anima '''or'''<br>[[File:Icon Season Chaos.png|x26px|class=inline-icon|link=]] Chaos Season<br>in [[Aether Raids]]
+|Me2={{Eft|Heal|7}}
+|Me2T={{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|Me2C=After {{Tgt|Ally}}'s combat
+|Me3={{Eft|Heal|7}}
+|Me3C=After combat if an<br>{{Tgt|Ally}} is within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|Ce1={{Eft|Temporary buffs|Atk/Res|5}}
+|Ce2={{Eft|Damage Reduction|7}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce1-2T={{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|Ce3={{Eft|Temporary buffs|Atk/Res|5}}
+|Ce4={{Eft|Damage Boost|5 x {{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}|max=15}}
+|Ce5={{Eft|Damage Reduction|7}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce6={{Eft|Reduce Cooldown|{{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}|max=2}}<br>before {{Tgt|Unit}}'s first attack
+|Ce3-6C=An {{Tgt|Ally}} is within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{FlatDamageReduction|7}}
+{{After combat healing|allies=1}}
+{{AlliesCombatEffect|temporary buffs, damage reduction and after combat HP recovery effects}}
+{{FlatDamageBoost|X (max: 15)}}
+{{CombatCooldownCount|-X (max: 2)}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Höðr: Dusk Shadow God|t=Baldr: Celestial Sun God
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=Verdad absoluta
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+
+==See also==
+{{See also skills|cond=(Description LIKE '%destroy%structure%' OR Description LIKE '%restores%HP%%after their combat%' OR (Description LIKE '%after ally_s combat%restores%HP%' OR Description LIKE '%restores%HP%after ally_s combat%') AND Description NOT LIKE '%elixir%') AND Exclusive='1'}}
+{{Passives Navbox|C}}

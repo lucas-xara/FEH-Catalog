@@ -1,0 +1,77 @@
+{{#invoke:NameAbout|main|Name=Yune}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Yune
+|Title=Chaos Goddess
+|GrowthModifier=Gen 3
+|WeaponType=Green Tome
+|Origin=Fire Emblem: Radiant Dawn
+|Gender=Female
+|MythicEffect=Dark
+|MythicEffect2=None
+|BoostHP=5
+|BoostSpd=4
+|MoveType=Flying
+|actorJP=佐久間紅美
+|actorEN=Megan Lee
+|artist=みわべさくら
+|additionDate=March 29, 2019
+|releaseDate=March 29, 2019
+|TagID=神階ユンヌ
+|InternalID=360
+|Properties=mythic
+|cv1=9
+|cv2=4900200
+|description=A being that is half of the goddess Ashunera. The goddess of chaos, who is said to have thrown the world into disorder long ago. Appears in Fire Emblem: Radiant Dawn.
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=9|Lv1SPD=5|Lv1DEF=5|Lv1RES=9
+|GRHP=50|GRATK=55|GRSPD=50|GRDEF=25|GRRES=65
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Wind
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elwind
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Rexcalibur
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Chaos Manifest
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Glacies
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Res Bond 1
+|passiveA2=Atk/Res Bond 2
+|passiveA3=Atk/Res Bond 3
+|passiveA4=Atk/Res Unity
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Sabotage Res 1
+|passiveB2=Sabotage Res 2
+|passiveB3=Sabotage Res 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Chaos Named
+|passiveC2=Chaos Named+
+|passiveC1Unlock=5
+|passiveC2Unlock=5
+}}
+{{Heroes Navbox}}

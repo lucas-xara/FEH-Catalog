@@ -1,0 +1,38 @@
+{{Weapon Infobox
+|tagid=SID_牽制の槍
+|intID=3296
+|image=wep_lc129
+|exclusive=0
+|weaponType=Lance
+|cost=200
+|might=10
+|range=1
+|effect=Inflicts Spd/Def-5 on foes within 2 spaces during combat.
+|statModifiers=0,10,0,0,0
+|required=Steel Lance
+|next=Rein Lance+
+|promotionRarity=5
+|promotionTier=1
+|properties=random_owner
+}}
+==Notes==
+{{Temporary debuffs}}
+{{FoesCombatEffect}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=牽制の槍
+|german=Zügellanze
+|spanishEU=Lanza amarra
+|spanishLA=Lanza amarra
+|french=Lance bride
+|italian=Lancia Briglia
+|chineseTW=牽制之槍
+|portuguese=Lança rédea
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%inflicts%Spd/Def%-%on foes within _ spaces during combat%' AND WikiName NOT LIKE '%Rein%'}}
+* [[Skill families/C Passives#Rein|Rein Passives]]
+* [[Skill families/Weapons#Rein_.28weapons.29|Rein Weapons]]
+{{Weapons Navbox}}

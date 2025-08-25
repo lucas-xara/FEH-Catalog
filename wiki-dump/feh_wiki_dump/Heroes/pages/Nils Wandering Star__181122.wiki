@@ -1,0 +1,65 @@
+{{#invoke:NameAbout|main|Name=Nils}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Nils
+|Title=Wandering Star
+|WeaponType=Green Breath
+|MoveType=Infantry
+|Origin=Fire Emblem: The Blazing Blade
+|Gender=Male
+|actorEN=Khoi Dao
+|actorJP=佐倉綾音
+|artist=みく郎
+|additionDate=October 5, 2022
+|releaseDate=October 6, 2022
+|cv1=6
+|cv2=1900110
+|TagID=ハロニルス
+|InternalID=861
+|Properties=tempest,specDisplay,limited,refresher,hat
+|description=A bard whose travels take him between the worlds of dragons and humans, known to vanish as quickly as he is revealed. Appears in Fire Emblem: The Blazing Blade.
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=7|Lv1SPD=11|Lv1DEF=4|Lv1RES=9
+|GRHP=65|GRATK=65|GRSPD=70|GRDEF=40|GRRES=60
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire Breath
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Fire Breath+
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Surprise Breath
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Surprise Breath+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Play
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveB1=Torrent Dance 1
+|passiveB2=Geyser Dance 1
+|passiveB3=Geyser Dance 2
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Hone Spd 1
+|passiveC2=Hone Spd 2
+|passiveC3=Hone Dragons
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Halloween units]]

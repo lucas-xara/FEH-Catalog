@@ -1,0 +1,57 @@
+{{Passive
+|type=S
+|exclusive=0
+|1name=Squad Ace N 1
+|1tagid=SID_第14迷宮の覇者1
+|1effect=Grants Spd+1.
+|1cost=30
+|1next=-
+|1required=-
+|2name=Squad Ace N 2
+|2tagid=SID_第14迷宮の覇者2
+|2effect=Grants Spd+2.
+|2cost=60
+|2next=-
+|3name=Squad Ace N 3
+|3tagid=SID_第14迷宮の覇者3
+|3effect=Grants Spd+3.
+|3cost=120
+|statModifiers1=0,0,1,0,0
+|statModifiers2=0,0,2,0,0
+|statModifiers3=0,0,3,0,0
+|canUseMove={{MoveList|all}}
+|alt1name=Squad Ace D 1
+|alt2name=Squad Ace D 2
+|alt3name=Squad Ace D 3
+|canUseWeapon={{WeaponList|all}}
+|properties=
+}}
+==Seal acquired from==
+===Squad Assault reward===
+* Complete the [[14th Assault]].
+===Sacred Seal Forge===
+{{SealCosts
+|seals=Squad Ace N 1;Squad Ace N 2;Squad Ace N 3
+|badgeColor=Azure
+|costs1=-
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=第１４迷宮の覇者
+|german=Überfall-Ass N
+|spanishEU=As del asalto N
+|spanishLA=As del asalto N
+|french=Assaut réussi N
+|italian=Asso squadra N
+|chineseTW=第１４迷宮的霸王
+|portuguese=Esquadrão ás N
+}}
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}
+[[Category:Squad Ace Seals]]

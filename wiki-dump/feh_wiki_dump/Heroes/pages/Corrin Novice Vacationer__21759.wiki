@@ -1,0 +1,69 @@
+{{#invoke:NameAbout|main|Name=Corrin}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Corrin
+|Title=Novice Vacationer
+|GrowthModifier=None
+|WeaponType=Blue Tome
+|MoveType=Flying
+|Origin=Fire Emblem Fates
+|Gender=Female
+|actorEN=Marcella Lentz-Pope
+|actorJP=佐藤聡美
+|artist=煎茶
+|releaseDate=July 28, 2017
+|TagID=水着カムイ女
+|InternalID=158
+|Person=Corrin F
+|Properties=special,specRate_202202
+|cv1=11
+|cv2=100200
+|description=A Hoshidan princess raised in Nohr. She won a ticket to a tropical island in a lottery. Appears in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=7|Lv1SPD=8|Lv1DEF=5|Lv1RES=7
+|GRHP=40|GRATK=55|GRSPD=60|GRDEF=40|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Thunder
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elthunder
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Sealife Tome
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Sealife Tome+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Dragon Fang
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Darting Blow 1
+|passiveA2=Swift Strike 1
+|passiveA3=Swift Strike 2
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Fortify Res 1
+|passiveC2=Fortify Res 2
+|passiveC3=Fortify Fliers
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Summer units]]

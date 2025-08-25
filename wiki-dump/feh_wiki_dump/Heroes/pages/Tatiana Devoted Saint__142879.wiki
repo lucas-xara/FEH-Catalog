@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Tatiana}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Tatiana
+|Title=Devoted Saint
+|WeaponType=Blue Tome
+|MoveType=Infantry
+|Origin=Fire Emblem Echoes: Shadows of Valentia
+|Gender=Female
+|actorEN=Cristina Vee
+|actorJP=田村奈央
+|artist=いちかわはる
+|randomStartTime=2021-07-08T07:00:00Z
+|additionDate=June 7, 2021
+|releaseDate=June 8, 2021
+|poolDate=June 30, 2021
+|poolRarities=3,4
+|cv1=2
+|cv2=400100
+|TagID=ティータ
+|InternalID=669
+|Properties=
+|description=Cleric of the Rigelian Empire who tends toward thoughtlessness, but she's also very generous and loves Zeke deeply. Appears in Fire Emblem Echoes: Shadows of Valentia.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=9|Lv1SPD=8|Lv1DEF=5|Lv1RES=9
+|GRHP=50|GRATK=65|GRSPD=60|GRDEF=25|GRRES=70
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Light
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Ellight
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Blárrabbit
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Blárrabbit+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Ardent Sacrifice
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Warding Stance 1
+|passiveA2=Swift Stance 1
+|passiveA3=Swift Stance 2
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Atk Opening 1
+|passiveC2=Atk Opening 2
+|passiveC3=Atk Opening 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

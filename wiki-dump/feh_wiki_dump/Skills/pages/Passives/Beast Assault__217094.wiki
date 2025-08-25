@@ -1,0 +1,71 @@
+{{Passive
+|name=Beast Assault
+|type=B
+|exclusive=0
+|canUseWeapon={{WeaponList|Beast}}
+|canUseMove={{MoveList|exclude=Armored}}
+|properties=random_owner
+|1name=Beast Assault 1
+|1tagid=SID_絶対化身・急襲1
+|1effect=If unit's HP = 100%, removes the condition to transform.<br><br>Reduces the percentage of foe's non-Special "reduce damage by X%" skills by 20% during combat (excluding area-of-effect Specials).
+|1cost=60
+|1required=-
+|1promotionTier=1
+|1promotionRarity=4
+|2name=Beast Assault 2
+|2tagid=SID_絶対化身・急襲2
+|2effect=If unit's HP ≥ 50%, removes the condition to transform.<br><br>Reduces the percentage of foe's non-Special "reduce damage by X%" skills by 30% during combat (excluding area-of-effect Specials).
+|2cost=120
+|2promotionTier=1
+|2promotionRarity=5
+|3name=Beast Assault 3
+|3tagid=SID_絶対化身・急襲3
+|3effect=Removes the condition to transform.<br><br>Reduces the percentage of foe's non-Special "reduce damage by X%" skills by 40% during combat (excluding area-of-effect Specials).
+|3cost=240
+|3next=-
+|4name=Beast Assault 4
+|4tagid=SID_絶対化身・急襲4
+|4effect=Removes the condition to transform.<br><br>Inflicts Spd/Def-4 on foe and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials).
+|4cost=300
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Beast Agility 3}} Beast Agility 3
+|s1 Me={{Eft|Remove Transform Condition}}
+|s1 Ce={{Eft|Reduce Damage Reduction|40%}}
+|s1 CeT={{Tgt|Foe}}
+|skill2={{Si|Beast Agility 4}} Beast Agility 4
+|s2 Me={{Eft|Remove Transform Condition}}
+|s2 Ce1={{Eft|Temporary debuffs|Spd/Def|4}}
+|s2 Ce2={{Eft|Reduce Damage Reduction|50%}}
+|s2 CeT={{Tgt|Foe}}
+}}
+
+==Notes==
+{{TransformConditionRemoval}}
+{{Reduce Damage Reduction}}
+{{Temporary debuffs|name=Beast Agility 4}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Beast Assault
+|japanese=絶対化身・強襲
+|german=Bestiensturm
+|spanishEU=Asalto bestial
+|spanishLA=Asalto de bestia
+|french=Assaut de bête
+|italian=Assalto bestiale
+|chineseTW=絕對化身・強攻
+|portuguese=Ofensiva fera
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%removes the condition to transform%') AND (Exclusive=1 AND Name NOT LIKE '%+')}}
+* [[Beast Passives]]
+* [[Null Passives]]
+* [[Tempo Passives]]
+{{Passives Navbox|B}}

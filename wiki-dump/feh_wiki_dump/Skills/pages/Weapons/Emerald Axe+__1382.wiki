@@ -1,0 +1,34 @@
+{{Weapon Infobox
+|tagid=SID_深緑の斧＋
+|weaponType=Axe
+|might=12
+|range=1
+|effect=If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%.
+|cost=300
+|exclusive=0
+|statModifiers=0,12,0,0,0
+|properties=random_all
+}}
+==Notes==
+* Has the same effect as {{St|Triangle Adept 3}}.
+{{WTA boost}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=深緑の斧＋
+|german=Smaragdaxt+
+|spanishEU=H. esmeralda +
+|spanishLA=Hacha esmrld. +
+|french=H. émeraude +
+|italian=Ascia smeraldo+
+|chineseTW=深綠之斧＋
+|portuguese=Machado jade+
+}}
+==See also==
+* [[Fólkvangr]]
+* [[Trilemma]]
+* [[Trilemma+]]
+* [[Gem Weapons]]
+{{Weapons Navbox}}
+[[Category:Gem weapons]]

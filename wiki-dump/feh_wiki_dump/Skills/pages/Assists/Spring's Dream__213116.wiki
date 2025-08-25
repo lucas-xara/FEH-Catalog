@@ -1,0 +1,47 @@
+{{Assist
+|tagid=SID_しろいはるのゆめ
+|intID=4060
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=400
+|range=1
+|effect=Grants another action to target ally. Grants Atk+6 and【Bonus Doubler】to target ally and allies within 2 spaces of target ally (excluding unit) for 1 turn. Inflicts Atk-6 and【Panic】 on nearest foes within 5 spaces of target ally and any foe within 2 spaces of those foes through their next actions. (Cannot target an ally with Sing or Dance; this skill treated as Sing or Dance.)<br><br>【Bonus Doubler】<br>Grants bonus to Atk/Spd/Def/Res during combat = current bonus on each of unit's stats for 1 turn. Calculates each stat bonus independently.<br><br>【Panic】<br>Converts bonuses on target into penalties through its next action.
+|required=Dance
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{Eft|Bonuses|Atk|6}}
+|Se2={{SEt|Bonus Doubler}}
+|Se1-2T={{Tgt|Target Ally}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Ally}}
+|Se3={{Eft|Penalties|Atk|6}}
+|Se4={{SEt|Panic}}
+|Se3-4T=Nearest {{Tgt|Foes}}<br>[[within 5 spaces]] of<br>{{Tgt|Target Ally}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}} 
+|SeC={{Tgt|Target (Ally)}}<br>doesn't have a<br>{{Uti|Dance}} [[Dance Assist]]<br>'''or''' {{SEt|Isolation}}
+|Me={{Eft|Another Action}}
+|MeT={{Tgt|Target Ally}}
+|MeC={{Tgt|Target (Ally)}}<br>doesn't have a<br>{{Uti|Dance}} [[Dance Assist]]<br>'''or''' {{SEt|Isolation}}
+}}
+
+==Notes==
+{{Bonuses}}
+{{Bonus Doubler}}
+{{Penalties}}
+{{Panic}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=しろいはるのゆめ
+|german=Frühlingsträume
+|spanishEU=Sueño vernal
+|spanishLA=Sueño vernal
+|french=Rêve printanier
+|italian=Sogno di primav.
+|chineseTW=白春之夢
+|portuguese=Sonho vernal
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%This skill treated as Sing or Dance%' OR Description LIKE '%【Bonus Doubler】%' AND Description NOT LIKE '%【Ploy】%' AND Exclusive='1'}}
+{{Assists Navbox}}

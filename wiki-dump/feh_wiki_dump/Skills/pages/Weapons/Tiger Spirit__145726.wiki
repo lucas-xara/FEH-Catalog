@@ -1,0 +1,45 @@
+{{Weapon Infobox
+|tagid=SID_虎神・寅
+|weaponName=Tiger Spirit
+|userVersion1=Closed
+|userVersion2=Open
+|weaponType=Green Tome
+|might=14
+|range=2
+|effect=Grants Res+3. At start of combat, if unit's HP ≥ 25%, grants Atk/Res+6 to unit during combat, and also, after combat, if unit attacked, inflicts【Panic】on target and foes within 2 spaces of target.<br><br>【Panic】<br>Converts bonuses on target into penalties through its next action.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,0,0,3
+|required=Rexcalibur
+|intID=2661
+|sort=564
+|effectRange=2
+|value=20
+|timingID=6
+|abilityID=33
+|limit1ID=42
+|limit2ID=6
+|randomTimestamp=2021-08-19T07:00:00Z
+|randomMinLv=31
+|properties=random_owner
+}}
+==Notes==
+{{Combat boosts}}
+{{IfUnitAttacked}}
+{{Panic}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=虎神・寅
+|german=Tigergeist
+|spanishEU=Espíritu tigre
+|spanishLA=Espíritu tigre
+|french=Esprit tigre
+|italian=Spirito tigre
+|chineseTW=虎神・寅
+|portuguese=Espírito de tigre
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit attacked%converts%' OR Description LIKE '%if unit attacked%panic%' OR Description LIKE '%inflicts%panic%on target and foes within _ spaces%'|columns=3}}
+{{Weapons Navbox}}

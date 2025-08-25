@@ -1,0 +1,65 @@
+{{#invoke:NameAbout|main|Name=Lifis}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Lifis
+|Title=Terror of Iz
+|WeaponType=Green Axe
+|MoveType=Infantry
+|Origin=Fire Emblem: Thracia 776
+|Gender=Male
+|actorEN=Alan Adelberg
+|actorJP=梯篤司
+|artist=otorihara
+|additionDate=August 4, 2021
+|releaseDate=August 6, 2021
+|cv1=4
+|cv2=5900500
+|TagID=海賊リフィス
+|InternalID=694
+|Properties=limited,tempest,specDisplay,hat
+|description=Leader of the Lifis Pirates, who ply the waters off the coast of Iz. He has come to the pirate festival after having a change of heart. Appears in Fire Emblem: Thracia 776.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=8|Lv1SPD=12|Lv1DEF=8|Lv1RES=6
+|GRHP=65|GRATK=65|GRSPD=65|GRDEF=50|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Helmsman Axe
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Helmsman Axe+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Swap
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Wind Boost 1
+|passiveA2=Wind Boost 2
+|passiveA3=Wind Boost 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Windsweep 1
+|passiveB2=Windsweep 2
+|passiveB3=Windsweep 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Pirate Festival units]]

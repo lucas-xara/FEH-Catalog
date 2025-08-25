@@ -1,0 +1,29 @@
+{{Special
+|tagid=SID_剣姫の流星
+|charge=2
+|effect=Boosts damage by 40% of unit's Spd. (Skill cannot be inherited.)
+|cost=500
+|exclusive=1
+|required=Astra
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_all,offensive_special
+}}
+==Notes==
+{{DamageBoost}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=剣姫の流星
+|german=Streiterin Astra
+|spanishEU=Estrella fugaz
+|spanishLA=Estrella fugaz
+|french=Stellaire royal
+|italian=Astra regale
+|chineseTW=劍姬的流星
+|portuguese=Astro régio
+}}
+==See also==
+{{See also skills|cond=SCategory='special' AND Exclusive='1' AND Description LIKE '%Boosts%damage by __% of unit_s Spd%'|columns=3}}
+{{Specials Navbox}}

@@ -1,0 +1,28 @@
+{{Special
+|tagid=SID_月虹
+|charge=2
+|effect=Treats foe's Def/Res as if reduced by 30% during combat.
+|cost=200
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|required=New Moon
+|properties=random_all,offensive_special
+}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==In other languages==
+{{OtherLanguages
+|japanese=月虹
+|german=Mondbogen
+|spanishEU=Arcoíris lunar
+|spanishLA=Arcoíris lunar
+|french=Arc lunaire
+|italian=Arco selenico
+|chineseTW=月虹
+|portuguese=Arco-íris lunar
+}}
+==See also==
+{{See also skills|cond=SCategory='special' AND Exclusive='1' AND Description LIKE '%Treats foe_s Def/Res as if reduced by __% during combat%'}}
+{{Specials Navbox}}

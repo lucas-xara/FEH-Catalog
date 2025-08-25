@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Alfonse|Name2=Líf}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Alfonse
+|Title=Prince of Askr
+|GrowthModifier=None
+|WeaponType=Red Sword
+|Origin=Fire Emblem Heroes
+|Gender=Male
+|MoveType=Infantry
+|actorEN=Ray Chase
+|actorJP=鈴木達央
+|artist=コザキユースケ
+|releaseDate=February 2, 2017
+|TagID=アルフォンス
+|InternalID=21
+|Properties=story,limited
+|cv1=0
+|cv2=100100
+|description=A prince of Askr and member of the Order of Heroes. Kind and serious, and eager to maintain peace.
+}}
+{{Stats Page|lowestHeroRarity=2
+|Lv1HP=19|Lv1ATK=9|Lv1SPD=6|Lv1DEF=8|Lv1RES=5
+|GRHP=55|GRATK=60|GRSPD=45|GRDEF=55|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Fólkvangr
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Daylight
+|special1Default=2
+|special1Unlock=2
+|special2=Sol
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Death Blow 1
+|passiveA2=Death Blow 2
+|passiveA3=Death Blow 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Spur Atk 1
+|passiveC2=Spur Atk 2
+|passiveC3=Spur Atk 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

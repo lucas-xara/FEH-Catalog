@@ -1,0 +1,67 @@
+{{Passive
+|name=Raging Tempest
+|type=B
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Raging Tempest
+|1tagid=SID_真狂嵐
+|1effect=At start of turn, if unit's HP = 100% or if any foe is within 3 columns or 3 rows centered on unit, grants "unit can move 1 extra space (that turn only; does not stack)" and【Charge】 to unit for 1 turn. If number of allies adjacent to unit ≤ 1, inflicts Atk/Def-5 on foe during combat, deals damage = 15% of unit's Atk (excluding area-of-effect Specials), and if unit initiates combat, grants another action to unit after combat (once per turn; if a skill effect moves unit after combat, this effect occurs based on unit's final placement after that movement).<br><br>【Charge】<br>Unit can move up to 3 spaces in any cardinal direction. (Cannot move through foes, terrain that blocks movement, or effects of skills like Obstruct. Granted movement treated as Warp movement.)
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|StatusEffect 1={{SEt|Mobility Increased}}
+|StatusEffect 2={{SEt|Charge}}
+|StatusEffect Conditions=At start of turn if<br>{{Tgt|Unit}}'s HP = 100%<br>'''or''' a {{Tgt|Foe}} is within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|MapEffect={{Eft|Another Action}}
+|MapEffect Conditions=After combat if<br>[[adjacent]] {{Tgt|Allies}} ≤ 1
+|CombatEffect 1={{Eft|Damage Boost|15% of {{Tgt|Unit}}'s Atk}}
+|CombatEffect 2={{Eft|Temporary debuffs|Atk/Def|5}}
+|CombatEffect 2 Targets={{Tgt|Foe}}
+|CombatEffect Conditions=[[Adjacent]] {{Tgt|Allies}} ≤ 1
+}}
+
+==Notes==
+{{Start of turn HP notes}}
+{{Mobility increased}}
+{{Charge}}
+{{Temporary debuffs}}
+{{AtkDamageBoost}}
+{{Galeforce notes}}
+* "Skills that move unit after combat" include the [[:Category:Røkkr area-of-effect Specials|Røkkr area-of-effect Specials]].
+{|class="wikitable default mw-collapsible" 
+!align="middle"|Example of Area of Effect
+|-
+|align="middle"!|<div style="max-width:450px;margin: auto;>{{AoE|u=Edelgard: Snowfall Future|t=Dimitri: Blessed Protector
+|---xxx---
+|---xxx---
+|---xtx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}</div>
+|}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=真狂嵐
+|german=Wütender Orkan
+|spanishEU=Tempestad atroz
+|spanishLA=Tempestad atroz
+|french=Ouragan furieux
+|italian=Bufera furiosa
+|chineseTW=真狂嵐
+|portuguese=Tempestade atroz
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%another action to unit%' OR Description LIKE '%grants unit another action%'}}
+{{Passives Navbox|B}}

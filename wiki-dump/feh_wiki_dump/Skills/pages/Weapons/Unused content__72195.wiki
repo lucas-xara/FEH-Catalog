@@ -1,0 +1,214 @@
+{{stub}}
+<div class="toclimit-2">__TOC__</div>
+==Images==
+<gallery>
+025_NiflTempleChapter8_Default_Sprite.png|Found at <code>/assets/Common/Battle/BG/025_NiflTempleChapter8/Default/Sprite.png</code>, this appears to be a map background placeholder of sorts.
+ch00_15_Yurg_F_Normal_Face_FC.png|A Face FC file found at <code>/assets/Common/Face/ch00_15_Yurg_F_Normal/Face_FC.png</code>. It resembles {{Ht|Alfonse: Prince of Askr}}.
+ch01_27_Katarina_F_Normal_old_Face.png|<code>/assets/Common/Face/ch01_27_Katarina_F_Normal/old_Face.png</code>, {{Ht|Katarina: Wayward One}}'s old Face file where she appears thinner. 
+cutIn_P_C_NoName_Face_C.webp|Located in <code>/assets/Common/UI/ShadowCutin/CutIn_P_C_NoName/Face_C.png</code>
+Passive_Placeholder.png|Placeholder image for a skill icons in the <code>/assets/Common/UI/Skill_Passive1.png</code> spritesheet before every slot filled up. No longer used as a placeholder, at an unknown time the passive spritesheets transitioned to using the empty passive icon is used as a placeholder instead.
+X0541.webp|Found at <code>/assets/Common/X0541.png</code>, this seems to be a draft of [[:File:Map X0541.webp]]
+</gallery>
+===Unused mockups===
+Unused mockups are found in <code>/assets/Common/Unit/</code>.
+====Weapon sprites====
+<gallery>
+Wep ar.png|Found at <code>/assets/Common/Wep/wep_ar.png</code>, this appears to be an arrow mockup.
+Wep ax.png|Found at <code>/assets/Common/Wep/wep_ax.png</code>, this appears to be an {{Cwtt|axe}} mockup.
+Wep bw.png|Found at <code>/assets/Common/Wep/wep_bw.png</code>, this appears to be a {{Cwtt|bow}} mockup.
+Wep dg.png|Found at <code>/assets/Common/Wep/wep_dg.png</code>, this appears to be a {{Cwtt|dagger}} mockup.
+Wep lc.png|Found at <code>/assets/Common/Wep/wep_lc.png</code>, this appears to be a {{Cwtt|lance}} mockup.
+Wep rd.png|Found at <code>/assets/Common/Wep/wep_rd.png</code>, this appears to be a {{Cwtt|staff}} mockup.
+Wep sw.png|Found at <code>/assets/Common/Wep/wep_sw.png</code>, this appears to be a {{Cwtt|sword}} mockup.
+Wep mg.png|Found at <code>/assets/Common/Wep/wep_mg.png</code>, similar to {{St|Élivágar}}, but with a blue cross where the mini unit would hold the tome.
+Wep axXXX シンモラ.png|Found at <code>ch00_07_Surtr_M_Normal/tex/wep axXXX_シンモラ.png</code>, this appears to be a prototype sprite of {{Wt|Sinmara}}.
+Wep axXXX プレゼント袋.png|Found at <code>ch04_00_Chrom_M_WinterFes17/tex/wep_axXXX_プレゼント袋.png</code>, this appears to be a prototype sprite of {{Wt|Sack o' Gifts}}.
+</gallery>
+
+====Mini unit drafts====
+<gallery>
+Mini_Unit_Draft_ch05_19_Kamui_F_Dragon.png|<code>ch05_19_Kamui_F_Dragon/tex/ch05_19_Kamui_F_Dragon.png</code>
+Mini_Unit_Draft_unitTemp_ch05_24_Leon_M_Swim17.png|<code>ch05_24_Leon_M_Swim17/tex/unitTemp.png</code>
+Mini_Unit_Draft_ch08_04_Amelia_F_Normal.png|<code>ch08_04_Amelia_F_Normal/tex/ch08_04_Amelia_F_Normal.png</code>
+Mini_Unit_Draft_ch08_05_Turner_F_Normal.png|<code>ch08_05_Turner_F_Normal/tex/ch08_05_Turner_F_Normal.png</code>
+Mini_Unit_Draft_ch09_06_Erincia_F_Normal.png|<code>ch09_06_Erincia_F_Normal/tex/ch09_06_Erincia_F_Normal.png</code>
+Mini_Unit_Draft_ch06_05_Arden_M_Normal.png|<code>ch06_05_Arden_M_Normal/tex/ch06_05_Arden_M_Normal.png</code>
+Mini_Unit_Draft_Unit_temp_Jakob_Devoted_Monster.png|<code>ch05_14_Joker_M_halloween17/tex/Unit_temp.png</code>
+Mini_Unit_Draft_ch09_09_Wayu_F_Normal.png|<code>ch09_09_Wayu_F_Normal/tex/ch09_09_Wayu_F_Normal.png</code>
+Mini_Unit_Draft_Unit_temp_Corrin_Enjoying_Tradition.png|<code>ch05_00_Kamui_M_NewYear18/tex/Unit_temp.png</code>
+Mini_Unit_Draft_ch05_09_Takumi_M_NewYear18.png|<code>ch05_09_Takumi_M_NewYear18/tex/ch05_09_Takumi_M_NewYear18.png</code>
+Mini_Unit_Draft_ch05_38_Suzukaze_M_Normal.png|<code>ch05_38_Suzukaze_M_Normal/tex/ch05_38_Suzukaze_M_Normal.png</code>
+Mini_Unit_Draft_Unit_temp_Lyn_Lady_of_the_Wind.png|<code>ch03_00_Lin_F_Legend01/tex/Unit_temp.png</code>
+Mini_Unit_Draft_Unit_temp_Legault_The_Hurricane.png|<code>ch03_20_Lagarto_M_Normal/tex/Unit_temp.png</code>
+Mini_Unit_Draft_Unit_temp_Innes_Flawless_Form.png|<code>ch08_03_Heanius_M_Swim18/tex/Unit_temp.png</code>
+Mini_Unit_Draft_Unit_temp_Noire_Shade_Seeker.png|<code>ch04_26_Noir_F_Swim18/tex/Unit_temp.png</code>
+Mini_Unit_Draft_ch09_06_Erincia_F_Normal_2.png|<code>ch04_03_Olivie_F_Normal2/tex/ch09_06_Erincia_F_Normal.png</code>
+Mini_Unit_Draft_ch08_06_Walter_M_Normal.png|<code>ch08_06_Walter_M_Normal/tex/ch08_06_Walter_M_Normal.png</code>
+Mini_Unit_Draft_Unit_temp_Jamke_Prince_of_Verdane.png|<code>ch06_18_Jamka_M_Normal/tex/Unit_temp.png</code>
+Mini_Unit_Draft_ch05_13_Kagerou_F_Halloween18.png|<code>ch05_13_Kagero_F_Halloween18/tex/ch05_13_Kagero_F_Halloween18.png</code>
+Mini_Unit_Draft_ch04_20_Eudes_M_Normal.png|<code>ch04_20_Eudes_M_Normal/tex/ch04_20_Eudes_M_Normal.png</code>
+Mini_Unit_Draft_ch05_19_Kamui_F_Dreaming18.png|<code>ch05_19_Kamui_F_Dreaming18/tex/ch05_19_Kamui_F_Dreaming18.png</code>
+Mini_Unit_Draft_ch05_00_Kamui_M_Dreaming18.png|<code>ch05_00_Kamui_M_Dreaming18/tex/ch05_00_Kamui_M_Dreaming18.png</code>
+Mini_Unit_Draft_ch90_29_PKnightRed_F_Normal.png|<code>ch90_29_PKnightRed_F_Normal/tex/ch90_29_PKnightRed_F_Normal.png</code>. Unlike the rest of the generic mage fliers, this one has her hand closed.
+Mini_Unit_Draft_ch90_30_PKnightBlue_F_Normal.png|<code>ch90_30_PKnightBlue_F_Normal/tex/ch90_30_PKnightBlue_F_Normal.png</code>
+Mini_Unit_Draft_ch90_31_PKnightGreen_F_Normal.png|<code>ch90_31PKnightGreen_F_Normal/tex/ch90_31_PKnightGreen_F_Normal.png</code>
+Mini_Unit_Draft_Unit_temp_Hel_Death_Sovereign.png|<code>ch00_19_Hell_F_Normal/tex/Unit_temp.png</code>
+Mini_Unit_Draft_ch05_48_Velour_F_Normal.png|<code>ch05_48_Velour_F_Normal/tex/ch05_48_Velour_F_Normal.png</code>
+Mini_Unit_Draft_ch05_50_Flannel_M_Normal.png|<code>ch05_50_Flannel_M_Normal/tex/ch05_50_Flannel_M_Normal.png</code>
+</gallery>
+
+====Garon: King of Nohr Blight Dragon form====
+<gallery>
+Body_AllTex_NEW_ch05_45_Garon_M_Dragon.png|<code>ch05_45_Garon_M_Dragon/tex/Body_AllTex_NEW.png</code>
+Body_AllTex_old_ch05_45_Garon_M_Dragon.png|<code>ch05_45_Garon_M_Dragon/tex/Body_AllTex_old.png</code>
+ButtleImage_ch05_45_Garon_M_Dragon.png|<code>ch05_45_Garon_M_Dragon/tex/ButtleImage.png</code>
+</gallery>
+====Duma: God of Strength Fell God form====
+<gallery>
+File:Ch10 18 Duma M Normal TransBattle Body AllTex 01.png|<code>ch10_18_Duma_M_Normal_TransBattle/tex/Body_AllTex_01.png</code>
+File:Ch10 18 Duma M Normal TransBattle Body AllTex 02.png|<code>ch10_18_Duma_M_Normal_TransBattle/tex/Body_AllTex_02.png</code>
+</gallery>
+====Velouria: Wolf Cub Wolfskin form====
+<gallery>
+Ch05_48_Velour_F_Normal_TransBattle_sample.png|<code>Ch05_48_Velour_F_Normal_TransBattle/tex/sample.png</code></gallery>
+
+==Text==
+{|class="wikitable"
+!ID
+!Text (English)
+!Text (Japanese)
+!Notes
+|-
+|<code>MSID_ライナロック＋</code>
+|<pre>Ragnarok+</pre>
+|<pre>ライナロック＋</pre>
+|A "plus" version of Ragnarok appears to have been planned at one point.
+|-
+|<code>MSID_H_ライナロック＋</code>
+|<pre>At start of combat, if unit's HP = 100%, grants
+Atk/Spd+5, but after combat, if unit attacked,
+deals 5 damage to unit.</pre>
+|<pre>戦闘開始時、自身のＨＰが１００％なら攻撃、速さ＋５
+その状態で攻撃した時、戦闘後、自分に５ダメージ</pre>
+|It has the same skill description as {{Wp|Ragnarok}}.
+|-
+|<code>MID_SHOP_ORB_FSA</code>
+|<pre>資金決済法に基づく表記</pre>
+|<pre>資金決済法に基づく表示</pre>
+|
+|-
+|<code>MID_SHOP_ORB_SCTA</code>
+|<pre>特定商取引法に基づく表記</pre>
+|<pre>特定商取引法に基づく表示</pre>
+|-
+|<code>MID_SHOP_ORB_SCTA_TWD</code>
+|<pre>消費者保護法標示事項</pre>
+|<pre>消費者保護法標示事項</pre>
+|
+|-
+|<code>MID_SHOP_ORB_SCTA_HKD</code>
+|<pre>Other Material Information</pre>
+|<pre>其他重要資訊</pre>
+|
+|}
+==Audio==
+<gallery>
+bgm_tb_kari.ogg|An unused file that sounds very similar (but not identical) to {{BGMPage|bgm_battle_FE03_01.ogg}}. Likely a temporary file for testing that was never removed, as kari translates to temporary.
+</gallery>
+===Unit voice lines===
+All of following Units have unused voice lines:
+{{#cargo_query:table=Units|fields=CONCAT('{{(}}Ut{{!}}',_pageName,'{{)}} ([[',_pageName,'/Quotes|quote page]])')|where=Origin='Fire Emblem Heroes' AND (Person IN ('Anna','Alfonse','Bruno','Sharena','Veronica','Fáfnir')) AND (TagID!='EID_フード' AND TagID NOT LIKE 'EID_ブルーノ_%' AND TagID NOT LIKE '_ID_ヴェロニカ_%' AND TagID NOT LIKE 'PID_%味方' AND TagID NOT LIKE 'EID_ファフニール') AND Properties__full NOT RLIKE 'spec' AND Properties__full NOT RLIKE 'brave'|order by=IFNULL(IntID,9999)|default=|format=ul}}
+
+==Skills==
+These skills are skills that are present in the game files, but are not used or have properties that are never used (e.g. the skill in the special skill refine of {{Wt|Camilla's Axe|refine=Skill1}} has usage restrictions so that only {{Mt|cavalry}} and {{Mt|flying}} units can use it, but this is never seen since no other unit can use Camilla's Axe).
+===SID_無し===
+Skill with no name or any properties. It cannot be forged, and does nothing when used.
+{{Weapon Infobox
+|no cargo=true
+|noImg=1
+|weaponName=—
+|might=0
+|range=0
+|cost=0
+|exclusive=0
+|statModifiers=0,0,0,0,0
+|required=-
+|properties=
+}}{{clear}}
+
+===Exclusive skills===
+{{See Also|:Category:Skills with unused restrictions}}
+For most [[exclusive skills]] such as {{St|Sacae's Blessing}}, the list of allowed movement or weapon types usually contains every single type instead of just being empty (as SID_無し is) or minimally having only the Hero's weapon type and movement type. However, some do not have a full list and exclude certain types of units despite never being inheritable. These are also likely an indication that these skills will only ever be released on units that match its restrictions.
+====Weapons====
+Only weapons that do not allow all movement types are listed.
+{{#cargo_query:table=Skills|fields=CONCAT('<ul class="hlist">',GROUP_CONCAT(DISTINCT '<li>[[',_pageName,'|',Name,']]</li>' ORDER BY Name SEPARATOR ''),'</ul>')=Skills,CONCAT('{{(}}or{{!}}{{(}}#invoke:GetCannotUse{{!}}icons{{!}}canUseMove=',CanUseMove__full,'{{!}}canUseWeapon=',CanUseWeapon__full,'{{)}}{{!}}None{{)}}')=Cannot use|where=Scategory='weapon' AND Exclusive=1 AND RefinePath IS NULL AND CanUseMove__full!='{{MoveList|All}}'|group by=CanUseMove__full,CanUseWeapon__full}}
+====Assists====
+{{#cargo_query:table=Skills|fields=CONCAT('<ul class="hlist">',GROUP_CONCAT(DISTINCT '<li>[[',_pageName,'|',Name,']]</li>' ORDER BY Name SEPARATOR ''),'</ul>')=Skills,CONCAT('{{(}}or{{!}}{{(}}#invoke:GetCannotUse{{!}}icons{{!}}canUseMove=',CanUseMove__full,'{{!}}canUseWeapon=',CanUseWeapon__full,'{{)}}{{!}}None{{)}}')=Cannot use|where=Scategory='assist' AND Exclusive=1 AND RefinePath IS NULL AND !(CanUseMove__full='{{MoveList|All}}' AND CanUseWeapon__full='{{WeaponList|All}}')|group by=CanUseMove__full,CanUseWeapon__full}}
+====Specials====
+{{#cargo_query:table=Skills|fields=CONCAT('<ul class="hlist">',GROUP_CONCAT(DISTINCT '<li>[[',_pageName,'|',Name,']]</li>' ORDER BY Name SEPARATOR ''),'</ul>')=Skills,CONCAT('{{(}}or{{!}}{{(}}#invoke:GetCannotUse{{!}}icons{{!}}canUseMove=',CanUseMove__full,'{{!}}canUseWeapon=',CanUseWeapon__full,'{{)}}{{!}}None{{)}}')=Cannot use|where=Scategory='special' AND Exclusive=1 AND RefinePath IS NULL AND !(CanUseMove__full='{{MoveList|All}}' AND CanUseWeapon__full='{{WeaponList|All}}')|group by=CanUseMove__full,CanUseWeapon__full}}
+====Passives====
+{{#cargo_query:table=Skills|fields=CONCAT('<ul class="hlist">',GROUP_CONCAT(DISTINCT '<li>[[',_pageName,'|',Name,']]</li>' ORDER BY Name SEPARATOR ''),'</ul>')=Skills,CONCAT('{{(}}or{{!}}{{(}}#invoke:GetCannotUse{{!}}icons{{!}}canUseMove=',CanUseMove__full,'{{!}}canUseWeapon=',CanUseWeapon__full,'{{)}}{{!}}None{{)}}')=Cannot use|where=Scategory LIKE 'passive%' AND Exclusive=1 AND RefinePath IS NULL AND !(CanUseMove__full='{{MoveList|All}}' AND CanUseWeapon__full='{{WeaponList|All}}')|group by=CanUseMove__full,CanUseWeapon__full}}
+
+===Refined skills===
+The following skill passives are found on refined weapons. For convenience, the following list is the list containing only skills that do have restrictions.
+====SID_先導R歩行飛行====
+{{Passive|no cargo=true
+|name=—
+|type=R
+|exclusive=0
+|1name=
+|alt1name=Hinokas Spear W
+|1required=-
+|1effect=Infantry and flying allies within 2 spaces can move to a space adjacent to unit.
+|1cost=0
+|statModifiers1=
+|canUseMove=Flying
+|canUseWeapon={{WeaponList|all}}
+|properties=
+}}
+=====SID_トライアングル=====
+{{Passive|no cargo=true
+|name=—
+|type=R
+|exclusive=0
+|1name=
+|alt1name=Triangle W
+|1required=-
+|1effect=If the number of flying allies within 2 spaces ≥ 2, grants Atk/Spd/Def/Res+3 during combat, and if unit initiates combat, unit attacks twice.
+|1cost=0
+|canUseMove=Flying
+|canUseWeapon={{WeaponList|melee}}
+|properties=
+}}
+====SID_大紋章R騎飛刃3====
+{{Passive|no cargo=true
+|name=—
+|type=R
+|exclusive=0
+|1name=
+|1required=-
+|alt1name=Camillas Axe W
+|1effect=Grants Atk/Spd+3 to cavalry and flying allies within 2 spaces during combat.
+|1cost=0
+|canUseMove={{MoveList|Cavalry, Flying}}
+|canUseWeapon={{WeaponList|All}}
+|properties=
+}}
+
+==Skill effects==
+==Hero skills unlock rarity==
+Some Heroes have unlock rarities for skills where the unlock rarity is lower than the lowest possible rarity the Hero can be obtained at. These can be viewed on each individual Hero page.
+
+These unused unlock rarities appear to be intentional for these reasons:
+*They are displayed in [[Fire Emblem Heroes: Summoner's Guide]].
+*When the summoning rarities of Heroes in a pool are lowered, their unlock rarities are not modified.
+
+==Revision differences==
+<!-- For files that went unused as a result of changes in the game, not for all changes in the game. For example, Tiki's artwork was changed in an update before it was possible to view in-game. -->
+===Removed/Altered Files===
+<gallery>
+Tiki Summering Scion BtlFace D Removed.png|Altered artwork of Tiki: Summering Scion
+Gaius Thief Exposed BtlFace Removed.png|Attack Art where Gaius: Thief Exposed isn't pulling the bowstring.
+Gaius Thief Exposed BtlFace C Removed.png|Special Art where Gaius: Thief Exposed isn't pulling the bowstring.
+Empty Passive Icon Glow.png|Found in <code>files/assets/Common/UI/Skill_Passive5.png</code>. It appears to be the [[File:Empty Passive Icon.png|x22px|alt=|link=File:Empty Passive Icon.png]] empty passive icon layered over {{Pt|Steady Stance 4}}. It was later removed when Steady Stance 4 was added to the game.
+</gallery>

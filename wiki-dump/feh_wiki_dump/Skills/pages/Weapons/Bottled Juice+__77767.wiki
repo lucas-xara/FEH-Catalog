@@ -1,0 +1,45 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_果汁のボトル＋
+|weaponType=Dagger
+|weaponName={{PAGENAME}}
+|might=12
+|range=2
+|effect=Inflicts Special cooldown charge -1 on foe per attack during combat. (Only highest value applied. Does not stack.) After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions.
+|cost=300
+|exclusive=0
+|statModifiers=0,12,0,0,0
+|required=Bottled Juice
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Notes==
+{{CooldownChargeMinus}}
+{{IfUnitAttacked}}
+{{Penalties}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+v2.10_61_halloween_02_Hit.png|Sprite sheet for the candy effect
+</gallery>
+
+==In other languages==
+{{OtherLanguages
+|japanese=果汁のボトル＋
+|german=Saftflaschen+
+|spanishEU=Botella zumo +
+|spanishLA=Botella de jugo +
+|french=Jus de fruits +
+|italian=Succo vermiglio+
+|chineseTW=玻璃果汁瓶＋
+|portuguese=Garrafa de suco+
+}}
+
+==See also==
+{{Weapons Navbox}}

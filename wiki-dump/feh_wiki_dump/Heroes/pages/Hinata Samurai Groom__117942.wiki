@@ -1,0 +1,66 @@
+{{#invoke:NameAbout|main|Name=Hinata}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Hinata
+|Title=Samurai Groom
+|WeaponType=Green Axe
+|Origin=Fire Emblem Fates
+|Gender=Male
+|MoveType=Infantry
+|actorJP=市来光弘
+|actorEN=Delem Donaldson
+|artist=叶之明
+|additionDate=May 20, 2020
+|releaseDate=May 22, 2020
+|TagID=花婿ヒナタ
+|InternalID=524
+|Properties=tempest,limited,specDisplay,tiara
+|cv1=11
+|cv2=201000
+|description=Hoshidan samurai and one of Takumi's retainers. He is wearing clothes outside his usual in order to play the part of bridegroom for the festival. Appears in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=9|Lv1SPD=5|Lv1DEF=12|Lv1RES=6
+|GRHP=65|GRATK=65|GRSPD=50|GRDEF=65|GRRES=35
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Huge Fan
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Huge Fan+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Reciprocal Aid
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Def Bond 1
+|passiveA2=Atk/Def Bond 2
+|passiveA3=Atk/Def Bond 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Close Guard 1
+|passiveC2=Close Guard 2
+|passiveC3=Close Guard 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Bridal Festival units]]

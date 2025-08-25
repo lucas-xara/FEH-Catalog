@@ -1,0 +1,69 @@
+{{#invoke:NameAbout|main|Name=Leo}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Leo
+|Title=Shrouded Heart
+|WeaponType=Green Bow
+|MoveType=Cavalry
+|Origin=Fire Emblem Fates
+|Gender=Male
+|actorEN=Max Mittelman
+|actorJP=宮野真守
+|artist=叶之明
+|additionDate=February 6, 2023
+|releaseDate=February 7, 2023
+|cv1=11
+|cv2=500800
+|TagID=愛の祭レオン
+|InternalID=914
+|Properties=special
+|description=Prince of Nohr, both confident and proud. He reluctantly joins the festival after receiving an invitation from his sister Elise. Appears in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=15|Lv1ATK=15|Lv1SPD=5|Lv1DEF=3|Lv1RES=10
+|GRHP=50|GRATK=70|GRSPD=60|GRDEF=30|GRRES=80
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Bow
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Duskbloom Bow
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Iceberg
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Warding Blow 1
+|passiveA2=Mirror Strike 1
+|passiveA3=Mirror Strike 2
+|passiveA4=Remote Mirror
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=A/D Far Trace 1
+|passiveB2=A/D Far Trace 2
+|passiveB3=A/D Far Trace 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Day of Devotion units]]

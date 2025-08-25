@@ -1,0 +1,54 @@
+{{Weapon Infobox
+|tagid=SID_ポールアクス＋
+|weaponType=Axe
+|weaponName={{PAGENAME}}
+|altWeaponName=Poleaxe Plus
+|might=14
+|range=1
+|effectiveness=cavalry
+|effect=Effective against cavalry foes.
+|cost=300
+|exclusive=0
+|statModifiers=0,14,0,0,0
+|refinePaths=Skill1,Atk,Spd,Def,Res
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|effectSkill1=Neutralizes cavalry foes' bonuses (from skills like Fortify, Rally, etc.) during combat.
+|iconSkill1=Dull Cavalry W.png
+|tagidExtraSkill1=無
+|properties=random_all
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Ce={{Eft|Effectiveness|{{Mt|Cavalry}}}}
+|skill2={{Si|Poleaxe+|refine=Skill1}} Skill refine effects
+|s2 Ce={{Eft|Neutralize Bonus}}
+|s2 CeT={{Mt|Cavalry}}<br>{{Tgt|Foes}}
+}}
+==Notes==
+{{Effective damage bonus|cavalry}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Bonus neutralization}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|強化無効R騎馬|Dull Cavalry}}
+==In other languages==
+{{OtherLanguages
+|japanese=ポールアクス＋
+|german=Stabaxt+
+|spanishEU=Alabarda +
+|spanishLA=Alabarda +
+|french=Hache polaire +
+|italian=Alabarda+
+|chineseTW=長斧＋
+|portuguese=Alarbada+
+}}
+==See also==
+* [[Weapons that are effective against cavalry foes]]
+* [[Skills that neutralize bonuses]]
+{{Weapons Navbox}}

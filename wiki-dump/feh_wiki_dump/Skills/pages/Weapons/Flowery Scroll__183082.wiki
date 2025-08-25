@@ -1,0 +1,48 @@
+{{Weapon Infobox
+|tagid=SID_艶花忍法帳
+|intID=3336
+|image=wep_mg071
+|exclusive=1
+|weaponType=Red Tome
+|cost=400
+|might=8
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br>Grants Def/Res+5 and inflicts Spd-8 on unit. Unit attacks twice. (Even if foe initiates combat, unit attacks twice.) If foe initiates combat and unit's Res > foe's Res, unit can counterattack before foe's first attack.
+|statModifiers=0,8,-8,5,5
+|required=Bolganone;Fenrir
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Stat Boost|Def/Res|5}}, {{Eft|Stat Reduction|Spd|8}}
+|Ce1={{Eft|Attack Twice}}
+|Ce2={{Eft|Vantage}}
+|Ce2C=Enemy Phase<br>'''&''' {{Tgt|Unit}}'s Res<br>> {{Tgt|Foe}}'s Res
+}}
+
+==Notes==
+{{Brave weapon interaction}}
+{{Counterattack before first attack}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+v6.11_v0611a_ninja_Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=艶花忍法帳
+|german=Blumige Schrift
+|spanishEU=Rollo floral
+|spanishLA=Rollo floral
+|french=Rouleau floral
+|italian=Rotolo fiorito
+|chineseTW=艷花忍法帳
+|portuguese=Pergaminho floral
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%Grants Def/Res+%inflicts Spd-%unit attacks twice.%' OR Description LIKE '%if unit_s%> foe_s%%unit can counterattack before foe_s first attack%') AND (Exclusive=1 OR SP=300)}}
+* [[Brave weapons]]
+* [[Skill families/B Passives#Preempt|Preempt Passives]]
+{{Weapons Navbox}}

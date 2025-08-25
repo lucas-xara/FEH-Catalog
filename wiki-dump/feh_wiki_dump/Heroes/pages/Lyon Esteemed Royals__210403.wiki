@@ -1,0 +1,79 @@
+{{#invoke:NameAbout|main|Name=Lyon|Name2=Eirika}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Lyon
+|Title=Esteemed Royals
+|WeaponType=Green Tome
+|MoveType=Cavalry
+|secondPerson=Eirika
+|Origin=Fire Emblem: The Sacred Stones
+|Gender=MF
+|duo=Inflicts the following status on foes in cardinal directions of unit through their next actions: "after start-of-turn skills trigger, action ends immediately" (for foes who have not yet taken an action in Summoner Duels, instead of inflicting this effect, ends their action immediately).
+|Duel=205
+|actorEN=Mark P. Whitten,Kira Buckland
+|actorJP=中村悠一,水橋かおり
+|artist=azuタロウ
+|additionDate=February 6, 2024
+|releaseDate=February 7, 2024
+|cv1=7
+|cv2=300100
+|TagID=比翼リオン
+|InternalID=1058
+|Properties=special,duo,hat
+|description=Quiet, mild-mannered prince of Grado and Princess Eirika of Renais who both share a strong connection with Prince Ephraim. They appear in Fire Emblem: The Sacred Stones.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=8|Lv1SPD=3|Lv1DEF=4|Lv1RES=16
+|GRHP=50|GRATK=90|GRSPD=30|GRDEF=50|GRRES=70
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Wind
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elwind
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Rexcalibur
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Tender Vessel
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Iceberg
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Gray Illusion
+|passiveA1Unlock=5
+|passiveB1=Poison Strike 1
+|passiveB2=Poison Strike 2
+|passiveB3=Poison Strike 3
+|passiveB4=Occultist's Strike
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Rouse Atk/Res 1
+|passiveC2=Rouse Atk/Res 2
+|passiveC3=Rouse Atk/Res 3
+|passiveC4=Incite Atk/Res
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Sources of status effects]]
+[[Category:Sources of After Start-of-Turn Skills Trigger, Action Ends Immediately]]
+[[Category:Sources of action ending effects]]
+[[Category:Day of Devotion units]]

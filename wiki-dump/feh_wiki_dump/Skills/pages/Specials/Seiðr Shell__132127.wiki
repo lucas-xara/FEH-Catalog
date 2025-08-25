@@ -1,0 +1,42 @@
+{{Special
+|tagid=SID_魔弾
+|charge=3
+|effect=At the start of turn 1, grants Special cooldown count-3 to unit. Boosts damage by 15 and calculates damage using the lower of foe's Def or Res.
+|cost=500
+|exclusive=1
+|required=Ignis
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{SkillEffectText|Reduce Cooldown|3}}
+|MeC=At start of turn 1
+|Ce1={{Eft|Damage Boost|15}}
+|Ce2={{Eft|Lower Def Res}}
+|CeC=Special triggers
+}}
+
+==Notes==
+{{Start of turn Special modification}}
+{{FixedDamage|15}}
+{{LowerDefRes}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=魔弾
+|german=Seiðr
+|spanishEU=Proyectil Seiðr
+|spanishLA=Proyectil Seiðr
+|french=Seiðr
+|italian=Capsula Seiðr
+|chineseTW=魔彈
+|portuguese=Projétil Seiðr
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%turn 1, grants Special cooldown count-%' AND SCategory='special' OR Description LIKE '%boosts damage by __ %'}}
+{{Specials Navbox}}

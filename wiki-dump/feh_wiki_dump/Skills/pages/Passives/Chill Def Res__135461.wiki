@@ -1,0 +1,74 @@
+{{Passive
+|name=Chill Def/Res
+|type=B
+|exclusive=0
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|intID=2406
+|sort=14590
+|value=4
+|timingID=8
+|abilityID=89
+|randomTimestamp=2021-02-18T07:00:00Z
+|randomMinLv=26
+|randomMaxLv=35
+|properties=random_owner
+|1name=Chill Def/Res 1
+|alt1name=Chill Def Res 1
+|1tagid=SID_守備魔防の封印1
+|1effect=At start of turn, inflicts Def/Res-3 on foe on the enemy team with the highest Def+Res total through its next action.
+|1required=Chill Def 1;Chill Res 1
+|1cost=120
+|1promotionRarity=5
+|1promotionTier=1
+|2name=Chill Def/Res 2
+|alt2name=Chill Def Res 2
+|2tagid=SID_守備魔防の封印2
+|2effect=At start of turn, inflicts Def/Res-5 on foe on the enemy team with the highest Def+Res total through its next action.
+|2next=-
+|3name=Chill Def/Res 3
+|alt3name=Chill Def Res 3
+|3tagid=SID_守備魔防の封印3
+|3cost=300
+|3effect=At start of turn, inflicts Def/Res-6 on foe on the enemy team with the highest Def+Res total and foes within 2 spaces of that foe through their next actions.
+|2cost=240
+}}
+==Notes==
+{{SelectStat|Def+Res}}
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Chill Def/Res 1;Chill Def/Res 2
+|badgeColor=Transparent
+|costs1=20;100;40
+|costs2=400;1000;100
+}}
+==Trivia==
+* {{St|Chill Def/Res 3}} is the first tier 4 inheritable B Passive that was released in ''Heroes'', almost 4 years after the first tier 4 inheritable Passive {{St|Death Blow 4}}. 
+==In other languages==
+{{OtherLanguages
+|english=Chill Def/Res
+|japanese=守備魔防の封印
+|german=Ver./Res.-Brem.
+|spanishEU=Gelidez Def/Res
+|spanishLA=Gelid. Def./Res.
+|french=Gel Déf/Rés
+|italian=Dif/Res gelanti
+|chineseTW=防守魔防封殺
+|portuguese=Def./Res. gelad.
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%at start of turn, inflict%-%enemy%highest%' OR Description LIKE '%at start of turn, inflict%-%enemy%lowest%') AND Exclusive='1'}}
+* [[Skill families#Chill|Chill Passives]]
+{{Seals Navbox}}
+{{Passives Navbox|B}}
+[[Category:Chill Passives]]

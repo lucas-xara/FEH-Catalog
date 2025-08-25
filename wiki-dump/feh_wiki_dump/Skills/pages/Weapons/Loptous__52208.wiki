@@ -1,0 +1,59 @@
+{{Weapon Infobox
+|tagid=SID_ロプトウス
+|weaponType=Red Tome
+|might=14
+|range=2
+|effect=Grants Res+3. Skills with "effective against dragons" are effective against unit.<br>If foe has no skills with "effective against dragons," inflicts Atk-6 on foe during combat.
+|cost=400
+|exclusive=1
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|statModifiers=0,14,0,0,3
+|required=Fenrir
+|SE=se_effect_lopu.flac
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Res+3. Skills with "effective against dragons" are effective against unit. If foe has no skills with "effective against dragons," inflicts Atk/Res-6 on foe during combat, and also, if unit's Res > foe's Res, reduces damage from attacks during combat and from area-of- effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 4 (max 40%).
+|tagidExtraSkill1=一
+|effectSkill1=At start of turn, if any foe's Res < unit's Res and that foe is adjacent to another foe, inflicts Atk/Res-5 on that foe through its next action. At start of combat, if unit's HP ≥ 25%, inflicts Atk/Res-5 on foe during combat.
+|iconSkill1=Loptous W.png
+|properties=random_owner
+}}
+==Notes==
+{{Effective damage penalty|dragon}}
+{{Temporary debuffs}}
+{{NoDragonEffectveness|temporary debuffs}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+{{NoDragonEffectveness|damage reduction}}
+{{Penalties}}
+
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+v2.5_51_seisen02_Mag.png|Sprite sheet for {{St|Mjölnir}} and {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=ロプトウス
+|german=Loptous
+|spanishEU=Loptous
+|spanishLA=Loptous
+|french=Loptous
+|italian=Loptous
+|chineseTW=羅普托烏斯
+|portuguese=Loptous
+}}
+==See Also==
+{{See also skills|cond=Description LIKE '%unit_s Res > foe_s Res%reduces damage%' OR Description LIKE '%foe_s Res%unit_s Res%foe is adjacent to another foe%' AND Exclusive='1' OR Description LIKE '%if foe%ha%"effective against dragons%' OR Description LIKE '%if unit_s HP ≥%inflicts Atk/Res-%during combat%'|columns=3}}
+* [[Skill families#Sabotage|Sabotage Passives]]
+{{Weapons Navbox}}

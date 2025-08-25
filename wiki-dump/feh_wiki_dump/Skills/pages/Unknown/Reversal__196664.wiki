@@ -1,0 +1,32 @@
+{{Captain Skill
+|name=Reversal
+|effect=Grants Atk+5 to captain during combat. Grants the following effect to captain and allies within 2 spaces of captain: "inflicts Atk/Spd/Def/Res-X on foe during combat (X = current bonus on each of foe's stats × 2; calculates each stat penalty independently)."
+|statModifiers=
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{Eft|Temporary buffs|Atk|5}}
+|CombatEffect 1 Targets={{Tgt|Captain}}
+|CombatEffect 2={{Eft|Temporary debuffs|Atk/Spd/Def/Res|2 x {{SEt|Bonuses}} on<br>each of {{Tgt|foe}}'s stats}}
+|CombatEffect 2 Targets={{Tgt|Foes}} of<br>{{Tgt|Captain}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{TemporaryDebufffromBonus|source=the foe}}
+{{AlliesCombatEffect}}
+==In other languages==
+{{OtherLanguages
+|japanese=冠履転倒
+|german=Umkehr
+|spanishEU=Inversión
+|spanishLA=Inversión
+|french=Renversement
+|italian=Capovolgimento
+|chineseTW=冠履倒置
+|portuguese=Revés
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%inflicts%current bonus on each of foe_s stats × 2%' AND (Exclusive=1 AND Name NOT LIKE '%+')}}
+{{Captain Skills Navbox}}

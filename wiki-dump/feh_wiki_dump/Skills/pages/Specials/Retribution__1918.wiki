@@ -1,0 +1,33 @@
+{{Special
+|tagid=SID_雪辱
+|name=Retribution
+|charge=3
+|effect=Boosts damage by 30% of damage dealt to unit.
+|cost=100
+|next=Vengeance
+|promotionRarity=4
+|promotionTier=2
+|required=-
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_all,offensive_special
+}}
+==Notes==
+* Retribution boosts damage by 30% of ''missing HP at the moment of activation'', not actual damage suffered.
+{{DamageBoost}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=雪辱
+|german=Rache
+|spanishEU=Represalia
+|spanishLA=Desquite
+|french=Rétribution
+|italian=Ritorsione
+|chineseTW=雪辱
+|portuguese=Represália
+}}
+{{Specials Navbox}}

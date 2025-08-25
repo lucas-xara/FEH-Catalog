@@ -1,0 +1,44 @@
+{{Weapon Infobox
+|tagid=SID_妖猫の日傘
+|intID=3817
+|image=wep_rd060
+|exclusive=1
+|weaponType=Colorless Staff
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Calculates damage from staff like other weapons. Accelerates Special trigger (cooldown count-1; max cooldown count value cannot be reduced below 1). For allies within 2 spaces of unit, grants Special cooldown charge +1 to ally per attack (only highest value applied; does not stack), neutralizes their foe's bonuses to Atk (from skills like Fortify, Rally, etc.), and reduces damage from attacks by 30% (excluding area- of-effect Specials) during their combat. If unit initiates combat or is within 2 spaces of an ally, grants Atk/Res+6 to unit during combat and unit makes a guaranteed follow-up attack.
+|required=Assault
+|properties=
+}}
+==Notes==
+* Kitty-Cat Parasol has the same effect as {{St|Wrathful Staff 3}}.
+{{Wrathful Staff}}
+{{CooldownChargePlus}}
+{{Bonus neutralization}}
+{{DamagePercentageReduction}}
+{{AlliesCombatEffect|effect=Special cooldown count +1, bonus neutralization and damage reduction}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Guaranteed follow-up interaction}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V7.10_v0710a_halloween_Rod.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=妖猫の日傘
+|german=Kätzchenschirm
+|spanishEU=Parasol gatito
+|spanishLA=Parasol gatito
+|french=Ombrelle féline
+|italian=Parasole gattino
+|chineseTW=妖貓陽傘
+|portuguese=Sombrinha felina
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%educes damage from%to allies within _ spaces%' OR Description LIKE '%allies within _ spaces%reduces damage%by%to those allies%' OR (Description LIKE '%allies within _ spaces%grants special cooldown charge +1%' OR Description LIKE '%special cooldown charge +1%to allies _within _ spaces%') AND Description NOT LIKE '%at start of turn%' AND Description NOT LIKE '%unit after combat%' OR Description LIKE '%"neutralizes bonuses to foe_s Atk%'}}
+{{Weapons Navbox}}

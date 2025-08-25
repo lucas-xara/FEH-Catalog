@@ -1,0 +1,33 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_緋閃のニンジン槍
+|weaponType=Lance
+|might=10
+|range=1
+|effect=At start of combat, if foe's HP = 100%, grants Atk/Spd/Def/Res+2 during combat.
+|exclusive=0
+|cost=200
+|statModifiers=0,10,0,0,0
+|next=Flashing Carrot+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Lance
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=緋閃のニンジン槍
+|german=Blutrote Möhre
+|spanishEU=Zanah. radiosa
+|spanishLA=Zanah. radiosa
+|french=Carotte éclair
+|italian=Carota cremisi
+|chineseTW=緋閃胡蘿蔔槍
+|portuguese=Cenoura célere
+}}
+==See also==
+* 
+{{Weapons Navbox}}

@@ -1,0 +1,75 @@
+{{#invoke:NameAbout|main|Name=Edelgard|Name2=Altina|Name3=Flame Emperor}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Edelgard
+|Title=Sun Empresses
+|WeaponType=Red Sword
+|MoveType=Armored
+|secondPerson=Altina
+|Origin=Fire Emblem: Three Houses,Fire Emblem: Radiant Dawn
+|Gender=FF
+|harmonized=Grants Atk+6,【Resonance: Shields】, and 【Bonus Doubler】to unit and allies from the same titles as unit for 1 turn.<br><br>【Resonance: Shields】<br>Grants Def/Res+4 during combat and the following effect for 1 turn: "During unit's first combat in player phase or enemy phase, foe cannot make a follow-up attack."<br><br>【Bonus Doubler】<br>Grants bonus to Atk/Spd/Def/Res during combat = current bonus on each of unit's stats for 1 turn. Calculates each stat bonus independently.
+|actorEN=Tara Platt,Krizia Bajos
+|actorJP=加隈亜衣,宮川美保
+|artist=かかげ
+|additionDate=June 17, 2022
+|releaseDate=June 17, 2022
+|entry=9;12
+|cv1=12
+|cv2=200100
+|TagID=双界エーデルガルト
+|InternalID=816
+|Properties=special,harmonized
+|description=Legendary empress of Tellius joins future emperor of Fódlan for a vacation to the tropics. They appear in Fire Emblem: Three Houses / Radiant Dawn.
+}}
+{{Stats Page
+|Lv1HP=20|Lv1ATK=12|Lv1SPD=4|Lv1DEF=13|Lv1RES=9
+|GRHP=60|GRATK=75|GRSPD=30|GRDEF=70|GRRES=70
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Regal Sunshade
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Glimmer
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Def Ideal 1
+|passiveA2=Atk/Def Ideal 2
+|passiveA3=Atk/Def Ideal 3
+|passiveA4=Atk/Def Ideal 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Raging Storm
+|passiveB1Unlock=5
+|passiveC1=Assault Troop 1
+|passiveC2=Assault Troop 2
+|passiveC3=Assault Troop 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Sources of bonuses]][[Category:Sources of Bonus Doubler]]
+[[Category:Summer units]]

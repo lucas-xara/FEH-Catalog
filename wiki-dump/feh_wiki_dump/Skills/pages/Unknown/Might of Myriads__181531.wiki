@@ -1,0 +1,36 @@
+{{Captain Skill
+|name=Might of Myriads
+|effect=Grants Atk/Spd/Def/Res+6 to captain during combat (excluding when unit's Savior effect triggers). Captain can counterattack regardless of foe's range (excluding when unit's Savior effect triggers).
+|statModifiers=
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{Eft|Temporary buffs|Atk/Spd/Def/Res|6}}
+|CombatEffect 2={{Eft|Counter}}
+|CombatEffect Targets={{Tgt|Captain}}
+|CombatEffect Conditions={{Tgt|Captain}} doesn't trigger<br>a {{Eft|Savior}} effect
+}}
+
+==Notes==
+{{Temporary buffs}}
+* The [[Temporary buffs|temporary buffs]] and counterattack regardless of range will not apply if the unit's {{Kp|Savior}} was triggered before combat.
+==In other languages==
+{{OtherLanguages
+|japanese=一騎当千
+|german=Heeresmacht
+|spanishEU=Poder infinito
+|spanishLA=Poder infinito
+|french=Pouvoir décuplé
+|italian=Forza dei mille
+|chineseTW=以一敵千
+|portuguese=Poder da miríade
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%counterattack regardless of%range%' AND (SCategory!='Weapon' AND Name NOT LIKE 'Distant%' AND Name NOT LIKE 'Close%') AND (Exclusive='1' OR SCategory='captain')}}
+* [[Counter Passives]]
+* [[Counter Seals]]
+* [[Prime Passives]]
+* [[Weapons with Distant Counter]]
+* [[Weapons with Close Counter]]
+{{Captain Skills Navbox}}

@@ -1,0 +1,53 @@
+{{Passive
+|type=S
+|exclusive=0
+|1name=Squad Ace E 1
+|1tagid=SID_第5迷宮の覇者1
+|1effect=Grants Atk+1.
+|1cost=30
+|1next=-
+|2name=Squad Ace E 2
+|2tagid=SID_第5迷宮の覇者2
+|2effect=Grants Atk+2.
+|2cost=60
+|2next=-
+|3name=Squad Ace E 3
+|3tagid=SID_第5迷宮の覇者3
+|3effect=Grants Atk+3.
+|3cost=120
+|statModifiers1=0,1,0,0,0
+|statModifiers2=0,2,0,0,0
+|statModifiers3=0,3,0,0,0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=
+}}
+==Seal acquired from==
+===Squad Assault reward===
+* Complete the [[5th Assault]].
+===Sacred Seal Forge===
+{{SealCosts
+|seals=Squad Ace E 1;Squad Ace E 2;Squad Ace E 3
+|badgeColor=Scarlet
+|costs1=-
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=第５迷宮の覇者
+|german=Überfall-Ass E
+|spanishEU=As del asalto E
+|spanishLA=As del asalto E
+|french=Assaut réussi E
+|italian=Asso squadra E
+|chineseTW=第５迷宮的霸王
+|portuguese=Esquadrão ás E
+}}
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}
+[[Category:Squad Ace Seals]]

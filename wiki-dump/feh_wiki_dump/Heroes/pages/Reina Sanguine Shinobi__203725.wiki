@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Reina}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Reina
+|Title=Sanguine Shinobi
+|WeaponType=Green Bow
+|MoveType=Flying
+|Origin=Fire Emblem Fates
+|Gender=Female
+|actorEN=S. Lemelin
+|actorJP=古川玲
+|artist=チーコ
+|additionDate=November 6, 2023
+|releaseDate=November 7, 2023
+|cv1=11
+|cv2=300300
+|TagID=忍者ユウギリ
+|InternalID=1019
+|Properties=special
+|description=A warrior from Hoshido known for her warmth toward her friends and the ruthlessness she shows her enemies. Enjoys the feeling of a nice slaughter. Appears in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=13|Lv1SPD=10|Lv1DEF=5|Lv1RES=5
+|GRHP=50|GRATK=70|GRSPD=80|GRDEF=45|GRRES=60
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Kumo Yumi
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Kumo Yumi+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Glimmer
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Catch 1
+|passiveA2=Atk/Spd Catch 2
+|passiveA3=Atk/Spd Catch 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Spd/Def Rein 1
+|passiveC2=Spd/Def Rein 2
+|passiveC3=Spd/Def Rein 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Ninja Festival units]]

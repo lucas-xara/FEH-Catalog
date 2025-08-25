@@ -1,0 +1,54 @@
+{{Weapon Infobox
+|tagid=SID_イリアの吹雪の剣
+|intID=4319
+|image=wep_sw182
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>At start of turn, if unit is within 2 spaces of an ally, grants【Triangle Attack】and【Canto (１)】 to unit and allies within 2 spaces of unit for 1 turn.<br><br>If unit initiates combat or is within 2 spaces of an ally, grants bonus to unit's Atk/Spd/Def/Res = 5 + number of times Dragonflowers have been used on unit × 2 (max 15), reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% (excluding area-of-effect Specials), reduces damage from foe's first attack by 7 ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and grants Special cooldown charge +1 to unit per attack during combat (only highest value applied; does not stack).<br><br>【Triangle Attack】<br>If unit initiates combat and 2 or more allies (excluding unit) with Triangle Attack are within 2 spaces of unit, unit attacks twice. (That turn only. Does not stack.)<br><br>【Canto (１)】<br>After an attack, Assist skill, or structure destruction, unit can move １ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|required=Silver Sword
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Se1={{SEt|Triangle Attack}}
+|Se2={{SEt|Canto (1)}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=At start of turn<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|2 x [[Use Dragonflowers|Dragonflower uses]], + 5|max=15}}
+|Ce2={{Eft|Reduce Damage Reduction|50%}}
+|Ce2T={{Tgt|Foe}}
+|Ce3={{Eft|Damage Reduction|7}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce4={{Eft|Accelerate Charge}}
+|Ce3-4T={{Tgt|Unit}}
+|CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+
+==Notes==
+{{Triangle Attack}}
+{{Canto|1|statusEffect=1}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Reduce Damage Reduction}}
+{{FixedDamageReduction|7}}
+{{CooldownChargePlus}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%Dragonflowers%' OR Description LIKE '%【Triangle Attack】%' AND Description NOT LIKE '%【Schism】%'}}
+{{Weapons Navbox}}

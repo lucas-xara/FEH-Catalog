@@ -1,0 +1,57 @@
+{{Passive
+|type=S
+|exclusive=0
+|1name=Initiate Seal Def 1
+|1tagid=SID_鍛錬の証_守備1
+|alt1name=Defense Plus 1
+|1effect=Grants Def+1.
+|1cost=30
+|1next=-
+|2name=Initiate Seal Def 2
+|2tagid=SID_鍛錬の証_守備2
+|alt2name=Defense Plus 2
+|2effect=Grants Def+2.
+|2cost=60
+|2next=-
+|3name=Initiate Seal Def 3
+|3tagid=SID_鍛錬の証_守備3
+|alt3name=Defense Plus 3
+|3effect=Grants Def+3.
+|3cost=120
+|statModifiers1=0,0,0,1,0
+|statModifiers2=0,0,0,2,0
+|statModifiers3=0,0,0,3,0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=
+}}
+==Seal acquired from==
+===Quest reward===
+* [[Quests and Missions#Tutorial Quests|Tutorial Quests]] (February 2, 2018 - February 2, 2019): Clear [[Future Princess|Chapter 8: Part 5]].
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Initiate Seal Def 1;Initiate Seal Def 2;Initiate Seal Def 3
+|badgeColor=Verdant
+|costs1=-
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=鍛錬の証・守備
+|german=Ver.-Siegel
+|spanishEU=Aptitud Def
+|spanishLA=S. iniciado Def.
+|french=Sceau initié Déf
+|italian=Sigillo base Dif
+|chineseTW=鍛鍊之證・防守
+|portuguese=Selo inicial Def.
+}}
+
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}
+[[Category:Initiate Seals]]

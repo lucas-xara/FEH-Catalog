@@ -1,0 +1,49 @@
+{{Weapon Infobox
+|tagid=SID_華冑の槍
+|weaponType=Lance
+|might=16
+|range=1
+|effectiveness=armored
+|effect=Effective against armored foes.
+|cost=400
+|exclusive=1
+|userVersion1=Weapon
+|userVersion2=Gleam
+|statModifiers=0,16,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If unit is within 2 spaces of support partner, grants Atk/Spd/Def/Res+3 to unit and to that ally during combat.
+|iconSkill1=Ally Support Joint Bonuses W.png
+|tagidExtraSkill1=支
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|armored}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary buffs}}
+{{SupportPartner|effect=temporary buffs to unit and support partner}}
+
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|支援相互強化R3|Ally Support Joint Bonuses R3}}
+==In other languages==
+{{OtherLanguages
+|english=Lordly Lance
+|japanese=華冑の槍
+|german=Adlige Lanze
+|spanishEU=Lanza ilustre
+|spanishLA=Lanza ilustre
+|french=Lance digne
+|italian=Lancia signorile
+|chineseTW=高貴之槍
+|portuguese=Lança grandiosa
+}}
+==See also==
+* [[Knightly Lance]]
+{{Weapons Navbox}}

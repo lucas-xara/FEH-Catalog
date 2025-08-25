@@ -1,0 +1,56 @@
+{{Weapon Infobox
+|tagid=SID_痛罵の杖
+|weaponType=Staff
+|might=14
+|range=2
+|effect=Calculates damage from staff like other weapons. If unit initiates combat, grants Atk/Spd+4 during combat. After combat, if unit attacked, inflicts【Triangle Adept】on target and foes within 2 spaces of target.<br><br>【Triangle Adept】<br>If unit has weapon-triangle advantage, boosts Atk by 20% through its next action, and if unit has weapon-triangle disadvantage, reduces Atk by 20% through its next action.
+|cost=400
+|userVersion1=Weapon
+|userVersion2=Gleam
+|exclusive=1
+|statModifiers=0,14,0,0,0
+|required=-
+|intID=2671
+|sort=569
+|effectRange=2
+|value=20
+|timingID=15
+|abilityID=102
+|limit2ID=6
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|tagidExtraSkill1=連
+|effectSkill1=At start of turn, if unit is within 2 spaces of an ally, grants Atk+6 and【Cancel Affinity】to unit and allies within 2 spaces of unit.<br><br>【Cancel Affinity】<br>If unit has weapon-triangle disadvantage, reverses weapon-triangle advantage granted by foe's skills for 1 turn.
+|iconSkill1=Punishment Staff W.png
+|properties=
+}}
+==Notes==
+* Has the same effect as {{St|Wrathful Staff}} and {{St|Swift Sparrow 2}}.
+{{Wrathful Staff}}
+{{Combat boosts}}
+{{IfUnitInitiates}}
+{{IfUnitAttacked}}
+{{Triangle Adept}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Bonuses}}
+{{Cancel Affinity}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=痛罵の杖
+|german=Stab der Strafe
+|spanishEU=Bastón castigo
+|spanishLA=Bastón castigo
+|french=Bâton punisseur
+|italian=Bastone punitore
+|chineseTW=痛責之杖
+|portuguese=Bastão punitivo
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%grants Atk/Spd+_ during combat%' AND CanUseWeapon__full='Colorless Staff') OR (Description LIKE '%unit has weapon-triangle advantage, boosts Atk by%unit has weapon-triangle disadvantage, reduces Atk by%' AND Exclusive=1) OR (Description LIKE '%at start of turn%within _ spaces%grants%for 1 turn%at start of turn%grants%allies within 2 spaces%') OR Description LIKE '%reverses weapon-triangle advantage%'|columns=3}}
+{{Weapons Navbox}}

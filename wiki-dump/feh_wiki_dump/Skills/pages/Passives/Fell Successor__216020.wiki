@@ -1,0 +1,55 @@
+{{About|the weapon|the story map|Book VIII, Chapter 7: Part 3: Fell Successor}}
+{{Passive
+|name=Fell Successor
+|type=C
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Fell Successor
+|1tagid=SID_邪竜の後継者
+|1effect=If unit initiates combat or is within 2 spaces of an ally, inflicts Atk/Res-5 on foe during combat, and also, if unit's Res ≥ foe's Res+5 and if foe's attack can trigger foe's Special, inflicts Special cooldown count+1 on foe before foe's first attack, and also, if foe's Range = 2, inflicts additional Special cooldown count+1 on foe before foe's first follow-up attack (cannot exceed the foe's maximum Special cooldown).<br><br>Grants Atk/Def/Res+4 to allies within 2 spaces of unit during their combat. For allies within 2 spaces of unit, if this unit's Res ≥ ally's foe's Res+5 at start of combat, and if foe's attack can trigger foe's Special, inflicts Special cooldown count+1 on foe before foe's first attack, and also, if foe's Range = 2, inflicts additional Special cooldown count+1 on foe before foe's first follow-up attack (cannot exceed the foe's maximum Special cooldown).
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary debuffs|Atk/Res|5}}
+|CeT1-3={{Tgt|Foe}}
+|CeC1=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce2={{Eft|Increase Cooldown|1}}<br>before {{Tgt|Foe}}'s first attack
+|CeC2=({{Eft|Temporary debuffs|Atk/Res|5}} conditions),<br>{{Tgt|Foe}} has an [[Offensive Special]] '''&'''<br>{{Tgt|Unit}}'s Res ≥ {{Tgt|Foe}}'s Res+5
+|Ce3={{Eft|Increase Cooldown|1}}<br>before {{Tgt|Foe}}'s first [[follow-up]]
+|CeC3=({{Eft|Increase Cooldown|1}}<br>before {{Tgt|Foe}}'s first attack<br>conditions) '''&''' {{Tgt|Foe}}'s Range = 2
+|Ce4={{Eft|Temporary buffs|Atk/Def/Res|4}}
+|CeT4={{Tgt|Allies}}<br>[[within 2 spaces]]
+|CeT5-6={{Tgt|Foes}} of<br>{{Tgt|Allies}}<br>[[within 2 spaces]]
+|Ce5={{Eft|Increase Cooldown|1}}<br>before {{Tgt|Foe}}'s first attack
+|CeC5=({{Eft|Temporary debuffs|Atk/Res|5}} conditions),<br>{{Tgt|Foe}} has an [[Offensive Special]] '''&'''<br>{{Tgt|Unit}}'s Res ≥ {{Tgt|Target Foe}}'s Res+5
+|Ce6={{Eft|Increase Cooldown|1}}<br>before {{Tgt|Foe}}'s first [[follow-up]]
+|CeC6=({{Eft|Increase Cooldown|1}}<br>before {{Tgt|Foe}}'s first attack<br>conditions) '''&''' {{Tgt|Target Foe}}'s Range = 2
+}}
+
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary debuffs}}
+{{CombatCooldownCount|+1}}
+{{Temporary buffs}}
+{{AlliesCombatEffect|effect=temporary buffs and Special cooldown count+1 on foe before foe's first attack and first follow-up attack}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=邪竜の後継者
+|german=Dämonentochter
+|spanishEU=Heredera Caída
+|spanishLA=Heredera Caída
+|french=Héritière déchue
+|italian=L'erede Maligna
+|chineseTW=邪龍繼承人
+|portuguese=Terrível herdeira
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%special cooldown count+%before foe_s first attack%') AND Exclusive='1'}}
+* [[Skill families/A Passives#Scowl|Scowl Passives]]
+{{Passives Navbox|C}}

@@ -1,0 +1,67 @@
+{{Passive
+|name=Pulse Up: Ploy
+|type=C
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|Infantry}}
+|properties=random_owner
+|1name=Pulse Up: Ploy
+|alt1name=Pulse Up Ploy
+|1tagid=SID_鍛錬の鼓動・謀策
+|1effect=At start of turn, grants Special cooldown count-1.<br><br>At start of player phase or enemy phase, if any foes within 3 rows or 3 columns centered on unit have Res < unit's Res+5, inflicts【Ploy】 and【Exposure】on those foes through their next actions.<br><br>【Ploy】<br>Neutralizes【Bonus Doubler】,【Treachery】, and【Grand Strategy】effects active on unit during combat through unit's next action.<br><br>【Exposure】<br>Foe's attacks deal +10 damage.<br><br>【Bonus Doubler】<br>Grants bonus to Atk/Spd/Def/Res during combat = current bonus on each of unit's stats for 1 turn. Calculates each stat bonus independently.<br><br>【Treachery】<br>Unit deals additional damage = total bonuses on unit for 1 turn.<br><br>【Grand Strategy】<br>Grants bonus to Atk/Spd/Def/Res during combat = current penalty on each of unit's stats × 2 for 1 turn. (Example: if unit has -7 penalty to Atk, grants Atk+14, for a net bonus of Atk+7.) Calculates each stat bonus independently.<br><br>Unit's negative effects that last "through unit's next action" will remain in effect until this status (Grand Strategy) is neutralized.
+|1cost=300
+|1required=Time's Pulse 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Reduce Cooldown|1}}
+|MeC=At start of turn
+|Se1={{SEt|Ploy}}
+|Se2={{SEt|Exposure}}
+|SeT={{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|SeC=At start of both Phases<br>if {{Tgt|Unit}}'s Res<br>> {{Tgt|Foe}}'s Res+5
+}}
+==Notes==
+{{Start of turn Special modification}}
+{{Ploy}}
+{{Exposure}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Rune: Source of Wisdom|t=Baldr: Celestial Sun God
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=Cadence : ruse
+|italian=
+|chineseTW=
+|portuguese=
+}}
+
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%At start of turn, grants Special cooldown count-1.%' OR Description LIKE '%at%start of%inflicts%rows%columns%' OR Description LIKE '%【Ploy】%') AND Exclusive='1'}}
+* [[Pulse Up Passives]]
+* [[Ploy Passives]]
+{{Passives Navbox|C}}

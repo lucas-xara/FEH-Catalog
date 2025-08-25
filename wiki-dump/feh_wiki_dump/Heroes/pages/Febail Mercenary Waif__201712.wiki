@@ -1,0 +1,73 @@
+{{#invoke:NameAbout|main|Name=Febail}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Febail
+|Title=Mercenary Waif
+|WeaponType=Blue Bow
+|MoveType=Infantry
+|Origin=Fire Emblem: Genealogy of the Holy War
+|Gender=Male
+|actorEN=Paul Castro Jr.
+|actorJP=榎木淳弥
+|artist=ネコモチ
+|randomStartTime=2023-10-15T07:00:00Z
+|additionDate=September 15, 2023
+|releaseDate=September 15, 2023
+|poolDate=October 5, 2023
+|poolRarities=5
+|cv1=3
+|cv2=5700100
+|TagID=ファバル
+|InternalID=1001
+|Properties=
+|description=Inheritor of the Holy Yewfelle and descendant of Ullr. Raised in an orphanage after his mother, Brigid, went missing. Appears in Fire Emblem: Genealogy of the Holy War.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=11|Lv1SPD=15|Lv1DEF=4|Lv1RES=5
+|GRHP=50|GRATK=80|GRSPD=70|GRDEF=50|GRRES=60
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Bow
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Heired Yewfelle
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Sorcery Blade 1
+|passiveA2=Sorcery Blade 2
+|passiveA3=Sorcery Blade 3
+|passiveA4=Spd/Res Hexblade
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Null Follow-Up 1
+|passiveB2=Null Follow-Up 2
+|passiveB3=Null Follow-Up 3
+|passiveB4=Phys. Null Follow
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+}}
+{{Heroes Navbox}}

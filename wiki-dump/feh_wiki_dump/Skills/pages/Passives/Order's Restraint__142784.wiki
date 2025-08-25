@@ -1,0 +1,83 @@
+{{Passive
+|name=Order's Restraint
+|type=C
+|exclusive=1
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|intID=2584
+|sort=546
+|effectRange=2
+|value=8
+|timingID=8
+|abilityID=286
+|randomTimestamp=2021-07-01T07:00:00Z
+|randomMinLv=31
+|properties=random_owner
+|1name=Order's Restraint
+|alt1name=Orders Restraint
+|1tagid=SID_束縛、秩序、安定
+|1effect=At start of turn, grants Atk/Res+6 and【Null Panic】 to allies within 2 spaces for 1 turn. At start of turn, if 3 or more allies are within 2 spaces of unit, grants Atk/Res+6 and 【Null Panic】to unit for 1 turn.<br><br>【Null Panic】<br>If unit is inflicted with Panic (bonuses converted into penalties), neutralizes the "converts bonuses on target into penalties" effect for 1 turn. (Even though the effect is neutralized, the Panic status remains, and is treated as a Penalty status.)
+|1required=-
+|1next=-
+|2name=Order's Restraint+
+|alt2name=Orders Restraint Plus
+|2tagid=SID_束縛、秩序、…・神
+|2effect=At start of turn, grants Atk/Res+6, 【Null Panic】,【Null Follow-Up】, and【Hexblade】to allies within 3 spaces of unit for 1 turn, and also, if the number of allies within 3 spaces of unit ≥ 3, grants Atk/Res+6, 【Null Panic】,【Null Follow-Up】, and "reduces the percentage of foe's non-Special 'reduce damage by X%' skills by 50% during combat (excluding area-of-effect Specials)" to unit for 1 turn.<br><br>If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+4 to unit during combat.<br><br>【Null Panic】<br>If unit is inflicted with Panic (bonuses converted into penalties), neutralizes the "converts bonuses on target into penalties" effect for 1 turn. (Even though the effect is neutralized, the Panic status remains, and is treated as a Penalty status.)<br><br>【Null Follow-Up】<br>If unit's Spd > foe's Spd during combat, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks for 1 turn.<br><br>【Hexblade】<br>Calculates damage using the lower of foe's Def or Res during combat for 1 turn (including damage dealt by Specials before combat).
+|2cost=300
+|properties2=
+|1cost=300
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Order's Restraint}} Order's Restraint
+|s1 Se1={{Eft|Bonuses|Atk/Res|6}}
+|s1 Se2={{SEt|Null Panic}}
+|s1 Se1-2T={{Tgt|Allies}}<br>[[within 2 spaces]]
+|s1 Se1-2C=At start of turn
+|s1 Se3={{Eft|Bonuses|Atk/Res|6}}
+|s1 Se4={{SEt|Null Panic}}
+|s1 Se3-4C=At start of turn<br>if {{Tgt|Allies}}<br>[[within 2 spaces]] ≥ 3
+|skill2={{Si|Order's Restraint+}} Order's Restraint+
+|s2 Se1={{Eft|Bonuses|Atk/Res|6}}
+|s2 Se2={{SEt|Null Panic}}
+|s2 Se3={{SEt|Null Follow-Up}}
+|s2 Se4={{SEt|Hexblade}}
+|s2 Se1-4T={{Tgt|Allies}}<br>[[within 3 spaces]]
+|s2 Se1-4C=At start of turn
+|s2 Se5={{Eft|Bonuses|Atk/Res|6}}
+|s2 Se6={{SEt|Null Panic}}
+|s2 Se7={{SEt|Null Follow-Up}}
+|s2 Se8=<span style="width:12em;display:inline-block"/>{{SEt|Halves non-Special damage reduction}}
+|s2 Se5-8C=At start of turn<br>if {{Tgt|Allies}}<br>[[within 3 spaces]] ≥ 3
+|s2 Ce={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s2 CeC=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+}}
+
+==Notes==
+{{Bonuses}}
+{{Null Panic}}
+{{Null Follow-Up|name=Order's Restraint+}}
+{{Hexblade|name=Order's Restraint+}}
+{{Halves non-Special damage reduction|name=Order's Restraint+}}
+{{Temporary buffs|name=Order's Restraint+}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=束縛、秩序、安定
+|german=Stabile Ordnung
+|spanishEU=Orden estable
+|spanishLA=Orden estable
+|french=Ordre modéré
+|italian=Ordine stabile
+|chineseTW=束縛、秩序、安定
+|portuguese=Ordem contida
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Null Panic】%' OR Description LIKE '%【Null Follow-Up】%' OR Description LIKE '%【Hexblade】%' OR Description LIKE '%"reduces the percentage of foe_s non-Special _reduce damage by X_%for 1 turn%') AND Exclusive='1'}}
+* [[Skill families/C Passives#Rouse|Rouse Passives]]
+{{Passives Navbox|C}}

@@ -1,0 +1,37 @@
+{{Special
+|tagid=SID_開世
+|charge=3
+|effect=Boosts damage by 50% of unit's Def. Restores HP = 25% of damage dealt.
+|cost=500
+|exclusive=1
+|required=Bonfire
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_owner,offensive_special
+}}
+==Notes==
+* Has the same effect as {{St|Bonfire}}.
+{{DamageBoost}}
+* The healing calculation will always use the [[Damage calculation#Final Damage calculation|final damage number]] for the damage dealt.
+{{CombatHPRecovery}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V4.0_191204_newyear_Skl.webp
+</gallery>
+==In other languages==
+{{OtherLanguages
+|english=Open the Future
+|japanese=開世
+|german=Tor zur Zukunft
+|spanishEU=Puerta al futuro
+|spanishLA=Puerta al futuro
+|french=Avenir nouveau
+|italian=Domani migliore
+|chineseTW=開世
+|portuguese=Futuro renovado
+}}
+==See also==
+{{See also skills|cond=SCategory='special' AND Exclusive='1' AND Description LIKE '%Restores HP = __% of damage dealt%'}}
+{{Specials Navbox}}

@@ -1,0 +1,84 @@
+{{#invoke:NameAbout|main|Name=Tibarn}}{{HeroPage Tabs|{{PAGENAME}}}}
+{{Hero Infobox
+|Name=Tibarn
+|Title=Lord of the Air
+|GrowthModifier=
+|WeaponType=Red Beast
+|Origin=Fire Emblem: Radiant Dawn
+|Gender=Male
+|MoveType=Flying
+|actorJP=鈴木達央
+|actorEN=Joe J. Thomas
+|artist=スエカネクミコ
+|additionDate=January 10, 2019
+|releaseDate=January 11, 2019
+|poolDate=January 30, 2019
+|randomStartTime=2019-02-11T07:00:00Z
+|poolRarities=5
+|TagID=ティバーン
+|InternalID=328
+|Properties=specRate_202108
+|cv1=9
+|cv2=600100
+|description=King of Phoenicis, the nation of the hawk laguz. Leads his people by dint of his overwhelming fighting ability and charisma. Appears in Fire Emblem: Radiant Dawn.
+}}
+
+__TOC__
+
+{{Stats Page|Hero={{BASEPAGENAME}}
+|Lv1HP=19|Lv1ATK=10|Lv1SPD=7|Lv1DEF=8|Lv1RES=3
+|GRHP=50|GRATK=65|GRSPD=55|GRDEF=60|GRRES=35
+}}
+
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Hatchling (Flier)
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Fledgling (Flier)
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Adult (Flier)
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Hawk King Claw
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Draconic Aura
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Death Blow 1
+|passiveA2=Sturdy Blow 1
+|passiveA3=Sturdy Blow 2
+|passiveA4=Sturdy Impact
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Chill Atk 1
+|passiveB2=Chill Atk 2
+|passiveB3=Chill Atk 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Even Atk Wave 1
+|passiveC2=Even Atk Wave 2
+|passiveC3=Even Atk Wave 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

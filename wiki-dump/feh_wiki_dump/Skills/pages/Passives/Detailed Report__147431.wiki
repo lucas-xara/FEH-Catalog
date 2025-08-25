@@ -1,0 +1,50 @@
+{{Passive
+|name=Detailed Report
+|type=B
+|exclusive=1
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|1effect=Foes with Range = 1 cannot move through spaces adjacent to unit. (Does not affect foes with Pass skills.)<br><br>Foes with Range = 2 cannot move through spaces within 2 spaces of unit. (Does not affect foes with Pass skills.)<br><br>Foes cannot warp into spaces within 4 spaces of unit. (Does not affect foes with Pass skills or warp effects from structures, like camps and fortresses in Rival Domains.)
+|intID=2710
+|sort=582
+|effectRange=4
+|value=8
+|timingID=9
+|abilityID=39
+|randomTimestamp=2021-09-17T07:00:00Z
+|randomMinLv=31
+|properties=random_owner
+|1name=Detailed Report
+|1tagid=SID_異常なしであります
+|1required=-
+|1cost=300
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Obstruct|[[adjacent]] to {{Tgt|Unit}}}}
+|MeT1=Range = 1<br>{{Tgt|Foes}}
+|Me2={{Eft|Obstruct|[[within 2 spaces]] of {{Tgt|Unit}}}}
+|MeT2=Range = 2<br>{{Tgt|Foes}}
+|Me3={{Eft|Prevent Warp|[[within 4 spaces]] of {{Tgt|Unit}}}}
+|MeT3={{Tgt|Foes}}
+}}
+
+==Notes==
+{{Obstruct notes|preventWarp=1}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=異常なしであります
+|german=Statusbericht
+|spanishEU=Informe concreto
+|spanishLA=Informe concreto
+|french=Rapport détaillé
+|italian=Rapporto
+|chineseTW=毫無異狀
+|portuguese=Relatório integral
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%foe%cannot move through spaces%unit%' AND WikiName NOT LIKE '%Bulwark%' OR Description LIKE '%foe%cannot warp into spaces within%spaces of unit%'|columns=3}}
+* [[Skill families#Bulwark|Bulwark Passives]]
+{{Passives Navbox|B}}

@@ -1,0 +1,75 @@
+{{Weapon Infobox
+|tagid=SID_謀略の戦弓
+|weaponType=Bow
+|might=14
+|range=2
+|effectiveness=flying
+|effect=Grants Spd+3. Effective against flying foes. When total bonuses on unit + total penalties on foe ≥ 10, inflicts Atk/Spd/Def/Res-5 on foe during combat. (Example: if unit has a +5 bonus and foe has a -5 penalty, the calculated total will be 10.)
+|cost=400
+|exclusive=1
+|userVersion1=Bow
+|userVersion2=Arrow
+|statModifiers=0,14,3,0,0
+|required=Silver Bow
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Effective against flying foes. Grants Spd+3. If【Bonus】is active on unit or if【Penalty】 is active on foe, inflicts Atk/Spd/Def/Res-5 on foe during combat. If unit initiates combat, reduces damage from foe's first attack during combat by percentage = total bonuses on unit and penalties on foe × 3 (max 60%), and also, if total bonuses on unit and penalties on foe ≥ 10, neutralizes effects that prevent unit's follow-up attacks during combat. (Example: if unit has a +5 bonus and foe has a -5 penalty, the calculated total will be 10.)<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|tagidExtraSkill1=一
+|effectSkill1=At start of turn, if any foes are within 3 columns or 3 rows centered on unit, inflicts Def-7 on those foes through their next actions, and grants Atk+6 to unit for 1 turn. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+5 during combat, grants additional bonus to unit's Atk during combat = current bonus on unit's Atk, and inflicts penalty on foe's Def during combat = current penalty on foe's Def.
+|iconSkill1=Cunning Bow W.png
+|properties=random_owner
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{Temporary debuffs}}
+* Cunning Bow's "total bonus + total penalty" count only counts {{SEt|Bonuses}} and {{SEt|Penalties}}, not [[Temporary buffs]] or [[Temporary debuffs]].
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{EffectfromBonus|name=refined Cunning Bow}}
+{{EffectfromPenalty|name=refined Cunning Bow}}
+{{IfUnitInitiates}}
+{{DamagePercentageReduction|name=refined Cunning Bow}}
+{{Follow-up effect neutralization|preventOnly=1|name=refined Cunning Bow}}
+{{Penalties|name={{St|Cunning Bow|refine=Skill1}}}}
+{{Bonuses|name={{St|Cunning Bow|refine=Skill1}}}}
+{|class="wikitable default mw-collapsible" 
+!align="middle"|Example of Area of Effect
+|-
+|align="middle"!|<div style="max-width:450px;margin: auto;>{{AoE|u=Claude: The Schemer|t=Dimitri: The Protector
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}</div>
+|}
+{{TemporaryBufffromBonus|name={{St|Cunning Bow|refine=Skill1}}}}
+{{TemporaryDebufffromPenalty|name={{St|Cunning Bow|refine=Skill1}}}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=謀略の戦弓
+|german=Listiger Bogen
+|spanishEU=Arco ilusorio
+|spanishLA=Arco ilusorio
+|french=Arc rusé
+|italian=Arco scaltro
+|chineseTW=謀略戰弓
+|portuguese=Arco ardiloso
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%total bonuses on unit +%' OR Description LIKE '%total value of bonuses%' OR Description LIKE '%at start of turn%within 3 columns or 3 rows%inflict%' OR Description LIKE '%at start of turn%inflict%within 3 columns or 3 rows%'}} 
+* [[Skill families/C Passives#Ploy|Ploy Passives]]
+* [[Skill families/Weapons#Blade|Blade Tomes]]
+{{Weapons Navbox}}

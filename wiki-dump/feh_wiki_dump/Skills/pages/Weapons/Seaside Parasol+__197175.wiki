@@ -1,0 +1,74 @@
+{{Weapon Infobox
+|tagid=SID_海辺の日傘＋
+|intID=3646
+|image=wep_rd059
+|exclusive=0
+|weaponType=Colorless Staff
+|cost=300
+|might=12
+|range=2
+|effect=At start of turn, inflicts【Guard】on nearest foes within 5 spaces of unit and foes within 2 spaces of those foes equipped with a skill that can trigger the Savior effect. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+5 to unit and inflicts Res-X on foe during combat (X = number of【Bonus】and【Penalty】 effects active on foe × 4; max 16; excludes stat bonuses and stat penalties).<br><br>【Guard】<br>Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|required=Seaside Parasol
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|tagidExtraSkill1=神
+|effectSkill1=Calculates damage from staff like other weapons.
+|iconSkill1=Wrathful Staff W.png
+|tagidExtraSkill2=幻
+|effectSkill2=Foe cannot counterattack.
+|iconSkill2=Dazzling Staff W.png
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Se={{SEt|Guard}}
+|s1 SeT=Nearest {{Tgt|Foes}}<br>[[within 5 spaces]]<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}<br>with {{Eft|Savior}}
+|s1 SeC=At start of turn
+|s1 Ce1={{Eft|Temporary buffs|Atk/Spd|5}}
+|s1 Ce2={{Eft|Temporary debuffs|Res|4 x [[status effects]] on {{Tgt|Foe}}<br>(exc. {{SEt|Bonuses}} & {{SEt|Penalties}})|max=16}}
+|s1 Ce2T={{Tgt|Foe}}
+|s1 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|skill2={{Si|Seaside Parasol+|refine=Skill1}} Skill refine effects
+|s2 Ce={{Eft|Wrathful Staff}}
+|skill3={{Si|Seaside Parasol+|refine=Skill2}} Skill refine effects
+|s3 Ce={{Eft|Prevent Counter}}
+|s3 CeT={{Tgt|Foe}}
+}}
+
+==Notes==
+{{Guard}}
+{{Temporary buffs}}
+{{Temporary debuffs}}
+{{EffectfromBonusPenalty|temporary debuff|target=the foe|nonStat=1}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===notes===
+{{Inheritable Staff Refines}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Gallery==
+<gallery>
+V7.6_v0706b_summer_Rod.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=海辺の日傘＋
+|german=Strandschirm+
+|spanishEU=Parasol costero +
+|spanishLA=Parasol costero +
+|french=Parasol de plage +
+|italian=Parasole marino+
+|chineseTW=海邊的陽傘＋
+|portuguese=Guarda-mar+
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%number of【Bonus】%effects active on foe%' OR Description LIKE '%number of【Bonus】%effects active on% and foe%') AND (Exclusive='1' AND Name NOT LIKE '%+')}}
+* [[Skill families/B Passives#Lull|Lull Passives]]
+{{Weapons Navbox}}

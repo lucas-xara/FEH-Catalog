@@ -1,0 +1,39 @@
+{{Weapon Infobox
+|tagid=SID_剣姫と剣聖の秘刀
+|intID=3628
+|image=wep_sw155
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of turn, if unit's HP ≥ 25% and unit's Special cooldown count is at its maximum value, grants Special cooldown count-1 to unit. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit, inflicts Spd/Def-X on foe (X = 11 - foe's max Special cooldown count value × 2; min 3; if foe does not have a Special skill, penalty = 3), and reduces damage from foe's first attack by 40% during combat, and also, if unit's Spd ≥ foe's Spd+5, neutralizes effects that inflict "Special cooldown charge -X" on unit during combat. If unit's HP ≥ 25% at start of combat and unit's Special cooldown count is at its maximum value after combat, grants Special cooldown count-1 to unit after combat.
+|required=Wo Dao
+|properties=random_owner
+}}
+==Notes==
+{{Start of turn Special modification}}
+{{Temporary buffs}}
+{{Temporary debuffs}}
+{{DamagePercentageReduction}}
+{{CooldownChargeMinusNeutralization}}
+{{After combat Special modification}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=剣姫と剣聖の秘刀
+|german=Klinge der Meister
+|spanishEU=Acero santo leal
+|spanishLA=Acero santo leal
+|french=Vassale des lames
+|italian=Lama serva-santa
+|chineseTW=劍姬與劍聖的秘刀
+|portuguese=Espada dócil
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%at the start of turn 1, grants special cooldown count-1%' AND Exclusive='1' OR Description LIKE '%after combat,%grants special cooldown count-%' OR Description LIKE '%=%foe_s max special cooldown count%'}}
+{{Weapons Navbox}}

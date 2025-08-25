@@ -1,0 +1,57 @@
+{{Weapon Infobox
+|tagid=SID_ルーナの鋭剣
+|weaponType=Sword
+|might=16
+|range=1
+|effect=Effective against armored foes. At start of combat, if foe's Atk ≥ unit's Atk+3, grants Atk/Spd/Def/Res+3 during combat.
+|effectiveness=armored
+|cost=400
+|exclusive=yes
+|userVersion1=Weapon
+|userVersion2=Gleam
+|statModifiers=0,16,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=Deals +10 damage when Special triggers.
+|iconSkill1=Special Damage W.png
+|tagidExtraSkill1=奥
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Ce1={{Eft|Effectiveness|{{Mt|Armored}}}}
+|s1 Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|3}}
+|s1 CeC2={{Tgt|Foe}}'s Atk ≥<br>{{Tgt|Unit}}'s Atk+3<br>at start of combat
+|skill2={{Si|Selena's Blade|refine=Skill1}} Skill refine effects
+|s2 Ce={{Eft|Damage Boost|10}} per<br>{{Tgt|Unit}}'s [[Area-of-effect Specials|AoE]] '''or''' [[offensive Special]]
+}}
+==Notes==
+{{Effective damage bonus|armored}}
+{{At start of combat}}
+{{Temporary buffs}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{FlatDamage|special=1|10}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|奥義ダメージR10|Special Damage}}
+==In other languages==
+{{OtherLanguages
+|japanese=ルーナの鋭剣
+|german=Selenas Klinge
+|spanishEU=Sable Selena
+|spanishLA=Sable Selena
+|french=Épée de Selena
+|italian=Spada di Selena
+|chineseTW=露娜的銳劍
+|portuguese=Espada de Selena
+}}
+==See also==
+* [[Weapons that boost Special damage]]
+{{Weapons Navbox}}

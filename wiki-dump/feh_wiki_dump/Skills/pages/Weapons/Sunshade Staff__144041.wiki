@@ -1,0 +1,42 @@
+{{Weapon Infobox
+|tagid=SID_夏陰の霊杖
+|weaponName=Sunshade Staff
+|image=wep_rd041
+|weaponType=Staff
+|might=14
+|range=2
+|effect=Calculates damage from staff like other weapons. Grants Atk+6 to allies within 2 spaces during combat. Grants Special cooldown charge +1 per foe's attack to allies within 2 spaces during their combat. (Only highest value applied. Does not stack. Special cooldown charge granted even if foe's attack deals 0 damage.) If unit is not adjacent to an ally, grants Atk/Spd+6 to unit during combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,0,0,0
+|required=Assault
+|intID=2612
+|sort=552
+|effectRange=2
+|value=20
+|timingID=20
+|abilityID=291
+|properties=
+}}
+==Notes==
+* Has the same effect as {{St|Wrathful Staff 3}} and {{St|Atk/Spd Solo 3}}.
+{{Wrathful Staff}}
+{{Combat boosts}}
+{{CooldownChargePlus|perAttack=foe}}
+{{AlliesCombatEffect|effect=Atk+6 and Special cooldown charge +1 effect}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=夏陰の霊杖
+|german=Schattenspender
+|spanishEU=Bastón parasol
+|spanishLA=Bastón parasol
+|french=Bâton parasol
+|italian=Bastone parasole
+|chineseTW=夏蔭的靈杖
+|portuguese=Bastão para-sol
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%rants Special cooldown charge +1 per%allies%' OR Description LIKE '%allies%grants Special cooldown charge +1 per%' OR Description LIKE '%If unit is not%adjacent%to an ally% grants Atk/Spd+%during%combat%'|columns=3}}
+{{Weapons Navbox}}

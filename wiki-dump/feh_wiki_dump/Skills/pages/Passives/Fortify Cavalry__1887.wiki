@@ -1,0 +1,42 @@
+{{Passive
+|type=C
+|exclusive=0
+|1name=Fortify Cavalry
+|1tagid=SID_騎盾の鼓舞
+|1effect=At start of turn, grants Def/Res+6 to adjacent cavalry allies for 1 turn.
+|1cost=200
+|1required=Fortify Def 2;Fortify Res 2
+|canUseWeapon={{WeaponList|all}}
+|canUseMove=Cavalry
+|properties=random_all,random_inherit_base
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|StatusEffect={{SkillEffectText|Bonuses|Def/Res|6}}
+|StatusEffect Targets=[[Adjacent]] {{Mt|Cavalry}}<br>{{SkillTargetText|Allies}}
+|StatusEffect Conditions=At start of turn
+}}
+==Notes==
+{{Bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=騎盾の鼓舞
+|german=Reiterei stärken
+|spanishEU=Baluarte caball.
+|spanishLA=Baluarte caball.
+|french=Prudence (Cav.)
+|italian=Fortifica cavall.
+|chineseTW=騎盾鼓舞
+|portuguese=Cavalaria intensa
+}}
+==See also==
+* [[Hone Passives]]
+* [[Fortify Passives]]
+{{Passives Navbox|C}}
+[[Category:Fortify Passives]]

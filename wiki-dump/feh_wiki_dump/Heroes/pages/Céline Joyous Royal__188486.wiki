@@ -1,0 +1,71 @@
+{{#invoke:NameAbout|main|Name=Céline}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Céline
+|Title=Joyous Royal
+|WeaponType=Green Tome
+|MoveType=Infantry
+|Origin=Fire Emblem Engage
+|Gender=Female
+|actorEN=Rachelle Heger
+|actorJP=鬼頭明里
+|artist=はねこと
+|randomStartTime=2023-02-17T07:00:00Z
+|additionDate=January 17, 2023
+|releaseDate=January 17, 2023
+|poolDate=February 7, 2023
+|poolRarities=5
+|cv1=14
+|cv2=200500
+|TagID=セリーヌ
+|InternalID=906
+|Properties=hat,specRate_202508
+|description=Princess of Firene and Alfred's younger sister. She has a gentle demeanor and a particular love for tea. Appears in Fire Emblem Engage.
+}}
+{{Stats Page
+|Lv1HP=15|Lv1ATK=11|Lv1SPD=11|Lv1DEF=4|Lv1RES=10
+|GRHP=50|GRATK=70|GRSPD=75|GRDEF=30|GRRES=65
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Wind
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elwind
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Rexcalibur
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Joyous Tome
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Iceberg
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Spd/Res Ideal 1
+|passiveA2=Spd/Res Ideal 2
+|passiveA3=Spd/Res Ideal 3
+|passiveA4=Spd/Res Ideal 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveC1=Canto Control 1
+|passiveC2=Canto Control 2
+|passiveC3=Canto Control 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

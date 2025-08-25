@@ -1,0 +1,43 @@
+{{Weapon Infobox
+|tagid=SID_グリトニル
+|weaponType=Axe
+|might=16
+|range=1
+|effect=Grants Atk+3. If unit initiates combat and foe uses sword, lance, axe, dragonstone, or beast damage, grants Atk+6 during combat, and if unit initiates combat against a foe that can counter, unit makes a guaranteed follow-up attack.
+|cost=400
+|exclusive=1
+|statModifiers=0,19,0,0,0
+|required=Silver Axe
+|properties=enemy_only
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Stat boosts|Atk|3}}
+|Ce1={{Eft|Temporary buffs|Atk|6}}
+|Ce2={{Eft|Guaranteed Follow-Up}}
+|Ce1C=Player Phase '''&'''<br>{{Tgt|Foe}} is [[Physical]]
+|Ce2C=Player Phase '''&'''<br>[[Physical]] {{Tgt|Foe}}<br>can counterattack
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{IfFoeCanCounter}}
+{{Guaranteed follow-up interaction}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{NorseMyth|is the hall of [[Wikipedia:Forseti|Forseti]], the Norse god of justice.}}
+==In other languages==
+{{OtherLanguages
+|japanese=グリトニル
+|german=Glitnir
+|spanishEU=Glitnir
+|spanishLA=Glitnir
+|french=Glitnir
+|italian=Glitnir
+|chineseTW=格利特尼爾
+|portuguese=Glitnir
+}}
+==See also==
+{{See also skills|cond=WikiName LIKE '%Glitnir%' OR Description LIKE '%foe uses sword, lance, axe, dragonstone, or beast damage,%grants%during combat%' OR Description LIKE '%if%foe%can counter%makes a guaranteed follow-up%' AND Description NOT LIKE '%unit can counterattack regardless%'}}
+{{Weapons Navbox}}

@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Berkut}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Berkut
+|Title=Debonair Noble
+|GrowthModifier=Gen 4
+|WeaponType=Blue Lance
+|Origin=Fire Emblem Echoes: Shadows of Valentia
+|Gender=Male
+|MoveType=Infantry
+|actorJP=鈴木達央
+|actorEN=Ian Sinclair
+|artist=麻谷知世
+|additionDate=September 5, 2019
+|releaseDate=September 6, 2019
+|TagID=舞踏ベルクト
+|InternalID=419
+|Properties=refresher,special,specRate_202302
+|cv1=2
+|cv2=900100
+|description=A royal of the Rigelian Empire. Dancing holds no particular interest for him, but he can't say no to Rinea's pleading smile. Appears in Fire Emblem Echoes: Shadows of Valentia.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=8|Lv1SPD=6|Lv1DEF=7|Lv1RES=5
+|GRHP=55|GRATK=65|GRSPD=40|GRDEF=70|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Lance
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Verðandi
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Dance
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table
+}}
+===Passives===
+{{Passives Table
+|passiveA1=B Duel Infantry 1
+|passiveA2=B Duel Infantry 2
+|passiveA3=B Duel Infantry 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Distant Guard 1
+|passiveC2=Distant Guard 2
+|passiveC3=Distant Guard 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Dance Festival units]]

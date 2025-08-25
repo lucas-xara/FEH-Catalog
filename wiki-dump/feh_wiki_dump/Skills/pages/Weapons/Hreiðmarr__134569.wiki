@@ -1,0 +1,62 @@
+{{Weapon Infobox
+|tagid=SID_フレイズマル
+|weaponName=Hreiðmarr
+|image=wep_lc092
+|weaponType=Lance
+|might=16
+|range=1
+|effect=Grants Def+3. Enables【Canto (３)】during turns 1 through 4. If unit is not adjacent to an ally, grants Atk/Spd/Def/Res+5 during combat, inflicts Special cooldown charge -1 on foe per attack during combat (only highest value applied; does not stack), and after combat, if unit attacked, inflicts【Guard】on target and foes within 2 spaces of target.<br><br>【Canto (３)】<br>After an attack, Assist skill, or structure destruction, unit can move ３ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)<br><br>【Guard】<br>Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,3,0
+|required=Silver Lance
+|intID=2383
+|sort=488
+|effectRange=2
+|value=20
+|timingID=15
+|abilityID=253
+|limit1ID=19
+|limit2ID=6
+|randomTimestamp=2021-02-08T07:00:00Z
+|randomMinLv=31
+|properties=random_owner,enemy_only
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Stat Boosts|Def|3}}
+|Me={{Eft|Canto|3}}
+|MeC=On turns 1 - 4
+|Se={{SEt|Guard}}
+|SeT={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|SeC=After combat if<br>{{Tgt|Unit}} attacked<br>'''&''' no {{Tgt|Allies}}<br>are [[adjacent]]
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce2={{Eft|Guard}}
+|Ce2T={{Tgt|Foe}}
+|CeC=No {{Tgt|Allies}}<br>are [[adjacent]]
+}}
+
+==Notes==
+{{Canto|3}}
+{{Temporary buffs}}
+{{CooldownChargeMinus}}
+{{IfUnitAttacked}}
+{{Guard}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{NorseMyth|is the king of dwarves, known to be a sorcerer who lived in a house of glittering gold and gems. He had three sons named [[Reginn]], [[Ótr]], [[Fáfnir]], and two daughters named [[Lyngheiðr]] and [[Lofnheiðr]].}}
+==In other languages==
+{{OtherLanguages
+|japanese=フレイズマル
+|german=Hreiðmarr
+|spanishEU=Hreiðmarr
+|spanishLA=Hreiðmarr
+|french=Hreiðmarr
+|italian=Hreiðmarr
+|chineseTW=赫瑞德瑪
+|portuguese=Hreiðmarr
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【Canto (３)】%' OR Description LIKE '%Canto%during turns 1 through 4%' OR Description LIKE '%if unit is not adjacent%Atk/Spd/Def/Res+%during combat%' OR Description LIKE '%if unit is not adjacent%Special cooldown charge -1 on foe%' OR Description LIKE '%if unit attacked%guard%'|columns=3}}
+{{Weapons Navbox}}

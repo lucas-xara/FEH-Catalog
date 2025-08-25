@@ -1,0 +1,56 @@
+{{Weapon Infobox
+|tagid=SID_愛の祭の花籠
+|intID=4009
+|image=wep_mg087
+|exclusive=0
+|weaponType=Red Tome
+|cost=200
+|might=8
+|range=2
+|effect=At start of combat, if unit's HP ≥ 25%, deals damage to foe = X% of foe's Atk as combat begins (if unit has weapon-triangle advantage or if unit's Spd > foe's Spd, X = 30; otherwise, X = 15; activates only when unit can attack in combat; effects that reduce damage "during combat" do not apply; will not reduce foe's HP below 1), grants Atk/Spd+5 to unit during combat, and grants bonus to unit's Atk/Spd during combat = 15% of unit's Spd at start of combat.
+|required=Elfire;Ruin
+|next=Devoted Basket+
+|promotionRarity=5
+|promotionTier=1
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{Eft|Damage|(30% if {{Tgt|Unit}}'s Spd ><br>{{Tgt|Foe}}'s Spd '''or''' {{Tgt|Unit}} has<br>[[weapon triangle|triangle]] advantage; else 15%)}} of<br>{{Tgt|Foe}}'s Atk as combat begins
+|CombatEffect 1 Targets={{Tgt|Foe}}
+|CombatEffect 1 Conditions={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat '''&'''<br>{{Tgt|Unit}} can attack
+|CombatEffect 2={{Eft|Temporary buffs|Atk/Spd|5}}
+|CombatEffect 3={{Eft|Temporary buffs|Atk/Spd|15% of {{Tgt|Unit}}'s Spd<br>at start of combat}}
+|CombatEffect 2-3 Conditions={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{CombatDamage|noCounter=1}}
+{{Temporary buffs}}
+{{At start of combat}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Gallery==
+<gallery>
+V8.2_v0802a_valentine_Mag.webp|Sprite sheet for {{St|Tender Vessel}}, {{St|Loving Breath}} and {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=愛の祭の花籠
+|german=Blumenkorb
+|spanishEU=Cesta devota
+|spanishLA=Cesta devota
+|french=Panier dévot
+|italian=Cesto amorevole
+|chineseTW=愛之祭典的花籃
+|portuguese=Cesta devota
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%=%of unit_s Spd at start of combat%' OR Description LIKE '%unit%has weapon%triangle advantage%' AND Description NOT LIKE '%boosts Atk%' OR Description LIKE '%deals%damage%combat begins%') AND Exclusive='1'}}
+* [[Flare Passives]]
+{{Weapons Navbox}}

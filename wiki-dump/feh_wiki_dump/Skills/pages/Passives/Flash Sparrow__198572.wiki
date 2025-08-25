@@ -1,0 +1,49 @@
+{{Passive
+|name=Flash Sparrow
+|type=A
+|exclusive=0
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|Infantry,Armored}}
+|properties=random_owner
+|1name=Flash Sparrow
+|1tagid=SID_鬼神飛燕の柔撃3
+|1effect=If unit initiates combat, grants Atk/Spd+7 to unit during combat, and also, if unit's Spd ≥ foe's Spd-5, grants Special cooldown charge +1 to unit per attack during combat (only highest value applied; does not stack).
+|1cost=300
+|1required=Swift Sparrow 2;Flashing Blade 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{Eft|Temporary Buffs|Atk/Spd|7}}
+|CombatEffect 1 Conditions=Player Phase
+|CombatEffect 2={{Eft|Accelerate Charge}}
+|CombatEffect 2 Conditions=Player Phase '''&'''<br>{{Tgt|Unit}}'s Spd ≥<br>{{Tgt|Foe}}'s Spd-5
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{CooldownChargePlus}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=鬼神飛燕の柔撃
+|german=Blitzender Spatz
+|spanishEU=Gorrión presto
+|spanishLA=Gorrión raudo
+|french=Élan d'hirondelle
+|italian=Rondine celere
+|chineseTW=鬼神飛燕柔擊
+|portuguese=Pardal célere
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit_s Spd%foe_s Spd%special cooldown charge +1%' AND Exclusive='1'}}
+* [[Skill families/A Passives#Blow|Blow Passives]]
+* [[Skill families/A Passives#Blade|Blade Passives]]
+{{Passives Navbox|A}}
+[[Category:Blow Passives]]
+[[Category:Blade Passives]]

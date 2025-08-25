@@ -1,0 +1,65 @@
+{{#invoke:NameAbout|main|Name=Tharja}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Tharja
+|Title=Beach Dark Mage
+|WeaponType=Blue Tome
+|MoveType=Cavalry
+|Origin=Fire Emblem Awakening
+|Gender=Female
+|actorEN=Stephanie Sheh
+|actorJP=高田憂希
+|artist=大熊まい
+|additionDate=July 6, 2023
+|releaseDate=July 7, 2023
+|cv1=10
+|cv2=400300
+|TagID=水着サーリャ
+|InternalID=971
+|Properties=special
+|description=A mage of Plegia, sure to curse something or someone on the sun-beaten sands. Appears in Fire Emblem Awakening.
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=10|Lv1SPD=14|Lv1DEF=4|Lv1RES=3
+|GRHP=55|GRATK=80|GRSPD=70|GRDEF=35|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Thunder
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elthunder
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Seashell Bowl
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Seashell Bowl+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Draw Back
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveB1=S/R Far Trace 1
+|passiveB2=S/R Far Trace 2
+|passiveB3=S/R Far Trace 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Atk/Spd Gap 1
+|passiveC2=Atk/Spd Gap 2
+|passiveC3=Atk/Spd Gap 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Summer units]]

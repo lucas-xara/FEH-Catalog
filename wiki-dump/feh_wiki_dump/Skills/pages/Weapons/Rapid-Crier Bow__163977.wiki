@@ -1,0 +1,49 @@
+{{Weapon Infobox
+|tagid=SID_涙目の速射弓
+|intID=2912
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=1
+|weaponType=Bow
+|cost=400
+|might=14
+|range=2
+|effectiveness=Flying
+|effect=Effective against flying foes. Grants Spd+3. At start of turn, grants Atk/Spd+6 to ally with the highest Atk+Spd total for 1 turn. (Excludes unit.) If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+5 during combat and grants bonus to unit's Atk during combat = total Atk+Spd bonuses on ally with the highest total Atk+Spd bonuses within 3 spaces.
+|statModifiers=0,14,3,0,0
+|required=Silver Bow
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Stat Boosts|Spd|3}}
+|Se={{Eft|Bonuses|Atk/Spd|6}}
+|SeT={{Tgt|Ally}} with the<br>highest Atk+Spd
+|SeC=At start of turn
+|Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce3={{Eft|Temporary buffs|Atk|highest total Atk+Spd<br>{{SEt|Bonuses}} on {{Tgt|Allies}}<br>[[within 3 spaces]]}}
+|Ce2-3C=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+}}
+
+==Notes==
+{{Effective damage bonus|flying}}
+{{Bonuses}}
+{{SelectStat|Atk+Spd total}}
+{{TemporaryBufffromBonus|source=the ally}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=涙目の速射弓
+|german=Heulsusen-Bogen
+|spanishEU=Arco llorón
+|spanishLA=Arco llorón
+|french=Arc pleureur
+|italian=Arco del pianto
+|chineseTW=含淚的速射弓
+|portuguese=Arco chorão
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%at start of turn%grants Atk/Spd+%ally with the highest Atk+Spd total%' OR Description LIKE '%grants bonus to unit\'s Atk%=%total%bonuses on ally%'}}
+{{Weapons Navbox}}

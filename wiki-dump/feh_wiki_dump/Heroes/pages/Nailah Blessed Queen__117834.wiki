@@ -1,0 +1,73 @@
+{{#invoke:NameAbout|main|Name=Nailah}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Nailah
+|Title=Blessed Queen
+|WeaponType=Green Beast
+|Origin=Fire Emblem: Radiant Dawn
+|Gender=Female
+|MoveType=Infantry
+|actorJP=斎賀みつき
+|actorEN=Rachel Robinson
+|artist=п猫Ｒ
+|additionDate=May 20, 2020
+|releaseDate=May 20, 2020
+|TagID=花嫁ニケ
+|InternalID=522
+|Properties=special,hat,tiara,specRate_202402
+|cv1=9
+|cv2=820100
+|description=Queen of Hatari, a lost desert nation spoken of in legend. She's joining the festival ceremony with her partner Rafiel. Appears in Fire Emblem: Radiant Dawn.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=9|Lv1SPD=11|Lv1DEF=7|Lv1RES=6
+|GRHP=50|GRATK=60|GRSPD=70|GRDEF=55|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Whelp (Infantry)
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Yearling (Infantry)
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Adult (Infantry)
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Bride's Fang
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Moonbow
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Darting Blow 1
+|passiveA2=Swift Sparrow 1
+|passiveA3=Swift Sparrow 2
+|passiveA4=Swift Sparrow 3
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Chill Spd 1
+|passiveB2=Chill Spd/Def 1
+|passiveB3=Chill Spd/Def 2
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Glare
+|passiveC1Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Bridal Festival units]]

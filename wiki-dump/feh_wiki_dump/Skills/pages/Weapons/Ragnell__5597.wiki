@@ -1,0 +1,55 @@
+{{Weapon Infobox
+|tagid=SID_ラグネル
+|weaponType=Sword
+|userVersion1=Weapon
+|userVersion2=Gleam
+|might=16
+|range=1
+|effect=Unit can counterattack regardless of foe's range.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Silver Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|tagidExtraSkill1=奥
+|cooldownSkill1=-1
+|effectSkill1=Accelerates Special trigger (cooldown count-1).<br>At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4.
+|iconSkill1=Killer All W.png
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Ce={{Eft|Distant Counter}}
+|skill2={{Si|Ragnell|refine=Skill1}} Skill refine effects
+|s2 Pe={{Eft|Accelerates Special}}
+|s2 Ce={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s2 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+* Ragnell has the same effect as {{St|Distant Counter}}.
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ラグネル
+|german=Ragnell
+|spanishEU=Ragnell
+|spanishLA=Ragnell
+|french=Ragnell
+|italian=Ragnell
+|chineseTW=瑞格內爾
+|portuguese=Ragnell
+}}
+==See also==
+{{See also skills|cond=WikiName LIKE '%ragnell%' OR (Description LIKE '%counterattack regardless%at start of combat%if unit_s HP ≥ ___, grants Atk/Spd/Def/Res+_%' OR Description LIKE '%at start of combat%if unit_s HP ≥ ___, grants Atk/Spd/Def/Res+_%counterattack regardless%') AND Exclusive='1'}}
+* [[Weapons with Distant Counter]]
+* [[Weapons with Close Counter]]
+{{Weapons Navbox}}

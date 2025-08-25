@@ -1,0 +1,66 @@
+{{Weapon Infobox
+|tagid=SID_終端グルヴェイグ
+|intID=3881
+|userVersion1=Weapon
+|userVersion2=Gleam
+|exclusive=1
+|weaponType=Colorless Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). If unit initiates combat or foe's HP ≥ 75% at start of combat, grants Atk/Spd/Def/Res+5 to unit, grants bonus to unit's Atk/Spd = 15% of unit's Spd at start of combat, and neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat. If unit initiates combat, reduces damage from foe's first attack by 70% during combat and restores 7 HP to unit after combat. If unit initiates combat, grants another action to unit after combat, and inflicts "restricts movement to 1 space" on unit and Pair Up cohort through their next action (will not trigger again for 2 turns after triggering).
+|required=Atlas (weapon)
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerate Special}}
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd|15% of {{Tgt|Unit}}'s Spd<br>at start of combat}}
+|Ce3={{Eft|Neutralize Prevent Follow-Ups}}
+|Ce4={{Eft|Neutralize Guaranteed Follow-Ups}}
+|Ce4T={{Tgt|Foe}}
+|Ce1-4C=Player Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|Ce5={{Eft|Damage Reduction|70%}}<br>from {{Tgt|Foe}}'s first attack
+|Ce5T={{Tgt|Unit}}
+|Ce5C=Player Phase
+|Me1={{Eft|Heal|7}}
+|Me1C=After combat<br>in Player Phase
+|Me2={{Eft|Another Action}}
+|Me2C=After combat<br>in Player Phase<br>(2 turn cooldown)
+|Se={{SEt|Gravity}}
+|SeT={{Tgt|Unit}} '''&'''<br>{{Tgt|Cohort}}
+|SeC=After combat<br>in Player Phase<br>(2 turn cooldown)
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{At start of combat}}
+{{Follow-up effect neutralization}}
+{{DamagePercentageReduction}}
+{{After combat healing}}
+{{Galeforce notes}}
+{{Gravity}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+Wep_mg326.webp|Sprite sheet
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=終端グルヴェイグ
+|german=Exitium Gullveig
+|spanishEU=Gullveig final
+|spanishLA=Gullveig final
+|french=Gullveig finale
+|italian=Gullveig finale
+|chineseTW=終末古爾維格
+|portuguese=Gullveig epilogal
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%if unit initiates%after combat%another action to unit%' OR  Description LIKE '%if unit initiates%another action to unit%after combat%' AND Description NOT LIKE '%if unit initiates%assist%another action%' OR Description LIKE '%if unit initiates%grants unit another action%after combat%'}}
+{{Weapons Navbox}}

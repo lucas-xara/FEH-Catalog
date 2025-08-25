@@ -1,0 +1,43 @@
+{{Passive
+|type=A
+|name=Close Salvo
+|exclusive=0
+|canUseWeapon={{WeaponList|Ranged}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Close Salvo
+|1tagid=SID_近反・攻撃の渾身
+|1cost=300
+|1effect=Unit can counterattack regardless of foe's range. At start of combat, if unit's HP ≥ 25%, grants Atk+5 during combat, but after combat, if unit attacked, deals 5 damage to unit.
+|1required=Close Counter
+}}
+==Notes==
+{{Combat boosts}}
+{{IfUnitAttacked}}
+{{DamageToUnit}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=近反・攻撃の渾身
+|german=Naher Vorstoß
+|spanishEU=Salva corta
+|spanishLA=Salva corta
+|french=Salve rapprochée
+|italian=Salva vicina
+|chineseTW=近反・攻擊的奮擊
+|portuguese=Salvo de perto
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%counterattack regardless of%range%' AND SCategory!='Weapon') AND ((Exclusive='1' AND Name NOT LIKE '%+') OR SCategory='captain')}}
+* [[Counter Passives]]
+* [[Counter Seals]]
+* [[Push Passives]]
+* [[Prime Passives]]
+* [[Weapons with Distant Counter]]
+* [[Weapons with Close Counter]]
+{{Passives Navbox|A}}

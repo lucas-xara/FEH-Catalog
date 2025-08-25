@@ -1,0 +1,38 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_聖祭の光炎
+|intID=2730
+|userVersion1=Closed|userVersion2=Open
+|weaponType=Red Tome
+|might=8
+|range=2
+|effect=At start of turn, restores 10 HP. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+5 to unit during combat.
+|exclusive=0
+|cost=200
+|statModifiers=0,8,0,0,0
+|required=Elfire;Ruin
+|next=Luminous Grace+
+|promotionRarity=5
+|promotionTier=1
+|properties=
+}}
+==Notes==
+* Has the same effect as {{St|Recover Ring}}.
+{{Start-of-turn healing}}
+{{Combat boosts}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=聖祭の光炎
+|german=Helle Grazie
+|spanishEU=Brillo grácil
+|spanishLA=Brillo grácil
+|french=Grâce brillante
+|italian=Grazia fulgida
+|chineseTW=聖祭光炎
+|portuguese=Brilho gracioso
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%start of turn, restores 10 HP.%' OR Description LIKE '%if unit_s HP ≥%grants Atk/Spd+_%during combat%'|columns=3}}
+{{Weapons Navbox}}

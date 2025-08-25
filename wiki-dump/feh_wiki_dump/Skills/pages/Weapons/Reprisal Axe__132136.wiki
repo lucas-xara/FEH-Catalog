@@ -1,0 +1,47 @@
+{{Weapon Infobox
+|tagid=SID_反攻の斧
+|weaponName=Reprisal Axe
+|image=wep_ax080
+|weaponType=Axe
+|might=10
+|range=1
+|effect=If foe initiates combat, grants Atk+6 during combat.
+|cost=200
+|exclusive=0
+|statModifiers=0,10,0,0,0
+|required=Steel Axe
+|next=
+|promotionRarity=5
+|promotionTier=1
+|intID=2336
+|sort=6500
+|value=11
+|timingID=1
+|abilityID=35
+|limit1ID=2
+|randomTimestamp=2021-01-08T07:00:00Z
+|randomMinLv=21
+|randomMaxLv=35
+|properties=random_allowed
+}}
+==Notes==
+* Has the same effect as {{Pt|Fierce Stance 3}}.
+{{IfFoeInitiates}}
+{{Combat boosts}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=反攻の斧
+|german=Racheaxt
+|spanishEU=Hacha represalia
+|spanishLA=Hacha represal.
+|french=Hache représailles
+|italian=Ascia punitiva
+|chineseTW=反攻之斧
+|portuguese=Mach. retaliativo
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe initiates combat, grants Atk+%during combat%' AND WikiName NOT LIKE '%reprisal%'|columns=3}}
+* [[Skill families#Reprisal|Reprisal Weapons]]
+{{Weapons Navbox}}

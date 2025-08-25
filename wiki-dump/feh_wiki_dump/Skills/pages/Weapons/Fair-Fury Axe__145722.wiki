@@ -1,0 +1,43 @@
+{{Weapon Infobox
+|tagid=SID_荒ぶる女子力の斧
+|weaponName=Fair-Fury Axe
+|image=wep_ax094
+|weaponType=Axe
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). If unit initiates combat or is within 2 spaces of an ally, deals damage = 15% of unit's Atk and grants Atk/Spd+6 to unit during combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Silver Axe
+|intID=2657
+|sort=562
+|value=20
+|timingID=21
+|abilityID=206
+|limit1ID=58
+|randomTimestamp=2021-08-19T07:00:00Z
+|randomMinLv=31
+|properties=random_owner
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{AtkDamageBoost}}
+{{Temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=荒ぶる女子力の斧
+|german=Ungestüme Axt
+|spanishEU=Hacha de furia
+|spanishLA=Hacha de furia
+|french=Hache fougueuse
+|italian=Ascia del fascino
+|chineseTW=狂野女子力之斧
+|portuguese=Machado furioso
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%deals damage =%of unit_s Atk%' AND Description NOT LIKE '%minus%' AND Description NOT LIKE '%boost resets%'}}
+{{Weapons Navbox}}

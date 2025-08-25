@@ -1,0 +1,57 @@
+{{Passive
+|name=Squad Ace AL
+|type=S
+|exclusive=0
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|timingID=0
+|abilityID=0
+|properties=
+|1name=Squad Ace AL 1
+|1tagid=SID_第38迷宮の覇者1
+|1effect=Grants Spd/Def+1.
+|1required=-
+|1cost=80
+|statModifiers1=0,0,1,1,0
+|intID1=2206
+|sort1=50370
+|value1=2
+|2name=Squad Ace AL 2
+|2tagid=SID_第38迷宮の覇者2
+|2effect=Grants Spd/Def+2.
+|2required=Squad Ace AL 1
+|2cost=160
+|statModifiers2=0,0,2,2,0
+|intID2=2207
+|sort2=50371
+|value2=4
+}}
+==Seal acquired from==
+===Squad Assault reward===
+* Complete the [[38th Assault]].
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Squad Ace AL 1;Squad Ace AL 2
+|badgeColor=Verdant
+|costs1=-
+|costs2=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|english=Squad Ace AL
+|japanese=第３８迷宮の覇者
+|german=Überfall-Ass AL
+|spanishEU=As del asalto AL
+|spanishLA=As del asalto AL
+|french=Assaut réussi AL
+|italian=Asso sq. AL
+|chineseTW=第３８迷宮的霸王
+|portuguese=Esquadrão ás AL
+}}
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}
+[[Category:Squad Ace Seals]]

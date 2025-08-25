@@ -1,0 +1,49 @@
+{{Passive
+|type=B
+|name=Flow Force
+|exclusive=0
+|canUseWeapon={{WeaponList|Melee}}
+|canUseMove={{MoveList|Cavalry,Flying}}
+|properties=random_inherit_base,random_owner
+|1name=Flow Force 1
+|1tagid=SID_怒涛・不屈1
+|1cost=60
+|1effect=At the start of combat, if unit's HP = 100% and unit initiates combat, neutralizes effects that prevent unit's follow-up attacks and neutralizes unit's penalties to Atk/Spd during combat.
+|1required=-
+|1promotionRarity=4
+|1promotionTier=1
+|2name=Flow Force 2
+|2tagid=SID_怒涛・不屈2
+|2cost=120
+|2effect=At start of combat, if unit's HP ≥ 50% and unit initiates combat, neutralizes effects that prevent unit's follow-up attacks and neutralizes unit's penalties to Atk/Spd during combat.
+|2promotionRarity=5
+|2promotionTier=1
+|3name=Flow Force 3
+|3tagid=SID_怒涛・不屈3
+|3cost=240
+|3effect=If unit initiates combat, neutralizes effects that prevent unit's follow-up attacks and neutralizes unit's penalties to Atk/Spd during combat.
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Follow-up effect neutralization|preventOnly=1}}
+{{Penalty neutralization}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=怒涛・不屈
+|german=Erstarkung
+|spanishEU=Corriente fuerte
+|spanishLA=Corriente fuerte
+|french=Flots puissants
+|italian=Forza fluida
+|chineseTW=怒濤・不屈
+|portuguese=Onda forte
+}}
+==See also==
+* [[Skill families#Flow|Flow Passives]]
+{{Passives Navbox|B}}

@@ -1,0 +1,71 @@
+{{#invoke:NameAbout|main|Name=Mamori|Name2=Draug}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Mamori
+|Title=Microwavin' Idol
+|WeaponType=Green Axe
+|Origin=Tokyo Mirage Sessions ♯FE Encore
+|Gender=Female
+|MoveType=Armored
+|actorJP=福原香織,竹内良太
+|actorEN=Elizabeth Simmons,Patrick Seitz
+|artist=日向悠二
+|additionDate=January 17, 2020
+|releaseDate=January 20, 2020
+|randomStartTime=2020-02-20T07:00:00Z
+|poolDate=February 7, 2020
+|poolRarities=5
+|TagID=まもり
+|InternalID=477
+|Properties=specRate_202208
+|cv1=13
+|cv2=100300
+|description=Cute and courteous master of Draug. Under the moniker Mamorin, she hosts a popular cooking show for kids. Appears in Tokyo Mirage Sessions ♯FE Encore.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=11|Lv1SPD=5|Lv1DEF=12|Lv1RES=9
+|GRHP=55|GRATK=60|GRSPD=45|GRDEF=70|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Mirage Axe
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+}}
+===Specials===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=4
+|special1Unlock=3
+|special2=Bonfire
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Shield Session 1
+|passiveA2=Shield Session 2
+|passiveA3=Shield Session 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Vengeful Fighter 1
+|passiveB2=Vengeful Fighter 2
+|passiveB3=Vengeful Fighter 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+}}
+{{Heroes Navbox}}

@@ -1,0 +1,63 @@
+{{SkillPage Tabs}}{{Passive
+|type=A
+|exclusive=0
+|1name=Fire Boost 1
+|1tagid=SID_生命の業火1
+|1promotionRarity=4
+|1promotionTier=1
+|1required=-
+|1effect=At start of combat, if unit's HP ≥ foe's HP+3, grants Atk+2 during combat.
+|1cost=50
+|2name=Fire Boost 2
+|2tagid=SID_生命の業火2
+|2promotionRarity=5
+|2promotionTier=1
+|2effect=At start of combat, if unit's HP ≥ foe's HP+3, grants Atk+4 during combat.
+|2cost=100
+|3name=Fire Boost 3
+|3tagid=SID_生命の業火3
+|3effect=At start of combat, if unit's HP ≥ foe's HP+3, grants Atk+6 during combat.
+|3cost=200
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=random_owner
+}}
+==Notes==
+{{Combat boosts}}
+* {{PAGENAME}} compares ''current'' HP between units to apply the Combat Buff.
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Fire Boost 1;Fire Boost 2;Fire Boost 3
+|badgeColor=Scarlet
+|costs1=20;100;20
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=生命の業火
+|german=Feuerschub
+|spanishEU=Pirovitalidad
+|spanishLA=Pirovitalidad
+|french=Boost ardent
+|italian=Impulso fuoco
+|chineseTW=生命業火
+|portuguese=Pirovital
+}}
+==See also==
+* [[Boost Passives]]
+{{Seals Navbox}}
+{{Passives Navbox|A}}
+[[Category:Boost Passives]]

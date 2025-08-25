@@ -1,0 +1,42 @@
+{{About|the [[Assist]] skill|the [[Tactics Drills]] map|Skill Studies 21: Future Vision}}
+{{Assist
+|tagid=SID_未来を映す瞳
+|name=Future Vision
+|range=1
+|effect=Unit and target ally swap spaces. Grants another action to unit. (Additional action granted once per turn only.)
+|cost=400
+|exclusive=1
+|required=Swap
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|MapEffect 1={{Eft|Swap Units}}
+|MapEffect 1 Targets={{Tgt|Unit}} '''&'''<br>{{Tgt|Target Ally}}
+|MapEffect 2={{Eft|Another Action}}<br>(once per turn)
+|MapEffect 2 Targets={{Tgt|Unit}}
+|Me1C={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}
+|MapEffect 2 Conditions={{Tgt|Unit}} uses Assist
+}}
+
+==Notes==
+* Has the same effect as {{St|Swap}}.
+{{Movement skill notes|notBeforeRokkr=1}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=未来を映す瞳
+|german=Zukunftsvision
+|spanishEU=Visión futura
+|spanishLA=Visión futura
+|french=Vision du futur
+|italian=Premonizione
+|chineseTW=映照未來的眼眸
+|portuguese=Visão do futuro
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%another action to unit%' OR Description LIKE '%grants unit another action%'|columns=3}}
+{{Assists Navbox}}

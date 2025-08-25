@@ -1,0 +1,39 @@
+{{Assist
+|tagid=SID_ぶちかまし
+|name=Smite
+|range=1
+|effect=Pushes target ally 2 spaces away.
+|cost=150
+|exclusive=0
+|required=-
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_all,random_inherit_base
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Smite Units}}
+|MeT={{Tgt|Target Ally}}
+|MeC={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}
+}}
+
+==Notes==
+{{Movement skill notes|notBeforeRokkr=1}}
+* It is possible for smite to move an ally over mountains, forests, ponds, trenches but not walls or [[Structures]].
+* If another unit is already occupying the destination area or the destination area is [[terrain]] that the ally cannot normally occupy, Smite will push the ally one space instead.
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ぶちかまし
+|german=Pein
+|spanishEU=Empellón
+|spanishLA=Choque
+|french=Charge
+|italian=Urto
+|chineseTW=重擊
+|portuguese=Impulsão
+}}
+==See also==
+* [[Movement Assists]]
+{{Assists Navbox}}

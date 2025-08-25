@@ -1,0 +1,51 @@
+{{Passive
+|name=Love for All!
+|type=C
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Love for All!
+|alt1name=Love for All
+|1tagid=SID_みんなだいすき
+|1effect=For allies within 3 spaces of unit, grants Atk/ Spd/Def/Res+5 and grants Special cooldown count-1 before foe's first attack during combat.<br><br>If unit is within 3 spaces of an ally, reduces damage from area-of-effect Specials by number of allies within 3 spaces of unit x 40% (max 80%; excluding Røkkr area-of-effect Specials).<br><br>If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit, reduces damage from foe's first attack by X × 7 (max 14; "first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and grants Special cooldown count-X to unit before foe's first attack during combat (max 3; X = number of allies within 3 spaces of unit), and also, when unit's Special triggers, neutralizes foe's "reduces damage by X%" effects from foe's non-Special skills (excluding area-of-effect Specials).
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce2={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Foe}}'s first attack
+|Ce1-2T={{Tgt|Allies}}<br>[[within 3 spaces]]
+|Ce3={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce4={{Eft|Damage Reduction|7 x {{Tgt|Allies}} [[within 3 spaces]]|max=14}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce5={{Eft|Reduce Cooldown|{{Tgt|Allies}} [[within 3 spaces]]|max=3}}<br>before {{Tgt|Foe}}'s first attack
+|Ce6={{Eft|Neutralize Damage Reduction}}<br>per {{Tgt|Unit}}'s [[offensive Special]]
+|Ce3-6C=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|Me={{Eft|Damage Reduction|40 x {{Tgt|Allies}} [[within 3 spaces]]<br>from Non-Røkkr [[AoE Specials]]|percent=1|max=80%}}
+|MeC=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{CombatCooldownCount}}
+{{AlliesCombatEffect|temporary buffs and Special cooldown count -1 effects}}
+{{DamagePercentageReduction}}
+{{FlatDamageReduction|X (max: 14)}}
+{{DamageReductionNeutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%reduces damage from% = number of allies within _ spaces %') AND Exclusive='1'}}
+{{Passives Navbox|C}}

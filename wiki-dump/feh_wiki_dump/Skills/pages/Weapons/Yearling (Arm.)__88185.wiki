@@ -1,0 +1,36 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_若獣の化身・重装
+|weaponType=Beast
+|might=6
+|range=1
+|effect=At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and unit can counterattack regardless of foe's range.
+|cost=100
+|exclusive=0
+|canUseMove=Armored
+|statModifiers=0,6,0,0,0
+|next=Adult (Armored)
+|promotionRarity=4
+|promotionTier=1
+|required=Whelp (Armored)
+|properties=random_all
+}}
+==Notes==
+{{Beast (Armored)}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=若獣の化身・重装
+|german=Jährling (Gep.)
+|spanishEU=Fiera joven feroz
+|spanishLA=Fiera joven feroz
+|french=Jeune (armure)
+|italian=Giovane (corazz.)
+|chineseTW=若獸化身・重裝
+|portuguese=Jovem (armad.)
+}}
+==See also==
+{{See also skills|cond=Next LIKE 'Adult%'}}
+{{Weapons Navbox}}

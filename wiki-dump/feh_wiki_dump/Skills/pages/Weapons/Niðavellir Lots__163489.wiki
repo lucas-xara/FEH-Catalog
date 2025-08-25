@@ -1,0 +1,40 @@
+{{Weapon Infobox
+|tagid=SID_ニザヴェリルの箱
+|intID=2894
+|image=wep_mg167
+|exclusive=1
+|weaponType=Blue Tome
+|cost=400
+|might=14
+|range=2
+|effect=Grants Atk+3. Enables【Canto (２)】during turns 1 through 4. At the start of turn 4, grants Special cooldown count-3 to unit. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+6 to unit during combat.<br><br>【Canto (２)】<br>After an attack, Assist skill, or structure destruction, unit can move ２ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|statModifiers=0,17,0,0,0
+|required=Thoron;Shine
+|properties=
+}}
+==Notes==
+{{Canto|2}}
+{{Start of turn Special modification}}
+{{Combat boosts}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V6.0_211204_newyear_Mag.webp|Sprite sheet for Niðavellir Lots' animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=ニザヴェリルの箱
+|german=Niðavellir-Orakel
+|spanishEU=Fortuna Niðavellir
+|spanishLA=Fortuna Niðavellir
+|french=Destin Niðavellir
+|italian=Sorte Niðavellir
+|chineseTW=尼德威阿爾之箱
+|portuguese=Fortuna Niðavellir
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%【Canto (２)】%' OR Description LIKE '%Enables【Canto (_)】during turns 1 through 4%' OR Description LIKE '%if unit_s HP ≥%Atk/Spd+% during combat%'|columns=3|limit=15}}
+{{Weapons Navbox}}

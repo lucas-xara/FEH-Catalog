@@ -1,0 +1,48 @@
+{{Weapon Infobox
+|tagid=SID_愛の祭器
+|weaponType=Axe
+|might=16
+|range=1
+|effect=Grants Spd+3. At start of combat, if a bonus granted by a skill like Rally or Hone is active on unit or if unit's HP ≥ 70%, grants bonus to unit's Atk = 25% of foe's Def and inflicts penalty on foe's Atk = 25% of foe's Res during combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,3,0,0
+|required=Silver Axe
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Spd+3. At start of combat, if【Bonus】 is active on unit or if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit, grants bonus to unit's Atk/Spd during combat = 25% of foe's Def at start of combat, and inflicts penalty on foe's Atk/Def during combat = 25% of foe's Res at start of combat.<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|effectSkill1=If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+4 to unit, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.), and neutralizes effects that grant "Special cooldown charge +X" to foe or inflict "Special cooldown charge -X" on unit during combat.
+|properties=
+}}
+==Notes==
+{{TemporaryBufffromBonus}}
+{{TemporaryDebufffromBonus}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{EffectfromBonus|effect=temporary buffs and temporary debuffs|name=refined Scepter of Love}}
+{{At start of combat}}
+{{IfUnitInitiates}}
+{{Bonus neutralization|name={{St|Scepter of Love|refine=Skill1}}}}
+{{CooldownChargePlusNeutralization|name={{St|Scepter of Love|refine=Skill1}}}}
+{{CooldownChargeMinusNeutralization|name={{St|Scepter of Love|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Scepter of Love
+|japanese=愛の祭器
+|german=Zepter der Liebe
+|spanishEU=Cetro del amor
+|spanishLA=Cetro del amor
+|french=Hache adorée
+|italian=Scettro del cuore
+|chineseTW=愛之祭器
+|portuguese=Cetro do amor
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%grants bonus to unit_s%=%of foe_s%' AND Description NOT LIKE '%if foe_s Range = 2%' OR Description LIKE '%inflicts penalty on foe_s%=%of foe_s%' OR Description LIKE '%grant "Special cooldown charge +X"%inflict "Special cooldown charge -X" on unit%' AND Description NOT LIKE '%transforms%+7 damage%') AND Exclusive='1'}}
+* [[Skill families/C Passives#Tempo|Tempo Passives]]
+{{Weapons Navbox}}

@@ -1,0 +1,71 @@
+{{Weapon Infobox
+|tagid=SID_創世の文字の力
+|intID=4458
+|image=wep_mg334
+|exclusive=1
+|weaponType=Colorless Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>At start of player phase or enemy phase, if unit is within 2 spaces of an ally, grants【Empathy】 and "unit can move to a space adjacent to any ally within 2 spaces" to unit and allies within 2 spaces of unit for 1 turn.<br><br>If unit initiates combat or is within 2 spaces of an ally, grants bonus to unit's Atk/Spd/Def/Res = number of allies within 3 rows or 3 columns centered on unit × 3, + 5 (max 14), neutralizes unit's penalties, deals +X damage (X = number of【Bonus】effects active on unit and foe, excluding stat bonuses, × 5; max 25; excluding area-of-effect Specials), and neutralizes effects that inflict "Special cooldown charge -X" on unit during combat.<br><br>【Empathy】<br>Grants bonus to unit's Atk/Spd/Def/Res = number of types of【Bonus】effects, excluding stat bonuses, and【Penalty】effects, excluding stat penalties, active on player team and enemy team during combat (max 7).<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|required=Atlas (weapon)
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Se1={{SEt|Empathy}}
+|Se2={{SEt|Air Orders}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=At start of both Phases<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|3 x {{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}, + 5|max=14}}
+|Ce2={{Eft|Neutralize Penalties}}
+|Ce3={{Eft|Damage Boost|5 x {{Kp|Bonus}} effects<br>on {{Tgt|Unit}} & {{Tgt|Foe}}<br>(exc. {{SEt|bonuses}})|max=25}}
+|Ce4={{Eft|Neutralize Guard}}
+|CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+==Notes==
+{{Empathy}}
+{{Air Orders}}
+{{IfUnitAttacked}}
+{{Temporary buffs}}
+{{Penalty neutralization}}
+{{FlatDamageBoost|X (max: 25)}}
+{{EffectfromBonus|damage boost|target=unit and foe|nonStat=1}}
+{{CooldownChargeMinusNeutralization}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Rune: Source of Wisdom|t=Alfonse: Prince of Askr
+|---xxx---
+|---xxx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xtx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V9.0_v0900a_asgard_Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Empathy】%' OR Description LIKE '%number of%【Bonus】%effects active on unit and foe%' OR Description LIKE '%deals +X damage% × %max%') AND Exclusive='1'}}
+{{Weapons Navbox}}

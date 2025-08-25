@@ -1,0 +1,56 @@
+{{Passive
+|type=C
+|exclusive=0
+|1name=Ward Beasts
+|1tagid=SID_獣盾の紋章
+|1effect=Grants Def/Res+4 to beast allies within 2 spaces during combat.
+|1cost=200
+|1required=Spur Def 2;Spur Res 2
+|canUseWeapon={{WeaponList|Beast}}
+|canUseMove={{MoveList|all}}
+|properties=random_all
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{SkillEffectText|Temporary buffs|Def/Res|4}}
+|CombatEffect 1 Targets={{Cwtt|group=1|Beast}} {{SkillTargetText|Allies}}<br>[[within 2 spaces]]
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{AlliesCombatEffect|effect=temporary buffs}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Ward Beasts
+|badgeColor=Transparent
+|costs1=20;100;40
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=獣盾の紋章
+|german=Bestienbund
+|spanishEU=Muro bestial
+|spanishLA=Muro bestial
+|french=Vigilance (Bêtes)
+|italian=Difesa bestie
+|chineseTW=獸盾紋章
+|portuguese=Feras zelosas
+}}
+
+==See also==
+* [[Drive Passives]]
+* [[Goad Passives]]
+* [[Ward Passives]]
+{{Seals Navbox}}
+{{Passives Navbox|C}}
+[[Category:Ward Passives]]

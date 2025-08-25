@@ -1,0 +1,51 @@
+{{Weapon Infobox
+|tagid=SID_弓騎士の名弓
+|weaponType=Bow
+|might=9
+|range=2
+|effectiveness=flying
+|effect=Effective against flying foes. Inflicts Spd-5. If unit initiates combat, unit attacks twice.
+|cost=400
+|exclusive=1
+|userVersion1=Bow
+|userVersion2=Arrow
+|userVersion3=Gleam
+|statModifiers=0,8,-5,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=Inflicts Atk/Def-4 on foes within 2 spaces during combat.
+|iconSkill1=Renowned Bow W.png
+|tagidExtraSkill1=周
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{IfUnitInitiates}}
+{{Brave weapon interaction}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+* The refined version listed first has the same effect as {{St|Atk/Def Rein 3}}.
+{{Combat reductions}}
+{{FoesCombatEffect|effect=combat reduction}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|周囲弱化R攻守4|Surroundings Weakening R Atk/Def 4}}
+==In other languages==
+{{OtherLanguages
+|japanese=弓騎士の名弓
+|german=Bogen d. Ruhms
+|spanishEU=Arco laureado
+|spanishLA=Arco laureado
+|french=Arc de renom
+|italian=Arco rinomato
+|chineseTW=弓騎士的名弓
+|portuguese=Arco renomado
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%inflicts Spd-5%if unit initiates combat%attacks twice%' OR Description LIKE '%inflicts Atk/Def-%foes within _ spaces during combat%') AND Exclusive='1'|columns=3}}
+{{Weapons Navbox}}

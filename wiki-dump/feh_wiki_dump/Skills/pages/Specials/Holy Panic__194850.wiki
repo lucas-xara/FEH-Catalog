@@ -1,0 +1,51 @@
+{{Special
+|tagid=SID_恐慌の聖光
+|intID=3602
+|exclusive=0
+|canUseWeapon={{WeaponList|Colorless Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=2
+|effect=If an Assist skill is used, unit's Special cooldown count does not go down. When Special triggers, boosts damage by 25% of foe's Res. (Calculates damage from staff after combat damage is added.) If Special is triggered during combat, inflicts Atk/Spd-6 and【Panic】on target and foes within 2 spaces of target after combat.<br><br>【Panic】<br>Converts bonuses on target into penalties through its next action.
+|required=Miracle
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|No Special cooldown charge}}
+|Ce1C={{Tgt|Unit}} uses<br>an Assist skill
+|Ce2={{Eft|Damage Boost|25% of {{Tgt|Foe}}'s Res}}
+|Ce2C=Special triggers
+|Se1={{Eft|Penalties|Atk/Spd|6}}
+|Se2={{SEt|Panic}}
+|SeT={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|SeC=After combat if<br>Special triggers
+}}
+==Notes==
+{{DamageBoost}}
+{{After combat note}}
+{{Penalties}}
+{{Panic}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=恐慌の聖光
+|japaneseNotes=<i>Holy Light of Panic</i>
+|german=Heilige Panik
+|spanishEU=Pánico sagrado
+|spanishLA=Pánico sagrado
+|french=Panique sacrée
+|italian=Panico divino
+|chineseTW=恐慌的聖光
+|portuguese=Pânico sagrado
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%deals damage =%\% of foe_s Res%' OR Description LIKE '%boosts damage by %\% of foe_s Res%'}}
+* [[Holy Light Specials]]
+{{Specials Navbox}}
+[[Category:Holy Light Specials]]

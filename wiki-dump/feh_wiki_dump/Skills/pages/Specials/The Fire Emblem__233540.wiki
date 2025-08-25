@@ -1,0 +1,54 @@
+{{About|the [[Special]] skill The Fire Emblem|other uses|Fire Emblem (Disambiguation)}}
+{{Special
+|tagid=SID_真炎の紋章
+|intID=4690
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=2
+|effect=Boosts damage by 40% of unit's Spd when Special triggers.<br><br>At start of player phase or enemy phase, if unit is within 2 spaces of an ally, grants Atk/Spd/Def/Res+7,【Fire Emblem】, and 【Null Panic】to unit and allies within 2 spaces of unit for 1 turn.<br><br>Reduces damage from foe's attacks by X% during combat (excluding area-of effect Specials; X = number of allies on the map with the【Fire Emblem】effect active, including unit, × 10; max 40%).<br><br>Unit can counterattack regardless of foe's range.<br><br>【Fire Emblem】<br>Neutralizes "effective against" bonuses for all movement types.<br><br>Grants bonus to unit's Atk/Spd/Def/Res = highest bonus on each stat between unit and allies within 2 spaces of unit (calculates each stat bonus independently) and reduces damage from foe's first attack by 10 during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes).<br><br>【Null Panic】<br>If unit is inflicted with Panic (bonuses converted into penalties), neutralizes the "converts bonuses on target into penalties" effect for 1 turn. (Even though the effect is neutralized, the Panic status remains, and is treated as a Penalty status.)
+|required=Draconic Aura
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{Eft|Bonuses|Atk/Spd/Def/Res|7}}
+|Se2={{SEt|Fire Emblem}}
+|Se3={{SEt|Null Panic}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=At start of both Phases<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce1={{Eft|Damage Boost|40% of {{Tgt|Unit}}'s Spd}}
+|Ce1C=Special triggers
+|Ce2={{Eft|Damage Reduction|percent=1|10 x {{Tgt|Allies}} with {{SEt|Fire Emblem}}<br>(including {{Tgt|Unit}})|max=40%}} from {{Tgt|Foe}}'s attacks
+|Ce3={{Eft|Distant Counter}}
+}}
+
+==Notes==
+* The Fire Emblem has the same effect as {{St|Distant Counter}}.
+{{DamageBoost}}
+{{Bonuses}}
+{{Fire Emblem}}
+{{Null Panic}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=El sello de llamas
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+
+==See also==
+{{See also skills|cond=(Description LIKE '%【Fire Emblem】%' OR Description LIKE '%number of allies% with the % effect %' AND Description NOT LIKE '%【Dagger%】%' AND Description NOT LIKE '%【Divinely Inspiring】%' AND Description NOT LIKE '%allies with HP%' AND Description NOT LIKE '% ___ ≥ __ %' OR SCategory='special' AND Description LIKE '%at start of%grants Atk/Spd/Def/Res+%') AND Exclusive='1' OR Description LIKE '%counterattack regardless of%range%' AND (SCategory!='Weapon' AND Name NOT LIKE 'Distant%' AND Name NOT LIKE 'Close%') AND (Exclusive='1' OR SCategory='captain')}}
+* [[Counter Passives]]
+* [[Counter Seals]]
+* [[Weapons with Distant Counter]]
+* [[Weapons with Close Counter]]
+{{Specials Navbox}}

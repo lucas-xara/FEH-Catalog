@@ -1,0 +1,48 @@
+{{Passive
+|name=Spd/Def Unity
+|type=A
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Spd/Def Unity
+|alt1name=Spd Def Unity
+|1tagid=SID_速さ守備の連帯4
+|1effect=If unit is within 2 spaces of an ally, grants Spd/Def+5 and bonus to Spd/Def during combat = current penalty on each of those stats × 2. (Example: if unit has -7 penalty to Spd, grants Spd+19, for a net bonus of Spd+12.) Calculates each stat bonus independently.
+|1cost=300
+|1required=Spd/Def Bond 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary buffs|Spd/Def|5}}
+|Ce2={{Eft|Temporary buffs|Spd/Def|2 x {{SEt|penalties}} on<br>each of {{Tgt|Unit}}'s stats}}
+|CeC=An {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+==Notes==
+{{TemporaryBufffromPenalty|source=the unit|ptySource=the unit}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Spd/Def Unity
+|japanese=速さ守備の連帯
+|german=Ges./Ver.-Bündnis
+|spanishEU=Alianza Vel/Def
+|spanishLA=Alianza Vel./Def.
+|french=Unité Vit/Déf
+|italian=Coesione Vel/Dif
+|chineseTW=速度防守的連帶
+|portuguese=Aliança Vel./Def.
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%Example: if unit has -%penalty to%, grants%, for a net bonus of%' AND Exclusive='1'}}
+* [[Skill families/A Passives#Unity|Unity Passives]]
+{{Passives Navbox|A}}
+[[Category:Unity Passives]]
+[[Category:Bond Passives]]

@@ -1,0 +1,59 @@
+{{SkillPage Tabs}}{{Passive
+|name=Odd Atk Wave
+|type=C
+|exclusive=0
+|1name=Odd Atk Wave 1
+|1tagid=SID_攻撃の波・奇数1
+|1promotionRarity=4
+|1promotionTier=1
+|1effect=At start of odd-numbered turns, grants Atk+2 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)
+|1required=-
+|1cost=60
+|2name=Odd Atk Wave 2
+|2tagid=SID_攻撃の波・奇数2
+|2promotionRarity=5
+|2promotionTier=1
+|2effect=At start of odd-numbered turns, grants Atk+4 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)
+|2cost=120
+|3name=Odd Atk Wave 3
+|3tagid=SID_攻撃の波・奇数3
+|3effect=At start of odd-numbered turns, grants Atk+6 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)
+|3cost=240
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|properties=random_inherit_base,random_all
+}}
+==Notes==
+{{Bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Odd Atk Wave 1;Odd Atk Wave 2;Odd Atk Wave 3
+|badgeColor=Scarlet
+|costs1=20;100;20
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=攻撃の波・奇数
+|german=Ungrader Angr.
+|spanishEU=Ola Ata impar
+|spanishLA=Ola Atq. impar
+|french=Impair Atq
+|italian=Att dispari
+|chineseTW=攻擊之波・奇數
+|portuguese=Onda Atq. ímp.
+}}
+{{Passives Navbox|C}}
+[[Category:Odd Wave Passives]]
+[[Category:Wave Passives]]
+{{Seals Navbox}}

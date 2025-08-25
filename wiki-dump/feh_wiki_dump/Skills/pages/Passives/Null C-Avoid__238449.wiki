@@ -1,0 +1,52 @@
+{{Passive
+|name=Null C-Avoid
+|type=B
+|exclusive=0
+|canUseWeapon={{WeaponList|Melee}}
+|canUseMove={{MoveList|Infantry}}
+|properties=random_owner
+|1name=Null C-Avoid
+|1tagid=SID_真回避・見切り反撃
+|1effect=If a skill compares unit's Spd to a foe's or ally's Spd, treats unit's Spd as if granted +7.<br><br>Reduces damage from area-of-effect Specials by 80% (excluding Røkkr area-of-effect Specials).<br><br>Inflicts Atk/Spd-4 on foe, deals damage = difference between Spd stats + 5 (max 15; excluding area-of-effect Specials; if unit's Spd < foe's Spd, treats Spd difference as 0), reduces damage from foe's attacks by 20% of unit's Spd (excluding area-of-effect Specials), and neutralizes effects that prevent unit's counterattacks during combat.
+|1cost=300
+|1required=Velocity 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Damage Reduction|80%}}<br>from Non-Røkkr [[AoE Specials]]
+|Ce1={{Eft|Phantom|Spd|7}}
+|Ce2={{Eft|Temporary debuffs|Atk/Spd|4}}
+|Ce2T={{Tgt|Foe}}
+|Ce3={{Eft|Damage Boost|({{Tgt|Unit}}'s Spd<br>- {{Tgt|Foe}}'s Spd) +5|max=15|min=5}}
+|Ce4={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Spd}}<br>from {{Tgt|Foe}}'s attacks
+|Ce5={{Eft|Neutralize Prevent Counter}}
+}}
+==Notes==
+{{Phantom|Spd}}
+{{AoEDamageReduction}}
+{{Temporary debuffs}}
+{{FlatDamageBoost|X (min: 5; max: 15)}}
+{{FlatDamageReduction}}
+{{Prevent counter neutralization}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%neutralizes effects that prevent unit_s counterattacks%' AND Exclusive='1'}}
+* [[Phantom Passives]]
+* [[Null Passives]]
+{{Passives Navbox|B}}

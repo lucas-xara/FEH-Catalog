@@ -1,0 +1,55 @@
+{{Passive
+|type=C
+|exclusive=0
+|1name=Hone Beasts
+|1tagid=SID_獣刃の鼓舞
+|1effect=At start of turn, grants Atk/Spd+6 to adjacent beast allies for 1 turn.
+|1cost=200
+|1required=Hone Atk 2;Hone Spd 2
+|canUseWeapon={{WeaponList|Beast}}
+|canUseMove={{MoveList|all}}
+|properties=random_all
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|StatusEffect={{SkillEffectText|Bonuses|Atk/Spd|6}}
+|StatusEffect Targets=[[Adjacent]] {{Cwtt|group=1|Beast}}<br>{{SkillTargetText|Allies}}
+|StatusEffect Conditions=At start of turn
+}}
+
+==Notes==
+{{Bonuses}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Hone Beasts
+|badgeColor=Scarlet
+|costs1=20;100;40
+}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=獣刃の鼓舞
+|german=Bestien verb.
+|spanishEU=Oleada bestial
+|spanishLA=Oleada bestial
+|french=Élan (Bêtes)
+|italian=Incita bestie
+|chineseTW=獸刃鼓舞
+|portuguese=Feras elevadas
+}}
+==See also==
+* [[Hone Passives]]
+* [[Fortify Passives]]
+{{Seals Navbox}}
+{{Passives Navbox|C}}
+[[Category:Hone Passives]]

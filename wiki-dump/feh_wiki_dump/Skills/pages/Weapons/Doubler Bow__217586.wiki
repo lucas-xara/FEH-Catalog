@@ -1,0 +1,54 @@
+{{Weapon Infobox
+|tagid=SID_強化増幅の弓
+|intID=4182
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=0
+|weaponType=Bow
+|cost=200
+|might=8
+|range=2
+|effectiveness=Flying
+|effect=Effective against flying foes.<br><br>At start of turn, if unit is within 2 spaces of an ally, grants Atk/Res+6 to unit and allies within 2 spaces of unit for 1 turn.<br><br>If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+X to unit during combat (X = 4 + highest bonus on each stat between unit and allies within 2 spaces of unit; calculates each stat bonus independently).
+|required=Steel Bow
+|next=Doubler Bow+
+|promotionRarity=5
+|promotionTier=1
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se={{Eft|Bonuses|Atk/Res|6}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=At start of turn
+|Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|4 + highest {{SEt|Bonus}}<br>on {{Tgt|Unit}} & {{Tgt|Allies}}<br>[[within 2 spaces]]}}
+|Ce2C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+
+==Notes==
+{{Effective damage bonus|Flying}}
+{{Bonuses}}
+{{IfUnitInitiates}}
+{{TemporaryBufffromBonus|multiSource=1|source=unit or allies with the highest bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=強化増幅の弓
+|german=Dopplerbogen
+|spanishEU=Arco duplo
+|spanishLA=Arco duplo
+|french=Arc amplification
+|italian=Arco aumentato
+|chineseTW=強化增幅之弓
+|portuguese=Arco duplicador
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%Atk/Spd/Def/Res%=%highest bonus on%allies%within _ spaces%' AND Exclusive='1' AND Description NOT LIKE '%grants allies within _ spaces%' AND Name NOT LIKE 'Doubler%+'}}
+* [[Skill families/Weapons#Doubler|Doubler Weapons]]
+{{Weapons Navbox}}

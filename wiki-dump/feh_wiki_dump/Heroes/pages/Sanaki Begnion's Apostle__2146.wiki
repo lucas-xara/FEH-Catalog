@@ -1,0 +1,71 @@
+{{#invoke:NameAbout|main|Name=Sanaki}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Sanaki
+|Title=Begnion's Apostle
+|GrowthModifier=None
+|WeaponType=Red Tome
+|Origin=Fire Emblem: Radiant Dawn
+|Gender=Female
+|MoveType=Infantry
+|actorEN=Erin Fitzgerald 
+|actorJP=中原麻衣
+|artist=富岡二郎
+|releaseDate=February 27, 2017
+|poolDate=March 14, 2017
+|randomStartTime=2017-03-16T07:00:00Z
+|poolRarities=5
+|TagID=サナキ
+|InternalID=103
+|cv1=9
+|cv2=900100
+|description=Empress of Begnion. Known as the Apostle, voice of the goddess. Young but dutiful ruler. Appears in Fire Emblem: Radiant Dawn.
+|Properties=specRate_201904,resplendent,embla
+|resplendentArtist=山田孝太郎
+|resplendentActorEN=Sara Cravens
+|resplendentStartTime=2020-05-25T07:00:00Z
+|resplendentEndTime=2020-06-10T06:59:59Z
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=9|Lv1SPD=7|Lv1DEF=4|Lv1RES=8
+|GRHP=40|GRATK=65|GRSPD=45|GRDEF=30|GRRES=60
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elfire
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Bolganone
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Cymbeline
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Harsh Command
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Triangle Adept 1
+|passiveA2=Triangle Adept 2
+|passiveA3=Triangle Adept 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Hone Atk 1
+|passiveC2=Hone Atk 2
+|passiveC3=Hone Atk 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

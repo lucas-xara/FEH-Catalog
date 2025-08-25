@@ -1,0 +1,83 @@
+{{Weapon Infobox
+|tagid=SID_虚ろな槍
+|weaponName=Bereft Lance
+|image=wep_lc102
+|weaponType=Lance
+|might=16
+|range=1
+|effect=Grants Def+3. Grants Atk/Def+X during combat. (Calculates X based on number of allies within 2 spaces of unit: 0 allies grants +6; 1 ally grants +4; 2 allies grants +2; ≥3 allies grants +0.) If the number of allies within 2 spaces is ≤ 1, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,3,0
+|required=Silver Lance
+|intID=2548
+|sort=537
+|effectRange=2
+|value=20
+|timingID=1
+|abilityID=151
+|randomTimestamp=2021-06-07T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Def+3. Grants Atk/Spd/Def/Res+X to unit (calculates X based on number of allies adjacent to unit: 0 allies grants +10; 1 ally grants +8; 2 allies grants +6; ≥3 allies grants +4), neutralizes foe's bonuses, and reduces damage from foe's attacks by 20% of unit's Def during combat (excluding area-of-effect Specials).
+|refineStatsSkill1=3,0,0,0,0
+|effectSkill1=At start of turn, if unit's HP ≥ 25%, inflicts Atk/Def-7 and【Exposure】on closest foes and any foes within 2 spaces of those foes through their next actions.<br><br>At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit and unit makes a guaranteed follow-up attack during combat, and restores 7 HP to unit after combat.<br><br>【Exposure】<br>Foe's attacks deal +10 damage.
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Def|3}}
+|s1 Ce1={{Eft|Temporary buffs|Atk/Def|6 - (2 x {{Tgt|Allies}}<br>[[within 2 spaces]])|min=0}}
+|s1 Ce2={{Eft|Neutralize Bonuses}}
+|s1 Ce2T={{Tgt|Foe}}
+|s1 Ce2C={{Tgt|Allies}}<br>[[within 2 spaces|within<br>2 spaces]] ≤ 1
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Def|3}}
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|10 - (2 x [[Adjacent]]<br>{{Tgt|Allies}})|min=0}}
+|s2 Ce2={{Eft|Neutralize Bonuses}}
+|s2 Ce2T={{Tgt|Foe}}
+|s2 Ce3={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Def}}<br>from {{Tgt|Foe}}'s attacks
+|skill3={{Si|Bereft Lance|refine=Skill1}} Skill refine effects
+|s3 Se1={{Eft|Penalties|Atk/Def|7}}
+|s3 Se2={{SEt|Exposure}}
+|s3 SeT=Closest {{Tgt|Foes}}<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}
+|s3 SeC=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25%
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s3 Ce2={{Eft|Guaranteed Follow-Ups}}
+|s3 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s3 Me={{Eft|Heal|7}}
+|s3 MeC=After combat if<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{Bonus neutralization}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{FlatDamageReduction}}
+{{Penalties|name={{St|Bereft Lance|refine=Skill1}}}}
+{{Exposure|name={{St|Bereft Lance|refine=Skill1}}}}
+{{Guaranteed follow-up interaction|name={{St|Bereft Lance|refine=Skill1}}}}
+{{After combat healing|name={{St|Bereft Lance|refine=Skill1}}}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=虚ろな槍
+|german=Lanze der Trauer
+|spanishEU=Lanza de luto
+|spanishLA=Lanza de luto
+|french=Lance endeuillée
+|italian=Lancia del lutto
+|chineseTW=虛無之槍
+|portuguese=Lança de luto
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%number of allies within 2 spaces is ≤ 1%' OR Description LIKE '%at start of turn%【Exposure】%est foes%'}}
+{{Weapons Navbox}}

@@ -1,0 +1,95 @@
+{{Weapon Infobox
+|tagid=SID_生存本能の弓
+|weaponName=Survivalist Bow
+|weaponType=Bow
+|might=14
+|range=2
+|effectiveness=Flying
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br>Effective against flying foes. If unit is not adjacent to an ally, grants Atk/Spd+6 during combat, and also, if foe's HP ≥ 80% at start of combat, foe cannot counterattack.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,0,0,0
+|userVersion1=Bow
+|userVersion2=Arrow
+|required=Silver Bow
+|intID=2273
+|sort=459
+|value=20
+|timingID=1
+|abilityID=238
+|limit1ID=19
+|randomTimestamp=2020-11-19T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1).<br>Effective against flying foes.<br><br>If unit initiates combat or number of allies adjacent to unit ≤ 1, grants Atk/Spd+6 to unit and grants Special cooldown count-1 to unit before unit's first attack during combat, and also, if foe's HP ≥ 50% at start of combat, foe cannot counterattack.
+|refineStatsSkill1=0,0,0,0,0
+|effectSkill1=At start of turn, if unit's HP ≥ 25%, inflicts Spd/Def-7 and【Sabotage】on closest foes and foes within 2 spaces of those foes through their next actions.<br><br>At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+6 to unit, neutralizes unit's penalties to Atk/Spd, and deals damage = 20% of unit's Spd during combat (excluding area-of-effect Specials).<br><br>【Sabotage】<br>Inflicts penalty on unit's Atk/Spd/Def/Res during combat = highest penalty on each stat between unit and allies within 2 spaces of unit through its next action. Calculates each stat penalty independently.
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Accelerates Special}}
+|s1 Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|s1 Ce2={{Eft|Temporary buffs|Atk/Spd|6}}
+|s1 Ce2C=No {{Tgt|Allies}}<br>are [[adjacent]]
+|s1 Ce3={{Eft|Prevent Counter}}
+|s1 Ce3T={{Tgt|Foe}}
+|s1 Ce3C=No {{Tgt|Allies}}<br>are [[adjacent]] '''&'''<br>{{Tgt|Foe}}'s HP ≥ 80%<br>at start of combat
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Accelerates Special}}
+|s2 Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|s2 Ce2={{Eft|Temporary buffs|Atk/Spd|6}}
+|s2 Ce3={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Unit}}'s first attack
+|s2 Ce2-3C=Player Phase '''or'''<br>[[adjacent]] {{Tgt|Allies}} ≤ 1
+|s2 Ce4={{Eft|Prevent Counter}}
+|s2 Ce4T={{Tgt|Foe}}
+|s2 Ce4C=(Player Phase '''or'''<br>[[adjacent]] {{Tgt|Allies}} ≤ 1)<br>'''&''' {{Tgt|Foe}}'s HP ≥ 50%<br>at start of combat
+|skill3={{Si|Survivalist Bow|refine=Skill1}} Skill refine effects
+|s3 Se1={{Eft|Penalties|Spd/Def|7}}
+|s3 Se2={{SEt|Sabotage}}
+|s3 SeC=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25%
+|s3 SeT=Closest {{Tgt|Foes}}<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd|6}}
+|s3 Ce2={{Eft|Neutralize Penalties|Atk/Spd}}
+|s3 Ce3={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|s3 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Effective damage bonus|Flying}}
+{{Temporary buffs}}
+{{Prevent counterattacks}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfUnitInitiates}}
+{{CombatCooldownCount|-1|name=Refined Survivalist Bow}}
+{{Penalties|name={{St|Survivalist Bow|refine=Skill1}}}}
+{{Sabotage|name={{St|Survivalist Bow|refine=Skill1}}}}
+{{Penalty neutralization|name={{St|Survivalist Bow|refine=Skill1}}}}
+{{DamageBoost|name={{St|Survivalist Bow|refine=Skill1}}}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Survivalist Bow
+|japanese=生存本能の弓
+|german=Kämpferbogen
+|spanishEU=Arco resiliencia
+|spanishLA=Arco resiliencia
+|french=Arc de survie
+|italian=Sopravvivarco
+|chineseTW=生存本能之弓
+|portuguese=Arco sobrevivente
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%【Sabotage】%' AND Exclusive='1'}}
+{{Weapons Navbox}}

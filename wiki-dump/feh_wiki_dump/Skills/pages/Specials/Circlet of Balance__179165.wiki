@@ -1,0 +1,41 @@
+{{Special
+|tagid=SID_聖神と暗黒神の冠
+|intID=3225
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=2
+|effect=Boosts Special damage by 40% of unit's Res. If unit's HP > 1, foe would reduce unit's HP to 0, and both following conditions apply, unit survives with 1 HP:<br>&nbsp;&nbsp;- Unit or foe's Special is ready, or unit or<br>&nbsp;&nbsp;&nbsp;&nbsp;foe's Special triggered during this combat.<br>&nbsp;&nbsp;- Unit initiates combat or foe's Range = 2.<br>(Once per map. Considered a non-Special effect. Does not stack with non-Special effects that allow unit to survive with 1 HP if foe's attack would reduce HP to 0.)
+|required=Iceberg
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Damage Boost|40% of {{Tgt|Unit}}'s Res}}
+|CeC1=Special triggers
+|Ce2={{Eft|Miracle}}<br>(once per map)
+|CeC2={{Tgt|Unit}}'s HP > 1 '''&'''<br>({{Tgt|Unit}} or {{Tgt|Foe}}'s<br>Special is ready '''or'''<br>triggered during combat)<br>'''&''' (Player Phase '''or'''<br>{{Tgt|Foe}}'s Range = 2)
+}}
+
+==Notes==
+{{DamageBoost}}
+{{IfUnitInitiates}}
+{{TermRefersTo|group=1|1=Range = 2|2=Ranged}}
+{{Miracle|special=0}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=聖神と暗黒神の冠
+|german=Ausgewogenheit
+|spanishEU=Tiara equilibrio
+|spanishLA=Tiara equilibrio
+|french=Tiare équilibre
+|italian=Giusto equilibrio
+|chineseTW=聖神與暗黑神之冠
+|portuguese=Coroa equilíbrio
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%unit survives with 1 HP%' OR SCategory='special' AND Exclusive='1' AND Description LIKE '%Boosts%damage by __% of unit_s Res%'|columns=3}}
+{{Specials Navbox}}

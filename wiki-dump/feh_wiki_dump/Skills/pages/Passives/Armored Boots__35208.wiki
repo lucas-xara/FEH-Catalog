@@ -1,0 +1,39 @@
+{{Passive
+|type=S
+|exclusive=0
+|1name=Armored Boots
+|1tagid=SID_重装のブーツ
+|1required=-
+|1effect=At start of turn, if unit's HP = 100%, unit can move 1 extra space. (That turn only. Does not stack.)
+|1cost=100
+|canUseWeapon={{WeaponList|all}}
+|canUseMove=Armored
+|properties=
+}}
+==Notes==
+* Since armored units are not slowed by forests, the extra space granted by Armored Boots can be used to enter, or cross forest [[terrain]].
+{{Mobility increased}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Armored Boots
+|badgeColor=Transparent
+|costs1=20;100;40
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=重装のブーツ
+|german=Panzerstiefel
+|spanishEU=Botas blindadas
+|spanishLA=Botas acorazadas
+|french=Bottes blindées
+|italian=Stivali corazzati
+|chineseTW=重裝之靴
+|portuguese=Botas blindadas
+}}
+==See also==
+* [[Armor March]]
+* [[Armored Stride]]
+{{Seals Navbox}}

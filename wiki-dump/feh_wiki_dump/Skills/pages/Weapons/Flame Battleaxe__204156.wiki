@@ -1,0 +1,81 @@
+{{Weapon Infobox
+|tagid=SID_炎帝の烈斧
+|intID=3846
+|image=wep_ax140
+|exclusive=1
+|weaponType=Axe
+|cost=400
+|might=16
+|range=1
+|effect=At start of combat, if unit's HP ≥ 25%, inflicts Atk/Def-X on foe during combat (X = 15 - foe's max Special cooldown count value × 2; min 7; if foe does not have a Special skill, penalty = 7) and inflicts Special cooldown charge -1 on foe per attack during combat (only highest value applied; does not stack).
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=At start of turn, inflicts Atk-7 and【Sabotage】 on foes within 3 rows or 3 columns centered on unit through their next actions. If foe initiates combat or foe's HP ≥ 75% at start of combat, inflicts Atk/Def-5 on foe and unit makes a guaranteed follow-up attack during combat.<br><br>【Sabotage】<br>Inflicts penalty on unit's Atk/Spd/Def/Res during combat = highest penalty on each stat between unit and allies within 2 spaces of unit through its next action. Calculates each stat penalty independently.
+|properties=
+}}
+
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|skill1 CombatEffect 1={{Eft|Temporary debuffs|Atk/Def|15 - {{Tgt|Foe}}'s<br>max CD count x 2|min=7}}
+|skill1 CombatEffect 2={{Eft|Slow Charge}}
+|skill1 CombatEffect Targets={{Tgt|Foe}}
+|skill1 CombatEffect Conditions={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|skill2={{Si|Flame Battleaxe|refine=Skill1}} Skill refine effects
+|skill2 StatusEffect 1={{Eft|Penalties|Atk|7}}
+|skill2 StatusEffect 2={{SEt|Sabotage}}
+|skill2 StatusEffect Targets={{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|skill2 StatusEffect Conditions=At start of turn
+|skill2 CombatEffect 1={{Eft|Temporary debuffs|Atk/Def|5}}
+|skill2 CombatEffect 1 Targets={{Tgt|Foe}}
+|skill2 CombatEffect 2={{Eft|Guaranteed Follow-ups}}
+|skill2 CombatEffect Conditions=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+}}
+
+==Notes==
+{{Temporary debuffs}}
+{{CooldownChargeMinus}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Penalties|name={{St|Flame Battleaxe|refine=Skill1}}}}
+{{Sabotage|name={{St|Flame Battleaxe|refine=Skill1}}}}
+{{IfFoeInitiates}}
+{{Guaranteed follow-up interaction|name={{St|Flame Battleaxe|refine=Skill1}}}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Flame Emperor: Bringer of War|t=Rhea: Loving Matriarch
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=炎帝の烈斧
+|german=Flammenaxt
+|spanishEU=Hacha de fuego
+|spanishLA=Hacha de fuego
+|french=Hache de feu
+|italian=Ascia fiammante
+|chineseTW=炎帝的烈斧
+|portuguese=Machado de fogo
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%at start of turn%columns%' AND Description NOT LIKE '%at start of turn%grant%unit and allies%' OR Description LIKE '%【Sabotage】%') AND Exclusive='1' OR Description LIKE '%=%foe_s max special cooldown count%'}}
+* [[Sabotage Passives]]
+{{Weapons Navbox}}

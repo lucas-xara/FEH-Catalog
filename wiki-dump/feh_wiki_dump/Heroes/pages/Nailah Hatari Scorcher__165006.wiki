@@ -1,0 +1,71 @@
+{{#invoke:NameAbout|main|Name=Nailah}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Nailah
+|Title=Hatari Scorcher
+|WeaponType=Red Beast
+|MoveType=Infantry
+|Origin=Fire Emblem: Radiant Dawn
+|Gender=Female
+|actorEN=Rachel Robinson
+|actorJP=斎賀みつき
+|artist=Azusa
+|additionDate=January 17, 2022
+|releaseDate=January 17, 2022
+|cv1=9
+|cv2=820100
+|TagID=ハタリニケ
+|InternalID=762
+|Properties=special,specRate_202502
+|description=Queen of Hatari, a desert kingdom. Holding one of Hatari's traditional festivals in Askr for a bit of fun. Appears in Fire Emblem: Radiant Dawn.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=9|Lv1SPD=10|Lv1DEF=11|Lv1RES=6
+|GRHP=50|GRATK=70|GRSPD=75|GRDEF=55|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Whelp (Infantry)
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Yearling (Infantry)
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Adult (Infantry)
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Royal Hatari Fang
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Death Blow 1
+|passiveA2=Sturdy Blow 1
+|passiveA3=Sturdy Blow 2
+|passiveA4=Sturdy Surge
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Lull Spd/Def 1
+|passiveB2=Lull Spd/Def 2
+|passiveB3=Lull Spd/Def 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Glare
+|passiveC1Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Desert Festival units]]

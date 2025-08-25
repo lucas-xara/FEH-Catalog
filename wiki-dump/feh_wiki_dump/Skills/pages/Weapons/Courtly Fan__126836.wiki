@@ -1,0 +1,46 @@
+{{Weapon Infobox
+|tagid=SID_高貴な扇
+|image=wep_dg049
+|weaponType=Dagger
+|might=8
+|range=2
+|effect=If unit initiates combat, grants Atk/Spd+5 during combat and neutralizes effects that prevent unit's follow-up attacks during combat.<br>Effect:【Dagger ５】<br><br>【Dagger ５】<br>After combat, if unit attacked, inflicts Def/Res-５ on target and foes within 2 spaces of target through their next actions.
+|cost=200
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|required=Steel Dagger
+|next=Courtly Fan+
+|promotionRarity=5
+|promotionTier=1
+|intID=2212
+|sort=85100
+|value=11
+|timingID=1
+|abilityID=181
+|limit1ID=1
+|properties=
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Follow-up effect neutralization|preventOnly=1}}
+{{IfUnitAttacked}}
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Courtly Fan
+|japanese=高貴な扇
+|german=Edler Fächer
+|spanishEU=Abanico áulico
+|spanishLA=Abanico real
+|french=Éventail raffiné
+|italian=Ventaglio cortese
+|chineseTW=高貴的扇子
+|portuguese=Leque de cortejo
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit initiates combat%neutralizes effects that prevent unit\'s follow-up attacks%' AND Exclusive='1'}}
+* [[Skill families/B Passives#Flow|Flow Passives]]
+{{Weapons Navbox}}

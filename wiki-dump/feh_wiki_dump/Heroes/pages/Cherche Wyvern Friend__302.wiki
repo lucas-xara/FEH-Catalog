@@ -1,0 +1,69 @@
+{{#invoke:NameAbout|main|Name=Cherche}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Cherche
+|Title=Wyvern Friend
+|GrowthModifier= None
+|WeaponType=Green Axe
+|Origin=Fire Emblem Awakening
+|Gender=Female
+|MoveType=Flying
+|actorEN=Amanda Miller
+|actorJP=高田憂希
+|artist=ワダサチコ
+|releaseDate=February 2, 2017
+|poolDate=February 2, 2017
+|randomStartTime=2017-02-02T07:00:00Z
+|poolRarities=3,4
+|TagID=セルジュ
+|InternalID=60
+|cv1=10
+|cv2=800200
+|description=Wyvern-riding fighter in Virion's noble house. Thinks her wyvern Minerva is adorable. Appears in Fire Emblem Awakening.
+}}
+{{Stats Page
+|Lv1HP=20|Lv1ATK=10|Lv1SPD=6|Lv1DEF=8|Lv1RES=3
+|GRHP=60|GRATK=65|GRSPD=45|GRDEF=55|GRRES=30
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Hammer
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Hammer+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Cherche's Axe
+|weapon5Default=
+|weapon5Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Pivot
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Attack +1
+|passiveA2=Attack +2
+|passiveA3=Attack +3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Fortify Def 1
+|passiveC2=Fortify Def 2
+|passiveC3=Fortify Def 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

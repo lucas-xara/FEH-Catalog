@@ -1,0 +1,76 @@
+{{#invoke:NameAbout|main|Name=Catria}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Catria
+|Title=Middle Whitewing
+|GrowthModifier=None
+|WeaponType=Blue Lance
+|Origin=Fire Emblem: Mystery of the Emblem
+|Gender=Female
+|MoveType=Flying
+|actorEN=Connor Kelley
+|actorJP=生天目仁美
+|artist=アマガイタロー
+|resplendentArtist=あっか
+|releaseDate=February 2, 2017
+|poolDate=February 2, 2017
+|randomStartTime=2017-02-02T07:00:00Z
+|poolRarities=3,4
+|TagID=カチュア
+|InternalID=41
+|Properties=demoted_240,resplendent,dokkalfheimr
+|cv1=1
+|cv2=400500
+|description=Middle of three sisters who are pegasus knights for Macedon. Appears in Fire Emblem: Mystery of the Emblem.
+|resplendentStartTime=2024-09-25T07:00:00Z
+|resplendentEndTime=2024-10-10T06:59:59Z
+}}
+__TOC__
+{{Stats Page|Hero=Catria: Middle Whitewing
+|Lv1HP=17|Lv1ATK=7|Lv1SPD=10|Lv1DEF=7|Lv1RES=6
+|GRHP=50|GRATK=55|GRSPD=55|GRDEF=50|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Killer Lance
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Killer Lance+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Whitewing Lance
+|weapon5Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Armored Blow 1
+|passiveA2=Armored Blow 2
+|passiveA3=Armored Blow 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=Seal Atk 1
+|passiveB2=Seal Atk 2
+|passiveB3=Seal Atk 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+{{Heroes Navbox}}

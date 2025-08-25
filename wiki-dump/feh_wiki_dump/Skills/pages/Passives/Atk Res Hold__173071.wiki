@@ -1,0 +1,45 @@
+{{Passive
+|type=C
+|name=Atk/Res Hold
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|Flying}}
+|properties=random_owner
+|1name=Atk/Res Hold
+|alt1name=Atk Res Hold
+|1tagid=SID_攻撃魔防の大牽制
+|1cost=300
+|1effect=Inflicts Atk/Res-4 on foes within 3 spaces during combat.
+|1required=Atk/Res Rein 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce={{Eft|Temporary debuffs|Atk/Res|4}}
+|CeT={{Tgt|Foes}}<br>[[within 3 spaces]]
+}}
+==Notes==
+{{Temporary debuffs}}
+{{FoesCombatEffect|effect=temporary debuffs}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Atk/Res Hold
+|japanese=攻撃魔防の大牽制
+|german=Agr./Res.-Halt
+|spanishEU=Aguante Ata/Res
+|spanishLA=Aguante Atq./Res.
+|french=Frein Atq/Rés
+|italian=Redine Att/Res
+|chineseTW=攻擊魔防大牽制
+|portuguese=Freio Atq./Res.
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%inflicts Atk/%Res-_ on foes within _ spaces during combat%' AND WikiName NOT LIKE '%Rein%' AND Exclusive='1'}}
+* [[Rein Passives]]
+* [[Skill families/C Passives#Hold|Hold Passives]]
+{{Passives Navbox|C}}

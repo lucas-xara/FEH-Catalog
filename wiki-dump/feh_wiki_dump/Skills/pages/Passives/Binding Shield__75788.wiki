@@ -1,0 +1,57 @@
+{{Passive
+|name=Binding Shield
+|type=B
+|exclusive=1
+|1name=Binding Shield
+|1tagid=SID_封印の盾
+|1cost=300
+|1effect=In combat against a dragon foe, unit makes a guaranteed follow-up attack and foe cannot counterattack or make a follow-up attack.
+|1required=-
+|1next=-
+|properties1=random_owner
+|2name=Binding Shield II
+|2tagid=SID_封印の盾・承
+|2cost=300
+|2effect=If unit's Spd ≥ foe's Spd+5 or if unit is in combat against a dragon foe, unit makes a guaranteed follow-up attack and foe cannot counterattack or make a follow-up attack.
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties2=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Binding Shield}} Binding Shield
+|s1 Ce1={{Eft|Guaranteed Follow-Ups}}
+|s1 Ce2={{Eft|Prevent Counter}}
+|s1 Ce3={{Eft|Prevent Follow-Ups}}
+|s1 Ce2-3T={{Tgt|Foe}}
+|s1 CeC={{Tgt|Foe}} is a<br>{{Cwti|Dragonstone|group=1}} [[Dragon]]
+|skill2={{Si|Binding Shield II}} Binding Shield II
+|s2 Ce1={{Eft|Guaranteed Follow-Ups}}
+|s2 Ce2={{Eft|Prevent Counter}}
+|s2 Ce3={{Eft|Prevent Follow-Ups}}
+|s2 Ce2-3T={{Tgt|Foe}}
+|s2 CeC={{Tgt|Unit}}'s Spd ≥<br>{{Tgt|Foe}}'s Spd+5<br>'''or''' {{Tgt|Foe}} is a<br>{{Cwti|Dragonstone|group=1}} [[Dragon]]
+}}
+==Notes==
+{{TermRefersTo|Dragon|Dragonstone}}
+{{Prevent counterattacks}}
+{{Prevent follow-up}}
+{{Guaranteed follow-up interaction}}
+**The counterattack prevention, follow-up prevention, and guaranteed follow-up effects trigger even if the dragon foe neutralizes [[Sources of effective against dragon foes|effective damage against dragons]] through skills such as {{St|Sublime Surge}} or the {{SEt|Neutralize Effective Against Dragons}} status effect.
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=封印の盾
+|german=Binding Shield
+|spanishEU=Escudo sellador
+|spanishLA=Escudo sellador
+|french=Écu du sceau
+|italian=Scudo dei sigilli
+|chineseTW=封印之盾
+|portuguese=Escudo do selo
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%if unit_s ___ _ foe_s ___%,%foe cannot counterattack%' AND NOT CanUseWeapon__full='Colorless Staff') AND Exclusive='1'}}
+* [[Sweep Passives]]
+{{Passives Navbox|B}}

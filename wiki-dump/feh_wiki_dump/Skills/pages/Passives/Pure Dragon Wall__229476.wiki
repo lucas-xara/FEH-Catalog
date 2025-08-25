@@ -1,0 +1,70 @@
+{{Passive
+|name=Pure Dragon Wall
+|type=B
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Pure Dragon Wall
+|1tagid=SID_正真竜鱗障壁
+|1effect=If a skill compares unit's Res to a foe's or ally's Res, treats unit's Res as if granted +5.<br><br>If unit's Res > foe's Res, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by the following percentage: if it is unit's first combat initiated by unit or first combat initiated by foe in player phase or enemy phase, percentage = difference between stats × 6 (max 60%); otherwise, percentage = difference between stats × 4 (max 40%).<br><br>Inflicts Atk/Def/Res-5 on foe, deals damage = X% of unit's Res (if it is unit's first combat initiated by unit or first combat initiated by foe in player phase or enemy phase, X = 30; otherwise, X = 20; including from area-of-effect Specials; excluding Røkkr area-of-effect Specials), reduces damage from foe's attacks by X% of unit's Res (including from area-of-effect Specials; excluding Røkkr area-of-effect Specials), and neutralizes effects that inflict "Special cooldown charge -X" on unit during combat, and also, if foe's attack can trigger foe's Special and unit's Res ≥ foe's Res+5, inflicts Special cooldown count+1 on foe (cannot exceed the foe's maximum Special cooldown) and grants Special cooldown count-1 to unit before foe's first attack during combat.<br><br>At start of turn and after combat, if dragon or beast ally is on player team or if unit is within 2 spaces of an ally, restores 10 HP to unit.
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Phantom|Res|5}}
+|Ce2={{Eft|Damage Reduction|6 x ({{Tgt|Unit}}'s Res - {{Tgt|Foe)}}'s Res)<br>from attacks '''&''' Non-Røkkr [[AoE Specials]]|percent=1|max=60%}}
+|Ce2C={{Tgt|Unit}}'s Res ><br>{{Tgt|Foe}}'s Res in<br>1<sup>st</sup> combat in<br>both Phases
+|Ce3={{Eft|Damage Reduction|4 x ({{Tgt|Unit}}'s Res - {{Tgt|Foe)}}'s Res)<br>from attacks '''&''' Non-Røkkr [[AoE Specials]]|percent=1|max=40%}}
+|Ce3C={{Tgt|Unit}}'s Res ><br>{{Tgt|Foe}}'s Res in<br>2<sup>nd</sup>+ combat in<br>both Phases
+|Ce4={{Eft|Temporary debuffs|Atk/Def/Res|5}}
+|Ce4T={{Tgt|Foe}}
+|Ce5={{Eft|Damage Boost|30% of {{Tgt|Unit}}'s Res}}<br>before '''&''' during combat
+|Ce6={{Eft|Damage Reduction|30% of {{Tgt|Unit}}'s Res}}<br>from attacks '''&''' Non-Røkkr [[AoE Specials]]
+|Ce5-6C=1<sup>st</sup> combat in<br>both Phases
+|Ce7={{Eft|Damage Boost|30% of {{Tgt|Unit}}'s Res}}<br>before '''&''' during combat
+|Ce8={{Eft|Damage Reduction|30% of {{Tgt|Unit}}'s Res}}<br>from attacks '''&''' Non-Røkkr [[AoE Specials]]
+|Ce7-8C=2<sup>nd</sup>+ combat<br>in both Phases
+|Ce9={{Eft|Neutralize Guard}}
+|Ce10={{Eft|Increase Cooldown|1}}<br>before {{Tgt|Foe}}'s first attack
+|Ce10T={{Tgt|Foe}}
+|Ce11={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Foe}}'s first attack
+|Ce10-11C={{Tgt|Foe}} has an<br>[[offensive Special]]<br>'''&''' {{Tgt|Unit}}'s Res ≥<br>{{Tgt|Foe}}'s Res+5
+|Ce11T={{Tgt|Unit}}
+|Me1={{Eft|Heal|10}}
+|Me1C=At start of turn<br>if an {{Tgt|Ally}} is<br>{{Cwti|group=1|Dragon,Beast}} [[Dragon]]/[[Beast]]<br>'''or''' is [[within 2 spaces]]
+|Me2={{Eft|Heal|10}}
+|Me2C=After combat<br>if an {{Tgt|Ally}} is<br>{{Cwti|group=1|Dragon,Beast}} [[Dragon]]/[[Beast]]<br>'''or''' is [[within 2 spaces]]
+}}
+
+==Notes==
+{{Phantom|Res}}
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+{{FirstCombat}}
+{{DamageBoost}}
+{{FlatDamageReduction}}
+{{FlatAoEDamageReduction}}
+{{CooldownChargeMinusNeutralization}}
+{{CombatCooldownCount|+1}}
+{{CombatCooldownCount|-1}}
+{{Start-of-turn healing}}
+{{After combat healing}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%if a skill compares unit_s Res to a foe_s or ally_s Res%' OR Description LIKE '%If unit_s Res > foe_s Res, reduces damage from attacks%' OR (Description LIKE '%inflicts Special cooldown count+%before%grants Special cooldown count-%' OR Description LIKE '%inflicts Special cooldown count+%grants Special cooldown count-%before%') AND Description NOT LIKE '%【Hush Spectrum】%') AND Exclusive='1'}}
+{{Passives Navbox|B}}

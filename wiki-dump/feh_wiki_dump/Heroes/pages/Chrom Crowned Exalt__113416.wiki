@@ -1,0 +1,81 @@
+{{#invoke:NameAbout|main|Name=Chrom}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Chrom
+|Title=Crowned Exalt
+|WeaponType=Blue Bow
+|Origin=Fire Emblem Awakening
+|Gender=Male
+|LegendaryEffect=Water
+|BoostHP=3
+|Duel=180
+|MoveType=Infantry
+|actorJP=杉田智和
+|actorEN=Matt Mercer
+|artist=日野慎之助
+|additionDate=February 27, 2020
+|releaseDate=February 27, 2020
+|TagID=伝承クロム
+|InternalID=492
+|Properties=legendary
+|cv1=10
+|cv2=100100
+|description=The new Exalt of the Halidom of Ylisse. Slew the Fell Dragon Grima with the aid of the friendships forged in the fires of war. Appears in Fire Emblem Awakening.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=9|Lv1SPD=7|Lv1DEF=12|Lv1RES=3
+|GRHP=55|GRATK=75|GRSPD=45|GRDEF=50|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Bow
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Randgríðr
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Reposition
+|assist1Default=4
+|assist1Unlock=3
+|assist2=To Change Fate!
+|assist2Unlock=5
+|assist3=To Change Fate! II
+|assist3Unlock=5
+}}
+
+===Specials===
+{{Specials Table
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Close Counter
+|passiveA1Unlock=5
+|passiveB1=Lull Atk/Def 1
+|passiveB2=Lull Atk/Def 2
+|passiveB3=Lull Atk/Def 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Rouse Def/Res 1
+|passiveC2=Rouse Def/Res 2
+|passiveC3=Rouse Def/Res 3
+|passiveC4=Blue Feud 1
+|passiveC5=Blue Feud 2
+|passiveC6=Blue Feud 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+|passiveC4Unlock=1
+|passiveC5Unlock=2
+|passiveC6Unlock=4
+}}
+{{Heroes Navbox}}

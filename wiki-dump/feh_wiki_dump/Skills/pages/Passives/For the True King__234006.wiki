@@ -1,0 +1,57 @@
+{{Passive
+|name=For the True King
+|type=C
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=For the True King
+|1tagid=SID_おれの、ただ一人の
+|1effect=If foe with Range = 2 initiates combat against an ally within 2 spaces of unit, triggers 【Savior】on unit.<br><br>If foe initiates combat against target ally within 4 spaces of unit, triggers【Savior】 on unit. (If support partner is on player team, target ally is any support partner; otherwise, target ally is the ally with the highest Atk on player team, excluding unit.)<br><br>Unit can move to a space within 2 spaces of target ally.<br><br>If unit is transformed or if foe initiates combat, grants Atk/Def/Res+5 to unit, unit deals +7 damage (excluding area-of-effect Specials), reduces damage from foe's attacks by 7 (excluding area-of-effect Specials), and grants Special cooldown count-1 to unit before unit's first attack during combat, and any "reduces damage by X%" effect that can be triggered only once per combat by unit's equipped Special skill can be triggered up to twice per combat (excludes boosted Special effects from engaging; only highest value applied; does not stack).<br><br>【Savior】<br>Unit takes ally's space, enters combat in ally's place, and receives all after-combat effects.<br><br>Savior will not trigger if ally is on terrain that unit cannot move to or if multiple units are able to use Savior during the same combat. If Savior triggers, after-combat movement effects do not occur.
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Savior}}
+|Me1C=Enemy Phase '''&'''<br>[[Range = 2]] {{Tgt|Foe}}<br>attacks an {{Tgt|Ally}}<br>[[within 2 spaces]]
+|Me2={{Eft|Savior}}
+|Me2C=Enemy Phase '''&'''<br>{{Tgt|Foe}} attacks<br>{{Efi|Warp}} Warp {{Tgt|Target Ally}}<br>[[within 4 spaces]]
+|Me3={{Eft|Warp|[[within 2 spaces]] of<br>({{Tgt|Partner}} '''or''' {{Tgt|Ally}}<br>with the highest Atk)}}
+|Ce1={{Eft|Temporary buffs|Atk/Def/Res|5}}
+|Ce2={{Eft|Damage Boost|7}}
+|Ce3={{Eft|Damage Reduction|7}}<br>from {{Tgt|Foe}}'s attacks
+|Ce4={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Unit}}'s first attack
+|Ce5={{Eft|Twin Special DR}}
+|CeC=Enemy Phase '''or'''<br>{{Tgt|Unit}} is transformed
+}}
+
+==Note==
+{{Savior}}
+{{Warp interaction}} 
+{{SupportPartner|effect=Savior and warp effects}}
+{{IfUnitTransforms}}
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+{{FlatDamageBoost|7}}
+{{FlatDamageReduction|7}}
+{{CombatCooldownCount|-1}}
+{{Twin Special DR}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【Savior】%' AND Exclusive='1'}}
+* [[Skill families/C Passives#Save|Save Passives]]
+{{Passives Navbox|C}}

@@ -1,0 +1,65 @@
+{{#invoke:NameAbout|main|Name=Rinkah}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Rinkah
+|Title=Consuming Flame
+|WeaponType=Red Sword
+|MoveType=Infantry
+|Origin=Fire Emblem Fates
+|Gender=Female
+|actorEN=Sara Cravens
+|actorJP=石川由依
+|artist=チーコ
+|additionDate=September 6, 2022
+|releaseDate=September 7, 2022
+|cv1=11
+|cv2=400200
+|TagID=炎部族リンカ
+|InternalID=847
+|Properties=special,hat,tiara
+|description=Daughter of the Flame Tribe chieftain, fueled by a white-hot passion for the festival burning deep within her. Appears in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=9|Lv1SPD=11|Lv1DEF=14|Lv1RES=3
+|GRHP=50|GRATK=65|GRSPD=70|GRDEF=70|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Flame Gunbai
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Flame Gunbai+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Pivot
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Ideal 1
+|passiveA2=Atk/Spd Ideal 2
+|passiveA3=Atk/Spd Ideal 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Odd Tempest 1
+|passiveC2=Odd Tempest 2
+|passiveC3=Odd Tempest 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Festival of Flames units]]

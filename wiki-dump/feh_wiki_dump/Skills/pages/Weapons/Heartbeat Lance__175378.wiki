@@ -1,0 +1,45 @@
+{{Weapon Infobox
+|tagid=SID_鎧好きの堅槍
+|intID=3129
+|image=wep_lc124
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=16
+|range=1
+|effect=At start of combat, if unit's HP ≥ 25%, inflicts Atk/Def-5 on foe during combat and foe cannot make a follow-up attack.
+|statModifiers=0,16,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|tagidExtraSkill1=一
+|effectSkill1=If foe initiates combat or foe's HP ≥ 75% at start of combat, inflicts Atk/Def-5 on foe during combat and reduces foe's Atk during combat by X% of foe's Atk at start of combat (X = number of unit's base HP/Atk/Spd/Def/Res stats that are greater than foe's stats at start of combat × 5, + 10).
+|iconSkill1=Heartbeat Lance W.png
+|properties=
+}}
+==Notes==
+{{Combat reductions}}
+{{Prevent follow-up}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfFoeInitiates}}
+{{At start of combat}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=鎧好きの堅槍
+|german=Herzschlaglanze
+|spanishEU=Lanza latido
+|spanishLA=Lanza latido
+|french=Lance pulsation
+|italian=Lancia focosa
+|chineseTW=喜歡鎧甲的堅槍
+|portuguese=Lança idólatra
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%inflicts Atk/Def%-%cannot make a follow-up%' AND Description NOT LIKE '%transforms%' OR Description LIKE '%reduces foe_s Atk%during combat by%'}}
+{{Weapons Navbox}}

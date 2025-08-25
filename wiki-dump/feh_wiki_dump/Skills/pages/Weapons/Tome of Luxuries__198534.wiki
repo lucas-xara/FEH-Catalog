@@ -1,0 +1,57 @@
+{{Weapon Infobox
+|tagid=SID_豪奢な富書
+|intID=3690
+|userVersion1=Closed
+|userVersion2=Open
+|exclusive=1
+|weaponType=Green Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At the start of turn 1, grants Special cooldown count-2 to unit. At start of turn, if unit's HP ≥ 25%, grants "if unit initiates combat, unit makes a guaranteed follow-up attack" to unit for 1 turn. After start-of-turn skills trigger, if unit's HP ≥ 25%, grants any【Bonus】effects active on unit (including stat bonuses; excluding "unit can move 1 extra space" and【Pathfinder】) to allies within 2 spaces of unit for 1 turn. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit during combat and deals damage = 15% of unit's Res (including when dealing damage with a Special triggered before combat).<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).<br><br>【Pathfinder】<br>When an ally moves through unit's space, that space is counted as 0 spaces moved instead of 1 space. (Unit's space can be freely added to ally's normal movement. Applies only to allies with movement types that allow movement through unit's space.)
+|required=Rexcalibur
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Me={{Eft|Reduce Cooldown|2}}
+|MeC=At start of turn 1
+|Se1={{SEt|Guaranteed Follow-Ups}}
+|Se1C=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25%
+|Se2={{Kp|Bonus}} effects on {{Tgt|Unit}}<br>(exc. {{SEt|Mobility increased}}<br>'''&''' {{SEt|Pathfinder}})
+|Se2T={{Tgt|Allies}}<br>[[within 2 spaces]]
+|Se2C=After start-of-turn<br>effects in Player Phase<br>if {{Tgt|Unit}}'s HP ≥ 25%
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce2={{Eft|Damage Boost|15% of {{Tgt|Unit}}'s Res}}<br>before '''&''' during combat
+|CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{Start of turn Special modification}}
+{{Guaranteed Follow-Ups}}
+{{CopyBonus|exclude={{SEt|Mobility increased}} and {{SEt|Pathfinder}}}}
+{{Temporary buffs}}
+{{DamageBoost}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V7.7_v0707b_engage_Mag.webp|Sprite sheet for {{St|Packleader Tome}} and {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=豪奢な富書
+|german=Buch des Luxus
+|spanishEU=Grimorio de lujo
+|spanishLA=Grimorio lujoso
+|french=Tome d'opulence
+|italian=Tomo del lusso
+|chineseTW=奢華的富書
+|portuguese=Tomo de luxo
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%start of turn 1%grants Special cooldown count-2 to unit%' OR Description LIKE '%grants ___【Bonus】%') AND (Exclusive='1' AND Name NOT LIKE '%+')}}
+{{Weapons Navbox}}

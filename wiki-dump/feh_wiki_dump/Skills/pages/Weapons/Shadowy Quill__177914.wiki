@@ -1,0 +1,38 @@
+{{Weapon Infobox
+|tagid=SID_双夜舞う怪盗の羽根
+|intID=3193
+|image=wep_dg067
+|exclusive=1
+|weaponType=Dagger
+|cost=400
+|might=14
+|range=2
+|effect=Enables【Canto (Recall)】.<br><br>Grants Atk+3. If unit initiates combat or is within 2 spaces of an ally, calculates damage using the lower of foe's Def or Res, grants Atk/Spd+6 to unit during combat, and deals damage = total of the greater between unit's current bonus or foe's current penalty to Atk/Spd/Def/Res. (Calculates each value independently. Excluding area-of-effect Specials.)<br>Effect:【Dagger ７】<br><br>【Canto (Recall)】<br>After an attack, Assist skill, or structure destruction, unit can return to the space they moved from.<br><br>(Once per turn. Cannot attack or assist. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Granted movement treated as Warp movement.)<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|statModifiers=0,17,0,0,0
+|required=Silver Dagger
+|properties=
+}}
+==Notes==
+{{Canto|Recall}}
+{{IfUnitInitiates}}
+{{LowerDefRes}}
+{{Temporary buffs}}
+{{DamageBoost}}
+{{IfUnitAttacked}}
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=双夜舞う怪盗の羽根
+|german=Schattenfeder
+|spanishEU=Pluma oscura
+|spanishLA=Pluma oscura
+|french=Plume sombre
+|italian=Penna ombra
+|chineseTW=飛舞雙夜的怪盜羽毛
+|portuguese=Pluma obscura
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【Canto (Recall)】%' OR Description LIKE '%damage =%total%bonus%' OR Description LIKE '%damage =%total%penalties%'}}
+{{Weapons Navbox}}

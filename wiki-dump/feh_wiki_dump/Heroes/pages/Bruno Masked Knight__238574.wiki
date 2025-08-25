@@ -1,0 +1,66 @@
+{{#invoke:NameAbout|main|Name=Bruno}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Bruno
+|Title=Masked Knight
+|WeaponType=Blue Tome
+|MoveType=Cavalry
+|Origin=Fire Emblem Heroes
+|Gender=Male
+|actorEN=T. Axelrod
+|actorJP=三木眞一郎
+|artist=コザキユースケ
+|additionDate=August 15, 2025
+|releaseDate=August 16, 2025
+|cv1=0
+|cv2=100400
+|TagID=ブルーノ味方
+|InternalID=1281
+|Properties=limited,ghb
+|description=A masked knight whose identity and motives are a mystery.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=10|Lv1SPD=9|Lv1DEF=5|Lv1RES=8
+|GRHP=50|GRATK=80|GRSPD=90|GRDEF=40|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Thunder
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elthunder
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Thoron
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Cryptic Valaskjálf
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Dragon Fang
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Poison Strike 1
+|passiveB2=Poison Strike 2
+|passiveB3=Poison Strike 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Red Feud 1
+|passiveC2=Red Feud 2
+|passiveC3=Red Feud 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

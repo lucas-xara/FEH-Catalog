@@ -1,0 +1,65 @@
+{{Weapon Infobox
+|tagid=SID_白騎の長剣
+|weaponType=Sword
+|weaponName=Whitewing Blade
+|might=16
+|range=1
+|effect=If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If the number of flying allies within 2 spaces ≥ 2, grants Atk/Spd/Def/Res+3 during combat, and if unit initiates combat, unit attacks twice.
+|iconSkill1=Triangle W.png
+|tagidExtraSkill1=ト
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Ce1={{Eft|WTA boost}}
+|s1 Ce2={{Eft|WTA reduction}}
+|s1 CeT1-2={{Tgt|Unit}}
+|s1 CeC1={{Tgt|Unit}} has<br>[[Weapon-triangle]]<br>advantage
+|s1 CeC2={{Tgt|Unit}} has<br>[[Weapon-triangle]]<br>disadvantage
+|skill2={{Si|Whitewing Blade|refine=Skill1}} Skill refine effects
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|3}}
+|s2 CeC1={{Mt|Flying}} {{Tgt|Allies}}<br>[[within 2 spaces]] ≥ 2
+|s2 Ce2={{Eft|Attack Twice}}
+|s2 CeC2=Player Phase '''&'''<br>{{Mt|Flying}} {{Tgt|Allies}}<br>[[within 2 spaces]] ≥ 2
+}}
+
+==Notes==
+* Whitewing Blade the same effect as {{St|Triangle Adept 3}}
+{{WTA boost}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary buffs}}
+{{IfUnitInitiates}}
+{{Brave weapon interaction}}
+
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|トライアングル|Triangle}}
+==In other languages==
+{{OtherLanguages
+|japanese=白騎の長剣
+|german=Schwingenklinge
+|spanishEU=Hoja Ala Blanca
+|spanishLA=Hoja Ala Blanca
+|french=Lame aînée
+|italian=Lama eburnea
+|chineseTW=白騎的長劍
+|portuguese=Esp. Asa branca
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%of flying allies within 2 spaces%'}}
+* [[Gem Weapons]]
+{{Weapons Navbox}}
+[[Category:Gem weapons]]

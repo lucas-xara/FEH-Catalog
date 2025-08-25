@@ -1,0 +1,74 @@
+{{#invoke:NameAbout|main|Name=Lyn}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Lyn
+|Title=Lady of the Beach
+|GrowthModifier=Gen 3
+|WeaponType=Blue Bow
+|MoveType=Flying
+|Origin=Fire Emblem: The Blazing Blade
+|Gender=Female
+|artist=teffish
+|actorEN=Wendee Lee
+|actorJP=大本眞基子
+|releaseDate=2019-07-09
+|additionDate=2019-07-08
+|TagID=水着リン
+|InternalID=396
+|Properties=special,tiara,specRate_202302
+|cv1=6
+|cv2=100200
+|description=Noblewoman of Caelin whose true name is Lyndis. Ventured to the island beaches upon receiving an invitation. Appears in Fire Emblem: The Blazing Blade.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=7|Lv1SPD=10|Lv1DEF=5|Lv1RES=5
+|GRHP=45|GRATK=60|GRSPD=65|GRDEF=35|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Bow
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Deep-Blue Bow
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Reposition
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Death Blow 1
+|passiveA2=Sturdy Blow 1
+|passiveA3=Sturdy Blow 2
+|passiveA4=Sturdy Impact
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Atk/Spd Link 1
+|passiveB2=Atk/Spd Link 2
+|passiveB3=Atk/Spd Link 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Distant Guard 1
+|passiveC2=Distant Guard 2
+|passiveC3=Distant Guard 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Summer units]]

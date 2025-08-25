@@ -1,0 +1,70 @@
+{{#invoke:NameAbout|main|Name=Katarina}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Katarina
+|Title=Wayward One
+|artist=kaya8
+|WeaponType=Red Tome
+|MoveType=Infantry
+|Origin=Fire Emblem: New Mystery of the Emblem
+|Gender=Female
+|actorEN=Kira Buckland
+|actorJP=優木かな
+|releaseDate=June 14, 2017
+|poolDate=June 30, 2017
+|randomStartTime=2017-06-28T07:00:00Z
+|poolRarities=5
+|TagID=カタリナ
+|InternalID=140
+|cv1=1
+|cv2=2900200
+|description=Reserved and harboring a dark secret, this trainee tactician depends on others. Appears in Fire Emblem: New Mystery of the Emblem.
+|Properties=specRate_201904
+|GrowthModifier=None}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=6|Lv1SPD=8|Lv1DEF=5|Lv1RES=8
+|GRHP=40|GRATK=60|GRSPD=60|GRDEF=25|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elfire
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Rauðrowl
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Rauðrowl+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Reese's Tome
+|weapon5Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Glacies
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Death Blow 1
+|passiveA2=Swift Sparrow 1
+|passiveA3=Swift Sparrow 2
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Atk Ploy 1
+|passiveC2=Atk Ploy 2
+|passiveC3=Atk Ploy 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

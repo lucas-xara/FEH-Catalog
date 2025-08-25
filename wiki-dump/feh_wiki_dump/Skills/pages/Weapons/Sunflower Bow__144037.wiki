@@ -1,0 +1,46 @@
+{{Weapon Infobox
+|tagid=SID_向日葵の弓
+|weaponName=Sunflower Bow
+|weaponType=Bow
+|userVersion1=Bow
+|userVersion2=Arrow
+|might=8
+|range=2
+|effectiveness=Flying
+|effect=Effective against flying foes. At start of combat, if foe's HP ≥ 75%, grants Def+5 to unit and inflicts Def-5 on foe during combat, and also, if foe has Def bonus, grants bonus to unit's Def and inflicts penalty on foe's Def during combat = current bonus on foe's Def. Calculates each stat bonus independently.
+|cost=200
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|required=Steel Bow
+|next=
+|promotionRarity=5
+|promotionTier=1
+|intID=2608
+|sort=92000
+|value=11
+|timingID=1
+|abilityID=243
+|limit1ID=53
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{TemporaryBufffromBonus|source=foe}}
+{{TemporaryDebufffromBonus|source=foe}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=向日葵の弓
+|german=Sommerbogen
+|spanishEU=Arco girasol
+|spanishLA=Arco girasol
+|french=Arc tournesol
+|italian=Arco girasole
+|chineseTW=向日葵之弓
+|portuguese=Arco girassol
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe has%bonus%grants%inflicts%' AND Exclusive='1' AND WikiName NOT LIKE '%defier%'}}
+* [[Skill families/Weapons#Defier's|Defier's Weapons]]
+{{Weapons Navbox}}

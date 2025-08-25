@@ -1,0 +1,30 @@
+{{Special
+|tagid=SID_竜穿
+|name=Dragon Fang
+|charge=4
+|effect=Boosts damage by 50% of unit's Atk.
+|cost=200
+|required=Dragon Gaze
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_all,offensive_special
+}}
+==Notes==
+{{AtkDamageBoost}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=竜穿
+|german=Drachenbiss
+|spanishEU=Colmillo dragón
+|spanishLA=Colmillo dragón
+|french=Crocs du dragon
+|italian=Zanna di drago
+|chineseTW=龍穿
+|portuguese=Presa dracônica
+}}
+==See also==
+{{See also skills|cond=Description LIKE 'Deals damage = __% of unit_s Atk%' OR Description LIKE '%boosts damage%by __% of unit_s Atk%'}}
+{{Specials Navbox}}

@@ -1,0 +1,38 @@
+{{Assist
+|tagid=SID_攻撃速さの応援
+|name=Rally Atk/Spd
+|range=1
+|effect=Grants Atk/Spd+3 to target ally for 1 turn.
+|cost=300
+|required=Rally Attack;Rally Speed
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_all,random_inherit_base
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se={{Eft|Bonuses|Atk/Spd|3}}
+|SeT={{Tgt|Target Ally}}
+|SeC={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}
+}}
+==Notes==
+{{Bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Rally Atk/Spd
+|japanese=攻撃速さの応援
+|german=Ang./Ges. sam.
+|spanishEU=Potenciar Ata/Vel
+|spanishLA=Potenc. Atq./Vel.
+|french=Ralliem. : Atq/Vit
+|italian=Sprone Att/Vel
+|chineseTW=攻擊速度支援
+|portuguese=Atq./Vel. nímios
+}}
+==See also==
+* [[Rally Assists]]
+{{Assists Navbox}}
+[[Category:Rally Assists]]

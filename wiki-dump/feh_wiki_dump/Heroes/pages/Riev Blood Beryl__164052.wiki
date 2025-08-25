@@ -1,0 +1,66 @@
+{{#invoke:NameAbout|main|Name=Riev}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Riev
+|Title=Blood Beryl
+|WeaponType=Blue Tome
+|MoveType=Infantry
+|Origin=Fire Emblem: The Sacred Stones
+|Gender=Male
+|actorEN=Bill Butts
+|actorJP=松本忍
+|artist=Daisuke Izuka
+|additionDate=January 6, 2022
+|releaseDate=January 8, 2022
+|cv1=7
+|cv2=300500
+|TagID=アーヴ
+|InternalID=759
+|Properties=limited,ghb
+|description=A heretical priest shrouded in mystery. As one of Grado's six generals, he is known by the name Blood Beryl. Appears in Fire Emblem: The Sacred Stones.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=11|Lv1SPD=6|Lv1DEF=4|Lv1RES=10
+|GRHP=55|GRATK=65|GRSPD=45|GRDEF=45|GRRES=70
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Light
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Ellight
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Shine
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Argent Aura
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Glacies
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Res Ideal 1
+|passiveA2=Atk/Res Ideal 2
+|passiveA3=Atk/Res Ideal 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Savage Blow 1
+|passiveC2=Savage Blow 2
+|passiveC3=Savage Blow 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

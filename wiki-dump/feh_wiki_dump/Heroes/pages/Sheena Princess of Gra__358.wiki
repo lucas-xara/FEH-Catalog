@@ -1,0 +1,81 @@
+{{#invoke:NameAbout|main|Name=Sheena}}{{HeroPage Tabs|{{PAGENAME}}}}
+{{Hero Infobox
+|Name=Sheena
+|Title=Princess of Gra
+|GrowthModifier= None
+|WeaponType=Green Axe
+|Origin=Fire Emblem: Mystery of the Emblem
+|MoveType=Armored
+|Gender=Female
+|actorEN=Lauren Landa
+|actorJP=小林ゆう
+|artist=まよ
+|resplendentArtist=DAI-XT.
+|releaseDate = February 2, 2017
+|poolDate = February 2, 2017
+|randomStartTime=2017-02-02T07:00:00Z
+|poolRarities=3,4
+|TagID=シーマ
+|InternalID=53
+|Properties=demoted_240,resplendent,embla
+|cv1=1
+|cv2=800100
+|description=Princess of Gra, a failing realm. Feels the heavy weight of her responsibility. Appears in Fire Emblem: Mystery of the Emblem.
+|resplendentStartTime=2023-10-25T07:00:00Z
+|resplendentEndTime=2023-11-10T06:59:59Z
+}}
+
+__TOC__
+
+{{Stats Page|Hero={{BASEPAGENAME}}
+|Lv1HP=21|Lv1ATK=8|Lv1SPD=6|Lv1DEF=12|Lv1RES=7
+|GRHP=55|GRATK=50|GRSPD=45|GRDEF=55|GRRES=60
+}}
+
+== Skills ==
+
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Killer Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Killer Axe+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Crimson Axe
+|weapon5Unlock=5
+}}
+
+===Assists===
+{{Assists Table
+}}
+
+===Specials===
+{{Specials Table
+|special1=Buckler
+|special1Default=4
+|special1Unlock=3
+|special2=Escutcheon
+|special2Default=
+|special2Unlock=4
+}}
+
+===Passives===
+{{Passives Table
+|passiveA1=Svalinn Shield
+|passiveA1Unlock=4
+|passiveC1=Fortify Def 1
+|passiveC2=Fortify Def 2
+|passiveC3=Fortify Armor
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+
+{{Heroes Navbox}}

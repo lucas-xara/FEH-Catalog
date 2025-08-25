@@ -1,0 +1,35 @@
+{{Weapon Infobox
+|tagid=SID_エイド
+|intID=3380
+|image=wep_rd051
+|exclusive=0
+|weaponType=Colorless Staff
+|cost=200
+|might=8
+|range=2
+|effect=At start of turn, restores 5 HP to ally that has been dealt the most damage. (Excludes unit.)
+|statModifiers=0,8,0,0,0
+|required=Assault
+|next=Aid+
+|promotionRarity=5
+|promotionTier=2
+|properties=random_owner
+}}
+==Notes==
+{{HealDamagedAlly}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=エイド
+|german=Beihilfe
+|spanishEU=Auxilio
+|spanishLA=Auxilio
+|french=Assistance
+|italian=Conforto
+|chineseTW=救護
+|portuguese=Amparo
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%At start of turn, restores%HP to ally that has been dealt the most damage%'}}
+{{Weapons Navbox}}

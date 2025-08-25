@@ -1,0 +1,85 @@
+{{Passive
+|name=Mystic Boost
+|type=B
+|exclusive=0
+|1name=Mystic Boost 1
+|1tagid=SID_生命の護符1
+|1promotionRarity=4
+|1promotionTier=1
+|1effect=Disables foe's skills that "calculate damage using the lower of foe's Def or Res" and "calculate damage from staff like other weapons." Restores 2 HP after combat.
+|1required=-
+|1cost=60
+|2name=Mystic Boost 2
+|2tagid=SID_生命の護符2
+|2promotionRarity=5
+|2promotionTier=1
+|2effect=Disables foe's skills that "calculate damage using the lower of foe's Def or Res" and "calculate damage from staff like other weapons." Restores 4 HP after combat.
+|2cost=120
+|3name=Mystic Boost 3
+|3tagid=SID_生命の護符3
+|3effect=Disables foe's skills that "calculate damage using the lower of foe's Def or Res" and "calculate damage from staff like other weapons." Restores 6 HP after combat.
+|3next=-
+|4name=Mystic Boost 4
+|4tagid=SID_生命の護符4
+|4cost=300
+|4effect=Inflicts Atk-5 on foe during combat. Disables foe's skills that "calculate damage using the lower of foe's Def or Res" and "calculate damage from staff like other weapons." If foe uses staff, neutralizes effects that prevent unit's counterattacks during combat. Restores 10 HP to unit after combat.
+|3cost=240
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Mystic Boost 3}} Mystic Boost 3
+|s1 Ce1={{Eft|Disable Lower Def/Res}}
+|s1 Ce2={{Eft|Disable Wrathful Staff}}
+|s1 CeT={{Tgt|Foe}}
+|s1 Me={{Eft|Heal|6}}
+|s1 MeC=After combat
+|skill2={{Si|Mystic Boost 4}} Mystic Boost 4
+|s2 Ce1={{Eft|Temporary debuffs|Atk|5}}
+|s2 Ce2={{Eft|Disable Lower Def/Res}}
+|s2 Ce3={{Eft|Disable Wrathful Staff}}
+|s2 Ce1-3T={{Tgt|Foe}}
+|s2 Ce4={{Eft|Neutralize Prevent Counter}}
+|s2 Ce4C={{Tgt|Foe}} uses {{Cwti|Staff|group=1}} [[Staff]]
+|s2 Me={{Eft|Heal|10}}
+|s2 MeC=After combat
+}}
+==Notes==
+{{After combat healing}}
+{{LowerDefRes}}
+{{Counterattack prevention neutralization|name=Mystic Boost 4}}
+{{Temporary debuffs|name=Mystic Boost 4}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Mystic Boost 1;Mystic Boost 2;Mystic Boost 3
+|badgeColor=Verdant
+|costs1=20;100;40
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=生命の護符
+|german=Mystikschub
+|spanishEU=Cleptovitalidad
+|spanishLA=Cleptovitalidad
+|french=Boost mystique
+|italian=Impulso spirito
+|chineseTW=生命護符
+|portuguese=Misticovital
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%disables%"calculate damage using%' OR Description LIKE '%disables%"calculate damage from staff%') AND Exclusive='1'}}
+{{Seals Navbox}}
+{{Passives Navbox|B}}

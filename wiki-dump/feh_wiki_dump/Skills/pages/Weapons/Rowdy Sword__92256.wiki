@@ -1,0 +1,49 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_明日の聖騎士の剣
+|weaponType=Sword
+|might=11
+|range=1
+|effect=Inflicts Spd-5. If unit initiates combat, unit attacks twice.
+|cost=400
+|exclusive=1
+|required=-
+|userVersion1=Weapon
+|userVersion2=Gleam
+|statModifiers=0,11,-5,0,0
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If a bonus granted by a skill like Rally or Hone is not active on foe, grants Atk/Def+6 during combat.
+|iconSkill1=Rowdy Sword W.png
+|tagidExtraSkill1=強
+|refineStatsAtk=5,1,0,0,0
+|properties=
+}}
+==Notes==
+{{Brave weapon interaction}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Combat boosts}}
+
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|戦闘強化R敵無強化|Combat Bonuses R Enemy No Bonuses}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=明日の聖騎士の剣
+|japaneseNotes=''Paladin of Tomorrow's Sword''
+|german=Vorlautes Schwert
+|spanishEU=Espada inquieta
+|spanishLA=Espada inquieta
+|french=Épée agitée
+|italian=Spada vivace
+|chineseTW=明日聖騎士之劍
+|portuguese=Espada agitada
+}}
+==See also==
+* [[Brave Weapons]]
+{{Weapons Navbox}}

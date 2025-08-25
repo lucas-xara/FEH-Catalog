@@ -1,0 +1,54 @@
+{{About|the passive skill|the [[status effect]]|Vantage (status effect)}}{{SkillPage Tabs}}{{Passive
+|type=B
+|exclusive=0
+|1name=Vantage 1
+|1tagid=SID_待ち伏せ1
+|1promotionRarity=4
+|1promotionTier=1
+|1required=-
+|1effect=If unit's HP ≤ 25% and foe initiates combat, unit can counterattack before foe's first attack.
+|1cost=50
+|2name=Vantage 2
+|2tagid=SID_待ち伏せ2
+|2promotionRarity=5
+|2promotionTier=1
+|2effect=If unit's HP ≤ 50% and foe initiates combat, unit can counterattack before foe's first attack.
+|2cost=100
+|3name=Vantage 3
+|3tagid=SID_待ち伏せ3
+|3effect=If unit's HP ≤ 75% and foe initiates combat, unit can counterattack before foe's first attack.
+|3cost=200
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Vantage 3}} Vantage 3
+|skill1 CombatEffect={{SkillEffectText|Vantage}}
+|skill1 CombatEffect Conditions=Enemy Phase '''&'''<br>{{SkillTargetText|Unit}}'s HP ≤ 75%
+}}
+
+==Notes==
+{{Preempt}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=待ち伏せ
+|german=Vorteil
+|spanishEU=Emboscada
+|spanishLA=Ventaja
+|french=Initiative
+|italian=Vantaggio
+|chineseTW=埋伏
+|portuguese=Vantagem
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%unit can counterattack before foe_s first attack%'}}
+{{Passives Navbox|B}}

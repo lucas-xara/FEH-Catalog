@@ -1,0 +1,66 @@
+{{About|the weapon Naga|the character Naga|Naga}}{{Weapon Infobox
+|tagid=SID_ナーガ
+|wikiName=Naga (weapon)
+|weaponType=Green Tome
+|weaponName=Naga
+|might=14
+|range=2
+|effectiveness=dragon
+|effect=Effective against dragon foes. If foe initiates combat, grants Def/Res+2 during combat.
+|cost=400
+|exclusive=1
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|statModifiers=0,14,0,0,0
+|required=Rexcalibur
+|SE=se_effect_naga.flac
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Effective against dragon foes. If foe initiates combat, grants Def/Res+4 during combat.
+|effectSkill1=In combat against a dragon foe, disables foe's skills that "calculate damage using the lower of foe's Def or Res" and unit can counterattack regardless of foe's range.
+|iconSkill1=Naga weapon W.png
+|tagidExtraSkill1=特
+|properties=random_owner
+}}
+==Notes==
+* Has the same effect as {{St|Bracing Stance 1}}.
+{{IfFoeInitiates}}
+{{Combat boosts}}
+{{Effective damage bonus|dragon}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+* Any of the upgrades grant Naga the same effect as {{St|Bracing Stance 2}}.
+{{LowerDefRes}}
+==Evolution==
+{{WEvo
+|weapon=Divine Naga
+|Medals=375
+|Dew=150
+}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|特殊射程R竜|Unique Range Dragons}}
+==In other languages==
+{{OtherLanguages
+|english=Naga
+|japanese=ナーガ
+|german=Naga
+|spanishEU=Naga
+|spanishLA=Naga
+|french=Naga
+|italian=Naga
+|chineseTW=那迦
+|portuguese=Naga
+}}
+==See also==
+{{See also skills|cond=WikiName LIKE '%naga%' OR Description LIKE '%if foe initiates combat, grants Def/Res+%during combat%' AND Exclusive='1' OR WeaponEffectiveness='dragon' AND CanUseWeapon__full LIKE '%Tome'|columns=3}}
+* [[Sources of effective against dragon foes]]
+* [[:Category:Weapons with Close Counter|Weapons with Close Counter]]
+* [[:Category:Weapons with Distant Counter|Weapons with Distant Counter]]
+{{Weapons Navbox}}

@@ -1,0 +1,33 @@
+{{Special
+|tagid=SID_聖衣
+|name=Holy Vestments
+|charge=3
+|effect=If foe is 2 spaces from unit, reduces damage from foe's attack by 30%.
+|cost=100
+|next=Aegis
+|promotionRarity=4
+|promotionTier=2
+|required=-
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|Close}}
+|properties=random_all,defensive_special
+}}
+==Notes==
+{{DefensiveSpecial}}
+{{DamagePercentageReduction}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=聖衣
+|german=Heiliges Gewand
+|spanishEU=Túnica sagrada
+|spanishLA=Túnica sagrada
+|french=Ornement
+|italian=Veste sacra
+|chineseTW=聖衣
+|portuguese=Veste sagrada
+}}
+{{Specials Navbox}}

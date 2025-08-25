@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Tobin}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Tobin
+|Title=The Clueless One
+|WeaponType=Red Sword
+|MoveType=Infantry
+|GrowthModifier=Trainee
+|Origin=Fire Emblem Echoes: Shadows of Valentia
+|Gender=Male
+|actorEN=Robbie Daymond
+|actorJP=阿部敦
+|artist=kaya8
+|releaseDate=July 7, 2017
+|TagID=ロビン
+|InternalID=147
+|Properties=tempest,limited
+|cv1=2
+|cv2=100400
+|description=Alm's childhood friend from Ram Village. Honest to a fault, and suffers for it. Appears in Fire Emblem Echoes: Shadows of Valentia.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=7|Lv1SPD=5|Lv1DEF=5|Lv1RES=4
+|GRHP=65|GRATK=55|GRSPD=50|GRDEF=65|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Armorslayer
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Armorslayer+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Jubilant Blade
+|weapon5Unlock=5
+}}
+
+===Assists===
+{{Assists Table
+|assist1=Pivot
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Attack +1
+|passiveA2=Attack +2
+|passiveA3=Attack +3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=Seal Spd 1
+|passiveB2=Seal Spd 2
+|passiveB3=Seal Spd 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+{{Heroes Navbox}}

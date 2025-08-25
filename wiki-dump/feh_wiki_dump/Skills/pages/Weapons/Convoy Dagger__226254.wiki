@@ -1,0 +1,76 @@
+{{Weapon Infobox
+|tagid=SID_輸送隊の暗器
+|intID=4447
+|image=wep_dg094
+|exclusive=1
+|weaponType=Dagger
+|cost=400
+|might=14
+|range=2
+|effect=Grants HP+5. Unit can move to a space adjacent to an ally.<br><br>If unit is within 3 spaces of an ally, inflicts Atk/Spd-6 on foe during combat and foe cannot make a follow-up attack.<br><br>Effect:【Dagger ７】<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|statModifiers=5,14,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|refineStatsSkill1=0,0,0,0,0
+|effectSkill1=If foe initiates combat or foe's HP ≥ 75% at start of combat, inflicts Atk/Spd-6 on foe and reduces damage from foe's attacks by 40% during combat (excluding area-of-effect Specials).<br><br>If a Rally or movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit, grants Atk/Spd+6,【Bonus Doubler】, and "neutralizes penalties on unit during combat" to target ally and to allies within 2 spaces of target ally after movement for 1 turn (excluding unit).<br><br>【Bonus Doubler】<br>Grants bonus to Atk/Spd/Def/Res during combat = current bonus on each of unit's stats for 1 turn. Calculates each stat bonus independently.
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|HP|5}}
+|s1 Me={{Eft|Warp|[[adjacent]] to an {{Tgt|Ally}}}}
+|s1 Ce1={{Eft|Temporary debuffs|Atk/Spd|6}}
+|s1 Ce2={{Eft|Prevent Follow-Ups}}
+|s1 CeT={{Tgt|Foe}}
+|s1 CeC=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|s1 Se={{Eft|Penalties|Def/Res|7}}
+|s1 SeT={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|s1 SeC=After combat if<br>{{Tgt|Unit}} attacked
+|skill2={{Si|Convoy Dagger|refine=Skill1}} Skill refine effects
+|s2 Ce1={{Eft|Temporary debuffs|Atk/Spd|6}}
+|s2 Ce1T={{Tgt|Foe}}
+|s2 Ce2={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s attacks
+|s2 CeC=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|s2 Se1={{Eft|Bonuses|Atk/Spd|6}}
+|s2 Se2={{SEt|Bonus Doubler}}
+|s2 Se3={{SEt|Neutralize Penalties}}
+|s2 SeT={{Tgt|Unit}} '''&'''<br>{{Tgt|Target Ally}}
+|s2 SeC=A [[Movement Assist]]<br>is used on<br>'''or''' by {{Tgt|Unit}}
+}}
+
+==Notes==
+{{Warp interaction}}
+{{Temporary debuffs}}
+{{Prevent follow-up}}
+{{IfUnitAttacked}}
+{{Penalties}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfFoeInitiates}}
+{{DamagePercentageReduction}}
+{{Bonuses|name={{St|Convoy Dagger|refine=Skill1}}}}
+{{Bonus Doubler|name={{St|Convoy Dagger|refine=Skill1}}}}
+{{Neutralize Penalties|name={{St|Convoy Dagger|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '% Unit can move to a space adjacent to an ally.%' OR ((Description LIKE '%If a Rally or movement Assist skill%' OR Description LIKE '%If a%movement Assist skill%') AND Description NOT LIKE '%【Divine Nectar】%')) AND Exclusive='1'}}
+* [[Warp Passives]]
+* [[Link Passives]]
+{{Weapons Navbox}}

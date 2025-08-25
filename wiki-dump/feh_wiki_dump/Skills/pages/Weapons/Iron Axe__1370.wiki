@@ -1,0 +1,31 @@
+{{Weapon Infobox
+|tagid=SID_鉄の斧
+|weaponType=Axe
+|might=6
+|range=1
+|cost=50
+|statModifiers=0,6,0,0,0
+|next=Steel Axe
+|promotionRarity=3
+|promotionTier=1
+|required=-
+|properties=random_all
+}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==In other languages==
+{{OtherLanguages
+|japanese=鉄の斧
+|german=Eisenaxt
+|spanishEU=Hacha hierro
+|spanishLA=Hacha hierro
+|french=Hache fer
+|italian=Ascia ferro
+|chineseTW=鐵斧
+|portuguese=Machado ferro
+}}
+==See also==
+* [[Iron Weapons]]
+{{Weapons Navbox}}
+[[Category:Iron weapons]]

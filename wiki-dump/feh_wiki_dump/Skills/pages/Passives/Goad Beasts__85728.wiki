@@ -1,0 +1,57 @@
+{{Passive
+|name=Goad Beasts
+|type=C
+|exclusive=0
+|1name=Goad Beasts
+|1tagid=SID_獣刃の紋章
+|1effect=Grants Atk/Spd+4 to beast allies within 2 spaces during combat.
+|1cost=200
+|1required=Spur Atk 2;Spur Spd 2
+|canUseWeapon={{WeaponList|Beast}}
+|canUseMove={{MoveList|All}}
+|properties=random_all
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{SkillEffectText|Temporary buffs|Atk/Spd|4}}
+|CombatEffect 1 Targets={{Cwtt|group=1|Beast}} {{SkillTargetText|Allies}}<br>[[within 2 spaces]]
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{AlliesCombatEffect|effect=temporary buffs}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Goad Beasts
+|badgeColor=Verdant
+|costs1=20;100;20
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=獣刃の紋章
+|german=Bestien+ (Angr.)
+|spanishEU=Acicate bestias
+|spanishLA=Ataque bestias
+|french=Sursaut (Bêtes)
+|italian=Attacco bestie
+|chineseTW=獸刃紋章
+|portuguese=Feras impelidas
+}}
+
+==See also==
+* [[Drive Passives]]
+* [[Goad Passives]]
+* [[Ward Passives]]
+{{Passives Navbox|C}}
+[[Category:Goad Passives]]
+{{Seals Navbox}}

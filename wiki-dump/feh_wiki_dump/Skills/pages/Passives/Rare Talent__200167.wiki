@@ -1,0 +1,45 @@
+{{Passive
+|name=Rare Talent
+|type=A
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Rare Talent
+|1tagid=SID_類稀なる魔道の才
+|1effect=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+7 to unit and disables foe's effects that "calculate damage using the lower of foe's Def or Res" (excluding when dealing damage with an area-of-effect Special) during combat, and also, the following effects will occur based on the value of unit's Res minus foe's Res: if ≥ 1, neutralizes effects that inflict "Special cooldown charge -X" on unit during combat; if ≥ 10 and either foe's Range = 2 or unit initiates combat, unit attacks twice during combat.
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce2={{Eft|Disable Lower Def/Res}}
+|Ce1-2C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce3={{Eft|Neutralize Guard}}
+|Ce3C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' {{Tgt|Unit}}'s Res -<br>{{Tgt|Foe}}'s Res ≥ 1
+|Ce4={{Eft|Attack Twice}}
+|Ce4C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat,<br>{{Tgt|Unit}}'s Res -<br>{{Tgt|Foe}}'s Res ≥ 10 '''&'''<br>(Player Phase '''or'''<br>{{Tgt|Foe}}'s Range = 2)
+}}
+==Notes==
+{{Temporary buffs}}
+{{UnitStatMinusFoeStat|stat=Res}}
+{{CooldownChargeMinusNeutralization}}
+{{IfUnitInitiates}}
+{{Brave weapon interaction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=類稀なる魔道の才
+|german=Seltenes Talent
+|spanishEU=Talento singular
+|spanishLA=Talento singular
+|french=Talent rare
+|italian=Talento raro
+|chineseTW=稀世的魔道天賦
+|portuguese=Talento raro
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%disable foe_s effect that "calculates damage using the lower of foe_s Def or Res%' OR Description LIKE '%based on the value of unit_s%minus foe_s%'}}
+{{Passives Navbox|A}}

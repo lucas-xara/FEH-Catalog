@@ -1,0 +1,52 @@
+{{Weapon Infobox
+|tagid=SID_カラドボルグ
+|intID=4179
+|image=wep_sw178
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+X to unit (X = 25% of foe's Atk at start of combat, - 4; max 14; min 5), neutralizes effects that inflict "Special cooldown charge -X" on unit, reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% (excluding area- of-effect Specials), and grants Special cooldown count-1 to unit before foe's first attack during combat. At start of combat, if unit's HP ≥ 25%, reduces damage from foe's attacks by Y during combat (when foe's attack triggers foe's Special, Y = 16; when foe's attack does not trigger foe's Special, Y = 8; excluding area-of-effect Specials), and unit's next attack deals damage = total damage reduced from foe's first attack (by any source, including other skills). Resets at end of combat.
+|required=Silver Sword
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|25% of {{Tgt|Foe}}'s Atk<br>at start of combat, -4|min=5|max=14}}
+|Ce2={{Eft|Neutralize Guard}}
+|Ce3={{Eft|Reduce Damage Reduction|50%}}
+|Ce3T={{Tgt|Foe}}
+|Ce4={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Foe}}'s first attack
+|Ce5={{Eft|Damage Reduction|2=(16 per {{Tgt|Foe}}'s<br>[[offensive Special]]; else, X = 8)}}<br>from {{Tgt|Foe}}'s first attack
+|Ce6={{Eft|Damage Boost|total damage reduced}}<br>from {{Tgt|Foe}}'s first attack<br>for {{Tgt|Unit}}'s next attack<br>(including other sources)
+|Ce4-6T={{Tgt|Unit}}
+|CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{At start of combat}}
+{{CooldownChargeMinusNeutralization}}
+{{Reduce Damage Reduction}}
+{{CombatCooldownCount|-1}}
+{{DamageBoostFromDamageReduction|flat=1}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=カラドボルグ
+|german=Caladbolg
+|spanishEU=Caladbolg
+|spanishLA=Caladbolg
+|french=Caladbolg
+|italian=Caladbolg
+|chineseTW=卡拉德伯爾加
+|portuguese=Caladbolg
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants Special cooldown count-_ to unit before foe_s first attack%' OR Description LIKE '%reduces damage%next attack%total damage%'}}
+{{Weapons Navbox}}

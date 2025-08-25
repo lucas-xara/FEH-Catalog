@@ -1,0 +1,29 @@
+{{Special
+|tagid=SID_氷蒼
+|name=Iceberg
+|charge=3
+|effect=Boosts damage by 50% of unit's Res.
+|cost=200
+|required=Chilling Wind
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_all,offensive_special
+}}
+==Notes==
+{{DamageBoost}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==In other languages==
+{{OtherLanguages
+|japanese=氷蒼
+|german=Eisberg
+|spanishEU=Iceberg
+|spanishLA=Iceberg
+|french=Iceberg
+|italian=Iceberg
+|chineseTW=冰蒼
+|portuguese=Iceberg
+}}
+{{Specials Navbox}}

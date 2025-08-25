@@ -1,0 +1,39 @@
+{{Weapon Infobox
+|tagid=SID_ジャハナ王の砂刃
+|intID=2913
+|image=wep_dg059
+|exclusive=1
+|weaponType=Dagger
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of combat, if unit's HP ≥ 25%, inflicts Spd/Def-6 on foe and neutralizes foe's bonuses to Spd/Def during combat, and also, if foe in combat is in a cardinal direction of unit, foe cannot counterattack, but otherwise, unit deals damage = 15% of foe's Atk.<br>Effect: 【Dagger ７】<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|statModifiers=0,14,0,0,0
+|required=Silver Dagger
+|properties=random_owner
+}}
+==Notes==
+{{Temporary debuffs}}
+{{Bonus neutralization}}
+{{CardinalDirections}}
+{{Prevent counterattacks}}
+{{AtkDamageBoost}}
+{{IfUnitAttacked}}
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ジャハナ王の砂刃
+|german=Jehannas Klingen
+|spanishEU=Hoja de Jehanna
+|spanishLA=Hoja de Jehanna
+|french=Lame de Jehanna
+|italian=Spada di Jehanna
+|chineseTW=賈哈納王的沙刃
+|portuguese=Lâmina Jehanna
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%inflicts Spd/Def-%neutralizes foe\'s bonuses%' AND Exclusive='1' OR Description LIKE '%,%foe cannot counterattack%' AND NOT CanUseWeapon__full='Colorless Staff' OR Description LIKE '%deals damage =%of foe\'s Atk%'}}
+{{Weapons Navbox}}

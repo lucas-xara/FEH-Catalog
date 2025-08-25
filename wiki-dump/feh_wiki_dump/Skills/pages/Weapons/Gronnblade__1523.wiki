@@ -1,0 +1,43 @@
+{{Weapon Infobox
+|tagid=SID_スレッダグラン
+|weaponType=Green Tome
+|weaponName={{PAGENAME}}
+|might=9
+|range=2
+|effect=Slows Special trigger (cooldown count+1).<br>Grants bonus to unit’s Atk = total bonuses on unit during combat.
+|cooldown=1
+|cost=200
+|exclusive=0
+|userVersion1=Closed|userVersion2=Open|statModifiers=0,9,0,0,0
+|next=Gronnblade+
+|promotionRarity=5
+|promotionTier=1
+|required=Elwind
+|SE=se_effect_sword01.flac
+|properties=random_all
+}}
+==Notes==
+{{BonusesToAtk}}
+==List of owners==
+{{Skill Hero List}}
+
+==Trivia==
+{{TomeColorTrivia|gronn}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=グルンブレード
+|german=Gronnklinge
+|spanishEU=Lluvia glauca
+|spanishLA=Cuchillas jade
+|french=Lames émeraude
+|italian=Viridelama
+|chineseTW=翠綠之刃
+|portuguese=Lâmina jade
+}}
+==See also==
+* [[The Cleaner]]
+* [[The Cleaner+]]
+* [[Blade Weapons]]
+{{Weapons Navbox}}
+[[Category:Blade weapons]]

@@ -1,0 +1,68 @@
+{{#invoke:NameAbout|main|Name=Reyson}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Reyson
+|Title=White Prince
+|GrowthModifier=
+|WeaponType=Green Beast
+|Origin=Fire Emblem: Radiant Dawn
+|Gender=Male
+|MoveType=Flying
+|actorJP=石田彰
+|actorEN=Frank Todaro
+|artist=由良
+|additionDate=January 10, 2019
+|releaseDate=January 11, 2019
+|poolDate=January 30, 2019
+|poolRarities=3,4
+|TagID=リュシオン
+|InternalID=329
+|Properties=refresher,demoted_202004
+|cv1=9
+|cv2=700300
+|description=Prince of Serenes, the former kingdom of the heron laguz. Brother of Leanne. Frail, but strong willed. Appears in Fire Emblem: Radiant Dawn.
+}}
+__TOC__
+{{Stats Page|Hero=Reyson: White Prince
+|Lv1HP=15|Lv1ATK=7|Lv1SPD=8|Lv1DEF=5|Lv1RES=4
+|GRHP=50|GRATK=50|GRSPD=60|GRDEF=45|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Hatchling (Flier)
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Fledgling (Flier)
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Adult (Flier)
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Heron Wing
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Sing
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Darting Stance 1
+|passiveA2=Steady Posture 1
+|passiveA3=Steady Posture 2
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Fortify Res 1
+|passiveC2=Fortify Res 2
+|passiveC3=Fortify Beasts
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

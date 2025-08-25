@@ -1,0 +1,68 @@
+{{#invoke:NameAbout|main|Name=Ylgr}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Ylgr
+|Title=Breaking the Ice
+|GrowthModifier=Gen 3
+|WeaponType=Green Axe
+|MoveType=Infantry
+|Origin=Fire Emblem Heroes
+|Gender=Female
+|artist=Tobi
+|actorEN=Megan Lee
+|actorJP=大空直美
+|additionDate=June 20, 2019
+|releaseDate=6/24/2019
+|TagID=水着ユルグ
+|InternalID=392
+|Properties=tempest,specDisplay,limited
+|cv1=0
+|cv2=200400
+|description=The naive youngest princess of Nifl. Excited to go to a beach for the first time.
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=9|Lv1SPD=12|Lv1DEF=6|Lv1RES=6
+|GRHP=60|GRATK=60|GRSPD=55|GRDEF=55|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Shoreline Rake
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Shoreline Rake+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Flashing Blade 1
+|passiveA2=Flashing Blade 2
+|passiveA3=Flashing Blade 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Even Def Wave 1
+|passiveC2=Even Def Wave 2
+|passiveC3=Even Def Wave 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Summer units]]

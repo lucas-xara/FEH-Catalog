@@ -1,0 +1,48 @@
+{{Weapon Infobox
+|tagid=SID_砂漠の虎の戦斧
+|intID=3660
+|image=wep_ax133
+|exclusive=1
+|weaponType=Axe
+|cost=400
+|might=16
+|range=1
+|effect=At the start of turn 1, grants Special cooldown count-1 to unit and allies with HP < unit's HP. At start of turn, grants Atk/Spd+6, "neutralizes unit's penalties during combat," and【Null Panic】 to unit and allies with HP < unit’s HP for 1 turn. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit during combat.<br><br>【Null Panic】<br>If unit is inflicted with Panic (bonuses converted into penalties), neutralizes the "converts bonuses on target into penalties" effect for 1 turn. (Even though the effect is neutralized, the Panic status remains, and is treated as a Penalty status.)
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+X to unit (X = 4 + highest bonus on each stat between unit and allies within 3 spaces of unit; calculates each stat bonus independently), reduces damage from foe's first attack by 30%, and neutralizes effects that inflict "Special cooldown charge -X" on unit during combat.
+|properties=
+}}
+==Notes==
+{{Start of turn Special modification}}
+{{Bonuses}}
+{{Neutralize Penalties}}
+{{Null Panic}}
+{{Temporary buffs}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{TemporaryBufffromBonus|name={{St|Desert-Tiger Axe|refine=Skill1}}|source=the unit or ally with the highest bonus}}
+{{DamagePercentageReduction}}
+{{CooldownChargeMinusNeutralization|name={{St|Desert-Tiger Axe|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=砂漠の虎の戦斧
+|german=Axt des Tigers
+|spanishEU=Hacha del Tigre
+|spanishLA=Hacha del Tigre
+|french=Hache de tigre
+|italian=Ascia del Deserto
+|chineseTW=沙漠之虎的戰斧
+|portuguese=Machado do tigre
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%at start of turn%Special cooldown count-1 to%allies%' OR Description LIKE '%【Null Panic】%' AND Exclusive='1' OR Description LIKE '%highest bonus on each stat between unit and allies within _ spaces%'}}
+{{Weapons Navbox}}

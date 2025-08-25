@@ -1,0 +1,68 @@
+{{#invoke:NameAbout|main|Name=Iago}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Iago
+|Title=Nohr's Tactician
+|WeaponType=Red Tome
+|Origin=Fire Emblem Fates
+|Gender=Male
+|MoveType=Infantry
+|actorJP=江越彬紀
+|actorEN=Ron Allen
+|artist=п猫Ｒ
+|additionDate=April 7, 2020
+|releaseDate=April 12, 2020
+|TagID=マクベス
+|InternalID=508
+|Properties=ghb,limited,tiara
+|cv1=11
+|cv2=690100
+|description=Tactician in the service of the Nohrian king, Garon. He uses cruel schemes and malicious magic to plague the enemies of Nohr. Appears in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=10|Lv1SPD=5|Lv1DEF=6|Lv1RES=8
+|GRHP=55|GRATK=65|GRSPD=50|GRDEF=40|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Flux
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Ruin
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Fenrir
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Iago's Tome
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+}}
+===Specials===
+{{Specials Table
+|special1=Rising Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Blazing Wind
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Attack +1
+|passiveA2=HP/Atk 1
+|passiveA3=HP/Atk 2
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Atk Opening 1
+|passiveC2=Atk Opening 2
+|passiveC3=Atk Opening 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

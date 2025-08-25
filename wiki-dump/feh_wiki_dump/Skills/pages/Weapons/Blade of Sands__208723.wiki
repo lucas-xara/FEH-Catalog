@@ -1,0 +1,55 @@
+{{Weapon Infobox
+|tagid=SID_砂漠の天馬騎士の剣
+|intID=3967
+|image=wep_sw172
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of turn, if unit is within 2 spaces of an ally, grants Spd/Res+6,【Bonus Doubler】, and【Null Panic】to unit and allies within 2 spaces of unit for 1 turn. If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks, and deals damage = 20% of unit's Spd during combat (excluding area-of-effect Specials).<br><br>【Bonus Doubler】<br>Grants bonus to Atk/Spd/Def/Res during combat = current bonus on each of unit's stats for 1 turn. Calculates each stat bonus independently.<br><br>【Null Panic】<br>If unit is inflicted with Panic (bonuses converted into penalties), neutralizes the "converts bonuses on target into penalties" effect for 1 turn. (Even though the effect is neutralized, the Panic status remains, and is treated as a Penalty status.)
+|required=Silver Sword
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|PermanentEffect={{SkillEffectText|Accelerate Special}}
+|StatusEffect 1={{SkillEffectText|Bonuses|Spd/Res|6}}
+|StatusEffect 2={{SEt|Bonus Doubler}}
+|StatusEffect 3={{SEt|Null Panic}}
+|StatusEffect Targets={{SkillTargetText|Unit}} '''&''' {{SkillTargetText|Allies}}<br>[[within 2 spaces]]
+|StatusEffect Conditions=At start of turn<br>if an {{SkillTargetText|Ally}} is<br>[[within 2 spaces]]
+|CombatEffect 1={{SkillEffectText|Temporary buffs|Atk/Spd/Def/Res|5}}
+|CombatEffect 2={{SkillEffectText|Damage Boost|20% of {{SkillTargetText|Unit}}'s Spd}}
+|CombatEffect 3={{SkillEffectText|Neutralize Prevent Follow-Ups}}
+|CombatEffect 4={{SkillEffectText|Neutralize Guaranteed Follow-Ups}}
+|CombatEffect 4 Targets={{SkillTargetText|Foe}}
+|CombatEffect Conditions=Player Phase '''or'''<br>an {{SkillTargetText|Ally}} is<br>[[within 2 spaces]]
+}}
+
+==Notes==
+{{Bonuses}}
+{{Bonus Doubler}}
+{{Null Panic}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Follow-up effect neutralization}}
+{{DamageBoost}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=砂漠の天馬騎士の剣
+|german=Klinge der Wüste
+|spanishEU=Hoja arenosa
+|spanishLA=Hoja arenosa
+|french=Lame des sables
+|italian=Spada di sabbia
+|chineseTW=沙漠天馬騎士之劍
+|portuguese=Lâmina de areia
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Bonus Doubler】%' OR Description LIKE '%【Null Panic】%' OR Description LIKE '%neutralize%follow-up%deals damage%of unit_s Spd%' OR Description LIKE '%deals damage%of unit_s Spd%neutralize%guarantee%prevent%' AND Description NOT LIKE '%【Null Follow-Up】%') AND Exclusive='1'}}
+* [[Rouse Passives]]
+{{Weapons Navbox}}

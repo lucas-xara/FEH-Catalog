@@ -1,0 +1,48 @@
+{{Passive
+|type=A
+|name=Part of the Plan
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Part of the Plan
+|1tagid=SID_これも策のうちだよ
+|1cost=300
+|1effect=At start of combat, if unit's HP ≥ 25%, inflicts Atk/Spd/Res-8 on foe and grants Atk/Spd/Def/Res+X during combat (X = current penalty on each of unit's stats × 2; example: if unit has -7 penalty to Atk, grants Atk+14, for a net bonus of Atk+7; calculates each stat bonus independently), and unit makes a guaranteed follow-up attack.
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary debuffs|Atk/Spd/Res|8}}
+|Ce1T={{Tgt|Foe}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|2 x {{SEt|penalties}} on<br>each of {{Tgt|Unit}}'s stats}}
+|Ce3={{Eft|Guaranteed Follow-Ups}}
+|CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{Temporary debuffs}}
+{{TemporaryBufffromPenalty|source=the unit|ptySource=the unit}}
+{{Guaranteed follow-up interaction}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=これも策のうちだよ
+|german=Teil des Plans
+|spanishEU=Parte del plan
+|spanishLA=Parte del plan
+|french=Comme prévu
+|italian=Parte del piano
+|chineseTW=這也是計策的一部分
+|portuguese=Parte do plano
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%Example: if unit has -%penalty to%, grants%, for a net bonus of%' AND Exclusive='1'}}
+* [[Skill families/A Passives#Unity|Unity Passives]]
+{{Passives Navbox|A}}

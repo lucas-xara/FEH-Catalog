@@ -1,0 +1,55 @@
+{{Passive
+|name=Fierce Breath
+|type=A
+|exclusive=0
+|1name=Fierce Breath
+|1tagid=SID_鬼神の呼吸
+|1effect=If foe initiates combat, grants Atk+4 during combat and Special cooldown charge +1 per attack. (Only highest value applied. Does not stack.)
+|1cost=240
+|1required=Fierce Stance 2
+|canUseWeapon={{WeaponList|Close}}
+|canUseMove={{MoveList|Infantry,Armored}}
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{SkillEffectText|Temporary buffs|Atk|4}}
+|CombatEffect 2={{SkillEffectText|Accelerate Charge}}
+|CombatEffect Conditions=Enemy Phase
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+{{CooldownChargePlus}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Fierce Breath
+|badgeColor=Scarlet
+|costs1=20;100;40
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=鬼神の呼吸
+|german=Wilder Atem
+|spanishEU=Aliento feroz
+|spanishLA=Soplo feroz
+|french=Souffle féroce
+|italian=Soffio fiero
+|chineseTW=鬼神呼吸
+|portuguese=Sopro feroz
+}}
+==See also==
+* [[Stance Passives]]
+* [[Defense Passives]]
+* [[Blade Passives]]
+{{Seals Navbox}}
+{{Passives Navbox|A}}

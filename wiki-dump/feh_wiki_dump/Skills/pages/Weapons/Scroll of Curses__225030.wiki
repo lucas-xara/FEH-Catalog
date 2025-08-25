@@ -1,0 +1,58 @@
+{{Weapon Infobox
+|tagid=SID_呪い忍者の忍法帳
+|intID=4411
+|image=wep_mg094
+|exclusive=1
+|weaponType=Red Tome
+|cost=400
+|might=9
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br>Enables【Canto (Dist.; Max ３)】.<br><br>At start of turn, if unit's HP ≥ 25%, grants Atk/Spd+6,【Anathema】, and the following status to unit and allies within 2 spaces for 1 turn: "Grants Special cooldown charge +1 per attack during combat (only highest value applied; does not stack)."<br><br>If unit initiates combat, unit attacks twice, and unit can make a follow-up attack before foe can counterattack.<br><br>If unit initiates combat or if foe's HP ≥ 75% at start of combat, grants bonus to unit's Atk/Spd during combat = 6 + 20% of unit's Spd at start of combat.<br><br>【Canto (Dist.; Max ３)】<br>After an attack, Assist skill, or structure destruction, unit can move spaces = number of spaces from start position to end position unit moved prior to taking action (max ３).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)<br><br>【Anathema】<br>Inflicts Spd/Def/Res-4 on foes within 3 spaces of unit during combat.
+|required=Bolganone;Fenrir
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Me={{Eft|Canto|Dist.; Max 3}}
+|Se1={{Eft|Bonuses|Atk/Spd|6}}
+|Se2={{SEt|Anathema}}
+|Se3={{SEt|Special cooldown charge +1}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25%
+|Ce1={{Eft|Attack Twice}}
+|Ce2={{Eft|Desperation}}
+|Ce1-2C=Player Phase
+|Ce3={{Eft|Temporary buffs|Atk/Spd|20% of {{Tgt|Unit}}'s Spd<br>at start of combat, +6}}
+|Ce3C=Player Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+}}
+==Notes==
+{{Bonuses}}
+{{Anathema}}
+{{Special Cooldown Charge +1}}
+{{IfUnitInitiates}}
+{{AttackTwice}}
+{{Follow-up before counter}}
+{{Temporary buffs}}
+{{At start of combat}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V8.11_v0811a_ninja_Mag.webp|Sprite sheet for {{St|Scroll of Teas}} and {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%Enables【Canto (Dist.;%' OR Description LIKE '%【Anathema】%' OR Description LIKE '%unit attacks twice%follow-up attack before foe can counterattack%'}}
+{{Weapons Navbox}}

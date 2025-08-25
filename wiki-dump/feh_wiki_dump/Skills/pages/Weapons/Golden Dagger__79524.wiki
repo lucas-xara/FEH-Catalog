@@ -1,0 +1,46 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_黄金の短剣
+|weaponType=Sword
+|might=16
+|range=1
+|effect=Accelerates Special trigger (cooldown count-1).
+|cooldown=-1
+|cost=400
+|exclusive=1
+|userVersion1=Weapon
+|userVersion2=Gleam
+|statModifiers=0,16,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=At start of combat, if Special is ready, grants Atk/Spd/Def/Res+3 during combat and unit can counterattack regardless of foe's range.
+|iconSkill1=Golden Dagger W.png
+|tagidExtraSkill1=特
+|properties=
+}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Combat boosts}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|特殊射程R奥義待機|Special Range R Special Standby}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=黄金の短剣
+|german=Golddolch
+|spanishEU=Daga oro
+|spanishLA=Daga oro
+|french=Dague or
+|italian=Pugnale oro
+|chineseTW=黃金短劍
+|portuguese=Adaga dourada
+}}
+==See also==
+* [[:Category:Weapons that accelerate the Special trigger|Weapons that accelerate the Special trigger]]
+* [[:Category:Weapons with Distant Counter|Weapons with Distant Counter]]
+{{Weapons Navbox}}

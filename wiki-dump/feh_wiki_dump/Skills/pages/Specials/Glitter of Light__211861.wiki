@@ -1,0 +1,51 @@
+{{Special
+|tagid=SID_輝映の聖光
+|intID=4030
+|exclusive=0
+|canUseWeapon={{WeaponList|Colorless Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=3
+|effect=If an Assist skill is used, unit's Special cooldown count does not go down. When Special triggers, boosts damage by 45% of foe's Res (calculates damage from staff after combat damage is added). If this Special is triggered during combat, after combat, inflicts status on target and foes within 2 spaces of target preventing counterattacks through their next actions.
+|required=Miracle
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|No Special cooldown charge}}
+|Ce1C={{Tgt|Unit}} uses<br>an Assist skill
+|Ce2={{Eft|Damage Boost|45% of {{Tgt|Foe}}'s Res}}
+|Ce2C=Special triggers
+|Se={{SEt|Counterattacks disrupted}}
+|SeT={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|SeC=After combat if<br>Special triggers
+}}
+==Notes==
+{{DamageBoost}}
+{{After combat note}}
+{{Counterattacks disrupted}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=輝映の聖光
+|japaneseNotes=<i>Shining Holy Light</i>
+|german=Glitzerndes Licht
+|spanishEU=Luz reluciente
+|spanishLA=Luz reluciente
+|french=Éclat de lumière
+|italian=Scintillio
+|chineseTW=輝映的聖光
+|portuguese=Brilho de luz
+}}
+
+==See also==
+{{See also skills|cond=Description LIKE '%deals damage =%\% of foe_s Res%' OR Description LIKE '%boosts damage by %\% of foe_s Res%'}}
+* [[Holy Light Specials]]
+{{Specials Navbox}}
+[[Category:Holy Light Specials]]

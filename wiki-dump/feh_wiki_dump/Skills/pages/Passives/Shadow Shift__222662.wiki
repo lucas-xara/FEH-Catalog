@@ -1,0 +1,73 @@
+{{Passive
+|name=Shadow Shift
+|type=C
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|Cavalry,Flying}}
+|properties=random_owner
+|1name=Shadow Shift 1
+|1tagid=SID_影助・引き戻し1
+|1effect=If unit's HP = 100%, when Canto triggers, enables unit to use【Reposition】on ally (this effect is not treated as an Assist skill; if similar effects are active, this effect does not trigger).<br><br>【Reposition】<br>Range = 1. Target moves to opposite side of unit.
+|1cost=60
+|1required=-
+|1promotionTier=1
+|1promotionRarity=4
+|2name=Shadow Shift 2
+|2tagid=SID_影助・引き戻し2
+|2effect=If unit's HP ≥ 50%, when Canto triggers, enables unit to use【Reposition】on ally (this effect is not treated as an Assist skill; if similar effects are active, this effect does not trigger).<br><br>【Reposition】<br>Range = 1. Target moves to opposite side of unit.
+|2cost=120
+|2promotionTier=1
+|2promotionRarity=5
+|3name=Shadow Shift 3
+|3tagid=SID_影助・引き戻し3
+|3effect=If unit's HP ≥ 25%, when Canto triggers, enables unit to use【Reposition】on ally (this effect is not treated as an Assist skill; if similar effects are active, this effect does not trigger).<br><br>【Reposition】<br>Range = 1. Target moves to opposite side of unit.
+|3cost=240
+|3next=-
+|4name=Shadow Shift 4
+|4tagid=SID_影助・引き戻し4
+|4effect=When Canto triggers, enables unit to use 【Reposition】on ally (this effect is not treated as an Assist skill; if similar effects are active, this effect does not trigger).<br><br>If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+3 to unit during combat and restores 7 HP to unit after combat.<br><br>【Reposition】<br>Range = 1. Target moves to opposite side of unit.
+|4cost=300
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Skill1={{Si|Shadow Shift 3}} Shadow Shift 3
+|s1 Me1={{Eft|Reposition}}
+|s1 Me1T={{Tgt|Target Ally}}
+|s1 Me1C=After [[Canto]] movement<br>if {{Tgt|Unit}}'s HP ≥ 25%
+|Skill2={{Si|Shadow Shift 4}} Shadow Shift 4
+|s2 Me1={{Eft|Reposition}}
+|s2 Me1T={{Tgt|Target Ally}}
+|s2 Me1C=After [[Canto]] movement
+|s2 Me2={{Eft|Heal|7}}
+|s2 Me2C=After combat if<br>an {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|s2 Ce={{Eft|Temporary buffs|Atk/Spd/Def/Res|3}}
+|s2 CeC=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+}}
+
+==Notes==
+{{Movement skill notes|notBeforeRokkr=1}}
+{{Temporary buffs|name=Shadow Shift 4}}
+{{After combat healing|name=Shadow Shift 4}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=Refugio Oscuro
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%move%opposite side of unit%'}}
+* [[Shadow Passives]]
+* [[Lookout Passives]]
+* [[Movement Assists]]
+{{Passives Navbox|C}}

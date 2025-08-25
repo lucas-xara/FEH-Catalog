@@ -1,0 +1,102 @@
+{{Passive
+|name=Sturdy Flare
+|type=A
+|exclusive=0
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|Cavalry,Flying}}
+|properties=random_owner
+|1name=Sturdy Flare
+|1tagid=SID_鬼神金剛の炎撃3
+|1effect=If unit initiates combat, deals 7 damage to foe as combat begins (effects that reduce damage during combat do not apply; will not reduce foe's HP below 1), grants Atk+7, Def+10 to unit during combat, and applies 【Divine Vein (Flame)】on 5 spaces in a line centered on foe's space (oriented left to right based on the direction unit is facing) for 1 turn after combat.<br><br>【Divine Vein (Flame)】<br>Applies the following effects on space: Acts as difficult terrain for foes with Range = 2 (moving over this space costs +1 movement; does not apply to "cannot be slowed by terrain" effects; movement cost cannot exceed unit's allowed movement). At start of enemy phase, deals 7 damage to foe, and also, as combat begins, deals an additional 7 damage to foe (effects that reduce damage "during combat" do not apply; will not reduce foe's HP below 1). (Divine Vein effects do not stack; replaces any existing Divine Vein effect; Divine Vein effects applied simultaneously cancel each other out.)
+|1cost=300
+|1required=Sturdy Blow 2
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Damage|7}}<br>as combat begins
+|Ce1T={{Tgt|Foe}}
+|Ce2={{Eft|Temporary buffs|Atk|7}}, {{Eft|Temporary buffs|Def|10}}
+|CeC=Player Phase
+|Me={{Eft|Divine Vein (Flame)}}
+|MeT=A 5 space line<br>centered on {{Tgt|Target Foe}}
+|MeC=After combat<br>in Player Phase
+}}
+
+==Notes==
+{{IfUnitInitiates}}
+{{CombatDamage|7}}
+{{Temporary buffs}}
+{{Divine Vein|Flame}}
+{{After combat note}}
+{| class="wikitable default mw-collapsible"
+!colspan=2 style="text-align:center;max-width:450px;margin:auto;" align="middle"|Examples of {{Eft|Divine Vein (Flame)}}'s<br>area-of-effect
+|-
+!Horizontal 
+|{{AoE|u=Leif: Sworn to Country|t=Veld: Manfroy's Rock
+|-------
+|-xxtxx-
+|-------
+|---u---
+|-------
+|-------
+|-------
+}}
+|-
+!Vertical
+|{{AoE|u=Leif: Sworn to Country|t=Veld: Manfroy's Rock
+|-------
+|-x-----
+|-x-----
+|-t-u---
+|-x-----
+|-x-----
+|-------
+}}
+|-
+!Diagonal Left
+|{{AoE|u=Leif: Sworn to Country|t=Veld: Manfroy's Rock
+|-------
+|-------
+|x------
+|-x-u---
+|--t----
+|---x---
+|----x--
+}}
+|-
+!Diagonal Right
+|{{AoE|u=Leif: Sworn to Country|t=Veld: Manfroy's Rock
+|-------
+|-------
+|------x
+|---u-x-
+|----t--
+|---x---
+|--x----
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=Golpe fogoso
+|spanishLA=
+|french=
+|italian=
+|chineseTW=鬼神金剛炎擊
+|portuguese=
+}}
+
+==See also==
+{{See also skills|cond=(Description LIKE '%【Divine Vein (Flame)】%' OR Description LIKE '%deals%damage%combat begins%') AND Exclusive='1'}}
+* [[Flare Passives]]
+* [[Strike Passives]]
+{{Passives Navbox|A}}
+[[Category:Flare Passives]]
+[[Category:Blow Passives]]

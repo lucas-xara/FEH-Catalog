@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Catria}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Catria
+|Title=Windswept Knight
+|WeaponType=Blue Bow
+|MoveType=Flying
+|Origin=Fire Emblem: Mystery of the Emblem
+|Gender=Female
+|actorEN=Connor Kelley
+|actorJP=生天目仁美
+|artist=茶ちえ
+|additionDate=September 6, 2023
+|releaseDate=September 7, 2023
+|cv1=1
+|cv2=400500
+|TagID=風部族カチュア
+|InternalID=994
+|Properties=special,hat
+|description=The middle child of three pegasus sisters, taking part in the wind festival accompanied by her beloved steed. Appears in Fire Emblem: Mystery of the Emblem.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=10|Lv1SPD=15|Lv1DEF=3|Lv1RES=6
+|GRHP=50|GRATK=80|GRSPD=70|GRDEF=50|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Whitewind Bow
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Whitewind Bow+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Harsh Command
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Harsh Command+
+|assist2Unlock=5
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Catch 1
+|passiveA2=Atk/Spd Catch 2
+|passiveA3=Atk/Spd Catch 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=S/D Far Trace 1
+|passiveB2=S/D Far Trace 2
+|passiveB3=S/D Far Trace 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Wind Festival units]]

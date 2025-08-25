@@ -1,0 +1,43 @@
+{{Passive
+|name=Double Lion
+|type=B
+|seal=
+|exclusive=1
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|1name=Double Lion
+|1tagid=SID_獅子連斬
+|1effect=If unit's HP = 100% at start of combat and unit initiates combat, unit attacks twice, but deals 1 damage to unit after combat. (Does not stack.)
+|1cost=300
+|1required=-
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Damage|1}}
+|MeC=After combat in<br>Player Phase '''&'''<br>{{Tgt|Unit}} HP = 100%<br>at start of combat
+|Ce={{Eft|Attack Twice}}<br>(Does not stack.)
+|CeC=Player Phase '''&'''<br>{{Tgt|Unit}} HP = 100%<br>at start of combat
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Brave weapon interaction}}
+{{DamageToUnit}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+* This skill references a skill of the same name in {{FE|15}}. In {{FE|15}}, this skill is exclusive to the {{St|Royal Sword}}, which in extension was exclusive to [[Alm]], though here it can be used by {{Ut|Celica: Warrior Priestess}}, and with any weapon she equips. In {{FE|2}}, Celica was able to wield the {{St|Royal Sword}}, but {{St|Double Lion}} didn't exist at the time, thus Celica with Double Lion is an impossibility on two fronts.
+==In other languages==
+{{OtherLanguages
+|japanese=獅子連斬
+|german=Doppellöwe
+|spanishEU=León doble
+|spanishLA=León doble
+|french=Double lion
+|italian=Doppio leone
+|chineseTW=獅子連斬
+|portuguese=Leão duplo
+}}
+==See also==
+* [[Falchion (Gaiden)|Falchion]]
+{{Passives Navbox|B}}

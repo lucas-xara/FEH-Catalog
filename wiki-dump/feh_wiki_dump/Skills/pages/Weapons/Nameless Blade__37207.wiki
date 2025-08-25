@@ -1,0 +1,45 @@
+{{Weapon Infobox
+|tagid=SID_無銘の一門の剣
+|weaponType=Sword
+|might=16
+|range=1
+|effect=Accelerates Special trigger (cooldown count-1).
+|cooldown=-1
+|cost=400
+|exclusive=yes
+|userVersion1=Weapon
+|userVersion2=Upgrade Gleam
+|statModifiers=0,16,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=Deals +10 damage when Special triggers.
+|iconSkill1=Special Damage W.png
+|tagidExtraSkill1=奥
+|properties=
+}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{FlatDamage|special=1|10}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|奥義ダメージR10|Special Damage}}
+==In other languages==
+{{OtherLanguages
+|japanese=無銘の一門の剣
+|german=Geheime Klinge
+|spanishEU=Hoja sin nombre
+|spanishLA=Hoja sin nombre
+|french=Épée sans nom
+|italian=Lama ignota
+|chineseTW=無銘一族之劍
+|portuguese=Lâmina sem nome
+}}
+==See also==
+* [[Weapons that accelerate the Special trigger]]
+* [[Weapons that boost Special damage]]
+{{Weapons Navbox}}

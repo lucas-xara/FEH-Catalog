@@ -1,0 +1,40 @@
+{{Weapon Infobox
+|tagid=SID_射干玉の海賊の嘴爪
+|weaponType=Beast
+|canUseMove=Flying
+|might=14
+|range=1
+|effect=Grants Res+3. At start of turn, if any foe's Res < unit's Res and that foe is adjacent to another foe, inflicts Def/Res-7 on that foe through their next actions.<br><br>At start of combat, if foe's HP ≥ 75%, grants Atk/Spd/Res+5 to unit during combat.<br><br>At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, unit can move 1 extra space. (That turn only. Does not stack.) If unit transforms, grants Atk+2.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,0,0,3
+|required=Adult (Flier)
+|intID=2684
+|sort=573
+|value=20
+|timingID=8
+|abilityID=111
+|limit1ID=69
+|limit2ID=53
+|properties=
+}}
+==Notes==
+{{Penalties}}
+{{Combat boosts}}
+{{Beast (Flier)}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=射干玉の海賊の嘴爪
+|german=Schwarze Klaue
+|spanishEU=Garra de ébano
+|spanishLA=Garra de ébano
+|french=Serre ébène
+|italian=Artiglio d'ebano
+|chineseTW=黑色海盜之喙
+|portuguese=Garra de ébano
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if any foe_s Res%unit_s Res%and that foe is adjacent to another foe%' OR Description LIKE '%if foe_s HP ≥%grants%Atk/Spd/Res+%during combat%'|columns=3}}
+{{Weapons Navbox}}

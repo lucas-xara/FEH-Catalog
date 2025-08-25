@@ -1,0 +1,83 @@
+{{#invoke:NameAbout|main|Name=Lilina}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Lilina
+|Title=Firelight Leader
+|WeaponType=Red Tome
+|MoveType=Cavalry
+|Origin=Fire Emblem: The Binding Blade
+|Gender=Female
+|LegendaryEffect=Fire
+|BoostHP=3
+|Duel=180
+|actorEN=Julie Kliewer
+|actorJP=小澤亜李
+|artist=azuタロウ
+|additionDate=December 25, 2020
+|releaseDate=December 25, 2020
+|cv1=5
+|cv2=200100
+|TagID=伝承リリーナ
+|InternalID=605
+|Properties=legendary
+|description=Young leader of the Lycian League whose talent for magic is a force to be reckoned with. Known as one of the heroes who defeated Bern. Appears in Fire Emblem: The Binding Blade.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=12|Lv1SPD=6|Lv1DEF=3|Lv1RES=7
+|GRHP=50|GRATK=70|GRSPD=35|GRDEF=30|GRRES=75
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elfire
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Bolganone
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Studied Forblaze
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Rising Flame
+|special1Default=4
+|special1Unlock=3
+|special2=Blazing Flame
+|special2Unlock=4
+|special3=Gifted Magic
+|special3Unlock=5
+|special4=Gifted Magic II
+|special4Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Res Solo 1
+|passiveA2=Atk/Res Solo 2
+|passiveA3=Atk/Res Solo 3
+|passiveA4=Atk/Res Solo 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Sabotage Res 1
+|passiveB2=Sabotage Res 2
+|passiveB3=Sabotage Res 3
+|passiveB4=Sabotage A/R 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Pulse Smoke 1
+|passiveC2=Pulse Smoke 2
+|passiveC3=Pulse Smoke 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

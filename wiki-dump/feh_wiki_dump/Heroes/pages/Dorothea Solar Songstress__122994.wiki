@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Dorothea}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Dorothea
+|Title=Solar Songstress
+|WeaponType=Colorless Dagger
+|Origin=Fire Emblem: Three Houses
+|Gender=Female
+|MoveType=Infantry
+|actorJP=長妻樹里
+|actorEN=Allegra Clark
+|artist=Azusa
+|additionDate=July 6, 2020
+|releaseDate=July 8, 2020
+|cv1=12
+|cv2=200700
+|TagID=水着ドロテア
+|InternalID=539
+|Properties=special,refresher,hat,specRate_202402
+|description=The only member of common birth in the entire Black Eagle House. Her beautiful voice, honed over years, can harmonize with even crashing waves. Appears in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=7|Lv1SPD=8|Lv1DEF=3|Lv1RES=6
+|GRHP=50|GRATK=70|GRSPD=65|GRDEF=30|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Dagger
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Dagger
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Hidden Thorns
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Hidden Thorns+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Dance
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveB1=Atk Cantrip 1
+|passiveB2=Atk Cantrip 2
+|passiveB3=Atk Cantrip 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Hone Atk 1
+|passiveC2=Hone Atk 2
+|passiveC3=Hone Atk 3
+|passiveC4=Hone Atk 4
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Summer units]]

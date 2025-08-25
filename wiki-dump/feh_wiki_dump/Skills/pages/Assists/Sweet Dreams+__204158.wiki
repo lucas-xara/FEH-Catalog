@@ -1,0 +1,49 @@
+{{Assist
+|tagid=SID_あまいゆめ・神
+|intID=3854
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=400
+|range=1
+|effect=Grants another action to target ally and grants Atk/Spd/Def/Res+5, "if unit initiates combat, unit makes a guaranteed follow-up attack," and 【Hexblade】to target ally for 1 turn. Inflicts Atk/Spd/Def/Res-5 on nearest foes within 5 spaces of target ally through their next actions. (Cannot target an ally with Sing or Dance. This skill treated as Sing or Dance.)<br><br>【Hexblade】<br>Calculates damage using the lower of foe's Def or Res during combat for 1 turn (including damage dealt by Specials before combat).
+|required=Sweet Dreams
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Another Action}}
+|MeT={{Tgt|Target Ally}}
+|MeC={{Tgt|Target (Ally)}}<br>doesn't have a<br>{{Uti|Dance}} [[Dance Assist]]<br>'''or''' {{SEt|Isolation}}
+|Se1={{Eft|Bonus|Atk/Spd/Def/Res|5}}
+|Se2={{SEt|Guaranteed Follow-Ups}}
+|Se3={{SEt|Hexblade}}
+|Se1-3T={{Tgt|Target Ally}}
+|SeC={{Tgt|Target (Ally)}}<br>doesn't have a<br>{{Uti|Dance}} [[Dance Assist]]<br>'''or''' {{SEt|Isolation}}
+|Se4={{Eft|Penalties|Atk/Spd/Def/Res|5}}
+|Se4T=Nearest {{Tgt|Foes}}<br>[[within 5 spaces]]<br>of {{Tgt|Target (Ally)}}
+}}
+
+==Notes==
+{{Bonuses}}
+{{Guaranteed Follow-Ups}}
+{{Hexblade}}
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=あまいゆめ・神
+|german=Süße Träume+
+|spanishEU=Ensueño dulce +
+|spanishLA=Ensueño dulce +
+|french=Doux rêves +
+|italian=Sogni d'oro+
+|chineseTW=甜蜜夢境・神
+|portuguese=Doces sonhos+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%This skill treated as Sing or Dance%' OR (Description LIKE '%【Hexblade】%' OR Description LIKE '%"if unit initiates combat, unit makes a guaranteed follow-up attack%') AND Exclusive='1'}}
+* [[Skill families/A Passives#Hexblade|Hexblade Passives]]
+{{Assists Navbox}}
+[[Category:Dance skills]][[Category:Sources of effects that grant "another action"]]

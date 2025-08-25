@@ -1,0 +1,46 @@
+{{Passive
+|type=C
+|name=Future-Focused
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Future-Focused
+|1tagid=SID_共に未来を見つめて
+|1cost=300
+|1effect=On odd-numbered turns, after foes' start-of-turn skills trigger, for the closest foes in cardinal directions of unit, if unit's Res ≥ foe's Res+X (X = distance from unit to foe × 3), that foe's action ends immediately.
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|MapEffect={{Eft|End Action}} after<br>start-of-turn skills<br>trigger on odd turns
+|MapEffect Targets=Closest {{Tgt|Foes}} in<br>[[cardinal directions]]
+|MapEffect Conditions={{Tgt|Unit}}'s Res ≥<br>{{Tgt|Foe}}'s Res+X<br>X = (Distance from<br>{{Tgt|Unit}} to {{Tgt|Foe}} x 3)
+}}
+
+==Notes==
+{{CardinalDirections}}
+{{SpacesFromUnittoFoe}}
+{{EndAction}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=共に未来を見つめて
+|german=Zukunftsgewandt
+|spanishEU=Visión de futuro
+|spanishLA=Visión de futuro
+|french=Plan d'avenir
+|italian=Sguardo venturo
+|chineseTW=一同放眼未來
+|portuguese=Foco no futuro
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%action ends immediately%' OR Description LIKE '%actions end immediately%'}}
+* [[Safety Fence (O)]]
+* [[Hex Trap]]
+{{Passives Navbox|C}}

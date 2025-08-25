@@ -1,0 +1,95 @@
+{{Weapon Infobox
+|tagid=SID_バンシーΘ
+|weaponName=Banshee Θ
+|weaponType=Red Tome
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|might=14
+|range=2
+|effect=At the start of turns 3 and 4, inflicts Atk/Spd/Def/Res-6,【Gravity】,【Guard】, and status preventing counterattacks on closest foes within 5 spaces of unit through their next actions.<br><br>【Gravity】<br>Restricts target's movement to 1 space through its next action.<br><br>【Guard】<br>Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)
+|cost=400
+|exclusive=1
+|statModifiers=0,14,0,0,0
+|required=Bolganone;Fenrir
+|intID=2470
+|sort=512
+|effectRange=5
+|value=20
+|timingID=8
+|abilityID=269
+|limit1ID=60
+|randomTimestamp=2021-04-05T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=At the start of turns 3 and 4, inflicts Atk/Spd/Def/Res-7,【Gravity】,【Guard】, and status preventing counterattacks on closest foes within 5 spaces of unit through their next actions.<br><br>If foe initiates combat or if foe's HP ≥ 75% at start of combat, inflicts penalty on foe's Atk/Res = number of【Penalty】effects active on foe, excluding stat penalties, + 6, and deals damage = 20% of unit's Res during combat (excluding area-of-effect Specials).<br><br>【Gravity】<br>Restricts target's movement to 1 space through its next action.<br><br>【Guard】<br>Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|refineStatsSkill1=0,0,0,0,0
+|effectSkill1=At start of player phase or enemy phase, inflicts Atk/Res-7 and【Sabotage】on foes with Res < unit's Res and that are within 2 spaces of another foe through their next actions.<br><br>At start of combat, if unit's HP ≥ 25%, inflicts Atk/Res-6 on foe and neutralizes foe's bonuses to Atk/Res during combat, and unit makes a guaranteed follow-up attack.<br><br>【Sabotage】<br>Inflicts penalty on unit's Atk/Spd/Def/Res during combat = highest penalty on each stat between unit and allies within 2 spaces of unit through its next action. Calculates each stat penalty independently.
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Se1={{Eft|Penalties|Atk/Spd/Def/Res|6}}
+|s1 Se2={{SEt|Gravity}}
+|s1 Se3={{SEt|Guard}}
+|s1 Se4={{SEt|Counterattacks Disrupted}}
+|s1 SeT=Closest {{Tgt|Foes}}<br>[[within 5 spaces]]
+|s1 SeC=At start of turns 3 '''&''' 4
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Se1={{Eft|Penalties|Atk/Spd/Def/Res|7}}
+|s2 Se2={{SEt|Gravity}}
+|s2 Se3={{SEt|Guard}}
+|s2 Se4={{SEt|Counterattacks Disrupted}}
+|s2 SeT=Closest {{Tgt|Foes}}<br>[[within 5 spaces]]
+|s2 SeC=At start of turns 3 '''&''' 4
+|s2 Ce1={{Eft|Temporary debuffs|Atk/Res|{{Kp|Penalty}} effects<br>on {{Tgt|Foe}}, +6<br>(exc. {{SEt|Penalties}})}}
+|s2 Ce1T={{Tgt|Foe}}
+|s2 Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Res}}
+|s2 CeC=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|skill3={{Si|Banshee Θ|refine=Skill1}} Skill refine effects
+|s3 Se1={{Eft|Penalties|Atk/Res|7}}
+|s3 Se2={{SEt|Sabotage}}
+|s3 SeT={{Tgt|Foes}}<br>[[within 2 spaces]]<br>of other {{Tgt|Foes}}
+|s3 SeC=At start of both Phases<br>if {{Tgt|Foe}}'s Res<br>< {{Tgt|Unit}}'s Res
+|s3 Ce1={{Eft|Temporary debuffs|Atk/Res|6}}
+|s3 Ce2={{Eft|Neutralize Bonuses|Atk/Res}}
+|s3 Ce1-2T={{Tgt|Foe}}
+|s3 Ce3={{Eft|Guaranteed Follow-Ups}}
+|s3 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{Penalties}}
+{{Gravity}}
+{{Guard}}
+{{Counterattacks disrupted}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary debuffs|name=Refined Banshee Θ}}
+{{EffectfromPenalty|temporary debuffs|nonStat=1|name=Refined Banshee Θ}}
+{{Sabotage|name={{St|Banshee Θ|refine=Skill1}}}}
+{{Bonus neutralization|name={{St|Banshee Θ|refine=Skill1}}}}
+{{Guaranteed follow-up interaction|name={{St|Banshee Θ|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=バンシーΘ
+|german=Todesgeheul Θ
+|spanishEU=Banshee Θ
+|spanishLA=Banshee Θ
+|french=Banshee Θ
+|italian=Banshee Θ
+|chineseTW=報喪Θ
+|portuguese=Banshee Θ
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%at start of%turns%if any%inflicts%' AND Description NOT LIKE '%special cooldown count%' OR Description LIKE '%at start of%turns%inflicts%-%' OR Description LIKE '%foes that are within _ spaces of another foe%') AND Exclusive='1'}}
+* [[Sabotage Passives]]
+* [[Skill families/B Passives#Discord|Discord Passives]]
+{{Weapons Navbox}}

@@ -1,0 +1,84 @@
+{{#invoke:NameAbout|main|Name=Sephiran}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Sephiran
+|Title=Hoary Sovereign
+|WeaponType=Colorless Staff
+|MoveType=Armored
+|Origin=Fire Emblem: Path of Radiance
+|Gender=Male
+|actorEN=E. Jason Liebrecht
+|actorJP=石井一貴
+|artist=pikomaro
+|additionDate=December 17, 2020
+|releaseDate=December 17, 2020
+|cv1=8
+|cv2=901000
+|TagID=冬祭セフェラン
+|InternalID=603
+|Properties=special,specRate_202402
+|description=Senior Statesman of Begnion and Prime Minister who serves Sanaki. Wields his abilities with great skill even at the winter festival. Appears in Fire Emblem: Path of Radiance.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=9|Lv1SPD=8|Lv1DEF=7|Lv1RES=10
+|GRHP=55|GRATK=75|GRSPD=30|GRDEF=50|GRRES=70
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Assault
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Tannenbaton
+|weapon2Default=3
+|weapon2Unlock=3
+|weapon3=Tannenbaton+
+|weapon3Default=5
+|weapon3Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Heal
+|assist1Default=1
+|assist1Unlock=1
+|assist2=Reconcile
+|assist2Default=3
+|assist2Unlock=2
+|assist3=Restore
+|assist3Default=4
+|assist3Unlock=3
+|assist4=Restore+
+|assist4Default=5
+|assist4Unlock=5
+}}
+===Specials===
+{{Specials Table
+|special1=Imbue
+|special1Default=4
+|special1Unlock=2
+|special2=Solid-Earth Balm
+|special2Default=5
+|special2Unlock=3
+|special3=Earthwater Balm
+|special3Unlock=4
+|special4=Earthwater Balm+
+|special4Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Res Push 1
+|passiveA2=Atk/Res Push 2
+|passiveA3=Atk/Res Push 3
+|passiveA4=Atk/Res Push 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveC1=Odd Recovery 1
+|passiveC2=Odd Recovery 2
+|passiveC3=Odd Recovery 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Christmas units]]

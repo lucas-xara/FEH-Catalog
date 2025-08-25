@@ -1,0 +1,39 @@
+{{Weapon Infobox
+|tagid=SID_バリアの剣＋
+|weaponType=Sword
+|weaponName=Barrier Blade+
+|might=14
+|range=1
+|effect=If foe initiates combat, grants Res+7 during combat.
+|cost=300
+|exclusive=0
+|statModifiers=0,14,0,0,0
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=random_all
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Combat boosts}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=バリアの剣＋
+|german=Barriereklinge+
+|spanishEU=Hoja defensiva +
+|spanishLA=Hoja defensiva +
+|french=Lame barrière +
+|italian=Lama barriera+
+|chineseTW=巴里亞之劍＋
+|portuguese=Espada muralha+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe initiates combat, grants Res+%during combat%' AND WikiName NOT LIKE '%barrier%'|columns=3}}
+* [[Skill families#Barrier|Barrier Weapons]]
+* [[Skill families#Guard (combat boosts)|Guard Weapons]]
+{{Weapons Navbox}}

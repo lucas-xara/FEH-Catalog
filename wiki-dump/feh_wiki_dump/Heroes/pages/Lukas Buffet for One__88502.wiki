@@ -1,0 +1,69 @@
+{{#invoke:NameAbout|main|Name=Lukas}}{{HeroPage Tabs|{{PAGENAME}}}}
+{{Hero Infobox
+|Name=Lukas
+|Title= Buffet for One
+|artist=cuboon
+|GrowthModifier=Gen 3
+|WeaponType= Blue Lance
+|MoveType=Armored
+|Origin=Fire Emblem Echoes: Shadows of Valentia
+|Gender=Male
+|actorEN=Greg Chun
+|actorJP=櫻井孝宏
+|releaseDate=2019-04-19
+|TagID=行楽ルカ
+|InternalID=367
+|Properties=special,specRate_202302
+|cv1=2
+|cv2=100200
+|description=A young noble with the Deliverance. Spends his free time in quiet solitude when he can. Appears in Fire Emblem Echoes: Shadows of Valentia.
+}}
+
+__TOC__
+
+{{Stats Page
+|Lv1HP=25|Lv1ATK=9|Lv1SPD=6|Lv1DEF=12|Lv1RES=3
+|GRHP=60|GRATK=65|GRSPD=35|GRDEF=70|GRRES=45
+}}
+
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Luncheon Lance
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Luncheon Lance+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Pivot
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=AR-O Atk/Def 1
+|passiveA2=AR-O Atk/Def 2
+|passiveA3=AR-O Atk/Def 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Wary Fighter 1
+|passiveB2=Wary Fighter 2
+|passiveB3=Wary Fighter 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Picnic units]]

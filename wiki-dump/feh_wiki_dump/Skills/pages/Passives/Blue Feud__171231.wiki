@@ -1,0 +1,50 @@
+{{Passive
+|type=C
+|name=Blue Feud
+|exclusive=0
+|canUseWeapon={{WeaponList|Blue,Green,Colorless}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Blue Feud 1
+|1tagid=SID_青への暗闘1
+|1cost=60
+|1effect=During combat, disables skills of all blue foes, excluding foe in combat. If in combat against a blue foe, disables skills of all foes, excluding foe in combat.
+|1required=-
+|1promotionRarity=4
+|1promotionTier=1
+|2name=Blue Feud 2
+|2tagid=SID_青への暗闘2
+|2cost=120
+|2effect=During combat, disables skills of all blue foes, excluding foe in combat. If in combat against a blue foe, disables skills of all foes, excluding foe in combat, and inflicts Atk/Spd/Def/Res-2 on foe during combat.
+|2promotionRarity=5
+|2promotionTier=1
+|3name=Blue Feud 3
+|3tagid=SID_青への暗闘3
+|3cost=240
+|3effect=During combat, disables skills of all blue foes, excluding foe in combat. If in combat against a blue foe, disables skills of all foes, excluding foe in combat, and inflicts Atk/Spd/Def/Res-4 on foe during combat.
+}}
+==Notes==
+{{TermRefersTo|Blue}}
+{{Combat reductions}}
+{{CombatEffectNeutralization}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=青への暗闘
+|german=Blaue Fehde
+|spanishEU=Pugna azul
+|spanishLA=Pugna azul
+|french=Querelle bleue
+|italian=Faida blu
+|chineseTW=對青的暗鬥
+|portuguese=Rixa azul
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%disables skills of all%excluding%' AND WikiName NOT LIKE '%Feud%') OR Description LIKE '%【Feud】%'|columns=3}}
+* [[Skill families#Feud|Feud Passives]]
+{{Passives Navbox|C}}

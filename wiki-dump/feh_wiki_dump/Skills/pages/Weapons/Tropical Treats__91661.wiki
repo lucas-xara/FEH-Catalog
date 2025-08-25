@@ -1,0 +1,33 @@
+{{Weapon Infobox
+|tagid=SID_南国の果実
+|weaponType=Dagger
+|might=8
+|range=2
+|effect=If a bonus granted by a skill like Rally or Hone is active on unit, grants Atk/Res+4 during combat.<br>Effect:【Dagger ５】<br><br>【Dagger ５】<br>After combat, if unit attacked, inflicts Def/Res-５ on target and foes within 2 spaces of target through their next actions.
+|cost=200
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|required=Steel Dagger
+|next=Tropical Treats+
+|promotionRarity=5
+|promotionTier=1
+|properties=
+}}
+==Notes==
+{{CombatBoostfromBonus}}
+{{IfUnitAttacked}}
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=南国の果実
+|german=Tropenfrüchte
+|spanishEU=Delicia tropical
+|spanishLA=Delicia tropical
+|french=Cocktail tropical
+|italian=Delizie tropicali
+|chineseTW=南國果實
+|portuguese=Frutas tropicais
+}}
+{{Weapons Navbox}}

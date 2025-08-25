@@ -1,0 +1,66 @@
+{{Passive
+|name=Yngvi Ascendant
+|type=B
+|exclusive=1
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|intID=2669
+|sort=567
+|value=8
+|timingID=1
+|abilityID=184
+|randomTimestamp=2021-08-29T07:00:00Z
+|randomMinLv=31
+|properties=random_owner
+|1name=Yngvi Ascendant
+|1tagid=SID_ユングヴィの祖
+|1effect=Neutralizes effects that prevent unit's follow-up attacks during combat. If unit initiates combat, unit can make a follow-up attack before foe can counterattack.
+|1required=-
+|1next=-
+|2name=Yngvi Ascendant+
+|alt2name=Yngvi Ascendant Plus
+|2tagid=SID_ユングヴィの祖・神
+|2effect=Inflicts Spd/Def-5 on foe and neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat, and also, if decreasing the Spd difference necessary to make a follow-up attack by 10 would allow unit to trigger a follow-up attack (excluding guaranteed or prevented follow-ups), triggers【Potent Follow 100%】during combat.<br><br>If unit initiates combat, unit can make a follow-up attack before foe's next attack.<br><br>【Potent Follow 100%】<br>Triggers an additional follow-up attack immediately after unit's standard follow-up attack and deals damage = 100% of unit's normal attack damage (if unit cannot make a follow-up attack, this effect triggers when the standard follow-up attack would occur; this effect is treated like a follow-up attack, so effects like "reduce damage by X%" still apply, but this effect is not affected by effects that prevent follow-ups or "attacks twice" effects; only highest value applied; does not stack).
+|2cost=300
+|properties2=
+|1cost=300
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Yngvi Ascendant}} Yngvi Ascendant
+|s1 Ce1={{Eft|Neutralize Prevent Follow-Ups}}
+|s1 Ce2={{Eft|Desperation}}
+|s1 Ce2C=Player Phase
+|skill2={{Si|Yngvi Ascendant+}} Yngvi Ascendant+
+|s2 Ce1={{Eft|Temporary Debuffs|Spd/Def|5}}
+|s2 Ce2={{Eft|Neutralize Guaranteed Follow-Ups}}
+|s2 Ce1-2T={{Tgt|Foe}}
+|s2 Ce3={{Eft|Neutralize Prevent Follow-Ups}}
+|s2 Ce4={{Eft|Potent Follow 100%}}
+|s2 Ce4C={{Tgt|Unit}}'s Spd ≥<br>{{Tgt|Foe}}'s Spd-5
+|s2 Ce5={{Eft|Desperation}}
+|s2 Ce3-5T={{Tgt|Unit}}
+|s2 Ce5C=Player Phase
+}}
+
+==Notes==
+{{Follow-up effect neutralization}}
+{{Follow-up before counterattack}}
+{{Temporary debuffs|name=Yngvi Ascendant+}}
+{{Potent Follow|100%}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ユングヴィの祖
+|german=Yngvi-Vorfahre
+|spanishEU=Ancestro Yngvi
+|spanishLA=Ancestro Yngvi
+|french=Ancêtre Yngvi
+|italian=Capostipite Yngvi
+|chineseTW=尤格威之祖
+|portuguese=Yngvi ancestral
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【Potent Follow%】%' OR Description LIKE '%prevent unit_s follow-up%make a follow-up attack before foe can counterattack%'}}
+{{Passives Navbox|B}}

@@ -1,0 +1,88 @@
+{{#invoke:NameAbout|main|Name=Byleth}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Byleth
+|Title=Proven Professor
+|GrowthModifier=Gen 3
+|WeaponType=Red Sword
+|Origin=Fire Emblem: Three Houses
+|Gender=Female
+|MoveType=Infantry
+|actorJP=伊藤静
+|actorEN=Jeannie Tirado
+|artist=廣岡政樹
+|resplendentArtist=ゾノタイダ
+|additionDate=July 21, 2019
+|releaseDate=July 22, 2019
+|poolDate=August 7, 2019
+|randomStartTime=2019-08-22T07:00:00Z
+|poolRarities=5
+|TagID=ベレス
+|InternalID=402
+|Person=Byleth F
+|cv1=12
+|cv2=100200
+|description=Child of the former captain of the Knights of Seiros, Jeralt. A stoic, capable professor at the Officers Academy. Appears in Fire Emblem: Three Houses.
+|Properties=specRate_202202,resplendent,embla
+|resplendentStartTime=2025-03-25T07:00:00Z
+|resplendentEndTime=2025-04-10T06:59:59Z
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=10|Lv1SPD=10|Lv1DEF=7|Lv1RES=4
+|GRHP=50|GRATK=55|GRSPD=70|GRDEF=60|GRRES=40
+}}
+
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Creator Sword
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Draconic Aura
+|special2Default=
+|special2Unlock=4
+|special3=Ruptured Sky
+|special3Default=
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Fury 1
+|passiveA2=Fury 2
+|passiveA3=Fury 3
+|passiveA4=Fury 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Wrath 1
+|passiveB2=Wrath 2
+|passiveB3=Wrath 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Even Atk Wave 1
+|passiveC2=Even Atk Wave 2
+|passiveC3=Even Atk Wave 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

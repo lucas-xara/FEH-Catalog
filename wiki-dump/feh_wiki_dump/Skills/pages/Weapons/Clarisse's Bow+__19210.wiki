@@ -1,0 +1,43 @@
+{{Weapon Infobox
+|tagid=SID_クライネの弓＋
+|weaponType=Bow
+|might=11
+|range=2
+|effectiveness=flying
+|effect=Effective against flying foes.<br>If unit initiates combat, inflicts Atk/Spd-5 on foes within 2 spaces of target through their next actions after combat.
+|cost=300
+|exclusive=0
+|userVersion1=Bow
+|userVersion2=Arrow
+|statModifiers=0,11,0,0,0
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|upgradedEffect=Effective against flying foes.<br>After combat, if unit attacked, inflicts Atk/Spd-5 on target and foes within 2 spaces of target through their next actions.
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{IfUnitInitiates}}
+{{Penalties}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfUnitAttacked}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=クライネの弓＋
+|german=Clarisses Bog. +
+|spanishEU=Arco Clarisse +
+|spanishLA=Arco Clarisse +
+|french=Arc Clarisse +
+|italian=Arco di Clarisse+
+|chineseTW=克萊涅之弓＋
+|portuguese=Arco de Clarisse+
+}}
+==See also==
+* [[Dark Breath+]]
+{{Weapons Navbox}}

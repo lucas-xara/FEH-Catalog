@@ -1,0 +1,74 @@
+{{#invoke:NameAbout|main|Name=Marth}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Marth
+|Title=Prince of Light
+|WeaponType=Red Sword
+|MoveType=Infantry
+|Origin=Fire Emblem: Mystery of the Emblem
+|Gender=Male
+|actorEN=Yuri Lowenthal
+|actorJP=緑川光
+|artist=北千里
+|additionDate=August 17, 2021
+|releaseDate=August 17, 2021
+|poolDate=September 7, 2021
+|poolRarities=5
+|cv1=1
+|cv2=100100
+|TagID=総選挙マルス
+|InternalID=696
+|Properties=brave,specRate_202402
+|description=Prince of Altea destined to be revered as the Hero-King, having done countless deeds for the good of those who came after him. Appears in Fire Emblem: Mystery of the Emblem.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=11|Lv1SPD=13|Lv1DEF=8|Lv1RES=3
+|GRHP=50|GRATK=70|GRSPD=70|GRDEF=55|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Genesis Falchion
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Draconic Aura
+|special2Unlock=4
+|special3=Shining Emblem
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Distant Counter
+|passiveA2=Distant Pressure
+|passiveA1Unlock=4
+|passiveA2Unlock=5
+|passiveB1=Spurn 1
+|passiveB2=Spurn 2
+|passiveB3=Spurn 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Even Tempest 1
+|passiveC2=Even Tempest 2
+|passiveC3=Even Tempest 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

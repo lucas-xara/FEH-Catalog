@@ -1,0 +1,43 @@
+{{Special
+|tagid=SID_魔弾・神
+|intID=4005
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=3
+|effect=At the start of turn 1 and start of turn 4, grants Special cooldown count-3 to unit. Boosts damage by 20 and calculates damage using the lower of foe's Def or Res.
+|required=Seiðr Shell
+|properties=offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|MapEffect={{Eft|Reduce Cooldown|3}}
+|MapEffect Conditions=At start of turns 1 '''&''' 4
+|CombatEffect 1={{Eft|Damage Boost|20}}
+|CombatEffect 2={{Eft|Lower Def Res}}
+|CombatEffect Conditions=Special triggers
+}}
+
+==Notes==
+{{Start of turn Special modification}}
+{{FixedDamage|20}}
+{{LowerDefRes}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=魔弾・神
+|german=Seiðr+
+|spanishEU=Proyectil Seiðr +
+|spanishLA=Proyectil Seiðr +
+|french=Seiðr +
+|italian=Capsula Seiðr+
+|chineseTW=魔彈・神
+|portuguese=Projétil Seiðr+
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%turn%1%grants Special cooldown count-%' AND SCategory='special' OR Description LIKE '%boosts damage by __ %'}}
+{{Specials Navbox}}

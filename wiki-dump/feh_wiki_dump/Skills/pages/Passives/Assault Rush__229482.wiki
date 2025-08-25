@@ -1,0 +1,67 @@
+{{Passive
+|name=Assault Rush
+|type=C
+|exclusive=0
+|canUseWeapon={{WeaponList|Melee}}
+|canUseMove={{MoveList|Infantry,Armored}}
+|properties=random_owner
+|1name=Assault Rush
+|1tagid=SID_一斉突撃・突貫
+|1effect=At start of turn, if unit's HP = 100% or any foe is within 3 columns or 3 rows centered on unit, grants Atk+6, "unit can move 1 extra space (that turn only, does not stack)," and【Charge】 to unit for 1 turn.<br><br>If unit initiates combat, grants Atk+5 to unit and grants Special cooldown count-1 to unit before unit's first attack during combat.<br><br>【Charge】<br>Unit can move up to 3 spaces in any cardinal direction. (Cannot move through foes, terrain that blocks movement, or effects of skills like Obstruct. Granted movement treated as Warp movement.)
+|1cost=300
+|1required=Assault Troop 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{Eft|Bonuses|Atk|6}}
+|Se2={{SEt|Mobility increased}}
+|Se3={{SEt|Charge}}
+|SeC=At start of turn if<br>{{Tgt|Unit}}'s HP = 100%<br>'''or''' a {{Tgt|Foe}} is within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|Ce1={{Eft|Temporary buffs|Atk|5}}
+|Ce2={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Unit}}'s first attack
+|CeC=Player Phase
+}}
+==Notes==
+{{Bonuses}}
+{{Mobility increased}}
+{{Charge}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{CombatCooldownCount|-1}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Edelgard: Adorned Eagle|t=Dimitri: Stargazing Lion
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【Charge】%' AND Exclusive='1'}}
+* [[Armored Boots]]
+{{Passives Navbox|C}}
+{{Passives Navbox|C}}

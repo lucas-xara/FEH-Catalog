@@ -1,0 +1,79 @@
+{{Weapon Infobox
+|tagid=SID_閉ざす花嫁のブーケ
+|intID=4157
+|noImg=1
+|exclusive=1
+|weaponType=Beast
+|canUseMove=Flying
+|cost=400
+|might=14
+|range=1
+|cooldown=-1
+|effect=Enables【Canto (Rem. +1)】.<br>Accelerates Special trigger (cooldown count-1).<br><br>At start of turn, if unit's HP ≥ 25%, grants the following effect to unit and target allies (if support partner is on player team, targets any support partner within 2 spaces of unit; otherwise, targets ally with the highest Spd within 2 spaces of unit): if Special cooldown count is at its maximum value, grants Special cooldown count-2; if Special cooldown count is at its maximum value - 1, grants Special cooldown count-1.<br><br>At start of combat, if unit's HP ≥ 25%, grants bonus to unit's Atk/Spd/Def/Res during combat = number of foes within 3 rows or 3 columns centered on unit × 3, + 5 (max 14), deals damage = 20% of unit's Spd (excluding area-of-effect Specials), and reduces damage by 20% of unit's Spd (excluding area-of-effect Specials).<br><br>At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 and unit can move 1 extra space (that turn only; does not stack).<br><br>【Canto (Rem. +1)】<br>After an attack, Assist skill, or structure destruction, unit can move again.<br><br>The distance of the movement is the remaining movement the unit had before the actions listed above+1 (If unit used a movement skill that warps them, the remainder is 0).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|required=Adult (Flier)
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe1={{Eft|Accelerates Special}}
+|Pe2={{Eft|Stat Boosts|Atk|2}}
+|PeC2={{Tgt|Unit}} is transformed
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|3 x {{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}, + 5|max=14}}
+|Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|Ce3={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Spd}}<br>from {{Tgt|Foe}}'s attacks
+|CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Me1={{Eft|Canto|Rem. +1}}
+|Me2={{Eft|Reduce Cooldown|2}}
+|Me3={{Eft|Reduce Cooldown|1}}
+|MeT2-3={{Tgt|Unit}} '''&'''<br>({{Tgt|Partner}} '''or'''<br>{{Tgt|Ally}} with the<br>highest Spd)<br>[[within 2 spaces]]
+|MeC2=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25% '''&'''<br>{{Tgt|Unit}} or {{Tgt|Ally}}'s CD<br>is max value
+|MeC3=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25% '''&'''<br>{{Tgt|Unit}} or {{Tgt|Ally}}'s CD<br>is max value-1
+|Me4={{Eft|Transform}}
+|Me4C=At start of turn if<br>{{Tgt|Unit}} is [[adjacent]] to only<br>{{Cwti|group=1|Dragon,Beast}} [[Dragon]]/[[Beast]]<br>{{Tgt|Allies}} '''or''' not [[adjacent]]<br>to any {{Tgt|Ally}}
+|Se={{SEt|Mobility Increased}}
+|SeT={{Tgt|Unit}}
+|SeC=At start of turn if<br>{{Tgt|Unit}} is transformed
+}}
+
+==Notes==
+{{Canto|Rem. +1}}
+{{Start of turn Special modification}}
+{{SupportPartner|effect=Special cooldown reduction effect}}
+{{Temporary buffs}}
+{{DamageBoost}}
+{{FlatDamageReduction}}
+{{Beast (Flying)}}
+{|class="wikitable default mw-collapsible" style="text-align:center;” 
+!Example of Area of Effect for Closing Florets
+|-
+|style="max-width:450px;margin:auto;" align="middle"|{{AoE|u=Embla: Closed-Off Bride|t=Sharena: Pillars of Peace
+|---xxx---
+|---xxx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xtx---
+|---xxx---
+}}
+|}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=閉ざす花嫁のブーケ
+|german=Schließende Blüte
+|spanishEU=Flores del cierre
+|spanishLA=Flores del cierre
+|french=Fleurs fermées
+|italian=Bouquet chiuso
+|chineseTW=封閉新娘捧花
+|portuguese=Flores da oclusão
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%to ally with the highest ___ within _ spaces of unit%' OR Description LIKE '%number of foes within%rows%' OR Description LIKE '%reduces damage by%of unit_s Spd%') AND Exclusive='1'}}
+{{Weapons Navbox}}

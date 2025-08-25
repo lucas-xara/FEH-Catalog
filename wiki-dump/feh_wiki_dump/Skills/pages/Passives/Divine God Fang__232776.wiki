@@ -1,0 +1,55 @@
+{{Passive
+|name=Divine God Fang
+|type=C
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Divine God Fang
+|1tagid=SID_神竜王の大牙
+|1effect=Allies within 2 spaces of unit can move to any space within 2 spaces of unit.<br><br>At start of player phase or enemy phase, if unit is within 2 spaces of an ally, grants "effective against dragons," "neutralizes 'effective against dragons' bonuses," and 【Empathy】to unit and allies within 2 spaces of unit for 1 turn.<br><br>If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit, unit deals +7 damage (excluding area-of-effect Specials), reduces damage from foe's attacks by 7 (excluding area-of-effect Specials), and grants Special cooldown charge +1 to unit per attack during combat (only highest value applied; does not stack).<br><br>【Empathy】<br>Grants bonus to unit's Atk/Spd/Def/Res = number of types of【Bonus】effects, excluding stat bonuses, and【Penalty】effects, excluding stat penalties, active on player team and enemy team during combat (max 7).<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Warp|[[within 2 spaces]]<br>of {{Tgt|Unit}}}}
+|MeT={{Tgt|Allies}}<br>[[within 2 spaces]]
+|Se1={{SEt|Effective against dragons}}
+|Se2=<span style="width:12em;display:inline-block"/>{{SEt|Neutralize Effective Against Dragons}}
+|Se3={{SEt|Empathy}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=At start of both Phases
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce2={{Eft|Damage Boost|7}}
+|Ce3={{Eft|Damage Reduction|7}}
+|Ce4={{Eft|Accelerate Charge}}
+|CeC=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+}}
+
+==Notes==
+{{Warp interaction}}
+{{Effective against dragons}}
+{{Neutralize Effective Against Dragons}}
+{{Empathy}}
+{{Temporary buffs}}
+{{FlatDamageBoost|7}}
+{{FlatDamageReduction|7}}
+{{CooldownChargePlus}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%allies%within 2 spaces%can move to a%space within 2 spaces of unit%' OR Description LIKE '%"effective against dragons%"%' OR Description LIKE '%neutralize _effective against dragons_%') AND Exclusive='1'}} 
+* [[Skill families/C Passives#Guidance|Guidance Passives]]
+{{Passives Navbox|C}}

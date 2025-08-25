@@ -1,0 +1,41 @@
+{{Weapon Infobox
+|tagid=SID_高貴な燭台
+|image=wep_lc081
+|weaponType=Lance
+|might=10
+|range=1
+|effect=At start of combat, if unit's HP ≥ 50%, grants Atk/Def+5 during combat, and also, if foe can make a follow-up attack, reduces damage from foe's first attack by 50%.
+|cost=200
+|exclusive=0
+|statModifiers=0,10,0,0,0
+|required=Steel Lance
+|next=Courtly Candle+
+|promotionRarity=5
+|promotionTier=1
+|intID=2208
+|sort=85000
+|value=11
+|timingID=1
+|abilityID=230
+|limit1ID=42
+|properties=
+}}
+==Notes==
+{{Combat boosts}}{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Courtly Candle
+|japanese=高貴な燭台
+|german=Edle Kerze
+|spanishEU=Candil áulico
+|spanishLA=Candil real
+|french=Bougie raffinée
+|italian=Candela cortese
+|chineseTW=高貴的燭台
+|portuguese=Vela de cortejo
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe can make a follow-up attack, reduces damage from foe_s first attack%'|columns=3}}
+{{Weapons Navbox}}

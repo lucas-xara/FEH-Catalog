@@ -1,0 +1,61 @@
+{{Passive
+|name=Lone Wolf
+|type=B
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Lone Wolf
+|1tagid=SID_一匹狼
+|1effect=If a skill compares unit's Spd to a foe's or ally's Spd, treats unit's Spd as if granted +7.<br><br>If unit has not used or been the target of an Assist skill during the current turn, grants another action to unit and inflicts【Isolation】 on unit and Pair Up cohort through their next action in the following cases: A) unit initiated combat, or B) unit took action without entering combat (takes priority over Canto; once per turn, with A and B counted separately).<br><br>At start of combat, if unit's HP ≥ 25% or if number of allies adjacent to unit ≤ 1, inflicts Atk/Spd/Def/Res-5 on foe, deals damage = 20% of unit's Spd (including when dealing damage with a Special triggered before combat), and reduces damage from foe's attacks by 20% of unit's Spd during combat (including when taking damage from a Special triggered before combat), and also, when foe's attack triggers foe's Special, reduces damage by 20% of unit's Spd (including when taking damage from a Special triggered before combat).<br><br>【Isolation】<br>Target cannot use or be the target of Assist skills through its next action. (Target can neither use nor be the target of skills like Dance and Sing, skills that neutralize penalties, like Restore and Harsh Command+, etc.)
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Galeforce}}<br>(once per turn)
+|Me1C=After combat in<br>Player Phase '''&'''<br>(An [[Assist]] isn't used<br>on '''or''' by {{Tgt|Unit}})
+|Me2={{Eft|Galeforce}}<br>(once per turn)
+|Me2C={{Tgt|Unit}} acted without<br>entering combat '''&'''<br>(An [[Assist]] isn't used<br>on '''or''' by {{Tgt|Unit}})
+|Se={{SEt|Isolation}}
+|SeT={{Tgt|Unit}} '''&'''<br>{{Tgt|Cohort}}
+|SeC=After first<br>{{Eft|Galeforce}}<br>effect triggers
+|Ce1={{Eft|Phantom|Spd|7}}
+|Ce2={{Eft|Temporary debuffs|Atk/Spd/Def/Res|5}}
+|Ce2T={{Tgt|Foe}}
+|Ce3={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}<br>before '''&''' during combat
+|Ce4={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Spd}} from<br>attacks & Non-Røkkr [[AoE Specials]]
+|Ce5={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Spd}}<br>per {{Tgt|Foe}}'s [[offensive special|offensive]]<br>& Non-Røkkr [[AoE Specials]]
+|Ce3-5T={{Tgt|Unit}}
+|Ce2-5C={{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat '''or'''<br>[[adjacent]] {{Tgt|Allies}} ≤ 1
+}}
+
+==Notes==
+{{Galeforce notes}}
+{{Isolation}}
+{{Phantom|Spd}}
+{{Temporary debuffs}}
+{{DamageBoost}}
+{{FlatDamageReduction}}
+{{FlatAoEDamageReduction}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=一匹狼
+|german=Einsamer Wolf
+|spanishEU=Lobo solitario
+|spanishLA=Lobo solitario
+|french=Loup solitaire
+|italian=Lupo solitario
+|chineseTW=獨行俠
+|portuguese=Lobo solitário
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%deals damage =%reduces damage%of unit_s Spd%'  OR Description LIKE '%another action%【Isolation】%') AND Exclusive='1'}}
+* [[Phantom Passives]]
+* [[Dodge Passives]]
+{{Passives Navbox|B}}

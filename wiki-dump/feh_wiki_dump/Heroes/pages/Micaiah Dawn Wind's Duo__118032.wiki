@@ -1,0 +1,81 @@
+{{#invoke:NameAbout|main|Name=Micaiah|Name2=Sothe}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Micaiah
+|Title=Dawn Wind's Duo
+|WeaponType=Colorless Tome
+|Origin=Fire Emblem: Radiant Dawn
+|Gender=FM
+|duo=Grants【Dominance】to unit and allies within 3 columns centered on unit. Inflicts Def/Res-7 on foes within 3 columns centered on unit through their next actions.<br><br>【Dominance】<br>Unit deals additional damage = total penalties on foe for 1 turn.
+|secondPerson=Sothe
+|Duel=185
+|MoveType=Flying
+|actorJP=桑谷夏子,間島淳司
+|actorEN=Veronica Taylor,Nicolas Roye
+|artist=teffish
+|additionDate=May 20, 2020
+|releaseDate=May 20, 2020
+|TagID=比翼ミカヤ
+|InternalID=520
+|Properties=duo,special,specRate_202402
+|cv1=9
+|cv2=100100
+|description=Sharing a mutual trust rivaling that even of siblings, they are dressed to participate in the festival activities. They appear in Fire Emblem: Radiant Dawn.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=9|Lv1SPD=5|Lv1DEF=4|Lv1RES=10
+|GRHP=50|GRATK=70|GRSPD=35|GRDEF=35|GRRES=65
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Stone
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elstone
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Atlas (weapon)
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Joyful Vows
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Ardent Sacrifice
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Sacrifice
+|assist2Default=
+|assist2Unlock=5
+}}
+===Specials===
+{{Specials Table
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Res Push 1
+|passiveA2=Atk/Res Push 2
+|passiveA3=Atk/Res Push 3
+|passiveA4=Atk/Res Push 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Mystic Boost 1
+|passiveB2=Mystic Boost 2
+|passiveB3=Mystic Boost 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Atk/Res Oath 1
+|passiveC2=Atk/Res Oath 2
+|passiveC3=Atk/Res Oath 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Sources of damage-boosting effects]][[Category:Sources of Dominance]][[Category:Sources of penalties]][[Category:Sources of status effects]]
+[[Category:Bridal Festival units]]

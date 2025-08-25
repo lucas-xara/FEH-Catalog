@@ -1,0 +1,36 @@
+{{Weapon Infobox
+|tagid=SID_舞踏の輪
+|weaponType=Green Tome
+|might=8
+|range=2
+|effect=If unit initiates combat, restores 7 HP to adjacent allies after combat.
+|cost=200
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|next=Dancer's Ring+
+|promotionRarity=5
+|promotionTier=1
+|required=Elwind
+|properties=
+}}
+==Notes==
+* Has the same effect as {{St|Breath of Life 3}}.
+{{IfUnitInitiates}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=舞踏祭の輪
+|german=Tanzring
+|spanishEU=Anillo de baile
+|spanishLA=Anillo de baile
+|french=Anneau festif
+|italian=Anello d'arte
+|chineseTW=舞會之環
+|portuguese=Anel de dança
+}}
+==See also==
+* [[Performing Arts Weapons]]
+* [[Aura]]
+{{Weapons Navbox}}
+[[Category:Performing Arts weapons]]

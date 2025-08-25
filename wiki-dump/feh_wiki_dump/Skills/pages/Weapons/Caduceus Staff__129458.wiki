@@ -1,0 +1,91 @@
+{{Weapon Infobox
+|tagid=SID_カドゥケウスの杖
+|weaponName=Caduceus Staff
+|image=wep_rd031
+|weaponType=Staff
+|might=14
+|range=2
+|effect=Calculates damage from staff like other weapons. Reduces damage from foes' attacks during combat to allies within 2 spaces by 30%.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,0,0,0
+|required=Assault
+|intID=2274
+|sort=460
+|effectRange=2
+|value=20
+|timingID=2
+|abilityID=237
+|randomTimestamp=2020-11-19T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Calculates damage from staff like other weapons.<br><br>For allies within 2 spaces of unit, grants Atk/Res+4, reduces damage from foe's attacks by 30% (excluding area-of-effect Specials), and inflicts Special cooldown charge -1 on foe per attack during combat (only highest value applied; does not stack).<br><br>If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit, reduces damage from foe's attacks by 30% (excluding area-of-effect Specials), and inflicts Special cooldown charge -1 on foe per attack during combat (only highest value applied; does not stack).
+|refineStatsSkill1=0,0,0,0,0
+|effectSkill1=Allies within 2 spaces of unit can move to any space within 2 spaces of unit.<br><br>At start of turn, if unit is within 2 spaces of an ally, grants Atk/Res+6 and "Special cooldown charge +1 per attack during combat (only highest value applied; does not stack)" to unit and allies within 2 spaces of unit for 1 turn.<br><br>If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit and unit makes a guaranteed follow-up attack during combat.
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Ce1={{Eft|Wrathful Staff}}
+|s1 Ce2={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s attacks
+|s1 Ce2T={{Tgt|Allies}}<br>[[within 2 spaces]]
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Ce1={{Eft|Wrathful Staff}}
+|s2 Ce2={{Eft|Temporary buffs|Atk/Res|4}}
+|s2 Ce3={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s attacks
+|s2 Ce2-3T={{Tgt|Allies}}<br>[[within 2 spaces]]
+|s2 Ce4={{Eft|Guard}}
+|s2 Ce4T={{Tgt|Foes}} of {{Tgt|Allies}}<br>[[within 2 spaces]]
+|s2 Ce5={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s2 Ce6={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s attacks
+|s2 Ce5-6T={{Tgt|Unit}}
+|s2 Ce7={{Eft|Guard}}
+|s2 Ce7T={{Tgt|Foe}}
+|s2 Ce5-7C=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|skill3={{Si|Caduceus Staff|refine=Skill1}} Skill refine effects
+|s3 Me={{Eft|Warp|[[within 2 spaces]] of {{Tgt|Unit}}}}
+|s3 MeT={{Tgt|Allies}}<br>[[within 2 spaces]]
+|s3 Se1={{Eft|Bonuses|Atk/Res|6}}
+|s3 Se2={{SEt|Special Cooldown Charge +1}}
+|s3 SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|s3 SeC=At start of turn<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s3 Ce2={{Eft|Guaranteed Follow-Ups}}
+|s3 CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+==Notes==
+* Caduceus Staff has the same effect as {{St|Wrathful Staff 3}}.
+{{Wrathful Staff}}
+{{DamagePercentageReduction}}
+{{AlliesCombatEffect}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary buffs|name=Refined Caduceus Staff}}
+{{CooldownChargeMinus|name=Refined Caduceus Staff}}
+{{AlliesCombatEffect|temporary buffs, reduce damage and special cooldown charge -1 effects|name=Refined Caduceus Staff}}
+{{Bonuses|name={{St|Caduceus Staff|refine=Skill1}}}}
+{{Special Cooldown Charge +1|name={{St|Caduceus Staff|refine=Skill1}}}}
+{{IfUnitInitiates}}
+{{Guaranteed follow-up interaction|name={{St|Caduceus Staff|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Caduceus Staff
+|japanese=カドゥケウスの杖
+|german=Caduceus
+|spanishEU=Caduceo
+|spanishLA=Caduceo
+|french=Caducée
+|italian=Bastone caduceo
+|chineseTW=卡度凱烏斯之杖
+|portuguese=Bastão Caduceus
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%educes damage from%to allies within _ spaces%' OR Description LIKE '%allies within _ spaces%reduces damage%by%to those allies%'}}
+{{Weapons Navbox}}

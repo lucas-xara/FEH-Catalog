@@ -1,0 +1,39 @@
+{{Weapon Infobox
+|tagid=SID_斬馬刀
+|weaponType=Sword
+|weaponName={{PAGENAME}}
+|might=10
+|range=1
+|effectiveness=cavalry
+|effect=Effective against cavalry foes.
+|cost=200
+|exclusive=0
+|statModifiers=0,10,0,0,0
+|next=Zanbato+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Sword
+|properties=random_all
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce={{Eft|Effectiveness|{{Mt|Cavalry}}}}
+}}
+==Notes==
+{{Effective damage bonus|cavalry}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=斬馬刀
+|german=Zanbato
+|spanishEU=Zanbato
+|spanishLA=Zanbato
+|french=Zambato
+|italian=Zanbato
+|chineseTW=斬馬刀
+|portuguese=Zambato
+}}
+==See also==
+* [[Weapons that are effective against cavalry foes]]
+{{Weapons Navbox}}

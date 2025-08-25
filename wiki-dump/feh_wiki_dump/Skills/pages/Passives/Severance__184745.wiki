@@ -1,0 +1,96 @@
+{{Passive
+|type=C
+|name=Severance
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Severance
+|1tagid=SID_すべてが閉じた世界
+|1cost=300
+|1effect=At start of turn, inflicts【Undefended】and 【Feud】on foes within 3 columns or 3 rows centered on unit. At start of turn, if a foe is within 3 columns or 3 rows centered on unit, neutralizes any【Penalty】(excluding penalties inflicted at start of turn) and grants 【Dodge】to unit.<br><br>【Undefended】<br>Unit cannot be protected by Savior through their next action.<br><br>【Feud】<br>Disables all ally skills (excluding unit's) during combat through unit's next action.<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).<br><br>【Dodge】<br>If unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 4 (max 40%).
+|1required=-
+|1next=-
+|2name=Severance+
+|alt2name=Severance Plus
+|2tagid=SID_すべてが閉じ…・神
+|2effect=If unit can transform, transformation effects gain "if any foe is within 3 columns or 3 rows centered on unit" as a trigger condition (in addition to existing conditions).<br><br>If defending in Aether Raids, at the start of enemy turn 1, if conditions for transforming are met, unit transforms.<br><br>At start of turn, if any foe is within 3 rows or 3 columns centered on unit, inflicts 【Undefended】and【Feud】on those foes, and neutralizes any penalties (excluding penalties inflicted at start of turn) and grants【Dodge】 to unit.<br><br>If unit is transformed or if foe's HP ≥ 75% at start of combat, grants Atk/Spd+5 to unit, unit deals +7 damage (excluding area-of-effect Specials), and grants Special cooldown count-1 to unit before unit's first attack during combat.<br><br>【Undefended】<br>Unit cannot be protected by Savior through their next action.<br><br>【Feud】<br>Disables all ally skills (excluding unit's) during combat through unit's next action.<br><br>【Dodge】<br>If unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 4 (max 40%).
+|2cost=300
+|properties2=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Severance}} Severance
+|s1 Se1={{SEt|Undefended}}
+|s1 Se2={{SEt|Feud}}
+|s1 SeT1-2={{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|s1 SeC1-2=At start of turn
+|s1 Se3={{SEt|Dodge}}
+|s1 SeC3-4=At start of turn<br>if a {{Tgt|Foe}} is within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|s1 Se4=Removes {{Kp|Penalty}} effects
+|skill2={{Si|Severance+}} Severance+
+|s2 Me1={{Eft|Added Transform Condition|if a {{Tgt|Foe}} is<br>within [[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}}}
+|s2 Me2={{Eft|AR-D Transform}}
+|s2 Me2C=At start of<br>Enemy Turn 1
+|s2 Se1={{SEt|Undefended}}
+|s2 Se2={{SEt|Feud}}
+|s2 SeT1-2={{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|s2 SeC1-2=At start of turn
+|s2 Se3={{SEt|Dodge}}
+|s2 SeC3-4=At start of turn<br>if a {{Tgt|Foe}} is within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|s2 Se4=Removes {{SEt|Penalties}}
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd|5}}
+|s2 Ce2={{Eft|Damage Boost|7}}
+|s2 Ce3={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Unit}}'s first attack
+|s2 CeC={{Tgt|Unit}} is transformed<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+}}
+
+==Notes==
+{{Undefended}}
+{{Feud}}
+{{Penalty neutralization|negstatuses=all {{Kp|Penalty}} effects}}
+{{Dodge}}
+{{TransformConditionAdd|name=Severance+}}
+{{Penalty neutralization|name=Severance+|negstatuses=all {{SEt|Penalties}}}}
+{{IfUnitTransforms|name=Severance+}}
+{{Temporary buffs|name=Severance+}}
+{{FlatDamageBoost|7|name=Severance+}}
+{{CombatCooldownCount|-1|name=Severance+}}
+{|class="wikitable default mw-collapsible" style="text-align:center;” 
+!Example of Area of Effect for Severance
+|-
+|style="max-width:450px;margin:auto;" align="middle"|{{AoE|u=Embla: God of Closure|t=Askr: God of Openness
+|---xxx---
+|---xxx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xtx---
+|---xxx---
+}}
+|}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=すべてが閉じた世界
+|german=Abschottung
+|spanishEU=Reclusión
+|spanishLA=Reclusión
+|french=Réclusion
+|italian=Rottura
+|chineseTW=一切都被封閉的世界
+|portuguese=Separação
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Undefended】%' OR Description LIKE '%【Feud】%' OR Description LIKE '%If unit can transform, transformation effects%' OR Description LIKE '%Savior skills will not trigger%') AND (Exclusive=1 AND Name NOT LIKE '%+')}}
+* [[Feud Passives]]
+* [[Skill families/A Passives#Fortune|Fortune Passives]]
+{{Passives Navbox|C}}

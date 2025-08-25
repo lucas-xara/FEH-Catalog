@@ -1,0 +1,43 @@
+{{Weapon Infobox
+|tagid=SID_神舞のブレス
+|intID=3270
+|image=wep_ac059
+|exclusive=1
+|weaponType=Dragonstone
+|cost=400
+|might=16
+|range=1
+|effect=Grants Atk+3. If Sing or Dance is used, inflicts Def/Res-6 on nearest foes within 4 spaces of both unit and target ally through their next actions. At start of combat, if unit's HP ≥ 40%, grants Atk/Spd+6 to unit during combat, and also, if unit initiates combat, neutralizes effects that prevent unit's follow-up attacks, and also, if unit initiates combat and has weapon-triangle advantage or【Penalty】is active on foe, foe cannot counterattack. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|statModifiers=0,19,0,0,0
+|required=Flametongue
+|properties=random_owner
+}}
+==Notes==
+{{Penalties}}
+{{Temporary buffs}}
+{{IfUnitInitiates}}
+{{Follow-up effect neutralization|preventOnly=1}}
+{{WTA}}
+{{EffectfromPenalty}}
+{{Prevent counterattacks}}
+{{LowerDefRes}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Faithful Breath
+|japanese=神舞のブレス
+|german=Treuer Atem
+|spanishEU=Aliento fiel
+|spanishLA=Soplo fiel
+|french=Souffle fidèle
+|italian=Soffio leale
+|chineseTW=神舞吐息
+|portuguese=Sopro fiel
+}}
+
+==See also==
+{{See also skills|cond=(Description LIKE '%if sing or dance is used%inflicts%' OR Description LIKE '%has weapon-triangle advantage%') AND Description NOT LIKE '%disadvantage%' AND Exclusive='1'}}
+* [[Skill families#Cantrip|Cantrip Passives]]
+{{Weapons Navbox}}

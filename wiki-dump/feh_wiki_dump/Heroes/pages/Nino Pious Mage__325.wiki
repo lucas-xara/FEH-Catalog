@@ -1,0 +1,81 @@
+{{#invoke:NameAbout|main|Name=Nino}}{{HeroPage Tabs|{{PAGENAME}}}}
+{{Hero Infobox
+|Name=Nino
+|Title=Pious Mage
+|GrowthModifier= None
+|WeaponType=Green Tome
+|Origin=Fire Emblem: The Blazing Blade
+|Gender=Female
+|MoveType=Infantry
+|actorEN=Sarah Blandy
+|actorJP=優木かな
+|artist=アマガイタロー
+|resplendentArtist=さくらしおり
+|releaseDate = February 2, 2017
+|poolDate = February 2, 2017
+|randomStartTime=2017-02-02T07:00:00Z
+|poolRarities=3,4
+|TagID=ニノ
+|InternalID=83
+|cv1=6
+|cv2=2900900
+|description=A kindhearted member of the Black Fang assassins. Longed to help her mother. Appears in Fire Emblem: The Blazing Blade.
+|Properties=resplendent,embla
+|resplendentStartTime=2021-05-25T07:00:00Z
+|resplendentEndTime=2021-06-10T06:59:59Z
+}}
+
+__TOC__
+
+{{Stats Page|Hero={{BASEPAGENAME}}
+|Lv1HP=16|Lv1ATK=7|Lv1SPD=10|Lv1DEF=4|Lv1RES=7
+|GRHP=40|GRATK=60|GRSPD=60|GRDEF=35|GRRES=45
+}}
+
+== Skills ==
+
+===Weapons===
+{{Weapons Table
+|weapon1=Wind
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elwind
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Gronnblade
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Gronnblade+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Iris's Tome
+|weapon5Unlock=5
+}}
+
+===Assists===
+{{Assists Table
+|assist1=Draw Back
+|assist1Default=4
+|assist1Unlock=3
+}}
+
+===Specials===
+{{Specials Table
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Resistance +1
+|passiveA2=Resistance +2
+|passiveA3=Resistance +3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Hone Atk 1
+|passiveC2=Hone Atk 2
+|passiveC3=Hone Atk 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+
+{{Heroes Navbox}}

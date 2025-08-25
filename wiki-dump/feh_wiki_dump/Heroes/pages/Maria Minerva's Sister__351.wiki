@@ -1,0 +1,70 @@
+{{#invoke:NameAbout|main|Name=Maria}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Maria
+|Title=Minerva's Sister
+|WeaponType=Colorless Staff
+|Origin=Fire Emblem: Mystery of the Emblem
+|Gender=Female
+|MoveType=Infantry
+|actorEN=Wendee Lee
+|actorJP=洲崎綾
+|artist=kaya8
+|releaseDate=February 2, 2017
+|poolDate=February 2, 2017
+|randomStartTime=2017-02-02T07:00:00Z
+|poolRarities=3,4
+|TagID=マリア
+|InternalID=87
+|Properties=demoted_240
+|cv1=1
+|cv2=400300
+|description=Princess of Macedon. Younger sister of Minerva and Michalis, whom she loves dearly. Appears in Fire Emblem: Mystery of the Emblem.
+|GrowthModifier=None
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=5|Lv1SPD=8|Lv1DEF=4|Lv1RES=10
+|GRHP=45|GRATK=50|GRSPD=60|GRDEF=35|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Assault
+|weapon1Unlock=1
+|weapon2=Panic
+|weapon2Unlock=3
+|weapon3=Panic+
+|weapon3Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Heal
+|assist1Default=1
+|assist1Unlock=1
+|assist2=Mend
+|assist2Default=3
+|assist2Unlock=2
+|assist3=Physic
+|assist3Default=5
+|assist3Unlock=4
+|assist4=Physic+
+|assist4Unlock=5
+}}
+===Specials===
+{{Specials Table
+|special1=Imbue
+|special1Default=4
+|special1Unlock=2
+|special2=Miracle
+|special2Default=5
+|special2Unlock=3
+}}
+===Passives===
+{{Passives Table
+|passiveC1=Fortify Res 1
+|passiveC2=Fortify Res 2
+|passiveC3=Fortify Res 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

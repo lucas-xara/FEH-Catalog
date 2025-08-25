@@ -1,0 +1,57 @@
+{{Passive
+|name=Divine Brawn
+|type=B
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Divine Brawn
+|1tagid=SID_神獣の逞しき肉体
+|1effect=Enables【Canto (２)】.<br><br>Removes the condition to transform. If defending in Aether Raids, at the start of enemy turn 1, if unit can transform, unit transforms.<br><br>After start-of-turn effects trigger on player phase or enemy phase, neutralizes any 【Penalty】on unit (does not apply to【Penalty】effects that are applied at the same time).<br><br>At start of combat, if unit's Atk ≥ foe's Atk-5, inflicts Atk/Def-7 on foe during combat. At start of combat, if unit's Def ≥ foe's Def-5, inflicts Atk/Def-7 on foe during combat.<br><br>Inflicts Atk/Def-5 on foe and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials), and restores 7 HP to unit after combat.<br><br>【Canto (２)】<br>After an attack, Assist skill, or structure destruction, unit can move ２ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Canto|2}}
+|Me2={{Eft|Remove Transform Condition}}
+|Me3={{Eft|AR-D Transform}}
+|Me3C=At start of<br>Enemy Turn 1
+|Me4={{Eft|Heal|7}}
+|Me4C=After combat
+|Se=Removes {{Kp|Penalty}} effects
+|SeC=At start of both Phases
+|Ce1={{Eft|Temporary debuffs|Atk/Def|7}}
+|Ce1C={{Tgt|Unit}}'s Atk ≥<br>{{Tgt|Foe}}'s Atk-5<br>at start of combat
+|Ce2={{Eft|Temporary debuffs|Atk/Def|7}}
+|Ce2C={{Tgt|Unit}}'s Def ≥<br>{{Tgt|Foe}}'s Def-5<br>at start of combat
+|Ce3={{Eft|Temporary debuffs|Atk/Def|5}}
+|Ce4={{Eft|Reduce Damage Reduction|50%}}
+|CeT={{Tgt|Foe}}
+}}
+
+==Notes==
+{{Canto|2}}
+{{TransformConditionRemoval}}
+{{Penalty neutralization|negstatuses=all {{Kp|Penalty}} effects}}
+{{At start of combat}}
+{{Temporary debuffs}}
+{{Reduce Damage Reduction}}
+{{After combat healing}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%removes the condition to transform%' OR Description LIKE '%neutralizes any【Penalty】%' OR Description LIKE '%unit_s Atk%at start of combat%≥%foe_s Atk%at start of combat%' OR Description LIKE '%unit_s Def%at start of combat%≥%foe_s Def%at start of combat%') AND (Exclusive='1' AND Name NOT LIKE '%+')}}
+* [[Beast Passives]]
+{{Passives Navbox|B}}

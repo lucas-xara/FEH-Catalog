@@ -1,0 +1,52 @@
+{{Weapon Infobox
+|tagid=SID_見切り追撃の槍
+|intID=4180
+|image=wep_lc169
+|exclusive=0
+|weaponType=Lance
+|cost=200
+|might=10
+|range=1
+|effect=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+5 to unit during combat, and also, if unit's Spd > foe's Spd, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks and deals +5 damage during combat (except when dealing damage with area-of-effect Specials).
+|required=Steel Lance
+|next=Null Spear+
+|promotionRarity=5
+|promotionTier=1
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary buffs|Atk/Spd|5}}
+|Ce1C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce2={{Eft|Damage Boost|5}}
+|Ce3={{Eft|Neutralize Prevent Follow-Ups}}
+|Ce4={{Eft|Neutralize Guaranteed Follow-Ups}}
+|Ce4T={{Tgt|Foe}}
+|Ce2-4C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' {{Tgt|Unit}}'s Spd<br>> {{Tgt|Foe}}'s Spd
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{Follow-up effect neutralization}}
+{{FlatDamage|5}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=見切り追撃の槍
+|german=Negationslanze
+|spanishEU=Pica anuladora
+|spanishLA=Pica nula
+|french=Lance obstacle
+|italian=Lancia del vento
+|chineseTW=識破追擊之槍
+|portuguese=Lança nula
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants Atk/Spd+%during combat%neutralizes effects%guarantee%prevent%' AND Description NOT LIKE '%【Null Follow-Up】%' AND Exclusive='1' AND Name NOT LIKE 'Null%+'}}
+* [[Skill_families/Weapons#Null_(weapons)|Null Weapons]]
+{{Weapons Navbox}}

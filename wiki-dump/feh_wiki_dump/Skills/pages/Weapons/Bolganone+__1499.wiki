@@ -1,0 +1,39 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_ボルガノン＋
+|weaponType=Red Tome
+|might=13
+|range=2
+|effect=
+|cost=300
+|exclusive=0
+|userVersion1=Closed
+|userVersion2=Open
+|statModifiers=0,13,0,0,0
+|required=Bolganone
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|upgradedMight=14
+|SE=se_effect_volganon.flac
+|properties=random_all
+}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ボルガノン＋
+|german=Bolganone+
+|spanishEU=Bolganone +
+|spanishLA=Bolganone +
+|french=Bolganone +
+|italian=Bolganone+
+|chineseTW=火山爆焰＋
+|portuguese=Bolganone+
+}}
+==See also==
+* [[Silver Weapons]]
+{{Weapons Navbox}}
+[[Category:Silver weapons]]

@@ -1,0 +1,43 @@
+{{Special
+|tagid=SID_瞬殺
+|intID=4187
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=2
+|effect=Treats foe's Def/Res stats as if reduced by 40% when Special triggers.<br><br>When Special triggers, neutralizes foe's "reduces damage by X%" effects from foe's non-Special skills, and also, if damage dealt prior to damage reduction calculation < foe's HP - 1, sets damage before damage reduction as foe's HP - 1 (excluding certain foes, such as Røkkr).<br><br>If unit's or foe's Special is ready or triggered before or during this combat, reduces damage from foe's next attack by 30% (once per combat; excluding area-of-effect Specials).
+|required=Moonbow
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1=Treats {{Tgt|foe}}'s Def/Res<br>as if reduced by 40%
+|Ce2={{Eft|Neutralize Damage Reduction}}
+|Ce1-2T={{Tgt|Foe}}
+|Ce1-2C=Special triggers
+|Ce3={{Efi|Damage Boost}} Sets damage dealt to X<br>X = {{Tgt|Foe}}'s Max HP -1<br>(excluding Røkkr {{Tgt|Foes}})
+|Ce3C=Special triggers<br>'''&''' damage dealt<br>before reductions<br>< {{Tgt|Foe}}'s HP - 1
+|Ce4={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s next attack
+|Ce4C={{Tgt|Unit}} or {{Tgt|Foe}}'s<br>Special is ready '''or'''<br>triggered before or<br>during combat
+}}
+==Notes==
+{{DamageReductionNeutralization}}
+{{FlatDamage|(foe's HP - 1)}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=瞬殺
+|german=Verderben
+|spanishEU=Maldición
+|spanishLA=Maldición
+|french=Fléau
+|italian=Sciagura
+|chineseTW=瞬殺
+|portuguese=Maldição
+}}
+==See also==
+{{See also skills|cond=(SCategory='special' AND Description LIKE '%Treats foe_s Def/Res as if reduced by __% during combat%' OR Description LIKE '%special is ready or triggered before or during this combat%' OR Description LIKE '%sets damage before damage reduction as foe_s HP - 1%') AND Exclusive='1'}}
+{{Specials Navbox}}

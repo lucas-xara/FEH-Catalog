@@ -1,0 +1,54 @@
+{{Passive
+|type=C
+|exclusive=0
+|1name=Pulse Smoke 1
+|1tagid=SID_鼓動の幻煙1
+|1promotionRarity=4
+|1promotionTier=1
+|1effect=If unit initiates combat, inflicts Special cooldown count+1 on target and foes within 1 space of target after combat. (No effect on Special cooldown counts already at maximum.)
+|1cost=60
+|2name=Pulse Smoke 2
+|2tagid=SID_鼓動の幻煙2
+|2promotionRarity=5
+|2promotionTier=1
+|2effect=If unit initiates combat, inflicts Special cooldown count+1 on target and foes within 2 spaces of target after combat. (No effect on Special cooldown counts already at maximum.)
+|2cost=120
+|3name=Pulse Smoke 3
+|3tagid=SID_鼓動の幻煙3
+|3effect=Inflicts Special cooldown count+1 on target and foes within 2 spaces of target after combat. (No effect on Special cooldown counts already at maximum.)
+|3cost=240
+|canUseWeapon={{WeaponList|exclude=staff}}
+|canUseMove={{MoveList|all}}
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Increase Cooldown|1}}
+|MeT={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|MeC=After combat
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{After combat note}}
+{{After combat Special modification}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=鼓動の幻煙
+|german=Pulsrauch
+|spanishEU=Pulso humoso
+|spanishLA=Pulso humoso
+|french=Pouls vaporeux
+|italian=Battito fumo
+|chineseTW=躍動的幻煙
+|portuguese=Pulso fumaça
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%inflicts%special cooldown count+1%foes%' AND WikiName NOT LIKE '%seal%'}}
+* [[Smoke Passives]]
+{{Passives Navbox|C}}

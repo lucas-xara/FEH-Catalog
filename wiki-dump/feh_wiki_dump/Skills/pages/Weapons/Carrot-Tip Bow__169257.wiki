@@ -1,0 +1,43 @@
+{{Weapon Infobox
+|tagid=SID_春花の弓
+|intID=2997
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=0
+|weaponType=Bow
+|cost=200
+|might=8
+|range=2
+|effectiveness=Flying
+|effect=Effective against flying foes. At start of combat, if foe's HP ≥ 75% or【Penalty】is active on foe, grants Atk/Def+5 to unit during combat and unit's first attack during combat deals damage = total Atk/Def penalties on foe.<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|statModifiers=0,8,0,0,0
+|required=Steel Bow
+|next=Carrot-Tip Bow+
+|promotionRarity=5
+|promotionTier=1
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{EffectfromPenalty}}
+{{Temporary buffs}}
+{{DamageBoost}}
+{{EffectfromPenalties|damage boost}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=春花の弓
+|german=Karottenbogen
+|spanishEU=Arco verdor
+|spanishLA=Arco zanahoria
+|french=Arc légume
+|italian=Carotarco
+|chineseTW=春花之弓
+|portuguese=Arco de rama
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%deals damage = total%penalties%' AND Exclusive='1'}}
+{{Weapons Navbox}}

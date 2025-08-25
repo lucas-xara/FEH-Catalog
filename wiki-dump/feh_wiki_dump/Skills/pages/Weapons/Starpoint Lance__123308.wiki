@@ -1,0 +1,82 @@
+{{Weapon Infobox
+|tagid=SID_海角の星槍
+|weaponType=Lance
+|might=16
+|range=1
+|effect=Grants Spd+3. During unit's first combat in player phase or enemy phase, grants Atk/Spd/Def/Res+5 to unit and restores 10 HP to unit after combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,3,0,0
+|required=Silver Lance
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|cooldownSkill1=-1
+|upgradedEffect=Grants Spd+3.<br><br>Grants Atk/Spd/Def/Res+5 to unit, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks, and if it is unit's first combat initiated by foe or first combat initiated by unit that turn, reduces the percentage of foe's non-Special "reduce damage by X%" skills by 80% during combat, otherwise, by 40% (excluding area-of-effect Specials).<br><br>Restores 10 HP to unit after combat.
+|effectSkill1=Accelerates Special trigger (cooldown count-1).<br><br>At start of turn, if unit is within 2 spaces of an armored ally, an infantry ally with Range = 1, or a flying ally with Range = 1, grants Atk/Spd+6, "unit can move 1 extra space (that turn only; does not stack),"【Canto (１)】, and "Special cooldown charge +1 to unit per attack during combat (only highest value applied; does not stack)" to unit and those allies for 1 turn.<br><br>If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+4 to unit and unit deals damage = 20% of unit's Spd during combat (excluding area-of-effect Specials).<br><br>【Canto (１)】<br>After an attack, Assist skill, or structure destruction, unit can move １ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Spd|3}}
+|s1 Ce={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s1 CeC=During first combat<br>in Both Phases
+|s1 Me={{Eft|Heal|10}}
+|s1 MeC=After first combat<br>in Both Phases
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Spd|3}}
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s2 Ce2={{Eft|Neutralize Prevent Follow-Ups}}
+|s2 Ce3={{Eft|Neutralize Guaranteed Follow-Ups}}
+|s2 Ce4={{Eft|Reduce Damage Reduction|80% if in first combat<br>in Both Phases; else 40%}}
+|s2 Ce3-4T={{Tgt|Foe}}
+|s2 Me={{Eft|Heal|10}}
+|s2 MeC=After combat
+|skill3={{Si|Starpoint Lance|refine=Skill1}} Skill refine effects
+|s3 Pe={{Eft|Accelerates Special}}
+|s3 Se1={{Eft|Bonuses|Atk/Spd|6}}
+|s3 Se2={{SEt|Mobility increased}}
+|s3 Se3={{SEt|Canto (1)}}
+|s3 Se4={{SEt|Special Cooldown Charge +1}}
+|s3 SeT={{Tgt|Unit}} '''&'''<br>{{Tgt|Target Allies}}<br>[[within 2 spaces]]
+|s3 SeC=An {{Mt|Armored}}<br>'''or''' Range = 1<br>({{Mt|Infantry}}<br>'''or''' {{Mt|Flying}})<br>{{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s3 Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|s3 CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+
+==Notes==
+{{FirstCombat}}
+{{Temporary buffs}}
+{{After combat healing}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Reduce Damage Reduction|name=Refined Starpoint Lance}}
+{{Bonuses|name={{St|Starpoint Lance|refine=Skill1}}}}
+{{Mobility increased|name={{St|Starpoint Lance|refine=Skill1}}}}
+{{Canto|1|statusEffect=1|name={{St|Starpoint Lance|refine=Skill1}}}}
+{{Special Cooldown Charge +1|name={{St|Starpoint Lance|refine=Skill1}}}}
+{{IfUnitInitiates}}
+{{DamageBoost|name={{St|Starpoint Lance|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Starpoint Lance
+|japanese=海角の星槍
+|german=Sternenlanze
+|spanishEU=Lanza estrellada
+|spanishLA=Lanza estrellada
+|french=Lance étoilée
+|italian=Lancia marina
+|chineseTW=海角的星槍
+|portuguese=Lança estrelada
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%first combat%' AND Description NOT LIKE '%【Resonance:%' OR Description LIKE '%armored%"unit can move 1 extra space%' OR Description LIKE '%"unit can move 1 extra space%armored%') AND WikiName NOT LIKE '%rabbit%' AND Exclusive='1'}}
+* [[Skill families/Weapons#Rabbit|Rabbit Weapons]]
+* [[Skill families/C Passives#Rein Snap|Rein Snap Passives]]
+{{Weapons Navbox}}

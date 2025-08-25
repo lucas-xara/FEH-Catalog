@@ -1,0 +1,40 @@
+{{Weapon Infobox
+|tagid=SID_アキメネスの花冠
+|intID=2952
+|image=wep_mg311
+|exclusive=1
+|weaponType=Colorless Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). Grants effects based on the number of movement types on the current team (excluding unit): If ≥ 1, inflicts Atk/Def/Res-5 on foes within 3 spaces during combat. If ≥ 2, reduces damage from foe's first attack during combat by 30%. If ≥ 3, grants "when unit deals damage to foe during combat, restores 5 HP to unit (triggers even if 0 damage is dealt)" to unit and allies within 3 spaces of unit during combat.
+|statModifiers=0,14,0,0,0
+|required=Atlas (weapon)
+|properties=
+}}
+==Notes==
+* [[Movement Type]]s refers to if a unit is: {{Mt|Infantry}}, {{Mt|Armored}}, {{Mt|Cavalry}}, or {{Mt|Flying}}.
+{{Temporary debuffs}}
+{{FoesCombatEffect}}
+{{DamagePercentageReduction}}
+{{CombatHPRecovery}}
+{{AlliesCombatEffect|name="when unit deals damage to foe during combat, restores 5 HP to unit"}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=アキメネスの花冠
+|german=Achimeneskranz
+|spanishEU=Corona achimenes
+|spanishLA=Corona achimenes
+|french=Couronne florale
+|italian=Turbine floreale
+|chineseTW=長筒花冠
+|portuguese=Coroa achimenes
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%inflicts %/%/%-%on foes within _ spaces during combat%' OR Description LIKE '%when unit deals damage%restores%' OR Description LIKE '%reduces damage from the foe\'s first attack%') AND Exclusive='1'|columns=3}}
+* [[:Category:Skills that accelerate the Special trigger|Skills that accelerate the Special trigger]]
+* [[Skill families#Rein|Rein Passives]]
+{{Weapons Navbox}}

@@ -1,0 +1,53 @@
+{{Passive
+|name=Binding Necklace
+|type=B
+|exclusive=1
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|1effect=If unit is not adjacent to an ally, grants Atk/Spd/Def/Res+2 to unit and inflicts Atk/Spd/Def/Res-2 on foe during combat, and also, if foe has bonuses, grants bonus to unit's Atk/Spd/Def/Res and inflicts penalty on foe's Atk/Spd/Def/Res during combat = current bonus on each of foe's stats. Calculates each stat bonus independently.
+|intID=2320
+|sort=469
+|value=8
+|timingID=1
+|abilityID=243
+|limit1ID=19
+|randomTimestamp=2020-12-27T07:00:00Z
+|randomMinLv=31
+|properties=random_owner
+|1name=Binding Necklace
+|1tagid=SID_束縛の首飾り
+|1required=-
+|1next=-
+|2name=Binding Necklace+
+|alt2name=Binding Necklace Plus
+|2tagid=SID_束縛の首飾り・神
+|2effect=Removes the condition to transform. If a skill compares unit's Spd to a foe's or ally's Spd, treats unit's Spd as if granted +7. If foe initiates combat or number of allies adjacent to unit ≤ 1, grants Atk/Spd/Def/Res+3 to unit, inflicts Atk/Spd/Def/Res-3 on foe, and neutralizes effects that inflict "Special cooldown charge -X" on unit during combat, and also, if foe has bonuses, grants bonus to unit's Atk/Spd/Def/Res and inflicts penalty on foe's Atk/Spd/Def/Res during combat = current bonus on each of foe's stats. Calculates each stat bonus independently.
+|2cost=300
+|properties2=
+|1cost=300
+}}
+==Notes==
+{{TemporaryBufffromBonus|source=the foe}}
+{{TemporaryDebufffromBonus|source=the foe}}
+{{TransformConditionRemoval|name=Binding Necklace+}}
+{{Phantom Passive notes|Spd|columns=4|name=Binding Necklace+}}
+{{CooldownChargeMinusNeutralization|name=Binding Necklace+}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=束縛の首飾り
+|german=Bindende Kette
+|spanishEU=Collar vinculante
+|spanishLA=Collar vinculante
+|french=Collier d'union
+|italian=Collana vincolante
+|chineseTW=束縛的首飾
+|portuguese=Colar do selo
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe has%bonus%grants%inflicts%' AND Exclusive='1' AND WikiName NOT LIKE '%defier%'}}
+* [[Defier's Weapons]]
+* [[Beast Passives]]
+* [[Phantom Passives]]
+{{Passives Navbox|B}}

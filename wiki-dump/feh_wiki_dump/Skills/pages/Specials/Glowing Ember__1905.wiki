@@ -1,0 +1,32 @@
+{{Special
+|tagid=SID_蛍火
+|name=Glowing Ember
+|charge=4
+|effect=Boosts damage by 50% of unit's Def.
+|cost=100
+|next=Ignis
+|promotionRarity=4
+|promotionTier=2
+|required=-
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_all,offensive_special
+}}
+==Notes==
+{{DamageBoost}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==In other languages==
+{{OtherLanguages
+|japanese=蛍火
+|german=Aschenglut
+|spanishEU=Ascua
+|spanishLA=Ascua
+|french=Braise
+|italian=Tizzone ardente
+|chineseTW=螢火
+|portuguese=Brasa
+}}
+{{Specials Navbox}}

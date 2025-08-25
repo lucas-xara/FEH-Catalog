@@ -1,0 +1,72 @@
+{{#invoke:NameAbout|main|Name=Robin|Name2=Grima}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Robin
+|Title=Fell Reincarnation
+|WeaponType=Green Breath
+|MoveType=Armored
+|Origin=Fire Emblem Awakening
+|Gender=Male
+|actorEN=David Vincent
+|actorJP=細谷佳正
+|artist=大熊ゆうご
+|resplendentArtist=叶之明
+|releaseDate=February 22, 2018
+|poolDate=March 9, 2018
+|randomStartTime=2018-03-21T07:00:00Z
+|poolRarities=5
+|TagID=邪竜ルフレ男
+|InternalID=222
+|Person=Robin M
+|cv1=10
+|cv2=100200
+|Properties=fallen,specRate_202008,resplendent,muspell
+|description=The Ylissean tactician Robin with body and soul ruled by the Fell Dragon, Grima. Appears in Fire Emblem Awakening.
+|resplendentStartTime=2024-05-10T07:00:00Z
+|resplendentEndTime=2024-05-25T06:59:59Z
+}}
+{{Stats Page
+|Lv1HP=24|Lv1ATK=10|Lv1SPD=7|Lv1DEF=9|Lv1RES=5
+|GRHP=55|GRATK=70|GRSPD=40|GRDEF=60|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire Breath
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Fire Breath+
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Flametongue
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Expiration
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=4
+|special1Unlock=3
+|special2=Ignis
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Vengeful Fighter 1
+|passiveB2=Vengeful Fighter 2
+|passiveB3=Vengeful Fighter 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Spur Def 1
+|passiveC2=Spur Def 2
+|passiveC3=Ward Dragons
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

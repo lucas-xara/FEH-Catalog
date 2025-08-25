@@ -1,0 +1,73 @@
+{{#invoke:NameAbout|main|Name=Selena|Name2=Severa}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Selena
+|Title=Cutting Wit
+|GrowthModifier=None
+|WeaponType=Red Sword
+|Origin=Fire Emblem Fates
+|Gender=Female
+|MoveType=Infantry
+|actorEN=Julie Ann Taylor
+|actorJP=世戸さおり
+|artist=ザザ
+|resplendentArtist=加川壱互
+|releaseDate=February 2, 2017
+|poolDate=February 2, 2017
+|randomStartTime=2017-02-02T07:00:00Z
+|poolRarities=3,4
+|TagID=ルーナ
+|InternalID=20
+|cv1=11
+|cv2=500600
+|description=A mysterious woman devoted to service. One of Camilla's retainers. Snarky. Appears in Fire Emblem Fates.
+|Properties=resplendent,embla
+|resplendentStartTime=2024-03-10T07:00:00Z
+|resplendentEndTime=2024-03-25T06:59:59Z
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=6|Lv1SPD=9|Lv1DEF=8|Lv1RES=6
+|GRHP=45|GRATK=45|GRSPD=60|GRDEF=55|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Armorslayer
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Armorslayer+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Selena's Blade
+|weapon5Default=
+|weapon5Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Reposition
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Triangle Adept 1
+|passiveA2=Triangle Adept 2
+|passiveA3=Triangle Adept 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Threaten Spd 1
+|passiveC2=Threaten Spd 2
+|passiveC3=Threaten Spd 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

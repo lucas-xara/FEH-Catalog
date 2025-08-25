@@ -1,0 +1,56 @@
+{{Passive
+|name=Squad Ace AN
+|type=S
+|exclusive=0
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|timingID=0
+|abilityID=0
+|properties=
+|1name=Squad Ace AN 1
+|1tagid=SID_第40迷宮の覇者1
+|1effect=Grants Def/Res+1.
+|1required=-
+|1cost=80
+|statModifiers1=0,0,0,1,1
+|intID1=2293
+|sort1=50390
+|value1=2
+|2name=Squad Ace AN 2
+|2tagid=SID_第40迷宮の覇者2
+|2effect=Grants Def/Res+2.
+|2required=Squad Ace AN 1
+|2cost=160
+|statModifiers2=0,0,0,2,2
+|intID2=2294
+|sort2=50391
+|value2=4
+}}
+==Seal acquired from==
+===Squad Assault reward===
+* Complete the [[40th Assault]].
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Squad Ace AN 1;Squad Ace AN 2
+|badgeColor=Scarlet
+|costs1=-<!--0;0;0-->
+|costs2=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=第４０迷宮の覇者
+|german=Überf.-Ass AN
+|spanishEU=As del asalto AN
+|spanishLA=As del asalto AN
+|french=Assaut réussi AN
+|italian=Asso sq. AN
+|chineseTW=第４０迷宮的霸王
+|portuguese=Esquadrão ás AN
+}}
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}
+[[Category:Squad Ace Seals]]

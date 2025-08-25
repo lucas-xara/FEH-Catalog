@@ -1,0 +1,85 @@
+{{Weapon Infobox
+|tagid=SID_バルフレチェ
+|userVersion1=Bow
+|userVersion2=Arrow
+|weaponType=Bow
+|might=14
+|range=2
+|effectiveness=Flying
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br>Effective against flying foes. If unit is not adjacent to an ally, grants Atk/Spd/Def/Res+5 during combat and unit can counterattack regardless of foe's range.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,0,0,0
+|required=Silver Bow
+|intID=2230
+|sort=449
+|value=20
+|timingID=1
+|abilityID=44
+|limit1ID=19
+|randomTimestamp=2020-10-18T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1).<br>Effective against flying foes.<br><br>If number of allies adjacent to unit ≤ 1, grants Atk/Spd/Def/Res+5 to unit, unit can counterattack regardless of foe's range, and neutralizes effects that inflict "Special cooldown charge -X" on unit during combat, and also, when unit deals damage to foe during combat, restores 7 HP to unit (triggers even if 0 damage is dealt).
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit, inflicts penalty on foe's Atk/Spd/Def = 8 - number of allies adjacent to unit × 2 (min 0), and reduces damage from foe's first attack by 20% of unit's Spd during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and unit's next attack deals damage = total damage reduced from foe's first attack (by any source, including other skills; resets at end of combat).
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Accelerates Special}}
+|s1 Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|s1 Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s1 Ce3={{Eft|Close Counter}}
+|s1 Ce2-3C=No {{Tgt|Allies}}<br>are [[adjacent]]
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Accelerates Special}}
+|s2 Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|s2 Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s2 Ce3={{Eft|Close Counter}}
+|s2 Ce4={{Eft|Neutralize Guard}}
+|s2 Ce5={{Eft|Heal|7}}<br>per {{Tgt|Unit}}'s attack
+|s2 Ce2-5C=[[Adjacent]] {{Tgt|Allies}} ≤ 1
+|skill3={{Si|Double Bow|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s3 Ce2={{Eft|Temporary Debuffs|Atk/Spd/Def|8 - [[adjacent]] {{Tgt|Allies}}|min=0}}
+|s3 Ce2T={{Tgt|Foe}}
+|s3 Ce3={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Spd}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|s3 Ce4={{Eft|Damage Boost|total damage reduced}}<br>from {{Tgt|Foe}}'s first attack<br>for {{Tgt|Unit}}'s next attack<br>(including other sources)
+|s3 Ce3-4T={{Tgt|Unit}}
+|s3 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Effective damage bonus|Flying}}
+{{Temporary buffs}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{CooldownChargeMinusNeutralization|name=Refined Double Bow}}
+{{CombatHPRecovery|name=Refined Double Bow}}
+{{Temporary debuffs|name={{St|Double Bow|refine=Skill1}}}}
+{{DamageBoostFromDamageReduction|flat=1|name={{St|Double Bow|refine=Skill1}}}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Double Bow
+|japanese=バルフレチェ
+|german=Doppelbogen
+|spanishEU=Arco doble
+|spanishLA=Arco doble
+|french=Arc double
+|italian=Arco doppio
+|chineseTW=弘烈弓
+|portuguese=Arco duplo
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%number of allies adjacent to unit ≤ 1%' OR Description LIKE '%reduces damage%next attack%total damage%') AND Exclusive='1'}}
+* [[Weapons with Distant Counter]]
+{{Weapons Navbox}}

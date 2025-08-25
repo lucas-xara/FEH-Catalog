@@ -1,0 +1,29 @@
+{{Special
+|tagid=SID_血讐
+|charge=2
+|effect=Boosts damage by 30% of damage dealt to unit.
+|cost=200
+|required=Retribution
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_all,offensive_special
+}}
+==Notes==
+* Reprisal boosts damage by 30% of ''missing HP at the moment of activation'', not actual damage suffered.
+{{DamageBoost}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=血讐
+|german=Revanche
+|spanishEU=Talión
+|spanishLA=Represalia
+|french=Rancune
+|italian=Rappresaglia
+|chineseTW=血仇
+|portuguese=Retaliação
+}}
+{{Specials Navbox}}

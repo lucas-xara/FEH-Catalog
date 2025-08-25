@@ -1,0 +1,74 @@
+{{#invoke:NameAbout|main|Name=Linde}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Linde
+|Title=Light Mage
+|WeaponType=Blue Tome
+|Origin=Fire Emblem: Mystery of the Emblem
+|Gender=Female
+|MoveType=Infantry
+|actorEN=Julie Ann Taylor
+|actorJP=瀬戸麻沙美
+|artist=切符
+|releaseDate=February 2, 2017
+|poolDate=February 2, 2017
+|randomStartTime=2017-02-02T07:00:00Z
+|poolRarities=5
+|TagID=リンダ
+|InternalID=78
+|Properties=tiara,specRate_201904,resplendent,askr
+|cv1=1
+|cv2=300200
+|description=Daughter of Pontifex Miloah from Archanea. Inherited the light tome Aura. Wants to avenge her father's death. Appears in Fire Emblem: Mystery of the Emblem.
+|GrowthModifier=None
+|resplendentArtist=宮本サトル
+|resplendentStartTime=2020-06-25T07:00:00Z
+|resplendentEndTime=2020-07-10T06:59:59Z
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=9|Lv1SPD=10|Lv1DEF=4|Lv1RES=5
+|GRHP=45|GRATK=60|GRSPD=60|GRDEF=25|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Thunder
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elthunder
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Thoron
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Aura
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+
+===Assists===
+{{Assists Table
+|assist1=Ardent Sacrifice
+|assist1Default=4
+|assist1Unlock=3
+}}
+
+===Specials===
+{{Specials Table
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Speed +1
+|passiveA2=Speed +2
+|passiveA3=Speed +3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Fortify Res 1
+|passiveC2=Fortify Res 2
+|passiveC3=Fortify Res 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+
+{{Heroes Navbox}}

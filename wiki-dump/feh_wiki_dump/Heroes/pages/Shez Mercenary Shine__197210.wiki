@@ -1,0 +1,74 @@
+{{#invoke:NameAbout|main|Name=Shez}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Shez
+|Title=Mercenary Shine
+|WeaponType=Red Sword
+|MoveType=Cavalry
+|Person=Shez F
+|Origin=Fire Emblem Warriors: Three Hopes
+|Gender=Female
+|actorEN=Dawn M. Bennett
+|actorJP=富田美憂
+|artist=やまのかみ
+|additionDate=June 19, 2023
+|releaseDate=June 19, 2023
+|cv1=12
+|cv2=1100200
+|TagID=水着シェズ女
+|InternalID=963
+|Properties=special
+|description=A mercenary from Fódlan given unexpected orders to take some time off seaside in Askr. Appears in Fire Emblem Warriors: Three Hopes.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=16|Lv1SPD=10|Lv1DEF=4|Lv1RES=3
+|GRHP=50|GRATK=70|GRSPD=80|GRDEF=60|GRRES=35
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Surfer's Spire
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Glimmer
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Swift Slice
+|passiveA1Unlock=5
+|passiveB1=Lull Spd/Def 1
+|passiveB2=Lull Spd/Def 2
+|passiveB3=Lull Spd/Def 3
+|passiveB4=Lull Spd/Def 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Threaten Def 1
+|passiveC2=Threat. Atk/Def 1
+|passiveC3=Threat. Atk/Def 2
+|passiveC4=Atk/Def Menace
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Summer units]]

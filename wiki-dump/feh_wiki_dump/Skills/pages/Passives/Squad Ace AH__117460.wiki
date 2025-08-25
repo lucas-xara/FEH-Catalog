@@ -1,0 +1,48 @@
+{{Passive
+|name=Squad Ace AH
+|type=S
+|exclusive=0
+|1name=Squad Ace AH 1
+|1tagid=SID_第34迷宮の覇者1
+|1effect=Grants HP+3, Res+1.
+|1cost=100
+|1required=-
+|1next=-
+|2name=Squad Ace AH 2
+|2tagid=SID_第34迷宮の覇者2
+|2effect=Grants HP+4, Res+2.
+|2cost=200
+|statModifiers1=3,0,0,0,1
+|statModifiers2=4,0,0,0,2
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=
+}}
+==Seal acquired from==
+===Squad Assault reward===
+* Complete the [[34th Assault]].
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Squad Ace AH 1;Squad Ace AH 2
+|badgeColor=Transparent
+|costs1=-
+|costs2=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|english=Squad Ace AH
+|japanese=第３４迷宮の覇者
+|german=Überfall-Ass AH
+|spanishEU=As del asalto AH
+|spanishLA=As del asalto AH
+|french=Assaut réussi AH
+|italian=Asso sq. AH
+|chineseTW=第３４迷宮的霸王
+|portuguese=Esquadrão ás AH
+}}
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}

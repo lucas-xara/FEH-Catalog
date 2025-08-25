@@ -1,0 +1,43 @@
+{{Weapon Infobox
+|tagid=SID_フローズンパフェ
+|weaponName=Peachy Parfait
+|image=wep_mg057
+|weaponType=Red Tome
+|might=8
+|range=2
+|effect=At start of combat, if foe's HP ≥ 75%, grants Res+5 to unit and inflicts Res-5 on foe during combat, and also, if foe has Res bonus, grants bonus to unit's Res and inflicts penalty on foe's Res during combat = current bonus on foe's Res. Calculates each stat bonus independently.
+|cost=200
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|required=Elfire;Ruin
+|next=
+|promotionRarity=5
+|promotionTier=1
+|intID=2610
+|sort=92000
+|value=11
+|timingID=1
+|abilityID=243
+|limit1ID=53
+|properties=
+}}
+==Notes==
+{{TemporaryBufffromBonus|source=foe}}
+{{TemporaryDebufffromBonus|source=foe}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=フローズンパフェ
+|german=Pfirsichparfait
+|spanishEU=Postre helado
+|spanishLA=Postre helado
+|french=Parfait pêche
+|italian=Semifreddo
+|chineseTW=冰涼聖代
+|portuguese=Doce perfeito
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe has%bonus%grants%inflicts%' AND Exclusive='1' AND WikiName NOT LIKE '%defier%'}}
+* [[Skill families/Weapons#Defier's|Defier's Weapons]]
+{{Weapons Navbox}}

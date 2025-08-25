@@ -1,0 +1,72 @@
+{{#invoke:NameAbout|main|Name=Sonya}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Sonya
+|Title=Beautiful Mage
+|WeaponType=Green Tome
+|MoveType=Infantry
+|Origin=Fire Emblem Echoes: Shadows of Valentia
+|Gender=Female
+|actorEN=Tara Sands
+|actorJP=下田岺易
+|artist=鈴木理華
+|additionDate=October 16, 2023
+|releaseDate=October 16, 2023
+|cv1=2
+|cv2=300300
+|TagID=魔器ソニア
+|InternalID=1011
+|Properties=rearmed,hat
+|description=Daughter of Jedah, high priest of the Duma Faithful. She swore vengeance on her father for giving her sisters over to the Fell God. Appears in Fire Emblem Echoes: Shadows of Valentia.
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=8|Lv1SPD=10|Lv1DEF=3|Lv1RES=15
+|GRHP=50|GRATK=90|GRSPD=50|GRDEF=40|GRRES=70
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Wind
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elwind
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Rexcalibur
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Arc. Caliburnus
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Rising Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Blazing Wind
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Beyond Witchery
+|passiveA1Unlock=5
+|passiveB1=Escape Route 1
+|passiveB2=Escape Route 2
+|passiveB3=Escape Route 3
+|passiveB4=Escape Route 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Res Ploy 1
+|passiveC2=Res Ploy 2
+|passiveC3=Res Ploy 3
+|passiveC4=Atk/Res Ploy 3
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}

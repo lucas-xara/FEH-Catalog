@@ -1,0 +1,88 @@
+{{#invoke:NameAbout|main|Name=Alm}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Alm
+|Title=Saint-King
+|GrowthModifier=Gen 3
+|WeaponType=Colorless Bow
+|MoveType=Infantry
+|LegendaryEffect=Earth
+|Duel=175
+|BoostHP=3
+|Origin=Fire Emblem Echoes: Shadows of Valentia
+|Gender=Male
+|artist=新井テル子
+|actorEN=Kyle McCarley
+|actorJP=花江夏樹
+|releaseDate=4/27/2019
+|additionDate=4/26/2019
+|TagID=伝承アルム
+|InternalID=371
+|Properties=legendary
+|cv1=2
+|cv2=100100
+|description=The Rigelian prince who defeated Duma and became the first king of the One Kingdom of Valentia. Later generations remember him fondly as a wise ruler. Appears in Fire Emblem Echoes: Shadows of Valentia.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=11|Lv1SPD=11|Lv1DEF=4|Lv1RES=3
+|GRHP=50|GRATK=60|GRSPD=60|GRDEF=50|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Bow
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Luna Arc
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Moonbow
+|special2Unlock=4
+|special3=Lunar Flash
+|special3Unlock=5
+|special4=Lunar Flash II
+|special4Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Darting Blow 1
+|passiveA2=Darting Blow 2
+|passiveA3=Darting Blow 3
+|passiveA4=Darting Blow 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Null Follow-Up 1
+|passiveB2=Null Follow-Up 2
+|passiveB3=Null Follow-Up 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Odd Atk Wave 1
+|passiveC2=Odd Atk Wave 2
+|passiveC3=Odd Atk Wave 3
+|passiveC4=Time's Pulse 1
+|passiveC5=Time's Pulse 2
+|passiveC6=Time's Pulse 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+|passiveC4Unlock=1
+|passiveC5Unlock=2
+|passiveC6Unlock=4
+}}
+{{Heroes Navbox}}

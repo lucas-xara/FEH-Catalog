@@ -1,0 +1,31 @@
+{{Special
+|tagid=SID_天空
+|charge=5
+|effect=Treats foe's Def/Res as if reduced by 50% during combat. Restores HP = half of damage dealt.
+|cost=500
+|required=Sol;Luna
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_owner,offensive_special
+}}
+==Notes==
+* Has the same effects as {{St|Luna}} and {{St|Sol}}.
+* The healing calculation will always use the [[Damage calculation#Final Damage calculation|final damage number]] for the damage dealt.
+{{CombatHPRecovery}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=天空
+|german=Aithir
+|spanishEU=Éter
+|spanishLA=Éter
+|french=Éther
+|italian=Etere
+|chineseTW=天空
+|portuguese=Éter
+}}
+==See also==
+{{See also skills|cond=SCategory='special' AND Exclusive='1' AND Description LIKE '%Restores HP = __% of damage dealt%'}}
+{{Specials Navbox}}

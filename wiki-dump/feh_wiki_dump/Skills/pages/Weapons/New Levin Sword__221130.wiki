@@ -1,0 +1,55 @@
+{{Weapon Infobox
+|tagid=SID_錬磨サンダーソード
+|intID=4288
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=16
+|range=1
+|cooldown=-2
+|effect=Accelerates Special trigger (cooldown count-2; max cooldown count value cannot be reduced below 1).<br><br>Unit can counterattack regardless of foe's range. Calculates damage using the lower of foe's Def or Res.<br><br>At start of combat, if foe's HP ≥ 75% or if number of allies adjacent to unit ≤ 1, grants Atk/Spd/Def/Res+5 to unit, grants bonus to unit's Atk/Spd/Def/Res = 15% of unit's Spd at start of combat, neutralizes effects that inflict "Special cooldown charge -X" on unit, and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials).
+|required=Silver Sword
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special|2}}
+|Ce1={{Eft|Distant Counter}}
+|Ce2={{Eft|Lower Def Res}}
+|Ce3={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce4={{Eft|Temporary buffs|Atk/Spd/Def/Res|15% of {{Tgt|Unit}}'s Spd<br>at start of combat}}
+|Ce5={{Eft|Neutralize Guard}}
+|Ce6={{Eft|Reduce Damage Reduction|50%}}
+|Ce6T={{Tgt|Foe}}
+|Ce3-6C={{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat '''or'''<br>[[adjacent]] {{Tgt|Allies}} ≤ 1
+}}
+
+==Notes==
+* New Levin Sword has the same effect as {{St|Distant Counter}}.
+{{LowerDefRes}}
+{{Temporary buffs}}
+{{At start of combat}}
+{{CooldownChargeMinusNeutralization}}
+{{Reduce Damage Reduction}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+Wep_sw181.webp|Sprite sheet
+Wep_sw181.gif|Animated weapon
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=錬磨サンダーソード
+|german=Neu-Donnerschwert
+|spanishEU=Esp. trueno pulida
+|spanishLA=Nueva Espada trueno
+|french=Nouveau épée orage
+|italian=Nuova spada folgore
+|chineseTW=千錘百鍊雷電劍
+|portuguese=Nova espada trovão
+}}
+
+==See also==
+{{See also skills|cond=(Description LIKE '%unit can counterattack regardless%lower of foe_s Def or Res%') AND Exclusive='1'}}
+{{Weapons Navbox}}

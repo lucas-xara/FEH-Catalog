@@ -1,0 +1,74 @@
+{{#invoke:NameAbout|main|Name=Gatrie}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Gatrie
+|Title=Armored Amour
+|WeaponType=Blue Lance
+|MoveType=Armored
+|Origin=Fire Emblem: Path of Radiance
+|Gender=Male
+|actorEN=Jacob Craner
+|actorJP=小上裕通
+|artist=DAI-XT.
+|randomStartTime=2020-10-18T07:00:00Z
+|additionDate=September 18, 2020
+|releaseDate=September 18, 2020
+|poolDate=October 8, 2020
+|poolRarities=5
+|cv1=8
+|cv2=100900
+|TagID=ガトリー
+|InternalID=568
+|Properties=specRate_202308
+|description=A knight with the Greil Mercenaries. Easily excited, he flirts with women at every turn but suffers rejection just as often. Appears in Fire Emblem: Path of Radiance.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=14|Lv1SPD=4|Lv1DEF=11|Lv1RES=9
+|GRHP=65|GRATK=65|GRSPD=30|GRDEF=75|GRRES=60
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Spirited Spear
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Spirited Spear+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Mercenary Lance
+|weapon5Default=
+|weapon5Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Moonbow
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Fortress Def 1
+|passiveA2=Fort. Def/Res 1
+|passiveA3=Fort. Def/Res 2
+|passiveA4=Fort. Def/Res 3
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Crafty Fighter 1
+|passiveB2=Crafty Fighter 2
+|passiveB3=Crafty Fighter 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+{{Heroes Navbox}}

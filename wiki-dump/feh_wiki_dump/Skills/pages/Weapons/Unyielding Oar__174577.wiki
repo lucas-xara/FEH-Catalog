@@ -1,0 +1,48 @@
+{{Weapon Infobox
+|tagid=SID_蒼波薙ぐ剛力の櫂
+|intID=3117
+|image=wep_ax112
+|exclusive=1
+|weaponType=Axe
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Enables【Canto (Rem. +1)】.<br><br>Accelerates Special trigger (cooldown count-1). At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 during combat, and also, if【Bonus】is active on foe or if unit's Spd ≥ foe's Spd+10, unit attacks twice.<br><br>【Canto (Rem. +1)】<br>After an attack, Assist skill, or structure destruction, unit can move again.<br><br>The distance of the movement is the remaining movement the unit had before the actions listed above+1 (If unit used a movement skill that warps them, the remainder is 0).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|statModifiers=0,16,0,0,0
+|required=Silver Axe
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Me={{Eft|Canto|Rem. +1}}
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce1C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce2={{Eft|Attack Twice}}
+|Ce2C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' ({{Kp|Bonus}} effect<br>is active on {{Tgt|Foe}}<br>'''or''' {{Tgt|Unit}}'s Spd ≥<br>{{Tgt|Foe}}'s Spd+10)
+}}
+==Notes==
+{{Canto|Rem. +1}}
+{{Temporary buffs}}
+{{EffectfromBonusKeyword|target=the foe}}
+{{UnitStatMinusFoeStat|stat=Spd}}
+{{Brave weapon interaction}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+* The design of Unyielding Oar is based on {{Ut|Dimitri: Savior King}}'s [[Areadbhar]].
+==In other languages==
+{{OtherLanguages
+|japanese=蒼波薙ぐ剛力の櫂
+|german=Robustes Ruder
+|spanishEU=Remo sólido
+|spanishLA=Remo sólido
+|french=Rame incassable
+|italian=Remo saldo
+|chineseTW=橫掃蒼波的強力之槳
+|portuguese=Remo robusto
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【Canto%, unit attacks twice%' AND Exclusive='1'}}
+{{Weapons Navbox}}

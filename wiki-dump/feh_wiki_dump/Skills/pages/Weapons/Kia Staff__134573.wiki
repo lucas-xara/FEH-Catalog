@@ -1,0 +1,118 @@
+{{Weapon Infobox
+|tagid=SID_キアの杖
+|weaponName=Kia Staff
+|image=wep_rd037
+|weaponType=Staff
+|might=14
+|range=2
+|effect=Calculates damage from staff like other weapons. At start of turn, if【Penalty】is active on any allies within 4 spaces of unit (excluding unit), grants Atk/Spd+6 to ally with the lowest HP among them for 1 turn and neutralizes any【Penalty】on that ally (excluding penalties inflicted at start of turn). (If【Penalty】is not active on any ally within 4 spaces of unit, targets ally with the lowest HP among them instead.)<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|cost=400
+|exclusive=1
+|statModifiers=0,14,0,0,0
+|required=Assault
+|intID=2387
+|sort=492
+|effectRange=4
+|value=20
+|timingID=8
+|abilityID=252
+|randomTimestamp=2021-02-08T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Calculates damage from staff like other weapons.<br><br>At start of turn, if unit is within 3 spaces of an ally, grants Atk/Spd+6 and【Hexblade】to unit and allies within 3 spaces of unit for 1 turn, and neutralizes any【Penalty】effects on unit and allies within 3 spaces of unit (excluding penalties inflicted at start of turn).<br><br>If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit, deals damage = 15% of foe's Atk (excluding area-of-effect Specials; if the "calculates damage from staff like other weapons" effect is neutralized, damage from staff is calculated after combat damage is added), and grants Special cooldown charge +1 to unit per attack during combat (only highest value applied; does not stack).<br><br>【Hexblade】<br>Calculates damage using the lower of foe's Def or Res during combat for 1 turn (including damage dealt by Specials before combat).<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|refineStatsSkill1=0,0,0,0,0
+|effectSkill1=For allies within 3 rows or 3 columns centered on unit, grants Atk/Spd+5 during their combat, and also, if ally's Spd > foe's Spd, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent ally's follow-up attacks during their combat.<br><br>For allies within 3 rows or 3 columns centered on unit, restores 7 HP after their combat.<br><br>At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit, neutralizes foe's bonuses, and neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat, and restores 7 HP to unit after combat.
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Ce={{Eft|Wrathful Staff}}
+|s1 Se1={{Eft|Bonuses|Atk/Spd|6}}
+|s1 Se2=Removes {{Kp|Penalty}} effects
+|s1 SeT=({{Tgt|Allies}} with<br>{{Kp|Penalty}} effects<br>'''&''' lowest HP;<br>else, {{Tgt|Allies}}<br>with the lowest HP)<br>[[within 4 spaces]]
+|s1 SeC=At start of turn
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Ce1={{Eft|Wrathful Staff}}
+|s2 Se1={{Eft|Bonuses|Atk/Spd|6}}
+|s2 Se2={{SEt|Hexblade}}
+|s2 Se3=Removes {{Kp|Penalty}} effects
+|s2 SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 3 spaces]]
+|s2 SeC=At start of turn<br>if an {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|s2 Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s2 Ce3={{Eft|Damage Boost|15% of {{Tgt|Foe}}'s Atk}}
+|s2 Ce4={{Eft|Accelerate Charge}}
+|s2 Ce2-4C=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|skill3={{Si|Kia Staff|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd|5}}
+|s3 Ce2={{Eft|Neutralize Prevent Follow-Ups}}
+|s3 Ce1-2T={{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|s3 Ce3={{Eft|Neutralize Guaranteed Follow-Ups}}
+|s3 Ce3T={{Tgt|Foes}} of<br>{{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|s3 Ce2-3C={{Tgt|Ally}}'s Spd<br>> {{Tgt|Foe}}'s Spd
+|s3 Ce4={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s3 Ce5={{Eft|Neutralize Bonuses}}
+|s3 Ce6={{Eft|Neutralize Guaranteed Follow-Ups}}
+|s3 Ce5-6T={{Tgt|Foe}}
+|s3 Ce7={{Eft|Neutralize Prevent Follow-Ups}}
+|s3 Ce7T={{Tgt|Unit}}
+|s3 Ce4-7C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s3 Me1={{Eft|Heal|7}}
+|s3 Me1T={{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|s3 Me1C=After {{Tgt|Ally}}'s combat
+|s3 Me2={{Eft|Heal|7}}
+|s3 Me2C=After combat if<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+* Kia Staff has the same effect as {{St|Wrathful Staff 3}}.
+{{Wrathful Staff}}
+{{Bonuses}}
+{{Penalty neutralization|negstatuses=all {{Kp|Penalty}} effects}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Hexblade|name=Refined Kia Staff}}
+{{Temporary buffs|name=Refined Kia Staff}}
+{{AtkDamageBoost|name=Refined Kia Staff}}
+{{CooldownChargePlus|name=Refined Kia Staff}}
+{{Follow-up effect neutralization|name={{St|Kia Staff|refine=Skill1}}}}
+{{AlliesCombatEffect|temporary buffs, foe's guaranteed follow-up neutralization and ally's prevented follow-up neutralization effect|name={{St|Kia Staff|refine=Skill1}}}}
+{{After combat healing|allies=1|name={{St|Kia Staff|refine=Skill1}}}}
+{{Bonus neutralization|name={{St|Kia Staff|refine=Skill1}}}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Sara: Lady of Loptr|t=Leif: Prince of Leonster
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=キアの杖
+|german=Kiastab
+|spanishEU=Bastón Kia
+|spanishLA=Bastón Kia
+|french=Bâton Kia
+|italian=Bastone Kia
+|chineseTW=奇亞之杖
+|portuguese=Bastão Kia
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%neutralizes%penalt%within _ space%last%through%' AND Description NOT LIKE '%neutralizes penalties%during combat%') AND Exclusive='1'}}
+* [[Skill families/A Passives#Hexblade|Hexblade Passives]]
+* [[Skill families/C Passives#Recovery|Recovery Passives]]
+{{Weapons Navbox}}

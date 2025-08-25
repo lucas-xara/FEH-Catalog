@@ -1,0 +1,74 @@
+{{#invoke:NameAbout|main|Name=Leila}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Leila
+|Title=Superb Shadow
+|Origin=Fire Emblem: The Blazing Blade
+|Gender=F
+|WeaponType=Colorless Dagger
+|MoveType=Infantry
+|actorEN=日笠陽子
+|actorJP=日笠陽子
+|artist=えく
+|additionDate=2024-12-06
+|releaseDate=2024-12-06
+|cv1=6
+|cv2=300210
+|TagID=魔器レイラ
+|InternalID=1176
+|Properties=rearmed
+|description=A spy who serves House Ostia. She is exceptionally skilled and loyal, and has a romantic relationship with Matthew. Appears in Fire Emblem: The Blazing Blade.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=10|Lv1SPD=9|Lv1DEF=8|Lv1RES=9
+|GRHP=50|GRATK=80|GRSPD=90|GRDEF=45|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Dagger
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Dagger
+|weapon2Default=3
+|weapon2Unlock=3
+|weapon3=Silver Dagger
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Arcane Sly Knife
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=5
+|special1Unlock=3
+|special2=Luna
+|special2Unlock=4
+|special3=Lethality
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Finish 1
+|passiveA2=Atk/Spd Finish 2
+|passiveA3=Atk/Spd Finish 3
+|passiveA4=Atk/Spd Finish 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Dark Perfume
+|passiveB1Unlock=5
+|passiveC1=Lookout 1
+|passiveC2=Lookout 2
+|passiveC3=Lookout 3
+|passiveC4=Lookout Force
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}

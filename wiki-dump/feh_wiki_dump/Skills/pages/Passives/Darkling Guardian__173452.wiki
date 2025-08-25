@@ -1,0 +1,74 @@
+{{Passive
+|type=C
+|name=Darkling Guardian
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties1=random_owner
+|1name=Darkling Guardian
+|1tagid=SID_闇の樹海の守護竜
+|1cost=300
+|1effect=At start of turn, if unit is within 2 spaces of an ally, grants Def/Res+6, "foe cannot make a follow-up attack," and【Warp Bubble】to unit for one turn.<br><br>【Warp Bubble】<br>Foes cannot warp into spaces within 4 spaces of unit. (Does not affect foes with Pass skills or warp effects from structures, like camps and fortresses in Rival Domains.)
+|1required=-
+|1next=-
+|properties2=
+|2name=Darkling Guard II
+|2tagid=SID_闇の樹海の守…・承
+|2effect=Enables【Canto (２)】.<br><br>At start of player phase or enemy phase, grants Def/Res+6, "foe cannot make a follow-up attack," "neutralizes 'effective against flying' bonuses,"【Warp Bubble】, and【Bulwark】to unit and target allies within 3 spaces of unit for 1 turn. (If support partner is on player team, targets any support partner; otherwise, targets ally with the highest Def on player team, excluding unit.)<br><br>If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit, neutralizes penalties to unit's Atk, neutralizes foe's bonuses to Atk, reduces damage from foe's attacks by 7 (excluding area-of-effect Specials), and grants Special cooldown charge +1 to unit per attack during combat (only highest value applied; does not stack).<br><br>【Canto (２)】<br>After an attack, Assist skill, or structure destruction, unit can move ２ space(s).<br>(Once per turn. Only highest value applied. Does not stack.)<br><br>【Warp Bubble】<br>Foes cannot warp into spaces within 4 spaces of unit. (Does not affect foes with Pass skills or warp effects from structures, like camps and fortresses in Rival Domains.)<br><br>【Bulwark】<br>Foes with Range = 1 cannot move through spaces adjacent to unit (does not affect foes with Pass skills).<br><br>Foes with Range = 2 cannot move through spaces within 2 spaces of unit (does not affect foes with Pass skills).
+|2cost=300
+|2required=Darkling Guardian
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Darkling Guardian}} Darkling Guardian
+|s1 Se1={{Eft|Bonuses|Def/Res|6}}
+|s1 Se2={{SEt|Foe Cannot Follow-Up}}
+|s1 Se3={{SEt|Warp Bubble}}
+|s1 SeC=At start of turn<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|skill2={{Si|Darkling Guard II}} Darkling Guard II
+|s2 Me={{Eft|Canto|2}}
+|s2 Se1={{Eft|Bonuses|Def/Res|6}}
+|s2 Se2={{SEt|Foe Cannot Follow-Up}}
+|s2 Se3=<span style="width:12em;display:inline-block"/>{{SEt|Neutralize Effective Against Flying}}
+|s2 Se4={{SEt|Warp Bubble}}
+|s2 Se5={{SEt|Bulwark}}
+|s2 SeT={{Tgt|Unit}} '''&'''<br>({{Tgt|Partner}} '''or'''<br>{{Tgt|Ally}} with the<br>highest Def)<br>[[within 3 spaces]]
+|s2 SeC=At start of Both Phases<br>if an {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s2 Ce2={{Eft|Neutralize Penalties|Atk}}
+|s2 Ce3={{Eft|Neutralize Bonuses|Atk}}
+|s2 Ce3T={{Tgt|Foe}}
+|s2 Ce4={{Eft|Damage Reduction|7}}<br>from {{Tgt|Foe}}'s attacks
+|s2 Ce5={{Eft|Accelerate Charge}}
+|s2 CeC=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+}}
+==Notes==
+{{Bonuses}}
+{{Foe Cannot Follow-Up}}
+{{Warp Bubble}}
+{{Neutralize Effective Against Flying|name=Darkling Guard II}}
+{{Bulwark|name=Darkling Guard II}}
+{{SupportPartner|effect={{SEt|bonuses}}, {{SEt|Foe Cannot Follow-Up}}, {{SEt|Neutralize Effective Against Flying}}, {{SEt|Warp Bubble}} and {{SEt|Bulwark}} effects|name=Darkling Guard II}}
+{{Temporary buffs|name=Darkling Guard II}}
+{{Penalty neutralization|Atk|name=Darkling Guard II}}
+{{Bonus neutralization|Atk|name=Darkling Guard II}}
+{{FlatDamageReduction|7|name=Darkling Guard II}}
+{{CooldownChargePlus|name=Darkling Guard II}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=闇の樹海の守護竜
+|german=Düsterwaldschutz
+|spanishEU=Guardián oscuro
+|spanishLA=Tótem oscuro
+|french=Gardien Lombres
+|italian=Custode Darklin
+|chineseTW=闇之樹海的守護龍
+|portuguese=Guardião sombrio
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%"foe cannot make a follow-up attack%"%for%turn%' OR Description LIKE '%for%turn%"foe cannot make a follow-up attack%"%') AND Exclusive='1' OR Description LIKE '%foe%cannot warp into spaces within%spaces of unit%'}}
+* [[Oath Passives]]
+* [[Skill families/C Passives#Faith|Faith Passives]]
+{{Passives Navbox|C}}

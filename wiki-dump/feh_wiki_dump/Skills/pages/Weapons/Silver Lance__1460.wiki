@@ -1,0 +1,35 @@
+{{Weapon Infobox
+|tagid=SID_銀の槍
+|weaponType=Lance
+|weaponName={{PAGENAME}}
+|might=11
+|range=1
+|effect=
+|cost=200
+|exclusive=0
+|statModifiers=0,11,0,0,0
+|next=Silver Lance+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Lance
+|properties=random_all
+}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=銀の槍
+|german=Silberlanze
+|spanishEU=Lanza plata
+|spanishLA=Lanza plata
+|french=Lance argent
+|italian=Lancia argento
+|chineseTW=銀槍
+|portuguese=Lança de prata
+}}
+==See also==
+* [[Silver Weapons]]
+{{Weapons Navbox}}
+[[Category:Silver weapons]]

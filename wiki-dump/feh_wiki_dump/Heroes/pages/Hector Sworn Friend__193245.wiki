@@ -1,0 +1,73 @@
+{{#invoke:NameAbout|main|Name=Hector}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Hector
+|Title=Sworn Friend
+|WeaponType=Green Axe
+|MoveType=Armored
+|Origin=Fire Emblem: The Blazing Blade
+|Gender=Male
+|actorEN=Patrick Seitz
+|actorJP=大地葉
+|artist=萩谷薫
+|additionDate=April 6, 2023
+|releaseDate=April 7, 2023
+|cv1=6
+|cv2=100300
+|TagID=幼少ヘクトル
+|InternalID=936
+|Properties=special
+|description=A young noble of House Ostia, part of the Lycian League. Respects his older brother Uther, who is known for his discernment. Appears in Fire Emblem: The Blazing Blade.
+}}
+{{Stats Page
+|Lv1HP=21|Lv1ATK=10|Lv1SPD=3|Lv1DEF=14|Lv1RES=11
+|GRHP=60|GRATK=80|GRSPD=30|GRDEF=75|GRRES=70
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Valiant War Axe
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=4
+|special1Unlock=3
+|special2=Bonfire
+|special2Unlock=4
+|special3=Armored Beacon
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Ostia's Heart
+|passiveA1Unlock=5
+|passiveB1=Vengeful Fighter 1
+|passiveB2=Vengeful Fighter 2
+|passiveB3=Vengeful Fighter 3
+|passiveB4=Vengeful Fighter 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=D/R Far Save 1
+|passiveC2=D/R Far Save 2
+|passiveC3=D/R Far Save 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Childhood units]]

@@ -1,0 +1,74 @@
+{{Passive
+|type=B
+|name=A/R Near Trace
+|exclusive=0
+|canUseWeapon={{WeaponList|Close}}
+|canUseMove={{MoveList|Cavalry,Flying}}
+|properties=random_inherit_base,random_owner
+|1name=A/R Near Trace 1
+|alt1name=A R Near Trace 1
+|1tagid=SID_攻撃魔防の近影1
+|1cost=60
+|1effect=Enables【Canto (Rem. +1)】.<br><br>Inflicts Atk/Res-1 on foe during combat.<br><br>【Canto (Rem. +1)】<br>After an attack, Assist skill, or structure destruction, unit can move again.<br><br>The distance of the movement is the remaining movement the unit had before the actions listed above+1 (If unit used a movement skill that warps them, the remainder is 0).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|1required=-
+|1promotionRarity=4
+|1promotionTier=1
+|2name=A/R Near Trace 2
+|alt2name=A R Near Trace 2
+|2tagid=SID_攻撃魔防の近影2
+|2cost=120
+|2effect=Enables【Canto (Rem. +1)】.<br><br>Inflicts Atk/Res-2 on foe during combat.<br><br>【Canto (Rem. +1)】<br>After an attack, Assist skill, or structure destruction, unit can move again.<br><br>The distance of the movement is the remaining movement the unit had before the actions listed above+1 (If unit used a movement skill that warps them, the remainder is 0).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|2promotionRarity=5
+|2promotionTier=1
+|3name=A/R Near Trace 3
+|alt3name=A R Near Trace 3
+|3tagid=SID_攻撃魔防の近影3
+|3cost=240
+|3next=-
+|4name=A/R Near Trace 4
+|alt4name=A R Near Trace 4
+|4tagid=SID_攻撃魔防の近影4
+|4effect=Enables【Canto (Rem. +1; Min ２)】.<br><br>Inflicts Atk/Res-4 on foe during combat and unit deals +7 damage including when dealing damage with a Special triggered before combat.<br><br>【Canto (Rem. +1; Min ２)】<br>After an attack, Assist skill, or structure destruction, unit can move spaces = any movement not already used that turn +1 (min ２; if unit used a movement skill that warped them, unit can move ２ space(s)).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|4cost=300
+|properties4=random_owner
+|3effect=Enables【Canto (Rem. +1)】.<br><br>Inflicts Atk/Res-3 on foe during combat.<br><br>【Canto (Rem. +1)】<br>After an attack, Assist skill, or structure destruction, unit can move again.<br><br>The distance of the movement is the remaining movement the unit had before the actions listed above+1 (If unit used a movement skill that warps them, the remainder is 0).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|A/R Near Trace 3}} A/R Near Trace 3
+|s1 Me={{Eft|Canto|Rem. +1}}
+|s1 Ce={{Eft|Temporary debuffs|Atl/Res|3}}
+|s1 CeT={{Tgt|Foe}}
+|skill2={{Si|A/R Near Trace 4}} A/R Near Trace 4
+|s2 Me1={{Eft|Canto|Rem. +1; Min 2}}
+|s2 Ce1={{Eft|Temporary debuffs|Atk/Res|4}}
+|s2 Ce1T={{Tgt|Foe}}
+|s2 Ce2={{Eft|Damage Boost|7}}<br>before '''&''' during combat
+}}
+==Notes==
+{{Canto|Rem. +1}}
+{{Temporary debuffs}}
+{{Canto|Rem. +1; Min 2|name=A/R Near Trace 4}}
+{{FlatDamageBoost|7|name=A/R Near Trace 4}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=A/R Near Trace
+|japanese=攻撃魔防の近影
+|german=A/R Spur nah
+|spanishEU=Rastro cer. A/R
+|spanishLA=Rastro cer. A/R
+|french=Trace pr. A/R
+|italian=Scia vicina A/R
+|chineseTW=攻擊魔防近影
+|portuguese=Rastro p. A/R
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%Canto _Rem.%Min %') AND Exclusive='1'}}
+* [[Trace Passives]]
+{{Passives Navbox|B}}

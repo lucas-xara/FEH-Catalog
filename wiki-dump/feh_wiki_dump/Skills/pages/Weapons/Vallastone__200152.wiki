@@ -1,0 +1,56 @@
+{{Weapon Infobox
+|tagid=SID_透魔の竜石
+|intID=3738
+|image=wep_ac071
+|exclusive=1
+|weaponType=Dragonstone
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). After unit acts (if Canto triggers, after Canto), applies【Divine Vein (Stone)】to unit's space and spaces within 2 spaces of unit for 1 turn. At start of combat, if unit's HP ≥ 25%, inflicts Atk/Spd/Def/Res-5 on foe, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks, and reduces damage from attacks by 30% during combat (excluding area-of-effect Specials). If foe's Range = 2, calculates damage using the lower of foe's Def or Res.<br><br>【Divine Vein (Stone)】<br>Applies the following effects on space for unit and allies: Grants Def/Res+6 during combat, reduces damage from foe's Specials by 10 during combat (excluding area-of-effect Specials), and reduces damage from area-of-effect Specials by 50% (excluding Røkkr area-of-effect Specials). (Divine Vein effects do not stack; replaces any existing Divine Vein effect; Divine Vein effects applied simultaneously cancel each other out. Does not count as defensive terrain.)
+|required=Flametongue
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Me={{Eft|Divine Vein (Stone)}}
+|MeT=Spaces<br>[[within 2 spaces]]<br>of {{Tgt|Unit}}
+|MeC=After {{Tgt|Unit}}'s<br>action(s) '''or''' after<br>[[Canto]] movement
+|Ce1={{Eft|Temporary debuffs|Atk/Spd/Def/Res|5}}
+|Ce2={{Eft|Neutralize Guaranteed Follow-Ups}}
+|Ce1-2T={{Tgt|Foe}}
+|Ce3={{Eft|Neutralize Prevent Follow-Ups}}
+|Ce4={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s attacks
+|Ce1-4C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce5={{Eft|Lower Def Res}}
+|Ce5C={{Tgt|Foe}}'s Range = 2
+}}
+
+==Notes==
+{{Divine Vein|Stone}}
+{{Temporary debuffs}}
+{{Follow-up effect neutralization}}
+{{DamagePercentageReduction}}
+{{LowerDefRes}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V7.8_v0708b_popularity_Mag.webp|Sprite sheet for {{St|Vallastone}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=透魔の竜石
+|german=Vallastein
+|spanishEU=Piedra vallesa
+|spanishLA=Piedra vallesa
+|french=Pierre vallite
+|italian=Pietra del Valla
+|chineseTW=透魔的龍石
+|portuguese=Pedra de Valla
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%after unit acts%' OR Description LIKE '%【Divine Vein (Stone)】%') AND Exclusive='1'}}
+{{Weapons Navbox}}

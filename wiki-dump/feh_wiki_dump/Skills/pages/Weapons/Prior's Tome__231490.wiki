@@ -1,0 +1,66 @@
+{{Weapon Infobox
+|tagid=SID_修道院長の書
+|intID=4634
+|userVersion1=Closed
+|userVersion2=Open
+|exclusive=1
+|weaponType=Green Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>If unit is within 2 spaces of a trap in Aether Raids, allies on the map can move to a space within 2 spaces of unit ("trap in Aether Raids" includes any trap—triggered, disarmed, false, or otherwise).<br><br>Allies within 2 spaces of unit can move to any space within 2 spaces of unit.<br><br>For allies within 2 spaces of unit, grants Atk/Res+5 and neutralizes penalties to Atk/Res during their combat, and restores 7 HP after combat.<br><br>If unit is within 3 spaces of an ally, grants bonus to unit's Atk/Res = 20% of unit's Res at start of combat + 6, neutralizes unit's penalties to Atk/Res, deals damage = 20% of unit's Res (excluding area-of-effect Specials), and unit makes a guaranteed follow-up attack during combat, and restores 7 HP to unit after combat.
+|required=Rexcalibur
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Me1={{Eft|Warp|[[within 2 spaces]]<br>of {{Tgt|Unit}}}}
+|Me1T={{Tgt|Allies}}
+|Me1C={{Tgt|Unit}} is<br>[[within 2 spaces]]<br>of {{Stt|Traps}} '''or'''<br>{{Stt|Decoy Traps}}
+|Me2={{Eft|Warp|[[within 2 spaces]]<br>of {{Tgt|Unit}}}}
+|Me3={{Eft|Heal|7}}
+|Me2-3T={{Tgt|Allies}}<br>[[within 2 spaces]]
+|Me3C=After {{Tgt|Ally}}'s combat
+|Me4={{Eft|Heal|7}}
+|Me4C=After combat if<br>an {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|Ce1={{Eft|Temporary buffs|Atk/Res}}
+|Ce2={{Eft|Neutralize Penalties|Atk/Res}}
+|Ce1-2T={{Tgt|Allies}}<br>[[within 2 spaces]]
+|Ce3={{Eft|Temporary buffs|Atk/Res|20% of {{Tgt|Unit}}'s Res<br>at start of combat, +6}}
+|Ce4={{Eft|Neutralize Penalties|Atk/Res}}
+|Ce5={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Res}}
+|Ce6={{Eft|Guaranteed Follow-Ups}}
+|Ce3-6C=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+}}
+
+==Notes==
+{{Warp interaction}}
+{{Temporary buffs}}
+{{Penalty neutralization}}
+{{AlliesCombatEffect|temporary buffs and penalty neutralization effects}}
+{{After combat healing|allies=1}}
+{{At start of combat}}
+{{DamageBoost}}
+{{Guaranteed follow-up interaction}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V9.3_v0903b_gaiden_Mag_2.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%allies within 2 spaces can move%' OR Description LIKE '%allies within 2 spaces of unit can move%'}}
+{{Weapons Navbox}}

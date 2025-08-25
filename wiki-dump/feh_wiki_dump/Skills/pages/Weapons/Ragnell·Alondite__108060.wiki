@@ -1,0 +1,53 @@
+{{Weapon Infobox
+|tagid=SID_ラグネル＆エタルド
+|weaponType=Red Sword
+|might=10
+|range=1
+|effect=Unit can counterattack regardless of foe's range. Inflicts Spd-5. Unit attacks twice (even if foe initiates combat).
+|cost=400
+|exclusive=1
+|userVersion1=Alondite
+|userVersion2=Ragnell
+|statModifiers=0,10,-5,0,0
+|required=Silver Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|refineStatsAtk=5,1,0,0,0
+|tagidExtraSkill1=一
+|effectSkill1=If foe initiates combat or if foe's HP ≥ 75% at start of combat, grants Atk/Res+5 to unit during combat and Special cooldown charge +1 to unit per attack (only highest value applied; does not stack), and neutralizes bonuses on foe's Atk/Def during combat.
+|iconSkill1=RagnellAlondite W.png
+|properties=random_owner
+}}
+==Notes==
+* Has the same effect as {{St|Distant Counter}}.
+{{Brave weapon interaction}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfFoeInitiates}}
+{{Temporary buffs|name={{St|Ragnell·Alondite|refine=Skill1}}}}
+{{CooldownChargePlus}}
+{{Bonus neutralization|name={{St|Ragnell·Alondite|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Ragnell·Alondite
+|japanese=ラグネル＆エタルド
+|german=Ragnell·Alondite
+|spanishEU=Ragnell+Alondite
+|spanishLA=Ragnell+Alondite
+|french=Ragnell+Alondite
+|italian=Ragnell+Alondite
+|chineseTW=瑞格內爾＆艾塔爾德
+|portuguese=Ragnell+Alondite
+}}
+==See also==
+{{See also skills|cond=WikiName LIKE '%ragnell%' OR WikiName LIKE '%alondite%' OR Description LIKE '%inflicts Spd-_%attacks twice%' AND Description NOT LIKE '%inflicts Spd-_%if unit initiates combat,% attacks twice%' AND (Exclusive='1' OR SP='300') OR Description LIKE '%if foe initiates combat%special cooldown charge +1%' AND Exclusive='1'}}
+* [[Brave Weapons]]
+* [[Weapons with Distant Counter]]
+* [[Weapons with Close Counter]]
+* [[Skill families/A Passives#Breath|Breath Passives]]
+{{Weapons Navbox}}

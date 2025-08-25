@@ -1,0 +1,31 @@
+{{Weapon Infobox
+|tagid=SID_鋼の斧
+|weaponType=Axe
+|might=8
+|range=1
+|cost=100
+|statModifiers=0,8,0,0,0
+|next=Silver Axe
+|promotionRarity=4
+|promotionTier=1
+|required=Iron Axe
+|properties=random_all
+}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==In other languages==
+{{OtherLanguages
+|japanese=鋼の斧
+|german=Stahlaxt
+|spanishEU=Hacha acero
+|spanishLA=Hacha acero
+|french=Hache acier
+|italian=Ascia acciaio
+|chineseTW=鋼斧
+|portuguese=Machado aço
+}}
+==See also==
+* [[Steel Weapons]]
+{{Weapons Navbox}}
+[[Category:Steel weapons]]

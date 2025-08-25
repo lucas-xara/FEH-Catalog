@@ -1,0 +1,68 @@
+{{Weapon Infobox
+|tagid=SID_天聖エンジェル
+|weaponType=Green Tome
+|might=14
+|range=2
+|effect=Grants Spd+3. If unit initiates combat, deals damage = 25% of foe's Res. (Ignores reductions to Res from Special skills.)
+|cost=400
+|exclusive=1
+|statModifiers=0,14,3,0,0
+|required=Rexcalibur
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Spd+3. If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd+5 to unit during combat and deals damage = 25% of foe's Res, including when dealing damage with a Special triggered before combat (ignores reductions to Res from Special skills).
+|tagidExtraSkill1=一
+|effectSkill1=At start of turn, if unit is within 2 spaces of an ally, grants "Special cooldown charge +1 per attack during combat (only highest value applied; does not stack)" to unit for 1 turn, and also, if Special cooldown count is at its maximum value, grants Special cooldown count-1. If unit is within 3 spaces of an ally, grants Atk/Spd+5 to unit during combat.
+|iconSkill1=Saintly Seraphim W.png
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Spd|3}}
+|s1 Ce={{Eft|Damage Boost|25% of {{Tgt|Foe}}'s Res}}
+|s1 CeC=Player Phase
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Spd|3}}
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd|5}}
+|s2 Ce2={{Eft|Damage Boost|25% of {{Tgt|Foe}}'s Res}}<br>before '''&''' during combat
+|s2 CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|skill3={{Si|Saintly Seraphim|refine=Skill1}} Skill refine effects
+|s3 Se={{SEt|Special Cooldown Charge +1}}
+|s3 SeC=At start of turn<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s3 Me={{Eft|Reduce Cooldown|1}}
+|s3 MeC=At start of turn<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]<br>'''&''' {{Tgt|Unit}}'s CD<br>is max value
+|s3 Ce={{Eft|Temporary buffs|Atk/Spd|5}}
+|s3 CeC=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{DamageBoost}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary buffs|name=Refined Saintly Seraphim}}
+{{Special Cooldown Charge +1|name={{St|Saintly Seraphim|refine=Skill1}}}}
+{{Start of turn Special modification|name={{St|Saintly Seraphim|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Saintly Seraphim
+|japanese=天聖エンジェル
+|german=Heilige Seraphim
+|spanishEU=Ángeles sacros
+|spanishLA=Ángeles sacros
+|french=Saint Séraphin
+|italian=Sacro serafino
+|chineseTW=天聖天使
+|portuguese=Serafim celeste
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%deals damage =%of foe_s Res%' OR Description LIKE '%Special cooldown charge +1 per attack during combat%to unit%for 1 turn%' OR Description LIKE '%"Grants Special cooldown charge +1 per attack during combat%') AND Exclusive='1'}}
+* [[Pulse Passives]]
+{{Weapons Navbox}}

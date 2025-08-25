@@ -1,0 +1,40 @@
+{{Weapon Infobox
+|tagid=SID_春花の槍
+|intID=2994
+|image=wep_lc118
+|exclusive=0
+|weaponType=Lance
+|cost=200
+|might=10
+|range=1
+|effect=At start of combat, if foe's HP ≥ 75% or 【Penalty】is active on foe, grants Atk/Def+5 to unit during combat and unit's first attack during combat deals damage = total Atk/Def penalties on foe.<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|statModifiers=0,10,0,0,0
+|required=Steel Lance
+|next=Carrot-Tip Spear+
+|promotionRarity=5
+|promotionTier=1
+|properties=
+}}
+==Notes==
+{{EffectfromPenalty}}
+{{Temporary buffs}}
+{{DamageBoost}}
+{{EffectfromPenalties|damage boost}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=春花の槍
+|german=Karottenspeer
+|spanishEU=Pica verdor
+|spanishLA=Pica zanahoria
+|french=Lance légume
+|italian=Piccarota
+|chineseTW=春花之槍
+|portuguese=Lança de rama
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%deals damage = total%penalties%' AND Exclusive='1'}}
+{{Weapons Navbox}}

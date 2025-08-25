@@ -1,0 +1,40 @@
+{{Weapon Infobox
+|tagid=SID_緑雲の舞扇
+|weaponType=Dagger
+|might=8
+|range=2
+|effectiveness=Dragon
+|effect=Effective against dragon foes. Disables unit's and foe's skills that change attack priority. After combat, if unit attacked, inflicts Def/Res-5 on target and foes within 2 spaces of target through their next actions.
+|cost=200
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|next=Cloud Maiougi+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Dagger
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|dragon}}
+* Has the same effect as {{St|Hardy Bearing 3}}.
+{{Hardy Bearing}}
+{{IfUnitAttacked}}
+{{Penalties}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=緑雲の舞扇
+|german=Grüner Maiougi
+|spanishEU=Maiougi verde
+|spanishLA=Maiougi verde
+|french=Maiougi vert
+|italian=Maiougi verde
+|chineseTW=綠雲舞扇
+|portuguese=Nuvem Maiougi
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%isables unit_s and foe_s skills that change attack priority%'}}
+{{Weapons Navbox}}
+[[Category:Seasonal weapons]]

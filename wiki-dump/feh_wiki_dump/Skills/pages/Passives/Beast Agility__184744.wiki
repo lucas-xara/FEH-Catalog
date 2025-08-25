@@ -1,0 +1,74 @@
+{{Passive
+|type=B
+|name=Beast Agility
+|exclusive=0
+|canUseWeapon={{WeaponList|Beast}}
+|canUseMove={{MoveList|All}}
+|properties=random_inherit_base,random_owner
+|1name=Beast Agility 1
+|1tagid=SID_絶対化身・敏捷1
+|1cost=60
+|1effect=If unit's HP = 100%, removes the condition to transform. If unit's Spd ≥ foe's Spd+13, neutralizes effects that prevent unit's follow-up attacks during combat.
+|1required=-
+|1promotionRarity=4
+|1promotionTier=1
+|2name=Beast Agility 2
+|2tagid=SID_絶対化身・敏捷2
+|2cost=120
+|2effect=If unit's HP ≥ 50%, removes the condition to transform. If unit's Spd ≥ foe's Spd+7, neutralizes effects that prevent unit's follow-up attacks during combat.
+|2promotionRarity=5
+|2promotionTier=1
+|3name=Beast Agility 3
+|3tagid=SID_絶対化身・敏捷3
+|3cost=240
+|3next=-
+|4name=Beast Agility 4
+|4tagid=SID_絶対化身・敏捷4
+|4effect=Removes the condition to transform. Inflicts Spd/Def-4 on foe during combat, and if unit's Spd > foe's Spd, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat, and unit deals damage = 10% of unit's Spd (excluding when dealing damage with an area-of-effect Special).
+|4cost=300
+|properties4=random_owner
+|3effect=Removes the condition to transform. If unit's Spd > foe's Spd, neutralizes effects that prevent unit's follow-up attacks during combat.
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Beast Agility 3}} Beast Agility 3
+|skill1 MapEffect={{SkillEffectText|Remove Transform Condition}}
+|skill1 CombatEffect={{SkillEffectText|Neutralize Prevent Follow-Ups}}
+|skill1 CombatEffect Conditions={{SkillTargetText|Unit}}'s Spd > {{SkillTargetText|Foe}}'s Spd
+|skill2={{Si|Beast Agility 4}} Beast Agility 4
+|skill2 MapEffect={{SkillEffectText|Remove Transform Condition}}
+|skill2 CombatEffect 1={{SkillEffectText|Temporary debuffs|Spd/Def|4}}
+|skill2 CombatEffect 2={{SkillEffectText|Neutralize Guaranteed Follow-Ups}}
+|skill2 CombatEffect 1-2 Targets={{SkillTargetText|Foe}}
+|skill2 CombatEffect 3={{SkillEffectText|Neutralize Prevent Follow-Ups}}
+|skill2 CombatEffect 4={{SkillEffectText|Damage Boost|10% of {{SkillTargetText|Unit}}'s Spd}}
+|skill2 CombatEffect 3-4 Targets={{SkillTargetText|Unit}}
+|skill2 CombatEffect 2-4 Conditions={{SkillTargetText|Unit}}'s Spd > {{SkillTargetText|Foe}}'s Spd
+}}
+==Notes==
+{{TransformConditionRemoval}}
+{{Follow-up effect neutralization|preventOnly=1}}
+{{Temporary debuffs|name=Beast Agility 4}}
+{{Follow-up effect neutralization|guaranteeOnly=1|name=Beast Agility 4}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=絶対化身・敏捷
+|german=Agile Bestie
+|spanishEU=Bestia ágil
+|spanishLA=Bestia ágil
+|french=Agilité de bête
+|italian=Agilità bestiale
+|chineseTW=絕對化身・敏捷
+|portuguese=Fera ágil
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%removes the condition to transform%' OR (Description LIKE '%If unit_s Spd > foe_s Spd%prevent unit_s follow-up attacks%' AND Description NOT LIKE '%【Null Follow-Up】%')) AND (Exclusive=1 AND Name NOT LIKE '%+')}}
+* [[Flow Passives]]
+* [[Beast Passives]]
+{{Passives Navbox|B}}

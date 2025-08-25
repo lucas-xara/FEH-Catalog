@@ -1,0 +1,90 @@
+{{#invoke:NameAbout|main|Name=Laegjarn}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Laegjarn
+|Title=Sheathed Steel
+|Origin=Fire Emblem Heroes
+|Gender=Female
+|WeaponType=Red Sword
+|MoveType=Flying
+|actorEN=Alicia Stratten
+|resplendentActorEN=Abby Trott
+|actorJP=田村ゆかり
+|artist=前嶋重機
+|resplendentArtist=群青
+|resplendentArtist-extra=Trys Inc.
+|additionDate=September 14, 2018
+|releaseDate=September 21, 2018
+|poolDate=October 23, 2018
+|randomStartTime=2018-10-21T07:00:00Z
+|poolRarities=5
+|TagID=レーギャルン
+|InternalID=295
+|EnemyInternalID=35
+|cv1=0
+|cv2=300200
+|description=The eldest princess of Múspell, the Flame Kingdom, and Laevatein's older sister. A general who leads Múspell's army with dignity.
+|Properties=specRate_202108,resplendent,nifl
+|resplendentStartTime=2024-10-25T07:00:00Z
+|resplendentEndTime=2024-11-10T06:59:59Z
+}}
+==Ally stats==
+{{Stats Page|noheader=1
+|Lv1HP=17|Lv1ATK=8|Lv1SPD=10|Lv1DEF=8|Lv1RES=4
+|GRHP=55|GRATK=55|GRSPD=60|GRDEF=65|GRRES=30
+}}
+==Enemy stats==
+{{Stats Page/Generic|noheader=1
+|Lv1HP=18|Lv1ATK=8|Lv1SPD=10|Lv1DEF=9|Lv1RES=4
+|GRHP=60|GRATK=55|GRSPD=60|GRDEF=65|GRRES=30
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Níu
+|weapon4Default=5
+|weapon4Unlock=5
+|hasEnemy=1
+}}
+
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=4
+|special1Unlock=3
+|special2=Bonfire
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=R Duel Flying 1
+|passiveA2=R Duel Flying 2
+|passiveA3=R Duel Flying 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Chill Atk 1
+|passiveB2=Chill Atk 2
+|passiveB3=Chill Atk 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Distant Guard 1
+|passiveC2=Distant Guard 2
+|passiveC3=Distant Guard 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+{{Enemies Navbox}}

@@ -1,0 +1,83 @@
+{{#invoke:NameAbout|main|Name=Sakura}}{{HeroPage Tabs|{{PAGENAME}}}}
+{{Hero Infobox
+|Name=Sakura
+|Title= Gentle Nekomata
+|GrowthModifier= None
+|WeaponType= Colorless Dagger
+|MoveType= Infantry
+|Origin= Fire Emblem Fates
+|Gender= Female
+|actorEN=Brianna Knickerbocker 
+|actorJP=金元寿子
+|artist=藤ちょこ
+|releaseDate = October 30, 2017
+|TagID=ハロサクラ
+|InternalID=186
+|Properties=special,hat,specRate_202202
+|cv1=11
+|cv2=201200
+|description=This Hoshidan princess is so kind that she wouldn't play a trick on anyone, even if they didn't give her candy. Appears in Fire Emblem Fates.
+}}
+
+__TOC__
+
+{{Stats Page|Hero={{BASEPAGENAME}}
+|Lv1HP=16|Lv1ATK=8|Lv1SPD=8|Lv1DEF=4|Lv1RES=8
+|GRHP=40|GRATK=55|GRSPD=60|GRDEF=25|GRRES=60
+}}
+
+== Skills ==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Dagger
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Dagger
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Kitty Paddle
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Kitty Paddle+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+
+===Assists===
+{{Assists Table
+}}
+
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Glacies
+|special2Default=
+|special2Unlock=4
+}}
+
+===Passives===
+{{Passives Table
+|passiveA1=Warding Stance 1
+|passiveA2=Warding Stance 2
+|passiveA3=Warding Stance 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Guard 1
+|passiveB2=Guard 2
+|passiveB3=Guard 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Dagger Valor 1
+|passiveC2=Dagger Valor 2
+|passiveC3=Dagger Valor 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+
+{{Heroes Navbox}}
+[[Category:Halloween units]]

@@ -1,0 +1,39 @@
+{{Weapon Infobox
+|tagid=SID_薔薇のナイフ
+|intID=3191
+|image=wep_dg066
+|exclusive=0
+|weaponType=Dagger
+|cost=200
+|might=8
+|range=2
+|effect=Enables【Canto (１)】.<br><br>At start of combat, if foe's HP ≥ 75%, grants Atk/Spd+5 to unit during combat.<br>Effect:【Dagger ５】<br><br>【Canto (１)】<br>After an attack, Assist skill, or structure destruction, unit can move １ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)<br><br>【Dagger ５】<br>After combat, if unit attacked, inflicts Def/Res-５ on target and foes within 2 spaces of target through their next actions.
+|statModifiers=0,8,0,0,0
+|required=Steel Dagger
+|next=Florid Knife+
+|promotionRarity=5
+|promotionTier=1
+|properties=
+}}
+==Notes==
+{{Canto|1}}
+{{Combat boosts}}
+{{IfUnitAttacked}}
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=薔薇のナイフ
+|german=Rosendolch
+|spanishEU=Daga florida
+|spanishLA=Daga florida
+|french=Couteau fleuri
+|italian=Pugnale florido
+|chineseTW=薔薇匕首
+|portuguese=Adaga florida
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【Canto (１)】%' AND Exclusive='1'|columns=3}}
+* [[Skill families#Trace|Trace Passives]]
+{{Weapons Navbox}}

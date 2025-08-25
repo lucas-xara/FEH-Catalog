@@ -1,0 +1,38 @@
+{{Weapon Infobox
+|tagid=SID_火薙ぎの弓
+|weaponType=Bow
+|might=7
+|range=2
+|effectiveness=flying
+|effect=Effective against flying foes. Unit and foe cannot counterattack.
+|cost=200
+|exclusive=0
+|userVersion1=Bow
+|userVersion2=Arrow
+|statModifiers=0,7,0,0,0
+|next=Firesweep Bow+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Bow
+|properties=random_owner
+}}
+==Notes==
+{{Firesweep interaction}}
+{{Effective damage bonus|flying}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=火薙ぎの弓
+|german=Feuerfegerbogen
+|spanishEU=Arco Vulcano
+|spanishLA=Arco Vulcano
+|french=Arc enflammé
+|italian=Spazzafuoco
+|chineseTW=火薙之弓
+|portuguese=Arco vulcão
+}}
+==See also==
+* [[Skill families#Firesweep|Firesweep weapons]]
+{{Weapons Navbox}}

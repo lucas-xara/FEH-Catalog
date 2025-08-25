@@ -1,0 +1,52 @@
+{{Passive
+|name=Clever Fighter
+|type=B
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|Armored}}
+|properties=random_owner
+|1name=Clever Fighter
+|1tagid=SID_慧敏隊形4
+|1effect=Inflicts Atk/Spd-4 on foe, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks, and increases the Spd difference necessary for foe to make a follow-up attack by 10 during combat (for example, if Spd difference necessary increases by 10, Spd must be ≥ 15 more than foe's Spd to make a follow-up attack; stacks with similar skills), and also, if unit's Spd ≥ foe's Spd-10, reduces damage from foe's first attack by 10 during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes).
+|1cost=300
+|1required=Savvy Fighter 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary debuffs|Atk/Spd|4}}
+|Ce2={{Eft|Spd Difference Increase|10}}
+|Ce3={{Eft|Neutralize Guaranteed Follow-Ups}}
+|Ce1-3T={{Tgt|Foe}}
+|Ce4={{Eft|Neutralize Prevent Follow-Ups}}
+|Ce5={{Eft|Damage Reduction|10}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce5C={{Tgt|Unit}}'s Spd ≥<br>{{Tgt|Foe}}'s Spd-10
+}}
+
+==Notes==
+{{Temporary debuffs}}
+{{Follow-up effect neutralization}}
+{{SpdDiffIncrease}}
+{{FlatDamageReduction|10}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=慧敏隊形
+|german=Schlauheit
+|spanishEU=Perspicaz
+|spanishLA=Perspicaz
+|french=Perspicacité
+|italian=Perspicacia
+|chineseTW=慧敏隊形
+|portuguese=Perspicaz
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%increases the Spd difference necessary%to make a follow-up attack by%' OR Description LIKE '%reduces damage from foe_s first attack by 10 %'}}
+* [[Fighter Passives]]
+* [[Null Passives]]
+{{Passives Navbox|B}}
+[[Category:Fighter Passives]]

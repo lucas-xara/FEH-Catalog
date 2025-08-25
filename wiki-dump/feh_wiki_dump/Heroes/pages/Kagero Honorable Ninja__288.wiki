@@ -1,0 +1,75 @@
+{{#invoke:NameAbout|main|Name=Kagero}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Kagero
+|Title=Honorable Ninja
+|GrowthModifier=None
+|WeaponType=Colorless Dagger
+|Origin=Fire Emblem Fates
+|Gender=Female
+|MoveType=Infantry
+|actorEN=Sarah Blandy
+|actorJP=村川梨衣
+|artist=lack
+|resplendentArtist=かかげ
+|releaseDate=February 2, 2017
+|poolDate=February 2, 2017
+|randomStartTime=2017-02-02T07:00:00Z
+|poolRarities=3,4
+|TagID=カゲロウ
+|InternalID=72
+|Properties=demoted_240,resplendent,dokkalfheimr
+|cv1=11
+|cv2=200500
+|description=A ninja of Hoshido who is ready to lay down her life for her liege. One of Ryoma's retainers. Appears in Fire Emblem Fates.
+|resplendentStartTime=2021-10-25T07:00:00Z
+|resplendentEndTime=2021-11-10T06:59:59Z
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=9|Lv1SPD=8|Lv1DEF=5|Lv1RES=6
+|GRHP=35|GRATK=60|GRSPD=55|GRDEF=40|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Dagger
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Dagger
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Poison Dagger
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Poison Dagger+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Kagero's Dart
+|weapon5Default=
+|weapon5Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Retribution
+|special1Default=4
+|special1Unlock=3
+|special2=Reprisal
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Warding Blow 1
+|passiveA2=Warding Blow 2
+|passiveA3=Warding Blow 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Daggerbreaker 1
+|passiveB2=Daggerbreaker 2
+|passiveB3=Daggerbreaker 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+}}
+{{Heroes Navbox}}

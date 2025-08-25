@@ -1,0 +1,74 @@
+{{#invoke:NameAbout|main|Name=Lachesis}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Lachesis
+|Title=Lionheart's Sister 
+|WeaponType=Colorless Staff
+|Origin=Fire Emblem: Genealogy of the Holy War 
+|Gender=Female
+|MoveType=Infantry 
+|actorEN=Cristina Valenzuela 
+|resplendentActorEN=Cristina Vee
+|actorJP=大西沙織
+|artist=みわべさくら
+|resplendentArtist=さとうぽて
+|releaseDate=February 27, 2017
+|poolDate=March 14, 2017
+|randomStartTime=2017-03-16T07:00:00Z
+|poolRarities=3,4
+|TagID=ラケシス
+|InternalID=108
+|Properties=demoted_240,resplendent,hel
+|cv1=3
+|cv2=1100200
+|description=Lady of House Nordion. Adores her older brother, Eldigan, to the point that other men pale in comparison. Appears in Fire Emblem: Genealogy of the Holy War.
+|GrowthModifier=None
+|resplendentStartTime=2022-04-10T07:00:00Z
+|resplendentEndTime=2022-04-25T06:59:59Z
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=6|Lv1SPD=8|Lv1DEF=5|Lv1RES=8
+|GRHP=50|GRATK=60|GRSPD=40|GRDEF=40|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Assault
+|weapon1Unlock=1
+|weapon2=Absorb
+|weapon2Unlock=3
+|weapon3=Absorb+
+|weapon3Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Heal
+|assist1Default=1
+|assist1Unlock=1
+|assist2=Mend
+|assist2Default=3
+|assist2Unlock=2
+|assist3=Physic
+|assist3Default=5
+|assist3Unlock=4
+|assist4=Physic+
+|assist4Unlock=5
+}}
+===Specials===
+{{Specials Table
+|special1=Imbue
+|special1Default=4
+|special1Unlock=2
+|special2=Solid-Earth Balm
+|special2Default=5
+|special2Unlock=3
+}}
+===Passives===
+{{Passives Table
+|passiveC1=Spur Res 1
+|passiveC2=Spur Res 2
+|passiveC3=Spur Res 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

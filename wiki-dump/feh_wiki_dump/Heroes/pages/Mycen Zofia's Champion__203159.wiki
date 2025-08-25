@@ -1,0 +1,73 @@
+{{#invoke:NameAbout|main|Name=Mycen}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Mycen
+|Title=Zofia's Champion
+|WeaponType=Blue Lance
+|MoveType=Cavalry
+|Origin=Fire Emblem Echoes: Shadows of Valentia
+|Gender=Male
+|actorEN=Doug Stone
+|actorJP=中博史
+|artist=創-taro
+|randomStartTime=2023-11-16T07:00:00Z
+|additionDate=October 16, 2023
+|releaseDate=October 16, 2023
+|poolDate=November 7, 2023
+|poolRarities=5
+|cv1=2
+|cv2=400500
+|TagID=マイセン
+|InternalID=1013
+|Properties=
+|description=A hero who rose from soldier to knight, and on to earn the title of count. Retired, he lives in Ram Village with his grandson, Alm. Appears in Fire Emblem Echoes: Shadows of Valentia.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=16|Lv1SPD=3|Lv1DEF=6|Lv1RES=9
+|GRHP=50|GRATK=70|GRSPD=30|GRDEF=90|GRRES=65
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Lance
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Worldly Lance
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=4
+|special1Unlock=3
+|special2=Bonfire
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Def Clash 1
+|passiveA2=Atk/Def Clash 2
+|passiveA3=Atk/Def Clash 3
+|passiveA4=Atk/Def Clash 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveC1=Close Guard 1
+|passiveC2=Close Guard 2
+|passiveC3=Close Guard 3
+|passiveC4=Joint Close Guard
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}

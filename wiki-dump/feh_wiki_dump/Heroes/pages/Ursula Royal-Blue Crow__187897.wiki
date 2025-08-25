@@ -1,0 +1,71 @@
+{{#invoke:NameAbout|main|Name=Ursula}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Ursula
+|Title=Royal-Blue Crow
+|WeaponType=Green Tome
+|MoveType=Cavalry
+|Origin=Fire Emblem: The Blazing Blade
+|Gender=Female
+|actorEN=Misty Lee
+|actorJP=水橋かおり
+|artist=鈴木理華
+|additionDate=January 10, 2023
+|releaseDate=January 10, 2023
+|cv1=6
+|cv2=2900800
+|TagID=カダインウルスラ
+|InternalID=900
+|Properties=special
+|description=Ursula, dressed in the robes of the Khadein school of magic. Also known as the Blue Crow of the Black Fang assassins. Appears in Fire Emblem: The Blazing Blade.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=12|Lv1SPD=11|Lv1DEF=3|Lv1RES=3
+|GRHP=50|GRATK=70|GRSPD=80|GRDEF=35|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Wind
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elwind
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Rexcalibur
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Crow's Crystal
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Moonbow
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Chill Res 1
+|passiveB2=Chill Spd/Res 1
+|passiveB3=Chill Spd/Res 2
+|passiveB4=Chill Spd/Res 3
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Panic Smoke 1
+|passiveC2=Panic Smoke 2
+|passiveC3=Panic Smoke 3
+|passiveC4=Panic Smoke 4
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Desert Festival units]]

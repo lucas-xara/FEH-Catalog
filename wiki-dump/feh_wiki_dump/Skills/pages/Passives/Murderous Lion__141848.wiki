@@ -1,0 +1,46 @@
+{{Passive
+|name=Murderous Lion
+|type=B
+|exclusive=1
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|intID=2556
+|sort=541
+|value=8
+|timingID=1
+|abilityID=64
+|limit1ID=19
+|randomTimestamp=2021-06-07T07:00:00Z
+|randomMinLv=31
+|properties=random_owner
+|1name=Murderous Lion
+|1tagid=SID_蒼き殺人鬼
+|1required=-
+|1cost=300
+|1effect=Enables【Canto (Rem. +1)】.<br><br>If unit is not adjacent to an ally, inflicts Spd/Def-3 on foe during combat and foe cannot counterattack.<br><br>【Canto (Rem. +1)】<br>After an attack, Assist skill, or structure destruction, unit can move again.<br><br>The distance of the movement is the remaining movement the unit had before the actions listed above+1 (If unit used a movement skill that warps them, the remainder is 0).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+}}
+==Notes==
+{{Canto|Rem. +1}}
+{{Combat reductions}}
+{{Prevent counterattacks}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=蒼き殺人鬼
+|german=Grausamer Löwe
+|spanishEU=León despiadado
+|spanishLA=León despiadado
+|french=Lion meurtrier
+|italian=Leone assassino
+|chineseTW=青色殺人魔
+|portuguese=Leão algoz
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%Inflicts Spd/Def-_ on foe%during combat%' AND Description NOT LIKE '%inflicts%-%within _ spaces%' OR Description LIKE '%Canto _Rem. +1_%') AND Exclusive='1' OR Description LIKE '%,%foe cannot counterattack%' AND NOT CanUseWeapon__full='Colorless Staff'|columns=3}}
+* [[Skill families#Trace|Trace Passives]]
+{{Passives Navbox|B}}

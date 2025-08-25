@@ -1,0 +1,60 @@
+{{Passive
+|type=A
+|exclusive=0
+|1name=Bracing Blow 1
+|1tagid=SID_金剛明鏡の一撃1
+|1promotionRarity=5
+|1promotionTier=1
+|1effect=If unit initiates combat, grants Def/Res+2 during combat.
+|1cost=120
+|1required=Armored Blow 1;Warding Blow 1
+|2name=Bracing Blow 2
+|2tagid=SID_金剛明鏡の一撃2
+|2effect=If unit initiates combat, grants Def/Res+4 during combat.
+|2cost=240
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|all}}
+|properties=random_all
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Swift Strike 2}} Swift Strike 2
+|skill1 CombatEffect={{SkillEffectText|Temporary buffs|Def/Res|4}}
+|skill1 CombatEffect Conditions=Player Phase
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Bracing Blow 1;Bracing Blow 2
+|badgeColor=Transparent
+|costs1=20;100;20
+|costs2=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=金剛明鏡の一撃
+|german=Stärkungshieb
+|spanishEU=Golpe muralla
+|spanishLA=Golpe muralla
+|french=Coup rempart
+|italian=Colpo tonico
+|chineseTW=金剛明鏡擊
+|portuguese=Golpe muro
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit initiates combat, grants Def/Res+%' AND Exclusive='1'}}
+* [[Blow Passives]]
+{{Seals Navbox}}
+{{Passives Navbox|A}}
+[[Category:Blow Passives]]

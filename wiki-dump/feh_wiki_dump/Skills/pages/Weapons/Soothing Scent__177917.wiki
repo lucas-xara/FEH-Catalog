@@ -1,0 +1,41 @@
+{{Weapon Infobox
+|tagid=SID_影潜む密偵の香水瓶
+|intID=3194
+|image=wep_mg069
+|exclusive=1
+|weaponType=Red Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Enables【Canto (Ally 2)】.<br><br>Accelerates Special trigger (cooldown count-1). At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+6 to unit during combat, and also, if unit's Spd > foe's Spd, foe cannot counterattack. If unit's HP ≥ 25% at start of combat and unit attacks, after combat, deals 10 damage to target and foes within 2 spaces of target.<br><br>【Canto (Ally 2)】<br>After an attack, Assist skill, or structure destruction, unit can move to a space adjacent to any ally within 2 spaces.<br><br>(Once per turn. Cannot attack or assist. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Granted movement treated as Warp movement.)
+|statModifiers=0,14,0,0,0
+|required=Bolganone;Fenrir
+|properties=
+}}
+==Notes==
+{{Canto|Ally 2}}
+{{Combat boosts}}
+{{Prevent counterattacks}}
+{{IfUnitAttacked}}
+{{Out of combat damage}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V6.8_v0608a_thief_Mag.webp|Sprite sheet for {{St|Lofty Leaflet}} and {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=影潜む密偵の香水瓶
+|german=Betörender Duft
+|spanishEU=Aroma relajante
+|spanishLA=Aroma relajante
+|french=Parfum apaisant
+|italian=Profumo soave
+|chineseTW=暗影密探的香水瓶
+|portuguese=Aroma calmante
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【Canto (Ally 2)】%' OR Description LIKE '%unit_s Spd%foe cannot counterattack%'|columns=3}}
+{{Weapons Navbox}}

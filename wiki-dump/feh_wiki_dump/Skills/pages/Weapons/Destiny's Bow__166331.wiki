@@ -1,0 +1,41 @@
+{{Weapon Infobox
+|tagid=SID_運命変える絆弓
+|intID=2951
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=1
+|weaponType=Bow
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effectiveness=Armored,Flying
+|effect=Accelerates Special trigger (cooldown count-1). Effective against flying and armored foes. If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit during turns 1 through 4, grants Special cooldown count-1 to unit and target ally or unit and targeting ally. (Once per turn only.) If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit during combat, and unit makes a guaranteed follow-up attack.
+|statModifiers=0,14,0,0,0
+|required=Silver Bow
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|flying,armored}}
+{{IfUnitInitiates}}
+{{Combat boosts}}
+{{Guaranteed follow-up interaction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=運命変える絆弓
+|german=Schicksalsbogen
+|spanishEU=Arco del destino
+|spanishLA=Arco del destino
+|french=Arc du destin
+|italian=Arco del destino
+|chineseTW=改變命運的絆弓
+|portuguese=Arco do destino
+}}
+==See also==
+{{See also skills|cond=(WeaponEffectiveness='armored,flying' OR Description LIKE '%if a movement assist skill%' OR Description LIKE '%if unit initiates combat or is within 2 spaces of an ally%and unit makes a guaranteed follow-up attack%') AND Exclusive='1'|columns=3}}
+* [[Skill families#Link|Link passives]]
+* [[Weapons that are effective against armored foes]]
+{{Weapons Navbox}}
+[[Category:Sources of Special cooldown count modifications out of combat]]

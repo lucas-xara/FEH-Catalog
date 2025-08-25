@@ -1,0 +1,69 @@
+{{#invoke:NameAbout|main|Name=Sonia}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Sonia
+|Title=Inhuman Beauty
+|WeaponType=Blue Tome
+|MoveType=Infantry
+|Origin=Fire Emblem: The Blazing Blade
+|Gender=Female
+|actorEN=Larissa Gallagher
+|actorJP=生天目仁美
+|artist=米子
+|additionDate=April 5, 2021
+|releaseDate=April 7, 2021
+|cv1=6
+|cv2=2900300
+|TagID=ソーニャ
+|InternalID=648
+|Properties=ghb,limited
+|description=A mysterious woman who seduced the leader of the Black Fang. Her true loyalty lies with Nergal, at whose instruction she secretly manipulates events. Appears in Fire Emblem: The Blazing Blade.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=9|Lv1SPD=5|Lv1DEF=8|Lv1RES=9
+|GRHP=50|GRATK=60|GRSPD=45|GRDEF=55|GRRES=60
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Thunder
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elthunder
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Blárserpent
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Blárserpent+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Fimbulvetr Morn
+|weapon5Default=
+|weapon5Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Glacies
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Fortress Res 1
+|passiveA2=Fort. Def/Res 1
+|passiveA3=Fort. Def/Res 2
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Threaten Res 1
+|passiveC2=Threat. Atk/Res 1
+|passiveC3=Threat. Atk/Res 2
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

@@ -1,0 +1,50 @@
+{{Weapon Infobox
+|tagid=SID_颯弓ミュルグレ
+|intID=2983
+|userVersion1=Bow
+|userVersion2=Arrow
+|userVersion3=Gleam
+|userVersion4=Upgrade Gleam
+|exclusive=1
+|weaponType=Bow
+|cost=400
+|might=14
+|range=2
+|effectiveness=Flying
+|effect=Effective against flying foes. If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd+5 to unit during combat, and also, if unit's Spd ≥ foe's Spd+5, foe cannot counterattack.
+|statModifiers=0,14,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|tagidExtraSkill1=一
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+5 to unit during combat and unit's first attack during combat deals damage = 15% of unit's Spd, and also, if unit initiates combat and attacks, deals 7 damage to target and foes within 2 spaces of target after combat.
+|iconSkill1=Quick Mulagir W.png
+|properties=
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Prevent counterattacks}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{DamageBoost}}
+{{Out of combat damage}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=颯弓ミュルグレ
+|german=Schneller Mulagir
+|spanishEU=Mulagir veloz
+|spanishLA=Mulagir veloz
+|french=Mulagir vif
+|italian=Mulagir rapido
+|chineseTW=颯弓妙爾葛雷
+|portuguese=Mulagir veloz
+}}
+==See also==
+{{See also skills|cond=WikiName LIKE '%Mulagir%' OR Description LIKE '%if unit\'s Spd ≥ foe\'s Spd+%foe cannot counterattack%' OR Description LIKE '%deals damage = 15\% of unit\'s Spd%' OR Description LIKE '%if unit%attacks%deals%damage to target and foes within 2 spaces of target after combat%'}}
+{{Weapons Navbox}}

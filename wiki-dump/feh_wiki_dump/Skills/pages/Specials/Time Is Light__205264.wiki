@@ -1,0 +1,49 @@
+{{Special
+|tagid=SID_時は光
+|intID=3882
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=3
+|effect=Boosts damage by 45% of unit's Spd when Special triggers. Neutralizes effects that inflict "Special cooldown charge -X" on unit during combat. If unit initiates combat, after combat, if unit's Special triggered and unit survives, grants another action to unit and inflicts "restricts movement to 1 space" on unit and Pair Up cohort through their next action (once per turn). (This effect has priority over other similar effects; in such cases, these other similar effects are treated as not having triggered.)
+|required=Vengeance
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Damage boost|45% of {{Tgt|Unit}}'s Spd}}
+|Ce1C=Special triggers
+|Ce2={{Eft|Neutralize Guard}}
+|Me={{Eft|Another Action}}
+|MeC=After combat in<br>Player Phase if<br>Special triggered
+|Se={{SEt|Gravity}}
+|SeT={{Tgt|Unit}} '''&'''<br>{{Tgt|Cohort}}
+|SeC=After combat in<br>Player Phase if<br>Special triggered
+}}
+==Notes==
+{{CooldownChargeMinusNeutralization}}
+{{Galeforce notes|priority=1}}
+{{Gravity}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V7.11_v0711c_legend_Skl.webp|Sprite sheet for {{St|Light Is Time}} and {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=時は光
+|german=Zeit ist Licht
+|spanishEU=El tiempo es luz
+|spanishLA=El tiempo es luz
+|french=Temps et lumière
+|italian=Il tempo è luce
+|chineseTW=時間等同光
+|portuguese=O tempo é luz
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%if unit initiates%after combat%another action to unit%' OR  Description LIKE '%if unit initiates%another action to unit%after combat%' AND Description NOT LIKE '%if unit initiates%assist%another action%' OR Description LIKE '%if unit initiates%grants unit another action%after combat%'}}
+{{Specials Navbox}}

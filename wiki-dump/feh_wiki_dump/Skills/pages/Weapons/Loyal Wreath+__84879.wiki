@@ -1,0 +1,46 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_花輪＋
+|weaponType=Red Tome
+|might=12
+|range=2
+|effect=If unit is adjacent to an ally, grants Atk/Spd/Def/Res+3 during combat.
+|cost=300
+|exclusive=0
+|userVersion1=
+|userVersion2=
+|userVersion3=
+|userVersion4=
+|statModifiers=0,12,0,0,0
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|SE=se_effect_flowerwreath.wav
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+v3.2_77_valentine02_Hit.png|Sprite sheet for {{PAGENAME}}'s hit animation.
+v3.2_77_valentine02_Mag.png|Sprite sheet for the animations of {{PAGENAME}}, {{St|Blárblooms+}}, {{St|Gronnblooms+}}, {{St|Tharja's Hex}} and {{St|Iris's Tome}}.
+</gallery>
+
+==In other languages==
+{{OtherLanguages
+|japanese=花輪＋
+|german=Loyaler Kranz+
+|spanishEU=Guirnalda leal +
+|spanishLA=Guirnalda leal +
+|french=Fleurs loyales +
+|italian=Ghirlanda leale+
+|chineseTW=花圈＋
+|portuguese=Guirlanda leal+
+}}
+==See also==
+* 
+{{Weapons Navbox}}

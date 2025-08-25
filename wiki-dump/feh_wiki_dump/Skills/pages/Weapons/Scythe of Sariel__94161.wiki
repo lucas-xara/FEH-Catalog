@@ -1,0 +1,47 @@
+{{Weapon Infobox
+|tagid=SID_サリエルの大鎌
+|weaponType=Blue Lance
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). If a bonus granted by a skill like Rally or Hone and/or 1 extra space of movement granted by a skill like Armor March or Armored Boots is active on foe, grants Atk/Spd/Def/Res+4 to unit during combat and foe cannot make a follow-up attack.
+|cost=400
+|exclusive=1
+|required=Silver Lance
+|statModifiers=0,16,0,0,0
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1). If【Bonus】is active on foe or if foe's HP ≥ 75% at start of combat, grants Atk/Spd/Def/Res+4 to unit during combat and foe cannot make a follow-up attack.<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|tagidExtraSkill1=一
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 during combat, and unit makes a guaranteed follow-up attack.
+|iconSkill1=Scythe of Sariel W.png
+|properties=random_owner
+}}
+==Notes==
+{{Temporary buffs}}
+{{EffectfromBonusesMobility|target=foe|temporary buffs and follow-up preventing effects}}
+{{Prevent follow-up}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{EffectfromBonus|name=refined Scythe of Sariel}}
+{{Guaranteed follow-up interaction|name={{St|Scythe of Sariel|refine=Skill1}}}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=サリエルの大鎌
+|german=Sariel-Sense
+|spanishEU=Guadaña de Sariel
+|spanishLA=Guadaña Sariel
+|french=Faux de Sariel
+|italian=Falce di Sariel
+|chineseTW=薩利耶爾之大鐮
+|portuguese=Foice de Sariel
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants Atk/%+%during combat%makes a guaranteed follow-up attack%cannot make a follow-up attack%' AND Description NOT LIKE '%transforms%inflicts Atk/Def-4%' AND SP='400' OR Description LIKE '%if unit_s HP ≥ 25%grants Atk/Spd/Def/Res+%makes a guaranteed follow-up%'}}
+{{Weapons Navbox}}

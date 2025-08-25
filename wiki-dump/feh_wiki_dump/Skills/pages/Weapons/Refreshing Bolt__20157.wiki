@@ -1,0 +1,41 @@
+{{Weapon Infobox
+|tagid=SID_氷菓子の弓
+|weaponType=Bow
+|weaponName={{PAGENAME}}
+|might=8
+|range=2
+|effectiveness=flying
+|effect=Effective against flying foes.<br>At start of combat, if unit's HP = 100%, grants Atk/Spd/Def/Res+2, but after combat, if unit attacked, deals 2 damage to unit.
+|cost=200
+|exclusive=0
+|userVersion1=Bow|userVersion2=Arrow
+|statModifiers=0,8,0,0,0
+|next=Refreshing Bolt+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Bow
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+* The 100% HP requirement applies to the Atk/Spd/Def/Res +2 as well as the 2 damage after combat.
+{{Combat boosts}}
+{{IfUnitAttacked}}
+{{DamageToUnit}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=氷菓子の弓
+|german=Energiebolzen
+|spanishEU=Virote gélido
+|spanishLA=Virote gélido
+|french=Arc à friandises
+|italian=Dardo frizzante
+|chineseTW=冰品弓
+|portuguese=Arco gélido
+}}
+==See also==
+* [[Ylissean Summer Weapons]]
+{{Weapons Navbox}}
+[[Category:Ylissean Summer weapons]]

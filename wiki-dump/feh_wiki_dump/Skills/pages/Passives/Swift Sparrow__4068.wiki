@@ -1,0 +1,72 @@
+{{Passive
+|type=A
+|exclusive=0
+|1name=Swift Sparrow 1
+|1tagid=SID_鬼神飛燕の一撃1
+|1promotionRarity=5
+|1promotionTier=1
+|1effect=If unit initiates combat, grants Atk/Spd+2 during combat.
+|1cost=120
+|1required=Darting Blow 1;Death Blow 1
+|2name=Swift Sparrow 2
+|2tagid=SID_鬼神飛燕の一撃2
+|2effect=If unit initiates combat, grants Atk/Spd+4 during combat.
+|2cost=240
+|2next=-
+|3name=Swift Sparrow 3
+|3tagid=SID_鬼神飛燕の一撃3
+|3effect=If unit initiates combat, grants Atk+6, Spd+7 during combat.
+|3cost=300
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|all}}
+|properties1=random_all
+|properties2=random_all
+|properties3=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Swift Sparrow 2}} Swift Sparrow 2
+|skill1 CombatEffect={{SkillEffectText|Temporary buffs|Atk/Spd|4}}
+|skill1 CombatEffect Conditions=Player Phase
+|skill2={{Si|Swift Sparrow 3}} Swift Sparrow 3
+|skill2 CombatEffect={{SkillEffectText|Temporary buffs|Atk|6}}, {{SkillEffectText|Temporary buffs|Spd|7}}
+|skill2 CombatEffect Conditions=Player Phase
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Swift Sparrow 1;Swift Sparrow 2
+|badgeColor=Azure
+|costs1=20;100;40
+|costs2=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=鬼神飛燕の一撃
+|german=Flinker Spatz
+|spanishEU=Gorrión veloz
+|spanishLA=Gorrión veloz
+|french=Hirondelle rapide
+|italian=Rondine rapida
+|chineseTW=鬼神飛燕擊
+|portuguese=Pardal ligeiro
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit initiates combat, grants Atk/Spd+%' AND Exclusive='1'}}
+* [[Blow Passives]]
+{{Seals Navbox}}
+{{Passives Navbox|A}}
+[[Category:Blow Passives]]

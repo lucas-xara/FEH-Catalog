@@ -1,0 +1,68 @@
+{{#invoke:NameAbout|main|Name=Brunnya}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Brunnya
+|Title=Devoted General
+|WeaponType=Blue Tome
+|Origin=Fire Emblem: The Binding Blade
+|Gender=Female
+|MoveType=Infantry
+|actorJP=ささきのぞみ
+|actorEN=Julia McIlvaine
+|artist=米子
+|additionDate=November 19, 2019
+|releaseDate=November 22, 2019
+|TagID=ブルーニャ
+|InternalID=452
+|Properties=tempest,limited
+|cv1=5
+|cv2=500300
+|description=One of three Wyvern Generals of Bern. Although Zephiel causes her heartache, she is very loyal to him. Appears in Fire Emblem: The Binding Blade.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=9|Lv1SPD=7|Lv1DEF=4|Lv1RES=9
+|GRHP=55|GRATK=60|GRSPD=55|GRDEF=40|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Thunder
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elthunder
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Thoron
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Fimbulvetr
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Glacies
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Death Blow 1
+|passiveA2=Death Blow 2
+|passiveA3=Death Blow 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Res Smoke 1
+|passiveC2=Res Smoke 2
+|passiveC3=Res Smoke 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

@@ -1,0 +1,40 @@
+{{Weapon Infobox
+|tagid=SID_継承イチイバル
+|intID=3789
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=1
+|weaponType=Bow
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effectiveness=Flying
+|effect=Accelerates Special trigger (cooldown count-1). Effective against flying foes. If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit, grants Atk/Spd+X to unit (X = 25% of foe's Atk at start of combat, - 8; min 0; max 10), neutralizes effects that inflict "Special cooldown charge -X" on unit, and reduces damage from foe's first attack by 30% during combat, and also restores 7 HP to unit after combat.
+|required=Silver Bow
+|properties=random_owner
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{At start of combat}}
+{{CooldownChargeMinusNeutralization}}
+{{DamagePercentageReduction}}
+{{After combat healing}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=継承イチイバル
+|german=Ererbter Yewfelle
+|spanishEU=Legado Yewfelle
+|spanishLA=Legado Yewfelle
+|french=Yewfelle hérité
+|italian=Yewfelle ereditato
+|chineseTW=繼承伊奇巴爾
+|portuguese=Yewfelle legado
+}}
+==See also==
+{{See also skills|cond=WikiName LIKE '%yewfelle%' OR Description LIKE '%=% of foe_s Atk at start of combat%'}}
+{{Weapons Navbox}}

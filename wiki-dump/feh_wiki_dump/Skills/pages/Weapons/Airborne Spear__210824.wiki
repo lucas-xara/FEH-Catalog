@@ -1,0 +1,72 @@
+{{Weapon Infobox
+|tagid=SID_穢れなき白槍
+|intID=3996
+|image=wep_lc162
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=16
+|range=1
+|effect=If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+4 to unit and neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat, and also, if unit's Res > foe's Res, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 4 (max 40%).
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit and neutralizes effects that grant "Special cooldown charge +X" to foe or inflict "Special cooldown charge -X" on unit during combat, and also, if unit's attack can trigger unit's Special and unit's Spd+Res ≥ foe's Spd+Res-5 during combat (excluding effects from【Phantom】), grants Special cooldown count-2 to unit before unit's first attack during combat. At start of combat, if unit's HP ≥ 25%, restores 7 HP to unit after combat.<br><br>【Phantom】<br>If a skill effect compares unit's stats to a foe or ally stats, treats unit's stats as if granted +X.
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|skill1 CombatEffect 1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|skill1 CombatEffect 2={{Eft|Neutralize Prevent Follow-Ups}}
+|skill1 CombatEffect 3={{Eft|Neutralize Guaranteed Follow-Ups}}
+|skill1 CombatEffect 3 Targets={{Tgt|Foe}}
+|skill1 CombatEffect 1-3 Conditions=Player Phase<br>'''or''' an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|skill1 CombatEffect 4={{Eft|Damage Reduction|4 x ({{Tgt|Unit}}'s Res - {{Tgt|Foe)}}'s Res)<br>from attacks & Non-Røkkr [[AoE Specials]]|percent=1|max=40%}}
+|skill1 CombatEffect 4 Targets={{Tgt|Unit}}
+|skill1 CombatEffect 4 Conditions=(Player Phase<br>'''or''' an {{Tgt|Ally}} is<br>[[within 2 spaces]])<br>'''&''' {{Tgt|Unit}}'s Res ><br>{{Tgt|Foe}}'s Res
+|skill2={{Si|Airborne Spear|refine=Skill1}} Skill refine effects
+|skill2 CombatEffect 1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|skill2 CombatEffect 2={{Eft|Neutralize Accelerate Charge}}
+|skill2 CombatEffect 2 Targets={{Tgt|Foe}}
+|skill2 CombatEffect 3={{Eft|Neutralize Slow Charge}}
+|skill2 CombatEffect 3-4 Targets={{Tgt|Unit}}
+|skill2 CombatEffect 1-3 Conditions={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|skill2 CombatEffect 4={{Eft|Reduce Cooldown|2}}<br>before {{Tgt|Unit}}'s first attack
+|skill2 CombatEffect 4 Conditions={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat,<br>{{Tgt|Unit}} has an<br>[[offensive special]] '''&'''<br>{{Tgt|Unit}}'s Spd/Res ≥<br>{{Tgt|Foe}}'s Spd/Res -5<br>(excluding<br>{{Kp|Phantom}} effects)
+|skill2 MapEffect={{Eft|Heal|7}}
+|skill2 MapEffect Conditions=After combat if<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Follow-up effect neutralization}}
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{CooldownChargePlusNeutralization|name={{St|Airborne Spear|refine=Skill1}}}}
+{{CooldownChargeMinusNeutralization|name={{St|Airborne Spear|refine=Skill1}}}}
+{{CombatCooldownCount|-2|name={{St|Airborne Spear|refine=Skill1}}}}
+{{After combat healing|name={{St|Airborne Spear|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=穢れなき白槍
+|german=Speer der Lüfte
+|spanishEU=Lanza alada
+|spanishLA=Lanza alada
+|french=Lance du ciel
+|italian=Lancia alata
+|chineseTW=純潔無瑕的白槍
+|portuguese=Lança aérea
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%before unit_s first attack%grants special cooldown count-%' OR Description LIKE '%grants Special cooldown count-%before unit_s first attack%' OR Description LIKE '%unit_s Res > foe_s Res%educes damage from attacks during combat%') AND Exclusive='1'}}
+{{Weapons Navbox}}

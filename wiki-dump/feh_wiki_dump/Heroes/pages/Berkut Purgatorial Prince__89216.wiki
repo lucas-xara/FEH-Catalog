@@ -1,0 +1,72 @@
+{{#invoke:NameAbout|main|Name=Berkut|Name2=Rinea}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Berkut
+|Title=Purgatorial Prince
+|WeaponType=Blue Lance
+|MoveType=Cavalry
+|Origin=Fire Emblem Echoes: Shadows of Valentia
+|Gender=Male
+|artist=麻谷知世
+|actorEN=Ian Sinclair
+|actorJP=鈴木達央,銀河万丈
+|additionDate=2019-05-09
+|releaseDate=2019-05-10
+|poolDate=2019-05-30
+|randomStartTime=2019-06-10T07:00:00Z
+|poolRarities=5
+|TagID=闇ベルクト
+|InternalID=374
+|Properties=fallen,specRate_202202
+|cv1=2
+|cv2=900100
+|description=Heir presumptive to the Rigelian throne. Fell into a deep despair when the truth about Alm came out. Gave his betrothed's life to Duma to obtain power. Appears in Fire Emblem Echoes: Shadows of Valentia.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=5|Lv1SPD=4|Lv1DEF=11|Lv1RES=8
+|GRHP=50|GRATK=70|GRSPD=30|GRDEF=55|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Lance
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Kriemhild
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+}}
+===Specials===
+{{Specials Table
+|special1=Retribution
+|special1Default=4
+|special1Unlock=3
+|special2=Reprisal
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Warding Stance 1
+|passiveA2=Warding Stance 2
+|passiveA3=Warding Stance 3
+|passiveA4=Warding Stance 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveC1=Odd Res Wave 1
+|passiveC2=Odd Res Wave 2
+|passiveC3=Odd Res Wave 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

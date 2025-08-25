@@ -1,0 +1,40 @@
+{{Weapon Infobox
+|tagid=SID_軍師の諫言の杖
+|intID=3013
+|image=wep_rd049
+|exclusive=1
+|weaponType=Colorless Staff
+|cost=400
+|might=14
+|range=2
+|effect=Calculates damage from staff like other weapons. At start of turn, grants Atk/Def/Res+6 and the following status to unit's support partner (if any): "If unit initiates combat, unit makes a guaranteed follow-up attack." At start of turn, if at least one ally has been defeated, grants Special cooldown count-2 and the following status to unit's support partner (if any): "Foe cannot make a follow-up attack."
+|statModifiers=0,14,0,0,0
+|required=Assault
+|properties=random_owner
+}}
+==Notes==
+* Has the same effect as {{St|Wrathful Staff}}.
+{{Wrathful Staff}}
+{{Bonuses}}
+{{Guaranteed Follow-Ups}}
+{{Start of turn Special modification}}
+{{Foe Cannot Follow-Up}}
+{{SupportPartner|effect={{SEt|bonuses}}, {{SEt|Guaranteed Follow-Ups}}, {{SEt|Foe Cannot Follow-Up}}, and cooldown count reduction effects granted to unit's support partner}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=軍師の諫言の杖
+|german=Diplomatiestab
+|spanishEU=Bastón consejero
+|spanishLA=Bastón consejero
+|french=Bâton diplomate
+|italian=Asta diplomatica
+|chineseTW=軍師諫言之杖
+|portuguese=Bastão diplomata
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%support partner%' OR Description LIKE '%"If unit initiates combat, unit makes a guaranteed follow-up attack."%' OR Description LIKE '%"Foe cannot make a follow-up attack."%'|columns=3}}
+{{Weapons Navbox}}

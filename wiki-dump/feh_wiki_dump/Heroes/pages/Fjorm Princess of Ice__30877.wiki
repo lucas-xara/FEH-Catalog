@@ -1,0 +1,92 @@
+{{#invoke:NameAbout|main|Name=Fjorm}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Fjorm
+|Title=Princess of Ice
+|Origin=Fire Emblem Heroes
+|Gender=Female
+|LegendaryEffect=Water
+|BoostHP=3
+|BoostSpd=3
+|WeaponType=Blue Lance
+|MoveType=Infantry
+|GrowthModifier=Gen 2
+|actorEN=Heather Watson
+|actorJP=高橋李依
+|artist=前嶋重機
+|releaseDate=November 28, 2017
+|TagID=フィヨルム
+|InternalID=191
+|Properties=legendary
+|cv1=0
+|cv2=200100
+|description=The gentle second princess of Nifl, the Kingdom of Ice. Seeks revenge against Surtr.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=8|Lv1SPD=7|Lv1DEF=8|Lv1RES=8
+|GRHP=50|GRATK=50|GRSPD=55|GRDEF=50|GRRES=60
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Lance
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Leiptr
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Holy Vestments
+|special1Default=4
+|special1Unlock=3
+|special2=Sacred Cowl
+|special2Default=
+|special2Unlock=4
+|special3=Ice Mirror
+|special3Default=
+|special3Unlock=5
+|special4=Ice Mirror II
+|special4Default=
+|special4Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Warding Stance 1
+|passiveA2=Mirror Stance 1
+|passiveA3=Mirror Stance 2
+|passiveA4=Mirror Stance 3
+|passiveA5=Atk/Def Bond 1
+|passiveA6=Atk/Def Bond 2
+|passiveA7=Atk/Def Bond 3
+|passiveA8=Atk/Def Unity
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveA5Unlock=3
+|passiveA6Unlock=4
+|passiveA7Unlock=5
+|passiveA8Unlock=5
+|passiveB1=Shield Pulse 1
+|passiveB2=Shield Pulse 2
+|passiveB3=Shield Pulse 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Spur Atk 1
+|passiveC2=Drive Atk 1
+|passiveC3=Drive Atk 2
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

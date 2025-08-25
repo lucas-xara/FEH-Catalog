@@ -1,0 +1,50 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_父の戦術書
+|weaponType=Blue Tome
+|might=14
+|range=2
+|effect=At start of combat, if unit's Res > foe's Res, grants Atk/Spd/Def/Res+4 during combat.
+|cost=400
+|exclusive=1
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|statModifiers=0,14,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=Grants Atk/Spd+3 to allies within 2 spaces during combat. If unit is within 2 spaces of an ally, grants Atk/Spd+3 to unit during combat.
+|iconSkill1=Fathers Tactics W.png
+|tagidExtraSkill1=紋
+|properties=
+}}
+
+==Notes==
+{{Combat boosts}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Combat boosts}}
+{{AlliesCombatEffect|effect=combat boost}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|相互紋章R攻撃速さ3|Joint Goad R Atk/Spd 3}}
+==In other languages==
+{{OtherLanguages
+|english=Father's Tactics
+|japanese=父の戦術書
+|german=Vaters Taktik
+|spanishEU=Genio paterno
+|spanishLA=Genio paterno
+|french=Tactique du père
+|italian=Tattiche paterne
+|chineseTW=父親的兵法書
+|portuguese=Táticas paternas
+}}
+==See also==
+* [[Loyal Greatlance]]
+{{Weapons Navbox}}

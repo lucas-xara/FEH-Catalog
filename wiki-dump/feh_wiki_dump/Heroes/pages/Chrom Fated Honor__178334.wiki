@@ -1,0 +1,78 @@
+{{#invoke:NameAbout|main|Name=Chrom}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Chrom
+|Title=Fated Honor
+|WeaponType=Blue Lance
+|MoveType=Cavalry
+|Origin=Fire Emblem Awakening
+|Gender=Male
+|actorEN=Matt Mercer
+|actorJP=杉田智和
+|artist=コザキユースケ
+|additionDate=August 17, 2022
+|releaseDate=August 17, 2022
+|poolDate=September 16, 2022
+|poolRarities=5
+|cv1=10
+|cv2=100100
+|TagID=総選挙クロム
+|InternalID=839
+|Properties=brave,specRate_202502
+|description=Chrom, exalt of the Halidom of Ylisse. Intent on honoring his sister's dream, he faces his fate with his treasured bonds close at heart. Appears in Fire Emblem Awakening.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=12|Lv1SPD=12|Lv1DEF=4|Lv1RES=4
+|GRHP=50|GRATK=70|GRSPD=70|GRDEF=75|GRRES=30
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Lance
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Geirdriful
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Reposition
+|assist1Default=4
+|assist1Unlock=3
+|assist2=A Fate Changed!
+|assist2Unlock=5
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Death Blow 1
+|passiveA2=Swift Sparrow 1
+|passiveA3=Swift Sparrow 2
+|passiveA4=Surge Sparrow
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=S/D Near Trace 1
+|passiveB2=S/D Near Trace 2
+|passiveB3=S/D Near Trace 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Spd Tactic 1
+|passiveC2=Spd Tactic 2
+|passiveC3=Spd Tactic 3
+|passiveC4=Inf. Spd Tactic
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}

@@ -1,0 +1,73 @@
+{{#invoke:NameAbout|main|Name=Hinata}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Hinata
+|Title=Wild Samurai
+|WeaponType=Red Sword
+|Origin=Fire Emblem Fates
+|Gender=Male
+|MoveType=Infantry
+|actorEN=Delem Donaldson
+|actorJP=市来光弘
+|artist=上田夢人
+|releaseDate=February 2, 2017
+|poolDate=February 2, 2017
+|randomStartTime=2017-02-02T07:00:00Z
+|poolRarities=3,4
+|TagID=ヒナタ
+|InternalID=18
+|Properties=tiara
+|cv1=11
+|cv2=201000
+|description=A coarse, yet caring, samurai of Hoshido. One of Takumi's retainers. Appears in Fire Emblem Fates.
+|GrowthModifier=None
+}}
+{{Stats Page
+|Lv1HP=21|Lv1ATK=8|Lv1SPD=5|Lv1DEF=10|Lv1RES=3
+|GRHP=60|GRATK=55|GRSPD=45|GRDEF=60|GRRES=35
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Ruby Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Ruby Sword+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Hinata's Katana
+|weapon5Default=
+|weapon5Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Buckler
+|special1Default=4
+|special1Unlock=3
+|special2=Pavise
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Fury 1
+|passiveA2=Fury 2
+|passiveA3=Fury 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=Brash Assault 1
+|passiveB2=Brash Assault 2
+|passiveB3=Brash Assault 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+{{Heroes Navbox}}

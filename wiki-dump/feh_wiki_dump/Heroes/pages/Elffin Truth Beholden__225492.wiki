@@ -1,0 +1,70 @@
+{{#invoke:NameAbout|main|Name=Elffin}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Elffin
+|Title=Truth Beholden
+|WeaponType=Colorless Tome
+|MoveType=Infantry
+|Origin=Fire Emblem: The Binding Blade
+|Gender=Male
+|actorEN=Kayleigh McKee
+|actorJP=石川界人
+|artist=パビリオン右島
+|additionDate=November 15, 2024
+|releaseDate=November 15, 2024
+|poolDate=December 6, 2024
+|poolRarities=5
+|cv1=5
+|cv2=900200
+|TagID=エルフィン
+|InternalID=1168
+|Properties=refresher
+|description=A supporter of the resistance fighters in the west, he lives as a mysterious bard. But his true identity is that of Prince Myrddin of Etruria. Appears in Fire Emblem: The Binding Blade.
+}}
+{{Stats Page
+|Lv1HP=15|Lv1ATK=3|Lv1SPD=14|Lv1DEF=6|Lv1RES=7
+|GRHP=50|GRATK=40|GRSPD=75|GRDEF=50|GRRES=90
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Stone
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elstone
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Atlas (weapon)
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Light of Etruria
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Play
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveB1=Atk Cantrip 1
+|passiveB2=Atk Cantrip 2
+|passiveB3=Atk Cantrip 3
+|passiveB4=A/R Cantrip 3
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Inf. Null Follow 1
+|passiveC2=Inf. Null Follow 2
+|passiveC3=Inf. Null Follow 3
+|passiveC4=Inf. Null Follow 4
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}

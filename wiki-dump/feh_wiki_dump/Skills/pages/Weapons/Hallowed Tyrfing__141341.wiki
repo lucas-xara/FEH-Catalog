@@ -1,0 +1,88 @@
+{{Weapon Infobox
+|tagid=SID_神璽ティルフィング
+|weaponName=Hallowed Tyrfing
+|userVersion1=Weapon
+|userVersion2=Gleam
+|weaponType=Sword
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of combat, if foe's HP ≥ 75%, grants Atk/Spd/Def/Res+5 to unit during combat, unit makes a guaranteed follow-up attack, and also, if unit initiates combat or if foe's range = 2, reduces damage from foe's first attack by 40%.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Silver Sword
+|intID=2527
+|sort=526
+|value=20
+|timingID=1
+|abilityID=280
+|limit1ID=53
+|randomTimestamp=2021-05-28T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1). If unit initiates combat or if foe's HP ≥ 75% at start of combat, grants Atk/Spd/Def/Res+5 to unit, unit makes a guaranteed follow-up attack, and reduces damage from foe's first attack by 40% during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and restores 7 HP to unit after combat.
+|refineStatsSkill1=3,0,0,0,0
+|effectSkill1=Enables【Canto (Rem. +1)】.<br><br>At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit, grants bonus to unit's Atk/Spd/Def/Res = number of spaces from start position to end position of whoever initiated combat (max 4), deals damage = 15% of unit's Atk (excluding area-of-effect Specials), and neutralizes foe's bonuses to Atk/Def (from skills like Fortify, Rally, etc.) during combat.<br><br>【Canto (Rem. +1)】<br>After an attack, Assist skill, or structure destruction, unit can move again.<br><br>The distance of the movement is the remaining movement the unit had before the actions listed above+1 (If unit used a movement skill that warps them, the remainder is 0).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Accelerates Special}}
+|s1 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s1 Ce2={{Eft|Guaranteed Follow-Ups}}
+|s1 CeC1-2={{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|s1 Ce3={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s first attack
+|s1 CeC3={{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat<br>'''&''' (Player Phase '''or'''<br>{{Tgt|Foe}}'s Range = 2)
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Accelerates Special}}
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s2 Ce2={{Eft|Guaranteed Follow-Ups}}
+|s2 Ce3={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|s2 CeC=Player Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|s2 Me={{Eft|Heal|7}}
+|s2 MeC=After combat in<br>Player Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|skill3={{Si|Hallowed Tyrfing|refine=Skill1}} Skill refine effects
+|s3 Me={{Eft|Canto|Rem. +1}}
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s3 Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|Spaces initiator moved}}
+|s3 Ce3={{Eft|Damage Boost|15% of {{Tgt|Unit}}'s Atk}}
+|s3 Ce4={{Eft|Neutralize Bonuses|Atk/Def}}
+|s3 CeT4={{Tgt|Foe}}
+|s3 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{Guaranteed follow-up interaction}}
+{{IfUnitInitiates}}
+{{DamagePercentageReduction}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Canto|Rem. +1|name=Refined Hallowed Tyrfing}}
+{{After combat healing|name=Refined Hallowed Tyrfing}}
+{{SpacesFromStarttoEnd}}
+{{DamageBoost|name={{St|Hallowed Tyrfing|refine=Skill1}}}}
+{{Bonus neutralization|name={{St|Hallowed Tyrfing|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=聖裁ティルフィング
+|german=Sakrales Tyrfing
+|spanishEU=Tyrfing sagrada
+|spanishLA=Tyrfing sagrada
+|french=Tyrfing sanctifiée
+|italian=Tyrfing benedetta
+|chineseTW=聖裁斬裂劍
+|portuguese=Tyrfing sagrada
+}}
+==See also==
+{{See also skills|cond=wikiName LIKE '%tyrfing%' OR Description LIKE '%if foe_s range = 2%reduce damage%' OR Description LIKE '%reduces damage%magic foe_s%' OR Description LIKE '%if foe uses%magic%reduces damage%'}}
+* [[Trace Passives]]
+{{Weapons Navbox}}

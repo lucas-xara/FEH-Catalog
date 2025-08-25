@@ -1,0 +1,80 @@
+{{#invoke:NameAbout|main|Name=Lyn}}{{HeroPage Tabs|{{PAGENAME}}}}
+{{Hero Infobox
+|Name=Lyn
+|Title= Bride of the Plains
+|artist=山田孝太郎
+|GrowthModifier= None
+|WeaponType= Colorless Staff
+|MoveType= Infantry
+|Origin= Fire Emblem: The Blazing Blade
+|Gender= Female
+|actorEN = Wendee Lee
+|actorJP=大本眞基子
+|releaseDate= May 30, 2017
+|TagID=花嫁リン
+|InternalID=133
+|Properties=special,tiara,specRate_202202
+|cv1=6
+|cv2=100200
+|description=Noblewoman of Caelin. Eager to win the bridal tournament and nab the prize bouquet. Appears in Fire Emblem: The Blazing Blade.
+}}
+
+__TOC__
+
+{{Stats Page|Hero={{BASEPAGENAME}}
+|Lv1HP=17|Lv1ATK=6|Lv1SPD=10|Lv1DEF=6|Lv1RES=5
+|GRHP=50|GRATK=50|GRSPD=55|GRDEF=40|GRRES=45
+}}
+
+== Skills ==
+===Weapons===
+{{Weapons Table
+|weapon1=Assault
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Candlelight
+|weapon2Default=4
+|weapon2Unlock=3
+|weapon3=Candlelight+
+|weapon3Default=
+|weapon3Unlock=5
+}}
+
+===Assists===
+{{Assists Table
+|assist1=Heal
+|assist1Default=1
+|assist1Unlock=1
+|assist2=Reconcile
+|assist2Default=3
+|assist2Unlock=2
+|assist3=Rehabilitate
+|assist3Default=5
+|assist3Unlock=4
+|assist4=Rehabilitate+
+|assist4Default=
+|assist4Unlock=5
+}}
+
+===Specials===
+{{Specials Table
+|special1=Imbue
+|special1Default=4
+|special1Unlock=2
+|special2=Swift-Winds Balm
+|special2Default=5
+|special2Unlock=3
+}}
+
+===Passives===
+{{Passives Table
+|passiveB1=Dazzling Staff 1
+|passiveB2=Dazzling Staff 2
+|passiveB3=Dazzling Staff 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+
+{{Heroes Navbox}}
+[[Category:Bridal Festival units]]

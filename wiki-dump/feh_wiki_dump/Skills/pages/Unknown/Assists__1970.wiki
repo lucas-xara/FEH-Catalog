@@ -1,0 +1,12 @@
+{{Cleanup}}
+
+{{#cargo_query:
+tables=Skills
+|fields=CONCAT('[[',_pageName,'|',Name,']]')=Name,Description,SP,UseRange=Range
+|limit=150
+|format=table
+|group by=_pageName
+|where=Scategory='assist'
+}}
+
+{{Skills Navbox}}

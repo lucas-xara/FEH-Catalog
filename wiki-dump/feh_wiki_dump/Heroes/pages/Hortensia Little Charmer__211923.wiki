@@ -1,0 +1,80 @@
+{{#invoke:NameAbout|main|Name=Hortensia}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Hortensia
+|Title=Little Charmer
+|WeaponType=Colorless Staff
+|MoveType=Flying
+|Origin=Fire Emblem Engage
+|Gender=Female
+|actorEN=Amber Connor
+|actorJP=木野日菜
+|artist=ぷきゅのすけ
+|additionDate=February 19, 2024
+|releaseDate=February 19, 2024
+|cv1=14
+|cv2=400500
+|TagID=魔器オルテンシア
+|InternalID=1064
+|Properties=rearmed,tiara
+|description=Second princess of Elusia and Ivy's younger sister. Though selfish, she loves her family and all of those close to her. Appears in Fire Emblem Engage.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=14|Lv1SPD=8|Lv1DEF=3|Lv1RES=8
+|GRHP=45|GRATK=70|GRSPD=90|GRDEF=30|GRRES=60
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Assault
+|weapon1Unlock=1
+|weapon2=Arcane Charmer
+|weapon2Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Heal
+|assist1Default=1
+|assist1Unlock=1
+|assist2=Reconcile
+|assist2Default=3
+|assist2Unlock=2
+|assist3=Rescue
+|assist3Default=4
+|assist3Unlock=3
+|assist4=Rescue+
+|assist4Default=5
+|assist4Unlock=5
+}}
+===Specials===
+{{Specials Table
+|special1=Imbue
+|special1Default=4
+|special1Unlock=2
+|special2=Miracle
+|special2Default=5
+|special2Unlock=3
+|special3=Glitter of Light
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Catch 1
+|passiveA2=Atk/Spd Catch 2
+|passiveA3=Atk/Spd Catch 3
+|passiveA4=Atk/Spd Catch 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Wrathful Staff 1
+|passiveB2=Wrathful Staff 2
+|passiveB3=Wrathful Staff 3
+|passiveB4=Poetic Justice
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Glittering Anima
+|passiveC1Unlock=5
+}}
+{{Heroes Navbox}}

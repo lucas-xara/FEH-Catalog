@@ -1,0 +1,47 @@
+{{Weapon Infobox
+|tagid=SID_グルンフォックス
+|weaponName=Gronnfox
+|userVersion1=Closed
+|userVersion2=Open
+|weaponType=Green Tome
+|might=8
+|range=2
+|effect=If unit initiates combat, inflicts Atk/Spd/Def/Res-4 on foe during combat.
+|cost=200
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|required=Elwind
+|next=
+|promotionRarity=5
+|promotionTier=1
+|intID=2596
+|sort=7000
+|value=11
+|timingID=1
+|abilityID=97
+|limit1ID=1
+|randomTimestamp=2021-07-08T07:00:00Z
+|randomMinLv=21
+|randomMaxLv=35
+|properties=random_owner
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Combat reductions}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=グルンフォックス
+|german=Gronnfuchs
+|spanishEU=Zorro glauco
+|spanishLA=Zorro jade
+|french=Renard émer.
+|italian=Viridevolpe
+|chineseTW=翠綠狐狸
+|portuguese=Gronnfox
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If unit initiates combat%inflicts Atk/Spd/Def/Res-_ on foe%during combat%' AND WikiName NOT LIKE '%fox%'|columns=3}}
+* [[Skill families#Fox|Fox Weapons]]
+{{Weapons Navbox}}

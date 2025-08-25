@@ -1,0 +1,48 @@
+{{Passive
+|name=Sunlight Bangle
+|type=B
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Sunlight Bangle
+|1tagid=SID_華日の腕輪
+|1effect=If number of allies adjacent to unit ≤ 1, inflicts Atk/Def-X on foe during combat (X = 4 + number of spaces from start position to end position of whoever initiated combat; max 8), unit attacks twice, and when unit deals damage to foe during combat, restores 7 HP to unit (triggers even if 0 damage is dealt), but also, if unit initiates combat, foe can counterattack before unit's first attack.
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary debuffs|Atk/Def|4 + Spaces initiator moved|max=8}}
+|Ce1T={{Tgt|Foe}}
+|Ce2={{Eft|Attack Twice}}
+|Ce3={{Eft|Heal|7}}<br>per {{Tgt|Unit}}'s attack
+|Ce1-3C=[[Adjacent]] {{Tgt|Allies}} ≤ 1
+|Ce4={{Eft|Vantage}}
+|Ce4T={{Tgt|Foe}}<br>
+|Ce4C=Player Phase '''&'''<br>[[Adjacent]] {{Tgt|Allies}} ≤ 1
+}}
+==Notes==
+{{Temporary debuffs}}
+{{SpacesFromStarttoEnd}}
+{{Brave weapon interaction}}
+{{CombatHPRecovery}}
+{{Preempt|foe=1}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=華日の腕輪
+|german=Sonnenarmband
+|spanishEU=Pulsera luz solar
+|spanishLA=Pulsera luz solar
+|french=Bracelet de jour
+|italian=Bracciale di luce
+|chineseTW=華日手鐲
+|portuguese=Pulseira solar
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%foe can counterattack before unit_s first attack%' OR Description LIKE '%, unit attacks twice%' AND NOT SCategory='weapon' AND Description NOT LIKE '%【Dual Strike】%') AND Exclusive='1'}}
+* [[Skill families/A Passives#Clash|Clash Passives]] 
+* [[Skill families/C Passives#Alarm|Alarm Passives]]
+{{Passives Navbox|B}}

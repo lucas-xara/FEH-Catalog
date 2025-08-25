@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Felix}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Felix
+|Title=Icy Gift Giver
+|WeaponType=Blue Bow
+|MoveType=Armored
+|Origin=Fire Emblem: Three Houses
+|Gender=Male
+|actorEN=Lucien Dodge
+|actorJP=帆世雄一
+|artist=黒葉.K
+|additionDate=December 17, 2020
+|releaseDate=December 18, 2020
+|cv1=12
+|cv2=300300
+|TagID=冬祭フェリクス
+|InternalID=604
+|Properties=specDisplay,limited,tempest
+|description=Heir to the Dukedom of Fraldarius. What trials await during the winter festival for one known for always practicing with his sword? Appears in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=20|Lv1ATK=10|Lv1SPD=9|Lv1DEF=8|Lv1RES=7
+|GRHP=55|GRATK=65|GRSPD=65|GRDEF=55|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Reindeer Bow
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Reindeer Bow+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Glimmer
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Death Blow 1
+|passiveA2=Swift Sparrow 1
+|passiveA3=Swift Sparrow 2
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Dull Ranged 1
+|passiveB2=Dull Ranged 2
+|passiveB3=Dull Ranged 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Christmas units]]

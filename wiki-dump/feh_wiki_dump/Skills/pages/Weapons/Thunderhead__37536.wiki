@@ -1,0 +1,57 @@
+{{Weapon Infobox
+|tagid=SID_雷旋トルネード
+|weaponType=Green Tome
+|might=14
+|range=2
+|effect=Grants bonus to unit’s Atk = total bonuses on unit during combat.
+|cost=400
+|exclusive=1
+|userVersion1=Closed
+|userVersion2=Open
+|statModifiers=0,14,0,0,0
+|required=Rexcalibur
+|SE=se_effect_wind06.flac
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If unit or ally initiates combat against a foe within 2 spaces of unit, inflicts Spd/Res-5 on that foe during combat.
+|iconSkill1=Thunderhead W.png
+|tagidExtraSkill1=周
+|properties=random_owner
+}}
+==Notes==
+{{BonusesToAtk}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfUnitInitiates}}
+{{Combat reductions}}
+{{FoesCombatEffect|effect=combat reduction}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+v2.4_49_thrace01_Mag.png|Sprite sheet for the animations of {{PAGENAME}} and {{St|Forblaze}}.
+</gallery>
+==Trivia==
+{{Rsn|周囲弱化R後速魔5|Surroundings Weakening R Spd/Res 5}} 
+==In other languages==
+{{OtherLanguages
+|japanese=雷旋の書
+|german=Gewitterwolke
+|spanishEU=Centella
+|spanishLA=Tornado eléctrico
+|french=Tome Tonnerre
+|italian=Nube tonante
+|chineseTW=雷旋之書
+|portuguese=Cúmulo-nimbo
+}}
+==See also==
+* [[The Cleaner]]
+* [[The Cleaner+]]
+* [[Blade Weapons]]
+{{Weapons Navbox}}
+[[Category:Blade weapons]]

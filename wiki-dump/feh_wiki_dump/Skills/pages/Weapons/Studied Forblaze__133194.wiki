@@ -1,0 +1,89 @@
+{{Weapon Infobox
+|tagid=SID_業炎フォルブレイズ
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|weaponType=Red Tome
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At the start of turn 1, grants Special cooldown count-1 to unit. At start of combat, if unit's HP ≥ 25%, grants Atk/Res+6 during combat and disables unit's and foe's skills that change attack priority.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,0,0,0
+|required=Bolganone;Fenrir
+|intID=2360
+|sort=479
+|value=20
+|timingID=29
+|abilityID=248
+|randomTimestamp=2021-01-25T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1). At start of turn, if Special cooldown count is at its maximum value, grants Special cooldown count-1 to unit. At start of combat, if unit's HP ≥ 25%, grants Atk/Res+6 to unit during combat and disables unit's and foe's skills that change attack priority.
+|effectSkill1=If unit initiates combat or is within 2 spaces of an ally, grants Atk/Res+5 to unit during combat, unit makes a guaranteed follow-up attack, deals damage = 15% of unit's Res (including when dealing damage with a Special triggered before combat), and reduces damage from foe's first attack during combat by 30%.
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|skill1 PermanentEffect={{Eft|Accelerate Special}}
+|skill1 MapEffect={{Eft|Reduce Cooldown|1}}
+|skill1 MapEffect Conditions=At start of turn 1
+|skill1 CombatEffect 1={{Eft|Temporary buffs|Atk/Res|6}}
+|skill1 CombatEffect 2={{Eft|Neutralize Priority}}
+|skill1 CombatEffect 2 Targets={{Tgt|Unit}}<br>'''&''' {{Tgt|Foe}}
+|skill1 CombatEffect Conditions={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|skill2 PermanentEffect={{Eft|Accelerate Special}}
+|skill2 MapEffect={{Eft|Reduce Cooldown|1}}
+|skill2 MapEffect Conditions=At start of turn if<br>Special CD count<br>is at max value
+|skill2 CombatEffect 1={{Eft|Temporary buffs|Atk/Res|6}}
+|skill2 CombatEffect 2={{Eft|Neutralize Priority}}
+|skill2 CombatEffect 2 Targets={{Tgt|Unit}}<br>'''&''' {{Tgt|Foe}}
+|skill2 CombatEffect Conditions={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|skill3={{Si|Studied Forblaze|refine=Skill1}} Skill refine effects
+|skill3 CombatEffect 1={{Eft|Temporary buffs|Atk/Res|5}}
+|skill3 CombatEffect 2={{Eft|Guaranteed Follow-Ups}}
+|skill3 CombatEffect 3={{Eft|Damage boost|15% of {{Tgt|Unit}}'s Res}}<br>before and during combat
+|skill3 CombatEffect 4={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s first attack
+|skill3 CombatEffect Conditions=Player Phase<br>'''or''' {{Tgt|Unit}} is<br>[[within 2 spaces]]<br>of an {{Tgt|Ally}}
+}}
+
+==Notes==
+* Studied Forblaze has the same effect as {{St|Quickened Pulse}}.
+{{Start of turn Special modification}}
+{{Temporary buffs}}
+{{Hardy Bearing}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+* Refined Studied Forblaze has the same effect as {{St|Time's Pulse 3}}.
+{{IfUnitInitiates}}
+{{Guaranteed follow-up interaction|name={{St|Studied Forblaze|refine=Skill1}}}}
+{{DamageBoost|name={{St|Studied Forblaze|refine=Skill1}}}}
+{{DamagePercentageReduction|name={{St|Studied Forblaze|refine=Skill1}}}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=業炎フォルブレイズ
+|german=Lady Fegefeuer
+|spanishEU=Forblaze maestra
+|spanishLA=Forblaze maestra
+|french=Forblaze maîtrisée
+|italian=Vampa oculata
+|chineseTW=業炎弗魯布雷茲
+|portuguese=Forblaze dominada
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=WikiName LIKE '%Forblaze%' OR (Description LIKE '%Accelerates Special trigger%start of turn%grants Atk/Res+6%during combat%' OR Description LIKE '%start of turn%, grants Special cooldown count-1 to unit%' OR Description LIKE '%disables%unit_s and foe_s skills%change attack priority%') AND (Name NOT LIKE '%+' AND Exclusive='1')}}
+* [[Hardy Bearing weapons]]
+{{Weapons Navbox}}

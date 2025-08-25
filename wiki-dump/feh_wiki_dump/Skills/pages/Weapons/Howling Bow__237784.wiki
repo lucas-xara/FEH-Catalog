@@ -1,0 +1,74 @@
+{{Weapon Infobox
+|tagid=SID_狼騎士団の弓
+|intID=4842
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=1
+|weaponType=Bow
+|cost=400
+|might=14
+|range=2
+|effectiveness=Flying
+|effect=Effective against flying foes.<br><br>At start of turn, if unit's HP ≥ 25%, inflicts Spd/Def-7,【Discord】, and a penalty that neutralizes non-Special "if foe would reduce unit's HP to 0, unit survives with 1 HP" effects on closest foes and foes within 2 spaces of those foes through their next actions.<br><br>At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit, reduces damage from foe's first attack by 7 ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat.<br><br>【Discord】<br>Inflicts Atk/Spd/Def/Res-X on unit during combat (X = 2 + number of allies within 2 spaces of unit; max 5) through its next action.
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit, neutralizes foe's bonuses to Spd/Def, deals damage = 20% of unit's Spd (excluding area- of-effect Specials), and grants Special cooldown charge +1 to unit per attack during combat (only highest value applied; does not stack).
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Se1={{Eft|Penalties|Spd/Def|7}}
+|s1 Se2={{SEt|Discord}}
+|s1 Se3=<span style="width:10em;display:inline-block"/>{{SEt|Neutralizes non-Special "unit survives with 1 HP" effects}}
+|s1 SeT=Closest {{Tgt|Foes}}<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}
+|s1 SeC=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25%
+|s1 Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|s1 Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s1 Ce3={{Eft|Damage Reduction|7}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|s1 Ce4={{Eft|Neutralize Prevent Follow-Ups}}
+|s1 Ce5={{Eft|Neutralize Guaranteed Follow-Ups}}
+|s1 Ce5T={{Tgt|Foe}}
+|s1 Ce2-5C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|skill2={{Si|Howling Bow|refine=Skill1}} Skill refine effects
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s2 Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|s2 Ce3={{Eft|Accelerate Charge}}
+|s2 Ce4={{Eft|Neutralize Bonuses|Spd/Def}}
+|s2 Ce4T={{Tgt|Foe}}
+|s2 CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+
+==Notes==
+{{Effective damage bonus|flying}}
+{{Penalties}}
+{{Discord}}
+{{Neutralizes non-Special "unit survives with 1 HP" effects}}
+{{Temporary buffs}}
+{{FlatDamageReduction|7}}
+{{Follow-up effect neutralization}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Bonus neutralization|name={{St|Howling Bow|refine=Skill1}}}}
+{{DamageBoost|name={{St|Howling Bow|refine=Skill1}}}}
+{{CooldownChargePlus|name={{St|Howling Bow|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%neutralizes non-Special "if foe would reduce%' AND Exclusive='1'}}
+{{Weapons Navbox}}

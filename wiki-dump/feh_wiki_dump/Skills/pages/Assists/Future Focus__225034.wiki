@@ -1,0 +1,51 @@
+{{Assist
+|tagid=SID_未来を叶える瞳
+|intID=4415
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=400
+|range=1
+|effect=Unit and target ally swap spaces. Grants 【Future Witness】and【Null Follow-Up】to allies within 2 spaces of both unit and target after movement for 1 turn (including unit and target), grants Special cooldown-1 to unit and those allies, and grants another action to unit (once per turn).<br><br>【Future Witness】<br>Enables【Canto (２)】.<br><br>Grants Atk/Spd/Def/Res+5 to unit and reduces damage from foe's first attack by 7 during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and also, if unit initiates combat and foe's attack can trigger foe's Special, inflicts Special cooldown count+1 on foe before foe's first attack during combat (cannot exceed the foe's maximum Special cooldown).<br><br>【Null Follow-Up】<br>If unit's Spd > foe's Spd during combat, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks for 1 turn.<br><br>【Canto (２)】<br>After an attack, Assist skill, or structure destruction, unit can move ２ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|required=Swap
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{SEt|Future Witness}}
+|Se2={{SEt|Null Follow-Up}}
+|SeT={{Tgt|Unit}},<br>{{Tgt|Target Ally}}<br>'''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]<br>of {{Tgt|Unit}} &<br>{{Tgt|Target Ally}}
+|SeC={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}
+|Me1={{Eft|Swap Units}}
+|Me1T={{Tgt|Unit}} '''&'''<br>{{Tgt|Target Ally}}
+|Me2={{Eft|Reduce Cooldown|1}}
+|Me2T={{Tgt|Unit}},<br>{{Tgt|Target Ally}}<br>'''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]<br>of {{Tgt|Unit}} &<br>{{Tgt|Target Ally}}
+|Me1-2C={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}
+|Me3={{Eft|Another Action}}<br>(once per turn)
+|Me3T={{Tgt|Unit}}
+|Me3C={{Tgt|Unit}} uses Assist
+}}
+
+==Notes==
+* Has the same effect as {{St|Swap}}.
+{{Movement skill notes|notBeforeRokkr=1}}
+{{Future Witness}}
+{{Null Follow-Up}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(SCategory='Assist' AND (Description LIKE '%grants unit another action%' OR Description LIKE '%grants another action to unit%') OR Description LIKE '%【Future Witness】%') AND Exclusive='1'}}
+* [[Link Passives]]
+* [[Snag Passives]]
+{{Assists Navbox}}

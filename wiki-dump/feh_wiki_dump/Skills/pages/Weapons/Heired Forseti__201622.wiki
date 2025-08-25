@@ -1,0 +1,43 @@
+{{Weapon Infobox
+|tagid=SID_継承フォルセティ
+|intID=3792
+|userVersion1=Closed
+|userVersion2=Open
+|exclusive=1
+|weaponType=Green Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of turn, if unit's HP ≥ 25%, grants Atk/Spd+6 to unit for 1 turn and grants Special cooldown count-1 to unit. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+6 to unit during combat, reduces damage from foe's first attack during combat by 30%, and deals damage = X% of unit's Spd when Special triggers (X = unit's max Special cooldown count value × 10, + 20).
+|required=Rexcalibur
+|properties=random_owner
+}}
+==Notes==
+{{Bonuses}}
+{{Start of turn Special modification}}
+{{Temporary buffs}}
+{{DamagePercentageReduction}}
+{{DamageBoost}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V7.9_v0709b_seisen_Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=継承フォルセティ
+|german=Ererbtes Forseti
+|spanishEU=Legado Forseti
+|spanishLA=Legado Forseti
+|french=Forseti hérité
+|italian=Forseti ereditato
+|chineseTW=繼承弗魯賽提
+|portuguese=Forseti legado
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=WikiName LIKE '%forseti%' OR Description LIKE '%Special cooldown count%at its maximum%' AND Exclusive='1' OR Description LIKE '%= unit_s max Special cooldown count value%'}}
+{{Weapons Navbox}}

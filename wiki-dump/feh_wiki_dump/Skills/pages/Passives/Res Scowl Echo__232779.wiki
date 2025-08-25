@@ -1,0 +1,47 @@
+{{Passive
+|name=Res Scowl Echo
+|type=X
+|exclusive=0
+|canUseWeapon={{WeaponList|Dragonstone}}
+|canUseMove={{MoveList|All}}
+|1name=Res Scowl Echo
+|1tagid=SID_響・魔防の竜眼
+|1effect=If foe initiates combat or foe's HP ≥ 75% at start of combat, grants Res+4 to unit during combat, and also, if foe's attack can trigger foe's Special and unit's Res ≥ foe's Res+5, inflicts Special cooldown count+1 on foe before foe's first attack during combat (cannot exceed foe's maximum Special cooldown).
+|1cost=0
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary buffs|Res|4}}
+|Ce1C=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|Ce2={{Eft|Increase Cooldown|1}}<br>before {{Tgt|Foe}}'s first attack
+|Ce2T={{Tgt|Foe}}
+|Ce2C=(Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat),<br>{{Tgt|Foe}} has an<br>[[offensive special]],<br>'''&''' {{Tgt|Unit}}'s Res ≥<br>{{Tgt|Foe}}'s Res+5
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+{{CombatCooldownCount|+1}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe_s attack can trigger%inflicts Special cooldown count+%on foe before foe_s first attack%' AND Exclusive='1'}}
+* [[Scowl Passives]]
+{{Passives Navbox|X}}

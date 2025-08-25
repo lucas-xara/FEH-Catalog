@@ -1,0 +1,78 @@
+{{Passive
+|name=Momentum
+|type=B
+|exclusive=0
+|canUseWeapon={{WeaponList|Close}}
+|canUseMove={{MoveList|Infantry,Cavalry,Flying}}
+|properties=random_owner
+|1name=Momentum 1
+|1tagid=SID_助走1
+|1effect=If unit or foe initiates combat after moving to a different space, unit makes a guaranteed follow-up attack and deals damage during combat = number of spaces from start position to end position of whoever initiated combat (max 5; including when dealing damage with a Special triggered before combat).
+|1cost=60
+|1required=-
+|1promotionTier=1
+|1promotionRarity=4
+|2name=Momentum 2
+|2tagid=SID_助走2
+|2effect=If unit or foe initiates combat after moving to a different space, unit makes a guaranteed follow-up attack and deals damage during combat = number of spaces from start position to end position of whoever initiated combat × 2 (max 10; including when dealing damage with a Special triggered before combat).
+|2cost=120
+|2promotionTier=1
+|2promotionRarity=5
+|3name=Momentum 3
+|3tagid=SID_助走3
+|3effect=If unit or foe initiates combat after moving to a different space, unit makes a guaranteed follow-up attack and deals damage during combat = number of spaces from start position to end position of whoever initiated combat × 3 (max 15; including when dealing damage with a Special triggered before combat).
+|3cost=240
+|3next=-
+|4name=Momentum 4
+|4tagid=SID_助走4
+|4effect=If unit or foe initiates combat after moving to a different space, inflicts Atk/Def-4 on foe, unit makes a guaranteed follow-up attack, and deals damage during combat = number of spaces from start position to end position of whoever initiated combat × 4 (max 20; including when dealing damage with a Special triggered before combat).<br><br>If unit initiates combat after moving to a different space, triggers the following effects depending on unit's equipped Special: if unit has an area-of-effect Special equipped, grants Special cooldown count-X to unit before Special triggers before combat (excluding Røkkr area-of-effect Specials); if unit has a Special that triggers when unit attacks (excluding area-of-effect Specials), grants Special cooldown count-X to unit before unit's first attack during combat (if number of spaces from start position to end position ≥ 3, X = 2; otherwise, X = 1).
+|4cost=300
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Momentum 3}} Momentum 3
+|s1 Ce1={{Eft|Guaranteed Follow-Ups}}
+|s1 Ce2={{Eft|Damage boost|3 x spaces initiator moved|max=15}}<br>before '''&''' during combat
+|s1 CeC=Initiator moved to<br>a different space
+|skill2={{Si|Momentum 4}} Momentum 4
+|s2 Me={{Eft|Reduce Cooldown|(2 if spaces {{Tgt|Unit}}<br>moved ≥ 3}}; else X = 1)<br>before {{Tgt|Unit}}'s<br>Non-Røkkr [[AoE Specials]]
+|s2 MeC={{Tgt|Unit}} moved to<br>a different space
+|s2 Ce1={{Eft|Temporary debuffs|Atk/Def|4}}
+|s2 Ce1T={{Tgt|Foe}}
+|s2 Ce2={{Eft|Guaranteed Follow-Ups}}
+|s2 Ce3={{Eft|Damage boost|4 x spaces initiator moved|max=20}}<br>before '''&''' during combat
+|s2 Ce1-3C=Initiator moved to<br>a different space
+|s2 Ce4={{Eft|Reduce Cooldown|(2 if spaces {{Tgt|Unit}}<br>moved ≥ 3}}; else X = 1)<br>before {{Tgt|Unit}}'s first attack
+|s2 Ce4C={{Tgt|Unit}} moved to<br>a different space<br>'''&''' {{Tgt|Unit}} has an<br>[[offensive Special]]
+}}
+
+==Notes==
+{{SpacesFromStarttoEnd}}
+{{Guaranteed follow-up interaction}}
+{{FlatDamage|X (max: 20)}}
+{{Temporary debuffs|name=Momentum 4}}
+{{CombatCooldownCount|name=Momentum 4}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=Kraftimpuls
+|spanishEU=
+|spanishLA=Inercia
+|french= Élancement
+|italian= Pulsione
+|chineseTW=
+|portuguese=Impulso
+}}
+
+==See also==
+{{See also skills|cond=(Description LIKE '%=%number of spaces from start position to end position%' OR Description LIKE '%=%number of spaces moved%') AND Description NOT LIKE '%transforms%if _ ≥ 5%' AND (Exclusive=1 AND Name NOT LIKE '%+' AND Properties HOLDS NOT 'arcane')}}
+* [[Clash Passives]]
+* [[Excel Passives]]
+{{Passives Navbox|B}}
+[[Category:Sources of Special cooldown count modifications out of combat]]

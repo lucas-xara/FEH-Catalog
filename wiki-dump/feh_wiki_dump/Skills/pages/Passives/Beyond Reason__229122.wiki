@@ -1,0 +1,69 @@
+{{Passive
+|name=Beyond Reason
+|type=A
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Beyond Reason
+|1tagid=SID_人の理を外れし者
+|1effect=Grants Atk/Def/Res+10.<br><br>If foe initiates combat or foe's HP ≥ 75% at start of combat, grants bonus to unit's Atk/Def/Res = A + B (A = 2 × number of 【Penalty】effects active on foe and foes within 3 rows or 3 columns centered on that foe, excluding stat penalties; max 12; B = 2 × current penalty on unit's respective stats; calculates each stat penalty independently), neutralizes foe's bonuses to Atk/Res, and reduces damage from foe's first attack by X% during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes; if foe can make a follow-up attack, X = 80; otherwise, X = 40), and restores 7 HP to unit after combat.<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|statModifiers1=0,10,0,10,10
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Stat Boosts|Atk/Def/Res|10}}
+|Ce1={{Eft|Temporary buffs|Atk/Def/Res|2 x {{Kp|Penalty}} effects<br>on {{Tgt|Target Foe}}<br>'''&''' {{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Target Foe}}|max=12}}
+|Ce2={{Eft|Temporary buffs|Atk/Def/Res|2 x {{SEt|Penalties}} on<br>each of {{Tgt|Unit}}'s stats}}
+|Ce3={{Eft|Neutralize Bonuses|Atk/Res}}
+|Ce3T={{Tgt|Foe}}
+|Ce4={{Eft|Damage Reduction|(80% if {{Tgt|Foe}} can<br>make a [[follow-up]]; else 40%)}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce4T={{Tgt|Unit}}
+|CeC=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|Me={{Eft|Heal|7}}
+|MeC=After combat in<br>Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+}}
+
+==Notes==
+{{IfFoeInitiates}}
+{{TemporaryBufffromPenalty}}
+{{EffectfromPenalty|temporary buffs}}
+{{Bonus neutralization}}
+{{DamagePercentageReduction}}
+{{After combat healing}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Athos: Omniscient One|t=Nergal: Traitor to Nabata
+|---xxx---
+|---xxx---
+|---xxx---
+|xxxxxxxxx
+|xxxxtxxxx
+|xxxxxxxxx
+|---xux---
+|---xxx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%number of%【Penalty】%on foe and%foe%within%' OR Description LIKE '%current penalty on each of those stats × 2%' OR Description LIKE '%if foe can make a follow-up attack%otherwise%') AND Exclusive='1'}}
+* [[Skill families/A Passives#Unity|Unity Passives]]
+{{Passives Navbox|A}}

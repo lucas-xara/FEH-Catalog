@@ -1,0 +1,48 @@
+{{Special
+|tagid=SID_蒼の天空・承
+|charge=4
+|effect=At the start of turn 1, grants Special cooldown count-2 to unit. Treats foe's Def/Res as if reduced by 50% during combat. Restores HP = 50% of damage dealt.
+|cost=500
+|exclusive=1
+|required=Radiant Aether
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|intID=2420
+|sort=500
+|value=12
+|timingID=3
+|abilityID=1
+|limit1ID=4
+|properties=offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Reduce Cooldown|2}}
+|MeC=At start of turn 1
+|Ce1=Treats {{Tgt|foe}}'s Def/Res<br>as if reduced by 50%
+|Ce2={{Eft|Heal|50% of damage dealt}}
+|CeC=Special triggers
+}}
+==Notes==
+* Radiant Aether II has the same effect {{St|Aether}}.
+{{Start of turn Special modification}}
+* The healing calculation will always use the [[Damage calculation#Final Damage calculation|final damage number]] for the damage dealt.
+{{CombatHPRecovery}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=蒼の天空・承
+|german=Strahl. Aithir II
+|spanishEU=Éter fulgurante II
+|spanishLA=Éter fulgurante II
+|french=Éther radieux II
+|italian=Etere fiammant. II
+|chineseTW=蒼藍天空・承
+|portuguese=Éter radiante II
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=SCategory='special' AND Exclusive='1' AND Description LIKE '%Restores HP = __% of damage dealt%'}}
+{{Specials Navbox}}
