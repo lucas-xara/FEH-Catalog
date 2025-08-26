@@ -480,6 +480,31 @@ export default function HeroPage() {
           )}
         </div>
 
+          {/* Botões SEMPRE visíveis */}
+  <div style={{ marginLeft: "auto", display: "flex", gap: 8 }}>
+    <button
+      type="button"
+      onClick={() => {
+        setFlowers(0);
+        setMerges(0);
+        setResplendentOn(false);
+      }}
+    >
+      Reset
+    </button>
+
+    <button
+      type="button"
+      onClick={() => {
+        setFlowers(maxFlowers);
+        setMerges(10);
+        if (hasResplendent) setResplendentOn(true);
+      }}
+    >
+      Max
+    </button>
+  </div>
+  
         {/* Stats */}
         <div style={{ fontWeight: 600, marginBottom: 8 }}>
           Level 40 (5★, neutral)
