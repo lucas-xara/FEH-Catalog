@@ -8,6 +8,10 @@ import specialsData from "../data/content/specials-list.json";
 import assistsData from "../data/content/assists-list.json";
 import weaponsData from "../data/content/weapons-list.json";
 
+import pic1 from "../assets/placeholders/no_internet_1.png";
+import pic2 from "../assets/placeholders/no_internet_2.png";
+import pic3 from "../assets/placeholders/no_internet_3.png";
+
 import {
   lv40FromBaseAndGrowth,
   dragonflowerOptions,
@@ -31,6 +35,7 @@ type KitSlots = {
   C?: string;
   X?: string;
 };
+
 
 const lastStr = (arr?: unknown[]): string | undefined =>
   Array.isArray(arr) && arr.length ? String(arr[arr.length - 1]) : undefined;
@@ -96,6 +101,17 @@ export default function HeroPage() {
     const arr = heroesData as any[];
     return arr.find((it) => `${it.infobox.Name} (${it.infobox.Title})` === rawId);
   }, [rawId]);
+
+  // pool of images
+const HERO_PICS = [pic1, pic2, pic3] as const;
+
+// pick a random pic every time the page opens or the hero changes
+const [picIdx, setPicIdx] = useState(0);
+useEffect(() => {
+  setPicIdx(Math.floor(Math.random() * HERO_PICS.length));
+}, [rawId]);
+
+const picUrl = HERO_PICS[picIdx];
 
   const [flowers, setFlowers] = useState(0);
   const [merges, setMerges] = useState(0);
@@ -284,6 +300,25 @@ export default function HeroPage() {
       <h1 style={{ marginTop: 12 }}>
         {name}{title ? `: ${title}` : ""}
       </h1>
+
+      <img
+  src={picUrl}
+  alt={`${name}${title ? `: ${title}` : ""} illustration`}
+  style={{
+    display: "block",
+    width: "100%",
+    maxWidth: 320,
+    borderRadius: 12,
+    margin: "8px 0 12px",
+    boxShadow: "0 2px 12px rgba(0,0,0,.08)",
+    objectFit: "cover",
+  }}
+  onError={(e) => {
+    // fallback: try the next image if one fails to load
+    const next = (picIdx + 1) % HERO_PICS.length;
+    (e.currentTarget as HTMLImageElement).src = HERO_PICS[next];
+  }}
+/>
 
       {/* Version exibida */}
       <div style={{ opacity: 0.7, marginTop: 4, marginBottom: 8 }}>
