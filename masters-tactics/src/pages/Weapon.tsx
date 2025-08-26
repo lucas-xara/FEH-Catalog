@@ -1,175 +1,190 @@
+// src/pages/Weapon.tsx
 import { useParams, Link } from "react-router-dom";
-import React from "react";
-import skillsJson from "../data/content/onlineskills.json";
-import enLang from "../data/languages/unitlanguages-USEN.json";
-import unitsJson from "../data/content/onlineunits.json";
-import { nameKeyFromSid } from "../utils/skills";
+import React, { useMemo } from "react";
 
-type SkillsDump = { weapons: Record<string, any> };
-type OnlineUnits = Record<string, any>;
+import weaponsData from "../data/content/weapons-list.json";
 
-// ==== Tabela de bits ====
-const BIT = {
-  RedSword: 1, BlueLance: 2, GreenAxe: 4,
+// Tipagem flexível para tolerar variações do refinado
+type RefinedWeapon = {
+  id?: string; sid?: string;
+  name?: string; Name?: string;
 
-  RedBow: 8, BlueBow: 16, GreenBow: 32, ColorlessBow: 64,
-  RedDagger: 128, BlueDagger: 256, GreenDagger: 512, ColorlessDagger: 1024,
+  // tipo / classe / cor
+  weaponType?: string; WeaponType?: string; type?: string; Type?: string;
+  weaponClass?: string; class?: string; Class?: string;
+  color?: string; Color?: string;
 
-  RedTome: 2048, BlueTome: 4096, GreenTome: 8192, ColorlessTome: 16384,
+  // estatísticas e metadados
+  might?: number; Might?: number;
+  range?: number; Range?: number; rng?: number; RNG?: number;
+  sp?: number; SP?: number; cost?: number; Cost?: number;
+  stats?: number[];               // às vezes [HP, Mt, Spd, Def, Res] ou +extras
+  desc?: string; description?: string; effect?: string; Effect?: string;
 
-  Staff: 32768,
+  // refinamentos
+  refines?: any;                  // pode ser objeto {Atk:{...},Effect:{...}} ou array
+  extraSkills?: any;              // para PRF effect text em alguns dumps
 
-  RedBreath: 65536, BlueBreath: 131072, GreenBreath: 262144, ColorlessBreath: 524288,
-
-  RedBeast: 1048576, BlueBeast: 2097152, GreenBeast: 4194304, ColorlessBeast: 8388608,
-} as const;
-
-const GROUP = {
-  Bow: BIT.RedBow | BIT.BlueBow | BIT.GreenBow | BIT.ColorlessBow,                 // 120
-  Dagger: BIT.RedDagger | BIT.BlueDagger | BIT.GreenDagger | BIT.ColorlessDagger,  // 1920
-  Tome: BIT.RedTome | BIT.BlueTome | BIT.GreenTome | BIT.ColorlessTome,            // 30720
-  Breath: BIT.RedBreath | BIT.BlueBreath | BIT.GreenBreath | BIT.ColorlessBreath,  // 983040
-  Beast: BIT.RedBeast | BIT.BlueBeast | BIT.GreenBeast | BIT.ColorlessBeast,       // 15728640
+  // wrappers ocasionais:
+  Weapon?: any; weapon?: any;
 };
 
-// ===== helpers de label por bit único =====
-function labelFromSingleBit(m: number): string | undefined {
-  if (m === BIT.RedSword) return "Red Sword";
-  if (m === BIT.BlueLance) return "Blue Lance";
-  if (m === BIT.GreenAxe)  return "Green Axe";
-
-  if (m === BIT.RedBow) return "Red Bow";
-  if (m === BIT.BlueBow) return "Blue Bow";
-  if (m === BIT.GreenBow) return "Green Bow";
-  if (m === BIT.ColorlessBow) return "Colorless Bow";
-
-  if (m === BIT.RedDagger) return "Red Dagger";
-  if (m === BIT.BlueDagger) return "Blue Dagger";
-  if (m === BIT.GreenDagger) return "Green Dagger";
-  if (m === BIT.ColorlessDagger) return "Colorless Dagger";
-
-  if (m === BIT.RedTome) return "Red Tome";
-  if (m === BIT.BlueTome) return "Blue Tome";
-  if (m === BIT.GreenTome) return "Green Tome";
-  if (m === BIT.ColorlessTome) return "Colorless Tome";
-
-  if (m === BIT.Staff) return "Staff";
-
-  if (m === BIT.RedBreath) return "Red Breath";
-  if (m === BIT.BlueBreath) return "Blue Breath";
-  if (m === BIT.GreenBreath) return "Green Breath";
-  if (m === BIT.ColorlessBreath) return "Colorless Breath";
-
-  if (m === BIT.RedBeast) return "Red Beast";
-  if (m === BIT.BlueBeast) return "Blue Beast";
-  if (m === BIT.GreenBeast) return "Green Beast";
-  if (m === BIT.ColorlessBeast) return "Colorless Beast";
-
-  return undefined;
+function unwrap(x: any): any {
+  if (!x || typeof x !== "object") return x;
+  return x.Weapon ?? x.weapon ?? x;
 }
 
-function isGroup(mask: number, group: number) {
-  return mask === group;
-}
-function isSingle(mask: number) {
-  // é um dos bits únicos que conhecemos
-  return Boolean(labelFromSingleBit(mask));
-}
-
-// ===== tenta inferir cor a partir do dono da PRF =====
-function labelFromOwnerIfPrf(sid: string, units: OnlineUnits): string | undefined {
-  // 1) acha um unit cujo basekit.weapon === sid
-  let owner: any | undefined;
-  for (const pid of Object.keys(units)) {
-    const u = units[pid];
-    if (u?.basekit?.weapon === sid) { owner = u; break; }
-  }
-  if (!owner) return undefined;
-
-  // 2) tenta extrair o mask de arma do unit (vários dumps usam chaves diferentes)
-  const unitMask =
-    Number(owner.weapon ?? owner.weapontype ?? owner.weptype ?? owner.wep ?? NaN);
-  if (!Number.isFinite(unitMask)) return undefined;
-
-  // 3) converte para label colorida se for uma das classes multi-cor
-  // (Bow/Dagger/Breath/Beast). Para Sword/Lance/Axe/Tome/Staff o próprio bit único já resolve.
-  const single = labelFromSingleBit(unitMask);
-  return single;
+function toFlatList(src: any): RefinedWeapon[] {
+  const out: RefinedWeapon[] = [];
+  const push = (it: any) => {
+    const w = unwrap(it);
+    if (w && typeof w === "object") out.push(w);
+  };
+  if (Array.isArray(src)) for (const it of src) push(it);
+  else if (typeof src === "object") for (const v of Object.values(src)) push(v);
+  return out;
 }
 
-// ===== label final =====
-function typeLabel(mask: number | undefined, w: any, units: OnlineUnits): string {
-  if (!Number.isFinite(mask)) return "—";
-  const m = mask as number;
+const num = (v: any): number | undefined => {
+  const n = Number(v);
+  return Number.isFinite(n) ? n : undefined;
+};
 
-  // Se for bit único conhecido, retorna a cor diretamente
-  const single = labelFromSingleBit(m);
-  if (single) return single;
+function getName(w: RefinedWeapon): string {
+  return String(w.name ?? w.Name ?? w.sid ?? w.id ?? "—");
+}
 
-  // Se for grupo, decide entre genérico (inheritable) e cor do dono (PRF)
-  if (isGroup(m, GROUP.Bow)) {
-    if (w?.prf) return labelFromOwnerIfPrf(w.__sid ?? w.sid ?? w.id ?? w.key ?? w.name ?? w.SID ?? w?.sidOriginal ?? w?.__sidOriginal ?? "", units) || "Bow";
-    return "Bow";
-  }
-  if (isGroup(m, GROUP.Dagger)) {
-    if (w?.prf) return labelFromOwnerIfPrf(w.__sid ?? w.sid ?? w.id ?? w.key ?? w.name ?? w.SID ?? "", units) || "Dagger";
-    return "Dagger";
-  }
-  if (isGroup(m, GROUP.Breath)) {
-    if (w?.prf) return labelFromOwnerIfPrf(w.__sid ?? w.sid ?? w.id ?? w.key ?? w.name ?? w.SID ?? "", units) || "Breath";
-    return "Breath";
-  }
-  if (isGroup(m, GROUP.Beast)) {
-    if (w?.prf) return labelFromOwnerIfPrf(w.__sid ?? w.sid ?? w.id ?? w.key ?? w.name ?? w.SID ?? "", units) || "Beast";
-    return "Beast";
-  }
-  if (isGroup(m, GROUP.Tome)) return "Tome"; // tomes quase sempre já vêm coloridos; grupo = inheritable
+function getTypeLabel(w: RefinedWeapon): string {
+  const direct =
+    w.weaponType ?? w.WeaponType ??
+    w.type ?? w.Type;
+  if (direct && String(direct).trim()) return String(direct).trim();
 
+  const klass = w.weaponClass ?? w.class ?? w.Class;
+  const color = w.color ?? w.Color;
+  if (klass && color) return `${color} ${klass}`;
+  if (klass) return String(klass);
+  if (color) return String(color);
   return "—";
 }
 
-function rangeFromMask(mask?: number): number | undefined {
-  if (!Number.isFinite(mask)) return undefined;
-  const m = mask as number;
-  const ANY_2R = GROUP.Bow | GROUP.Dagger | GROUP.Tome | BIT.Staff;
-  if ((m & ANY_2R) !== 0) return 2; // bows/daggers/tomes/staff
-  if ((m & (BIT.RedSword | BIT.BlueLance | BIT.GreenAxe)) !== 0) return 1;
-  if ((m & (BIT.RedBeast | BIT.BlueBeast | BIT.GreenBeast | BIT.ColorlessBeast)) !== 0) return 1;
-  if ((m & (BIT.RedBreath | BIT.BlueBreath | BIT.GreenBreath | BIT.ColorlessBreath)) !== 0) return 1;
+function inferRangeFromType(t?: string): number | undefined {
+  if (!t) return undefined;
+  const s = t.toLowerCase();
+  // 2-range: bows, daggers, tomes, staff
+  if (/(bow|dagger|tome|staff)/.test(s)) return 2;
+  // 1-range: swords, lances, axes, breath, beast
+  if (/(sword|lance|axe|breath|beast)/.test(s)) return 1;
   return undefined;
 }
 
-// Heurística para pegar descrição do lang
-function findDesc(lang: Record<string, string>, sid: string): string | undefined {
-  const candidates = [
-    sid.replace(/^SID_/, "MID_") + "_DESC",
-    sid.replace(/^SID_/, "MSID_") + "_DESC",
-    sid.replace(/^SID_/, "MID_"),
-  ];
-  for (const k of candidates) {
-    const v = lang[k];
-    if (typeof v === "string" && v.trim()) return v;
-  }
-  return undefined;
+function getRange(w: RefinedWeapon, typeLabel: string): number | undefined {
+  return (
+    num(w.range ?? w.Range ?? w.rng ?? w.RNG) ??
+    inferRangeFromType(typeLabel)
+  );
+}
+
+function getMight(w: RefinedWeapon): number | undefined {
+  // preferir campo explícito; se ausente, alguns dumps colocam Mt em stats[1]
+  return num(w.might ?? w.Might) ?? (Array.isArray(w.stats) ? num(w.stats[1]) : undefined);
+}
+
+function getSP(w: RefinedWeapon): number | undefined {
+  return num(w.sp ?? w.SP ?? w.cost ?? w.Cost);
+}
+
+function getDescription(w: RefinedWeapon): string {
+  const d =
+    w.desc ?? w.description ?? w.Effect ?? w.effect ??
+    // alguns dumps colocam um texto PRF em extraSkills.effectSkill
+    (w.extraSkills && typeof w.extraSkills === "object"
+      ? (Array.isArray(w.extraSkills)
+          ? w.extraSkills.map((x: any) => x?.effectSkill).find((s: any) => typeof s === "string" && s.trim())
+          : w.extraSkills.effectSkill)
+      : undefined);
+  return (typeof d === "string" && d.trim()) ? d : "—";
+}
+
+function readStatMods5(src: any): number[] | undefined {
+  if (!src) return undefined;
+  const arr = Array.isArray(src) ? src.slice(0, 5) :
+    (typeof src === "object"
+      ? [
+          num(src.hp ?? src.HP ?? 0) ?? 0,
+          num(src.atk ?? src.ATK ?? 0) ?? 0,
+          num(src.spd ?? src.SPD ?? 0) ?? 0,
+          num(src.def ?? src.DEF ?? 0) ?? 0,
+          num(src.res ?? src.RES ?? 0) ?? 0,
+        ]
+      : undefined);
+  if (!arr || arr.length < 5) return undefined;
+  return arr.map((v: any, i: number) => (Number.isFinite(Number(v)) ? Number(v) : 0)).slice(0, 5);
 }
 
 function formatMods(arr?: number[]): string {
   if (!arr || arr.length < 5) return "+0 HP, +0 Atk, +0 Spd, +0 Def, +0 Res";
-  const [hp, atk, spd, def, res] = arr;
+  const [hp, atk, spd, def, res] = arr.map((x) => Number(x) || 0);
   const sign = (n: number) => (n >= 0 ? `+${n}` : `${n}`);
   return `${sign(hp)} HP, ${sign(atk)} Atk, ${sign(spd)} Spd, ${sign(def)} Def, ${sign(res)} Res`;
 }
 
+type RefineRow = { key: string; isEffect: boolean; stats?: number[]; text?: string };
+
+function normalizeRefines(w: RefinedWeapon): RefineRow[] {
+  const rows: RefineRow[] = [];
+  const ref = w.refines;
+
+  const pickText = (obj: any): string | undefined => {
+    const t =
+      obj?.refineEffect ?? obj?.effect ?? obj?.Effect ??
+      obj?.desc ?? obj?.description ?? obj?.refine_desc ?? obj?.refineDescription;
+    return (typeof t === "string" && t.trim()) ? t : undefined;
+  };
+
+  const pickStats = (obj: any): number[] | undefined =>
+    readStatMods5(obj?.stats ?? obj?.statModifiers ?? obj?.mods);
+
+  if (!ref) return rows;
+
+  if (Array.isArray(ref)) {
+    for (const r of ref) {
+      const key = String(r?.name ?? r?.type ?? r?.key ?? "Refine");
+      const text = pickText(r);
+      const stats = pickStats(r);
+      const isEffect = key.toLowerCase().includes("effect") || Boolean(text && !stats);
+      rows.push({ key, isEffect, text, stats });
+    }
+  } else if (typeof ref === "object") {
+    for (const k of Object.keys(ref)) {
+      const r = ref[k];
+      const text = pickText(r);
+      const stats = pickStats(r);
+      const isEffect = k.toLowerCase() === "effect" || Boolean(text && !stats);
+      rows.push({ key: k, isEffect, text, stats });
+    }
+  }
+
+  return rows;
+}
+
 export default function WeaponPage() {
-  const { sid } = useParams();
-  const skills = skillsJson as unknown as SkillsDump;
-  const units = unitsJson as OnlineUnits;
-  const lang = enLang as Record<string, string>;
+  const { id } = useParams();
+  const key = decodeURIComponent(id ?? "");
 
-  const key = decodeURIComponent(sid ?? "");
-  const wRaw = (skills.weapons as any)?.[key];
+  // Achamos o item no refinado (por sid/id; fallback por nome)
+  const { weapon, flat } = useMemo(() => {
+    const flat = toFlatList(weaponsData);
+    const byId = flat.find(
+      (w) => String(w.sid ?? "") === key || String(w.id ?? "") === key
+    );
+    const byName = byId ? undefined : flat.find(
+      (w) => String(w.name ?? w.Name ?? "") === key
+    );
+    return { weapon: byId ?? byName, flat };
+  }, [key]);
 
-  if (!wRaw) {
+  if (!weapon) {
     return (
       <div style={{ maxWidth: 960, margin: "24px auto", padding: "0 16px" }}>
         <p>Weapon not found.</p>
@@ -178,65 +193,58 @@ export default function WeaponPage() {
     );
   }
 
-  // guardamos o SID no objeto (útil para a inferência do dono)
-  const w = { ...wRaw, __sid: key };
-
-  const name = lang[nameKeyFromSid(key)] ?? key;
-  const mask = Number(w?.weapon);
-  const type = typeLabel(mask, w, units);
-
-  const mt = Array.isArray(w?.stats) ? w.stats[1] : undefined;
-  const rng = rangeFromMask(mask);
-  const sp = w?.sp ?? w?.SP ?? undefined;
-
-  const desc = findDesc(lang, key) ?? "—";
-  const refines = w?.refines && typeof w.refines === "object" ? w.refines : undefined;
+  const name = getName(weapon);
+  const typeLabel = getTypeLabel(weapon);
+  const mt = getMight(weapon);
+  const rng = getRange(weapon, typeLabel);
+  const sp = getSP(weapon);
+  const desc = getDescription(weapon);
+  const refines = normalizeRefines(weapon);
 
   return (
     <div style={{ maxWidth: 960, margin: "24px auto", padding: "0 16px" }}>
       <Link to="/weapons" style={{ textDecoration: "none" }}>← Back</Link>
       <h1 style={{ marginTop: 12 }}>{name}</h1>
 
-      <div style={{
-        marginTop: 16, background: "#fff", color: "#111",
-        borderRadius: 12, padding: 16, boxShadow: "0 2px 12px rgba(0,0,0,.08)",
-      }}>
+      <div
+        style={{
+          marginTop: 16, background: "#fff", color: "#111",
+          borderRadius: 12, padding: 16, boxShadow: "0 2px 12px rgba(0,0,0,.08)",
+        }}
+      >
         <div style={{ display: "grid", gridTemplateColumns: "160px 1fr", gap: 8 }}>
           <div style={{ opacity: 0.7 }}>Type</div>
-          <div>{type}</div>
+          <div>{typeLabel}</div>
 
           <div style={{ opacity: 0.7 }}>MT</div>
-          <div>{Number.isFinite(mt) ? mt : "—"}</div>
+          <div>{Number.isFinite(mt as number) ? mt : "—"}</div>
 
           <div style={{ opacity: 0.7 }}>RNG</div>
           <div>{rng ?? "—"}</div>
 
           <div style={{ opacity: 0.7 }}>SP</div>
-          <div>{Number.isFinite(sp) ? sp : "—"}</div>
+          <div>{Number.isFinite(sp as number) ? sp : "—"}</div>
 
           <div style={{ opacity: 0.7, alignSelf: "start" }}>Description</div>
           <div style={{ whiteSpace: "pre-wrap" }}>{desc}</div>
         </div>
 
-        {refines && (
+        {refines.length > 0 && (
           <>
             <hr style={{ margin: "16px 0", borderColor: "rgba(0,0,0,.08)" }} />
             <div style={{ fontWeight: 700, marginBottom: 8 }}>Refine</div>
 
             <div style={{ display: "grid", gridTemplateColumns: "160px 1fr", gap: 8 }}>
-              {Object.keys(refines).map((rk) => {
-                const r = refines[rk];
-                const stats = Array.isArray(r?.stats) ? r.stats.slice(0, 5) : undefined;
-                const isEffect = rk.toLowerCase() === "effect";
-                return (
-                  <React.Fragment key={rk}>
-                    <div style={{ opacity: 0.7 }}>{rk}</div>
-                    <div style={{ color: isEffect ? "#22c55e" : undefined }}>
-                      {isEffect ? "Effect refine" : "Smithy refine"} — {formatMods(stats)}
-                    </div>
-                  </React.Fragment>
-                );
-              })}
+              {refines.map((r) => (
+                <React.Fragment key={r.key}>
+                  <div style={{ opacity: 0.7 }}>{r.key}</div>
+                  <div style={{ color: r.isEffect ? "#22c55e" : undefined }}>
+                    {r.isEffect
+                      ? (r.text ?? "Effect refine")
+                      : `Smithy refine — ${formatMods(r.stats)}`}
+                  </div>
+                </React.Fragment>
+              ))}
             </div>
           </>
         )}

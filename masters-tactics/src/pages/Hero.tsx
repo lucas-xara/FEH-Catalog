@@ -2,54 +2,26 @@
 import { useParams, Link } from "react-router-dom";
 import React, { useMemo, useState, useEffect } from "react";
 
-import unitsJson from "../data/content/onlineunits.json";
-import skillsJson from "../data/content/onlineskills.json";
-import enLang from "../data/languages/unitlanguages-USEN.json";
-import { getWeaponModsPrfEffect } from "../utils/weapon";
+import heroesData from "../data/content/heroes-list.json";
+import passivesData from "../data/content/passives-list.json";
+import specialsData from "../data/content/specials-list.json";
+import assistsData from "../data/content/assists-list.json";
+import weaponsData from "../data/content/weapons-list.json";
 
 import {
-  lv40FromBaseAndGrowth, // referência neutra (sem arma)
+  lv40FromBaseAndGrowth,
   dragonflowerOptions,
   mergeOptions,
   computeDisplayedStats,
   computeSuperIVs,
-  addStatArrays, // somar arma + passivas visíveis
+  type StatArray,
 } from "../utils/stats";
-import type { StatArray } from "../utils/stats";
-import {
-  nameKeyFromPid,
-  titleKeyFromPid,
-  nameKeyFromSid,
-  pickKitSlots,
-} from "../utils/skills";
 
-type OnlineUnits = Record<string, any>;
-type Lang = Record<string, string>;
+// —————————————————————————————————————————————
+// Helpers/tipos
+// —————————————————————————————————————————————
+type EntityMap = Record<string, any>;
 
-type SkillsDump = {
-  weapons: Record<
-    string,
-    {
-      stats?: number[] | Record<string, number>;
-      statModifiers?: number[] | Record<string, number>;
-      refines?: any;
-      refine?: any;
-    }
-  >;
-  assists: Record<string, unknown>;
-  specials: Record<string, unknown>;
-  passives: {
-    A: Record<string, any>;
-    B: Record<string, any>;
-    C: Record<string, any>;
-    X: Record<string, any>;
-    S?: Record<string, any>;
-  };
-};
-
-const STAT_NAMES = ["HP", "ATK", "SPD", "DEF", "RES"] as const;
-
-// >>> Tipagem local para incluir o slot S
 type KitSlots = {
   weapon?: string;
   assist?: string;
@@ -58,372 +30,409 @@ type KitSlots = {
   B?: string;
   C?: string;
   X?: string;
-  S?: string; // <- aqui!
 };
 
+const lastStr = (arr?: unknown[]): string | undefined =>
+  Array.isArray(arr) && arr.length ? String(arr[arr.length - 1]) : undefined;
+
+const routeKey = (obj: any, fallback?: string) =>
+  String(obj?.sid ?? obj?.id ?? obj?.name ?? obj?.Name ?? fallback ?? "");
+
+// Indexadores tolerantes p/ nossos JSONs
+const toMapLoose = (src: any): Record<string, any> => {
+  const out: Record<string, any> = {};
+  const unwrap = (x: any) => (x?.Assist ?? x?.Special ?? x?.Weapon ?? x?.Passive ?? x);
+  const add = (obj: any) => {
+    if (!obj) return;
+    const base = unwrap(obj);
+    const key = base?.name ?? base?.Name ?? base?.id ?? base?.Id;
+    if (key) out[String(key)] = base;
+  };
+  if (Array.isArray(src)) for (const it of src) add(it);
+  else if (typeof src === "object") for (const v of Object.values(src)) add(v);
+  return out;
+};
+
+const toPassiveMapFromLevels = (src: any): Record<string, any> => {
+  const out: Record<string, any> = {};
+  const unwrap = (x: any) => x?.Passive ?? x?.passive ?? x;
+  const pushLevel = (lv: any, base: any) => {
+    const merged = { ...base, ...lv };
+    const name = lv?.name ?? lv?.Name;
+    if (name) out[name] = merged;
+    if (lv?.id) out[String(lv.id)] = merged;
+    if (lv?.sid) out[String(lv.sid)] = merged;
+    if (lv?.tagid) out[String(lv.tagid)] = merged;
+    if (Array.isArray(lv?.altNames)) {
+      for (const alt of lv.altNames) out[String(alt)] = merged;
+    }
+  };
+  const handle = (objIn: any) => {
+    const base = unwrap(objIn);
+    if (!base) return;
+    if (Array.isArray(base.levels) && base.levels.length) {
+      for (const lv of base.levels) pushLevel(lv, base);
+    } else {
+      const nm = base?.name ?? base?.Name;
+      if (nm) out[nm] = base;
+      if (base?.id) out[String(base.id)] = base;
+      if (base?.sid) out[String(base.sid)] = base;
+      if (base?.tagid) out[String(base.tagid)] = base;
+    }
+  };
+  if (Array.isArray(src)) for (const it of src) handle(it);
+  else if (typeof src === "object") for (const v of Object.values(src)) handle(v);
+  return out;
+};
+
+// —————————————————————————————————————————————
+// Página
+// —————————————————————————————————————————————
 export default function HeroPage() {
   const { id } = useParams();
-  const units = unitsJson as OnlineUnits;
-  const lang = enLang as Lang;
-  const skills = skillsJson as unknown as SkillsDump;
+  const rawId = decodeURIComponent(id ?? "");
 
-  const raw = decodeURIComponent(id ?? "");
-  const pid = raw.startsWith("PID_") ? raw : `PID_${raw}`;
+  const h = useMemo(() => {
+    const arr = heroesData as any[];
+    return arr.find((it) => `${it.infobox.Name} (${it.infobox.Title})` === rawId);
+  }, [rawId]);
 
-  const u = units[pid];
   const [flowers, setFlowers] = useState(0);
   const [merges, setMerges] = useState(0);
+  const [resplendentOn, setResplendentOn] = useState(false);
 
-  if (!u) {
+  useEffect(() => {
+    setFlowers(0);
+    setMerges(0);
+    setResplendentOn(false);
+  }, [rawId]);
+
+  if (!h) {
     return (
       <div style={{ maxWidth: 960, margin: "24px auto", padding: "0 16px" }}>
-        <p>Herói não encontrado.</p>
-        <Link to="/heroes">← Voltar</Link>
+        <p>Hero not found.</p>
+        <Link to="/heroes">← Back</Link>
       </div>
     );
   }
 
-  const name = lang[nameKeyFromPid(pid)] ?? pid;
-  const title = lang[titleKeyFromPid(pid)] ?? "";
+  const name = h.infobox.Name;
+  const title = h.infobox.Title;
 
-  // <<< cast para KitSlots para habilitar kit.S sem erro de TS
-  const kit = pickKitSlots(u.basekit, skills) as KitSlots;
+  // Kit com strings (evita unknown)
+  const kit: KitSlots = useMemo(
+    () => ({
+      weapon: lastStr(h.weapons),
+      assist: lastStr(h.assists),
+      special: lastStr(h.specials),
+      A: lastStr(h.passives?.A),
+      B: lastStr(h.passives?.B),
+      C: lastStr(h.passives?.C),
+      X: lastStr(h.passives?.X),
+    }),
+    [h]
+  );
 
-  // --- SUPERBOON/SUPERBANE ---
-  const supers = useMemo(() => {
-    const statsLv1 = (u.stats as number[]).slice(0, 5) as StatArray;
-    const growths = (u.growths as number[]).slice(0, 5) as StatArray;
-    return computeSuperIVs(statsLv1, growths, 5);
-  }, [u.stats, u.growths]);
+  // Maps com tipo explícito (evita "{} cannot be used as an index type")
+  const weaponsMap: EntityMap = useMemo(() => toMapLoose(weaponsData as any), []);
+  const assistsMap: EntityMap = useMemo(() => toMapLoose(assistsData as any), []);
+  const specialsMap: EntityMap = useMemo(() => toMapLoose(specialsData as any), []);
+  const passivesMap: EntityMap = useMemo(() => toPassiveMapFromLevels(passivesData as any), []);
 
-  // --- Detecta se esse herói tem versão Resplendent (EX01) ---
-  const hasResplendent = useMemo(() => {
-    if (!pid.startsWith("PID_")) return false;
-    const voiceKey = pid.replace("PID", "MPID_VOICE") + "EX01";
-    const artKey = pid.replace("PID", "MPID_ILLUST") + "EX01";
-    return Boolean((enLang as any)[voiceKey] || (enLang as any)[artKey]);
-  }, [pid]);
+  // Infos
+  const weaponInfo  = useMemo(() => (kit.weapon  ? weaponsMap[kit.weapon]  : undefined), [kit.weapon, weaponsMap]);
+  const assistInfo  = useMemo(() => (kit.assist  ? assistsMap[kit.assist]  : undefined), [kit.assist, assistsMap]);
+  const specialInfo = useMemo(() => (kit.special ? specialsMap[kit.special] : undefined), [kit.special, specialsMap]);
+  const aInfo       = useMemo(() => (kit.A ? passivesMap[kit.A] : undefined), [kit.A, passivesMap]);
+  const bInfo       = useMemo(() => (kit.B ? passivesMap[kit.B] : undefined), [kit.B, passivesMap]);
+  const cInfo       = useMemo(() => (kit.C ? passivesMap[kit.C] : undefined), [kit.C, passivesMap]);
+  const xInfo       = useMemo(() => (kit.X ? passivesMap[kit.X] : undefined), [kit.X, passivesMap]);
 
-  const [resplendent, setResplendent] = useState(false);
-  // ao trocar de herói, limpa o toggle
-  useEffect(() => setResplendent(false), [pid]);
+  // chaves de rota seguras (sid/id/name)
+  const weaponKey  = useMemo(() => routeKey(weaponInfo, kit.weapon),   [weaponInfo, kit.weapon]);
+  const assistKey  = useMemo(() => routeKey(assistInfo, kit.assist),   [assistInfo, kit.assist]);
+  const specialKey = useMemo(() => routeKey(specialInfo, kit.special), [specialInfo, kit.special]);
+  const aKey = kit.A ? String(kit.A) : "";
+  const bKey = kit.B ? String(kit.B) : "";
+  const cKey = kit.C ? String(kit.C) : "";
+  const xKey = kit.X ? String(kit.X) : "";
 
-  // --- Flatten de passivas (A/B/C/S/X) para lookup por SID ---
-  const allPassives = useMemo(() => {
-    return {
-      ...(skills.passives?.A ?? {}),
-      ...(skills.passives?.B ?? {}),
-      ...(skills.passives?.C ?? {}),
-      ...(skills.passives?.S ?? {}),
-      ...(skills.passives?.X ?? {}),
-    } as Record<
-      string,
-      {
-        statModifiers?: number[] | Record<string, number>;
-        stats?: number[] | Record<string, number>;
-      }
-    >;
-  }, [skills.passives]);
+  // Stats
+  const statsLv1 = useMemo<StatArray>(() => {
+    const s = h.stats.Lv1;
+    return [s.HP, s.ATK, s.SPD, s.DEF, s.RES];
+  }, [h]);
+  const growths = useMemo<StatArray>(() => {
+    const g = h.stats.GrowthRates;
+    return [g.HP, g.ATK, g.SPD, g.DEF, g.RES];
+  }, [h]);
+  const supers = useMemo(() => computeSuperIVs(statsLv1, growths, 5), [statsLv1, growths]);
 
-  // Helper local: normaliza objeto {hp,atk,...} ou array para [5]
-  const toArray5 = (x: any): number[] | undefined => {
-    if (!x) return undefined;
-    if (Array.isArray(x)) return x.slice(0, 5);
-    if (typeof x === "object") {
-      const hp = Number(x.hp ?? x.HP ?? 0);
-      const atk = Number(x.atk ?? x.ATK ?? 0);
-      const spd = Number(x.spd ?? x.SPD ?? 0);
-      const def = Number(x.def ?? x.DEF ?? 0);
-      const res = Number(x.res ?? x.RES ?? 0);
+  // DF cap
+  const DEFAULT_FLOWER_CAP = 20;
+  const maxFlowers = h.dragonflowersCap ?? DEFAULT_FLOWER_CAP;
+  useEffect(() => { setFlowers((f) => (f > maxFlowers ? maxFlowers : f)); }, [maxFlowers]);
+
+  // Visíveis
+  const num = (v: any) => (Number.isFinite(Number(v)) ? Number(v) : 0);
+  const readStatMods5 = (src: any): number[] | undefined => {
+    if (!src) return undefined;
+    if (Array.isArray(src)) return src.slice(0, 5).map(num);
+    if (typeof src === "object") {
+      const hp = num(src.hp ?? src.HP ?? 0);
+      const atk = num(src.atk ?? src.ATK ?? 0);
+      const spd = num(src.spd ?? src.SPD ?? 0);
+      const def = num(src.def ?? src.DEF ?? 0);
+      const res = num(src.res ?? src.RES ?? 0);
       return [hp, atk, spd, def, res];
     }
     return undefined;
   };
-
-  // --- Passivas do kit que dão stats VISÍVEIS (somadas à arma) ---
-  const passiveVisibleMods = useMemo(() => {
-    const sids = [kit.A, kit.B, kit.C, kit.S, kit.X].filter(Boolean) as string[];
-    let sum: number[] | undefined = undefined;
-
-    for (const sid of sids) {
-      const p = allPassives[sid];
-      if (!p) continue;
-
-      const arr = toArray5(p.statModifiers) ?? toArray5(p.stats) ?? undefined;
-
-      if (arr) {
-        sum = addStatArrays(sum, arr) ?? arr; // soma cumulativa
-      }
+  const approxEq = (a: number, b: number) => Math.abs(a - b) < 1e-6;
+  const getWeaponVisibleMods = (info?: any): number[] | undefined => {
+    if (!info) return undefined;
+    const mt = num(info.might ?? info.Might ?? 0);
+    const sm = readStatMods5(info.statModifiers ?? info.stats);
+    let [hp, atk, spd, def, res] = sm ?? [0, 0, 0, 0, 0];
+    if (mt > 0) {
+      if (!sm) atk += mt;
+      else if (atk <= 0) atk = mt;
+      else if (approxEq(atk, mt) || atk > mt) { /* inclui Mt */ }
+      else if (atk > 0 && atk < mt) atk += mt;
     }
-    return sum; // pode ser undefined se nenhuma passiva tiver visíveis
-  }, [kit.A, kit.B, kit.C, kit.S, kit.X, allPassives]);
+    const out = [hp, atk, spd, def, res];
+    return out.some((v) => v !== 0) ? out : undefined;
+  };
+  const getPassiveVisibleMods = (info?: any): number[] | undefined => {
+    const sm = readStatMods5(info?.statModifiers ?? info?.stats);
+    return sm && sm.some(v => v !== 0) ? sm : undefined;
+  };
 
-  // --- ARMA (PRF + Effect auto) ---
-  const { weaponMods, refinedEffect } = useMemo(() => {
-    const w = kit.weapon ? (skills.weapons?.[kit.weapon] as any) : undefined;
-    const out = getWeaponModsPrfEffect(w, allPassives);
-    return {
-      weaponMods: out.mods as number[] | undefined,
-      refinedEffect: out.refinedEffect as boolean,
-    };
-  }, [kit.weapon, skills.weapons, allPassives]);
+  const weaponMods = useMemo(() => getWeaponVisibleMods(weaponInfo), [weaponInfo]);
+  const passiveMods = useMemo(() => {
+    const arr = [
+      getPassiveVisibleMods(aInfo),
+      getPassiveVisibleMods(bInfo),
+      getPassiveVisibleMods(cInfo),
+      getPassiveVisibleMods(xInfo),
+    ];
+    return arr.filter((x): x is number[] => Array.isArray(x));
+  }, [aInfo, bInfo, cInfo, xInfo]);
 
-  // --- Combina arma + passivas visíveis (um único vetor) ---
-  const combinedItemMods = useMemo(() => {
-    return addStatArrays(weaponMods, passiveVisibleMods) ?? weaponMods ?? passiveVisibleMods;
-  }, [weaponMods, passiveVisibleMods]);
-
-  // --- Aplica Resplendent (+2 em todos) se marcado ---
-  const finalItemMods = useMemo(() => {
-    const plus2 = resplendent ? [2, 2, 2, 2, 2] : undefined;
-    return addStatArrays(combinedItemMods, plus2) ?? plus2 ?? combinedItemMods;
-  }, [combinedItemMods, resplendent]);
-
-  // --- DISPLAYED: lvl40 5★ + merges + DF + (arma + passivas visíveis + resplendent) ---
-  const displayed = useMemo(() => {
-    const statsLv1 = (u.stats as number[]).slice(0, 5) as StatArray;
-    const growths = (u.growths as number[]).slice(0, 5) as StatArray;
-
-    const { displayed } = computeDisplayedStats({
+  const { displayed } = useMemo(() => {
+    return computeDisplayedStats({
       statsLv1,
       growthsPct: growths,
       rarity: 5,
       merges,
       flowers,
-      mods: {
-        weaponMods: finalItemMods, // já inclui +2 de Resplendent (se marcado)
-        passiveMods: [], // já agregadas acima
-        summoner: null,
-        resplendent: false, // mantemos false; já somamos manualmente
-        bonusUnit: false,
-        beastTransformed: false,
-        buffs: [0, 0, 0, 0, 0],
-        extraBoosts: [0, 0, 0, 0, 0],
-      },
+      mods: { weaponMods, passiveMods, resplendent: resplendentOn },
     });
+  }, [statsLv1, growths, merges, flowers, weaponMods, passiveMods, resplendentOn]);
 
-    return displayed;
-  }, [u.stats, u.growths, merges, flowers, finalItemMods]);
+  const lv40Neutral = useMemo(() => lv40FromBaseAndGrowth(statsLv1, growths), [statsLv1, growths]);
 
-  // Neutro sem arma (comparação opcional)
-  const lv40Neutral = useMemo(() => {
-    return lv40FromBaseAndGrowth(u.stats, u.growths);
-  }, [u.stats, u.growths]);
-
-  const t = (sid?: string) => (sid ? lang[nameKeyFromSid(sid)] ?? sid : "—");
-
-  const colorForIndex = (i: number) => {
-    if (supers.superboon.has(i)) return "blue";
-    if (supers.superbane.has(i)) return "red";
-    return "#111";
+  // UI helpers
+  const metaLine = (info?: any): string => {
+    if (!info) return "";
+    const bits: string[] = [];
+    const sp = info.sp ?? info.SP ?? info.cost ?? info.Cost;
+    if (sp != null && String(sp) !== "") bits.push(`SP ${sp}`);
+    const cd = info.cooldown ?? info.CD ?? info.cd ?? info.Charge;
+    if (cd != null && String(cd) !== "") bits.push(`CD ${cd}`);
+    const rng = info.range ?? info.Range ?? info.rng ?? info.RNG;
+    if (rng != null && String(rng) !== "") bits.push(`Rng ${rng}`);
+    const mt = info.might ?? info.Might;
+    if (mt != null && String(mt) !== "") bits.push(`Mt ${mt}`);
+    const refine =
+      info.refine ??
+      (Array.isArray(info.refines) ? info.refines.join("/") : info.refines) ??
+      info.refinePaths ?? info.upgradedEffect;
+    if (refine != null && String(refine) !== "") bits.push(`Refine ${refine}`);
+    return bits.join(" • ");
   };
-  const statusForIndex = (i: number) =>
-    supers.superboon.has(i) ? "superboon" : supers.superbane.has(i) ? "superbane" : "neutral";
+  const descLine = (info?: any): string => {
+    if (!info) return "";
+    const d = info.desc ?? info.description ?? info.Effect ?? info.effect ?? "";
+    return String(d);
+  };
+  const getRefineEffectText = (info?: any): string | undefined => {
+    if (!info) return undefined;
+    const isPrf = String(info.exclusive ?? info.Exclusive ?? "0") === "1";
+    if (!isPrf) return undefined;
+    let fromExtra: string | undefined;
+    if (Array.isArray(info.extraSkills)) {
+      fromExtra = info.extraSkills.map((x: any) => x?.effectSkill).find((s: any) => typeof s === "string" && s.trim());
+    } else if (info.extraSkills && typeof info.extraSkills.effectSkill === "string") {
+      fromExtra = info.extraSkills.effectSkill;
+    }
+    if (fromExtra && fromExtra.trim()) return fromExtra;
+    const candidates = [info.upgradedEffect, info.refineEffect, info.refinedEffect, info.refine_desc, info.refineDescription, info.refine, info.refined];
+    for (const c of candidates) if (typeof c === "string" && c.trim()) return c;
+    return undefined;
+  };
+  const refineText = useMemo(() => getRefineEffectText(weaponInfo), [weaponInfo]);
+
+  const STAT_NAMES = ["HP", "ATK", "SPD", "DEF", "RES"] as const;
+  const colorForIndex = (i: number) => (supers.superboon.has(i) ? "blue" : supers.superbane.has(i) ? "red" : "#111");
+  const statusForIndex = (i: number) => (supers.superboon.has(i) ? "superboon" : supers.superbane.has(i) ? "superbane" : "neutral");
 
   return (
     <div style={{ maxWidth: 960, margin: "24px auto", padding: "0 16px" }}>
-      <Link to="/heroes" style={{ textDecoration: "none" }}>
-        ← Voltar
-      </Link>
+      <Link to="/heroes" style={{ textDecoration: "none" }}>← Back</Link>
 
       <h1 style={{ marginTop: 12 }}>
-        {name}
-        {title ? `: ${title}` : ""}
+        {name}{title ? `: ${title}` : ""}
       </h1>
 
-      <div
-        style={{
-          marginTop: 16,
-          background: "#fff",
-          color: "#111",
-          borderRadius: 12,
-          padding: 16,
-          boxShadow: "0 2px 12px rgba(0,0,0,.08)",
-        }}
-      >
-        {/* Dragonflowers selector */}
-        <div style={{ marginBottom: 16 }}>
+      {/* Version exibida */}
+      <div style={{ opacity: 0.7, marginTop: 4, marginBottom: 8 }}>
+        Version: {h.version ?? "—"}
+      </div>
+
+      <div style={{ marginTop: 8, background: "#fff", color: "#111", borderRadius: 12, padding: 16, boxShadow: "0 2px 12px rgba(0,0,0,.08)" }}>
+        {/* Selectors rápidos */}
+        <div style={{ display: "flex", gap: 16, marginBottom: 12 }}>
           <label>
             Dragonflowers:&nbsp;
-            <select
-              value={flowers}
-              onChange={(e) => setFlowers(parseInt(e.target.value, 10))}
-            >
-              {dragonflowerOptions(u.flowers).map((opt) => (
-                <option key={opt} value={opt}>
-                  +{opt}
-                </option>
+            <select value={flowers} onChange={(e) => setFlowers(parseInt(e.target.value, 10))}>
+              {dragonflowerOptions(maxFlowers).map((opt) => (
+                <option key={opt} value={opt}>+{opt}</option>
               ))}
             </select>
           </label>
-        </div>
-
-        {/* Merges selector */}
-        <div style={{ marginBottom: 16 }}>
           <label>
             Merges:&nbsp;
-            <select
-              value={merges}
-              onChange={(e) => setMerges(parseInt(e.target.value, 10))}
-            >
+            <select value={merges} onChange={(e) => setMerges(parseInt(e.target.value, 10))}>
               {mergeOptions().map((opt) => (
-                <option key={opt} value={opt}>
-                  +{opt}
-                </option>
+                <option key={opt} value={opt}>+{opt}</option>
               ))}
             </select>
           </label>
+          <label>
+            Resplendent:&nbsp;
+            <select value={resplendentOn ? "1" : "0"} onChange={(e) => setResplendentOn(e.target.value === "1")}>
+              <option value="0">Off</option>
+              <option value="1">On (+2 all)</option>
+            </select>
+          </label>
         </div>
-
-        {/* Action bar: Reset / Max */}
-<div style={{ display: "flex", gap: 8, marginBottom: 16 }}>
-  {(() => {
-    const MAX_MERGES = 10;
-    const maxFlowers = Number(u.flowers ?? 0);
-    const atMin = merges === 0 && flowers === 0;
-    const atMax = merges === MAX_MERGES && flowers === maxFlowers;
-
-    return (
-      <>
-        <button
-          type="button"
-          onClick={() => {
-            setMerges(0);
-            setFlowers(0);
-          }}
-          disabled={atMin}
-          style={{
-            padding: "6px 10px",
-            borderRadius: 8,
-            border: "1px solid #ddd",
-            color: "#111",
-            background: atMin ? "#f5f5f5" : "#fff",
-            cursor: atMin ? "not-allowed" : "pointer",
-          }}
-        >
-          Reset
-        </button>
-
-        <button
-          type="button"
-          onClick={() => {
-            setMerges(MAX_MERGES);
-            setFlowers(maxFlowers);
-          }}
-          disabled={atMax}
-          style={{
-            padding: "6px 10px",
-            borderRadius: 8,
-            color: "#111",
-            border: "1px solid #ddd",
-            background: atMax ? "#f5f5f5" : "#fff",
-            cursor: atMax ? "not-allowed" : "pointer",
-          }}
-        >
-          Max
-        </button>
-      </>
-    );
-  })()}
-</div>
-
-
-        {/* Resplendent toggle (só aparece quando há EX01) */}
-        {hasResplendent && (
-          <div style={{ marginBottom: 16 }}>
-            <label style={{ cursor: "pointer", userSelect: "none" }}>
-              <input
-                type="checkbox"
-                checked={resplendent}
-                onChange={(e) => setResplendent(e.target.checked)}
-                style={{ marginRight: 8 }}
-              />
-              Resplendent (+2 a todos os stats)
-            </label>
-          </div>
-        )}
 
         {/* Stats */}
         <div style={{ fontWeight: 600, marginBottom: 8 }}>
-          Level 40 (5★, neutro)
-          {kit.weapon ? ` — com arma do kit${refinedEffect ? " (refined: Effect)" : ""}` : ""}
+          Level 40 (5★, neutral)
           {flowers ? ` — +${flowers} DF` : ""}
           {merges ? ` — +${merges} merges` : ""}
-          {resplendent ? " — Resplendent" : ""}
+          {resplendentOn ? ` — Resplendent (+2 all)` : ""}
         </div>
 
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "120px 1fr",
-            gap: 8,
-          }}
-        >
+        <div style={{ display: "grid", gridTemplateColumns: "120px 1fr", gap: 8 }}>
           {STAT_NAMES.map((label, i) => (
             <React.Fragment key={label}>
               <div style={{ opacity: 0.7 }}>{label}</div>
-              <div
-                title={statusForIndex(i)}
-                style={{
-                  color: colorForIndex(i),
-                  fontWeight: statusForIndex(i) === "neutral" ? 600 : 700,
-                }}
-              >
+              <div title={statusForIndex(i)} style={{ color: colorForIndex(i), fontWeight: statusForIndex(i) === "neutral" ? 600 : 700 }}>
                 {displayed?.[i] ?? "—"}
               </div>
             </React.Fragment>
           ))}
         </div>
 
-        <hr
-          style={{
-            margin: "16px 0",
-            borderColor: "rgba(0,0,0,.08)",
-          }}
-        />
+        <hr style={{ margin: "16px 0", borderColor: "rgba(0,0,0,.08)" }} />
 
-        {/* Info de base (opcional) */}
+        {/* Neutral without weapon */}
         <div style={{ opacity: 0.75, marginBottom: 8 }}>
           <small>
-            (Neutro sem arma:{" "}
-            {lv40Neutral
-              ? `${lv40Neutral[0]}/${lv40Neutral[1]}/${lv40Neutral[2]}/${lv40Neutral[3]}/${lv40Neutral[4]}`
-              : "—"}
+            (Neutral without weapon:&nbsp;
+            {lv40Neutral ? `${lv40Neutral[0]}/${lv40Neutral[1]}/${lv40Neutral[2]}/${lv40Neutral[3]}/${lv40Neutral[4]}` : "—"}
             )
           </small>
         </div>
 
-        {/* Kit */}
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "120px 1fr",
-            gap: 8,
-          }}
-        >
+        {/* Kit + metadados/refine — com links */}
+        <div style={{ display: "grid", gridTemplateColumns: "120px 1fr", gap: 8 }}>
           <div style={{ opacity: 0.7 }}>Weapon</div>
-          <div style={{ color: refinedEffect ? "#82f546" : undefined }}>
-            {t(kit.weapon)}
-            {refinedEffect ? " (Effect)" : ""}
+          <div>
+            {kit.weapon ? (
+              <Link to={`/weapons/${encodeURIComponent(weaponKey)}`} style={{ textDecoration: "none" }}>
+                {kit.weapon}
+              </Link>
+            ) : "—"}
+            {weaponInfo ? (
+              <>
+                {metaLine(weaponInfo) ? <div style={{ opacity: 0.7 }}>{metaLine(weaponInfo)}</div> : null}
+                {descLine(weaponInfo) ? <div style={{ opacity: 0.7 }} dangerouslySetInnerHTML={{ __html: descLine(weaponInfo) }} /> : null}
+                {refineText ? (
+                  <div style={{ color: "#82f546", marginTop: 6, fontWeight: 600 }} dangerouslySetInnerHTML={{ __html: refineText }} />
+                ) : null}
+              </>
+            ) : null}
           </div>
 
           <div style={{ opacity: 0.7 }}>Assist</div>
-          <div>{t(kit.assist)}</div>
+          <div>
+            {kit.assist ? (
+              <Link to={`/assists/${encodeURIComponent(assistKey)}`} style={{ textDecoration: "none" }}>
+                {kit.assist}
+              </Link>
+            ) : "—"}
+            {assistInfo ? (
+              <>
+                {metaLine(assistInfo) ? <div style={{ opacity: 0.7 }}>{metaLine(assistInfo)}</div> : null}
+                {descLine(assistInfo) ? <div style={{ opacity: 0.7 }} dangerouslySetInnerHTML={{ __html: descLine(assistInfo) }} /> : null}
+              </>
+            ) : null}
+          </div>
 
           <div style={{ opacity: 0.7 }}>Special</div>
-          <div>{t(kit.special)}</div>
+          <div>
+            {kit.special ? (
+              <Link to={`/specials/${encodeURIComponent(specialKey)}`} style={{ textDecoration: "none" }}>
+                {kit.special}
+              </Link>
+            ) : "—"}
+            {specialInfo ? (
+              <>
+                {metaLine(specialInfo) ? <div style={{ opacity: 0.7 }}>{metaLine(specialInfo)}</div> : null}
+                {descLine(specialInfo) ? <div style={{ opacity: 0.7 }} dangerouslySetInnerHTML={{ __html: descLine(specialInfo) }} /> : null}
+              </>
+            ) : null}
+          </div>
 
           <div style={{ opacity: 0.7 }}>A skill</div>
-          <div>{t(kit.A)}</div>
+          <div>
+            {kit.A ? (
+              <Link to={`/skills/${encodeURIComponent(aKey)}`} style={{ textDecoration: "none" }}>
+                {kit.A}
+              </Link>
+            ) : "—"}
+          </div>
 
           <div style={{ opacity: 0.7 }}>B skill</div>
-          <div>{t(kit.B)}</div>
+          <div>
+            {kit.B ? (
+              <Link to={`/skills/${encodeURIComponent(bKey)}`} style={{ textDecoration: "none" }}>
+                {kit.B}
+              </Link>
+            ) : "—"}
+          </div>
 
           <div style={{ opacity: 0.7 }}>C skill</div>
-          <div>{t(kit.C)}</div>
+          <div>
+            {kit.C ? (
+              <Link to={`/skills/${encodeURIComponent(cKey)}`} style={{ textDecoration: "none" }}>
+                {kit.C}
+              </Link>
+            ) : "—"}
+          </div>
 
           <div style={{ opacity: 0.7 }}>X skill</div>
-          <div>{t(kit.X)}</div>
+          <div>
+            {kit.X ? (
+              <Link to={`/skills/${encodeURIComponent(xKey)}`} style={{ textDecoration: "none" }}>
+                {kit.X}
+              </Link>
+            ) : "—"}
+          </div>
         </div>
       </div>
     </div>

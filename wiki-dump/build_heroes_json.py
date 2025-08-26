@@ -149,7 +149,8 @@ def empty_hero() -> Dict[str, Any]:
         "passives": {
             "A": [],
             "B": [],
-            "C": []
+            "C": [],
+            "X": []
         }
     }
 
@@ -214,11 +215,11 @@ def parse_hero_wikitext(wikitext: str) -> Optional[Dict[str, Any]]:
         sp = params_to_dict(s_tpl)
         hero["specials"] = collect_names(sp, "special", max_slots=120)
 
-    # --- Passives: interpretar "skills" como passives (A/B/C) -> apenas nomes ---
+    # --- Passives: interpretar "skills" como passives (A/B/C/X) -> apenas nomes ---
     p_tpl = get_template(parsed, "Passives Table")
     if p_tpl:
         p = params_to_dict(p_tpl)
-        for letter in ("A", "B", "C"):
+        for letter in ("A", "B", "C", "X"):
             # coleta apenas os nomes (passiveA1, passiveA2, ...)
             names = collect_names({k.replace(f"passive{letter}", "item"): v
                                    for k, v in p.items() if k.startswith(f"passive{letter}") and not k.startswith(f"passive{letter}Unlock")},

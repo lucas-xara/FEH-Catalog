@@ -2,7 +2,7 @@
 import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 
-import heroesData from "../data/content/refined-data/heroes-list.json";
+import heroesData from "../data/content/heroes-list.json";
 import HeroCard from "../components/HeroCard";
 import type { Hero } from "../types";
 import HeroFilters from "../components/HeroFilters";

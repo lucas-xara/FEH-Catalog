@@ -34,65 +34,49 @@ function gainFromGrowth(growthPct: number, rarity: 1 | 2 | 3 | 4 | 5): number {
 }
 
 /**
- * statcalc — port fiel do fehbuilder (utilities.statcalc).
- * Espera base lvl1 5★ e growths 5★, mas calcula para qualquer raridade 1..5.
- * Aplica: raridade, boon/bane (±1 lvl1, ±5 growth), ascendente, merges e flowers.
+ * statcalc — agora parte DIRETO do Lv1 5★ do JSON (sem +1/+2 por raridade no lvl1).
+ * Aplica: boon/bane (±1 lvl1, ±5 growth), ascendente, merges e flowers.
  */
 export function statcalc(
-  stats: StatArray,            // base lvl1 (5★): [HP,Atk,Spd,Def,Res]
+  stats: StatArray,            // Lv1 5★ VINDO DO JSON
   growths: StatArray,          // growth% (5★)
-  rarity: 1 | 2 | 3 | 4 | 5,   // raridade
+  rarity: 1 | 2 | 3 | 4 | 5,   // usado na tabela de growth; NÃO mexemos no lvl1
   boon: StatKey | null = null,
   bane: StatKey | null = null,
   ascendent: StatKey | null = null,
   merges: number = 0,          // 0..10
   flowers: number = 0          // 0..20 (depende da unidade)
 ): StatArray {
-  // 1) Ajuste por raridade → almosttruelevel1
-  const almost: Record<StatKey, number> = {
+  // 1) Partimos DIRETO do Lv1 do JSON como "lvl1 verdadeiro"
+  const trueLvl1: Record<StatKey, number> = {
     HP: stats[0], Atk: stats[1], Spd: stats[2], Def: stats[3], Res: stats[4],
   };
 
-  // Para raridade >=3: +1 em todos; se for 5★: +1 extra em todos (total +2)
-  if (rarity >= 3) for (const k of KEYS) almost[k] += 1;
-  if (rarity === 5) for (const k of KEYS) almost[k] += 1;
-
-  // Para 2★ e 4★: +1 nos dois MAIORES não-HP
-  if (rarity === 2 || rarity === 4) {
-    const orderNonHP = (["Atk", "Spd", "Def", "Res"] as StatKey[]).sort(
-      (a, b) => almost[b] - almost[a]
-    );
-    almost[orderNonHP[0]] += 1;
-    almost[orderNonHP[1]] += 1;
-  }
-
-  // 2) Aplicar boon/bane no lvl1 e no growth
-  const trueLvl1: Record<StatKey, number> = { ...almost };
-  if (boon) trueLvl1[boon] += 1;
-  if (bane) trueLvl1[bane] -= 1;
-
+  // 2) Growths base (5★)
   const trueGrowth: Record<StatKey, number> = {
     HP: growths[0], Atk: growths[1], Spd: growths[2], Def: growths[3], Res: growths[4],
   };
-  if (boon) trueGrowth[boon] += 5;
-  if (bane) trueGrowth[bane] -= 5;
 
-  // 3) Ordem por lvl1 para aplicar merges/flowers
+  // 3) Boon/Bane afetam lvl1 e growth
+  if (boon) { trueLvl1[boon] += 1; trueGrowth[boon] += 5; }
+  if (bane) { trueLvl1[bane] -= 1; trueGrowth[bane] -= 5; }
+
+  // 4) Ordem para merges/flowers
   const sortedKeys: StatKey[] = [...KEYS].sort((a, b) => trueLvl1[b] - trueLvl1[a]);
 
-  // 4) Merges removem o bane (efeito do fehbuilder)
+  // 5) Merges removem o bane
   if (merges > 0 && bane) {
     trueLvl1[bane] += 1;
     trueGrowth[bane] += 5;
   }
 
-  // 5) Ascendente: +1 lvl1 e +5 growth (não altera a ordem para merges)
+  // 6) Ascendente
   if (ascendent && (!boon || boon !== ascendent)) {
     trueLvl1[ascendent] += 1;
     trueGrowth[ascendent] += 5;
   }
 
-  // 6) Aplicar merges na ordem (regras idênticas ao Python)
+  // 7) Aplicar merges (mesmas regras do original)
   let idx = 0;
   for (let i = 0; i < merges; i++) {
     // primeiro stat
@@ -111,21 +95,21 @@ export function statcalc(
     }
     const asc3 = asc2 || (sortedKeys[idx] === ascendent);
 
-    // caso especial do Python: neutral + ascendente envolvido → +1 extra no próximo
+    // neutral + ascendente envolvido → +1 extra no próximo
     if (!boon && i === 0 && asc3) {
       const next = sortedKeys[(idx + 1) % 5];
       trueLvl1[next] += 1;
     }
   }
 
-  // 7) Flowers (+1 cíclico na mesma ordem)
+  // 8) Flowers (+1 cíclico na mesma ordem)
   idx = 0;
   for (let i = 0; i < flowers; i++) {
     trueLvl1[sortedKeys[idx]] += 1;
     idx = (idx === 4) ? 0 : idx + 1;
   }
 
-  // 8) Converter growth ajustado para ganho 1→40 com a tabela
+  // 9) Converter growth ajustado para ganho 1→40 com a tabela por raridade
   const finalStats: StatArray = [
     trueLvl1.HP  + gainFromGrowth(trueGrowth.HP,  rarity),
     trueLvl1.Atk + gainFromGrowth(trueGrowth.Atk, rarity),
@@ -174,12 +158,10 @@ export function computeSuperIVs(
   const superboon = new Set<number>();
   const superbane = new Set<number>();
 
-  // 1) Simulação exata (neutro x boon/bane) — independe de qualquer heurística.
+  // 1) Simulação exata (neutro x boon/bane)
   const neutral = statcalc(stats, growths, rarity, null, null, null, 0, 0);
   const simDeltaBoon: number[] = [];
   const simDeltaBane: number[] = [];
-
-  const KEYS = ["HP", "Atk", "Spd", "Def", "Res"] as const;
 
   for (let i = 0; i < 5; i++) {
     const key = KEYS[i];
@@ -193,13 +175,11 @@ export function computeSuperIVs(
   const row5 = generalgrowths[4]; // [8,10,13,15,17,19,22,24,26,28,30,33,35,37,39]
 
   const toPercent = (gRaw: number) => {
-    // Formato faixa (1..15) → %, senão assume que já está em % (25..90)
     const g = Number(gRaw);
     return g >= 1 && g <= 15 ? g * 5 : g;
   };
 
   const toIndex = (gPercent: number) => {
-    // j = int(g/5 - 4), clamp 0..14
     const j = Math.trunc(gPercent / 5 - 4);
     return Math.max(0, Math.min(14, j));
   };
@@ -208,15 +188,11 @@ export function computeSuperIVs(
     const gPct = toPercent(growths[i]);
     const j = toIndex(gPct);
 
-    // “salto de +3” para boon: row5[j+1] - row5[j] === 3
-    // borda: se g = 90%, tratamos como superboon (90 → 95 é super aos 5★)
     const boonHasStep3 =
       (j < 14 && row5[j + 1] - row5[j] === 3) || gPct === 90;
 
-    // “salto de +3” para bane: row5[j] - row5[j-1] === 3
     const baneHasStep3 = j > 0 && row5[j] - row5[j - 1] === 3;
 
-    // critério híbrido: se QUALQUER método indica super, marcamos super.
     if (simDeltaBoon[i] === 4 || boonHasStep3) superboon.add(i);
     if (simDeltaBane[i] === -4 || baneHasStep3) superbane.add(i);
   }

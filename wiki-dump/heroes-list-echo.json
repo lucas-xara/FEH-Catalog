@@ -57,7 +57,8 @@
         "Swordbreaker 2",
         "Swordbreaker 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -118,7 +119,8 @@
         "Threaten Res 1",
         "Threat. Def/Res 1",
         "Threat. Def/Res 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -183,7 +185,8 @@
         "Def Smoke 2",
         "Def Smoke 3",
         "Def/Res Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -242,7 +245,8 @@
         "Atk/Spd Oath 1",
         "Atk/Spd Oath 2",
         "Atk/Spd Oath 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -310,7 +314,8 @@
         "Atk/Spd Oath 2",
         "Atk/Spd Oath 3",
         "Atk/Spd Pledge"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -377,7 +382,8 @@
         "Spd Smoke 2",
         "Spd Smoke 3",
         "Spd Smoke 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -443,7 +449,8 @@
         "Green Feud 1",
         "Green Feud 2",
         "Green Feud 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -508,7 +515,8 @@
         "Atk/Spd Oath 2",
         "Atk/Spd Oath 3",
         "Atk/Spd Pledge"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -573,7 +581,8 @@
         "Odd Spd Wave 2",
         "Odd Spd Wave 3",
         "Odd Spd Wave 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -638,7 +647,8 @@
         "Even Res Wave 2",
         "Even Res Wave 3",
         "Even Res Wave D"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -706,7 +716,8 @@
         "Distant Guard 2",
         "Distant Guard 3",
         "Higher Ground"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -774,7 +785,8 @@
         "Even Res Wave 2",
         "Even Res Wave 3",
         "Even Res Wave D"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -837,7 +849,8 @@
         "Def/Res Oath 1",
         "Def/Res Oath 2",
         "Def/Res Oath 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -905,7 +918,8 @@
         "Breath of Life 2",
         "Breath of Life 3",
         "Breath of Life 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -965,7 +979,8 @@
         "Spur Atk 1",
         "Spur Atk 2",
         "Spur Atk 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -1025,7 +1040,8 @@
         "Def Smoke 1",
         "Def Smoke 2",
         "Def Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -1085,7 +1101,8 @@
         "Bold Fighter 2",
         "Bold Fighter 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -1148,7 +1165,8 @@
         "Spur Atk 2",
         "Spur Atk 3",
         "Cross Spur Atk"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -1208,7 +1226,8 @@
         "Windsweep 2",
         "Windsweep 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -1271,7 +1290,8 @@
         "Threat. Atk/Spd 1",
         "Threat. Atk/Spd 2",
         "Threat. Atk/Spd 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -1336,7 +1356,8 @@
         "Rouse Spd/Res 1",
         "Rouse Spd/Res 2",
         "Rouse Spd/Res 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -1404,6 +1425,9 @@
         "Time's Pulse 2",
         "Time's Pulse 3",
         "Pulse On: Blades"
+      ],
+      "X": [
+        "Lull Echo"
       ]
     }
   },
@@ -1474,7 +1498,8 @@
         "Time's Pulse 1",
         "Time's Pulse 2",
         "Time's Pulse 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -1534,7 +1559,8 @@
         "Brash Assault 2",
         "Brash Assault 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -1600,7 +1626,8 @@
         "Atk/Res Oath 1",
         "Atk/Res Oath 2",
         "Atk/Res Oath 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -1668,7 +1695,8 @@
         "Atk/Def Rein 2",
         "Atk/Def Rein 3",
         "Atk/Def Hold"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -1736,7 +1764,8 @@
         "Time's Pulse 2",
         "Time's Pulse 3",
         "Time's Pulse 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -1800,7 +1829,8 @@
         "A/S Far Save 1",
         "A/S Far Save 2",
         "A/S Far Save 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -1861,7 +1891,8 @@
         "Armor March 1",
         "Armor March 2",
         "Armor March 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -1927,7 +1958,8 @@
         "A/S Near Save 1",
         "A/S Near Save 2",
         "A/S Near Save 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -1987,7 +2019,8 @@
         "Spur Res 1",
         "Spur Res 2",
         "Spur Res 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -2053,7 +2086,8 @@
         "C Feud 1",
         "C Feud 2",
         "C Feud 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -2119,7 +2153,8 @@
         "Drive Spd 1",
         "Drive Spd 2",
         "Joint Drive Spd"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -2185,7 +2220,8 @@
         "Atk/Spd Rein 2",
         "Atk/Spd Rein 3",
         "A/S Rein Snap"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -2246,7 +2282,8 @@
         "Atk/Spd Gap 1",
         "Atk/Spd Gap 2",
         "Atk/Spd Gap 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -2308,7 +2345,8 @@
         "Guard Bearing 2",
         "Guard Bearing 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -2368,7 +2406,8 @@
         "Crafty Fighter 2",
         "Crafty Fighter 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -2429,7 +2468,8 @@
         "Atk/Def Gap 1",
         "Atk/Def Gap 2",
         "Atk/Def Gap 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -2488,7 +2528,8 @@
         "Spur Def 1",
         "Drive Def 1",
         "Drive Def 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -2548,7 +2589,8 @@
         "Seal Def/Res 1",
         "Seal Def/Res 2"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -2609,7 +2651,8 @@
         "Res Ploy 1",
         "Res Ploy 2",
         "Res Ploy 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -2669,7 +2712,8 @@
         "Wyvern Flight 2",
         "Wyvern Flight 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -2729,7 +2773,8 @@
         "Atk/Res Tempo 3",
         "Atk/Res Tempo 4"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -2791,7 +2836,8 @@
         "Threat. Spd/Res 1",
         "Threat. Spd/Res 2",
         "Spd/Res Menace"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -2851,7 +2897,8 @@
         "Lancebreaker 2",
         "Lancebreaker 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -2911,7 +2958,8 @@
         "D/R Far Save 1",
         "D/R Far Save 2",
         "D/R Far Save 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -2974,7 +3022,8 @@
         "Atk/Res Oath 2",
         "Atk/Res Oath 3",
         "Atk/Res Oath 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -3032,7 +3081,8 @@
         "Def Ploy 1",
         "Def Ploy 2",
         "Def Ploy 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -3097,7 +3147,8 @@
         "Spd/Res Oath 1",
         "Spd/Res Oath 2",
         "Spd/Res Oath 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -3158,7 +3209,8 @@
       ],
       "C": [
         "Opening Retainer"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -3226,7 +3278,8 @@
       "C": [
         "Opening Retainer",
         "Open Retainer+"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -3287,7 +3340,8 @@
         "Atk/Spd Rein 1",
         "Atk/Spd Rein 2",
         "Atk/Spd Rein 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -3355,7 +3409,8 @@
         "Odd Spd Wave 2",
         "Odd Spd Wave 3",
         "Odd Spd Wave 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -3421,7 +3476,8 @@
         "Hone Spd 2",
         "Hone Spd 3",
         "Joint Hone Spd"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -3486,7 +3542,8 @@
       "C": [
         "Order's Restraint",
         "Order's Restraint+"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -3546,7 +3603,8 @@
         "Even Atk Wave 1",
         "Even Atk Wave 2",
         "Even Atk Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -3609,7 +3667,8 @@
       ],
       "C": [
         "Opened Domain"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -3672,7 +3731,8 @@
       ],
       "C": [
         "Connected World"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -3735,7 +3795,8 @@
       ],
       "C": [
         "Opened Domain"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -3795,7 +3856,8 @@
         "Wrath 2",
         "Wrath 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -3857,7 +3919,8 @@
         "Atk/Def Ruse 2",
         "Atk/Def Ruse 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -3918,7 +3981,8 @@
         "Sword Exp. 1",
         "Sword Exp. 2",
         "Sword Exp. 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -3983,7 +4047,8 @@
         "Time's Pulse 2",
         "Time's Pulse 3",
         "Pulse Up: Ploy"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -4043,7 +4108,8 @@
         "Threaten Atk 1",
         "Threat. Atk/Def 1",
         "Threat. Atk/Def 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -4109,7 +4175,8 @@
         "Even Recovery 1",
         "Even Recovery 2",
         "Even Recovery 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -4169,7 +4236,8 @@
         "Odd Res Wave 1",
         "Odd Res Wave 2",
         "Odd Res Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -4230,7 +4298,8 @@
         "Desperation 2",
         "Desperation 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -4298,7 +4367,8 @@
         "Odd Tempest 2",
         "Odd Tempest 3",
         "Brutal Tempest"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -4365,7 +4435,8 @@
         "Red Feud 1",
         "Red Feud 2",
         "Red Feud 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -4425,7 +4496,8 @@
         "Threaten Atk 1",
         "Threaten Atk 2",
         "Threaten Atk 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -4492,7 +4564,8 @@
         "Hone Spd 2",
         "Hone Spd 3",
         "Joint Hone Spd"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -4551,7 +4624,8 @@
         "Hone Spd 1",
         "Hone Spd 2",
         "Hone Fliers"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -4617,7 +4691,8 @@
         "Spur Res 2",
         "Spur Res 3",
         "Cross Spur Res"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -4676,7 +4751,8 @@
         "Spur Res 1",
         "Drive Res 1",
         "Drive Res 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -4735,7 +4811,8 @@
         "Fortify Res 1",
         "Fortify Res 2",
         "Fortify Res 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -4802,6 +4879,9 @@
         "Spur Atk 2",
         "Spur Atk 3",
         "Cross Spur Atk"
+      ],
+      "X": [
+        "Mercy-Wing Echo"
       ]
     }
   },
@@ -4871,7 +4951,8 @@
         "Atk Tactic 1",
         "Atk Tactic 2",
         "Atk Tactic 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -4930,7 +5011,8 @@
         "Torrent Dance 2",
         "Torrent Dance 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -4995,7 +5077,8 @@
         "Atk/Spd Rein 2",
         "Atk/Spd Rein 3",
         "A/S Hold Guide"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -5060,7 +5143,8 @@
         "Savage Blow 2",
         "Savage Blow 3",
         "Deadly Miasma"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -5120,7 +5204,8 @@
         "Close Guard 1",
         "Close Guard 2",
         "Close Guard 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -5179,7 +5264,8 @@
         "Atk/Def Oath 1",
         "Atk/Def Oath 2",
         "Atk/Def Oath 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -5240,7 +5326,8 @@
         "Savage Blow 1",
         "Savage Blow 2",
         "Savage Blow 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -5298,7 +5385,8 @@
         "Spur Atk 1",
         "Spur Atk 2",
         "Spur Atk 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -5357,7 +5445,8 @@
         "Odd Atk Wave 1",
         "Odd Atk Wave 2",
         "Odd Atk Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -5417,7 +5506,8 @@
         "Brash Assault 2",
         "Brash Assault 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -5477,7 +5567,8 @@
         "Atk Tactic 1",
         "Atk Tactic 2",
         "Atk Tactic 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -5537,7 +5628,8 @@
         "Atk Ploy 1",
         "Atk Ploy 2",
         "Atk Ploy 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -5597,7 +5689,8 @@
         "Wary Fighter 2",
         "Wary Fighter 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -5656,7 +5749,8 @@
         "Distant Guard 1",
         "Distant Guard 2",
         "Distant Guard 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -5717,7 +5811,8 @@
         "Spur Res 1",
         "Spur Res 2",
         "Ward Cavalry"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -5778,7 +5873,8 @@
         "Odd Res Wave 1",
         "Odd Res Wave 2",
         "Odd Res Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -5842,7 +5938,8 @@
         "Close Guard 1",
         "Close Guard 2",
         "Close Guard 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -5907,7 +6004,8 @@
         "Rouse Atk/Spd 1",
         "Rouse Atk/Spd 2",
         "Rouse Atk/Spd 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -5974,7 +6072,8 @@
         "Def Smoke 2",
         "Def Smoke 3",
         "Def/Res Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -6039,7 +6138,8 @@
       ],
       "C": [
         "Paranoia"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -6099,7 +6199,8 @@
         "Rouse Atk/Def 1",
         "Rouse Atk/Def 2",
         "Rouse Atk/Def 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -6158,7 +6259,8 @@
       "B": [
         "Lunge"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -6224,7 +6326,8 @@
         "A/D Far Save 2",
         "A/D Far Save 3",
         "A/D Briar F Save"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -6285,7 +6388,8 @@
         "Wings of Mercy 2",
         "Wings of Mercy 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -6350,7 +6454,8 @@
         "D/R Far Save 1",
         "D/R Far Save 2",
         "D/R Far Save 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -6411,7 +6516,8 @@
         "Renewal 2",
         "Renewal 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -6471,7 +6577,8 @@
         "Vengeful Fighter 2",
         "Vengeful Fighter 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -6530,7 +6637,8 @@
         "Infantry Pulse 1",
         "Infantry Pulse 2",
         "Infantry Pulse 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -6594,7 +6702,8 @@
         "Infantry Rush 1",
         "Infantry Rush 2",
         "Infantry Rush 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -6661,7 +6770,8 @@
       "C": [
         "Impenetrable Dark",
         "Impenetrable Void"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -6721,7 +6831,8 @@
         "Atk Smoke 1",
         "Atk Smoke 2",
         "Atk Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -6785,6 +6896,9 @@
         "Time's Pulse 2",
         "Time's Pulse 3",
         "Creation Pulse"
+      ],
+      "X": [
+        "Tempo Echo"
       ]
     }
   },
@@ -6846,7 +6960,8 @@
         "Pulse Smoke 1",
         "Pulse Smoke 2",
         "Pulse Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -6906,7 +7021,8 @@
         "Res Smoke 1",
         "Res Smoke 2",
         "Res Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -6970,7 +7086,8 @@
         "Dazzling Staff 2",
         "Dazzling Staff 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -7030,7 +7147,8 @@
         "Red Feud 1",
         "Red Feud 2",
         "Red Feud 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -7089,7 +7207,8 @@
         "Threaten Res 1",
         "Threat. Atk/Res 1",
         "Threat. Atk/Res 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -7154,7 +7273,8 @@
         "Atk/Spd Oath 2",
         "Atk/Spd Oath 3",
         "Atk/Spd Faith"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -7220,7 +7340,8 @@
         "Ground Orders 1",
         "Ground Orders 2",
         "Ground Orders 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -7281,7 +7402,8 @@
         "Lull Spd/Res 2",
         "Lull Spd/Res 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -7348,7 +7470,8 @@
         "A/R Far Save 1",
         "A/R Far Save 2",
         "A/R Far Save 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -7414,7 +7537,8 @@
         "Even Atk Wave 1",
         "Even Atk Wave 2",
         "Even Atk Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -7481,7 +7605,8 @@
         "Spd/Res Rein 2",
         "Spd/Res Rein 3",
         "Spd/Res Hold"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -7544,7 +7669,8 @@
         "Odd Spd Wave 1",
         "Odd Spd Wave 2",
         "Odd Spd Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -7613,7 +7739,8 @@
       "C": [
         "Goddess Bearer",
         "Goddess Bearer II"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -7684,7 +7811,8 @@
         "Atk/Spd Oath 2",
         "Atk/Spd Oath 3",
         "Atk/Spd Oath 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -7750,7 +7878,8 @@
         "Time's Pulse 2",
         "Time's Pulse 3",
         "Time's Pulse 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -7816,7 +7945,8 @@
         "Atk/Spd Rein 2",
         "Atk/Spd Rein 3",
         "A/S Rein Snap"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -7878,6 +8008,9 @@
         "Def/Res Oath 2",
         "Def/Res Oath 3",
         "Def/Res Pledge"
+      ],
+      "X": [
+        "Guard Echo"
       ]
     }
   },
@@ -7939,7 +8072,8 @@
         "Hone Atk 2",
         "Hone Atk 3",
         "Joint Hone Atk"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -8004,7 +8138,8 @@
         "Panic Smoke 1",
         "Panic Smoke 2",
         "Panic Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -8064,7 +8199,8 @@
         "Hone Spd 1",
         "Hone Spd 2",
         "Hone Spd 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -8124,7 +8260,8 @@
         "Fortify Res 1",
         "Fortify Res 2",
         "Fortify Fliers"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -8186,7 +8323,8 @@
         "Atk/Spd Rein 2",
         "Atk/Spd Rein 3",
         "Atk/Spd Hold"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -8247,7 +8385,8 @@
         "Even Def Wave 1",
         "Even Def Wave 2",
         "Even Def Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -8308,7 +8447,8 @@
         "Threaten Atk 1",
         "Threaten Atk 2",
         "Threaten Atk 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -8373,7 +8513,8 @@
         "Distant Guard 1",
         "Distant Guard 2",
         "Distant Guard 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -8437,7 +8578,8 @@
         "Savage Blow 2",
         "Savage Blow 3",
         "Deadly Miasma"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -8498,7 +8640,8 @@
         "Savage Blow 1",
         "Savage Blow 2",
         "Savage Blow 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -8561,7 +8704,8 @@
         "Spur Atk 1",
         "Spur Atk 2",
         "Goad Fliers"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -8621,7 +8765,8 @@
         "Spur Def 1",
         "Spur Def 2",
         "Ward Fliers"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -8686,7 +8831,8 @@
         "Atk Tactic 1",
         "Atk Tactic 2",
         "Atk Tactic 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -8751,7 +8897,8 @@
         "Atk/Res Rein 2",
         "Atk/Res Rein 3",
         "Atk/Res Hold"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -8808,7 +8955,8 @@
       "B": [
         "Live for Bounty"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -8868,7 +9016,8 @@
         "Hone Atk 1",
         "Hone Atk 2",
         "Hone Fliers"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -8932,7 +9081,8 @@
         "Hone Atk 1",
         "Hone Atk 2",
         "Hone Fliers"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -8997,7 +9147,8 @@
         "Guidance 2",
         "Guidance 3",
         "Guidance 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -9055,7 +9206,8 @@
         "Spur Atk 1",
         "Spur Atk 2",
         "Goad Cavalry"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -9115,7 +9267,8 @@
         "Res Tactic 1",
         "Res Tactic 2",
         "Res Tactic 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -9175,7 +9328,8 @@
         "Def Ploy 1",
         "Def Ploy 2",
         "Def Ploy 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -9235,7 +9389,8 @@
         "Brash Assault 2",
         "Brash Assault 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -9294,7 +9449,8 @@
         "Even Atk Wave 1",
         "Even Atk Wave 2",
         "Even Atk Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -9354,7 +9510,8 @@
         "Threaten Def 1",
         "Threat. Atk/Def 1",
         "Threat. Atk/Def 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -9418,7 +9575,8 @@
         "Blue Feud 1",
         "Blue Feud 2",
         "Blue Feud 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -9477,7 +9635,8 @@
         "Spd/Res Link 2",
         "Spd/Res Link 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -9538,7 +9697,8 @@
         "Lull Spd/Def 2",
         "Lull Spd/Def 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -9603,7 +9763,8 @@
         "Spd/Def Rein 1",
         "Spd/Def Rein 2",
         "Spd/Def Rein 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -9664,7 +9825,8 @@
         "Seal Atk 2",
         "Seal Atk 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -9729,7 +9891,8 @@
         "Spd Tactic 1",
         "Spd Tactic 2",
         "Spd Tactic 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -9788,7 +9951,8 @@
         "Spur Spd 1",
         "Drive Spd 1",
         "Drive Spd 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -9848,7 +10012,8 @@
         "S/D Far Trace 2",
         "S/D Far Trace 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -9909,7 +10074,8 @@
         "Rouse Atk/Res 1",
         "Rouse Atk/Res 2",
         "Rouse Atk/Res 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -9969,7 +10135,8 @@
         "Escape Route 2",
         "Escape Route 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -10029,7 +10196,8 @@
         "Def Ploy 1",
         "Def Ploy 2",
         "Def Ploy 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -10089,7 +10257,8 @@
         "Pulse Smoke 1",
         "Pulse Smoke 2",
         "Pulse Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -10156,7 +10325,8 @@
         "Infantry Pulse 2",
         "Infantry Pulse 3",
         "Infantry Pulse 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -10216,7 +10386,8 @@
         "Spur Def 1",
         "Spur Def 2",
         "Spur Def 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -10276,7 +10447,8 @@
         "Hone Atk 1",
         "Hone Atk 2",
         "Hone Atk 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -10344,7 +10516,8 @@
         "Inf. Null Follow 2",
         "Inf. Null Follow 3",
         "Inf. Null Follow 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -10411,7 +10584,8 @@
         "Threat. Atk/Spd 1",
         "Threat. Atk/Spd 2",
         "Atk/Spd Menace"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -10476,7 +10650,8 @@
         "Hone Atk 2",
         "Hone Atk 3",
         "A/S Incite Hone"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -10539,7 +10714,8 @@
         "Inf. Null Follow 1",
         "Inf. Null Follow 2",
         "Inf. Null Follow 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -10603,7 +10779,8 @@
         "Atk Tactic 1",
         "Atk Tactic 2",
         "Atk Tactic 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -10663,7 +10840,8 @@
         "Wary Fighter 2",
         "Wary Fighter 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -10723,7 +10901,8 @@
         "Spd Smoke 1",
         "Spd Smoke 2",
         "Spd Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -10782,7 +10961,8 @@
         "Threaten Atk 1",
         "Threaten Atk 2",
         "Threaten Atk 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -10847,7 +11027,8 @@
         "Time's Pulse 1",
         "Time's Pulse 2",
         "Time's Pulse 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -10908,7 +11089,8 @@
         "Atk/Def Rein 2",
         "Atk/Def Rein 3",
         "Atk/Def Hold"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -10968,7 +11150,8 @@
         "Fortify Def 1",
         "Fortify Def 2",
         "Fortify Def 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -11028,7 +11211,8 @@
         "Pegasus Flight 3",
         "Pegasus Flight 4"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -11095,7 +11279,8 @@
         "Spd/Res Rein 2",
         "Spd/Res Rein 3",
         "Spd/Res Crux"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -11161,7 +11346,8 @@
         "Blue Feud 1",
         "Blue Feud 2",
         "Blue Feud 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -11222,7 +11408,8 @@
         "Spur Def 1",
         "Spur Def 2",
         "Spur Def 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -11285,7 +11472,8 @@
         "Time's Pulse 1",
         "Time's Pulse 2",
         "Time's Pulse 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -11351,7 +11539,8 @@
         "Spd Tactic 2",
         "Spd Tactic 3",
         "Inf. Spd Tactic"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -11422,7 +11611,8 @@
         "Spd Tactic 2",
         "Spd Tactic 3",
         "Inf. Spd Tactic"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -11481,7 +11671,8 @@
         "Wary Fighter 2",
         "Wary Fighter 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -11546,7 +11737,8 @@
         "Sword Valor 1",
         "Sword Valor 2",
         "Sword Valor 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -11605,7 +11797,8 @@
         "Axe Experience 1",
         "Axe Experience 2",
         "Axe Experience 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -11665,7 +11858,8 @@
         "Spd/Def Bulwark 2",
         "Spd/Def Bulwark 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -11727,7 +11921,8 @@
         "Atk/Res Oath 2",
         "Atk/Res Oath 3",
         "Atk/Res Oath 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -11785,7 +11980,8 @@
         "Spur Spd 1",
         "Spur Spd 2",
         "Spur Spd 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -11845,7 +12041,8 @@
         "Spd/Def Tempo 2",
         "Spd/Def Tempo 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -11905,7 +12102,8 @@
         "Resistance +3"
       ],
       "B": [],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -11966,7 +12164,8 @@
         "Threaten Def 1",
         "Threaten Def 2",
         "Threaten Def 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -12031,7 +12230,8 @@
         "Atk/Spd Rein 1",
         "Atk/Spd Rein 2",
         "Atk/Spd Rein 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -12096,7 +12296,8 @@
         "Hone Spd 2",
         "Hone Spd 3",
         "A/S Incite Hone"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -12161,7 +12362,8 @@
         "Atk/Spd Oath 2",
         "Atk/Spd Oath 3",
         "Atk/Spd Oath 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -12229,7 +12431,8 @@
         "Guidance 2",
         "Guidance 3",
         "Guidance 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -12289,7 +12492,8 @@
         "Def Smoke 1",
         "Def Smoke 2",
         "Def Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -12347,7 +12551,8 @@
         "Spd/Def Rein 1",
         "Spd/Def Rein 2",
         "Spd/Def Rein 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -12407,7 +12612,8 @@
         "Chill Atk/Spd 1",
         "Chill Atk/Spd 2"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -12466,7 +12672,8 @@
       "B": [
         "Hit and Run"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -12528,7 +12735,8 @@
         "Atk/Res Link 2",
         "Atk/Res Link 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -12589,7 +12797,8 @@
         "Chill Atk 2",
         "Chill Atk 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -12648,7 +12857,8 @@
         "Wings of Mercy 2",
         "Wings of Mercy 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -12713,7 +12923,8 @@
         "Spd/Res Rein 1",
         "Spd/Res Rein 2",
         "Spd/Res Rein 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -12772,7 +12983,8 @@
         "Dull Close 2",
         "Dull Close 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -12834,7 +13046,8 @@
         "Pass 2",
         "Pass 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -12894,7 +13107,8 @@
         "Breath of Life 1",
         "Breath of Life 2",
         "Breath of Life 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -12961,7 +13175,8 @@
         "Def/Res Rein 2",
         "Def/Res Rein 3",
         "Def/Res Hold"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -13022,7 +13237,8 @@
         "Def Opening 1",
         "Def Opening 2",
         "Def Opening 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -13085,7 +13301,8 @@
         "Sabotage Def 2",
         "Sabotage Def 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -13150,7 +13367,8 @@
         "Rouse Spd/Def 1",
         "Rouse Spd/Def 2",
         "Rouse Spd/Def 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -13210,7 +13428,8 @@
         "Dragon's Ire 3",
         "Dragon's Ire 4"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -13278,7 +13497,8 @@
         "Res Ploy 2",
         "Res Ploy 3",
         "Atk/Res Ploy 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -13347,7 +13567,8 @@
         "Drive Atk 1",
         "Drive Atk 2",
         "Joint Drive Atk"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -13407,7 +13628,8 @@
         "Special Spiral 2",
         "Special Spiral 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -13471,7 +13693,8 @@
         "Hone Spd 1",
         "Hone Spd 2",
         "Hone Dragons"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -13535,7 +13758,8 @@
         "Fortify Def 1",
         "Fortify Def 2",
         "Fortify Dragons"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -13595,7 +13819,8 @@
         "Spur Def 1",
         "Spur Def/Res 1",
         "Spur Def/Res 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -13655,7 +13880,8 @@
         "Obstruct 2",
         "Obstruct 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -13716,7 +13942,8 @@
         "Hone Atk 1",
         "Hone Atk 2",
         "Hone Atk 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -13783,7 +14010,8 @@
         "Drive Atk 1",
         "Drive Atk 2",
         "Joint Drive Atk"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -13843,7 +14071,8 @@
         "Fortify Res 1",
         "Fortify Res 2",
         "Fortify Fliers"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -13907,7 +14136,8 @@
         "A/S Far Save 1",
         "A/S Far Save 2",
         "A/S Far Save 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -13975,7 +14205,8 @@
         "Drive Atk 1",
         "Drive Atk 2",
         "Joint Drive Atk"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -14035,7 +14266,8 @@
         "Sudden Panic 2",
         "Sudden Panic 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -14103,7 +14335,8 @@
         "Close Guard 2",
         "Close Guard 3",
         "Lower Ground"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -14163,7 +14396,8 @@
         "Spur Atk 1",
         "Drive Atk 1",
         "Drive Atk 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -14223,7 +14457,8 @@
         "Threaten Spd 1",
         "Threat. Spd/Def 1",
         "Threat. Spd/Def 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -14285,7 +14520,8 @@
         "Spd/Res Rein 1",
         "Spd/Res Rein 2",
         "Spd/Res Rein 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -14346,7 +14582,8 @@
         "Canto Control 1",
         "Canto Control 2",
         "Canto Control 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -14408,7 +14645,8 @@
         "Spd Ploy 2",
         "Spd Ploy 3",
         "Spd/Res Ploy 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -14468,7 +14706,8 @@
         "Atk/Def Oath 1",
         "Atk/Def Oath 2",
         "Atk/Def Oath 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -14532,7 +14771,8 @@
         "Rouse Atk/Spd 2",
         "Rouse Atk/Spd 3",
         "Alarm Atk/Spd"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -14595,7 +14835,8 @@
         "Atk/Def Rein 1",
         "Atk/Def Rein 2",
         "Atk/Def Rein 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -14663,7 +14904,8 @@
         "Even Tempest 1",
         "Even Tempest 2",
         "Even Tempest 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -14727,7 +14969,8 @@
         "Canto Control 2",
         "Canto Control 3",
         "Firm Canto Curb"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -14786,7 +15029,8 @@
         "Odd Def Wave 1",
         "Odd Def Wave 2",
         "Odd Def Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -14846,7 +15090,8 @@
         "Close Guard 1",
         "Close Guard 2",
         "Close Guard 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -14911,7 +15156,8 @@
       ],
       "C": [
         "For the True King"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -14973,7 +15219,8 @@
         "A/D Near Save 1",
         "A/D Near Save 2",
         "A/D Near Save 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -15033,7 +15280,8 @@
         "Even Def Wave 1",
         "Even Def Wave 2",
         "Even Def Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -15092,7 +15340,8 @@
         "Odd Spd Wave 1",
         "Odd Spd Wave 2",
         "Odd Spd Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -15164,7 +15413,8 @@
         "Threat. Atk/Res 1",
         "Threat. Atk/Res 2",
         "Atk/Res Menace"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -15223,7 +15473,8 @@
         "Spd Ploy 1",
         "Spd Ploy 2",
         "Spd Ploy 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -15282,7 +15533,8 @@
         "Spur Atk 1",
         "Drive Atk 1",
         "Drive Atk 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -15348,7 +15600,8 @@
         "Rouse Atk/Spd 2",
         "Rouse Atk/Spd 3",
         "Rouse Atk/Spd 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -15408,7 +15661,8 @@
         "Even Atk Wave 1",
         "Even Atk Wave 2",
         "Even Atk Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -15468,7 +15722,8 @@
         "Atk/Spd Gap 1",
         "Atk/Spd Gap 2",
         "Atk/Spd Gap 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -15529,7 +15784,8 @@
         "Slick Fighter 2",
         "Slick Fighter 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -15597,7 +15853,8 @@
         "Even Tempest 2",
         "Even Tempest 3",
         "Endless Tempest"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -15663,7 +15920,8 @@
         "Time's Pulse 2",
         "Time's Pulse 3",
         "Time's Pulse 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -15729,7 +15987,8 @@
         "Threat. Atk/Def 1",
         "Threat. Atk/Def 2",
         "Threat. Atk/Def 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -15794,7 +16053,8 @@
         "Panic Smoke 2",
         "Panic Smoke 3",
         "Panic Smoke 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -15858,7 +16118,8 @@
         "Hone Atk 2",
         "Hone Atk 3",
         "Joint Hone Atk"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -15921,7 +16182,8 @@
         "Odd Tempest 1",
         "Odd Tempest 2",
         "Odd Tempest 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -15989,7 +16251,8 @@
         "Odd Tempest 1",
         "Odd Tempest 2",
         "Odd Tempest 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -16053,7 +16316,8 @@
         "Threat. Spd/Def 1",
         "Threat. Spd/Def 2",
         "Spd/Def Menace"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -16118,7 +16382,8 @@
         "Shadow Shift 2",
         "Shadow Shift 3",
         "Shadow Shift 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -16179,7 +16444,8 @@
         "Lull Atk/Def 2",
         "Lull Atk/Def 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -16238,7 +16504,8 @@
         "Chill Def/Res 1",
         "Chill Def/Res 2"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -16296,7 +16563,8 @@
       "B": [
         "Drag Back"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -16355,7 +16623,8 @@
         "Wary Fighter 2",
         "Wary Fighter 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -16419,7 +16688,8 @@
         "Infantry Pulse 1",
         "Infantry Pulse 2",
         "Infantry Pulse 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -16478,7 +16748,8 @@
         "Inf. Null Follow 1",
         "Inf. Null Follow 2",
         "Inf. Null Follow 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -16538,7 +16809,8 @@
         "Hone Atk 2",
         "Hone Atk 3",
         "Hone Atk 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -16602,7 +16874,8 @@
         "Atk/Spd Rein 1",
         "Atk/Spd Rein 2",
         "Atk/Spd Rein 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -16662,7 +16935,8 @@
         "Spd Tactic 2",
         "Spd Tactic 3",
         "Inf. Spd Tactic"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -16721,7 +16995,8 @@
         "Atk/Res Oath 1",
         "Atk/Res Oath 2",
         "Atk/Res Oath 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -16782,7 +17057,8 @@
         "Armor March 1",
         "Armor March 2",
         "Armor March 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -16841,7 +17117,8 @@
         "Spur Def 1",
         "Spur Def 2",
         "Ward Armor"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -16906,7 +17183,8 @@
         "Rouse Def/Res 1",
         "Rouse Def/Res 2",
         "Rouse Def/Res 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -16973,7 +17251,8 @@
       "C": [
         "Upheaval",
         "Upheaval+"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -17034,7 +17313,8 @@
       ],
       "C": [
         "Woeful Upheaval"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -17098,7 +17378,8 @@
         "Spd Tactic 1",
         "Spd Tactic 2",
         "Spd Tactic 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -17159,7 +17440,8 @@
         "Spd/Res Oath 1",
         "Spd/Res Oath 2",
         "Spd/Res Oath 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -17220,7 +17502,8 @@
         "Spur Atk 1",
         "Drive Atk 1",
         "Drive Atk 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -17291,7 +17574,8 @@
         "Infantry Pulse 2",
         "Infantry Pulse 3",
         "Infantry Pulse 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -17356,7 +17640,8 @@
         "Assault Troop 2",
         "Assault Troop 3",
         "Assault Rush"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -17417,7 +17702,8 @@
         "Drive Res 1",
         "Drive Res 2",
         "Joint Drive Res"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -17484,7 +17770,8 @@
         "Armored Stride 1",
         "Armored Stride 2",
         "Armored Stride 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -17547,7 +17834,8 @@
         "Armored Stride 1",
         "Armored Stride 2",
         "Armored Stride 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -17612,7 +17900,8 @@
         "Def Ploy 2",
         "Def Ploy 3",
         "Def/Res Ploy 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -17675,7 +17964,8 @@
         "Assault Troop 1",
         "Assault Troop 2",
         "Assault Troop 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -17739,7 +18029,8 @@
         "Rouse Atk/Def 1",
         "Rouse Atk/Def 2",
         "Rouse Atk/Def 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -17802,7 +18093,8 @@
         "Breath of Life 2",
         "Breath of Life 3",
         "Breath of Life 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -17862,7 +18154,8 @@
         "Wary Fighter 2",
         "Wary Fighter 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -17921,7 +18214,8 @@
         "Infantry Flash 1",
         "Infantry Flash 2",
         "Infantry Flash 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -17980,7 +18274,8 @@
         "Breath of Life 1",
         "Breath of Life 2",
         "Breath of Life 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -18039,7 +18334,8 @@
       "B": [
         "Divine Brawn"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -18104,7 +18400,8 @@
         "Threaten Def 2",
         "Threaten Def 3",
         "Beast Threaten"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -18175,7 +18472,8 @@
         "A/D Far Save 2",
         "A/D Far Save 3",
         "A/D Briar P Save"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -18239,7 +18537,8 @@
       ],
       "C": [
         "Sparkling Boost"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -18306,7 +18605,8 @@
       "C": [
         "Sparkling Boost",
         "Sparkling Boost+"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -18365,7 +18665,8 @@
         "Spd Tactic 1",
         "Spd Tactic 2",
         "Spd Tactic 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -18429,7 +18730,8 @@
         "R Tome Exp. 1",
         "R Tome Exp. 2",
         "R Tome Exp. 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -18493,7 +18795,8 @@
         "Atk/Spd Oath 2",
         "Atk/Spd Oath 3",
         "Atk/Spd Oath 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -18557,7 +18860,8 @@
         "Atk Opening 1",
         "Atk Opening 2",
         "Atk Opening 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -18621,7 +18925,8 @@
         "Odd Def Wave 1",
         "Odd Def Wave 2",
         "Odd Def Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -18689,7 +18994,8 @@
         "Hone Spd 2",
         "Hone Spd 3",
         "A/S Incite Hone"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -18753,7 +19059,8 @@
         "Threat. Atk/Spd 1",
         "Threat. Atk/Spd 2",
         "Atk/Spd Menace"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -18816,6 +19123,9 @@
         "Time's Pulse 2",
         "Time's Pulse 3",
         "Time's Pulse 4"
+      ],
+      "X": [
+        "Null C-Disrupt E"
       ]
     }
   },
@@ -18873,7 +19183,8 @@
         "Hone Spd 1",
         "Hone Spd 2",
         "Hone Spd 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -18936,7 +19247,8 @@
         "Drive Spd 1",
         "Drive Spd 2",
         "Joint Drive Spd"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -19000,7 +19312,8 @@
         "Rouse Atk/Spd 2",
         "Rouse Atk/Spd 3",
         "Alarm Atk/Spd"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -19060,7 +19373,8 @@
         "Beast Agility 3",
         "Bestial Agility"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -19128,7 +19442,8 @@
         "Savage Blow 2",
         "Savage Blow 3",
         "Deadly Miasma"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -19186,7 +19501,8 @@
       "B": [
         "Lunge"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -19245,7 +19561,8 @@
         "Def Opening 1",
         "Def Opening 2",
         "Def Opening 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -19307,7 +19624,8 @@
         "Spd/Def Ruse 2",
         "Spd/Def Ruse 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -19368,7 +19686,8 @@
         "Inf. Null Follow 2",
         "Inf. Null Follow 3",
         "Inf. Null Follow 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -19432,7 +19751,8 @@
         "Atk/Res Gap 1",
         "Atk/Res Gap 2",
         "Atk/Res Gap 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -19500,7 +19820,8 @@
       "C": [
         "Holy Ground",
         "Holy Ground+"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -19571,7 +19892,8 @@
         "Spd/Res Rein 2",
         "Spd/Res Rein 3",
         "Spd/Res Hold"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -19634,7 +19956,8 @@
         "Spur Res 1",
         "Drive Res 1",
         "Drive Res 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -19693,7 +20016,8 @@
         "Flier Formation 2",
         "Flier Formation 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -19752,7 +20076,8 @@
         "Atk/Spd Link 2",
         "Atk/Spd Link 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -19816,7 +20141,8 @@
       ],
       "C": [
         "Heart of Crimea"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -19881,7 +20207,8 @@
         "Dagger Valor 1",
         "Dagger Valor 2",
         "Dagger Valor 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -19942,7 +20269,8 @@
         "Live to Serve 2",
         "Live to Serve 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -20007,7 +20335,8 @@
         "Even Recovery 1",
         "Even Recovery 2",
         "Even Recovery 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -20077,7 +20406,8 @@
         "Odd Recovery 1",
         "Odd Recovery 2",
         "Odd Recovery 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -20137,7 +20467,8 @@
         "G Tome Valor 1",
         "G Tome Valor 2",
         "G Tome Valor 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -20205,7 +20536,8 @@
       "C": [
         "Vision of Arcadia",
         "Vision of Arcadia II"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -20265,7 +20597,8 @@
         "Spur Atk 1",
         "Spur Atk 2",
         "Goad Armor"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -20325,7 +20658,8 @@
         "Spur Res 1",
         "Spur Res 2",
         "Ward Cavalry"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -20391,7 +20725,8 @@
         "Spd Opening 1",
         "Spd Opening 2",
         "Spd Opening 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -20454,7 +20789,8 @@
       ],
       "C": [
         "Inborn Idealism"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -20514,7 +20850,8 @@
         "C Feud 1",
         "C Feud 2",
         "C Feud 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -20579,7 +20916,8 @@
         "C Feud 2",
         "C Feud 3",
         "Preempt Screech"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -20643,7 +20981,8 @@
       ],
       "C": [
         "Absolute Closure"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -20708,7 +21047,8 @@
       "C": [
         "Severance",
         "Severance+"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -20772,7 +21112,8 @@
         "Res Opening 1",
         "Res Opening 2",
         "Res Opening 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -20838,7 +21179,8 @@
         "Atk/Res Oath 2",
         "Atk/Res Oath 3",
         "Atk/Res Oath 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -20897,7 +21239,8 @@
         "Spur Res 1",
         "Spur Res 2",
         "Ward Dragons"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -20961,7 +21304,8 @@
         "A/D Near Save 1",
         "A/D Near Save 2",
         "A/D Near Save 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -21026,7 +21370,8 @@
         "Odd Atk Wave 1",
         "Odd Atk Wave 2",
         "Odd Atk Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -21093,7 +21438,8 @@
         "Fortify Def 1",
         "Fortify Def 2",
         "Fortify Def 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -21153,7 +21499,8 @@
         "Threaten Def 1",
         "Threaten Def 2",
         "Threaten Def 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -21217,7 +21564,8 @@
         "Armor March 1",
         "Armor March 2",
         "Armor March 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -21281,7 +21629,8 @@
         "Close Guard 1",
         "Close Guard 2",
         "Close Guard 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -21345,7 +21694,8 @@
         "Rouse Atk/Def 2",
         "Rouse Atk/Def 3",
         "Alarm Atk/Def"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -21409,7 +21759,8 @@
         "Distant Guard 1",
         "Distant Guard 2",
         "Distant Guard 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -21474,7 +21825,8 @@
         "Atk/Def Rein 1",
         "Atk/Def Rein 2",
         "Atk/Def Rein 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -21535,7 +21887,8 @@
         "Spd Opening 1",
         "Spd Opening 2",
         "Spd Opening 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -21595,7 +21948,8 @@
         "Seal Spd 2",
         "Seal Spd 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -21660,7 +22014,8 @@
         "Hone Atk 1",
         "Hone Atk 2",
         "Hone Fliers"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -21721,7 +22076,8 @@
         "Flow Feather 2",
         "Flow Feather 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -21785,7 +22141,8 @@
         "Drive Spd 1",
         "Drive Spd 2",
         "Joint Drive Spd"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -21849,7 +22206,8 @@
         "Live to Serve 2",
         "Live to Serve 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -21909,7 +22267,8 @@
         "Atk/Def Gap 1",
         "Atk/Def Gap 2",
         "Atk/Def Gap 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -21970,7 +22329,8 @@
         "Sabotage Spd 2",
         "Sabotage Spd 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -22033,7 +22393,8 @@
         "Atk Ploy 1",
         "Atk Ploy 2",
         "Atk Ploy 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -22094,7 +22455,8 @@
         "Chill Atk 2",
         "Chill Atk 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -22160,7 +22522,8 @@
         "Threat. Def/Res 1",
         "Threat. Def/Res 2",
         "Def/Res Menace"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -22220,7 +22583,8 @@
         "Threaten Atk 1",
         "Threaten Atk 2",
         "Threaten Atk 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -22284,7 +22648,8 @@
         "Armor March 1",
         "Armor March 2",
         "Armor March 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -22344,7 +22709,8 @@
         "Infantry Pulse 1",
         "Infantry Pulse 2",
         "Infantry Pulse 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -22408,7 +22774,8 @@
         "Atk/Def Rein 1",
         "Atk/Def Rein 2",
         "Atk/Def Rein 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -22469,7 +22836,8 @@
         "Bow Exp. 1",
         "Bow Exp. 2",
         "Bow Exp. 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -22534,7 +22902,8 @@
         "Armor March 1",
         "Armor March 2",
         "Armor March 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -22596,7 +22965,8 @@
         "Null Follow-Up 3",
         "Phys. Null Follow"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -22655,7 +23025,8 @@
         "Spur Spd 1",
         "Drive Spd 1",
         "Drive Spd 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -22722,7 +23093,8 @@
         "Odd Spd Wave 2",
         "Odd Spd Wave 3",
         "Odd Spd Wave 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -22783,7 +23155,8 @@
         "Breath of Life 1",
         "Breath of Life 2",
         "Breath of Life 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -22847,7 +23220,8 @@
         "Close Guard 1",
         "Close Guard 2",
         "Close Guard 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -22907,7 +23281,8 @@
         "Dull Ranged 2",
         "Dull Ranged 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -22974,7 +23349,8 @@
         "Spd Smoke 2",
         "Spd Smoke 3",
         "Spd Smoke 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -23039,7 +23415,8 @@
         "Odd Tempest 2",
         "Odd Tempest 3",
         "Tempest Burst"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -23104,7 +23481,8 @@
         "Odd Tempest 2",
         "Odd Tempest 3",
         "Endless Tempest"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -23165,7 +23543,8 @@
         "Spd/Res Rein 1",
         "Spd/Res Rein 2",
         "Spd/Res Rein 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -23225,7 +23604,8 @@
         "Rouse Spd/Def 1",
         "Rouse Spd/Def 2",
         "Rouse Spd/Def 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -23285,7 +23665,8 @@
         "Threaten Def 1",
         "Threat. Atk/Def 1",
         "Threat. Atk/Def 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -23344,7 +23725,8 @@
         "Spd/Def Snag 2",
         "Spd/Def Snag 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -23404,7 +23786,8 @@
         "Spur Atk 1",
         "Spur Atk 2",
         "Goad Cavalry"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -23465,7 +23848,8 @@
         "Pegasus Flight 2",
         "Pegasus Flight 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -23524,7 +23908,8 @@
         "Atk Smoke 1",
         "Atk Smoke 2",
         "Atk Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -23584,7 +23969,8 @@
         "Air Orders 1",
         "Air Orders 2",
         "Air Orders 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -23645,7 +24031,8 @@
         "Pass 2",
         "Pass 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -23712,7 +24099,8 @@
         "Atk/Spd Oath 2",
         "Atk/Spd Oath 3",
         "Atk/Spd Oath 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -23776,7 +24164,8 @@
         "Ground Orders 1",
         "Ground Orders 2",
         "Ground Orders 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -23843,7 +24232,8 @@
         "A/S Far Save 1",
         "A/S Far Save 2",
         "A/S Far Save 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -23909,7 +24299,8 @@
         "A/R Far Save 1",
         "A/R Far Save 2",
         "A/R Far Save 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -23972,7 +24363,8 @@
         "Even Res Wave 1",
         "Even Res Wave 2",
         "Even Res Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -24043,7 +24435,8 @@
         "Spur Atk 1",
         "Drive Atk 1",
         "Drive Atk 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -24111,7 +24504,8 @@
         "Time's Pulse 2",
         "Time's Pulse 3",
         "Time's Pulse 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -24172,7 +24566,8 @@
         "Wary Fighter 2",
         "Wary Fighter 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -24232,7 +24627,8 @@
         "Rouse Atk/Spd 1",
         "Rouse Atk/Spd 2",
         "Rouse Atk/Spd 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -24293,7 +24689,8 @@
         "Red Feud 1",
         "Red Feud 2",
         "Red Feud 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -24358,7 +24755,8 @@
         "Ground Orders 1",
         "Ground Orders 2",
         "Ground Orders 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -24424,7 +24822,8 @@
         "Dazzling Staff 3",
         "Dazzle Far Trace"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -24488,7 +24887,8 @@
         "Def Ploy 1",
         "Def Ploy 2",
         "Def Ploy 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -24548,7 +24948,8 @@
         "Disarm Trap 2",
         "Disarm Trap 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -24612,7 +25013,8 @@
         "Armor March 1",
         "Armor March 2",
         "Armor March 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -24678,7 +25080,8 @@
         "Drive Spd 1",
         "Drive Spd 2",
         "Joint Drive Spd"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -24738,7 +25141,8 @@
         "Breath of Life 1",
         "Breath of Life 2",
         "Breath of Life 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -24800,7 +25204,8 @@
         "S/D Far Trace 3",
         "S/D Far Trace 4"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -24860,7 +25265,8 @@
         "Pulse Smoke 1",
         "Pulse Smoke 2",
         "Pulse Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -24924,7 +25330,8 @@
         "A/D Far Save 2",
         "A/D Far Save 3",
         "A/D Briar F Save"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -24986,7 +25393,8 @@
         "A/D Far Save 1",
         "A/D Far Save 2",
         "A/D Far Save 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -25048,7 +25456,8 @@
         "S/D Near Trace 3",
         "S/D Near Trace 4"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -25112,7 +25521,8 @@
         "Res Ploy 1",
         "Res Ploy 2",
         "Res Ploy 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -25177,7 +25587,8 @@
         "Fortify Def 2",
         "Fortify Def 3",
         "Joint Hone Def"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -25244,7 +25655,8 @@
         "Infantry Pulse 2",
         "Infantry Pulse 3",
         "Infantry Pulse 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -25303,7 +25715,8 @@
         "Seal Atk/Spd 1",
         "Seal Atk/Spd 2"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -25364,7 +25777,8 @@
         "Fortify Def 1",
         "Fortify Def 2",
         "Fortify Def 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -25424,7 +25838,8 @@
         "Close Guard 1",
         "Close Guard 2",
         "Close Guard 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -25487,7 +25902,8 @@
         "Fatal Smoke 1",
         "Fatal Smoke 2",
         "Fatal Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -25555,7 +25971,8 @@
         "Spd Smoke 2",
         "Spd Smoke 3",
         "Spd Smoke 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -25619,7 +26036,8 @@
       ],
       "C": [
         "Dream Deliverer"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -25680,7 +26098,8 @@
         "Lull Atk/Def 2",
         "Lull Atk/Def 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -25740,7 +26159,8 @@
         "Threaten Atk 1",
         "Threat. Atk/Def 1",
         "Threat. Atk/Def 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -25806,7 +26226,8 @@
         "Rouse Atk/Def 2",
         "Rouse Atk/Def 3",
         "Rouse Atk/Def 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -25866,7 +26287,8 @@
         "Rouse Atk/Spd 1",
         "Rouse Atk/Spd 2",
         "Rouse Atk/Spd 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -25926,7 +26348,8 @@
         "Pass 2",
         "Pass 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -25986,7 +26409,8 @@
         "Def Ploy 1",
         "Def Ploy 2",
         "Def Ploy 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -26047,7 +26471,8 @@
         "Odd Atk Wave 1",
         "Odd Atk Wave 2",
         "Odd Atk Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -26108,7 +26533,8 @@
         "Null Follow-Up 2",
         "Null Follow-Up 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -26173,7 +26599,8 @@
         "Distant Guard 2",
         "Distant Guard 3",
         "Joint Dist. Guard"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -26233,7 +26660,8 @@
         "Panic Ploy 1",
         "Panic Ploy 2",
         "Panic Ploy 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -26293,7 +26721,8 @@
         "Panic Ploy 1",
         "Panic Ploy 2",
         "Panic Ploy 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -26355,7 +26784,8 @@
         "Drive Def 1",
         "Drive Def 2",
         "Joint Drive Def"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -26417,7 +26847,8 @@
         "Crafty Fighter 2",
         "Crafty Fighter 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -26476,7 +26907,8 @@
         "Infantry Pulse 1",
         "Infantry Pulse 2",
         "Infantry Pulse 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -26542,7 +26974,8 @@
         "Def Opening 1",
         "Def Opening 2",
         "Def Opening 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -26603,7 +27036,8 @@
         "Wrathful Staff 2",
         "Wrathful Staff 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -26664,7 +27098,8 @@
         "Threat. Atk/Def 1",
         "Threat. Atk/Def 2",
         "Atk/Def Menace"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -26730,7 +27165,8 @@
         "Infantry Pulse 1",
         "Infantry Pulse 2",
         "Infantry Pulse 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -26789,7 +27225,8 @@
       "B": [
         "Hit and Run"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -26849,7 +27286,8 @@
         "Chill Atk 2",
         "Chill Atk 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -26915,7 +27353,8 @@
         "A/D Near Save 1",
         "A/D Near Save 2",
         "A/D Near Save 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -26980,7 +27419,8 @@
         "Fatal Smoke 2",
         "Fatal Smoke 3",
         "Fatal Smoke 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -27040,7 +27480,8 @@
         "Flier Guidance 1",
         "Flier Guidance 2",
         "Flier Guidance 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -27108,7 +27549,8 @@
         "Even Atk Wave 2",
         "Even Atk Wave 3",
         "Even Atk Wave N"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -27168,7 +27610,8 @@
         "Threaten Atk 1",
         "Threat. Atk/Spd 1",
         "Threat. Atk/Spd 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -27228,7 +27671,8 @@
         "Vantage 2",
         "Vantage 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -27292,7 +27736,8 @@
         "Time's Pulse 2",
         "Time's Pulse 3",
         "Pulse Up: Ploy"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -27356,7 +27801,8 @@
         "Distant Guard 2",
         "Distant Guard 3",
         "Joint Dist. Guard"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -27416,7 +27862,8 @@
         "Sword Valor 1",
         "Sword Valor 2",
         "Sword Valor 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -27477,7 +27924,8 @@
         "Inf. Null Follow 1",
         "Inf. Null Follow 2",
         "Inf. Null Follow 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -27543,7 +27991,8 @@
         "Armor March 1",
         "Armor March 2",
         "Armor March 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -27611,7 +28060,8 @@
         "A/R Near Save 2",
         "A/R Near Save 3",
         "A/R Briar N Save"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -27671,7 +28121,8 @@
         "Slick Fighter 2",
         "Slick Fighter 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -27731,7 +28182,8 @@
         "Atk/Res Tempo 2",
         "Atk/Res Tempo 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -27797,7 +28249,8 @@
         "Drive Res 1",
         "Drive Res 2",
         "Joint Drive Res"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -27861,7 +28314,8 @@
       ],
       "C": [
         "Bern's New Way"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -27929,7 +28383,8 @@
         "Odd Spd Wave 2",
         "Odd Spd Wave 3",
         "Odd Spd Wave 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -27997,7 +28452,8 @@
         "Res Smoke 2",
         "Res Smoke 3",
         "Def/Res Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -28061,7 +28517,8 @@
         "Atk/Spd Oath 2",
         "Atk/Spd Oath 3",
         "Atk/Spd Oath 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -28122,7 +28579,8 @@
         "Disarm Trap 2",
         "Disarm Trap 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -28189,7 +28647,8 @@
         "Res Ploy 1",
         "Res Ploy 2",
         "Res Ploy 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -28254,7 +28713,8 @@
         "Hone Spd 2",
         "Hone Spd 3",
         "Joint Hone Spd"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -28314,7 +28774,8 @@
         "Hone Atk 1",
         "Hone Atk 2",
         "Hone Cavalry"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -28379,7 +28840,8 @@
         "D/R Near Save 1",
         "D/R Near Save 2",
         "D/R Near Save 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -28445,7 +28907,8 @@
         "Atk Smoke 2",
         "Atk Smoke 3",
         "Atk Smoke 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -28505,7 +28968,8 @@
         "Threaten Spd 1",
         "Threat. Spd/Def 1",
         "Threat. Spd/Def 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -28564,7 +29028,8 @@
         "Hone Atk 1",
         "Hone Atk 2",
         "Hone Armor"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -28624,7 +29089,8 @@
         "Odd Def Wave 1",
         "Odd Def Wave 2",
         "Odd Def Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -28683,7 +29149,8 @@
         "Atk/Def Oath 1",
         "Atk/Def Oath 2",
         "Atk/Def Oath 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -28743,7 +29210,8 @@
         "Wrath 2",
         "Wrath 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -28803,7 +29271,8 @@
         "Obstruct 2",
         "Obstruct 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -28863,7 +29332,8 @@
         "Armored Stride 1",
         "Armored Stride 2",
         "Armored Stride 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -28923,7 +29393,8 @@
         "Rouse Atk/Spd 1",
         "Rouse Atk/Spd 2",
         "Rouse Atk/Spd 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -28984,7 +29455,8 @@
         "A/R Far Trace 2",
         "A/R Far Trace 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -29051,7 +29523,8 @@
         "Spd/Res Rein 2",
         "Spd/Res Rein 3",
         "Spd/Res Crux"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -29111,7 +29584,8 @@
         "Bold Fighter 2",
         "Bold Fighter 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -29172,7 +29646,8 @@
         "A/S Near Trace 2",
         "A/S Near Trace 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -29234,7 +29709,8 @@
         "Brash Assault 3",
         "Brash Assault 4"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -29295,7 +29771,8 @@
         "Threaten Atk 1",
         "Threaten Atk 2",
         "Threaten Atk 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -29355,7 +29832,8 @@
         "Panic Ploy 1",
         "Panic Ploy 2",
         "Panic Ploy 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -29415,7 +29893,8 @@
         "Windsweep 2",
         "Windsweep 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -29476,7 +29955,8 @@
         "Escape Route 2",
         "Escape Route 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -29536,7 +30016,8 @@
         "Pulse Smoke 1",
         "Pulse Smoke 2",
         "Pulse Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -29599,7 +30080,8 @@
         "Spd/Def Ruse 3",
         "Spd/Def Ruse 4"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -29661,7 +30143,8 @@
         "Even Res Wave 1",
         "Even Res Wave 2",
         "Even Res Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -29723,7 +30206,8 @@
         "Hone Atk 1",
         "Hone Atk 2",
         "Hone Armor"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -29781,7 +30265,8 @@
         "Spur Atk 1",
         "Spur Atk 2",
         "Goad Armor"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -29839,7 +30324,8 @@
         "Wary Fighter 2",
         "Wary Fighter 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -29903,7 +30389,8 @@
       "C": [
         "Ostia's Pulse",
         "Ostia's Pulse II"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -29968,6 +30455,9 @@
         "A/D Far Save 2",
         "A/D Far Save 3",
         "A/D Twin F Save"
+      ],
+      "X": [
+        "D Counter Echo"
       ]
     }
   },
@@ -30032,7 +30522,8 @@
         "D/R Far Save 1",
         "D/R Far Save 2",
         "D/R Far Save 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -30100,7 +30591,8 @@
         "Panic Smoke 2",
         "Panic Smoke 3",
         "Panic Smoke 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -30164,7 +30656,8 @@
       ],
       "C": [
         "Divine Nectar"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -30229,7 +30722,8 @@
       ],
       "C": [
         "Sweet Nectar"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -30293,7 +30787,8 @@
       ],
       "C": [
         "Nectar's Magic"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -30355,7 +30850,8 @@
       "C": [
         "Inevitable Death",
         "Inevitable Death+"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -30419,7 +30915,8 @@
         "Infantry Pulse 1",
         "Infantry Pulse 2",
         "Infantry Pulse 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -30480,7 +30977,8 @@
         "Panic Ploy 1",
         "Panic Ploy 2",
         "Panic Ploy 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -30545,7 +31043,8 @@
         "A/R Far Save 1",
         "A/R Far Save 2",
         "A/R Far Save 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -30603,7 +31102,8 @@
         "Armor March 1",
         "Armor March 2",
         "Armor March 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -30664,7 +31164,8 @@
         "Atk/Def Ruse 2",
         "Atk/Def Ruse 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -30725,7 +31226,8 @@
         "G Tomebreaker 2",
         "G Tomebreaker 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -30785,7 +31287,8 @@
         "Res Ploy 1",
         "Res Ploy 2",
         "Res Ploy 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -30850,7 +31353,8 @@
         "Even Recovery 1",
         "Even Recovery 2",
         "Even Recovery 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -30916,7 +31420,8 @@
         "Drive Spd 1",
         "Drive Spd 2",
         "Joint Drive Spd"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -30975,7 +31480,8 @@
         "Even Follow-Up 2",
         "Even Follow-Up 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -31039,7 +31545,8 @@
         "Def Opening 1",
         "Def Opening 2",
         "Def Opening 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -31099,7 +31606,8 @@
         "Rouse Atk/Res 1",
         "Rouse Atk/Res 2",
         "Rouse Atk/Res 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -31158,7 +31666,8 @@
         "Close Guard 1",
         "Close Guard 2",
         "Close Guard 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -31219,7 +31728,8 @@
         "Brash Assault 2",
         "Brash Assault 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -31283,7 +31793,8 @@
         "Flier Guidance 1",
         "Flier Guidance 2",
         "Flier Guidance 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -31348,7 +31859,8 @@
         "Def/Res Rein 1",
         "Def/Res Rein 2",
         "Def/Res Rein 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -31411,7 +31923,8 @@
         "Air Orders 1",
         "Air Orders 2",
         "Air Orders 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -31476,7 +31989,8 @@
       ],
       "C": [
         "Rallying Cry"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -31537,7 +32051,8 @@
         "Hone Spd 1",
         "Hone Spd 2",
         "Hone Fliers"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -31597,7 +32112,8 @@
         "Atk/Spd Oath 1",
         "Atk/Spd Oath 2",
         "Atk/Spd Oath 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -31656,7 +32172,8 @@
         "Spd/Res Oath 1",
         "Spd/Res Oath 2",
         "Spd/Res Oath 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -31724,7 +32241,8 @@
       ],
       "C": [
         "Glittering Anima"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -31792,7 +32310,8 @@
       ],
       "C": [
         "Twinkling Anima"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -31857,7 +32376,8 @@
       ],
       "C": [
         "Divine Talon"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -31922,7 +32442,8 @@
       ],
       "C": [
         "Divine Talon"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -31987,7 +32508,8 @@
         "Atk Smoke 1",
         "Atk Smoke 2",
         "Atk Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -32046,7 +32568,8 @@
         "Odd Def Wave 2",
         "Odd Def Wave 3",
         "Odd Def Wave 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -32110,7 +32633,8 @@
         "Hone Atk 2",
         "Hone Atk 3",
         "Hone Atk 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -32170,7 +32694,8 @@
         "Panic Ploy 1",
         "Panic Ploy 2",
         "Panic Ploy 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -32231,7 +32756,8 @@
         "Inf. Hexblade 1",
         "Inf. Hexblade 2",
         "Inf. Hexblade 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -32293,7 +32819,8 @@
         "Rouse Atk/Spd 2",
         "Rouse Atk/Spd 3",
         "Rouse Atk/Spd 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -32358,7 +32885,8 @@
       ],
       "C": [
         "Truth Keeper"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -32418,7 +32946,8 @@
         "Atk Opening 1",
         "Atk Opening 2",
         "Atk Opening 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -32483,7 +33012,8 @@
         "Spur Def 1",
         "Spur Def 2",
         "Ward Dragons"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -32548,7 +33078,8 @@
         "D/R Near Save 1",
         "D/R Near Save 2",
         "D/R Near Save 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -32613,7 +33144,8 @@
         "Spur Atk 1",
         "Spur Atk 2",
         "Goad Dragons"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -32673,7 +33205,8 @@
         "Def Tactic 1",
         "Def Tactic 2",
         "Def Tactic 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -32738,7 +33271,8 @@
         "Pulse Smoke 1",
         "Pulse Smoke 2",
         "Pulse Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -32799,7 +33333,8 @@
         "Spd/Def Rein 1",
         "Spd/Def Rein 2",
         "Spd/Def Rein 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -32866,7 +33401,8 @@
         "Time's Pulse 2",
         "Time's Pulse 3",
         "Pulse Up: Blades"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -32929,7 +33465,8 @@
         "Threaten Def 1",
         "Threaten Def 2",
         "Threaten Def 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -32994,7 +33531,8 @@
         "Drive Atk 1",
         "Drive Atk 2",
         "Joint Drive Atk"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -33060,7 +33598,8 @@
         "Time's Pulse 2",
         "Time's Pulse 3",
         "Time Pulse Edge"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -33127,7 +33666,8 @@
         "Canto Control 1",
         "Canto Control 2",
         "Canto Control 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -33190,7 +33730,8 @@
         "Even Spd Wave 1",
         "Even Spd Wave 2",
         "Even Spd Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -33260,7 +33801,8 @@
         "Def Tactic 1",
         "Def Tactic 2",
         "Def Tactic 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -33321,7 +33863,8 @@
         "Swordbreaker 2",
         "Swordbreaker 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -33386,7 +33929,8 @@
         "Atk/Spd Oath 1",
         "Atk/Spd Oath 2",
         "Atk/Spd Oath 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -33446,7 +33990,8 @@
         "Atk/Res Gap 1",
         "Atk/Res Gap 2",
         "Atk/Res Gap 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -33507,7 +34052,8 @@
         "Res Ploy 1",
         "Res Ploy 2",
         "Res Ploy 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -33567,7 +34113,8 @@
         "Atk/Res Gap 1",
         "Atk/Res Gap 2",
         "Atk/Res Gap 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -33631,7 +34178,8 @@
         "Spd/Def Rein 2",
         "Spd/Def Rein 3",
         "Spd/Def Hold"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -33700,7 +34248,8 @@
         "Hone Spd 2",
         "Hone Spd 3",
         "A/S Outcry Dull"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -33765,7 +34314,8 @@
         "Rouse Atk/Spd 1",
         "Rouse Atk/Spd 2",
         "Rouse Atk/Spd 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -33830,7 +34380,8 @@
         "Odd Spd Wave 1",
         "Odd Spd Wave 2",
         "Odd Spd Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -33892,7 +34443,8 @@
         "Atk/Spd Rein 1",
         "Atk/Spd Rein 2",
         "Atk/Spd Rein 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -33952,7 +34504,8 @@
         "Wrath 2",
         "Wrath 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -34011,7 +34564,8 @@
         "Hone Atk 1",
         "Hone Atk 2",
         "Hone Atk 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -34071,7 +34625,8 @@
         "Spur Atk 1",
         "Spur Atk 2",
         "Goad Fliers"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -34131,7 +34686,8 @@
         "Distant Guard 1",
         "Distant Guard 2",
         "Distant Guard 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -34191,7 +34747,8 @@
         "Null Follow-Up 2",
         "Null Follow-Up 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -34251,7 +34808,8 @@
         "Cancel Affinity 2",
         "Cancel Affinity 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -34312,7 +34870,8 @@
         "Atk/Def Snag 3",
         "Atk/Def Snag 4"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -34377,7 +34936,8 @@
         "Time's Pulse 1",
         "Time's Pulse 2",
         "Time's Pulse 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -34441,7 +35001,8 @@
         "Odd Atk Wave 1",
         "Odd Atk Wave 2",
         "Odd Atk Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -34505,7 +35066,8 @@
         "Air Orders 1",
         "Air Orders 2",
         "Air Orders 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -34567,7 +35129,8 @@
         "Spur Def 1",
         "Drive Def 1",
         "Drive Def 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -34631,6 +35194,9 @@
         "Savage Blow 2",
         "Savage Blow 3",
         "Deadly Miasma"
+      ],
+      "X": [
+        "Soaring Echo"
       ]
     }
   },
@@ -34698,7 +35264,8 @@
         "Flier Guidance 2",
         "Flier Guidance 3",
         "Soaring Guidance"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -34758,7 +35325,8 @@
         "Threaten Spd 1",
         "Threaten Spd 2",
         "Threaten Spd 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -34817,7 +35385,8 @@
         "Spur Spd 1",
         "Spur Spd 2",
         "Goad Armor"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -34878,7 +35447,8 @@
         "Fortify Res 1",
         "Fortify Res 2",
         "Fortify Cavalry"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -34938,7 +35508,8 @@
         "Wary Fighter 2",
         "Wary Fighter 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -34998,7 +35569,8 @@
         "Renewal 2",
         "Renewal 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -35059,7 +35631,8 @@
         "Cancel Affinity 2",
         "Cancel Affinity 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -35119,7 +35692,8 @@
         "Pulse Smoke 1",
         "Pulse Smoke 2",
         "Pulse Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -35179,7 +35753,8 @@
         "Poison Strike 2",
         "Poison Strike 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -35239,7 +35814,8 @@
         "Spur Spd 1",
         "Spur Spd 2",
         "Spur Spd 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -35299,7 +35875,8 @@
         "Distant Guard 1",
         "Distant Guard 2",
         "Distant Guard 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -35359,7 +35936,8 @@
         "Repel 2",
         "Repel 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -35424,7 +36002,8 @@
         "Spd/Def Rein 1",
         "Spd/Def Rein 2",
         "Spd/Def Rein 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -35484,7 +36063,8 @@
         "Atk Opening 1",
         "Atk Opening 2",
         "Atk Opening 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -35549,7 +36129,8 @@
         "Green Feud 1",
         "Green Feud 2",
         "Green Feud 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -35609,7 +36190,8 @@
         "Windsweep 2",
         "Windsweep 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -35669,7 +36251,8 @@
         "Fortify Def 2",
         "Fortify Def 3",
         "Fortify Def 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -35734,7 +36317,8 @@
         "Time's Pulse 2",
         "Time's Pulse 3",
         "Time Pulse Helm"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -35802,7 +36386,8 @@
         "Threat. Atk/Res 1",
         "Threat. Atk/Res 2",
         "Atk/Res Menace"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -35865,7 +36450,8 @@
         "Panic Smoke 1",
         "Panic Smoke 2",
         "Panic Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -35925,7 +36511,8 @@
         "Breath of Life 1",
         "Breath of Life 2",
         "Breath of Life 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -35985,7 +36572,8 @@
       "B": [
         "Light and Dark"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -36044,7 +36632,8 @@
         "Lull Atk/Spd 2",
         "Lull Atk/Spd 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -36104,7 +36693,8 @@
         "Atk Ploy 1",
         "Atk Ploy 2",
         "Atk Ploy 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -36166,7 +36756,8 @@
         "Atk/Def Oath 2",
         "Atk/Def Oath 3",
         "Atk/Def Oath 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -36225,7 +36816,8 @@
         "Aerobatics 2",
         "Aerobatics 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -36284,7 +36876,8 @@
         "Spur Atk 1",
         "Spur Atk 2",
         "Goad Beasts"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -36343,7 +36936,8 @@
         "Even Spd Wave 1",
         "Even Spd Wave 2",
         "Even Spd Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -36407,7 +37001,8 @@
         "Even Atk Wave 1",
         "Even Atk Wave 2",
         "Even Atk Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -36474,7 +37069,8 @@
         "C Feud 1",
         "C Feud 2",
         "C Feud 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -36535,7 +37131,8 @@
         "Daggerbreaker 2",
         "Daggerbreaker 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -36597,7 +37194,8 @@
         "Spur Atk 1",
         "Spur Atk 2",
         "Goad Fliers"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -36657,7 +37255,8 @@
         "Null Follow-Up 2",
         "Null Follow-Up 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -36717,7 +37316,8 @@
         "Atk/Def Oath 1",
         "Atk/Def Oath 2",
         "Atk/Def Oath 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -36778,7 +37378,8 @@
         "Spur Atk 1",
         "Spur Atk 2",
         "Goad Dragons"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -36839,7 +37440,8 @@
         "Fortify Def 1",
         "Fortify Def 2",
         "Fortify Dragons"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -36899,7 +37501,8 @@
         "Dragon Wall 2",
         "Dragon Wall 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -36959,7 +37562,8 @@
         "Spur Res 1",
         "Drive Res 1",
         "Drive Res 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -37020,7 +37624,8 @@
         "Desperation 2",
         "Desperation 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -37080,7 +37685,8 @@
         "Spur Atk 1",
         "Drive Atk 1",
         "Drive Atk 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -37146,7 +37752,8 @@
         "Spd Smoke 2",
         "Spd Smoke 3",
         "Spd Smoke 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -37206,7 +37813,8 @@
         "Odd Tempest 1",
         "Odd Tempest 2",
         "Odd Tempest 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -37266,7 +37874,8 @@
         "Even Spd Wave 1",
         "Even Spd Wave 2",
         "Even Spd Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -37331,7 +37940,8 @@
         "Atk/Res Rein 1",
         "Atk/Res Rein 2",
         "Atk/Res Rein 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -37392,7 +38002,8 @@
         "Atk Ploy 1",
         "Atk Ploy 2",
         "Atk Ploy 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -37453,7 +38064,8 @@
         "Atk Smoke 1",
         "Atk Smoke 2",
         "Atk Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -37513,7 +38125,8 @@
         "Beast Valor 1",
         "Beast Valor 2",
         "Beast Valor 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -37572,7 +38185,8 @@
         "Atk/Def Link 2",
         "Atk/Def Link 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -37632,7 +38246,8 @@
         "Vengeful Fighter 2",
         "Vengeful Fighter 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -37692,7 +38307,8 @@
         "Savage Blow 1",
         "Savage Blow 2",
         "Savage Blow 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -37751,7 +38367,8 @@
         "Spd/Def Snag 2",
         "Spd/Def Snag 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -37811,7 +38428,8 @@
         "Spur Spd 1",
         "Drive Spd 1",
         "Drive Spd 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -37871,7 +38489,8 @@
         "Lull Atk/Res 2",
         "Lull Atk/Res 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -37932,7 +38551,8 @@
         "Bold Fighter 2",
         "Bold Fighter 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -37993,7 +38613,8 @@
         "Quick Riposte 2",
         "Quick Riposte 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -38058,7 +38679,8 @@
         "Fortify Res 1",
         "Fortify Res 2",
         "Fortify Res 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -38119,7 +38741,8 @@
         "Spd Ploy 1",
         "Spd Ploy 2",
         "Spd Ploy 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -38179,7 +38802,8 @@
         "Chill Atk 2",
         "Chill Atk 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -38244,7 +38868,8 @@
         "Drive Atk 1",
         "Drive Atk 2",
         "Joint Drive Atk"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -38309,7 +38934,8 @@
         "Rouse Spd/Res 1",
         "Rouse Spd/Res 2",
         "Rouse Spd/Res 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -38369,7 +38995,8 @@
         "Distant Guard 1",
         "Distant Guard 2",
         "Distant Guard 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -38429,7 +39056,8 @@
         "Dragon Exp. 1",
         "Dragon Exp. 2",
         "Dragon Exp. 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -38497,7 +39125,8 @@
         "Rouse Atk/Spd 2",
         "Rouse Atk/Spd 3",
         "Incite Atk/Spd"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -38565,7 +39194,8 @@
         "Inf. Null Follow 2",
         "Inf. Null Follow 3",
         "Inf. Null Follow 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -38624,7 +39254,8 @@
         "Atk/Def Snag 2",
         "Atk/Def Snag 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -38684,7 +39315,8 @@
         "Atk/Def Oath 1",
         "Atk/Def Oath 2",
         "Atk/Def Oath 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -38745,7 +39377,8 @@
         "Spd/Res Ruse 2",
         "Spd/Res Ruse 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -38805,7 +39438,8 @@
         "Res Tactic 1",
         "Res Tactic 2",
         "Res Tactic 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -38871,7 +39505,8 @@
         "S/R Far Trace 2",
         "S/R Far Trace 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -38937,7 +39572,8 @@
         "Wrathful Staff 2",
         "Wrathful Staff 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -38996,7 +39632,8 @@
         "Air Orders 1",
         "Air Orders 2",
         "Air Orders 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -39056,7 +39693,8 @@
         "Spur Res 1",
         "Spur Res 2",
         "Spur Res 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -39120,7 +39758,8 @@
         "Hone Spd 1",
         "Hone Spd 2",
         "Hone Fliers"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -39187,7 +39826,8 @@
         "Atk Smoke 2",
         "Atk Smoke 3",
         "Atk Smoke 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -39253,7 +39893,8 @@
         "Rouse Atk/Spd 2",
         "Rouse Atk/Spd 3",
         "Rouse Atk/Spd 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -39312,7 +39953,8 @@
         "Def Tactic 1",
         "Def Tactic 2",
         "Def Tactic 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -39376,7 +40018,8 @@
         "Distant Guard 1",
         "Distant Guard 2",
         "Distant Guard 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -39440,7 +40083,8 @@
         "Odd Atk Wave 1",
         "Odd Atk Wave 2",
         "Odd Atk Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -39506,7 +40150,8 @@
         "Even Def Wave 1",
         "Even Def Wave 2",
         "Even Def Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -39567,7 +40212,8 @@
         "Atk/Def Rein 1",
         "Atk/Def Rein 2",
         "Atk/Def Rein 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -39630,7 +40276,8 @@
         "Odd Spd Wave 1",
         "Odd Spd Wave 2",
         "Odd Spd Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -39695,7 +40342,8 @@
         "Spd/Res Rein 1",
         "Spd/Res Rein 2",
         "Spd/Res Rein 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -39763,7 +40411,8 @@
         "Even Tempest 2",
         "Even Tempest 3",
         "Pulse Tempest F"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -39830,7 +40479,8 @@
         "Panic Smoke 2",
         "Panic Smoke 3",
         "Panic Smoke 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -39890,7 +40540,8 @@
         "Spd/Def Oath 1",
         "Spd/Def Oath 2",
         "Spd/Def Oath 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -39949,7 +40600,8 @@
         "Atk Smoke 1",
         "Atk Smoke 2",
         "Atk Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -40017,7 +40669,8 @@
         "Odd Tempest 2",
         "Odd Tempest 3",
         "Brutal Tempest"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -40082,7 +40735,8 @@
         "Panic Smoke 1",
         "Panic Smoke 2",
         "Panic Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -40149,7 +40803,8 @@
         "Drive Atk 1",
         "Drive Atk 2",
         "Joint Drive Atk"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -40208,7 +40863,8 @@
         "Guidance 1",
         "Guidance 2",
         "Guidance 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -40267,7 +40923,8 @@
         "Spd/Res Gap 1",
         "Spd/Res Gap 2",
         "Spd/Res Gap 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -40328,7 +40985,8 @@
         "Hone Spd 1",
         "Hone Spd 2",
         "Hone Spd 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -40388,7 +41046,8 @@
         "Rouse Atk/Res 1",
         "Rouse Atk/Res 2",
         "Rouse Atk/Res 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -40451,7 +41110,8 @@
         "Hone Spd 1",
         "Hone Spd 2",
         "Hone Beasts"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -40512,7 +41172,8 @@
         "Atk Tactic 1",
         "Atk Tactic 2",
         "Atk Tactic 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -40573,7 +41234,8 @@
         "Obstruct 2",
         "Obstruct 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -40637,7 +41299,8 @@
         "Pulse Smoke 1",
         "Pulse Smoke 2",
         "Pulse Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -40699,7 +41362,8 @@
         "Spur Atk 1",
         "Drive Atk 1",
         "Drive Atk 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -40767,6 +41431,9 @@
         "Shadow Shift 2",
         "Shadow Shift 3",
         "Shadow Shift 4"
+      ],
+      "X": [
+        "Sly Echo"
       ]
     }
   },
@@ -40836,7 +41503,8 @@
         "Drive Atk 1",
         "Drive Atk 2",
         "Joint Drive Atk"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -40898,7 +41566,8 @@
         "Res Smoke 2",
         "Res Smoke 3",
         "Def/Res Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -40964,7 +41633,8 @@
         "Atk Smoke 1",
         "Atk Smoke 2",
         "Atk Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -41029,7 +41699,8 @@
         "Lookout 2",
         "Lookout 3",
         "Lookout Force"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -41100,7 +41771,8 @@
         "Time's Pulse 2",
         "Time's Pulse 3",
         "Pulse Up: Ploy"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -41164,7 +41836,8 @@
         "Atk Ploy 1",
         "Atk Ploy 2",
         "Atk Ploy 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -41223,7 +41896,8 @@
         "Sword Valor 1",
         "Sword Valor 2",
         "Sword Valor 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -41292,7 +41966,8 @@
         "Fortify Res 2",
         "Fortify Res 3",
         "A/R Incite Hone"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -41352,7 +42027,8 @@
         "Quick Riposte 2",
         "Quick Riposte 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -41412,7 +42088,8 @@
         "Fatal Smoke 1",
         "Fatal Smoke 2",
         "Fatal Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -41472,7 +42149,8 @@
         "Atk Ploy 1",
         "Atk Ploy 2",
         "Atk Ploy 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -41533,7 +42211,8 @@
         "A/D Far Trace 2",
         "A/D Far Trace 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -41593,7 +42272,8 @@
         "Savage Blow 1",
         "Savage Blow 2",
         "Savage Blow 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -41654,7 +42334,8 @@
         "Guard 2",
         "Guard 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -41714,7 +42395,8 @@
         "Guard 2",
         "Guard 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -41773,7 +42455,8 @@
         "Spd/Def Link 2",
         "Spd/Def Link 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -41833,7 +42516,8 @@
         "S/D Near Trace 2",
         "S/D Near Trace 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -41893,7 +42577,8 @@
         "Hone Atk 1",
         "Hone Atk 2",
         "Hone Beasts"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -41953,7 +42638,8 @@
         "Lull Spd/Def 2",
         "Lull Spd/Def 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -42019,7 +42705,8 @@
         "Rouse Atk/Res 2",
         "Rouse Atk/Res 3",
         "Rouse Atk/Res 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -42083,7 +42770,8 @@
         "Odd Atk Wave 1",
         "Odd Atk Wave 2",
         "Odd Atk Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -42143,7 +42831,8 @@
         "Infantry Flash 1",
         "Infantry Flash 2",
         "Infantry Flash 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -42202,7 +42891,8 @@
         "Axe Experience 1",
         "Axe Experience 2",
         "Axe Experience 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -42263,7 +42953,8 @@
         "Spur Res 1",
         "Spur Atk/Res 1",
         "Spur Atk/Res 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -42322,7 +43013,8 @@
         "Windsweep 2",
         "Windsweep 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -42387,7 +43079,8 @@
         "Atk Opening 1",
         "Atk Opening 2",
         "Atk Opening 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -42454,7 +43147,8 @@
         "Distant Guard 2",
         "Distant Guard 3",
         "Joint Dist. Guard"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -42514,7 +43208,8 @@
         "Atk Tactic 1",
         "Atk Tactic 2",
         "Atk Tactic 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -42582,7 +43277,8 @@
         "Res Ploy 2",
         "Res Ploy 3",
         "Atk/Res Ploy 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -42643,7 +43339,8 @@
         "Spur Atk 1",
         "Spur Atk 2",
         "Spur Atk 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -42711,7 +43408,8 @@
         "Pulse Smoke 1",
         "Pulse Smoke 2",
         "Pulse Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -42775,7 +43473,8 @@
         "Drive Atk 1",
         "Drive Atk 2",
         "Joint Drive Atk"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -42841,7 +43540,8 @@
         "Spd Smoke 2",
         "Spd Smoke 3",
         "Spd Smoke 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -42901,7 +43601,8 @@
         "Sabotage Atk 2",
         "Sabotage Atk 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -42967,7 +43668,8 @@
         "Res Smoke 2",
         "Res Smoke 3",
         "Def/Res Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -43026,7 +43728,8 @@
         "Fortify Res 1",
         "Fortify Res 2",
         "Fortify Res 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -43085,7 +43788,8 @@
         "Cancel Affinity 2",
         "Cancel Affinity 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -43149,7 +43853,8 @@
         "Distant Guard 1",
         "Distant Guard 2",
         "Distant Guard 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -43209,7 +43914,8 @@
         "Sabotage Def 2",
         "Sabotage Def 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -43274,7 +43980,8 @@
         "Spur Spd 1",
         "Drive Spd 1",
         "Drive Spd 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -43335,7 +44042,8 @@
         "Spur Def 1",
         "Drive Def 1",
         "Drive Def 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -43395,7 +44103,8 @@
         "Panic Smoke 1",
         "Panic Smoke 2",
         "Panic Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -43455,7 +44164,8 @@
         "Time's Pulse 1",
         "Time's Pulse 2",
         "Time's Pulse 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -43515,7 +44225,8 @@
         "Fortify Def 1",
         "Fortify Def 2",
         "Fortify Armor"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -43575,7 +44286,8 @@
         "Renewal 2",
         "Renewal 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -43639,7 +44351,8 @@
         "Res Opening 1",
         "Res Opening 2",
         "Res Opening 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -43699,7 +44412,8 @@
         "Repel 2",
         "Repel 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -43759,7 +44473,8 @@
         "Threaten Atk 1",
         "Threaten Atk 2",
         "Threaten Atk 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -43819,7 +44534,8 @@
         "Spur Atk 1",
         "Spur Atk 2",
         "Goad Fliers"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -43884,7 +44600,8 @@
         "Odd Atk Wave 1",
         "Odd Atk Wave 2",
         "Odd Atk Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -43952,7 +44669,8 @@
       ],
       "C": [
         "Divine Deceit"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -44013,7 +44731,8 @@
         "Vantage 2",
         "Vantage 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -44073,7 +44792,8 @@
         "Spurn 2",
         "Spurn 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -44132,7 +44852,8 @@
         "Even Res Wave 1",
         "Even Res Wave 2",
         "Even Res Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -44191,7 +44912,8 @@
         "Hone Spd 1",
         "Hone Spd 2",
         "Hone Cavalry"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -44254,7 +44976,8 @@
         "Atk/Spd Oath 1",
         "Atk/Spd Oath 2",
         "Atk/Spd Oath 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -44317,7 +45040,8 @@
         "Canto Control 2",
         "Canto Control 3",
         "Firm Canto Curb"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -44383,7 +45107,8 @@
         "Even Tempest 1",
         "Even Tempest 2",
         "Even Tempest 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -44444,7 +45169,8 @@
         "Spur Spd 1",
         "Drive Spd 1",
         "Drive Spd 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -44511,7 +45237,8 @@
         "Rouse Def/Res 2",
         "Rouse Def/Res 3",
         "Alarm Def/Res"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -44576,7 +45303,8 @@
         "A/D Near Save 1",
         "A/D Near Save 2",
         "A/D Near Save 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -44637,7 +45365,8 @@
         "Spur Atk 1",
         "Spur Atk 2",
         "Spur Atk 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -44703,7 +45432,8 @@
         "Distant Guard 1",
         "Distant Guard 2",
         "Distant Guard 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -44774,7 +45504,8 @@
         "Shadow Shift 2",
         "Shadow Shift 3",
         "Shadow Shift 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -44833,7 +45564,8 @@
         "Seal Res 2",
         "Seal Res 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -44896,7 +45628,8 @@
         "Distant Guard 1",
         "Distant Guard 2",
         "Distant Guard 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -44956,7 +45689,8 @@
         "HP +5"
       ],
       "B": [],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -45016,7 +45750,8 @@
         "Vengeful Fighter 2",
         "Vengeful Fighter 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -45078,7 +45813,8 @@
         "Atk Feint 2",
         "Atk Feint 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -45137,7 +45873,8 @@
         "Wary Fighter 2",
         "Wary Fighter 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -45198,7 +45935,8 @@
         "Obstruct 2",
         "Obstruct 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -45259,7 +45997,8 @@
         "Panic Ploy 1",
         "Panic Ploy 2",
         "Panic Ploy 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -45323,7 +46062,8 @@
       ],
       "C": [
         "Corrupted Dragon"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -45383,7 +46123,8 @@
         "Null Follow-Up 2",
         "Null Follow-Up 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -45448,7 +46189,8 @@
       ],
       "C": [
         "Dragon Monarch"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -45508,7 +46250,8 @@
         "Res Ploy 1",
         "Res Ploy 2",
         "Res Ploy 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -45567,7 +46310,8 @@
         "Spd Tactic 1",
         "Spd Tactic 2",
         "Spd Tactic 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -45628,7 +46372,8 @@
         "Guard 2",
         "Guard 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -45687,7 +46432,8 @@
         "Atk/Def Snag 2",
         "Atk/Def Snag 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -45751,7 +46497,8 @@
         "Spd Smoke 2",
         "Spd Smoke 3",
         "Spd Smoke 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -45813,7 +46560,8 @@
         "Atk Smoke 1",
         "Atk Smoke 2",
         "Atk Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -45873,7 +46621,8 @@
         "Dazzling Staff 2",
         "Dazzling Staff 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -45937,7 +46686,8 @@
         "Distant Guard 1",
         "Distant Guard 2",
         "Distant Guard 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -45998,7 +46748,8 @@
         "Spur Spd 1",
         "Spur Spd 2",
         "Spur Spd 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -46065,7 +46816,8 @@
         "Drive Spd 1",
         "Drive Spd 2",
         "Joint Drive Spd"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -46130,7 +46882,8 @@
         "Spd/Def Rein 1",
         "Spd/Def Rein 2",
         "Spd/Def Rein 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -46198,7 +46951,8 @@
         "Panic Smoke 2",
         "Panic Smoke 3",
         "Panic Smoke 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -46261,7 +47015,8 @@
         "Armor March 1",
         "Armor March 2",
         "Armor March 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -46325,7 +47080,8 @@
         "Rouse Atk/Res 1",
         "Rouse Atk/Res 2",
         "Rouse Atk/Res 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -46389,7 +47145,8 @@
         "Rouse Atk/Res 2",
         "Rouse Atk/Res 3",
         "Incite Atk/Res"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -46449,7 +47206,8 @@
         "Def/Res Gap 1",
         "Def/Res Gap 2",
         "Def/Res Gap 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -46509,7 +47267,8 @@
         "Spur Res 1",
         "Drive Res 1",
         "Drive Res 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -46569,7 +47328,8 @@
         "Lull Atk/Def 2",
         "Lull Atk/Def 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -46629,7 +47389,8 @@
         "Chill Atk/Def 1",
         "Chill Atk/Def 2"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -46694,7 +47455,8 @@
         "Time's Pulse 1",
         "Time's Pulse 2",
         "Time's Pulse 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -46760,7 +47522,8 @@
         "Hone Spd 2",
         "Hone Spd 3",
         "Hone Spd 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -46825,7 +47588,8 @@
         "C Feud 1",
         "C Feud 2",
         "C Feud 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -46889,7 +47653,8 @@
         "Atk/Spd Oath 2",
         "Atk/Spd Oath 3",
         "Atk/Spd Oath 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -46954,7 +47719,8 @@
         "Distant Guard 2",
         "Distant Guard 3",
         "Barricade"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -47019,7 +47785,8 @@
         "Threat. Atk/Def 1",
         "Threat. Atk/Def 2",
         "Atk/Def Menace"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -47084,7 +47851,8 @@
         "Even Tempest 1",
         "Even Tempest 2",
         "Even Tempest 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -47149,7 +47917,8 @@
         "Fatal Smoke 1",
         "Fatal Smoke 2",
         "Fatal Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -47212,7 +47981,8 @@
         "Atk/Spd Oath 2",
         "Atk/Spd Oath 3",
         "Atk/Spd Faith"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -47272,7 +48042,8 @@
         "B Tome Exp. 1",
         "B Tome Exp. 2",
         "B Tome Exp. 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -47333,7 +48104,8 @@
         "Atk/Spd Oath 1",
         "Atk/Spd Oath 2",
         "Atk/Spd Oath 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -47396,7 +48168,8 @@
         "Atk/Spd Bulwark 3",
         "A/S Spiked Wall"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -47457,7 +48230,8 @@
         "Spurn 2",
         "Spurn 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -47517,7 +48291,8 @@
         "Vengeful Fighter 2",
         "Vengeful Fighter 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -47577,7 +48352,8 @@
         "Special Fighter 2",
         "Special Fighter 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -47637,7 +48413,8 @@
         "Spd/Def Gap 1",
         "Spd/Def Gap 2",
         "Spd/Def Gap 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -47703,7 +48480,8 @@
         "Even Tempest 1",
         "Even Tempest 2",
         "Even Tempest 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -47767,7 +48545,8 @@
         "Rouse Atk/Def 1",
         "Rouse Atk/Def 2",
         "Rouse Atk/Def 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -47828,7 +48607,8 @@
         "Null Follow-Up 2",
         "Null Follow-Up 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -47888,7 +48668,8 @@
         "Fortify Res 1",
         "Fortify Res 2",
         "Fortify Res 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -47958,7 +48739,8 @@
         "Even Recovery 1",
         "Even Recovery 2",
         "Even Recovery 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -48020,7 +48802,8 @@
         "Flow Flight 2",
         "Flow Flight 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -48086,7 +48869,8 @@
         "Drive Res 1",
         "Drive Res 2",
         "Joint Drive Res"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -48154,7 +48938,8 @@
         "Spd/Res Rein 2",
         "Spd/Res Rein 3",
         "Spd/Res Crux"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -48220,7 +49005,8 @@
         "Time's Pulse 1",
         "Time's Pulse 2",
         "Time's Pulse 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -48285,7 +49071,8 @@
         "Staff Valor 1",
         "Staff Valor 2",
         "Staff Valor 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -48346,7 +49133,8 @@
         "Infantry Pulse 1",
         "Infantry Pulse 2",
         "Infantry Pulse 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -48405,7 +49193,8 @@
         "Flier Guidance 1",
         "Flier Guidance 2",
         "Flier Guidance 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -48472,7 +49261,8 @@
         "Odd Spd Wave 2",
         "Odd Spd Wave 3",
         "Odd Spd Wave 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -48538,7 +49328,8 @@
         "Canto Control 1",
         "Canto Control 2",
         "Canto Control 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -48598,7 +49389,8 @@
         "Inf. Hexblade 1",
         "Inf. Hexblade 2",
         "Inf. Hexblade 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -48658,7 +49450,8 @@
         "Wary Fighter 2",
         "Wary Fighter 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -48718,7 +49511,8 @@
         "Spur Atk 1",
         "Drive Atk 1",
         "Drive Atk 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -48777,7 +49571,8 @@
         "Spur Spd 1",
         "Spur Spd 2",
         "Spur Spd 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -48826,7 +49621,8 @@
     "passives": {
       "A": [],
       "B": [],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -48891,7 +49687,8 @@
         "Infantry Flash 1",
         "Infantry Flash 2",
         "Infantry Flash 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -48953,7 +49750,8 @@
         "Spd/Def Oath 1",
         "Spd/Def Oath 2",
         "Spd/Def Oath 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -49018,7 +49816,8 @@
         "Spd/Def Rein 2",
         "Spd/Def Rein 3",
         "S/D Hold Guide"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -49086,7 +49885,8 @@
         "Inf. Null Follow 2",
         "Inf. Null Follow 3",
         "Inf. Null Follow 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -49150,7 +49950,8 @@
         "Even Tempest 1",
         "Even Tempest 2",
         "Even Tempest 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -49216,7 +50017,8 @@
         "Hone Spd 2",
         "Hone Spd 3",
         "Joint Hone Spd"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -49276,7 +50078,8 @@
         "Hone Atk 1",
         "Hone Atk 2",
         "Hone Atk 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -49336,7 +50139,8 @@
         "Hone Spd 1",
         "Hone Spd 2",
         "Hone Spd 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -49396,7 +50200,8 @@
         "Rouse Def/Res 1",
         "Rouse Def/Res 2",
         "Rouse Def/Res 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -49456,7 +50261,8 @@
         "Rouse Atk/Def 1",
         "Rouse Atk/Def 2",
         "Rouse Atk/Def 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -49519,7 +50325,8 @@
         "Canto Control 1",
         "Canto Control 2",
         "Canto Control 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -49579,7 +50386,8 @@
         "Atk Ploy 1",
         "Atk Ploy 2",
         "Atk Ploy 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -49641,7 +50449,8 @@
         "Wyvern Flight 2",
         "Wyvern Flight 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -49709,7 +50518,8 @@
         "A/D Near Save 2",
         "A/D Near Save 3",
         "A/D Briar N Save"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -49773,7 +50583,8 @@
         "Odd Res Wave 1",
         "Odd Res Wave 2",
         "Odd Res Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -49834,7 +50645,8 @@
         "A/R Far Trace 2",
         "A/R Far Trace 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -49894,7 +50706,8 @@
         "Distant Guard 1",
         "Distant Guard 2",
         "Distant Guard 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -49960,7 +50773,8 @@
         "Distant Guard 1",
         "Distant Guard 2",
         "Distant Guard 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -50020,7 +50834,8 @@
         "Spur Res 1",
         "Spur Res 2",
         "Spur Res 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -50088,7 +50903,8 @@
         "Rouse Atk/Spd 2",
         "Rouse Atk/Spd 3",
         "Incite Atk/Spd"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -50149,7 +50965,8 @@
         "Even Atk Wave 2",
         "Even Atk Wave 3",
         "Even Atk Wave N"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -50209,7 +51026,8 @@
         "Poison Strike 2",
         "Poison Strike 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -50274,7 +51092,8 @@
         "Odd Tempest 1",
         "Odd Tempest 2",
         "Odd Tempest 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -50338,7 +51157,8 @@
         "Atk/Spd Gap 1",
         "Atk/Spd Gap 2",
         "Atk/Spd Gap 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -50398,7 +51218,8 @@
         "Vantage 2",
         "Vantage 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -50462,7 +51283,8 @@
         "Hone Spd 1",
         "Hone Spd 2",
         "Hone Fliers"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -50529,7 +51351,8 @@
         "Atk/Spd Rein 2",
         "Atk/Spd Rein 3",
         "A/S Rein Snap"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -50594,7 +51417,8 @@
         "Atk/Res Oath 1",
         "Atk/Res Oath 2",
         "Atk/Res Oath 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -50658,6 +51482,9 @@
         "Atk/Res Rein 2",
         "Atk/Res Rein 3",
         "Atk/Res Crux"
+      ],
+      "X": [
+        "Far Trace Echo"
       ]
     }
   },
@@ -50728,7 +51555,8 @@
         "Silence Ward 2",
         "Silence Ward 3",
         "Silence Ward 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -50792,7 +51620,8 @@
         "Spur Atk 1",
         "Drive Atk 1",
         "Drive Atk 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -50855,7 +51684,8 @@
         "Ground Orders 1",
         "Ground Orders 2",
         "Ground Orders 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -50924,7 +51754,8 @@
         "Time's Pulse 2",
         "Time's Pulse 3",
         "Time's Pulse 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -50987,7 +51818,8 @@
         "Res Ploy 1",
         "Res Ploy 2",
         "Res Ploy 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -51049,7 +51881,8 @@
       "B": [
         "Prescience"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -51107,7 +51940,8 @@
         "Threaten Def 1",
         "Threaten Def 2",
         "Threaten Def 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -51164,7 +51998,8 @@
         "Atk/Spd Snag 2",
         "Atk/Spd Snag 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -51226,7 +52061,8 @@
         "Rouse Spd/Def 2",
         "Rouse Spd/Def 3",
         "Incite Spd/Def"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -51286,7 +52122,8 @@
         "Chill Atk 2",
         "Chill Atk 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -51351,7 +52188,8 @@
         "Infantry Rush 1",
         "Infantry Rush 2",
         "Infantry Rush 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -51419,7 +52257,8 @@
       "C": [
         "Mila's Turnwheel",
         "Mila's Turnwheel II"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -51477,7 +52316,8 @@
         "Flier Formation 2",
         "Flier Formation 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -51537,7 +52377,8 @@
         "Spur Def 1",
         "Spur Def 2",
         "Ward Fliers"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -51597,7 +52438,8 @@
         "Odd Atk Wave 1",
         "Odd Atk Wave 2",
         "Odd Atk Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -51667,7 +52509,8 @@
         "Def/Res Gap 1",
         "Def/Res Gap 2",
         "Def/Res Gap 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -51727,7 +52570,8 @@
         "Atk/Res Rein 1",
         "Atk/Res Rein 2",
         "Atk/Res Rein 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -51792,7 +52636,8 @@
         "Ground Orders 1",
         "Ground Orders 2",
         "Ground Orders 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -51852,7 +52697,8 @@
         "Spd/Res Gap 1",
         "Spd/Res Gap 2",
         "Spd/Res Gap 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -51911,7 +52757,8 @@
         "Spd/Res Link 2",
         "Spd/Res Link 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -51972,7 +52819,8 @@
         "Spur Res 1",
         "Spur Def/Res 1",
         "Spur Def/Res 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -52037,7 +52885,8 @@
         "G Tome Valor 1",
         "G Tome Valor 2",
         "G Tome Valor 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -52098,7 +52947,8 @@
         "Spd/Res Tempo 2",
         "Spd/Res Tempo 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -52157,7 +53007,8 @@
         "Atk/Def Gap 1",
         "Atk/Def Gap 2",
         "Atk/Def Gap 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -52216,7 +53067,8 @@
         "Beast Exp. 1",
         "Beast Exp. 2",
         "Beast Exp. 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -52282,7 +53134,8 @@
         "Threat. Atk/Def 1",
         "Threat. Atk/Def 2",
         "Atk/Def Menace"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -52348,7 +53201,8 @@
         "Threat. Atk/Res 1",
         "Threat. Atk/Res 2",
         "Atk/Res Menace"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -52408,7 +53262,8 @@
         "Spur Res 1",
         "Spur Def/Res 1",
         "Spur Def/Res 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -52473,7 +53328,8 @@
         "Atk Ploy 1",
         "Atk Ploy 2",
         "Atk Ploy 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -52540,7 +53396,8 @@
         "Atk/Spd Oath 2",
         "Atk/Spd Oath 3",
         "Atk/Spd Oath 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -52600,7 +53457,8 @@
         "Even Atk Wave 1",
         "Even Atk Wave 2",
         "Even Atk Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -52660,7 +53518,8 @@
         "Special Fighter 2",
         "Special Fighter 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -52721,7 +53580,8 @@
         "Def Tactic 1",
         "Def Tactic 2",
         "Def Tactic 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -52783,7 +53643,8 @@
         "Close Guard 2",
         "Close Guard 3",
         "Joint Close Guard"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -52848,7 +53709,8 @@
       ],
       "C": [
         "Darkling Dragon"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -52908,7 +53770,8 @@
         "Hone Atk 1",
         "Hone Atk 2",
         "Hone Dragons"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -52976,7 +53839,8 @@
       "C": [
         "Darkling Guardian",
         "Darkling Guard II"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -53040,7 +53904,8 @@
         "Armor March 1",
         "Armor March 2",
         "Armor March 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -53102,7 +53967,8 @@
         "Atk/Res Rein 1",
         "Atk/Res Rein 2",
         "Atk/Res Rein 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -53166,7 +54032,8 @@
       ],
       "C": [
         "Domain of Flame"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -53230,7 +54097,8 @@
       ],
       "C": [
         "Domain of Flame"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -53295,7 +54163,8 @@
         "Stall Ploy 1",
         "Stall Ploy 2",
         "Stall Ploy 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -53355,7 +54224,8 @@
         "Guard 2",
         "Guard 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -53421,7 +54291,8 @@
       "C": [
         "Divine Fang",
         "Divine Fang+"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -53482,7 +54353,8 @@
         "Atk/Res Rein 1",
         "Atk/Res Rein 2",
         "Atk/Res Rein 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -53547,7 +54419,8 @@
       ],
       "C": [
         "Divine God Fang"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -53609,7 +54482,8 @@
         "Dragon Valor 1",
         "Dragon Valor 2",
         "Dragon Valor 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -53677,7 +54551,8 @@
         "A/R Far Save 2",
         "A/R Far Save 3",
         "A/R Twin F Save"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -53745,7 +54620,8 @@
         "D/R Near Save 2",
         "D/R Near Save 3",
         "D/R Twin N Save"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -53809,7 +54685,8 @@
         "Infantry Breath 1",
         "Infantry Breath 2",
         "Infantry Breath 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -53872,7 +54749,8 @@
       ],
       "C": [
         "Glare"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -53935,7 +54813,8 @@
       ],
       "C": [
         "Glare"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -53995,7 +54874,8 @@
       ],
       "C": [
         "Glare"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -54063,7 +54943,8 @@
         "Even Atk Wave 2",
         "Even Atk Wave 3",
         "Even Atk Wave N"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -54127,7 +55008,8 @@
         "Atk Tactic 1",
         "Atk Tactic 2",
         "Atk Tactic 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -54191,7 +55073,8 @@
         "Spur Def 1",
         "Drive Def 1",
         "Drive Def 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -54251,7 +55134,8 @@
         "Lance Exp. 1",
         "Lance Exp. 2",
         "Lance Exp. 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -54312,7 +55196,8 @@
         "Savage Blow 1",
         "Savage Blow 2",
         "Savage Blow 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -54376,7 +55261,8 @@
         "Close Guard 1",
         "Close Guard 2",
         "Close Guard 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -54437,7 +55323,8 @@
         "Lull Spd/Def 2",
         "Lull Spd/Def 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -54498,7 +55385,8 @@
         "Threaten Spd 1",
         "Threaten Spd 2",
         "Threaten Spd 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -54560,7 +55448,8 @@
         "Drive Res 1",
         "Drive Res 2",
         "Joint Drive Res"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -54619,7 +55508,8 @@
         "Counter Roar 2",
         "Counter Roar 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -54684,7 +55574,8 @@
         "Close Guard 2",
         "Close Guard 3",
         "Barricade"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -54744,7 +55635,8 @@
         "Savage Blow 1",
         "Savage Blow 2",
         "Savage Blow 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -54811,7 +55703,8 @@
         "Spd/Res Rein 2",
         "Spd/Res Rein 3",
         "Spd/Res Crux"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -54872,7 +55765,8 @@
         "Wrath 2",
         "Wrath 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -54931,7 +55825,8 @@
         "Spd Tactic 1",
         "Spd Tactic 2",
         "Spd Tactic 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -54996,7 +55891,8 @@
         "Def/Res Oath 2",
         "Def/Res Oath 3",
         "Def/Res Oath 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -55060,7 +55956,8 @@
         "Threaten Def 2",
         "Threaten Def 3",
         "Beast Threaten"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -55125,7 +56022,8 @@
         "Rouse Atk/Spd 2",
         "Rouse Atk/Spd 3",
         "Alarm Atk/Spd"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -55190,7 +56088,8 @@
         "Spd Smoke 2",
         "Spd Smoke 3",
         "Spd Smoke 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -55254,7 +56153,8 @@
       ],
       "C": [
         "Domain of Ice"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -55317,7 +56217,8 @@
       ],
       "C": [
         "Domain of Ice"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -55379,7 +56280,8 @@
         "Threat. Atk/Res 1",
         "Threat. Atk/Res 2",
         "Atk/Res Menace"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -55440,7 +56342,8 @@
         "Spur Res 1",
         "Spur Res 2",
         "Spur Res 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -55503,7 +56406,8 @@
         "Fortify Res 1",
         "Fortify Res 2",
         "Fortify Armor"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -55566,7 +56470,8 @@
         "Infantry Pulse 1",
         "Infantry Pulse 2",
         "Infantry Pulse 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -55625,7 +56530,8 @@
         "Spur Res 1",
         "Spur Spd/Res 1",
         "Spur Spd/Res 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -55684,7 +56590,8 @@
         "Hone Spd 1",
         "Hone Spd 2",
         "Hone Dragons"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -55747,7 +56654,8 @@
         "Bow Valor 1",
         "Bow Valor 2",
         "Bow Valor 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -55814,7 +56722,8 @@
         "C Feud 1",
         "C Feud 2",
         "C Feud 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -55873,7 +56782,8 @@
         "Spur Spd 1",
         "Drive Spd 1",
         "Drive Spd 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -55939,7 +56849,8 @@
         "Spur Atk 2",
         "Spur Atk 3",
         "Cross Spur Atk"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -56004,7 +56915,8 @@
         "Blue Feud 1",
         "Blue Feud 2",
         "Blue Feud 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -56063,7 +56975,8 @@
         "Fortify Def 1",
         "Fortify Def 2",
         "Fortify Dragons"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -56128,7 +57041,8 @@
       ],
       "C": [
         "Black Fang Bond"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -56192,6 +57106,9 @@
       ],
       "C": [
         "Fanged Ties"
+      ],
+      "X": [
+        "Fleeting Echo"
       ]
     }
   },
@@ -56257,7 +57174,8 @@
         "Armor March 1",
         "Armor March 2",
         "Armor March 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -56321,7 +57239,8 @@
         "Spd Smoke 1",
         "Spd Smoke 2",
         "Spd Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -56381,7 +57300,8 @@
         "Hone Atk 1",
         "Hone Atk 2",
         "Hone Atk 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -56447,7 +57367,8 @@
         "Time's Pulse 2",
         "Time's Pulse 3",
         "Time's Pulse 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -56509,7 +57430,8 @@
         "Seal Def/Res 2",
         "Seal Def/Res 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -56570,7 +57492,8 @@
         "Rouse Spd/Def 2",
         "Rouse Spd/Def 3",
         "Alarm Spd/Def"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -56630,7 +57553,8 @@
         "Infantry Flash 1",
         "Infantry Flash 2",
         "Infantry Flash 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -56695,7 +57619,8 @@
       ],
       "C": [
         "Blood & Thunder"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -56754,7 +57679,8 @@
         "Infantry Rush 1",
         "Infantry Rush 2",
         "Infantry Rush 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -56816,7 +57742,8 @@
         "Time's Pulse 2",
         "Time's Pulse 3",
         "Pulse Up: Ploy"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -56875,7 +57802,8 @@
         "Spur Spd 1",
         "Drive Spd 1",
         "Drive Spd 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -56935,7 +57863,8 @@
         "Spd/Def Link 2",
         "Spd/Def Link 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -56996,7 +57925,8 @@
         "Hone Atk 1",
         "Hone Atk 2",
         "Hone Fliers"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -57056,7 +57986,8 @@
         "Threaten Res 1",
         "Threaten Res 2",
         "Threaten Res 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -57120,7 +58051,8 @@
         "Time's Pulse 2",
         "Time's Pulse 3",
         "Time Pulse Helm"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -57184,7 +58116,8 @@
         "Spur Def 1",
         "Drive Def 1",
         "Drive Def 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -57245,7 +58178,8 @@
         "Null Follow-Up 2",
         "Null Follow-Up 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -57310,7 +58244,8 @@
         "Distant Guard 2",
         "Distant Guard 3",
         "Higher Ground"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -57375,7 +58310,8 @@
         "A/D Far Save 2",
         "A/D Far Save 3",
         "A/D Twin F Save"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -57438,7 +58374,8 @@
         "Threat. Atk/Spd 1",
         "Threat. Atk/Spd 2",
         "Atk/Spd Menace"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -57499,7 +58436,8 @@
         "Odd Pulse Tie 2",
         "Odd Pulse Tie 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -57559,7 +58497,8 @@
         "Threaten Res 1",
         "Threaten Res 2",
         "Threaten Res 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -57620,7 +58559,8 @@
         "R Tomebreaker 2",
         "R Tomebreaker 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -57680,7 +58620,8 @@
         "Close Call 2",
         "Close Call 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -57740,7 +58681,8 @@
         "Threaten Def 1",
         "Threat. Spd/Def 1",
         "Threat. Spd/Def 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -57801,7 +58743,8 @@
         "Spur Atk 1",
         "Spur Atk 2",
         "Spur Atk 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -57862,7 +58805,8 @@
         "Atk Ploy 1",
         "Atk Ploy 2",
         "Atk Ploy 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -57919,7 +58863,8 @@
         "Hone Atk 1",
         "Hone Atk 2",
         "Hone Atk 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -57978,7 +58923,8 @@
         "Blaze Dance 2",
         "Blaze Dance 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -58041,7 +58987,8 @@
         "Guidance 1",
         "Guidance 2",
         "Guidance 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -58100,7 +59047,8 @@
         "Atk/Spd Rein 1",
         "Atk/Spd Rein 2",
         "Atk/Spd Rein 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -58159,7 +59107,8 @@
         "Spur Res 1",
         "Spur Res 2",
         "Ward Cavalry"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -58223,7 +59172,8 @@
         "G Tome Exp. 1",
         "G Tome Exp. 2",
         "G Tome Exp. 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -58287,7 +59237,8 @@
         "Chill Res 2",
         "Chill Res 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -58353,7 +59304,8 @@
         "Time's Pulse 1",
         "Time's Pulse 2",
         "Time's Pulse 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -58412,7 +59364,8 @@
         "Atk/Res Link 2",
         "Atk/Res Link 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -58472,7 +59425,8 @@
         "Rouse Atk/Def 1",
         "Rouse Atk/Def 2",
         "Rouse Atk/Def 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -58533,7 +59487,8 @@
         "Spur Def 1",
         "Spur Spd/Def 1",
         "Spur Spd/Def 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -58598,7 +59553,8 @@
         "Even Atk Wave 1",
         "Even Atk Wave 2",
         "Even Atk Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -58658,7 +59614,8 @@
         "Odd Follow-Up 2",
         "Odd Follow-Up 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -58723,7 +59680,8 @@
         "Spur Spd 1",
         "Spur Spd/Def 1",
         "Spur Spd/Def 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -58784,7 +59742,8 @@
         "Wings of Mercy 2",
         "Wings of Mercy 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -58848,7 +59807,8 @@
         "Hone Atk 1",
         "Hone Atk 2",
         "Hone Fliers"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -58909,7 +59869,8 @@
         "Spur Spd 1",
         "Spur Spd 2",
         "Goad Fliers"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -58971,7 +59932,8 @@
         "Atk/Res Rein 1",
         "Atk/Res Rein 2",
         "Atk/Res Rein 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -59035,7 +59997,8 @@
         "Spur Atk 1",
         "Spur Atk 2",
         "Goad Fliers"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -59096,7 +60059,8 @@
         "Atk/Def Rein 1",
         "Atk/Def Rein 2",
         "Atk/Def Rein 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -59161,7 +60125,8 @@
         "Spur Res 1",
         "Drive Res 1",
         "Drive Res 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -59221,7 +60186,8 @@
         "Panic Smoke 1",
         "Panic Smoke 2",
         "Panic Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -59281,7 +60247,8 @@
         "Def Smoke 1",
         "Def Smoke 2",
         "Def Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -59341,7 +60308,8 @@
         "Lull Spd/Def 2",
         "Lull Spd/Def 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -59400,7 +60368,8 @@
         "Dull Ranged 2",
         "Dull Ranged 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -59460,7 +60429,8 @@
         "Atk/Res Oath 1",
         "Atk/Res Oath 2",
         "Atk/Res Oath 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -59521,7 +60491,8 @@
         "Pulse Smoke 1",
         "Pulse Smoke 2",
         "Pulse Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -59586,7 +60557,8 @@
         "Time's Pulse 1",
         "Time's Pulse 2",
         "Time's Pulse 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -59653,6 +60625,9 @@
         "Spur Spd 2",
         "Spur Spd 3",
         "Cross Spur Spd"
+      ],
+      "X": [
+        "Atk Oath Echo"
       ]
     }
   },
@@ -59723,7 +60698,8 @@
         "Spur Res 2",
         "Spur Res 3",
         "Cross Spur Res"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -59789,7 +60765,8 @@
         "Drive Atk 1",
         "Drive Atk 2",
         "Joint Drive Atk"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -59853,7 +60830,8 @@
         "Rouse Def/Res 1",
         "Rouse Def/Res 2",
         "Rouse Def/Res 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -59914,7 +60892,8 @@
         "Threaten Def 1",
         "Threaten Def 2",
         "Threaten Def 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -59974,7 +60953,8 @@
         "Spur Spd 1",
         "Drive Spd 1",
         "Drive Spd 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -60037,7 +61017,8 @@
         "Spd/Def Rein 2",
         "Spd/Def Rein 3",
         "Spd/Def Crux"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -60101,7 +61082,8 @@
         "Ground Orders 1",
         "Ground Orders 2",
         "Ground Orders 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -60161,7 +61143,8 @@
         "Threaten Atk 1",
         "Threat. Atk/Def 1",
         "Threat. Atk/Def 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -60221,7 +61204,8 @@
         "Pegasus Flight 2",
         "Pegasus Flight 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -60280,7 +61264,8 @@
         "Geyser Dance 1",
         "Geyser Dance 2"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -60347,7 +61332,8 @@
         "Atk/Res Rein 2",
         "Atk/Res Rein 3",
         "Atk/Res Hold"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -60414,7 +61400,8 @@
         "Res Ploy 2",
         "Res Ploy 3",
         "Def/Res Ploy 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -60481,7 +61468,8 @@
         "Shadow Smite 2",
         "Shadow Smite 3",
         "Shadow Smite 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -60543,7 +61531,8 @@
         "Atk/Def Rein 1",
         "Atk/Def Rein 2",
         "Atk/Def Rein 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -60609,7 +61598,8 @@
         "Rouse Spd/Def 2",
         "Rouse Spd/Def 3",
         "Rouse Spd/Def 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -60669,7 +61659,8 @@
         "Spur Def 1",
         "Spur Def 2",
         "Spur Def 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -60730,7 +61721,8 @@
         "B Tomebreaker 2",
         "B Tomebreaker 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -60795,7 +61787,8 @@
         "Fortify Def 2",
         "Fortify Def 3",
         "Joint Hone Def"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -60859,7 +61852,8 @@
         "Spur Atk 1",
         "Drive Atk 1",
         "Drive Atk 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -60922,7 +61916,8 @@
         "A/R Near Save 2",
         "A/R Near Save 3",
         "A/R Twin N Save"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -60981,7 +61976,8 @@
         "Spur Res 1",
         "Spur Res 2",
         "Ward Beasts"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -61041,7 +62037,8 @@
         "Seal Res 2",
         "Seal Res 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -61102,7 +62099,8 @@
         "Spur Def 1",
         "Spur Def 2",
         "Ward Beasts"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -61161,7 +62159,8 @@
         "Atk Smoke 1",
         "Atk Smoke 2",
         "Atk Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -61225,7 +62224,8 @@
       ],
       "C": [
         "Mending Heart"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -61286,7 +62286,8 @@
         "Def Smoke 1",
         "Def Smoke 2",
         "Def Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -61347,7 +62348,8 @@
         "Threaten Def 1",
         "Threaten Def 2",
         "Threaten Def 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -61407,7 +62409,8 @@
         "Null Follow-Up 2",
         "Null Follow-Up 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -61467,7 +62470,8 @@
         "Seal Atk 2",
         "Seal Atk 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -61530,7 +62534,8 @@
         "Spur Atk 2",
         "Spur Atk 3",
         "Cross Spur Atk"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -61598,7 +62603,8 @@
         "Panic Smoke 2",
         "Panic Smoke 3",
         "Panic Smoke 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -61666,7 +62672,8 @@
         "Shadow Shift 2",
         "Shadow Shift 3",
         "Shadow Shift 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -61726,7 +62733,8 @@
         "Spd/Def Rein 1",
         "Spd/Def Rein 2",
         "Spd/Def Rein 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -61790,7 +62798,8 @@
         "Hone Atk 2",
         "Hone Atk 3",
         "Joint Hone Atk"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -61854,7 +62863,8 @@
         "Res Smoke 2",
         "Res Smoke 3",
         "Def/Res Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -61914,7 +62924,8 @@
         "Spur Atk 1",
         "Spur Atk 2",
         "Goad Cavalry"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -61978,7 +62989,8 @@
         "Spur Atk 1",
         "Spur Atk/Def 1",
         "Spur Atk/Def 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -62039,7 +63051,8 @@
         "Disarm Trap 2",
         "Disarm Trap 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -62098,7 +63111,8 @@
         "Fortify Res 1",
         "Fortify Res 2",
         "Fortify Beasts"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -62159,7 +63173,8 @@
         "Savage Blow 1",
         "Savage Blow 2",
         "Savage Blow 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -62224,7 +63239,8 @@
         "Close Guard 2",
         "Close Guard 3",
         "Lower Ground"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -62287,7 +63303,8 @@
         "D/R Near Save 1",
         "D/R Near Save 2",
         "D/R Near Save 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -62346,7 +63363,8 @@
       "B": [
         "True Dragon Wall"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -62407,7 +63425,8 @@
         "Dragon Wall 2",
         "Dragon Wall 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -62471,7 +63490,8 @@
         "Spur Res 1",
         "Drive Res 1",
         "Drive Res 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -62530,7 +63550,8 @@
         "Spd/Def Oath 1",
         "Spd/Def Oath 2",
         "Spd/Def Oath 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -62590,7 +63611,8 @@
         "Spur Spd 1",
         "Spur Atk/Spd 1",
         "Spur Atk/Spd 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -62650,7 +63672,8 @@
         "Savage Blow 1",
         "Savage Blow 2",
         "Savage Blow 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -62709,7 +63732,8 @@
         "Fireflood Dance 1",
         "Fireflood Dance 2"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -62768,7 +63792,8 @@
         "Odd Tempest 1",
         "Odd Tempest 2",
         "Odd Tempest 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -62830,7 +63855,8 @@
         "Even Def Wave 1",
         "Even Def Wave 2",
         "Even Def Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -62894,7 +63920,8 @@
       ],
       "C": [
         "Tip the Scales!"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -62957,7 +63984,8 @@
         "Canto Control 1",
         "Canto Control 2",
         "Canto Control 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -63022,7 +64050,8 @@
         "Time's Pulse 2",
         "Time's Pulse 3",
         "Creation Pulse"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -63087,7 +64116,8 @@
         "A/R Near Save 1",
         "A/R Near Save 2",
         "A/R Near Save 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -63149,7 +64179,8 @@
         "Spur Atk 1",
         "Spur Atk 2",
         "Goad Dragons"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -63213,7 +64244,8 @@
       ],
       "C": [
         "Tip the Scales!"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -63273,7 +64305,8 @@
         "Spur Def 1",
         "Spur Def 2",
         "Ward Dragons"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -63335,7 +64368,8 @@
         "A/S Near Save 1",
         "A/S Near Save 2",
         "A/S Near Save 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -63401,7 +64435,8 @@
         "Spd/Res Rein 1",
         "Spd/Res Rein 2",
         "Spd/Res Rein 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -63460,7 +64495,8 @@
         "Armor March 1",
         "Armor March 2",
         "Armor March 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -63521,7 +64557,8 @@
         "Spur Def 1",
         "Spur Def 2",
         "Spur Def 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -63580,7 +64617,8 @@
         "Spd/Res Snag 2",
         "Spd/Res Snag 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -63641,7 +64679,8 @@
         "B Tomebreaker 2",
         "B Tomebreaker 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -63700,7 +64739,8 @@
         "Lance Valor 1",
         "Lance Valor 2",
         "Lance Valor 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -63760,7 +64800,8 @@
         "A/D Far Save 1",
         "A/D Far Save 2",
         "A/D Far Save 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -63827,7 +64868,8 @@
         "Inf. Null Follow 2",
         "Inf. Null Follow 3",
         "Inf. Null Follow 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -63886,7 +64928,8 @@
         "Spur Def 1",
         "Drive Def 1",
         "Drive Def 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -63945,7 +64988,8 @@
         "Odd Spd Wave 1",
         "Odd Spd Wave 2",
         "Odd Spd Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -64008,7 +65052,8 @@
         "Drive Spd 1",
         "Drive Spd 2",
         "Joint Drive Spd"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -64070,7 +65115,8 @@
         "Wyvern Flight 3",
         "Wyvern Rift"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -64129,7 +65175,8 @@
         "Distant Guard 1",
         "Distant Guard 2",
         "Distant Guard 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -64189,7 +65236,8 @@
         "Threaten Def 1",
         "Threaten Def 2",
         "Threaten Def 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -64252,7 +65300,8 @@
       ],
       "C": [
         "Faith in Humanity"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -64318,7 +65367,8 @@
       "C": [
         "Human Virtue",
         "Human Virtue II"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -64379,7 +65429,8 @@
         "Desperation 2",
         "Desperation 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -64438,7 +65489,8 @@
         "Seal Def 2",
         "Seal Def 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -64497,7 +65549,8 @@
         "Bow Valor 1",
         "Bow Valor 2",
         "Bow Valor 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -64558,7 +65611,8 @@
         "Threat. Atk/Def 1",
         "Threat. Atk/Def 2",
         "Threat. Atk/Def 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -64623,7 +65677,8 @@
         "Time's Pulse 2",
         "Time's Pulse 3",
         "Pulse Up: Ploy"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -64684,7 +65739,8 @@
         "Vantage 2",
         "Vantage 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -64747,7 +65803,8 @@
         "Spur Spd 1",
         "Spur Spd/Res 1",
         "Spur Spd/Res 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -64807,7 +65864,8 @@
         "Hone Spd 1",
         "Hone Spd 2",
         "Hone Spd 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -64871,7 +65929,8 @@
         "Odd Def Wave 1",
         "Odd Def Wave 2",
         "Odd Def Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -64937,7 +65996,8 @@
         "Atk/Spd Rein 1",
         "Atk/Spd Rein 2",
         "Atk/Spd Rein 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -64998,7 +66058,8 @@
         "Shield Pulse 2",
         "Shield Pulse 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -65058,7 +66119,8 @@
         "Shield Pulse 2",
         "Shield Pulse 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -65124,7 +66186,8 @@
         "Atk Ploy 2",
         "Atk Ploy 3",
         "Atk/Spd Ploy 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -65184,7 +66247,8 @@
         "Spd Ploy 1",
         "Spd Ploy 2",
         "Spd Ploy 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -65246,7 +66310,8 @@
         "Flow Refresh 2",
         "Flow Refresh 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -65306,7 +66371,8 @@
         "Spur Spd 1",
         "Spur Spd 2",
         "Spur Spd 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -65366,7 +66432,8 @@
         "Def Smoke 1",
         "Def Smoke 2",
         "Def Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -65430,7 +66497,8 @@
         "Dagger Valor 1",
         "Dagger Valor 2",
         "Dagger Valor 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -65496,7 +66564,8 @@
         "Spd Opening 1",
         "Spd Opening 2",
         "Spd Opening 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -65564,7 +66633,8 @@
       ],
       "C": [
         "Quiet Strength"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -65624,7 +66694,8 @@
         "Fortify Def 1",
         "Fortify Def 2",
         "Fortify Def 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -65683,7 +66754,8 @@
         "Rouse Atk/Res 1",
         "Rouse Atk/Res 2",
         "Rouse Atk/Res 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -65743,7 +66815,8 @@
         "Sabotage Atk 2",
         "Sabotage Atk 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -65802,7 +66875,8 @@
         "Def/Res Link 2",
         "Def/Res Link 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -65861,7 +66935,8 @@
         "Hone Atk 1",
         "Hone Atk 2",
         "Hone Atk 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -65928,7 +67003,8 @@
         "Def Ploy 2",
         "Def Ploy 3",
         "Def/Res Ploy 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -65994,7 +67070,8 @@
         "Drive Res 1",
         "Drive Res 2",
         "Joint Drive Res"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -66058,7 +67135,8 @@
         "Spur Res 1",
         "Drive Res 1",
         "Drive Res 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -66125,7 +67203,8 @@
         "Odd Recovery 1",
         "Odd Recovery 2",
         "Odd Recovery 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -66186,7 +67265,8 @@
         "Close Call 2",
         "Close Call 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -66248,7 +67328,8 @@
         "Spd/Def Rein 2",
         "Spd/Def Rein 3",
         "S/D Rein Snap"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -66308,7 +67389,8 @@
         "Odd Def Wave 1",
         "Odd Def Wave 2",
         "Odd Def Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -66367,7 +67449,8 @@
         "Inf. Null Follow 1",
         "Inf. Null Follow 2",
         "Inf. Null Follow 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -66428,7 +67511,8 @@
         "Chill Def 2",
         "Chill Def 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -66496,7 +67580,8 @@
       "C": [
         "Wings of Light",
         "Wings of Light+"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -66560,7 +67645,8 @@
       ],
       "C": [
         "Future-Focused"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -66624,7 +67710,8 @@
       ],
       "C": [
         "Future-Sighted"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -66685,7 +67772,8 @@
         "A/R Far Trace 2",
         "A/R Far Trace 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -66745,7 +67833,8 @@
         "Threaten Spd 1",
         "Threaten Spd 2",
         "Threaten Spd 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -66807,7 +67896,8 @@
         "Atk/Res Ruse 2",
         "Atk/Res Ruse 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -66867,7 +67957,8 @@
         "Spd/Res Snag 2",
         "Spd/Res Snag 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -66930,7 +68021,8 @@
       ],
       "C": [
         "Heir to Light"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -66989,7 +68081,8 @@
         "Brash Assault 2",
         "Brash Assault 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -67054,7 +68147,8 @@
       ],
       "C": [
         "The Heir to Light"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -67117,7 +68211,8 @@
         "Fortify Def 2",
         "Fortify Def 3",
         "Joint Hone Def"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -67181,7 +68276,8 @@
         "Even Res Wave 1",
         "Even Res Wave 2",
         "Even Res Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -67243,7 +68339,8 @@
         "Odd Res Wave 1",
         "Odd Res Wave 2",
         "Odd Res Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -67310,7 +68407,8 @@
         "Odd Recovery 1",
         "Odd Recovery 2",
         "Odd Recovery 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -67370,7 +68468,8 @@
         "Hone Atk 1",
         "Hone Atk 2",
         "Hone Atk 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -67429,7 +68528,8 @@
         "Spur Atk 1",
         "Drive Atk 1",
         "Drive Atk 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -67489,7 +68589,8 @@
         "Seal Atk/Def 1",
         "Seal Atk/Def 2"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -67549,7 +68650,8 @@
         "Def Tactic 1",
         "Def Tactic 2",
         "Def Tactic 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -67609,7 +68711,8 @@
         "Bowbreaker 2",
         "Bowbreaker 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -67675,7 +68778,8 @@
         "Hone Atk 2",
         "Hone Atk 3",
         "Joint Hone Atk"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -67738,7 +68842,8 @@
         "Shield Pulse 3",
         "Buffer 4"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -67803,7 +68908,8 @@
         "Rouse Atk/Spd 1",
         "Rouse Atk/Spd 2",
         "Rouse Atk/Spd 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -67870,7 +68976,8 @@
         "Fatal Smoke 1",
         "Fatal Smoke 2",
         "Fatal Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -67930,7 +69037,8 @@
         "Atk/Spd Oath 1",
         "Atk/Spd Oath 2",
         "Atk/Spd Oath 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -67995,7 +69103,8 @@
         "Atk/Def Rein 1",
         "Atk/Def Rein 2",
         "Atk/Def Rein 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -68056,7 +69165,8 @@
         "Threaten Spd 1",
         "Threaten Spd 2",
         "Threaten Spd 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -68122,7 +69232,8 @@
         "Even Spd Wave 1",
         "Even Spd Wave 2",
         "Even Spd Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -68187,7 +69298,8 @@
       ],
       "C": [
         "Just like Mother"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -68252,7 +69364,8 @@
       ],
       "C": [
         "Forever Yours"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -68311,7 +69424,8 @@
         "Fortify Def 1",
         "Fortify Def 2",
         "Fortify Def 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -68373,7 +69487,8 @@
         "Res Tactic 1",
         "Res Tactic 2",
         "Res Tactic 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -68432,7 +69547,8 @@
         "Fortify Def 1",
         "Fortify Def 2",
         "Fortify Armor"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -68497,7 +69613,8 @@
         "Pulse Smoke 2",
         "Pulse Smoke 3",
         "Pulse Smog"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -68557,7 +69674,8 @@
         "Dull Close 2",
         "Dull Close 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -68617,7 +69735,8 @@
         "Chill Def 2",
         "Chill Def 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -68681,7 +69800,8 @@
         "Threat. Atk/Def 1",
         "Threat. Atk/Def 2",
         "Atk/Def Menace"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -68742,7 +69862,8 @@
         "Atk/Spd Oath 2",
         "Atk/Spd Oath 3",
         "Atk/Spd Oath 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -68806,7 +69927,8 @@
         "Atk/Spd Oath 2",
         "Atk/Spd Oath 3",
         "Atk/Spd Oath 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -68870,7 +69992,8 @@
         "Pulse Smoke 2",
         "Pulse Smoke 3",
         "Pulse Smog"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -68929,7 +70052,8 @@
         "B Tome Valor 1",
         "B Tome Valor 2",
         "B Tome Valor 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -68990,7 +70114,8 @@
         "Spur Res 1",
         "Spur Res 2",
         "Ward Fliers"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -69056,7 +70181,8 @@
         "Time's Pulse 1",
         "Time's Pulse 2",
         "Time's Pulse 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -69118,7 +70244,8 @@
         "Lull Spd/Def 2",
         "Lull Spd/Def 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -69177,7 +70304,8 @@
         "Def Tactic 1",
         "Def Tactic 2",
         "Def Tactic 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -69237,7 +70365,8 @@
         "Atk Tactic 1",
         "Atk Tactic 2",
         "Atk Tactic 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -69297,7 +70426,8 @@
         "Hone Spd 1",
         "Hone Spd 2",
         "Hone Fliers"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -69356,7 +70486,8 @@
         "Air Orders 1",
         "Air Orders 2",
         "Air Orders 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -69421,7 +70552,8 @@
         "Fortify Res 2",
         "Fortify Res 3",
         "Joint Hone Res"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -69490,7 +70622,8 @@
         "Fatal Smoke 1",
         "Fatal Smoke 2",
         "Fatal Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -69551,7 +70684,8 @@
         "Spd Smoke 1",
         "Spd Smoke 2",
         "Spd Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -69619,7 +70753,8 @@
         "Fatal Smoke 2",
         "Fatal Smoke 3",
         "Fatal Smoke 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -69682,7 +70817,8 @@
         "Seal Res 3",
         "Seal Res 4"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -69742,7 +70878,8 @@
         "Even Def Wave 1",
         "Even Def Wave 2",
         "Even Def Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -69809,7 +70946,8 @@
         "Staff Exp. 1",
         "Staff Exp. 2",
         "Staff Exp. 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -69873,7 +71011,8 @@
         "Spd Opening 1",
         "Spd Opening 2",
         "Spd Opening 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -69932,7 +71071,8 @@
         "Deluge Dance 1",
         "Deluge Dance 2"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -69992,7 +71132,8 @@
         "Lull Atk/Spd 2",
         "Lull Atk/Spd 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -70053,7 +71194,8 @@
         "Spur Res 1",
         "Drive Res 1",
         "Drive Res 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -70113,7 +71255,8 @@
         "Atk Ploy 1",
         "Atk Ploy 2",
         "Atk Ploy 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -70174,7 +71317,8 @@
         "Threaten Res 1",
         "Threat. Atk/Res 1",
         "Threat. Atk/Res 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -70238,7 +71382,8 @@
         "Res Ploy 2",
         "Res Ploy 3",
         "Atk/Res Ploy 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -70304,7 +71449,8 @@
         "Spd/Res Rein 2",
         "Spd/Res Rein 3",
         "Spd/Res Hold"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -70364,7 +71510,8 @@
         "Res Ploy 1",
         "Res Ploy 2",
         "Res Ploy 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -70423,7 +71570,8 @@
         "Sabotage Res 2",
         "Sabotage Res 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -70484,7 +71632,8 @@
         "Fortify Res 1",
         "Fortify Res 2",
         "Fortify Res 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -70547,7 +71696,8 @@
         "Atk/Res Rein 2",
         "Atk/Res Rein 3",
         "Atk/Res Hold"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -70612,7 +71762,8 @@
         "Res Opening 1",
         "Res Opening 2",
         "Res Opening 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -70673,7 +71824,8 @@
         "Time's Pulse 1",
         "Time's Pulse 2",
         "Time's Pulse 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -70738,7 +71890,8 @@
         "Time's Pulse 2",
         "Time's Pulse 3",
         "Time's Pulse 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -70799,7 +71952,8 @@
         "Fortify Res 1",
         "Fortify Res 2",
         "Fortify Res 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -70859,7 +72013,8 @@
         "Infantry Breath 1",
         "Infantry Breath 2",
         "Infantry Breath 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -70927,7 +72082,8 @@
         "Atk/Spd Oath 2",
         "Atk/Spd Oath 3",
         "Atk/Spd Pledge"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -70987,7 +72143,8 @@
         "Atk/Def Rein 1",
         "Atk/Def Rein 2",
         "Atk/Def Rein 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -71047,7 +72204,8 @@
         "Spur Atk 1",
         "Spur Atk/Spd 1",
         "Spur Atk/Spd 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -71113,7 +72271,8 @@
         "Atk/Spd Rein 1",
         "Atk/Spd Rein 2",
         "Atk/Spd Rein 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -71182,7 +72341,8 @@
         "Time's Pulse 1",
         "Time's Pulse 2",
         "Time's Pulse 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -71246,7 +72406,8 @@
         "Threat. Atk/Res 1",
         "Threat. Atk/Res 2",
         "Threat. Atk/Res 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -71306,7 +72467,8 @@
         "Obstruct 2",
         "Obstruct 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -71366,7 +72528,8 @@
         "Quick Riposte 2",
         "Quick Riposte 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -71432,7 +72595,8 @@
         "Hone Spd 2",
         "Hone Spd 3",
         "Hone Spd 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -71492,7 +72656,8 @@
         "Spur Def 1",
         "Spur Def 2",
         "Spur Def 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -71552,7 +72717,8 @@
         "Atk/Def Link 2",
         "Atk/Def Link 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -71615,7 +72781,8 @@
       ],
       "C": [
         "Surtr's Portent"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -71678,7 +72845,8 @@
       ],
       "C": [
         "Surtr's Menace"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -71738,7 +72906,8 @@
         "Spur Def 1",
         "Spur Atk/Def 1",
         "Spur Atk/Def 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -71797,7 +72966,8 @@
         "Rouse Atk/Def 1",
         "Rouse Atk/Def 2",
         "Rouse Atk/Def 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -71864,7 +73034,8 @@
         "S/D Near Trace 3",
         "S/D Near Trace 4"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -71926,7 +73097,8 @@
         "Pegasus Flight 3",
         "Pegasus Flight 4"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -71985,7 +73157,8 @@
         "Spur Atk 1",
         "Drive Atk 1",
         "Drive Atk 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -72046,7 +73219,8 @@
         "Spur Spd 1",
         "Drive Spd 1",
         "Drive Spd 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -72106,7 +73280,8 @@
         "Spd Smoke 1",
         "Spd Smoke 2",
         "Spd Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -72166,7 +73341,8 @@
         "Odd Res Wave 1",
         "Odd Res Wave 2",
         "Odd Res Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -72226,7 +73402,8 @@
         "Bowbreaker 2",
         "Bowbreaker 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -72291,7 +73468,8 @@
         "A/S Far Save 1",
         "A/S Far Save 2",
         "A/S Far Save 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -72349,7 +73527,8 @@
         "Threaten Spd 1",
         "Threaten Spd 2",
         "Threaten Spd 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -72408,7 +73587,8 @@
         "Rouse Atk/Spd 1",
         "Rouse Atk/Spd 2",
         "Rouse Atk/Spd 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -72473,7 +73653,8 @@
         "Atk/Spd Rein 1",
         "Atk/Spd Rein 2",
         "Atk/Spd Rein 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -72537,7 +73718,8 @@
         "Spur Def 1",
         "Spur Atk/Def 1",
         "Spur Atk/Def 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -72596,7 +73778,8 @@
         "Spd/Def Rein 2",
         "Spd/Def Rein 3",
         "S/D Rein Snap"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -72661,7 +73844,8 @@
         "Guidance 2",
         "Guidance 3",
         "Guidance 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -72727,7 +73911,8 @@
         "Spd/Def Rein 2",
         "Spd/Def Rein 3",
         "Spd/Def Hold"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -72787,7 +73972,8 @@
         "Guidance 1",
         "Guidance 2",
         "Guidance 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -72846,7 +74032,8 @@
         "Flier Formation 2",
         "Flier Formation 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -72910,7 +74097,8 @@
         "Fortify Def 1",
         "Fortify Def 2",
         "Fortify Fliers"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -72970,7 +74158,8 @@
         "Spur Spd 1",
         "Spur Spd/Res 1",
         "Spur Spd/Res 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -73029,7 +74218,8 @@
         "Atk Opening 1",
         "Atk Opening 2",
         "Atk Opening 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -73088,7 +74278,8 @@
         "Dagger Exp. 1",
         "Dagger Exp. 2",
         "Dagger Exp. 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -73148,7 +74339,8 @@
         "Guidance 1",
         "Guidance 2",
         "Guidance 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -73207,7 +74399,8 @@
         "Atk/Spd Gap 1",
         "Atk/Spd Gap 2",
         "Atk/Spd Gap 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -73268,7 +74461,8 @@
         "Spur Res 1",
         "Spur Res 2",
         "Spur Res 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -73329,7 +74523,8 @@
         "Spd/Res Rein 1",
         "Spd/Res Rein 2",
         "Spd/Res Rein 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -73394,6 +74589,9 @@
         "Savage Blow 2",
         "Savage Blow 3",
         "Deadly Miasma"
+      ],
+      "X": [
+        "Crux Echo"
       ]
     }
   },
@@ -73456,7 +74654,8 @@
         "R Tome Valor 1",
         "R Tome Valor 2",
         "R Tome Valor 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -73516,7 +74715,8 @@
         "Spd Feint 2",
         "Spd Feint 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -73583,7 +74783,8 @@
         "Res Smoke 2",
         "Res Smoke 3",
         "Def/Res Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -73644,7 +74845,8 @@
         "Seal Spd/Def 1",
         "Seal Spd/Def 2"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -73706,7 +74908,8 @@
         "Air Orders 2",
         "Air Orders 3",
         "Air Orders 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -73774,7 +74977,8 @@
         "Panic Smoke 1",
         "Panic Smoke 2",
         "Panic Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -73837,7 +75041,8 @@
       ],
       "C": [
         "Worldbreaker"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -73905,7 +75110,8 @@
       "C": [
         "Worldbreaker",
         "Worldbreaker+"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -73970,7 +75176,8 @@
         "Even Atk Wave 1",
         "Even Atk Wave 2",
         "Even Atk Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -74036,7 +75243,8 @@
         "Atk Smoke 1",
         "Atk Smoke 2",
         "Atk Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -74099,7 +75307,8 @@
       ],
       "C": [
         "All Together!"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -74161,7 +75370,8 @@
         "Dragon Valor 1",
         "Dragon Valor 2",
         "Dragon Valor 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -74225,7 +75435,8 @@
         "A/R Far Save 1",
         "A/R Far Save 2",
         "A/R Far Save 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -74286,7 +75497,8 @@
         "Breath of Life 1",
         "Breath of Life 2",
         "Breath of Life 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -74349,6 +75561,9 @@
       ],
       "C": [
         "Love for All!"
+      ],
+      "X": [
+        "Res Scowl Echo"
       ]
     }
   },
@@ -74413,7 +75628,8 @@
         "Threat. Def/Res 1",
         "Threat. Def/Res 2",
         "Def/Res Menace"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -74477,7 +75693,8 @@
       ],
       "C": [
         "With Everyone!"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -74543,7 +75760,8 @@
       "C": [
         "With Everyone!",
         "With Everyone! II"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -74604,7 +75822,8 @@
         "Spur Res 1",
         "Spur Res 2",
         "Spur Res 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -74664,7 +75883,8 @@
         "Axe Valor 1",
         "Axe Valor 2",
         "Axe Valor 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -74726,7 +75946,8 @@
       ],
       "C": [
         "Solitary Dream"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -74794,6 +76015,9 @@
         "Breath of Life 2",
         "Breath of Life 3",
         "Breath of Life 4"
+      ],
+      "X": [
+        "Time Pulse Echo"
       ]
     }
   },
@@ -74862,7 +76086,8 @@
         "Time's Pulse 2",
         "Time's Pulse 3",
         "Time's Pulse 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -74933,7 +76158,8 @@
         "Infantry Pulse 2",
         "Infantry Pulse 3",
         "Infantry Pulse 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -74994,7 +76220,8 @@
         "S/R Far Trace 3",
         "S/R Far Trace 4"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -75059,7 +76286,8 @@
         "Blue Feud 1",
         "Blue Feud 2",
         "Blue Feud 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -75119,7 +76347,8 @@
         "Guard 2",
         "Guard 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -75178,7 +76407,8 @@
         "Atk/Res Link 2",
         "Atk/Res Link 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -75238,7 +76468,8 @@
         "Seal Spd 2",
         "Seal Spd 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -75298,7 +76529,8 @@
         "Spd/Res Gap 1",
         "Spd/Res Gap 2",
         "Spd/Res Gap 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -75359,7 +76591,8 @@
         "Flier Guidance 1",
         "Flier Guidance 2",
         "Flier Guidance 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -75429,7 +76662,8 @@
         "Spd/Res Rein 1",
         "Spd/Res Rein 2",
         "Spd/Res Rein 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -75496,6 +76730,9 @@
         "Spd/Def Rein 2",
         "Spd/Def Rein 3",
         "Spd/Def Hold"
+      ],
+      "X": [
+        "Death Blow Echo"
       ]
     }
   },
@@ -75558,7 +76795,8 @@
         "Def/Res Rein 2",
         "Def/Res Rein 3",
         "Def/Res Hold"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -75622,7 +76860,8 @@
         "Hone Spd 1",
         "Hone Spd 2",
         "Hone Fliers"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -75691,7 +76930,8 @@
         "Atk/Spd Oath 2",
         "Atk/Spd Oath 3",
         "Atk/Spd Oath 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -75758,7 +76998,8 @@
         "Res Smoke 2",
         "Res Smoke 3",
         "Def/Res Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -75819,7 +77060,8 @@
         "Threaten Res 1",
         "Threaten Res 2",
         "Threaten Res 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -75880,7 +77122,8 @@
         "Even Res Wave 1",
         "Even Res Wave 2",
         "Even Res Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -75942,7 +77185,8 @@
         "Panic Smoke 2",
         "Panic Smoke 3",
         "Panic Smoke 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -76002,7 +77246,8 @@
         "Def Tactic 1",
         "Def Tactic 2",
         "Def Tactic 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -76062,7 +77307,8 @@
         "Atk/Def Rein 1",
         "Atk/Def Rein 2",
         "Atk/Def Rein 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -76121,7 +77367,8 @@
         "Atk/Def Link 2",
         "Atk/Def Link 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -76182,7 +77429,8 @@
         "Obstruct 2",
         "Obstruct 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -76242,7 +77490,8 @@
         "Atk Ploy 1",
         "Atk Ploy 2",
         "Atk Ploy 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -76302,7 +77551,8 @@
         "Panic Ploy 1",
         "Panic Ploy 2",
         "Panic Ploy 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -76362,7 +77612,8 @@
         "Spd/Res Oath 1",
         "Spd/Res Oath 2",
         "Spd/Res Oath 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -76422,7 +77673,8 @@
         "Res Opening 1",
         "Res Opening 2",
         "Res Opening 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -76480,7 +77732,8 @@
         "Null Follow-Up 2",
         "Null Follow-Up 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -76540,7 +77793,8 @@
         "Spur Def 1",
         "Spur Def 2",
         "Ward Beasts"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -76600,7 +77854,8 @@
         "Chill Spd 2",
         "Chill Spd 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -76665,7 +77920,8 @@
         "Close Guard 1",
         "Close Guard 2",
         "Close Guard 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -76730,7 +77986,8 @@
         "Atk/Def Gap 1",
         "Atk/Def Gap 2",
         "Atk/Def Gap 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -76797,7 +78054,8 @@
         "Panic Smoke 2",
         "Panic Smoke 3",
         "Panic Smoke 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -76867,7 +78125,8 @@
         "Hone Spd 2",
         "Hone Spd 3",
         "A/S Incite Hone"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -76927,7 +78186,8 @@
         "Chill Res 2",
         "Chill Res 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -76991,7 +78251,8 @@
       ],
       "C": [
         "Fell Successor"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -77055,7 +78316,8 @@
       ],
       "C": [
         "Fell Protection"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -77119,7 +78381,8 @@
       ],
       "C": [
         "Fell Majesty"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -77179,7 +78442,8 @@
         "Wary Fighter 2",
         "Wary Fighter 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -77239,7 +78503,8 @@
         "Even Follow-Up 2",
         "Even Follow-Up 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -77299,7 +78564,8 @@
         "Sabotage Atk 2",
         "Sabotage Atk 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -77360,7 +78626,8 @@
         "Seal Spd 2",
         "Seal Spd 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -77426,7 +78693,8 @@
         "Time's Pulse 1",
         "Time's Pulse 2",
         "Time's Pulse 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -77485,7 +78753,8 @@
         "Atk/Def Link 2",
         "Atk/Def Link 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -77543,7 +78812,8 @@
         "Chill Def 2",
         "Chill Def 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -77603,7 +78873,8 @@
         "Distant Guard 1",
         "Distant Guard 2",
         "Distant Guard 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -77667,7 +78938,8 @@
         "Panic Smoke 1",
         "Panic Smoke 2",
         "Panic Smoke 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -77727,7 +78999,8 @@
         "Chill Spd 2",
         "Chill Spd 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -77787,7 +79060,8 @@
         "Live to Serve 2",
         "Live to Serve 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -77848,7 +79122,8 @@
         "Odd Def Wave 1",
         "Odd Def Wave 2",
         "Odd Def Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -77908,7 +79183,8 @@
         "Lull Atk/Def 2",
         "Lull Atk/Def 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -77976,7 +79252,8 @@
         "C Feud 1",
         "C Feud 2",
         "C Feud 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -78036,7 +79313,8 @@
         "Spur Def 1",
         "Spur Def 2",
         "Spur Def 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -78093,7 +79371,8 @@
         "Fortify Def 1",
         "Fortify Def 2",
         "Fortify Def 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -78153,7 +79432,8 @@
         "Infantry Pulse 1",
         "Infantry Pulse 2",
         "Infantry Pulse 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -78212,7 +79492,8 @@
         "Inf. Hexblade 1",
         "Inf. Hexblade 2",
         "Inf. Hexblade 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -78276,7 +79557,8 @@
         "Dazzling Staff 2",
         "Dazzling Staff 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -78336,7 +79618,8 @@
         "Infantry Pulse 1",
         "Infantry Pulse 2",
         "Infantry Pulse 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -78397,7 +79680,8 @@
         "Threaten Spd 1",
         "Threat. Atk/Spd 1",
         "Threat. Atk/Spd 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -78462,7 +79746,8 @@
         "Odd Spd Wave 1",
         "Odd Spd Wave 2",
         "Odd Spd Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -78523,7 +79808,8 @@
         "Rouse Spd/Def 1",
         "Rouse Spd/Def 2",
         "Rouse Spd/Def 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -78583,7 +79869,8 @@
         "Threaten Def 1",
         "Threat. Atk/Def 1",
         "Threat. Atk/Def 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -78643,7 +79930,8 @@
         "Even Def Wave 1",
         "Even Def Wave 2",
         "Even Def Wave 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -78707,7 +79995,8 @@
         "Spd Tactic 1",
         "Spd Tactic 2",
         "Spd Tactic 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -78771,7 +80060,8 @@
       ],
       "C": [
         "Everliving Domain"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -78835,7 +80125,8 @@
       ],
       "C": [
         "Everliving Domain"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -78897,7 +80188,8 @@
         "Sabotage Def 3",
         "Sabotage A/D 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -78962,7 +80254,8 @@
         "Atk/Def Gap 1",
         "Atk/Def Gap 2",
         "Atk/Def Gap 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -79027,7 +80320,8 @@
         "Lookout 2",
         "Lookout 3",
         "Active Lookout"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -79094,7 +80388,8 @@
         "Fatal Smoke 2",
         "Fatal Smoke 3",
         "Fatal Smoke 4"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -79158,7 +80453,8 @@
       "C": [
         "Chaos Named",
         "Chaos Named+"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -79222,7 +80518,8 @@
         "Time's Pulse 1",
         "Time's Pulse 2",
         "Time's Pulse 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -79286,7 +80583,8 @@
       ],
       "C": [
         "The True Dromi"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -79350,7 +80648,8 @@
       ],
       "C": [
         "Fetters of Dromi"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -79410,7 +80709,8 @@
         "Air Orders 1",
         "Air Orders 2",
         "Air Orders 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -79476,7 +80776,8 @@
         "Threat. Def/Res 1",
         "Threat. Def/Res 2",
         "Def/Res Menace"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -79536,7 +80837,8 @@
         "Atk/Spd Rein 1",
         "Atk/Spd Rein 2",
         "Atk/Spd Rein 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -79599,7 +80901,8 @@
         "Panic Ploy 1",
         "Panic Ploy 2",
         "Panic Ploy 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -79664,7 +80967,8 @@
         "Assault Troop 1",
         "Assault Troop 2",
         "Assault Troop 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -79724,7 +81028,8 @@
         "Spur Atk 1",
         "Drive Atk 1",
         "Drive Atk 2"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -79784,7 +81089,8 @@
         "Windsweep 2",
         "Windsweep 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -79844,7 +81150,8 @@
         "Wary Fighter 2",
         "Wary Fighter 3"
       ],
-      "C": []
+      "C": [],
+      "X": []
     }
   },
   {
@@ -79904,7 +81211,8 @@
         "Def/Res Gap 1",
         "Def/Res Gap 2",
         "Def/Res Gap 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -79964,7 +81272,8 @@
         "Spd/Def Gap 1",
         "Spd/Def Gap 2",
         "Spd/Def Gap 3"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -80036,7 +81345,8 @@
         "Threat. Atk/Def 1",
         "Threat. Atk/Def 2",
         "Atk/Def Menace"
-      ]
+      ],
+      "X": []
     }
   },
   {
@@ -80101,7 +81411,8 @@
         "A/D Near Save 2",
         "A/D Near Save 3",
         "A/D Twin N Save"
-      ]
+      ],
+      "X": []
     }
   }
 ]
