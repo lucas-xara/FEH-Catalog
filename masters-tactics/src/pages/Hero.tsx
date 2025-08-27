@@ -1,5 +1,5 @@
 // src/pages/Hero.tsx
-import { useParams, Link } from "react-router-dom";
+import { useParams, Link, useLocation, useNavigate } from "react-router-dom";
 import React, { useMemo, useState, useEffect } from "react";
 
 import heroesData from "../data/content/heroes-list.json";
@@ -95,6 +95,9 @@ const toPassiveMapFromLevels = (src: any): Record<string, any> => {
 // Página
 // —————————————————————————————————————————————
 export default function HeroPage() {
+  const navigate = useNavigate();
+  const location = useLocation();
+
   const { id } = useParams();
   const rawId = decodeURIComponent(id ?? "");
 
@@ -325,6 +328,18 @@ export default function HeroPage() {
     [statsLv1, growths]
   );
 
+  // Back relativo ao histórico (com fallback)
+  const canGoBack =
+    typeof window !== "undefined" &&
+    typeof window.history?.state?.idx === "number" &&
+    window.history.state.idx > 0;
+
+  const from = (location.state as any)?.from;
+  const backHref =
+    (from &&
+      `${from.pathname ?? ""}${from.search ?? ""}${from.hash ?? ""}`) ||
+    "/heroes";
+
   // UI helpers
   const metaLine = (info?: any): string => {
     if (!info) return "";
@@ -395,9 +410,18 @@ export default function HeroPage() {
 
   return (
     <div style={{ maxWidth: 960, margin: "24px auto", padding: "0 16px" }}>
-      <Link to="/heroes" style={{ textDecoration: "none" }}>
+      {/* ← Back relativo */}
+      <a
+        href={backHref}
+        onClick={(e) => {
+          e.preventDefault();
+          if (canGoBack) navigate(-1);
+          else navigate(backHref, { replace: true });
+        }}
+        style={{ textDecoration: "none" }}
+      >
         ← Back
-      </Link>
+      </a>
 
       <h1 style={{ marginTop: 12 }}>
         {name}
@@ -417,7 +441,6 @@ export default function HeroPage() {
           objectFit: "cover",
         }}
         onError={(e) => {
-          // fallback: try the next image if one fails to load
           const next = (picIdx + 1) % HERO_PICS.length;
           (e.currentTarget as HTMLImageElement).src = HERO_PICS[next];
         }}
@@ -439,7 +462,7 @@ export default function HeroPage() {
         }}
       >
         {/* Selectors rápidos */}
-        <div style={{ display: "flex", gap: 16, marginBottom: 12 }}>
+        <div style={{ display: "flex", gap: 16, marginBottom: 12, alignItems: "center" }}>
           <label>
             Dragonflowers:&nbsp;
             <select
@@ -478,33 +501,33 @@ export default function HeroPage() {
               </select>
             </label>
           )}
+
+          {/* Botões Reset / Max */}
+          <div style={{ marginLeft: "auto", display: "flex", gap: 8 }}>
+            <button
+              type="button"
+              onClick={() => {
+                setFlowers(0);
+                setMerges(0);
+                setResplendentOn(false);
+              }}
+            >
+              Reset
+            </button>
+
+            <button
+              type="button"
+              onClick={() => {
+                setFlowers(maxFlowers);
+                setMerges(10);
+                if (hasResplendent) setResplendentOn(true);
+              }}
+            >
+              Max
+            </button>
+          </div>
         </div>
 
-          {/* Botões SEMPRE visíveis */}
-  <div style={{ marginLeft: "auto", display: "flex", gap: 8 }}>
-    <button
-      type="button"
-      onClick={() => {
-        setFlowers(0);
-        setMerges(0);
-        setResplendentOn(false);
-      }}
-    >
-      Reset
-    </button>
-
-    <button
-      type="button"
-      onClick={() => {
-        setFlowers(maxFlowers);
-        setMerges(10);
-        if (hasResplendent) setResplendentOn(true);
-      }}
-    >
-      Max
-    </button>
-  </div>
-  
         {/* Stats */}
         <div style={{ fontWeight: 600, marginBottom: 8 }}>
           Level 40 (5★, neutral)
@@ -553,7 +576,7 @@ export default function HeroPage() {
           <div>
             {kit.weapon ? (
               <Link
-                to={`/weapons/${encodeURIComponent(weaponKey)}`}
+                to={`/weapons/${encodeURIComponent(weaponKey)}`} state={{ from: location }}
                 style={{ textDecoration: "none" }}
               >
                 {kit.weapon}
@@ -586,7 +609,7 @@ export default function HeroPage() {
           <div>
             {kit.assist ? (
               <Link
-                to={`/assists/${encodeURIComponent(assistKey)}`}
+                to={`/assists/${encodeURIComponent(assistKey)}`} state={{ from: location }}
                 style={{ textDecoration: "none" }}
               >
                 {kit.assist}
@@ -613,7 +636,7 @@ export default function HeroPage() {
           <div>
             {kit.special ? (
               <Link
-                to={`/specials/${encodeURIComponent(specialKey)}`}
+                to={`/specials/${encodeURIComponent(specialKey)}`} state={{ from: location }}
                 style={{ textDecoration: "none" }}
               >
                 {kit.special}
@@ -640,7 +663,7 @@ export default function HeroPage() {
           <div>
             {kit.A ? (
               <Link
-                to={`/skills/${encodeURIComponent(aKey)}`}
+                to={`/skills/${encodeURIComponent(aKey)}`} state={{ from: location }}
                 style={{ textDecoration: "none" }}
               >
                 {kit.A}
@@ -654,7 +677,7 @@ export default function HeroPage() {
           <div>
             {kit.B ? (
               <Link
-                to={`/skills/${encodeURIComponent(bKey)}`}
+                to={`/skills/${encodeURIComponent(bKey)}`} state={{ from: location }}
                 style={{ textDecoration: "none" }}
               >
                 {kit.B}
@@ -668,7 +691,7 @@ export default function HeroPage() {
           <div>
             {kit.C ? (
               <Link
-                to={`/skills/${encodeURIComponent(cKey)}`}
+                to={`/skills/${encodeURIComponent(cKey)}`} state={{ from: location }}
                 style={{ textDecoration: "none" }}
               >
                 {kit.C}
@@ -682,7 +705,7 @@ export default function HeroPage() {
           <div>
             {kit.X ? (
               <Link
-                to={`/skills/${encodeURIComponent(xKey)}`}
+                to={`/skills/${encodeURIComponent(xKey)}`} state={{ from: location }}
                 style={{ textDecoration: "none" }}
               >
                 {kit.X}

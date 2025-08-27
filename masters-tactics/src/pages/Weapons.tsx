@@ -104,7 +104,7 @@ export default function WeaponsPage() {
           >
             <div>
               <Link
-                to={`/weapons/${encodeURIComponent(it.sid)}`}
+                to={`/weapons/${encodeURIComponent(w.sid)}`} state={{ from: location }}
                 style={{ textDecoration: "none" }}
               >
                 {it.name}

@@ -1,5 +1,5 @@
 // src/pages/Skill.tsx
-import { useParams, Link } from "react-router-dom";
+import { useParams, useLocation, useNavigate } from "react-router-dom";
 import { useMemo } from "react";
 
 import passives from "../data/content/passives-list.json";
@@ -60,25 +60,21 @@ function pickName(obj: any): string | undefined {
   return typeof v === "string" && v.trim() ? String(v) : undefined;
 }
 
-// >>> atualizado: reconhece A/B/C e também S (Seals) e X (Echo)
+// Reconhece A/B/C/S (Seals) e X (Echo)
 function pickSlot(obj: any): string | undefined {
   const raw =
     obj?.slot ?? obj?.Slot ?? obj?.type ?? obj?.Type ?? obj?.category ?? obj?.Category;
   if (!raw) return undefined;
   const up = String(raw).trim().toUpperCase();
 
-  // A/B/C simples ou "Passive A/B/C"
   if (/^(?:PASSIVE\s*)?A$/.test(up)) return "A";
   if (/^(?:PASSIVE\s*)?B$/.test(up)) return "B";
   if (/^(?:PASSIVE\s*)?C$/.test(up)) return "C";
 
-  // Selo: "S" | "Passive S" | "Seal" | "Sacred Seal"
   if (/^(?:PASSIVE\s*)?S$/.test(up) || /\bSEAL\b/.test(up) || /\bSACRED\s*SEAL\b/.test(up)) return "S";
 
-  // Echo/X: "X" | "Passive X" | contém "Echo"
   if (/^(?:PASSIVE\s*)?X$/.test(up) || /\bECHO\b/.test(up)) return "X";
 
-  // fallback: mantém texto original
   return String(raw).trim();
 }
 
@@ -104,12 +100,11 @@ function toFlatList(src: any): FlatSkill[] {
 
     const slot = pickSlot(base);
 
-    // Com levels → cria entradas por nível (Catch 1/2/3/4 etc.)
     if (Array.isArray((base as any).levels) && (base as any).levels.length) {
       for (const lv of (base as any).levels) {
         const name = pickName(lv) ?? pickName(base);
         if (!name) continue;
-        // >>> chave com fallback para tagid (ex.: S e X frequentemente não têm id/sid)
+        // chave com fallback para tagid (S e X muitas vezes usam isso)
         const key = String(lv?.id ?? lv?.sid ?? lv?.tagid ?? name);
         out.push({
           key,
@@ -119,7 +114,6 @@ function toFlatList(src: any): FlatSkill[] {
           desc: pickDesc(base, lv),
           stats: readStatMods5(lv?.statModifiers ?? lv?.stats),
         });
-        // mapeia altNames para a mesma entrada (acesso por URL)
         if (Array.isArray(lv?.altNames)) {
           for (const alt of lv.altNames) {
             if (typeof alt === "string" && alt.trim()) {
@@ -138,7 +132,7 @@ function toFlatList(src: any): FlatSkill[] {
       return;
     }
 
-    // Sem levels: cria uma única entrada
+    // Sem levels
     const name = pickName(base);
     if (!name) return;
     const key = String(base.id ?? base.sid ?? (base as any)?.tagid ?? name);
@@ -170,7 +164,6 @@ function toFlatList(src: any): FlatSkill[] {
   if (Array.isArray(src)) for (const it of src) push(it);
   else if (typeof src === "object") for (const v of Object.values(src)) push(v);
 
-  // remove duplicatas de chave mantendo a primeira
   const seen = new Set<string>();
   return out.filter((row) => (seen.has(row.key) ? false : (seen.add(row.key), true)));
 }
@@ -183,6 +176,9 @@ function formatMods(arr?: number[]): string {
 }
 
 export default function SkillPage() {
+  const navigate = useNavigate();
+  const location = useLocation();
+
   const { id } = useParams();
   const key = decodeURIComponent(id ?? "");
 
@@ -190,23 +186,55 @@ export default function SkillPage() {
   const skill = useMemo(
     () =>
       list.find((s) => s.key === key) ||
-      // fallback por nome exato (se navegar por nome)
-      list.find((s) => s.name === key),
+      list.find((s) => s.name === key), // fallback por nome
     [list, key]
   );
+
+  // Back relativo ao histórico (fallback para /skills)
+  const canGoBack =
+    typeof window !== "undefined" &&
+    typeof window.history?.state?.idx === "number" &&
+    window.history.state.idx > 0;
+
+  const from = (location.state as any)?.from;
+  const backHref =
+    (from && `${from.pathname ?? ""}${from.search ?? ""}${from.hash ?? ""}`) ||
+    "/skills";
 
   if (!skill) {
     return (
       <div style={{ maxWidth: 960, margin: "24px auto", padding: "0 16px" }}>
+        <a
+          href={backHref}
+          onClick={(e) => {
+            e.preventDefault();
+            if (canGoBack) navigate(-1);
+            else navigate(backHref, { replace: true });
+          }}
+          style={{ textDecoration: "none" }}
+        >
+          ← Voltar
+        </a>
         <p>Skill não encontrada.</p>
-        <Link to="/skills">← Voltar</Link>
       </div>
     );
   }
 
   return (
     <div style={{ maxWidth: 960, margin: "24px auto", padding: "0 16px" }}>
-      <Link to="/skills">← Voltar</Link>
+      {/* ← Back relativo */}
+      <a
+        href={backHref}
+        onClick={(e) => {
+          e.preventDefault();
+          if (canGoBack) navigate(-1);
+          else navigate(backHref, { replace: true });
+        }}
+        style={{ textDecoration: "none" }}
+      >
+        ← Voltar
+      </a>
+
       <h2 style={{ marginTop: 12 }}>{skill.name}</h2>
       <div style={{ opacity: 0.8, marginBottom: 8 }}>
         Slot: {skill.slot ?? "—"}{skill.sp != null ? ` • SP ${skill.sp}` : ""}

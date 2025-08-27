@@ -1,5 +1,5 @@
 // src/pages/Weapon.tsx
-import { useParams, Link } from "react-router-dom";
+import { useParams, Link, useLocation, useNavigate } from "react-router-dom";
 import React, { useMemo } from "react";
 
 import weaponsData from "../data/content/weapons-list.json";
@@ -60,7 +60,7 @@ function getTypeLabel(w: RefinedWeapon): string {
     w.type ?? w.Type;
   if (direct && String(direct).trim()) return String(direct).trim();
 
-  const klass = w.weaponClass ?? w.class ?? w.Class;
+  const klass = w.weaponClass ?? (w as any).class ?? (w as any).Class;
   const color = w.color ?? w.Color;
   if (klass && color) return `${color} ${klass}`;
   if (klass) return String(klass);
@@ -101,7 +101,7 @@ function getDescription(w: RefinedWeapon): string {
     (w.extraSkills && typeof w.extraSkills === "object"
       ? (Array.isArray(w.extraSkills)
           ? w.extraSkills.map((x: any) => x?.effectSkill).find((s: any) => typeof s === "string" && s.trim())
-          : w.extraSkills.effectSkill)
+          : (w.extraSkills as any).effectSkill)
       : undefined);
   return (typeof d === "string" && d.trim()) ? d : "—";
 }
@@ -111,15 +111,15 @@ function readStatMods5(src: any): number[] | undefined {
   const arr = Array.isArray(src) ? src.slice(0, 5) :
     (typeof src === "object"
       ? [
-          num(src.hp ?? src.HP ?? 0) ?? 0,
-          num(src.atk ?? src.ATK ?? 0) ?? 0,
-          num(src.spd ?? src.SPD ?? 0) ?? 0,
-          num(src.def ?? src.DEF ?? 0) ?? 0,
-          num(src.res ?? src.RES ?? 0) ?? 0,
+          num((src as any).hp ?? (src as any).HP ?? 0) ?? 0,
+          num((src as any).atk ?? (src as any).ATK ?? 0) ?? 0,
+          num((src as any).spd ?? (src as any).SPD ?? 0) ?? 0,
+          num((src as any).def ?? (src as any).DEF ?? 0) ?? 0,
+          num((src as any).res ?? (src as any).RES ?? 0) ?? 0,
         ]
       : undefined);
   if (!arr || arr.length < 5) return undefined;
-  return arr.map((v: any, i: number) => (Number.isFinite(Number(v)) ? Number(v) : 0)).slice(0, 5);
+  return arr.map((v: any) => (Number.isFinite(Number(v)) ? Number(v) : 0)).slice(0, 5);
 }
 
 function formatMods(arr?: number[]): string {
@@ -157,7 +157,7 @@ function normalizeRefines(w: RefinedWeapon): RefineRow[] {
     }
   } else if (typeof ref === "object") {
     for (const k of Object.keys(ref)) {
-      const r = ref[k];
+      const r = (ref as any)[k];
       const text = pickText(r);
       const stats = pickStats(r);
       const isEffect = k.toLowerCase() === "effect" || Boolean(text && !stats);
@@ -171,6 +171,8 @@ function normalizeRefines(w: RefinedWeapon): RefineRow[] {
 export default function WeaponPage() {
   const { id } = useParams();
   const key = decodeURIComponent(id ?? "");
+  const location = useLocation();
+  const navigate = useNavigate();
 
   // Achamos o item no refinado (por sid/id; fallback por nome)
   const { weapon, flat } = useMemo(() => {
@@ -184,11 +186,33 @@ export default function WeaponPage() {
     return { weapon: byId ?? byName, flat };
   }, [key]);
 
+  // Back relativo ao histórico (com fallback para /weapons)
+  const canGoBack =
+    typeof window !== "undefined" &&
+    typeof window.history?.state?.idx === "number" &&
+    window.history.state.idx > 0;
+
+  const from = (location.state as any)?.from;
+  const backHref =
+    (from &&
+      `${from.pathname ?? ""}${from.search ?? ""}${from.hash ?? ""}`) ||
+    "/weapons";
+
   if (!weapon) {
     return (
       <div style={{ maxWidth: 960, margin: "24px auto", padding: "0 16px" }}>
+        <a
+          href={backHref}
+          onClick={(e) => {
+            e.preventDefault();
+            if (canGoBack) navigate(-1);
+            else navigate(backHref, { replace: true });
+          }}
+          style={{ textDecoration: "none" }}
+        >
+          ← Back
+        </a>
         <p>Weapon not found.</p>
-        <Link to="/weapons">← Back</Link>
       </div>
     );
   }
@@ -203,7 +227,19 @@ export default function WeaponPage() {
 
   return (
     <div style={{ maxWidth: 960, margin: "24px auto", padding: "0 16px" }}>
-      <Link to="/weapons" style={{ textDecoration: "none" }}>← Back</Link>
+      {/* ← Back relativo */}
+      <a
+        href={backHref}
+        onClick={(e) => {
+          e.preventDefault();
+          if (canGoBack) navigate(-1);
+          else navigate(backHref, { replace: true });
+        }}
+        style={{ textDecoration: "none" }}
+      >
+        ← Back
+      </a>
+
       <h1 style={{ marginTop: 12 }}>{name}</h1>
 
       <div
