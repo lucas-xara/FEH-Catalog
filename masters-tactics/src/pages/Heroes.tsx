@@ -7,7 +7,10 @@ import HeroCard from "../components/HeroCard";
 import type { Hero } from "../types";
 import HeroFilters from "../components/HeroFilters";
 import type { HeroFilterState } from "../components/HeroFilters";
-import { parseOriginListCanonical, buildOriginOptionsFromHeroes } from "../adapters/originFix";
+import {
+  parseOriginListCanonical,
+  buildOriginOptionsFromHeroes,
+} from "../adapters/originFix";
 
 // ————————————————————————————————————————
 // Helpers
@@ -16,18 +19,18 @@ type RefinedHero = {
   infobox: {
     Name: string;
     Title: string;
-    WeaponType: string;   // e.g. "Blue Lance", "Red Tome", "Colorless Bow"
-    MoveType: string;     // e.g. "Infantry", "Cavalry", "Armor", "Flying"
-    Origin?: string | null;  // pode vir "Blazing Blade, Binding Blade"
+    WeaponType: string;
+    MoveType: string;
+    Origin?: string | null;
     releaseDate?: string | null;
     poolRarities?: string | null;
-    Properties?: string | null; // e.g. "limited, ghb, demoted, rearmed, specDisplay..."
+    Properties?: string | null;
   };
   stats?: any;
   weapons?: string[];
   assists?: string[];
   specials?: string[];
-  passives?: Record<"A"|"B"|"C", string[]>;
+  passives?: Record<"A" | "B" | "C", string[]>;
 };
 
 const KNOWN_COLORS = new Set(["Red", "Blue", "Green", "Colorless"]);
@@ -43,22 +46,20 @@ type LocalHero = Hero & {
   entryId?: number;
 };
 
-/** "Blue Lance" -> { color: "Blue", weapon: "Lance" } */
 function parseWeaponType(weaponType: string | undefined) {
   const s = (weaponType ?? "").trim().split(/\s+/);
   const color = s.length > 0 && KNOWN_COLORS.has(s[0]) ? s[0] : "";
-  const weapon = color ? s.slice(1).join(" ") : (weaponType ?? "");
+  const weapon = color ? s.slice(1).join(" ") : weaponType ?? "";
   return { color, weapon };
 }
 
-/** Ex.: "limited, ghb, demoted" -> Set{"limited","ghb","demoted"} */
 function parseProperties(props: string | null | undefined) {
   const set = new Set<string>();
   (props ?? "")
     .split(",")
-    .map(s => s.trim())
+    .map((s) => s.trim())
     .filter(Boolean)
-    .forEach(t => set.add(t));
+    .forEach((t) => set.add(t));
   return set;
 }
 
@@ -67,7 +68,7 @@ function parseProperties(props: string | null | undefined) {
 // ————————————————————————————————————————
 export default function HeroesPage() {
   const location = useLocation();
-  const [searchParams, setSearchParams] = useSearchParams();
+  const [searchParams, setSearchParams] = useSearchParams(); // ← apenas UMA vez
 
   // Converte o JSON refinado em nossa lista de heróis básicos
   const baseHeroes = useMemo<LocalHero[]>(() => {
@@ -77,7 +78,6 @@ export default function HeroesPage() {
       const tags = parseProperties(ib.Properties);
       const originList = parseOriginListCanonical(ib.Origin);
 
-      // id único e estável: "Name (Title)"
       const id = `${ib.Name} (${ib.Title})`;
 
       const hero: LocalHero = {
@@ -100,7 +100,7 @@ export default function HeroesPage() {
     return arr;
   }, []);
 
-  // Opções dinâmicas dos selects (a partir do refinado)
+  // Opções dinâmicas
   const weaponOptions = useMemo(() => {
     const s = new Set<string>();
     for (const h of baseHeroes) if (h.weaponType) s.add(h.weaponType);
@@ -113,29 +113,48 @@ export default function HeroesPage() {
     return Array.from(s).sort();
   }, [baseHeroes]);
 
-  // Agora usa a ordem canônica definida em originFix.ts
   const originOptions = useMemo(
     () => buildOriginOptionsFromHeroes(baseHeroes),
     [baseHeroes]
   );
 
   // ————————————————————————————————————————
-  // Persistência dos filtros na URL (q, color, weapon, move, origin, availability, resplendent, entryOrder)
+  // Persistência dos filtros na URL
   // ————————————————————————————————————————
+  const INITIAL_FILTERS: HeroFilterState = {
+    q: "",
+    color: "Any",
+    weapon: "Any",
+    move: "Any",
+    origin: "Any",
+    availability: "Any",
+    resplendent: "Any",
+    entryOrder: "Default",
+  };
+
   const readParam = (key: string, fallback: string) => {
     const v = searchParams.get(key);
     return v != null ? v : fallback;
   };
 
   const paramsToFilters = (): HeroFilterState => ({
-    q:            readParam("q",            ""),
-    color:        readParam("color",        "Any") as HeroFilterState["color"],
-    weapon:       readParam("weapon",       "Any") as HeroFilterState["weapon"],
-    move:         readParam("move",         "Any") as HeroFilterState["move"],
-    origin:       readParam("origin",       "Any") as HeroFilterState["origin"],
-    availability: readParam("availability", "Any") as HeroFilterState["availability"],
-    resplendent:  readParam("resplendent",  "Any") as HeroFilterState["resplendent"],
-    entryOrder:   readParam("entryOrder",   "Default") as HeroFilterState["entryOrder"],
+    q: readParam("q", ""),
+    color: readParam("color", "Any") as HeroFilterState["color"],
+    weapon: readParam("weapon", "Any") as HeroFilterState["weapon"],
+    move: readParam("move", "Any") as HeroFilterState["move"],
+    origin: readParam("origin", "Any") as HeroFilterState["origin"],
+    availability: readParam(
+      "availability",
+      "Any"
+    ) as HeroFilterState["availability"],
+    resplendent: readParam(
+      "resplendent",
+      "Any"
+    ) as HeroFilterState["resplendent"],
+    entryOrder: readParam(
+      "entryOrder",
+      "Default"
+    ) as HeroFilterState["entryOrder"],
   });
 
   const filtersToParams = (f: HeroFilterState) => {
@@ -151,21 +170,22 @@ export default function HeroesPage() {
     return next;
   };
 
-  // Estado dos filtros (mantém shape esperado por <HeroFilters />)
-  const [filters, setFilters] = useState<HeroFilterState>(() => paramsToFilters());
+  // Estado dos filtros — inicia a partir da URL (evita flash)
+  const [filters, setFilters] = useState<HeroFilterState>(() =>
+    paramsToFilters()
+  );
 
   // Sincroniza quando a URL mudar (ex.: voltar/avançar)
   useEffect(() => {
     const incoming = paramsToFilters();
-    const same =
-      JSON.stringify(incoming) === JSON.stringify(filters);
+    const same = JSON.stringify(incoming) === JSON.stringify(filters);
     if (!same) setFilters(incoming);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [searchParams]);
 
   // Atualiza estado + URL quando filtros mudarem via UI
   const applyFilters = (patch: Partial<HeroFilterState>) => {
-    setFilters(prev => {
+    setFilters((prev) => {
       const next = { ...prev, ...patch };
       setSearchParams(filtersToParams(next), { replace: true });
       return next;
@@ -177,42 +197,39 @@ export default function HeroesPage() {
     const q = filters.q.trim().toLowerCase();
 
     let list = baseHeroes.filter((h: LocalHero) => {
-      // texto
       if (q) {
         const name = (h.name || h.id).toLowerCase();
         const title = (h.title || "").toLowerCase();
         if (!name.includes(q) && !title.includes(q)) return false;
       }
 
-      // cor
       if (filters.color !== "Any" && h.color !== filters.color) return false;
-
-      // arma (classe)
-      if (filters.weapon !== "Any" && h.weaponType !== filters.weapon) return false;
-
-      // movimento
+      if (filters.weapon !== "Any" && h.weaponType !== filters.weapon)
+        return false;
       if (filters.move !== "Any" && h.moveType !== filters.move) return false;
 
-      // origem (aceita QUALQUER uma das origens do herói, já canônicas)
       if (filters.origin !== "Any") {
         const f = String(filters.origin).trim().toLowerCase();
-        const has = (h.originList ?? []).some(o => o.trim().toLowerCase() === f);
+        const has = (h.originList ?? []).some(
+          (o) => o.trim().toLowerCase() === f
+        );
         if (!has) return false;
       }
 
-      // availability → baseado nos "Properties"
       if (filters.availability !== "Any") {
         const tag = String(filters.availability).toLowerCase();
-        const has = h.tags && [...h.tags].some((t: string) => t.toLowerCase() === tag);
+        const has =
+          h.tags && [...h.tags].some((t: string) => t.toLowerCase() === tag);
         if (!has) return false;
       }
 
       return true;
     });
 
-    // Ordenação por entryId (opcional)
     if (filters.entryOrder === "ID Asc") {
-      list = list.slice().sort((a, b) => (a.entryId ?? 1e9) - (b.entryId ?? 1e9));
+      list = list
+        .slice()
+        .sort((a, b) => (a.entryId ?? 1e9) - (b.entryId ?? 1e9));
     } else if (filters.entryOrder === "ID Desc") {
       list = list.slice().sort((a, b) => (b.entryId ?? -1) - (a.entryId ?? -1));
     }
@@ -222,16 +239,29 @@ export default function HeroesPage() {
 
   return (
     <div>
-      <HeroFilters
-        state={filters}
-        onChange={(next) => applyFilters(next)}
-        weaponOptions={weaponOptions}
-        moveOptions={moveOptions}
-        originOptions={originOptions}
-      />
+      <div>
+        <HeroFilters
+          state={filters}
+          onChange={(next) => applyFilters(next)}
+          weaponOptions={weaponOptions}
+          moveOptions={moveOptions}
+          originOptions={originOptions}
+        />
+        <button
+          type="button"
+          onClick={() => {
+            setFilters(INITIAL_FILTERS);
+            setSearchParams({}, { replace: true });
+          }}
+          style={{ margin: "8px 0" }}
+        >
+          Clean
+        </button>
+      </div>
 
       <div style={{ maxWidth: 960, margin: "16px auto", padding: "0 16px" }}>
         <h1>Masters Tactics</h1>
+
         <p style={{ marginTop: -8, opacity: 0.8 }}>
           Heroes — {filtered.length} resultados
         </p>
@@ -241,8 +271,12 @@ export default function HeroesPage() {
             <Link
               key={h.id}
               to={`/heroes/${encodeURIComponent(h.id)}`}
-              state={{ from: location }}
-              style={{ textDecoration: "none", color: "inherit", display: "block" }}
+              state={{ from: location }} // backlink relativo
+              style={{
+                textDecoration: "none",
+                color: "inherit",
+                display: "block",
+              }}
             >
               <HeroCard hero={h} />
             </Link>
