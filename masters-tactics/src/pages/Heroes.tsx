@@ -1,6 +1,6 @@
 // src/pages/HeroesPage.tsx
-import { useMemo, useState } from "react";
-import { Link } from "react-router-dom";
+import { useMemo, useState, useEffect } from "react";
+import { Link, useLocation, useSearchParams } from "react-router-dom";
 
 import heroesData from "../data/content/heroes-list.json";
 import HeroCard from "../components/HeroCard";
@@ -35,8 +35,8 @@ const KNOWN_COLORS = new Set(["Red", "Blue", "Green", "Colorless"]);
 // >>> tipos extras para este arquivo
 type Color = "Red" | "Blue" | "Green" | "Colorless";
 type LocalHero = Hero & {
-  origin?: string;         // string original
-  originList?: string[];   // lista normalizada de jogos (canônica)
+  origin?: string;
+  originList?: string[];
   releaseDate?: string;
   color?: Color;
   tags?: Set<string>;
@@ -66,13 +66,16 @@ function parseProperties(props: string | null | undefined) {
 // Página
 // ————————————————————————————————————————
 export default function HeroesPage() {
+  const location = useLocation();
+  const [searchParams, setSearchParams] = useSearchParams();
+
   // Converte o JSON refinado em nossa lista de heróis básicos
   const baseHeroes = useMemo<LocalHero[]>(() => {
     const arr = (heroesData as RefinedHero[]).map((h, idx) => {
       const ib = h.infobox ?? ({} as RefinedHero["infobox"]);
       const { color, weapon } = parseWeaponType(ib.WeaponType);
       const tags = parseProperties(ib.Properties);
-      const originList = parseOriginListCanonical(ib.Origin); // ← usa canonicalização
+      const originList = parseOriginListCanonical(ib.Origin);
 
       // id único e estável: "Name (Title)"
       const id = `${ib.Name} (${ib.Title})`;
@@ -82,9 +85,9 @@ export default function HeroesPage() {
         name: ib.Name,
         title: ib.Title,
         origin: ib.Origin ?? "",
-        originList,                          // ← salva lista canônica
-        weaponType: weapon,                  // ex.: "Lance", "Tome", "Bow", ...
-        moveType: ib.MoveType,               // ex.: "Infantry", "Cavalry", "Armor", "Flying"
+        originList,
+        weaponType: weapon,
+        moveType: ib.MoveType,
         color: (color || "Colorless") as Color,
         releaseDate: ib.releaseDate ?? undefined,
         entryId: idx + 1,
@@ -116,17 +119,58 @@ export default function HeroesPage() {
     [baseHeroes]
   );
 
-  // Estado dos filtros (mantém shape esperado por <HeroFilters />)
-  const [filters, setFilters] = useState<HeroFilterState>({
-    q: "",
-    color: "Any",
-    weapon: "Any",
-    move: "Any",
-    origin: "Any",
-    availability: "Any",
-    resplendent: "Any",
-    entryOrder: "Default"
+  // ————————————————————————————————————————
+  // Persistência dos filtros na URL (q, color, weapon, move, origin, availability, resplendent, entryOrder)
+  // ————————————————————————————————————————
+  const readParam = (key: string, fallback: string) => {
+    const v = searchParams.get(key);
+    return v != null ? v : fallback;
+  };
+
+  const paramsToFilters = (): HeroFilterState => ({
+    q:            readParam("q",            ""),
+    color:        readParam("color",        "Any") as HeroFilterState["color"],
+    weapon:       readParam("weapon",       "Any") as HeroFilterState["weapon"],
+    move:         readParam("move",         "Any") as HeroFilterState["move"],
+    origin:       readParam("origin",       "Any") as HeroFilterState["origin"],
+    availability: readParam("availability", "Any") as HeroFilterState["availability"],
+    resplendent:  readParam("resplendent",  "Any") as HeroFilterState["resplendent"],
+    entryOrder:   readParam("entryOrder",   "Default") as HeroFilterState["entryOrder"],
   });
+
+  const filtersToParams = (f: HeroFilterState) => {
+    const next = new URLSearchParams();
+    if (f.q) next.set("q", f.q);
+    if (f.color !== "Any") next.set("color", f.color);
+    if (f.weapon !== "Any") next.set("weapon", f.weapon);
+    if (f.move !== "Any") next.set("move", f.move);
+    if (f.origin !== "Any") next.set("origin", f.origin);
+    if (f.availability !== "Any") next.set("availability", f.availability);
+    if (f.resplendent !== "Any") next.set("resplendent", f.resplendent);
+    if (f.entryOrder !== "Default") next.set("entryOrder", f.entryOrder);
+    return next;
+  };
+
+  // Estado dos filtros (mantém shape esperado por <HeroFilters />)
+  const [filters, setFilters] = useState<HeroFilterState>(() => paramsToFilters());
+
+  // Sincroniza quando a URL mudar (ex.: voltar/avançar)
+  useEffect(() => {
+    const incoming = paramsToFilters();
+    const same =
+      JSON.stringify(incoming) === JSON.stringify(filters);
+    if (!same) setFilters(incoming);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [searchParams]);
+
+  // Atualiza estado + URL quando filtros mudarem via UI
+  const applyFilters = (patch: Partial<HeroFilterState>) => {
+    setFilters(prev => {
+      const next = { ...prev, ...patch };
+      setSearchParams(filtersToParams(next), { replace: true });
+      return next;
+    });
+  };
 
   // Filtragem
   const filtered = useMemo(() => {
@@ -180,7 +224,7 @@ export default function HeroesPage() {
     <div>
       <HeroFilters
         state={filters}
-        onChange={(next) => setFilters(prev => ({ ...prev, ...next }))}
+        onChange={(next) => applyFilters(next)}
         weaponOptions={weaponOptions}
         moveOptions={moveOptions}
         originOptions={originOptions}
@@ -197,6 +241,7 @@ export default function HeroesPage() {
             <Link
               key={h.id}
               to={`/heroes/${encodeURIComponent(h.id)}`}
+              state={{ from: location }}
               style={{ textDecoration: "none", color: "inherit", display: "block" }}
             >
               <HeroCard hero={h} />
