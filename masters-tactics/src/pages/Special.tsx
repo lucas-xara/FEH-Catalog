@@ -1,12 +1,17 @@
 // src/pages/Special.tsx
 import { useParams, useLocation, useNavigate } from "react-router-dom";
-import React, { useMemo } from "react";
+import { useMemo } from "react";
 import specials from "../data/content/specials-list.json";
 
-function unwrap(x: any) { return x?.Special ?? x?.special ?? x; }
+function unwrap(x: any) {
+  return x?.Special ?? x?.special ?? x;
+}
 function toFlat(src: any) {
   const out: any[] = [];
-  const push = (it: any) => { const a = unwrap(it); if (a && typeof a === "object") out.push(a); };
+  const push = (it: any) => {
+    const a = unwrap(it);
+    if (a && typeof a === "object") out.push(a);
+  };
   if (Array.isArray(src)) src.forEach(push);
   else Object.values(src as any).forEach(push);
   return out;
@@ -24,7 +29,7 @@ function meta(s: any) {
 }
 function desc(s: any) {
   const d = s?.desc ?? s?.description ?? s?.Effect ?? s?.effect;
-  return (typeof d === "string" && d.trim()) ? d : "—";
+  return typeof d === "string" && d.trim() ? d : "—";
 }
 
 export default function SpecialPage() {
@@ -37,8 +42,8 @@ export default function SpecialPage() {
   const flat = useMemo(() => toFlat(specials), []);
   const a = useMemo(
     () =>
-      flat.find(x => String(x.id ?? x.sid ?? x.name ?? x.Name) === key) ||
-      flat.find(x => String(x.name ?? x.Name) === key),
+      flat.find((x) => String(x.id ?? x.sid ?? x.name ?? x.Name) === key) ||
+      flat.find((x) => String(x.name ?? x.Name) === key),
     [flat, key]
   );
 

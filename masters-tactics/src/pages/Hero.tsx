@@ -336,8 +336,7 @@ export default function HeroPage() {
 
   const from = (location.state as any)?.from;
   const backHref =
-    (from &&
-      `${from.pathname ?? ""}${from.search ?? ""}${from.hash ?? ""}`) ||
+    (from && `${from.pathname ?? ""}${from.search ?? ""}${from.hash ?? ""}`) ||
     "/heroes";
 
   // UI helpers
@@ -462,7 +461,14 @@ export default function HeroPage() {
         }}
       >
         {/* Selectors rápidos */}
-        <div style={{ display: "flex", gap: 16, marginBottom: 12, alignItems: "center" }}>
+        <div
+          style={{
+            display: "flex",
+            gap: 16,
+            marginBottom: 12,
+            alignItems: "center",
+          }}
+        >
           <label>
             Dragonflowers:&nbsp;
             <select
@@ -576,7 +582,8 @@ export default function HeroPage() {
           <div>
             {kit.weapon ? (
               <Link
-                to={`/weapons/${encodeURIComponent(weaponKey)}`} state={{ from: location }}
+                to={`/weapons/${encodeURIComponent(weaponKey)}`}
+                state={{ from: location }}
                 style={{ textDecoration: "none" }}
               >
                 {kit.weapon}
@@ -609,7 +616,8 @@ export default function HeroPage() {
           <div>
             {kit.assist ? (
               <Link
-                to={`/assists/${encodeURIComponent(assistKey)}`} state={{ from: location }}
+                to={`/assists/${encodeURIComponent(assistKey)}`}
+                state={{ from: location }}
                 style={{ textDecoration: "none" }}
               >
                 {kit.assist}
@@ -636,7 +644,8 @@ export default function HeroPage() {
           <div>
             {kit.special ? (
               <Link
-                to={`/specials/${encodeURIComponent(specialKey)}`} state={{ from: location }}
+                to={`/specials/${encodeURIComponent(specialKey)}`}
+                state={{ from: location }}
                 style={{ textDecoration: "none" }}
               >
                 {kit.special}
@@ -663,7 +672,8 @@ export default function HeroPage() {
           <div>
             {kit.A ? (
               <Link
-                to={`/skills/${encodeURIComponent(aKey)}`} state={{ from: location }}
+                to={`/skills/${encodeURIComponent(aKey)}`}
+                state={{ from: location }}
                 style={{ textDecoration: "none" }}
               >
                 {kit.A}
@@ -677,7 +687,8 @@ export default function HeroPage() {
           <div>
             {kit.B ? (
               <Link
-                to={`/skills/${encodeURIComponent(bKey)}`} state={{ from: location }}
+                to={`/skills/${encodeURIComponent(bKey)}`}
+                state={{ from: location }}
                 style={{ textDecoration: "none" }}
               >
                 {kit.B}
@@ -691,7 +702,8 @@ export default function HeroPage() {
           <div>
             {kit.C ? (
               <Link
-                to={`/skills/${encodeURIComponent(cKey)}`} state={{ from: location }}
+                to={`/skills/${encodeURIComponent(cKey)}`}
+                state={{ from: location }}
                 style={{ textDecoration: "none" }}
               >
                 {kit.C}
@@ -705,7 +717,8 @@ export default function HeroPage() {
           <div>
             {kit.X ? (
               <Link
-                to={`/skills/${encodeURIComponent(xKey)}`} state={{ from: location }}
+                to={`/skills/${encodeURIComponent(xKey)}`}
+                state={{ from: location }}
                 style={{ textDecoration: "none" }}
               >
                 {kit.X}

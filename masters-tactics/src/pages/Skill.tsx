@@ -6,26 +6,45 @@ import passives from "../data/content/passives-list.json";
 
 // Tipos tolerantes para variações do refinado
 type RawPassive = {
-  id?: string; Id?: string; sid?: string; SID?: string;
-  name?: string; Name?: string;
-  slot?: string; Slot?: string; type?: string; Type?: string; category?: string; Category?: string;
-  sp?: number; SP?: number; cost?: number; Cost?: number;
-  desc?: string; Desc?: string; description?: string; Description?: string; effect?: string; Effect?: string;
-  statModifiers?: any; stats?: any;
+  id?: string;
+  Id?: string;
+  sid?: string;
+  SID?: string;
+  name?: string;
+  Name?: string;
+  slot?: string;
+  Slot?: string;
+  type?: string;
+  Type?: string;
+  category?: string;
+  Category?: string;
+  sp?: number;
+  SP?: number;
+  cost?: number;
+  Cost?: number;
+  desc?: string;
+  Desc?: string;
+  description?: string;
+  Description?: string;
+  effect?: string;
+  Effect?: string;
+  statModifiers?: any;
+  stats?: any;
   exclusive?: boolean | number | string;
   altNames?: string[];
   levels?: any[];
 
-  Passive?: any; passive?: any; // wrappers ocasionais
+  Passive?: any;
+  passive?: any; // wrappers ocasionais
 };
 
 type FlatSkill = {
-  key: string;            // id/sid/tagid/name normalizado para URL
+  key: string; // id/sid/tagid/name normalizado para URL
   name: string;
-  slot?: string;          // "A" | "B" | "C" | "S" | "X" | outro texto
+  slot?: string; // "A" | "B" | "C" | "S" | "X" | outro texto
   sp?: number;
   desc?: string;
-  stats?: number[];       // [HP, ATK, SPD, DEF, RES] se existir
+  stats?: number[]; // [HP, ATK, SPD, DEF, RES] se existir
 };
 
 function unwrap(x: any): any {
@@ -41,11 +60,13 @@ const num = (v: any): number | undefined => {
 function readStatMods5(src: any): number[] | undefined {
   if (!src) return undefined;
   if (Array.isArray(src)) {
-    const arr = src.slice(0, 5).map((v) => (Number.isFinite(Number(v)) ? Number(v) : 0));
+    const arr = src
+      .slice(0, 5)
+      .map((v) => (Number.isFinite(Number(v)) ? Number(v) : 0));
     return arr.length === 5 ? arr : undefined;
   }
   if (typeof src === "object") {
-    const hp  = num(src.hp  ?? src.HP  ?? 0) ?? 0;
+    const hp = num(src.hp ?? src.HP ?? 0) ?? 0;
     const atk = num(src.atk ?? src.ATK ?? 0) ?? 0;
     const spd = num(src.spd ?? src.SPD ?? 0) ?? 0;
     const def = num(src.def ?? src.DEF ?? 0) ?? 0;
@@ -56,14 +77,20 @@ function readStatMods5(src: any): number[] | undefined {
 }
 
 function pickName(obj: any): string | undefined {
-  const v = obj?.name ?? obj?.Name ?? obj?.id ?? obj?.Id ?? obj?.sid ?? obj?.SID;
+  const v =
+    obj?.name ?? obj?.Name ?? obj?.id ?? obj?.Id ?? obj?.sid ?? obj?.SID;
   return typeof v === "string" && v.trim() ? String(v) : undefined;
 }
 
 // Reconhece A/B/C/S (Seals) e X (Echo)
 function pickSlot(obj: any): string | undefined {
   const raw =
-    obj?.slot ?? obj?.Slot ?? obj?.type ?? obj?.Type ?? obj?.category ?? obj?.Category;
+    obj?.slot ??
+    obj?.Slot ??
+    obj?.type ??
+    obj?.Type ??
+    obj?.category ??
+    obj?.Category;
   if (!raw) return undefined;
   const up = String(raw).trim().toUpperCase();
 
@@ -71,7 +98,12 @@ function pickSlot(obj: any): string | undefined {
   if (/^(?:PASSIVE\s*)?B$/.test(up)) return "B";
   if (/^(?:PASSIVE\s*)?C$/.test(up)) return "C";
 
-  if (/^(?:PASSIVE\s*)?S$/.test(up) || /\bSEAL\b/.test(up) || /\bSACRED\s*SEAL\b/.test(up)) return "S";
+  if (
+    /^(?:PASSIVE\s*)?S$/.test(up) ||
+    /\bSEAL\b/.test(up) ||
+    /\bSACRED\s*SEAL\b/.test(up)
+  )
+    return "S";
 
   if (/^(?:PASSIVE\s*)?X$/.test(up) || /\bECHO\b/.test(up)) return "X";
 
@@ -86,8 +118,18 @@ function pickSP(base: any, lv: any): number | undefined {
 }
 function pickDesc(base: any, lv: any): string | undefined {
   const v =
-    lv?.desc ?? lv?.Desc ?? lv?.description ?? lv?.Description ?? lv?.effect ?? lv?.Effect ??
-    base?.desc ?? base?.Desc ?? base?.description ?? base?.Description ?? base?.effect ?? base?.Effect;
+    lv?.desc ??
+    lv?.Desc ??
+    lv?.description ??
+    lv?.Description ??
+    lv?.effect ??
+    lv?.Effect ??
+    base?.desc ??
+    base?.Desc ??
+    base?.description ??
+    base?.Description ??
+    base?.effect ??
+    base?.Effect;
   return typeof v === "string" && v.trim() ? v : undefined;
 }
 
@@ -154,7 +196,9 @@ function toFlatList(src: any): FlatSkill[] {
             slot,
             sp: pickSP(base, undefined),
             desc: pickDesc(base, undefined),
-            stats: readStatMods5((base as any).statModifiers ?? (base as any).stats),
+            stats: readStatMods5(
+              (base as any).statModifiers ?? (base as any).stats
+            ),
           });
         }
       }
@@ -165,14 +209,18 @@ function toFlatList(src: any): FlatSkill[] {
   else if (typeof src === "object") for (const v of Object.values(src)) push(v);
 
   const seen = new Set<string>();
-  return out.filter((row) => (seen.has(row.key) ? false : (seen.add(row.key), true)));
+  return out.filter((row) =>
+    seen.has(row.key) ? false : (seen.add(row.key), true)
+  );
 }
 
 function formatMods(arr?: number[]): string {
   if (!arr || arr.length < 5) return "+0 HP, +0 Atk, +0 Spd, +0 Def, +0 Res";
   const [hp, atk, spd, def, res] = arr.map((x) => Number(x) || 0);
   const sign = (n: number) => (n >= 0 ? `+${n}` : `${n}`);
-  return `${sign(hp)} HP, ${sign(atk)} Atk, ${sign(spd)} Spd, ${sign(def)} Def, ${sign(res)} Res`;
+  return `${sign(hp)} HP, ${sign(atk)} Atk, ${sign(spd)} Spd, ${sign(
+    def
+  )} Def, ${sign(res)} Res`;
 }
 
 export default function SkillPage() {
@@ -184,9 +232,7 @@ export default function SkillPage() {
 
   const list = useMemo(() => toFlatList(passives), []);
   const skill = useMemo(
-    () =>
-      list.find((s) => s.key === key) ||
-      list.find((s) => s.name === key), // fallback por nome
+    () => list.find((s) => s.key === key) || list.find((s) => s.name === key), // fallback por nome
     [list, key]
   );
 
@@ -237,11 +283,10 @@ export default function SkillPage() {
 
       <h2 style={{ marginTop: 12 }}>{skill.name}</h2>
       <div style={{ opacity: 0.8, marginBottom: 8 }}>
-        Slot: {skill.slot ?? "—"}{skill.sp != null ? ` • SP ${skill.sp}` : ""}
+        Slot: {skill.slot ?? "—"}
+        {skill.sp != null ? ` • SP ${skill.sp}` : ""}
       </div>
-      <div style={{ whiteSpace: "pre-wrap" }}>
-        {skill.desc ?? "—"}
-      </div>
+      <div style={{ whiteSpace: "pre-wrap" }}>{skill.desc ?? "—"}</div>
 
       {skill.stats && skill.stats.some((v) => v) && (
         <>

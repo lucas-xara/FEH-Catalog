@@ -1,12 +1,17 @@
 // src/pages/Assist.tsx
-import { useParams, Link, useLocation, useNavigate } from "react-router-dom";
-import React, { useMemo } from "react";
+import { useParams, useLocation, useNavigate } from "react-router-dom";
+import { useMemo } from "react";
 import assists from "../data/content/assists-list.json";
 
-function unwrap(x: any) { return x?.Assist ?? x?.assist ?? x; }
+function unwrap(x: any) {
+  return x?.Assist ?? x?.assist ?? x;
+}
 function toFlat(src: any) {
   const out: any[] = [];
-  const push = (it: any) => { const a = unwrap(it); if (a && typeof a === "object") out.push(a); };
+  const push = (it: any) => {
+    const a = unwrap(it);
+    if (a && typeof a === "object") out.push(a);
+  };
   if (Array.isArray(src)) src.forEach(push);
   else Object.values(src as any).forEach(push);
   return out;
@@ -21,7 +26,7 @@ function meta(a: any) {
 }
 function desc(a: any) {
   const d = a?.desc ?? a?.description ?? a?.Effect ?? a?.effect;
-  return (typeof d === "string" && d.trim()) ? d : "—";
+  return typeof d === "string" && d.trim() ? d : "—";
 }
 
 export default function AssistPage() {
@@ -34,8 +39,8 @@ export default function AssistPage() {
   const flat = useMemo(() => toFlat(assists), []);
   const a = useMemo(
     () =>
-      flat.find(x => String(x.id ?? x.sid ?? x.name ?? x.Name) === key) ||
-      flat.find(x => String(x.name ?? x.Name) === key),
+      flat.find((x) => String(x.id ?? x.sid ?? x.name ?? x.Name) === key) ||
+      flat.find((x) => String(x.name ?? x.Name) === key),
     [flat, key]
   );
 

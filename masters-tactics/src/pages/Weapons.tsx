@@ -1,16 +1,24 @@
 // src/pages/Weapons.tsx
 import { Link } from "react-router-dom";
-import React, { useMemo } from "react";
+import { useMemo } from "react";
 
 import weaponsData from "../data/content/weapons-list.json";
 
 // Tipos “soltos” para tolerar variações do JSON refinado
 type RefinedWeapon = {
-  id?: string; sid?: string;
-  name?: string; Name?: string;
-  weaponType?: string; WeaponType?: string; type?: string; Type?: string;
-  weaponClass?: string; class?: string; Class?: string;
-  color?: string; Color?: string;
+  id?: string;
+  sid?: string;
+  name?: string;
+  Name?: string;
+  weaponType?: string;
+  WeaponType?: string;
+  type?: string;
+  Type?: string;
+  weaponClass?: string;
+  class?: string;
+  Class?: string;
+  color?: string;
+  Color?: string;
   // Outros campos podem existir e são ignorados aqui
 };
 
@@ -43,9 +51,7 @@ function getName(w: RefinedWeapon): string {
 
 function getTypeLabel(w: RefinedWeapon): string {
   // Preferir campos diretos do refinado
-  const direct =
-    w.weaponType ?? w.WeaponType ??
-    w.type ?? w.Type;
+  const direct = w.weaponType ?? w.WeaponType ?? w.type ?? w.Type;
 
   if (direct && String(direct).trim()) return String(direct).trim();
 
@@ -80,31 +86,44 @@ export default function WeaponsPage() {
 
       <div
         style={{
-          marginTop: 16, background: "#fff", color: "#111", borderRadius: 12,
-          padding: 16, boxShadow: "0 2px 12px rgba(0,0,0,.08)",
+          marginTop: 16,
+          background: "#fff",
+          color: "#111",
+          borderRadius: 12,
+          padding: 16,
+          boxShadow: "0 2px 12px rgba(0,0,0,.08)",
         }}
       >
         <div
           style={{
-            display: "grid", gridTemplateColumns: "minmax(320px,1fr) 220px",
-            gap: 8, fontWeight: 700, borderBottom: "1px solid rgba(0,0,0,.08)",
-            paddingBottom: 8, marginBottom: 8,
+            display: "grid",
+            gridTemplateColumns: "minmax(320px,1fr) 220px",
+            gap: 8,
+            fontWeight: 700,
+            borderBottom: "1px solid rgba(0,0,0,.08)",
+            paddingBottom: 8,
+            marginBottom: 8,
           }}
         >
-          <div>Name</div><div>Type</div>
+          <div>Name</div>
+          <div>Type</div>
         </div>
 
         {list.map((it) => (
           <div
             key={it.sid}
             style={{
-              display: "grid", gridTemplateColumns: "minmax(320px,1fr) 220px",
-              gap: 8, padding: "6px 0", borderBottom: "1px solid rgba(0,0,0,.05)",
+              display: "grid",
+              gridTemplateColumns: "minmax(320px,1fr) 220px",
+              gap: 8,
+              padding: "6px 0",
+              borderBottom: "1px solid rgba(0,0,0,.05)",
             }}
           >
             <div>
               <Link
-                to={`/weapons/${encodeURIComponent(w.sid)}`} state={{ from: location }}
+                to={`/weapons/${encodeURIComponent(it.sid)}`}
+                state={{ from: location }}
                 style={{ textDecoration: "none" }}
               >
                 {it.name}

@@ -1,32 +1,51 @@
 // src/pages/Weapon.tsx
-import { useParams, Link, useLocation, useNavigate } from "react-router-dom";
+import { useParams, useLocation, useNavigate } from "react-router-dom";
 import React, { useMemo } from "react";
 
 import weaponsData from "../data/content/weapons-list.json";
 
 // Tipagem flexível para tolerar variações do refinado
 type RefinedWeapon = {
-  id?: string; sid?: string;
-  name?: string; Name?: string;
+  id?: string;
+  sid?: string;
+  name?: string;
+  Name?: string;
 
   // tipo / classe / cor
-  weaponType?: string; WeaponType?: string; type?: string; Type?: string;
-  weaponClass?: string; class?: string; Class?: string;
-  color?: string; Color?: string;
+  weaponType?: string;
+  WeaponType?: string;
+  type?: string;
+  Type?: string;
+  weaponClass?: string;
+  class?: string;
+  Class?: string;
+  color?: string;
+  Color?: string;
 
   // estatísticas e metadados
-  might?: number; Might?: number;
-  range?: number; Range?: number; rng?: number; RNG?: number;
-  sp?: number; SP?: number; cost?: number; Cost?: number;
-  stats?: number[];               // às vezes [HP, Mt, Spd, Def, Res] ou +extras
-  desc?: string; description?: string; effect?: string; Effect?: string;
+  might?: number;
+  Might?: number;
+  range?: number;
+  Range?: number;
+  rng?: number;
+  RNG?: number;
+  sp?: number;
+  SP?: number;
+  cost?: number;
+  Cost?: number;
+  stats?: number[]; // às vezes [HP, Mt, Spd, Def, Res] ou +extras
+  desc?: string;
+  description?: string;
+  effect?: string;
+  Effect?: string;
 
   // refinamentos
-  refines?: any;                  // pode ser objeto {Atk:{...},Effect:{...}} ou array
-  extraSkills?: any;              // para PRF effect text em alguns dumps
+  refines?: any; // pode ser objeto {Atk:{...},Effect:{...}} ou array
+  extraSkills?: any; // para PRF effect text em alguns dumps
 
   // wrappers ocasionais:
-  Weapon?: any; weapon?: any;
+  Weapon?: any;
+  weapon?: any;
 };
 
 function unwrap(x: any): any {
@@ -55,9 +74,7 @@ function getName(w: RefinedWeapon): string {
 }
 
 function getTypeLabel(w: RefinedWeapon): string {
-  const direct =
-    w.weaponType ?? w.WeaponType ??
-    w.type ?? w.Type;
+  const direct = w.weaponType ?? w.WeaponType ?? w.type ?? w.Type;
   if (direct && String(direct).trim()) return String(direct).trim();
 
   const klass = w.weaponClass ?? (w as any).class ?? (w as any).Class;
@@ -80,14 +97,16 @@ function inferRangeFromType(t?: string): number | undefined {
 
 function getRange(w: RefinedWeapon, typeLabel: string): number | undefined {
   return (
-    num(w.range ?? w.Range ?? w.rng ?? w.RNG) ??
-    inferRangeFromType(typeLabel)
+    num(w.range ?? w.Range ?? w.rng ?? w.RNG) ?? inferRangeFromType(typeLabel)
   );
 }
 
 function getMight(w: RefinedWeapon): number | undefined {
   // preferir campo explícito; se ausente, alguns dumps colocam Mt em stats[1]
-  return num(w.might ?? w.Might) ?? (Array.isArray(w.stats) ? num(w.stats[1]) : undefined);
+  return (
+    num(w.might ?? w.Might) ??
+    (Array.isArray(w.stats) ? num(w.stats[1]) : undefined)
+  );
 }
 
 function getSP(w: RefinedWeapon): number | undefined {
@@ -96,40 +115,55 @@ function getSP(w: RefinedWeapon): number | undefined {
 
 function getDescription(w: RefinedWeapon): string {
   const d =
-    w.desc ?? w.description ?? w.Effect ?? w.effect ??
+    w.desc ??
+    w.description ??
+    w.Effect ??
+    w.effect ??
     // alguns dumps colocam um texto PRF em extraSkills.effectSkill
     (w.extraSkills && typeof w.extraSkills === "object"
-      ? (Array.isArray(w.extraSkills)
-          ? w.extraSkills.map((x: any) => x?.effectSkill).find((s: any) => typeof s === "string" && s.trim())
-          : (w.extraSkills as any).effectSkill)
+      ? Array.isArray(w.extraSkills)
+        ? w.extraSkills
+            .map((x: any) => x?.effectSkill)
+            .find((s: any) => typeof s === "string" && s.trim())
+        : (w.extraSkills as any).effectSkill
       : undefined);
-  return (typeof d === "string" && d.trim()) ? d : "—";
+  return typeof d === "string" && d.trim() ? d : "—";
 }
 
 function readStatMods5(src: any): number[] | undefined {
   if (!src) return undefined;
-  const arr = Array.isArray(src) ? src.slice(0, 5) :
-    (typeof src === "object"
-      ? [
-          num((src as any).hp ?? (src as any).HP ?? 0) ?? 0,
-          num((src as any).atk ?? (src as any).ATK ?? 0) ?? 0,
-          num((src as any).spd ?? (src as any).SPD ?? 0) ?? 0,
-          num((src as any).def ?? (src as any).DEF ?? 0) ?? 0,
-          num((src as any).res ?? (src as any).RES ?? 0) ?? 0,
-        ]
-      : undefined);
+  const arr = Array.isArray(src)
+    ? src.slice(0, 5)
+    : typeof src === "object"
+    ? [
+        num((src as any).hp ?? (src as any).HP ?? 0) ?? 0,
+        num((src as any).atk ?? (src as any).ATK ?? 0) ?? 0,
+        num((src as any).spd ?? (src as any).SPD ?? 0) ?? 0,
+        num((src as any).def ?? (src as any).DEF ?? 0) ?? 0,
+        num((src as any).res ?? (src as any).RES ?? 0) ?? 0,
+      ]
+    : undefined;
   if (!arr || arr.length < 5) return undefined;
-  return arr.map((v: any) => (Number.isFinite(Number(v)) ? Number(v) : 0)).slice(0, 5);
+  return arr
+    .map((v: any) => (Number.isFinite(Number(v)) ? Number(v) : 0))
+    .slice(0, 5);
 }
 
 function formatMods(arr?: number[]): string {
   if (!arr || arr.length < 5) return "+0 HP, +0 Atk, +0 Spd, +0 Def, +0 Res";
   const [hp, atk, spd, def, res] = arr.map((x) => Number(x) || 0);
   const sign = (n: number) => (n >= 0 ? `+${n}` : `${n}`);
-  return `${sign(hp)} HP, ${sign(atk)} Atk, ${sign(spd)} Spd, ${sign(def)} Def, ${sign(res)} Res`;
+  return `${sign(hp)} HP, ${sign(atk)} Atk, ${sign(spd)} Spd, ${sign(
+    def
+  )} Def, ${sign(res)} Res`;
 }
 
-type RefineRow = { key: string; isEffect: boolean; stats?: number[]; text?: string };
+type RefineRow = {
+  key: string;
+  isEffect: boolean;
+  stats?: number[];
+  text?: string;
+};
 
 function normalizeRefines(w: RefinedWeapon): RefineRow[] {
   const rows: RefineRow[] = [];
@@ -137,9 +171,14 @@ function normalizeRefines(w: RefinedWeapon): RefineRow[] {
 
   const pickText = (obj: any): string | undefined => {
     const t =
-      obj?.refineEffect ?? obj?.effect ?? obj?.Effect ??
-      obj?.desc ?? obj?.description ?? obj?.refine_desc ?? obj?.refineDescription;
-    return (typeof t === "string" && t.trim()) ? t : undefined;
+      obj?.refineEffect ??
+      obj?.effect ??
+      obj?.Effect ??
+      obj?.desc ??
+      obj?.description ??
+      obj?.refine_desc ??
+      obj?.refineDescription;
+    return typeof t === "string" && t.trim() ? t : undefined;
   };
 
   const pickStats = (obj: any): number[] | undefined =>
@@ -152,7 +191,8 @@ function normalizeRefines(w: RefinedWeapon): RefineRow[] {
       const key = String(r?.name ?? r?.type ?? r?.key ?? "Refine");
       const text = pickText(r);
       const stats = pickStats(r);
-      const isEffect = key.toLowerCase().includes("effect") || Boolean(text && !stats);
+      const isEffect =
+        key.toLowerCase().includes("effect") || Boolean(text && !stats);
       rows.push({ key, isEffect, text, stats });
     }
   } else if (typeof ref === "object") {
@@ -175,14 +215,14 @@ export default function WeaponPage() {
   const navigate = useNavigate();
 
   // Achamos o item no refinado (por sid/id; fallback por nome)
-  const { weapon, flat } = useMemo(() => {
+  const { weapon } = useMemo(() => {
     const flat = toFlatList(weaponsData);
     const byId = flat.find(
       (w) => String(w.sid ?? "") === key || String(w.id ?? "") === key
     );
-    const byName = byId ? undefined : flat.find(
-      (w) => String(w.name ?? w.Name ?? "") === key
-    );
+    const byName = byId
+      ? undefined
+      : flat.find((w) => String(w.name ?? w.Name ?? "") === key);
     return { weapon: byId ?? byName, flat };
   }, [key]);
 
@@ -194,8 +234,7 @@ export default function WeaponPage() {
 
   const from = (location.state as any)?.from;
   const backHref =
-    (from &&
-      `${from.pathname ?? ""}${from.search ?? ""}${from.hash ?? ""}`) ||
+    (from && `${from.pathname ?? ""}${from.search ?? ""}${from.hash ?? ""}`) ||
     "/weapons";
 
   if (!weapon) {
@@ -244,11 +283,17 @@ export default function WeaponPage() {
 
       <div
         style={{
-          marginTop: 16, background: "#fff", color: "#111",
-          borderRadius: 12, padding: 16, boxShadow: "0 2px 12px rgba(0,0,0,.08)",
+          marginTop: 16,
+          background: "#fff",
+          color: "#111",
+          borderRadius: 12,
+          padding: 16,
+          boxShadow: "0 2px 12px rgba(0,0,0,.08)",
         }}
       >
-        <div style={{ display: "grid", gridTemplateColumns: "160px 1fr", gap: 8 }}>
+        <div
+          style={{ display: "grid", gridTemplateColumns: "160px 1fr", gap: 8 }}
+        >
           <div style={{ opacity: 0.7 }}>Type</div>
           <div>{typeLabel}</div>
 
@@ -270,13 +315,19 @@ export default function WeaponPage() {
             <hr style={{ margin: "16px 0", borderColor: "rgba(0,0,0,.08)" }} />
             <div style={{ fontWeight: 700, marginBottom: 8 }}>Refine</div>
 
-            <div style={{ display: "grid", gridTemplateColumns: "160px 1fr", gap: 8 }}>
+            <div
+              style={{
+                display: "grid",
+                gridTemplateColumns: "160px 1fr",
+                gap: 8,
+              }}
+            >
               {refines.map((r) => (
                 <React.Fragment key={r.key}>
                   <div style={{ opacity: 0.7 }}>{r.key}</div>
                   <div style={{ color: r.isEffect ? "#22c55e" : undefined }}>
                     {r.isEffect
-                      ? (r.text ?? "Effect refine")
+                      ? r.text ?? "Effect refine"
                       : `Smithy refine — ${formatMods(r.stats)}`}
                   </div>
                 </React.Fragment>
