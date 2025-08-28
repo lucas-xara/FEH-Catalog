@@ -1,0 +1,53 @@
+{{Weapon Infobox
+|tagid=SID_慈母の霊杖
+|intID=2984
+|image=wep_rd048
+|exclusive=1
+|weaponType=Colorless Staff
+|cost=400
+|might=14
+|range=2
+|effect=Foe cannot counterattack. If unit initiates combat, grants Atk/Spd+4 to unit during combat. After combat, if unit attacked, inflicts status on target and foes within 2 spaces of target preventing counterattacks through their next actions.
+|statModifiers=0,14,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|tagidExtraSkill1=一
+|effectSkill1=If foe within 4 spaces of this unit triggers Canto, inflicts【Canto Control】on that foe.<br><br>【Canto Control】<br>Limits the number of spaces target can move with Canto through their next action. If target's Range = 1, target can move 1 space when Canto triggers. If target's Range = 2, target's action ends when Canto triggers.
+|iconSkill1=Canto Control W.png
+|properties=
+}}
+==Notes==
+* Has the same effects as {{St|Dazzling Staff 3}} and {{St|Swift Sparrow 2}}.
+{{Prevent counterattacks}}
+{{IfUnitInitiates}}
+{{Combat boosts}}
+{{IfUnitAttacked}}
+{{Counterattacks disrupted}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+* The upgraded version of Doting Staff has the same effect as {{St|Canto Control 3}}.
+{{Canto Control}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V6.3_v0603a_spring_Rod.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=慈母の霊杖
+|german=Stab der Fürsorge
+|spanishEU=Bastón afectuoso
+|spanishLA=Bastón afectuoso
+|french=Bâton aimant
+|italian=Asta premurosa
+|chineseTW=慈母的靈杖
+|portuguese=Bastão afetuoso
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%grants Atk/Spd+_ during combat%' AND CanUseWeapon__full='Colorless Staff') OR Description LIKE '%inflicts%status%preventing counterattacks%next actions%' AND Description NOT LIKE '%(preventing%' OR Description LIKE '%【Canto Control】%'|columns=3}}
+{{Weapons Navbox}}

@@ -1,0 +1,48 @@
+{{Passive
+|name=Guard Echo
+|type=X
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|1name=Guard Echo
+|1tagid=SID_響・キャンセル
+|1effect=At start of combat, if unit's HP ≥ 25%, inflicts Special cooldown charge -1 on foe per attack during combat (only highest value applied; does not stack), and also, if foe initiates combat, reduces damage from foe's first attack by 20% during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes).
+|1cost=0
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Guard}}
+|Ce1T={{Tgt|Foe}}
+|Ce1C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce2={{Eft|Damage Reduction|20%}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce2C=Enemy Phase '''&'''<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{CooldownChargeMinus}}
+{{IfFoeInitiates}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=響・キャンセル
+|german=Hall der Wacht
+|spanishEU=Eco cancelador
+|spanishLA=Eco cancelar
+|french=Symb. négation
+|italian=Neutralizza eco
+|chineseTW=響・取消
+|portuguese=Eco guarda
+}}
+==See also==
+* [[Guard]]
+* [[Skill families/Weapons#Guard (cooldown charge)|Guard Weapons]]
+{{Passives Navbox|X}}

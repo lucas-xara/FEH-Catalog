@@ -1,0 +1,56 @@
+{{Weapon Infobox
+|tagid=SID_白騎の直槍
+|weaponType=Lance
+|weaponName=Whitewing Lance
+|might=16
+|range=1
+|effectiveness=
+|effect=Accelerates Special trigger (cooldown count-1).
+|cooldown=-1
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If the number of flying allies within 2 spaces ≥ 2, grants Atk/Spd/Def/Res+3 during combat, and if unit initiates combat, unit attacks twice.
+|iconSkill1=Triangle W.png
+|tagidExtraSkill1=ト
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Accelerates Special}}
+|skill2={{Si|Whitewing Lance|refine=Skill1}} Skill refine effects
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|3}}
+|s2 CeC1={{Mt|Flying}} {{Tgt|Allies}}<br>[[within 2 spaces]] ≥ 2
+|s2 Ce2={{Eft|Attack Twice}}
+|s2 CeC2=Player Phase '''&'''<br>{{Mt|Flying}} {{Tgt|Allies}}<br>[[within 2 spaces]] ≥ 2
+}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary buffs}}
+{{IfUnitInitiates}}
+{{Brave weapon interaction}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|トライアングル|Triangle}}
+==In other languages==
+{{OtherLanguages
+|japanese=白騎の直槍
+|german=Schwingenlanze
+|spanishEU=Lanza Ala Blanca
+|spanishLA=Lanza Ala Blanca
+|french=Lance cadette
+|italian=Lancia eburnea
+|chineseTW=白騎的直槍
+|portuguese=Lança Asa branca
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%of flying allies within 2 spaces%'}}
+{{Weapons Navbox}}

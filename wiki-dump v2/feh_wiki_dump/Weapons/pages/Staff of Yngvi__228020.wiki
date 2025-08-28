@@ -1,0 +1,62 @@
+{{Weapon Infobox
+|tagid=SID_ユングヴィの聖杖
+|intID=4524
+|image=wep_rd070
+|exclusive=1
+|weaponType=Colorless Staff
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1; max cooldown count value cannot be reduced below 1).<br>Foe cannot counterattack.<br><br>Unit can move to a space adjacent to any ally within 5 spaces.<br><br>If a Rally or movement Assist skill is used by unit, grants【Empathy】,【Canto (１)】, and the following status to unit and target ally for 1 turn: "If unit initiates combat, unit makes a guaranteed follow-up attack."<br><br>If unit is within 3 spaces of an ally, grants bonus to unit's Atk/Res = 6 + 20% of unit's Res at start of combat, deals damage = 20% of unit's Res (excluding area-of-effect Specials; damage from staff is calculated after combat damage is added), and grants Special cooldown count-1 to unit before unit's first attack during combat.<br><br>【Empathy】<br>Grants bonus to unit's Atk/Spd/Def/Res = number of types of【Bonus】effects, excluding stat bonuses, and【Penalty】effects, excluding stat penalties, active on player team and enemy team during combat (max 7).<br><br>【Canto (１)】<br>After an attack, Assist skill, or structure destruction, unit can move １ space(s).<br>(Once per turn. Only highest value applied. Does not stack.)<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|required=Assault
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerate Special}}<br>(can't reduce CD below 1)
+|Me={{Eft|Warp|[[adjacent]] to {{Tgt|Allies}}<br>[[within 5 spaces]]}}
+|Se1={{SEt|Empathy}}
+|Se2={{SEt|Canto (1)}}
+|Se3={{SEt|Guaranteed Follow-Ups}}
+|SeT={{Tgt|Unit}} '''&'''<br>{{Tgt|Target Ally}}
+|SeC=A [[Rally Assist|Rally]] or [[Movement Assist|Movement]]<br>Assist is used<br>by {{Tgt|Unit}}
+|Ce1={{Eft|Prevent Counter}}
+|Ce1T={{Tgt|Foe}}
+|Ce2={{Eft|Temporary buffs|Atk/Res|20% of {{Tgt|Unit}}'s Res<br>at start of combat, +6}}
+|Ce3={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Res}}
+|Ce4={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Unit}}'s first attack
+|Ce2-4C=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+}}
+
+==Notes==
+* Staff of Yngvi has the same effect as {{St|Dazzling Staff 3}}.
+{{Prevent counterattacks}}
+{{Warp interaction}}
+{{Empathy}}
+{{Canto|1|statusEffect=1}}
+{{Guaranteed Follow-Ups}}
+{{Temporary buffs}}
+{{At start of combat}}
+{{DamageBoost}}
+{{CombatCooldownCount|-1}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V9.1_v0901a_seisen_Rod.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Empathy】%' OR Description LIKE '%"if unit initiates combat, unit makes a guaranteed follow-up attack%"%' OR Description LIKE '%Rally or Movement assist skill is used by unit%' OR Description LIKE '%unit can move to a space adjacent to an% ally within _ spaces%' AND Description NOT LIKE '%unit can move to a space adjacent to an% ally within 2 spaces%') AND Exclusive='1'}}
+{{Weapons Navbox}}

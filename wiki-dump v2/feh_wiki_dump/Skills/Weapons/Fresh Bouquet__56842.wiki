@@ -1,0 +1,41 @@
+{{Weapon Infobox
+|tagid=SID_清らかなブーケ
+|weaponType=Blue Tome
+|weaponName={{PAGENAME}}
+|might=8
+|range=2
+|effect=At start of turn, if unit is adjacent to an ally, grants Spd+4 to unit and adjacent allies for 1 turn.
+|cost=200
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|next=Fresh Bouquet+
+|promotionRarity=5
+|promotionTier=1
+|required=Elthunder;Ellight
+|properties=
+}}
+==Notes==
+{{Bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+v2.5_52_bride02_Mag.png|Sprite sheet for the animations of {{PAGENAME}}, {{St|Múspell Fireposy}}, and {{St|Nifl Frostflowers}}.
+</gallery>
+
+==In other languages==
+{{OtherLanguages
+|japanese=清らかなブーケ
+|german=Frische Blumen
+|spanishEU=Ramo fresco
+|spanishLA=Ramo fresco
+|french=Bouquet frais
+|italian=Bouquet fresco
+|chineseTW=純潔花束
+|portuguese=Buquê viçoso
+}}
+
+==See also==
+* [[Ardent Service]]
+{{Weapons Navbox}}
+[[Category:Bridal Bloom weapons]]

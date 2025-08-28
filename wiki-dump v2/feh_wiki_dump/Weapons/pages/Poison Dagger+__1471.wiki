@@ -1,0 +1,30 @@
+{{Weapon Infobox
+|tagid=SID_秘毒の暗器＋
+|weaponType=Dagger
+|might=5
+|range=2
+|effectiveness=infantry
+|effect=Effective against infantry foes.<br>After combat, if unit attacked, inflicts Def/Res-6 on infantry foe through its next action.
+|cost=300
+|exclusive=0
+|statModifiers=0,5,0,0,0
+|required=Poison Dagger
+|properties=random_all
+}}
+==Notes==
+{{Effective damage bonus|infantry}}
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=秘毒の暗器＋
+|german=Giftdolch+
+|spanishEU=Daga veneno +
+|spanishLA=Daga veneno +
+|french=Dague poison +
+|italian=Pugnale veleno+
+|chineseTW=秘毒暗器＋
+|portuguese=Adaga veneno+
+}}
+{{Weapons Navbox}}

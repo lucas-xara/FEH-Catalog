@@ -1,0 +1,65 @@
+{{#invoke:NameAbout|main|Name=Leonie}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Leonie
+|Title=Relentless Rays
+|WeaponType=Colorless Bow
+|MoveType=Cavalry
+|Origin=Fire Emblem: Three Houses
+|Gender=Female
+|actorEN=Ratana
+|actorJP=野川さくら
+|artist=ワダサチコ
+|additionDate=June 21, 2021
+|releaseDate=June 22, 2021
+|cv1=12
+|cv2=400800
+|TagID=水着レオニー
+|InternalID=676
+|Properties=limited,tempest,specDisplay
+|description=From Sauin Village of the Leicester Alliance. As the daughter of a hunter, she can't wait to show off her talents with a bow at the beach. Appears in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=8|Lv1SPD=9|Lv1DEF=8|Lv1RES=4
+|GRHP=55|GRATK=65|GRSPD=70|GRDEF=45|GRRES=35
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Sunflower Bow
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Sunflower Bow+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Reposition
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Push 1
+|passiveA2=Atk/Spd Push 2
+|passiveA3=Atk/Spd Push 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=Spd/Def Link 1
+|passiveB2=Spd/Def Link 2
+|passiveB3=Spd/Def Link 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Summer units]]

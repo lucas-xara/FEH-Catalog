@@ -1,0 +1,54 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_グレイプニル
+|weaponType=Red Tome
+|might=14
+|range=2
+|effect=Grants Res+3. At start of combat, if foe's HP = 100%, grants Atk/Spd+3 during combat.
+|cost=400
+|exclusive=1
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|statModifiers=0,14,0,0,3
+|required=Fenrir
+|SE=se_effect_gleipnir.flac
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Res+3. At start of combat, if foe's HP = 100%, grants Atk/Spd+4 during combat.
+|tagidExtraSkill1=強
+|effectSkill1=At start of combat, if foe's HP = 100%, inflicts Atk/Spd/Def/Res-4 on foe and neutralizes unit's penalties during combat.
+|iconSkill1=Gleipnir W.png
+|properties=random_owner
+}}
+==Notes==
+{{Combat boosts}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Combat boosts}}
+{{Combat reductions}}
+{{Penalty neutralization}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|敵戦強_弱無R全4|Enemy Combat Bonuses_Weakness R All 4}}
+{{NorseMyth|are the chains that bind the wolf [[Wikipedia:Fenrir|Fenrir]].}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=グレイプニル
+|german=Gleipnir
+|spanishEU=Gleipnir
+|spanishLA=Gleipnir
+|french=Gleipnir
+|italian=Gleipnir
+|chineseTW=格萊普尼爾
+|portuguese=Gleipnir
+}}
+==See also==
+* [[Regal Blade]]
+* [[Ivaldi]]
+{{Weapons Navbox}}

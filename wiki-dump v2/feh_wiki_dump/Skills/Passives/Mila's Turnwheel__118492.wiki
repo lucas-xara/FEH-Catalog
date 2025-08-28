@@ -1,0 +1,42 @@
+{{Passive
+|name=Mila's Turnwheel
+|type=C
+|exclusive=1
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|1name=Mila's Turnwheel
+|alt1name=Milas Turnwheel
+|1tagid=SID_ミラの歯車
+|1effect=At start of turn, inflicts【Isolation】on foes in cardinal directions with Def < unit's Def through their next actions.<br><br>If deployed in Aether Raids offense during Light season, grants Turn Limit+1. (If the Turn Limit is 7, it will increase to 8, etc.)<br><br>【Isolation】<br>Target cannot use or be the target of Assist skills through its next action. (Target can neither use nor be the target of skills like Dance and Sing, skills that neutralize penalties, like Restore and Harsh Command+, etc.)
+|1required=-
+|1cost=300
+|1next=-
+|2name=Mila's Turnwheel II
+|alt2name=Milas Turnwheel II
+|2tagid=SID_ミラの歯車・神
+|2effect=At the start of turn, grants "foe cannot make a follow-up attack" to unit for 1 turn and inflicts【Isolation】and【Guard】on foes in cardinal directions with Def < unit's Def through their next actions.<br><br>If deployed in Aether Raids offense during Light season, grants Turn Limit+1. (If the Turn Limit is 7, it will increase to 8, etc.)<br><br>【Isolation】<br>Target cannot use or be the target of Assist skills through its next action. (Target can neither use nor be the target of skills like Dance and Sing, skills that neutralize penalties, like Restore and Harsh Command+, etc.)<br><br>【Guard】<br>Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)
+|2required=Mila's Turnwheel
+|2cost=300
+}}
+==Notes==
+{{CardinalDirections}}
+* Stat comparison takes place after all {{SEt|bonuses}} on allies are removed, and before any new bonuses or {{SEt|penalties}} are applied. Other existing bonuses and penalties on both units count towards their respective stats during stat comparison.
+{{Isolation}}
+{{Foe Cannot Follow-Up|name=Mila's Turnwheel II}}
+{{Guard|name=Mila's Turnwheel II}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ミラの歯車
+|german=Milas Zeitenrad
+|spanishEU=Rueda de Mila
+|spanishLA=Rueda de Mila
+|french=Horloge de Mila
+|italian=Ruota di Mila
+|chineseTW=美拉的齒輪
+|portuguese=Roda de Mila
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【Isolation】%' AND Description NOT LIKE '%【Isolation】on unit%' OR Description LIKE '%【Guard】%cardinal direction%' AND Exclusive='1' OR Description LIKE '%at start of turn%"foe cannot make a follow-up attack%'}}
+{{Passives Navbox|C}}

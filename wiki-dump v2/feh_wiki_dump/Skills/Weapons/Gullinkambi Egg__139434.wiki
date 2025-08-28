@@ -1,0 +1,41 @@
+{{Weapon Infobox
+|tagid=SID_グリンカムビの聖卵
+|weaponName=Gullinkambi Egg
+|image=wep_mg054
+|weaponType=Red Tome
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of combat, if foe's HP ≥ 75%, grants Atk/Spd+6 to unit during combat, and also, if unit initiates combat and unit or an ally has already entered combat during the same phase, unit attacks twice.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,0,0,0
+|required=Bolganone;Fenrir
+|intID=2482
+|sort=514
+|value=20
+|timingID=1
+|abilityID=271
+|limit1ID=53
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+{{IfUnitInitiates}}
+{{Brave weapon interaction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=グリンカムビの聖卵
+|german=Gullinkambi-Ei
+|spanishEU=H. Gullinkambi
+|spanishLA=H. Gullinkambi
+|french=Œuf Gullinkambi
+|italian=Uovo Gullinkambi
+|chineseTW=古林肯比的聖卵
+|portuguese=Ovo Gullinkambi
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%and also%unit%initiates combat%unit attacks twice%' OR Description LIKE '%all%ha%already%' AND Description NOT LIKE '%another action%'|columns=3}}
+{{Weapons Navbox}}

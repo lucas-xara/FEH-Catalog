@@ -1,0 +1,83 @@
+{{Weapon Infobox
+|tagid=SID_天真の神弓
+|intID=4863
+|image=Wep Truth Seeker
+|exclusive=1
+|weaponType=Bow
+|noImg=1
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effectiveness=Flying
+|effect=Accelerates Special trigger (cooldown count-1).<br>Effective against flying foes. Neutralizes "effective against flying" bonuses.<br><br>At start of turn, if unit is within 2 spaces of an ally, grants "unit can move 1 extra space" to unit (that turn only; does not stack).<br><br>At start of player phase or enemy phase, if unit is within 2 spaces of an ally, grants "reduces the percentage of foe's non-Special 'reduce damage by X%' skills by 50% during combat (excluding area-of-effect Specials)" and "Special cooldown charge +1 per attack during combat (only highest value applied; does not stack)" to unit and allies within 2 spaces of unit for 1 turn.<br><br>If unit initiates combat or is within 2 spaces of an ally, grants bonus to unit's Atk/Spd/Def/Res = number of allies within 3 rows or 3 columns centered on unit × 3, + 5 (max 14), unit deals +X × 5 damage (max 25; excluding area-of-effect Specials; X = number of Bonus effects active on unit, excluding stat bonuses + number of Penalty effects active on foe, excluding stat penalties), reduces damage from foe's attacks by Y (excluding area-of- effect Specials), reduces damage from foe's Specials by an additional Y (excluding area-of-effect Specials; if unit has weapon- triangle disadvantage, Y = 20% of unit's Spd; otherwise, Y = 50% of unit's Spd), and neutralizes effects that grant "Special cooldown charge +X" to foe during combat.<br><br>Unit can use the following【Style】:<br>――――― Weapon Triangle: Green Style ―――――<br>When determining weapon triangle, counts unit as green (does not affect skill effects that trigger based on attribute, such as "if in combat against a green foe"). This Style can be used only once per turn.<br>―――――――――――――――――――――――――<br><br>【Style】<br>Change Style using the Style button at the bottom of the screen.<br><br>A unit's Style is only active when that unit is taking an action. Style use is disabled when unit is deployed using Pair Up or when unit is equipped with multiple skills that have a Style.
+|required=Silver Bow
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Me={{Eft|Style|Weapon Triangle: Green}}<br>(once per turn)
+|Se1={{SEt|Mobility Increased}}
+|Se1C=At start of turn<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Se2=<span style="width:12em;display:inline-block"/>{{SEt|Halves non-Special damage reduction}}
+|Se3={{SEt|Special Cooldown Charge +1}}
+|Se2-3T={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|Se2-3C=At start of Both Phases<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|Ce2={{Eft|Neutralize Weakness|{{Mt|Flying}}}}
+|Ce3={{Eft|Temporary buffs|Atk/Spd/Def/Res|3 x {{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}, + 5|max=14}}
+|Ce4={{Eft|Damage Boost|5 x ({{Kp|Bonus}} effects<br>on {{Tgt|Unit}} '''&''' {{Kp|Penalty}}<br>effects on {{Tgt|Foe}})<br>(exc. {{SEt|Bonuses}} '''&''' {{SEt|Penalties}})|max=25}}
+|Ce5={{Eft|Damage Reduction|(20% if {{Tgt|Unit}} has<br>[[Weapon-triangle|triangle]] disadvantage;<br>else 50%) of {{Tgt|Unit}}'s Spd}}<br>from {{Tgt|Foe}}'s attacks
+|Ce6={{Eft|Damage Reduction|(20% if {{Tgt|Unit}} has<br>[[Weapon-triangle|triangle]] disadvantage;<br>else 50%) of {{Tgt|Unit}}'s Spd}}<br>per {{Tgt|Foe}}'s [[offensive Special]]
+|Ce7={{Eft|Neutralize Accelerate Charge}}
+|Ce7T={{Tgt|Foe}}
+|Ce3-7C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+==Notes==
+* Truth Seeker has the same effect as {{St|Iote's Shield}}.
+{{Effective damage bonus|flying}}
+{{Effectiveness neutralization|flying}}
+{{Mobility increased}}
+{{Halves non-Special damage reduction}}
+{{Special Cooldown Charge +1}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{FlatDamageBoost|X (max: 25)}}
+{{EffectfromBonus|damage boost}}
+{{EffectfromPenalty|damage boost}}
+{{FlatDamageReduction}}
+{{CooldownChargePlusNeutralization}}
+{{Styles|Weapon Triangle: Green}}
+{|class="wikitable default mw-collapsible"
+!Example of Area of Effect
+|-
+|align="middle"|{{AoE|u=Baldr: Rays of Judgment|t=Höðr: Dusk Shadow God
+|---xxx---
+|---xxx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxtx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%Neutralizes "effective against flying" bonuses%' OR Description LIKE '%【Style】%') AND Exclusive='1'}}
+* [[Shield Passives]]
+{{Weapons Navbox}}

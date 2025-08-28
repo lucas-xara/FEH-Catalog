@@ -1,0 +1,38 @@
+{{Weapon Infobox
+|tagid=SID_紅炎の親子の聖斧
+|intID=3075
+|image=wep_ax111
+|exclusive=1
+|weaponType=Axe
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effectiveness=Dragonstone,Beast
+|effect=Enables【Canto (２)】.<br><br>Effective against dragon and beast foes. Accelerates Special trigger (cooldown count-1). If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit during combat, and inflicts penalty on foe's Atk/Spd/Def/Res during combat = 50% of total bonuses on unit during combat (max -6).<br><br>【Canto (２)】<br>After an attack, Assist skill, or structure destruction, unit can move ２ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|statModifiers=0,16,0,0,0
+|required=Silver Axe
+|properties=
+}}
+==Notes==
+{{Canto|2}}
+{{Effective damage bonus|Dragonstone,Beast}}
+{{IfUnitInitiates}}
+{{Combat boosts}}
+{{CombatReductionfromBonus}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=紅炎の親子の聖斧
+|german=Flammendes Blut
+|spanishEU=Armas llameantes
+|spanishLA=Armas asoladoras
+|french=Armes éclatantes
+|italian=Armi ardenti
+|chineseTW=紅炎親子的聖斧
+|portuguese=Armas de união
+}}
+==See also==
+{{See also skills|cond=WeaponEffectiveness='Dragon,Beast' OR Description LIKE '%Canto (２)%' OR Description LIKE '%inflicts penalty on foe%during combat =%bonuses on unit%'|columns=3}}
+{{Weapons Navbox}}

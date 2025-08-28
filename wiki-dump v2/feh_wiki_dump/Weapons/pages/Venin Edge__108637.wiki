@@ -1,0 +1,47 @@
+{{Weapon Infobox
+|tagid=SID_毒の剣
+|weaponType=Sword
+|might=16
+|range=1
+|cooldown=
+|effect=Grants Def+3. After combat, if unit attacked, deals 10 damage to target and foes within 2 spaces of target, and inflicts status on those foes preventing counterattacks through their next actions.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,3,0
+|required=Silver Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Def+3. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit during combat. After combat, if unit attacked, deals 10 damage to target and foes within 2 spaces of target, and inflicts status on those foes preventing counterattacks through their next actions.
+|effectSkill1=If number of allies adjacent to unit ≤ 1, grants Atk/Spd/Def/Res+4 to unit and reduces damage from foe's first attack by 30% during combat, and also, after combat, if unit attacked, inflicts 【Discord】on target and foes within 2 spaces of target.<br><br>【Discord】<br>Inflicts Atk/Spd/Def/Res-X on unit during combat (X = 2 + number of allies within 2 spaces of unit; max 5) through its next action.
+|properties=random_owner
+}}
+==Notes==
+{{IfUnitAttacked}}
+{{Out of combat damage}}
+{{Counterattacks disrupted}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary buffs|name={{St|Venin Edge|refine=Skill1}}}}
+{{DamagePercentageReduction}}
+{{Discord|name={{St|Venin Edge|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Venin Edge
+|japanese=毒の剣
+|german=Giftschwert
+|spanishEU=Esp. envenenada
+|spanishLA=Esp. envenenada
+|french=Épée venin
+|italian=Spada velenosa
+|chineseTW=毒之劍
+|portuguese=Espada veneno
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%if unit attacked%inflicts status%preventing counterattacks%' OR Description LIKE '%number of allies adjacent to unit%≤%') AND Exclusive='1' OR Description LIKE '%【Discord】%'}}
+* [[Skill families/C Passives#Alarm|Alarm Passives]]
+{{Weapons Navbox}}

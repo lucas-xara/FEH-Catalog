@@ -1,0 +1,41 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_キラーランス2＋
+|weaponType=Lance
+|weaponName=Slaying Lance+
+|altWeaponName=Slaying Lance Plus
+|might=14
+|range=1
+|effect=Accelerates Special trigger (cooldown count-1).
+|cooldown=-1
+|cost=300
+|exclusive=0
+|userVersion1=Weapon
+|userVersion2=Gleam
+|statModifiers=0,14,0,0,0
+|required=Slaying Lance
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=random_owner
+}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+*The "killer" (キラー) part of this weapon's name was dropped in the English localization.
+==In other languages==
+{{OtherLanguages
+|japanese=キラーランス鍛＋
+|german=Gnadenlanze+
+|spanishEU=Lanza ejecut. +
+|spanishLA=Lanza cruel +
+|french=Lance meurtr. +
+|italian=Lancia falciante+
+|chineseTW=必殺槍鍛＋
+|portuguese=Lança cruel+
+}}
+==See also==
+* [[Weapons that accelerate the Special trigger]]
+{{Weapons Navbox}}

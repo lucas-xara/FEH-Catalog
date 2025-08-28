@@ -1,0 +1,48 @@
+{{Passive
+|type=B
+|name=Chill Atk/Spd
+|exclusive=0
+|1name=Chill Atk/Spd 1
+|alt1name=Chill Atk Spd 1
+|1tagid=SID_攻撃速さの封印1
+|1promotionRarity=5
+|1promotionTier=1
+|1effect=At start of turn, inflicts Atk/Spd-3 on foe on the enemy team with the highest Atk+Spd total through its next action.
+|1required=Chill Atk 1;Chill Spd 1
+|1cost=120
+|2name=Chill Atk/Spd 2
+|alt2name=Chill Atk Spd 2
+|2tagid=SID_攻撃速さの封印2
+|2effect=At start of turn, inflicts Atk/Spd-5 on foe on the enemy team with the highest Atk+Spd total through its next action.
+|2cost=240
+|2next=-
+|canUseWeapon={{WeaponList|all}}
+|canUseMove={{MoveList|all}}
+|properties=random_owner
+}}
+==Notes==
+{{Penalties}}
+{{SelectStat|Atk+Spd total}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Chill Atk/Spd
+|japanese=攻撃速さの封印
+|german=Agr./Ges.-Brem.
+|spanishEU=Gelidez Ata/Vel
+|spanishLA=Gelid. Atq./Vel.
+|french=Gel Atq/Vit
+|italian=Att/Vel gelanti
+|chineseTW=攻擊速度封殺
+|portuguese=Atq./Vel. gelad.
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%at start of turn, inflict%-%enemy%highest%' OR Description LIKE '%at start of turn, inflict%-%enemy%lowest%') AND Exclusive='1'|columns=3}}
+* [[Chill Passives]]
+{{Passives Navbox|B}}
+[[Category: Chill Passives]]

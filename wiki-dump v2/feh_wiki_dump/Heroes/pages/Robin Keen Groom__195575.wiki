@@ -1,0 +1,66 @@
+{{#invoke:NameAbout|main|Name=Robin}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Robin
+|Title=Keen Groom
+|WeaponType=Red Tome
+|MoveType=Cavalry
+|Person=Robin M
+|Origin=Fire Emblem Awakening
+|Gender=Male
+|actorEN=David Vincent
+|actorJP=細谷佳正
+|artist=叶之明
+|additionDate=May 19, 2023
+|releaseDate=May 19, 2023
+|cv1=10
+|cv2=100200
+|TagID=花婿ルフレ男
+|InternalID=954
+|Properties=limited,tempest,specDisplay
+|description=Tactician of Ylisse and Chrom's other half. He has been appointed to the role of groom and is working on a strategy for surviving the festival. Appears in Fire Emblem Awakening.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=11|Lv1SPD=7|Lv1DEF=4|Lv1RES=7
+|GRHP=50|GRATK=80|GRSPD=65|GRDEF=45|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Flux
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Ruin
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Ring of Affiance
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Ring of Affiance+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Draw Back
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Spd/Res Catch 1
+|passiveA2=Spd/Res Catch 2
+|passiveA3=Spd/Res Catch 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=Spd/Res Snag 1
+|passiveB2=Spd/Res Snag 2
+|passiveB3=Spd/Res Snag 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Bridal Festival units]]

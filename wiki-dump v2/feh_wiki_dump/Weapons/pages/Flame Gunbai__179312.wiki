@@ -1,0 +1,41 @@
+{{Weapon Infobox
+|tagid=SID_炎の軍配
+|intID=3242
+|exclusive=0
+|weaponType=Sword
+|cost=200
+|might=10
+|range=1
+|effect=At start of combat, if unit's HP ≥ 25%, grants Atk/Def+5 to unit and inflicts penalty on foe's Atk/Def during combat = 20% of unit's Def at start of combat.
+|statModifiers=0,10,0,0,0
+|required=Steel Sword
+|next=Flame Gunbai+
+|promotionRarity=5
+|promotionTier=1
+|properties=
+}}
+==Notes==
+{{Temporary buffs}}
+{{Temporary debuffs}}
+{{At start of combat}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+wep_ax118.webp|Sprite sheet used for the animation
+wep_ax118.gif|Animation for '''Flame Gunbai'''
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=炎の軍配
+|german=Feuer-Gunbai
+|spanishEU=Gunbai ígneo
+|spanishLA=Gunbai ígneo
+|french=Gunbai de feu
+|italian=Gunbai rovente
+|chineseTW=炎之軍扇
+|portuguese=Gunbai ígneo
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%inflicts penalty on foe_s Atk/%=%of unit_s%at start of combat%'}}
+{{Weapons Navbox}}

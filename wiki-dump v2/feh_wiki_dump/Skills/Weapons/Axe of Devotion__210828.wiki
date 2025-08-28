@@ -1,0 +1,52 @@
+{{Weapon Infobox
+|tagid=SID_愛の祭の斧
+|intID=4007
+|image=wep_ax146
+|exclusive=0
+|weaponType=Axe
+|cost=200
+|might=10
+|range=1
+|effect=At start of combat, if unit's HP ≥ 25%, deals damage to foe = X% of foe's Atk as combat begins (if unit has weapon-triangle advantage or if unit's Def > foe's Def, X = 30; otherwise, X = 15; activates only when unit can attack in combat; effects that reduce damage "during combat" do not apply; will not reduce foe's HP below 1), grants Atk/Def+5 to unit during combat, and grants bonus to unit's Atk/Def during combat = 15% of unit's Def at start of combat.
+|required=Steel Axe
+|next=Axe of Devotion+
+|promotionRarity=5
+|promotionTier=1
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{Eft|Damage|(30% if {{Tgt|Unit}}'s Def ><br>{{Tgt|Foe}}'s Def '''or''' {{Tgt|Unit}} has<br>[[weapon triangle|triangle]] advantage; else 15%)}} of<br>{{Tgt|Foe}}'s Atk as combat begins
+|CombatEffect 1 Targets={{Tgt|Foe}}
+|CombatEffect 1 Conditions={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat '''&'''<br>{{Tgt|Unit}} can attack
+|CombatEffect 2={{Eft|Temporary buffs|Atk/Def|5}}
+|CombatEffect 3={{Eft|Temporary buffs|Atk/Def|15% of {{Tgt|Unit}}'s Def<br>at start of combat}}
+|CombatEffect 2-3 Conditions={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{CombatDamage|noCounter=1}}
+{{Temporary buffs}}
+{{At start of combat}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=愛の祭の斧
+|german=Axt der Hingabe
+|spanishEU=Hacha devota
+|spanishLA=Hacha devota
+|french=Hache dévote
+|italian=Ascia devota
+|chineseTW=愛之祭典之斧
+|portuguese=Machado devoto
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%=%of unit_s Def at start of combat%' OR Description LIKE '%unit%has weapon%triangle advantage%' AND Description NOT LIKE '%boosts Atk%' OR Description LIKE '%deals%damage%combat begins%') AND Exclusive='1'}}
+* [[Flare Passives]]
+{{Weapons Navbox}}

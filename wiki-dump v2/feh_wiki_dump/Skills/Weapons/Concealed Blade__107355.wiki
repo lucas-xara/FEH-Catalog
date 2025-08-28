@@ -1,0 +1,45 @@
+{{Weapon Infobox
+|tagid=SID_異邦の秘剣
+|weaponType=Sword
+|might=16
+|range=1
+|effect=Deals +10 damage when Special triggers.
+|cost=400
+|exclusive=1
+|required=-
+|userVersion1=Weapon
+|userVersion2=Gleam
+|statModifiers=0,16,0,0,0
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If unit's HP ≤ 75% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.
+|iconSkill1=Desperation W.png
+|tagidExtraSkill1=攻
+|properties=
+}}
+==Notes==
+{{FlatDamage|special=1|10}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+* {{St|Concealed Blade|refine=Skill1}} has the same effect as {{St|Desperation 3}}.
+{{Follow-up before counterattack}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=異邦の秘剣
+|german=Maskierte Klinge
+|spanishEU=Hoja oculta
+|spanishLA=Hoja oculta
+|french=Lame cachée
+|italian=Lama occulta
+|chineseTW=異邦的秘劍
+|portuguese=Lâmina oculta
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit_s HP%follow-up attack before foe can counterattack%' AND Description NOT LIKE '%if unit_s HP ≥%follow-up attack before foe%' AND Exclusive='1'}}
+* [[Weapons that boost Special damage]]
+{{Weapons Navbox}}

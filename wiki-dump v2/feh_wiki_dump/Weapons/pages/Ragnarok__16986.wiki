@@ -1,0 +1,49 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_ライナロック
+|weaponType=Red Tome
+|weaponName={{PAGENAME}}
+|might=14
+|range=2
+|effect=At start of combat, if unit's HP = 100%, grants Atk/Spd+5, but after combat, if unit attacked, deals 5 damage to unit.
+|cost=400
+|exclusive=1
+|userVersion1=Closed|userVersion2=Open|userVersion3=Gleam Closed|userVersion4=Gleam Open
+|statModifiers=0,14,0,0,0
+|required=Bolganone
+|SE=se_effect_rainarok.flac
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Atk/Spd+5 during combat. After combat, if unit attacked, deals 5 damage to unit.
+|effectSkill1=At start of combat, if unit's HP ≤ 80%, grants Atk/Spd+7 during combat.
+|iconSkill1=Brazen Atk Spd W.png
+|tagidExtraSkill1=覚
+|properties=random_owner
+}}
+
+==Notes==
+{{Combat boosts}}
+* The 100% HP requirement applies to both the Atk/Spd +5 as well as the 5 damage after combat.{{IfUnitAttacked}}{{DamageToUnit}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+* The refined effect listed first has the same effect as {{St|Brazen Atk/Spd 3}}.
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+*There are [[Unused content|unused strings]] in the game files that name Ragnarok+.
+==In other languages==
+{{OtherLanguages
+|japanese=ライナロック
+|german=Ragnarök
+|spanishEU=Ragnarok
+|spanishLA=Ragnarok
+|french=Ragnarök
+|italian=Ragnarok
+|chineseTW=末世烈焰
+|portuguese=Ragnarok
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grant%+%during combat%if unit attacked%deal%damage%unit%' OR Description LIKE '%if unit_s HP _%Atk/Spd+%' AND Description NOT LIKE '%≥%'|columns=3}}
+{{Weapons Navbox}}

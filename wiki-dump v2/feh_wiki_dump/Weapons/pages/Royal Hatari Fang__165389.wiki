@@ -1,0 +1,40 @@
+{{Weapon Infobox
+|tagid=SID_砂漠の狼女王の牙
+|intID=2929
+|exclusive=1
+|weaponType=Beast
+|canUseMove=Infantry
+|cost=400
+|might=14
+|range=1
+|cooldown=-1
+|effect=Enables【Canto (Rem. +1)】while transformed.<br><br>Accelerates Special trigger (cooldown count-1). If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit and neutralizes effects that guarantee foe's follow-up attacks or prevent unit's follow-up attacks during combat.<br><br>At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, deals +7 damage when Special triggers, and neutralizes effects that grant "Special cooldown charge +X" to foe or inflict "Special cooldown charge -X" on unit.<br><br>【Canto (Rem. +1)】<br>After an attack, Assist skill, or structure destruction, unit can move again.<br><br>The distance of the movement is the remaining movement the unit had before the actions listed above+1 (If unit used a movement skill that warps them, the remainder is 0).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|statModifiers=0,14,0,0,0
+|required=Adult (Infantry)
+|properties=
+}}
+==Notes==
+{{Canto|Rem. +1}}
+{{IfUnitTransforms|{{Kp|Canto (Rem. +1)}} effect}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Follow-up effect neutralization}}
+{{Beast (Infantry)}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=砂漠の狼女王の牙
+|german=Zahn von Igona
+|spanishEU=Colmillo Hataree
+|spanishLA=Colmillo Hataree
+|french=Croc d'Hatary
+|italian=Zanna di Athari
+|chineseTW=沙漠狼女王之牙
+|portuguese=Presa Hatari
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%guarantee foe_s follow-up%prevent unit_s follow-up%' AND Exclusive='1' AND Description NOT LIKE '%【Null Follow-Up】%' Or Description LIKE '%【Canto (Rem. +1)】%' AND Exclusive='1'}}
+* [[Skill families/B Passives#Trace|Trace Passives]]
+{{Weapons Navbox}}

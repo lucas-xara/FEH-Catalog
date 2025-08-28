@@ -1,0 +1,54 @@
+{{Passive
+|name=Brutal Ferocity
+|type=B
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Brutal Ferocity
+|1tagid=SID_獰猛かつ残忍
+|1effect=Effect:【Pathfinder】<br><br>At start of turn, and after unit acts (if Canto triggers, after Canto), inflicts Atk/Def-7 and 【Gravity】on foes in cardinal directions of unit with HP < unit's max HP through their next actions.<br><br>If foe initiates combat or if unit's HP ≥ 25% at start of combat, inflicts penalty on foe's Atk/Def = 5 + unit's max HP - foe's HP at start of combat (min 8, max 18), unit makes a guaranteed follow-up attack, neutralizes effects that inflict "Special cooldown charge -X" on unit, and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials).<br><br>【Pathfinder】<br>When an ally moves through unit's space, that space is counted as 0 spaces moved instead of 1 space. (Unit's space can be freely added to ally's normal movement. Applies only to allies with movement types that allow movement through unit's space.)<br><br>【Gravity】<br>Restricts target's movement to 1 space through its next action.
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Pathfinder}}
+|Se1={{Eft|Penalties|Atk/Def|7}}
+|Se2={{SEt|Gravity}}
+|SeT={{Tgt|Foes}} within<br>[[cardinal directions]]<br>of {{Tgt|Unit}}
+|SeC=(At start turn '''or'''<br>after {{Tgt|Unit}}'s<br>action(s) '''or''' after<br>[[Canto]] movement)<br>if {{Tgt|Unit}}'s max HP<br>> {{Tgt|Foe}}'s HP
+|Ce1={{Eft|Temporary debuffs|Atk/Def|5 + {{Tgt|Unit}}'s max HP<br>- {{Tgt|Foe}}'s HP at start of combat|min=8|max=18}}
+|Ce2={{Eft|Reduce Damage Reduction|50%}}
+|Ce1-2T={{Tgt|Foe}}
+|Ce3={{Eft|Guaranteed Follow-Ups}}
+|Ce4={{Eft|Neutralize Guard}}
+|CeC=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+}}
+
+==Notes==
+{{Pathfinder}}
+{{Penalties}}
+{{Gravity}}
+{{CardinalDirections}}
+{{IfFoeInitiates}}
+{{Temporary debuffs}}
+{{Guaranteed follow-up interaction}}
+{{CooldownChargeMinusNeutralization}}
+{{Reduce Damage Reduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%Pathfinder%' AND Description NOT LIKE '%excluding%Pathfinder%' AND Description NOT LIKE '%【Schism】%' OR Description LIKE '%【Gravity】%cardinal%' OR Description LIKE '%cardinal%【Gravity】%' OR Description LIKE '%unit_s max HP%-%foe_s HP%' OR Description LIKE '%foe%HP% unit_s max HP%' AND Description NOT LIKE '%restores X HP%') AND Exclusive='1'}}
+{{Passives Navbox|B}}

@@ -1,0 +1,33 @@
+{{Special
+|tagid=SID_太陽
+|charge=3
+|effect=Restores HP = 50% of damage dealt.
+|cost=200
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|required=Daylight
+|exclusive=0
+|properties=random_all,offensive_special
+}}
+==Notes==
+* The healing calculation will always use the [[Damage calculation#Final Damage calculation|final damage number]] for the damage dealt.
+{{CombatHPRecovery}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==Trivia==
+* Sol's cooldown was reduced by 1 with {{Version|2}}, released on November 28th, 2017.
+==In other languages==
+{{OtherLanguages
+|japanese=太陽
+|german=Sonne
+|spanishEU=Helios
+|spanishLA=Helios
+|french=Solaire
+|italian=Sole
+|chineseTW=太陽
+|portuguese=Sol
+}}
+==See also==
+{{See also skills|cond=SCategory='special' AND Exclusive='1' AND Description LIKE '%Restores HP = __% of damage dealt%'}}
+{{Specials Navbox}}

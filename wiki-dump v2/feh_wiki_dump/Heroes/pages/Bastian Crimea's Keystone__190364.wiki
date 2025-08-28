@@ -1,0 +1,69 @@
+{{#invoke:NameAbout|main|Name=Bastian}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Bastian
+|Title=Crimea's Keystone
+|WeaponType=Green Tome
+|MoveType=Infantry
+|Origin=Fire Emblem: Radiant Dawn
+|Gender=Male
+|actorEN=Eliah Mountjoy
+|actorJP=小山力也
+|artist=米子
+|randomStartTime=2023-03-17T07:00:00Z
+|additionDate=February 17, 2023
+|releaseDate=February 17, 2023
+|poolDate=March 7, 2023
+|poolRarities=3,4
+|cv1=9
+|cv2=200400
+|TagID=ユリシーズ
+|InternalID=920
+|Properties=
+|description=Deputy prime minister of Crimea and trusted ally of the new queen. During the war, he visited many countries to engage them in diplomacy. Appears in Fire Emblem: Radiant Dawn.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=11|Lv1SPD=4|Lv1DEF=3|Lv1RES=15
+|GRHP=50|GRATK=75|GRSPD=55|GRDEF=40|GRRES=70
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Wind
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elwind
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Gronndeer
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Gronndeer+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Iceberg
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Sabotage Res 1
+|passiveB2=Sabotage Res 2
+|passiveB3=Sabotage Res 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Atk Ploy 1
+|passiveC2=Atk Ploy 2
+|passiveC3=Atk Ploy 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

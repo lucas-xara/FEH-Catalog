@@ -1,0 +1,39 @@
+{{Weapon Infobox
+|tagid=SID_ヴァフスルーズニル
+|weaponType=Green Tome
+|might=9
+|range=2
+|effect=Inflicts Spd-5. If unit initiates combat, unit attacks twice.
+|cost=400
+|exclusive=1
+|statModifiers=0,9,-5,0,0
+|required=Rexcalibur
+|properties=
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Brave weapon interaction}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V3.9 91 dance02 Mag.webp|Spritesheet for {{St|Mögþrasir}}, {{St|Silver Goblet+}}, and {{PAGENAME}}'s animations.
+V3.9 91 dance02 Hit.webp|Spritesheet for {{St|Mögþrasir}}, {{St|Silver Goblet+}}, {{St|Verðandi}}, {{St|Fiddlestick Bow+}}, and {{PAGENAME}}'s hit animations.
+</gallery>
+==Trivia==
+{{NorseMyth|is a [[Wikipedia:Jötunn|Jötunn]] who held a contest of wisdom against [[Wikipedia:Odin|Odin]].}}
+==In other languages==
+{{OtherLanguages
+|japanese=ヴァフスルーズニル
+|german=Vafþrúðnir
+|spanishEU=Vafþrúðnir
+|spanishLA=Vafþrúðnir
+|french=Vafþrúðnir
+|italian=Vafþrúðnir
+|chineseTW=瓦夫蘇魯茲尼爾
+|portuguese=Vafþrúðnir
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%unit attacks twice%' AND (CanUseWeapon__full='Red Tome' OR CanUseWeapon__full='Blue Tome' OR CanUseWeapon__full='Green Tome' OR CanUseWeapon__full='Colorless Tome') OR Description LIKE '%Spd-5%unit attacks twice%' AND SP=400 and Description NOT LIKE '%even if foe initiates%'|columns=3}}
+*[[Brave Weapons]]
+{{Weapons Navbox}}

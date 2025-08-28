@@ -1,0 +1,83 @@
+{{#invoke:NameAbout|main|Name=Niðavellir}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Niðavellir
+|Title=Founding King
+|Origin=Fire Emblem Heroes
+|Gender=M
+|WeaponType=Colorless Bow
+|MoveType=Cavalry
+|actorEN=AJ Beckles
+|actorJP=三上哲
+|artist=Daisuke Izuka
+|additionDate=2024-07-04
+|releaseDate=2024-07-16
+|poolDate=2024-08-07
+|poolRarities=5
+|randomStartTime=2024-08-16T07:00:00Z
+|cv1=0
+|cv2=500050
+|Properties=mask,hat,tiara
+|description=The first and founding king of Niðavellir who fought and won independence from the jötnar.
+|TagID=ニザヴェリル
+|EnemyInternalID=107
+|InternalID=1122
+}}
+==Ally stats==
+{{Stats Page|noheader=1
+|Lv1HP=18|Lv1ATK=12|Lv1SPD=8|Lv1DEF=5|Lv1RES=6
+|GRHP=50|GRATK=75|GRSPD=90|GRDEF=50|GRRES=35
+}}
+==Enemy stats==
+{{Stats Page/Enemy|noheader=1
+|Lv1HP=18|Lv1ATK=12|Lv1SPD=8|Lv1DEF=5|Lv1RES=6
+|GRHP=50|GRATK=75|GRSPD=90|GRDEF=50|GRRES=35
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Bow
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Niðavellir Ballista
+|weapon4Default=5
+|weapon4Unlock=5
+|hasEnemy=1
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Rising Thunder
+|special1Default=4
+|special1Unlock=3
+|special2=Blazing Thunder
+|special2Default=5
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Life and Death 1
+|passiveA2=Life and Death 2
+|passiveA3=Life and Death 3
+|passiveA4=Verge of Death
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Seal Def 1
+|passiveB2=Seal Def/Res 1
+|passiveB3=Seal Def/Res 2
+|passiveB4=Seal Def/Res 3
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+}}
+{{Heroes Navbox}}
+{{Enemies Navbox}}

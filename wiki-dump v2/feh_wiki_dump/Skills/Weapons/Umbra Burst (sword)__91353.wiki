@@ -1,0 +1,44 @@
+{{Weapon Infobox
+|tagid=SID_影没の波動・剣
+|wikiName=Umbra Burst (sword)
+|weaponName=Umbra Burst
+|weaponType=Sword
+|might=16
+|range=1
+|effect=Unit can counterattack regardless of foe's range. Deals a minimum of 1 damage.
+|cost=0
+|exclusive=0
+|statModifiers=0,16,0,0,0
+|required=-
+|properties=enemy_only
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Distant Counter}}
+|Ce2={{Efi|Damage Boost}} Deals minimum 1 damage
+}}
+==Notes==
+{{Umbra Burst notes}}
+==Usage in Røkkr Sieges==
+{{Umbra Burst Hero List}}
+==Gallery==
+<gallery>
+File:Shadow v3.6 85 kakusei03.webp|Sprite sheet for [[:Category:Røkkr Sieges skills|Røkkr Sieges skills']] animations.
+</gallery>
+==Trivia==
+* '''Umbra Burst (sword)''' uses an alternated version of [[Silverbrand]]'s sprite.
+==In other languages==
+{{OtherLanguages
+|english=Umbra Burst
+|japanese=影没の波動
+|german=Umbra-Stoß
+|spanishEU=Colisión sombría
+|spanishLA=Colisión sombría
+|french=Rafale sombre
+|italian=Boato notte
+|chineseTW=影沒之波動
+|portuguese=Maré umbra
+}}
+==See also==
+* [[Umbra Burst|Umbra Burst weapons]]
+{{Weapons Navbox}}

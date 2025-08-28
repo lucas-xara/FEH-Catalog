@@ -1,0 +1,50 @@
+{{Weapon Infobox
+|tagid=SID_牽制の弓
+|weaponName=Rein Bow
+|weaponType=Bow
+|userVersion1=Bow
+|userVersion2=Arrow
+|might=8
+|range=2
+|effectiveness=Flying
+|effect=Effective against flying foes. Inflicts Spd/Def-5 on foes within 2 spaces during combat.
+|cost=200
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|required=Steel Bow
+|next=
+|promotionRarity=5
+|promotionTier=1
+|intID=2504
+|sort=8000
+|effectRange=2
+|value=11
+|timingID=2
+|abilityID=97
+|randomTimestamp=2021-05-06T07:00:00Z
+|randomMinLv=21
+|randomMaxLv=35
+|properties=random_owner
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{Combat reductions}}
+{{FoesCombatEffect}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=牽制の弓
+|german=Zügelbogen
+|spanishEU=Arco amarra
+|spanishLA=Arco amarra
+|french=Arc bride
+|italian=Arco Briglia
+|chineseTW=牽制之弓
+|portuguese=Arco rédea
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%inflicts%Spd/Def%-%on foes within _ spaces during combat%' AND WikiName NOT LIKE '%Rein%'|columns=3}}
+* [[Skill families#Rein|Rein Passives]]
+* [[Skill families#Rein_.28weapons.29|Rein Weapons]]
+{{Weapons Navbox}}

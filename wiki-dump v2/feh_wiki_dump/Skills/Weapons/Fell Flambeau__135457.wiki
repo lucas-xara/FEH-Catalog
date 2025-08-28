@@ -1,0 +1,94 @@
+{{Weapon Infobox
+|tagid=SID_仄暗き邪竜の松明
+|weaponName=Fell Flambeau
+|weaponType=Blue Tome
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br>If unit is not adjacent to an ally, inflicts penalty on foe's Atk/Spd/Def/Res during combat = 5 + any current penalty on each of those stats. (Example: if foe has -7 penalty to Atk, inflicts Atk-12, for a net penalty of Atk-19 during combat.) Calculates each stat penalty independently.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,0,0,0
+|required=Thoron;Shine
+|intID=2402
+|sort=495
+|value=20
+|timingID=1
+|abilityID=255
+|limit1ID=19
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Enables【Canto (Rem.; Min １)】.<br>Accelerates Special trigger (cooldown count-1).<br><br>At start of combat, if unit's HP ≥ 25% or if number of allies adjacent to unit ≤ 1, inflicts Atk/Spd/Def/Res-5 on foe, inflicts penalty on foe's Atk/Spd/Def/Res = highest penalty on each stat between target and foes within 2 spaces of target (calculates each stat penalty independently), and deals damage = 20% of unit's Spd during combat (excluding area-of- effect Specials).<br><br>【Canto (Rem.; Min １)】<br>After an attack, Assist skill, or structure destruction, unit can move spaces = any movement not already used that turn (min. １; if unit used a movement skill that warped them, unit can move １ space(s)). (Once per turn. Only highest value applied. Does not stack.)
+|effectSkill1=At start of turn, if unit's HP ≥ 25%, inflicts Spd/Res-7,【Panic】, and【Share Spoils+】 on closest foes and foes within 2 spaces of those foes through their next actions.<br><br>At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit, reduces damage from foe's first attack by 7 ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat.<br><br>【Panic】<br>Converts bonuses on target into penalties through its next action.<br><br>【Share Spoils+】<br>Inflicts Atk/Spd/Def/Res-5 on unit during combat and neutralizes "reduces damage by X%" effects from unit's non-Special skills (excluding area-of-effect Specials).<br><br>Once per turn for the entire map, if foe initiates combat and if unit is defeated in combat, grants another action to that foe after combat (this effect has priority over other similar effects aside from Share Spoils; if this status and Share Spoils are both active at the same time, they are both treated as having been triggered; other similar effects aside from Share Spoils are treated as not having triggered).
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Accelerates Special}}
+|s1 Ce={{Eft|Temporary Debuffs|Atk/Spd/Def/Res|5 + {{SEt|penalties}} on<br>each of {{Tgt|Foe}}'s stats}}
+|s1 CeT={{Tgt|Foe}}
+|s1 CeC=No {{Tgt|Allies}}<br>are [[adjacent]]
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Accelerates Special}}
+|s2 Me={{Eft|Canto|Rem.; Min 1}}
+|s2 Ce1={{Eft|Temporary Debuffs|Atk/Spd/Def/Res|5 + highest {{SEt|Penalty}}<br>on {{Tgt|Target Foe}} & {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}}}
+|s2 Ce1T={{Tgt|Foe}}
+|s2 Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|s2 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat '''or'''<br>[[Adjacent]] {{Tgt|Allies}} ≤ 1
+|skill3={{Si|Fell Flambeau|refine=Skill1}} Skill refine effects
+|s3 Se1={{Eft|Penalties|Spd/Res|7}}
+|s3 Se2={{SEt|Panic}}
+|s3 Se3={{SEt|Share Spoils+}}
+|s3 SeT=Closest {{Tgt|Foes}}<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}
+|s3 SeC=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25%
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s3 Ce2={{Eft|Damage Reduction|7}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|s3 Ce3={{Eft|Neutralize Prevent Follow-Ups}}
+|s3 Ce4={{Eft|Neutralize Guaranteed Follow-Ups}}
+|s3 Ce4T={{Tgt|Foe}}
+|s3 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{TemporaryDebufffromPenalty}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Canto|Rem.; Min 1|name=Refined Fell Flambeau}}
+{{TemporaryDebufffromPenalty|name=Refined Fell Flambeau|multisource=1|source=the foe and foes within 2 spaces of those foes}}
+{{DamageBoost|name=Refined Fell Flambeau}}
+{{Penalties|name={{St|Fell Flambeau|refine=Skill1}}}}
+{{Panic|name={{St|Fell Flambeau|refine=Skill1}}}}
+{{Share Spoils+|name={{St|Fell Flambeau|refine=Skill1}}}}
+{{Temporary buffs|name={{St|Fell Flambeau|refine=Skill1}}}}
+{{FlatDamageReduction|7|name={{St|Fell Flambeau|refine=Skill1}}}}
+{{Follow-up effect neutralization|name={{St|Fell Flambeau|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+Weapon Fell Flambeau.png|Phase 1
+Weapon Fell Flambeau V2.png|Phase 2
+Weapon Fell Flambeau V3.png|Phase 3
+Weapon Fell Flambeau V4.png|Phase 4
+Wep mg155.webp|Sprite sheet use to animate Fell Flambeau
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=仄暗き邪竜の松明
+|german=Dämonenfackel
+|spanishEU=Tea caída
+|spanishLA=Tea caída
+|french=Flambeau déchu
+|italian=Fiaccola maligna
+|chineseTW=幽暗邪龍的火把
+|portuguese=Brandão terrível
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%penalty on foe_s%+%current penalty on each of those stats%' AND Description NOT LIKE '%【Foe Penalty Doubler】%' OR Description LIKE '%【Share Spoils%】%') AND WikiName NOT LIKE '%vulture%' AND Exclusive=1}}
+* [[Skill families/Weapons#Vulture|Vulture Weapons]]
+{{Weapons Navbox}}

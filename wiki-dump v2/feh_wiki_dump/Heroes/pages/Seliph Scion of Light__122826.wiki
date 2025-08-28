@@ -1,0 +1,76 @@
+{{#invoke:NameAbout|main|Name=Seliph}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Seliph
+|Title=Scion of Light
+|WeaponType=Red Sword
+|Origin=Fire Emblem: Genealogy of the Holy War
+|Gender=Male
+|LegendaryEffect=Earth
+|BoostHP=3
+|Duel=180
+|MoveType=Cavalry
+|actorJP=内田雄馬
+|actorEN=Christian La Monte
+|artist=江川あきら
+|nokanji=1
+|additionDate=June 30, 2020
+|releaseDate=June 30, 2020
+|cv1=3
+|cv2=5100100
+|TagID=伝承セリス
+|InternalID=537
+|Properties=legendary
+|description=Inheritor of the sacred sword Tyrfing. Beside his half sister, Julia, he opposes the dark god Loptous and ends the Holy War. Appears in Fire Emblem: Genealogy of the Holy War.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=11|Lv1SPD=4|Lv1DEF=9|Lv1RES=4
+|GRHP=50|GRATK=70|GRSPD=30|GRDEF=65|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Virtuous Tyrfing
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+}}
+===Specials===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=4
+|special1Unlock=3
+|special2=Ignis
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Distant Counter
+|passiveA2=Distant Ferocity
+|passiveA1Unlock=5
+|passiveA2Unlock=5
+|passiveB1=Holy War's End
+|passiveB2=Holy War's End II
+|passiveB1Unlock=5
+|passiveB2Unlock=5
+|passiveC1=Fortify Def 1
+|passiveC2=Fortify Def 2
+|passiveC3=Fortify Def 3
+|passiveC4=Joint Hone Def
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}

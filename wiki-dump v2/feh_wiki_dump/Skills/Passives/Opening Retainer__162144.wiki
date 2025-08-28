@@ -1,0 +1,72 @@
+{{Passive
+|type=C
+|name=Opening Retainer
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Opening Retainer
+|1tagid=SID_開神の眷属
+|1cost=300
+|1effect=Allies within 2 spaces can move to a space within 2 spaces of unit.<br><br>Grants Atk+4 to allies within 2 spaces during combat. If unit is within 2 spaces of an ally, grants Atk+4 to unit during combat.
+|1required=-
+|1next=-
+|2name=Open Retainer+
+|alt2name=Open Retainer Plus
+|2tagid=SID_開神の眷属・神
+|2effect=Allies within 2 spaces can move to any space within 2 spaces of unit.<br><br>For allies within 3 spaces of unit, grants Atk/Spd/Def/Res+5 and neutralizes foe's bonuses during combat, and also, when ally deals damage to foe during their combat, restores 7 HP to that ally.<br><br>If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit, neutralizes foe's bonuses, and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials), and also, when unit deals damage to foe during combat, restores 7 HP to unit.
+|2cost=300
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Opening Retainer}} Opening Retainer
+|s1 Me={{Eft|Warp|[[within 2 spaces]]<br>of {{Tgt|Unit}}}}
+|s1 MeT={{Tgt|Allies}}<br>[[within 2 spaces]]
+|s1 Ce1={{Eft|Temporary buffs|Atk|4}}
+|s1 Ce1T={{Tgt|Allies}}<br>[[within 2 spaces]]
+|s1 Ce2={{Eft|Temporary buffs|Atk|4}}
+|s1 Ce2C=An {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|skill2={{Si|Open Retainer+}} Open Retainer+
+|s2 Me={{Eft|Warp|[[within 2 spaces]]<br>of {{Tgt|Unit}}}}
+|s2 MeT={{Tgt|Allies}}<br>[[within 2 spaces]]
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s2 Ce2={{Eft|Heal|7}}<br>per {{Tgt|Ally}}'s attack
+|s2 Ce1-2T={{Tgt|Allies}}<br>[[within 3 spaces]]
+|s2 Ce3={{Eft|Neutralize Bonuses}}
+|s2 Ce3T={{Tgt|Foes}} of<br>{{Tgt|Allies}}<br>[[within 3 spaces]]
+|s2 Ce4={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s2 Ce5={{Eft|Heal|7}}<br>per {{Tgt|Ally}}'s attack
+|s2 Ce6={{Eft|Neutralize Bonuses}}
+|s2 Ce7={{Eft|Reduce Damage Reduction|50%}}
+|s2 Ce6-7T={{Tgt|Foe}}
+|s2 Ce4-7C=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+}}
+
+==Notes==
+* Opening Retainer has the same effect as {{St|Joint Drive Atk}}.
+{{Warp interaction}}
+{{Temporary buffs}}
+{{AlliesCombatEffect}}
+{{CombatHPRecovery|name=Open Retainer+}}
+{{Bonus neutralization|name=Open Retainer+}}
+{{AlliesCombatEffect|temporary buffs, bonus neutralization and HP recovery effects|name=Open Retainer+}}
+{{Reduce Damage Reduction|name=Open Retainer+}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=開神の眷属
+|german=Getreue d. Gottes
+|spanishEU=Vasalla cordial
+|spanishLA=Vasalla cordial
+|french=Vassale ouverture
+|italian=Serva unificazione
+|chineseTW=開神的眷屬
+|portuguese=Criada da união
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%allies%within 2 spaces%can move to a%space within 2 spaces of unit%' OR Description LIKE '%for allies within _ spaces of unit%when ally deals damage to foe during their combat, restores%HP to that ally%' OR Description LIKE '%"when unit deals damage to foe during combat, restores%HP to unit%') AND Exclusive='1'}} 
+* [[Skill families/C Passives#Guidance|Guidance Passives]]
+* [[Skill families/Weapons#Allied|Allied Weapons]]
+* [[Skill families/C Passives#Joint Drive|Joint Drive Passives]]
+{{Passives Navbox|C}}

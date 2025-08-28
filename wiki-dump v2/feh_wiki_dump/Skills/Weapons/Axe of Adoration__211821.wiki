@@ -1,0 +1,50 @@
+{{Weapon Infobox
+|tagid=SID_可憐の斧
+|intID=4027
+|image=wep_ax147
+|exclusive=1
+|weaponType=Axe
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of combat, if unit's HP ≥ 25%, inflicts Atk/Spd/Def-X on foe (X = 16 - foe's maximum Special cooldown count value × 2; min 8; if foe is not equipped with a Special, then X = 8), reduces damage from foe's first attack by 40% ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), grants Special cooldown charge +1 to unit per attack (only highest value applied; does not stack), and reduces the percentage of foe's non-Special "reduce damage by X%" skills by Y% (if foe's Def ≥ foe's Res at start of combat, Y = 70; otherwise, Y = 30) during combat (excluding area-of-effect Specials), and restores 7 HP to unit after combat.
+|required=Silver Axe
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|PermanentEffect={{Eft|Accelerates Special}}
+|Ce1={{Eft|Temporary Debuffs|Atk/Spd/Def|16 - {{Tgt|Foe}}'s max Special CD|min=8}}
+|CeT1-2={{Tgt|Foe}}
+|Ce2={{Eft|Reduce Damage Reduction|2=70% if {{Tgt|Foe}}'s Def ≥ Res<br>at start of combat; else, Y = 30%}}
+|Ce3={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce4={{Eft|Accelerate Charge}}
+|CeT3-4={{Tgt|Unit}}
+|CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Me={{Eft|Heal|7}}
+|MeC=After combat if<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Temporary debuffs}}
+{{DamagePercentageReduction}}
+{{CooldownChargePlus}}
+{{Reduce Damage Reduction|fixed=0}}
+{{After combat healing}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=可憐の斧
+|german=Niedlichkeitsaxt
+|spanishEU=Hacha adorable
+|spanishLA=Hacha adorable
+|french=Hache adorable
+|italian=Ascia adorata
+|chineseTW=可愛之斧
+|portuguese=Gume adorável
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%=%foe_s max special cooldown count%'}}
+{{Weapons Navbox}}

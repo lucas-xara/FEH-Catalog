@@ -1,0 +1,69 @@
+{{#invoke:NameAbout|main|Name=Narcian}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Narcian
+|Title=Vernal General
+|WeaponType=Blue Lance
+|Origin=Fire Emblem: The Binding Blade
+|Gender=Male
+|MoveType=Flying
+|actorJP=鳥海浩輔
+|actorEN=Kaiji Tang
+|artist=山田孝太郎
+|additionDate=March 18, 2020
+|releaseDate=March 18, 2020
+|TagID=春祭ナーシェン
+|InternalID=501
+|Properties=special,hat
+|cv1=5
+|cv2=500400
+|description=One of the three Wyvern Generals of Bern. Making a rare exception, he is donning an unusual outfit just for the spring festival. Appears in Fire Emblem: The Binding Blade.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=11|Lv1SPD=10|Lv1DEF=7|Lv1RES=3
+|GRHP=55|GRATK=55|GRSPD=55|GRDEF=70|GRRES=35
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Gilt Fork
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Gilt Fork+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+}}
+===Specials===
+{{Specials Table
+|special1=Retribution
+|special1Default=4
+|special1Unlock=3
+|special2=Vengeance
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Chill Spd 1
+|passiveB2=Chill Spd 2
+|passiveB3=Chill Spd 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Lance Exp. 1
+|passiveC2=Lance Exp. 2
+|passiveC3=Lance Exp. 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Spring Festival units]]

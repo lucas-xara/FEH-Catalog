@@ -1,0 +1,61 @@
+{{SkillPage Tabs}}{{Passive
+|type=A
+|exclusive=0
+|1name=Spd/Res 1
+|1tagid=SID_速さ魔防1
+|1promotionRarity=5
+|1promotionTier=1
+|alt1name=Spd Res 1
+|1effect=Grants Spd/Res+1.
+|1cost=80
+|1required=Resistance +1;Speed +1
+|2name=Spd/Res 2
+|2tagid=SID_速さ魔防2
+|alt2name=Spd Res 2
+|2effect=Grants Spd/Res+2.
+|2cost=160
+|3name=
+|3effect=
+|3cost=
+|statModifiers1=0,0,1,0,1
+|statModifiers2=0,0,2,0,2
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=random_all
+}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Spd/Res 1;Spd/Res 2
+|badgeColor=Transparent
+|costs1=20;100;20
+|costs2=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|english=Spd/Res
+|japanese=速さ魔防
+|german=Ges./Res.
+|spanishEU=Vel/Res
+|spanishLA=Vel./Res.
+|french=Vit/Rés +
+|italian=Vel/Res
+|chineseTW=速度魔防
+|portuguese=Vel./Res.
+}}
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}
+{{Passives Navbox|A}}
+[[Category:Plus Passives]]

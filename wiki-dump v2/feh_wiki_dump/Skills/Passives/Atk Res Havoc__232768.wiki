@@ -1,0 +1,62 @@
+{{Passive
+|name=Atk/Res Havoc
+|type=B
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|Infantry,Flying}}
+|properties=random_owner
+|1name=Atk/Res Havoc
+|alt1name=Atk Res Havoc
+|1tagid=SID_攻撃魔防の大混乱
+|1effect=At start of player phase or enemy phase, inflicts Atk/Res-7,【Sabotage】, and【Schism】 on foes with Res < unit's Res and that are within 2 spaces of another foe through their next actions.<br><br>After start-of-turn skills trigger on unit's player phase, if the number of foes with the 【Sabotage】effect active on the map ≥ 2, grants 【Canto (１)】to unit for 1 turn.<br><br>Inflicts Atk/Res-4 on foe and deals damage = 20% of unit's Res during combat (excluding area-of-effect Specials).<br><br>【Sabotage】<br>Inflicts penalty on unit's Atk/Spd/Def/Res during combat = highest penalty on each stat between unit and allies within 2 spaces of unit through its next action. Calculates each stat penalty independently.<br><br>【Schism】<br>Neutralizes Triangle Attack, Dual Strike, and Pathfinder effects active on unit through unit's next action. Unit is excluded from ally Triangle Attack and Dual Strike effects calculated using numbers of allies. When this status (Schism) is neutralized, Triangle Attack, Dual Strike, and Pathfinder effects are also neutralized.<br><br>【Canto (１)】<br>After an attack, Assist skill, or structure destruction, unit can move １ space(s).<br>(Once per turn. Only highest value applied. Does not stack.)
+|1cost=300
+|1required=Sabotage Atk 3;Sabotage Res 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{Eft|Penalties|Atk/Res|7}}
+|Se2={{SEt|Sabotage}}
+|Se3={{SEt|Schism}}
+|Se1-3T={{Tgt|Foes}}<br>[[within 2 spaces]]<br>of other {{Tgt|Foes}}
+|Se1-3C=At start of both Phases<br>if {{Tgt|Foe}}'s Res<br>< {{Tgt|Unit}}'s Res
+|Se4={{SEt|Canto (1)}}
+|Se4C=After start-of-turn<br>effects in Player<br>Phase if {{Tgt|Foes}}<br>with {{SEt|Sabotage}} ≥ 2
+|Ce1={{Eft|Temporary debuffs|Atk/Res|4}}
+|Ce1T={{Tgt|Foe}}
+|Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Res}}
+}}
+==Notes==
+{{Penalties}}
+{{Sabotage}}
+{{Schism}}
+{{Canto|1|statusEffect=1}}
+{{Temporary debuffs}}
+{{DamageBoost}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Atk/Res Havoc
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=Pagaille Atq/Rés
+|italian=
+|chineseTW=
+|portuguese=
+}}
+
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%【Schism】%' OR Description LIKE '%number of foes with%active%' OR Description LIKE '%active on foe and any foe within _ spaces of foe%' OR Description LIKE '%number of foes within _ spaces of target with %') AND Exclusive='1'}}
+* [[Sabotage Passives]]
+* [[Havoc Passives]]
+{{Passives Navbox|B}}
+[[Category:Sabotage Passives]]
+[[Category:Havoc Passives]]

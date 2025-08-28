@@ -1,0 +1,50 @@
+{{Weapon Infobox
+|tagid=SID_シャムシール
+|weaponType=Sword
+|might=16
+|range=1
+|effect=Accelerates Special trigger (cooldown count-1). Deals +7 damage when Special triggers.
+|cooldown=-1
+|cost=400
+|exclusive=1
+|userVersion1=Weapon
+|userVersion2=Gleam
+|statModifiers=0,16,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=At start of turn, if Special cooldown count is at its maximum value, grants Special cooldown count-1. If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd+5 to unit during combat.
+|iconSkill1=Shamshir W.png
+|tagidExtraSkill1=鼓
+|properties=
+}}
+==Notes==
+{{FlatDamage|special=1|7}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+* {{St|Shamshir|refine=Skill1}} has the same effect as {{St|Time's Pulse 3}}.
+{{Start of turn Special modification}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=シャムシール
+|german=Shamshir
+|spanishEU=Shamshir
+|spanishLA=Shamshir
+|french=Shamshir
+|italian=Shamshir
+|chineseTW=彎刀
+|portuguese=Shamshir
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%Special cooldown count%maximum value%' OR Description LIKE '%unit initiates combat%within _ spaces%grants Atk/Spd+%during combat%'|columns=3}}
+* [[Weapons that boost Special damage]]
+{{Weapons Navbox}}

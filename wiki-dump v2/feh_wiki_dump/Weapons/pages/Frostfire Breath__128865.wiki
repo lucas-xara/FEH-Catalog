@@ -1,0 +1,104 @@
+{{Weapon Infobox
+|tagid=SID_蒼紅のブレス
+|weaponName=Frostfire Breath
+|image=wep_ac027
+|weaponType=Dragonstone
+|might=16
+|range=1
+|effectiveness=Dragon
+|effect=Effective against dragon foes. Grants Atk+3. If【Bonus】is active on unit, grants Atk/Spd+6 during combat, and also grants bonus to unit's Atk = total bonuses on unit's Def and Res × 1.5 during combat. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|cost=400
+|exclusive=1
+|statModifiers=0,19,0,0,0
+|required=Flametongue
+|intID=2251
+|sort=453
+|value=20
+|adaptive=Flying
+|timingID=1
+|abilityID=234
+|limit1ID=21
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Effective against dragon foes. Grants Atk+3.<br><br>If【Bonus】is active on unit, grants Atk/Spd+6 and Def/Res+5 to unit and grants bonus to unit's Atk/Spd = highest total bonuses to Def/Res among unit and allies within 3 spaces of unit × 2, reduces damage from foe's first attack by 7 ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat, and restores 7 HP to unit after combat.<br><br>If foe's Range = 2, calculates damage using the lower of foe's Def or Res.<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|refineStatsSkill1=3,0,0,0,0
+|effectSkill1=Enables【Canto (２)】.<br><br>At start of turn, if unit is within 2 spaces of an ally, grants Def/Res+6,【Bonus Doubler】, and 【Null Panic】to unit and allies within 2 spaces of unit for 1 turn.<br><br>If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials).<br><br>【Canto (２)】<br>After an attack, Assist skill, or structure destruction, unit can move ２ space(s).<br>(Once per turn. Only highest value applied. Does not stack.)<br><br>【Bonus Doubler】<br>Grants bonus to Atk/Spd/Def/Res during combat = current bonus on each of unit's stats for 1 turn. Calculates each stat bonus independently.<br><br>【Null Panic】<br>If unit is inflicted with Panic (bonuses converted into penalties), neutralizes the "converts bonuses on target into penalties" effect for 1 turn.
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Atk|3}}
+|s1 Ce1={{Eft|Effectiveness|{{Cwti|Dragonstone|group=1}} [[Dragon]]}}
+|s1 Ce2={{Eft|Temporary buffs|Atk/Spd|6}}
+|s1 Ce3={{Eft|Temporary buffs|Atk|1.5 x total {{SEt|Bonuses}}<br>on {{Tgt|Unit}}'s Def/Res}}
+|s1 Ce2-3C=A {{Kp|Bonus}} effect<br>is active on {{Tgt|Unit}} 
+|s1 Ce4={{Eft|Lower Def Res}}
+|s1 Ce4C={{Tgt|Foe}}'s Range = 2
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Atk|3}}
+|s2 Ce1={{Eft|Effectiveness|{{Cwti|Dragonstone|group=1}} [[Dragon]]}}
+|s2 Ce2={{Eft|Temporary buffs|Atk/Spd|6}}, {{Eft|Temporary buffs|Def/Res|5}} 
+|s2 Ce3={{Eft|Temporary buffs|Atk/Spd|2 x highest total {{SEt|Bonuses}} on<br>{{Tgt|Unit}} '''&''' {{Tgt|Allies}}'s Def/Res<br>[[within 3 spaces]]}}
+|s2 Ce4={{Eft|Damage Reduction|7}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|s2 Ce5={{Eft|Neutralize Guaranteed Follow-Ups}}
+|s2 Ce5T={{Tgt|Foe}}
+|s2 Ce6={{Eft|Neutralize Prevent Follow-Ups}}
+|s2 Ce6-7T={{Tgt|Unit}}
+|s2 Ce2-6C=A {{Kp|Bonus}} effect<br>is active on {{Tgt|Unit}}
+|s2 Ce7={{Eft|Lower Def Res}}
+|s2 Ce7C={{Tgt|Foe}}'s Range = 2
+|s2 Me={{Eft|Heal|7}}
+|s2 MeC=After combat if<br>a {{Kp|Bonus}} effect<br>is active on {{Tgt|Unit}}
+|skill3={{Si|Frostfire Breath|refine=Skill1}} Skill refine effects
+|s3 Me={{Eft|Canto|2}}
+|s3 Se1={{Eft|Bonuses|Def/Res|6}}
+|s3 Se2={{SEt|Bonus Doubler}}
+|s3 Se3={{SEt|Null Panic}}
+|s3 SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|s3 SeC=At start of turn<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s3 Ce2={{Eft|Reduce Damage Reduction|50%}}
+|s3 Ce2T={{Tgt|Foe}}
+|s3 CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+
+==Notes==
+{{Effective damage bonus|dragon}}
+{{BonusesToAtk}}
+{{EffectfromBonusKeyword|temporary buffs}}
+{{LowerDefRes}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{TemporaryBufffromBonus|multiSource=1|source=unit or allies with the highest bonuses|name=Refined Frostfire Breath}}
+{{FlatDamageReduction|7|name=Refined Frostfire Breath}}
+{{Follow-up effect neutralization|name=Refined Frostfire Breath}}
+{{After combat healing|name=Refined Frostfire Breath}}
+{{Canto|2|name={{St|Frostfire Breath|refine=Skill1}}}}
+{{Bonuses|name={{St|Frostfire Breath|refine=Skill1}}}}
+{{Bonus Doubler|name={{St|Frostfire Breath|refine=Skill1}}}}
+{{Null Panic|name={{St|Frostfire Breath|refine=Skill1}}}}
+{{IfUnitInitiates}}
+{{Reduce Damage Reduction|name={{St|Frostfire Breath|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Frostfire Breath
+|japanese=蒼紅のブレス
+|german=Frostfeuer-Atem
+|spanishEU=Aliento fuego frío
+|spanishLA=Soplo fuego frío
+|french=Souffle gelfeu
+|italian=Soffio fuocogelo
+|chineseTW=蒼紅吐息
+|portuguese=Sopro gelafogo
+}}
+==See also==
+{{See also skills|cond=WeaponEffectiveness='dragon' AND NOT (CanUseWeapon__full='Red Sword' OR CanUseWeapon__full='Blue Lance' OR CanUseWeapon__full='Green Tome' OR CanUseWeapon__full='Blue Tome' OR Description LIKE '%if unit attacked%Def/Res-%') OR Description LIKE '%bonus to unit_s Atk%total bonuses on unit%during combat%' AND exclusive='1'}}
+* [[Blade Weapons]]
+{{Weapons Navbox}}
+[[Category:Blade weapons]]

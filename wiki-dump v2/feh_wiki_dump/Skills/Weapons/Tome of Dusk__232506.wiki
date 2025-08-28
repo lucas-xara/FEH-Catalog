@@ -1,0 +1,83 @@
+{{Weapon Infobox
+|tagid=SID_戦神の闇夜の書
+|intID=4665
+|userVersion1=Closed
+|userVersion2=Open
+|exclusive=1
+|weaponType=Red Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Enables【Canto (Rem.; Min １)】.<br>Accelerates Special trigger (cooldown count-1).<br><br>If a Rally or movement Assist skill is used by unit, grants another action to unit (once per turn).<br><br>After unit acts (if Canto triggers, after Canto), grants Special cooldown count-1 to unit, and also, if the number of times unit has acted on the current turn (not counting Canto) ≤ 2, for foes with Res < unit's Res+5, triggers the following effects based on the foe's position: if foe is within 3 rows or 3 columns centered on unit, inflicts Atk/Res-7 and【Sabotage】on foe; if foe is in cardinal directions of unit, also inflicts 【Gravity】on foe (all effects are inflicted through foes' next actions).<br><br>At start of combat, if unit's HP ≥ 25%, grants bonus to unit's Atk/Spd/Def/Res = number of foes within 3 rows or 3 columns centered on unit × 3, + 5 (max 14), deals damage = 20% of unit's Res (including area-of-effect Specials), and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials).<br><br>【Canto (Rem.; Min １)】<br>After an attack, Assist skill, or structure destruction, unit can move spaces = any movement not already used that turn (min. １; if unit used a movement skill that warped them, unit can move １ space(s)).<br>(Once per turn. Only highest value applied. Does not stack.)<br><br>【Sabotage】<br>Inflicts penalty on unit's Atk/Spd/Def/Res during combat = highest penalty on each stat between unit and allies within 2 spaces of unit through its next action. Calculates each stat penalty independently.<br><br>【Gravity】<br>Restricts target's movement to 1 space through its next action.
+|required=Bolganone;Fenrir
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Me1={{Eft|Canto|Rem.; Min 1}}
+|Me2={{Eft|Galeforce}}<br>(once per turn)
+|Me2C=[[Rally Assist|Rally]] or [[Movement Assist|Movement]]<br>Assist is used<br>by {{Tgt|Unit}}
+|Me3={{Eft|Reduce Cooldown|1}}
+|Me3C=After {{Tgt|Unit}}'s<br>action(s) '''or''' (after<br>[[Canto]] movement)
+|Se1={{Eft|Penalties|Atk/Res|7}}
+|Se2={{SEt|Sabotage}}
+|Se1-2T={{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|Se3={{SEt|Gravity}}
+|Se3T={{Tgt|Foes}} in<br>[[cardinal directions]]
+|SeC=(After {{Tgt|Unit}}'s<br>action(s) '''or''' (after<br>[[Canto]] movement)),<br>{{Tgt|Unit}}'s Res ><br>{{Tgt|Foe}}'s Res+5<br>'''&''' times {{Tgt|Unit}}<br>acted ≤ 2
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|3 x {{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}, + 5|max=14}}
+|Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Res}}<br>before '''&''' during combat
+|Ce3={{Eft|Reduce Damage Reduction|50%}}
+|Ce3T={{Tgt|Foe}}
+|CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Canto|Rem.; Min 1}}
+{{Galeforce notes}}
+{{Penalties}}
+{{Sabotage}}
+{{CardinalDirections}}
+{{Gravity}}
+{{Temporary buffs}}
+{{DamageBoost}}
+{{Reduce Damage Reduction}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Leo: Dark Sprout|t=Garon: King of Nohr
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V9.4_v0904a_child_Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%Assist skill is used by unit%grants another action%' OR Description LIKE '%cardinal directions%【Gravity】%' OR Description LIKE '%【Gravity】%cardinal directions%') AND Exclusive='1'}}
+{{Weapons Navbox}}

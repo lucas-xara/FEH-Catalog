@@ -1,0 +1,93 @@
+{{#invoke:NameAbout|main|Name=Eitri}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Eitri
+|Title=Youthful Sage
+|Origin=Fire Emblem Heroes
+|Gender=Female
+|WeaponType=Green Tome
+|MoveType=Flying
+|LegendaryEffect=Fire
+|BoostHP=3
+|Duel=185
+|actorEN=Lisa Reimold
+|actorJP=高山みなみ
+|artist=コザキユースケ
+|additionDate=November 17, 2021
+|releaseDate=November 30, 2021
+|cv1=0
+|cv2=500900
+|Properties=legendary,hat,tiara
+|description=A scholar of Niðavellir. Despite her youthful appearance, her exceptional intellect has earned her the title of sage.
+|TagID=エイトリ
+|InternalID=736
+|EnemyInternalID=79
+}}
+==Ally stats==
+{{Stats Page|noheader=1
+|Lv1HP=15|Lv1ATK=11|Lv1SPD=7|Lv1DEF=8|Lv1RES=7
+|GRHP=50|GRATK=70|GRSPD=50|GRDEF=50|GRRES=55
+}}
+==Enemy stats==
+{{Stats Page/Enemy|noheader=1
+|Lv1HP=15|Lv1ATK=11|Lv1SPD=7|Lv1DEF=8|Lv1RES=7
+|GRHP=50|GRATK=70|GRSPD=50|GRDEF=50|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Wind
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elwind
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Rexcalibur
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Grim Brokkr
+|weapon4Default=5
+|weapon4Unlock=5
+|hasEnemy=1
+}}
+
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Dragon Fang
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Res Solo 1
+|passiveA2=Atk/Res Solo 2
+|passiveA3=Atk/Res Solo 3
+|passiveA4=Atk/Res Solo 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Divine Recreation
+|passiveB2=Divine Rec. II
+|passiveB1Unlock=5
+|passiveB2Unlock=5
+|passiveC1=Atk/Res Rein 1
+|passiveC2=Atk/Res Rein 2
+|passiveC3=Atk/Res Rein 3
+|passiveC4=Savage Blow 1
+|passiveC5=Savage Blow 2
+|passiveC6=Savage Blow 3
+|passiveC7=Deadly Miasma
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+|passiveC4Unlock=2
+|passiveC5Unlock=3
+|passiveC6Unlock=4
+|passiveC7Unlock=5
+}}
+{{Heroes Navbox}}
+{{Enemies Navbox}}

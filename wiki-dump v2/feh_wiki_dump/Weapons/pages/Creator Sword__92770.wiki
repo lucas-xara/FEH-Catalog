@@ -1,0 +1,56 @@
+{{Weapon Infobox
+|tagid=SID_天帝の剣
+|weaponType=Red Sword
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). During combat, neutralizes effects that guarantee foe's follow-up attacks, prevent unit's follow-up attacks, grant "Special cooldown charge +X" to foe, or inflict "Special cooldown charge -X" on unit.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Silver Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|userVersion1=Weapon
+|userVersion2=Upgrade Weapon
+|userVersion3=Upgrade Gleam
+|upgradedEffect=Accelerates Special trigger (cooldown count-1). During combat, neutralizes effects that guarantee foe's follow-up attacks, prevent unit's follow-up attacks, grant "Special cooldown charge +X" to foe, or inflict "Special cooldown charge -X" on unit. If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+4 during combat.
+|tagidExtraSkill1=一
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit and reduces damage from foe's first attack by 30% during combat. If Special triggers, neutralizes "reduces damage by X%" effects from non-Special skills (excluding area-of-effect Specials).
+|iconSkill1=Creator Sword W.png
+|properties=random_owner
+}}
+==Notes==
+* Has the same effect as {{St|Null Follow-Up}}.
+{{Follow-up effect neutralization}}
+{{CooldownChargePlusNeutralization}}
+{{CooldownChargeMinusNeutralization}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfUnitInitiates}}
+{{Temporary buffs|name=refined Creator Sword}}
+{{DamagePercentageReduction}}
+{{DamageReductionNeutralization|name={{St|Creator Sword|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+* Creator Sword has been abridged from "Sword of the Creator" from {{FE|16}} to fit the character limit in English.
+==In other languages==
+{{OtherLanguages
+|japanese=天帝の剣
+|german=Schöpferschwert
+|spanishEU=Espada creadora
+|spanishLA=Espada creadora
+|french=Épée du Créateur
+|italian=Spada Creazione
+|chineseTW=天帝之劍
+|portuguese=Espada criação
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%neutralizes%Special cooldown charge +X%Special cooldown charge -X%' AND Description NOT LIKE '%transforms%+7 damage when Special triggers%neutralizes effects%' AND WikiName NOT LIKE '%Tempo%' OR (Description LIKE '%disables%reduce%damage by x%' OR Description LIKE '%neutralizes%reduce%damage by x%') AND Description LIKE '%non-Special%' AND Description NOT LIKE '%reduces the percentage%'}}
+* [[Null Passives]]
+* [[Skill families#Tempo|Tempo Passives]]
+{{Weapons Navbox}}

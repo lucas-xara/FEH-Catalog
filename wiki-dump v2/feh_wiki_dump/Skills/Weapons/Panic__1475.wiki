@@ -1,0 +1,42 @@
+{{About|skill Panic|the [[Status effect|status effect]]|Panic (status effect)}}
+{{Weapon Infobox
+|tagid=SID_パニック
+|weaponType=Staff
+|weaponName={{PAGENAME}}
+|might=7
+|range=2
+|effect=After combat, if unit attacked, converts bonuses on foe into penalties through its next action.
+|cost=150
+|exclusive=0
+|statModifiers=0,7,0,0,0
+|next=Panic+
+|promotionRarity=5
+|promotionTier=2
+|required=Assault
+|properties=random_all
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se={{SEt|Panic}}
+|SeT={{Tgt|Foe}}
+|SeC=After combat if<br>{{Tgt|Unit}} attacked
+}}
+==Notes==
+{{IfUnitAttacked}}
+{{Panic}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=パニック
+|german=Panik
+|spanishEU=Pánico
+|spanishLA=Pánico
+|french=Panique
+|italian=Panico
+|chineseTW=慌亂
+|portuguese=Pânico
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit attacked%bonuses%into%penalties%' AND Description NOT LIKE '%【Null Panic】%' AND Exclusive='1'}}
+{{Weapons Navbox}}

@@ -1,0 +1,42 @@
+{{Weapon Infobox
+|tagid=SID_喉潤す神竜の杯
+|intID=3676
+|image=wep_mg278
+|exclusive=1
+|weaponType=Green Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). If unit is within 3 spaces of support partner, unit can move to a space within 2 spaces of that ally. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit during combat, and also, if unit initiates combat, unit is within 2 spaces of support partner, or 【Penalty】is active on foe, grants the following effects to unit during combat based on how many of those 3 conditions apply: if ≥ 2, unit attacks twice; if = 3, deals damage = 15% of the greater of unit's Atk or foe's Atk (excluding area-of-effect Specials).<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|required=Rexcalibur
+|properties=
+}}
+==Notes==
+{{SupportPartner|effect=warp, unit attacks twice and damage boost effects}}
+{{Warp interaction}}
+{{Temporary buffs}}
+{{IfUnitInitiates}}
+{{EffectfromPenalty}}
+{{Brave weapon interaction}}
+{{DamageBoost}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V7.7_v0707a_summer_Mag.webp|Sprite sheet for {{St|Seashell Bowl+}} and {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=喉潤す水神の杯
+|german=Göttlicher Trank
+|spanishEU=Brebaje divino
+|spanishLA=Brebaje divino
+|french=Breuvage divin
+|italian=Bevanda divina
+|chineseTW=解渴的水神之杯
+|portuguese=Bebida divina
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%unit can move to a space within 2 spaces of%' AND Exclusive='1' OR Description LIKE '%grants the following effects to unit during combat based on how many%'}}
+{{Weapons Navbox}}

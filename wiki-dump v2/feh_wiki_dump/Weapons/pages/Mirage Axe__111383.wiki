@@ -1,0 +1,74 @@
+{{Weapon Infobox
+|tagid=SID_幻影バトルアクス
+|weaponType=Axe
+|might=16
+|range=1
+|effect=Grants Res+3. If unit is within 2 spaces of an ally, grants Def/Res+6 to unit during combat and foe cannot make a follow-up attack.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,3
+|required=Silver Axe
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Res+3. If unit is within 3 spaces of an ally, grants Atk/Spd+4, Def/Res+6 to unit and foe cannot make a follow-up attack during combat, and also, if foe initiates combat, inflicts Atk/Def-X on foe during combat (X = number of foes who have yet to finish their actions × 3; min 6; max 12).
+|effectSkill1=For allies within 2 spaces of unit, grants Def/Res+4 to ally during that ally's combat and restores 7 HP to ally after that ally's combat. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit during combat, reduces damage from attacks by 30% during combat (excluding area-of-effect Specials), and restores 7 HP to unit after combat.
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Res|3}}
+|s1 Ce1={{Eft|Temporary buffs|Def/Res|6}}
+|s1 Ce2={{Eft|Prevent Follow-ups}}
+|s1 Ce2T={{Tgt|Foe}}
+|s1 CeC=An {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Res|3}}
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd|4}}, {{Eft|Temporary buffs|Def/Res|6}}
+|s2 Ce2={{Eft|Prevent Follow-ups}}
+|s2 Ce1-2C=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|s2 Ce3={{Eft|Temporary debuffs|Atk/Def|3 x {{Tgt|Foes}}<br>who haven't acted|min=6|max=12}}
+|s2 Ce2-3T={{Tgt|Foe}}
+|s2 Ce3C=Enemy Phase '''&'''<br>an {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|skill3={{Si|Mirage Axe|refine=Skill1}} Skill refine effects
+|s3 Me1={{Eft|Heal|7}}
+|s3 Me1T={{Tgt|Allies}}<br>[[within 2 spaces]]
+|s3 Me1C=After {{Tgt|Ally}}'s combat
+|s3 Me2={{Eft|Heal|7}}
+|s3 Me2C=After combat if<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s3 Ce1={{Eft|Temporary buffs|Def/Res|4}}
+|s3 Ce1T={{Tgt|Allies}}<br>[[within 2 spaces]]
+|s3 Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s3 Ce3={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s attacks
+|s3 Ce2-3C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{Prevent follow-up}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary debuffs|name=Refined Mirage Axe}}
+{{AlliesCombatEffect|effect=temporary buffs|name={{St|Mirage Axe|refine=Skill1}}}}
+{{After combat healing|name={{St|Mirage Axe|refine=Skill1}}|allies=1}}
+{{DamagePercentageReduction|name={{St|Mirage Axe|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Mirage Axe
+|japanese=幻影バトルアクス
+|german=Mirage-Axt
+|spanishEU=Hacha Mirage
+|spanishLA=Hacha Mirage
+|french=Hache mirage
+|italian=Ascia Mirage
+|chineseTW=幻影戰斧
+|portuguese=Machado Mirage
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit is within _ spaces%and foe cannot make a follow-up attack%' AND Description NOT LIKE '%transforms%inflicts Atk/Def-4%' OR (Description LIKE '%restores%HP%allies%after their combat%' OR Description LIKE '%restores%HP%that ally_s combat%') AND Exclusive='1'}}
+{{Weapons Navbox}}

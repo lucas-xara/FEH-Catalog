@@ -1,0 +1,42 @@
+{{Weapon Infobox
+|tagid=SID_ウルファグラン
+|weaponType=Green Tome
+|weaponName={{PAGENAME}}
+|might=6
+|range=2
+|effectiveness=cavalry
+|effect=Effective against cavalry foes.
+|cost=200
+|exclusive=0
+|userVersion1=Closed|userVersion2=Open|statModifiers=0,6,0,0,0
+|next=Gronnwolf+
+|promotionRarity=5
+|promotionTier=1
+|required=Elwind
+|SE=se_effect_wolf01.flac
+|properties=random_all
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce={{Eft|Effectiveness|{{Mt|Cavalry}}}}
+}}
+==Notes==
+{{Effective damage bonus|cavalry}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{TomeColorTrivia|gronn}}
+==In other languages==
+{{OtherLanguages
+|japanese=グルンウルフ
+|german=Gronnwolf
+|spanishEU=Lobo glauco
+|spanishLA=Lobo jade
+|french=Crocs émeraude
+|italian=Viridelupo
+|chineseTW=翠綠餓狼
+|portuguese=Lobo jade
+}}
+==See also==
+* [[Weapons that are effective against cavalry foes]]
+{{Weapons Navbox}}

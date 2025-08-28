@@ -1,0 +1,80 @@
+{{Passive
+|name=Dragon's Ire
+|type=B
+|exclusive=0
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|Dragonstone}}
+|1effect=If unit's HP = 100% and foe initiates combat, neutralizes effects that prevent unit's follow-up attacks and unit makes a guaranteed follow-up attack.
+|timingID=1
+|abilityID=48
+|limit1ID=2
+|limit2ID=3
+|randomTimestamp=2020-11-08T07:00:00Z
+|properties=random_owner
+|1name=Dragon's Ire 1
+|alt1name=Dragons Ire 1
+|1tagid=SID_竜の逆鱗1
+|1required=-
+|1cost=60
+|1promotionRarity=4
+|1promotionTier=1
+|intID1=2263
+|sort1=35000
+|value1=2
+|randomMinLv1=21
+|randomMaxLv1=30
+|2name=Dragon's Ire 2
+|alt2name=Dragons Ire 2
+|2tagid=SID_竜の逆鱗2
+|2effect=If unit's HP ≥ 75% and foe initiates combat, neutralizes effects that prevent unit's follow-up attacks and unit makes a guaranteed follow-up attack.
+|2cost=120
+|2promotionRarity=5
+|2promotionTier=1
+|intID2=2264
+|sort2=35001
+|value2=4
+|randomMinLv2=26
+|randomMaxLv2=35
+|3name=Dragon's Ire 3
+|alt3name=Dragons Ire 3
+|3tagid=SID_竜の逆鱗3
+|3effect=If unit's HP ≥ 50% and foe initiates combat, neutralizes effects that prevent unit's follow-up attacks and unit makes a guaranteed follow-up attack.
+|3next=-
+|4name=Dragon's Ire 4
+|alt4name=Dragons Ire 4
+|4tagid=SID_竜の逆鱗4
+|4cost=300
+|4effect=At start of combat, if unit's HP ≥ 25%, inflicts Atk/Res-4 on foe during combat, unit makes a guaranteed follow-up attack, and also, if foe initiates combat, neutralizes effects that prevent unit's follow-up attacks.
+|3cost=240
+|intID3=2265
+|sort3=35002
+|value3=6
+|randomMinLv3=31
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Follow-up effect neutralization|preventOnly=1}}
+{{Guaranteed follow-up interaction}}
+{{Temporary debuffs|name=Dragon's Ire 4}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Dragon's Ire
+|japanese=竜の逆鱗
+|german=Drachenzorn
+|spanishEU=Ira de dragón
+|spanishLA=Ira de dragón
+|french=Ire de dragon
+|italian=Ira del drago
+|chineseTW=龍的逆鱗
+|portuguese=Ira do dragão
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%foe initiates combat%neutralizes%that prevent unit_s follow-up attack%' OR Description LIKE '%if unit\'s HP%and foe initiates combat%makes a guaranteed follow-up%'}}
+* [[Dragon Passives]]
+{{Passives Navbox|B}}

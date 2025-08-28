@@ -1,0 +1,35 @@
+{{Weapon Infobox
+|tagid=SID_葉の扇
+|weaponType=Dagger
+|might=8
+|range=2
+|effect=Grants bonus to unit's Atk = total penalties on foe during combat.<br>Effect:【Dagger ５】<br><br>【Dagger ５】<br>After combat, if unit attacked, inflicts Def/Res-５ on target and foes within 2 spaces of target through their next actions.
+|cost=200
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|required=Steel Dagger
+|next=Broadleaf Fan+
+|promotionRarity=5
+|promotionTier=1
+|properties=
+}}
+==Notes==
+{{BonusesToAtkFoePenalty}}{{IfUnitAttacked}}{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=葉の扇
+|german=Palmwedel
+|spanishEU=Abanico tropical
+|spanishLA=Abanico tropical
+|french=Éventail palmier
+|italian=Ventaglio palma
+|chineseTW=葉扇
+|portuguese=Leque tropical
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%Grants bonus to unit\'s Atk = total penalties on foe during combat%'|columns=3}}
+{{Weapons Navbox}}

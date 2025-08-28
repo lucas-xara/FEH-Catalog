@@ -1,0 +1,58 @@
+{{Passive
+|name=Squad Ace CC
+|type=S
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|1name=Squad Ace CC 1
+|alt1name=Squad Ace BS 1
+|1tagid=SID_第81迷宮の覇者1
+|1effect=Grants HP+3, Atk/Spd+1.
+|statModifiers1=3,1,1,0,0
+|1cost=120
+|1required=-
+|1next=-
+|2name=Squad Ace CC 2
+|alt2name=Squad Ace BS 2
+|2tagid=SID_第81迷宮の覇者2
+|2effect=Grants HP+4, Atk/Spd+2.
+|statModifiers2=4,2,2,0,0
+|2cost=180
+|2next=-
+|3name=Squad Ace CC 3
+|alt3name=Squad Ace BS 3
+|3tagid=SID_第81迷宮の覇者3
+|3effect=Grants HP+5, Atk/Spd+3.
+|statModifiers3=5,3,3,0,0
+|3cost=240
+}}
+==Seal acquired from==
+===Squad Assault reward===
+* Complete the [[81st Assault]].
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Squad Ace CC 1;Squad Ace CC 2;Squad Ace CC 3
+|badgeColor=Azure
+|costs1=-
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|english=Squad Ace CC
+|japanese=第８１迷宮の覇者
+|german=Überfall-Ass CC
+|spanishEU=As del asalto CC
+|spanishLA=As del asalto CC
+|french=Assaut réussi CC
+|italian=Asso sq. CC
+|chineseTW=第８１迷宮的霸王
+|portuguese=Esquad. ás CC
+}}
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}
+[[Category:Squad Ace Seals]]

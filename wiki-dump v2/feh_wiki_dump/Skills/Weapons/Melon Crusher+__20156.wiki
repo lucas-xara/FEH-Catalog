@@ -1,0 +1,43 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_スイカ割りの棍棒＋
+|weaponType=Axe
+|weaponName={{PAGENAME}}
+|altWeaponName=Melon Crusher Plus
+|might=14
+|range=1
+|effect=At start of combat, if unit's HP = 100%, grants Atk/Spd/Def/Res+2, but after combat, if unit attacked, deals 2 damage to unit.
+|cost=300
+|exclusive=0
+|statModifiers=0,14,0,0,0
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Notes==
+* The 100% HP requirement applies to the Atk/Spd/Def/Res +2 as well as the 2 damage after combat.
+{{IfUnitAttacked}}
+** It also drains 2 HP from its wielder when they counterattack, so long as they were at full health at the start of combat. It will NOT drain 2 HP if they don't counterattack and just take the hit however.
+{{Combat boosts}}
+{{DamageToUnit}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=スイカ割りの棍棒＋
+|german=Melonenspalter +
+|spanishEU=Partesandías +
+|spanishLA=Partesandías +
+|french=Brise-pastèque +
+|italian=Tagliamelone+
+|chineseTW=打西瓜的棍棒＋
+|portuguese=Abremelancia+
+}}
+==See also==
+* [[Ylissean Summer Weapons]]
+{{Weapons Navbox}}
+[[Category:Ylissean Summer weapons]]

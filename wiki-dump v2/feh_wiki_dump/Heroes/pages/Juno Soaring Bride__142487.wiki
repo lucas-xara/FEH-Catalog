@@ -1,0 +1,65 @@
+{{#invoke:NameAbout|main|Name=Juno}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Juno
+|Title=Soaring Bride
+|WeaponType=Blue Tome
+|MoveType=Flying
+|Origin=Fire Emblem: The Binding Blade
+|Gender=Female
+|actorEN=Suzie Yeung
+|actorJP=田中敦子
+|artist=鳴瀬うろこ
+|additionDate=May 20, 2021
+|releaseDate=May 20, 2021
+|cv1=5
+|cv2=700400
+|TagID=花嫁ユーノ
+|InternalID=661
+|Properties=special
+|description=A retired pegasus knight and older sister of Thea and Shanna. Joining the bridal festival alongside her husband, Zelot. Appears in Fire Emblem: The Binding Blade.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=8|Lv1SPD=8|Lv1DEF=5|Lv1RES=7
+|GRHP=45|GRATK=65|GRSPD=70|GRDEF=40|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Thunder
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elthunder
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Love Bouquet
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Love Bouquet+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Ardent Sacrifice
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Form 1
+|passiveA2=Atk/Spd Form 2
+|passiveA3=Atk/Spd Form 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Aerobatics 1
+|passiveB2=Aerobatics 2
+|passiveB3=Aerobatics 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Bridal Festival units]]

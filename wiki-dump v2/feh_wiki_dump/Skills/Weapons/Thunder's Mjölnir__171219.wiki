@@ -1,0 +1,44 @@
+{{Weapon Infobox
+|tagid=SID_雷神トールハンマー
+|intID=3038
+|userVersion1=Closed
+|userVersion2=Open
+|exclusive=1
+|weaponType=Blue Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+6 to unit during combat and neutralizes effects that grant "Special cooldown charge +X" to foe or inflict "Special cooldown charge -X" on unit, and also, if unit initiates combat and unit's Spd ≥ foe's Spd+10, unit attacks twice.
+|statModifiers=0,14,0,0,0
+|required=Thoron;Shine
+|properties=random_owner
+}}
+==Notes==
+{{Combat boosts}}
+{{CooldownChargePlusNeutralization}}
+{{CooldownChargeMinusNeutralization}}
+{{UnitStatMinusFoeStat|stat=Spd}}
+{{Brave weapon interaction}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V6.4_v0604b_seisen_Mag_2.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=雷神トールハンマー
+|german=Donner-Mjölnir
+|spanishEU=Mjölnir del trueno
+|spanishLA=Mjölnir del trueno
+|french=Mjölnir de l'éclair
+|italian=Mjölnir tonante
+|chineseTW=神明的雷神之槌
+|portuguese=Mjölnir do trovão
+}}
+==See also==
+{{See also skills|cond=(WikiName LIKE '%Mjölnir%' OR (Description LIKE '%Neutralizes effects%grant "Special cooldown charge +X" to foe%inflict "Special cooldown charge -X" on unit%' AND Description NOT LIKE '%transforms%')) AND (Exclusive=1 AND Name NOT LIKE '%+' AND Name NOT LIKE 'Arcane%')|columns=3}}
+* [[Sources of "unit attacks twice"]]
+* [[Skill families#Tempo|Tempo Passives]]
+{{Weapons Navbox}}

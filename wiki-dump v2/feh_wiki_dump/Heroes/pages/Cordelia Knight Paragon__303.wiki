@@ -1,0 +1,80 @@
+{{#invoke:NameAbout|main|Name=Cordelia|Name2=Caeldori}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Cordelia
+|Title=Knight Paragon
+|GrowthModifier=None
+|WeaponType=Blue Lance
+|Origin=Fire Emblem Awakening
+|Gender=Female
+|MoveType=Flying
+|actorEN=Julie Ann Taylor
+|actorJP=岡田栄美
+|artist=上田夢人
+|releaseDate=February 2, 2017
+|poolDate=February 2, 2017
+|randomStartTime=2017-02-02T07:00:00Z
+|poolRarities=3,4
+|TagID=ティアモ
+|InternalID=45
+|Properties=demoted_240,resplendent,askr
+|cv1=10
+|cv2=101500
+|description=The sole survivor of Ylisse's pegasus knights. Humble and supremely talented. Appears in Fire Emblem Awakening.
+|resplendentArtist=Noy
+|resplendentStartTime=2020-02-25T07:00:00Z
+|resplendentEndTime=2020-03-10T06:59:59Z
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=9|Lv1SPD=9|Lv1DEF=5|Lv1RES=6
+|GRHP=50|GRATK=60|GRSPD=60|GRDEF=40|GRRES=45
+}}
+
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Brave Lance
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Brave Lance+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Cordelia's Lance
+|weapon5Unlock=5
+}}
+
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Astra
+|special2Default=
+|special2Unlock=4
+|special3=Galeforce
+|special3Default=
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Triangle Adept 1
+|passiveA2=Triangle Adept 2
+|passiveA3=Triangle Adept 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Pass 1
+|passiveB2=Pass 2
+|passiveB3=Pass 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+}}
+{{Heroes Navbox}}

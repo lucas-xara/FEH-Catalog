@@ -1,0 +1,71 @@
+{{Weapon Infobox
+|tagid=SID_花嫁の花束
+|intID=4727
+|image=wep_mg402
+|exclusive=0
+|weaponType=Red Tome
+|cost=200
+|might=8
+|range=2
+|effect=For allies within 3 rows or 3 columns centered on unit, grants Atk/Spd+5 and neutralizes foe's bonuses during combat.<br><br>If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit, neutralizes foe's bonuses, and unit deals +X damage during combat (max 15; excluding area-of-effect Specials; X = number of allies within 3 rows or 3 columns centered on unit × 5).
+|required=Elfire;Ruin
+|next=Bridal Bouquet+
+|promotionRarity=5
+|promotionTier=1
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary buffs|Atk/Spd|5}}
+|Ce1T={{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|Ce2={{Eft|Neutralize Bonuses}}
+|Ce2T={{Tgt|Foes}} of<br>{{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|Ce3={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce4={{Eft|Neutralize Bonuses}}
+|Ce5={{Eft|Damage Boost|5 x {{Tgt|Allies}}<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}|max=15}}
+|Ce3-5C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+==Notes==
+{{Temporary buffs}}
+{{Bonus neutralization}}
+{{AlliesCombatEffect|temporary buffs and bonus neutralization effects}}
+{{FlatDamageBoost|X (max: 15)}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Tine: Determined Bride|t=Seliph: Light's Legacy
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Gallery==
+<gallery>
+V9.5_v0905b_bride_Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%allies within%rows%grants %/%neutralizes foe_s bonuses%' AND Exclusive='1'}}
+{{Weapons Navbox}}

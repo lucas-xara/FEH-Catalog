@@ -1,0 +1,30 @@
+{{Weapon Infobox
+|tagid=SID_成獣の化身・歩行
+|weaponType=Beast
+|might=9
+|range=1
+|effect=At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 and deals +10 damage when Special triggers.
+|cost=200
+|canUseMove=Infantry
+|statModifiers=0,9,0,0,0
+|required=Yearling (Infantry)
+|properties=random_all
+}}
+==Notes==
+{{Beast (Infantry)}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=成獣の化身・歩行
+|german=Adultus (Infantr.)
+|spanishEU=Fiera adulta
+|spanishLA=Fiera adulta
+|french=Adulte (infant.)
+|italian=Adulto (fante)
+|chineseTW=成獸化身・步行
+|portuguese=Adulto (infant.)
+}}
+==See also==
+{{See also skills|cond=Name LIKE 'Adult (%)'}}
+{{Weapons Navbox}}

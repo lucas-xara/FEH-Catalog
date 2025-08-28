@@ -4,6 +4,8 @@ import Nav from "./components/Nav";
 import HeroesPage from "./pages/Heroes";
 import HeroPage from "./pages/Hero";
 
+import HeroInfo from "./pages/HeroInfo";     //IMPORT MOCKUP
+
 import WeaponsPage from "./pages/Weapons";
 import WeaponPage from "./pages/Weapon";
 
@@ -19,7 +21,6 @@ import SkillPage from "./pages/Skill";
 export default function App() {
   return (
     <>
-      <Nav />
       <Routes>
         {/* canonical home em /heroes */}
         <Route path="/" element={<Navigate to="/heroes" replace />} />
@@ -38,6 +39,8 @@ export default function App() {
 
         <Route path="/skills" element={<SkillsPage />} />
         <Route path="/skills/:id" element={<SkillPage />} />
+
+        <Route path="/heroinfo" element={<HeroInfo />} />
 
         {/* fallback */}
         <Route path="*" element={<Navigate to="/heroes" replace />} />

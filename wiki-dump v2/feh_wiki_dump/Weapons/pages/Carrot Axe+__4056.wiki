@@ -1,0 +1,44 @@
+{{Weapon Infobox
+|tagid=SID_ニンジンの斧＋
+|weaponType=Axe
+|weaponName={{PAGENAME}}
+|altWeaponName=Carrot Axe Plus
+|might=13
+|range=1
+|effect=If unit initiates combat, restores 4 HP after combat.
+|cost=300
+|exclusive=0
+|statModifiers=0,13,0,0,0
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|upgradedMight=14
+|upgradedEffect=After combat, if unit attacked, restores 4 HP.
+|properties=
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{After combat healing}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfUnitAttacked}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ニンジンの斧＋
+|german=Karottenaxt+
+|spanishEU=Hacha zanah. +
+|spanishLA=Hacha zanahoria +
+|french=Hache carotte +
+|italian=Ascia carota+
+|chineseTW=胡蘿蔔斧＋
+|portuguese=Machadocarota+
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%estores%HP after combat%' OR Description LIKE '%estores%HP to unit after combat%') AND Exclusive='1'|columns=3}}
+* [[Spring Festival Weapons]]
+{{Weapons Navbox}}
+[[Category:Spring Festival weapons]]

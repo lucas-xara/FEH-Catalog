@@ -1,0 +1,40 @@
+{{Weapon Infobox
+|tagid=SID_地の女神の角
+|intID=3492
+|exclusive=1
+|weaponType=Beast
+|canUseMove=Cavalry
+|cost=400
+|might=14
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+X during combat (X = unit's max Special cooldown count value × 2, + 5), grants Special cooldown charge +1 per attack (only highest value applied; does not stack), and neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat. At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack.
+|statModifiers=0,14,0,0,0
+|required=Adult (Cavalry)
+|properties=random_owner
+}}
+==Notes==
+{{Temporary buffs}}
+{{CooldownChargePlus}}
+{{Follow-up effect neutralization}}
+{{Beast (Cavalry)}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V7.2_v0702b_akatsuki_Mag_2.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=地の女神の角
+|german=Horn der Erde
+|spanishEU=Cuerno terrestre
+|spanishLA=Cuerno terrestre
+|french=Cor de la terre
+|italian=Corno terrestre
+|chineseTW=地之女神之角
+|portuguese=Berrante da terra
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%unit_s max special cooldown count value%' AND Exclusive='1'}}
+{{Weapons Navbox}}

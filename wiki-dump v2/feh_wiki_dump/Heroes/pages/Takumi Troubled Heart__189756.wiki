@@ -1,0 +1,75 @@
+{{#invoke:NameAbout|main|Name=Takumi}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Takumi
+|Title=Troubled Heart
+|WeaponType=Blue Tome
+|MoveType=Armored
+|Origin=Fire Emblem Fates
+|Gender=Male
+|actorEN=Michael Sinterniklaas
+|actorJP=梶裕貴
+|artist=ニジハヤシ
+|additionDate=February 6, 2023
+|releaseDate=February 7, 2023
+|cv1=11
+|cv2=200900
+|TagID=愛の祭タクミ
+|InternalID=913
+|Properties=special,hat,tiara
+|description=Prince of Hoshido, difficult to please as ever. He reluctantly joins the festival after receiving an invitation from his sister Sakura. Appears in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=10|Lv1SPD=16|Lv1DEF=4|Lv1RES=7
+|GRHP=50|GRATK=70|GRSPD=70|GRDEF=55|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Light
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Ellight
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Shine
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Dawnsweet Box
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Darting Stance 1
+|passiveA2=Swift Stance 1
+|passiveA3=Swift Stance 2
+|passiveA4=Swift Stance 3
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Savvy Fighter 1
+|passiveB2=Savvy Fighter 2
+|passiveB3=Savvy Fighter 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=A/S Far Save 1
+|passiveC2=A/S Far Save 2
+|passiveC3=A/S Far Save 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Day of Devotion units]]

@@ -1,0 +1,88 @@
+{{#invoke:NameAbout|main|Name=Höðr}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Höðr
+|Title=Dusk Shadow God
+|Origin=Fire Emblem Heroes
+|Person=Höðr
+|Gender=F
+|WeaponType=Blue Bow
+|MoveType=Flying
+|MythicEffect=Anima
+|MythicEffect2=Defensive Team Bonus
+|MythicEffect3=Defensive Team Call
+|BoostHP=5
+|BoostRes=5
+|actorEN=Emi Lo
+|actorJP=青山吉能
+|artist=前嶋重機
+|additionDate=2024-12-05
+|releaseDate=July 29, 2025
+|Properties=mythic
+|description=A god of Ásgarðr, the celestial realm, with an introverted nature. Responsible for defending accused criminals at the place of judgment.
+|cv1=0
+|cv2=900300
+|TagID=ヘズ
+|InternalID=1271
+|EnemyInternalID=113
+}}
+==Ally stats==
+{{Stats Page|noheader=1
+|Lv1HP=17|Lv1ATK=11|Lv1SPD=8|Lv1DEF=6|Lv1RES=10
+|GRHP=50|GRATK=85|GRSPD=55|GRDEF=35|GRRES=90
+}}
+==Enemy stats==
+{{Stats Page/Enemy|noheader=1
+|Lv1HP=17|Lv1ATK=11|Lv1SPD=8|Lv1DEF=6|Lv1RES=10
+|GRHP=50|GRATK=85|GRSPD=55|GRDEF=35|GRRES=90
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Bow
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Dusk Rifle
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Glacies
+|special2Unlock=4
+|special3=Ice Wall
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Res Catch 1
+|passiveA2=Atk/Res Catch 2
+|passiveA3=Atk/Res Catch 3
+|passiveA4=Atk/Res Mastery
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Sabotage Def 1
+|passiveB2=Sabotage Def 2
+|passiveB3=Sabotage Def 3
+|passiveB4=Atk/Def Discord
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Truth Keeper
+|passiveC1Unlock=5
+}}
+{{Heroes Navbox}}
+{{Enemies Navbox}}

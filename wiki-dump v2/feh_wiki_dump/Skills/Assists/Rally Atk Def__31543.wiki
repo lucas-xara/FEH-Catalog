@@ -1,0 +1,38 @@
+{{Assist
+|tagid=SID_攻撃守備の応援
+|name=Rally Atk/Def
+|range=1
+|effect=Grants Atk/Def+3 to target ally for 1 turn.
+|cost=300
+|required=Rally Attack;Rally Defense
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_all,random_inherit_base
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se={{Eft|Bonuses|Atk/Def|3}}
+|SeT={{Tgt|Target Ally}}
+|SeC={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}
+}}
+==Notes==
+{{Bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Rally Atk/Def
+|japanese=攻撃守備の応援
+|german=Agr./Ver. sam.
+|spanishEU=Potenc. Ata/Def
+|spanishLA=Potenc. Atq./Def.
+|french=Rall. : Atq/Déf
+|italian=Sprone Att/Dif
+|chineseTW=攻擊防守支援
+|portuguese=Atq./Def. nímios
+}}
+==See also==
+* [[Rally Assists]]
+{{Assists Navbox}}
+[[Category:Rally Assists]]

@@ -1,0 +1,48 @@
+{{Weapon Infobox
+|tagid=SID_強化反転の剣
+|intID=4024
+|image=wep_sw174
+|exclusive=0
+|weaponType=Sword
+|cost=200
+|might=10
+|range=1
+|effect=If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+4 to unit during combat and inflicts penalty on foe's Atk/Spd/Def/Res during combat = current bonus on each of foe's stats × 2 (calculates each stat penalty independently; example: if foe has +7 bonus to Atk, inflicts Atk-14, for a net penalty of Atk-7).
+|required=Steel Sword
+|next=Reversal Blade+
+|promotionRarity=5
+|promotionTier=1
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{SkillEffectText|Temporary buffs|Atk/Spd/Def/Res|4}}
+|CombatEffect 2={{SkillEffectText|Temporary Debuffs|Atk/Spd/Def/Res|2 x {{SEt|Bonus}} on<br>each of {{SkillTargetText|Foe}}'s stats}}
+|CombatEffect 2 Targets={{SkillTargetText|Foe}}
+|CombatEffect Conditions=Player phase<br>'''or''' an {{SkillTargetText|Ally}} is<br>[[within 2 spaces]]
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{TemporaryDebufffromBonus|source=the foe}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=強化反転の剣
+|german=Umkehrklinge
+|spanishEU=Filo inverso
+|spanishLA=Filo inverso
+|french=Lame inversion
+|italian=Spada contraria
+|chineseTW=強化反轉之劍
+|portuguese=Lâmina reversa
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%inflicts penalty on foe%current bonus%× 2%' AND (Exclusive='1' AND (Name NOT LIKE '%+' OR Name NOT LIKE '%reversal %'))}}
+* [[Skill families/Weapons#Reversal|Reversal Weapons]]
+{{Weapons Navbox}}

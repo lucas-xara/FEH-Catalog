@@ -1,0 +1,49 @@
+{{Special
+|tagid=SID_抑制の聖光
+|intID=3493
+|exclusive=0
+|canUseWeapon={{WeaponList|Colorless Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=2
+|effect=If an Assist skill is used, unit's Special cooldown count does not go down. When Special triggers, boosts damage by 25% of foe's Res. (Calculates damage from staff after combat damage is added.) If Special is triggered during combat, inflicts Special cooldown count+1 and【Guard】 on target and foes within 2 spaces of target after combat (cannot exceed the foe's maximum Special cooldown).<br><br>【Guard】<br>Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)
+|required=Miracle
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|No Special cooldown charge}}
+|Ce1C={{Tgt|Unit}} uses<br>an Assist skill
+|Ce2={{Eft|Damage Boost|25% of {{Tgt|Foe}}'s Res}}
+|Ce2C=Special triggers
+|Se={{SEt|Guard}}
+|SeT={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|SeC=After combat if<br>Special triggers
+|Me={{Eft|Increase Cooldown|1}}
+|MeT={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|MeC=After combat if<br>Special triggers
+}}
+==Notes==
+{{DamageBoost}}
+{{After combat note}}
+{{After combat Special modification}}
+{{Guard}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=抑制の聖光
+|japaneseNotes=<i>Holy Light of Suppression</i>
+|german=Hinderndes Licht
+|spanishEU=Control lumínico
+|spanishLA=Control lumínico
+|french=Lumière modérée
+|italian=Luce vincolante
+|chineseTW=抑制的聖光
+|portuguese=Luz contida
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%deals damage =%\% of foe_s Res%' OR Description LIKE '%boosts damage by %\% of foe_s Res%' OR Description LIKE '%inflicts%special cooldown count+1 on target%' AND WikiName NOT LIKE '%seal%'}}
+* [[Holy Light Specials]]
+{{Specials Navbox}}
+[[Category:Holy Light Specials]]

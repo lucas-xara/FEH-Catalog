@@ -1,0 +1,57 @@
+{{Passive
+|name=Atk/Res Ruse
+|type=B
+|exclusive=0
+|canUseMove=Infantry,Cavalry
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|1name=Atk/Res Ruse 1
+|1tagid=SID_攻撃魔防の大共謀1
+|alt1name=Atk Res Ruse 1
+|1effect=If a Rally Assist skill is used by unit or targets unit, inflicts Atk/Res-1 and【Guard】on foes in cardinal directions of unit and target through their next actions.<br><br>【Guard】<br>Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)
+|1required=-
+|1cost=60
+|1promotionRarity=4
+|1promotionTier=1
+|2name=Atk/Res Ruse 2
+|2tagid=SID_攻撃魔防の大共謀2
+|alt2name=Atk Res Ruse 2
+|2effect=If a Rally Assist skill is used by unit or targets unit, inflicts Atk/Res-3 and【Guard】on foes in cardinal directions of unit and target through their next actions.<br><br>【Guard】<br>Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)
+|2cost=120
+|2promotionRarity=5
+|2promotionTier=1
+|3name=Atk/Res Ruse 3
+|3tagid=SID_攻撃魔防の大共謀3
+|alt3name=Atk Res Ruse 3
+|3effect=If a Rally Assist skill is used by unit or targets unit, inflicts Atk/Res-5 and【Guard】on foes in cardinal directions of unit and target through their next actions.<br><br>【Guard】<br>Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)
+|3cost=240
+|properties=random_owner,random_inherit_base
+}}
+==Notes==
+{{Penalties}}
+{{Guard}}
+* Atk/Res Ruse does not trigger if the unit receives a {{SEt|bonus}} indirectly from skills, such as from {{St|Rally Up Atk+}}.
+{{CardinalDirections}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Atk/Res Ruse
+|japanese=攻撃魔防の大共謀
+|german=Agr./Res.-Kniff
+|spanishEU=Treta Ata/Res
+|spanishLA=Treta Atq./Res.
+|french=Leurre Atq/Rés
+|italian=Furto Att/Res
+|chineseTW=攻擊魔防大共謀
+|portuguese=Ardil Atq./Res.
+}}
+==See also==
+* [[Witchy Wand+]]
+* [[Melancholy+]]
+* [[Frightful Dream]]
+{{Passives Navbox|B}}
+[[Category:Ruse Passives]]

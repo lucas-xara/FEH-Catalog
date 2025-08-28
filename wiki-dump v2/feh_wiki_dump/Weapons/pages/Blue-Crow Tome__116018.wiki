@@ -1,0 +1,59 @@
+{{Weapon Infobox
+|tagid=SID_蒼鴉の書
+|weaponType=Blue Tome
+|might=14
+|range=2
+|effectiveness=Cavalry
+|effect=Effective against cavalry foes.
+|cost=400
+|exclusive=1
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|statModifiers=0,14,0,0,0
+|required=—
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=Grants bonus to unit's Atk = total penalties on foe during combat.
+|iconSkill1=Weakness Atk W.png
+|tagidExtraSkill1=撃
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|Weapon}} Base weapon
+|s1 Ce={{Eft|Effectiveness|{{Mt|Cavalry}}}}
+|skill2={{Si|Blue-Crow Tome|refine=Skill1}} Skill refine effects
+|s2 Ce={{Eft|Temporary buffs|Atk|total {{SEt|Penalties}}<br>on {{Tgt|Foe}}}}
+}}
+
+==Notes==
+{{Effective damage bonus|Cavalry}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{BonusesToAtkFoePenalty}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|弱撃R|Weakness Atk R}}
+==In other languages==
+{{OtherLanguages
+|english=Blue-Crow Tome
+|japanese=蒼鴉の書
+|german=Krähenbuch
+|spanishEU=Grimorio garzo
+|spanishLA=Grimorio garzo
+|french=Tome oiseau bleu
+|italian=Tomo Corvo Blu
+|chineseTW=蒼鴉之書
+|portuguese=Tomo corvo azul
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%Grants bonus to unit\'s Atk = total penalties on foe during combat%'}}
+{{Weapons Navbox}}

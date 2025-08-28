@@ -1,0 +1,77 @@
+{{#invoke:NameAbout|main|Name=Elice}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Elice
+|Title=Altean Princess
+|WeaponType=Colorless Staff
+|MoveType=Infantry
+|Origin=Fire Emblem: Mystery of the Emblem
+|Gender=Female
+|actorEN=Jenny Yokobori
+|actorJP=島本須美
+|artist=ワダサチコ
+|randomStartTime=2022-12-18T07:00:00Z
+|additionDate=November 18, 2022
+|releaseDate=November 18, 2022
+|poolDate=November 18, 2022
+|poolRarities=3,4
+|cv1=1
+|cv2=100400
+|TagID=エリス
+|InternalID=878
+|Properties=
+|description=Gentle princess of Altea and Marth's older sister. Noble with a heart that places the lives of those she cares for above her own. Appears in Fire Emblem: Mystery of the Emblem.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=11|Lv1SPD=9|Lv1DEF=5|Lv1RES=8
+|GRHP=50|GRATK=70|GRSPD=60|GRDEF=50|GRRES=60
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Assault
+|weapon1Unlock=1
+|weapon2=Trilemma
+|weapon2Unlock=3
+|weapon3=Trilemma+
+|weapon3Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Heal
+|assist1Default=1
+|assist1Unlock=1
+|assist2=Reconcile
+|assist2Default=3
+|assist2Unlock=2
+|assist3=Restore
+|assist3Default=4
+|assist3Unlock=3
+|assist4=Restore+
+|assist4Default=5
+|assist4Unlock=5
+}}
+===Specials===
+{{Specials Table
+|special1=Imbue
+|special1Default=4
+|special1Unlock=2
+|special2=Heavenly Light
+|special2Default=5
+|special2Unlock=3
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Res Ideal 1
+|passiveA2=Atk/Res Ideal 2
+|passiveA3=Atk/Res Ideal 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Atk/Res Gap 1
+|passiveC2=Atk/Res Gap 2
+|passiveC3=Atk/Res Gap 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

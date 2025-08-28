@@ -1,0 +1,38 @@
+{{Assist
+|tagid=SID_攻撃魔防の応援
+|name=Rally Atk/Res
+|range=1
+|effect=Grants Atk/Res+3 to target ally for 1 turn.
+|cost=300
+|required=Rally Attack;Rally Resistance
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_all,random_inherit_base
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se={{Eft|Bonuses|Atk/Res|3}}
+|SeT={{Tgt|Target Ally}}
+|SeC={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}
+}}
+==Notes==
+{{Bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Rally Atk/Res
+|japanese=攻撃魔防の応援
+|german=Agr./Res. sam.
+|spanishEU=Potenc. Ata/Res
+|spanishLA=Potenc. Atq./Res.
+|french=Rall. : Atq/Rés
+|italian=Sprone Att/Res
+|chineseTW=攻擊魔防支援
+|portuguese=Atq./Res. nímios
+}}
+==See also==
+* [[Rally Assists]]
+{{AssistSkillBox}}
+[[Category:Rally Assists]]

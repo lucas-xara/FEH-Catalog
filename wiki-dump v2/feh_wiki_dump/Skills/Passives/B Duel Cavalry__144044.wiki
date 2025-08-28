@@ -1,0 +1,93 @@
+{{Passive
+|name=B Duel Cavalry
+|type=A
+|exclusive=0
+|canUseMove=Cavalry
+|canUseWeapon=Blue Lance,Blue Bow,Blue Dagger,Blue Tome,Blue Breath,Blue Beast
+|timingID=18
+|abilityID=107
+|randomTimestamp=2021-07-21T07:00:00Z
+|properties=random_owner
+|1name=B Duel Cavalry 1
+|1tagid=SID_青の死闘・騎馬1
+|1effect=Grants HP+3. If unit is 5★ and level 40 and unit's stats total less than 160, treats unit's stats as 160 in modes like Arena. (Higher-scoring opponents will appear. Stat total calculation excludes any values added by merges and skills.)
+|1required=-
+|1cost=70
+|1promotionRarity=4
+|1promotionTier=1
+|statModifiers1=3,0,0,0,0
+|intID1=2615
+|sort1=14120
+|value1=2
+|randomMinLv1=21
+|randomMaxLv1=30
+|2name=B Duel Cavalry 2
+|2tagid=SID_青の死闘・騎馬2
+|2effect=Grants HP+4. If unit is 5★ and level 40 and unit's stats total less than 165, treats unit's stats as 165 in modes like Arena. (Higher-scoring opponents will appear. Stat total calculation excludes any values added by merges and skills.)
+|2required=B Duel Cavalry 1
+|2cost=150
+|2promotionRarity=5
+|2promotionTier=1
+|statModifiers2=4,0,0,0,0
+|intID2=2616
+|sort2=14121
+|value2=4
+|randomMinLv2=26
+|randomMaxLv2=35
+|3name=B Duel Cavalry 3
+|3tagid=SID_青の死闘・騎馬3
+|3effect=Grants HP+5. If unit is 5★ and level 40 and unit's stats total less than 170, treats unit's stats as 170 in modes like Arena. (Higher-scoring opponents will appear. Stat total calculation excludes any values added by merges and skills.)
+|3required=B Duel Cavalry 2
+|3cost=300
+|statModifiers3=5,0,0,0,0
+|intID3=2617
+|sort3=14122
+|value3=6
+|randomMinLv3=31
+|4name=B Duel Cavalry 4
+|4tagid=SID_青の死闘・騎馬4
+|4effect=Grants HP+5, Atk/Spd/Def/Res+2. If unit is 5★, level 40, a Legendary Hero or a Mythic Hero, and unit's stats total less than 175, treats unit's stats as 175 in modes like Arena. If unit is 5★, level 40, not a Legendary Hero or Mythic Hero and unit's stats total less than 180, treats unit's stats as 180 in modes like Arena. (Higher-scoring opponents will appear. Stat total calculation excludes any values added by merges and skills.)
+|4required=B Duel Cavalry 3
+|4cost=300
+|statModifiers4=5,2,2,2,2
+|intID4=2618
+|sort4=14123
+|value4=8
+|randomMinLv4=36
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|B Duel Cavalry 3}} B Duel Cavalry 3
+|s1 Pe1={{Eft|Stat Boosts|HP|5}}
+|s1 Pe2={{Eft|Duel|170}}
+|s1 Pe2C={{Tgt|Unit}} is {{Rarity|5}}, LV. 40<br>'''&''' stat total < 170
+|skill2={{Si|B Duel Cavalry 4}} B Duel Cavalry 4
+|s2 Pe1={{Eft|Stat Boosts|HP|5}},<br>{{Eft|Stat Boosts|Atk/Spd/Def/Res|2}}
+|s2 Pe2={{Eft|Duel|175}}
+|s2 Pe2C={{Tgt|Unit}} is {{Rarity|5}}, LV. 40,<br>is a {{Utt|Legendary}}<br> or {{Utt|Mythic}} Hero<br>'''&''' stat total < 175
+|s2 Pe3={{Eft|Duel|180}}
+|s2 Pe3C={{Tgt|Unit}} is {{Rarity|5}}, LV. 40,<br>isn't a {{Utt|Legendary}}<br> or {{Utt|Mythic}} Hero<br>'''&''' stat total < 180
+}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=青の死闘・騎馬
+|german=B Duell-Kav.
+|spanishEU=Lid caballería A
+|spanishLA=Lid caballería A
+|french=Duel caval. (B)
+|italian=Sfida cavall. B
+|chineseTW=青色死鬥・騎馬
+|portuguese=Duelo cav. A
+}}
+==See also==
+* [[HP +]]
+* [[Duel Passives]]
+{{Passives Navbox|A}}
+[[Category:Duel Passives]]

@@ -1,0 +1,61 @@
+{{Passive
+|name=Pure Starfall
+|type=B
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Pure Starfall
+|1tagid=SID_正真落星
+|1effect=If unit initiates combat or if【Deep Star】is active on unit, inflicts Spd/Def-5 on foe, unit deals +X damage (X = 20% of unit's Spd; excluding area-of-effect Specials), reduces damage from foe's first attack by X ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials), and also, if foe's attack can trigger foe's Special, inflicts Special cooldown count+1 on foe before foe's first attack (cannot exceed the foe's maximum Special cooldown).<br><br>If unit initiates combat, reduces damage from foe's first attack by 80% during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes).<br><br>If unit initiates combat, grants【Deep Star】and 【Vantage】to unit and inflicts【Gravity】on target and foes within 1 space of target after combat.<br><br>【Deep Star】<br>For 1 turn, if it is unit's first combat initiated by foe that turn, reduces damage from foe's first attack by 80% during combat (that turn only; "first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes).<br><br>【Vantage】<br>If foe initiates combat, unit can counterattack before foe's first attack for 1 turn.<br><br>【Gravity】<br>Restricts target's movement to 1 space through its next action.
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{SEt|Deep Star}}
+|Se2={{SEt|Vantage}}
+|Se3={{SEt|Gravity}}
+|Se3T={{Tgt|Target Foe}} '''&'''<br>{{Tgt|Foes}} [[adjacent]]<br>to {{Tgt|Target Foe}}
+|SeC=After combat<br>in Player Phase
+|Ce1={{Eft|Temporary Debuffs|Spd/Def|5}}
+|Ce1T={{Tgt|Foe}}
+|Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|Ce3={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Spd}}<br>from {{Tgt|Foe}}'s first attack
+|Ce4={{Eft|Reduce Damage Reduction|50%}}
+|Ce1-4C=Player Phase '''or'''<br>{{SEt|Deep Star}} is<br>active on {{Tgt|Unit}}
+|Ce5={{Eft|Increase Cooldown|1}}<br>before {{Tgt|Foe}}'s first attack
+|Ce4-5T={{Tgt|Foe}}<br>
+|Ce5C={{Eft|Temporary Debuffs|Spd/Def|5}}<br>conditions '''&'''<br>{{Tgt|Foe}} has an<br>[[offensive special]]
+|Ce6={{Eft|Damage Reduction|80%}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce6T={{Tgt|Unit}}
+|Ce6C=Player Phase
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary debuffs}}
+{{DamageBoost}}
+{{FlatDamageReduction}}
+{{Reduce Damage Reduction}}
+{{CombatCooldownCount|increase=1|+1}}
+{{DamagePercentageReduction}}
+{{Deep Star}}
+{{Vantage}}
+{{Gravity}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Deep Star】%' OR Description LIKE '%【Vantage】%') AND Exclusive='1'}}
+{{Passives Navbox|B}}

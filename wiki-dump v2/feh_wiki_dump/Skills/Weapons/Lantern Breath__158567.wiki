@@ -1,0 +1,51 @@
+{{Weapon Infobox
+|tagid=SID_提灯の竜石
+|intID=2775
+|image=wep_ac042
+|exclusive=0
+|weaponType=Dragonstone
+|cost=200
+|might=10
+|range=1
+|effect=If foe initiates combat or if foe's HP ≥ 75% at start of combat, grants Atk+5 to unit, inflicts Atk-5 on foe, and inflicts Special cooldown charge -1 on foe per attack during combat. (Only highest value applied. Does not stack.) If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|statModifiers=0,10,0,0,0
+|required=Fire Breath+
+|next=Lantern Breath+
+|promotionRarity=5
+|promotionTier=1
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{SkillEffectText|Temporary buffs|Atk|5}}
+|CombatEffect 2={{SkillEffectText|Temporary debuffs|Atk|5}}
+|CombatEffect 3={{SkillEffectText|Guard}}
+|CombatEffect 2-3 Targets={{SkillTargetText|Foe}}
+|CombatEffect 1-3 Conditions=Enemy Phase '''or'''<br>{{SkillTargetText|Foe}}'s HP ≥ 75%<br>at start of combat
+|CombatEffect 4={{SkillEffectText|Lower Def/Res}}
+|CombatEffect 4 Targets={{SkillTargetText|Unit}}
+|CombatEffect 4 Conditions={{SkillTargetText|Foe}}'s Range = 2
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+{{Temporary debuffs}}
+{{CooldownChargeMinus}}
+{{LowerDefRes}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=提灯の竜石
+|german=Laternenatem
+|spanishEU=Aliento farol
+|spanishLA=Soplo farol
+|french=Souffle lanterne
+|italian=Soffio lucente
+|chineseTW=提燈的龍石
+|portuguese=Sopro abóbora
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%if foe initiates combat%f foe_s HP%at start of combat%grants Atk+%to unit%inflicts Atk-%on foe during combat%' OR Description LIKE '%if foe initiates combat%f foe_s HP%at start of combat%inflicts Special cooldown charge -1 on foe per attack%') AND Exclusive='1' AND Name NOT LIKE '%deer+'}}
+* [[Skill families/Weapons#Deer|Deer Weapons]]
+{{Weapons Navbox}}

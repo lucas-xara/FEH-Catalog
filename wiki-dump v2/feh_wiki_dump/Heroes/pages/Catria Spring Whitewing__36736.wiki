@@ -1,0 +1,66 @@
+{{#invoke:NameAbout|main|Name=Catria}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Catria
+|Title=Spring Whitewing
+|GrowthModifier= None
+|WeaponType=Blue Tome
+|MoveType=Cavalry
+|Origin=Fire Emblem: Mystery of the Emblem
+|Gender=Female
+|actorEN=Connor Kelley
+|actorJP=生天目仁美
+|artist=アマガイタロー
+|releaseDate=March 22, 2018
+|TagID=春祭カチュア
+|InternalID=231
+|Properties=special,hat,specRate_202202
+|cv1=1
+|cv2=400500
+|description=Middle of three sisters who are pegasus knights for Macedon. She takes her duty to participate in the Spring Festival seriously. Appears in Fire Emblem: Mystery of the Emblem.
+}}
+__TOC__
+{{Stats Page|Hero=Catria: Spring Whitewing
+|Lv1HP=17|Lv1ATK=6|Lv1SPD=9|Lv1DEF=5|Lv1RES=6
+|GRHP=45|GRATK=60|GRSPD=60|GRDEF=30|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Thunder
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elthunder
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Thoron
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Huginn's Egg
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Draw Back
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveB1=Chill Res 1
+|passiveB2=Chill Res 2
+|passiveB3=Chill Res 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Spur Spd 1
+|passiveC2=Drive Spd 1
+|passiveC3=Drive Spd 2
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Spring Festival units]]

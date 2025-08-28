@@ -1,0 +1,92 @@
+{{Weapon Infobox
+|tagid=SID_影身の暗器
+|weaponType=Dagger
+|might=14
+|range=2
+|effect=Grants Spd+3. If unit initiates combat, grants Atk/Spd+5 during combat. If unit initiates combat and is within 2 spaces of support partner, foe cannot counterattack and unit and support partner swap spaces after combat. (If unit is within 2 spaces of more than one support partner, swap does not occur.)<br>Effect:【Dagger ７】<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,3,0,0
+|required=Silver Dagger
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Spd+3. If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd+5 to unit during combat and deals damage = 10% of unit's Spd (excluding area-of-effect Specials), and also, if unit's Spd > foe's Spd or unit is within 2 spaces of unit's support partner (if any), foe cannot counterattack. If unit initiates combat and unit is within 2 spaces of support partner, unit and support partner swap spaces after combat (if unit is within 2 spaces of more than one support partner, swap does not occur).<br><br>Effect:【Dagger ７】<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|effectSkill1=At start of turn, inflicts Spd/Def-6 and【Discord】on closest foes within 5 spaces and any foe within 2 spaces of those foes through their next actions. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+5 and Special cooldown charge +1 to unit per attack during combat (only highest value applied; does not stack), and after combat, if unit initiated combat and attacked, deals 7 damage to target and foes within 2 spaces of target.<br><br>【Discord】<br>Inflicts Atk/Spd/Def/Res-X on unit during combat (X = 2 + number of allies within 2 spaces of unit; max 5) through its next action.
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Spd|3}}
+|s1 Ce1={{Eft|Temporary buffs|Atk/Spd|5}}
+|s1 Ce1C=Player Phase
+|s1 Ce2={{Eft|Prevent Counter}}
+|s1 Ce2C=Player Phase '''&'''<br>{{Tgt|Partner}} is<br>[[within 2 spaces]]
+|s1 Me={{Eft|Swap Units}}
+|s1 MeT={{Tgt|Unit}} '''&'''<br>{{Tgt|Partner}}
+|s1 MeC=After combat in<br>Player Phase if<br>1 {{Tgt|Partner}} is<br>[[within 2 spaces]]
+|s1 Se={{Eft|Penalties|Def/Res|7}}
+|s1 SeT={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|s1 SeC=After combat if<br>{{Tgt|Unit}} attacked
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Spd|3}}
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd|5}}
+|s2 Ce2={{Eft|Damage boost|15% of {{Tgt|Unit}}'s Spd}}
+|s2 Ce1-2C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s2 Ce3={{Eft|Prevent Counter}}
+|s2 Ce3C=Player Phase '''&'''<br>({{Tgt|Unit}}'s Spd<br>> {{Tgt|Foe}}'s Spd<br>'''or''' {{Tgt|Partner}} is<br>[[within 2 spaces]])
+|s2 Me={{Eft|Swap Units}}
+|s2 MeT={{Tgt|Unit}} '''&'''<br>{{Tgt|Partner}}
+|s2 MeC=After combat in<br>Player Phase if<br>1 {{Tgt|Partner}} is<br>[[within 2 spaces]]
+|s2 Se={{Eft|Penalties|Def/Res|7}}
+|s2 SeT={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|s2 SeC=After combat if<br>{{Tgt|Unit}} attacked
+|skill3={{Si|Constant Dagger|refine=Skill1}} Skill refine effects
+|s3 Se1={{Eft|Penalties|Spd/Def|6}}
+|s3 Se2={{SEt|Discord}}
+|s3 SeT=Closest {{Tgt|Foes}}<br>[[within 5 spaces]]<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}
+|s3 Se1-2C=At start of turn
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd|5}}
+|s3 Ce2={{Eft|Accelerate Charge}}
+|s3 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s3 Me={{Eft|Damage|7}}
+|s3 MeT={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|s3 MeC=After combat in<br>Player Phase if<br> {{Tgt|Unit}} attacked '''&'''<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Prevent counterattacks}}
+{{Movement skill notes}}
+{{SupportPartner|effect=counterattack prevention and support partner swapping effects}}
+{{IfUnitAttacked}}
+{{Penalties}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{DamageBoost|name=refined Constant Dagger}}
+{{SupportPartner|effect=support partner swapping effects|name=refined Constant Dagger}}
+{{Penalties|name={{St|Constant Dagger|refine=Skill1}}}}
+{{Discord|name={{St|Constant Dagger|refine=Skill1}}}}
+{{CooldownChargePlus|name={{St|Constant Dagger|refine=Skill1}}}}
+{{Out of combat damage|name={{St|Constant Dagger|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Constant Dagger
+|japanese=影身の暗器
+|german=Vertrauter Dolch
+|spanishEU=Daga fidedigna
+|spanishLA=Daga fidedigna
+|french=Dague loyale
+|italian=Pugnale fedele
+|chineseTW=形影之暗器
+|portuguese=Adaga fidedigna
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%support partner%' OR Description LIKE '%,%foe cannot counterattack%' AND NOT CanUseWeapon__full='Colorless Staff' OR (Description LIKE '%swap spaces%' OR Description LIKE '%【Discord】%') AND Exclusive='1'}}
+{{Weapons Navbox}}

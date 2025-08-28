@@ -1,0 +1,57 @@
+{{Passive
+|type=S
+|exclusive=0
+|1name=Squad Ace L 1
+|1tagid=SID_第12迷宮の覇者1
+|1effect=Grants Def+1.
+|1cost=30
+|1next=-
+|2name=Squad Ace L 2
+|2tagid=SID_第12迷宮の覇者2
+|2effect=Grants Def+2.
+|2cost=60
+|2next=-
+|3name=Squad Ace L 3
+|3tagid=SID_第12迷宮の覇者3
+|3effect=Grants Def+3.
+|3cost=120
+|statModifiers1=0,0,0,1,0
+|statModifiers2=0,0,0,2,0
+|statModifiers3=0,0,0,3,0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|alt1name=Squad Ace B 1
+|alt2name=Squad Ace B 2
+|alt3name=Squad Ace B 3
+|properties=
+}}
+==Seal acquired from==
+===Squad Assault reward===
+* Complete the [[12th Assault]].
+===Sacred Seal Forge===
+{{SealCosts
+|seals=Squad Ace L 1;Squad Ace L 2;Squad Ace L 3
+|badgeColor=Verdant
+|costs1=-
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=第１２迷宮の覇者
+|german=Überfall-Ass L
+|spanishEU=As del asalto L
+|spanishLA=As del asalto L
+|french=Assaut réussi L
+|italian=Asso squadra L
+|chineseTW=第１２迷宮的霸王
+|portuguese=Esquadrão ás L
+}}
+
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}
+[[Category:Squad Ace Seals]]

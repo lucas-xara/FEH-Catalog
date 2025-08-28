@@ -1,0 +1,47 @@
+{{Weapon Infobox
+|tagid=SID_感謝の花の杖＋
+|intID=2954
+|image=wep_rd047
+|exclusive=0
+|weaponType=Colorless Staff
+|cost=300
+|might=12
+|range=2
+|effect=If unit is within 3 spaces of an ally, grants Def/Res+6 to unit during combat and restores 7 HP to unit and allies within 2 spaces after combat.
+|statModifiers=0,12,0,0,0
+|required=Staff of Tribute
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|tagidExtraSkill1=神
+|effectSkill1=Calculates damage from staff like other weapons.
+|iconSkill1=Wrathful Staff W.png
+|tagidExtraSkill2=幻
+|effectSkill2=Foe cannot counterattack.
+|iconSkill2=Dazzling Staff W.png
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+{{After combat healing|allies=1}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Staff Plus Refines}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=感謝の花の杖＋
+|german=Hingabestab+
+|spanishEU=Bastón tributo +
+|spanishLA=Bastón tributo +
+|french=Bâton d'éloge +
+|italian=Bastone elogio+
+|chineseTW=感謝之花杖＋
+|portuguese=Bastão do tributo+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit is within _ spaces of an ally%grants Def/Res+_ to unit during combat%' OR Description LIKE '%restores _ HP to unit and allies within 2 spaces%'|columns=3}}
+{{Weapons Navbox}}

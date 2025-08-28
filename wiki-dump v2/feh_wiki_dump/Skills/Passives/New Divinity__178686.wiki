@@ -1,0 +1,39 @@
+{{Passive
+|type=B
+|name=New Divinity
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=New Divinity
+|1tagid=SID_新たなる神竜王
+|1cost=300
+|1effect=At start of combat, if unit's HP ≥ 25%, inflicts Atk/Res-5 on foe during combat, and also, if unit's Res > foe's Res, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 4 (max 40%). At start of combat, if unit's HP ≥ 40%, foe cannot make a follow-up attack during combat.
+|1required=-
+}}
+==Notes==
+{{Temporary debuffs}}
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+{{Prevent follow-up}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=新たなる神竜王
+|german=Neue Gottheit
+|spanishEU=Nueva divinidad
+|spanishLA=Nueva divinidad
+|french=Nouvelle divinité
+|italian=Nuova divinità
+|chineseTW=新的神龍王
+|portuguese=Nova divindade
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%unit_s Res > foe_s Res%from attacks during combat and from area-of-effect Specials%' OR Description LIKE '%inflicts Atk/Res-%reduces damage%'|columns=3}}
+{{Passives Navbox|B}}

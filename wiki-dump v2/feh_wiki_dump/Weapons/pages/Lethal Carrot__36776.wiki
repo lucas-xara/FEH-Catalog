@@ -1,0 +1,39 @@
+{{Weapon Infobox
+|tagid=SID_ベビーキャロット
+|weaponType=Dagger
+|weaponName={{PAGENAME}}
+|might=8
+|range=2
+|effect=Deals +10 damage when Special triggers.<br>After combat, if unit attacked, inflicts Def/Res-5 on target and foes within 2 spaces of target through their next actions.
+|cost=200
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|next=Lethal Carrot+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Dagger
+|properties=
+}}
+==Notes==
+{{FlatDamage|special=1|10}}
+{{IfUnitAttacked}}
+{{Penalties}}
+
+==List of owners==
+{{Skill Hero List}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=ベビーキャロット
+|german=Todesmöhrchen
+|spanishEU=Zanahoria letal
+|spanishLA=Zanahoria letal
+|french=Carotte létale
+|italian=Carotina
+|chineseTW=致命卡洛特
+|portuguese=Cenoura mortal
+}}
+==See also==
+* [[Weapons that boost Special damage]]
+{{Weapons Navbox}}
+[[Category:Hares at the Fair weapons]]

@@ -1,0 +1,45 @@
+{{Weapon Infobox
+|tagid=SID_ニーウ
+|weaponType=Sword
+|userVersion1=Weapon
+|userVersion2=Gleam
+|might=16
+|range=1
+|effect=Grants Spd+3. Adds 50% of total bonuses on foe to unit's Atk/Spd/Def/Res during combat.
+|cost=400
+|exclusive=Yes
+|statModifiers=0,16,3,0,0
+|required=Silver Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Spd+3. Grants bonus to unit's Atk/Spd/Def/Res during combat = 40% of total bonuses on unit and foe (max: +10).
+|tagidExtraSkill1=見
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 during combat and also neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat.
+|iconSkill1=Niu W.png
+|properties=random_owner
+}}
+==Notes==
+{{CombatBoostfromBonus|source=the foe|bnsSource=the unit|percent=half}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{CombatBoostfromBonus|multiSource=1|bnsSource=the unit and foe|source=the unit and foe|percent=40%}}
+{{Follow-up effect neutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ニーウ
+|german=Níu
+|spanishEU=Níu
+|spanishLA=Níu
+|french=Níu
+|italian=Níu
+|chineseTW=尼烏
+|portuguese=Níu
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%grants%Atk/Spd%during combat%=%total%bonus%' AND Description NOT LIKE '%bonus doubler%' AND Description NOT LIKE '%penalty%current penalty on each of%' AND Description NOT LIKE '%current penalty on each of target%' AND Description NOT LIKE '%not active%' AND Description NOT LIKE '%grants allies within 2 spaces%' AND Description NOT LIKE '%total bonuses on ally%' OR Description LIKE '%if unit_s HP ≥%neutralizes%guarantee foe_s follow-up%prevent unit_s follow-up%') AND Exclusive='1'}}
+{{Weapons Navbox}}

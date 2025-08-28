@@ -1,0 +1,95 @@
+{{Passive
+|type=B
+|name=Wily Fighter
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|Armored}}
+|properties=random_owner
+|1name=Wily Fighter 1
+|1tagid=SID_正面隊形・敵方1
+|1cost=60
+|1effect=If unit's HP ≥ 75% and foe initiates combat, neutralizes bonuses (from skills like Fortify, Rally, etc.) on foe during combat and unit makes a guaranteed follow-up attack.
+|1required=-
+|1promotionRarity=4
+|1promotionTier=1
+|2name=Wily Fighter 2
+|2tagid=SID_正面隊形・敵方2
+|2cost=120
+|2effect=If unit's HP ≥ 50% and foe initiates combat, neutralizes bonuses (from skills like Fortify, Rally, etc.) on foe during combat and unit makes a guaranteed follow-up attack.
+|2promotionRarity=5
+|2promotionTier=1
+|3name=Wily Fighter 3
+|3tagid=SID_正面隊形・敵方3
+|3cost=240
+|3next=-
+|3effect=If unit's HP ≥ 25% and foe initiates combat, neutralizes bonuses (from skills like Fortify, Rally, etc.) on foe during combat and unit makes a guaranteed follow-up attack.
+|4name=Wily Fighter 4
+|4tagid=SID_正面隊形・敵方4
+|4effect=If foe initiates combat or if unit's HP ≥ 25% at start of combat, inflicts Atk-5 on foe, deals +X damage (X = 20% of unit's Def; excluding area-of-effect Specials), reduces damage from foe's attacks by X (excluding area-of-effect Specials), unit makes a guaranteed follow-up attack, and neutralizes foe's bonuses during combat.
+|4cost=300
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Wily Fighter 3}} Wily Fighter 3
+|s1 Ce1={{Eft|Guaranteed Follow-Ups}}
+|s1 Ce2={{Eft|Neutralize Bonuses}}
+|s1 Ce2T={{Tgt|Foe}}
+|s1 CeC=Enemy Phase '''&'''<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|skill2={{Si|Wily Fighter 4}} Wily Fighter 4
+|s2 Ce1={{Eft|Temporary debuffs|Atk|5}}
+|s2 Ce1T={{Tgt|Foe}}
+|s2 Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Def}}
+|s2 Ce3={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Def}}
+|s2 Ce4={{Eft|Guaranteed Follow-Ups}}
+|s2 Ce5={{Eft|Neutralize Bonuses}}
+|s2 Ce5T={{Tgt|Foe}}<br>
+|s2 CeC=Enemy Phase '''or'''<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{Main|Skill interaction}}
+* The HP threshold applies both to the guaranteed follow-up attack '''and''' the bonus neutralization.
+** The HP threshold is checked at start of combat, and the skill either applies throughout the entire combat, or not at all.
+{{IfFoeInitiates}}
+{{Bonus neutralization}}
+{{Guaranteed follow-up interaction}}
+{{Temporary debuffs|name=Wily Fighter 4}}
+{{DamageBoost|name=Wily Fighter 4}}
+{{FlatDamageReduction}}
+
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Wily Fighter 1;Wily Fighter 2;Wily Fighter 3
+|badgeColor=Transparent
+|costs1=20;100;40
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=正面隊形・敵方
+|japaneseNotes=''front formation / enemy''
+|german=Gerissenheit
+|spanishEU=Astuto
+|spanishLA=Astuto
+|french=Astuce
+|italian=Scaltrezza
+|chineseTW=正面隊形・敵方
+|portuguese=Astúcia
+|spanishEUNotes=''sly''|spanishLANotes=''sly''}}
+==See also==
+{{See also skills|cond=(Description LIKE '%foe initiates%makes a guaranteed follow-up%neutralize%bonuses%' OR Description LIKE '%foe initiates%neutralize%bonuses%makes a guaranteed follow-up%') AND Exclusive='1'}}
+* [[Fighter Passives]]
+{{Seals Navbox}}
+{{Passives Navbox|B}}
+[[Category:Fighter Passives]]

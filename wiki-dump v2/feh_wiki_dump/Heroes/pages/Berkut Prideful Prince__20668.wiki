@@ -1,0 +1,72 @@
+{{#invoke:NameAbout|main|Name=Berkut}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Berkut
+|Title=Prideful Prince
+|artist=麻谷知世
+|GrowthModifier=None
+|WeaponType=Blue Lance
+|MoveType=Cavalry
+|Origin=Fire Emblem Echoes: Shadows of Valentia
+|Gender=Male
+|additionDate=July 13, 2017
+|actorEN=Ian Sinclair
+|actorJP=鈴木達央
+|releaseDate=July 18, 2017
+|TagID=ベルクト
+|InternalID=155
+|Properties=ghb,limited
+|cv1=2
+|cv2=900100
+|description=First in line to the Rigelian throne. Prideful, but loves Rinea with all his heart. Appears in Fire Emblem Echoes: Shadows of Valentia.
+}}
+__TOC__
+{{Stats Page|Hero=Berkut: Prideful Prince
+|Lv1HP=19|Lv1ATK=8|Lv1SPD=5|Lv1DEF=7|Lv1RES=7
+|GRHP=55|GRATK=60|GRSPD=40|GRDEF=55|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Berkut's Lance
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Berkut's Lance+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Dark Royal Spear
+|weapon5Unlock=5
+}}
+
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Rising Flame
+|special1Default=4
+|special1Unlock=3
+|special2=Blazing Flame
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Water Boost 1
+|passiveA2=Water Boost 2
+|passiveA3=Water Boost 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Spur Res 1
+|passiveC2=Spur Res 2
+|passiveC3=Ward Cavalry
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

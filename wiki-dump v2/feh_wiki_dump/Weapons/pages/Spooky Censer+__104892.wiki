@@ -1,0 +1,49 @@
+{{Weapon Infobox
+|tagid=SID_カボチャの行灯＋
+|weaponType=Blue Tome
+|might=12
+|range=2
+|effect=Grants Atk/Spd/Def/Res+3. After combat, deals 6 damage to unit.
+|cost=300
+|exclusive=0
+|statModifiers=0,15,3,3,3
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Stat Boosts|Atk/Spd/Def/Res|3}}
+|Me={{Eft|Damage|6}}
+|MeC=After combat
+}}
+
+==Notes==
+* Has the same effect as {{St|Fury 3}}.
+{{After combat note}}
+{{DamageToUnit}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+Wep_mg142.webp|Unrotate file
+News Spooky Censer note.jpg|Problem when inheriting Spooky Censer+
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=カボチャの行灯＋
+|german=Spukrauchwerk+
+|spanishEU=Incensario atroz +
+|spanishLA=Incensario atroz +
+|french=Vil encensoir +
+|italian=Turibolo atroce+
+|chineseTW=南瓜提燈＋
+|portuguese=Lamparina algoz+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants Atk/Spd/Def/Res+_.%deals _ damage to unit%'|columns=3}}
+{{Weapons Navbox}}

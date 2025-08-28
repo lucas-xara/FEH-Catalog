@@ -1,0 +1,58 @@
+{{Weapon Infobox
+|tagid=SID_大賢者の書
+|intID=3737
+|userVersion1=Closed
+|userVersion2=Open
+|exclusive=1
+|weaponType=Green Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of turn, grants Atk/Spd/Def/Res+6 and 【Assign Decoy】to any support partner within 2 spaces of unit or, if unit is not on a team with unit's support partner, to ally with the highest Def within 2 spaces of unit for 1 turn. If unit is within 3 spaces of an ally, grants bonus to unit's Atk/Spd/Def/Res during combat = 5 + highest bonus on each stat between allies within 3 spaces of unit (calculates each stat bonus independently), and if unit's Res > foe's Res, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 4 (max 40%).<br><br>【Assign Decoy】<br>If foe's Range = unit's Range and foe initiates combat against an ally within 2 spaces of unit, triggers【Savior】on unit (that turn only; triggers only if unit is not equipped with a skill that can trigger the Savior effect).<br><br>【Savior】<br>Unit takes ally's space, enters combat in ally's place, and receives all after-combat effects.<br><br>Savior will not trigger if ally is on terrain that unit cannot move to or if multiple units are able to use Savior during the same combat. If Savior triggers, after-combat movement effects do not occur.
+|required=Rexcalibur
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Se1={{Eft|Bonuses|Atk/Spd/Def/Res|6}}
+|Se2={{SEt|Assign Decoy}}
+|SeT=({{Tgt|Partner}} '''or'''<br>{{Tgt|Ally}} with the<br>highest Def)<br>[[within 2 spaces]]
+|SeC=At start of turn<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|highest {{SEt|Bonuses}} on<br>each stat on {{Tgt|Allies}}<br>[[within 3 spaces]]}}
+|Ce1-2C=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|Ce3={{Eft|Damage Reduction|4 x ({{Tgt|Unit}}'s Res - {{Tgt|Foe)}}'s Res)<br>from {{Tgt|Foe}}'s attacks<br>'''&''' Non-Røkkr [[AoE Specials]]|percent=1|max=40%}}
+|Ce3C=An {{Tgt|Ally}} is<br>[[within 3 spaces]]<br>'''&''' {{Tgt|Unit}}'s Res<br>> {{Tgt|Foe}}'s Res
+}}
+
+==Notes==
+{{Bonuses}}
+{{Assign Decoy}}
+{{SupportPartner|effect={{SEt|bonuses}} and {{SEt|Assign Decoy}} effects}}
+{{SelectStat|Def}}
+{{TemporaryBufffromBonus|source=the ally with the highest bonus}}
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V7.8_v0708b_popularity_Mag_2.webp|Sprite sheet for {{St|Arch-Sage Tome}}, and {{St|The Cycle's Turn}}'s animations.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=大賢者の書
+|german=Erzweisenbuch
+|spanishEU=Tomo archisabio
+|spanishLA=Tomo archisabio
+|french=Tome archimage
+|italian=Tomo arcisaggio
+|chineseTW=大賢者之書
+|portuguese=Tomo arquissábio
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Assign Decoy】%' OR Description LIKE '%support%ally with the highest ___ within%') AND Exclusive='1'}}
+{{Weapons Navbox}}

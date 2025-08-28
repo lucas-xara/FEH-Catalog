@@ -1,0 +1,73 @@
+{{#invoke:NameAbout|main|Name=Nils}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Nils
+|Title=Bright Bard
+|WeaponType=Blue Breath
+|Origin=Fire Emblem: The Blazing Blade
+|Gender=Male
+|MoveType=Infantry
+|actorJP=佐倉綾音
+|actorEN=Khoi Dao
+|artist=切符
+|additionDate=February 17, 2020
+|releaseDate=February 17, 2020
+|poolDate=March 5, 2020
+|poolRarities=5
+|TagID=ニルス
+|InternalID=487
+|Properties=refresher,specRate_202208
+|cv1=6
+|cv2=1900110
+|description=A young boy who travels with his older sister, Ninian. The charming sound of his flute's song has an energizing effect on those who hear it. Appears in Fire Emblem: The Blazing Blade.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=7|Lv1SPD=9|Lv1DEF=4|Lv1RES=6
+|GRHP=65|GRATK=55|GRSPD=60|GRDEF=50|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire Breath
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Fire Breath+
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Flametongue
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Frost Breath
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Play
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table
+}}
+===Passives===
+{{Passives Table
+|passiveA1=HP +3
+|passiveA2=HP/Def 1
+|passiveA3=HP/Def 2
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=Even Pulse Tie 1
+|passiveB2=Even Pulse Tie 2
+|passiveB3=Even Pulse Tie 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Infantry Pulse 1
+|passiveC2=Infantry Pulse 2
+|passiveC3=Infantry Pulse 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

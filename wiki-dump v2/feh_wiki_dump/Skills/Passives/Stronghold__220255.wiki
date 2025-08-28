@@ -1,0 +1,45 @@
+{{Passive
+|name=Stronghold
+|type=A
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Stronghold
+|1tagid=SID_堅牢城塞
+|1effect=Inflicts Atk-3. Grants Def/Res+7.<br><br>At start of player phase or enemy phase, neutralizes【Panic】and any penalties to unit's Def/Res that take effect on unit at this time.<br><br>【Panic】<br>Converts bonuses on target into penalties through its next action.
+|statModifiers1=0,-3,0,7,7
+|1cost=300
+|1required=Fort. Def/Res 2
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Stat Reductions|Atk|3}}, {{Eft|Stat Boosts|Def/Res|7}}
+|Se1=Removes Def/Res {{SEt|Penalties}}
+|Se2=Removes {{SEt|Panic}}
+|SeC=At start of both Phases
+}}
+
+==Notes==
+{{Penalty neutralization|negstatuses=Def/Res {{SEt|Penalties}} and {{SEt|Panic}}}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=堅牢城塞
+|german=Bollwerk
+|spanishEU=Fortificación
+|spanishLA=Fortificación
+|french=Bastion
+|italian=Roccaforte
+|chineseTW=堅牢城塞
+|portuguese=Bastião
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%At start of player phase or enemy phase%neutralize%at this time%' OR Description LIKE '%At start of player phase or enemy phase%neutralize%at that time%'}}
+{{Passives Navbox|A}}
+[[Category:Fortress Passives]]

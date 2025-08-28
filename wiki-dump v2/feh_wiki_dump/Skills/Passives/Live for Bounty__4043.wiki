@@ -1,0 +1,33 @@
+{{Passive
+|type=B
+|exclusive=0
+|1name=Live for Bounty
+|1tagid=SID_豊穣の喜び
+|1required=-
+|1effect=If unit survives, get 1.5x shards/crystals from a Training Tower map.<br>(Only highest value applied. Does not stack.)
+|1cost=100
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=
+}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=豊穣の喜び
+|german=Für Beute
+|spanishEU=Vivir por el botín
+|spanishLA=Vivir por el botín
+|french=Abondance
+|italian=Vita e raccolto
+|chineseTW=豐饒之喜悅
+|portuguese=Viver pelo prêmio
+}}
+==See also==
+* [[Live for Honor]]
+{{Passives Navbox|B}}
+[[Category:Live Passives]]

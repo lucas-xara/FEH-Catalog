@@ -1,0 +1,37 @@
+{{Weapon Infobox
+|tagid=SID_茫漠のブレス
+|intID=3066
+|image=wep_ac053
+|exclusive=1
+|weaponType=Dragonstone
+|cost=400
+|might=16
+|range=1
+|effect=Grants Res+3. If Sing or Dance is used, inflicts Atk/Res-7 and【Guard】on foes in cardinal directions of unit and target through their next actions. At start of combat, if unit's HP ≥ 25%, grants Spd/Res+6 during combat. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.<br><br>【Guard】<br>Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)
+|statModifiers=0,16,0,0,3
+|required=Flametongue
+|properties=random_owner
+}}
+==Notes==
+{{Penalties}}
+{{Guard}}
+{{Combat boosts}}
+{{LowerDefRes}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=茫漠のブレス
+|german=Hüllender Atem
+|spanishEU=Aliento difuso
+|spanishLA=Soplo infinito
+|french=Souffle brumeux
+|italian=Soffio avvolgente
+|chineseTW=茫漠吐息
+|portuguese=Sopro abarcador
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%inflicts%guard%cardinal directions%' OR Description LIKE '%inflicts%/%-%cardinal directions%' OR Description LIKE '%if sing or dance is used%inflicts%') AND Exclusive='1'|columns=3}}
+* [[Skill families#Ruse|Ruse Passives]]
+* [[Skill families#Cantrip|Cantrip Passives]]
+{{Weapons Navbox}}

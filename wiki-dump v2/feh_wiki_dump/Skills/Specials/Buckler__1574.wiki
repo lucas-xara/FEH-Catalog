@@ -1,0 +1,35 @@
+{{Special
+|tagid=SID_小盾
+|name=Buckler
+|charge=3
+|effect=Reduces damage from an adjacent foe's attack by 30%.
+|cost=100
+|next=Pavise
+|promotionRarity=4
+|promotionTier=2
+|required=-
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|Close}}
+|properties=random_all,defensive_special
+}}
+==Notes==
+{{DefensiveSpecial}}
+{{DamagePercentageReduction}}
+
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=小盾
+|german=Schutzschild
+|spanishEU=Rodela
+|spanishLA=Broquel
+|french=Bouclier
+|italian=Scudo tondo
+|chineseTW=小盾
+|portuguese=Broquel
+}}
+{{Specials Navbox}}

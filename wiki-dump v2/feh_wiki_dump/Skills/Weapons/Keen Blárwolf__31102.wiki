@@ -1,0 +1,42 @@
+{{Weapon Infobox
+|tagid=SID_ブラーウルフ2
+|weaponType=Blue Tome
+|might=8
+|range=2
+|effectiveness=cavalry
+|effect=Effective against cavalry foes.
+|cost=200
+|exclusive=0
+|userVersion1=Closed|userVersion2=Open|statModifiers=0,8,0,0,0
+|SE=se_effect_wolf01.flac
+|next=Keen Blárwolf+
+|promotionRarity=5
+|promotionTier=1
+|required=Elthunder;Ellight
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce={{Eft|Effectiveness|{{Mt|Cavalry}}}}
+}}
+==Notes==
+{{Effective damage bonus|cavalry}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{TomeColorTrivia|blar}}
+==In other languages==
+{{OtherLanguages
+|japanese=ブラーウルフ鍛
+|german=Eifr. Blárwolf
+|spanishEU=Lobo z. agudo
+|spanishLA=Lobo añil agudo
+|french=Canines saphir
+|italian=Turchinlupo lesto
+|chineseTW=蒼藍餓狼鍛
+|portuguese=Lobo azul sagaz
+}}
+==See also==
+* [[Weapons that are effective against cavalry foes]]
+{{Weapons Navbox}}
+{{DEFAULTSORT:Keen Blarwolf}}

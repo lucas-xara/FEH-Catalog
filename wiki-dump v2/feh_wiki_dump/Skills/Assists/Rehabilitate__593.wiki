@@ -1,0 +1,49 @@
+{{Assist
+|tagid=SID_リバース
+|name=Rehabilitate
+|range=1
+|cooldown=1
+|effect=Slows Special trigger (cooldown count+1).<br>If target's HP is ≤ 50%, the lower the target's HP, the more HP is restored. (Minimum of 7 HP.)
+|cost=200
+|next=Rehabilitate+
+|promotionRarity=5
+|promotionTier=2
+|required=Reconcile
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|Staff}}
+|properties=random_all
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Heal|min=7|7 + ({{Tgt|Target Ally}}'s max HP -<br>(2 x {{Tgt|Target Ally}}'s current HP))}}
+|MeT1={{Tgt|Target Ally}}
+|MeC1={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}<br>'''or''' {{SEt|Deep Wounds}}
+|Pe={{Eft|Slows Special}}
+}}
+==Notes==
+* When the target's HP is above 50%, Rehabilitate heals a flat 7 HP.
+* When the target's HP is below 50% Rehabilitate heals 7 HP + (Target's Maximum HP - (2 × Target's current HP)).
+** This can result in [http://i.imgur.com/QFEuTbS.png situations] where the amount of HP restored to the target far exceeds their maximum health. Due to the formula, a target with 7 hp or less will always be healed to max HP, regardless of what that HP maximum is.
+* A single formula for both cases is:
+** 7 HP + (Target's Maximum HP - (2 × Target's current HP)) (Min: 7 HP).
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+Weapon Rehabilitate.png|Rehabilitate Sprite
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=リバース
+|german=Neubeginn
+|spanishEU=Rehabilitar
+|spanishLA=Rehabilitar
+|french=Rétablissement
+|italian=Riabilitazione
+|chineseTW=重生
+|portuguese=Reabilitação
+}}
+==See also==
+* [[Staff Assists]]
+{{Assists Navbox}}

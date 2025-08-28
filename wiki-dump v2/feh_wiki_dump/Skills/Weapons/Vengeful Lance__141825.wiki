@@ -1,0 +1,88 @@
+{{Weapon Infobox
+|tagid=SID_復讐鬼の槍
+|weaponName=Vengeful Lance
+|image=wep_lc101
+|weaponType=Lance
+|might=16
+|range=1
+|effect=Grants Atk+3. If unit is not adjacent to an ally, grants Atk/Spd+6 to unit during combat, and also, if unit's Atk > foe's Def during combat and unit cannot make a follow-up attack, deals damage = 50% of unit's Atk minus foe's Def.
+|cost=400
+|exclusive=1
+|statModifiers=0,19,0,0,0
+|required=Silver Lance
+|intID=2547
+|sort=536
+|value=20
+|timingID=21
+|abilityID=284
+|limit1ID=19
+|randomTimestamp=2021-06-07T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Atk+3.<br><br>If unit initiates combat or is not adjacent to an ally, grants Atk/Spd+6 to unit, neutralizes unit's penalties to Atk/Spd, and deals damage = X% of unit's Atk during combat (excluding area- of-effect Specials; if unit cannot perform a follow-up attack, X = 50; otherwise, X = 25), and also, if unit's attack can trigger unit's Special, grants Special cooldown count-Y to unit before unit's first attack during combat (if unit cannot perform follow-up and attack twice, Y = 2; otherwise, Y = 1).
+|cooldownSkill1=-1
+|effectSkill1=Accelerates Special trigger (cooldown count-1).<br><br>At start of turn, if unit's HP ≥ 25%, inflicts Spd/Def-7,【Panic】, and【Undefended】on closest foes and foes within 2 spaces of those foes through their next actions.<br><br>At start of combat, if unit's HP ≥ 25%, grants bonus to unit's Atk/Spd = 10% of unit's Spd at start of combat, + 6, during combat, and also, when unit's Special triggers, neutralizes foe's "reduces damage by X%" effects from foe's non-Special skills (excluding area-of-effect Specials).<br><br>【Panic】<br>Converts bonuses on target into penalties through its next action.<br><br>【Undefended】<br>Unit cannot be protected by Savior through their next action.
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Atk|3}}
+|s1 Ce1={{Eft|Temporary buffs|Atk/Spd|6}}
+|s1 Ce1C=No {{Tgt|Allies}}<br>are [[adjacent]]
+|s1 Ce2={{Eft|Damage Boost|50% of ({{Tgt|Unit}}'s Atk<br>- {{Tgt|Foe}}'s Def)}}
+|s1 Ce2C=No {{Tgt|Allies}}<br>are [[adjacent]],<br>{{Tgt|Unit}}'s Atk ><br>{{Tgt|Foe}}'s Def '''&'''<br>{{Tgt|Unit}} can't make<br>a [[follow-up]] attack
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Atk|3}}
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd|6}}
+|s2 Ce2={{Eft|Neutralize Penalties|Atk/Spd}}
+|s2 Ce3={{Eft|Damage Boost|2=(50% if {{Tgt|Unit}} can't<br>[[follow-up]]; else X = 25%)<br>of {{Tgt|Unit}}'s Atk}}
+|s2 Ce4={{Eft|Reduce Cooldown|2=2 if {{Tgt|Unit}} can't [[follow-up]]<br>'''&''' [[attack twice]]; else X = 1}}
+|s2 CeC=Player Phase '''or'''<br>no {{Tgt|Allies}}<br>are [[adjacent]]
+|skill3={{Si|Vengeful Lance|refine=Skill1}} Skill refine effects
+|s3 Pe={{Eft|Accelerates Special}}
+|s3 Se1={{Eft|Penalties|Spd/Def|7}}
+|s3 Se2={{SEt|Panic}}
+|s3 Se3={{SEt|Undefended}}
+|s3 Se1-3T=Closest {{Tgt|Foes}}<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}
+|s3 SeC=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25%
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd|10% of {{Tgt|Unit}}'s Spd<br>at start of combat, +6}}
+|s3 Ce2={{Eft|Neutralize Damage Reduction}} per<br>{{Tgt|Unit}}'s [[offensive Special]]
+|s3 Ce2T={{Tgt|Foe}}
+|s3 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+* Vengeful Lance the same effect as {{St|Atk/Spd Solo 3}}.
+{{Temporary buffs}}
+{{DamageBoost}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfUnitInitiates|name=Refined Vengeful Lance}}
+{{AtkDamageBoost|name=Refined Vengeful Lance}}
+{{CombatCooldownCount|-2/1|name=Refined Vengeful Lance}}
+{{Penalties|name={{St|Vengeful Lance|refine=Skill1}}}}
+{{Panic|name={{St|Vengeful Lance|refine=Skill1}}}}
+{{Undefended|name={{St|Vengeful Lance|refine=Skill1}}}}
+{{At start of combat|name={{St|Vengeful Lance|refine=Skill1}}}}
+{{DamageReductionNeutralization|name={{St|Vengeful Lance|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=復讐鬼の槍
+|german=Lanze der Rache
+|spanishEU=Lanza vengativa
+|spanishLA=Lanza vengativa
+|french=Lance vengeresse
+|italian=Lancia livorosa
+|chineseTW=復仇惡鬼之槍
+|portuguese=Lança vingativa
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%of unit_s Atk minus foe_s%' OR Description LIKE '%【Undefended】%') AND Exclusive='1'}}
+{{Weapons Navbox}}

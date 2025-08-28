@@ -1,0 +1,41 @@
+{{Weapon Infobox
+|tagid=SID_リベラシオン
+|intID=3433
+|image=wep_sw144
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of turn, if unit's HP ≥ 25%, grants【Charge】to unit and support partners within 3 spaces of unit for 1 turn. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit during combat and inflicts Spd/Def-X on foe during combat (X = number of distinct game titles among allies within 3 spaces of unit × 4, + 4; max 12), and also, if unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 4; max 40%).<br><br>【Charge】<br>Unit can move up to 3 spaces in any cardinal direction. (Cannot move through foes, terrain that blocks movement, or effects of skills like Obstruct. Granted movement treated as Warp movement.)
+|statModifiers=0,16,0,0,0
+|required=Silver Sword
+|properties=random_owner
+}}
+==Notes==
+{{Charge}}
+{{SupportPartner|effect={{SEt|Charge}} status effect granted to support partner}}
+{{Temporary buffs}}
+{{Temporary debuffs}}
+{{DistinctGameTitles}}
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=リベラシオン
+|german=Libération
+|spanishEU=Libération
+|spanishLA=Libération
+|french=Libération
+|italian=Libération
+|chineseTW=里貝拉錫翁
+|portuguese=Libération
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【Charge】%' OR Description LIKE '%support partner%' OR Description LIKE '%allies from distinct titles%' OR Description LIKE '%unit_s Spd > foe_s Spd%reduces damage from attacks during combat and from area-of-effect Specials%' AND Exclusive='1'}}
+* [[Skill families/B Passives#Dodge|Dodge Passives]]
+{{Weapons Navbox}}

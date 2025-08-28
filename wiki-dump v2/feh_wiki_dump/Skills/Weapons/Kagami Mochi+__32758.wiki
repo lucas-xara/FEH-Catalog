@@ -1,0 +1,39 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_鏡餅＋
+|weaponType=Dagger
+|might=12
+|range=2
+|effect=Accelerates Special trigger (cooldown count-1). After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions.
+|cooldown=-1
+|cost=300
+|exclusive=0
+|statModifiers=0,12,0,0,0
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Notes==
+{{IfUnitAttacked}}
+{{Penalties}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=鏡餅＋
+|german=Kagami-Mochi+
+|spanishEU=Kagami Mochi +
+|spanishLA=Kagami Mochi +
+|french=Kagami Mochi +
+|italian=Kagami Mochi+
+|chineseTW=鏡餅麻糬＋
+|portuguese=Kagami Mochi+
+}}
+==See also==
+* [[Weapons that accelerate the Special trigger]]
+* [[Barb Shuriken+]]
+{{Weapons Navbox}}
+[[Category:Seasonal weapons]]

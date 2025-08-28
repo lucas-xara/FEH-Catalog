@@ -1,0 +1,34 @@
+{{Weapon Infobox
+|tagid=SID_貝殻のナイフ
+|weaponType=Dagger
+|might=8
+|range=2
+|effect=If【Penalty】is active on foe, grants Atk/Spd+5 during combat.<br>Effect:【Dagger ５】<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).<br><br>【Dagger ５】<br>After combat, if unit attacked, inflicts Def/Res-５ on target and foes within 2 spaces of target through their next actions.
+|cost=200
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|required=Steel Dagger
+|next=Scallop Blade+
+|promotionRarity=5
+|promotionTier=1
+|properties=
+}}
+==Notes==
+{{Combat boosts}}{{EffectfromPenalty|target=foe|combat boost effect}}{{IfUnitAttacked}}{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=貝殻のナイフ
+|german=Muschelklinge
+|spanishEU=Hoja nacarada
+|spanishLA=Hoja nacarada
+|french=Épée coquillage
+|italian=Lama cozza
+|chineseTW=貝殼匕首
+|portuguese=Lâmina caracol
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if%penalty%is active on foe%grants%/%+%during combat%' AND SCategory='weapon'|columns=3}}
+*[[Skill families#Catch|Catch Passives]]
+{{Weapons Navbox}}

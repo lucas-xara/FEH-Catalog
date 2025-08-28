@@ -1,0 +1,37 @@
+{{Passive
+|name=Joint Close Guard
+|type=C
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_inherit_base,random_owner
+|1name=Joint Close Guard
+|1tagid=SID_近距離相互警戒
+|1effect=Grants Def/Res+4 to allies within 2 spaces during combat against sword, lance, axe, dragonstone, or beast foes. If unit is within 2 spaces of an ally and foe uses sword, lance, axe, dragonstone, or beast damage, grants Def/Res+4 to unit during combat.
+|1cost=300
+|1required=Close Guard 3
+}}
+==Notes==
+{{Temporary buffs}}
+{{AlliesCombatEffect|temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=近距離相互警戒
+|german=Nachb. Nahschutz
+|spanishEU=Maxiguardia corta
+|spanishLA=Maxiguardia corta
+|french=Entr. garde pr.
+|italian=Guardia vicina gr.
+|chineseTW=近距離相互警戒
+|portuguese=Omniguarda rente
+}}
+==See also==
+* [[Joint Drive Passives]]
+* [[Close Def]]
+{{Passives Navbox|C}}

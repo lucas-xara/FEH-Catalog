@@ -1,0 +1,45 @@
+{{Weapon Infobox
+|tagid=SID_禿鷹の剣
+|intID=3102
+|image=wep_sw132
+|exclusive=0
+|weaponType=Sword
+|cost=200
+|might=10
+|range=1
+|effect=If unit is not adjacent to an ally, inflicts penalty on foe's Atk/Def during combat = 5 + any current penalty on each of those stats. (Example: if foe has -7 penalty to Atk, inflicts Atk-12, for a net penalty of Atk-19 during combat.) Calculates each stat penalty independently.
+|statModifiers=0,10,0,0,0
+|required=Steel Sword
+|next=Vulture Blade+
+|promotionRarity=5
+|promotionTier=1
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect={{SkillEffectText|Temporary Debuffs|Atk/Def|5 + {{SEt|penalties}}<br>on {{SkillTargetText|Foe}}'s Atk/Def}}
+|CombatEffect Targets={{SkillTargetText|Foe}}
+|CombatEffect Conditions=No {{Tgt|Allies}}<br>are [[adjacent]]
+}}
+
+==Notes==
+{{TemporaryDebufffromPenalty}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=禿鷹の剣
+|german=Geierklinge
+|spanishEU=Espada buitre
+|spanishLA=Espada buitre
+|french=Lame vautour
+|italian=Lamavvoltoio
+|chineseTW=禿鷹之劍
+|portuguese=Espada abutre
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%penalty on foe_s%current penalty on each of those stats%' AND Description NOT LIKE '%【Foe Penalty Doubler】%' AND WikiName NOT LIKE '%vulture%' AND Exclusive=1}}
+* [[Skill families/Weapons#Vulture|Vulture Weapons]]
+{{Weapons Navbox}}

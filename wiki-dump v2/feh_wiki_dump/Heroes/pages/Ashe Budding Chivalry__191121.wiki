@@ -1,0 +1,69 @@
+{{#invoke:NameAbout|main|Name=Ashe}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Ashe
+|Title=Budding Chivalry
+|WeaponType=Red Dagger
+|MoveType=Flying
+|Origin=Fire Emblem: Three Houses
+|Gender=Male
+|actorEN=Shannon McKain
+|actorJP=井上雄貴
+|artist=スズキイオリ
+|additionDate=March 6, 2023
+|releaseDate=March 7, 2023
+|cv1=12
+|cv2=300400
+|TagID=春祭アッシュ
+|InternalID=926
+|Properties=special,hat
+|description=Devoted knight in training who wishes to help those in need. He has come to Askr's spring festival full of spirit for the season. Appears in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=13|Lv1SPD=11|Lv1DEF=4|Lv1RES=4
+|GRHP=50|GRATK=70|GRSPD=80|GRDEF=65|GRRES=30
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Dagger
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Dagger
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Bunny's Egg
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Bunny's Egg+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Rally Speed
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Rally Up Spd
+|assist2Unlock=4
+|assist3=Rally Up Spd+
+|assist3Unlock=5
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Catch 1
+|passiveA2=Atk/Spd Catch 2
+|passiveA3=Atk/Spd Catch 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Atk/Spd Rein 1
+|passiveC2=Atk/Spd Rein 2
+|passiveC3=Atk/Spd Rein 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Spring Festival units]]

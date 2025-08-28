@@ -1,0 +1,66 @@
+{{#invoke:NameAbout|main|Name=Vigarde}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Vigarde
+|Title=Silent Emperor
+|WeaponType=Blue Lance
+|MoveType=Armored
+|Origin=Fire Emblem: The Sacred Stones
+|Gender=M
+|actorEN=Chris Okawa
+|actorJP=三宅健太
+|artist=麻谷知世
+|additionDate=March 17, 2023
+|releaseDate=March 17, 2023
+|cv1=7
+|cv2=300050
+|TagID=ヴィガルド
+|InternalID=932
+|Properties=ghb,limited
+|description=The once-admired Emperor of Grado. Known as the Silent Emperor, he has been reduced to only a shadow of his former self. Appears in Fire Emblem: The Sacred Stones.
+}}
+{{Stats Page
+|Lv1HP=20|Lv1ATK=12|Lv1SPD=8|Lv1DEF=14|Lv1RES=5
+|GRHP=60|GRATK=80|GRSPD=50|GRDEF=70|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Protection Pike
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Protection Pike+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Dragon Fang
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Def/Res Ideal 1
+|passiveA2=Def/Res Ideal 2
+|passiveA3=Def/Res Ideal 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Wary Fighter 1
+|passiveB2=Wary Fighter 2
+|passiveB3=Wary Fighter 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+}}
+{{Heroes Navbox}}

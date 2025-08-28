@@ -1,0 +1,68 @@
+{{Weapon Infobox
+|tagid=SID_寡黙なる忠義の斧
+|intID=4656
+|image=wep_ax169
+|exclusive=1
+|weaponType=Axe
+|cost=400
+|might=16
+|range=1
+|effect=If unit is within 3 spaces of an ally, inflicts Atk/Def-6 on foe, deals damage = X% of unit's Def (excluding area-of-effect Specials), and reduces damage from foe's attacks by X% of unit's Def during combat (excluding area-of-effect Specials; if unit is within 3 spaces a certain target ally, X = 30; otherwise, X = 20; if support partner is on player team, targets support partner; if support partner is not on player team, targets ally with the highest Atk on player team, excluding unit).<br><br>If unit is within 3 spaces of an ally, restores 7 HP to unit after combat.
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|refineStatsSkill1=3,0,0,0,0
+|effectSkill1=After unit acts (if Canto triggers, after Canto) or, if defending in Aether Raids, at the start of enemy phase, applies【Divine Vein (Stone)】 to unit's space and spaces within 2 spaces of unit for 1 turn.<br><br>If foe initiates combat or foe's HP ≥ 75% at start of combat, inflicts penalty on foe's Atk/Def = 10% of unit's Def at start of combat + 6 and neutralizes unit's penalties during combat.<br><br>【Divine Vein (Stone)】<br>Applies the following effects on space for unit and allies: Grants Def/Res+6 during combat, reduces damage from foe's Specials by 10 during combat (excluding area-of-effect Specials), and reduces damage from area-of-effect Specials by 50% (excluding Røkkr area-of-effect Specials). (Divine Vein effects do not stack; replaces any existing Divine Vein effect; Divine Vein effects applied simultaneously cancel each other out. Does not count as defensive terrain.)
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Ce1={{Eft|Temporary debuffs|Atk/Def|6}}
+|s1 Ce1T={{Tgt|Foe}}
+|s1 Ce2={{Eft|Damage Boost|(30% if {{Tgt|Partner}} '''or'''<br>{{Tgt|Ally}} with the<br>highest Atk is [[within 3 spaces|within<br>3 spaces]]; else 20%)<br>of {{Tgt|Unit}}'s Def}}
+|s1 Ce3={{Eft|Damage Reduction|(30% if {{Tgt|Partner}} '''or'''<br>{{Tgt|Ally}} with the<br>highest Atk is [[within 3 spaces|within<br>3 spaces]]; else 20%)<br>of {{Tgt|Unit}}'s Def}}<br>from {{Tgt|Foe}}'s attacks
+|s1 CeC=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|s1 Me={{Eft|Heal|7}}
+|s1 MeC=After combat if<br>an {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|skill2={{Si|Taciturn Axe|refine=Skill1}} Skill refine effects
+|s2 Me={{Eft|Divine Vein (Stone)}}
+|s2 MeT=Spaces<br>[[within 2 spaces]]<br>of {{Tgt|Unit}}
+|s2 MeC=After action(s),<br>[[Canto]] movement, '''or''' at<br>start of Enemy Phase<br>when defending in<br>[[Aether Raids]]
+|s2 Ce1={{Eft|Temporary debuffs|Atk/Def|10% of {{Tgt|Unit}}'s Def<br>at start of combat, +6}}
+|s2 Ce1T={{Tgt|Foe}}
+|s2 Ce2={{Eft|Neutralize Penalties}}
+|s2 CeC=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+}}
+
+==Notes==
+{{Temporary debuffs}}
+{{DamageBoost}}
+{{FlatDamageReduction}}
+{{SupportPartner|effect=extra damage boost and damage reduction}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Divine Vein|Stone|name={{St|Taciturn Axe|refine=Skill1}}}}
+{{IfFoeInitiates}}
+{{At start of combat}}
+{{Penalty neutralization|name={{Si|Taciturn Axe|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%partner%ally with the highest%' OR Description LIKE '%【Divine Vein (Stone)】%') AND Exclusive='1'}}
+{{Weapons Navbox}}

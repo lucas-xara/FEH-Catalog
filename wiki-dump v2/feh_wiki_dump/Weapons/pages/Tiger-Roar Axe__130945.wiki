@@ -1,0 +1,94 @@
+{{Weapon Infobox
+|tagid=SID_虎の剛斧
+|weaponName=Tiger-Roar Axe
+|image=wep_ax078
+|weaponType=Axe
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). If unit initiates combat or if unit is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 during combat, and also, at start of combat, if foe's HP = 100%, unit makes a guaranteed follow-up attack.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Silver Axe
+|intID=2314
+|sort=467
+|value=20
+|timingID=1
+|abilityID=242
+|limit1ID=58
+|randomTimestamp=2020-12-17T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1).<br><br>If unit initiates combat or unit is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit, unit makes a guaranteed follow-up attack, and reduces damage from foe's attacks by 20% of unit's Def during combat (excluding area-of-effect Specials).
+|refineStatsSkill1=3,0,0,0,0
+|effectSkill1=If foe initiates combat or foe's HP ≥ 75% at start of combat, grants bonus to unit's Atk/Spd/Def/Res = 4 + number of foes within 3 rows or 3 columns centered on unit × 2 (max 10), inflicts Special cooldown charge -1 on foe per attack (only highest value applied; does not stack), and grants Special cooldown count-1 to unit before unit's first attack during combat.
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Accelerates Special}}
+|s1 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s1 Ce1C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s1 Ce2={{Eft|Guaranteed Follow-Ups}}
+|s1 Ce2C=(Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]) '''&'''<br>{{Tgt|Foe}}'s HP = 100%<br>at start of combat
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s2 Ce2={{Eft|Guaranteed Follow-Ups}}
+|s2 Ce3={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Def}}<br>from {{Tgt|Foe}}'s attacks
+|s2 CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|skill3={{Si|Tiger-Roar Axe|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|2 x {{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}, + 3|max=10}}
+|s3 Ce2={{Eft|Guard}}
+|s3 Ce2T={{Tgt|Foe}}
+|s3 Ce3={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Unit}}'s first attack
+|s3 Ce3T={{Tgt|Unit}}
+|s3 CeC=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+}}
+
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Guaranteed follow-up interaction}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{FlatDamageReduction}}
+{{CooldownChargeMinus}}
+{{CombatCooldownCount|-1|name={{St|Tiger-Roar Axe|refine=Skill1}}}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Dieck: Wounded Tiger|t=Narcian: Wyvern General
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=虎の剛斧
+|german=Axt des Tigers
+|spanishEU=Hacha rugiente
+|spanishLA=Hacha rugiente
+|french=Hache cri du tigre
+|italian=Ascia tigresca
+|chineseTW=虎之剛斧
+|portuguese=Machado rugente
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%number of foes within _ rows%centered on unit%' OR Description LIKE '%grants Special cooldown count-%before unit_s first attack%') AND Exclusive='1'}}
+{{Weapons Navbox}}

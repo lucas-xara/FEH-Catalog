@@ -1,0 +1,45 @@
+{{Weapon Infobox
+|tagid=SID_キャンドルサービス
+|weaponType=Staff
+|weaponName={{PAGENAME}}
+|might=7
+|range=2
+|effect=After combat, if unit attacked, inflicts status on foe preventing counterattacks through its next action.
+|cost=200
+|exclusive=0
+|statModifiers=0,7,0,0,0
+|next=Candlelight+
+|promotionRarity=5
+|promotionTier=2
+|required=Assault
+|properties=
+}}
+===Notes===
+{{No counterattacks}}
+==Evolution==
+{{WEvo
+|weapon=Candlelight+
+|Medals=100
+|Stones=10
+}}
+===Notes===
+* {{PAGENAME}} can only be evolved if a hero knows Candlelight but not {{Wt|Candlelight+}}, for example via [[Inherit Skill|inheritance]]. 
+** The reason for the exception may be due to {{Ht|Lyn: Bride of the Plains}} being a time exclusive [[:Category:Special Heroes|special hero]] that came out on May 30th, 2017 and Candlelight+ being added on November 28th, 2017.
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=キャンドルサービス
+|german=Kerzenlicht
+|spanishEU=Luz de vela
+|spanishLA=Luz de vela
+|french=Lueur de bougie
+|italian=Lume di candela
+|chineseTW=燭光
+|portuguese=Luz de vela
+}}
+==See also==
+* [[Flash]]
+* [[Imhullu]]
+{{Weapons Navbox}}
+[[Category:Seasonal weapons]]

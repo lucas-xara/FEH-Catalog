@@ -1,0 +1,70 @@
+{{Weapon Infobox
+|tagid=SID_戦神の闇夜の斧
+|intID=4664
+|image=wep_ax170
+|exclusive=1
+|weaponType=Axe
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Enables【Canto (Dist. +1; Max ４)】.<br>Accelerates Special trigger (cooldown count-1).<br><br>At start of player phase or enemy phase, inflicts Spd/Def-7,【Discord】, and Deep Wounds on foes that are within 2 spaces of another foe through their next actions.<br><br>If unit initiates combat or if foe's HP ≥ 75% at start of combat, grants bonus to unit's Atk/Spd/Def/Res = number of foes within 3 rows or 3 columns centered on unit × 3, + 5 (max 14), unit deals +Y damage (Y = total number of Bonuses and Penalties active on foe and any foe within 2 spaces of foe, excluding stat bonuses and stat penalties, × 3; excluding area-of-effect Specials), and grants Special cooldown charge +1 to unit per attack during combat (only highest value applied; does not stack), and also, if decreasing the Spd difference necessary to make a follow-up attack by 25 would allow unit to trigger a follow-up attack (excluding guaranteed or prevented follow-ups), triggers【Potent Follow X%】during combat (if unit cannot perform follow-up and attack twice, X = 80; otherwise, X = 40).<br><br>【Canto (Dist. +1; Max ４)】<br>After an attack, Assist skill, or structure destruction, unit can move spaces = number of spaces from start position to end position of unit before the above, +1. (Max ４.)<br><br>【Discord】<br>Inflicts Atk/Spd/Def/Res-X on unit during combat (X = 2 + number of allies within 2 spaces of unit; max 5) through its next action.<br><br>【Potent Follow X%】<br>Triggers an additional follow-up attack immediately after unit's standard follow-up attack and deals damage = X% of unit's normal attack damage (if unit cannot make a follow-up attack, this effect triggers when the standard follow-up attack would occur; this effect is treated like a follow-up attack, so effects like "reduce damage by X%" still apply, but this effect is not affected by effects that prevent follow-ups or "attacks twice" effects; only highest value applied; does not stack).
+|required=Silver Axe
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Me={{Eft|Canto|Dist. +1; Max 4}}
+|Se1={{Eft|Penalties|Spd/Def|7}}
+|Se2={{SEt|Discord}}
+|Se3={{SEt|Deep Wounds}}
+|SeT=Nearest {{Tgt|Foes}}<br>[[within 5 spaces]]<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}
+|SeC=At start of Both Phases<br>if {{Tgt|Unit}}'s HP ≥ 25%
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|3 x {{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}, + 5|max=14}}
+|Ce2={{Eft|Damage Boost|3 x [[Status effects]] on <br>{{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}<br>(exc. {{SEt|Bonuses}}<br>and {{SEt|Penalties}})}}
+|Ce3={{Eft|Accelerate Charge}}
+|Ce1-3C=Player Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|Ce4={{Eft|Potent Follow X%|2=80% if {{Tgt|Unit}} can't<br>[[follow-up]] '''&''' [[attack twice]];<br>else, X = 40%}}
+|Ce4C={{Eft|Accelerate Charge}}<br>conditions '''&''' {{Tgt|Unit}}'s<br>Spd ≥ {{Tgt|Foe}}'s Spd -20
+}}
+==Notes==
+{{Canto|Dist. +1; Max 4}}
+{{Penalties}}
+{{Discord}}
+{{Deep Wounds}}
+{{Temporary buffs}}
+{{FlatDamageBoost}}
+{{CooldownChargePlus}}
+{{Potent Follow|X%}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Camilla: Young Beauty|t=Garon: King of Nohr
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%Canto (Dist. +1; Max ４)%' OR Description LIKE '%【Potent Follow%】%') AND Exclusive='1'}}
+{{Weapons Navbox}}

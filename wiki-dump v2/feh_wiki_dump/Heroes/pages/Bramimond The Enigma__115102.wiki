@@ -1,0 +1,84 @@
+{{#invoke:NameAbout|main|Name=Bramimond}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Bramimond
+|Title=The Enigma
+|WeaponType=Colorless Tome
+|Origin=Fire Emblem: The Blazing Blade
+|Gender=N
+|MythicEffect=Dark
+|MythicEffect2=None
+|BoostHP=5
+|BoostAtk=3
+|MoveType=Infantry
+|actorJP=櫻井孝宏,鳥海浩輔,大本眞基子,鈴木達央
+|actorEN=Yuri Lowenthal,Patrick Seitz,Wendee Lee,Ray Chase
+|artist=ワダサチコ
+|additionDate=March 31, 2020
+|releaseDate=March 31, 2020
+|TagID=神階ブラミモンド
+|InternalID=503
+|Properties=mythic,hat
+|cv1=6
+|cv2=5900600
+|description=One of the Eight Legends who wielded a sacred weapon and fought against the dragons in the Scouring. Bramimond's true nature is unknown. Appears in Fire Emblem: The Blazing Blade.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=10|Lv1SPD=5|Lv1DEF=6|Lv1RES=9
+|GRHP=50|GRATK=70|GRSPD=50|GRDEF=35|GRRES=60
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Stone
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elstone
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Atlas (weapon)
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Void Tome
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Def Push 1
+|passiveA2=Atk/Def Push 2
+|passiveA3=Atk/Def Push 3
+|passiveA4=Atk/Def Push 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Lull Atk/Res 1
+|passiveB2=Lull Atk/Res 2
+|passiveB3=Lull Atk/Res 3
+|passiveB4=Atk/Res Tempo 1
+|passiveB5=Atk/Res Tempo 2
+|passiveB6=Atk/Res Tempo 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveB4Unlock=1
+|passiveB5Unlock=2
+|passiveB6Unlock=4
+|passiveC1=Impenetrable Dark
+|passiveC2=Impenetrable Void
+|passiveC1Unlock=5
+|passiveC2Unlock=5
+}}
+{{Heroes Navbox}}

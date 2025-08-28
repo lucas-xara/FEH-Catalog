@@ -1,0 +1,51 @@
+{{Weapon Infobox
+|tagid=SID_封剣ファルシオン
+|weaponType=Sword
+|might=16
+|range=1
+|effectiveness=dragon
+|effect=Effective against dragon foes.<br>At start of combat, if unit's HP < 100%, grants Atk/Spd/Def/Res+5 during combat.
+|cost=400
+|exclusive=1
+|userVersion1=Weapon
+|userVersion2=Gleam
+|userVersion3=Upgrade Gleam
+|statModifiers=0,16,0,0,0
+|required=Silver Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Effective against dragon foes.<br>At start of combat, if unit's HP < 100% or if【Bonus】is active on unit, grants Atk/Spd/Def/Res+5 during combat.<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|effectSkill1=At start of combat, if foe's HP ≥ 75%, grants Atk/Spd/Def+5 to unit during combat and foe cannot make a follow-up attack.
+|iconSkill1=Sealed Falchion W.png
+|tagidExtraSkill1=追
+|properties=random_owner
+}}
+==Notes==
+{{Effective damage bonus|dragon}}
+{{Combat boosts}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{EffectfromBonusKeyword}}
+{{Prevent follow-up}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+* Although included in the {{Version|2.5}} update, the Evolution from [[Falchion (Awakening)]] to Sealed Falchion was not listed in the description in [[The Next Update Is On Its Way! (2.5.0) (Notification)]] and [[What's in Store for the 2.5.0 Update (Notification)]].
+==In other languages==
+{{OtherLanguages
+|japanese=封剣ファルシオン
+|german=Sigilliert. Falchion
+|spanishEU=Falchion sellada
+|spanishLA=Falchion sellada
+|french=Falchion scellée
+|italian=Falchion sigillo
+|chineseTW=封劍法爾西昂
+|portuguese=Falchion selada
+}}
+==See also==
+{{See also skills|cond=((Description LIKE '%if%bonus%is active on unit%grants%/%/%+%during combat%' AND Description NOT LIKE '%if unit_s HP = 100%') OR (Description LIKE '%if foe_s HP ≥%cannot make a follow-up%' AND Description NOT LIKE '%transforms%') OR WikiName LIKE '%Falchion%') AND (Exclusive=1 AND Name NOT LIKE '%+' AND Properties HOLDS NOT 'arcane')|columns=3}}
+* [[Sources of effective against dragon foes]]
+{{Weapons Navbox}}

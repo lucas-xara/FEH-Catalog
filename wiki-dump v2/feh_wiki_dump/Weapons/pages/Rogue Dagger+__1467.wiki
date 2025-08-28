@@ -1,0 +1,57 @@
+{{Weapon Infobox
+|tagid=SID_盗賊の暗器＋
+|weaponType=Dagger
+|weaponName={{PAGENAME}}
+|altWeaponName=Rogue Dagger Plus
+|might=7
+|range=2
+|effect=After combat, if unit attacked, inflicts Def/Res-5 on foe through its next action. Grants unit Def/Res+5 for 1 turn.
+|cost=300
+|exclusive=0
+|statModifiers=0,7,0,0,0
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|upgradedMight=12
+|upgradedEffect=After combat, if unit attacked, inflicts Def/Res-6 on target and foes within 2 spaces of target through their next actions, and grants Def/Res+6 to unit and allies within 2 spaces for 1 turn.
+|properties=random_all
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Se1={{Eft|Penalties|Def/Res|5}}
+|s1 SeT1={{Tgt|Foe}}
+|s1 Se2={{Eft|Bonuses|Def/Res|5}}
+|s1 SeT2={{Tgt|Unit}}
+|s1 SeC=After combat if<br>{{Tgt|Unit}} attacked
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Se1={{Eft|Penalties|Def/Res|6}}
+|s2 SeT1={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|s2 Se2={{Eft|Bonuses|Def/Res|6}}
+|s2 SeT2={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]<br>of {{Tgt|Unit}}
+|s2 SeC=After combat if<br>{{Tgt|Unit}} attacked
+}}
+
+==Notes==
+{{IfUnitAttacked}}
+{{Bonuses}}
+{{Penalties}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=盗賊の暗器＋
+|german=Schurkendolch+
+|spanishEU=Daga pícara +
+|spanishLA=Daga pícara +
+|french=Dague fourbe +
+|italian=Pugnale ladro+
+|chineseTW=盜賊暗器＋
+|portuguese=Adaga astuta+
+}}
+==See also==
+* [[Grima's Truth]]
+{{Weapons Navbox}}

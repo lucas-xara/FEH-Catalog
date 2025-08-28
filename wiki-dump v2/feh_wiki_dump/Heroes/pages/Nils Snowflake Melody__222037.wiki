@@ -1,0 +1,65 @@
+{{#invoke:NameAbout|main|Name=Nils}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Nils
+|Title=Snowflake Melody
+|WeaponType=Blue Breath
+|MoveType=Infantry
+|Origin=Fire Emblem: The Blazing Blade
+|Gender=Male
+|actorEN=Khoi Dao
+|actorJP=佐倉綾音
+|artist=切符
+|additionDate=September 5, 2024
+|releaseDate=September 6, 2024
+|cv1=6
+|cv2=1900110
+|TagID=氷部族ニルス
+|InternalID=1141
+|Properties=limited,tempest,specDisplay,refresher
+|description=A boy who travels with his sister, Ninian. He shows off his talent with the flute at the festival of snow and ice. Appears in Fire Emblem: The Blazing Blade.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=5|Lv1SPD=13|Lv1DEF=6|Lv1RES=7
+|GRHP=50|GRATK=70|GRSPD=70|GRDEF=55|GRRES=75
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire Breath
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Fire Breath+
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Ice Dragonstone
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Ice Dragonstone+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Play
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveB1=Res Cantrip 1
+|passiveB2=Res Cantrip 2
+|passiveB3=Res Cantrip 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Spur Res 1
+|passiveC2=Spur Spd/Res 1
+|passiveC3=Spur Spd/Res 2
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Snow-and-Ice Festival units]]

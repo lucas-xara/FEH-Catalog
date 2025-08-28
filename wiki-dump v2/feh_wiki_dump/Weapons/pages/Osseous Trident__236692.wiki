@@ -1,0 +1,49 @@
+{{Weapon Infobox
+|tagid=SID_鋭骨の槍
+|intID=4807
+|image=wep_lc194
+|exclusive=0
+|weaponType=Lance
+|cost=200
+|might=10
+|range=1
+|effect=If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit, unit deals +X damage (excluding area-of-effect Specials), and reduces damage from foe's attacks by 50% of X during combat (excluding area-of-effect Specials; X = highest total bonuses among unit and allies within 2 spaces of unit).
+|required=Steel Lance
+|next=Osseous Trident+
+|promotionRarity=5
+|promotionTier=1
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce2={{Eft|Damage Boost|highest total {{SEt|Bonuses}}<br>on {{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]}}
+|Ce3={{Eft|Damage Reduction|percent=0|50% of highest<br>total {{SEt|Bonuses}}<br>on {{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]}}<br>from {{Tgt|Foe}}'s attacks
+|CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{DamageBoost}}
+{{EffectfromBonuses|multiTarget=1|target=unit or allies [[within 2 spaces]]|damage boost}}
+{{FlatDamageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%highest total bonuses%unit and allies within _ spaces%') AND Exclusive='1'}}
+{{Weapons Navbox}}

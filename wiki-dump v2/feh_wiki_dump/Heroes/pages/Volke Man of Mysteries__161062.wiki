@@ -1,0 +1,79 @@
+{{#invoke:NameAbout|main|Name=Volke}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Volke
+|Title=Man of Mysteries
+|WeaponType=Red Dagger
+|MoveType=Infantry
+|Origin=Fire Emblem: Path of Radiance
+|Gender=Male
+|actorEN=Kellen Goff
+|actorJP=拝真之介
+|artist=北千里
+|randomStartTime=2021-12-17T07:00:00Z
+|additionDate=November 17, 2021
+|releaseDate=November 17, 2021
+|poolDate=December 7, 2021
+|poolRarities=5
+|cv1=8
+|cv2=1900100
+|TagID=フォルカ
+|InternalID=731
+|Properties=specRate_202408
+|description=A man who makes his living as part of the criminal underworld, answering to no one. Also occasionally referred to as "fireman." Appears in Fire Emblem: Path of Radiance.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=11|Lv1SPD=13|Lv1DEF=6|Lv1RES=3
+|GRHP=50|GRATK=70|GRSPD=70|GRDEF=50|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Dagger
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Dagger
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Dagger
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Fireman's Hook
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Unlock=4
+|special3=Lethality
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Death Blow 1
+|passiveA2=Sturdy Blow 1
+|passiveA3=Sturdy Blow 2
+|passiveA4=Sturdy Impact
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Null Follow-Up 1
+|passiveB2=Null Follow-Up 2
+|passiveB3=Null Follow-Up 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Time's Pulse 1
+|passiveC2=Time's Pulse 2
+|passiveC3=Time's Pulse 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

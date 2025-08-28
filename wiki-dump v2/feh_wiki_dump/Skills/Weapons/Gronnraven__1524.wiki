@@ -1,0 +1,46 @@
+{{Weapon Infobox
+|tagid=SID_ナートグラン
+|weaponType=Green Tome
+|might=7
+|range=2
+|effect=Grants weapon-triangle advantage against colorless foes, and inflicts weapon-triangle disadvantage on colorless foes during combat.
+|cost=200
+|exclusive=0
+|userVersion1=Closed
+|userVersion2=Open
+|statModifiers=0,7,0,0,0
+|next=Gronnraven+
+|promotionRarity=5
+|promotionTier=1
+|required=Elwind
+|properties=random_all
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|New WTA}}
+|Ce2={{Eft|New WTD}}
+|Ce2T={{Tgt|Foe}}
+|CeC={{Tgt|Foe}} is<br>{{Wti|group=1|Colorless}} Colorless
+}}
+==Notes==
+{{New WTA|colorless}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{TomeColorTrivia|gronn}}
+==In other languages==
+{{OtherLanguages
+|japanese=グルンレイヴン
+|german=Gronnrabe
+|spanishEU=Cuervo glauco
+|spanishLA=Cuervo jade
+|french=Serres émeraude
+|italian=Viridecorvo
+|chineseTW=翠綠渡鴉
+|portuguese=Corvo jade
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants weapon-triangle advantage%' AND Description LIKE '%colorless%weapon-triangle%' AND Exclusive='1'}}
+* [[Raven Tomes]]
+{{Weapons Navbox}}
+[[Category:Weapons that grant triangle advantage against colorless foes]]

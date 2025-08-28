@@ -1,0 +1,57 @@
+{{Passive
+|type=S
+|exclusive=0
+|1name=Initiate Seal HP 1
+|1tagid=SID_鍛錬の証_HP1
+|alt1name=HP Plus 3
+|1effect=Grants HP+3.
+|1cost=40
+|1next=-
+|2name=Initiate Seal HP 2
+|2tagid=SID_鍛錬の証_HP2
+|alt2name=HP Plus 4
+|2effect=Grants HP+4.
+|2cost=80
+|2next=-
+|3name=Initiate Seal HP 3
+|3tagid=SID_鍛錬の証_HP3
+|alt3name=HP Plus 5
+|3effect=Grants HP+5.
+|3cost=160
+|statModifiers1=3,0,0,0,0
+|statModifiers2=4,0,0,0,0
+|statModifiers3=5,0,0,0,0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=
+}}
+==Seal acquired from==
+===Quest reward===
+* [[Quests and Missions#Tutorial Quests|Tutorial Quests]] (February 2, 2018 - February 2, 2019): Clear [[Prince of Awakening|Chapter 4: Part 5]].
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Initiate Seal HP 1;Initiate Seal HP 2;Initiate Seal HP 3
+|badgeColor=Transparent
+|costs1=-
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=鍛錬の証・ＨＰ
+|german=KP-Siegel
+|spanishEU=Aptitud PV
+|spanishLA=S. iniciado PV
+|french=Sceau initié PV
+|italian=Sigillo base PS
+|chineseTW=鍛鍊之證・ＨＰ
+|portuguese=Selo inicial PV
+}}
+
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}
+[[Category:Initiate Seals]]

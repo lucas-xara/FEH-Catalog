@@ -1,0 +1,48 @@
+{{Special
+|tagid=SID_反竜穿
+|charge=3
+|effect=Reduces damage from foe's attacks by 30%. After triggering, unit's next attack deals damage = 30% of unit's Atk. (Boost resets at the end of combat.)
+|cost=500
+|exclusive=1
+|required=Dragon Fang
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|intID=2201
+|sort=445
+|value=12
+|timingID=4
+|abilityID=228
+|randomTimestamp=2020-10-01T07:00:00Z
+|randomMinLv=31
+|properties=random_owner,defensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s attacks
+|CombatEffect 1 Conditions={{Tgt|Foe}}'s attack<br>triggers Special
+|CombatEffect 2={{Eft|Damage boost|30% of {{Tgt|Unit}}'s Atk}}<br>on {{Tgt|Unit}}'s next attack
+|CombatEffect 2 Conditions=After Special triggers
+}}
+
+==Notes==
+{{DefensiveSkill}}
+{{DamagePercentageReduction}}
+{{AtkDamageBoost|special=0}}
+==List of owners==
+{{Skill Hero List}} 
+==In other languages==
+{{OtherLanguages
+|english=Negating Fang
+|japanese=反竜穿
+|german=Tilgungsbiss
+|spanishEU=Colmillo renegado
+|spanishLA=Colmillo renegado
+|french=Croc négatif
+|italian=Zanna negatrice
+|chineseTW=反龍穿
+|portuguese=Presa renegada
+}}
+==See also==
+{{See also skills|cond=Description LIKE 'Deals damage = __% of unit_s Atk%' OR Description LIKE '%boosts damage%by __% of unit_s Atk%' OR Description LIKE '%reduces damage from foe_s attacks%next attack%'|columns=3}}
+* [[:Category:Defensive Specials|Defensive Specials]]
+{{Specials Navbox}}

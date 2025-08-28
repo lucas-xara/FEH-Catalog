@@ -1,0 +1,43 @@
+{{Passive
+|type=B
+|name=Moonlit Bangle F
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Moonlit Bangle F
+|alt1name=Moonlight Bangle
+|1tagid=SID_華月の腕輪・遠
+|1cost=300
+|1effect=Enables【Canto (１)】.<br><br>Neutralizes effects that inflict "Special cooldown charge -X" on unit during combat. Deals damage = X% of foe's Def when Special triggers (X = unit's max Special cooldown count value × 10, + 20).<br><br>【Canto (１)】<br>After an attack, Assist skill, or structure destruction, unit can move １ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Canto|1}}
+|Ce1={{Eft|Neutralize Guard}}
+|Ce2={{Eft|Damage Boost|(20 x {{Tgt|Unit}}'s max<br>Special CD count, +10)%<br>of {{Tgt|Foe}}'s Def}} per<br>{{Tgt|Unit}}'s [[offensive Special]]
+}}
+==Notes==
+{{Canto|1}}
+{{CooldownChargeMinusNeutralization}}
+{{DamageBoost}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+* Besides having {{Kp|Canto (1)}} instead of {{Kp|Canto (2)}}, the effects of Moonlit Bangle F are identical to {{Ut|Eirika: Pledged Restorer}}'s {{St|Moonlight Bangle}}.
+==In other languages==
+{{OtherLanguages
+|japanese=華月の腕輪・遠
+|japaneseNotes=Bracelet of the Brilliant Moon: Far
+|german=Mondarmband f
+|spanishEU=Pulsera lunar lej.
+|spanishLA=Pulsera lunar lej.
+|french=Bracelet nuit dist.
+|italian=Bracc. luna dist.
+|chineseTW=華月手鐲・遠
+|portuguese=Pulseira do luar F
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%X = unit\'s max Special cooldown count value × 10, + 20%' OR Description LIKE '%【Canto (１)】%'}}
+{{Passives Navbox|B}}

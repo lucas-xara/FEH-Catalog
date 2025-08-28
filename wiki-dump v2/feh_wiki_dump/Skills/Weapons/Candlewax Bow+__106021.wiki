@@ -1,0 +1,61 @@
+{{Weapon Infobox
+|tagid=SID_ロウソクの弓＋
+|weaponType=Bow
+|might=12
+|range=2
+|effectiveness=flying
+|effect=Effective against flying foes. Grants Atk/Spd/Def/Res+3. After combat, deals 6 damage to unit.
+|cost=300
+|exclusive=0
+|userVersion1=Bow
+|userVersion2=Arrow
+|statModifiers=0,15,3,3,3
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce={{Eft|Effectiveness|{{Mt|Flying}}}} 
+|Pe={{Eft|Stat Boosts|Atk/Spd/Def/Res|3}}
+|Me={{Eft|Damage|6}}
+|MeC=After combat
+}}
+
+==Notes==
+{{Effective damage bonus|flying}}
+* Has the same effect as {{St|Fury 3}}.
+{{After combat note}}
+{{DamageToUnit}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+Weapon Candlewax Bow.png|Phase 1
+Weapon Candlewax Bow V3.png|Phase 2
+Weapon Candlewax Bow V4.png|Phase 3
+Weapon Candlewax Bow V5.png|Phase 4
+Weapon Candlewax Bow V2.png|Phase 1
+Weapon Candlewax Bow V6.png|Phase 2
+Weapon Candlewax Bow V7.png|Phase 3
+Wep bw040.webp|Sprite sheet use to animate the bow.
+Wep ar040.webp|Sprite sheet use to animate the arrow.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=ロウソクの弓＋
+|german=Wachsbogen+
+|spanishEU=Arco de cera +
+|spanishLA=Arco de cera +
+|french=Arc de cire +
+|italian=Arco di cera+
+|chineseTW=蠟燭之弓＋
+|portuguese=Arco tocha+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants Atk/Spd/Def/Res+_.%deals _ damage to unit%'|columns=3}}
+{{Weapons Navbox}}

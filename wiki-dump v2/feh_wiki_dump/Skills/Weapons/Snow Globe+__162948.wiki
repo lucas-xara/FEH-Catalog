@@ -1,0 +1,48 @@
+{{Weapon Infobox
+|tagid=SID_スノードーム＋
+|intID=2878
+|image=wep_mg261
+|exclusive=0
+|weaponType=Green Tome
+|cost=300
+|might=12
+|range=2
+|effect=If unit is within 2 spaces of an ally, grants Atk/Res+5 and bonus to Atk/Res during combat = current penalty on each of those stats × 2. (Example: if unit has -7 penalty to Atk, grants Atk+19, for a net bonus of Atk+12.) Calculates each stat bonus independently.
+|statModifiers=0,12,0,0,0
+|required=Snow Globe
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary buffs|Atk/Res|5}}
+|Ce2={{Eft|Temporary buffs|Atk/Res|2 x {{SEt|penalties}} on<br>each of {{Tgt|Unit}}'s stats}}
+|CeC=An {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+==Notes==
+* Has the same effect at {{St|Atk Res Unity}}.
+{{TemporaryBufffromPenalty|source=the unit|ptySource=the unit}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=スノードーム＋
+|german=Schneekugel+
+|spanishEU=Bola de nieve +
+|spanishLA=Bola de nieve +
+|french=Boule à neige +
+|italian=Palla di neve+
+|chineseTW=雪景球＋
+|portuguese=Globo de neve+
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%Example: if unit has -%penalty to%, grants%, for a net bonus of%' AND Exclusive='1'}}
+* [[Unity Passives]]
+{{Weapons Navbox}}

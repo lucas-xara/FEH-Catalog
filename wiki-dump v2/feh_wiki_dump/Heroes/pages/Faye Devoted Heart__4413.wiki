@@ -1,0 +1,77 @@
+{{#invoke:NameAbout|main|Name=Faye}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Faye
+|Title=Devoted Heart
+|artist=紺藤ココン
+|resplendentArtist=みく郎
+|WeaponType=Colorless Bow
+|MoveType=Infantry
+|GrowthModifier=Trainee
+|Origin=Fire Emblem Echoes: Shadows of Valentia
+|Gender=Female
+|actorEN=Amber Connor
+|actorJP=種﨑敦美
+|releaseDate=April 14, 2017
+|poolDate=April 26, 2017
+|randomStartTime=2017-04-28T07:00:00Z
+|poolRarities=5
+|TagID=エフィ
+|InternalID=120
+|cv1=2
+|cv2=100500
+|description=A young woman from Ram Village, and Alm's childhood friend. Her devotion to him stretches back to those days. Appears in Fire Emblem Echoes: Shadows of Valentia.
+|Properties=specRate_201904,resplendent,embla
+|resplendentStartTime=2022-05-10T07:00:00Z
+|resplendentEndTime=2022-05-25T06:59:59Z
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=6|Lv1SPD=3|Lv1DEF=4|Lv1RES=7
+|GRHP=60|GRATK=55|GRSPD=50|GRDEF=50|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Firesweep Bow
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Firesweep Bow+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Bow of Devotion
+|weapon5Default=
+|weapon5Unlock=5
+}}
+
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Daylight
+|special1Default=4
+|special1Unlock=3
+|special2=Noontime
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Wings of Mercy 1
+|passiveB2=Wings of Mercy 2
+|passiveB3=Wings of Mercy 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Bow Exp. 1
+|passiveC2=Bow Exp. 2
+|passiveC3=Bow Exp. 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

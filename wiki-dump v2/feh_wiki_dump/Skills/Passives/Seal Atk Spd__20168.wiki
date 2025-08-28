@@ -1,0 +1,52 @@
+{{Passive
+|name=Seal Atk/Spd
+|type=B
+|exclusive=0
+|1name=Seal Atk/Spd 1
+|1tagid=SID_攻撃速さ封じ1
+|1promotionRarity=5
+|1promotionTier=1
+|alt1name=Seal Atk Spd 1
+|1effect=Inflicts Atk/Spd-3 on foe through its next action after combat.
+|1cost=100
+|1required=Seal Atk 1;Seal Spd 1
+|2name=Seal Atk/Spd 2
+|2tagid=SID_攻撃速さ封じ2
+|alt2name=Seal Atk Spd 2
+|2effect=Inflicts Atk/Spd-5 on foe through its next action after combat.
+|2cost=200
+|3name=
+|3effect=
+|3cost=
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|all}}
+|properties=random_all
+}}
+==Notes==
+{{After combat note|{{SEt|penalty}}}}
+{{Penalties}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Seal Atk/Spd
+|japanese=攻撃速さ封じ
+|german=Agr./Ges. raub.
+|spanishEU=Sellar Ata/Vel
+|spanishLA=Sellar Atq./Vel.
+|french=Sceau Atq/Vit
+|italian=Sigillo Att/Vel
+|chineseTW=攻擊速度封印
+|portuguese=Selo Atq./Vel.
+}}
+==See also==
+* [[Seal Passives]]
+* [[Chill Passives]]
+* [[Chilling Seal]]
+{{Passives Navbox|B}}
+[[Category:Seal Passives]]

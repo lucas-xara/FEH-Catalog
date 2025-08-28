@@ -1,0 +1,82 @@
+{{#invoke:NameAbout|main|Name=Genny}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Genny
+|Title=Dressed with Care
+|artist=アマガイタロー
+|GrowthModifier=Gen 3
+|WeaponType=Colorless Staff
+|MoveType=Cavalry
+|Origin=Fire Emblem Echoes: Shadows of Valentia
+|Gender=Female
+|actorEN=Claudia Lenz
+|actorJP=堀中優希
+|releaseDate=2019-04-19
+|TagID=行楽ジェニー
+|InternalID=366
+|cv1=2
+|cv2=200400
+|description=A cleric from Novis. Introverted, but enjoying her conspicuous clothing nevertheless. Appears in Fire Emblem Echoes: Shadows of Valentia.
+|Properties=special,specRate_202302
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=10|Lv1SPD=5|Lv1DEF=4|Lv1RES=8
+|GRHP=45|GRATK=60|GRSPD=45|GRDEF=25|GRRES=60
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Assault
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Toasty Skewer
+|weapon2Default=4
+|weapon2Unlock=3
+|weapon3=Toasty Skewer+
+|weapon3Default=5
+|weapon3Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Heal
+|assist1Default=1
+|assist1Unlock=1
+|assist2=Mend
+|assist2Default=3
+|assist2Unlock=2
+|assist3=Physic
+|assist3Default=4
+|assist3Unlock=3
+|assist4=Physic+
+|assist4Default=5
+|assist4Unlock=5
+}}
+===Specials===
+{{Specials Table
+|special1=Imbue
+|special1Default=4
+|special1Unlock=2
+|special2=Kindled-Fire Balm
+|special2Default=5
+|special2Unlock=3
+|special3=Fireflood Balm
+|special3Unlock=4
+|special4=Fireflood Balm+
+|special4Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Wrathful Staff 1
+|passiveB2=Wrathful Staff 2
+|passiveB3=Wrathful Staff 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Def Opening 1
+|passiveC2=Def Opening 2
+|passiveC3=Def Opening 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Picnic units]]

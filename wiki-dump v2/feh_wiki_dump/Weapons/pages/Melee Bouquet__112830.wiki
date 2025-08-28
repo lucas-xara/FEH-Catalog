@@ -1,0 +1,38 @@
+{{Weapon Infobox
+|tagid=SID_ブーケのステッキ
+|weaponType=Sword
+|might=10
+|range=1
+|cooldown=0
+|effect=If unit initiates combat, grants Atk/Def+4 during combat and foe cannot make a follow-up attack.
+|cost=200
+|exclusive=0
+|statModifiers=0,10,0,0,0
+|required=Steel Sword
+|next=Melee Bouquet+
+|promotionRarity=5
+|promotionTier=1
+|properties=
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Combat boosts}}
+{{Prevent follow-up}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Melee Bouquet
+|japanese=ブーケのステッキ
+|german=Nahkampfstrauß
+|spanishEU=Ramillete letal
+|spanishLA=Ramillete letal
+|french=Épée florale
+|italian=Bouquet bellico
+|chineseTW=捧花之杖
+|portuguese=Buquê letal
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If unit initiates combat, grants Atk%Def+%and foe cannot make a follow-up attack%' AND WikiName NOT LIKE '%Instant%'|columns=3}}
+* [[Skill families#Instant|Instant Weapons]]
+{{Weapons Navbox}}

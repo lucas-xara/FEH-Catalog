@@ -1,0 +1,39 @@
+{{Weapon Infobox
+|tagid=SID_ポールアクス
+|weaponType=Axe
+|weaponName={{PAGENAME}}
+|might=10
+|range=1
+|effectiveness=cavalry
+|effect=Effective against cavalry foes.
+|cost=200
+|exclusive=0
+|statModifiers=0,10,0,0,0
+|next=Poleaxe+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Axe
+|properties=random_all
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce={{Eft|Effectiveness|{{Mt|Cavalry}}}}
+}}
+==Notes==
+{{Effective damage bonus|cavalry}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ポールアクス
+|german=Stabaxt
+|spanishEU=Alabarda
+|spanishLA=Alabarda
+|french=Hache polaire
+|italian=Alabarda
+|chineseTW=長斧
+|portuguese=Alarbada
+}}
+==See also==
+* [[Weapons that are effective against cavalry foes]]
+{{Weapons Navbox}}

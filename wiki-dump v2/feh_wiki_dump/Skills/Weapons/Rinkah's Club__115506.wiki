@@ -1,0 +1,69 @@
+{{Weapon Infobox
+|tagid=SID_リンカの鬼金棒
+|weaponType=Axe
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). If foe initiates combat or if unit's HP < 100% at start of combat, grants Atk/Def+5 and Special cooldown charge +1 per foe's attack during combat. (Only highest value applied. Does not stack. Special cooldown charge granted even if foe's attack deals 0 damage.)
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Silver Axe
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1). If unit's HP ≤ 99% or foe's HP ≥ 75% at start of combat or if foe initiates combat, grants Atk/Def+5 and Spd/Res+4 to unit, grants Special cooldown charge +1 per attack during combat (only highest value applied; does not stack), and reduces damage from foe's first attack by 15% of unit's Def during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes).
+|effectSkill1=If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+4 to unit during combat, when unit deals damage to foe during combat, restores 7 HP to unit (triggers even if 0 damage is dealt), reduces damage from foe's first attack by 40% during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and unit's next attack deals damage = total damage reduced from foe's first attack (by any source, including other skills). Resets at end of combat.
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Accelerate Special}}
+|s1 Ce1={{Eft|Temporary buffs|Atk/Def|5}}
+|s1 Ce2={{Eft|Accelerate Charge}}<br>per {{Tgt|Foe}}'s attack
+|s1 CeC=Enemy Phase '''or'''<br>{{Tgt|Unit}}'s HP ≤ 99%<br>at start of combat
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Accelerate Special}}
+|s2 Ce1={{Eft|Temporary buffs|Atk/Def|5}}, {{Eft|Temporary buffs|Spd/Res|4}}
+|s2 Ce2={{Eft|Accelerate Charge}}
+|s2 Ce3={{Eft|Damage Reduction|percent=1|15% of {{Tgt|Unit}}'s Def}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|s2 CeC=Enemy Phase '''or'''<br>({{Tgt|Foe}}'s HP ≥ 75% '''or'''<br>{{Tgt|Unit}}'s HP ≤ 99%)<br>at start of combat
+|skill3={{Si|Rinkah's Club|refine=Skill1}} s refine effects
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s3 Ce2={{Eft|Heal|7}}<br>per {{Tgt|Unit}}'s attack
+|s3 Ce3={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|s3 Ce4={{Eft|Damage Boost|total damage reduced}}<br>from {{Tgt|Foe}}'s first attack<br>for {{Tgt|Unit}}'s next attack<br>(including other sources)
+|s3 CeC={{Tgt|Unit}} is<br>[[within 3 spaces]]<br>of an {{Tgt|Ally}}
+}}
+
+==Notes==
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+{{CooldownChargePlus|perAttack=foe}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{CooldownChargePlus|name=refined Rinkah's Club}}
+{{FlatDamageReduction}}
+{{CombatHPRecovery|name={{St|Rinkah's Club|refine=Skill1}}}}
+{{DamageBoostFromDamageReduction|name={{St|Rinkah's Club|refine=Skill1}}}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Rinkah's Club
+|japanese=リンカの鬼金棒
+|german=Rinkahs Keule
+|spanishEU=Porra Rinkah
+|spanishLA=Porra Rinkah
+|french=Batte de Rinkah
+|italian=Clava di Rinkah
+|chineseTW=凜火的鬼金棒
+|portuguese=Clava Rinkah
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%reduces damage%of unit_s Def%' OR Description LIKE '%reduces damage%next attack%total damage%'}}
+{{Weapons Navbox}}

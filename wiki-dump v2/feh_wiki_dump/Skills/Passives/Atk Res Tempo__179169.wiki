@@ -1,0 +1,79 @@
+{{Passive
+|type=B
+|name=Atk/Res Tempo
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|Infantry}}
+|properties=random_owner
+|1name=Atk/Res Tempo 1
+|alt1name=Atk Res Tempo 1
+|1tagid=SID_攻撃魔防の拍節1
+|1cost=60
+|1effect=Inflicts Atk/Res-1 on foe and neutralizes effects that grant "Special cooldown charge +X" to foe or inflict "Special cooldown charge -X" on unit during combat.
+|1required=-
+|1promotionRarity=4
+|1promotionTier=1
+|2name=Atk/Res Tempo 2
+|alt2name=Atk Res Tempo 2
+|2tagid=SID_攻撃魔防の拍節2
+|2cost=120
+|2effect=Inflicts Atk/Res-2 on foe and neutralizes effects that grant "Special cooldown charge +X" to foe or inflict "Special cooldown charge -X" on unit during combat.
+|2promotionRarity=5
+|2promotionTier=1
+|3name=Atk/Res Tempo 3
+|alt3name=Atk Res Tempo 3
+|3tagid=SID_攻撃魔防の拍節3
+|3cost=240
+|3next=-
+|4name=Atk/Res Tempo 4
+|alt4name=Atk Res Tempo 4
+|4tagid=SID_攻撃魔防の拍節4
+|4effect=Inflicts Atk/Res-4 on foe, neutralizes effects that grant "Special cooldown charge +X" to foe or inflict "Special cooldown charge -X" on unit, and reduces the percentage of foe's non-Special "reduces damage by X%" skills by 50% during combat (example: a foe with a "reduces damage by 45%" skill would reduce damage by 23% instead).
+|4cost=300
+|3effect=Inflicts Atk/Res-3 on foe and neutralizes effects that grant "Special cooldown charge +X" to foe or inflict "Special cooldown charge -X" on unit during combat.
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Skill 1={{Si|Atk/Res Tempo 3}} Atk/Res Tempo 3
+|Skill 1 CombatEffect 1={{Eft|Temporary Debuffs|Atk/Res|3}}
+|Skill 1 CombatEffect 2={{Eft|Neutralize Accelerate Charge}}
+|Skill 1 CombatEffect 1-2 Targets={{Tgt|Foe}}
+|Skill 1 CombatEffect 3={{Eft|Neutralize Slow Charge}}
+|Skill 1 CombatEffect 3 Targets={{Tgt|Unit}}
+|Skill 2={{Si|Atk/Res Tempo 4}} Atk/Res Tempo 4
+|Skill 2 CombatEffect 1={{Eft|Temporary Debuffs|Atk/Res|4}}
+|Skill 2 CombatEffect 2={{Eft|Reduce Damage Reduction|50%}}
+|Skill 2 CombatEffect 3={{Eft|Neutralize Accelerate Charge}}
+|Skill 2 CombatEffect 1-3 Targets={{Tgt|Foe}}
+|Skill 2 CombatEffect 4={{Eft|Neutralize Slow Charge}}
+|Skill 2 CombatEffect 4 Targets={{Tgt|Unit}}
+}}
+
+==Notes==
+{{Temporary debuffs}}
+{{CooldownChargePlusNeutralization}}
+{{CooldownChargeMinusNeutralization}}
+{{Reduce Damage Reduction|name=Atk/Res Tempo 4}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Atk/Res Tempo
+|japanese=攻撃魔防の拍節
+|german=Angr./Res.-Takt
+|spanishEU=Tempo Ata/Res
+|spanishLA=Tempo Atq./Res.
+|french=Tempo Atq/Rés
+|italian=Ritmo Att/Res
+|chineseTW=攻擊魔防節拍
+|portuguese=Ritmo Atq./Res.
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%neutralizes effects%grant "Special cooldown charge +X" to foe%"Special cooldown charge -X" on unit%' AND Description NOT LIKE '%transforms%+7 damage when%' AND WikiName NOT LIKE '%Tempo%' OR Description LIKE '%percentage of foe_s non-Special "reduce damage by X%" skills by 50%' AND Exclusive='1'}}
+* [[Skill families/B Passives#Tempo|Tempo Passives]]
+* [[Null Passives]]
+{{Passives Navbox|B}}

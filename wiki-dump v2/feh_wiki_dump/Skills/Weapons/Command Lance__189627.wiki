@@ -1,0 +1,45 @@
+{{Weapon Infobox
+|tagid=SID_神使親衛隊隊長の槍
+|intID=3460
+|image=wep_lc138
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=16
+|range=1
+|effect=If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+4 to unit during combat and reduces damage from foe's first attack by 40%.
+|statModifiers=0,16,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|tagidExtraSkill1=一
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+X to unit during combat (X = number of allies within 3 spaces × 2, + 4; max 10), and restores 7 HP to unit after combat.
+|iconSkill1=Command Lance W.png
+|properties=
+}}
+==Notes==
+{{Temporary buffs}}
+{{DamagePercentageReduction}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{After combat healing|name={{St|Command Lance|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=神使親衛隊隊長の槍
+|german=Kommandolanze
+|spanishEU=Lanza de mando
+|spanishLA=Lanza de mando
+|french=Lance de l'ordre
+|italian=Lancia autorevole
+|chineseTW=神使親衛隊隊長之槍
+|portuguese=Lança comando
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%/%number of allies within _ spaces%' AND Description NOT LIKE '%≥3%' AND Exclusive='1'}}
+* [[Form Passives]]
+{{Weapons Navbox}}

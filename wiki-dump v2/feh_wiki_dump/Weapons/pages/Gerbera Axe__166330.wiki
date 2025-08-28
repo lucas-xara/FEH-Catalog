@@ -1,0 +1,36 @@
+{{Weapon Infobox
+|tagid=SID_ガーベラの斧
+|intID=2950
+|image=wep_ax106
+|exclusive=1
+|weaponType=Axe
+|cost=400
+|might=16
+|range=1
+|effect=Grants Spd+3. If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants "neutralizes foe's bonuses during combat" to unit and target ally or unit and targeting ally for 1 turn. If foe initiates combat or if foe's HP ≥ 75% at start of combat, grants Atk/Spd/Def/Res+5 to unit during combat and reduces damage from foe's first attack during combat by 40%.
+|statModifiers=0,16,3,0,0
+|required=Silver Axe
+|properties=
+}}
+==Notes==
+{{Neutralize Foe Bonuses}}
+{{IfFoeInitiates}}
+{{Combat boosts}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ガーベラの斧
+|german=Gerbera-Axt
+|spanishEU=Hacha gerbera
+|spanishLA=Hacha gerbera
+|french=Hache gerbera
+|italian=Ascia gerbera
+|chineseTW=菊花斧
+|portuguese=Machado gérbera
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if a movement assist skill%' AND Exclusive=1 OR (Description LIKE '%if foe initiates combat%' OR Description LIKE '%if foe\'s HP%') AND Description LIKE '%foe%reduces damage from foe\'s first attack%'|columns=3}}
+* [[Skill families#Link|Link Passives]]
+{{Weapons Navbox}}

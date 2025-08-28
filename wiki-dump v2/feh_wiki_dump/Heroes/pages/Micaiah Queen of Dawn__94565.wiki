@@ -1,0 +1,77 @@
+{{#invoke:NameAbout|main|Name=Micaiah|Name2=Yune}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Micaiah
+|Title=Queen of Dawn
+|GrowthModifier=Gen 4
+|WeaponType=Green Tome
+|Origin=Fire Emblem: Radiant Dawn
+|Gender=Female
+|MoveType=Flying
+|actorJP=桑谷夏子
+|actorEN=Veronica Taylor
+|artist=北千里
+|resplendentArtist=みわべさくら
+|releaseDate=August 16, 2019
+|poolDate=September 6, 2019
+|poolRarities=5
+|TagID=総選挙ミカヤ
+|InternalID=413
+|Properties=brave,specRate_202202,resplendent,vanaheimr
+|cv1=9
+|cv2=100100
+|description=The fifteenth ruler of Daein. Determined to reconstruct and develop her home country. Appears in Fire Emblem: Radiant Dawn.
+|resplendentStartTime=2024-11-10T07:00:00Z
+|resplendentEndTime=2024-11-25T06:59:59Z
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=7|Lv1SPD=6|Lv1DEF=4|Lv1RES=11
+|GRHP=45|GRATK=70|GRSPD=50|GRDEF=30|GRRES=60
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Wind
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elwind
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Rexcalibur
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Light of Dawn
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Ardent Sacrifice
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Sacrifice
+|assist2Default=
+|assist2Unlock=5
+}}
+===Specials===
+{{Specials Table
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Res Bond 1
+|passiveA2=Atk/Res Bond 2
+|passiveA3=Atk/Res Bond 3
+|passiveA4=Atk/Res Bond 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Yune's Whispers
+|passiveB1Unlock=5
+|passiveC1=Ground Orders 1
+|passiveC2=Ground Orders 2
+|passiveC3=Ground Orders 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

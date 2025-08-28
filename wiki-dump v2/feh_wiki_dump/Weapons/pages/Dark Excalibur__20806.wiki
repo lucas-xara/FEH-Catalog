@@ -1,0 +1,50 @@
+{{Weapon Infobox
+|tagid=SID_エクスカリバー外伝
+|weaponType=Green Tome
+|might=14
+|range=2
+|effect=Deals +10 damage when Special triggers.
+|cost=400
+|exclusive=1
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|statModifiers=0,14,0,0,0
+|required=Rexcalibur
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=At the start of turn 1, grants Special cooldown count-2.
+|iconSkill1=Quickened Pulse W.png
+|tagidExtraSkill1=奥
+|properties=random_owner
+}}
+==Notes==
+{{FlatDamage|special=1|10}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Start of turn Special modification}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|奥義の鼓動R2|Quickened Pulse R2}}
+==In other languages==
+{{OtherLanguages
+|japanese=共鳴エクスカリバー
+|german=Finster-Excalibur
+|spanishEU=Excalibur oscura
+|spanishLA=Excalibur oscura
+|french=Excalibur sombre
+|italian=Excalibur oscura
+|chineseTW=共鳴埃克斯卡利伯
+|portuguese=Excalibur vil
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%start of turn 1%special cooldown count-2%'|columns=3}}
+* [[Weapons that boost Special damage]]
+{{Weapons Navbox}}

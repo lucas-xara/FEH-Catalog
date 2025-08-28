@@ -1,0 +1,63 @@
+{{Weapon Infobox
+|tagid=SID_魔女と女神の夏光
+|intID=4196
+|image=wep_mg091
+|exclusive=1
+|weaponType=Red Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>If unit initiates combat or if foe's HP ≥ 75% at start of combat, grants bonus to unit's Atk/Spd/Def/Res = 5 + number of foes within 3 rows or 3 columns centered on unit × 3 (max 14; treated as 14 starting in unit's second combat in player phase and enemy phase), deals damage = 20% of unit's Spd (excluding area-of-effect Specials), and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials). If unit initiates combat, reduces damage from foe's first attack during combat by 70% ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and also, grants another action to unit after combat and inflicts "restricts movement to 1 space" on unit and Pair Up cohort through their next action. (Will not trigger again for 2 turns after triggering.)
+|required=Bolganone;Fenrir
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerate Special}}
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|3 x {{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}, + 5|max=14*}}
+|Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|Ce3={{Eft|Reduce Damage Reduction|50%}}
+|Ce3T={{Tgt|Foe}}
+|Ce1-3C=Player Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|Ce4={{Eft|Damage Reduction|70%}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce4T={{Tgt|Unit}}
+|Ce4C=Player Phase
+|Me={{Eft|Another Action}}
+|MeC=After combat<br>in Player Phase<br>(2 turn cooldown)
+|Se={{SEt|Gravity}}
+|SeT={{Tgt|Unit}} '''&'''<br>{{Tgt|Cohort}}
+|SeC=After combat<br>in Player Phase<br>(2 turn cooldown)
+}}
+<b>{{Hatnote|* In second combat onward of both Phases, value is treated as max.}}</b>
+
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{DamageBoost}}
+{{Reduce Damage Reduction}}
+{{DamagePercentageReduction}}
+{{Galeforce notes}}
+{{Gravity}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V8.6_v0806b_summer_Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=魔女と女神の夏光
+|german=Goldene Sonne
+|spanishEU=Luz solar de oro
+|spanishLA=Luz solar de oro
+|french=Lumière dorée
+|italian=Luce dorata
+|chineseTW=魔女與女神的夏光
+|portuguese=Luz dourada
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%if unit initiates%after combat%another action to unit%' OR  Description LIKE '%if unit initiates%another action to unit%after combat%' AND Description NOT LIKE '%if unit initiates%assist%another action%' OR Description LIKE '%if unit initiates%grants unit another action%after combat%'}}
+{{Weapons Navbox}}

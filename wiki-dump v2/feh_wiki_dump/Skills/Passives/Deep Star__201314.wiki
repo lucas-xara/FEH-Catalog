@@ -1,0 +1,38 @@
+{{About|the passive skill|the [[status effect]]|Deep Star (status effect)}}{{Passive
+|name=Deep Star
+|type=B
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Deep Star
+|1tagid=SID_真落星
+|1effect=Enables【Canto (１)】.<br><br>If unit initiates combat or is within 2 spaces of an ally, inflicts Spd/Def-5 on foe and reduces damage from foe's first attack by X% during combat (if unit initiates combat, X = 80; otherwise, X = 30; stacks with other damage reduction effects, like that from【Deep Star】; "first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes). If unit initiates combat, grants【Deep Star】to unit and inflicts【Gravity】on target and foes within 1 space of target after combat.<br><br>【Canto (１)】<br>After an attack, Assist skill, or structure destruction, unit can move １ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)<br><br>【Deep Star】<br>For 1 turn, if it is unit's first combat initiated by foe that turn, reduces damage from foe's first attack by 80% during combat (that turn only; "first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes).<br><br>【Gravity】<br>Restricts target's movement to 1 space through its next action.
+|1cost=300
+|1required=-
+}}
+==Notes==
+{{Canto|1}}
+{{IfUnitInitiates}}
+{{Temporary debuffs}}
+{{DamagePercentageReduction}}
+{{Deep Star}}
+{{Gravity}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=真落星
+|japaneseNotes=<i>True [[Fallen Star]]</i>
+|german=Sternenstaub
+|spanishEU=Astro abismal
+|spanishLA=Astro abismal
+|french=Astre abyssal
+|italian=Astro abissale
+|chineseTW=真落星
+|portuguese=Estrela cava
+}}
+
+==See also==
+{{See also skills|cond=Description LIKE '%【Fallen Star】%' OR Description LIKE '%【Deep Star】%' OR Description LIKE '%Gravity%target and foes within 1 space%' OR Description LIKE '%target and foes within 1 space%restricting movement%' OR Description LIKE '%first combat in player phase%enemy phase%reduces damage%' AND Exclusive='1' OR Description LIKE '%first and second strike%'}}
+{{Passives Navbox|B}}

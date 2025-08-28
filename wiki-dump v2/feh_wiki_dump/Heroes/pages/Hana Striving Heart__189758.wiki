@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Hana}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Hana
+|Title=Striving Heart
+|WeaponType=Red Sword
+|MoveType=Armored
+|Origin=Fire Emblem Fates
+|Gender=Female
+|actorEN=Karen Strassman
+|actorJP=菅谷弥生
+|artist=阿藍澄史
+|additionDate=February 6, 2023
+|releaseDate=February 7, 2023
+|cv1=11
+|cv2=201300
+|TagID=愛の祭カザハナ
+|InternalID=915
+|Properties=special,hat
+|description=Samurai of Hoshido and retainer to Princess Sakura. She joins the festival to protect the princess she's served since childhood. Appears in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=9|Lv1SPD=13|Lv1DEF=11|Lv1RES=8
+|GRHP=50|GRATK=75|GRSPD=75|GRDEF=70|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Petalfall Blade
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Petalfall Blade+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=4
+|special1Unlock=3
+|special2=Ignis
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Special Fighter 1
+|passiveB2=Special Fighter 2
+|passiveB3=Special Fighter 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Armored Stride 1
+|passiveC2=Armored Stride 2
+|passiveC3=Armored Stride 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Day of Devotion units]]

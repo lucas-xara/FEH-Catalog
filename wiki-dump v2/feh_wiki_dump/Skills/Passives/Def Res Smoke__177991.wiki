@@ -1,0 +1,54 @@
+{{Passive
+|type=C
+|name=Def/Res Smoke
+|exclusive=0
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Def/Res Smoke 3
+|alt1name=Def Res Smoke 3
+|1tagid=SID_守備魔防の紫煙3
+|1cost=300
+|1effect=After combat, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions, grants Atk+6 to unit and allies within 2 spaces of unit for 1 turn, and grants【Pathfinder】to unit for 1 turn.<br><br>【Pathfinder】<br>When an ally moves through unit's space, that space is counted as 0 spaces moved instead of 1 space. (Unit's space can be freely added to ally's normal movement. Applies only to allies with movement types that allow movement through unit's space.)
+|1required=Def Smoke 3;Res Smoke 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|StatusEffect 1={{SkillEffectText|Bonuses|Atk|6}}
+|StatusEffect 1 Targets={{SkillTargetText|Unit}} '''&''' {{SkillTargetText|Allies}}<br>[[within 2 spaces]]
+|StatusEffect 2={{SEt|Pathfinder}}
+|StatusEffect 2 Targets={{SkillTargetText|Unit}}
+|StatusEffect 3={{SkillEffectText|Penalties|Def/Res|7}}
+|StatusEffect 3 Targets={{SkillTargetText|Target Foe}} '''&''' {{SkillTargetText|Foes}}<br>[[within 2 spaces]]<br>of {{SkillTargetText|Target Foe}}
+|StatusEffect Conditions=After combat
+}}
+==Notes==
+{{After combat note|{{SEt|penalties}}, {{SEt|bonus}}, and {{SEt|Pathfinder}}}}
+{{Penalties}}
+{{Bonuses}}
+{{Pathfinder|statusEffect=1}}
+
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Def/Res Smoke
+|japanese=守備魔防の紫煙
+|german=Ver./Res.-Rauch
+|spanishEU=Humo Def/Res
+|spanishLA=Humo Def./Res.
+|french=Fumée Déf/Rés
+|italian=Dif/Res in fumo
+|chineseTW=防守魔防紫煙
+|portuguese=Fumaça DR
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【Pathfinder】%' AND Description NOT LIKE '%exclud%【Pathfinder】%' OR Description LIKE '%after combat%inflicts Def/Res-%on target%through their next actions%' AND CanUseWeapon__full NOT LIKE '%dagger%'}}
+* [[Skill families/C Passives#Smoke|Smoke Passives]]
+{{Passives Navbox|C}}
+[[Category:Smoke Passives]]

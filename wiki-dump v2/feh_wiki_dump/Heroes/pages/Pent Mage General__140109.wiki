@@ -1,0 +1,77 @@
+{{#invoke:NameAbout|main|Name=Pent}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Pent
+|Title=Mage General
+|WeaponType=Green Tome
+|MoveType=Infantry
+|Origin=Fire Emblem: The Blazing Blade
+|Gender=Male
+|actorEN=Jamison Boaz
+|actorJP=子安武人
+|artist=ワダサチコ
+|randomStartTime=2021-05-06T07:00:00Z
+|additionDate=April 5, 2021
+|releaseDate=April 6, 2021
+|poolDate=April 28, 2021
+|poolRarities=5
+|cv1=6
+|cv2=700100
+|TagID=パント
+|InternalID=646
+|Properties=specRate_202402
+|description=Count Reglay. Husband of Louise and leader of Etruria's most prominent noble house. Known to all as a seeker of magical knowledge. Appears in Fire Emblem: The Blazing Blade.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=8|Lv1SPD=9|Lv1DEF=6|Lv1RES=8
+|GRHP=50|GRATK=70|GRSPD=70|GRDEF=30|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Wind
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elwind
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Rexcalibur
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Tome of Reglay
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Glimmer
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=G Duel Infantry 1
+|passiveA2=G Duel Infantry 2
+|passiveA3=G Duel Infantry 3
+|passiveA4=G Duel Infantry 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Lull Atk/Res 1
+|passiveB2=Lull Atk/Res 2
+|passiveB3=Lull Atk/Res 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Time's Pulse 1
+|passiveC2=Time's Pulse 2
+|passiveC3=Time's Pulse 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

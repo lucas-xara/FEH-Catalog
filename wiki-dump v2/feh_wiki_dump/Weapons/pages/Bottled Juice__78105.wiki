@@ -1,0 +1,38 @@
+{{Weapon Infobox
+|tagid=SID_果汁のボトル
+|weaponType=Dagger
+|weaponName={{PAGENAME}}
+|might=8
+|range=2
+|effect=Inflicts Special cooldown charge -1 on foe per attack during combat. (Only highest value applied. Does not stack.) After combat, if unit attacked, inflicts Def/Res-5 on target and foes within 2 spaces of target through their next actions.
+|cost=200
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|next=Bottled Juice+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Dagger
+|properties=
+}}
+==Notes==
+{{CooldownChargeMinus}}
+{{IfUnitAttacked}}
+{{Penalties}}
+
+==List of owners==
+{{Skill Hero List}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=果汁のボトル
+|german=Saftflaschen
+|spanishEU=Botella de zumo
+|spanishLA=Botella de jugo
+|french=Jus de fruits
+|italian=Succo vermiglio
+|chineseTW=玻璃果汁瓶
+|portuguese=Garrafa de suco
+}}
+
+==See also==
+{{Weapons Navbox}}

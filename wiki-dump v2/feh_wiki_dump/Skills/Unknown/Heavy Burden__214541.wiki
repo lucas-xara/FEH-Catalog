@@ -1,0 +1,31 @@
+{{Captain Skill
+|name=Heavy Burden
+|effect=If captain uses or is targeted by a Rally or movement Assist skill, inflicts Gravity (Movement = 1 space) on foes with Range = 2 in cardinal directions of captain and target ally or captain and targeting ally after movement (once per turn; triggers only when there are targets that can be inflicted with Gravity).
+|statModifiers=
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|StatusEffect={{SEt|Gravity}}<br>(once per turn)
+|StatusEffect Targets=Range = 2<br>{{Tgt|Foes}} within<br>[[cardinal directions]]<br>of {{Tgt|Captain}} '''&'''<br>{{Tgt|Target Ally}}
+|StatusEffect Conditions=[[Rally Assist|Rally]] or [[Movement Assist|Movement]]<br>Assist is used on<br>'''or''' by {{SkillTargetText|Captain}}
+}}
+
+==Notes==
+{{Gravity}}
+{{CardinalDirections}}
+==In other languages==
+{{OtherLanguages
+|japanese=禍重乎地
+|german=Schwere Last
+|spanishEU=Carga ingente
+|spanishLA=Carga pesada
+|french=Lourd fardeau
+|italian=Fardello
+|chineseTW=禍重乎地
+|portuguese=Fardo
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%gravity%cardinal directions%' OR Description LIKE '%restricts movement%cardinal directions%' OR Description LIKE '%if a rally or movement Assist skill%' OR Description LIKE '%if a%Assist skill%inflicts%' AND Exclusive='1'}}
+* [[Snag Passives]]
+{{Captain Skills Navbox}}

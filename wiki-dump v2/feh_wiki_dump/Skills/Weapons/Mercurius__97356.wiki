@@ -1,0 +1,42 @@
+{{Weapon Infobox
+|tagid=SID_メリクル
+|weaponType=Red Sword
+|might=16
+|range=1
+|effect=Grants Atk+3. At start of turn, if unit's HP ≥ 50%, grants Atk/Spd/Def/Res+4 to unit and sword, lance, axe, bow, dagger, or beast allies within 2 spaces for 1 turn. (Bonus granted to unit even if no allies are within 2 spaces.)
+|cost=400
+|exclusive=1
+|statModifiers=0,19,0,0,0
+|required=Silver Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Atk+3. At start of turn, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+6 to unit and allies within 2 spaces of unit for 1 turn (bonus granted to unit even if no allies are within 2 spaces.) At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit during combat.
+|tagidExtraSkill1=一
+|effectSkill1=If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+X to unit during combat (X = 4 + highest bonus on each stat between unit and allies within 3 spaces; calculates each stat bonus independently).
+|iconSkill1=Mercurius W.png
+|properties=random_owner
+}}
+==Notes==
+{{Bonuses}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{TemporaryBufffromBonus|name={{St|Mercurius|refine=Skill1}}|source=the unit or ally with the highest bonus}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=メリクル
+|german=Mercurius
+|spanishEU=Mercurius
+|spanishLA=Mercurius
+|french=Mercurius
+|italian=Mercurius
+|chineseTW=墨丘利
+|portuguese=Mercurius
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%at start of turn%grants Atk/%+%to unit and allies within _ spaces%' OR Description LIKE '%Atk/Spd/Def/Res%=%highest bonus on%allies%within _ spaces%'}}
+{{Weapons Navbox}}

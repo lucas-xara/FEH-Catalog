@@ -1,0 +1,81 @@
+{{#invoke:NameAbout|main|Name=Byleth}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Byleth
+|Title=Sublime Light
+|WeaponType=Colorless Tome
+|MoveType=Flying
+|Person=Byleth F
+|Origin=Fire Emblem: Three Houses
+|Gender=Female
+|actorEN=Jeannie Tirado
+|actorJP=伊藤静
+|artist=藤坂公彦
+|additionDate=August 17, 2022
+|releaseDate=August 17, 2022
+|poolDate=September 16, 2022
+|poolRarities=5
+|cv1=12
+|cv2=100200
+|TagID=総選挙ベレス
+|InternalID=842
+|Properties=brave,specRate_202502
+|description=A former professor of Garreg Mach Monastery. Guided by the voice of the goddess within, she aims to illuminate the darkness smothering the world. Appears in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=11|Lv1SPD=10|Lv1DEF=4|Lv1RES=7
+|GRHP=50|GRATK=70|GRSPD=75|GRDEF=50|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Stone
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elstone
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Atlas (weapon)
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Inner Wellspring
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Draconic Aura
+|special2Unlock=4
+|special3=Divine Pulse
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Catch 1
+|passiveA2=Atk/Spd Catch 2
+|passiveA3=Atk/Spd Catch 3
+|passiveA4=Atk/Spd Catch 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Spd Preempt 1
+|passiveB2=Spd Preempt 2
+|passiveB3=Spd Preempt 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Spd/Res Rein 1
+|passiveC2=Spd/Res Rein 2
+|passiveC3=Spd/Res Rein 3
+|passiveC4=Spd/Res Hold
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}

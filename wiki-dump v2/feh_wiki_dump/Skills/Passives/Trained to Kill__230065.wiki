@@ -1,0 +1,54 @@
+{{Passive
+|name=Trained to Kill
+|type=A
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Trained to Kill
+|1tagid=SID_殺しの技術
+|1effect=Unit can move through foes' spaces.<br><br>If any space within 2 spaces of unit meets any of the following conditions, unit can move to that space or any space within 2 spaces of that space, and also, if unit initiates combat, unit attacks twice:<br>&nbsp;&nbsp;- There is an ally.<br>&nbsp;&nbsp;- There is a Divine Vein effect applied.<br>&nbsp;&nbsp;- It is defensive terrain.<br>&nbsp;&nbsp;- It counts as difficult terrain, excluding impassable terrain.<br><br>If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd+10 to unit, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks, and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials).
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Neutralize Bulwark}}
+|Me2={{Eft|Neutralize Prevent Warp}}
+|Me3={{Eft|Warp|[[within 2 spaces]] of target space<br>[[within 2 spaces]]}}
+|Me3C=Target space has:<br>- An {{Tgt|Ally}}<br>- A [[Divine Vein]] effect<br>- [[Defensive terrain]]<br>- Difficult [[terrain]]
+|Ce1={{Eft|Attack Twice}}
+|Ce1C=Player Phase '''&'''<br>({{Efi|Warp}} Warp target space)<br>is [[within 2 spaces]]
+|Ce2={{Eft|Temporary buffs|Atk/Spd|10}}
+|Ce3={{Eft|Neutralize Prevent Follow-Ups}}
+|Ce4={{Eft|Neutralize Guaranteed Follow-Ups}}
+|Ce5={{Eft|Reduce Damage Reduction|50%}}
+|Ce4-5T={{Tgt|Foe}}
+|Ce2-5C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+
+==Notes==
+{{Pass notes}}
+{{Warp interaction}}
+{{IfUnitInitiates}}
+{{AttackTwice}}
+{{Temporary buffs}}
+{{Follow-up effect neutralization}}
+{{Reduce Damage Reduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%unit can move to a space within 2 spaces of an% ally within _ spaces%' OR Description LIKE '%unit can move through foes_ spaces%'}} 
+* [[Warp Passives]]
+{{Passives Navbox|A}}

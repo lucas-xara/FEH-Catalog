@@ -1,0 +1,36 @@
+{{Weapon Infobox
+|tagid=SID_人参風の装飾
+|weaponType=Sword
+|might=10
+|range=1
+|effect=If unit is within 2 spaces of an ally, grants Atk/Def+5 to unit and neutralizes unit's penalties to Atk/Def during combat.
+|cost=200
+|exclusive=0
+|statModifiers=0,10,0,0,0
+|required=Steel Sword
+|next=Carrot Cudgel+
+|promotionRarity=5
+|promotionTier=1
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+{{Penalty neutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Carrot Cudgel
+|japanese=人参風の装飾
+|german=Karottenkeule
+|spanishEU=Garrote conejil
+|spanishLA=Lanzahoria
+|french=Gourdin carotte
+|italian=Randello carota
+|chineseTW=胡蘿蔔造型的裝飾
+|portuguese=Lancenoura
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If unit is within%spaces of an ally%grants%/%+%neutralizes unit_s penalties%' AND WikiName NOT LIKE '%steadfast%'|columns=3}}
+* [[Skill families#Steadfast|Steadfast Weapons]]
+{{Weapons Navbox}}

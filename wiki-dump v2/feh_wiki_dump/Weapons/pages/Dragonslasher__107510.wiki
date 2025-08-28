@@ -1,0 +1,40 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_竜殺の暗器
+|weaponType=Dagger
+|might=8
+|range=2
+|effectiveness=Dragon
+|effect=Effective against dragon foes. Disables unit's and foe's skills that change attack priority. After combat, if unit attacked, inflicts Def/Res-5 on target and foes within 2 spaces of target through their next actions.
+|cost=200
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|next=Dragonslasher+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Dagger
+|properties=random_owner
+}}
+==Notes==
+{{Effective damage bonus|dragon}}
+* Has the same effect as {{St|Hardy Bearing 3}}.
+{{Hardy Bearing}}
+{{IfUnitAttacked}}
+{{Penalties}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Dragonslasher
+|japanese=竜殺の暗器
+|german=Drachenschlitzer
+|spanishEU=Azote dragontino
+|spanishLA=Azote dragontino
+|french=Trépas-dragon
+|italian=Abbattidraghi
+|chineseTW=破龍暗器
+|portuguese=Golpeiadragão
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%isables unit_s and foe_s skills that change attack priority%'}}
+{{Weapons Navbox}}

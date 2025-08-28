@@ -1,0 +1,37 @@
+{{Weapon Infobox
+|tagid=SID_安くない曲刀
+|intID=2787
+|image=wep_sw118
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). If unit initiates combat or is within 2 spaces of an ally, grants bonus to Atk/Spd/Def/Res during combat based on the number of times unit has been enhanced using Dragonflowers (one or more times grants +6, zero times grants +4), and also, if unit has been enhanced using Dragonflowers two or more times, neutralizes effects that grant "Special cooldown charge +X" to foe or inflict "Special cooldown charge -X" on unit during combat.
+|statModifiers=0,16,0,0,0
+|required=Silver Sword
+|properties=random_owner
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{CooldownChargePlusNeutralization}}
+{{CooldownChargeMinusNeutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=安くない曲刀
+|german=Teure Klinge
+|spanishEU=Sable costoso
+|spanishLA=Sable costoso
+|french=Sabre onéreux
+|italian=Lama costosa
+|chineseTW=貴重的彎刀
+|portuguese=Sabre oneroso
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%dragonflower%' OR (Description LIKE '%neutralizes%Special cooldown charge +X%Special cooldown charge -X%' OR Description LIKE '%neutralizes%Special cooldown charge -X%Special cooldown charge +X%') AND Description NOT LIKE '%transforms%+7 damage when Special triggers%neutralizes effects%' AND WikiName NOT LIKE '%Tempo%'}}
+* [[Skill families#Tempo|Tempo Passives]]
+{{Weapons Navbox}}

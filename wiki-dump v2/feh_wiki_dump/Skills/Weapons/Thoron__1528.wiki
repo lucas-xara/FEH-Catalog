@@ -1,0 +1,36 @@
+{{Weapon Infobox
+|tagid=SID_トロン
+|weaponType=Blue Tome
+|weaponName={{PAGENAME}}
+|might=9
+|range=2
+|effect=
+|cost=200
+|exclusive=0
+|userVersion1=Closed|userVersion2=Open|statModifiers=0,9,0,0,0
+|next=Thoron+
+|promotionRarity=5
+|promotionTier=1
+|required=Elthunder
+|SE=se_effect_thoron.flac
+|properties=random_all
+}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=トロン
+|german=Thoron
+|spanishEU=Thoron
+|spanishLA=Thoron
+|french=Thoron
+|italian=Thoron
+|chineseTW=托隆
+|portuguese=Thoron
+}}
+==See also==
+* [[Silver Weapons]]
+{{Weapons Navbox}}
+[[Category:Silver weapons]]

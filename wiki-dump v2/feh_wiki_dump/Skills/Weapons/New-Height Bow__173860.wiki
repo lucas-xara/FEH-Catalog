@@ -1,0 +1,39 @@
+{{Weapon Infobox
+|tagid=SID_友の風舞う翼弓
+|intID=3105
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=1
+|weaponType=Bow
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effectiveness=Flying
+|effect=Accelerates Special trigger (cooldown count-1). Effective against flying foes. If unit's HP ≤ 60%, allies can move to a space adjacent to unit. Allies within 2 spaces can move to a space within 2 spaces of unit. If unit is within 3 spaces of an ally, grants Atk/Spd+6 to unit during combat and deals damage = 15% of unit's Spd.
+|statModifiers=0,14,0,0,0
+|required=Silver Bow
+|properties=random_owner
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{Warp interaction}}
+{{Temporary buffs}}
+{{DamageBoost}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=友の風舞う翼弓
+|german=Freundesbogen
+|spanishEU=Arco amistad
+|spanishLA=Arco amistad
+|french=Arc d'altitude
+|italian=Arco d'alta quota
+|chineseTW=朋友的吹拂翼弓
+|portuguese=Arco da amizade
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%allies can move to a space adjacent to unit%' OR Description LIKE '%allies%within 2 spaces%can move to a%space%unit%') AND Exclusive='1' OR Description LIKE '%unit is within _ spaces of an ally%deals damage =%of unit_s Spd%'}}
+* [[Skill families/C Passives#Guidance|Guidance Passives]]
+{{Weapons Navbox}}

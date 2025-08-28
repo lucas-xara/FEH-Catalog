@@ -1,0 +1,68 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_ファラフレイム
+|weaponType=Red Tome
+|weaponName=Valflame
+|might=14
+|range=2
+|effect=At start of turn, inflicts Atk/Res-4 on foes in cardinal directions with Res < unit's Res through their next actions.
+|cost=400
+|exclusive=1
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|statModifiers=0,14,0,0,0
+|required=Bolganone
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=At start of turn, inflicts Atk/Res-5 on foes within 3 columns or 3 rows centered on unit through their next actions.
+|effectSkill1=Grants bonus to unit's Atk = total penalties on foe during combat.
+|iconSkill1=Weakness Atk W.png
+|properties=random_owner
+|tagidExtraSkill1=撃
+|SE=se effect Fjalarflame01.flac
+}}
+==Notes==
+{{Ploy interaction}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Penalties}}
+{|class="wikitable default mw-collapsible" 
+!align="middle"|Example of Area of Effect
+|-
+|align="middle"!|<div style="max-width:450px;margin: auto;>{{AoE|u=Arvis: Emperor of Flame|t=Sigurd: Destined Duo
+|---xxx---
+|---xxx---
+|---xtx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}</div>
+|}
+{{BonusesToAtkFoePenalty}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|弱撃R|Weakness Atk R}}
+==In other languages==
+{{OtherLanguages
+|japanese=ファラフレイム
+|german=Valflamme
+|spanishEU=Valflame
+|spanishLA=Valflame
+|french=Valflamme
+|italian=Valflame
+|chineseTW=法拉之炎
+|portuguese=Valflame
+}}
+==References==
+<references/>
+==See also==
+* [[Wargod's Tome]]
+{{Weapons Navbox}}

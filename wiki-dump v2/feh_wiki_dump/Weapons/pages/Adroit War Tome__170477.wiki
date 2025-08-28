@@ -1,0 +1,39 @@
+{{Weapon Infobox
+|tagid=SID_戦神の戦術書
+|intID=3029
+|userVersion1=Closed
+|userVersion2=Open
+|exclusive=1
+|weaponType=Colorless Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of combat, if unit's HP ≥ 25%, grants Atk/Res+6 to unit during combat and the following effects will occur based on the value of unit's Res minus foe's Res: If ≥ 1, unit makes a guaranteed follow-up attack. If ≥ 5, if foe uses sword, lance, axe, bow, dagger, or beast damage, foe cannot counterattack. If ≥ 10, reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% (example: a foe with a "reduce damage by 45%" skill would reduce damage by 23% instead).
+|statModifiers=0,14,0,0,0
+|required=Atlas (weapon)
+|properties=
+}}
+==Notes==
+{{UnitStatMinusFoeStat|stat=Res}}
+{{Guaranteed follow-up interaction}}
+{{Prevent counterattacks}}
+{{Reduce Damage Reduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=戦神の戦術書
+|german=Taktik-Kriegsbuch
+|spanishEU=Gr. bélico hábil
+|spanishLA=Gr. bélico hábil
+|french=Tome belliqueux
+|italian=Tattiche di guerra
+|chineseTW=戰神的兵法書
+|portuguese=Tomo veloz
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%value of unit_s Res minus foe_s Res%' OR Description LIKE '%if foe uses sword, lance%axe%foe cannot counterattack%' OR Description LIKE '%"reduce damage by X\%" skills by 50%' AND Exclusive='1'}}
+* [[Null Passives]]
+* [[Skill families/B Passives#Tempo|Tempo Passives]]
+{{Weapons Navbox}}

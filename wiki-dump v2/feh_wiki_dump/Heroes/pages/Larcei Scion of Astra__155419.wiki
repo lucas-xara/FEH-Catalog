@@ -1,0 +1,79 @@
+{{#invoke:NameAbout|main|Name=Larcei}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Larcei
+|Title=Scion of Astra
+|WeaponType=Green Axe
+|MoveType=Infantry
+|Origin=Fire Emblem: Genealogy of the Holy War
+|Gender=Female
+|actorEN=Lizzie Freeman
+|actorJP=種﨑敦美
+|artist=麻谷知世
+|additionDate=September 6, 2021
+|releaseDate=September 7, 2021
+|cv1=3
+|cv2=5100300
+|TagID=聖祭ラクチェ
+|InternalID=703
+|Properties=special,hat,specRate_202502
+|description=Daughter of Ayra and descendant of Sword Saint Od of the 12 crusaders. Appears in Fire Emblem: Genealogy of the Holy War.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=9|Lv1SPD=12|Lv1DEF=9|Lv1RES=6
+|GRHP=50|GRATK=70|GRSPD=70|GRDEF=55|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Whirling Grace
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Astra
+|special2Unlock=4
+|special3=Regnal Astra
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Spd/Def Solo 1
+|passiveA2=Spd/Def Solo 2
+|passiveA3=Spd/Def Solo 3
+|passiveA4=Spd/Def Solo 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Frenzy 1
+|passiveB2=Frenzy 2
+|passiveB3=Frenzy 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Spur Atk 1
+|passiveC2=Drive Atk 1
+|passiveC3=Drive Atk 2
+|passiveC4=Joint Drive Atk
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Day of the Twelve units]]

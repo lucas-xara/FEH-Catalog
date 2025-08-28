@@ -1,0 +1,48 @@
+{{Passive
+|name=Moonlight Bangle
+|type=B
+|exclusive=1
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|intID=2709
+|sort=581
+|value=8
+|timingID=28
+|abilityID=109
+|randomTimestamp=2021-09-17T07:00:00Z
+|randomMinLv=31
+|properties=random_owner
+|1name=Moonlight Bangle
+|1tagid=SID_華月の腕輪
+|1required=-
+|1effect=Enables【Canto (２)】.<br><br>Neutralizes effects that inflict "Special cooldown charge -X" on unit during combat. Deals damage = X% of foe's Def when Special triggers (X = unit's max Special cooldown count value × 10, + 20).<br><br>【Canto (２)】<br>After an attack, Assist skill, or structure destruction, unit can move ２ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|1cost=300
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Canto|2}}
+|Ce1={{Eft|Neutralize Guard}}
+|Ce2={{Eft|Damage Boost|(20 x {{Tgt|Unit}}'s max<br>Special CD count, +10)%<br>of {{Tgt|Foe}}'s Def}} per<br>{{Tgt|Unit}}'s [[offensive Special]]
+}}
+
+==Notes==
+{{Canto|2}}
+{{CooldownChargeMinusNeutralization}}
+{{DamageBoost}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=華月の腕輪
+|japaneseNotes=Bracelet of the Brilliant Moon
+|german=Mondarmband
+|spanishEU=Pulsera luz lunar
+|spanishLA=Pulsera luz lunar
+|french=Bracelet de nuit
+|italian=Bracciale di luna
+|chineseTW=華月手鐲
+|portuguese=Pulseira do luar
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%X = unit\'s max Special cooldown count value × 10, + 20%' OR Description LIKE '%【Canto (２)】%'}}
+{{Passives Navbox|B}}

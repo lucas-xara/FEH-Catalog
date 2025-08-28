@@ -1,0 +1,45 @@
+{{Weapon Infobox
+|tagid=SID_ラウアサーペント＋
+|weaponType=Red Tome
+|might=12
+|range=2
+|effect=If foe initiates combat and uses bow, dagger, magic, or staff, grants Def/Res+6 during combat.
+|cost=300
+|exclusive=0
+|userVersion1=Closed
+|userVersion2=Open
+|statModifiers=0,12,0,0,0
+|required=Rauðrserpent
+|SE=se_effect_serpent.flac
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=random_owner
+}}
+==Notes==
+* Has the same effect as {{St|Distant Def 3}}.
+{{IfFoeInitiates}}
+{{Combat boosts}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{TomeColorTrivia|rauðr}}
+==In other languages==
+{{OtherLanguages
+|japanese=ラウアサーペント＋
+|german=Rauðrschlange+
+|spanishEU=Sierpe carmesí +
+|spanishLA=Serpiente rubí +
+|french=Crochets rubis +
+|italian=Rubinserpe+
+|chineseTW=赤紅海蛇＋
+|portuguese=Serpente rubra+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe initiates combat% Def/Res+%during combat%' AND WikiName NOT LIKE '%serpent%' AND WikiName NOT LIKE '%guard bow%' AND Exclusive='1'|columns=3}}
+* [[Serpent Weapons]]
+{{Weapons Navbox}}
+[[Category:Serpent weapons]]

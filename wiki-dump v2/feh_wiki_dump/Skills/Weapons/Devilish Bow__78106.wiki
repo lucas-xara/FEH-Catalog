@@ -1,0 +1,38 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_コウモリの弓
+|weaponType=Bow
+|weaponName={{PAGENAME}}
+|might=8
+|range=2
+|effectiveness=flying
+|effect=Effective against flying foes. Inflicts Special cooldown charge -1 on foe per attack during combat. (Only highest value applied. Does not stack.)
+|cost=200
+|next=Devilish Bow+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Bow
+|exclusive=0
+|userVersion1=Bow|userVersion2=Arrow|statModifiers=0,8,0,0,0
+|properties=
+}}
+==Notes==
+{{CooldownChargeMinus}}
+{{Effective damage bonus|flying}}
+
+==List of owners==
+{{Skill Hero List}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=コウモリの弓
+|german=Teufelsbogen
+|spanishEU=Arco diabólico
+|spanishLA=Arco diabólico
+|french=Arc démon
+|italian=Arco sadico
+|chineseTW=蝙蝠弓
+|portuguese=Arco diabólico
+}}
+
+==See also==
+{{Weapons Navbox}}

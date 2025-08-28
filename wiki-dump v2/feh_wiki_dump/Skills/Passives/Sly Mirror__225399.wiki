@@ -1,0 +1,54 @@
+{{Passive
+|name=Sly Mirror
+|type=A
+|exclusive=0
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Sly Mirror
+|1tagid=SID_鬼神明鏡の掩撃
+|1effect=If unit initiates combat, grants Atk+8 and Res+10 to unit and unit makes a guaranteed follow-up attack during combat, and also, if number of【Bonus】effects active on unit ≥ 2, excluding stat bonuses, or if number of 【Penalty】effects active on foe ≥ 2, excluding stat penalties, unit deals +5 damage during combat (including when dealing damage with an area-of-effect Special; excluding Røkkr area-of-effect Specials).<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|1cost=300
+|1required=Mirror Strike 2
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary buffs|Atk|8}}, {{Eft|Temporary buffs|Res|10}}
+|Ce2={{Eft|Guaranteed Follow-Ups}}
+|Ce1-2C=Player Phase
+|Ce3={{Eft|Damage Boost|5}}<br>before '''&''' during combat
+|Ce3C=Player Phase '''&'''<br>({{Kp|Bonus}} effects<br>on {{Tgt|Unit}} '''or'''<br>{{Kp|Penalty}} effects<br>on {{Tgt|Foe}}) ≥ 2<br>(exc. {{SEt|Bonuses}}<br>& {{SEt|Penalties}})
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Guaranteed follow-up interaction}}
+{{FlatDamageBoost|5}}
+{{EffectfromBonus|+5 damage boost}}
+{{EffectfromPenalty|+5 damage boost}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=Coup futé
+|italian=
+|chineseTW=
+|portuguese=
+}}
+
+==See also==
+{{See also skills|cond=Description LIKE '%deals +%including when dealing damage%' AND Exclusive='1'}}
+* [[Skill families/A Passives#Sly|Sly Passives]]
+{{Passives Navbox|A}}
+[[Category:Blow Passives]]
+[[Category:Sly Passives]]

@@ -1,0 +1,85 @@
+{{Weapon Infobox
+|tagid=SID_神魔の双竜の竜石
+|intID=4368
+|image=wep_ac083
+|exclusive=1
+|weaponType=Dragonstone
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effectiveness=Dragonstone
+|effect=Accelerates Special trigger (cooldown count-1).<br>Effective against dragon foes. Neutralizes "effective against armored" bonuses. If foe's Range = 2, calculates damage using the lower of foe's Def or Res. Unit can counterattack regardless of foe's range.<br><br>Reduces damage from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by 80%.<br><br>Grants weapon-triangle advantage against colorless foes and inflicts weapon-triangle disadvantage on colorless foes during combat.<br><br>At start of turn, if unit's Special cooldown count is at its maximum value, grants Special cooldown count-1 to unit.<br><br>If foe initiates combat or if foe's HP ≥ 75% at start of combat, inflicts penalty on foe's Atk/Def/Res = 5 + number of allies within 3 spaces of unit × 3 (max 14; if unit triggers Savior, value is treated as 14), and reduces damage from foe's attacks by 20% of unit's Res during combat (excluding area-of-effect Specials), and after combat, restores 7 HP to unit, and also, if unit's Special cooldown count is at its maximum value, grants Special cooldown count-1 to unit.<br><br>Grants Atk/Def/Res+4 to allies within 3 spaces during combat and restores 7 HP to those allies after their combat.
+|required=Flametongue
+|properties=random_inherit_base
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Me1={{Eft|Damage Reduction|80%}}<br>from Non-Røkkr [[AoE Specials]]
+|Me2={{Eft|Reduce Cooldown|1}}
+|Me2C=At start of turn<br>if {{Tgt|Unit}}'s CD<br>is max value
+|Me3={{Eft|Heal|7}}
+|Me3C=After combat in<br>Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|Me4={{Eft|Reduce Cooldown|1}}
+|Me4C=After combat (in<br>Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat)<br>'''&''' {{Tgt|Unit}}'s CD<br>is max value
+|Me5={{Eft|Heal|7}}
+|Me5T={{Tgt|Allies}}<br>[[within 3 spaces]]
+|Me5C=After {{Tgt|Ally}}'s combat
+|Ce1={{Eft|Effectiveness|{{Cwti|Dragonstone|group=1}} [[Dragon]]}}
+|Ce2={{Eft|Neutralize Weakness|{{Mt|Armored}}}}
+|Ce3={{Eft|Distant Counter}}
+|Ce4={{Eft|New WTA}}
+|Ce5={{Eft|New WTD}}
+|Ce5-6T={{Tgt|Foe}}
+|Ce4-5C={{Tgt|Foe}} is<br>{{Wti|group=1|Colorless}} Colorless
+|Ce6={{Eft|Temporary debuffs|Atk/Def/Res|3 x {{Tgt|Allies}}<br>[[within 3 spaces]], + 5|max=14*}}
+|Ce7={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Res}}<br>from {{Tgt|Foe}}'s attacks
+|Ce6-7C=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|Ce8={{Eft|Lower Def Res}}
+|Ce7-8T={{Tgt|Unit}}
+|Ce8C={{Tgt|Foe}}'s Range = 2
+|Ce9={{Eft|Temporary buffs|Atk/Def/Res|4}}
+|Ce9T={{Tgt|Allies}}<br>[[within 3 spaces]]
+}}
+<b>{{Hatnote|* If {{Tgt|Unit}} triggers {{Eft|Savior}}, value is treated as max.}}</b>
+
+==Notes==
+* Opposing Stones has the same effects as {{St|Svalinn Shield}} and {{St|Distant Counter}}.
+{{Effective damage bonus|dragon}}
+{{Effectiveness neutralization|Armored}}
+{{AoEDamageReduction}}
+{{New WTA|colorless}}
+{{Start of turn Special modification}}
+{{IfFoeInitiates}}
+{{Temporary debuffs}}
+{{FlatDamageReduction}}
+{{After combat healing|allies=1}}
+{{After combat Special modification}}
+{{Temporary buffs}}
+{{AlliesCombatEffect|temporary buff effect}}
+
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V8.10_v0810a_halloween_Mag.webp|Sprite sheet for {{St|Stone of Delights}} and {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%Neutralizes "effective against armored" bonuses%' OR Description LIKE '%reduces damage from%area-of-effect Specials%by 80%' OR Description LIKE '%grants weapon-triangle advantage%') AND Exclusive='1'}}
+* [[Raven Tomes]]
+* [[Time Pulse Passives]]
+{{Weapons Navbox}}

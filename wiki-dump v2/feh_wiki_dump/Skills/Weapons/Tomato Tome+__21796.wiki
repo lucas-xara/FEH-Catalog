@@ -1,0 +1,40 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_トマトの本＋
+|weaponType=Red Tome
+|altWeaponName=Tomato Tome Plus
+|might=12
+|range=2
+|effect=Grants Atk/Spd+1 to allies within 2 spaces during combat.
+|cost=300
+|exclusive=0
+|userVersion1=Closed|userVersion2=Open|statModifiers=0,12,0,0,0
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|SE=se_effect_bouquet.flac
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+{{AlliesCombatEffect|effect=combat boost}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+[[File:se_btl_dmf1.flac|right|thumb|The impact sound effect.]]
+==In other languages==
+{{OtherLanguages
+|japanese=トマトの本＋
+|german=Tomatenbuch+
+|spanishEU=Grimor. tomate +
+|spanishLA=Grimor. tomate +
+|french=Tome tomate +
+|italian=Tomo del pomo+
+|chineseTW=番茄之書＋
+|portuguese=Tomo tomate+
+}}
+==See also==
+* [[Nohrian Summer Weapons]]
+{{Weapons Navbox}}
+[[Category:Nohrian Summer weapons]]

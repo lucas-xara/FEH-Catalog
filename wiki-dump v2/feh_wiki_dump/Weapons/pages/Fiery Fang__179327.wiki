@@ -1,0 +1,36 @@
+{{Weapon Infobox
+|tagid=SID_炎虎の爪牙
+|intID=3247
+|exclusive=1
+|weaponType=Beast
+|canUseMove=Infantry
+|cost=400
+|might=14
+|range=1
+|effect=Grants Def+3. At start of combat, if unit's HP ≥ 25%, grants Atk/Def+6 to unit during combat, inflicts penalty on foe's Atk/Def during combat = 20% of unit's Def at start of combat, and foe cannot make a follow-up attack. At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, deals +7 damage when Special triggers, and neutralizes effects that grant "Special cooldown charge +X" to foe or inflict "Special cooldown charge -X" on unit.
+|statModifiers=0,14,0,3,0
+|required=Adult (Infantry)
+|properties=
+}}
+==Notes==
+{{Temporary buffs}}
+{{Temporary debuffs}}
+{{At start of combat}}
+{{Prevent follow-up}}
+{{Beast (Infantry)}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=炎虎の爪牙
+|german=Feuriger Zahn
+|spanishEU=Colmillo ardiente
+|spanishLA=Colmillo ardiente
+|french=Croc ardent
+|italian=Zanna focosa
+|chineseTW=炎虎的爪牙
+|portuguese=Presa ardente
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%inflicts penalty on foe_s Atk/%=%of unit_s%at start of combat%' OR Description LIKE '%if unit_s HP%grants Atk/Def+%during combat%foe cannot make a follow-up%'}}
+{{Weapons Navbox}}

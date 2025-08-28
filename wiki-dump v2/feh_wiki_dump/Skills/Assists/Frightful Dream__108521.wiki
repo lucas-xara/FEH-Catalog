@@ -1,0 +1,45 @@
+{{Assist
+|tagid=SID_こわいゆめ
+|name=Frightful Dream
+|range=1
+|effect=Grants another action to target ally. Inflicts Atk/Spd/Def/Res-3 and【Guard】on foes in cardinal directions of unit and target through their next actions. (Cannot target an ally with Sing or Dance. This skill treated as Sing or Dance.)<br><br>【Guard】<br>Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)
+|japanes
+|cost=400
+|exclusive=1
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|exclude=staff}}
+|required=Dance
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|MapEffect={{Eft|Another Action}}
+|MapEffect Targets={{Tgt|Target Ally}}
+|MapEffect Conditions={{Tgt|Target (Ally)}}<br>doesn't have a<br>{{Uti|Dance}} [[Dance Assist]]<br>'''or''' {{SEt|Isolation}}
+|StatusEffect 1={{Eft|Penalty|Atk/Spd/Def/Res|3}}
+|StatusEffect 2={{SEt|Guard}}
+|StatusEffect Targets={{Tgt|Foes}} within<br>[[Cardinal directions]] of<br>{{Tgt|Unit}} '''&''' {{Tgt|Ally}}
+|StatusEffect Conditions={{Tgt|Target (Ally)}}<br>doesn't have a<br>{{Uti|Dance}} [[Dance Assist]]<br>'''or''' {{SEt|Isolation}}
+}}
+
+==Notes==
+{{Penalties}}
+{{Guard}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Frightful Dream
+|japanese=こわいゆめ
+|german=Böser Traum
+|spanishEU=Ensueño hórrido
+|spanishLA=Ensueño hórrido
+|french=Mauvais rêve
+|italian=Sogni agitati
+|chineseTW=可怕的夢
+|portuguese=Sonho sinistro
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%This skill treated as Sing or Dance%'}}
+{{Assists Navbox}}
+[[Category:Dance skills]][[Category:Sources of effects that grant "another action"]]

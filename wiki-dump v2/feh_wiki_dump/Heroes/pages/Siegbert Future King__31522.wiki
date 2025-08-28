@@ -1,0 +1,70 @@
+{{#invoke:NameAbout|main|Name=Siegbert}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Siegbert
+|Title=Future King
+|WeaponType=Red Sword
+|MoveType=Cavalry
+|GrowthModifier=Gen 2
+|Origin=Fire Emblem Fates
+|Gender=Male
+|actorEN=Todd Haberkorn
+|actorJP=河西健吾
+|artist=新井テル子
+|releaseDate=December 4, 2017
+|additionDate=November 28, 2017
+|poolDate=December 18, 2017
+|randomStartTime=2017-12-28T07:00:00Z
+|poolRarities=5
+|TagID=ジークベルト
+|InternalID=192
+|cv1=11
+|cv2=6901500
+|Properties=specRate_202008
+|description=Xander's son. As a king-to-be, he received the finest education. Serious and kind. Appears in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=8|Lv1SPD=9|Lv1DEF=7|Lv1RES=3
+|GRHP=50|GRATK=60|GRSPD=60|GRDEF=55|GRRES=30
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Dark Greatsword
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Dragon Fang
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Death Blow 1
+|passiveA2=Death Blow 2
+|passiveA3=Death Blow 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Atk Tactic 1
+|passiveC2=Atk Tactic 2
+|passiveC3=Atk Tactic 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

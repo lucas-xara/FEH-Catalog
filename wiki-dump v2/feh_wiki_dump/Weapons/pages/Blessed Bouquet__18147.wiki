@@ -1,0 +1,36 @@
+{{Weapon Infobox
+|tagid=SID_聖なるブーケ
+|weaponType=Blue Tome
+|might=8
+|range=2
+|effect=If unit initiates combat, grants Def/Res+2 to allies within 2 spaces for 1 turn after combat.
+|cost=300 <!-- this is not a wiki error, it really does cost 300 in-game. -->
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|next=Blessed Bouquet+
+|promotionRarity=5
+|promotionTier=1
+|required=Elthunder;Ellight
+|SE=se_effect_bouquet.flac
+|properties=
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=聖なるブーケ
+|german=Sakralstrauß
+|spanishEU=Ramo bendito
+|spanishLA=Ramo bendito
+|french=Bouquet béni
+|italian=Bouquet nuziale
+|chineseTW=聖潔花束
+|portuguese=Buquê bendito
+}}
+==See also==
+* [[Bridal Blessings Weapons]]
+{{Weapons Navbox}}
+[[Category:Bridal Blessings weapons]]

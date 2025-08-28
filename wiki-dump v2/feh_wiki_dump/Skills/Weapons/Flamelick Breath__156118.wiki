@@ -1,0 +1,36 @@
+{{Weapon Infobox
+|tagid=SID_絶炎のブレス
+|intID=2736
+|image=wep_ac036
+|weaponType=Dragonstone
+|might=16
+|range=1
+|effect=Grants Atk+3. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit during combat and foe cannot recover HP during or after combat. If unit's HP ≥ 25% at start of combat, after combat, if unit attacked, inflicts【Deep Wounds】on target and foes within 2 spaces of target. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.<br><br>【Deep Wounds】<br>Unit's HP cannot be healed through its next action.
+|exclusive=1
+|cost=400
+|statModifiers=0,19,0,0,0
+|required=Flametongue
+|properties=random_owner
+}}
+==Notes==
+{{Combat boosts}}
+{{Prevent healing}}
+{{Deep Wounds}}
+{{LowerDefRes}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=絶炎のブレス
+|german=Odem des Feuers
+|spanishEU=Aliento llameante
+|spanishLA=Soplo llameante
+|french=Souffle ardent
+|italian=Soffio infuocato
+|chineseTW=絕炎吐息
+|portuguese=Sopro ebuliente
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%foe cannot recover HP during or after combat%' OR Description LIKE '%【Deep Wounds】%' AND Description NOT LIKE '%reduces the effect of%【Deep Wounds】%'|columns=3}}
+{{Weapons Navbox}}

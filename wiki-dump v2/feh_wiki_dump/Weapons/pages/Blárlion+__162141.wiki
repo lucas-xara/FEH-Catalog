@@ -1,0 +1,41 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_ブラーライオン＋
+|intID=2863
+|userVersion1=Closed
+|userVersion2=Open
+|exclusive=0
+|weaponType=Blue Tome
+|cost=300
+|might=12
+|range=2
+|effect=At start of turn, grants Atk+6 to adjacent allies for 1 turn. At start of combat, if foe's HP ≥ 75%, grants Atk/Res+5 to unit during combat.
+|statModifiers=0,12,0,0,0
+|required=Blárlion
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=random_owner
+}}
+==Notes==
+{{Bonuses}}{{Combat boosts}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{TomeColorTrivia|blar}}
+==In other languages==
+{{OtherLanguages
+|japanese=ブラーライオン＋
+|german=Blárlöwe+
+|spanishEU=León zarco +
+|spanishLA=León añil +
+|french=Crinière saphir +
+|italian=Turchinleone+
+|chineseTW=蒼藍之獅＋
+|portuguese=Blárlion+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%at start of turn%grants Atk+%to adjacent allies%' OR Description LIKE '%if foe_s HP ≥%Atk/Res+%during combat%'|columns=3}}
+{{Weapons Navbox}}

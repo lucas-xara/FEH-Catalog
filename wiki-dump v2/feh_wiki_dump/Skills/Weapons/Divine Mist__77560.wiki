@@ -1,0 +1,68 @@
+{{Weapon Infobox
+|tagid=SID_神霧のブレス
+|weaponType=Dragonstone
+|might=16
+|range=1
+|effectiveness=dragon
+|effect=Effective against dragon foes. Unit can counterattack regardless of foe's range. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|cost=400
+|exclusive=1
+|userVersion1=Weapon
+|userVersion2=Gleam
+|statModifiers=0,16,0,0,0
+|required=Flametongue
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|tagidExtraSkill1=一
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit and inflicts penalty on foe's Atk = 75% of total bonuses on unit's Def and Res during combat.
+|iconSkill1=Divine Mist W.png
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Ce1={{Eft|Effectiveness|{{Cwti|Dragonstone|group=1}} [[Dragon]]}}
+|s1 Ce2={{Eft|Distant Counter}}
+|s1 Ce3={{Eft|Lower Def Res}}
+|s1 Ce3C={{Tgt|Foe}}'s Range = 2
+|skill2={{Si|Divine Mist|refine=Skill1}} Skill refine effects
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s2 Ce2={{Eft|Temporary debuffs|Atk|75% of total {{SEt|Bonuses}}<br>on {{Tgt|Unit}}'s Def/Res}}
+|s2 Ce2T={{Tgt|Foe}}
+|s2 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+* Divine Mist has the same effect as {{St|Distant Counter}}.
+{{Effective damage bonus|dragon}}
+{{LowerDefRes}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary buffs|name={{St|Divine Mist|refine=skill1}}}}
+{{TemporaryDebufffromBonus|name={{St|Divine Mist|refine=skill1}}}}
+*** The decrease to the foe's Atk stat is equal to 75% of the ''sum'' of the Def/Res bonuses active on the unit.
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+v2.9_602_legend09_Mag.png|Sprite sheet for Divine Mist's animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=神霧のブレス
+|german=Heiliger Nebel
+|spanishEU=Bruma divina
+|spanishLA=Bruma divina
+|french=Brume divine
+|italian=Nebbia divina
+|chineseTW=神霧吐息
+|portuguese=Névoa divina
+}}
+==See also==
+{{See also skills|cond=((WeaponEffectiveness='dragon' AND CanUseWeapon__full LIKE 'Red Breath%Breath') OR Description LIKE '%inflicts penalty on foe_s %=%total bonuses on unit%') AND Exclusive='1'}}
+* [[Weapons with Distant Counter]]
+* [[Weapons with Close Counter]]
+* [[Sources of effective against dragon foes]]
+{{Weapons Navbox}}

@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Frederick}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Frederick
+|Title=Youth in Service
+|WeaponType=Green Axe
+|MoveType=Cavalry
+|Origin=Fire Emblem Awakening
+|Gender=Male
+|actorEN=Kyle Hebert
+|actorJP=小野大輔
+|artist=ワダサチコ
+|additionDate=April 4, 2024
+|releaseDate=April 5, 2024
+|cv1=10
+|cv2=100600
+|TagID=幼少フレデリク
+|InternalID=1084
+|Properties=limited,tempest,specDisplay
+|description=A squire of the Halidom of Ylisse and personal guard to Prince Chrom. His diligent and earnest personality earned him his honorable post. Appears in Fire Emblem Awakening.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=13|Lv1SPD=6|Lv1DEF=8|Lv1RES=6
+|GRHP=50|GRATK=75|GRSPD=50|GRDEF=90|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Heavy War Axe
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=4
+|special1Unlock=3
+|special2=Bonfire
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Def Clash 1
+|passiveA2=Atk/Def Clash 2
+|passiveA3=Atk/Def Clash 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Close Guard 1
+|passiveC2=Close Guard 2
+|passiveC3=Close Guard 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Childhood units]]

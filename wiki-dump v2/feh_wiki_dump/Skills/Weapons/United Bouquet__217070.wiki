@@ -1,0 +1,70 @@
+{{Weapon Infobox
+|tagid=SID_二国の花嫁のブーケ
+|intID=4152
+|image=wep_lc168
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>At start of turn, if unit's HP ≥ 25%, grants Atk/Spd+6 to unit for 1 turn and unit can move 1 extra space (that turn only; does not stack). At start of combat, if unit's HP ≥ 25%, grants bonus to unit's Atk/Spd/Def/Res = number of allies within 3 rows or 3 columns centered on unit × 3, + 5 (max 14), neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks, and deals damage = 20% of unit's Spd during combat (excluding area-of-effect Specials), and also, when unit deals damage to foe during combat, restores X HP to unit (X = number of spaces from start position to end position of whoever initiated combat × 3; max 12; triggers even if 0 damage is dealt).
+|required=Silver Lance
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Se1={{Eft|Bonuses|Atk/Spd|6}}
+|Se2={{SEt|Mobility Increased}}
+|SeC=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25%
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|3 x {{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}, + 5|max=14}}
+|Ce2={{Eft|Neutralize Guaranteed Follow-Ups}}
+|CeT2={{Tgt|Foe}}
+|Ce3={{Eft|Neutralize Prevent Follow-Ups}}
+|Ce4={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|Ce5={{Eft|Heal|3 x Spaces initiator moved|max=12}}<br>per {{Tgt|Unit}}'s attack
+|CeT3-5={{Tgt|Unit}}
+|CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Bonuses}}
+{{Mobility increased}}
+{{Temporary buffs}}
+{{Follow-up effect neutralization}}
+{{DamageBoost}}
+{{CombatHPRecovery}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Sharena: Pillars of Peace|t=Alfonse: Uplifting Love
+|---xxx---
+|---xxx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xtx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=二国の花嫁のブーケ
+|german=Einigkeitsstrauß
+|spanishEU=Ramo de alianza
+|spanishLA=Ramo enlazado
+|french=Bouquet solidaire
+|italian=Bouquet unito
+|chineseTW=兩國新娘捧花
+|portuguese=Buquê solidário
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%number of allies within _ rows%' OR Description LIKE '%=%number of spaces from start position to end position%' OR Description LIKE '%=%number of spaces moved%') AND Exclusive='1' AND Description NOT LIKE '%transforms%if _ ≥ 5%' OR Description LIKE '%at start of turn%unit can move 1 extra space%' AND Description NOT LIKE '%if unit transforms%move 1 extra space%' AND Exclusive='1'}}
+* [[Skill families/C Passives#Tempest|Tempest Passives]] 
+* [[Skill families/A Passives#Clash|Clash Passives]] 
+{{Weapons Navbox}}

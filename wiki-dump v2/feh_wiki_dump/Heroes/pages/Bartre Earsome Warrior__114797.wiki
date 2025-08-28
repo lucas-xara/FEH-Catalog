@@ -1,0 +1,66 @@
+{{#invoke:NameAbout|main|Name=Bartre}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Bartre
+|Title=Earsome Warrior
+|WeaponType=Red Sword
+|Origin=Fire Emblem: The Binding Blade
+|Gender=Male
+|MoveType=Infantry
+|actorJP=利根健太朗
+|actorEN=Kyle Hebert
+|artist=DAI-XT.
+|additionDate=March 18, 2020
+|releaseDate=March 20, 2020
+|TagID=春祭バアトル
+|InternalID=502
+|Properties=tempest,limited,specDisplay,hat
+|cv1=5
+|cv2=800500
+|description=A warrior from a remote region who takes pride in his strength. Joining his beloved daughter Fir and fully embracing the springtime festivities. Appears in Fire Emblem: The Binding Blade.
+}}
+{{Stats Page
+|Lv1HP=20|Lv1ATK=10|Lv1SPD=4|Lv1DEF=11|Lv1RES=6
+|GRHP=60|GRATK=70|GRSPD=50|GRDEF=55|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Carrot Cudgel
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Carrot Cudgel+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Smite
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Obstruct 1
+|passiveB2=Obstruct 2
+|passiveB3=Obstruct 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Odd Atk Wave 1
+|passiveC2=Odd Atk Wave 2
+|passiveC3=Odd Atk Wave 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Spring Festival units]]

@@ -1,0 +1,35 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_護衛の剣
+|intID=2833
+|image=wep_sw120
+|exclusive=0
+|weaponType=Sword
+|cost=200
+|might=10
+|range=1
+|effect=If unit is within 2 spaces of an ally, grants Atk/Def+5 to unit and neutralizes unit's penalties to Atk/Def during combat.
+|statModifiers=0,10,0,0,0
+|required=Steel Sword
+|next=Steadfast Sword+
+|promotionRarity=5
+|promotionTier=1
+|properties=random_owner
+}}
+==Notes==
+{{Combat boosts}}{{Penalty neutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=護衛の剣
+|german=Loyales Schwert
+|spanishEU=Acero leal
+|spanishLA=Hoja leal
+|french=Fer loyal
+|italian=Spada risoluta
+|chineseTW=護衛之劍
+|portuguese=Espada fiel
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If unit is within%spaces of an ally%grants%/%+%neutralizes unit_s penalties%'|columns=3}}
+{{Weapons Navbox}}

@@ -1,0 +1,39 @@
+{{Weapon Infobox
+|tagid=SID_守りの槍＋
+|weaponType=Lance
+|might=14
+|range=1
+|effect=If foe initiates combat, grants Def+7 during combat.
+|cost=300
+|exclusive=0
+|statModifiers=0,14,0,0,0
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=random_all
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Combat boosts}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=守りの槍＋
+|german=Abschirmlanze+
+|spanishEU=Vanguardia +
+|spanishLA=Vanguardia +
+|french=Lance protect. +
+|italian=Lancia guardia+
+|chineseTW=守護之槍＋
+|portuguese=Vanguarda+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe initiates combat, grants Def+%during combat%' AND WikiName NOT RLIKE 'guard'|columns=1}}
+* [[Skill families/Weapons#Reprisal|Reprisal Weapons]]
+* [[Skill families/Weapons#Guard (temporary buffs)|Guard Weapons]]
+* [[Skill families/Weapons#Barrier|Barrier Weapons]]
+{{Weapons Navbox}}

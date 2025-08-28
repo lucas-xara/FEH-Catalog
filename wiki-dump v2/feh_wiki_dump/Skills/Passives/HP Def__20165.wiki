@@ -1,0 +1,59 @@
+{{SkillPage Tabs}}{{Passive
+|type=A
+|exclusive=0
+|1name=HP/Def 1
+|1tagid=SID_HP守備1
+|1promotionRarity=5
+|1promotionTier=1
+|alt1name=HP Def 1
+|1effect=Grants HP+3, Def+1.
+|1cost=100
+|1required=HP +3;Defense +1
+|2name=HP/Def 2
+|2tagid=SID_HP守備2
+|alt2name=HP Def 2
+|2effect=Grants HP+4, Def+2.
+|2cost=200
+|statModifiers1=3,0,0,1,0
+|statModifiers2=4,0,0,2,0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=random_all
+}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=HP/Def 1;HP/Def 2
+|badgeColor=Verdant
+|costs1=20;100;20
+|costs2=400;1000;100
+}}
+
+==In other languages==
+{{OtherLanguages
+|english=HP/Def
+|japanese=ＨＰ守備
+|german=KP/Ver.
+|spanishEU=PV/Def
+|spanishLA=PV/Def.
+|french=PV/Déf
+|italian=PS/Dif
+|chineseTW=ＨＰ防守
+|portuguese=PV/Def.
+}}
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}
+{{Passives Navbox|A}}
+[[Category:Plus Passives]]

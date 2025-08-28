@@ -1,0 +1,71 @@
+{{Weapon Infobox
+|tagid=SID_暴乱のブレス
+|weaponType=Dragonstone
+|might=16
+|range=1
+|effect=Grants Atk+3. Grants Atk/Spd/Def/Res+X. (Calculates X based on number of allies within 2 spaces of unit: 0 allies grants +6; 1 ally grants +4;  2 allies grants +2; ≥3 allies grants +0.) If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|cost=400
+|exclusive=1
+|statModifiers=0,19,0,0,0
+|required=Flametongue
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Atk+3. Grants Atk/Spd/Def/Res+X during combat. (Calculates X based on number of allies within 2 spaces of unit: 0 allies grants +7; 1 grants +5; 2 grants +3; 3 grants +1; ≥4 allies grants +0.) If the number of allies within 2 spaces of unit is ≤ 1, neutralizes unit's penalties during combat. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|tagidExtraSkill1=一
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit during combat and reduces damage from foe's first attack by X% (X = 30 - number of allies within 2 spaces of unit × 10; min 0%). At start of combat, if unit's HP ≥ 25% and unit's Atk > foe's Res, unit's first attack deals damage = X% of difference between stats (X = 30 - number of allies within 2 spaces of unit × 10; min 0%).
+|iconSkill1=Savage Breath W.png
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Atk|3}}
+|s1 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|6 - ({{Tgt|Allies}}<br>[[within 2 spaces]] x 2)|min=0}}
+|s1 Ce2={{Eft|Lower Def Res}}
+|s1 Ce2C={{Tgt|Foe}}'s Range = 2
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Atk|3}}
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|7 - ({{Tgt|Allies}}<br>[[within 2 spaces]] x 2)|min=0}}
+|s2 Ce2={{Eft|Neutralize Penalties}}
+|s2 Ce2C={{Tgt|Allies}}<br>[[within 2 spaces]] ≤ 1
+|s2 Ce3={{Eft|Lower Def Res}}
+|s2 Ce3T={{Tgt|Unit}}
+|s2 Ce3C={{Tgt|Foe}}'s Range = 2
+|skill3={{Si|Savage Breath|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s3 Ce2={{Eft|Damage Reduction|30 - ({{Tgt|Allies}}<br>[[within 2 spaces]] x 10)|min=0|percent=1}}
+|s3 Ce1-2C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s3 Ce3={{Eft|Damage Boost|(30% - ({{Tgt|Allies}}<br>[[within 2 spaces]] x 10%))<br>of {{Tgt|Unit}}'s Atk<br>- {{Tgt|Foe}}'s Res|min=0|percent=0}}
+|s3 Ce3C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' {{Tgt|Unit}}'s Atk<br>> {{Tgt|Foe}}'s Res
+}}
+==Notes==
+{{Temporary buffs}}
+{{LowerDefRes}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Penalty neutralization}}
+{{DamagePercentageReduction|name={{St|Savage Breath|refine=Skill1}}}}
+{{DamageBoost|name={{St|Savage Breath|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+v3.5_83_dark02_Mag.webp|Sprite sheet for {{St|Death}}, {{St|Razing Breath}} and {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=暴乱のブレス
+|german=Ungeheurer Atem
+|spanishEU=Aliento indómito
+|spanishLA=Soplo salvaje
+|french=Souffle sauvage
+|italian=Soffio selvaggio
+|chineseTW=暴亂吐息
+|portuguese=Sopro selvagem
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%grants%+X%+0%' OR Description LIKE '%reduces damage from foe_s first attack%first attack%deals damage%minus%') AND Exclusive='1'}}
+{{Weapons Navbox}}

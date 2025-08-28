@@ -1,0 +1,80 @@
+{{#invoke:NameAbout|main|Name=Celica|Name2=Serra}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Celica
+|Title=Sunlit Priestesses
+|WeaponType=Colorless Tome
+|MoveType=Cavalry
+|secondPerson=Serra
+|Origin=Fire Emblem Echoes: Shadows of Valentia,Fire Emblem: The Blazing Blade
+|Gender=FF
+|harmonized=Neutralizes any【Penalty】, restores 40 HP, and grants【Resonance: Blades】to unit and allies from the same titles as unit for 1 turn.<br><br>Once used, Harmonized Skill cannot be activated again right away. At start of every third turn, if Harmonized Skill has already been used, unit can use Harmonized Skill again.<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).<br><br>【Resonance: Blades】<br>Grants Atk/Spd+4 during combat for 1 turn.
+|actorEN=Erica Lindbeck,Kate Higgins
+|actorJP=東山奈央,小澤亜李
+|artist=ふわおむ
+|additionDate=June 17, 2025
+|releaseDate=June 17, 2025
+|entry=2;6
+|cv1=2
+|cv2=200100
+|TagID=双界セリカ
+|InternalID=1253
+|Properties=special,harmonized
+|description=Celica, a priestess and follower of Mila, and Serra, a cleric and follower of Elimine, bring their protection to the beach this summer. They appear in Fire Emblem Echoes: Shadows of Valentia / Fire Emblem: The Blazing Blade.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=9|Lv1SPD=12|Lv1DEF=5|Lv1RES=5
+|GRHP=50|GRATK=90|GRSPD=80|GRDEF=35|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Stone
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elstone
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Atlas (weapon)
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Pious Offering
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Unlock=4
+|special3=Magic Light
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Death Blow 1
+|passiveA2=Swift Sparrow 1
+|passiveA3=Swift Sparrow 2
+|passiveA4=Sly Swift Sparrow
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Holy Soul of Zofia
+|passiveB1Unlock=5
+|passiveC1=Hone Atk 1
+|passiveC2=Hone Atk 2
+|passiveC3=Hone Atk 3
+|passiveC4=A/S Incite Hone
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Sources of negative status effect neutralization]]
+[[Category:Sources of self-healing]]
+[[Category:Summer units]]

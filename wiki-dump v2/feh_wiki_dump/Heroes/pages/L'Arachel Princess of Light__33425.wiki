@@ -1,0 +1,72 @@
+{{#invoke:NameAbout|main|Name=L'Arachel}}{{HeroPage Tabs|{{PAGENAME}}}}
+{{Hero Infobox
+|Name=L'Arachel
+|Title=Princess of Light
+|GrowthModifier=None
+|WeaponType=Blue Tome
+|MoveType=Cavalry
+|Origin=Fire Emblem: The Sacred Stones
+|Gender=Female
+|actorEN=Carrie Keranen
+|actorJP=生天目仁美
+|artist=紺藤ココン
+|resplendentArtist=晴乃樹
+|releaseDate=January 25, 2018
+|poolDate=February 9, 2018
+|randomStartTime=2018-02-25T07:00:00Z
+|poolRarities=3,4
+|TagID=ラーチェル
+|InternalID=211
+|Properties=tiara,demoted_201904,resplendent,ljosalfheimr
+|cv1=7
+|cv2=500100
+|description=Princess of Rausten. Dozla and Rennac accompany her on their quest to defeat the monsters around Magvel. Appears in Fire Emblem: The Sacred Stones.
+|resplendentStartTime=2022-08-10T07:00:00Z
+|resplendentEndTime=2022-08-25T06:59:59Z
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=9|Lv1SPD=7|Lv1DEF=4|Lv1RES=7
+|GRHP=40|GRATK=55|GRSPD=55|GRDEF=30|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Light
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Ellight
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Shine
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Ivaldi
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Rising Light
+|special1Default=4
+|special1Unlock=3
+|special2=Growing Light
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Renewal 1
+|passiveB2=Renewal 2
+|passiveB3=Renewal 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Res Tactic 1
+|passiveC2=Res Tactic 2
+|passiveC3=Res Tactic 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

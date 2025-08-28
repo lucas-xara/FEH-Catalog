@@ -1,0 +1,53 @@
+{{Passive
+|name=Leaden Regrets
+|type=A
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Leaden Regrets
+|1tagid=SID_鉛色の残夢
+|1effect=If unit can transform, transformation effects gain "if unit is within 2 spaces of a beast or dragon ally, or if number of adjacent allies other than beast or dragon allies ≤ 2" as a trigger condition (in addition to existing conditions).<br><br>If defending in Aether Raids, at the start of enemy turn 1, if conditions for transforming are met, unit transforms.<br><br>If unit is transformed or if foe initiates combat, inflicts Atk/Def-10 on foe, reduces damage from foe's follow-up attack by 80% ("follow-up attack" normally means only the second strike; for effects that grant "unit attacks twice," it means the third and fourth strikes), and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials).<br><br>If foe initiates combat, after combat, the closest foes within 4 spaces of target who have yet to act have their actions end immediately.
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Added Transform Condition|if a {{Cwti|group=1|Dragon,Beast}} [[Dragon]]/[[Beast]]<br>{{Tgt|Ally}} is [[within 2 spaces]] '''or''' [[adjacent]]<br>non-[[Dragon]]/[[Beast]] {{Tgt|Allies}} ≤ 2}}
+|Me2={{Eft|AR-D Transform}}
+|Me2C=At start of<br>Enemy Turn 1
+|Me3={{Eft|End Action}}
+|Me3T=Closest {{Tgt|Foes}}<br>[[within 4 spaces]]<br>of {{Tgt|Target Foe}}
+|Me3C=After combat in<br>Enemy Phase
+|Ce1={{Eft|Temporary debuffs|Atk/Def|10}}
+|Ce2={{Eft|Reduce Damage Reduction|50%}}
+|Ce1-2T={{Tgt|Foe}}
+|Ce3={{Eft|Damage Reduction|80%}}<br>from {{Tgt|Foe}}'s [[follow-up]]<br>(including fourth attacks)
+|CeC=Enemy Phase '''or'''<br>{{Tgt|Unit}} is transformed
+}}
+
+==Notes==
+{{TransformConditionAdd}}
+{{IfFoeInitiates}}
+{{Temporary debuffs}}
+{{DamagePercentageReduction}}
+{{Reduce Damage Reduction}}
+{{After combat note}}
+{{EndAction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=鉛色の残夢
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%If unit can transform, transformation effects gain%' OR Description LIKE '%If defending in Aether Raids, at the start of enemy turn 1%' OR Description LIKE '%action%end%immediately%' AND Description NOT LIKE '%prevents%"%action%end%immediately%' AND Description NOT LIKE '%neutralize%%"%action%end%immediately%') AND Exclusive='1'}}
+* [[Skill families/A Passives#Fortune|Fortune Passives]]
+{{Passives Navbox|A}}

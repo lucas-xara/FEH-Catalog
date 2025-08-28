@@ -1,0 +1,55 @@
+{{Weapon Infobox
+|tagid=SID_聖書ナーガ
+|weaponType=Green Tome
+|might=14
+|range=2
+|effectiveness=dragon
+|effect=Effective against dragon foes. Neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.
+|cost=400
+|exclusive=1
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|statModifiers=0,14,0,0,0
+|required=Rexcalibur
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Effective against dragon foes. Neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat, and disables foe's skills that "calculate damage using the lower of foe's Def or Res."
+|effectSkill1=At start of combat, if unit's Res ≥ foe's Res+3, grants Atk/Spd/Def/Res+3 during combat.
+|iconSkill1=Divine Naga W.png
+|tagidExtraSkill1=強
+|SE=se_effect_naga.flac
+|properties=random_owner
+}}
+==Notes==
+{{Effective damage bonus|dragon}}
+{{Bonus neutralization}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{LowerDefRes}}
+{{At start of combat}}
+{{Combat boosts}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|戦闘強化R魔防勝利|Combat Bonuses R Resistance Victory}}
+==In other languages==
+{{OtherLanguages
+|japanese=聖書ナーガ
+|german=Heilige Naga
+|spanishEU=Libro divino Naga
+|spanishLA=Naga divina
+|french=Livre divin Naga
+|italian=Tomo di Naga
+|chineseTW=聖書那迦
+|portuguese=Naga divina
+}}
+==See also==
+{{See also skills|cond=WikiName LIKE '%naga%' OR Description LIKE '%if unit_s Res _ foe_s Res%grants Atk/Spd/Def/Res+%during combat%' OR WeaponEffectiveness='dragon' AND CanUseWeapon__full LIKE '%Tome'|columns=3}}
+* [[Sources of effective against dragon foes]]
+* [[Sources of bonus neutralization]]
+{{Weapons Navbox}}

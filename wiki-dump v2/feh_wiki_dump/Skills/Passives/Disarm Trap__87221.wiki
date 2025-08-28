@@ -1,0 +1,73 @@
+{{Passive
+|name=Disarm Trap
+|type=B
+|exclusive=0
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|Dagger}}
+|1name=Disarm Trap 1
+|1tagid=SID_罠解除1
+|1promotionRarity=4
+|1promotionTier=1
+|1effect=While attacking in Aether Raids, if unit ends movement on a space with a Bolt Trap or a Heavy Trap and that trap's level ≤ 1, cancels trap's effect.
+|1cost=60
+|1required=-
+|2name=Disarm Trap 2
+|2tagid=SID_罠解除2
+|2promotionRarity=5
+|2promotionTier=1
+|2effect=While attacking in Aether Raids, if unit ends movement on a space with a Bolt Trap or a Heavy Trap and that trap's level ≤ 3, cancels trap's effect.
+|2cost=120
+|3name=Disarm Trap 3
+|3tagid=SID_罠解除3
+|3effect=While attacking in Aether Raids, if unit ends movement on a space with a Bolt Trap or a Heavy Trap, cancels trap's effect.
+|3cost=240
+|3next=-
+|4name=Disarm Trap 4
+|4tagid=SID_罠解除4
+|4effect=Inflicts Spd/Def-4 on foe during combat, and if unit initiates combat, neutralizes effects that prevent unit's follow-up attacks during combat. While attacking in Aether Raids, if unit ends movement on a space with a Bolt Trap or a Heavy Trap, cancels trap's effect; if unit ends movement on a space with a Hex Trap, reduces trap's trigger condition by 10 HP.
+|4cost=300
+|properties4=random_owner
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Disarm Trap 3}} Disarm Trap 3
+|s1 Me=Cancels the effects of<br>{{Sct|Bolt Trap}} '''&''' {{Sct|Heavy Trap}}
+|s1 MeC={{Tgt|Unit}} ends turn<br>on {{Stt|Traps}}
+|skill2={{Si|Disarm Trap 4}} Disarm Trap 4
+|s2 Me1=Cancels the effects of<br>{{Sct|Bolt Trap}} '''&''' {{Sct|Heavy Trap}}
+|s2 Me2=Reduces {{Sct|Hex Trap}}'s HP<br>trigger condition by 10 HP
+|s2 MeC={{Tgt|Unit}} ends turn<br>on {{Stt|Traps}}
+|s2 Ce1={{Eft|Temporary debuffs|Spd/Def|4}}
+|s2 Ce1T={{Tgt|Foe}}
+|s2 Ce2={{Eft|Neutralize Prevent Follow-Ups}}
+|s2 Ce2C=Player Phase
+}}
+
+==Notes==
+* Disarm Trap cancels the effect of {{Stt|Traps}}.
+** Disarm Trap will not cancel the effect of {{Sct|Hex Trap}}, but Disarm Trap 4 will reduce it's trigger condition by 10 HP.
+{{Temporary debuffs|name=Disarm Trap 4}}
+{{IfUnitInitiates}}
+{{Follow-up effect neutralization|preventOnly=1|name=Disarm Trap 4}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=罠解除
+|german=Entschärfen
+|spanishEU=Quitar trampa
+|spanishLA=Quitar trampa
+|french=Désarmement
+|italian=Disinnesca
+|chineseTW=解除陷阱
+|portuguese=Desarmadilha
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%cancels trap_s effect%'}}
+* [[Flow Passives]]
+{{Passives Navbox|B}}

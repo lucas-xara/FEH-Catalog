@@ -1,0 +1,68 @@
+{{#invoke:NameAbout|main|Name=Hector}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Hector
+|Title=General of Ostia
+|WeaponType=Green Axe
+|Origin=Fire Emblem: The Blazing Blade
+|Gender=Male
+|MoveType=Armored
+|actorEN=Patrick Seitz
+|actorJP=鳥海浩輔
+|artist=AKIRA
+|releaseDate=February 2, 2017
+|poolDate=February 2, 2017
+|randomStartTime=2017-02-02T07:00:00Z
+|poolRarities=5
+|TagID=ヘクトル
+|InternalID=54
+|cv1=6
+|cv2=100300
+|description=Eliwood's friend and brother of the Marquess of Ostia. Prefers action to court formality. Appears in Fire Emblem: The Blazing Blade.
+|Properties=specRate_201904,resplendent,muspell
+|GrowthModifier=None
+|resplendentArtist=伊藤未生
+|resplendentStartTime=2020-05-10T07:00:00Z
+|resplendentEndTime=2020-05-25T06:59:59Z
+}}
+{{Stats Page
+|Lv1HP=24|Lv1ATK=10|Lv1SPD=5|Lv1DEF=11|Lv1RES=4
+|GRHP=65|GRATK=60|GRSPD=45|GRDEF=60|GRRES=35
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Armads
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Buckler
+|special1Default=4
+|special1Unlock=3
+|special2=Pavise
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Distant Counter
+|passiveA1Unlock=5
+|passiveC1=Spur Atk 1
+|passiveC2=Spur Atk 2
+|passiveC3=Goad Armor
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

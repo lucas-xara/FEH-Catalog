@@ -1,0 +1,28 @@
+{{Special
+|tagid=SID_月光
+|charge=3
+|effect=Treats foe's Def/Res as if reduced by 50% during combat.
+|cost=200
+|required=New Moon
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_all,offensive_special
+}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==In other languages==
+{{OtherLanguages
+|japanese=月光
+|german=Mond
+|spanishEU=Selene
+|spanishLA=Selene
+|french=Lunaire
+|italian=Luna
+|chineseTW=月光
+|portuguese=Lua
+}}
+==See also==
+{{See also skills|cond=SCategory='special' AND Exclusive='1' AND Description LIKE '%Treats foe_s Def/Res as if reduced by __% during combat%'}}
+{{Specials Navbox}}

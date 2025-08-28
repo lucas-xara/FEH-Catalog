@@ -1,0 +1,42 @@
+{{Assist
+|tagid=SID_リライブ
+|name=Mend
+|range=1
+|effect=Restores 10 HP to target ally.
+|cost=100
+|next=Recover
+|promotionRarity=4
+|promotionTier=2
+|required=Heal
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|Staff}}
+|properties=random_all
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Heal|10}}
+|Me1T={{Tgt|Target Ally}}
+|MeC1={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}<br>'''or''' {{SEt|Deep Wounds}}
+}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+Weapon Mend.png|Mend Sprite
+se_effect_relive.flac
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=リライブ
+|german=Pflege
+|spanishEU=Mejorar
+|spanishLA=Mejorar
+|french=Cure
+|italian=Rimedio
+|chineseTW=大聖療
+|portuguese=Regeneração
+}}
+==See also==
+* [[Staff Assists]]
+{{Assists Navbox}}

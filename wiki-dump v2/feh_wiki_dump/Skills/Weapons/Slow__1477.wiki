@@ -1,0 +1,42 @@
+{{Weapon Infobox
+|tagid=SID_スロウ
+|weaponType=Staff
+|weaponName={{PAGENAME}}
+|might=5
+|range=2
+|effect=After combat, if unit attacked, inflicts Spd-6 on foe through its next action.
+|cost=150
+|exclusive=0
+|statModifiers=0,5,0,0,0
+|next=Slow+
+|promotionRarity=5
+|promotionTier=2
+|required=Assault
+|SE=se_effect_slow.flac
+|properties=random_all
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se={{Eft|Penalties|Spd|6}}
+|SeT={{Tgt|Foe}}
+|SeC=After combat if<br>{{Tgt|Unit}} attacked
+}}
+==Notes==
+{{IfUnitAttacked}}
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=スロウ
+|german=Langsam
+|spanishEU=Lentitud
+|spanishLA=Lentitud
+|french=Lenteur
+|italian=Lentezza
+|chineseTW=緩速
+|portuguese=Lentidão
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit attacked%inflicts%Spd%-%next action%' AND Description NOT LIKE '%but after combat%' AND Description NOT LIKE '%after combat%on unit%' AND Description NOT LIKE '%【Triangle Adept】%' AND Exclusive='1'}}
+{{Weapons Navbox}}

@@ -1,0 +1,58 @@
+{{Weapon Infobox
+|tagid=SID_自警団長の弓
+|intID=4336
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=1
+|weaponType=Bow
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effectiveness=Flying
+|effect=Accelerates Special trigger (cooldown count-1). Effective against flying foes.<br><br>If unit initiates combat or foe's Range = 2, foe cannot trigger Specials during combat or area-of-effect Specials (excluding Røkkr area-of-effect Specials).<br><br>If unit initiates combat or foe's Range = 2, grants bonus to unit's Atk/Spd/Def/Res = 5 + 15% of unit's Spd at start of combat, reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% (excluding area-of-effect Specials), neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks, and reduces damage from foe's first attack by 70% during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and unit's next attack deals damage = total damage reduced from foe's first attack (by any source, including other skills). Resets at end of combat.
+|required=Silver Bow
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce3={{Eft|Temporary buffs|Atk/Spd/Def/Res|15% of {{Tgt|Unit}}'s Spd<br>at start of combat}}
+|Ce4={{Eft|Prevent Special|[[Area-of-effect Specials|AoE]]<br>'''&''' [[Combat Specials]]}}
+|Ce5={{Eft|Reduce Damage Reduction|50%}}
+|Ce6={{Eft|Neutralize Guaranteed Follow-Ups}}
+|Ce4-6T={{Tgt|Foe}}
+|Ce7={{Eft|Neutralize Prevent Follow-Ups}}
+|Ce8={{Eft|Damage Reduction|70%}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce9={{Eft|Damage Boost|total damage reduced<br>from {{Tgt|Foe}}'s first attack<br>for {{Tgt|Unit}}'s next attack<br>(including other sources)}}
+|Ce7-9T={{Tgt|Unit}}
+|Ce2-9C=Player Phase '''or'''<br>{{Tgt|Foe}}'s Range = 2
+}}
+
+==Note==
+{{Effective damage bonus|Flying}}
+{{IfUnitInitiates}}
+{{Prevent Special}}
+{{Temporary buffs}}
+{{At start of combat}}
+{{Reduce Damage Reduction}}
+{{Follow-up effect neutralization}}
+{{DamageBoostFromDamageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%cannot trigger specials during combat%' OR Description LIKE '%prevents%specials%' OR Description LIKE '%reduces damage%next attack%total damage%'}}
+{{Weapons Navbox}}

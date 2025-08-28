@@ -1,0 +1,40 @@
+{{Passive
+|type=C
+|name=Spd/Res Menace
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_inherit_base,random_owner
+|1name=Spd/Res Menace
+|alt1name=Spd Res Menace
+|1tagid=SID_速さ魔防の脅嚇3
+|1cost=300
+|1effect=At start of turn, if unit is within 4 spaces of a foe, inflicts Spd/Res-6 on nearest foes through their next actions and grants Spd/Res+6 to unit for 1 turn.
+|1required=Threat. Spd/Res 2
+}}
+==Notes==
+{{Bonuses}}
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Spd/Res Menace
+|japanese=速さ魔防の脅嚇
+|german=Ges./Res.-Geißel
+|spanishEU=Amenaza Vel/Res
+|spanishLA=Amnza. Vel./Res.
+|french=Menace Vit/Rés
+|italian=Minaccia Vel/Res
+|chineseTW=速度魔防的恐嚇
+|portuguese=Vel./Res. ameaça
+}}
+==See also==
+* [[Surtr's Portent]]
+{{Passives Navbox|C}}
+[[Category:Threaten Passives]]
+[[Category:Menace Passives]]

@@ -1,0 +1,55 @@
+{{Weapon Infobox
+|tagid=SID_執念の呪
+|weaponType=Green Tome
+|might=14
+|range=2
+|effect=Effective against cavalry foes. Inflicts Spd/Res-5 on foes within 2 spaces during combat.
+|effectiveness=cavalry
+|cost=400
+|exclusive=1
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|statModifiers=0,14,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=After combat, if unit attacked, deals 7 damage to target and foes within 2 spaces of target, and inflicts status on those foes preventing counterattacks through their next actions.
+|tagidExtraSkill1=息
+|intID=2244
+|iconSkill1=Obsessive Curse W.png
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|Cavalry}}
+{{Combat reductions}}
+{{FoesCombatEffect|combat reduction effect}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==Notes==
+{{IfUnitAttacked}}
+{{Out of combat damage}}
+{{Counterattacks disrupted}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|吐息反撃不可R7|Damage/No Counterattacks R7}}
+==In other languages==
+{{OtherLanguages
+|english=Obsessive Curse
+|japanese=執念の呪
+|german=Obsessiver Fluch
+|spanishEU=Maleficio obsesivo
+|spanishLA=Maleficio obsesivo
+|french=Sort obsessionnel
+|italian=Magia morbosa
+|chineseTW=執著的詛咒
+|portuguese=Feitiço obsessivo
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%inflicts Spd/Res-_ on foes%within _ spaces%during combat%' OR Description LIKE '%if unit attacked%deals%damage%target%' OR Description LIKE '%deals%damage to foes within 2 spaces of target%' OR Description LIKE '%deals _ damage to foe%' OR Description LIKE '%if unit attacked%inflicts%preventing counterattacks%'|columns=3}}
+* [[:Category:Weapons that are effective against cavalry foes|Weapons that are effective against Cavalry foes]]
+{{Weapons Navbox}}

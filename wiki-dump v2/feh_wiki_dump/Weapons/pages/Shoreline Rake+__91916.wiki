@@ -1,0 +1,36 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_砂浜のクワ＋
+|weaponType=Axe
+|might=14
+|range=1
+|effect=If a bonus granted by a skill like Rally or Hone is active on unit, grants Atk/Def+4 during combat.
+|cost=300
+|exclusive=0
+|statModifiers=0,14,0,0,0
+|required=Shoreline Rake
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=砂浜のクワ＋
+|german=Sandharke+
+|spanishEU=Rastrillo litoral +
+|spanishLA=Rastrillo litoral +
+|french=Rateau côtier +
+|italian=Rastrello estivo+
+|chineseTW=沙鍬＋
+|portuguese=Rastelo praiano+
+}}
+==See also==
+* 
+{{Weapons Navbox}}

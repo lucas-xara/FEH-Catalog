@@ -1,0 +1,69 @@
+{{#invoke:NameAbout|main|Name=Wrys}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Wrys
+|Title=Kindly Priest
+|artist=pikomaro
+|GrowthModifier=None
+|WeaponType=Colorless Staff
+|MoveType=Infantry
+|Origin=Fire Emblem: Shadow Dragon and the Blade of Light
+|Gender=Male
+|actorEN=DC Douglas
+|actorJP=利根健太朗
+|releaseDate=February 2, 2017
+|poolDate=February 2, 2017
+|randomStartTime=2017-02-02T07:00:00Z
+|poolRarities=3,4
+|TagID=リフ
+|InternalID=86
+|cv1=1
+|cv2=4900200
+|description=Humble priest of Talys who likes a quiet life. Despises battle, preferring to heal allies. Appears in Fire Emblem: Shadow Dragon & the Blade of Light.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=5|Lv1SPD=6|Lv1DEF=5|Lv1RES=10
+|GRHP=55|GRATK=45|GRSPD=40|GRDEF=40|GRRES=60
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Assault
+|weapon1Unlock=1
+|weapon2=Slow
+|weapon2Unlock=3
+|weapon3=Slow+
+|weapon3Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Heal
+|assist1Default=1
+|assist1Unlock=1
+|assist2=Reconcile
+|assist2Default=3
+|assist2Unlock=2
+|assist3=Rehabilitate
+|assist3Default=5
+|assist3Unlock=4
+|assist4=Rehabilitate+
+|assist4Unlock=5
+}}
+===Specials===
+{{Specials Table
+|special1=Imbue
+|special1Default=4
+|special1Unlock=2
+|special2=Heavenly Light
+|special2Default=5
+|special2Unlock=3
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Live to Serve 1
+|passiveB2=Live to Serve 2
+|passiveB3=Live to Serve 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+{{Heroes Navbox}}

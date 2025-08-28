@@ -1,0 +1,66 @@
+{{#invoke:NameAbout|main|Name=Robin}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Robin
+|Title=Seaside Tactician
+|GrowthModifier=None
+|WeaponType=Blue Lance
+|MoveType=Infantry
+|Origin=Fire Emblem Awakening
+|Gender=Female
+|actorEN=Lauren Landa
+|actorJP=沢城みゆき
+|artist=まよ
+|releaseDate=June 30, 2017
+|TagID=水着ルフレ女
+|InternalID=145
+|Person=Robin F
+|Properties=special,specRate_202202
+|cv1=10
+|cv2=100300
+|description=A tactician of Ylisse and Chrom's close ally. Loves the strange creatures she finds on the beach. Appears in Fire Emblem Awakening.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=8|Lv1SPD=8|Lv1DEF=6|Lv1RES=7
+|GRHP=40|GRATK=55|GRSPD=60|GRDEF=50|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Deft Harpoon
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Deft Harpoon+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Reposition
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Defense +1
+|passiveA2=HP/Def 1
+|passiveA3=HP/Def 2
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Lance Valor 1
+|passiveC2=Lance Valor 2
+|passiveC3=Lance Valor 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Summer units]]

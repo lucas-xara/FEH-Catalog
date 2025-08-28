@@ -1,0 +1,50 @@
+{{Passive
+|name=Phantom Res
+|type=S
+|exclusive=0
+|1required=-
+|1name=Phantom Res 1
+|1tagid=SID_魔防の虚勢1
+|1effect=If a skill compares unit's Res to a foe's or ally's Res, treats unit's Res as if granted +5.
+|1cost=50
+|1next=-
+|2name=Phantom Res 2
+|2tagid=SID_魔防の虚勢2
+|2effect=If a skill compares unit's Res to a foe's or ally's Res, treats unit's Res as if granted +8.
+|2cost=100
+|2next=-
+|3name=Phantom Res 3
+|3tagid=SID_魔防の虚勢3
+|3effect=If a skill compares unit's Res to a foe's or ally's Res, treats unit's Res as if granted +10.
+|3cost=200
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=
+}}
+==Notes==
+{{Phantom|Res}}
+
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===Sacred Seal Forge===
+{{SealCosts
+|seals=Phantom Res 1;Phantom Res 2;Phantom Res 3
+|badgeColor=Transparent
+|costs1=20;100;10
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|english=Phantom Res
+|japanese=魔防の虚勢
+|german=Phantom-Res.
+|spanishEU=Espejismo Res
+|spanishLA=Res. fantasma
+|french=Bluff Rés
+|italian=Res fantasma
+|chineseTW=魔防誇飾
+|portuguese=Res. fantasma 
+}}
+{{Seals Navbox}}

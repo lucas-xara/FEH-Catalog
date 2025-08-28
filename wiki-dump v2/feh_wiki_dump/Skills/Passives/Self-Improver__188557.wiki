@@ -1,0 +1,36 @@
+{{Passive
+|type=A
+|name=Self-Improver
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Self-Improver
+|1tagid=SID_自己研鑽
+|1cost=300
+|1effect=Grants Atk+10, Spd+5, Def+20. Inflicts Res-5. At start of combat, if unit's HP ≥ 25%, inflicts Special cooldown charge -1 on foe per attack during combat. (Only highest value applied. Does not stack.)
+|statModifiers1=0,10,5,20,-5
+|1required=-
+}}
+==Notes==
+{{CooldownChargeMinus}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=自己研鑽
+|german=Selbstverbesserer
+|spanishEU=Autosuperación
+|spanishLA=Autosuperación
+|french=Dépass. de soi
+|italian=Autosviluppo
+|chineseTW=自己鑽研
+|portuguese=Autoajuda
+}}
+==See also==
+* [[Skill families/A Passives#Surface|Surface Passives]]
+{{Passives Navbox|A}}

@@ -1,0 +1,40 @@
+{{Weapon Infobox
+|tagid=SID_孤絶の弓
+|intID=3375
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=0
+|weaponType=Bow
+|cost=200
+|might=8
+|range=2
+|effectiveness=Flying
+|effect=Effective against flying foes. If unit is not adjacent to an ally, inflicts Spd/Def-5 on foe and neutralizes foe's bonuses to Spd/Def (from skills like Fortify, Rally, etc.) during combat.
+|statModifiers=0,8,0,0,0
+|required=Steel Bow
+|next=Unbound Bow+
+|promotionRarity=5
+|promotionTier=1
+|properties=random_owner
+}}
+==Notes==
+{{Effective damage bonus|Flying}}
+{{Temporary debuffs}}
+{{Bonus neutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=孤絶の弓
+|german=Freier Bogen
+|spanishEU=Arco desatado
+|spanishLA=Arco desatado
+|french=Arc libre
+|italian=Arco solo
+|chineseTW=孤絕之弓
+|portuguese=Arco irrestrito
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If unit is not adjacent to an ally, inflicts%neutralizes foe_s bonuses%' AND WikiName NOT LIKE '%Unbound%' AND Exclusive='1'}}
+* [[Skill families/Weapons#Unbound|Unbound Weapons]]
+{{Weapons Navbox}}

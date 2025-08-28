@@ -1,0 +1,65 @@
+{{#invoke:NameAbout|main|Name=Haar}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Haar
+|Title=Tempest Runner
+|WeaponType=Red Sword
+|MoveType=Flying
+|Origin=Fire Emblem: Radiant Dawn
+|Gender=Male
+|actorEN=Jake Eberle
+|actorJP=江口拓也
+|artist=北千里
+|additionDate=November 8, 2022
+|releaseDate=November 8, 2022
+|cv1=9
+|cv2=2900500
+|TagID=忍者ハール
+|InternalID=873
+|Properties=limited,tempest,specDisplay
+|description=A dracoknight and former Daein soldier. Can he stave off sleepiness long enough to make his mark on the ninja festival? Appears in Fire Emblem: Radiant Dawn.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=12|Lv1SPD=5|Lv1DEF=14|Lv1RES=4
+|GRHP=60|GRATK=70|GRSPD=45|GRDEF=70|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Wyvern Katana
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Wyvern Katana+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Swap
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Def Form 1
+|passiveA2=Atk/Def Form 2
+|passiveA3=Atk/Def Form 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Atk/Def Oath 1
+|passiveC2=Atk/Def Oath 2
+|passiveC3=Atk/Def Oath 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Ninja Festival units]]

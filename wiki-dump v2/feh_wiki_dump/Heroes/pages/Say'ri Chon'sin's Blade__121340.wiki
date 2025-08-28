@@ -1,0 +1,73 @@
+{{#invoke:NameAbout|main|Name=Say'ri}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Say'ri
+|Title=Chon'sin's Blade
+|WeaponType=Red Sword
+|Origin=Fire Emblem Awakening
+|Gender=Female
+|MoveType=Infantry
+|actorJP=吉田聖子
+|actorEN=Minae Noji
+|artist=由良
+|additionDate=June 5, 2020
+|releaseDate=June 5, 2020
+|randomStartTime=2020-07-05T07:00:00Z
+|poolDate=June 30, 2020
+|poolRarities=5
+|TagID=サイリ
+|cv1=10
+|cv2=700200
+|InternalID=529
+|Properties=specRate_202302
+|description=The upright and dignified princess of the Chon'sin dynasty. She has a direct approach and never forgives a crooked deed. Appears in Fire Emblem Awakening.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=9|Lv1SPD=10|Lv1DEF=6|Lv1RES=8
+|GRHP=50|GRATK=60|GRSPD=70|GRDEF=40|GRRES=60
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Amatsu
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Iceberg
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Darting Stance 1
+|passiveA2=Kestrel Stance 1
+|passiveA3=Kestrel Stance 2
+|passiveA4=Kestrel Stance 3
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Close Call 1
+|passiveB2=Close Call 2
+|passiveB3=Close Call 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+{{Heroes Navbox}}

@@ -1,0 +1,53 @@
+{{Passive
+|name=Sparkling Boost
+|type=C
+|exclusive=1
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|1name=Sparkling Boost
+|1tagid=SID_生命の輝き
+|1effect=At start of turn, restores 10 HP to ally that has been dealt the most damage. (Excludes unit.)
+|1required=-
+|1cost=300
+|2name=Sparkling Boost+
+|alt2name=Sparkling Boost Plus
+|2tagid=SID_生命の輝き・神
+|2cost=300
+|2effect=At start of turn, restores 20 HP to ally that has been dealt the most damage. (Excludes unit.) At start of any ally's combat, if ally's HP ≥ 50%, grants Res+5 to ally during combat. (Excludes unit.)
+|2required=Sparkling Boost
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Sparkling Boost}} Sparkling Boost
+|s1 Me={{Eft|Heal|10}}
+|s1 MeT={{Tgt|Ally}} with the<br>most damage
+|s1 MeC=At start of turn
+|skill2={{Si|Sparkling Boost+}} Sparkling Boost+
+|s2 Me={{Eft|Heal|20}}
+|s2 MeT={{Tgt|Ally}} with the<br>most damage
+|s2 MeC=At start of turn
+|s2 Ce={{Eft|Temporary buffs|Res|5}}
+|s2 CeT={{Tgt|Allies}}
+|s2 CeC={{Tgt|Ally}}'s HP ≥ 50%<br>at start of combat
+}}
+==Notes==
+{{HealDamagedAlly}}
+{{Temporary buffs|name=Sparkling Boost+}}
+{{AlliesCombatEffect|effect=temporary buffs|name=Sparkling Boost+}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=生命の輝き
+|german=Glitzerschub
+|spanishEU=Luminovitalidad
+|spanishLA=Luminovitalidad
+|french=Boost étincelant
+|italian=Impulso luce
+|chineseTW=生命光輝
+|portuguese=Luminovital
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%At start of turn, restores%HP to ally that has been dealt the most damage%' OR Description LIKE '%ally_s HP ≥%'}}
+{{Passives Navbox|C}}

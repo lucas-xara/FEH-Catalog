@@ -1,0 +1,40 @@
+{{Passive
+|name=Ostia's Heart
+|type=A
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Ostia's Heart
+|alt1name=Ostias Heart
+|1tagid=SID_オスティアの心魂
+|1effect=Unit can counterattack regardless of foe's range. If foe initiates combat or foe's HP ≥ 75% at start of combat, inflicts Atk/Def-8 on foe during combat, and also, when unit deals damage to foe during combat, restores 7 HP to unit (triggers even if 0 damage is dealt).
+|1cost=300
+|1required=-
+}}
+==Notes==
+* Has the same effect as {{St|Distant Counter}}.
+{{IfFoeInitiates}}
+{{Temporary debuffs}}
+{{CombatHPRecovery}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=オスティアの心魂
+|german=Ositias Herz
+|spanishEU=Corazón de Ositia
+|spanishLA=Corazón de Ositia
+|french=Cœur d'Ositia
+|italian=Cuore di Ositia
+|chineseTW=奧斯提亞之魂
+|portuguese=Coração de Ositia
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%counterattack regardless of%range%' AND (SCategory!='Weapon' AND Name NOT LIKE 'Distant%' AND Name NOT LIKE 'Close%') AND (Exclusive='1' OR SCategory='captain')}}
+* [[Counter Passives]]
+* [[Counter Seals]]
+* [[Prime Passives]]
+* [[Weapons with Distant Counter]]
+* [[Weapons with Close Counter]]
+{{Passives Navbox|A}}

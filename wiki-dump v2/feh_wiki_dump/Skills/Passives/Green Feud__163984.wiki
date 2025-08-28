@@ -1,0 +1,51 @@
+{{Passive
+|type=C
+|name=Green Feud
+|exclusive=0
+|canUseWeapon={{WeaponList|exclude=Blue}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Green Feud 1
+|1tagid=SID_緑への暗闘1
+|1cost=60
+|1effect=If in combat against a green foe, disables skills of all foes, excluding foe in combat. During combat, disables skills of all green foes, excluding foe in combat.
+|1required=-
+|1promotionRarity=4
+|1promotionTier=1
+|2name=Green Feud 2
+|2tagid=SID_緑への暗闘2
+|2cost=120
+|2effect=If in combat against a green foe, disables skills of all foes, excluding foe in combat, and inflicts Atk/Spd/Def/Res-2 on foe during combat. During combat, disables skills of all green foes, excluding foe in combat.
+|2promotionRarity=5
+|2promotionTier=1
+|3name=Green Feud 3
+|3tagid=SID_緑への暗闘3
+|3cost=240
+|3effect=If in combat against a green foe, disables skills of all foes, excluding foe in combat, and inflicts Atk/Spd/Def/Res-4 on foe during combat. During combat, disables skills of all green foes, excluding foe in combat.
+}}
+==Notes==
+{{TermRefersTo|Green}}
+{{Combat reductions}}
+{{CombatEffectNeutralization}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Green Feud
+|japanese=緑への暗闘
+|german=Grüne Fehde
+|spanishEU=Pugna verde
+|spanishLA=Pugna verde
+|french=Querelle verte
+|italian=Faida verde
+|chineseTW=對綠的暗鬥
+|portuguese=Rixa verde
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%disables skills of all%excluding%' AND WikiName NOT LIKE '%Feud%') OR Description LIKE '%【Feud】%'|columns=3}}
+* [[Skill families#Feud|Feud Passives]]
+{{Passives Navbox|C}}

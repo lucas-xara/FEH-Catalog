@@ -1,0 +1,56 @@
+{{Special
+|tagid=SID_真・ノヴァの聖戦士
+|intID=4826
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=3
+|effect=Boosts damage by 50% of unit's Def when Special triggers.<br><br>Enables【Canto (Ally 2, 2)】.<br><br>If unit initiates combat, after combat, if unit's Special triggered and unit survives, grants another action to unit, and also, if unit is not within 2 spaces of an ally, inflicts "restricts movement to 1 space" on unit and Pair Up cohort through their next action (once per turn; "within 2 spaces" is calculated based on the position of unit after triggering post-combat skill effects that change positioning).<br><br>If unit's or foe's Special is ready, or unit's or foe's Special triggered before or during this combat, reduces damage from foe's next attack by 40% (once per combat; excluding area-of-effect Specials).<br><br>【Canto (Ally 2, 2)】<br>After an attack, Assist skill, or structure destruction, unit can move to a space within 2 spaces of any ally within 2 spaces.<br><br>(Once per turn. Cannot attack or assist. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Granted movement treated as Warp movement.)
+|required=Astra
+|properties=offensive_special,random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Canto|Ally 2, 2}}
+|Me2={{Eft|Galeforce}}<br>(once per turn)
+|Me2C=After combat in <br>Player Phase if<br>Special triggered
+|Se={{SEt|Gravity}}
+|SeT={{Tgt|Unit}} '''&'''<br>{{Tgt|Cohort}}
+|SeC=({{Eft|Galeforce}}<br>conditions) '''&'''<br>no {{Tgt|Allies}} are<br>[[within 2 spaces]]
+|Ce1={{Eft|Damage Boost|50% of {{Tgt|Unit}}'s Def}}
+|Ce1C=Special triggers
+|Ce2={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s next attack
+|Ce2C={{Tgt|Unit}} or {{Tgt|Foe}}'s<br>Special is ready '''or'''<br>triggered before or<br>during combat 
+}}
+==Notes==
+{{DamageBoost}}
+{{Canto|Ally 2, 2}}
+{{Galeforce notes|special=0}}
+{{Gravity}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V9.7_v0907b_thrace_Skl.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==Trivia==
+{{NorseMyth|name=Njörun|is the norse goddess of the earth.}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=Njörun real
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%unit another action%' OR Description LIKE '%another action to unit%') AND SCategory='special' AND Exclusive='1'}}
+{{Specials Navbox}}

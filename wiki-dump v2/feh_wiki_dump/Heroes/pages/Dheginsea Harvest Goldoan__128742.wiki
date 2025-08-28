@@ -1,0 +1,69 @@
+{{#invoke:NameAbout|main|Name=Dheginsea}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Dheginsea
+|Title=Harvest Goldoan
+|WeaponType=Red Breath
+|MoveType=Armored
+|Origin=Fire Emblem: Radiant Dawn
+|Gender=Male
+|actorEN=Drew Hobson
+|actorJP=西前忠久
+|artist=北千里
+|additionDate=October 7, 2020
+|releaseDate=October 8, 2020
+|cv1=9
+|cv2=500100
+|TagID=ハロデギンハンザー
+|InternalID=574
+|Properties=special,specRate_202402
+|description=One of the Three Heroes who saved Tellius from chaos. Joined the harvest festival after hearing dragons are somehow involved. Appears in Fire Emblem: Radiant Dawn.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=12|Lv1SPD=4|Lv1DEF=13|Lv1RES=9
+|GRHP=60|GRATK=75|GRSPD=25|GRDEF=65|GRRES=70
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire Breath
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Fire Breath+
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Blackfire Breath
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Blackfire Breath+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Draconic Aura
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Fierce Stance 1
+|passiveA2=Sturdy Stance 1
+|passiveA3=Sturdy Stance 2
+|passiveA4=Sturdy Stance 3
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Slick Fighter 1
+|passiveB2=Slick Fighter 2
+|passiveB3=Slick Fighter 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Halloween units]]

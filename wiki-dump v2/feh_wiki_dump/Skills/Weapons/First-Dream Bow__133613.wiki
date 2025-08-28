@@ -1,0 +1,40 @@
+{{Weapon Infobox
+|tagid=SID_甘い初夢の弓
+|weaponName=First-Dream Bow
+|weaponType=Bow
+|userVersion1=Bow
+|userVersion2=Arrow
+|might=14
+|range=2
+|effectiveness=Flying
+|effect=Effective against flying foes. Grants Res+3. Grants Atk+4 to allies within 3 spaces during combat. Inflicts Atk-4 on any foe within 3 spaces during combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,0,0,3
+|required=Silver Bow
+|intID=2362
+|sort=481
+|effectRange=3
+|value=20
+|timingID=2
+|abilityID=227
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|flying}}{{Combat boosts}}{{AlliesCombatEffect}}{{Combat reductions}}{{FoesCombatEffect}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=甘い初夢の弓
+|german=Neujahrsbogen
+|spanishEU=Arco onírico
+|spanishLA=Arco onírico
+|french=Arc premier rêve
+|italian=Arco onirico
+|chineseTW=甜美初夢之弓
+|portuguese=Arco onírico
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants Atk+_ to allies within _ spaces during combat%' OR Description LIKE '%inflicts Atk-_ to foes within _ spaces during combat%'|columns=3}}
+{{Weapons Navbox}}

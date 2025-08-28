@@ -1,0 +1,39 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_植物図鑑＋
+|weaponType=Blue Tome
+|might=12
+|range=2
+|effect=Inflicts Spd/Res-5 on foes within 2 spaces during combat.
+|cost=300
+|exclusive=0
+|userVersion1=Closed
+|userVersion2=Open
+|statModifiers=0,12,0,0,0
+|required=Flora Guide
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Notes==
+{{Combat reductions}}{{FoesCombatEffect}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Flora Guide+
+|japanese=植物図鑑＋
+|german=Pflanzenkunde+
+|spanishEU=Guía botánica +
+|spanishLA=Guía botánica +
+|french=Guide floral +
+|italian=Erbario+
+|chineseTW=植物圖鑑＋
+|portuguese=Guia botânico+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%inflicts Spd/Res-_ on foes%within _ spaces%during combat%'|columns=3}}
+{{Weapons Navbox}}

@@ -1,0 +1,47 @@
+{{#invoke:NameAbout|main|Name=Marth|Name2=Lucina}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Marth
+|Title=Enigmatic Blade
+|GrowthModifier=None
+|WeaponType=Red Sword
+|MoveType=Infantry
+|Origin=Fire Emblem Awakening
+|Gender=Female
+|actorEN=Alexis Tipton
+|actorJP=小林ゆう
+|artist=まいぽんぽん
+|releaseDate=June 8, 2017
+|TagID=仮面ルキナ
+|InternalID=136
+|Properties=tempest,limited
+|cv1=10
+|cv2=6900100
+|description=A mysterious swordsman who hides his face behind a mask. Calls himself Marth. Appears in Fire Emblem Awakening.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=8|Lv1SPD=10|Lv1DEF=6|Lv1RES=4
+|GRHP=55|GRATK=60|GRSPD=60|GRDEF=45|GRRES=35
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Falchion (Awakening)
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table}}
+{{Heroes Navbox}}

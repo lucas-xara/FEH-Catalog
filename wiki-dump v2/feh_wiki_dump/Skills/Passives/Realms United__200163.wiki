@@ -1,0 +1,48 @@
+{{Passive
+|name=Realms United
+|type=A
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Realms United
+|1tagid=SID_白夜と暗夜と共に
+|1effect=Unit can counterattack regardless of foe's range. If foe initiates combat or foe's HP ≥ 75% at start of combat, inflicts Atk/Spd/Def/Res-7 on foe and reduces damage from foe's first attack by 7 during combat (for standard attacks, "first attack" means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes).
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Distant Counter}}
+|Ce2={{Eft|Temporary debuffs|Atk/Spd/Def/Res|7}}
+|Ce2T={{Tgt|Foe}}
+|Ce3={{Eft|Damage Reduction|7}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce3T={{Tgt|Unit}}
+|Ce2-3C=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+}}
+==Notes==
+* Realms United has the same effect as {{St|Distant Counter}}.
+{{IfFoeInitiates}}
+{{Temporary debuffs}}
+{{FlatDamageReduction|7}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=白夜と暗夜と共に
+|german=Vereinte Reiche
+|spanishEU=Reinos aunados
+|spanishLA=Reinos aunados
+|french=Royaumes unis
+|italian=Reami uniti
+|chineseTW=與白夜和暗夜同在
+|portuguese=Reinos unidos
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%unit can counterattack regardless of%range%' AND SCategory!='Weapon') AND ((Exclusive=1 AND Name NOT LIKE '%+') OR SCategory='captain')}}
+* [[Counter Passives]]
+* [[Counter Seals]]
+* [[Prime Passives]]
+* [[Weapons with Distant Counter]]
+* [[Weapons with Close Counter]]
+{{Passives Navbox|A}}

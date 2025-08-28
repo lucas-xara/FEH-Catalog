@@ -1,0 +1,77 @@
+{{#invoke:NameAbout|main|Name=Dorothea|Name2=Lene}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Dorothea
+|Title=Twilit Harmony
+|WeaponType=Red Tome
+|MoveType=Flying
+|Origin=Fire Emblem: Three Houses,Fire Emblem: Genealogy of the Holy War
+|Gender=FF
+|harmonized=Grants【Resonance: Shields】to unit and allies from the same titles as unit.<br><br>Grants another action to ally with the highest HP that is within 2 spaces, has already acted, and is from the same titles as unit (excluding unit). (Allies with Sing or Dance can be granted this effect as well. If multiple units meet the conditions, effect will not trigger.)<br><br>【Resonance: Shields】<br>Grants Def/Res+4 during combat and the following effect for 1 turn: "During unit's first combat in player phase or enemy phase, foe cannot make a follow-up attack."
+|secondPerson=Lene
+|actorEN=Allegra Clark,Faye Mata
+|actorJP=長妻樹里,高橋美佳子
+|artist=ekao
+|additionDate=January 18, 2021
+|releaseDate=January 18, 2021
+|entry=3;12
+|cv1=12
+|cv2=200700
+|TagID=双界ドロテア
+|InternalID=616
+|Properties=special,harmonized,refresher,specRate_202402
+|description=Women of beauty worthy of the pride of their respective worlds, winning the hearts and minds of all they meet. Appear in Fire Emblem: Three Houses / Genealogy of the Holy War.
+}}
+{{Stats Page
+|Lv1HP=15|Lv1ATK=8|Lv1SPD=9|Lv1DEF=3|Lv1RES=4
+|GRHP=50|GRATK=70|GRSPD=60|GRDEF=30|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elfire
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Bolganone
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Fell Candelabra
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Dance
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Darting Blow 1
+|passiveA2=Swift Strike 1
+|passiveA3=Swift Strike 2
+|passiveA4=Swift Impact
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Blaze Dance 1
+|passiveB2=Firestorm Dance 1
+|passiveB3=Firestorm Dance 2
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Atk/Spd Rein 1
+|passiveC2=Atk/Spd Rein 2
+|passiveC3=Atk/Spd Rein 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Sources of effects that grant "another action"]]
+[[Category:Desert Festival units]]

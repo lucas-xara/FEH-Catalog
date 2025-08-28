@@ -1,0 +1,50 @@
+{{Weapon Infobox
+|tagid=SID_シムベリン
+|weaponType=Red Tome
+|might=14
+|range=2
+|effect=If unit initiates combat, grants Atk+4 to adjacent allies for 1 turn after combat.
+|cost=400
+|exclusive=1
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|statModifiers=0,14,0,0,0
+|required=Bolganone;Fenrir
+|SE=se_effect_cymbeline.flac
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Atk+3 to allies within 2 spaces during combat.
+|effectSkill1=If unit is within 2 spaces of a flying ally, grants Atk/Res+5 during combat.
+|iconSkill1=Cymbeline W.png
+|tagidExtraSkill1=絆
+|properties=random_owner
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Bonuses}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+* Refined Cymbeline has the same effect as {{St|Drive Atk 2}}.
+{{Temporary buffs|name=refined Cymbeline}}
+{{AlliesCombatEffect|effect=temporary buff|name=refined Cymbeline}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|攻撃魔防の絆R飛行|Flier Atk/Res Bond}}
+==In other languages==
+{{OtherLanguages
+|japanese=シムベリン
+|german=Cymbeline
+|spanishEU=Cymbeline
+|spanishLA=Cymbeline
+|french=Cymbeline
+|italian=Cimbellino
+|chineseTW=辛白林
+|portuguese=Cymbeline
+}}
+{{Weapons Navbox}}

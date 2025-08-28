@@ -1,0 +1,31 @@
+{{Special
+|tagid=SID_静水の祝福
+|name=Still-Water Balm
+|charge=1
+|effect=When healing an ally with a staff, grants Res+4 to all allies for 1 turn.
+|cost=150
+|required=-
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|Staff}}
+|properties=random_all
+}}
+==Notes==
+{{Bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=静水の祝福
+|german=Wasserbalsam
+|spanishEU=Hidrobálsamo
+|spanishLA=Hidrobálsamo
+|french=Baume apaisant
+|italian=Balsamo acqua
+|chineseTW=靜水的祝福
+|portuguese=Hidrobálsamo
+}}
+==See also==
+* [[Skill families/Specials#Balm|Balm Specials]]
+{{Specials Navbox}}
+[[Category:Balm Specials]]

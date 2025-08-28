@@ -1,0 +1,39 @@
+{{Passive
+|name=Inborn Idealism
+|type=C
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Inborn Idealism
+|1tagid=SID_理想への天質
+|1effect=At start of turn, if a dragon or beast ally is deployed, grants Atk/Spd/Def+6, 【Bonus Doubler】, and【Null Panic】to unit and ally with the highest Atk (excluding unit) for 1 turn.<br><br>【Bonus Doubler】<br>Grants bonus to Atk/Spd/Def/Res during combat = current bonus on each of unit's stats for 1 turn. Calculates each stat bonus independently.<br><br>【Null Panic】<br>If unit is inflicted with Panic (bonuses converted into penalties), neutralizes the "converts bonuses on target into penalties" effect for 1 turn. (Even though the effect is neutralized, the Panic status remains, and is treated as a Penalty status.)
+|1cost=300
+|1required=-
+}}
+==Notes==
+{{TermRefersTo|Dragon|Dragonstone}}
+{{TermRefersTo|Beast}}
+{{Bonuses}}
+{{Bonus Doubler}}
+{{Null Panic}}
+{{SelectStat|Atk}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=理想への天質
+|german=Natürliche Ideale
+|spanishEU=Idealismo innato
+|spanishLA=Idealismo innato
+|french=Idéalisme inné
+|italian=Idealismo innato
+|chineseTW=通往理想的天性
+|portuguese=Idealismo inato
+}}
+==See also==
+{{See also skills|cond=Exclusive='1' AND (Description LIKE '%start of turn%grants%to ally with the highest%' OR Description LIKE '%start of turn%grants%bonus%to ally with the highest%' OR Description LIKE '%【Null Panic】%' OR Description LIKE '%【Bonus Doubler】%')}}
+* [[Opening Passives]]
+* [[Gap Passives]]
+* [[Rouse Passives]]
+{{Passives Navbox|C}}

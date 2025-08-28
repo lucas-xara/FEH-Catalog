@@ -1,0 +1,54 @@
+{{Weapon Infobox
+|tagid=SID_カザハナの麗刀
+|weaponType=Sword
+|might=16
+|range=1
+|effectiveness=armored
+|effect=Effective against armored foes.
+|cost=400
+|exclusive=1
+|required=-
+|userVersion1=Weapon
+|userVersion2=Gleam
+|statModifiers=0,16,0,0,0
+|refinePaths=Skill1,Atk,Spd,Def,Res
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If unit initiates combat, grants Atk/Spd+4 during combat.
+|iconSkill1=Swift Sparrow W.png
+|tagidExtraSkill1=一
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Ce={{Eft|Effectiveness|{{Mt|Armored}}}}
+|skill2={{Si|Hana's Katana|refine=Skill1}} Skill refine effects
+|s2 Ce={{Eft|Temporary buffs|Atk/Spd|4}}
+|s2 CeC=Player Phase
+}}
+==Notes==
+{{Effective damage bonus|armored}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+* {{St|Hana's Katana|refine=Skill1}} has the same effect as {{St|Swift Sparrow 2}}.
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=カザハナの麗刀
+|german=Hanas Katana
+|spanishEU=Katana Hana
+|spanishLA=Katana Hana
+|french=Katana (Hana)
+|italian=Katana di Hana
+|chineseTW=風花的麗刀
+|portuguese=Katana de Hana
+}}
+==See also==
+* [[Weapons that are effective against armored foes]]
+{{Weapons Navbox}}

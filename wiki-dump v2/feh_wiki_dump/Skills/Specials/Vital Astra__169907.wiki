@@ -1,0 +1,36 @@
+{{Special
+|tagid=SID_心流星
+|intID=3014
+|exclusive=0
+|canUseWeapon={{WeaponList|Melee}}
+|canUseMove={{MoveList|Infantry}}
+|cost=500
+|cooldown=2
+|effect=Boosts damage by 30% of unit's Spd. If unit's Special is ready and unit's Spd > foe's Spd, reduces damage from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 3 (max 30%). At the start of combat, if unit's Special is ready and unit's Spd > foe's Spd, reduces damage from attacks during combat by percentage = difference between stats × 3 (max 30%). (Damage-reduction effects above are considered non-Special effects, so skills like Deadeye still apply.)
+|required=Astra
+|properties=random_owner,offensive_special
+}}
+==Notes==
+{{DamageBoost}}
+{{DamagePercentageReduction|special=0}}
+{{AoEDamageReduction|special=0}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Vital Astra
+|japanese=心流星
+|german=Vitale Astra
+|spanishEU=Meteoro vital
+|spanishLA=Meteoro vital
+|french=Stellaire vital
+|italian=Astra vitale
+|chineseTW=心流星
+|portuguese=Astro vital
+}}
+==See also==
+{{See also skills|cond=Exclusive='1' AND ((SCategory='special' AND Description LIKE '%Boosts%damage by __% of unit\'s Spd%') OR Description LIKE '%unit\'s Spd > foe\'s Spd%reduces damage from attacks during combat%= difference between stats × _ (max __%')|columns=3}}
+* [[Skill families#Dodge|Dodge Passives]]
+* [[Dragon Wall]]
+{{Specials Navbox}}

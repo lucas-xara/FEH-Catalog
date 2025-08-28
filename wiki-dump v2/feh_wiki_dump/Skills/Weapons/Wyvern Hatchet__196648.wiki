@@ -1,0 +1,38 @@
+{{Weapon Infobox
+|tagid=SID_竜将トマホーク
+|intID=3630
+|image=wep_ax131
+|exclusive=1
+|weaponType=Axe
+|cost=400
+|might=16
+|range=1
+|effect=Grants Def+3. Unit can counterattack regardless of foe's range. If foe initiates combat or foe's HP ≥ 75% at start of combat, inflicts Atk/Def-6 on foe, inflicts Atk-X on foe (X = 7 - current penalty on foe's Atk; min 0), and unit makes a guaranteed follow-up attack during combat.
+|statModifiers=0,16,0,3,0
+|required=Silver Axe
+|properties=random_owner
+}}
+==Notes==
+* Wyvern Hatchet has the same effect as {{St|Distant Counter}}.
+{{IfFoeInitiates}}
+{{Temporary debuffs}}
+{{Guaranteed follow-up interaction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=竜将トマホーク
+|german=Wyvernaxt
+|spanishEU=Destral wyvern
+|spanishLA=Destral wyvern
+|french=Hachette wyverne
+|italian=Accetta viverna
+|chineseTW=龍將托馬霍克
+|portuguese=Machado wyvern
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%inflicts Atk/Def-%makes a guaranteed follow-up%' AND Description NOT LIKE '%transforms%inflicts Atk/Def-4%' AND Exclusive='1' OR Description LIKE '%=%- current penalty on%' AND Exclusive='1'}}
+* [[Weapons with Distant Counter]]
+* [[Weapons with Close Counter]]
+* [[Seal Passives]]
+{{Weapons Navbox}}

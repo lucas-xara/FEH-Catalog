@@ -1,0 +1,39 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_シャイン＋
+|weaponType=Blue Tome
+|might=13
+|range=2
+|effect=
+|cost=300
+|exclusive=0
+|userVersion1=Closed
+|userVersion2=Open
+|statModifiers=0,13,0,0,0
+|required=Shine
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|upgradedMight=14
+|SE=se_effect_light03.flac
+|properties=random_all
+}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=シャイン＋
+|german=Glanz+
+|spanishEU=Resplandor +
+|spanishLA=Resplandor +
+|french=Flash +
+|italian=Fulgore+
+|chineseTW=閃光＋
+|portuguese=Brilho+
+}}
+==See also==
+* [[Silver Weapons]]
+{{Weapons Navbox}}
+[[Category:Silver weapons]]

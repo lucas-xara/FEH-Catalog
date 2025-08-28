@@ -1,0 +1,51 @@
+{{Weapon Infobox
+|tagid=SID_死斧グリトニル
+|intID=3063
+|image=wep_ax110
+|exclusive=1
+|weaponType=Axe
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br>At start of combat, if unit's HP ≥ 25%, inflicts Atk/Spd/Def-5 on foe during combat, grants Special cooldown charge +1 to unit and inflicts Special cooldown charge -1 on foe per attack during combat (only highest value applied; does not stack), and also, if foe can counter, or if foe initiates combat, unit makes a guaranteed follow-up attack.
+|statModifiers=0,16,0,0,0
+|required=Silver Axe
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerate Special}}
+|Ce1={{Eft|Temporary debuffs|Atk/Spd/Def|5}}
+|Ce2={{Eft|Guard}}
+|CeT1-2={{Tgt|Foe}}
+|Ce3={{Eft|Special Cooldown Charge +1}}
+|Ce4={{Eft|Guaranteed Follow-Up}}
+|Ce1-3C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce4C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' (Enemy Phase '''or'''<br>{{Tgt|Foe}} can counter)
+}}
+==Notes==
+{{Temporary debuffs}}
+{{CooldownChargePlus}}
+{{CooldownChargeMinus}}
+{{IfFoeCanCounter}}
+{{IfFoeInitiates}}
+{{Guaranteed follow-up interaction}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{NorseMyth|name=Glitnir|is the hall of [[Wikipedia:Forseti|Forseti]], the Norse god of justice.}}
+==In other languages==
+{{OtherLanguages
+|japanese=死斧グリトニル
+|german=Henker-Glitnir
+|spanishEU=Glitnir verdugo
+|spanishLA=Glitnir verdugo
+|french=Glitnir bourreau
+|italian=Glitnir boia
+|chineseTW=死斧格利特尼爾
+|portuguese=Glitnir carrasco
+}}
+==See also==
+{{See also skills|cond=WikiName LIKE '%Glitnir%' OR Description LIKE '%if unit_s HP ≥%grants Special%cooldown charge%+1 to unit%inflicts Special%cooldown charge%-1 on foe%per attack%' OR Description LIKE '%if%foe%can counter%guaranteed follow-up attack%' AND Description NOT LIKE '%unit can counterattack regardless%'}}
+{{Weapons Navbox}}

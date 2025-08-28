@@ -1,0 +1,73 @@
+{{#invoke:NameAbout|main|Name=Reginn}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Reginn
+|Title=Bearing Dawn
+|WeaponType=Blue Tome
+|MoveType=Cavalry
+|Origin=Fire Emblem Heroes
+|Gender=Female
+|actorEN=Megan Shipman
+|actorJP=小原好美
+|artist=8イチビ8
+|additionDate=December 28, 2021
+|releaseDate=January 1, 2022
+|cv1=0
+|cv2=500100
+|TagID=年明レギン
+|InternalID=751
+|Properties=special,mask,hat,tiara,specRate_202502
+|description=The bright and energetic princess of Niðavellir, realm of the dvergar. She's charging into the new year at full speed!
+}}
+{{Stats Page
+|Lv1HP=15|Lv1ATK=10|Lv1SPD=10|Lv1DEF=6|Lv1RES=5
+|GRHP=50|GRATK=65|GRSPD=70|GRDEF=40|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Thunder
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elthunder
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Thoron
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Niðavellir Lots
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=4
+|special1Unlock=3
+|special2=Ignis
+|special2Unlock=4
+|special3=Seiðr Shell
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Death Blow 1
+|passiveA2=Swift Sparrow 1
+|passiveA3=Swift Sparrow 2
+|passiveA4=Swift Sparrow 3
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveC1=Spur Atk 1
+|passiveC2=Spur Atk 2
+|passiveC3=Spur Atk 3
+|passiveC4=Cross Spur Atk
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:New Year's units]]

@@ -1,0 +1,65 @@
+{{Weapon Infobox
+|tagid=SID_自信家の長槍
+|intID=3946
+|image=wep_lc160
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=16
+|range=1
+|effect=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+X to unit during combat (X = current penalty on each of those stats × 2, + 4; example: if unit has -7 penalty to Atk, grants Atk+18, for a net bonus of Atk+11 during combat; calculates each stat bonus independently), and the following effects will occur based on unit's HP at start of combat: if unit's HP ≥ 50%, unit makes a guaranteed follow-up attack; if unit's HP ≥ 75%, deals +7 damage during combat as well (except when dealing damage with area-of-effect Specials).
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+4 to unit, reduces damage from foe's first attack by 40%, and foe cannot make a follow-up attack during combat, and also, restores 7 HP to unit after combat.
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|skill1 CombatEffect 1={{Eft|Temporary buffs|Atk/Spd/Def/Res|2 x current {{SEt|penalty}}<br>on each stat, +4}}
+|skill1 CombatEffect 1 Conditions={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|skill1 CombatEffect 2={{Eft|Guaranteed Follow-Ups}}
+|skill1 CombatEffect 2 Conditions={{Tgt|Unit}}'s HP ≥ 50%<br>at start of combat
+|skill1 CombatEffect 3={{Eft|Damage boost|7}}
+|skill1 CombatEffect 3 Conditions={{Tgt|Unit}}'s HP ≥ 75%<br>at start of combat
+|skill2={{Si|Stoutheart Lance|refine=Skill1}} Skill refine effects
+|skill2 MapEffect={{Eft|Heal|7}}
+|skill2 MapEffect Conditions=After combat in<br>Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|skill2 CombatEffect 1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|skill2 CombatEffect 2={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s first attack
+|skill2 CombatEffect 3={{Eft|Prevent Follow-Ups}}
+|skill2 CombatEffect 3 Targets={{Tgt|Foe}}
+|skill2 CombatEffect Conditions=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+
+==Notes==
+{{TemporaryBufffromPenalty}}
+{{Guaranteed follow-up interaction}}
+{{FixedDamage|7}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfUnitInitiates}}
+{{DamagePercentageReduction}}
+{{Prevent follow-up|name={{St|Stoutheart Lance|refine=Skill1}}}}
+{{After combat healing|name={{St|Stoutheart Lance|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=自信家の長槍
+|german=Tapfere Lanze
+|spanishEU=Lanza valerosa
+|spanishLA=Lanza valerosa
+|french=Lance vaillante
+|italian=Lancia impavida
+|chineseTW=自信者的長槍
+|portuguese=Lança indômita
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%current penalty on each of those stats × 2%' AND Exclusive='1'}}
+* [[Skill families/A Passives#Unity|Unity Passives]]
+{{Weapons Navbox}}

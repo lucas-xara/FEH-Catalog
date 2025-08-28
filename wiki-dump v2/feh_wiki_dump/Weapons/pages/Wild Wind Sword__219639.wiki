@@ -1,0 +1,58 @@
+{{Weapon Infobox
+|tagid=SID_奔放なる風の剣
+|intID=4240
+|image=wep_sw179
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>At start of player phase or enemy phase, inflicts Spd/Def-7 on unit through unit's next action.<br><br>At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 and bonus to Atk/Spd/Def/Res during combat = current penalty on each of those stats × 2 (example: if unit has -7 penalty to Atk, grants Atk+19, for a net bonus of Atk+12; calculates each stat bonus independently), unit deals damage = total penalties on unit × 1.5 (excluding area-of-effect Specials), neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks, and reduces damage from foe's first attack by 40% during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and restores 7 HP to unit after combat.
+|required=Silver Sword
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Se={{Eft|Penalties|Spd/Def|7}}
+|SeC=At start of Both Phases
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|2 x {{SEt|Penalties}} on<br>each on {{Tgt|Unit}}'s stats}}
+|Ce3={{Eft|Damage Boost|1.5 x total {{SEt|Penalties}}<br>on {{Tgt|Unit}}}}
+|Ce4={{Eft|Neutralize Guaranteed Follow-Ups}}
+|Ce4T={{Tgt|Foe}}
+|Ce5={{Eft|Neutralize Prevent Follow-Ups}}
+|Ce6={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce5-6T={{Tgt|Unit}}
+|CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Me={{Eft|Heal|7}}
+|MeT={{Tgt|Unit}}
+|MeC=After combat if<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{Penalties}}
+{{TemporaryBufffromPenalty|source=the unit|ptySource=the unit}}
+{{DamageBoost}}
+{{Follow-up effect neutralization}}
+{{DamagePercentageReduction}}
+{{After combat healing}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=奔放なる風の剣
+|german=Sturmwindklinge
+|spanishEU=Espada del viento
+|spanishLA=Espada del viento
+|french=Épée du vent
+|italian=Spada areata
+|chineseTW=奔放的風之劍
+|portuguese=Espada eólia
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%bonus to Atk/Spd/Def/Res during combat%current%' AND Description NOT LIKE '%bonus doubler%' AND Description NOT LIKE '%Grants allies%bonus to%' OR Description LIKE '%current penalty on each of those stats × 2%') AND Exclusive='1'}}
+* [[Unity Passives]]
+{{Weapons Navbox}}

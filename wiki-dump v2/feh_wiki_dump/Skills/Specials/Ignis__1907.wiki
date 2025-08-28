@@ -1,0 +1,30 @@
+{{Special
+|tagid=SID_華炎
+|name=Ignis
+|charge=4
+|effect=Boosts damage by 80% of unit's Def.
+|cost=200
+|required=Glowing Ember
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_all,offensive_special
+}}
+==Notes==
+{{DamageBoost}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=華炎
+|german=Ignus
+|spanishEU=Apolo
+|spanishLA=Vulcano
+|french=Ignition
+|italian=Ignis
+|chineseTW=華炎
+|portuguese=Ignescência
+}}
+{{Specials Navbox}}

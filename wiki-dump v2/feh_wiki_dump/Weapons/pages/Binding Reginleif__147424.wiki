@@ -1,0 +1,85 @@
+{{Weapon Infobox
+|tagid=SID_絆槍レギンレイヴ
+|userVersion1=Weapon
+|userVersion2=Gleam
+|weaponType=Lance
+|might=16
+|range=1
+|effectiveness=Armored,Cavalry
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). Effective against armored and cavalry foes. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 during combat, reduces damage from foe's first attack by 30%, and also, if unit initiates combat, neutralizes effects that prevent unit's follow-up attacks.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Slaying Spear
+|intID=2698
+|sort=576
+|value=20
+|timingID=1
+|abilityID=82
+|limit1ID=42
+|randomTimestamp=2021-09-17T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1). Effective against armored and cavalry foes. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit, reduces damage from foe's first attack by 40%, and neutralizes effects that prevent unit's follow-up attacks during combat.
+|effectSkill1=If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit, inflicts Atk/Spd/Def-X on foe (X = 5 + number of【Bonus】effects active on foe; max 9; excludes stat bonuses), neutralizes foe's bonuses to Atk/Spd/Def (from skills like Fortify, Rally, etc.), and neutralizes effects that guarantee foe's follow-up attacks during combat.<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Accelerates Special}}
+|s1 Ce1={{Eft|Effectiveness|{{Mt|Armored}} '''&''' {{Mt|Cavalry}}<br>}}
+|s1 Ce2={{Eft|Temporary Buffs|Atk/Spd/Def/Res|5}}
+|s1 Ce3={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s first attack
+|s1 Ce4={{Eft|Neutralize Prevent Follow-Up}} 
+|s1 Ce2-3C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s1 Ce4C=Player Phase '''&'''<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Accelerates Special}}
+|s2 Ce1={{Eft|Effectiveness|{{Mt|Armored}} '''&''' {{Mt|Cavalry}}<br>}}
+|s2 Ce2={{Eft|Temporary Buffs|Atk/Spd/Def/Res|5}}
+|s2 Ce3={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s first attack
+|s2 Ce4={{Eft|Neutralize Prevent Follow-Up}} 
+|s2 Ce2-4C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|skill3={{Si|Binding Reginleif|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary Buffs|Atk/Spd/Def/Res|5}}
+|s3 Ce2={{Eft|Temporary Debuffs|Atk/Spd/Def|max=9|5 + {{Kp|Bonus}} effects<br>active on {{Tgt|Foe}}<br>(excluding {{SEt|Bonuses}})}}
+|s3 Ce3={{Eft|Neutralize Bonuses|Atk/Spd/Def}}
+|s3 Ce4={{Eft|Neutralize Guaranteed Follow-Up}}
+|s3 Ce2-4T={{Tgt|Foe}}
+|s3 CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+
+==Notes==
+{{Effective damage bonus|Armored,Cavalry}}
+{{Temporary buffs}}
+{{DamagePercentageReduction}}
+{{Follow-up effect neutralization|preventOnly=1}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary debuffs|name={{St|Binding Reginleif|refine=Skill1}}}}
+{{EffectfromBonus|additional temporary debuffs|name={{St|Binding Reginleif|refine=Skill1}}|target=the foe|nonStat=1}}
+{{Bonus neutralization|name={{St|Binding Reginleif|refine=Skill1}}}}
+{{Follow-up effect neutralization|name={{St|Binding Reginleif|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=絆槍レギンレイヴ
+|german=Einende Reginleif
+|spanishEU=Reginleif vínculo
+|spanishLA=Reginleif vínculo
+|french=Reginleif d'union
+|italian=Reginleif fedele
+|chineseTW=絆槍瑞吉蕾芙
+|portuguese=Reginleif do selo
+}}
+==See also==
+{{See also skills|cond=WeaponEffectiveness='armored,cavalry' OR Description LIKE '%number of%Bonus%effects active on%' AND Exclusive='1'}}
+* [[Lull Passives]]
+{{Weapons Navbox}}

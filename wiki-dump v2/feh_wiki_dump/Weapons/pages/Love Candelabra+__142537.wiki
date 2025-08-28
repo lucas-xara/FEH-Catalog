@@ -1,0 +1,52 @@
+{{Weapon Infobox
+|tagid=SID_結婚式の燭台＋
+|weaponName=Love Candelabra+
+|weaponType=Axe
+|might=14
+|range=1
+|effect=Grants Atk/Def+4 to allies within 2 spaces during combat. If unit is within 2 spaces of an ally, grants Atk/Def+4 to unit during combat.
+|cost=300
+|exclusive=0
+|statModifiers=0,14,0,0,0
+|required=Love Candelabra
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|intID=2562
+|sort=91501
+|effectRange=2
+|value=15
+|timingID=20
+|abilityID=143
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+{{AlliesCombatEffect}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+Weapon Love Candelabra.png|Phase 1
+Weapon Love Candelabra V2.png|Phase 2
+Weapon Love Candelabra V3.png|Phase 3
+Wep ax090.webp|Sprite sheet use to animate the weapon.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=結婚式の燭台＋
+|german=Liebesleuchter+
+|spanishEU=Candel. amor +
+|spanishLA=Candel. amor +
+|french=Bougie d'amour +
+|italian=Candele nuziali+
+|chineseTW=婚禮的燭台＋
+|portuguese=Cast. do amor+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants%/%+%to allies within _ spaces%if unit is within _ spaces of an ally%grants%/%+%during combat%' OR Description LIKE '%if unit is within _ spaces of an ally%grants%/%+%to unit and allies%during combat%'|columns=3}}
+* [[Joint Drive Passives]]
+{{Weapons Navbox}}

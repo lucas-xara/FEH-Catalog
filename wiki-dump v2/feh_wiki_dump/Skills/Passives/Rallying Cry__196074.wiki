@@ -1,0 +1,49 @@
+{{About|the Passive skill|the Captain Skill|Rallying Cry (Captain Skill)}}{{Passive
+|name=Rallying Cry
+|type=C
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Rallying Cry
+|1tagid=SID_叱咤激励
+|1effect=At start of turn, if unit is within 2 spaces of an ally, grants "Special cooldown charge +1 per attack during combat (only highest value applied; does not stack)" to unit and allies within 2 spaces of unit for 1 turn and grants【Charge】 to unit and flying allies within 2 spaces of unit for 1 turn. Inflicts Spd/Def/Res-5 on infantry, armored, and cavalry foes within 3 rows or 3 columns centered on unit during combat.<br><br>【Charge】<br>Unit can move up to 3 spaces in any cardinal direction. (Cannot move through foes, terrain that blocks movement, or effects of skills like Obstruct. Granted movement treated as Warp movement.)
+|1cost=300
+|1required=-
+}}
+==Notes==
+{{Special Cooldown Charge +1}}
+{{Charge}}
+{{Temporary debuffs}}
+{{FoesCombatEffect}}
+{|class="wikitable default mw-collapsible" 
+!align="middle"|Example of Area of Effect for Rallying Cry
+|-
+|align="middle"!|<div style="max-width:450px;margin: auto;>{{AoE|u=Hinoka: Thundering Wings|t=Xander: Gallant King
+|---xxx---
+|---xxx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xtx---
+|---xxx---
+}}</div>
+|}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=叱咤激励
+|german=Schlachtruf
+|spanishEU=Grito potenciador
+|spanishLA=Grito potenciador
+|french=Cri de ralliement
+|italian=Grido di forza
+|chineseTW=叱吒激勵
+|portuguese=Grito mobilizador
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【Charge】%' OR Description LIKE "%infantry, armored,%cavalry foe%" OR Description LIKE '%inflicts %/%on%foe%during%combat%' AND (Description LIKE '%rows%' OR Description LIKE '%columns%' OR Description LIKE '%cardinal%' OR Description LIKE '%foes within _ spaces%') AND (Description NOT LIKE '%next action%' AND Description NOT LIKE '%number of foes%' AND Description NOT LIKE '%immediately%' AND NAME NOT LIKE '%Breidablik' AND Name NOT LIKE '%+') AND Exclusive='1'}}
+{{Passives Navbox|C}}

@@ -1,0 +1,49 @@
+{{Weapon Infobox
+|tagid=SID_白き血の薙刀
+|weaponType=Lance
+|might=16
+|range=1
+|effect=If foe initiates combat, grants Atk/Def+4 during combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Silver Lance
+|userVersion1=Weapon
+|userVersion2=Upgrade Gleam
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If unit is within 2 spaces of an ally, grants Atk/Def+5 to unit and neutralizes unit's penalties during combat.
+|iconSkill1=Bright Naginata W.png
+|tagidExtraSkill1=絆
+|properties=random_owner
+}}
+==Notes==
+* Has the same effect as {{St|Sturdy Stance 2}}.
+{{IfFoeInitiates}}
+{{Combat boosts}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Combat boosts}}
+{{Penalty neutralization}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|絆2弱無R攻守5|Bond 2 Weakness R Atk/Def 5}}
+==In other languages==
+{{OtherLanguages
+|japanese=白き血の薙刀
+|german=Lichtnaginata
+|spanishEU=Naginata brillante
+|spanishLA=Nagi. brillante
+|french=Naginata clair
+|italian=Naginata chiaro
+|chineseTW=白血薙刀
+|portuguese=Naginata vívida
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If unit is within%spaces of an ally%grants%/%+%neutralizes unit_s penalties%' AND WikiName NOT LIKE '%steadfast%'|columns=3}}
+* [[Skill families#Steadfast|Steadfast Weapons]]
+{{Weapons Navbox}}

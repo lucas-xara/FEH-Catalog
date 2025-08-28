@@ -1,0 +1,48 @@
+{{Passive
+|name=Fanged Ties
+|type=C
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Fanged Ties
+|1tagid=SID_牙の絆
+|1effect=At start of turn, if unit is within 2 spaces of an ally, grants "unit can move 1 extra space (that turn only, does not stack)" and【Canto (１)】to unit for 1 turn, and also grants the following effect to unit based on the value of unit's Special cooldown count: if at its maximum value, grants Special cooldown count-2; if at its maximum value - 1, grants Special cooldown count-1.<br><br>【Canto (１)】<br>After an attack, Assist skill, or structure destruction, unit can move １ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|StatusEffect 1={{SEt|Mobility increased}}
+|StatusEffect 2={{SEt|Canto (1)}}
+|StatusEffect Conditions=At start of turn<br>if {{Tgt|Unit}} is<br>[[within 2 spaces]]<br>of an {{Tgt|Ally}}
+|MapEffect 1={{Eft|Reduce Cooldown|2}}
+|MapEffect 2={{Eft|Reduce Cooldown|1}}
+|MapEffect 1 Conditions=({{SEt|Canto (1)}}<br>conditions)<br>'''&''' {{Tgt|Unit}}'s CD<br>is max value
+|MapEffect 2 Conditions=({{SEt|Canto (1)}}<br>conditions)<br>'''&''' {{Tgt|Unit}}'s CD<br>is max value-1
+}}
+
+==Notes==
+{{Mobility increased}}
+{{Canto|statusEffect=1|1}}
+{{Start of turn Special modification}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=牙の絆
+|german=Bissige Bande
+|spanishEU=Colmillo ligado
+|spanishLA=Colmillo ligado
+|french=Liens Black Fang
+|italian=Legami di Fang
+|chineseTW=牙的羈絆
+|portuguese=Presas vinculadas
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%maximum value%Special cooldown count-1%' OR Description LIKE '%start of turn%Special cooldown count-1%maximum value%'}}
+* [[Skill families/C Passives#Tempest|Tempest Passives]]
+* [[Pulse skills]]
+{{Passives Navbox|C}}

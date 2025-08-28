@@ -1,0 +1,54 @@
+{{Weapon Infobox
+|tagid=SID_堅牢のブレス
+|intID=4758
+|noImg=1
+|exclusive=0
+|weaponType=Dragonstone
+|cost=200
+|might=10
+|range=1
+|effect=If foe's Range = 2, calculates damage using the lower of foe's Def or Res.<br><br>At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit, reduces damage from foe's first attack by 15% of unit's Atk ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and inflicts Special cooldown charge -1 on foe per attack during combat (only highest value applied; does not stack).
+|required=Fire Breath+
+|next=Obstinate Breath+
+|promotionRarity=5
+|promotionTier=1
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce2={{Eft|Damage Reduction|percent=1|15% of {{Tgt|Unit}}'s Atk}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce3={{Eft|Guard}}
+|Ce3T={{Tgt|Foe}}
+|Ce1-3C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce4={{Eft|Lower Def Res}}
+|Ce4T={{Tgt|Unit}}
+|Ce4C={{Tgt|Foe}}'s Range = 2
+}}
+==Notes==
+{{Temporary buffs}}
+{{FlatDamageReduction}}
+{{CooldownChargeMinus}}
+{{LowerDefRes}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=堅牢のブレス
+|german=Sturer Atem
+|spanishEU=Aliento pertinaz
+|spanishLA=Soplo tenaz
+|french=Souffle obstiné
+|italian=Respiro ostinato
+|chineseTW=堅牢吐息
+|portuguese=Sopro pertinaz
+}}
+
+==See also==
+{{See also skills|cond=Description LIKE '%reduces damage%of unit_s Atk%' AND Description NOT LIKE '%reduces damage%deals damage%of unit_s Atk%' AND Description NOT LIKE '%reduces damage%inflicts penalty%of unit_s Atk%' AND Exclusive='1'}}
+{{Weapons Navbox}}

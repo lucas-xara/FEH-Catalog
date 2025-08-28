@@ -1,0 +1,45 @@
+{{Passive
+|name=Deadly Balance
+|type=B
+|exclusive=1
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|1name=Deadly Balance
+|1tagid=SID_死者の帳尻を
+|1effect=At start of combat, if unit's HP ≥ 50% or if【Penalty】is active on unit, inflicts Atk/Def-5 on foe and grants Special cooldown charge +1 per foe's attack during combat. (Only highest value applied. Does not stack. Special cooldown charge granted even if foe's attack deals 0 damage.)<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|1required=-
+|1next=-
+|1cost=300
+|properties1=random_owner
+|2name=Deadly Balance+
+|alt2name=Deadly Balance Plus
+|2tagid=SID_死者の帳尻を・神
+|2cost=300
+|2effect=At start of combat, if unit's HP ≥ 25% or if【Penalty】is active on unit, inflicts Atk/Spd/Def-5 on foe, inflicts Special cooldown charge -1 on foe per attack (only highest value applied; does not stack), and grants Special cooldown charge +1 to unit per foe's attack (only highest value applied; does not stack; Special cooldown charge granted even if foe's attack deals 0 damage) during combat, and also, if Special triggers, neutralizes "reduces damage by X%" effects from non-Special skills (excluding area-of-effect Specials). If Special triggers before or during combat, grants Special cooldown count-2 to unit after combat.<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|2required=Deadly Balance
+}}
+==Notes==
+{{EffectfromPenalty|target=unit}}
+{{Combat reductions}}
+{{CooldownChargePlus|perAttack=foe}}
+{{CooldownChargeMinus}}
+{{DamageReductionNeutralization|name=Deadly Balance+}}
+{{Special Spiral notes|name=Deadly Balance+}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Deadly Balance
+|japanese=死者の帳尻を
+|german=Tödliche Balance
+|spanishEU=Equilibrio mortal
+|spanishLA=Equilibrio mortal
+|french=Équilibre mortel
+|italian=Equilibrio funereo
+|chineseTW=填補死者的數量
+|portuguese=Equilíbrio mortal
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%Special cooldown charge +1 per foe_s attack during combat%Special cooldown charge granted even if foe_s attack deals 0 damage%' AND NAME NOT LIKE '%Spirited%' AND Exclusive='1' OR (Description LIKE '%disables%reduce%damage by x%' OR Description LIKE '%neutralizes%reduce%damage by x%') AND Description LIKE '%non-Special%' AND Description NOT LIKE '%reduces the percentage%' OR Description LIKE '%Special triggers before or during combat%'}}
+* [[Skill families#Spirited|Spirited Weapons]]
+{{Passives Navbox|B}}

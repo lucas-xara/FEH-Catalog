@@ -1,0 +1,75 @@
+{{#invoke:NameAbout|main|Name=Fae}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Fae
+|Title=Holiday Dear
+|GrowthModifier=
+|WeaponType=Green Breath
+|Origin=Fire Emblem: The Binding Blade
+|Gender=Female
+|MoveType=Armored
+|actorJP=小澤亜李
+|actorEN=Sarah Blandy
+|artist=日向悠二
+|additionDate=December 18, 2018
+|releaseDate=December 18, 2018
+|TagID=冬祭ファ
+|InternalID=320
+|Properties=special,hat,specRate_202202
+|cv1=5
+|cv2=1000200
+|description=A young dragon from Nabata village. Her excitement for her first winter festival cannot be contained. Appears in Fire Emblem: The Binding Blade.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=9|Lv1SPD=4|Lv1DEF=9|Lv1RES=8
+|GRHP=65|GRATK=60|GRSPD=50|GRDEF=55|GRRES=75
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire Breath
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Fire Breath+
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Glittering Breath
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Glittering Breath+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Def/Res Bond 1
+|passiveA2=Def/Res Bond 2
+|passiveA3=Def/Res Bond 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Vengeful Fighter 1
+|passiveB2=Vengeful Fighter 2
+|passiveB3=Vengeful Fighter 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Armor March 1
+|passiveC2=Armor March 2
+|passiveC3=Armor March 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Christmas units]]

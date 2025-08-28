@@ -1,0 +1,46 @@
+{{Weapon Infobox
+|tagid=SID_暗夜の竜石
+|intID=2716
+|userVersion1=Weapon
+|userVersion2=Gleam
+|weaponType=Dragonstone
+|might=16
+|range=1
+|effect=If foe initiates combat or if foe's HP ≥ 75% at start of combat, grants Atk/Spd/Def/Res+4 to unit during combat. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|exclusive=1
+|cost=400
+|statModifiers=0,16,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|tagidExtraSkill1=一
+|effectSkill1=If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+4 to unit during combat and restores 7 HP to unit after combat.
+|iconSkill1=Dusk Dragonstone W.png
+|properties=
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+{{LowerDefRes}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{After combat healing}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=暗夜の竜石
+|german=Abenddrachenst.
+|spanishEU=Piedra drag. lunar
+|spanishLA=Piedra drag. lunar
+|french=Dracop. de nuit
+|italian=Pietra drago buio
+|chineseTW=暗夜的龍石
+|portuguese=Pedra dragão lua
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%foe initiates combat%foe_s HP%grants Atk/Spd/Def/Res+%during combat%' OR Description LIKE '%unit deals damage to foe during combat, restores%HP to unit%' OR Description LIKE '%if unit is within 3 spaces of an ally%') AND Exclusive='1'}}
+{{Weapons Navbox}}

@@ -1,0 +1,40 @@
+{{Weapon Infobox
+|tagid=SID_厚情の剛剣
+|intID=3295
+|image=wep_sw142
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of player phase or enemy phase, if any foes are within 3 rows or 3 columns centered on unit, inflicts Atk/Spd/Def-6 on those foes through their next actions and grants Atk/Spd/Def+6 to unit for 1 turn. If unit initiates combat or is within 2 spaces of an ally, inflicts penalty on foe's Atk/Spd/Def during combat = 5 + any current penalty on each of those stats (example: if foe has -7 penalty to Atk, inflicts Atk-12, for a net penalty of Atk-19 during combat; calculates each stat penalty independently) and reduces damage from foe's first attack during combat by 40%.
+|statModifiers=0,16,0,0,0
+|required=Silver Sword
+|properties=random_owner
+}}
+==Notes==
+{{Penalties}}
+{{Bonuses}}
+{{IfUnitInitiates}}
+{{CombatReductionfromPenalty|ptySource=the foe}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=厚情の剛剣
+|german=Heitere Klinge
+|spanishEU=Hoja hospitalaria
+|spanishLA=Hoja hospitalaria
+|french=Lame serviable
+|italian=Lama ospitale
+|chineseTW=厚情的剛劍
+|portuguese=Espada favorável
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%at start of turn%inflicts%/%-%cardinal directions%' OR Description LIKE '%at start of turn%inflicts%/%-%columns%' OR Description LIKE '%inflicts penalty on foe_s%=%current penalty%' AND Exclusive='1' AND WikiName NOT LIKE '%vulture%'}}
+* [[Skill families/Weapons#Vulture|Vulture Weapons]]
+{{Weapons Navbox}}

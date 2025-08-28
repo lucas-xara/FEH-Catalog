@@ -1,0 +1,50 @@
+{{Weapon Infobox
+|tagid=SID_フォルセティ
+|weaponType=Green Tome
+|might=14
+|range=2
+|effect=Grants Spd+3. If unit's HP ≥ 50% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.
+|cost=400
+|exclusive=1
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|statModifiers=0,14,3,0,0
+|required=Rexcalibur
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Spd+3. If unit's HP ≥ 25% and unit initiates combat, grants Atk/Spd+4 during combat and unit can make a follow-up attack before foe can counterattack.
+|effectSkill1=At start of combat, if foe's HP ≥ 75%, grants Atk/Spd+4 to unit during combat and also neutralizes penalties to unit's Atk/Spd and bonuses to foe's Atk/Spd.
+|tagidExtraSkill1=無
+|iconSkill1=Forseti W.png
+|SE=se_effect_excalibur_add.flac
+|properties=random_owner
+}}
+==Notes==
+{{Follow-up before counterattack}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary buffs}}
+{{Penalty neutralization}}
+{{Bonus neutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=フォルセティ
+|german=Forseti
+|spanishEU=Forseti
+|spanishLA=Forseti
+|french=Forseti
+|italian=Forseti
+|chineseTW=弗魯賽提
+|portuguese=Forseti
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If unit_s HP ≥%can make a follow-up attack before foe can counterattack%' OR (Description LIKE '%if foe_s HP ≥ ___, grants Atk/Spd+%neutralizes unit_s penalties%' OR Description LIKE '%if foe_s HP ≥ ___, grants Atk/Spd+%neutralizes penalties%') AND WikiName NOT LIKE '%Up-Front%' AND Exclusive='1'}}
+* [[Skill families/Weapons#Up-Front|Up-Front Weapons]]
+{{Weapons Navbox}}

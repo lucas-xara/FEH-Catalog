@@ -1,0 +1,47 @@
+{{Passive
+|name=Dazzling Discord
+|type=B
+|exclusive=0
+|canUseWeapon={{WeaponList|Colorless Staff}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Dazzling Discord
+|1tagid=SID_幻惑・不和の烙印
+|1effect=At start of turn, for the closest foes within 5 spaces of unit and foes within 2 spaces of those foes, if any foe's Res < unit's Res, inflicts 【Discord】on that foe. Inflicts Atk/Res-4 on foe during combat and foe cannot counterattack.<br><br>【Discord】<br>Inflicts Atk/Spd/Def/Res-X on unit during combat (X = 2 + number of allies within 2 spaces of unit; max 5) through its next action.
+|1cost=300
+|1required=Dazzling Staff 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se={{SEt|Discord}}
+|SeT=Closest {{Tgt|Foes}}<br>[[within 5 spaces]]<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}
+|SeC=At start of turn<br>if {{Tgt|Foe}}'s Res<br>< {{Tgt|Unit}}'s Res
+|Ce1={{Eft|Temporary debuffs|Atk/Res|4}}
+|Ce2={{Eft|Prevent Counter}}
+|CeT={{Tgt|Foe}}
+}}
+==Notes==
+{{Discord}}
+{{Temporary debuffs}}
+{{Prevent counterattacks}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=幻惑・不和の烙印
+|german=Bann-Zwietracht
+|spanishEU=Discordia brillante
+|spanishLA=Discordia brillante
+|french=Discorde brillante
+|italian=Discordia vivida
+|chineseTW=幻惑・不和烙印
+|portuguese=Discórdia rútila
+}}
+==See also==
+{{See also skills|cond=((Description LIKE '%foe cannot counterattack%' AND CanUseWeapon__full='Colorless Staff') OR Description LIKE '%at start of turn%, inflicts%est foes%and foes within _ spaces of those foes%') AND (Exclusive='1' AND Name NOT LIKE '%+' AND Properties HOLDS NOT 'arcane')}}
+* [[Staff Passives]]
+{{Passives Navbox|B}}

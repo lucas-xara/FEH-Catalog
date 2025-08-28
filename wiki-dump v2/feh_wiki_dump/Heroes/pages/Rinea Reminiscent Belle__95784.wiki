@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Rinea}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Rinea
+|Title=Reminiscent Belle
+|GrowthModifier=Gen 4
+|WeaponType=Blue Tome
+|Origin=Fire Emblem Echoes: Shadows of Valentia
+|Gender=Female
+|MoveType=Infantry
+|actorJP=山村響
+|actorEN=Dorothy Fahn
+|artist=麻谷知世
+|additionDate=September 5, 2019
+|releaseDate=September 10, 2019
+|TagID=舞踏リネア
+|InternalID=421
+|Properties=refresher,tempest,limited,specDisplay
+|cv1=2
+|cv2=900200
+|description=Berkut's betrothed. Typically on the reserved side, she loves to dance. She moves to the beat of any music playing in earshot. Appears in Fire Emblem Echoes: Shadows of Valentia.
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=6|Lv1SPD=7|Lv1DEF=4|Lv1RES=6
+|GRHP=50|GRATK=55|GRSPD=60|GRDEF=45|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Thunder
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elthunder
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Goblet
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Silver Goblet+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Dance
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Warding Blow 1
+|passiveA2=Bracing Blow 1
+|passiveA3=Bracing Blow 2
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Torrent Dance 1
+|passiveB2=Fireflood Dance 1
+|passiveB3=Fireflood Dance 2
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Dance Festival units]]

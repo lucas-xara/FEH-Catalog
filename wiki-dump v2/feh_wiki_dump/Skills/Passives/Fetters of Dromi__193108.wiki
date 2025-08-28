@@ -1,0 +1,37 @@
+{{Passive
+|name=Fetters of Dromi
+|type=C
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Fetters of Dromi
+|1tagid=SID_ドローミの鎖環
+|1effect=Enables【Canto (２)】.<br><br>At start of turn, unit can move 1 extra space (that turn only; does not stack). After start-of-turn skills trigger, if【Stall】is active on unit, neutralizes the "unit can move 1 extra space" effect of this skill. Inflicts Atk/Spd/Def/Res-4 on foes within 2 spaces of unit during combat.<br><br>【Canto (２)】<br>After an attack, Assist skill, or structure destruction, unit can move ２ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)<br><br>【Stall】<br>If unit has "unit can move 1 extra space," converts that effect into "restricts movement to 1 space" through its next action.
+|1cost=300
+|1required=-
+}}
+==Notes==
+{{Canto|2}}
+{{Mobility increased}}
+{{Bonus neutralization|posstatuses={{SEt|Mobility increased}} if the user is inflicted with {{SEt|Stall}}}}
+{{Temporary debuffs}}
+{{FoesCombatEffect}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ドローミの鎖環
+|german=Fesseln v. Drómi
+|spanishEU=Cadenas Dromi
+|spanishLA=Cadenas Dromi
+|french=Chaînes de Dromi
+|italian=Catene di Dromi
+|chineseTW=多羅米的鎖環
+|portuguese=Anéis de Dromi
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%inflicts%/%/%-%on foes within _ spaces during combat%' AND WikiName NOT LIKE '%Breidablik%' OR Description LIKE '%start of%turn%unit can move 1 extra space%' AND Description NOT LIKE '%transforms%' AND Description NOT LIKE '%stall%restricts movement%' AND Exclusive='1' OR Description LIKE '%【Canto (２)】%'}}
+* [[Skill families/C Passives#Tempest|Tempest Passives]]
+* [[Skill families/C Passives#Rein|Rein Passives]]
+{{Passives Navbox|C}}

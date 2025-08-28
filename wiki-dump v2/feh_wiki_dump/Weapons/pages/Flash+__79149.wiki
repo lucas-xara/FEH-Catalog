@@ -1,0 +1,46 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_フラッシュ＋
+|weaponType=Staff
+|weaponName=Flash+
+|might=11
+|range=2
+|effect=After combat, if unit attacked, inflicts status on target and foes within 2 spaces of target preventing counterattacks through their next actions.
+|cost=300
+|exclusive=0
+|statModifiers=0,11,0,0,0
+|required=Flash
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|effectSkill1=Calculates damage from staff like other weapons.
+|iconSkill1=Wrathful Staff W.png
+|tagidExtraSkill1=神
+|effectSkill2=Foe cannot counterattack.
+|iconSkill2=Dazzling Staff W.png
+|tagidExtraSkill2=幻
+|properties=random_owner
+}}
+==Notes==
+{{IfUnitAttacked}}{{No counterattacks}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Staff Plus Refines}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=フラッシュ＋
+|german=Elmsfeuer+
+|spanishEU=Fulgor +
+|spanishLA=Haz de luz +
+|french=Fulguration +
+|italian=Lampo+
+|chineseTW=閃爍＋
+|portuguese=Raio de luz+
+}}
+==See also==
+* [[Candlelight+]]
+* [[Imhullu]]
+{{Weapons Navbox}}

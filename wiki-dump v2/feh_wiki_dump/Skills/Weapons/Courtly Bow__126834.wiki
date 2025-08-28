@@ -1,0 +1,43 @@
+{{Weapon Infobox
+|tagid=SID_高貴な弓
+|weaponType=Bow
+|might=8
+|range=2
+|effectiveness=Flying
+|effect=Effective against flying foes. At start of combat, if unit's HP ≥ 50%, grants Atk/Def+5 during combat, and also, if foe can make a follow-up attack, reduces damage from foe's first attack by 50%.
+|cost=200
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|required=Steel Bow
+|next=Courtly Bow+
+|userVersion1=Bow
+|userVersion2=Arrow
+|promotionRarity=5
+|promotionTier=1
+|intID=2210
+|sort=85000
+|value=11
+|timingID=1
+|abilityID=230
+|limit1ID=42
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|Flying}}{{Combat boosts}}{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Courtly Bow
+|japanese=高貴な弓
+|german=Edler Bogen
+|spanishEU=Arco áulico
+|spanishLA=Arco real
+|french=Arc raffiné
+|italian=Arco cortese
+|chineseTW=高貴的弓
+|portuguese=Laço de cortejo
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe can make a follow-up attack, reduces damage from foe_s first attack%'|columns=3}}
+{{Weapons Navbox}}

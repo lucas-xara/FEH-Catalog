@@ -1,0 +1,40 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_金運の弓＋
+|weaponType=Bow
+|might=12
+|range=2
+|effectiveness=flying
+|effect=Effective against flying foes. At start of turn, if any foe's Res ≤ unit's Res-3 and that foe is adjacent to another foe, inflicts Def/Res-5 on that foe through its next action.
+|cost=300
+|exclusive=0
+|userVersion1=Bow
+|userVersion2=Arrow
+|statModifiers=0,12,0,0,0
+|required=Fortune Bow
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|flying}}{{Penalties}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Fortune Bow+
+|japanese=金運の弓＋
+|german=Glücksbogen+
+|spanishEU=Arco opulento +
+|spanishLA=Arco opulento +
+|french=Arc-fortune +
+|italian=Fortunarco+
+|chineseTW=財運之弓＋
+|portuguese=Arco próspero+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%foe_s Res%unit_s Res%foe is adjacent to another foe%'|columns=3}}
+{{Weapons Navbox}}

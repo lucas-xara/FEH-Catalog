@@ -1,0 +1,37 @@
+{{Weapon Infobox
+|tagid=SID_門松
+|weaponType=Sword
+|weaponName={{PAGENAME}}
+|might=10
+|range=1
+|effect=Grants Def/Res+2 to allies within 2 spaces during combat.
+|cost=200
+|exclusive=0
+|statModifiers=0,10,0,0,0
+|next=Kadomatsu+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Sword
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+{{AlliesCombatEffect|effect=combat boost}}
+
+==List of owners==
+{{Skill Hero List}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=門松
+|german=Kadomatsu
+|spanishEU=Kadomatsu
+|spanishLA=Kadomatsu
+|french=Kadomatsu
+|italian=Kadomatsu
+|chineseTW=門松
+|portuguese=Kadomatsu
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%Grants Def/Res+2 to allies within 2 spaces during combat.%'}}{{Weapons Navbox}}
+[[Category:Happy New Year! weapons]]

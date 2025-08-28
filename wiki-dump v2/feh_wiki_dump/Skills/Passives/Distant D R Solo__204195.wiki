@@ -1,0 +1,49 @@
+{{Passive
+|name=Distant D/R Solo
+|type=A
+|exclusive=0
+|canUseWeapon={{WeaponList|Close}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Distant D/R Solo
+|alt1name=Distant D R Solo
+|1tagid=SID_遠反・守魔の孤軍
+|1effect=Unit can counterattack regardless of foe's range. If unit is not adjacent to an ally, grants Def/Res+5 to unit during combat.
+|1cost=300
+|1required=Distant Counter
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Distant Counter}}
+|Ce2={{Eft|Temporary buffs|Def/Res|5}}
+|Ce2C=No {{Tgt|Allies}}<br>are [[adjacent]]
+}}
+
+==Notes==
+{{Temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Distant D/R Solo
+|japanese=遠反・守魔の孤軍
+|german=V/R-Fernsolo
+|spanishEU=Retiro D/R largo
+|spanishLA=Retiro D/R largo
+|french=Solo D/R distant
+|italian=Contr. D/R isolate
+|chineseTW=遠反・防守魔防孤軍
+|portuguese=Retiro dist. D/R
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%counterattack regardless of%range%' AND SCategory!='Weapon') AND ((Exclusive='1' AND Name NOT LIKE '%+') OR SCategory='captain')}}
+* [[Counter Passives]]
+* [[Counter Seals]]
+* [[Prime Passives]]
+* [[Weapons with Distant Counter]]
+* [[Weapons with Close Counter]]
+{{Passives Navbox|A}}

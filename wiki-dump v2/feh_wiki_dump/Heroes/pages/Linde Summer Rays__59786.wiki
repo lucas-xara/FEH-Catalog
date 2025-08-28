@@ -1,0 +1,75 @@
+{{#invoke:NameAbout|main|Name=Linde}}{{HeroPage Tabs|{{PAGENAME}}}}
+{{Hero Infobox
+|Name=Linde
+|Title=Summer Rays
+|GrowthModifier= None
+|WeaponType=Colorless Dagger
+|Origin=Fire Emblem: Mystery of the Emblem
+|Gender=Female
+|MoveType=Cavalry
+|actorEN=Julie Ann Taylor
+|actorJP=瀬戸麻沙美
+|artist=切符
+|releaseDate=7/10/2018
+|TagID=水着リンダ
+|InternalID=268
+|Properties=special,tiara,specRate_202202
+|cv1=1
+|cv2=300200
+|description=Daughter of Pontifex Miloah from Archanea. She's a bit flustered, since she's not wearing her usual robe. Appears in Fire Emblem: Mystery of the Emblem.
+}}
+
+__TOC__
+
+{{Stats Page|Hero={{BASEPAGENAME}}
+|Lv1HP=16|Lv1ATK=8|Lv1SPD=9|Lv1DEF=3|Lv1RES=7
+|GRHP=40|GRATK=60|GRSPD=60|GRDEF=30|GRRES=45
+}}
+
+== Skills ==
+
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Dagger
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Dagger
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Starfish
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Starfish+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+
+===Assists===
+{{Assists Table
+|assist1=Ardent Sacrifice
+|assist1Default=4
+|assist1Unlock=3
+}}
+
+===Specials===
+{{Specials Table
+}}
+
+===Passives===
+{{Passives Table
+|passiveA1=Brazen Atk/Res 1
+|passiveA2=Brazen Atk/Res 2
+|passiveA3=Brazen Atk/Res 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Cancel Affinity 1
+|passiveB2=Cancel Affinity 2
+|passiveB3=Cancel Affinity 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+}}
+
+{{Heroes Navbox}}
+[[Category:Summer units]]

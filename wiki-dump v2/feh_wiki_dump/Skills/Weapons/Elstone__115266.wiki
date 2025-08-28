@@ -1,0 +1,39 @@
+{{Weapon Infobox
+|tagid=SID_エルロック
+|weaponType=Colorless Tome
+|weaponName={{PAGENAME}}
+|might=6
+|range=2
+|effect=
+|cost=100
+|exclusive=0
+|userVersion1=Closed|userVersion2=Open|statModifiers=0,6,0,0,0
+|next=Atlas (weapon)
+|promotionRarity=4
+|promotionTier=1
+|required=Stone
+|properties=random_all
+}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+File:v4.3 200303 legend Mag.webp|Sprite sheet for {{St|Stone}}, {{St|Elstone}}, {{St|Atlas}}, {{St|Atlas+}}, and {{St|Void Tome}}'s animations.
+</gallery>
+
+==In other languages==
+{{OtherLanguages
+|japanese=エルロック
+|german=Elfenstein
+|spanishEU=Elstone
+|spanishLA=Elstone
+|french=Éboulis
+|italian=Roccia d'elfo
+|chineseTW=艾爾洛克
+|portuguese=Elstone
+}}
+
+==See also==
+* [[Steel Weapons]]
+{{Weapons Navbox}}
+[[Category:Steel weapons]]

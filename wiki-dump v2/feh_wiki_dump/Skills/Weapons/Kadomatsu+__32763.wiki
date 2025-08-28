@@ -1,0 +1,39 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_門松＋
+|weaponType=Sword
+|weaponName={{PAGENAME}}
+|altWeaponName=Kadomatsu Plus
+|might=14
+|range=1
+|effect=Grants Def/Res+2 to allies within 2 spaces during combat.
+|cost=300
+|exclusive=0
+|statModifiers=0,14,0,0,0
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+{{AlliesCombatEffect|effect=combat boost}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=門松＋
+|german=Kadomatsu+
+|spanishEU=Kadomatsu +
+|spanishLA=Kadomatsu +
+|french=Kadomatsu +
+|italian=Kadomatsu+
+|chineseTW=門松＋
+|portuguese=Kadomatsu+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%Grants Def/Res+2 to allies within 2 spaces during combat.%'}}{{Weapons Navbox}}
+[[Category:Happy New Year! weapons]]

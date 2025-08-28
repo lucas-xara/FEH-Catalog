@@ -1,0 +1,46 @@
+{{Weapon Infobox
+|tagid=SID_グレイの飄剣
+|weaponType=Sword
+|might=16
+|range=1
+|effectiveness=cavalry
+|effect=Effective against cavalry foes. At start of combat, if unit's HP ≥ 50%, grants Atk/Spd/Def/Res+3 during combat.
+|cost=400
+|exclusive=1
+|userVersion1=Weapon
+|userVersion2=Gleam
+|statModifiers=0,16,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If the number of foes within 2 spaces (excluding target) ≥ the number of allies within 2 spaces (excluding unit), grants Atk/Spd/Def/Res+5 to unit during combat.
+|iconSkill1=Laid-Back Blade W.png
+|tagidExtraSkill1=強
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|cavalry}}
+{{Temporary buffs}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|戦闘強化R被包囲5|Combat Bonuses R Seige 5}}
+==In other languages==
+{{OtherLanguages
+|english=Laid-Back Blade
+|japanese=グレイの飄剣
+|german=Lässige Klinge
+|spanishEU=Hoja sosegada
+|spanishLA=Hoja sosegada
+|french=Lame sereine
+|italian=Lama placida
+|chineseTW=格萊的飄劍
+|portuguese=Espada tranquila
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%number of foes within 2 spaces (excluding target) _ the number of allies within 2 spaces (excluding unit)%'}}
+{{Weapons Navbox}}

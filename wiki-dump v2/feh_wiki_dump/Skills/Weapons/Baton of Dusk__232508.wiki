@@ -1,0 +1,77 @@
+{{Weapon Infobox
+|tagid=SID_戦神の闇夜の杖
+|intID=4666
+|image=wep_rd072
+|exclusive=1
+|weaponType=Colorless Staff
+|cost=400
+|might=14
+|range=2
+|effect=Grants Spd+3.<br>Enables【Canto (Rem.; Min １)】.<br>Calculates damage from staff like other weapons.<br><br>At start of turn, if unit's HP ≥ 25%, grants Atk/Spd+6,【Treachery】, and "grants Special cooldown charge +1 per attack during combat (only highest value applied; does not stack)" to unit and allies within 2 spaces of unit for 1 turn.<br><br>At start of combat, if unit's HP ≥ 25%, grants bonus to unit's Atk/Spd/Def/Res = number of foes within 3 rows or 3 columns centered on unit × 3, + 5 (max 14), deals damage = 20% of unit's Spd (excluding area-of-effect Specials; if the "calculates damage from staff like other weapons" effect is neutralized, damage from staff is calculated after combat damage is added), and neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat.<br><br>【Canto (Rem.; Min １)】<br>After an attack, Assist skill, or structure destruction, unit can move spaces = any movement not already used that turn (min. １; if unit used a movement skill that warped them, unit can move １ space(s)).<br>(Once per turn. Only highest value applied. Does not stack.)<br><br>【Treachery】<br>Unit deals additional damage = total bonuses on unit for 1 turn.
+|statModifiers=0,14,3,0,0
+|required=Assault
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Stat Boosts|Spd|3}}
+|Me={{Eft|Canto|Rem.; Min 1}}
+|Se1={{Eft|Bonuses|Atk/Spd|6}}
+|Se2={{SEt|Treachery}}
+|Se3={{SEt|Special Cooldown Charge +1}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25%
+|Ce1={{Eft|Wrathful Staff}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|3 x {{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}, + 5|max=14}}
+|Ce3={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|Ce4={{Eft|Neutralize Prevent Follow-Ups}}
+|Ce5={{Eft|Neutralize Guaranteed Follow-Ups}}
+|Ce5T={{Tgt|Foe}}
+|Ce2-5C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+* Baton of Dusk has the same effect as {{St|Wrathful Staff 3}}.
+{{Wrathful Staff}}
+{{Canto|Rem.; Min 1}}
+{{Bonuses}}
+{{Treachery}}
+{{Special Cooldown Charge +1}}
+{{Temporary buffs}}
+{{DamageBoost}}
+{{Follow-up effect neutralization}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Elise: Sparkling Smile|t=Garon: King of Nohr
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V9.4_v0904a_child_Rod.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Treachery】%' OR Description LIKE '%deals damage =% of unit_s Spd%neutralizes%guarantee foe_s follow-up%prevent unit_s follow-up%') AND Exclusive='1'}}
+{{Weapons Navbox}}

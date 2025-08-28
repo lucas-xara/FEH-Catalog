@@ -1,0 +1,36 @@
+{{Weapon Infobox
+|tagid=SID_サンダー
+|weaponType=Blue Tome
+|weaponName={{PAGENAME}}
+|might=4
+|range=2
+|effect=
+|cost=50
+|exclusive=0
+|userVersion1=Closed|userVersion2=Open|statModifiers=0,4,0,0,0
+|next=Elthunder
+|promotionRarity=3
+|promotionTier=1
+|required=-
+|SE=se_effect_thunder01.flac
+|properties=random_all
+}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=サンダー
+|german=Donner
+|spanishEU=Trueno
+|spanishLA=Trueno
+|french=Foudre
+|italian=Tuono
+|chineseTW=雷電
+|portuguese=Trovão
+}}
+==See also==
+* [[Iron Weapons]]
+{{Weapons Navbox}}
+[[Category:Iron weapons]]

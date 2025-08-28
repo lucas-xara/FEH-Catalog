@@ -1,0 +1,38 @@
+{{Passive
+|type=B
+|name=True Dragon Wall
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=True Dragon Wall
+|1tagid=SID_真竜鱗障壁
+|1cost=300
+|1effect=If unit's Res > foe's Res, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 6 (max 60%) for this unit's first combat in player phase and enemy phase and percentage = difference between stats × 4 (max 40%) for this unit's second combat or later. If dragon or beast ally is on your team (excluding unit), restores 7 HP to unit at start of turn and after combat.
+|1required=-
+}}
+==Notes==
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+{{FirstCombat}}
+{{TermRefersTo|Dragon}}
+{{TermRefersTo|Beast}}
+{{Start-of-turn healing}}
+{{After combat healing}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=真竜鱗障壁
+|german=Wahre Drachenw.
+|spanishEU=Dracoescama real
+|spanishLA=Dracoescama real
+|french=Vrai mur dragon
+|italian=Barr. drago vera
+|chineseTW=真龍鱗防護障壁
+|portuguese=Barreira verdadeira
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%unit_s Res > foe_s Res%educes damage from attacks during combat%' OR Description LIKE '%restores 7 HP to unit% after combat%' AND Exclusive='1' AND SP NOT LIKE '350'}}
+{{Passives Navbox|B}}

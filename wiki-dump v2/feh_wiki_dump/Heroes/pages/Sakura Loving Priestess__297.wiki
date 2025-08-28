@@ -1,0 +1,83 @@
+{{#invoke:NameAbout|main|Name=Sakura}}{{HeroPage Tabs|{{PAGENAME}}}}
+{{Hero Infobox
+|Name=Sakura
+|Title=Loving Priestess
+|GrowthModifier= None
+|WeaponType=Colorless Staff
+|Origin=Fire Emblem Fates
+|Gender=Female
+|MoveType=Infantry
+|actorEN=Brianna Knickerbocker 
+|actorJP=金元寿子
+|artist=藤ちょこ
+|releaseDate = February 2, 2017
+|poolDate = February 2, 2017
+|randomStartTime=2017-02-02T07:00:00Z
+|poolRarities=3,4
+|TagID=サクラ
+|InternalID=90
+|Properties=demoted_240
+|cv1=11
+|cv2=201200
+|description=Princess of Hoshido who is a gentle healer. Struggles with her shyness. Appears in Fire Emblem Fates.
+}}
+
+__TOC__
+
+{{Stats Page|Hero={{BASEPAGENAME}}
+|Lv1HP=17|Lv1ATK=6|Lv1SPD=8|Lv1DEF=5|Lv1RES=8
+|GRHP=45|GRATK=50|GRSPD=50|GRDEF=45|GRRES=50
+}}
+
+== Skills ==
+
+===Weapons===
+{{Weapons Table
+|weapon1=Assault
+|weapon1Default=
+|weapon1Unlock=1
+|weapon2=Fear
+|weapon2Default=
+|weapon2Unlock=3
+|weapon3=Fear+
+|weapon3Default=
+|weapon3Unlock=5
+}}
+
+===Assists===
+{{Assists Table
+|assist1=Heal
+|assist1Default=1
+|assist1Unlock=1
+|assist2=Mend
+|assist2Default=3
+|assist2Unlock=2
+|assist3=Physic
+|assist3Default=5
+|assist3Unlock=4
+|assist4=Physic+
+|assist4Default=
+|assist4Unlock=5
+}}
+
+===Specials===
+{{Specials Table
+|special1=Imbue
+|special1Default=4
+|special1Unlock=2
+|special2=Still-Water Balm
+|special2Default=5
+|special2Unlock=3
+}}
+
+===Passives===
+{{Passives Table
+|passiveC1=Fortify Def 1
+|passiveC2=Fortify Def 2
+|passiveC3=Fortify Def 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+
+{{Heroes Navbox}}

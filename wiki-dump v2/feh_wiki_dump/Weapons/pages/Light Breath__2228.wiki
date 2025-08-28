@@ -1,0 +1,32 @@
+{{Weapon Infobox
+|tagid=SID_光のブレス
+|weaponType=Dragonstone
+|might=9
+|range=1
+|effect=If unit initiates combat, grants Def/Res+4 to adjacent allies for 1 turn after combat.
+|cost=200
+|exclusive=0
+|statModifiers=0,9,0,0,0
+|next=Light Breath+
+|promotionRarity=5
+|promotionTier=1
+|required=Fire Breath+
+|SE=se_effect_lightbreath.flac
+|properties=random_all
+}}
+==Notes==
+{{Bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=光のブレス
+|german=Heller Atem
+|spanishEU=Aliento radiante
+|spanishLA=Soplo de luz
+|french=Souffle lumineux
+|italian=Soffio di luce
+|chineseTW=光之吐息
+|portuguese=Sopro de luz
+}}
+{{Weapons Navbox}}

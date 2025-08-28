@@ -1,0 +1,34 @@
+{{Weapon Infobox
+|tagid=SID_忍の刀
+|weaponType=Sword
+|might=6
+|range=1
+|effect=Grants Spd+4. Inflicts Def/Res-4. If unit initiates combat, unit attacks twice.
+|userVersion1=Main
+|userVersion2=Sub
+|cost=200
+|exclusive=0
+|statModifiers=0,6,4,-4,-4
+|required=Steel Sword
+|properties=
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Brave weapon interaction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=忍の刀
+|german=Ninja-Katana
+|spanishEU=Katana ninja
+|spanishLA=Katana ninja
+|french=Katana ninja
+|italian=Katana ninja
+|chineseTW=忍刀
+|portuguese=Katana ninja
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%inflicts Def/Res-%Unit attacks twice%' AND (SP=300 OR Exclusive='1')}}
+* [[Brave Weapons]]
+{{Weapons Navbox}}

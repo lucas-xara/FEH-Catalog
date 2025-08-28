@@ -1,0 +1,54 @@
+{{Weapon Infobox
+|tagid=SID_女王の騎士の勇槍
+|intID=3486
+|image=wep_lc139
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=If【Bonus】is active on unit, enables 【Canto (Rem. +1)】.<br><br>Accelerates Special trigger (cooldown count-1). If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+X to unit during combat (X = 5 + highest bonus on each stat between unit and unit's support partners; calculates each stat bonus independently), reduces damage from foe's first attack during combat by 40%, and also, if【Bonus】is active on unit, foe cannot make a follow-up attack.<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).<br><br>【Canto (Rem. +1)】<br>After an attack, Assist skill, or structure destruction, unit can move again.<br><br>The distance of the movement is the remaining movement the unit had before the actions listed above+1 (If unit used a movement skill that warps them, the remainder is 0).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|statModifiers=0,16,0,0,0
+|required=Silver Lance
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Me={{Eft|Canto|Rem. +1}}
+|MeC=A {{Kp|Bonus}} effect<br>is active on {{Tgt|Unit}}
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|highest {{SEt|Bonuses}}<br>on each stat on {{Tgt|Unit}}<br>'''&''' {{Tgt|Partner}}}}
+|Ce3={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s first attack
+|Ce1-3C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce4={{Eft|Prevent Follow-Ups}}
+|Ce4T={{Tgt|Foe}}
+|Ce4C={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}<br>conditions '''&''' a<br>{{Kp|Bonus}} effect is<br>active on {{Tgt|Unit}}
+}}
+==Notes==
+{{Canto|Rem. +1}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{SupportPartner|effect=temporary buffs granted from bonuses from the unit's support partners}}
+{{DamagePercentageReduction}}
+{{Prevent follow-up}}
+{{EffectfromBonus|{{Kp|Canto (Rem. +1)}} and follow-up preventing effects}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=女王の騎士の勇槍
+|german=Lanze d. Königin
+|spanishEU=Lanza de la reina
+|spanishLA=Lanza de la reina
+|french=Lance de la reine
+|italian=Lancia di sovrana
+|chineseTW=女王騎士的勇槍
+|portuguese=Lança da rainha
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%highest bonus on%' AND Description NOT LIKE '%dance%' AND Name NOT LIKE '%doubler%' OR Description LIKE '%If【Bonus】is active on unit,%enables %【Canto %' OR Description LIKE '%If%【Bonus】%is active on unit,%cannot make a follow-up%') AND Exclusive='1'}}
+* [[Trace Passives]]
+* [[Skill families/Weapons#Doubler|Doubler Weapons]]
+{{Weapons Navbox}}

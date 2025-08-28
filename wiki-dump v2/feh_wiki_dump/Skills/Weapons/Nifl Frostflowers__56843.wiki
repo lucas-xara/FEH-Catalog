@@ -1,0 +1,49 @@
+{{Weapon Infobox
+|tagid=SID_ニフルの氷花
+|weaponType=Green Tome
+|userVersion1=Weapon
+|userVersion2=Gleam
+|might=14
+|range=2
+|effect=Grants Atk+3. During combat, boosts unit's Atk/Spd by number of allies within 2 spaces × 2.<br>(Maximum bonus of +6 to each stat.)
+|cost=400
+|exclusive=Yes
+|statModifiers=0,17,0,0,0
+|required=Rexcalibur
+|SE=se_effect_flower_nif.flac
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Atk+3. If unit is within 3 spaces of an ally, grants Atk/Res+5 during combat.<br><br>During combat, boosts unit's Atk by number of allies within 3 spaces × 2 (max: +4).
+|tagidExtraSkill1=共
+|effectSkill1=At start of combat, if foe's HP ≥ 50%, grants Atk/Res+5 to unit during combat, and also grants bonus to unit's Atk during combat = highest Atk bonus from among allies within 2 spaces.
+|iconSkill1=Nifl Frostflowers W.png
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+v2.5_52_bride02_Mag.png|Sprite sheet for the animations of {{PAGENAME}}, {{St|Múspell Fireposy}}, and {{St|Fresh Bouquet+}}.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=ニフルの氷花
+|german=Eisbukett
+|spanishEU=Ramo Nifl
+|spanishLA=Ramo Nifl
+|french=Fleurs de Nifl
+|italian=Fiori di Nifl
+|chineseTW=尼福爾之冰花
+|portuguese=Flores Nifl
+}}
+==See also==
+* [[Múspell Fireposy]]
+* [[Owl Weapons]]
+{{Weapons Navbox}}
+[[Category:Bridal Bloom weapons]]

@@ -1,0 +1,53 @@
+{{Passive
+|name=Occultist's Strike
+|type=B
+|exclusive=0
+|canUseWeapon={{WeaponList|Magical|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Occultist's Strike
+|alt1name=Occultists Strike
+|1tagid=SID_魔の蛇毒
+|1effect=If unit initiates combat, deals 7 damage to foe as combat begins (effects that reduce damage during combat do not apply; will not reduce foe's HP below 1), inflicts Spd/Res-4 on foe during combat, and deals damage = 20% of foe's Res (excluding area-of-effect Specials).
+|1cost=300
+|1required=Poison Strike 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{Eft|Damage|7}}<br>as combat begins
+|CombatEffect 2={{Eft|Temporary debuffs|Spd/Res|4}}
+|CombatEffect 3={{Eft|Damage Boost|20% of {{Tgt|Foe}}'s Res}}
+|CombatEffect 1-2 Targets={{Tgt|Foe}}
+|CombatEffect Conditions=Player Phase
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{CombatDamage|7}}
+{{Temporary debuffs}}
+{{DamageBoost}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=魔の蛇毒
+|japaneseNotes=<i>magical snake venom</i>
+|german=Okkulter Schlag
+|spanishEU=Ataque ocultista
+|spanishLA=Ataque ocultista
+|french=Frappe occultiste
+|italian=Colpo occulto
+|chineseTW=魔之蛇毒
+|portuguese=Golpe ocultista
+}}
+
+==See also==
+{{See also skills|cond=(Description LIKE '%deals%damage%combat begins%' OR Description LIKE '%deals damage%of foe_s Res%') AND Exclusive='1'}}
+* [[Flare Passives]]
+* [[Strike Passives]]
+{{Passives Navbox|B}}

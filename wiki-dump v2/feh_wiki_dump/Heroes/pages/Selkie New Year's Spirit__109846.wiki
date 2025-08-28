@@ -1,0 +1,71 @@
+{{#invoke:NameAbout|main|Name=Selkie}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Selkie
+|Title=New Year's Spirit
+|WeaponType=Colorless Beast
+|Origin=Fire Emblem Fates
+|Gender=Female
+|MoveType=Cavalry
+|actorJP=中恵光城
+|actorEN=Lexi Klein
+|artist=円居雄一郎
+|additionDate=December 25, 2019
+|releaseDate=January 1, 2020
+|TagID=年明キヌ
+|InternalID=468
+|Properties=special,specRate_202302
+|cv1=11
+|cv2=6901000
+|description=A carefree kitsune. She's dressed up in a kimono and ready to join in the New Year's celebrations. Appears in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=7|Lv1SPD=11|Lv1DEF=3|Lv1RES=10
+|GRHP=45|GRATK=55|GRSPD=65|GRDEF=30|GRRES=70
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Whelp (Cavalry)
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Yearling (Cavalry)
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Adult (Cavalry)
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=New Foxkit Fang
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Iceberg
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Distant Ward
+|passiveA1Unlock=5
+|passiveB1=Sabotage Spd 1
+|passiveB2=Sabotage Spd 2
+|passiveB3=Sabotage Spd 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Odd Res Wave 1
+|passiveC2=Odd Res Wave 2
+|passiveC3=Odd Res Wave 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:New Year's units]]

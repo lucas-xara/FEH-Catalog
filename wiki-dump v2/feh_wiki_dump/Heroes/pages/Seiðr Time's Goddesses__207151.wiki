@@ -1,0 +1,76 @@
+{{#invoke:NameAbout|main|Name=Seiðr|Name2=Heiðr|Name3=Gullveig|Name4=Kvasir}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Seiðr
+|Title=Time's Goddesses
+|WeaponType=Blue Tome
+|MoveType=Flying
+|secondPerson=Heiðr
+|Origin=Fire Emblem Heroes
+|Gender=FF
+|duo=Grants【Time's Gate】and "Special cooldown charge +1 per attack during combat (only highest value applied; does not stack)" to unit and allies within 4 spaces of unit for 1 turn.<br><br>【Time's Gate】<br>Allies within 4 spaces of unit can move to a space adjacent to unit (that turn only).
+|Duel=205
+|actorEN=Valeria Rodriguez,Alice Himora
+|actorJP=羊宮妃那,三森すずこ
+|artist=cuboon
+|additionDate=December 28, 2023
+|releaseDate=January 1, 2024
+|cv1=0
+|cv2=700100
+|TagID=比翼セイズ
+|InternalID=1041
+|Properties=special,duo,tiara
+|description=Seiðr and Heiðr, goddesses of the realm of light. The two of them, who are like sisters, have come to bless the new year with light.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=8|Lv1SPD=7|Lv1DEF=4|Lv1RES=13
+|GRHP=50|GRATK=90|GRSPD=50|GRDEF=30|GRRES=75
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Light
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Ellight
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Shine
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Goddess Temari
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Iceberg
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Warding Blow 1
+|passiveA2=Mirror Strike 1
+|passiveA3=Mirror Strike 2
+|passiveA4=Remote Mirror
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Sabotage Res 1
+|passiveB2=Sabotage Res 2
+|passiveB3=Sabotage Res 3
+|passiveB4=Sabotage S/R 3
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Future-Sighted
+|passiveC1Unlock=5
+}}
+{{Heroes Navbox}}[[Category:Sources of status effects]][[Category:Sources of Time's Gate]][[Category:Sources of Special Cooldown Charge +1]]
+[[Category:New Year's units]]

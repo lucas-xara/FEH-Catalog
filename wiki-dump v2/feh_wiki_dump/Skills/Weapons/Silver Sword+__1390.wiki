@@ -1,0 +1,35 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_銀の剣＋
+|weaponType=Sword
+|might=15
+|range=1
+|effect=
+|cost=300
+|statModifiers=0,15,0,0,0
+|exclusive=0
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|upgradedMight=16
+|properties=random_all
+}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=銀の剣＋
+|german=Silberschwert+
+|spanishEU=Espada plata +
+|spanishLA=Espada plata +
+|french=Épée argent +
+|italian=Spada argento+
+|chineseTW=銀劍＋
+|portuguese=Espada de prata+
+}}
+==See also==
+* [[Silver Weapons]]
+{{Weapons Navbox}}
+[[Category:Silver weapons]]

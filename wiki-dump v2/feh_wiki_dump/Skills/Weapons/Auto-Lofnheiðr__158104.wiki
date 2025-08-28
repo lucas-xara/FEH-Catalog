@@ -1,0 +1,87 @@
+{{Weapon Infobox
+|tagid=SID_機斧ロヴンヘイズ
+|intID=2755
+|image=wep_ax098
+|exclusive=1
+|weaponType=Axe
+|cost=400
+|might=16
+|range=1
+|effect=Grants Atk+3. Enables【Canto (３)】during turns 1 through 4. If unit initiates combat or is within 2 spaces of an ally, grants Atk+6 to unit during combat, inflicts Atk-6 on foe during combat, and unit makes a guaranteed follow-up attack.<br><br>【Canto (３)】<br>After an attack, Assist skill, or structure destruction, unit can move ３ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|statModifiers=0,19,0,0,0
+|required=Silver Axe
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Atk+3.<br><br>Enables【Canto (３)】during turns 1 through 4.<br><br>If unit initiates combat or is within 2 spaces of an ally, grants Atk+6 to unit, inflicts Atk-6 on foe, unit makes a guaranteed follow-up attack, and foe cannot make a follow-up attack during combat, and also, when unit's Special triggers, neutralizes foe's "reduces damage by X%" effects from foe's non-Special skills (excluding area-of-effect Specials).<br><br>【Canto (３)】<br>After an attack, Assist skill, or structure destruction, unit can move ３ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|refineStatsSkill1=3,0,0,0,0
+|effectSkill1=At start of turn, if unit's HP ≥ 25%, grants "unit cannot be slowed by terrain (does not apply to impassable terrain)" and【Incited】to unit and allies within 2 spaces of unit for 1 turn.<br><br>At start of combat, if unit's HP ≥ 25%, grants Atk/Def/Res+5 to unit, inflicts penalty on foe's Atk/Def = current bonus on each of foe's stats × 2 (calculates each stat penalty independently), and deals damage = 20% of unit's Def during combat (excluding area-of-effect Specials).<br><br>【Incited】<br>If unit initiates combat, grants bonus to unit's Atk/Spd/Def/Res = number of spaces from start position to end position of unit during combat (max 3; that turn only).
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Atk|3}}
+|s1 Me={{Eft|Canto|3}}
+|s1 MeC=On turns 1 - 4
+|s1 Ce1={{Eft|Temporary buffs|Atk|6}}
+|s1 Ce2={{Eft|Guaranteed Follow-Ups}}
+|s1 Ce3={{Eft|Temporary debuffs|Atk|6}}
+|s1 Ce3T={{Tgt|Foe}}
+|s1 CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Atk|3}}
+|s2 Me={{Eft|Canto|3}}
+|s2 MeC=On turns 1 - 4
+|s2 Ce1={{Eft|Temporary buffs|Atk|6}}
+|s2 Ce2={{Eft|Guaranteed Follow-Ups}}
+|s2 Ce3={{Eft|Temporary debuffs|Atk|6}}
+|s2 Ce4={{Eft|Prevent Follow-Ups}}
+|s2 Ce5={{Eft|Neutralize Damage Reduction}} per<br>{{Tgt|Unit}}'s [[offensive Special]]
+|s2 Ce3-5T={{Tgt|Foe}}
+|s2 CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|skill3={{Si|Auto-Lofnheiðr|refine=Skill1}} Skill refine effects
+|s3 Se1={{SEt|Traverse Terrain}}
+|s3 Se2={{SEt|Incited}}
+|s3 SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|s3 SeC=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25%
+|s3 Ce1={{Eft|Temporary buffs|Atk/Def/Res|5}}
+|s3 Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Def}}
+|s3 Ce3={{Eft|Temporary debuffs|Atk/Def|2 x {{SEt|bonuses}} on<br>each of {{Tgt|Foe}}'s stats}}
+|s3 Ce3T={{Tgt|Foe}}
+|s3 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Canto|3}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Temporary debuffs}}
+{{Guaranteed follow-up interaction}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Prevent follow-up|name=Refined Auto-Lofnheiðr}}
+{{DamageReductionNeutralization|name=Refined Auto-Lofnheiðr}}
+{{TemporaryDebufffromBonus|source=the foe|name={{St|Auto-Lofnheiðr|refine=Skill1}}}}
+{{DamageBoost|name={{St|Auto-Lofnheiðr|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{NorseMyth|name=Lofnheiðr|is a dwarf who was a daughter of the dwarf king [[Hreiðmarr]], and a sister of [[Reginn]], [[Ótr]], [[Fáfnir]], and [[Lyngheiðr]].}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=機斧ロヴンヘイズ
+|german=Mech. Lofnheiðr
+|spanishEU=Auto-Lofnheiðr
+|spanishLA=Auto-Lofnheiðr
+|french=Lofnheiðr auto.
+|italian=Auto-Lofnheiðr
+|chineseTW=機斧洛芬赫茲
+|portuguese=Lofnheiðr autom.
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【Canto (３)】%' OR Description LIKE '%Canto%during turns 1 through 4%' OR Description LIKE '%inflicts penalty%Atk/Def%current bonus%'}}
+{{Weapons Navbox}}

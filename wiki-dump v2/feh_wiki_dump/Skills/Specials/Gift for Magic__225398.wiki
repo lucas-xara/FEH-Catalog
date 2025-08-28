@@ -1,0 +1,57 @@
+{{Special
+|tagid=SID_天与の魔才
+|intID=4432
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=2
+|effect=Before combat this unit initiates, foes in an area near target take damage equal to (unit's Atk minus foe's Def or Res).<br><br>Disables unit's and foe's skills that change attack priority.<br><br>If unit's Special is triggered before combat, reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials).<br><br>If unit's or foe's Special is ready or triggered before or during this combat, reduces damage from foe's next attack by 40% (once per combat; excluding area-of-effect Specials).
+|required=Blazing Flame
+|properties=random_owner,aoe_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Damage|{{Tgt|Unit}}'s Atk<br>- {{Tgt|Foe}}'s Def/Res}}
+|MeT={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[adjacent]] to {{Tgt|Target Foe}}
+|MeC=Special triggered<br>before combat
+|Ce1={{Eft|Hardy Bearing}}
+|Ce1T={{Tgt|Unit}} '''&''' {{Tgt|Foe}}
+|Ce2={{Eft|Reduce Damage Reduction|50%}}
+|Ce2T={{Tgt|Foe}}
+|Ce2C=Special triggered<br>before combat
+|Ce3={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s next attack
+|Ce3C={{Tgt|Unit}} or {{Tgt|Foe}}'s<br>Special is ready '''or'''<br>triggered before or<br>during combat 
+}}
+==Notes==
+{{AoE Special notes}}
+* Gift for Magic has the same effect as {{St|Hardy Bearing 3}}.
+{{PriorityNeutralization}}
+{{Reduce Damage Reduction}}
+{{DamagePercentageReduction}}
+{{Main|Area-of-effect Specials}}
+{|class="wikitable default mw-collapsible" style="text-align:center"
+!Example of Area-of-effect for Gifted Magic
+|-
+|align="middle"|{{AoE|special=1
+|-----
+|--x--
+|-xtx-
+|--x--
+|-----
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+{{Specials Navbox}}

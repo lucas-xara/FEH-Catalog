@@ -1,0 +1,69 @@
+{{#invoke:NameAbout|main|Name=Zephiel}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Zephiel
+|Title=Winter's Crown
+|WeaponType=Red Sword
+|Origin=Fire Emblem: The Blazing Blade
+|Gender=Male
+|MoveType=Armored
+|actorJP=遠藤淳
+|actorEN=Taylor Henry
+|artist=藤坂公彦
+|additionDate=December 16, 2019
+|releaseDate=December 16, 2019
+|TagID=冬祭若ゼフィール
+|InternalID=462
+|Properties=special,hat,tiara,specRate_202302
+|cv1=6
+|cv2=900100
+|description=The wise prince of Bern. Attending the winter festival to expand his horizons. Appears in Fire Emblem: The Blazing Blade.
+}}
+{{Stats Page
+|Lv1HP=22|Lv1ATK=10|Lv1SPD=4|Lv1DEF=8|Lv1RES=12
+|GRHP=60|GRATK=65|GRSPD=35|GRDEF=70|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Bellringer
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Bellringer+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Glacies
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Vengeful Fighter 1
+|passiveB2=Vengeful Fighter 2
+|passiveB3=Vengeful Fighter 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Def/Res Gap 1
+|passiveC2=Def/Res Gap 2
+|passiveC3=Def/Res Gap 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Christmas units]]

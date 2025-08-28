@@ -1,0 +1,50 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_ウイングソード
+|weaponType=Sword
+|weaponName=Wing Sword
+|might=16
+|range=1
+|effectiveness=armored,cavalry
+|effect=Effective against armored and cavalry foes.
+|cost=400
+|exclusive=1
+|userVersion1=Weapon|userVersion2=Upgrade Gleam|statModifiers=0,16,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If unit's Spd > foe's Spd, grants Special cooldown charge +1 per unit's attack. (Only highest value applied. Does not stack.)
+|iconSkill1=Flashing Blade W.png
+|tagidExtraSkill1=柔
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|armored,cavalry}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+* {{St|Wing Sword|refine=Skill1}} has the same effect as {{St|Flashing Blade 3}}.
+{{CooldownChargePlus|perAttack=unit}}
+
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+* {{PAGENAME}} is a reference to [[Caeda|Caeda's]] [[FireEmblemWikia:Wing Spear|Wing Spear]] in {{FE|11}}.
+==In other languages==
+{{OtherLanguages
+|japanese=ウイングソード
+|german=Flügelschwert
+|spanishEU=Espada viento
+|spanishLA=Espada alada
+|french=Épée ailée
+|italian=Spada alata
+|chineseTW=羽翼之劍
+|portuguese=Espada alada
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If unit_s ___ > foe_s ___, grants Special cooldown charge +1 per unit_s attack%' OR WeaponEffectiveness='armored,cavalry'}}
+* [[Weapons that are effective against armored foes]]
+* [[Weapons that are effective against cavalry foes]]
+{{Weapons Navbox}}

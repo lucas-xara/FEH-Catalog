@@ -1,0 +1,28 @@
+{{Captain Skill
+|name=Earth Rendering
+|effect=At the start of turns 2-4, if your captain is in the Capture Area, the Capture Area will move one space closer to your team. (Red: moves up. Blue: moves down.)
+|statModifiers=
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|MapEffect=Capture Area moves 1 space<br>closer to {{SkillTargetText|Player}}'s team<br>(<span style="color:#CC0018">Red: moves up.</span> <span style="color:#60C0F0">Blue: moves down.</span>)
+|MapEffect Targets={{SkillTargetText|Captain}}
+|MapEffect Conditions=At start of turns 2-4<br>if {{SkillTargetText|Captain}} is in<br>the Capture Area
+}}
+
+==Notes==
+* If your Captain and your opponent's Captain are equipped with Earth Rendering and are in the Capture Area, the Capture Area will not move.
+==In other languages==
+{{OtherLanguages
+|english=Earth Rendering
+|japanese=震天動地
+|german=Erderschütterung
+|spanishEU=Corrimiento
+|spanishLA=Desplazamiento
+|french=Mouv. terrestre
+|italian=Riposizionamento
+|chineseTW=震天動地
+|portuguese=Move terra
+}}
+{{Captain Skills Navbox}}

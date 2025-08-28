@@ -1,0 +1,50 @@
+{{Weapon Infobox
+|tagid=SID_風神雷神弓
+|intID=3616
+|userVersion1=Bow
+|userVersion2=Bow Glow
+|userVersion3=Arrow
+|userVersion4=Gleam
+|exclusive=1
+|weaponType=Bow
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effectiveness=Armored,Flying
+|effect=Enables【Canto (１)】.<br><br>Accelerates Special trigger (cooldown count-1). Effective against flying and armored foes. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+6 to unit, deals damage = 20% of unit's Spd (including when dealing damage with a Special triggered before combat), and neutralizes effects that prevent unit's follow-up attacks during combat, and also, if unit has weapon-triangle advantage or unit's Spd > foe's Spd, foe cannot counterattack.<br><br>【Canto (１)】<br>After an attack, Assist skill, or structure destruction, unit can move １ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|required=Silver Bow
+|properties=random_owner
+}}
+==Notes==
+{{Canto|1}}
+{{Effective damage bonus|flying,armored}}
+{{Temporary buffs}}
+{{DamageBoost}}
+{{Follow-up effect neutralization|preventOnly=1}}
+{{WTA}}
+{{Prevent counterattacks}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+File:Wep bw102.webp|Spritesheet of '''Fujin-Raijin Yumi'''
+File:Wep bw102.gif|Animated bow
+File:Wep ar102.webp|Spritesheet of '''Fujin-Raijin Yumi''''s arrow
+File:Wep ar102.gif|Animated arrow
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=風神雷神弓
+|german=Fujin-Raijin Yumi
+|spanishEU=Yumi Fujin-Raijin
+|spanishLA=Yumi Fujin-Raijin
+|french=Yumi Fujin-Raijin
+|italian=Fujin-Raijin Yumi
+|chineseTW=風神雷神弓
+|portuguese=Yumi Fujin-Raijin
+}}
+==See also==
+{{See also skills|cond=WikiNAME LIKE '%fujin yumi%' OR WikiNAME LIKE '%raijinto%' OR (Description LIKE '%unit%has weapon%triangle advantage%' AND Description NOT LIKE '%boosts Atk%' OR Description LIKE '%unit_s Spd%foe_s Spd%foe cannot counterattack%') AND Exclusive='1'}}
+* [[Skill families/B Passives#Sweep|Sweep Passives]]
+{{Weapons Navbox}}

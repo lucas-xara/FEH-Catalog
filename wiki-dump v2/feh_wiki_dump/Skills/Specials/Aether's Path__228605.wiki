@@ -1,0 +1,46 @@
+{{Special
+|tagid=SID_蒼炎の天空
+|intID=4541
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=4
+|effect=When Special triggers, boosts damage by 75% of the greater of foe's Spd or Def and restores 50% of unit's maximum HP.<br><br>Neutralizes effects that inflict "Special cooldown charge -X" on unit, reduces the effect of【Deep Wounds】by 50%, neutralizes effects that prevent unit's counterattacks, and reduces damage from attacks by X% during combat (X = 50 - current Special cooldown count value × 10, but if unit's Special triggered during this combat, X = 50).<br><br>【Deep Wounds】<br>Unit's HP cannot be healed through its next action.
+|required=Sol;Luna
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Damage Boost|75% of the greater<br>of {{Tgt|Foe}}'s Spd/Def}}
+|Ce2={{Eft|Heal|50% of {{Tgt|Unit}}'s max HP}}
+|Ce1-2C=Special triggers
+|Ce3={{Eft|Neutralize Guard}}
+|Ce4={{Eft|Reduce Deep Wounds|50%}}
+|Ce5={{Eft|Neutralize Prevent Counter}}
+|Ce6={{Eft|Damage Reduction|50 - {{Tgt|Unit}}'s current<br>Special CD x 10|percent=1}}*<br>from {{Tgt|Foe}}'s attacks
+}}
+<b>{{Hatnote|* If {{Tgt|Unit}} triggered special, X is treated as 50.}}</b>
+==Notes==
+* Aether's Path has the same effect as {{St|Null C-Disrupt 3}}.
+{{DamageBoost}}
+{{CombatHPRecovery|DWreduction=50}}
+{{CooldownChargeMinusNeutralization}}
+{{Counterattack prevention neutralization}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%reduces damage from%-% current Special cooldown count value%' OR Description LIKE '%reduces the effect of【Deep Wounds】%') AND Exclusive='1' OR SCategory='special' AND (Description LIKE '%greater of foe_s%' OR Description LIKE '%of unit_s max%HP%')}}
+{{Specials Navbox}}

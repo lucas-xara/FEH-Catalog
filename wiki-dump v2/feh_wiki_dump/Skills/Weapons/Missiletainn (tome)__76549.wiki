@@ -1,0 +1,43 @@
+{{About|the tome called Missiletainn|the sword Missiletainn|Missiletainn (sword)|the sword Mystletainn|Mystletainn}}{{Weapon Infobox
+|tagid=SID_魔書ミステルトィン
+|wikiName=Missiletainn tome
+|weaponType=Blue Tome
+|weaponName=Missiletainn
+|might=14
+|range=2
+|effect=Accelerates Special trigger (cooldown count-1). At the start of turn 1, grants Special cooldown count-1 to unit for each magic ally on your team (including unit).
+|cooldown=-1
+|cost=400
+|exclusive=1
+|userVersion1=Closed
+|userVersion2=Open
+|statModifiers=0,14,0,0,0
+|required=Shine
+|properties=random_owner
+}}
+==Notes==
+{{Start of turn Special modification}}
+{{TermRefersTo|Magic}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+v2.9_60_if02_Mag.png|Sprite sheet for {{St|Breath of Blight}} and Missiletainn's animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|english=Missiletainn
+|japanese=魔書ミステルトィン
+|german=Mystelstein
+|spanishEU=Misilteinn
+|spanishLA=Misilteinn
+|french=Miserteinn
+|italian=Misseltein
+|chineseTW=魔書米斯特丁
+|portuguese=Missiletainn
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Name LIKE '%M%letainn%' OR Description LIKE '%start of turn%grants Special cooldown count-1 to unit%') AND (Exclusive=1 AND Name NOT LIKE '%+')}}
+{{Weapons Navbox}}

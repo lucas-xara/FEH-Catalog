@@ -1,0 +1,85 @@
+{{Weapon Infobox
+|tagid=SID_王斧グリトニル
+|intID=4289
+|userVersion1=Weapon
+|userVersion2=Gleam
+|exclusive=1
+|weaponType=Axe
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Enables【Canto (Dist. +1; Max ４)】.<br>Accelerates Special trigger (cooldown count-1).<br><br>At start of turn, if there is an ally within 3 rows or 3 columns centered on unit, grants Def/Res+6 to unit for 1 turn and unit can move 1 extra space (that turn only; does not stack), and also, if unit's Special cooldown count is at its maximum value, grants Special cooldown count-1.<br><br>If unit initiates combat or if there is an ally within 3 rows or 3 columns centered on unit, grants Def/Res+X to unit, inflicts Def/Res-X on foe (X = 5 + number of allies within 3 rows or 3 columns centered on unit × 3; max 14), deals damage = 10% of unit's Def (excluding area-of-effect Specials), and reduces damage from foe's attacks by 10% of unit's Def during combat (excluding area-of-effect Specials), and also, when Special triggers, neutralizes foe's "reduces damage by X%" effects from foe's non-Special skills (excluding area-of-effect Specials).<br><br>If unit initiates combat or if there is an ally within 3 rows or 3 columns centered on unit, after combat, if unit's Special cooldown count is at its maximum value, grants Special cooldown count-1.<br><br>【Canto (Dist. +1; Max ４)】<br>After an attack, Assist skill, or structure destruction, unit can move spaces = number of spaces from start position to end position of unit before the above, +1. (Max ４.)<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|required=Silver Axe
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Me1={{Eft|Canto|Dist. +1; Max 4}}
+|Me2={{Eft|Reduce Cooldown|1}}
+|Me2C=At start of turn if<br>an {{Tgt|Ally}} is within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}<br>'''&''' {{Tgt|Unit}}'s CD<br>is max value
+|Me3={{Eft|Reduce Cooldown|1}}
+|Me3C=After combat in<br>Player Phase '''or'''<br>an {{Tgt|Ally}} is within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}<br>'''&''' {{Tgt|Unit}}'s CD<br>is max value
+|Se1={{Eft|Bonuses|Def/Res|6}}
+|Se2={{SEt|Mobility Increased}}
+|Se1-2C=At start of turn if<br>an {{Tgt|Ally}} is within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|Ce1={{Eft|Temporary buffs|Def/Res|3 x {{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}, + 5|max=14}}
+|Ce2={{Eft|Temporary debuffs|Def/Res|3 x {{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}, + 5|max=14}}
+|Ce3={{Eft|Neutralize Damage Reduction}}<br>per {{Tgt|Unit}}'s [[offensive Special]]
+|Ce2-3T={{Tgt|Foe}}
+|Ce4={{Eft|Damage Boost|10% of {{Tgt|Unit}}'s Def}}
+|Ce5={{Eft|Damage Reduction|10% of {{Tgt|Unit}}'s Def}}
+|Ce4-5T={{Tgt|Unit}}
+|CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+}}
+
+==Notes==
+{{Canto|Dist. +1; Max 4}}
+{{Bonuses}}
+{{Mobility increased}}
+{{Start of turn Special modification}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Temporary debuffs}}
+{{DamageBoost}}
+{{FlatDamageReduction}}
+{{DamageReductionNeutralization}}
+{{After combat Special modification}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Alfonse: Heir to Openness|t=Veronica: Brave Princess
+|---xxx---
+|---xxx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xtx---
+|---xxx---
+}}
+|}
+
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{NorseMyth|name=Glitnir|is the hall of [[Wikipedia:Forseti|Forseti]], the Norse god of justice.}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=王斧グリトニル
+|german=Königs-Glitnir
+|spanishEU=Glitnir regio
+|spanishLA=Glitnir regio
+|french=Glitnir royale
+|italian=Glitnir maestosa
+|chineseTW=王斧格利特尼爾
+|portuguese=Glitnir majestoso
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=WikiName LIKE '%Glitnir%' OR Description LIKE '%【Canto (Dist. +1; Max ４)】%' OR Description LIKE '%deals damage%reduces damage%of unit_s Def%' AND Exclusive='1'}}
+{{Weapons Navbox}}

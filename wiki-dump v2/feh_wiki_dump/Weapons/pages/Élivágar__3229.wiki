@@ -1,0 +1,42 @@
+{{Weapon Infobox
+|tagid=SID_エリヴァーガル
+|weaponType=Green Tome
+|might=14
+|range=2
+|effect=If unit initiates combat, converts bonuses on foes within 2 spaces of target into penalties through their next actions.
+|cost=400
+|exclusive=1
+|userVersion1=Closed
+|userVersion2=Open
+|statModifiers=0,14,0,0,0
+|required=Rexcalibur
+|SE=se_effect_poison.flac
+|properties=enemy_only
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se={{SEt|Panic}}
+|SeT={{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|SeC=Player Phase
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Panic}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{NorseMyth|refers to the rivers that existed in [[Wikipedia:Ginnungagap|Ginnungagap]] ("the Primordial Void"). These rivers were filled to the brim with poisons that eventually froze over. When the rivers flooded and overflowed, with the help of [[Wikipedia:Niflheim|Niflheim]] ("the World of Ice and Darkness"), the toxins appeared as rain and filled the void. The toxins are said to have flowed in [[Wikipedia:Hvergelmir|Hvergelmir]], one of the major springs, the assumed source of all water, and home to the dragon [[Wikipedia:Nidhogg|Nidhogg]] and plenty other serpents.}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=エリヴァーガル
+|german=Élivágar
+|spanishEU=Élivágar
+|spanishLA=Élivágar
+|french=Élivágar
+|italian=Élivágar
+|chineseTW=冰之波
+|portuguese=Élivágar
+}}
+{{Weapons Navbox}}
+{{DEFAULTSORT:Elivagar}}

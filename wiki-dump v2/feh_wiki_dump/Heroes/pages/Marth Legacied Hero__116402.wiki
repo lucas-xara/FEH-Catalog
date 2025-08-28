@@ -1,0 +1,75 @@
+{{#invoke:NameAbout|main|Name=Marth}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Marth
+|Title=Legacied Hero
+|WeaponType=Red Sword
+|Origin=Fire Emblem: Mystery of the Emblem
+|Gender=Male
+|MoveType=Infantry
+|actorJP=小林ゆう
+|actorEN=Yuri Lowenthal
+|artist=ワダサチコ
+|additionDate=April 20, 2020
+|releaseDate=April 20, 2020
+|TagID=幼少マルス
+|InternalID=512
+|Properties=special
+|cv1=1
+|cv2=100100
+|description=Prince of Altea and inheritor of the Hero Anri's blade, as well as the duty it represents. Great-grandson of Marcelus. Appears in Fire Emblem: Mystery of the Emblem.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=8|Lv1SPD=9|Lv1DEF=8|Lv1RES=7
+|GRHP=50|GRATK=65|GRSPD=65|GRDEF=55|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Rapier
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Brilliant Rapier
+|weapon5Default=
+|weapon5Unlock=5
+}}
+===Assists===
+{{Assists Table
+}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Draconic Aura
+|special2Default=
+|special2Unlock=4
+|special3=Hero's Blood
+|special3Default=
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Chill Def 1
+|passiveB2=Chill Def 2
+|passiveB3=Chill Def 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Spd/Def Oath 1
+|passiveC2=Spd/Def Oath 2
+|passiveC3=Spd/Def Oath 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Childhood units]]

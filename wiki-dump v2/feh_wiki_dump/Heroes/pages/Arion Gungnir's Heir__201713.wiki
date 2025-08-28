@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Arion}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Arion
+|Title=Gungnir's Heir
+|WeaponType=Blue Lance
+|MoveType=Flying
+|Origin=Fire Emblem: Genealogy of the Holy War
+|Gender=Male
+|actorEN=Dio Garner
+|actorJP=喜屋武和輝
+|artist=motsutsu
+|artist-extra=Trys Inc.
+|additionDate=September 15, 2023
+|releaseDate=September 16, 2023
+|cv1=3
+|cv2=9100200
+|TagID=アリオーン
+|InternalID=1002
+|Properties=limited,ghb
+|description=Prince of Thracia, land of wyvern knights. Son of King Travant, he has been entrusted with his homeland's future. Appears in Fire Emblem: Genealogy of the Holy War.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=10|Lv1SPD=12|Lv1DEF=7|Lv1RES=8
+|GRHP=55|GRATK=80|GRSPD=55|GRDEF=90|GRRES=30
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Lance
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Heired Gungnir
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=4
+|special1Unlock=3
+|special2=Ignis
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Def Catch 1
+|passiveA2=Atk/Def Catch 2
+|passiveA3=Atk/Def Catch 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=Wyvern Flight 1
+|passiveB2=Wyvern Flight 2
+|passiveB3=Wyvern Flight 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+{{Heroes Navbox}}

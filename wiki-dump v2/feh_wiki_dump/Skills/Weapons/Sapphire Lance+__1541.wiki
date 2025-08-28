@@ -1,0 +1,35 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_蒼海の槍＋
+|weaponType=Lance
+|might=12
+|range=1
+|effect=If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%.
+|cost=300
+|exclusive=0
+|statModifiers=0,12,0,0,0
+|properties=random_all
+}}
+==Notes==
+* Has the same effect as {{St|Triangle Adept 3}}.
+{{WTA boost}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=蒼海の槍＋
+|german=Saphirlanze+
+|spanishEU=Lanza zafiro +
+|spanishLA=Lanza zafiro +
+|french=Lance saphir +
+|italian=Lancia zaffiro+
+|chineseTW=蒼海之槍＋
+|portuguese=Lança de safira+
+}}
+==See also==
+* [[Fólkvangr]]
+*[[Tome of Order]]
+* [[Trilemma]]([[Trilemma+|+]])
+* [[Gem Weapons]]
+{{Weapons Navbox}}
+[[Category:Gem weapons]]

@@ -1,0 +1,37 @@
+{{Weapon Infobox
+|tagid=SID_夢の王の角
+|intID=3703
+|exclusive=1
+|weaponType=Beast
+|canUseMove=Cavalry
+|cost=400
+|might=14
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of combat, if unit's HP ≥ 25%, inflicts Atk/Def-X on foe (X = 50% of highest total bonuses among unit and allies within 3 spaces of unit +6), unit makes a guaranteed follow-up attack during combat, and reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by 30%. At start of turn, if unit is adjacent to only beast or dragon allies or is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 to unit, inflicts Atk/Def-X on foe during combat (X = number of spaces from start position to end position of whoever initiated combat + 3; max 6), and also, if X ≥ 5, reduces damage from foe's first attack by 30% during combat.
+|required=Adult (Cavalry)
+|properties=random_owner
+}}
+==Notes==
+{{TemporaryDebufffromBonus|source=the unit or ally with the highest bonus|percent=50%}}
+{{Guaranteed follow-up interaction}}
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+{{Beast (Cavalry)}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=夢の王の角
+|german=Traumhorn
+|spanishEU=Cuerno de sueño
+|spanishLA=Cuerno de sueño
+|french=Cor rêve
+|italian=Corno da sogno
+|chineseTW=夢之王之角
+|portuguese=Berrante sonho
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%inflict%on foe%highest total bonuses%' OR Description LIKE '%reduces damage from attacks during combat and from area-of-effect specials (excluding Røkkr area-of-effect Specials) by _0%' OR Description LIKE '%reduces damage from attacks during combat and from area-of-effect specials by%'}}
+{{Weapons Navbox}}

@@ -1,0 +1,69 @@
+{{Weapon Infobox
+|tagid=SID_魔器・紋章石
+|intID=4714
+|noImg=1
+|exclusive=0
+|weaponType=Beast
+|canUseMove=Armored
+|cost=300
+|might=14
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>If foe initiates combat or if unit's HP ≥ 25% at start of combat, grants bonus to unit's Atk/Spd/Def/Res = 25% of foe's Atk at start of combat - 4 (max 14; min 5), neutralizes penalties on unit, deals damage = 15% of unit's Atk (including area-of-effect Specials), reduces damage from foe's attacks by 15% of unit's Atk (including area-of-effect Specials; excluding Røkkr area-of-effect Specials), and grants Special cooldown count-1 to unit before unit's first attack during combat.<br><br>At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and unit can counterattack regardless of foe's range.
+|required=Adult (Armored)
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=200
+|properties=arcane,random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe1={{Eft|Accelerates Special}}
+|Pe2={{Eft|Stat Boosts|Atk|2}}
+|PeC2={{Tgt|Unit}} is transformed
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|25% of {{Tgt|Foe}}'s Atk<br>at start of combat, -4|min=5|max=14}}
+|Ce2={{Eft|Damage Boost|15% of {{Tgt|Unit}}'s Atk}}<br>before '''&''' during combat
+|Ce3={{Eft|Damage Reduction|15% of {{Tgt|Unit}}'s Atk}}<br>from {{Tgt|Foe}}'s attacks<br>& Non-Røkkr [[AoE Specials]]
+|Ce4={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Unit}}'s first attack
+|Ce1-4C=Enemy Phase '''or'''<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce5={{Eft|Distant Counter}}
+|Ce5C={{Tgt|Unit}} is transformed
+|Me={{Eft|Transform}}
+|Me3C=At start of turn if<br>{{Tgt|Unit}} is [[adjacent]] to only<br>{{Cwti|group=1|Dragon,Beast}} [[Dragon]]/[[Beast]]<br>{{Tgt|Allies}} '''or''' not [[adjacent]]<br>to any {{Tgt|Ally}}
+}}
+
+==Notes==
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+{{At start of combat}}
+{{AtkDamageBoost}}
+{{FlatDamageReduction}}
+{{FlatAoEDamageReduction}}
+{{CombatCooldownCount|-1}}
+{{Beast (Armored)}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%deals damage%=%of unit_s Atk%(including when dealing damage%' OR Description LIKE '%reduces damage from foe_s attacks by ___ of unit_s Atk%') AND Exclusive='1'}}
+{{Weapons Navbox}}

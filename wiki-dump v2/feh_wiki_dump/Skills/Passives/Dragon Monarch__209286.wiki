@@ -1,0 +1,51 @@
+{{Passive
+|name=Dragon Monarch
+|type=C
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Dragon Monarch
+|1tagid=SID_リトスの神竜王
+|1effect=After unit acts (if Canto triggers, after Canto), applies【Divine Vein (Stone)】to spaces within 5 rows and 5 columns centered on unit for 1 turn. Grants Atk/Spd/Def/Res+4 to allies within 5 rows and 5 columns centered on unit and neutralizes effects that inflict "Special cooldown charge -X" on those allies during combat. If there is an ally within 5 rows and 5 columns centered on unit, grants Atk/Spd/Def/Res+4 to unit, reduces damage from attacks by 30% (excluding area-of-effect Specials), and neutralizes effects that inflict "Special cooldown charge -X" on unit during combat.<br><br>【Divine Vein (Stone)】<br>Applies the following effects on space for unit and allies: Grants Def/Res+6 during combat, reduces damage from foe's Specials by 10 during combat (excluding area-of-effect Specials), and reduces damage from area-of-effect Specials by 50% (excluding Røkkr area-of-effect Specials). (Divine Vein effects do not stack; replaces any existing Divine Vein effect; Divine Vein effects applied simultaneously cancel each other out. Does not count as defensive terrain.)
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Divine Vein (Stone)}}
+|MeT=Spaces in a [[5x5 area]]<br>centered on {{Tgt|Unit}}
+|MeC=After {{Tgt|Unit}}'s<br>action(s) '''or''' after<br>[[Canto]] movement
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|Ce2={{Eft|Neutralize Guard}}
+|CeT1-2={{Tgt|Allies}} in a [[5x5 area]]<br>centered on {{Tgt|Unit}}
+|Ce3={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|Ce4={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s attacks
+|Ce5={{Eft|Neutralize Guard}}
+|CeT3-5={{Tgt|Unit}}
+|CeC3-5=An {{Tgt|Ally}} is in a<br>[[5x5 area]] centered<br>on {{Tgt|Unit}}
+}}
+
+==Note==
+{{Divine Vein|Stone}}
+{{Temporary buffs}}
+{{CooldownChargeMinusNeutralization}}
+{{AlliesCombatEffect|effect=temporary buffs and "Special cooldown charge -X" neutralization effects}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=リトスの神竜王
+|german=Wyrmgottkönigin
+|spanishEU=Dragón Divino
+|spanishLA=Dragón Divino
+|french=Reine drac. divine
+|italian=Regina dei Draghi
+|chineseTW=里特司的神龍王
+|portuguese=Dragão monarca
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants%to allies within%rows%columns%centered on unit%' OR Description LIKE '%【Divine Vein (Stone)】%' AND Exclusive='1'}}
+* [[Joint Drive Passives]]
+{{Passives Navbox|C}}

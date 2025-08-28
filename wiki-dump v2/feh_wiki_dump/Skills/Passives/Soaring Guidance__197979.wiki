@@ -1,0 +1,38 @@
+{{Passive
+|name=Soaring Guidance
+|type=C
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|Flying}}
+|properties=random_inherit_base,random_owner
+|1name=Soaring Guidance
+|1tagid=SID_飛走の先導4
+|1effect=Infantry and flying allies within 2 spaces of unit can move to a space within 2 spaces of unit. Grants Atk/Spd+3 to infantry and flying allies within 2 spaces of unit during combat, and also, if those allies' Spd > foe's Spd, neutralizes effects that prevent those allies' follow-up attacks during combat.
+|1cost=300
+|1required=Flier Guidance 3
+}}
+==Notes==
+{{Warp interaction}}
+{{Temporary buffs}}
+{{Follow-up effect neutralization|preventOnly=1}}
+{{AlliesCombatEffect}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=飛走の先導
+|german=Gleitführung
+|spanishEU=Guía alada
+|spanishLA=Guía alada
+|french=Regroup. aérien
+|italian=Guida plananti
+|chineseTW=飛走前導
+|portuguese=Guia alada
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%allies within 2 spaces can move%' OR Description LIKE '%allies_ Spd > foe_s Spd%neutralizes effects%prevent%follow-up attack%' AND Description NOT LIKE '%at start of turn%'}}
+{{Passives Navbox|C}}

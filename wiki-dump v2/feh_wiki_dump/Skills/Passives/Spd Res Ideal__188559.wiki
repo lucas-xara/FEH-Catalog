@@ -1,0 +1,71 @@
+{{Passive
+|type=A
+|name=Spd/Res Ideal
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|Infantry,Armored}}
+|properties=random_owner
+|1name=Spd/Res Ideal 1
+|alt1name=Spd Res Ideal 1
+|1tagid=SID_速さ魔防の万全1
+|1cost=60
+|1effect=At start of combat, if unit's HP = 100% or if【Bonus】is active on unit, grants Spd/Res+3 to unit during combat.<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|1required=-
+|1promotionRarity=4
+|1promotionTier=1
+|2name=Spd/Res Ideal 2
+|alt2name=Spd Res Ideal 2
+|2tagid=SID_速さ魔防の万全2
+|2cost=120
+|2effect=At start of combat, if unit's HP = 100% or if【Bonus】is active on unit, grants Spd/Res+4 to unit during combat.<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|2promotionRarity=5
+|2promotionTier=1
+|3name=Spd/Res Ideal 3
+|alt3name=Spd Res Ideal 3
+|3tagid=SID_速さ魔防の万全3
+|3cost=240
+|3effect=At start of combat, if unit's HP = 100% or if【Bonus】is active on unit, grants Spd/Res+5 to unit during combat.<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|3next=-
+|4name=Spd/Res Ideal 4
+|alt4name=Spd Res Ideal 4
+|4tagid=SID_速さ魔防の万全4
+|4cost=300
+|4effect=At start of combat, if unit's HP = 100% or if【Bonus】is active on unit, grants Spd/Res+7 to unit during combat. At start of combat, if unit's HP = 100% and【Bonus】is active on unit, grants an additional Spd/Res+2 to unit during combat.<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+}}
+==Notes==
+{{Temporary buffs}}
+{{EffectfromBonus}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Spd/Res Ideal 1;Spd/Res Ideal 2;Spd/Res Ideal 3
+|badgeColor=Transparent
+|costs1=20;100;20
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|english=Spd/Res Ideal
+|japanese=速さ魔防の万全
+|german=Ges./Res.-Ideal
+|spanishEU=Vel/Res ideal
+|spanishLA=Vel./Res. ideal
+|french=Idéal Vit/Rés
+|italian=Vel/Res ideali
+|chineseTW=速度魔防萬全
+|portuguese=Vel./Res. ideal
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit_s HP = 100%grants Spd/Res+%' OR Description LIKE '%if%bonus%active on unit%grants Spd/Res+%during combat%'}}
+* [[Skill families/A Passives#Ideal|Ideal Passives]]
+{{Passives Navbox|A}}
+{{Seals Navbox}}

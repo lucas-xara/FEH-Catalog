@@ -1,0 +1,49 @@
+{{Weapon Infobox
+|tagid=SID_ブラーフォックス
+|userVersion1=Open
+|userVersion2=Closed
+|weaponType=Blue Tome
+|might=8
+|range=2
+|effect=If unit initiates combat, inflicts Atk/Spd/Def/Res-4 on foe during combat.
+|cost=200
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|required=Elthunder;Ellight
+|next=Blárfox+
+|promotionRarity=5
+|promotionTier=1
+|intID=2231
+|sort=7000
+|value=11
+|timingID=1
+|abilityID=97
+|limit1ID=1
+|randomTimestamp=2020-10-18T07:00:00Z
+|randomMinLv=21
+|randomMaxLv=35
+|properties=random_owner
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Combat reductions}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{TomeColorTrivia|Blar}}
+==In other languages==
+{{OtherLanguages
+|english=Blárfox
+|japanese=ブラーフォックス
+|german=Blárfuchs
+|spanishEU=Zorro zarco
+|spanishLA=Zorro añil
+|french=Renard saphir
+|italian=Turchinvolpe
+|chineseTW=蒼藍狐狸
+|portuguese=Blárfox
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If unit initiates combat%inflicts Atk/Spd/Def/Res-_ on foe%during combat%' AND WikiName NOT LIKE '%fox%'|columns=3}}
+* [[Skill families#Fox|Fox Weapons]]
+{{Weapons Navbox}}

@@ -1,0 +1,34 @@
+{{Special
+|tagid=SID_ブルーフレイム
+|charge=3
+|effect=Boosts damage by 10. If unit is adjacent to an ally, boosts damage by 25 instead.
+|cost=500
+|exclusive=0
+|required=Bonfire
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_owner,offensive_special
+}}
+==Notes==
+{{FixedDamage|10/25}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V2.10_62_popularity04_Skl.png|Sprite sheet for {{PAGENAME}}'s animation.
+se effect blueflame.flac|SE
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=ブルーフレイム
+|german=Blaue Flamme
+|spanishEU=Llama azul
+|spanishLA=Llama azul
+|french=Flamme bleue
+|italian=Fiamma blu
+|chineseTW=青之炎
+|portuguese=Chama azul
+}}
+==See also==
+* [[Bond Passives]]
+{{Specials Navbox}}

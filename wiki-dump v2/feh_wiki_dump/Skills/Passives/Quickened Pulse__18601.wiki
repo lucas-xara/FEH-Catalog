@@ -1,0 +1,40 @@
+{{Passive
+|type=S
+|exclusive=0
+|1required=-
+|1name=Quickened Pulse
+|1tagid=SID_奥義の鼓動
+|1effect=At the start of turn 1, grants Special cooldown count-1.
+|1cost=100
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=
+}}
+==Notes==
+{{Start of turn Special modification}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===Sacred Seal Forge===
+{{SealCosts
+|seals=Quickened Pulse
+|badgeColor=Transparent
+|costs1=20;100;20
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=奥義の鼓動
+|german=Erhöhter Puls
+|spanishEU=Pulso acelerado
+|spanishLA=Pulso acelerado
+|french=Pouls accéléré
+|italian=Battito accelerato
+|chineseTW=奧義之躍動
+|portuguese=Pulso acelerado
+}}
+==References==
+<references/>
+==See also==
+* [[Pulse Skills]]
+* [[Weapons that accelerate the Special trigger]]
+{{Seals Navbox}}

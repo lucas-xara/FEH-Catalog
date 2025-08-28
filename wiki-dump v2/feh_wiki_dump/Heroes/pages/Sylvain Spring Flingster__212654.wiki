@@ -1,0 +1,81 @@
+{{#invoke:NameAbout|main|Name=Sylvain}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Sylvain
+|Title=Spring Flingster
+|WeaponType=Blue Lance
+|MoveType=Cavalry
+|Origin=Fire Emblem: Three Houses
+|Gender=Male
+|actorEN=Joe Brogie
+|actorJP=古川慎
+|artist=スエカネクミコ
+|additionDate=March 6, 2024
+|releaseDate=March 7, 2024
+|cv1=12
+|cv2=300500
+|TagID=春祭シルヴァン
+|InternalID=1072
+|Properties=special,hat
+|description=Heir to the title of Margrave Gautier. He has rushed to the spring festival in the hopes of making new acquaintances. Appears in Fire Emblem: Three Houses
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=8|Lv1SPD=12|Lv1DEF=6|Lv1RES=8
+|GRHP=50|GRATK=90|GRSPD=75|GRDEF=60|GRRES=30
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Lance
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Flingster Spear
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Rally Attack
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Rally Atk/Spd
+|assist2Unlock=4
+|assist3=Rally Atk/Spd+
+|assist3Unlock=5
+}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Draconic Aura
+|special2Unlock=4
+|special3=No Quarter
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Clash 1
+|passiveA2=Atk/Spd Clash 2
+|passiveA3=Atk/Spd Clash 3
+|passiveA4=Atk/Spd Clash 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=S/D Near Trace 1
+|passiveB2=S/D Near Trace 2
+|passiveB3=S/D Near Trace 3
+|passiveB4=S/D Near Trace 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Spring Festival units]]

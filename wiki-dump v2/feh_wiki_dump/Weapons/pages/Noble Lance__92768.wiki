@@ -1,0 +1,50 @@
+{{Weapon Infobox
+|tagid=SID_高潔の戦槍
+|weaponType=Blue Lance
+|might=16
+|range=1
+|effect=Grants Atk+3. At start of combat, if both unit's and foe's HP = 100% or if both unit's and foe's HP < 100%, unit makes a guaranteed follow-up attack.
+|cost=400
+|exclusive=1
+|statModifiers=0,19,0,0,0
+|required=Silver Lance
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Atk+3. At start of combat, if unit's HP ≤ 99% or if foe's HP ≥ 75%, grants Atk/Spd/Def/Res+4 to unit during combat and unit makes a guaranteed follow-up attack.
+|tagidExtraSkill1=一
+|effectSkill1=If unit initiates combat or if foe's HP ≥ 75% at start of combat, grants Atk/Spd/Def/Res+4 to unit during combat, deals damage = 10% of unit's Atk, reduces damage from foe's attacks by 10% of unit's Atk (excluding area-of-effect Specials), and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% (example: a foe with a "reduce damage by 45%" skill would reduce damage by 23% instead).
+|iconSkill1=Noble Lance W.png
+|properties=random_owner
+}}
+==Notes==
+{{Guaranteed follow-up interaction}}
+{{Foe's HP not full}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary buffs|name=refined Noble Lance}}
+{{IfUnitInitiates}}
+{{DamageBoost|name={{St|Noble Lance|refine=Skill1}}}}
+{{FlatDamageReduction}}
+{{Reduce Damage Reduction|name={{St|Noble Lance|refine=Skill1}}}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=高潔の戦槍
+|german=Edle Lanze
+|spanishEU=Lanza noble
+|spanishLA=Lanza noble
+|french=Noble lance
+|italian=Lancia nobile
+|chineseTW=高潔戰槍
+|portuguese=Lança nobre
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%if both unit_s and foe_s%' OR Description LIKE '%deals damage%=%of unit_s Atk%' AND Description NOT LIKE '%unit_s Atk minus foe_s%' OR Description LIKE '%reduces damage from foe_s attack by%of unit_s Atk%' OR Description LIKE '%reduces the percentage of foe_s%"reduce damage by X%" skills by%') AND Exclusive='1' AND Name NOT LIKE '%time traveler%'}}
+* [[Null Passives]]
+* [[Skill families/B Passives#Tempo|Tempo Passives]]
+{{Weapons Navbox}}

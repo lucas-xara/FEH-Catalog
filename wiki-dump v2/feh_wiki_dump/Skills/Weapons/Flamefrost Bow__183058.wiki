@@ -1,0 +1,52 @@
+{{Weapon Infobox
+|tagid=SID_炎と氷の王女の輝弓
+|intID=3333
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=1
+|weaponType=Bow
+|cost=400
+|might=8
+|range=2
+|cooldown=-1
+|effectiveness=Flying
+|effect=Accelerates Special trigger (cooldown count-1). Effective against flying foes. Grants Def/Res+5 and inflicts Spd-8 on unit. Unit attacks twice. (Even if foe initiates combat, unit attacks twice.) Grants bonus to unit's Atk/Def/Res during combat = 70% of the highest value between the total bonuses of target and the total bonuses of an ally within 2 spaces of unit.
+|statModifiers=0,8,-8,5,5
+|required=Silver Bow
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{Brave weapon interaction}}
+{{TemporaryBufffromBonus|multiSource=1|bnsSource=the unit|source=the foe or ally|percent=70%}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+wep_bw091.gif|Animated bow
+Weapon Flamefrost Bow.png|Phase 1
+Weapon Flamefrost Bow V3.png|Phase 2
+Weapon Flamefrost Bow V4.png|Phase 3
+Weapon Flamefrost Bow V5.png|Phase 4
+Wep bw091.webp|Sprite sheet
+wep_ar091.gif|Animated arrow
+Weapon Flamefrost Bow V2.png|Phase 1
+Weapon Flamefrost Bow V6.png|Phase 2
+Weapon Flamefrost Bow V7.png|Phase 3
+Wep ar091.webp|Sprite sheet
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=炎と氷の王女の輝弓
+|german=Glutfrost-Bogen
+|spanishEU=Arco llamagélida
+|spanishLA=Arco llamagélida
+|french=Arc givreflamme
+|italian=Arco gelardente
+|chineseTW=炎與冰之公主的輝弓
+|portuguese=Arco chamagelo
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants Def/Res+%inflicts Spd-%unit attacks twice.%' AND (Exclusive='1' OR SP=300) OR Description LIKE '%grants%Atk/%during combat%=%total bonus%' AND Description NOT LIKE '%lower of%' AND Description NOT LIKE '%penalty%'}}
+* [[Brave weapons]]
+{{Weapons Navbox}}

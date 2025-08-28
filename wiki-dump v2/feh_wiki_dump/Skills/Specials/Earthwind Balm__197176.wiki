@@ -1,0 +1,35 @@
+{{Special
+|tagid=SID_疾風大地の祝福
+|intID=3647
+|exclusive=0
+|canUseWeapon={{WeaponList|Colorless Staff}}
+|canUseMove={{MoveList|All}}
+|cost=200
+|cooldown=1
+|effect=When healing an ally with a staff, grants Spd/Def+4 to all allies for 1 turn.
+|required=Swift-Winds Balm;Solid-Earth Balm
+|properties=random_owner
+}}
+==Notes==
+{{Bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=疾風大地の祝福
+|german=Erdwindbalsam
+|spanishEU=Terrabálsamo
+|spanishLA=Terrabálsamo
+|french=Baume purifiant
+|italian=Balsamo t./v.
+|chineseTW=疾風大地的祝福
+|portuguese=Aerobálsamo
+}}
+==See also==
+* [[Skill families/Specials#Balm|Balm Specials]]
+{{Specials Navbox}}
+[[Category:Balm Specials]]

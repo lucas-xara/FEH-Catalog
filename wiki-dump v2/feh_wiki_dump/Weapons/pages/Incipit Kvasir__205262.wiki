@@ -1,0 +1,63 @@
+{{Weapon Infobox
+|tagid=SID_始端クワシル
+|intID=3880
+|userVersion1=Weapon
+|userVersion2=Gleam
+|exclusive=1
+|weaponType=Red Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit, inflicts penalty on foe's Spd/Res = 15% of unit's Spd at start of combat, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks, and grants Special cooldown charge +1 to unit per attack during combat (only highest value applied; does not stack), and also, if it is unit's first combat initiated by unit or first combat initiated by foe that turn, reduces damage from foe's first attack by 70% during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes). If unit's HP ≥ 25% at start of combat, after combat, if unit attacked, inflicts【Panic】 on target and foes within 2 spaces of target.<br><br>【Panic】<br>Converts bonuses on target into penalties through its next action.
+|required=Bolganone;Fenrir
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|PermanentEffect={{Eft|Accelerate Special}}
+|CombatEffect 1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|CombatEffect 2={{Eft|Neutralize Prevent Follow-Ups}}
+|CombatEffect 3={{Eft|Special Cooldown Charge +1}}
+|CombatEffect 4={{Eft|Temporary debuffs|Spd/Res|15% of {{Tgt|Unit}}'s Spd<br>at start of combat}}
+|CombatEffect 5={{Eft|Neutralize Guaranteed Follow-Ups}}
+|CombatEffect 5 Targets={{Tgt|Foe}}
+|CombatEffect 1-5 Conditions={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|CombatEffect 6={{Eft|Damage Reduction|70%}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|CombatEffect 6 Targets={{Tgt|Unit}}
+|CombatEffect 6 Conditions={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat '''&'''<br>{{Tgt|Unit}}'s first combat<br>in both Phases
+|StatusEffect={{SEt|Panic}}
+|StatusEffect Targets={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|StatusEffect Conditions=After combat if<br>{{Tgt|Unit}} attacked '''&'''<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{Temporary debuffs}}
+{{At start of combat}}
+{{CooldownChargePlus}}
+{{Follow-up effect neutralization}}
+{{FirstCombat}}
+{{DamagePercentageReduction}}
+{{IfUnitAttacked}}
+{{Panic}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+Wep_mg084.webp|Sprite sheet
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=始端クワシル
+|german=Initium Kvasir
+|spanishEU=Kvasir inicial
+|spanishLA=Kvasir inicial
+|french=Kvasir initiale
+|italian=Kvasir iniziale
+|chineseTW=起始庫瓦希爾
+|portuguese=Kvasir proemial
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%"first attacks"%' OR Description LIKE '%first combat%' AND Description NOT LIKE '%first combat%restores%HP%after combat%' OR Description LIKE '%of unit_s Spd at start of combat%') AND Exclusive='1'}}
+{{Weapons Navbox}}

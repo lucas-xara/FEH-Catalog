@@ -1,0 +1,36 @@
+{{Weapon Infobox
+|tagid=SID_ヤシの木の杖
+|weaponName=Palm Staff
+|image=wep_rd030
+|weaponType=Staff
+|might=8
+|range=2
+|effect=Inflicts Atk/Spd-3 on foes within 2 spaces during combat.
+|cost=200
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|required=Assault
+|next=Palm Staff+
+|promotionRarity=5
+|promotionTier=2
+|properties=
+}}
+==Notes==
+{{Combat reductions}}{{FoesCombatEffect}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Palm Staff
+|japanese=ヤシの木の杖
+|german=Palmenstab
+|spanishEU=Bastón palma
+|spanishLA=Bastón palma
+|french=Bâton palmier
+|italian=Bastone palma
+|chineseTW=椰子樹之杖
+|portuguese=Bastão palmeira
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%inflicts Atk/Spd-_ on foes%within _ spaces during combat%'|columns=3}}
+{{Weapons Navbox}}

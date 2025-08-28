@@ -1,0 +1,48 @@
+{{Passive
+|name=Diluvial Boost
+|type=A
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|Armored}}
+|properties=random_owner
+|1name=Diluvial Boost
+|1tagid=SID_火地水の命脈
+|1effect=Grants HP+5.<br><br>If foe initiates combat or if unit's HP ≥ 50% at start of combat, grants Atk/Def/Res+9 to unit during combat and restores 7 HP to unit after combat.
+|statModifiers1=5,0,0,0,0
+|1cost=300
+|1required=Earth Boost 3;Water Boost 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Stat Boosts|HP|5}}
+|Ce={{Eft|Temporary buffs|Atk/Def/Res|9}}
+|CeC=Enemy Phase '''or'''<br>{{Tgt|Unit}}'s HP ≥ 50%<br>at start of combat
+|Me={{Eft|Heal|7}}
+|MeC=After combat in<br>Enemy Phase '''or'''<br>{{Tgt|Unit}}'s HP ≥ 50%<br>at start of combat
+}}
+
+==Notes==
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+{{After combat healing}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+* [[Boost Passives]]
+* [[Stance Passives]]
+{{Passives Navbox|A}}

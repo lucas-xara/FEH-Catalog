@@ -1,0 +1,82 @@
+{{Passive
+|type=C
+|exclusive=0
+|1name=Fortify Res 1
+|1tagid=SID_魔防の鼓舞1
+|1promotionRarity=4
+|1promotionTier=1
+|1required=-
+|1effect=At start of turn, grants Res+2 to adjacent allies for 1 turn.
+|1cost=50
+|2name=Fortify Res 2
+|2tagid=SID_魔防の鼓舞2
+|2promotionRarity=5
+|2promotionTier=1
+|2effect=At start of turn, grants Res+3 to adjacent allies for 1 turn.
+|2cost=100
+|3name=Fortify Res 3
+|3tagid=SID_魔防の鼓舞3
+|3effect=At start of turn, grants Res+4 to adjacent allies for 1 turn.
+|3cost=200
+|3next=-
+|4name= Fortify Res 4
+|4tagid=SID_魔防の鼓舞4
+|4effect=At start of turn, grants Res+7 to adjacent allies for 1 turn.
+|4cost=300
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties1=random_all,random_inherit_base
+|properties2=random_all,random_inherit_base
+|properties3=random_all,random_inherit_base
+|properties4=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Fortify Res 3}} Fortify Res 3
+|s1 Se={{Eft|Bonuses|Res|4}}
+|s1 SeT=[[Adjacent]]<br>{{Tgt|Allies}}
+|s1 SeC=At start of turn
+|skill2={{Si|Fortify Res 4}} Fortify Res 4
+|s2 Se={{Eft|Bonuses|Res|7}}
+|s2 SeT=[[Adjacent]]<br>{{Tgt|Allies}}
+|s2 SeC=At start of turn
+}}
+
+==Notes==
+{{Bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Quest reward===
+* [[Quests and Missions archive/2017 May#Sacred Seals|Sacred Seals]] (17 May, 2017 - 1 June, 2017): Defeat an enemy that is level 20 or higher with {{Ut|Felicia: Maid Mayhem}} (x5).
+* [[Quests and Missions archive/2017 September#Sacred Seals|Sacred Seals]] (24 September, 2017 - 8 October, 2017): Defeat an enemy that is level 20 or higher with {{Ut|Lon'qu: Solitary Blade}} (x5).
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Fortify Res 1;Fortify Res 2;Fortify Res 3
+|badgeColor=Transparent
+|costs1=20;100;20
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=魔防の鼓舞
+|german=Res. stärken
+|spanishEU=Impulso Res
+|spanishLA=Impulso Res.
+|french=Impulsion Rés
+|italian=Fortifica Res
+|chineseTW=魔防鼓舞
+|portuguese=Res. intensa
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%at start of turn, grants%Res%+%to adjacent%allies%for 1 turn%' OR Description LIKE '%at start of turn, if adjacent allies%Res%+%to%allies%for 1 turn%') AND Exclusive='1'}}
+* [[Hone Passives]]
+* [[Fortify Passives]]
+{{Seals Navbox}}
+{{Passives Navbox|C}}
+[[Category:Fortify Passives]]

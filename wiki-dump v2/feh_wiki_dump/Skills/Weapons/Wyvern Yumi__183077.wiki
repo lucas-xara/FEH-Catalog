@@ -1,0 +1,39 @@
+{{Weapon Infobox
+|tagid=SID_竜忍の弓
+|intID=3334
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=0
+|weaponType=Bow
+|cost=200
+|might=3
+|range=2
+|effectiveness=Flying
+|effect=Effective against flying foes. Grants Def/Res+5 and inflicts Spd-8 on unit. Unit attacks twice. (Even if foe initiates combat, unit attacks twice.)
+|statModifiers=0,3,-8,5,5
+|required=Steel Bow
+|next=Wyvern Yumi+
+|promotionRarity=5
+|promotionTier=1
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{Brave weapon interaction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=竜忍の弓
+|german=Wyvern-Yumi
+|spanishEU=Yumi wyvern
+|spanishLA=Yumi wyvern
+|french=Yumi wyverne
+|italian=Yumi viverna
+|chineseTW=龍忍之弓
+|portuguese=Yumi wyvern
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants Def/Res+%inflicts Spd-%unit attacks twice.%' AND (Exclusive='1' OR SP=300)}}
+* [[Brave weapons]]
+{{Weapons Navbox}}

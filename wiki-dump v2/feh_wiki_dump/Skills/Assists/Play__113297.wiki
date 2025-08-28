@@ -1,0 +1,35 @@
+{{Assist
+|tagid=SID_奏でる
+|range=1
+|effect=Grants another action to target ally. (That turn only. Does not stack. Cannot target an ally with Sing or Dance. This skill treated as Sing or Dance.)
+|cost=150
+|required=-
+|exclusive=1
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_owner,random_inherit_base
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Another Action}}
+|MeT={{Tgt|Target Ally}}
+|MeC={{Tgt|Target Ally}}<br>doesn't have a<br>{{Uti|Dance}} [[Dance Assist]]<br>'''or''' {{SEt|Isolation}}
+}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Play
+|japanese=奏でる
+|german=Spielen
+|spanishEU=Tocar
+|spanishLA=Tocar
+|french=Musique
+|italian=Suona
+|chineseTW=奏樂
+|portuguese=Tocar
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%This skill treated as Sing or Dance%'}}
+{{Assists Navbox}}
+[[Category:Dance skills]][[Category:Sources of effects that grant "another action"]]

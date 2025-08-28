@@ -1,0 +1,75 @@
+{{Weapon Infobox
+|tagid=SID_心の葬り手の枝
+|intID=4293
+|noImg=1
+|exclusive=1
+|weaponType=Beast
+|canUseMove=Armored
+|cost=400
+|might=14
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>At start of turn, if unit's HP ≥ 25%, inflicts Def/Res-7, Panic, and【Sabotage】 on closest foes and any foe within 2 spaces of those foes through their next actions, and inflicts【Assign Decoy】and status preventing counterattacks on foes with the lowest Def with Range = 1 and foes with the lowest Def with Range = 2 among closest foes and any foe within 2 spaces of those foes (status preventing counterattacks is through their next actions).<br><br>At start of combat, if unit's HP ≥ 25%, inflicts penalty on foe's Atk/Def = 20% of unit's Res at start of combat + 6, grants Special cooldown count-2 to unit before foe's first attack, and reduces damage from foe's attacks by 20% of unit's Res during combat (excluding area-of-effect Specials), and also, if foe's attack triggers foe's Special, reduces damage from foe's attacks by 20% of unit's Res during combat (excluding area-of-effect Specials), and restores 7 HP to unit after combat.<br><br>At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and unit can counterattack regardless of foe's range.<br><br>【Sabotage】<br>Inflicts penalty on unit's Atk/Spd/Def/Res during combat = highest penalty on each stat between unit and allies within 2 spaces of unit through its next action. Calculates each stat penalty independently.<br><br>【Assign Decoy】<br>If foe's Range = unit's Range and foe initiates combat against an ally within 2 spaces of unit, triggers【Savior】on unit (that turn only; triggers only if unit is not equipped with a skill that can trigger the Savior effect).<br><br>【Savior】<br>Unit takes ally's space, enters combat in ally's place, and receives all after-combat effects.
+|required=Adult (Armored)
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe1={{Eft|Accelerates Special}}
+|Pe2={{Eft|Stat Boosts|Atk|2}}
+|PeC2={{Tgt|Unit}} is transformed
+|Me1={{Eft|Transform}}
+|Me1C=At start of turn if<br>{{Tgt|Unit}} is [[adjacent]] to only<br>{{Cwti|group=1|Dragon,Beast}} [[Dragon]]/[[Beast]]<br>{{Tgt|Allies}} '''or''' not [[adjacent]]<br>to any {{Tgt|Ally}}
+|Me2={{Eft|Heal|7}}
+|Me2C=After combat if<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Se1={{Eft|Penalties|Def/Res|7}}
+|Se2={{SEt|Panic}}
+|Se3={{SEt|Sabotage}}
+|Se1-3T=Closest {{Tgt|Foes}}<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}
+|Se4={{SEt|Assign Decoy}}
+|Se5={{SEt|Counterattacks disrupted}}
+|Se4-5T={{Tgt|Foes}} with the<br>lowest Def among<br>{{SEt|Panic}} {{Tgt|Target Foes}}
+|SeC=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25%
+|Ce1={{Eft|Temporary debuffs|Atk/Def|20% of {{Tgt|Unit}}'s Res<br>at start of combat, +6}}
+|Ce1T={{Tgt|Foe}}
+|Ce2={{Eft|Reduce Cooldown|2}}<br>before {{Tgt|Foe}}'s first attack
+|Ce3={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Res<br>from {{Tgt|Foe}}'s attacks}}
+|Ce4={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Res<br>per {{Tgt|Foe}}'s [[offensive special]]}}
+|Ce1-4C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce5={{Eft|Distant Counter}}
+|Ce5C={{Tgt|Unit}} is transformed
+}}
+==Notes==
+{{Penalties}}
+{{Panic}}
+{{Sabotage}}
+{{Assign Decoy}}
+{{Counterattacks disrupted}}
+{{SelectStat|Def}}
+{{Temporary debuffs}}
+{{CombatCooldownCount|-2}}
+{{FlatDamageReduction}}
+{{After combat healing}}
+{{Beast (Armored)}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V8.8_v0808b_popularity_Mag_2.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=心の葬り手の枝
+|german=Unheilszweig
+|spanishEU=Tallo silenciador
+|spanishLA=Tallo silenciador
+|french=Branche funeste
+|italian=Ramo fatale
+|chineseTW=心靈的葬送者之樹枝
+|portuguese=Ramo silenciador
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%【Assign Decoy】%' OR Description LIKE '%grants Special cooldown count-_ to unit%before foe_s first attack%') AND Exclusive='1'}}
+{{Weapons Navbox}}

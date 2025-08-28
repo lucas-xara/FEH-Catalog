@@ -1,0 +1,38 @@
+{{Weapon Infobox
+|tagid=SID_花嫁のカトレア＋
+|intID=3078
+|image=wep_mg067
+|exclusive=0
+|weaponType=Red Tome
+|cost=300
+|might=12
+|range=2
+|effect=At start of combat, if unit's HP ≥ 25%, grants Atk/Res+5 and bonus to Atk/Res during combat = current bonus on unit's Atk/Res. Calculates each stat bonus independently.
+|statModifiers=0,12,0,0,0
+|required=Bridal Orchid
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Notes==
+{{CombatBoostfromBonus}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=花嫁のカトレア＋
+|german=Liebesorchidee+
+|spanishEU=Orquídea novia +
+|spanishLA=Orquídea novia +
+|french=Orchidée nup. +
+|italian=Orchidee nuziali+
+|chineseTW=新娘的蘭花＋
+|portuguese=Orquídea nupcial+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%bonus to%during combat = current bonus%on unit%calculate%'|columns=3}}
+{{Weapons Navbox}}

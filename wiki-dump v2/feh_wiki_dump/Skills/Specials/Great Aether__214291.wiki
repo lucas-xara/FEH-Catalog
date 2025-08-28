@@ -1,0 +1,69 @@
+{{Special
+|tagid=SID_覇克・天空
+|intID=4081
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=4
+|effect=When Special triggers, boosts damage by percentage of unit's Atk = number of times foe has attacked during this combat × 10, + 40. If unit initiates combat, foe can counterattack before unit's first attack. If foe can perform a follow-up attack, foe can make a follow-up attack before unit's next attack during combat. Reduces damage from attacks by percentage = 40, - current Special cooldown count value × 10 during combat, but if unit receives consecutive attacks, reduces damage from foe's second attack onward by percentage = 70, - current Special cooldown count value × 10. If this Special is triggered during combat, deals 5 damage to foes within 3 rows or 3 columns centered on unit, inflicts Special cooldown count+1 (cannot exceed the foe's maximum Special cooldown) on those foes, and restores X HP to unit after combat (X = number of foes within 3 rows or 3 columns centered on unit × 5, + 10; max: 50% of unit's max HP).
+|required=Sol;Luna
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Damage Boost|(Times {{Tgt|Foe}} has<br>attacked x 10, + 40)<br>of {{Tgt|Unit}}'s Atk|percent=1}}
+|CeC1=Special triggers
+|Ce2={{Eft|Vantage}}
+|CeC2=Player Phase
+|Ce3={{Eft|Desperation}}
+|CeT2-3={{Tgt|Foe}}
+|Ce4={{Eft|Damage Reduction|40 - {{Tgt|Unit}}'s current<br>Special CD x 10|percent=1}}<br>from {{Tgt|Foe}}'s attacks
+|Ce5={{Eft|Damage Reduction|70 - {{Tgt|Unit}}'s current<br>Special CD x 10|percent=1}} from<br>{{Tgt|Foe}}'s consecutive attacks
+|CeT4-5={{Tgt|Unit}}
+|Me1={{Eft|Damage|5}}
+|Me2={{Eft|Increase Cooldown|1}}
+|MeT1-2={{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|Me3={{Eft|Heal|5 x {{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}, + 10|max=50%<br>of {{Tgt|Unit}}'s max HP}}
+|MeC=After combat if<br>special triggered
+}}
+
+==Notes==
+{{DamageBoost}}
+{{Follow-up before counterattack|phase=mixed|foe=1|preempt=1}}
+{{DamagePercentageReduction|special=1}}
+{{Out of combat damage}}
+{{After combat healing}}
+{|class="wikitable default mw-collapsible"
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Ike: Of Radiance|t=Zephia: Scheming Dragon
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=覇克・天空
+|german=Großer Aithir
+|spanishEU=Gran Éter
+|spanishLA=Gran Éter
+|french=Grand Éther
+|italian=Grande etere
+|chineseTW=霸克・天空
+|portuguese=Grande éter
+}}
+==See also==
+{{See also skills|cond=WikiName LIKE '%aether%' OR (Description LIKE '%consecutive attacks%' OR Description LIKE '%reduces damage from%-% current Special cooldown count value%') AND Exclusive='1'}}
+* [[Deflect Seals]]
+{{Specials Navbox}}

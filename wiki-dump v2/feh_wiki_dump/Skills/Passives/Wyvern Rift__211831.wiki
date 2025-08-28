@@ -1,0 +1,55 @@
+{{Passive
+|name=Wyvern Rift
+|type=B
+|exclusive=0
+|canUseWeapon={{WeaponList|Melee}}
+|canUseMove={{MoveList|Flying}}
+|properties=random_owner
+|1name=Wyvern Rift
+|1tagid=SID_飛竜裂空
+|1effect=Inflicts Atk/Def-4 on foe during combat. If unit's Spd + Def ≥ foe's Spd + Def - 10 (excluding effects from【Phantom】), unit deals +X damage (excluding when dealing damage with an area-of-effect Special) and reduces damage from foe's first attack by X during combat (X = unit's Def at start of combat - 35; min 0, max 7; "first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), unit makes a guaranteed follow-up attack, foe cannot make a follow-up attack, and increases the Spd difference necessary for foe to make a follow-up attack by 20 during combat (Spd must be ≥ 25 to make a follow-up attack; stacks with similar skills).<br><br>【Phantom】<br>If a skill effect compares unit's stats to a foe or ally stats, treats unit's stats as if granted +X.
+|1cost=300
+|1required=Wyvern Flight 3;Flow Flight 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary debuffs|Atk/Def|4}}
+|Ce1-3T={{Tgt|Foe}}
+|Ce2={{Eft|Spd Difference Increase|20}}
+|Ce3={{Eft|Prevent Follow-Up}}
+|Ce4={{Eft|Guaranteed Follow-Up}}
+|Ce5={{Eft|Damage Boost|{{Tgt|Unit}}'s Def<br>at start of combat -35|max=7|min=0}}
+|Ce6={{Eft|Damage Reduction|{{Tgt|Unit}}'s Def<br>at start of combat -35|max=7|min=0}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce4-6T={{Tgt|Unit}}
+|Ce2-6C={{Tgt|Unit}}'s Spd/Def ≥<br>{{Tgt|Foe}}'s Spd/Def-10<br>(excluding<br>{{Kp|Phantom}} effects)
+}}
+
+==Notes==
+{{Temporary debuffs}}
+{{At start of combat}}
+{{FlatDamageBoost|0 to +7}}
+{{FlatDamageReduction|0 to -7}}
+{{Guaranteed follow-up interaction}}
+{{Prevent follow-up}}
+{{SpdDiffIncrease}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=飛竜裂空
+|german=Wyvernkluft
+|spanishEU=Fisura wyvern
+|spanishLA=Fisura wyvern
+|french=Faille wyverne
+|italian=Solco viverna
+|chineseTW=飛龍裂空
+|portuguese=Fenda wyvern
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit_s Spd%foe_s Spd%during combat =% of difference between%' OR Description LIKE '%increases the Spd difference necessary%to make a follow-up attack by%'}}
+{{Passives Navbox|B}}

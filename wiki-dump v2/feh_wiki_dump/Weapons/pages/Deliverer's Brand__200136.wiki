@@ -1,0 +1,54 @@
+{{Weapon Infobox
+|tagid=SID_聖王の軍師の剣
+|intID=3734
+|image=wep_sw161
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=16
+|range=1
+|effect=Grants Spd+3. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit, reduces damage from foe's first attack by 40%, and neutralizes effects that grant "Special cooldown charge +X" to foe or inflict "Special cooldown charge -X" on unit during combat, and also, if unit's max Special cooldown count value ≥ 3 and unit's attack can trigger unit's Special, when unit's Special triggers (excluding area-of-effect Specials), neutralizes "reduces damage by X%" effects from non-Special skills. At start of combat, if unit's HP ≥ 25% and unit triggers the Glowing Ember, Bonfire, or Ignis Special during combat, calculates that attack's damage using the lower of foe's Def or Res.
+|statModifiers=0,16,3,0,0
+|required=Silver Sword
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Stat Boosts|Spd|3}}
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce2={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s first attack
+|Ce3={{Eft|Neutralize Guard}}
+|Ce4={{Eft|Neutralize Accelerate Charge}}
+|Ce1-4C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce5={{Eft|Neutralize Damage Reduction}} per<br>{{Tgt|Unit}}'s [[offensive Special]]
+|Ce4-5T={{Tgt|Foe}}
+|Ce5C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat '''&'''<br>{{Tgt|Unit}}'s max CD ≥ 3
+|Ce6={{Eft|Lower Def Res}} per<br>{{Tgt|Unit}}'s [[offensive Special]]
+|Ce6T={{Tgt|Unit}}
+|Ce6C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' {{Tgt|Unit}} has<br>{{St|Glowing Ember}},<br>{{Sp|Bonfire}} '''or''' {{Sp|Ignis}}
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{DamagePercentageReduction}}
+{{CooldownChargePlusNeutralization}}
+{{CooldownChargeMinusNeutralization}}
+{{DamageReductionNeutralization}}
+{{LowerDefRes}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=聖王の軍師の剣
+|german=Befreierklinge
+|spanishEU=Filo libertador
+|spanishLA=Filo libertador
+|french=Épée de stratège
+|italian=Spada liberatrice
+|chineseTW=聖王的軍師之劍
+|portuguese=Sabre libertador
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit_s max Special cooldown count value ≥%' AND Exclusive='1'}}
+* [[Tempo Passives]]
+{{Weapons Navbox}}

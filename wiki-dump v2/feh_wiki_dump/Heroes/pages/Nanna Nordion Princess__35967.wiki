@@ -1,0 +1,74 @@
+{{#invoke:NameAbout|main|Name=Nanna}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Nanna
+|Title=Nordion Princess
+|WeaponType=Colorless Staff
+|MoveType=Cavalry
+|Origin=Fire Emblem: Thracia 776 
+|Gender=Female
+|actorEN=Alicia Stratten
+|actorJP=名塚佳織
+|artist=紺藤ココン
+|releaseDate=April 11, 2018
+|poolDate=April 24, 2018
+|randomStartTime=2018-05-11T07:00:00Z
+|poolRarities=3,4
+|TagID=ナンナ
+|InternalID=237
+|cv1=4
+|cv2=100300
+|description=Lachesis's daughter. A charismatic young lady, she has her mother's graceful bearing. Appears in Fire Emblem: Thracia 776.
+|Properties=demoted_201904
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=5|Lv1SPD=8|Lv1DEF=6|Lv1RES=7
+|GRHP=45|GRATK=50|GRSPD=60|GRDEF=35|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Assault
+|weapon1Unlock=1
+|weapon2=Absorb
+|weapon2Unlock=3
+|weapon3=Absorb+
+|weapon3Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Heal
+|assist1Default=1
+|assist1Unlock=1
+|assist2=Reconcile
+|assist2Default=3
+|assist2Unlock=2
+|assist3=Restore
+|assist3Default=4
+|assist3Unlock=3
+|assist4=Restore+
+|assist4Default=5
+|assist4Unlock=5
+}}
+===Specials===
+{{Specials Table
+|special1=Imbue
+|special1Unlock=2
+|special2=Heavenly Light
+|special2Unlock=3
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Resistance +1
+|passiveA2=Spd/Res 1
+|passiveA3=Spd/Res 2
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Spur Def 1
+|passiveC2=Drive Def 1
+|passiveC3=Drive Def 2
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

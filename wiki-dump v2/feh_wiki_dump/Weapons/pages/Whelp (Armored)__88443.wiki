@@ -1,0 +1,36 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_幼獣の化身・重装
+|weaponType=Beast
+|might=4
+|range=1
+|effect=At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and unit can counterattack regardless of foe's range.
+|cost=50
+|exclusive=0
+|canUseMove=Armored
+|statModifiers=0,4,0,0,0
+|next=Yearling (Arm.)
+|promotionRarity=3
+|promotionTier=1
+|required=—
+|properties=random_all
+}}
+==Notes==
+{{Beast (Armored)}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=幼獣の化身・重装
+|german=Welpe (Gep.)
+|spanishEU=Cachorro feroz
+|spanishLA=Cachorro feroz
+|french=Bébé (armure)
+|italian=Cucciolo (corazz.)
+|chineseTW=幼獸化身・重裝
+|portuguese=Filhote (armad.)
+}}
+==See also==
+{{See also skills|cond=Next LIKE 'Yearling%' OR Next='Fledgling Flier'}}
+{{Weapons Navbox}}

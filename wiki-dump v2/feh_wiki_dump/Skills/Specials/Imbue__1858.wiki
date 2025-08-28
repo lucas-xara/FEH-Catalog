@@ -1,0 +1,29 @@
+{{About|the [[Assist]]|the [[status effect]]|Imbue (status effect)}}
+{{Special
+|tagid=SID_治癒
+|name=Imbue
+|charge=1
+|effect=When healing an ally with a staff, restores an additional 10 HP to target ally.
+|cost=50
+|required=-
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|Staff}}
+|properties=random_all
+}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=治癒
+|german=Inspiration
+|spanishEU=Regeneración
+|spanishLA=Regeneración
+|french=Grâce
+|italian=Salus
+|chineseTW=治癒
+|portuguese=Intervenção
+}}
+{{Specials Navbox}}

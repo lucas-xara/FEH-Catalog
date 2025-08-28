@@ -1,0 +1,78 @@
+{{#invoke:NameAbout|main|Name=Ymir|Name2=Eir}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Ymir
+|Title=Seasons of Life
+|WeaponType=Colorless Tome
+|MoveType=Infantry
+|secondPerson=Eir
+|Origin=Fire Emblem Heroes
+|Gender=FF
+|duo=Neutralizes any【Penalty】on unit and allies within 2 spaces of unit and restores 20 HP to unit and those allies.<br><br>Once used, Duo Skill cannot be activated again right away. At start of odd-numbered turns, if Duo Skill has already been used, unit can use Duo Skill again.<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|Duel=200
+|actorEN=Erin Yvette,Xanthe Huynh
+|actorJP=河野ひより,雨宮天
+|artist=いちかわはる
+|additionDate=July 6, 2023
+|releaseDate=July 7, 2023
+|cv1=0
+|cv2=330210
+|TagID=比翼ユーミル
+|InternalID=968
+|Properties=special,duo,hat,tiara
+|description=Ymir, the dragon of life, with Eir. They are aglow with the radiance of life, enjoying the Askran summer to the fullest.
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=15|Lv1SPD=3|Lv1DEF=9|Lv1RES=8
+|GRHP=50|GRATK=70|GRSPD=35|GRDEF=60|GRRES=75
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Stone
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elstone
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Atlas (weapon)
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Sparkling Sun
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Moonbow
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Water Boost 1
+|passiveA2=Water Boost 2
+|passiveA3=Water Boost 3
+|passiveA4=Fireflood Boost 3
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Mystic Boost 1
+|passiveB2=Mystic Boost 2
+|passiveB3=Mystic Boost 3
+|passiveB4=Mystic Boost 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Everliving Domain
+|passiveC1Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Sources of negative status effect neutralization]]
+[[Category:Sources of self-healing]]
+[[Category:Summer units]]

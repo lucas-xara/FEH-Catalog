@@ -1,0 +1,44 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_ヒノカの紅薙刀
+|weaponType=Lance
+|might=16
+|range=1
+|effect=If unit is within 2 spaces of a flying or infantry ally, grants Atk/Spd+4 during combat.
+|cost=400
+|exclusive=yes
+|userVersion1=Weapon
+|userVersion2=Upgrade Gleam
+|statModifiers=0,16,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=Infantry and flying allies within 2 spaces can move to a space adjacent to unit.
+|iconSkill1=Hinokas Spear W.png
+|tagidExtraSkill1=先
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Warp interaction}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|先導R歩行飛行|Guidance R Infantry Flying}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=ヒノカの紅薙刀
+|german=Hinokas Speer
+|spanishEU=Pica Hinoka
+|spanishLA=Pica Hinoka
+|french=Lance d'Hinoka
+|italian=Asta di Hinoka
+|chineseTW=火乃香的紅薙刀
+|portuguese=Pique Hinoka
+}}
+{{Weapons Navbox}}

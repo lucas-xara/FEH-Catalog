@@ -1,0 +1,70 @@
+{{#invoke:NameAbout|main|Name=Ross}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Ross
+|Title=His Father's Son
+|WeaponType=Green Axe
+|Origin=Fire Emblem: The Sacred Stones
+|Gender=Male
+|MoveType=Infantry
+|actorJP=村川梨衣
+|actorEN=Zeno Robinson
+|artist=めか
+|additionDate=November 6, 2019
+|releaseDate=November 7, 2019
+|randomStartTime=2019-12-07T07:00:00Z
+|poolDate=2019-11-07
+|poolRarities=3,4
+|TagID=ロス
+|InternalID=445
+|Properties=
+|cv1=7
+|cv2=102500
+|description=Son of Garcia, a warrior of Renais. A very straightforward and honest lad raised without a mother. He greatly admires his father's skill. Appears in Fire Emblem: The Sacred Stones.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=8|Lv1SPD=7|Lv1DEF=4|Lv1RES=5
+|GRHP=70|GRATK=70|GRSPD=55|GRDEF=65|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Brave Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Brave Axe+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Father's-Son Axe
+|weapon5Default=
+|weapon5Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Smite
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Fire Boost 1
+|passiveA2=Fire Boost 2
+|passiveA3=Fire Boost 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Threaten Def 1
+|passiveC2=Threaten Def 2
+|passiveC3=Threaten Def 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

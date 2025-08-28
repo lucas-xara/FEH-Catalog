@@ -1,0 +1,66 @@
+{{#invoke:NameAbout|main|Name=Lumera}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Lumera
+|Title=Dragon Monarch
+|WeaponType=Red Sword
+|MoveType=Infantry
+|Origin=Fire Emblem Engage
+|Gender=Female
+|actorEN=Julia McIlvaine
+|actorJP=三石琴乃
+|artist=蓮水薫
+|additionDate=January 17, 2023
+|releaseDate=January 18, 2023
+|cv1=14
+|cv2=100300
+|TagID=ルミエル
+|InternalID=909
+|Properties=ghb,limited,hat,tiara
+|description=Divine Dragon Monarch, ruler of the holy land of Lythos. She is Alear's mother and the hero who once saved all of Elyos. Appears in Fire Emblem Engage.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=13|Lv1SPD=13|Lv1DEF=9|Lv1RES=3
+|GRHP=60|GRATK=70|GRSPD=70|GRDEF=55|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Monarch Blade
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Dragon Fang
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Darting Stance 1
+|passiveA2=Swift Stance 1
+|passiveA3=Swift Stance 2
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=Null Follow-Up 1
+|passiveB2=Null Follow-Up 2
+|passiveB3=Null Follow-Up 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+{{Heroes Navbox}}

@@ -1,0 +1,39 @@
+{{Weapon Infobox
+|tagid=SID_扇子
+|weaponType=Dagger
+|weaponName=Dancer's Fan
+|might=7
+|range=2
+|effect=If unit initiates combat, restores 7 HP to adjacent allies after combat. After combat, if unit attacked, inflicts Def/Res-5 on foe through its next action.
+|cost=200
+|exclusive=0
+|statModifiers=0,7,0,0,0
+|next=Dancer's Fan+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Dagger
+|properties=
+}}
+==Notes==
+* Has the same effect as {{Pt|Breath of Life 3}}.
+{{IfUnitInitiates}}
+{{IfUnitAttacked}}
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=舞踏祭の扇子
+|german=Tanzfächer
+|spanishEU=Abanico de baile
+|spanishLA=Abanico de baile
+|french=Éventail festif
+|italian=Ventaglio d'arte
+|chineseTW=舞會摺扇
+|portuguese=Leque de dança
+}}
+==See also==
+* [[Performing Arts Weapons]]
+* [[Aura]]
+{{Weapons Navbox}}
+[[Category:Performing Arts weapons]]

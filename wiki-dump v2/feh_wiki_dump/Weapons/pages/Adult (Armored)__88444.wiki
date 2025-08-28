@@ -1,0 +1,33 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_成獣の化身・重装
+|weaponType=Beast
+|might=9
+|range=1
+|effect=At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and unit can counterattack regardless of foe's range.
+|cost=200
+|exclusive=0
+|canUseMove=Armored
+|statModifiers=0,9,0,0,0
+|required=Yearling (Arm.)
+|properties=random_all
+}}
+==Notes==
+{{Beast (Armored)}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=成獣の化身・重装
+|german=Adultus (Gep.)
+|spanishEU=Fiera adulta feroz
+|spanishLA=Fiera adulta feroz
+|french=Adulte (armure)
+|italian=Adulto (corazz.)
+|chineseTW=成獸化身・重裝
+|portuguese=Adulto (armad.)
+}}
+==See also==
+{{See also skills|cond=Name LIKE 'Adult (%)'}}
+{{Weapons Navbox}}

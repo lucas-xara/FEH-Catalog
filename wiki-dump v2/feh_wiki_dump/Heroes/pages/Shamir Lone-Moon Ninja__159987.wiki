@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Shamir}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Shamir
+|Title=Lone-Moon Ninja
+|WeaponType=Green Axe
+|MoveType=Infantry
+|Origin=Fire Emblem: Three Houses
+|Gender=Female
+|actorEN=Allegra Clark
+|actorJP=渡辺優里奈
+|artist=п猫Ｒ
+|additionDate=November 4, 2021
+|releaseDate=November 5, 2021
+|cv1=12
+|cv2=500900
+|TagID=忍者シャミア
+|InternalID=729
+|Properties=tempest,limited,specDisplay
+|description=A knight of Seiros who lived as a mercenary in her past. She carries out her duties, speaking no more than is necessary—a perfect quality for a ninja. Appears in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=9|Lv1SPD=10|Lv1DEF=9|Lv1RES=8
+|GRHP=55|GRATK=65|GRSPD=70|GRDEF=50|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Shuriken Cleaver
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Shuriken Cleaver+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Glimmer
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Speed +1
+|passiveA2=Atk/Spd 1
+|passiveA3=Atk/Spd 2
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Atk/Spd Oath 1
+|passiveC2=Atk/Spd Oath 2
+|passiveC3=Atk/Spd Oath 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Ninja Festival units]]

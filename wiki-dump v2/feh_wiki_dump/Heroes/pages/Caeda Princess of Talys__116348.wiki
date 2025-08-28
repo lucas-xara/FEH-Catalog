@@ -1,0 +1,69 @@
+{{#invoke:NameAbout|main|Name=Caeda}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Caeda
+|Title=Princess of Talys
+|WeaponType=Red Sword
+|Origin=Fire Emblem: Mystery of the Emblem
+|Gender=Female
+|MoveType=Flying
+|actorJP=早見沙織
+|actorEN=Cherami Leigh
+|artist=羽公
+|additionDate=April 20, 2020
+|releaseDate=April 20, 2020
+|TagID=幼少シーダ
+|InternalID=511
+|Properties=special,specRate_202402
+|cv1=1
+|cv2=200100
+|description=Princess of the small kingdom of Talys. Showing kindness to all, she is beloved by the people. Appears in Fire Emblem: Mystery of the Emblem.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=7|Lv1SPD=12|Lv1DEF=6|Lv1RES=8
+|GRHP=45|GRATK=60|GRSPD=70|GRDEF=45|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Feather Sword
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Moonbow
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Distant Counter
+|passiveA1Unlock=5
+|passiveB1=Belief in Love
+|passiveB1Unlock=5
+|passiveC1=Hone Atk 1
+|passiveC2=Hone Atk 2
+|passiveC3=Hone Atk 3
+|passiveC4=Joint Hone Atk
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Childhood units]]

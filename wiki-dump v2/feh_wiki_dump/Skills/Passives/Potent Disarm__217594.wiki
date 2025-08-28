@@ -1,0 +1,51 @@
+{{Passive
+|name=Potent Disarm
+|type=B
+|exclusive=0
+|canUseWeapon={{WeaponList|Dagger}}
+|canUseMove={{MoveList|Infantry,Cavalry,Flying}}
+|properties=random_owner
+|1name=Potent Disarm
+|1tagid=SID_罠解除・神速
+|1effect=Inflicts Spd/Def-4 on foe during combat.<br><br>If decreasing the Spd difference necessary to make a follow-up attack by 25 would allow unit to trigger a follow-up attack (excluding guaranteed or prevented follow-ups), triggers【Potent Follow X%】during combat (if unit cannot perform follow-up and attack twice, X = 80; otherwise, X = 40).<br><br>While attacking in Aether Raids, if unit ends movement on a space with a Bolt Trap or a Heavy Trap, cancels trap's effect; if unit ends movement on a space with a Hex Trap, reduces trap's trigger condition by 10 HP.<br><br>【Potent Follow X%】<br>Triggers an additional follow-up attack immediately after unit's standard follow-up attack and deals damage = X% of unit's normal attack damage (if unit cannot make a follow-up attack, this effect triggers when the standard follow-up attack would occur; this effect is treated like a follow-up attack, so effects like "reduce damage by X%" still apply, but this effect is not affected by effects that prevent follow-ups or "attacks twice" effects; only highest value applied; does not stack).
+|1cost=300
+|1required=Disarm Trap 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1=Cancels the effects of<br>{{Sct|Bolt Trap}} '''&''' {{Sct|Heavy Trap}}
+|Me2=Reduces {{Sct|Hex Trap}}'s HP<br>trigger condition by 10 HP
+|MeC={{Tgt|Unit}} ends turn<br>on {{Stt|Traps}}
+|Ce1={{Eft|Temporary debuffs|Spd/Def|4}}
+|Ce1T={{Tgt|Foe}}
+|Ce2={{Eft|Potent Follow X%|2=80% if {{Tgt|Unit}} can't<br>[[follow-up]] '''&''' [[attack twice]];<br>else, X = 40%}}
+|Ce2C={{Tgt|Unit}}'s Spd ≥<br>{{Tgt|Foe}}'s Spd-20
+}}
+
+==Notes==
+{{Disarm notes}}
+{{Temporary debuffs}}
+{{Potent Follow|X%}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=罠解除・神速
+|german=Kraftentschärfung
+|spanishEU=Quitar incesante
+|spanishLA=Quitar incesante
+|french=Désarm. puissant
+|italian=Disinn. potente
+|chineseTW=解除陷阱・神速
+|portuguese=Desarme potente
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%cancels trap_s effect%' OR Description LIKE '%【Potent Follow%】%') AND (Exclusive=1 AND Name NOT LIKE '%+' AND Properties HOLDS NOT 'arcane')}}
+* [[Potent]]
+* [[Disarm Passives]]
+{{Passives Navbox|B}}

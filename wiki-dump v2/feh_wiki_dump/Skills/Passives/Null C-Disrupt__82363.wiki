@@ -1,0 +1,59 @@
+{{Passive
+|name=Null C-Disrupt
+|type=B
+|exclusive=0
+|canUseMove={{MoveList|Infantry}}
+|canUseWeapon={{WeaponList|All}}
+|1name=Null C-Disrupt 1
+|1tagid=SID_見切り・反撃不可1
+|1promotionRarity=4
+|1promotionTier=1
+|alt1name=Null C Disrupt 1
+|1effect=At start of combat, if unit's HP = 100%, neutralizes effects that prevent unit's counterattacks during combat.
+|1required=-
+|1cost=60
+|2name=Null C-Disrupt 2
+|2tagid=SID_見切り・反撃不可2
+|2promotionRarity=5
+|2promotionTier=1
+|alt2name=Null C Disrupt 2
+|2effect=At start of combat, if unit's HP ≥ 50%, neutralizes effects that prevent unit's counterattacks during combat.
+|2cost=120
+|3name=Null C-Disrupt 3
+|3tagid=SID_見切り・反撃不可3
+|alt3name=Null C Disrupt 3
+|3effect=Neutralizes effects that prevent unit's counterattacks during combat.
+|3cost=240
+|3next=-
+|4name=Null C-Disrupt 4
+|4tagid=SID_見切り・反撃不可4
+|4effect=Inflicts Atk/Spd-4 on foe, neutralizes effects that prevent unit's counterattacks, and reduces damage from foe's first attack by 30% during combat.
+|4cost=300
+|properties=random_owner
+}}
+==Notes==
+{{Counterattack prevention neutralization}}
+{{Temporary debuffs|name=Null C-Disrupt 4}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=見切り・反撃不可
+|german=K.-Sperre-Neg.
+|spanishEU=Anticontra nula
+|spanishLA=Anticontra nula
+|french=Contre protégé
+|italian=Nega disturbo
+|chineseTW=識破・無法反擊
+|portuguese=Anticontra nulo
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%prevent unit\'s counterattacks%' OR Description LIKE '%prevent counterattacks%'}}
+* [[Null Passives]]
+{{Passives Navbox|B}}
+[[Category:Null Passives]]

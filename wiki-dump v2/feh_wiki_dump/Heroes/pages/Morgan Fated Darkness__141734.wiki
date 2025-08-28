@@ -1,0 +1,80 @@
+{{#invoke:NameAbout|main|Name=Morgan}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Morgan
+|Title=Fated Darkness
+|WeaponType=Red Tome
+|MoveType=Infantry
+|Origin=Fire Emblem Awakening
+|Gender=Male
+|actorEN=Todd Haberkorn
+|actorJP=細谷佳正
+|artist=三登いつき
+|randomStartTime=2021-06-07T07:00:00Z
+|additionDate=May 6, 2021
+|releaseDate=May 7, 2021
+|poolDate=May 31, 2021
+|poolRarities=5
+|Person=Morgan M
+|cv1=10
+|cv2=6900800
+|TagID=闇マーク男
+|InternalID=657
+|Properties=fallen,specRate_202402
+|description=A mysterious young man from a future that knows only despair. His voice is somehow familiar... Appears in Fire Emblem Awakening.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=11|Lv1SPD=4|Lv1DEF=7|Lv1RES=8
+|GRHP=45|GRATK=60|GRSPD=30|GRDEF=65|GRRES=70
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Flux
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Ruin
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Fenrir
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Tome of Despair
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Iceberg
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Res Solo 1
+|passiveA2=Atk/Res Solo 2
+|passiveA3=Atk/Res Solo 3
+|passiveA4=Atk/Res Solo 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Sabotage Def 1
+|passiveB2=Sabotage Def 2
+|passiveB3=Sabotage Def 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Threaten Res 1
+|passiveC2=Threat. Atk/Res 1
+|passiveC3=Threat. Atk/Res 2
+|passiveC4=Atk/Res Menace
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}

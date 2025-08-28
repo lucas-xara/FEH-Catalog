@@ -1,0 +1,105 @@
+{{Weapon Infobox
+|tagid=SID_破滅の邪書
+|weaponName=Tome of Despair
+|image=wep_mg056
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|weaponType=Red Tome
+|might=14
+|range=2
+|effect=Grants Atk+3. At start of combat, if unit's HP ≥ 25%, inflicts Atk/Res-6 on foe during combat, and also, the following effects will occur based on the value of total bonuses on unit + value of total penalties on foe: if ≥ 5, "foe cannot make a follow-up attack"; and if ≥ 10, "unit makes a guaranteed follow-up attack"; and if ≥ 15, "inflicts Special cooldown charge -1 on foe per attack during combat." (Example: if unit has an Atk/Res+6 bonus and foe has an Atk/Res-6 penalty, the calculated total will be 24.)
+|cost=400
+|exclusive=1
+|statModifiers=0,17,0,0,0
+|required=Bolganone;Fenrir
+|intID=2550
+|sort=539
+|value=20
+|timingID=1
+|abilityID=242
+|limit1ID=42
+|randomTimestamp=2021-06-07T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Atk+3. At start of combat, if unit's HP ≥ 25%, inflicts Atk/Res-6 on foe, neutralizes foe's bonuses to Atk/Res, and unit deals +X damage during combat (X = highest total penalties among target and foes within 2 spaces of target; excluding area-of-effect Specials), and also, following effects will occur based on the value of total bonuses on unit + value of total penalties on foe: if ≥ 5, "foe cannot make a follow-up attack"; and if ≥ 10, "unit makes a guaranteed follow-up attack"; and if ≥ 15, "inflicts Special cooldown charge -1 on foe per attack during combat."
+|refineStatsSkill1=0,0,0,0,0
+|effectSkill1=At start of player phase or enemy phase, if unit's HP ≥ 25%, inflicts Atk/Res-7, 【Hush Spectrum】, and【Ploy】on closest foes and any foes within 2 spaces of those foes through their next actions.<br><br>At start of combat, if unit's HP ≥ 25%, inflicts penalty on foe's Atk/Res = 10% of unit's Res at start of combat + 6 and reduces damage from foe's attacks by 20% of unit's Res during combat (excluding area-of-effect Specials).<br><br>【Hush Spectrum】<br>Inflicts Atk/Spd/Def/Res-5 on unit during combat. If unit's attack can trigger unit's Special, inflicts Special cooldown count+1 on unit before unit's first attack during combat (cannot exceed the unit's maximum Special cooldown). If unit's maximum Special cooldown count is reduced (Special trigger is accelerated) and if foe's attack can trigger foe's Special, grants Special cooldown count-1 to foe before unit's first attack during combat.<br><br>【Ploy】<br>Neutralizes Bonus Doubler, Treachery, and Grand Strategy effects active on unit during combat through unit's next action.
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Atk|3}}
+|s1 Ce1={{Eft|Temporary debuffs|Atk/Res|6}}
+|s1 Ce1C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s1 Ce2={{Eft|Prevent Follow-Ups}}
+|s1 Ce1-2T={{Tgt|Foe}}
+|s1 Ce2C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' Y ≥ 5
+|s1 Ce3={{Eft|Guaranteed Follow-Ups}}
+|s1 Ce3C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' Y ≥ 10
+|s1 Ce4={{Eft|Guard}}
+|s1 Ce4T={{Tgt|Foe}}<br>
+|s1 Ce4C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' Y ≥ 15
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Atk|3}}
+|s2 Ce1={{Eft|Temporary debuffs|Atk/Res|6}}
+|s2 Ce2={{Eft|Neutralize Bonuses|Atk/Res}}
+|s2 Ce1-2T={{Tgt|Foe}}
+|s2 Ce3={{Eft|Damage Boost|highest total {{SEt|penalties}}<br>on {{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]] of {{Tgt|Target Foe}}}}
+|s2 Ce1-3C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s2 Ce4={{Eft|Prevent Follow-Ups}}
+|s2 Ce4T={{Tgt|Foe}}<br>
+|s2 Ce4C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' Y ≥ 5
+|s2 Ce5={{Eft|Guaranteed Follow-Ups}}
+|s2 Ce5C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' Y ≥ 10
+|s2 Ce6={{Eft|Guard}}
+|s2 Ce6T={{Tgt|Foe}}<br>
+|s2 Ce6C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' Y ≥ 15
+|skill3={{Si|Tome of Despair|refine=Skill1}} Skill refine effects
+|s3 Se1={{Eft|Penalties|Atk/Res|7}}
+|s3 Se2={{SEt|Hush Spectrum}}
+|s3 Se3={{SEt|Ploy}}
+|s3 SeT=Closest {{Tgt|Foes}}<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}
+|s3 SeC=At start of Both Phases<br>if {{Tgt|Unit}}'s HP ≥ 25%
+|s3 Ce1={{Eft|Temporary debuffs|Atk/Res|10% of {{Tgt|Unit}}'s Res<br>at start of combat, +6}}
+|s3 Ce1T={{Tgt|Foe}}
+|s3 Ce2={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Res}}<br>from {{Tgt|Foe}}'s attacks
+|s3 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+<b>{{Hatnote|1=Y = Total {{SEt|Bonuses}} on {{Tgt|Unit}} + total {{SEt|Penalties}} on {{Tgt|Foe}}}}</b>
+
+==Notes==
+{{Temporary buffs}}
+{{Prevent follow-up}}
+{{Guaranteed follow-up interaction}}
+{{CooldownChargeMinus}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{DamageBoost|name=Refined Tome of Despair}}
+{{Penalties|name={{St|Tome of Despair|refine=Skill1}}}}
+{{Hush Spectrum|name={{St|Tome of Despair|refine=Skill1}}}}
+{{Ploy|name={{St|Tome of Despair|refine=Skill1}}}}
+{{At start of combat}}
+{{FlatDamageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=破滅の邪書
+|german=Verzagheitsbuch
+|spanishEU=Grimorio funesto
+|spanishLA=Grimorio funesto
+|french=Tome de chagrin
+|italian=Tomo funesto
+|chineseTW=破滅的邪書
+|portuguese=Tomo aflito
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%total bonuses on unit +%' OR Description LIKE '%total value of bonuses%' OR Description LIKE '%【Hush Spectrum】%' OR Description LIKE '%【Ploy】%') AND Exclusive='1'}}
+{{Weapons Navbox}}

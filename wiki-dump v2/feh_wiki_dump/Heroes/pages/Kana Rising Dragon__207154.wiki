@@ -1,0 +1,68 @@
+{{#invoke:NameAbout|main|Name=Kana}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Kana
+|Title=Rising Dragon
+|WeaponType=Red Breath
+|MoveType=Infantry
+|Person=Kana M
+|Origin=Fire Emblem Fates
+|Gender=Male
+|actorEN=Sandy Fox
+|actorJP=島﨑信長
+|artist=TAPI岡
+|additionDate=December 28, 2023
+|releaseDate=January 1, 2024
+|cv1=11
+|cv2=6900100
+|TagID=年明カンナ男
+|InternalID=1044
+|Properties=special
+|description=Corrin's son, always lively and cheerful, with new light in his eyes at the prospect of visiting a shrine for the new year. Appears in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=9|Lv1SPD=16|Lv1DEF=6|Lv1RES=7
+|GRHP=45|GRATK=75|GRSPD=70|GRDEF=50|GRRES=75
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire Breath
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Fire Breath+
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Dragon's Stone
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Dragon's Stone+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Moonbow
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Res Scowl 1
+|passiveA2=Atk/Res Scowl 2
+|passiveA3=Atk/Res Scowl 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=Dragon Wall 1
+|passiveB2=Dragon Wall 2
+|passiveB3=Dragon Wall 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:New Year's units]]

@@ -1,0 +1,66 @@
+{{#invoke:NameAbout|main|Name=Validar}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Validar
+|Title=Fell Architect
+|WeaponType=Red Tome
+|MoveType=Infantry
+|Origin=Fire Emblem Awakening
+|Gender=Male
+|actorEN=Kyle Hebert
+|actorJP=子安武人
+|artist=Daisuke Izuka
+|additionDate=December 6, 2023
+|releaseDate=December 7, 2023
+|cv1=10
+|cv2=500200
+|TagID=ファウダー
+|InternalID=1034
+|Properties=limited,ghb
+|description=Leader of a religious sect that worships the Fell Dragon, Grima. Takes the throne as king of Plegia after Gangrel's death. Appears in Fire Emblem Awakening.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=11|Lv1SPD=4|Lv1DEF=9|Lv1RES=10
+|GRHP=55|GRATK=80|GRSPD=30|GRDEF=60|GRRES=75
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Flux
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Ruin
+|weapon2Default=3
+|weapon2Unlock=3
+|weapon3=Fenrir
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Grimleal Text
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Glacies
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Brash Assault 1
+|passiveB2=Brash Assault 2
+|passiveB3=Brash Assault 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Atk Ploy 1
+|passiveC2=Atk Ploy 2
+|passiveC3=Atk Ploy 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

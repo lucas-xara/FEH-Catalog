@@ -1,0 +1,63 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_エクスカリバー
+|weaponType=Green Tome
+|might=14
+|range=2
+|effectiveness=flying
+|effect=Effective against flying foes. 
+|cost=400
+|exclusive=1
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|statModifiers=0,14,0,0,0
+|required=Rexcalibur
+|SE=se_effect_excalibur_add.flac
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1). Effective against flying units.
+|upgradedCooldown=-1
+|effectSkill1=If unit is within 2 spaces of magic or staff ally, grants Atk/Spd+5 during combat.
+|iconSkill1=Magic Staff Atk Spd Bond W.png
+|tagidExtraSkill1=絆
+|properties=random_owner
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{TermRefersTo|magic or staff|magic,staff}}
+{{Combat boosts}}
+
+==Evolution==
+{{WEvo
+|weapon=Dark Excalibur
+|Medals=375
+|Stones=
+|Dew=150
+}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|攻撃速さの絆R魔杖|Magic/Staff Attack/Speed Bond}}
+==In other languages==
+{{OtherLanguages
+|japanese=エクスカリバー
+|german=Excalibur
+|spanishEU=Excalibur
+|spanishLA=Excalibur
+|french=Excalibur
+|italian=Excalibur
+|chineseTW=埃克斯卡利伯
+|portuguese=Excalibur
+}}
+==See also==
+* [[Aura]]
+* [[:Category:Bows|Bows]]
+* [[Bond Passives]]
+{{Weapons Navbox}}

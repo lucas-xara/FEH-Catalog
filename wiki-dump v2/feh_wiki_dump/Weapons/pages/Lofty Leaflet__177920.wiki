@@ -1,0 +1,42 @@
+{{Weapon Infobox
+|tagid=SID_気高き怪盗の予告状
+|intID=3195
+|image=wep_mg174
+|exclusive=1
+|weaponType=Blue Tome
+|cost=400
+|might=14
+|range=2
+|effect=Enables【Canto (Unit 3×3)】.<br><br>Grants Spd+3. At start of combat, if foe's HP ≥ 50%, grants Atk/Spd+6 to unit during combat, deals damage = 15% of unit's Spd, and also, if foe has bonuses, grants bonus to unit's Atk/Spd/Def/Res and inflicts penalty on foe's Atk/Spd/Def/Res during combat = current bonus on each of foe's stats. Calculates each stat bonus and penalty independently.<br><br>【Canto (Unit 3×3)】<br>After an attack, Assist skill, or structure destruction, unit can move to a space within 3 rows and 3 columns centered on unit.<br><br>(Once per turn. Cannot attack or assist. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Granted movement treated as Warp movement.)
+|statModifiers=0,14,3,0,0
+|required=Thoron;Shine
+|properties=
+}}
+==Notes==
+{{Canto|Unit 3x3}}
+{{DamageBoost}}
+{{TemporaryBufffromBonus|source=the foe}}
+{{TemporaryDebufffromBonus|source=the foe}}
+
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V6.8_v0608a_thief_Mag.webp|Sprite sheet for {{St|Soothing Scent}} and {{PAGENAME}}'s animation.
+V6.8_v0608a_thief_Mag_2.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=気高き怪盗の予告状
+|german=Edles Manifest
+|spanishEU=Manifiesto noble
+|spanishLA=Manifiesto noble
+|french=Noble manifeste
+|italian=Nobile intento
+|chineseTW=高雅怪盜的預告信
+|portuguese=Panfleto solene
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【Canto (Unit 3×3)】%' OR Description LIKE '%if foe has%bonus%grants%inflicts%' AND Exclusive='1' AND WikiName NOT LIKE '%defier%'}}
+* [[Skill families/Weapons#Defier's|Defier's Weapons]]
+{{Weapons Navbox}}

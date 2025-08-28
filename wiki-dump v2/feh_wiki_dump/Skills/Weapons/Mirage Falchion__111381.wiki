@@ -1,0 +1,74 @@
+{{Weapon Infobox
+|tagid=SID_幻影ファルシオン
+|weaponType=Sword
+|might=16
+|range=1
+|effectiveness=dragon
+|effect=Effective against dragon foes. Grants Def+3. If unit initiates combat, grants bonus to unit's Atk/Def during combat = 3 + number of allies who have already acted × 2 (max value of 7). If foe initiates combat, grants bonus to unit's Atk/Def during combat = 7 - number of foes who have already acted × 2 (min value of 3).
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,3,0
+|required=Silver Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Effective against dragon foes. Grants Def+3. If unit initiates combat, grants Atk/Spd/Def/Res+X to unit during combat (X = 4 + number of allies who have already acted × 3; max 10). If foe initiates combat, grants Atk/Spd/Def/Res+X to unit during combat (X = 10 - number of foes who have already acted × 3; min 4). Restores 7 HP to unit after combat.
+|effectSkill1=If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+4 to unit, unit makes a guaranteed follow-up attack, and reduces damage from foe's first attack by 30% during combat.
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Def|3}}
+|s1 Ce1={{Eft|Effectiveness|{{Cwti|group=1|Dragon}} [[Dragon]]}}
+|s1 Ce2={{Eft|Temporary buffs|Atk/Def|max=7|3 + {{Tgt|Allies}}<br>who've already acted x 2}}
+|s1 Ce3={{Eft|Temporary buffs|Atk/Def|min=3|7 - {{Tgt|Foes}}<br>who've already acted x 2}}
+|s1 CeC2=Player Phase
+|s1 CeC3=Enemy Phase
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Def|3}}
+|s2 Me={{Eft|Heal|7}}
+|s2 MeC=After combat
+|s2 Ce1={{Eft|Effectiveness|{{Cwti|group=1|Dragon}} [[Dragon]]}}
+|s2 Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|max=10|4 + {{Tgt|Allies}}<br>who've already acted x 3}}
+|s2 Ce3={{Eft|Temporary buffs|Atk/Spd/Def/Res|min=4|10 - {{Tgt|Foes}}<br>who've already acted x 3}}
+|s2 CeC2=Player Phase
+|s2 CeC3=Enemy Phase
+|skill3={{Si|Mirage Falchion|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s3 Ce2={{Eft|Guaranteed Follow-Up}}
+|s3 Ce3={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s first attack
+|s3 CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[Within 2 spaces]]
+}}
+
+==Notes==
+{{Effective damage bonus|dragon}}
+{{IfUnitInitiates}}
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{After combat healing|name=Refined Mirage Falchion}}
+{{IfUnitInitiates}}
+{{Guaranteed follow-up interaction|name={{St|Mirage Falchion|refine=Skill1}}}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Mirage Falchion
+|japanese=幻影ファルシオン
+|german=Mirage-Falchion
+|spanishEU=Falchion Mirage
+|spanishLA=Falchion Mirage
+|french=Falchion mirage
+|italian=Falchion Mirage
+|chineseTW=幻影法爾西昂
+|portuguese=Falchion Mirage
+}}
+==See also==
+{{See also skills|cond=((Description LIKE '%all%ha%already%' AND Description NOT LIKE '%another action%') OR Description LIKE '%foe%ha%already%' OR WikiName LIKE '%Falchion%') AND (Exclusive=1 AND Name NOT LIKE '%+' AND Properties HOLDS NOT 'arcane')}}
+* [[Session Passives]]
+{{Weapons Navbox}}

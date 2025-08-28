@@ -1,0 +1,62 @@
+{{Weapon Infobox
+|tagid=SID_夏の海に弾む球
+|intID=4768
+|image=wep_mg406
+|exclusive=1
+|weaponType=Red Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>At start of turn, if unit is within 2 spaces of an ally, grants Atk/Spd+6, "neutralizes penalties on unit during combat," and【Hexblade】to unit and allies within 2 spaces of unit for 1 turn.<br><br>If unit initiates combat or is within 2 spaces of an ally, grants bonus to unit's Atk/Spd = 20% of unit's Spd at start of combat + 6, unit deals +X × 5 damage (max 25; excluding area-of-effect Specials; X = number of【Bonus】 effects active on unit, excluding stat bonuses + number of【Penalty】effects active on foe, excluding stat penalties), and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials), and also, if unit initiates combat, unit can make a follow-up attack before foe's next attack.<br><br>【Hexblade】<br>Calculates damage using the lower of foe's Def or Res during combat for 1 turn (including damage dealt by Specials before combat).<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|required=Bolganone;Fenrir
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Se1={{Eft|Bonuses|Atk/Spd|6}}
+|Se2={{SEt|Neutralize Penalties}}
+|Se3={{SEt|Hexblade}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=At start of turn<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce1={{Eft|Temporary buffs|Atk/Spd|20% of {{Tgt|Unit}}'s Spd<br>at start of combat, +6}}
+|Ce2={{Eft|Damage Boost|5 x ({{Kp|Bonus}} effects<br>on {{Tgt|Unit}} '''&''' {{Kp|Penalty}}<br>effects on {{Tgt|Foe}}), +5<br>(exc. {{SEt|Bonuses}} '''&''' {{SEt|Penalties}})|max=25}}
+|Ce3={{Eft|Reduce Damage Reduction|50%}}
+|Ce3T={{Tgt|Foe}}
+|Ce1-3C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce4={{Eft|Desperation}}
+|Ce4C=Player Phase
+}}
+==Notes==
+{{Bonuses}}
+{{Neutralize Penalties}}
+{{Hexblade}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{At start of combat}}
+{{FlatDamageBoost|X (max: 25)}}
+{{EffectfromBonus|damage boost|nonStat=1}}
+{{EffectfromPenalty|damage boost|nonStat=1}}
+{{Follow-up before counter}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V9.6_v0906b_summer_Mag.webp|Sprite sheet for {{St|Pious Offering}} and {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%number of%Bonus%effects active on unit%Penalty%effects active on foe%') AND Exclusive='1' AND NAME NOT LIKE '%gainful%'}}
+* [[Skill families/Weapons#Gainful|Gainful Weapons]]
+{{Weapons Navbox}}

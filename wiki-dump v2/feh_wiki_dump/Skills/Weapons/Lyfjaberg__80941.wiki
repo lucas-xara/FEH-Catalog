@@ -1,0 +1,89 @@
+{{Weapon Infobox
+|tagid=SID_リフィア
+|weaponType=Dagger
+|weaponName=Lyfjaberg
+|might=14
+|range=2
+|effect=Grants Res+3. At start of combat, if unit's HP ≥ 50%, grants Atk/Spd+4 during combat, and if unit initiates combat, foe cannot make a follow-up attack. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions, and if bonus was granted to unit, deals 4 damage to unit.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,0,0,3
+|required=Silver Dagger
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Res+3. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit during combat, and also, if unit initiates combat or if unit's Spd > foe's Spd, foe cannot make a follow-up attack and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)<br><br>Effect:【Dagger ７】<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|tagidExtraSkill1=一
+|effectSkill1=If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+4 to unit during combat, grants bonus to unit's Atk/Res during combat = 20% of unit's HP at start of combat, and restores 7 HP to unit and allies within 2 spaces after combat.
+|iconSkill1=Lyfjaberg W.png
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Res|3}}
+|s1 Ce1={{Eft|Temporary buffs|Atk/Spd|4}}
+|s1 Ce1C={{Tgt|Unit}}'s HP ≥ 50%<br>at start of combat
+|s1 Ce2={{Eft|Prevent Follow-Ups}}
+|s1 Ce2T={{Tgt|Foe}}
+|s1 Ce2C=Player Phase '''&'''<br>{{Tgt|Unit}}'s HP ≥ 50%<br>at start of combat
+|s1 Me={{Eft|Damage|4}}
+|s1 MeC=After combat if<br>{{Tgt|Unit}}'s HP ≥ 50%<br>at start of combat<br>'''&''' {{Tgt|Unit}} attacked
+|s1 Se={{Eft|Penalties|Def/Res|7}}
+|s1 SeT={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|s1 SeC=After combat if<br>{{Tgt|Unit}} attacked
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Res|3}}
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s2 Ce1C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s2 Ce2={{Eft|Prevent Follow-Ups}}
+|s2 Ce3={{Eft|Guard}}
+|s2 Ce2-3T={{Tgt|Foe}}
+|s2 Ce2-3C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' (Player Phase<br>'''or''' {{Tgt|Unit}}'s Spd<br>> {{Tgt|Foe}}'s Spd)
+|s2 Se={{Eft|Penalties|Def/Res|7}}
+|s2 SeT={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|s2 SeC=After combat if<br>{{Tgt|Unit}} attacked
+|skill3={{Si|Lyfjaberg|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s3 Ce2={{Eft|Temporary buffs|Atk/Res|20% of {{Tgt|Unit}}'s HP<br>at start of combat}}
+|s3 CeC=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|s3 Me={{Eft|Heal|7}}
+|s3 MeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|s3 MeC=After combat if<br>an {{Tgt|Ally}} is<br>[[within 3 spaces]]
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{IfUnitInitiates}}
+{{Prevent follow-up}}
+{{IfUnitAttacked}}
+{{Penalties}}
+{{DamageToUnit}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{CooldownChargeMinus|name={{St|Lyfjaberg|refine=Skill1}}}}
+{{After combat healing|allies=1|name={{St|Lyfjaberg|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+Lyfjaberg_Closeup.png|
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=リフィア
+|german=Lyfjaberg
+|spanishEU=Lyfjaberg
+|spanishLA=Lyfjaberg
+|french=Lyfjaberg
+|italian=Lyfjaberg
+|chineseTW=利菲亞
+|portuguese=Lyfjaberg
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%bonus to unit_s%=%HP at start of combat%' OR Description LIKE '%restores _ HP to unit and allies within _ spaces after combat%' OR Description LIKE '%after combat%restores _ HP to unit and allies within _ spaces%') AND Exclusive='1'}}
+* [[Skill families/Weapons#Instant|Instant Weapons]]
+* [[Skill families/A Passives#Impact|Impact Passives]]
+{{Weapons Navbox}}

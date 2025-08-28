@@ -1,0 +1,58 @@
+{{Weapon Infobox
+|tagid=SID_尽きざるもの
+|intID=4291
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=1
+|weaponType=Bow
+|cost=400
+|might=8
+|range=2
+|cooldown=-1
+|effectiveness=Flying
+|effect=Enables【Canto (Dist.; Max ３)】.<br>Accelerates Special trigger (cooldown count-1).<br>Effective against flying foes.<br>Unit attacks twice (even if foe initiates combat, unit attacks twice).<br><br>If unit initiates combat or【Bonus】is active on unit, grants Atk/Spd/Def/Res+5 to unit, grants bonus to unit's Atk/Spd/Def/Res = 15% of unit's Spd at start of combat, deals damage = 20% of unit's Spd (excluding area-of-effect Specials), and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials).<br><br>【Canto (Dist.; Max ３)】<br>After an attack, Assist skill, or structure destruction, unit can move spaces = number of spaces from start position to end position unit moved prior to taking action (max ３).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|required=Silver Bow
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Me={{Eft|Canto|Dist.; Max 3}}
+|Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|Ce2={{Eft|Attack Twice}}
+|Ce3={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce4={{Eft|Temporary buffs|Atk/Spd/Def/Res|15% of {{Tgt|Unit}}'s Spd<br>at start of combat}}
+|Ce5={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|Ce6={{Eft|Reduce Damage Reduction|50%}}
+|Ce6T={{Tgt|Foe}}
+|Ce3-6C=Player Phase '''or'''<br>a {{Kp|Bonus}} is<br>active on {{Tgt|Unit}}
+}}
+
+==Notes==
+{{Canto|Dist.; Max 3}}
+{{Effective damage bonus|Flying}}
+{{AttackTwice}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{DamageBoost}}
+{{Reduce Damage Reduction}}
+{{EffectfromBonus|temporary buffs, damage boost and reduce non-Special X% damage reduction}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=尽きざるもの
+|german=Unerschöpflicher
+|spanishEU=El Inagotable
+|spanishLA=El Inagotable
+|french=L'Inépuisable
+|italian=L'Inestinguibile
+|chineseTW=無盡之物
+|portuguese=O inesgotável
+}}
+
+==See also==
+{{See also skills|cond=Description LIKE '%【Canto (Dist.; Max ３)】%' OR Description LIKE '%. Unit attacks twice%deals damage%' AND Exclusive='1'}}
+* [[Brave Weapons]]
+{{Weapons Navbox}}

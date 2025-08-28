@@ -1,0 +1,57 @@
+{{Passive
+|name=Twinkling Anima
+|type=C
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Twinkling Anima
+|1tagid=SID_光輝く理力
+|1effect=At start of turn, if unit's HP ≥ 25%, grants Atk/Spd+6,【Canto (１)】, and the following status to unit and allies within 3 spaces of unit for 1 turn: "neutralizes penalties on unit during combat."<br><br>At start of turn, if unit's HP ≥ 25%, inflicts Spd/Res-7,【Panic】, and【Discord】on closest foes and any foe within 3 spaces of those foes through their next actions.<br><br>If unit is within 3 spaces of an ally, grants Atk/Spd+5 to unit, neutralizes effects that inflict "Special cooldown charge -X" on unit, and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials).<br><br>【Canto (１)】<br>After an attack, Assist skill, or structure destruction, unit can move １ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)<br><br>【Panic】<br>Converts bonuses on target into penalties through its next action.<br><br>【Discord】<br>Inflicts Atk/Spd/Def/Res-X on unit during combat (X = 2 + number of allies within 2 spaces of unit; max 5) through its next action.
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{Eft|Bonuses|Atk/Spd|6}}
+|Se2={{SEt|Canto (1)}}
+|Se3={{SEt|Neutralize Penalties}}
+|Se1-3T={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 3 spaces]]
+|Se4={{Eft|Penalties|Spd/Res|6}}
+|Se5={{SEt|Panic}}
+|Se6={{SEt|Discord}}
+|Se4-6 Targets=Closest {{Tgt|Foes}}<br>'''&''' {{Tgt|Foes}}<br>[[within 3 spaces]]<br>of those {{Tgt|Foes}}
+|SeC=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25%
+|Ce1={{Eft|Temporary buffs|Atk/Spd|5}}
+|Ce2={{Eft|Neutralize Guard}}
+|Ce3={{Eft|Reduce Damage Reduction|50%}}
+|Ce3T={{Tgt|Foe}}
+|CeC=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+}}
+==Notes==
+{{Bonuses}}
+{{Canto|1|status=1}}
+{{Neutralize Penalties}}
+{{Penalties}}
+{{Panic}}
+{{Discord}}
+{{Temporary buffs}}
+{{CooldownChargeMinusNeutralization}}
+{{Reduce Damage Reduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%at start of turn%grants%inflicts%/%-%est foe%' OR Description LIKE '%at start of turn%grants%, inflicts%est foes%and foes within _ spaces of those foes%') AND Exclusive='1'}}
+* [[Menace Passives]]
+{{Passives Navbox|C}}

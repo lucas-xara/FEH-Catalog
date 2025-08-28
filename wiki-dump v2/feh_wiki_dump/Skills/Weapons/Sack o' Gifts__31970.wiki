@@ -1,0 +1,38 @@
+{{Weapon Infobox
+|tagid=SID_プレゼント袋
+|weaponType=Axe
+|weaponName=Sack o' Gifts
+|might=10
+|range=1
+|effect=If foe initiates combat, grants Atk/Spd/Def/Res+2 during combat.
+|cost=200
+|exclusive=0
+|statModifiers=0,10,0,0,0
+|next=Sack o' Gifts+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Axe
+|properties=
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Combat boosts}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>Wep_axXXX_プレゼント袋.png|Found at <code>files/assets/Common/Unit/ch04_00_Chrom_M_WinterFes17/tex/Wep_axXXX_プレゼント袋.png</code>, this appears to be a prototype sprite of {{PAGENAME}}.</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=プレゼント袋
+|german=Geschenksack
+|spanishEU=Saco sorpresa
+|spanishLA=Saco sorpresa
+|french=Sac à cadeaux
+|italian=Sacco di regali
+|chineseTW=禮物袋
+|portuguese=Saco surpresa
+}}
+==See also==
+* [[Winter's Envoy Weapons]]
+{{Weapons Navbox}}
+[[Category:Winter's Envoy weapons]]

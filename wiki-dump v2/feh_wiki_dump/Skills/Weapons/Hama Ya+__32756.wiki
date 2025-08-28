@@ -1,0 +1,42 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_破魔矢＋
+|weaponType=Bow
+|weaponName={{PAGENAME}}
+|altWeaponName=Hama Ya Plus
+|might=12
+|range=2
+|effectiveness=flying
+|effect=Effective against flying foes.<br>Grants Def/Res+2 to allies within 2 spaces during combat.
+|cost=300
+|exclusive=0
+|userVersion1=Bow|userVersion2=Arrow|statModifiers=0,12,0,0,0
+|required=Hama Ya
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{Combat boosts}}
+{{AlliesCombatEffect|effect=combat boost}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=破魔矢＋
+|german=Hamaya+
+|spanishEU=Hama Ya +
+|spanishLA=Hama Ya +
+|french=Hama Ya +
+|italian=Hama Ya+
+|chineseTW=破魔箭＋
+|portuguese=Hama Ya+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%Grants Def/Res+2 to allies within 2 spaces during combat.%'}}{{Weapons Navbox}}
+[[Category:Happy New Year! weapons]]

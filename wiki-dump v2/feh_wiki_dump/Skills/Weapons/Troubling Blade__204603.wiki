@@ -1,0 +1,47 @@
+{{Weapon Infobox
+|tagid=SID_影の勇者の黒剣
+|intID=3868
+|image=wep_sw168
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=11
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). Unit attacks twice (even if foe initiates combat, unit attacks twice). At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit, reduces damage from foe's first attack by 40%, and grants Special cooldown charge +1 to unit per attack during combat (only highest value applied; does not stack). For each foe within 4 spaces of unit, unit can move to any of the nearest spaces adjacent to that foe (unless space is impassable terrain).
+|required=Silver Sword
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|PermanentEffect={{Eft|Accelerate Special}}
+|CombatEffect 1={{Eft|Attack Twice}}
+|CombatEffect 2={{Eft|Damage Reduction|40%}}<br>from {{Tgt|foe}}'s first attack
+|CombatEffect 3={{Eft|Accelerate Charge}}
+|CombatEffect 2-3 Conditions={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|MapEffect={{Eft|Warp|nearest=1|[[adjacent]] to each {{Tgt|Foe}}<br>[[within 4 spaces]]}}
+}}
+
+==Notes==
+{{Brave weapon interaction}}
+{{Temporary buffs}}
+{{DamagePercentageReduction}}
+{{CooldownChargePlus}}
+{{Warp interaction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=影の勇者の黒剣
+|german=Besorgte Klinge
+|spanishEU=Hoja de guerrero
+|spanishLA=Hoja de guerrero
+|french=Lame tourmentée
+|italian=Lama inquieta
+|chineseTW=影之勇者的黑劍
+|portuguese=Lâmina aflita
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%unit can move to%nearest spaces%that foe%' OR Description LIKE '%unit attacks twice%' AND (Description LIKE '%special cooldown charge +1%' OR Description LIKE '%reduces damage%') AND Description NOT LIKE '%strikes%'}}
+* [[Brave Weapons]]
+{{Weapons Navbox}}

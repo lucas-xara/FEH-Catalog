@@ -1,0 +1,49 @@
+{{Weapon Infobox
+|tagid=SID_正義の直槍
+|intID=3316
+|image=wep_lc131
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=16
+|range=1
+|effect=If an ally's HP ≤ 80%, unit can move to a space adjacent to that ally. At start of combat, if unit's HP ≥ 25%, grants bonus to unit's Atk/Spd/Def/Res during combat = 4 + X (X = number of spaces from start position to end position of whoever initiated combat × 2; max 8).
+|statModifiers=0,16,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|tagidExtraSkill1=一
+|effectSkill1=If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+4 to unit during combat and bonus to Atk/Spd/Def/Res during combat = current penalty on each of those stats × 2. (Example: if unit has -7 penalty to Atk, grants Atk+18, for a net bonus of Atk+11.) Calculates each stat bonus independently.
+|iconSkill1=Lance of Heroics W.png
+|properties=
+}}
+==Notes==
+{{Warp interaction}}
+{{Temporary buffs}}
+{{SpacesFromStarttoEnd}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{TemporaryBufffromPenalty|source=the unit|ptySource=the unit|name={{St|Lance of Heroics|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=正義の直槍
+|german=Heldentatenlanze
+|spanishEU=Lanza osada
+|spanishLA=Lanza osada
+|french=Lance juste
+|italian=Lancia giusta
+|chineseTW=正義的直槍
+|portuguese=Lança valorosa
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%if an ally_s HP ≤%unit can%space adjacent to that ally%' OR (Description LIKE '%Example: if unit has -%penalty to%, grants%, for a net bonus of%' OR (Description LIKE '%=%number of spaces from start position to end position%' OR Description LIKE '%=%number of spaces moved%') AND Description NOT LIKE '%transforms%if X ≥ 5%') AND Exclusive='1'}}
+* [[Skill families/A Passives#Clash|Clash Passives]] 
+* [[Skill families/A Passives#Unity|Unity Passives]]
+{{Weapons Navbox}}

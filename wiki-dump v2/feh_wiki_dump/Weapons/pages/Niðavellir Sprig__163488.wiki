@@ -1,0 +1,37 @@
+{{Weapon Infobox
+|tagid=SID_ニザヴェリルの花
+|intID=2893
+|exclusive=1
+|weaponType=Dagger
+|cost=400
+|might=14
+|range=2
+|effect=Grants Spd+3. Enables【Canto (２)】during turns 1 through 4. If unit initiates combat or is not adjacent to an ally, grants Atk/Spd/Def/Res+5 to unit, neutralizes effects that prevent unit's follow-up attacks, and inflicts Special cooldown charge -1 on foe per attack during combat. (Only highest value applied. Does not stack.)<br>Effect:【Dagger ７】<br><br>【Canto (２)】<br>After an attack, Assist skill, or structure destruction, unit can move ２ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|statModifiers=0,14,3,0,0
+|required=Silver Dagger
+|properties=
+}}
+==Notes==
+{{Canto|2}}
+{{IfUnitInitiates}}
+{{Combat boosts}}
+{{Follow-up effect neutralization|preventOnly=1}}
+{{CooldownChargeMinus}}
+{{IfUnitAttacked}}
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ニザヴェリルの花
+|german=Niðavellir-Zweig
+|spanishEU=Ramita Niðavellir
+|spanishLA=Ramita Niðavellir
+|french=Brin de Niðavellir
+|italian=Ramo Niðavellir
+|chineseTW=尼德威阿爾之花
+|portuguese=Ramo Niðavellir
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【Canto (２)】%' OR Description LIKE '%Canto%turns 1 through 4%' OR Description LIKE '%if unit initiates combat%that prevents unit\'s follow-up attack%'|columns=3}}
+{{Weapons Navbox}}

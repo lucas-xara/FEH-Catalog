@@ -1,0 +1,51 @@
+{{Weapon Infobox
+|tagid=SID_桜と薔薇の刀＋
+|intID=3472
+|image=wep_sw146
+|exclusive=0
+|weaponType=Sword
+|cost=300
+|might=14
+|range=1
+|effect=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+5 during combat, and also, if unit's Spd > foe's Spd, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks and deals +5 damage (excluding when dealing damage with an area-of-effect Special).
+|statModifiers=0,14,0,0,0
+|required=Petalfall Blade
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary buffs|Atk/Spd|5}}
+|Ce1C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce2={{Eft|Damage Boost|5}}
+|Ce3={{Eft|Neutralize Prevent Follow-Ups}}
+|Ce4={{Eft|Neutralize Guaranteed Follow-Ups}}
+|Ce4T={{Tgt|Foe}}
+|Ce2-4C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat '''&'''<br>{{Tgt|Unit}}'s Spd > {{Tgt|Foe}}'s<br>Spd during combat
+}}
+==Notes==
+{{Temporary buffs}}
+{{Follow-up effect neutralization}}
+{{FlatDamage|5}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=桜と薔薇の刀＋
+|german=Blütenblattklinge+
+|spanishEU=Hoja pétalo +
+|spanishLA=Hoja pétalo +
+|french=Lame de pétales +
+|italian=Lama fiorita+
+|chineseTW=櫻與玫瑰之刀＋
+|portuguese=Pétala afiada+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants Atk/Spd+%during combat%neutralizes effects%guarantee%prevent%' AND Description NOT LIKE '%【Null Follow-Up】%' AND Exclusive='1' AND Name NOT LIKE 'Null%+'}}
+* [[Skill_families/Weapons#Null_(weapons)|Null Weapons]]
+{{Weapons Navbox}}

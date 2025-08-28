@@ -1,0 +1,61 @@
+{{Passive
+|type=C
+|name=Worldbreaker
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Worldbreaker
+|1tagid=SID_神槌大地を穿つ
+|1cost=300
+|1effect=Grants Special cooldown charge +1 per attack during combat to unit and allies within 2 spaces. (Only highest value applied. Does not stack.)
+|1required=-
+|1next=-
+|2name=Worldbreaker+
+|alt2name=Worldbreaker Plus
+|2tagid=SID_神槌大地を穿つ・神
+|2effect=Allies within 2 spaces of unit can move to any space within 2 spaces of unit.<br><br>Grants Atk/Def/Res+5 and Special cooldown charge +1 to unit per attack (only highest value applied; does not stack), and grants Special cooldown count-2 to unit before unit's first attack during combat.<br><br>Grants Atk/Def/Res+4 and Special cooldown charge +1 per attack to allies within 3 spaces of unit (only highest value applied; does not stack), and grants Special cooldown count-1 to those allies before their first attack during their combat.
+|2cost=300
+|properties2=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Worldbreaker}} Worldbreaker
+|s1 Ce={{Eft|Accelerate Charge}}
+|s1 CeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|skill2={{Si|Worldbreaker+}} Worldbreaker+
+|s2 Me={{Eft|Warp|[[within 2 spaces]]<br>of {{Tgt|Unit}}}}
+|s2 MeT={{Tgt|Allies}}<br>[[within 2 spaces]]
+|s2 Ce1={{Eft|Temporary buffs|Atk/Def/Res|5}}
+|s2 Ce2={{Eft|Accelerate Charge}}
+|s2 Ce3={{Eft|Reduce Cooldown|2}}<br>before {{Tgt|Unit}}'s first attack
+|s2 Ce4={{Eft|Temporary buffs|Atk/Def/Res|4}}
+|s2 Ce5={{Eft|Accelerate Charge}}
+|s2 Ce6={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Ally}}'s first attack
+|s2 Ce4-6T={{Tgt|Allies}}<br>[[within 3 spaces]]
+}}
+==Notes==
+{{CooldownChargePlus}}
+{{AlliesCombatEffect|special cooldown charge +1}}
+{{Warp interaction|name=Worldbreaker+}}
+{{Temporary buffs|name=Worldbreaker+}}
+{{CombatCooldownCount|-2/-1|name=Worldbreaker+}}
+{{AlliesCombatEffect|temporary buffs, special cooldown charge +1 and special cooldown count -1|name=Worldbreaker+}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=神槌大地を穿つ
+|japaneseNotes=''The Divine Hammer Pierces the Land''
+|german=Weltenspalter
+|spanishEU=Devastamundos
+|spanishLA=Devastamundos
+|french=Briseur d'univers
+|italian=Spaccamondi
+|chineseTW=神錘貫穿大地
+|portuguese=Quebra-mundos
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%allies within _ spaces%grants special cooldown charge +1%' OR Description LIKE '%special cooldown charge +1%to allies _within _ spaces%') AND Description NOT LIKE '%at start of turn%' AND Description NOT LIKE '%unit after combat%' OR Description LIKE '%any space within _ spaces of unit%' AND Exclusive='1'}}
+* [[Skill families/C Passives#Guidance|Guidance Passives]]
+{{Passives Navbox|C}}

@@ -1,0 +1,73 @@
+{{#invoke:NameAbout|main|Name=Merric}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Merric
+|Title=Wind Mage
+|WeaponType=Green Tome
+|Origin=Fire Emblem: Mystery of the Emblem
+|Gender=Male
+|MoveType=Infantry
+|actorEN=Yuri Lowenthal
+|actorJP=保志総一朗
+|artist=水野加奈
+|resplendentArtist=ネコモチ
+|resplendentArtist-extra=Exys Inc.
+|releaseDate=February 2, 2017
+|poolDate=February 2, 2017
+|randomStartTime=2017-02-02T07:00:00Z
+|poolRarities=3,4
+|TagID=マリク
+|InternalID=82
+|Properties=demoted_240,resplendent,nidavellir
+|cv1=1
+|cv2=500100
+|description=Wind mage who studied in Khadein, known for its magical school. Marth's childhood friend. Appears in Fire Emblem: Mystery of the Emblem.
+|GrowthModifier=None
+|resplendentStartTime=2021-07-10T07:00:00Z
+|resplendentEndTime=2021-07-25T06:59:59Z
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=7|Lv1SPD=8|Lv1DEF=6|Lv1RES=4
+|GRHP=55|GRATK=45|GRSPD=55|GRDEF=50|GRRES=35
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Wind
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elwind
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Rexcalibur
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Excalibur
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Rising Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Growing Wind
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=HP +3
+|passiveA2=HP +4
+|passiveA3=HP +5
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Spur Res 1
+|passiveC2=Spur Res 2
+|passiveC3=Spur Res 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

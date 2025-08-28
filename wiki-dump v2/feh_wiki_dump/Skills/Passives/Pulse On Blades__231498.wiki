@@ -1,0 +1,47 @@
+{{Passive
+|name=Pulse On: Blades
+|type=C
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|Infantry}}
+|properties=random_owner
+|1name=Pulse On: Blades
+|alt1name=Pulse On Blades
+|1tagid=SID_追撃の鼓動・刃
+|1effect=Grants bonus to unit's Atk/Spd = unit's max Special cooldown count value + 2, and if unit's attack can trigger unit's Special, grants Special cooldown count-2 to unit before unit's first follow-up attack during combat.
+|1cost=300
+|1required=Time's Pulse 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary buffs|Atk/Spd|2 + {{Tgt|Unit}}'s max CD}}
+|Ce2={{Eft|Reduce Cooldown|2}}<br>before {{Tgt|Unit}}'s first [[follow-up]]
+|Ce2C={{Tgt|Unit}} has an<br>[[offensive Special]]
+}}
+==Notes==
+{{Temporary buffs}}
+{{CombatCooldownCount|-2}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese= 追撃の鼓動・刃
+|german=
+|spanishEU=Pulso doble: Filos
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+
+==See also==
+{{See also skills|cond=(Description LIKE '%before unit_s first follow-up%' OR Description LIKE '%=%unit_s max% special cooldown count value%') AND Exclusive='1'}}
+* [[Pulse On Passives]]
+{{Passives Navbox|C}}

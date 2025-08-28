@@ -1,0 +1,52 @@
+{{Passive
+|1name=Freezing Seal
+|1tagid=SID_凍結の封印
+|1effect=At start of turn, if unit's HP ≥ 50%, inflicts Atk/Spd-6 on foe on the enemy team with the lowest Res through its next action.
+|1required=-
+|1next=-
+|properties1=random_owner
+|2name=Freezing Seal II
+|2tagid=SID_凍結の封印・承
+|2cost=300
+|2effect=At start of turn, inflicts Atk/Def-7 and 【Guard】 on foes on the enemy team with the lowest Res and any foe within 2 spaces of those foes through their next actions.<br><br>【Guard】<br>Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)
+|1cost=300
+|type=B
+|name=Freezing Seal
+|exclusive=1
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Freezing Seal}} Freezing Seal
+|s1 Se={{Eft|Penalties|Atk/Def|6}}
+|s1 SeT={{Tgt|Foes}} with the<br>lowest Res
+|s1 SeC=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 50%
+|skill2={{Si|Freezing Seal II}} Freezing Seal II
+|s2 Se1={{Eft|Penalties|Atk/Def|7}}
+|s2 Se2={{SEt|Guard}}
+|s2 SeT={{Tgt|Foes}} with the<br>lowest Res<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}
+|s2 SeC=At start of turn
+}}
+==Notes==
+{{SelectStat|Res|lowest=1}}
+{{Penalties}}
+{{Guard|name=Freezing Seal II}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=凍結の封印
+|german=Frostsiegel
+|spanishEU=Hechizo glacial
+|spanishLA=Hechizo glacial
+|french=Sceau du froid
+|italian=Sigillo glaciale
+|chineseTW=凍結之封印
+|portuguese=Encanto glacial
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%start of turn%inflicts %/%-%enemy team%' AND Exclusive='1'}}
+* [[Chill Passives]]
+{{Passives Navbox|B}}

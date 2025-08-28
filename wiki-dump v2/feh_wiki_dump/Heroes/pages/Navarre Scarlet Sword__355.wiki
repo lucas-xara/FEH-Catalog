@@ -1,0 +1,79 @@
+{{#invoke:NameAbout|main|Name=Navarre}}{{HeroPage Tabs|{{PAGENAME}}}}
+{{Hero Infobox
+|Name=Navarre
+|Title=Scarlet Sword
+|GrowthModifier= None
+|WeaponType=Red Sword
+|Origin=Fire Emblem: Mystery of the Emblem
+|Gender=Male
+|MoveType=Infantry
+|actorEN=T. Axelrod
+|actorJP=子安武人
+|artist=由良
+|releaseDate=April 4, 2017
+|additionDate = February 2, 2017
+|TagID=ナバール
+|InternalID=7
+|Properties=ghb,limited
+|cv1=1
+|cv2=4900100
+|description=Skilled fighter known as the Scarlet Sword. Prefers his blade to do the talking. Appears in Fire Emblem: Mystery of the Emblem.
+}}
+
+__TOC__
+
+{{Stats Page|Hero={{BASEPAGENAME}}
+|Lv1HP=18|Lv1ATK=7|Lv1SPD=11|Lv1DEF=6|Lv1RES=5
+|GRHP=55|GRATK=55|GRSPD=60|GRDEF=40|GRRES=45
+}}
+
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Killing Edge
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Killing Edge+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Scarlet Sword
+|weapon5Unlock=5
+}}
+
+===Assists===
+{{Assists Table
+}}
+
+===Specials===
+{{Specials Table
+|special1=Rising Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Blazing Wind
+|special2Default=
+|special2Unlock=4
+}}
+
+===Passives===
+{{Passives Table
+|passiveB1=Desperation 1
+|passiveB2=Desperation 2
+|passiveB3=Desperation 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Threaten Spd 1
+|passiveC2=Threaten Spd 2
+|passiveC3=Threaten Spd 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+
+{{Heroes Navbox}}

@@ -1,0 +1,56 @@
+{{Passive
+|name=Nihility's Undoing
+|type=A
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Nihility's Undoing
+|alt1name=Nihilitys Undoing
+|1tagid=SID_虚無破る悪夢の力
+|1effect=If unit can transform, transformation effects gain "if unit is within 2 spaces of a beast or dragon ally, or if number of adjacent allies other than beast or dragon allies ≤ 2" as a trigger condition (in addition to existing conditions).<br><br>If defending in Aether Raids, at the start of enemy turn 1, if conditions for transforming are met, unit transforms.<br><br>If unit is transformed or if foe's HP ≥ 75% at start of combat, grants Atk/Spd/Def/Res+X+8 to unit and reduces damage from foe's attacks by X × 4 during combat (X = number of spaces from start position to end position of whoever initiated combat; max 3; excluding area-of-effect Specials), and also, when foe's attack triggers foe's Special, reduces damage by an additional X × 4 (excluding area-of-effect Specials).<br><br>If unit is transformed or if foe's HP ≥ 75% at start of combat, grants Special cooldown charge +1 to unit per attack (only highest value applied; does not stack) and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials).
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Added Transform Condition|if a {{Cwti|group=1|Dragon,Beast}} [[Dragon]]/[[Beast]]<br>{{Tgt|Ally}} is [[within 2 spaces]] '''or''' [[adjacent]]<br>non-[[Dragon]]/[[Beast]] {{Tgt|Allies}} ≤ 2}}
+|Me2={{Eft|AR-D Transform}}
+|Me2C=At start of<br>Enemy Turn 1
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|8}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|Spaces initiator moved|max=3}}
+|Ce3={{Eft|Damage Reduction|4 x Spaces {{Tgt|Unit}} moved|max=12}}
+|Ce4={{Eft|Damage Reduction|4 x Spaces initiator moved|max=12}}<br>per {{Tgt|Foe}}'s [[offensive special]]
+|Ce5={{Eft|Accelerate Charge}}
+|Ce6={{Eft|Reduce Damage Reduction|50%}}
+|Ce6T={{Tgt|Foe}}
+|CeC={{Tgt|Unit}} is transformed<br>'''or''' {{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+}}
+
+==Notes==
+{{TransformConditionAdd}}
+{{IfUnitTransforms}}
+{{Temporary buffs}}
+{{SpacesFromStarttoEnd}}
+{{FlatDamageReduction}}
+{{CooldownChargePlus}}
+{{Reduce Damage Reduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%If unit can transform, transformation effects gain%' OR Description LIKE '%If defending in Aether Raids, at the start of enemy turn 1%') AND Exclusive='1'}}
+* [[Skill families/A Passives#Fortune|Fortune Passives]]
+* [[Clash Passives]]
+* [[Excel Passives]]
+{{Passives Navbox|A}}

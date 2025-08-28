@@ -1,0 +1,47 @@
+{{Weapon Infobox
+|tagid=SID_オートクレール
+|weaponType=Axe
+|might=16
+|range=1
+|effect=Accelerates Special trigger (cooldown count-1).
+|cooldown=-1
+|cost=400
+|exclusive=1
+|userVersion1=Weapon
+|userVersion2=Upgrade Gleam
+|statModifiers=0,16,0,0,0
+|required=Silver Axe
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=Deals +10 damage when Special triggers.
+|iconSkill1=Special Damage W.png
+|tagidExtraSkill1=奥
+|properties=random_owner
+}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{FlatDamage|special=1|10}}
+
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+* Hauteclaire is the name of the sword wielded by Oliver from the medieval poem "The song of Roland". It is the likely inspiration for this weapon's name.
+{{Rsn|奥義ダメージR10|Special Damage}}
+==In other languages==
+{{OtherLanguages
+|japanese=オートクレール
+|german=Hauteclaire
+|spanishEU=Hauteclaire
+|spanishLA=Hauteclaire
+|french=Hauteclaire
+|italian=Hauteclaire
+|chineseTW=奧特克雷勒
+|portuguese=Hauteclaire
+}}
+==See also==
+* [[Weapons that accelerate the Special trigger]]
+* [[Weapons that boost Special damage]]
+{{Weapons Navbox}}

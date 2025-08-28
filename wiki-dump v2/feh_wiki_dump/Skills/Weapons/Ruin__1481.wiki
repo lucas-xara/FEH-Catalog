@@ -1,0 +1,36 @@
+{{Weapon Infobox
+|tagid=SID_ルイン
+|weaponType=Red Tome
+|weaponName={{PAGENAME}}
+|might=6
+|range=2
+|effect=
+|cost=100
+|exclusive=0
+|userVersion1=Closed|userVersion2=Open|statModifiers=0,6,0,0,0
+|next=Fenrir
+|promotionRarity=4
+|promotionTier=1
+|required=Flux
+|SE=se_effect_ruin.flac
+|properties=random_all
+}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=ルイン
+|german=Verderben
+|spanishEU=Ruina
+|spanishLA=Ruina
+|french=Ravage
+|italian=Rovina
+|chineseTW=破滅
+|portuguese=Ruína
+}}
+==See also==
+* [[Steel Weapons]]
+{{Weapons Navbox}}
+[[Category:Steel weapons]]

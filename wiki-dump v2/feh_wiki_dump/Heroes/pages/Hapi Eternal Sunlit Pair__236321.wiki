@@ -1,0 +1,87 @@
+{{#invoke:NameAbout|main|Name=Hapi|Name2=Constance}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Hapi
+|Title=Eternal Sunlit Pair
+|WeaponType=Blue Tome
+|MoveType=Flying
+|secondPerson=Constance
+|Origin=Fire Emblem: Three Houses
+|Gender=FF
+|duo=Grants Special cooldown count-1 to unit.<br><br>Grants "unit can move 1 extra space (that turn only; does not stack)" and 【Incited】to unit for 1 turn.<br><br>Once used, Duo Skill cannot be activated again right away. At start of every third turn, if Duo Skill has already been used, unit can use Duo Skill again.<br><br>【Incited】<br>If unit initiates combat, grants bonus to unit's Atk/Spd/Def/Res = number of spaces from start position to end position of unit during combat (max 3; that turn only).
+|Duel=215
+|actorEN=Sachika Misawa,Sarah Emi Bridcutt
+|noActorEN=1
+|actorJP=三澤紗千香,ブリドカットセーラ恵美
+|artist=cuboon
+|additionDate=July 7, 2025
+|releaseDate=July 8, 2025
+|cv1=12
+|cv2=450400
+|TagID=比翼ハピ
+|InternalID=1259
+|Properties=special,duo
+|description=Hapi calls forth monsters with her sighs and Constance seeks to rebuild House Nuvelle. Will their bond grow even stronger in a land of perpetual summer? They appear in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=21|Lv1ATK=9|Lv1SPD=11|Lv1DEF=4|Lv1RES=6
+|GRHP=55|GRATK=90|GRSPD=80|GRDEF=30|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Thunder
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elthunder
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Thoron
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Summer Chilling
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Rising Light
+|special1Default=4
+|special1Unlock=3
+|special2=Blazing Light
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Life and Death 1
+|passiveA2=Life and Death 2
+|passiveA3=Life and Death 3
+|passiveA4=Verge of Death
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=S/R Far Trace 1
+|passiveB2=S/R Far Trace 2
+|passiveB3=S/R Far Trace 3
+|passiveB4=S/R Far Resound
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Spd/Res Rein 1
+|passiveC2=Spd/Res Rein 2
+|passiveC3=Spd/Res Rein 3
+|passiveC4=Spd/Res Crux
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Sources of Special cooldown count modifications out of combat]]
+[[Category:Sources of Mobility increased]]
+[[Category:Sources of Incited]]
+[[Category:Sources of temporary buffs]]
+[[Category:Summer units]]

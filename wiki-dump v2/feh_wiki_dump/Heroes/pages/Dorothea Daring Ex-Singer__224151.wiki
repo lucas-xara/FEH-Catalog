@@ -1,0 +1,66 @@
+{{#invoke:NameAbout|main|Name=Dorothea}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Dorothea
+|Title=Daring Ex-Singer
+|WeaponType=Blue Tome
+|MoveType=Infantry
+|Origin=Fire Emblem: Three Houses
+|Gender=Female
+|actorEN=Allegra Clark
+|actorJP=長妻樹里
+|artist=ekao
+|additionDate=October 15, 2024
+|releaseDate=October 15, 2024
+|poolDate=November 6, 2024
+|poolRarities=3,4
+|cv1=12
+|cv2=200700
+|TagID=ドロテア
+|InternalID=1156
+|Properties=refresher
+|description=A student of the Black Eagles. She once drew the attention of aristocrats as a songstress. Appears in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=7|Lv1SPD=10|Lv1DEF=4|Lv1RES=6
+|GRHP=50|GRATK=75|GRSPD=60|GRDEF=30|GRRES=90
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Thunder
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elthunder
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Blárvulture
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Blárvulture+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Sing
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveB1=Spd Cantrip 1
+|passiveB2=Spd Cantrip 2
+|passiveB3=Spd Cantrip 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Inf. Null Follow 1
+|passiveC2=Inf. Null Follow 2
+|passiveC3=Inf. Null Follow 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

@@ -1,0 +1,65 @@
+{{#invoke:NameAbout|main|Name=Vaike}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Vaike
+|Title=Sunbaked Stunner
+|WeaponType=Green Axe
+|MoveType=Infantry
+|Origin=Fire Emblem Awakening
+|Gender=Male
+|actorEN=Michael Sorich
+|actorJP=遠藤大輔
+|artist=さいのすけ
+|additionDate=June 17, 2024
+|releaseDate=June 17, 2024
+|cv1=10
+|cv2=101100
+|TagID=水着ヴェイク
+|InternalID=1111
+|Properties=tempest,limited,specDisplay
+|description=A hothead who sees Chrom as his rival, set on turning up the summer heat. Appears in Fire Emblem Awakening.
+}}
+{{Stats Page
+|Lv1HP=20|Lv1ATK=12|Lv1SPD=7|Lv1DEF=12|Lv1RES=5
+|GRHP=60|GRATK=80|GRSPD=60|GRDEF=70|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Tropical Conch
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Tropical Conch+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Smite
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Def Finish 1
+|passiveA2=Atk/Def Finish 2
+|passiveA3=Atk/Def Finish 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Atk/Def Link 1
+|passiveB2=Atk/Def Link 2
+|passiveB3=Atk/Def Link 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Summer units]]

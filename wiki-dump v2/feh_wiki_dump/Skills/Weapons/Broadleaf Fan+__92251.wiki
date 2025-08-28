@@ -1,0 +1,38 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_葉の扇＋
+|weaponType=Dagger
+|might=12
+|range=2
+|effect=Grants bonus to unit's Atk = total penalties on foe during combat.<br>Effect:【Dagger ７】<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|cost=300
+|exclusive=0
+|statModifiers=0,12,0,0,0
+|required=Broadleaf Fan
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Notes==
+{{BonusesToAtkFoePenalty}}{{IfUnitAttacked}}{{Penalties}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=葉の扇＋
+|german=Palmwedel+
+|spanishEU=Aban. tropical +
+|spanishLA=Aban. tropical +
+|french=Éventail palmier +
+|italian=Ventaglio palma+
+|chineseTW=葉扇＋
+|portuguese=Leque tropical+
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%Grants bonus to unit\'s Atk = total penalties on foe during combat%'|columns=3}}
+{{Weapons Navbox}}

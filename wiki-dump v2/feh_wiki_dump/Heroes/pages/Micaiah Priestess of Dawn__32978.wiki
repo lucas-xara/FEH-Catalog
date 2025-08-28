@@ -1,0 +1,78 @@
+{{#invoke:NameAbout|main|Name=Micaiah}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Micaiah
+|Title=Priestess of Dawn
+|GrowthModifier=Gen 2
+|WeaponType=Blue Tome
+|MoveType=Infantry
+|Origin=Fire Emblem: Radiant Dawn
+|Gender=Female
+|actorEN=Veronica Taylor
+|actorJP=桑谷夏子
+|artist=チーコ
+|releaseDate=January 12, 2018
+|poolDate=January 25, 2018
+|randomStartTime=2018-02-12T07:00:00Z
+|poolRarities=5
+|TagID=ミカヤ
+|InternalID=205
+|cv1=9
+|cv2=100100
+|Properties=specRate_202008,resplendent,hel
+|description=A member of the Dawn Brigade with silver hair and mysterious powers. As close with Sothe as a sister, though they're not related by blood. Appears in Fire Emblem: Radiant Dawn.
+|resplendentArtist=茶ちえ
+|resplendentStartTime=2021-04-10T07:00:00Z
+|resplendentEndTime=2021-04-25T06:59:59Z
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=9|Lv1SPD=6|Lv1DEF=5|Lv1RES=9
+|GRHP=45|GRATK=60|GRSPD=50|GRDEF=30|GRRES=60
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Light
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Ellight
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Shine
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Thani
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Ardent Sacrifice
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Sacrifice
+|assist2Unlock=5
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Distant Def 1
+|passiveA2=Distant Def 2
+|passiveA3=Distant Def 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Guard 1
+|passiveB2=Guard 2
+|passiveB3=Guard 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Spur Atk 1
+|passiveC2=Drive Atk 1
+|passiveC3=Drive Atk 2
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

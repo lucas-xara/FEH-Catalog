@@ -1,0 +1,49 @@
+{{Passive
+|name=Arc-Fort Breath
+|type=B
+|exclusive=0
+|canUseWeapon={{WeaponList|Bow}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Arc-Fort Breath
+|1tagid=SID_強弓・呼吸
+|1effect=Inflicts Atk/Def-4 on foe, unit deals +X damage (excluding area-of-effect Specials; X = the greater of 15% of unit's Atk or 20% of unit's Def), and grants Special cooldown charge +1 to unit per attack during combat (only highest value applied; does not stack), and also, when unit's Special triggers, neutralizes foe's "reduces damage by X%" effects from foe's non-Special skills (excluding area-of-effect Specials).
+|1cost=300
+|1required=Seal Def 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary debuffs|Atk/Def|4}}
+|Ce1T={{Tgt|Foe}}
+|Ce2={{Eft|Damage Boost|the greater of (15%<br>of {{Tgt|Unit}}'s Atk '''or'''<br>20% of {{Tgt|Unit}}'s Def)}}
+|Ce3={{Eft|Accelerate Charge}}
+|Ce4={{Eft|Neutralize Damage Reduction}} per<br>{{Tgt|Unit}}'s [[offensive Special]]
+|Ce4T={{Tgt|Foe}}<br>
+}}
+==Notes==
+{{Temporary debuffs}}
+{{AtkDamageBoost}}
+{{CooldownChargePlus}}
+{{DamageReductionNeutralization}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=Sello Arco Fuerte
+|spanishLA=
+|french=
+|italian=
+|chineseTW=強弓·呼吸
+|portuguese=
+}}
+
+==See also==
+{{See also skills|cond=(Description LIKE '% damage% the greater of %' AND Description NOT LIKE '%greater of foe_s%' AND Description NOT LIKE '%greater of unit_s current bonus%' AND Description NOT LIKE '%greater of unit%or foe_s%' OR Description LIKE '%special triggers% neutralizes foe_s "reduces damage by%' AND NOT SCategory='special') AND Exclusive='1' AND Name NOT LIKE '%sparrow%'}}
+* [[Skill families/Weapons#Sparrow|Sparrow Weapons]]
+{{Passives Navbox|B}}

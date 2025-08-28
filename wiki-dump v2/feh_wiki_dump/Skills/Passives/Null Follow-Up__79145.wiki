@@ -1,0 +1,65 @@
+{{About|the passive skill|the [[status effect]]|Null Follow-Up (status effect)}}{{Passive
+|name=Null Follow-Up
+|type=B
+|exclusive=0
+|canUseMove=Infantry
+|canUseWeapon={{WeaponList|all}}
+|1name=Null Follow-Up 1
+|1tagid=SID_見切り・追撃効果1
+|1promotionRarity=4
+|1promotionTier=1
+|alt1name=Null Follow Up 1
+|1effect=At start of combat, if unit's HP = 100%, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat.
+|1required=-
+|1cost=60
+|2name=Null Follow-Up 2
+|2tagid=SID_見切り・追撃効果2
+|2promotionRarity=5
+|2promotionTier=1
+|alt2name=Null Follow Up 2
+|2effect=At start of combat, if unit's HP ≥ 50%, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat.
+|2cost=120
+|3name=Null Follow-Up 3
+|3tagid=SID_見切り・追撃効果3
+|alt3name=Null Follow Up 3
+|3effect=Neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat.
+|3cost=240
+|properties=random_owner
+}}
+==Notes==
+{{Follow-up effect neutralization}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Null Follow-Up 1;Null Follow-Up 2;Null Follow-Up 3
+|badgeColor=Scarlet
+|costs1=20;100;40
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=見切り・追撃効果
+|german=Folge-Negation
+|spanishEU=At. doble nulo
+|spanishLA=Atq. doble nulo
+|french=Anti-double
+|italian=Nega att. doppi
+|chineseTW=識破・追擊效果
+|portuguese=Atq. duplo nulo
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%neutralizes effects%guarantee foe_s follow-up%prevent unit_s follow-up%' AND Exclusive='1' AND Description NOT LIKE '%【Null Follow-Up】%'}}
+* [[Null Passives]]
+* [[Skill families/B Passives#Flow|Flow Passives]]
+{{Seals Navbox}}
+{{Passives Navbox|B}}
+[[Category:Null Passives]]

@@ -1,0 +1,36 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_海に浮かぶ板
+|weaponType=Green Tome
+|might=8
+|range=2
+|effect=If a bonus granted by a skill like Rally or Hone is active on unit, grants Atk/Res+4 during combat.
+|cost=200
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|required=Elwind
+|next=Buoyboard+
+|promotionRarity=5
+|promotionTier=1
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+File:V3.6 86 summer05 Mag.webp|Sprite sheet for {{St|Worldsea Wave}} and {{PAGENAME}}'s animation.
+</gallery>
+
+==In other languages==
+{{OtherLanguages
+|japanese=海に浮かぶ板
+|german=Schwimmbrett
+|spanishEU=Tabla marítima
+|spanishLA=Tabla marítima
+|french=Planche marine
+|italian=Tavola acquatica
+|chineseTW=海上浮板
+|portuguese=Boia marítima
+}}
+{{Weapons Navbox}}

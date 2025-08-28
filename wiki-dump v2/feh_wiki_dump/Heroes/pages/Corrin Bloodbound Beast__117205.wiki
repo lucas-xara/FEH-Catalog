@@ -1,0 +1,80 @@
+{{#invoke:NameAbout|main|Name=Corrin}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Corrin
+|Person=Corrin M
+|Title=Bloodbound Beast
+|WeaponType=Blue Breath
+|Origin=Fire Emblem Fates
+|Gender=Male
+|MoveType=Infantry
+|actorJP=島﨑信長
+|actorEN=Cam Clarke
+|artist=argon
+|additionDate=May 7, 2020
+|releaseDate=May 8, 2020
+|randomStartTime=2020-06-08T07:00:00Z
+|poolDate=May 29, 2020
+|poolRarities=5
+|TagID=暴走カムイ男
+|InternalID=518
+|Properties=fallen,specRate_202302
+|cv1=11
+|cv2=100100
+|description=A prince born in Hoshido but raised in Nohr. Within the blood coursing through his veins, a brutal presence lies sleeping. Appears in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=8|Lv1SPD=8|Lv1DEF=5|Lv1RES=4
+|GRHP=55|GRATK=70|GRSPD=70|GRDEF=65|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire Breath
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Fire Breath+
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Flametongue
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Brutal Breath
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+}}
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Glimmer
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Solo 1
+|passiveA2=Atk/Spd Solo 2
+|passiveA3=Atk/Spd Solo 3
+|passiveA4=Atk/Spd Solo 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Null Follow-Up 1
+|passiveB2=Null Follow-Up 2
+|passiveB3=Null Follow-Up 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Rouse Spd/Def 1
+|passiveC2=Rouse Spd/Def 2
+|passiveC3=Rouse Spd/Def 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

@@ -1,0 +1,48 @@
+{{Weapon Infobox
+|tagid=SID_憧憬の剣
+|intID=3896
+|image=wep_sw169
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+X to unit during combat (X = 25% of foe's Atk at start of combat, - 4; max 14; min 5) and inflicts Special cooldown charge -1 on foe per attack (only highest value applied; does not stack), and also, when unit's attack triggers unit's Special, neutralizes "reduces damage by X%" effects from foe's non-Special skills (excluding area-of-effect Specials). If unit is within 3 spaces of an ally and foe's attack triggers unit's Special, unit's next attack neutralizes "reduces damage by X%" effects from foe's non-Special skills (resets at end of combat). If unit is within 3 spaces of an ally and Special triggers before or during combat, grants Special cooldown count-2 after combat.
+|required=Silver Sword
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|(25% of {{Tgt|Foe}}'s Atk<br>at start of combat) -4|min=5|max=14}}
+|CeC1-2={{Tgt|Unit}} is<br>[[within 3 spaces]]<br>of an {{Tgt|Ally}}
+|Ce2={{Eft|Neutralize Damage Reduction}}<br>per {{Tgt|Unit}}'s [[offensive Special]]
+|Ce3={{Eft|Neutralize Damage Reduction}}<br>on {{Tgt|Unit}}'s next attack
+|CeT2-3={{Tgt|Foe}}
+|CeC3=After {{Tgt|Unit}}'s<br>[[defensive special]]<br>triggers '''&''' {{Tgt|Unit}} is<br>[[within 3 spaces]]<br>of an {{Tgt|Ally}}
+|Me={{Eft|Reduce Cooldown|2}}
+|MeC=After combat<br>if {{Tgt|Unit}} is<br>[[within 3 spaces]]<br>of an {{Tgt|Ally}} '''&'''<br>Special triggered before<br>or during combat
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{At start of combat}}
+{{DamageReductionNeutralization}}
+{{After combat Special modification}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=憧憬の剣
+|german=Sehnsuchtsklinge
+|spanishEU=Filo del anhelo
+|spanishLA=Filo del anhelo
+|french=Épée avide
+|italian=Spada bramosa
+|chineseTW=憧憬之劍
+|portuguese=Espada anelante
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%=%of foe_s Atk at start of combat%' OR Description LIKE '%special triggers before or during combat%special cooldown count-%'}}
+{{Weapons Navbox}}

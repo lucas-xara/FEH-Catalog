@@ -1,0 +1,40 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_キャンセルの槍＋
+|weaponType=Lance
+|might=14
+|range=1
+|effect=Inflicts Special cooldown charge -1 on foe per attack during combat. (Only highest value applied. Does not stack.)
+|cost=300
+|exclusive=0
+|statModifiers=0,14,0,0,0
+|required=Guard Lance
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=random_all
+}}
+==Notes==
+{{CooldownChargeMinus}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Guard Lance+
+|japanese=キャンセルの槍＋
+|japaneseNotes=''[[Guard|Cancel]] Lance +''
+|german=Wachtlanze+
+|spanishEU=Lanza cancel. +
+|spanishLA=Lanza guard. +
+|french=Lance négation +
+|italian=Lancia arginante+
+|chineseTW=取消之槍＋
+|portuguese=Lança guarda+
+}}
+==See also==
+* [[Skill families#Guard (cooldown charge)|Guard weapons]]
+* [[Hack-o'-Lantern+]]
+
+{{Weapons Navbox}}

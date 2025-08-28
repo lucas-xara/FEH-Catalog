@@ -1,0 +1,90 @@
+{{Weapon Infobox
+|tagid=SID_復讐の神形
+|intID=4819
+|image=wep_mg299
+|exclusive=1
+|weaponType=Green Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>Unit can counterattack regardless of foe's range.<br><br>At start of player phase or enemy phase, if unit is equipped with Miracle, grants Special cooldown count-4 and restores 40 HP to unit.<br><br>Once per turn in player phase or enemy phase, if unit's HP ≥ 25% at start of combat, and if unit triggered Miracle during combat, after the effect of Miracle, damage dealt by unit's attacks and damage from foe's attacks during that combat are reduced to 0 (Røkkr take at least 1 damage), and after combat, grants Special cooldown count-4 to unit, restores 40 HP to unit, and grants Atk/Spd【Great Talent】 +10 to unit, and also, if unit initiates combat, grants another action to unit.<br><br>If unit's HP ≥ 25% at start of combat, grants bonus to unit's Atk/Spd/Def/Res = number of foes within 3 rows or 3 columns centered on unit × 3, + 5 (max 14), unit deals +X damage (excluding area of-effect Specials; X = 20% of unit's Spd + total value of Atk and Spd 【Great Talent】), reduces damage from foe's first attack by 20% of unit's Spd ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat.<br><br>(This skill grants max of【Great Talent】+20.)<br><br>【Great Talent】<br>Adds value of Great Talent (+X) to specified stats (until end of battle; max value of X is determined by the stat reaching the limit of 99, each stat calculated separately and cannot exceed max value for each skill; stat increases are not treated as Bonus effects).
+|required=Rexcalibur
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Me1={{Eft|Reduce Cooldown|4}}
+|Me2={{Eft|Heal|40}}
+|Me1-2C=At start of Both Phases if<br>{{Tgt|Unit}} has {{St|Miracle}}
+|Me3={{Eft|Reduce Cooldown|4}}<br>(once per Phase)
+|Me4={{Eft|Heal|40}}<br>(once per Phase)
+|Me5={{Eft|Great Talent|Atk/Spd|10|max=20}}<br>(once per Phase)
+|Me3-5C=After combat if<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat '''&'''<br>{{St|Miracle}} triggers
+|Me6={{Eft|Galeforce}}<br>(once per turn)
+|Me6C=After combat in<br>Player Phase if<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat '''&'''<br>{{St|Miracle}} triggers
+|Ce1={{Eft|Close Counter}}
+|Ce2={{Efi|Prevent Damage}} Cannot take '''&''' deal damage<br>during combat (once per Phase;<br>Røkkr {{Tgt|Foes}} take '''&''' deal<br>at least 1 damage)
+|Ce2C=After {{St|Miracle}}<br>triggers if<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce3={{Eft|Temporary buffs|Atk/Spd/Def/Res|3 x {{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}, + 5|max=14}}
+|Ce4={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd<br>+ Atk/Spd {{Kp|Great Talent}}|percent=0}}
+|Ce5={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Spd|percent=0}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce6={{Eft|Neutralize Prevent Follow-Ups}}
+|Ce7={{Eft|Neutralize Guaranteed Follow-Ups}}
+|Ce7T={{Tgt|Foe}}
+|Ce3-7C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+* Vengeful God has the same effect as {{St|Close Counter}}.
+{{Start of turn Special modification}}
+{{Start-of-turn healing}}
+{{After combat Special modification}}
+* A unit with Vengeful God will still take damage from [[Umbra Burst]] weapons after {{St|Miracle}} triggers.
+{{After combat healing}}
+{{Great Talent}}
+{{Galeforce notes}}
+{{Temporary buffs}}
+{{DamageBoost}}
+{{FlatDamageReduction}}
+{{Follow-up effect neutralization}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Váli: God of Vengeance|t=Rune: Source of Wisdom
+|---xxx---
+|---xxx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xtx---
+|---xxx---
+}}
+|}
+
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V9.7_v0907b_thrace_Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+V9.7_v0907b_thrace_Mag_2.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%【Great Talent】%' OR Description LIKE '%reduced to 0%') AND Exclusive='1'}}
+{{Weapons Navbox}}

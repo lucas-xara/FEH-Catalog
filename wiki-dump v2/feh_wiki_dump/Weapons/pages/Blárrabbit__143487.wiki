@@ -1,0 +1,50 @@
+{{Weapon Infobox
+|tagid=SID_ブラーラビット
+|weaponName=Blárrabbit
+|userVersion1=Closed
+|userVersion2=Open
+|weaponType=Blue Tome
+|might=8
+|range=2
+|effect=During unit's first combat in player phase or enemy phase, grants Atk/Res+5 to unit and restores 7 HP to unit after combat.
+|cost=200
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|required=Elthunder;Ellight
+|next=
+|promotionRarity=5
+|promotionTier=1
+|intID=2594
+|sort=8000
+|value=11
+|timingID=15
+|abilityID=219
+|limit2ID=56
+|randomTimestamp=2021-07-08T07:00:00Z
+|randomMinLv=21
+|randomMaxLv=35
+|properties=random_owner
+}}
+==Notes==
+{{FirstCombat}}
+{{Temporary buffs}}
+{{After combat healing}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{TomeColorTrivia|blar}}
+==In other languages==
+{{OtherLanguages
+|japanese=ブラーラビット
+|german=Blárhase
+|spanishEU=Conejo zarco
+|spanishLA=Conejo añil
+|french=Lapin saphir
+|italian=Turchinlepre
+|chineseTW=蒼藍之兔
+|portuguese=Lebre anil
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%estores%HP after combat%' OR Description LIKE '%estores%HP to unit after combat%') AND WikiName NOT LIKE '%rabbit%' AND Exclusive='1'}}
+* [[Skill families/Weapons#Rabbit|Rabbit Weapons]]
+{{Weapons Navbox}}

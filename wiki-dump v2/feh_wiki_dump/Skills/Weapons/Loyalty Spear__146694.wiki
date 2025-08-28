@@ -1,0 +1,50 @@
+{{Weapon Infobox
+|tagid=SID_忠誠の槍
+|weaponName=Loyalty Spear
+|image=wep_lc108
+|weaponType=Lance
+|might=10
+|range=1
+|effect=Grants Spd+4 and inflicts Def/Res-4 on unit. Unit attacks twice. (Even if foe initiates combat, unit attacks twice.)
+|cost=400
+|exclusive=1
+|statModifiers=0,10,4,-4,-4
+|required=-
+|intID=2670
+|sort=568
+|value=20
+|timingID=1
+|abilityID=46
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|refineStatsAtk=5,1,0,0,0
+|tagidExtraSkill1=無
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, inflicts Atk/Spd/Def-4 on foe during combat and also neutralizes bonuses to foe's Atk/Def (from skills like Fortify, Rally, etc.) during combat.
+|iconSkill1=Loyalty Spear W.png
+|properties=
+}}
+==Notes==
+{{Brave weapon interaction}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary debuffs}}
+{{Bonus neutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=忠誠の槍
+|german=Lanze der Treue
+|spanishEU=Lanza leal
+|spanishLA=Lanza fiel
+|french=Lance fidèle
+|italian=Lancia leale
+|chineseTW=忠誠之槍
+|portuguese=Lança fiel
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%inflicts Def/Res-%Unit attacks twice%' OR Description LIKE '%inflicts%-%. Unit attacks twice.%') AND (SP=300 OR Exclusive='1') OR Description LIKE '%inflicts%Atk/%Def%-%neutralizes%bonuses%' AND Exclusive='1'}}
+{{Weapons Navbox}}

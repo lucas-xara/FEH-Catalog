@@ -1,0 +1,51 @@
+{{Passive
+|name=Atk/Def Menace
+|type=C
+|exclusive=0
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|altname=Atk Def Menace
+|intID=2558
+|sort=7113
+|effectRange=4
+|value=8
+|timingID=8
+|abilityID=276
+|randomTimestamp=2021-06-07T07:00:00Z
+|randomMinLv=36
+|properties=random_inherit_base,random_owner
+|1name=Atk/Def Menace
+|alt1name=Atk Def Menace
+|1tagid=SID_攻撃守備の脅嚇3
+|1effect=At start of turn, if unit is within 4 spaces of a foe, inflicts Atk/Def-6 on nearest foes through their next actions and grants Atk/Def+6 to unit for 1 turn.
+|1required=Threat. Atk/Def 2
+|1cost=300
+}}
+==Notes==
+{{Bonuses}}
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Atk/Def Menace
+|japanese=攻撃守備の脅嚇
+|german=Agr./Ver.-Geißel
+|spanishEU=Amenaza Ata/Def
+|spanishLA=Amnza. Atq./Def.
+|french=Menace Atq/Déf
+|italian=Minaccia Att/Dif
+|chineseTW=攻擊防守的恐嚇
+|portuguese=Atq./Def. ameaça
+}}
+==See also==
+* [[Surtr's Portent]]
+{{Passives Navbox|C}}
+[[Category:Threaten Passives]]
+[[Category:Menace Passives]]

@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Cath}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Cath
+|Title=Master Thief
+|WeaponType=Green Dagger
+|MoveType=Infantry
+|Origin=Fire Emblem: The Binding Blade
+|Gender=Female
+|actorEN=Antonia Flynn
+|actorJP=矢作紗友里
+|artist=kiyu
+|randomStartTime=2022-03-18T07:00:00Z
+|additionDate=February 18, 2022
+|releaseDate=February 18, 2022
+|poolDate=March 8, 2022
+|poolRarities=3,4
+|cv1=5
+|cv2=4900500
+|TagID=キャス
+|InternalID=774
+|Properties=tiara
+|description=Mysterious girl who always seems to show up where there's treasure to be found. In truth, she is a thief known for outsmarting rich nobles. Appears in Fire Emblem: The Binding Blade.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=6|Lv1SPD=13|Lv1DEF=5|Lv1RES=8
+|GRHP=50|GRATK=70|GRSPD=70|GRDEF=50|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Dagger
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Dagger
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Armorpin Dagger
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Armorpin Dagger+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Reposition
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Res Bond 1
+|passiveA2=Atk/Res Bond 2
+|passiveA3=Atk/Res Bond 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Spd/Res Link 1
+|passiveB2=Spd/Res Link 2
+|passiveB3=Spd/Res Link 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+}}
+{{Heroes Navbox}}

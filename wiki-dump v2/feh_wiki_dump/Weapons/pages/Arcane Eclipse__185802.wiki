@@ -1,0 +1,61 @@
+{{Weapon Infobox
+|tagid=SID_魔器ルナイクリプス
+|intID=3377
+|userVersion1=Closed
+|userVersion2=Open
+|exclusive=0
+|weaponType=Red Tome
+|cost=300
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At the start of turn 1, grants Special cooldown count-1. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit, unit makes a guaranteed follow-up attack, and neutralizes penalties to unit's Atk during combat.
+|statModifiers=0,14,0,0,0
+|required=Bolganone;Fenrir
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=200
+|properties=arcane,random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Me={{Eft|Reduce Cooldown|1}}
+|MeC=At start of turn 1
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce2={{Eft|Guaranteed Follow-Ups}}
+|Ce3={{Eft|Neutralize Penalties|Atk}}
+|CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+* Arcane Eclipse has the same effect as {{St|Quickened Pulse}}.
+{{Start of turn Special modification}}
+{{Temporary buffs}}
+{{Guaranteed follow-up interaction}}
+{{Penalty neutralization}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==Gallery==
+<gallery>
+V7.0_v0700a_vana_Mag_2.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=魔器ルナイクリプス
+|german=Arkane Finsternis
+|spanishEU=Eclipse arcano
+|spanishLA=Eclipse arcano
+|french=Éclipse arcane
+|italian=Eclissi arcana
+|chineseTW=魔器露奈克利普斯
+|portuguese=Eclipse arcano
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%start of turn 1, grants Special cooldown count-1%' AND (Description NOT LIKE '%allies%' AND Description NOT LIKE '%to ally%') OR Description LIKE '%HP ≥ 25%grants Atk/Spd/Def/Res+%neutralizes unit_s penalties%') AND Exclusive='1'}}
+{{Weapons Navbox}}

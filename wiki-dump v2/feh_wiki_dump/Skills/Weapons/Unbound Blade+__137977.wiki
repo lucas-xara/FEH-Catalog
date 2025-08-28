@@ -1,0 +1,49 @@
+{{Weapon Infobox
+|tagid=SID_孤絶の剣＋
+|weaponName=Unbound Blade+
+|image=wep_sw110
+|weaponType=Sword
+|might=14
+|range=1
+|effect=If unit is not adjacent to an ally, inflicts Atk/Def-5 on foe during combat and neutralizes foe's bonuses to Atk/Def (from skills like Fortify, Rally, etc.) during combat.
+|cost=300
+|exclusive=0
+|statModifiers=0,14,0,0,0
+|required=Unbound Blade
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|intID=2446
+|sort=10401
+|value=15
+|timingID=1
+|abilityID=162
+|limit1ID=19
+|randomTimestamp=2021-03-16T07:00:00Z
+|randomMinLv=31
+|properties=random_owner
+}}
+==Notes==
+{{Combat reductions}}
+{{Bonus neutralization}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=孤絶の剣＋
+|german=Freie Klinge+
+|spanishEU=Filo desatado +
+|spanishLA=Filo desatado +
+|french=Lame libre +
+|italian=Lama sola+
+|chineseTW=孤絕之劍＋
+|portuguese=Espada desatada+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If unit is not adjacent to an ally, inflicts%neutralizes foe_s bonuses%' AND WikiName NOT LIKE '%Unbound%'|columns=3}}
+* [[Skill families#Unbound|Unbound Weapons]]
+{{Weapons Navbox}}
+[[Category:Skills that neutralize bonuses]]

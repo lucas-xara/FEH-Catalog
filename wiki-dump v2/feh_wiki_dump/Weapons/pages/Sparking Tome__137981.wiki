@@ -1,0 +1,92 @@
+{{Weapon Infobox
+|tagid=SID_慕炎の書
+|weaponName=Sparking Tome
+|image=wep_mg052
+|weaponType=Red Tome
+|might=14
+|range=2
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|effect=Grants Spd+3. At start of combat, if foe's HP ≥ 50%, inflicts Spd/Res-6 on foe during combat and inflicts penalty on foe's Spd/Res during combat = current bonus on each of foe's stats × 2. (Example: if foe has +7 bonus to Spd, inflicts Spd-20, for a net penalty of Spd-13.) Calculates each stat penalty independently.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,3,0,0
+|required=Bolganone;Fenrir
+|intID=2450
+|sort=507
+|value=20
+|timingID=1
+|abilityID=264
+|limit1ID=53
+|randomTimestamp=2021-03-16T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Spd+3.<br><br>If unit initiates combat or foe's HP ≥ 50% at start of combat, inflicts Atk-5 and Spd/Res-6 on foe, inflicts penalty on foe's Atk/Spd/Res = current bonus on each of foe's stats × 2 (calculates each stat penalty independently), and neutralizes effects that grant "Special cooldown charge +X" to foe or inflict "Special cooldown charge -X" on unit during combat, and also, if decreasing the Spd difference necessary to make a follow-up attack by 25 would allow unit to trigger a follow-up attack (excluding guaranteed or prevented follow- ups), triggers【Potent Follow X%】during combat (if unit cannot perform follow-up and attack twice, X = 80; otherwise, X = 40).<br><br>【Potent Follow X%】<br>Triggers an additional follow-up attack immediately after unit's standard follow-up attack and deals damage = X% of unit's normal attack damage (if unit cannot make a follow-up attack, this effect triggers when the standard follow-up attack would occur; this effect is treated like a follow-up attack, so effects like "reduce damage by X%" still apply, but this effect is not affected by effects that prevent follow-ups or "attacks twice" effects; only highest value applied; does not stack).
+|refineStatsSkill1=0,0,0,0,0
+|effectSkill1=At start of turn, if unit is within 2 spaces of an ally, grants Atk/Spd+6 and "reduces the percentage of foe's non-Special 'reduce damage by X%' skills by 50% during combat (excluding area-of-effect Specials)" to unit and allies within 2 spaces of unit for 1 turn.<br><br>If unit initiates combat or is within 2 spaces of an ally, inflicts Atk/Spd/Res-5 on foe, deals damage = 20% of unit's Spd (excluding area-of-effect Specials), and reduces damage from foe's first attack by 7 during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes).
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Spd|3}}
+|s1 Ce1={{Eft|Temporary debuffs|Spd/Res|6}}
+|s1 Ce2={{Eft|Temporary debuffs|Spd/Res|2 x {{SEt|Bonuses}} on<br>each of {{Tgt|Foe}}'s stats}}
+|s1 CeT={{Tgt|Foe}}
+|s1 CeC={{Tgt|Foe}}'s HP ≥ 50%<br>at start of combat
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Spd|3}}
+|s2 Ce1={{Eft|Temporary debuffs|Atk|5}}, {{Eft|Temporary debuffs|Spd/Res|6}}
+|s2 Ce2={{Eft|Temporary debuffs|Atk/Spd/Res|2 x {{SEt|Bonuses}} on<br>each of {{Tgt|Foe}}'s stats}}
+|s2 Ce3={{Eft|Neutralize Accelerate Charge}}
+|s2 Ce1-3T={{Tgt|Foe}}
+|s2 Ce4={{Eft|Neutralize Guard}}
+|s2 Ce1-4C=Player Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 50%<br>at start of combat
+|s2 Ce5={{Eft|Potent Follow X%|2=80 if {{Tgt|Unit}} can't<br>[[follow-up]] '''&''' [[attack twice]];<br>else, X = 40}}
+|s2 Ce5C={{Eft|Neutralize Guard}}<br>conditions '''&'''<br>{{Tgt|Unit}}'s Spd ≥<br>{{Tgt|Foe}}'s Spd -20
+|skill3={{Si|Sparking Tome|refine=Skill1}} Skill refine effects
+|s3 Se1={{Eft|Bonuses|Atk/Spd|6}}
+|s3 Se2=<span style="width:12em;display:inline-block"/>{{SEt|Halves non-Special damage reduction}}
+|s3 SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|s3 SeC=At start of turn<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s3 Ce1={{Eft|Temporary debuffs|Atk/Spd/Res|5}}
+|s3 Ce1T={{Tgt|Foe}}
+|s3 Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|s3 Ce3={{Eft|Damage Reduction|7}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|s3 CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+==Notes==
+{{TemporaryDebufffromBonus|source=the foe}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfUnitInitiates|name=Refined Sparking Tome}}
+{{CooldownChargePlusNeutralization|name=Refined Sparking Tome}}
+{{CooldownChargeMinusNeutralization|name=Refined Sparking Tome}}
+{{Potent Follow|name=Refined Sparking Tome}}
+{{Bonuses|name={{St|Sparking Tome|refine=Skill1}}}}
+{{Halves non-Special damage reduction|name={{St|Sparking Tome|refine=Skill1}}}}
+{{DamageBoost|name={{St|Sparking Tome|refine=Skill1}}}}
+{{FlatDamageReduction|7|name={{St|Sparking Tome|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=慕炎の書
+|german=Flammenbuch
+|spanishEU=Grimorio chispas
+|spanishLA=Grimorio chispas
+|french=Tome étincelle
+|italian=Tomo infuocato
+|chineseTW=慕炎之書
+|portuguese=Tomo faísca
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%inflicts penalty on foe%current bonus%× 2%' OR Description LIKE '%【Potent Follow%】%') AND Exclusive='1' AND NAME NOT LIKE 'Reversal%'}}
+* [[Skill families/Weapons#Reversal|Reversal Weapons]]
+{{Weapons Navbox}}

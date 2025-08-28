@@ -1,0 +1,62 @@
+{{Weapon Infobox
+|tagid=SID_激雷の書
+|intID=4069
+|userVersion1=Closed
+|userVersion2=Open
+|exclusive=1
+|weaponType=Colorless Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of turn, if unit's HP ≥ 25%, grants Atk/Spd/Def+6 and "unit cannot be slowed by terrain (does not apply to impassable terrain)" to unit and allies within 2 spaces of unit for 1 turn. At start of combat, if unit's HP ≥ 25%, and if unit's attack can trigger unit's Special, grants Special cooldown count-1 to unit before unit's first attack during combat. At start of combat, if unit's HP ≥ 25%, inflicts Atk/Spd/Res-X on foe during combat (X = 16, - foe's max Special cooldown count value × 2; min 8; if foe does not have a Special skill, X = 8). At start of combat, if unit's HP ≥ 25%, reduces damage from foe's first attack by 30% and unit's next attack deals damage = total damage reduced (by any source, including other skills; resets at end of combat), and restores 7 HP to unit after combat.
+|required=Atlas (weapon)
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Ce1={{Eft|Temporary debuffs|Atk/Spd/Res|16 - {{Tgt|Foe}}'s max CD x 2|min=8}}
+|Ce1T={{Tgt|Foe}}
+|Ce2={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s first attack
+|Ce3={{Eft|Damage Boost|total damage reduced}}<br>from {{Tgt|Foe}}'s first attack<br>for {{Tgt|Unit}}'s next attack<br>(including other sources)
+|Ce1-3C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce4={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Unit}}'s first attack
+|Ce2-4T={{Tgt|Unit}}
+|Ce4C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' {{Tgt|Unit}} has an<br>[[offensive Special]]
+|Se1={{Eft|Bonus|Atk/Spd/Def|6}}
+|Se2={{SEt|Traverse Terrain}}
+|SeT={{Tgt|Unit}} '''&'''<br>{{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25%
+|Me={{Eft|Heal|7}}
+|MeT={{Tgt|Unit}}
+|MeC=After combat if<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Bonuses}}
+{{Traverse Terrain}}
+{{CombatCooldownCount|-1}}
+{{Temporary debuffs}}
+{{DamageBoostFromDamageReduction}}
+{{After combat healing}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V8.3_v0803b_monsyou_Mag.webp|Sprite sheet for {{St|Tender Excalibur}} and {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=激雷の書
+|german=Buch des Blitzes
+|spanishEU=Grimorio refucilo
+|spanishLA=Grimorio refucilo
+|french=Tome flamboyant
+|italian=Tomo lucente
+|chineseTW=激雷之書
+|portuguese=Tomo relâmpago
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%cannot be slowed by terrain%' OR Description LIKE '%reduce damage%next attack%total damage%') AND Exclusive='1' OR Description LIKE '%=%foe_s max special cooldown count%'}}
+{{Weapons Navbox}}

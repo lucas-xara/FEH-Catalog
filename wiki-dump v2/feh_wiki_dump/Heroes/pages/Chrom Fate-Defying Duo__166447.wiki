@@ -1,0 +1,82 @@
+{{#invoke:NameAbout|main|Name=Chrom|Name2=Robin M}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Chrom
+|Title=Fate-Defying Duo
+|WeaponType=Red Bow
+|MoveType=Infantry
+|secondPerson=Robin M
+|Origin=Fire Emblem Awakening
+|Gender=MM
+|duo=Inflicts Atk/Spd/Def/Res-5 on unit and allies within 2 spaces of unit through their next actions and grants【Grand Strategy】to those units.<br><br>Grants the following effect to unit for 1 turn: "Foe cannot make a follow-up attack."<br><br>【Grand Strategy】<br>Grants bonus to Atk/Spd/Def/Res during combat = current penalty on each of unit's stats × 2 for 1 turn. (Example: if unit has -7 penalty to Atk, grants Atk+14, for a net bonus of Atk+7.) Calculates each stat bonus independently.<br><br>Unit's negative effects that last "through unit's next action" will remain in effect until this status (Grand Strategy) is neutralized.
+|Duel=195
+|actorEN=Matt Mercer,David Vincent
+|actorJP=杉田智和,細谷佳正
+|artist=山田孝太郎
+|additionDate=February 8, 2022
+|releaseDate=February 8, 2022
+|cv1=10
+|cv2=100100
+|TagID=比翼クロム
+|InternalID=766
+|Properties=special,duo,hat
+|description=A pair connected by a bond that transcends even time. They are handing out tokens of gratitude for the Day of Devotion. They appear in Fire Emblem Awakening.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=14|Lv1SPD=5|Lv1DEF=10|Lv1RES=4
+|GRHP=50|GRATK=70|GRSPD=50|GRDEF=70|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Bow
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Destiny's Bow
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Reposition
+|assist1Default=4
+|assist1Unlock=3
+|assist2=To Change Fate!
+|assist2Unlock=5
+}}
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Glimmer
+|special2Unlock=4
+|special3=Deadeye
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Close Counter
+|passiveA2=Close Salvo
+|passiveA1Unlock=4
+|passiveA2Unlock=5
+|passiveC1=Time's Pulse 1
+|passiveC2=Time's Pulse 2
+|passiveC3=Time's Pulse 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Sources of penalties]]
+[[Category:Sources of status effects]]
+[[Category:Sources of temporary buffs]]
+[[Category:Sources of Grand Strategy]]
+[[Category:Sources of follow-up prevention]]
+[[Category:Sources of Foe Cannot Follow-Up]]
+[[Category:Day of Devotion units]]

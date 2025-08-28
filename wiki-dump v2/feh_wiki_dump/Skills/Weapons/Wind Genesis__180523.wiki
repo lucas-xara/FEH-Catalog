@@ -1,0 +1,43 @@
+{{Weapon Infobox
+|tagid=SID_風呼びの根源
+|intID=3256
+|userVersion1=Closed
+|userVersion2=Open
+|exclusive=1
+|weaponType=Blue Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of turn, if unit's HP ≥ 25%, grants Atk/Spd+6 and【Desperation】to unit for 1 turn. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+6 to unit during combat and inflicts penalty on foe's Spd/Res during combat = 11 - foe's max Special cooldown count value × 2. (Minimum penalty of 3. If foe does not have a Special skill, penalty = 3.)<br><br>【Desperation】<br>Grants the following effect for 1 turn: "If unit initiates combat, unit can make a follow-up attack before foe can counterattack."
+|statModifiers=0,14,0,0,0
+|required=Thoron;Shine
+|properties=random_owner
+}}
+==Notes==
+{{Bonuses}}
+{{Desperation}}
+{{Temporary buffs}}
+{{Temporary debuffs}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V6.9_v0609b_abc_Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|english=Wind Genesis
+|japanese=風呼びの根源
+|japaneseNotes=<i>[[Fireemblemwiki:Wind Caller's Genesis|Wind Caller's Genesis]]</i>
+|german=Ur-Windrufer
+|spanishEU=Génesis de viento
+|spanishLA=Génesis de viento
+|french=Genèse du vent
+|italian=Genesi del vento
+|chineseTW=喚風之根源
+|portuguese=Gênese de vento
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Desperation】%' OR Description LIKE '%at start of turn, if unit_s HP%grants%to unit for 1 turn%' OR Description LIKE '%at start of turn%grants Atk/Spd+%to unit for 1 turn%') AND Exclusive='1' OR Description LIKE '%=%foe_s max special cooldown count%'}}
+{{Weapons Navbox}}

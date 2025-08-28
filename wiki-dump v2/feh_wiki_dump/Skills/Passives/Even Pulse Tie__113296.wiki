@@ -1,0 +1,50 @@
+{{Passive
+|name=Even Pulse Tie
+|type=B
+|exclusive=0
+|canUseMove=Infantry,Cavalry
+|canUseWeapon={{WeaponList|All}}
+|1name=Even Pulse Tie 1
+|1tagid=SID_鼓動の封緘・偶数1
+|1effect=At start of even-numbered turns, if any foe's HP+5 ≤ unit's HP and that foe's Special is ready, inflicts Special cooldown count+2 on foe with the lowest HP among those foes. (Cannot exceed the foe's maximum Special cooldown.)
+|1required=-
+|1cost=60
+|1promotionRarity=4
+|1promotionTier=1
+|2name=Even Pulse Tie 2
+|2tagid=SID_鼓動の封緘・偶数2
+|2effect=At start of even-numbered turns, if any foe's HP+3 ≤ unit's HP and that foe's Special is ready, inflicts Special cooldown count+2 on foe with the lowest HP among those foes. (Cannot exceed the foe's maximum Special cooldown.)
+|2cost=120
+|2promotionRarity=5
+|2promotionTier=1
+|3name=Even Pulse Tie 3
+|3tagid=SID_鼓動の封緘・偶数3
+|3effect=At start of even-numbered turns, if any foe's HP+1 ≤ unit's HP and that foe's Special is ready, inflicts Special cooldown count+2 on foe with the lowest HP among those foes. (Cannot exceed the foe's maximum Special cooldown.)
+|3cost=240
+|properties=random_owner
+}}
+==Notes==
+{{Start of turn Special modification}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Even Pulse Tie
+|japanese=鼓動の封緘・偶数
+|german=Gerader Puls
+|spanishEU=Pulso par
+|spanishLA=Pulso par
+|french=Influx pair
+|italian=Battito pari
+|chineseTW=鼓動的封緘・偶數
+|portuguese=Pulso par
+}}
+==References==
+<references/>
+==See also==
+* [[Skill families#Even|Even Wave Passives]]
+{{Passives Navbox|B}}

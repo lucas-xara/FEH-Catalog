@@ -1,0 +1,38 @@
+{{Weapon Infobox
+|tagid=SID_アスラの双刃
+|intID=3396
+|userVersion1=Main
+|userVersion2=Sub
+|exclusive=1
+|weaponType=Dagger
+|cost=400
+|might=8
+|range=2
+|effect=Grants Spd+5. Unit attacks twice (even if foe initiates combat). Neutralizes penalties on unit during combat. If unit's Spd > foe's Spd, grants Special cooldown charge +1 to unit per attack during combat. (Only highest value applied. Does not stack.)<br>Effect: 【Dagger ７】<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|statModifiers=0,8,5,0,0
+|required=Silver Dagger
+|properties=random_owner
+}}
+==Notes==
+{{Brave weapon interaction}}
+{{Penalty neutralization}}
+{{CooldownChargePlus}}
+{{IfUnitAttacked}}
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=アスラの双刃
+|german=Asuraklingen
+|spanishEU=Hojas asura
+|spanishLA=Espadas asura
+|french=Lames asura
+|italian=Lame asura
+|chineseTW=阿修羅的雙刃
+|portuguese=Espadas asura
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%Grants Spd+%unit attacks twice%' AND (SP=300 OR Exclusive='1') OR Description LIKE '%If unit_s Spd%>%foe_s Spd%grants Special cooldown charge +1 per%attack%' AND Exclusive='1'}}
+* [[Brave Weapons]]
+{{Weapons Navbox}}

@@ -1,0 +1,68 @@
+{{#invoke:NameAbout|main|Name=Medeus}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Medeus
+|Title=Last Earth Dragon
+|WeaponType=Blue Breath
+|MoveType=Infantry
+|Origin=Fire Emblem: Mystery of the Emblem
+|Gender=Male
+|actorEN=Dennis Hull
+|actorJP=小林達也
+|artist=Daisuke Izuka
+|additionDate=April 15, 2025
+|releaseDate=April 15, 2025
+|poolDate=May 6, 2025
+|poolRarities=3,4
+|cv1=1
+|cv2=9900100
+|TagID=若年メディウス
+|InternalID=1233
+|Properties=notRandomized
+|description=The only Earth Dragon who decided to follow Naga and become a manakete. He guards the Dragon Altar in Dolhr. Appears in Fire Emblem: Mystery of the Emblem.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=10|Lv1SPD=4|Lv1DEF=12|Lv1RES=12
+|GRHP=50|GRATK=90|GRSPD=35|GRDEF=70|GRRES=80
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire Breath
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Fire Breath+
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Flametongue
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Ancient Betrayal
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Glacies
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Def/Res Scowl 1
+|passiveA2=Def/Res Scowl 2
+|passiveA3=Def/Res Scowl 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Atk Ploy 1
+|passiveC2=Atk Ploy 2
+|passiveC3=Atk Ploy 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

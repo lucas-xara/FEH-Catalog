@@ -1,0 +1,53 @@
+{{SkillPage Tabs}}{{Passive
+|name=Atk/Def Gap
+|type=C
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|1name=Atk/Def Gap 1
+|1tagid=SID_攻撃守備の大開放1
+|alt1name=Atk Def Gap 1
+|1effect=At start of turn, grants Atk/Def+1 to ally with the highest Atk+Def total for 1 turn. (Excludes unit.)
+|1required=-
+|1cost=60
+|1promotionRarity=4
+|1promotionTier=1
+|2name=Atk/Def Gap 2
+|2tagid=SID_攻撃守備の大開放2
+|alt2name=Atk Def Gap 2
+|2effect=At start of turn, grants Atk/Def+3 to ally with the highest Atk+Def total for 1 turn. (Excludes unit.)
+|2cost=120
+|2promotionRarity=5
+|2promotionTier=1
+|3name=Atk/Def Gap 3
+|3tagid=SID_攻撃守備の大開放3
+|alt3name=Atk Def Gap 3
+|3effect=At start of turn, grants Atk/Def+5 to ally with the highest Atk+Def total for 1 turn. (Excludes unit.)
+|3cost=240
+|properties=random_owner
+}}
+==Notes==
+{{Bonuses}}
+{{SelectStat|Atk+Def total}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Atk/Def Gap
+|japanese=攻撃守備の大開放
+|german=Ang./Ver.-Lücke
+|spanishEU=Lapso Ata/Def
+|spanishLA=Lapso Atq./Def.
+|french=Brèche Atq/Déf
+|italian=Occ. Att/Dif
+|chineseTW=攻擊防守大開放
+|portuguese=Lapso Atq./Def.
+}}
+==See also==
+* [[Opening Passives]]
+{{Passives Navbox|C}}
+[[Category:Gap Passives]]

@@ -1,0 +1,36 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_フラッシュ
+|weaponType=Staff
+|altWeaponName=Flash
+|weaponName={{PAGENAME}}
+|might=7
+|range=2
+|effect=After combat, if unit attacked, inflicts status on foe preventing counterattacks through its next action.
+|cost=200
+|exclusive=0
+|statModifiers=0,7,0,0,0
+|next=Flash+
+|promotionRarity=5
+|promotionTier=2
+|required=Assault
+|properties=random_owner
+}}
+==Notes==
+{{No counterattacks}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=フラッシュ
+|german=Elmsfeuer
+|spanishEU=Fulgor
+|spanishLA=Haz de luz
+|french=Fulguration
+|italian=Lampo
+|chineseTW=閃爍
+|portuguese=Raio de luz
+}}
+==See also==
+* [[Candlelight]]
+* [[Imhullu]]
+{{Weapons Navbox}}

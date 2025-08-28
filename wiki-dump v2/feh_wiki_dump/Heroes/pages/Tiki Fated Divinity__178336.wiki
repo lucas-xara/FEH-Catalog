@@ -1,0 +1,74 @@
+{{#invoke:NameAbout|main|Name=Tiki}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Tiki
+|Title=Fated Divinity
+|WeaponType=Green Breath
+|MoveType=Infantry
+|Origin=Fire Emblem Awakening
+|Gender=Female
+|actorEN=Mela Lee
+|actorJP=大谷育江
+|artist=п猫Ｒ
+|additionDate=August 17, 2022
+|releaseDate=August 17, 2022
+|poolDate=September 16, 2022
+|poolRarities=5
+|cv1=10
+|cv2=900100
+|TagID=総選挙覚醒チキ
+|InternalID=841
+|Properties=brave,specRate_202502
+|description=A manakete who has lived for thousands of years, through many ages. Worshipped as the Voice of the Divine Dragon by the people of Valm. Appears in Fire Emblem Awakening.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=10|Lv1SPD=5|Lv1DEF=11|Lv1RES=11
+|GRHP=50|GRATK=75|GRSPD=50|GRDEF=60|GRRES=70
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire Breath
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Fire Breath+
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Flametongue
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Remote Breath
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Glimmer
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Res Finish 1
+|passiveA2=Atk/Res Finish 2
+|passiveA3=Atk/Res Finish 3
+|passiveA4=Atk/Res Finish 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=New Divinity
+|passiveB1Unlock=5
+|passiveC1=Threaten Res 1
+|passiveC2=Threat. Def/Res 1
+|passiveC3=Threat. Def/Res 2
+|passiveC4=Def/Res Menace
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}

@@ -1,0 +1,45 @@
+{{Weapon Infobox
+|tagid=SID_約束の花＋
+|weaponName=Pact Blooms+
+|image=wep_mg156
+|weaponType=Blue Tome
+|might=12
+|range=2
+|effect=If unit is within 2 spaces of an ally, inflicts Atk/Res-5 on foe during combat, and when unit deals damage to foe during combat, restores 4 HP to unit. (Triggers even if 0 damage is dealt.)
+|cost=300
+|exclusive=0
+|statModifiers=0,12,0,0,0
+|required=Pact Blooms
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|intID=2429
+|sort=90001
+|value=15
+|timingID=1
+|abilityID=210
+|limit1ID=14
+|properties=
+}}
+==Notes==
+{{Temporary debuffs}}
+{{CombatHPRecovery}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=約束の花＋
+|german=Kontraktblüten+
+|spanishEU=Pacto floral +
+|spanishLA=Pacto floral +
+|french=Fleurs de pacte +
+|italian=Fiori del vincolo+
+|chineseTW=約定之花＋
+|portuguese=Contrato floral+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%inflicts Atk/%-%during combat%unit deals damage to foe during combat, restores%HP to unit%'}}
+{{Weapons Navbox}}

@@ -1,0 +1,37 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_祝祭の斧
+|weaponType=Axe
+|might=10
+|range=1
+|next=Faithful Axe+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Axe
+|effect=If unit is adjacent to an ally, grants Atk/Spd/Def/Res+3 during combat.
+|cost=200
+|exclusive=0
+|statModifiers=0,10,0,0,0
+|userVersion1=
+|userVersion2=
+|userVersion3=
+|userVersion4=
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=祝祭の斧
+|german=Treue Axt
+|spanishEU=Hacha fiel
+|spanishLA=Hacha fiel
+|french=Hache fidèle
+|italian=Ascia fidata
+|chineseTW=祝祭之斧
+|portuguese=Machado fiel
+}}
+==See also==
+* 
+{{Weapons Navbox}}

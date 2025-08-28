@@ -1,0 +1,33 @@
+{{Passive
+|name=Surtr's Menace
+|type=C
+|exclusive=1
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|1name=Surtr's Menace
+|1tagid=SID_炎王の威嚇
+|1effect=At start of turn, if unit is within 2 spaces of a foe, grants Atk/Spd/Def/Res+4 for 1 turn and inflicts Atk/Spd/Def/Res-4 on foes within 2 spaces through their next actions.
+|1required=-
+|1cost=300
+|properties=random_owner
+}}
+==Notes==
+{{Bonuses}}
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=炎王の威嚇
+|japaneseNotes=<i>Flame King's [[Threaten Passives|Threat]]</i>
+|german=Surtrs Geißel
+|spanishEU=Desafío de Surtr
+|spanishLA=Desafío de Surtr
+|french=Menace de Surtr
+|italian=Minaccia di Surtr
+|chineseTW=炎王威嚇
+|portuguese=Ameaça de Surtr
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%At start of turn%inflicts Atk/Spd/Def/Res-%for 1 turn%' OR Description LIKE '%At start of turn, if unit is within 2 spaces of a foe%grants%and inflicts%' OR Description LIKE '%At start of turn%inflicts%-%on foes within%spaces%' AND Description NOT LIKE '%enemy team%'}}
+{{Passives Navbox|C}}

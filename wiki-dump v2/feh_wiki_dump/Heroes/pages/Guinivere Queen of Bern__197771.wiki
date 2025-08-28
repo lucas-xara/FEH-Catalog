@@ -1,0 +1,77 @@
+{{#invoke:NameAbout|main|Name=Guinivere}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Guinivere
+|Title=Queen of Bern
+|WeaponType=Colorless Tome
+|MoveType=Infantry
+|Origin=Fire Emblem: The Binding Blade
+|Gender=Female
+|LegendaryEffect=Water
+|BoostHP=3
+|BoostDef=4
+|Duel=200
+|actorEN=Erika Harlacher
+|actorJP=石見舞菜香
+|artist=麻谷知世
+|additionDate=June 30, 2023
+|releaseDate=June 30, 2023
+|cv1=5
+|cv2=500500
+|TagID=伝承ギネヴィア
+|InternalID=967
+|Properties=legendary
+|description=New queen of Bern, having inherited the throne from Zephiel, now seeking to rebuild Bern for the sake of her people. Appears in Fire Emblem: The Binding Blade.
+}}
+{{Stats Page
+|Lv1HP=15|Lv1ATK=9|Lv1SPD=12|Lv1DEF=3|Lv1RES=12
+|GRHP=50|GRATK=70|GRSPD=75|GRDEF=30|GRRES=65
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Stone
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elstone
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Atlas (weapon)
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Radiant Aureola
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Iceberg
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Spd/Res Finish 1
+|passiveA2=Spd/Res Finish 2
+|passiveA3=Spd/Res Finish 3
+|passiveA4=Spd/Res Finish 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Null C-Disrupt 1
+|passiveB2=Null C-Disrupt 2
+|passiveB3=Null C-Disrupt 3
+|passiveB4=Null C-Disrupt 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Bern's New Way
+|passiveC1Unlock=5
+}}
+{{Heroes Navbox}}

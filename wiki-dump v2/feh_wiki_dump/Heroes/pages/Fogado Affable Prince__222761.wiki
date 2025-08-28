@@ -1,0 +1,73 @@
+{{#invoke:NameAbout|main|Name=Fogado}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Fogado
+|Title=Affable Prince
+|WeaponType=Green Bow
+|MoveType=Cavalry
+|Origin=Fire Emblem Engage
+|Gender=Male
+|actorEN=Zeno Robinson
+|actorJP=KENN
+|artist=岡田学彌
+|randomStartTime=2024-10-17T07:00:00Z
+|additionDate=September 17, 2024
+|releaseDate=September 17, 2024
+|poolDate=October 4, 2024
+|poolRarities=5
+|cv1=14
+|cv2=500500
+|TagID=フォガート
+|InternalID=1144
+|Properties=
+|description=First prince of Solm and Timerra's little brother. He is more amiable than one expects of royalty. Appears in Fire Emblem Engage.
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=12|Lv1SPD=8|Lv1DEF=6|Lv1RES=8
+|GRHP=50|GRATK=75|GRSPD=90|GRDEF=45|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Bow
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Sentinel Bow
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Darting Blow 1
+|passiveA2=Swift Sparrow 1
+|passiveA3=Swift Sparrow 2
+|passiveA4=Flared Sparrow
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=S/D Far Trace 1
+|passiveB2=S/D Far Trace 2
+|passiveB3=S/D Far Trace 3
+|passiveB4=S/D Far Trace 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+}}
+{{Heroes Navbox}}

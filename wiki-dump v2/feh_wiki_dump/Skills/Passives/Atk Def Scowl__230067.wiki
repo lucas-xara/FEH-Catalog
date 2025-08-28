@@ -1,0 +1,76 @@
+{{Passive
+|name=Atk/Def Scowl
+|type=A
+|exclusive=0
+|canUseWeapon={{WeaponList|Dragonstone}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Atk/Def Scowl 1
+|alt1name=Atk Def Scowl 1
+|1tagid=SID_攻撃守備の竜眼1
+|1effect=If foe initiates combat or foe's HP ≥ 75% at start of combat, grants Atk/Def+2 to unit during combat, and also, if foe's attack can trigger foe's Special and unit's Res ≥ foe's Res+15 during combat, inflicts Special cooldown count+1 on foe before foe's first attack (cannot exceed foe's maximum Special cooldown).
+|1cost=60
+|1required=-
+|1promotionTier=1
+|1promotionRarity=4
+|2name=Atk/Def Scowl 2
+|alt2name=Atk Def Scowl 2
+|2tagid=SID_攻撃守備の竜眼2
+|2effect=If foe initiates combat or foe's HP ≥ 75% at start of combat, grants Atk/Def+4 to unit during combat, and also, if foe's attack can trigger foe's Special and unit's Res ≥ foe's Res+12 during combat, inflicts Special cooldown count+1 on foe before foe's first attack (cannot exceed foe's maximum Special cooldown).
+|2cost=120
+|2promotionTier=1
+|2promotionRarity=5
+|3name=Atk/Def Scowl 3
+|alt3name=Atk Def Scowl 3
+|3tagid=SID_攻撃守備の竜眼3
+|3effect=If foe initiates combat or foe's HP ≥ 75% at start of combat, grants Atk/Def+6 to unit during combat, and also, if foe's attack can trigger foe's Special and unit's Res ≥ foe's Res+9 during combat, inflicts Special cooldown count+1 on foe before foe's first attack (cannot exceed foe's maximum Special cooldown).
+|3cost=240
+|3next=-
+|4name=Atk/Def Scowl 4
+|alt4name=Atk Def Scowl 4
+|4tagid=SID_攻撃守備の竜眼4
+|4effect=If foe initiates combat or foe's HP ≥ 75% at start of combat, grants Atk/Def+7 to unit during combat, and also, if foe's attack can trigger foe's Special and unit's Res ≥ foe's Res+5 during combat, inflicts Special cooldown count+1 on foe before foe's first attack (cannot exceed foe's maximum Special cooldown).
+|4cost=300
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Atk/Def Scowl 3}} Atk/Def Scowl 3
+|s1 Ce1={{Eft|Temporary buffs|Atk/Def|6}}
+|s1 Ce1C=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|s1 Ce2={{Eft|Increase Cooldown|1}}<br>before {{Tgt|Foe}}'s first attack
+|s1 Ce2T={{Tgt|Foe}}
+|s1 Ce2C=(Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat),<br>{{Tgt|Foe}} has an<br>[[offensive special]],<br>'''&''' {{Tgt|Unit}}'s Res ≥<br>{{Tgt|Foe}}'s Res+9
+|skill2={{Si|Atk/Def Scowl 4}} Atk/Def Scowl 4
+|s2 Ce1={{Eft|Temporary buffs|Atk/Def|7}}
+|s2 Ce1C=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|s2 Ce2={{Eft|Increase Cooldown|1}}<br>before {{Tgt|Foe}}'s first attack
+|s2 Ce2T={{Tgt|Foe}}
+|s2 Ce2C=(Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat),<br>{{Tgt|Foe}} has an<br>[[offensive special]],<br>'''&''' {{Tgt|Unit}}'s Res ≥<br>{{Tgt|Foe}}'s Res+5
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+{{CombatCooldownCount|+1}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Atk/Def Scowl
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=Cipiglio Att/Dif
+|chineseTW=
+|portuguese=
+}}
+
+==See also==
+{{See also skills|cond=Description LIKE '%if foe_s attack can trigger%inflicts Special cooldown count+%on foe before foe_s first attack%' AND Exclusive='1'}}
+* [[Scowl Passives]]
+{{Passives Navbox|A}}

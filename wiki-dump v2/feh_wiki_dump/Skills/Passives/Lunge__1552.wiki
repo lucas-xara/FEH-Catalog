@@ -1,0 +1,42 @@
+{{Passive
+|type=B
+|exclusive=0
+|1name=Lunge
+|1tagid=SID_切り込み
+|1required=-
+|1effect=If unit initiates combat, unit and target foe swap spaces after combat.
+|1cost=150
+|canUseWeapon={{WeaponList|Close}}
+|canUseMove={{MoveList|all}}
+|properties=random_owner,random_inherit_base
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Swap Units}}
+|MeT={{Tgt|Unit}} '''&'''<br>{{Tgt|Target Foe}}
+|MeC=After combat<br>in Player Phase
+}}
+
+==Notes==
+{{IfUnitInitiates}}
+{{Movement Passive notes}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=切り込み
+|german=Ausfallschritt
+|spanishEU=Permutar
+|spanishLA=Permutar
+|french=Bascule
+|italian=Balzo
+|chineseTW=衝敵斬
+|portuguese=Inversão
+}}
+==See also==
+* [[Movement Passives]]
+{{Passives Navbox|B}}

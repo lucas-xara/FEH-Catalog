@@ -1,0 +1,68 @@
+{{Weapon Infobox
+|tagid=SID_マスターボウ
+|weaponType=Bow
+|might=9
+|range=2
+|effectiveness=flying
+|effect=Effective against flying foes. Inflicts Spd-5. Unit attacks twice (even if foe initiates combat). When under player's control, unit gains: "If unit initiates combat, foe cannot make a follow-up attack."
+|cost=400
+|exclusive=1
+|userVersion1=Bow
+|userVersion2=Arrow
+|statModifiers=0,9,-5,0,0
+|required=Silver Bow
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|tagidExtraSkill1=一
+|effectSkill1=If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+4 to unit, deals damage = 10% of foe's Atk (including when dealing damage with a Special triggered before combat), and neutralizes effects that inflict "Special cooldown charge -X" on unit during combat.
+|iconSkill1=Meisterbogen W.png
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Reductions|Spd|5}}
+|s1 Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|s1 Ce2={{Eft|Attack Twice}}
+|s1 Ce3={{Eft|Prevent Follow-Ups}}
+|s1 Ce3T={{Tgt|Foe}}
+|s1 Ce3C=Player Phase '''&'''<br>{{Tgt|Unit}} is under<br>Player's control
+|skill2={{Si|Meisterbogen|refine=Skill1}} Skill refine effects
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s2 Ce2={{Eft|Damage Boost|10% of {{Tgt|Foe}}'s Atk}}<br>before '''&''' during combat
+|s2 Ce3={{Eft|Neutralize Guard}}
+|s2 CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{Brave weapon interaction}}
+{{IfUnitInitiates}}
+{{Prevent follow-up}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary buffs|name={{St|Meisterbogen|refine=Skill1}}}}
+{{AtkDamageBoost|name={{St|Meisterbogen|refine=Skill1}}}}
+{{CooldownChargeMinusNeutralization|name={{St|Meisterbogen|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Meisterbogen
+|japanese=マスターボウ
+|japaneseNotes=''Master Bow''
+|german=Meisterl. Bogen
+|germanNotes=''Master Bow''
+|spanishEU=Meisterbogen
+|spanishLA=Meisterbogen
+|french=Meisterbogen
+|italian=Meisterbogen
+|chineseTW=大師之弓
+|portuguese=Meisterbogen
+}}
+==See also ==
+{{See also skills|cond=(Description LIKE '%inflicts Spd-_%attacks twice%' AND Description NOT LIKE '%inflicts Spd-_%if unit initiates combat,% attacks twice%' OR Description LIKE '%deals damage =%of foe_s Atk%including%') AND (Exclusive='1' OR SP='300')}}
+* [[Brave Weapons]]
+{{Weapons Navbox}}

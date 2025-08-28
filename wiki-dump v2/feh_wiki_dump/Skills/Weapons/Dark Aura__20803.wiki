@@ -1,0 +1,48 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_オーラ外伝
+|weaponType=Blue Tome
+|might=14
+|range=2
+|effect=At start of turn, if adjacent allies use sword, axe, lance, dragonstone, or beast damage, grants Atk+6 to those allies for 1 turn.
+|cost=400
+|exclusive=1
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|statModifiers=0,14,0,0,0
+|required=Thoron
+|SE=se_effect_aura.flac
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If unit is within 2 spaces of a sword, lance, axe, dragon, or beast ally, grants Atk/Spd+5 to unit during combat.
+|iconSkill1=Dark Aura W.png
+|tagidExtraSkill1=絆
+|properties=random_owner
+}}
+==Notes==
+{{Bonuses}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{TermRefersTo|Beast}}
+{{TermRefersTo|Dragon|Dragonstone}}
+{{Combat boosts}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|攻撃速さの絆R近接|Atk/Spd Bond Nearby}}
+==In other languages==
+{{OtherLanguages
+|japanese=共鳴オーラ
+|german=Dunkle Aura
+|spanishEU=Aura oscura
+|spanishLA=Aura oscura
+|french=Aura sombre
+|italian=Aurora oscura
+|chineseTW=共鳴輝光
+|portuguese=Aura sombria
+}}
+{{Weapons Navbox}}

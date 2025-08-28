@@ -1,0 +1,66 @@
+{{#invoke:NameAbout|main|Name=Yen'fay}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Yen'fay
+|Title=Blade Legend
+|WeaponType=Red Sword
+|MoveType=Infantry
+|Origin=Fire Emblem Awakening
+|Gender=Male
+|actorEN=Kirk Thornton
+|actorJP=浜田賢二
+|artist=萩谷薫
+|additionDate=December 6, 2021
+|releaseDate=December 7, 2021
+|cv1=10
+|cv2=700100
+|TagID=レンハ
+|InternalID=743
+|Properties=limited,ghb
+|description=A powerful king of Chon'sin, his now-lost homeland. Once the Blade Legend, he has succumbed to Walhart, and now serves him. Appears in Fire Emblem Awakening.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=9|Lv1SPD=12|Lv1DEF=8|Lv1RES=6
+|GRHP=55|GRATK=65|GRSPD=70|GRDEF=55|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Carnage Amatsu
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Astra
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Darting Stance 1
+|passiveA2=Kestrel Stance 1
+|passiveA3=Kestrel Stance 2
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Threaten Def 1
+|passiveC2=Threat. Atk/Def 1
+|passiveC3=Threat. Atk/Def 2
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

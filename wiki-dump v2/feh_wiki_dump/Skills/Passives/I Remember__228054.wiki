@@ -1,0 +1,55 @@
+{{Passive
+|name=I Remember...
+|type=B
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=I Remember...
+|1tagid=SID_記憶が蘇る…
+|1effect=At start of player phase or enemy phase, if unit is within 2 spaces of an ally, inflicts Spd/Def-7,【Panic】, and【Sabotage】on closest foes and foes within 2 spaces of those foes through their next actions.<br><br>If unit initiates combat or is within 2 spaces of an ally, inflicts Spd/Def-5 on foe and deals damage = 20% of unit's Spd during combat (excluding area-of-effect Specials), and also, if unit's HP > 1 and foe would reduce unit's HP to 0, unit survives with 1 HP (once per combat; does not stack with non-Special effects that allow unit to survive with 1 HP if foe's attack would reduce HP to 0).<br><br>If unit initiates combat or is within 2 spaces of an ally, restores 7 HP to unit after combat.<br><br>【Panic】<br>Converts bonuses on target into penalties through its next action.<br><br>【Sabotage】<br>Inflicts penalty on unit's Atk/Spd/Def/Res during combat = highest penalty on each stat between unit and allies within 2 spaces of unit through its next action. Calculates each stat penalty independently.
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{Eft|Penalties|Spd/Def|7}}
+|Se2={{SEt|Panic}}
+|Se3={{SEt|Sabotage}}
+|SeT=Closest {{Tgt|Foes}}<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}
+|SeC=At start of both Phases<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Me={{Eft|Heal|7}}
+|MeC=After combat on<br>Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce1={{Eft|Temporary debuffs|Spd/Def|5}}
+|Ce1T={{Tgt|Foe}}
+|Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|Ce1-2C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce3={{Eft|Miracle}}
+|Ce3C={{Eft|Temporary debuffs|Spd/Def|5}}<br>conditions '''&'''<br>{{Tgt|Unit}}'s HP > 1
+}}
+==Notes==
+{{Penalties}}
+{{Panic}}
+{{Sabotage}}
+{{IfUnitInitiates}}
+{{DamageBoost}}
+{{Miracle}}
+{{After combat healing}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian= Reminiscenza
+|chineseTW=
+|portuguese=
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%unit survives with 1 HP%' AND Description NOT LIKE '%neutralizes%"%unit survives with 1 HP%' AND Exclusive='1'}}
+{{Passives Navbox|B}}

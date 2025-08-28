@@ -1,0 +1,51 @@
+{{Passive
+|name=Distant Pressure
+|type=A
+|exclusive=0
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|Close}}
+|intID=2707
+|sort=6541
+|value=12
+|timingID=1
+|abilityID=62
+|limit1ID=3
+|randomTimestamp=2021-09-17T07:00:00Z
+|randomMinLv=36
+|properties=random_owner
+|1name=Distant Pressure
+|1tagid=SID_遠反・速さの渾身
+|1effect=Unit can counterattack regardless of foe's range. At start of combat, if unit's HP ≥ 25%, grants Spd+5 during combat, but after combat, if unit attacked, deals 5 damage to unit.
+|1required=Distant Counter
+|1cost=300
+}}
+==Notes==
+{{Combat boosts}}
+{{IfUnitAttacked}}
+{{DamageToUnit}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=遠反・速さの渾身
+|german=Ferner Druck
+|spanishEU=Presión larga
+|spanishLA=Presión larga
+|french=Pression distante
+|italian=Slancio lontano
+|chineseTW=遠反・速度的奮擊
+|portuguese=Pulso distante
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%counterattack regardless of%range%' AND SCategory!='Weapon') AND ((Exclusive='1' AND Name NOT LIKE '%+') OR SCategory='captain')}}
+* [[Counter Passives]]
+* [[Counter Seals]]
+* [[Push Passives]]
+* [[Prime Passives]]
+* [[Weapons with Distant Counter]]
+* [[Weapons with Close Counter]]
+{{Passives Navbox|A}}

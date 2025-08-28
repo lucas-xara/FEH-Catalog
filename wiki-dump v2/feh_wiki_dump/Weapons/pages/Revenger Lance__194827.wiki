@@ -1,0 +1,45 @@
+{{Weapon Infobox
+|tagid=SID_復讐の烈槍
+|intID=3585
+|image=wep_lc147
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+4 to unit during combat, and also, if foe's HP ≥ 75% at start of combat, unit makes a guaranteed follow-up attack during combat.
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit, neutralizes effects that inflict "Special cooldown charge -X" on unit, and reduces damage from foe's attacks by 15% of unit's Def during combat (excluding area-of-effect Specials).
+|properties=
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Guaranteed follow-up interaction}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{CooldownChargeMinusNeutralization|name={{St|Revenger Lance|refine=Skill1}}}}
+{{FlatDamageReduction}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=復讐の烈槍
+|german=Vergeltungslanze
+|spanishEU=Lanza vindicadora
+|spanishLA=Lanza vindicadora
+|french=Lance revanche
+|italian=Lancia vendetta
+|chineseTW=復仇烈槍
+|portuguese=Lança vingadora
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%reduces damage from foe_s attacks by%of unit_s Def%'}}
+{{Weapons Navbox}}

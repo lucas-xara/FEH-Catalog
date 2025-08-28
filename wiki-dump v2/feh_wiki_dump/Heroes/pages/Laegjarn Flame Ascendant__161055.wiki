@@ -1,0 +1,79 @@
+{{#invoke:NameAbout|main|Name=Laegjarn}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Laegjarn
+|Title=Flame Ascendant
+|WeaponType=Colorless Bow
+|MoveType=Cavalry
+|Origin=Fire Emblem Heroes
+|Gender=Female
+|actorEN=Abby Trott
+|actorJP=田村ゆかり
+|artist=п猫Ｒ
+|randomStartTime=2021-12-17T07:00:00Z
+|additionDate=November 17, 2021
+|releaseDate=November 17, 2021
+|poolDate=December 7, 2021
+|poolRarities=5
+|cv1=0
+|cv2=300200
+|TagID=開花レーギャルン
+|InternalID=730
+|Properties=ascended,specRate_202408
+|description=Princess of Múspell, the Kingdom of Flame. Friend to Fjorm. She has become a champion of Múspell, God of Flame, wreathed in the power of Múspell's fire.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=9|Lv1SPD=11|Lv1DEF=6|Lv1RES=3
+|GRHP=50|GRATK=70|GRSPD=70|GRDEF=55|GRRES=35
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Bow
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Flame of Múspell
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Moonbow
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Death Blow 1
+|passiveA2=Swift Sparrow 1
+|passiveA3=Swift Sparrow 2
+|passiveA4=Swift Sparrow 3
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=A/D Far Trace 1
+|passiveB2=A/D Far Trace 2
+|passiveB3=A/D Far Trace 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Rouse Atk/Spd 1
+|passiveC2=Rouse Atk/Spd 2
+|passiveC3=Rouse Atk/Spd 3
+|passiveC4=Rouse Atk/Spd 4
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}

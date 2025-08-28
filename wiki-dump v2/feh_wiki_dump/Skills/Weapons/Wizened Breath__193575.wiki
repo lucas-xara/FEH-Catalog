@@ -1,0 +1,53 @@
+{{Weapon Infobox
+|tagid=SID_老巧のブレス
+|intID=3540
+|image=wep_ac067
+|exclusive=1
+|weaponType=Dragonstone
+|cost=400
+|might=16
+|range=1
+|effect=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit during combat, and also, if no effect neutralizes penalties to foe's Atk/Spd/Def/Res, inflicts penalty on each of those stats during combat = 6 - current penalty on each of those stats (min: 0; calculates each stat penalty independently). If unit's HP ≥ 25% at start of combat, inflicts Atk/Spd/Def/Res-6 on foe through its next action after combat. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|statModifiers=0,16,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|tagidExtraSkill1=一
+|effectSkill1=If foe initiates combat or foe's HP ≥ 75% at start of combat, grants Atk/Spd/Def/Res+4 to unit and foe cannot make a follow-up attack during combat.
+|iconSkill1=Wizened Breath W.png
+|properties=
+}}
+==Notes==
+{{Temporary buffs}}
+{{Temporary debuffs}}
+{{After combat note|{{SEt|penalty}}}}
+{{Penalties}}
+{{LowerDefRes}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfFoeInitiates}}
+{{Prevent follow-up|name={{St|Wizened Breath|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V7.4_v0704a_child_Mag_2.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=老巧のブレス
+|german=Erfahrener Atem
+|spanishEU=Aliento avezado
+|spanishLA=Soplo avezado
+|french=Souffle aguerri
+|italian=Soffio savio
+|chineseTW=老練吐息
+|portuguese=Sopro sábio
+}}
+==See also==
+{{See also skills|cond=((Description LIKE '%inflicts%-%through its next action after combat%' OR Description LIKE '%no effect neutralizes penalties to foe_s%') OR (Description LIKE '%if foe initiates combat%grants Atk/Spd/Def/Res+%' OR Description LIKE '%if foe_s HP%grants Atk/Spd/Def/Res+%') AND Description LIKE '%grants Atk/Spd/Def/Res+%cannot make a follow-up%' AND Description NOT LIKE '%transforms%Atk/Def-4%') AND Exclusive='1'}}
+* [[Skill families/B Passives#Seal|Seal Passives]]
+{{Weapons Navbox}}

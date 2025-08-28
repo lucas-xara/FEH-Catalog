@@ -1,0 +1,35 @@
+{{Passive
+|name=Twin-Sky Wing
+|type=B
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Twin-Sky Wing
+|1tagid=SID_双姫の天翼
+|1effect=At start of turn, grants【Pathfinder】to unit's support partner for 1 turn. (If more than one support partner is present, effect is not granted.) At start of combat, if unit's HP ≥ 25%, inflicts Spd/Def-5 on foe and neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat.<br>Effect:【Pathfinder】<br><br>【Pathfinder】<br>When an ally moves through unit's space, that space is counted as 0 spaces moved instead of 1 space. (Unit's space can be freely added to ally's normal movement. Applies only to allies with movement types that allow movement through unit's space.)
+|1cost=300
+|1required=-
+}}
+==Notes==
+{{Pathfinder|statusEffect=1}}
+{{SupportPartner|effect={{SEt|Pathfinder}} to support partner}}
+{{Temporary debuffs}}
+{{Follow-up effect neutralization}}
+{{Pathfinder}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=双姫の天翼
+|german=Sonnenwind
+|spanishEU=Ala gemela eólica
+|spanishLA=Ala gemela eólica
+|french=Aile sœur-céleste
+|italian=Ala celestiale
+|chineseTW=雙姬的天翼
+|portuguese=Asa irmã celeste
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%Pathfinder%' AND Description NOT LIKE '%excluding%Pathfinder%' OR (Description LIKE '%inflicts%/%guarantee foe_s follow-up%prevent unit_s follow-up%' AND Description NOT LIKE '%transforms%Atk/Def-%') AND Exclusive='1'}}
+{{Passives Navbox|B}}

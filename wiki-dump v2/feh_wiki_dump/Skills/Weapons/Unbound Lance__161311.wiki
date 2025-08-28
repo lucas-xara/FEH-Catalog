@@ -1,0 +1,37 @@
+{{Weapon Infobox
+|tagid=SID_孤絶の槍
+|intID=2835
+|image=wep_lc113
+|exclusive=0
+|weaponType=Lance
+|cost=200
+|might=10
+|range=1
+|effect=If unit is not adjacent to an ally, inflicts Atk/Def-5 on foe during combat and neutralizes foe's bonuses to Atk/Def (from skills like Fortify, Rally, etc.) during combat.
+|statModifiers=0,10,0,0,0
+|required=Steel Lance
+|next=Unbound Lance+
+|promotionRarity=5
+|promotionTier=1
+|properties=random_owner
+}}
+==Notes==
+{{Combat reductions}}
+{{Bonus neutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=孤絶の槍
+|german=Freie Lanze
+|spanishEU=Lanza desatada
+|spanishLA=Lanza desatada
+|french=Lance libre
+|italian=Lancia sola
+|chineseTW=孤絕之槍
+|portuguese=Lança desatada
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If unit is not adjacent to an ally, inflicts%neutralizes foe_s bonuses%' AND WikiName NOT LIKE '%Unbound%'|columns=3}}
+* [[Skill families#Unbound|Unbound Weapons]]
+{{Weapons Navbox}}

@@ -1,0 +1,47 @@
+{{Passive
+|name=Joint Dist. Guard
+|type=C
+|exclusive=0
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|intID=2715
+|sort=3501
+|effectRange=2
+|value=8
+|timingID=20
+|abilityID=143
+|limit1ID=20
+|randomTimestamp=2021-10-01T07:00:00Z
+|randomMinLv=36
+|properties=random_inherit_base,random_owner
+|1name=Joint Dist. Guard
+|1tagid=SID_遠距離相互警戒
+|1effect=Grants Def/Res+4 to allies within 2 spaces during combat against bow, dagger, magic, or staff foes. If unit is within 2 spaces of an ally and foe uses bow, dagger, magic, or staff, grants Def/Res+4 to unit during combat.
+|1required=Distant Guard 3
+|1cost=300
+}}
+==Notes==
+{{Combat boosts}}{{AlliesCombatEffect}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=遠距離相互警戒
+|german=Nachb. Fernschutz
+|spanishEU=Maxiguardia larga
+|spanishLA=Maxiguardia larga
+|french=Entr. garde dist.
+|italian=Guardia dist. gr.
+|chineseTW=遠距離相互警戒
+|portuguese=Omniguarda dist.
+}}
+==See also==
+* [[Joint Drive Passives]]
+* [[Distant Def]]
+{{Passives Navbox|C}}

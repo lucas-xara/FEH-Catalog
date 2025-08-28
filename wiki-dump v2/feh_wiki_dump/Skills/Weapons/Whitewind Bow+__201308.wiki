@@ -1,0 +1,58 @@
+{{Weapon Infobox
+|tagid=SID_白き風の弓＋
+|intID=3774
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=0
+|weaponType=Bow
+|cost=300
+|might=12
+|range=2
+|effectiveness=Flying
+|effect=Effective against flying foes. At start of turn, if unit's HP ≥ 25%, grants【Null Follow-Up】 and【Null Panic】to unit for 1 turn. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+X to unit during combat (X = number of【Bonus】effects active on unit and 【Penalty】effects active on foe, excluding stat bonuses and stat penalties, × 2, + 5).<br><br>【Null Follow-Up】<br>If unit's Spd > foe's Spd during combat, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks for 1 turn.<br><br>【Null Panic】<br>If unit is inflicted with Panic (bonuses converted into penalties), neutralizes the "converts bonuses on target into penalties" effect for 1 turn. (Even though the effect is neutralized, the Panic status remains, and is treated as a Penalty status.)<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|required=Whitewind Bow
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{SEt|Null Follow-Up}}
+|Se2={{SEt|Null Panic}}
+|SeC=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25%
+|Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd|2 x {{Kp|Bonus}} effects<br>on {{Tgt|Unit}} '''&''' {{Kp|Penalty}}<br>effects on {{Tgt|Foe}}, +5<br>(exc. {{SEt|Bonuses}}<br>'''&''' {{SEt|Penalties}})}}
+|CeC2={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{Null Follow-Up}}
+{{Null Panic}}
+{{Temporary buffs}}
+{{EffectfromBonus|temporary buffs|nonStat=1}}
+{{EffectfromPenalty|temporary buffs|nonStat=1}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=白き風の弓＋
+|german=Weißwindbogen+
+|spanishEU=Arco brisa nívea +
+|spanishLA=Arco brisa nívea +
+|french=Arc à moulinets +
+|italian=Arco girandole+
+|chineseTW=白風之弓＋
+|portuguese=Arco vento alvo+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%number of%Bonus%effects active on%' AND (Exclusive='1' AND Name NOT LIKE '%+' AND Properties HOLDS NOT 'arcane')}}
+* [[Skill families/Weapons#Gainful|Gainful Weapons]]
+{{Weapons Navbox}}

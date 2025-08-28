@@ -1,0 +1,74 @@
+{{Weapon Infobox
+|tagid=SID_赤い竜騎士の斧
+|weaponType=Axe
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of combat, if foe's HP = 100%, grants Atk/Spd/Def/Res+4 during combat and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Silver Axe
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1). If foe initiates combat or if foe's HP ≥ 75% at start of combat, grants Atk/Spd/Def/Res+4 to unit and inflicts Special cooldown charge -1 on foe per attack during combat (only highest value applied; does not stack), and restores 7 HP to unit after combat.
+|effectSkill1=At start of turn, if unit is within 2 spaces of an ally, grants Atk/Spd+6 and the following status to unit and allies within 2 spaces for 1 turn: "Grants Special cooldown charge +1 per attack during combat (only highest value applied; does not stack)." If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+4 to unit and neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat.
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Accelerate Special}}
+|s1 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s1 Ce2={{Eft|Guard}}
+|s1 Ce2T={{Tgt|Foe}}
+|s1 CeC=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP = 100%<br>at start of combat
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Accelerate Special}}
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s2 Ce2={{Eft|Guard}}
+|s2 Ce2T={{Tgt|Foe}}
+|s2 CeC=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|s2 Me={{Eft|Heal|7}}
+|s2 MeC=After combat in<br>Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|skill3={{Si|Dragoon Axe|refine=Skill1}} Skill refine effects
+|s3 Se1={{Eft|Bonuses|Atk/Spd|6}}
+|s3 Se2={{SEt|Special cooldown charge +1}}
+|s3 SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|s3 SeC=At start of turn<br>if {{Tgt|Unit}} is<br>[[within 2 spaces]]<br>of an {{Tgt|Ally}}
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s3 Ce2={{Eft|Neutralize Prevent Follow-Ups}}
+|s3 Ce3={{Eft|Neutralize Guaranteed Follow-Ups}}
+|s3 Ce3T={{Tgt|Foe}}
+|s3 CeC={{Tgt|Unit}} is<br>[[within 3 spaces]]<br>of an {{Tgt|Ally}}
+}}
+
+==Notes==
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+{{CooldownChargeMinus}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Bonuses|name={{St|Dragoon Axe|refine=Skill1}}}}
+{{Special Cooldown Charge +1|name={{St|Dragoon Axe|refine=Skill1}}}}
+{{Follow-up effect neutralization|name={{St|Dragoon Axe|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Dragoon Axe
+|japanese=赤い竜騎士の斧
+|german=Dragoneraxt
+|spanishEU=Hacha dragoon
+|spanishLA=Hacha dragoon
+|french=Hache carabin
+|italian=Ascia dragone
+|chineseTW=赤色龍騎士之斧
+|portuguese=Machado dragoon
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%if foe_s HP =%grants Atk/Spd/Def/Res+%during combat%' OR Description LIKE '%if foe_s HP =%inflicts Special cooldown charge -1 on foe%' OR Description LIKE '%grants %/%/%+%during combat%inflicts Special cooldown charge -1 on foe%') AND Exclusive='1'}}
+{{Weapons Navbox}}

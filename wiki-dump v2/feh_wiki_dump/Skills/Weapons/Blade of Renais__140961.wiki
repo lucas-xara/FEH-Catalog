@@ -1,0 +1,41 @@
+{{Weapon Infobox
+|tagid=SID_ルネスの礼剣
+|weaponName=Blade of Renais
+|image=wep_sw112
+|weaponType=Sword
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit, and also, if【Bonus】or【Penalty】is active on unit, deals damage = 20% of foe's Def, and also, if unit deals damage to foe during combat, restores HP to unit = 20% of foe's Def. (Triggers even if 0 damage is dealt.)<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Silver Sword
+|intID=2515
+|sort=521
+|value=20
+|timingID=1
+|abilityID=277
+|limit1ID=58
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+{{EffectfromStatusEffect|damage boost}}
+{{CombatHPRecovery}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ルネスの礼剣
+|german=Renais-Klinge
+|spanishEU=Filo de Renais
+|spanishLA=Filo de Renais
+|french=Lame de Renais
+|italian=Spada di Renais
+|chineseTW=路奈斯的禮劍
+|portuguese=Espada de Renais
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%deals damage =%\% of foe\'s Def%' OR Description LIKE '%restores%HP%Triggers even if%'|columns=3}}
+{{Weapons Navbox}}

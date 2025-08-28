@@ -1,0 +1,56 @@
+{{Passive
+|name=Atk/Res Fortune
+|type=A
+|exclusive=0
+|canUseWeapon={{WeaponList|Beast}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Atk/Res Fortune
+|alt1name=Atk Res Fortune
+|1tagid=SID_攻撃魔防の共栄
+|1effect=If unit can transform, transformation effects gain "if unit is within 2 spaces of a beast or dragon ally, or if number of adjacent allies other than beast or dragon allies ≤ 2" as a trigger condition (in addition to existing conditions).<br><br>If defending in Aether Raids, at the start of enemy turn 1, if conditions for transforming are met, unit transforms.<br><br>If unit is transformed or if foe initiates combat, grants Atk/Res+8 to unit and neutralizes foe's bonuses to Atk/Def during combat, and restores 7 HP to unit after combat.
+|1cost=300
+|1required=Atk/Res Form 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Added Transform Condition|if a {{Cwti|group=1|Dragon,Beast}} [[Dragon]]/[[Beast]]<br>{{Tgt|Ally}} is [[within 2 spaces]] '''or''' [[adjacent]]<br>non-[[Dragon]]/[[Beast]] {{Tgt|Allies}} ≤ 2}}
+|Me2={{Eft|AR-D Transform}}
+|Me2C=At start of<br>Enemy Turn 1
+|Me3={{Eft|Heal|7}}
+|Me3C=After combat<br>in Enemy Phase '''or'''<br>{{Tgt|Unit}} is transformed
+|Ce1={{Eft|Temporary buffs|Atk/Res|8}}
+|Ce2={{Eft|Neutralize Bonus|Atk/Def}}
+|Ce2T={{Tgt|Foe}}
+|CeC=Enemy Phase '''or'''<br>{{Tgt|Unit}} is transformed
+}}
+
+==Notes==
+{{TransformConditionAdd}}
+{{IfUnitTransforms}}
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+{{Bonus neutralization}}
+{{After combat healing}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Atk/Res Fortune
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%If unit can transform, transformation effects gain%' OR Description LIKE '%If defending in Aether Raids, at the start of enemy turn 1%') AND Exclusive='1'}}
+* [[Skill families/A Passives#Fortune|Fortune Passives]]
+{{Passives Navbox|A}}

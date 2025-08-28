@@ -1,0 +1,47 @@
+{{Weapon Infobox
+|tagid=SID_風見鶏の槍＋
+|weaponName=Flowing Lance+
+|image=wep_lc079
+|weaponType=Lance
+|might=14
+|range=1
+|effect=If unit is not adjacent to an ally, inflicts Atk/Def-5 on foe and neutralizes foe's bonuses to Atk/Def (from skills like Fortify, Rally, etc.) during combat.
+|cost=300
+|exclusive=0
+|statModifiers=0,14,0,0,0
+|required=Flowing Lance
+|intID=2172
+|sort=84001
+|value=15
+|timingID=1
+|abilityID=162
+|limit1ID=19
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Notes==
+{{Combat reductions}}
+{{Bonus neutralization}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Flowing Lance+
+|japanese=風見鶏の槍＋
+|german=Wandlerlanze+
+|spanishEU=Lanza taimada +
+|spanishLA=Lanza taimada +
+|french=Lance fluide +
+|italian=Lancia fluente+
+|chineseTW=風向標之槍＋
+|portuguese=Lança deriva+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If unit is not adjacent to an ally, inflicts%neutralizes foe_s bonuses%' AND WikiName NOT LIKE '%Unbound%'|columns=3}}
+* [[Skill families#Unbound|Unbound Weapons]]
+{{Weapons Navbox}}

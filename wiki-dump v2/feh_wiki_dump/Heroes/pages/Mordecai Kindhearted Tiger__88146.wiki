@@ -1,0 +1,68 @@
+{{#invoke:NameAbout|main|Name=Mordecai}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Mordecai
+|Title=Kindhearted Tiger
+|GrowthModifier=Gen 3
+|WeaponType=Blue Beast
+|Origin=Fire Emblem: Radiant Dawn
+|Gender=Male
+|MoveType=Infantry
+|actorJP=江越彬紀
+|actorEN=Jason Vande Brake
+|artist=ホマ蔵
+|additionDate=2019-04-09
+|releaseDate=2019-04-10
+|poolDate=2019-04-27
+|randomStartTime=2019-05-10T07:00:00Z
+|poolRarities=3,4
+|TagID=モゥディ
+|InternalID=363
+|Properties=demoted_202004
+|cv1=9
+|cv2=400400
+|description=A tiger warrior from Gallia, the home of the beast tribe of laguz. A kind, peace-loving giant. Appears in Fire Emblem: Radiant Dawn.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=11|Lv1SPD=5|Lv1DEF=9|Lv1RES=5
+|GRHP=65|GRATK=60|GRSPD=45|GRDEF=70|GRRES=35
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Whelp (Infantry)
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Yearling (Infantry)
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Adult (Infantry)
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Sabertooth Fang
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Smite
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveB1=Atk/Def Link 1
+|passiveB2=Atk/Def Link 2
+|passiveB3=Atk/Def Link 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Beast Exp. 1
+|passiveC2=Beast Exp. 2
+|passiveC3=Beast Exp. 3
+|passiveC1Unlock=1
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

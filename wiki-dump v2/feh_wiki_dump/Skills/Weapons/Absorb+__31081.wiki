@@ -1,0 +1,44 @@
+{{Weapon Infobox
+|tagid=SID_アブゾーブ＋
+|weaponType=Staff
+|might=7
+|range=2
+|effect=Restores HP = 50% of damage dealt.<br>After combat, if unit attacked, restores 7 HP to allies within 2 spaces of unit.
+|cost=300
+|exclusive=0
+|statModifiers=0,7,0,0,0
+|required=Absorb
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|effectSkill1=Calculates damage from staff like other weapons.
+|iconSkill1=Wrathful Staff W.png
+|tagidExtraSkill1=神
+|effectSkill2=Foe cannot counterattack.
+|iconSkill2=Dazzling Staff W.png
+|tagidExtraSkill2=幻
+|properties=
+}}
+==Notes==
+{{IfUnitAttacked}}
+* The healing calculation will always use the [[Damage calculation#Final Damage calculation|final damage number]] for the damage dealt.
+{{CombatHPRecovery}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Inheritable Staff Refines}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=アブゾーブ＋
+|german=Absorbieren+
+|spanishEU=Absorción +
+|spanishLA=Absorción +
+|french=Vampirisme +
+|italian=Assorbimento+
+|chineseTW=吸收＋
+|portuguese=Absorção+
+}}
+{{Weapons Navbox}}

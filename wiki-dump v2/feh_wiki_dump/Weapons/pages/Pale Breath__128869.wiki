@@ -1,0 +1,45 @@
+{{Weapon Infobox
+|tagid=SID_仄明のブレス
+|image=wep_ac030
+|weaponType=Dragonstone
+|might=10
+|range=1
+|effect=If unit is within 2 spaces of an ally, grants Atk/Def+5 to unit and neutralizes unit's penalties to Atk/Def during combat. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|cost=200
+|exclusive=0
+|statModifiers=0,10,0,0,0
+|required=Fire Breath+
+|next=Pale Breath+
+|promotionRarity=5
+|promotionTier=1
+|intID=2255
+|sort=86100
+|effectRange=2
+|value=11
+|adaptive=Flying
+|timingID=1
+|abilityID=171
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+{{Penalty neutralization}}
+{{LowerDefRes}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Pale Breath
+|japanese=仄明のブレス
+|german=Blasser Atem
+|spanishEU=Aliento pálido
+|spanishLA=Soplo pálido
+|french=Souffle pâle
+|italian=Soffio tenue
+|chineseTW=幽明吐息
+|portuguese=Sopro pálido
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If unit is within%spaces of an ally%grants%/%+%neutralizes unit_s penalties%' AND WikiName NOT LIKE '%steadfast%'|columns=3}}
+* [[Skill families#Steadfast|Steadfast Weapons]]
+{{Weapons Navbox}}

@@ -1,0 +1,69 @@
+{{#invoke:NameAbout|main|Name=Lapis}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Lapis
+|Title=Mighty Flower
+|WeaponType=Red Sword
+|MoveType=Infantry
+|Origin=Fire Emblem Engage
+|Gender=Female
+|actorEN=Kimberly Woods
+|actorJP=高柳知葉
+|artist=茶ちえ
+|randomStartTime=2023-08-18T07:00:00Z
+|additionDate=July 18, 2023
+|releaseDate=July 18, 2023
+|poolDate=July 18, 2023
+|poolRarities=3,4
+|cv1=14
+|cv2=300600
+|TagID=ラピス
+|InternalID=976
+|Properties=
+|description=A warrior of Brodia and retainer to Alcryst, she boasts both incredible strength and extensive knowledge of everyday living. Appears in Fire Emblem Engage.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=8|Lv1SPD=15|Lv1DEF=7|Lv1RES=8
+|GRHP=55|GRATK=75|GRSPD=70|GRDEF=50|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Defier's Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Defier's Sword+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Sorcery Blade 1
+|passiveA2=Sorcery Blade 2
+|passiveA3=Sorcery Blade 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Spd/Def Oath 1
+|passiveC2=Spd/Def Oath 2
+|passiveC3=Spd/Def Oath 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

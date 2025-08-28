@@ -1,0 +1,41 @@
+{{Weapon Infobox
+|tagid=SID_守護の槍
+|intID=3522
+|image=wep_lc143
+|exclusive=0
+|weaponType=Lance
+|cost=200
+|might=10
+|range=1
+|effect=If unit is within 3 spaces of an ally, grants Atk/Def+5 to unit and inflicts Special cooldown charge -1 on foe per attack during combat (only highest value applied; does not stack).
+|statModifiers=0,10,0,0,0
+|required=Steel Lance
+|next=Protection Pike+
+|promotionRarity=5
+|promotionTier=1
+|properties=random_owner
+}}
+==Notes==
+{{Temporary buffs}}
+{{CooldownChargeMinus}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=守護の槍
+|german=Schutzlanze
+|spanishEU=Pica escolta
+|spanishLA=Pica custodia
+|french=Pique protectrice
+|italian=Picca guardiana
+|chineseTW=守護之槍
+|portuguese=Pique protetor
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit is within _ spaces of an ally, grants Atk/%+%inflicts%special cooldown charge -1%' AND Description NOT LIKE '%any ally is within%' AND WikiName NOT LIKE '%Protection%' AND Exclusive='1'}}
+* [[Skill families/Weapons#Protection|Protection Weapons]]
+{{Weapons Navbox}}

@@ -1,0 +1,76 @@
+{{#invoke:NameAbout|main|Name=Amelia}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Amelia
+|Title=Rose of the War
+|Origin=Fire Emblem: The Sacred Stones
+|Gender=Female
+|WeaponType=Green Axe
+|MoveType=Armored
+|GrowthModifier=Trainee
+|actorEN=Liv Strander
+|actorJP=永野愛
+|artist=アマガイタロー
+|resplendentArtist=神澤葉
+|releaseDate=August 15, 2017
+|poolDate=August 31, 2017
+|randomStartTime=2017-08-29T07:00:00Z
+|poolRarities=5
+|TagID=アメリア
+|InternalID=162
+|cv1=7
+|cv2=302100
+|description=A young soldier from a small village in Grado. She is honest and sincere. Appears in Fire Emblem: The Sacred Stones.
+|Properties=specRate_201904,resplendent,jotunheimr
+|resplendentStartTime=2021-07-25T07:00:00Z
+|resplendentEndTime=2021-08-10T06:59:59Z
+}}
+__TOC__
+{{Stats Page|Hero=Amelia: Rose of the War
+|Lv1HP=19|Lv1ATK=6|Lv1SPD=8|Lv1DEF=9|Lv1RES=4
+|GRHP=65|GRATK=65|GRSPD=60|GRDEF=60|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Slaying Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Slaying Axe+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Grado Poleax
+|weapon5Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Holy Vestments
+|special1Default=4
+|special1Unlock=3
+|special2=Sacred Cowl
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Earth Boost 1
+|passiveA2=Earth Boost 2
+|passiveA3=Earth Boost 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Armor March 1
+|passiveC2=Armor March 2
+|passiveC3=Armor March 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

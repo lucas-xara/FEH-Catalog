@@ -1,0 +1,87 @@
+{{Weapon Infobox
+|tagid=SID_薬の癒し手の角
+|intID=4253
+|noImg=1
+|exclusive=1
+|weaponType=Beast
+|canUseMove=Infantry
+|cost=400
+|might=14
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>At start of player phase or enemy phase, if any foes within 3 rows or 3 columns centered on unit have Res < unit's Res+5, inflicts Atk/Def-7,【Discord】,【Deep Wounds】, and a penalty that neutralizes non-Special "if foe would reduce unit's HP to 0, unit survives with 1 HP" effects on those foes through their next actions.<br><br>If foe initiates combat or foe's HP ≥ 75% at start of combat, inflicts Atk/Def-6 on foe, inflicts penalty on foe's Atk/Def = 20% of unit's Res at start of combat, reduces damage from foe's attacks by 20% of unit's Res (excluding area-of-effect Specials), neutralizes foe's bonuses to Atk/Def (from skills like Fortify, Rally, etc.), and grants Special cooldown charge +1 to unit per attack during combat (only highest value applied; does not stack).<br><br>At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, deals +7 damage when Special triggers, and neutralizes effects that grant "Special cooldown charge +X" to foe or inflict "Special cooldown charge -X" on unit.<br><br>【Discord】<br>Inflicts Atk/Spd/Def/Res-X on unit during combat (X = 2 + number of allies within 2 spaces of unit; max 5) through its next action.<br><br>【Deep Wounds】<br>Unit's HP cannot be healed through its next action.
+|required=Adult (Infantry)
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe1={{Eft|Accelerates Special}}
+|Pe2={{Eft|Stat Boosts|Atk|2}}
+|PeC2={{SkillTargetText|Unit}} is transformed
+|Me={{Eft|Transform}}
+|MeC=At start of turn if<br>{{Tgt|Unit}} is [[adjacent]] to only<br>{{Cwti|group=1|Dragon,Beast}} [[Dragon]]/[[Beast]]<br>{{Tgt|Allies}} '''or''' not [[adjacent]]<br>to any {{Tgt|Ally}}
+|Se1={{Eft|Penalties|Atk/Def|7}}
+|Se2={{SEt|Discord}}
+|Se3={{SEt|Deep Wounds}}
+|Se4=<span style="width:14.5em;display:inline-block"/>{{SEt|Neutralizes non-Special "unit survives with 1 HP" effects}}
+|SeT={{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|SeC=At start of both Phases<br>if {{Tgt|Unit}}'s Res<br>> {{Tgt|Foe}}'s Res+5
+|Ce1={{Eft|Temporary Debuffs|Atk/Def|6}}
+|Ce2={{Eft|Temporary Debuffs|Atk/Def|20% of {{Tgt|Unit}}'s Res<br>at start of combat}}
+|Ce3={{Eft|Neutralize Bonuses|Atk/Def}}
+|Ce1-3T={{Tgt|Foe}}
+|Ce4={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Res}}<br>from {{Tgt|Foe}}'s attacks
+|Ce5={{Eft|Accelerate Charge}}
+|Ce4-5T={{Tgt|Unit}}
+|Ce1-5C=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|Ce6={{Eft|Neutralize Accelerate Charge}}
+|CeT6={{Tgt|Foe}}<br>
+|Ce7={{Eft|Neutralize Guard}}
+|CeC6-8={{Tgt|Unit}} transformed
+|Ce8={{Eft|Damage Boost|7}} per<br>{{Tgt|Unit}}'s [[Area-of-effect Specials|AoE]] '''or''' [[offensive Special]]
+|CeT7-8={{Tgt|Unit}}<br>
+}}
+==Notes==
+{{Penalties}}
+{{Discord}}
+{{Deep Wounds}}
+{{Neutralizes non-Special "unit survives with 1 HP" effects}}
+{{IfFoeInitiates}}
+{{Temporary debuffs}}
+{{At start of combat}}
+{{FlatDamageReduction}}
+{{Bonus neutralization}}
+{{CooldownChargePlus}}
+{{Beast (Infantry)}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Heiðrún: Healing Nectar|t=Eikþyrnir: Quieting Strength
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=蜜の癒し手の角
+|german=Nektarhorn
+|spanishEU=Cuerno de néctar
+|spanishLA=Cuerno de néctar
+|french=Corne à nectar
+|italian=Corno da nettare
+|chineseTW=蜜露的治癒者之角
+|portuguese=Chifre de néctar
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Deep Wounds】%' AND Description NOT LIKE '%neutralizes% of%【Deep Wounds】%' OR Description LIKE '%neutralizes non-Special "if foe would reduce unit_s HP to 0, unit survives with 1 HP"%') AND Exclusive='1'}}
+* [[Ploy Passives]]
+{{Weapons Navbox}}

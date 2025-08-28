@@ -1,0 +1,65 @@
+{{Weapon Infobox
+|tagid=SID_ナグルファル
+|weaponType=Red Tome
+|might=14
+|range=2
+|effect=Grants weapon-triangle advantage against colorless foes, and inflicts weapon-triangle disadvantage on colorless foes during combat.
+|cost=400
+|exclusive=Yes
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|statModifiers=0,14,0,0,0
+|required=Fenrir
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=At start of combat, if unit's HP ≥ 50%, inflicts Atk/Res-4 on foe during combat, and if unit's HP ≥ 70% and foe initiates combat, unit makes a guaranteed follow-up attack.
+|iconSkill1=Naglfar W.png
+|tagidExtraSkill1=切
+|SE=se_effect_naglfar.flac
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Ce1={{Eft|New WTA}}
+|s1 Ce2={{Eft|New WTD}}
+|s1 Ce2T={{Tgt|Foe}}
+|s1 CeC={{Tgt|Foe}} is<br>{{Wti|group=1|Colorless}} Colorless
+|skill2={{Si|Naglfar|refine=Skill1}} Skill refine effects
+|s2 Ce1={{Eft|Temporary debuffs|Atk/Res|4}}
+|s2 Ce1T={{Tgt|Foe}}
+|s2 Ce1C={{Tgt|Unit}}'s HP ≥ 50%<br>at start of combat
+|s2 Ce2={{Eft|Guaranteed Follow-Ups}}
+|s2 Ce2C=Enemy Phase '''&'''<br>{{Tgt|Unit}}'s HP ≥ 70%<br>at start of combat
+}}
+==Notes==
+{{New WTA|colorless}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+* {{St|Naglfar|refine=Skill1}} has the same effect as {{St|Quick Riposte 3}}.
+{{Temporary debuffs|name={{St|Naglfar|refine=Skill1}}}}
+{{IfFoeInitiates}}
+{{Guaranteed follow-up interaction|name={{St|Naglfar|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ナグルファル
+|german=Naglfar
+|spanishEU=Naglfar
+|spanishLA=Naglfar
+|french=Nagalfar
+|italian=Naglfar
+|chineseTW=納吉爾法
+|portuguese=Naglfar
+}}
+==See also==
+{{See also skills|cond=(Exclusive='1' AND (Description LIKE '%weapon-triangle advantage against%' AND Description LIKE '%colorless%weapon-triangle%')) OR Description LIKE '%if unit_s HP ≥%and foe initiates combat%makes a guaranteed follow-up%'}}
+* [[Raven Tomes]]
+{{Weapons Navbox}}
+[[Category:Weapons that grant triangle advantage against colorless foes]]

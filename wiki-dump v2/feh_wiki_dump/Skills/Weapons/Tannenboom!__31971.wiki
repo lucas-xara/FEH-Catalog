@@ -1,0 +1,36 @@
+{{Weapon Infobox
+|tagid=SID_聖樹
+|weaponType=Lance
+|weaponName={{PAGENAME}}
+|might=10
+|range=1
+|effect=If foe initiates combat, grants Atk/Spd/Def/Res+2 during combat.
+|cost=200
+|exclusive=0
+|statModifiers=0,10,0,0,0
+|next=Tannenboom!+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Lance
+|properties=
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Combat boosts}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=聖樹
+|german=Tannenbumm!
+|spanishEU=Árbol explosivo
+|spanishLA=Árbol explosivo
+|french=Sapin d'assaut
+|italian=Jingle boom!
+|chineseTW=聖樹
+|portuguese=Pinheirobomba
+}}
+==See also==
+* [[Winter's Envoy Weapons]]
+{{Weapons Navbox}}
+[[Category:Winter's Envoy weapons]]

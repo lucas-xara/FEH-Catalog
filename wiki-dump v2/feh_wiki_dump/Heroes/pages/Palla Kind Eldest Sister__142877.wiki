@@ -1,0 +1,73 @@
+{{#invoke:NameAbout|main|Name=Palla}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Palla
+|Title=Kind Eldest Sister
+|WeaponType=Red Sword
+|MoveType=Flying
+|Origin=Fire Emblem Echoes: Shadows of Valentia
+|Gender=Female
+|actorEN=Alexis Tipton
+|actorJP=種田梨沙
+|artist=teffish
+|randomStartTime=2021-07-08T07:00:00Z
+|additionDate=June 7, 2021
+|releaseDate=June 8, 2021
+|poolDate=June 30, 2021
+|poolRarities=5
+|cv1=2
+|cv2=300210
+|TagID=外伝パオラ
+|InternalID=667
+|Properties=specRate_202402
+|description=Pegasus knight from Macedon who ventured to Valentia in pursuit of her sister. Appears in Fire Emblem Echoes: Shadows of Valentia.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=12|Lv1SPD=6|Lv1DEF=8|Lv1RES=6
+|GRHP=50|GRATK=70|GRSPD=35|GRDEF=75|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Ladyblade
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Rally Attack
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Rally Atk/Def
+|assist2Unlock=4
+|assist3=Rally Atk/Def+
+|assist3Unlock=5
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=R Duel Flying 1
+|passiveA2=R Duel Flying 2
+|passiveA3=R Duel Flying 3
+|passiveA4=R Duel Flying 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveC1=Atk/Res Rein 1
+|passiveC2=Atk/Res Rein 2
+|passiveC3=Atk/Res Rein 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

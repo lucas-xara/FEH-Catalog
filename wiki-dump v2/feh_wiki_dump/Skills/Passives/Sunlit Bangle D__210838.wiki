@@ -1,0 +1,46 @@
+{{Passive
+|name=Sunlit Bangle D
+|type=B
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Sunlit Bangle D
+|1tagid=SID_華日の腕輪・護
+|1effect=At start of combat, if unit's HP ≥ 25% and unit initiates combat, foe can counterattack before unit's first attack. At start of combat, if unit's HP ≥ 25%, inflicts Atk/Def-5 on foe, unit attacks twice, and neutralizes effects that inflict "Special cooldown charge -X" on unit during combat, and also, when unit deals damage to foe during combat, restores 7 HP to unit (triggers even if 0 damage is dealt).
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{SkillEffectText|Vantage}}
+|CombatEffect 2={{SkillEffectText|Temporary Debuffs|Atk/Def|5}}
+|CombatEffect 1-2 Targets={{SkillTargetText|Foe}}
+|CombatEffect 3={{SkillEffectText|Attack Twice}}
+|CombatEffect 4={{SkillEffectText|Neutralize Guard}}
+|CombatEffect 5={{SkillEffectText|Heal|7}}<br>per {{SkillTargetText|Unit}}'s attack
+|CombatEffect 3-5 Targets={{SkillTargetText|Unit}}
+|CombatEffect Conditions={{SkillTargetText|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{Preempt|foe=1}}
+{{Temporary debuffs}}
+{{Brave weapon interaction}}
+{{CooldownChargeMinusNeutralization}}
+{{CombatHPRecovery}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=華日の腕輪・護
+|german=Lichtarmband D
+|spanishEU=Pulsera solar lej.
+|spanishLA=Pulsera solar lej.
+|french=Bracelet jour Déf
+|italian=Bracc. di luce Dif
+|chineseTW=華日手鐲・護
+|portuguese=Pulseira do sol D
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%foe can counterattack before unit_s first attack%' OR Description LIKE '%Atk/Def-%unit attacks twice%' AND Description NOT LIKE '%"unit attacks twice%'}}
+{{Passives Navbox|B}}

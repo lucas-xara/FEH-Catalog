@@ -1,0 +1,33 @@
+{{Weapon Infobox
+|tagid=SID_灼熱のブレス
+|weaponType=Dragonstone
+|might=11
+|range=1
+|cost=200
+|exclusive=0
+|statModifiers=0,11,0,0,0
+|next=Flametongue+
+|promotionRarity=5
+|promotionTier=1
+|required=Fire Breath+
+|properties=random_all
+}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=灼熱のブレス
+|german=Feuerzunge
+|spanishEU=Lengua ígnea
+|spanishLA=Lengua ígnea
+|french=Pyrosouffle
+|italian=Lingua di fuoco
+|chineseTW=灼熱吐息
+|portuguese=Brado de fogo
+}}
+==See also==
+* [[Silver Weapons]]
+{{Weapons Navbox}}
+[[Category:Silver weapons]]

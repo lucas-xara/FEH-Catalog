@@ -1,0 +1,39 @@
+{{Special
+|tagid=SID_狙撃
+|charge=3
+|effect=Doubles damage dealt. Disables non-Special skills that "reduce damage by X%."
+|cost=500
+|exclusive=0
+|required=Glimmer
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|Bow}}
+|intID=2233
+|sort=1045
+|value=10
+|timingID=3
+|abilityID=231
+|randomTimestamp=2020-10-18T07:00:00Z
+|randomMinLv=31
+|properties=random_owner,offensive_special
+}}
+==Notes==
+{{DamageBoost}}
+{{DamageReductionNeutralization}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==In other languages==
+{{OtherLanguages
+|english=Deadeye
+|japanese=狙撃
+|german=Zielschuss
+|spanishEU=Ojo letal
+|spanishLA=Ojo letal
+|french=Œil vif
+|italian=Tiro letale
+|chineseTW=狙擊
+|portuguese=Na mira
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%disables%reduce%damage by x%' OR Description LIKE '%neutralizes%reduce%damage by x%') AND Description LIKE '%non-Special%' AND Description NOT LIKE '%reduces the percentage%'}}
+{{Specials Navbox}}

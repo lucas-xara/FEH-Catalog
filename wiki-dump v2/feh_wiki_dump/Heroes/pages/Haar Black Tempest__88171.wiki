@@ -1,0 +1,72 @@
+{{#invoke:NameAbout|main|Name=Haar}}{{HeroPage Tabs}}
+{{Hero Infobox
+| Name = Haar
+| Title = Black Tempest
+| GrowthModifier = Gen 3
+| WeaponType = Green Axe
+| Origin = Fire Emblem: Radiant Dawn
+| Gender = Male
+| MoveType = Flying
+|actorJP=江口拓也
+| actorEN = Jake Eberle
+|artist=霜村航
+|resplendentArtist=コウ
+| additionDate = 2019-04-09
+| releaseDate = 2019-04-11
+| TagID=ハール
+|InternalID = 365
+| Properties = ghb,limited,resplendent,nidavellir
+|cv1=9
+|cv2=2900500
+| description =A dracoknight and former Daein soldier. Naturally talented, but lazy. Often napping. Appears in Fire Emblem: Radiant Dawn.
+|resplendentStartTime=2024-08-25T07:00:00Z
+|resplendentEndTime=2024-09-10T06:59:59Z
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=9|Lv1SPD=6|Lv1DEF=10|Lv1RES=5
+|GRHP=65|GRATK=65|GRSPD=45|GRDEF=60|GRRES=30
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Brave Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Brave Axe+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Tempest's Claw
+|weapon5Default=
+|weapon5Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Swap
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Guard 1
+|passiveB2=Guard 2
+|passiveB3=Guard 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Odd Def Wave 1
+|passiveC2=Odd Def Wave 2
+|passiveC3=Odd Def Wave 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

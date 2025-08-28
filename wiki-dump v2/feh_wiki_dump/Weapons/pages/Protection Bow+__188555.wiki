@@ -1,0 +1,43 @@
+{{Weapon Infobox
+|tagid=SID_守護の弓＋
+|intID=3438
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=0
+|weaponType=Bow
+|cost=300
+|might=12
+|range=2
+|effectiveness=Flying
+|effect=Effective against flying foes. If unit is within 3 spaces of an ally, grants Atk/Def+5 to unit and inflicts Special cooldown charge -1 on foe per attack during combat. (Only highest value applied. Does not stack.)
+|statModifiers=0,12,0,0,0
+|required=Protection Bow
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=random_owner
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{Temporary buffs}}
+{{CooldownChargeMinus}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=守護の弓＋
+|german=Schutzbogen+
+|spanishEU=Arco escolta +
+|spanishLA=Arco custodio +
+|french=Arc protecteur +
+|italian=Arco custode+
+|chineseTW=守護之弓＋
+|portuguese=Arco defensor+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit is within _ spaces of an ally, grants Atk/%+%inflicts%special cooldown charge -1%' AND Description NOT LIKE '%any ally is within%' AND WikiName NOT LIKE '%Protection%' AND Exclusive='1'}}
+* [[Skill families/Weapons#Protection|Protection Weapons]]
+{{Weapons Navbox}}

@@ -1,0 +1,73 @@
+{{#invoke:NameAbout|main|Name=Kaze}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Kaze
+|Title=Easygoing Ninja
+|GrowthModifier=Gen 2
+|WeaponType=Colorless Dagger
+|MoveType=Infantry
+|Origin=Fire Emblem Fates
+|Gender=Male
+|actorEN=Xander Mobus
+|actorJP=小野大輔
+|artist=lack
+|releaseDate=May 2, 2018
+|additionDate=April 24, 2018
+|poolDate=June 8, 2018
+|poolRarities=3,4
+|randomStartTime=2021-05-07T07:00:00Z
+|TagID=スズカゼ
+|InternalID=244
+|cv1=11
+|cv2=300100
+|description=A serious and disciplined ninja from Hoshido. Has a twin brother, Saizo. Popular with women. Appears in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=6|Lv1SPD=10|Lv1DEF=4|Lv1RES=8
+|GRHP=40|GRATK=55|GRSPD=60|GRDEF=30|GRRES=60
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Dagger
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Dagger
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Barb Shuriken
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Barb Shuriken+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Kaze's Needle
+|weapon5Default=
+|weapon5Unlock=5
+}}
+
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Iceberg
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Poison Strike 1
+|passiveB2=Poison Strike 2
+|passiveB3=Poison Strike 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Atk Smoke 1
+|passiveC2=Atk Smoke 2
+|passiveC3=Atk Smoke 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

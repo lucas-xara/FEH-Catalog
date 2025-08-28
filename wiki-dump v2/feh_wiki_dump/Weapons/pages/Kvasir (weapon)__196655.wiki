@@ -1,0 +1,63 @@
+{{About|the weapon Kvasir|the character Kvasir|Kvasir}}{{Weapon Infobox
+|tagid=SID_クワシル
+|weaponName=Kvasir
+|wikiName=Kvasir (weapon)
+|intID=3633
+|exclusive=1
+|weaponType=Red Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit, grants Special cooldown charge +1 to unit per attack (only highest value applied; does not stack), and neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat, and also, if it is unit's first combat initiated by unit or first combat initiated by foe that turn, reduces damage from foe's first attacks by 70% during combat ("follow-up attack" normally means only the second strike; for effects that grant "unit attacks twice," it means the third and fourth strikes). If unit's HP ≥ 25% at start of combat, after combat, if unit attacked, inflicts【Panic】on target and foes within 2 spaces of target.<br><br>【Panic】<br>Converts bonuses on target into penalties through its next action.
+|required=Bolganone;Fenrir
+|properties=random_owner,enemy_only
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|PermanentEffect={{Eft|Accelerate Special}}
+|CombatEffect 1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|CombatEffect 2={{Eft|Neutralize Prevent Follow-Ups}}
+|CombatEffect 3={{Eft|Special Cooldown Charge +1}}
+|CombatEffect 4={{Eft|Neutralize Guaranteed Follow-Ups}}
+|CombatEffect 4 Targets={{Tgt|Foe}}
+|CombatEffect 1-4 Conditions={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|CombatEffect 5={{Eft|Damage Reduction|70%}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|CombatEffect 5 Targets={{Tgt|Unit}}
+|CombatEffect 5 Conditions={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat '''&'''<br>{{Tgt|Unit}}'s first combat<br>in both Phases
+|StatusEffect={{SEt|Panic}}
+|StatusEffect Targets={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|StatusEffect Conditions=After combat if<br>{{Tgt|Unit}} attacked '''&'''<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{CooldownChargePlus}}
+{{Follow-up effect neutralization}}
+{{FirstCombat}}
+{{DamagePercentageReduction}}
+{{IfUnitAttacked}}
+{{Panic}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+Wep_mg079.webp|Sprite sheet
+Wep_mg079.gif|Animated weapon
+V7.6_v0706a_fuin_Mag.webp|Sprite sheet for {{St|Heiðr}} and Kvasir's animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|english=Kvasir
+|japanese=クワシル
+|german=Kvasir
+|spanishEU=Kvasir
+|spanishLA=Kvasir
+|french=Kvasir
+|italian=Kvasir
+|chineseTW=庫瓦希爾
+|portuguese=Kvasir
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%"first attacks"%' OR Description LIKE '%first combat%' AND Description NOT LIKE '%first combat%restores%HP%after combat%' AND Exclusive='1'}}
+{{Weapons Navbox}}

@@ -1,0 +1,63 @@
+{{Passive
+|type=C
+|name=Holy Ground
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Holy Ground
+|1tagid=SID_地上の最後の女神
+|1cost=300
+|1effect=Reduces damage from foes' attacks during combat to allies within 2 spaces by 30% and grants Def/Res+4 to those allies during combat.
+|1required=-
+|1next=-
+|2name=Holy Ground+
+|alt2name=Holy Ground Plus
+|2tagid=SID_地上の最後の…・神
+|2effect=For allies within 3 spaces of unit, reduces damage from foe's attacks by 30% (excluding area-of-effect Specials), grants Def/Res+5, reduces damage from foe's first attack by 7 ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and grants Special cooldown count-1 to ally before foe's first attack during their combat.<br><br>If unit is within 3 spaces of an ally, grants Atk/Spd/Res+5 to unit, reduces damage from foe's attacks by 30% (excluding area-of-effect Specials), reduces damage from foe's first attack by 7 ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), grants Special cooldown count-1 to unit before unit's first attack, and calculates damage from staff like other weapons during combat.
+|2cost=300
+|properties2=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Holy Ground}} Holy Ground
+|s1 Ce1={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s attacks
+|s1 Ce2={{Eft|Temporary buffs|Def/Res|4}}
+|s1 CeT={{Tgt|Allies}}<br>[[within 2 spaces]]
+|skill2={{Si|Holy Ground+}} Holy Ground+
+|s2 Ce1={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s attacks
+|s2 Ce2={{Eft|Temporary buffs|Def/Res|5}}
+|s2 Ce3={{Eft|Damage Reduction|7}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|s2 Ce4={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Foe}}'s first attack
+|s2 Ce1-4T={{Tgt|Allies}}<br>[[within 3 spaces]]
+|s2 Ce5={{Eft|Temporary buffs|Atk/Spd/Res|5}}
+|s2 Ce6={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s attacks
+|s2 Ce7={{Eft|Damage Reduction|7}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|s2 Ce8={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Unit}}'s first attack
+|s2 Ce9={{Eft|Wrathful Staff}}
+|s2 Ce5-9C=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+}}
+==Notes==
+{{DamagePercentageReduction}}
+{{Temporary buffs}}
+{{AlliesCombatEffect|temporary buffs and damage reduction}}
+{{FlatDamageReduction|7|name=Holy Ground+}}
+{{CombatCooldownCount|1|name=Holy Ground+}}
+{{AlliesCombatEffect|temporary buffs, damage reduction and special cooldown count -1 before foe's first attack|name=Holy Ground+}}
+{{Wrathful Staff|name=Holy Ground+}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=地上の最後の女神
+|german=Heiliger Grund
+|spanishEU=Tierra sagrada
+|spanishLA=Tierra sagrada
+|french=Terre sacrée
+|italian=Terra sacra
+|chineseTW=地上最後的女神
+|portuguese=Terra sagrada
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%educes damage from%to allies within _ spaces%' OR Description LIKE '%allies within _ spaces%reduces damage%by%to those allies%' OR Description LIKE '%grants Special cooldown count-_ to ally before foe_s first attack%') AND Exclusive='1' AND Description NOT LIKE '%Def/Res+%for 1 turn%'}}
+{{Passives Navbox|C}}

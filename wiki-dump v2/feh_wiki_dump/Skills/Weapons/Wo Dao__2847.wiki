@@ -1,0 +1,37 @@
+{{Weapon Infobox
+|tagid=SID_倭刀
+|weaponType=Sword
+|weaponName={{PAGENAME}}
+|might=9
+|range=1
+|effect=Deals +10 damage when Special triggers.
+|cost=200
+|statModifiers=0,9,0,0,0
+|next=Wo Dao+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Sword
+|properties=random_all
+}}
+==Notes==
+{{FlatDamage|special=1|10}}
+
+==List of owners==
+{{Skill Hero List}}
+
+==Trivia==
+The art of the Wo Dao is based on the sword [[Karel]] wields in his [[FireEmblemWikia:File:Fe7Karel.png|official artwork]] in {{FE|7}}.
+==In other languages==
+{{OtherLanguages
+|japanese=倭刀
+|german=Wo Dao
+|spanishEU=Wo Dao
+|spanishLA=Wo Dao
+|french=Wo Dao
+|italian=Wo Dao
+|chineseTW=倭刀
+|portuguese=Wo Dao
+}}
+==See also==
+* [[Weapons that boost Special damage]]
+{{Weapons Navbox}}

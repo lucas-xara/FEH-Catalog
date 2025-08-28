@@ -1,0 +1,102 @@
+{{Weapon Infobox
+|tagid=SID_黒斧ベルヴェルク
+|intID=3127
+|image=wep_ax113
+|exclusive=1
+|weaponType=Axe
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br>At start of turn, if unit is within 2 spaces of 2 or more allies, grants【Null Follow-Up】and Special cooldown charge +1 per attack during combat to unit for 1 turn. (Only highest value applied. Does not stack.) If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit during combat and restores 7 HP to unit after combat.<br><br>【Null Follow-Up】<br>If unit's Spd > foe's Spd during combat, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks for 1 turn.
+|statModifiers=0,16,0,0,0
+|required=Silver Axe
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1).<br><br>At start of turn, if unit is within 2 spaces of an ally, grants Atk/Spd+6,【Null Follow-Up】, and "Special cooldown charge +1 per attack during combat (only highest value applied; does not stack)" to unit and allies within 2 spaces of unit for 1 turn.<br><br>At start of turn, if the number of allies within 2 spaces of unit ≥ 2, grants "unit can move 1 extra space" to unit (that turn only; does not stack).<br><br>If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit and deals +X × 5 damage during combat (X = number of【Bonus】effects active on unit and foe, excluding stat bonuses; max 5; excluding area-of-effect Specials), and restores 7 HP to unit after combat.<br><br>【Null Follow-Up】<br>If unit's Spd > foe's Spd during combat, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks for 1 turn.<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|refineStatsSkill1=3,0,0,0,0
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants bonus to unit's Atk/Spd/Def/Res = number of foes within 3 rows or 3 columns centered on unit × 2, + 5 (max 11), neutralizes unit's penalties to Atk/Spd, reduces damage from foe's first attack by 7 ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials).
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Accelerates Special}}
+|s1 Se1={{SEt|Null Follow-Up}}
+|s1 Se2={{SEt|Special Cooldown Charge +1}}
+|s1 SeC=At start of turn if<br>{{Tgt|Allies}} [[within 2 spaces|within<br>2 spaces]] ≥ 2
+|s1 Ce={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s1 CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s1 Me={{Eft|Heal|7}}
+|s1 MeC=After combat on<br>Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Accelerates Special}}
+|s2 Se1={{Eft|Bonuses|Atk/Spd|6}}
+|s2 Se2={{SEt|Null Follow-Up}}
+|s2 Se3={{SEt|Special Cooldown Charge +1}}
+|s2 Se1-3T={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|s2 Se1-3C=At start of turn<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s2 Se4={{SEt|Mobility increased}}
+|s2 Se4C=At start of turn if<br>{{Tgt|Allies}} [[within 2 spaces|within<br>2 spaces]] ≥ 2
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s2 Ce2={{Eft|Damage Boost|5 x {{Kp|Bonus}} effects<br>on {{Tgt|Unit}} '''&''' {{Tgt|Foe}}|max=25}}
+|s2 CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s2 Me={{Eft|Heal|7}}
+|s2 MeC=After combat on<br>Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|skill3={{Si|Ebon Bölverk|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|2 x {{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}, + 5|max=11}}
+|s3 Ce2={{Eft|Neutralize Penalties|Atk/Spd}}
+|s3 Ce3={{Eft|Damage Reduction|7}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|s3 Ce4={{Eft|Reduce Damage Reduction|50%}}
+|s3 Ce4T={{Tgt|Foe}}
+|s3 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{Null Follow-Up}}
+{{Special Cooldown Charge +1}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{After combat healing}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Bonuses|name=Refined Ebon Bölverk}}
+{{Mobility increased|name=Refined Ebon Bölverk}}
+{{FlatDamageBoost|X (max: 25)}}
+{{EffectfromBonus|damage boost|multisource=1|target=the unit or foe|name=Refined Ebon Bölverk}}
+{{Penalty neutralization|name={{St|Ebon Bölverk|refine=Skill1}}}}
+{{FlatDamageReduction|7|name={{St|Ebon Bölverk|refine=Skill1}}}}
+{{Reduce Damage Reduction|name={{St|Ebon Bölverk|refine=Skill1}}}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Xander: Gallant King|t=Ryoma: Supreme Samurai
+|---xxx---
+|---xxx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxtx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=黒斧ベルヴェルク
+|german=Bölverkr-Axt
+|spanishEU=Bölverk de ébano
+|spanishLA=Bölverk de ébano
+|french=Bölverk ébène
+|italian=Bölverk d'ebano
+|chineseTW=黑斧貝爾維克
+|portuguese=Bölverk ébano
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%number of【Bonus】effects active on unit and foe%' OR Description LIKE '%the number of allies within _ spaces of unit ≥ _, grants%') AND Exclusive='1'}}
+{{Weapons Navbox}}

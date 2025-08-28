@@ -1,0 +1,73 @@
+{{#invoke:NameAbout|main|Name=Forde}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Forde
+|Title=Unfettered Knight
+|WeaponType=Red Sword
+|MoveType=Cavalry
+|Origin=Fire Emblem: The Sacred Stones
+|Gender=Male
+|actorEN=Alex Bankier
+|actorJP=川原慶久
+|artist=鳴瀬うろこ
+|randomStartTime=2024-08-16T07:00:00Z
+|additionDate=July 16, 2024
+|releaseDate=July 16, 2024
+|poolDate=August 7, 2024
+|poolRarities=5
+|cv1=7
+|cv2=100500
+|TagID=フォルデ
+|InternalID=1121
+|Properties=
+|description=A knight of Renais in Ephraim's service, he is free-spirited and fickle, even on the battlefield. Appears in Fire Emblem: The Sacred Stones.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=12|Lv1SPD=15|Lv1DEF=4|Lv1RES=3
+|GRHP=50|GRATK=75|GRSPD=70|GRDEF=75|GRRES=35
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Wild Wind Sword
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Spd/Def Bond 1
+|passiveA2=Spd/Def Bond 2
+|passiveA3=Spd/Def Bond 3
+|passiveA4=Spd/Def Unity
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=S/D Near Trace 1
+|passiveB2=S/D Near Trace 2
+|passiveB3=S/D Near Trace 3
+|passiveB4=S/D Near Trace 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+}}
+{{Heroes Navbox}}

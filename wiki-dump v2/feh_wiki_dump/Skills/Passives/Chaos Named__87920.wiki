@@ -1,0 +1,40 @@
+{{About|the skill|the Tempest Trial|Tempest Trials+: Chaos Named}}{{Passive
+|name=Chaos Named
+|type=C
+|exclusive=1
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|1name=Chaos Named
+|1tagid=SID_我が名は混沌
+|1effect=At start of turn, if foes within 3 columns centered on unit have Res ≤ unit's Res-3, inflicts -5 on the highest of those foes' Atk/Spd/Def/Res through their next actions. (When calculating highest stat, treats Atk as -15. Calculates each stat penalty independently.)
+|1required=-
+|1next=-
+|1cost=300
+|2name=Chaos Named+
+|alt2name=Chaos Named Plus
+|2tagid=SID_我が名は混沌・神
+|2cost=300
+|2effect=At start of turn, if any foes have the highest Atk, Spd, Def, or Res on the enemy team, inflicts -7 on the corresponding stat of those foes and foes within 2 spaces of those foes through their next actions. At start of turn, if any foes have the highest Atk, Spd, Def, or Res on the enemy team, inflicts【Panic】on those foes.<br><br>【Panic】<br>Converts bonuses on target into penalties through its next action.
+|properties=random_owner
+}}
+==Notes==
+{{Penalties}}
+{{SelectStat|Atk, Spd, Def, or Res|name=Chaos Named+}}
+{{Panic|name=Chaos Named+}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=我が名は混沌
+|german=Name des Chaos
+|spanishEU=Nombre del Caos
+|spanishLA=Nombre del Caos
+|french=Chaos personnifié
+|italian=Caos rivelato
+|chineseTW=吾之名為混沌
+|portuguese=Nome do caos
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%at start of turn, if any foes%highest%inflicts%through their next action%' OR Description LIKE '%at start of turn,%inflicts%lowest%' OR Description LIKE '%at start of turn%inflicts%highest%through%next action%') AND Exclusive='1'}}
+* [[Chill Passives]]
+{{Passives Navbox|C}}

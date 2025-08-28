@@ -1,0 +1,69 @@
+{{#invoke:NameAbout|main|Name=Edelgard|Name2=Flame Emperor}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Edelgard
+|Title=Adrestian Emperor
+|WeaponType=Green Axe
+|MoveType=Armored
+|Origin=Fire Emblem: Three Houses
+|Gender=Female
+|actorEN=Tara Platt
+|actorJP=加隈亜衣
+|artist=cuboon
+|additionDate=August 18, 2020
+|releaseDate=August 18, 2020
+|poolDate=September 8, 2020
+|poolRarities=5
+|entry=12
+|cv1=12
+|cv2=200100
+|TagID=総選挙エーデル
+|InternalID=556
+|Properties=brave,specRate_202302
+|description=After ascending as Adrestian Emperor, she defeated the Church of Seiros, solidifying her reign over all of Fódlan. Appears in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=20|Lv1ATK=12|Lv1SPD=3|Lv1DEF=13|Lv1RES=9
+|GRHP=60|GRATK=75|GRSPD=30|GRDEF=70|GRRES=60
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Flower Hauteclere
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Daylight
+|special1Default=4
+|special1Unlock=3
+|special2=Noontime
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Distant Ward
+|passiveA1Unlock=5
+|passiveB1=Black Eagle Rule
+|passiveB1Unlock=5
+|passiveC1=Spur Res 1
+|passiveC2=Drive Res 1
+|passiveC3=Drive Res 2
+|passiveC4=Joint Drive Res
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}

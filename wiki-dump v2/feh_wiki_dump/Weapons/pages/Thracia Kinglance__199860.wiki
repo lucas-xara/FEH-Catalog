@@ -1,0 +1,48 @@
+{{Weapon Infobox
+|tagid=SID_トラキアの王槍
+|intID=3709
+|image=wep_lc151
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=16
+|range=1
+|effect=Neutralizes "effective against flying" bonuses. If foe initiates combat or foe's HP ≥ 75% at start of combat, grants Atk/Spd/Def/Res+4 to unit, inflicts Atk-X on foe (X = 15% of unit's Def at start of combat), and inflicts Special cooldown charge -1 on foe per attack during combat (only highest value applied; does not stack).
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit, unit makes a guaranteed follow-up attack, and grants Special cooldown charge +1 to unit per attack during combat (only highest value applied; does not stack).
+|properties=
+}}
+==Notes==
+* Thracia Kinglance has the same effect as {{St|Iote's Shield}}.
+{{Effectiveness neutralization|flying}}
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+{{Temporary debuffs}}
+{{At start of combat}}
+{{CooldownChargeMinus}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Guaranteed follow-up interaction|name={{St|Thracia Kinglance|refine=Skill1}}}}
+{{CooldownChargePlus|name={{St|Thracia Kinglance|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=トラキアの王槍
+|german=Lanze Thracias
+|spanishEU=Lanza de Thracia
+|spanishLA=Lanza de Thracia
+|french=Lance de Thracia
+|italian=Lancia di Thracia
+|chineseTW=色雷斯之王槍
+|portuguese=Lança de Thracia
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%Neutralizes "effective against flying" bonuses%' AND WikiName!='Iotes Shield' OR Description LIKE '%inflicts%of unit_s Def at start of combat%' AND Exclusive='1'}}
+* [[Shield Passives]]
+{{Weapons Navbox}}

@@ -1,0 +1,51 @@
+{{Passive
+|name=Endless Tempest
+|type=C
+|exclusive=0
+|canUseWeapon={{WeaponList|Close}}
+|canUseMove={{MoveList|Infantry,Flying}}
+|properties=random_owner
+|1name=Endless Tempest
+|1tagid=SID_迅雷風烈・無極
+|1effect=At start of turn, unit can move 1 extra space (that turn only; does not stack).<br><br>If unit or foe initiates combat after moving to a different space, grants bonus to unit's Atk/Spd/Def/Res = number of spaces from start position to end position of whoever initiated combat (max 3) and neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.
+|1cost=300
+|1required=Odd Tempest 3;Even Tempest 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se={{SEt|Mobility Increased}}
+|SeC=At start of turn
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|Spaces initiator moved|max=3}}
+|Ce2={{Eft|Neutralize Bonuses}}
+|Ce2T={{Tgt|Foe}}
+|CeC=Initiator moved<br>to a different space
+}}
+==Notes==
+{{Mobility increased}}
+{{IfUnitInitiates}}
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+{{SpacesFromStarttoEnd}}
+{{Bonus neutralization}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=迅雷風烈・無極
+|german=Endloser Sturm
+|spanishEU=Tempestad sin fin
+|spanishLA=Tempestad sin fin
+|french=Ouragan infini
+|italian=Tempesta infinita
+|chineseTW=迅雷風烈・無極
+|portuguese=Temp. sem fim
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%unit can move 1 extra space%') AND Description NOT LIKE '%transforms%' AND Description NOT LIKE '%inflict%【Stall】%' AND Exclusive='1'}}
+* [[Skill families/C Passives#Tempest|Tempest Passives]]
+* [[Clash Passives]]
+{{Passives Navbox|C}}

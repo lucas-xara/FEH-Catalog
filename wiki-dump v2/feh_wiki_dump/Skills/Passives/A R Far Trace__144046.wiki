@@ -1,0 +1,94 @@
+{{Passive
+|name=A/R Far Trace
+|type=B
+|exclusive=0
+|canUseMove={{MoveList|Cavalry,Flying}}
+|canUseWeapon={{WeaponList|Ranged}}
+|timingID=1
+|abilityID=97
+|randomTimestamp=2021-07-21T07:00:00Z
+|properties=random_inherit_base,random_owner
+|1name=A/R Far Trace 1
+|alt1name=A R Far Trace 1
+|1tagid=SID_攻撃魔防の遠影1
+|1effect=Enables【Canto (Rem.)】.<br><br>Inflicts Atk/Res-1 on foe during combat.<br><br>【Canto (Rem.)】<br>After an attack, Assist skill, or structure destruction, unit can move spaces = any movement not already used that turn. (If unit used a movement skill that warped them, its remaining movement is 0.)<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|1required=-
+|1cost=60
+|1promotionRarity=4
+|1promotionTier=1
+|intID1=2619
+|sort1=37530
+|value1=2
+|randomMinLv1=21
+|randomMaxLv1=30
+|2name=A/R Far Trace 2
+|alt2name=A R Far Trace 2
+|2tagid=SID_攻撃魔防の遠影2
+|2effect=Enables【Canto (Rem.)】.<br><br>Inflicts Atk/Res-2 on foe during combat.<br><br>【Canto (Rem.)】<br>After an attack, Assist skill, or structure destruction, unit can move spaces = any movement not already used that turn. (If unit used a movement skill that warped them, its remaining movement is 0.)<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|2required=A/R Far Trace 1
+|2cost=120
+|2promotionRarity=5
+|2promotionTier=1
+|intID2=2620
+|sort2=37531
+|value2=4
+|randomMinLv2=26
+|randomMaxLv2=35
+|3name=A/R Far Trace 3
+|alt3name=A R Far Trace 3
+|3tagid=SID_攻撃魔防の遠影3
+|3effect=Enables【Canto (Rem.)】.<br><br>Inflicts Atk/Res-3 on foe during combat.<br><br>【Canto (Rem.)】<br>After an attack, Assist skill, or structure destruction, unit can move spaces = any movement not already used that turn. (If unit used a movement skill that warped them, its remaining movement is 0.)<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|3required=A/R Far Trace 2
+|3cost=240
+|3next=-
+|4name=A/R Far Trace 4
+|alt4name=A R Far Trace 4
+|4tagid=SID_攻撃魔防の遠影4
+|4effect=Enables【Canto (Rem.; Min １)】.<br><br>Inflicts Atk/Res-4 on foe during combat and unit deals +7 damage, including when dealing damage with a Special triggered before combat.<br><br>【Canto (Rem.; Min １)】<br>After an attack, Assist skill, or structure destruction, unit can move spaces = any movement not already used that turn (min. １; if unit used a movement skill that warped them, unit can move １ space(s)).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|4cost=300
+|properties4=random_owner
+|intID3=2621
+|sort3=37532
+|value3=6
+|randomMinLv3=31
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|A/R Far Trace 3}} A/R Far Trace 3
+|s1 Me={{Eft|Canto|Rem.}}
+|s1 Ce={{Eft|Temporary debuffs|Atk/Res|3}}
+|s1 CeT={{Tgt|Foe}}
+|skill2={{Si|A/R Far Trace 4}} A/R Far Trace 4
+|s2 Me={{Eft|Canto|Rem.; Min 1}}
+|s2 Ce1={{Eft|Temporary debuffs|Atk/Res|4}}
+|s2 Ce1T={{Tgt|Foe}}
+|s2 Ce2={{Eft|Damage boost|7}}<br>before '''&''' during combat
+}}
+==Notes==
+{{Canto|Rem.}}
+{{Temporary debuffs}}
+{{Canto|Rem.; Min 1|name=A/R Far Trace 4}}
+{{FlatDamageBoost|7|name=A/R Far Trace 4}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=A/R Far Trace
+|japanese=攻撃魔防の遠影
+|german=A/R Spur fern
+|spanishEU=Rastro lej. A/R
+|spanishLA=Rastro lej. A/R
+|french=Trace dist. A/R
+|italian=Scia dist. A/R
+|chineseTW=攻擊魔防遠影
+|portuguese=Rastro l. A/R
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%Canto _Rem.%Min %') AND Exclusive='1'}}
+* [[Trace Passives]]
+{{Passives Navbox|B}}

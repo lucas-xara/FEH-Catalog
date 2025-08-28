@@ -1,0 +1,46 @@
+{{About|the [[Sacred Seal]]|the unit Type|Beast}}
+{{Passive
+|name=Beast
+|type=S
+|exclusive=0
+|canUseWeapon={{WeaponList|Beast}}
+|canUseMove={{MoveList|All}}
+|1name=Beast
+|1wikiName=Beast (Sacred Seal)
+|alt1name=Beast Sacred Seal
+|1tagid=SID_絶対化身
+|1effect=Removes the condition to transform.
+|1cost=240
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Remove Transform Condition}}
+}}
+==Notes==
+{{TransformConditionRemoval}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Beast
+|badgeColor=Transparent
+|costs1=20;100;40
+}}
+==In other languages==
+{{OtherLanguages
+|english=Beast
+|japanese=絶対化身
+|german=Bestie
+|spanishEU=Bestia
+|spanishLA=Bestia
+|french=Bête
+|italian=Bestia
+|chineseTW=絕對化身
+|portuguese=Fera
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%removes the condition to transform%' AND Exclusive='1'}}
+* [[Beast Passives]]
+{{Seals Navbox}}

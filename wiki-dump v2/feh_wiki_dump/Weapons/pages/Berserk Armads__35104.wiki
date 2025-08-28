@@ -1,0 +1,52 @@
+{{Weapon Infobox
+|tagid=SID_狂斧アルマーズ
+|weaponType=Axe
+|might=16
+|range=1
+|effect=Accelerates Special trigger (cooldown count-1). At start of turn, if unit's HP ≤ 75% and unit's attack can trigger their Special, grants Special cooldown count-1, and deals +10 damage when Special triggers.
+|cooldown=-1
+|cost=400
+|exclusive=1
+|userVersion1=Weapon
+|userVersion2=Gleam
+|userVersion3=Upgrade Gleam
+|statModifiers=0,16,0,0,0
+|required=Silver Axe
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If foe initiates combat or foe's HP = 100% at start of combat, inflicts Atk/Def-5 on foe during combat, and also, if unit deals damage to foe using a Special, restores 30% of unit's maximum HP. (Triggers even if 0 damage is dealt.)
+|iconSkill1=Berserk Armads W.png
+|tagidExtraSkill1=奥
+|properties=
+}}
+==Notes==
+* Has the same effect as {{St|Wrath 3}}.
+{{Wrath}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfFoeInitiates}}
+{{Temporary debuffs}}
+{{CombatHPRecovery}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=狂斧アルマーズ
+|german=Zornige Armads
+|spanishEU=Armads berséker
+|spanishLA=Armads bárbara
+|french=Armadès berserk
+|italian=Fragore berserk
+|chineseTW=狂斧阿爾瑪茲
+|portuguese=Armads atroz
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%if unit_s HP%unit_s attack%trigger%Special%deals +% when Special triggers%' OR Description LIKE '%if unit_s HP%Special triggers%deals +%' AND Description NOT LIKE '%transforms%' OR Description LIKE '%foe initiates combat or%inflicts%Atk/Def-%foe during combat%' OR Description LIKE '%if unit%deals damage to foe using a Special%of unit_s maximum HP%'}}
+* [[Weapons that boost Special damage]]
+{{Weapons Navbox}}
+[[Category:Love Abounds weapons]]

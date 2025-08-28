@@ -1,0 +1,83 @@
+{{#invoke:NameAbout|main|Name=Celica}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Celica
+|Title=Of Echoes
+|WeaponType=Blue Tome
+|MoveType=Infantry
+|Origin=Fire Emblem Echoes: Shadows of Valentia,Fire Emblem Engage
+|Gender=Female
+|emblemEffect=Boosts Special damage by unit's max Special cooldown count value × 4 (excluding area-of-effect Specials).<br><br>For each foe within 5 spaces of unit, unit can move to the nearest spaces that are within unit's range from that foe (unless space is impassable terrain).
+|actorEN=Erica Lindbeck
+|actorJP=東山奈央
+|artist=麻谷知世
+|additionDate=June 28, 2024
+|releaseDate=June 28, 2024
+|entry=2;14
+|cv1=2
+|cv2=200100
+|TagID=紋章セリカ
+|InternalID=1112
+|Properties=emblem
+|description=One of the Emblems who were summoned to Elyos. Resides in the Ring of the Caring Princess. Appears in Fire Emblem Echoes: Shadows of Valentia / Fire Emblem Engage.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=7|Lv1SPD=13|Lv1DEF=8|Lv1RES=5
+|GRHP=60|GRATK=90|GRSPD=75|GRDEF=30|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Light
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Ellight
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Shine
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Caring Magic
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Moonbow
+|special2Unlock=4
+|special3=Warp Ragnarok
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Life and Death 1
+|passiveA2=Life and Death 2
+|passiveA3=Life and Death 3
+|passiveA4=Verge of Death
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Resonance 1
+|passiveB2=Resonance 2
+|passiveB3=Resonance 3
+|passiveB4=Resonance 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Inf. Null Follow 1
+|passiveC2=Inf. Null Follow 2
+|passiveC3=Inf. Null Follow 3
+|passiveC4=Inf. Null Follow 4
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Sources of damage-boosting effects]][[Category:Sources of warping effects]]

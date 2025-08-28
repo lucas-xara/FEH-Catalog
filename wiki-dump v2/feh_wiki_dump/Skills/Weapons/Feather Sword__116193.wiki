@@ -1,0 +1,78 @@
+{{Weapon Infobox
+|tagid=SID_フェザーソード
+|weaponType=Sword
+|might=16
+|range=1
+|effectiveness=Melee,Colorless bow,Armored
+|effect=Grants Atk+3. Effective against sword, lance, axe, colorless bow, and armored foes. If foe initiates combat and is armored or uses sword, lance, axe, or colorless bow, or if unit's HP ≤ 75%, unit can counterattack before foe's first attack.
+|cost=400
+|exclusive=1
+|statModifiers=0,19,0,0,0
+|required=Silver Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Atk+3. Effective against sword, lance, axe, colorless bow, and armored foes. If foe initiates combat or if foe's HP ≥ 75% at start of combat, grants Atk/Spd/Def/Res+4 to unit during combat and neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks. If foe initiates combat and is armored or uses sword, lance, axe, or colorless bow, or if unit's HP ≤ 90%, unit can counterattack before foe's first attack.
+|effectSkill1=Enables【Canto (２)】.<br><br>At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit, grants bonus to unit's Atk/Spd = number of allies within 3 spaces × 3 (max 6), and reduces damage from foe's first attack by 40% during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes).<br><br>【Canto (２)】<br>After an attack, Assist skill, or structure destruction, unit can move ２ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Atk|3}}
+|s1 Ce1={{Eft|Effectiveness|{{Cwti|Melee,Colorless bow}}{{Mi|Armored}} [[Melee]],<br>{{Wtp|Colorless bow}}, '''&''' {{Mp|Armored}}<br>}}
+|s1 Ce2={{Eft|Vantage}}
+|s1 Ce2C=Enemy Phase '''&'''<br>({{Tgt|Foe}} is {{Tgt|Target Foe}} of<br>{{Eft|Effectiveness}},<br>from {{Tgt|Unit}} '''or'''<br>{{Tgt|Unit}}'s HP ≤ 75%<br>at start of combat)
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Atk|3}}
+|s2 Ce1={{Eft|Effectiveness|{{Cwti|Melee,Colorless bow}}{{Mi|Armored}} [[Melee]],<br>{{Wtp|Colorless bow}}, '''&''' {{Mp|Armored}}<br>}}
+|s2 Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s2 Ce3={{Eft|Neutralize Prevent Follow-Ups}}
+|s2 Ce4={{Eft|Neutralize Guaranteed Follow-Ups}}
+|s2 Ce4T={{Tgt|Foe}}
+|s2 Ce2-4C=Enemy phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|s2 Ce5={{Eft|Vantage}}
+|s2 Ce5T={{Tgt|Unit}}
+|s2 Ce5C=Enemy Phase '''&'''<br>({{Tgt|Foe}} is {{Tgt|Target Foe}} of<br>{{Eft|Effectiveness}},<br>from {{Tgt|Unit}} '''or'''<br>{{Tgt|Unit}}'s HP ≤ 90%<br>at start of combat)
+|skill3={{Si|Feather Sword|refine=Skill1}} Skill refine effects
+|s3 Me={{Eft|Canto|2}}
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s3 Ce2={{Eft|Temporary buffs|Atk/Spd|number of {{Tgt|Allies}}<br>[[within 3 spaces]] x 2|max=6}}
+|s3 Ce3={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|s3 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Effective damage bonus|movewep=1|melee,colorless bow,armored}}
+{{Counterattack before first attack}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary buffs|name=refined Feather Sword}}
+{{Follow-up effect neutralization|name=refined Feather Sword}}
+{{Canto|2|name={{St|Feather Sword|refine=Skill1}}}}
+{{DamagePercentageReduction|name={{St|Feather Sword|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+* {{St|Feather Sword}} and {{St|Dolphin-Dive Axe}} are effective against {{#cargo_query:tables=Units
+|fields=COUNT(DISTINCT _pageName)
+|where=(WeaponType IN ('Red Sword','Blue Lance','Green Axe','Colorless Bow') OR MoveType='Armored')|default=|order by=AdditionDate}}/{{#cargo_query:tables=Units
+|fields=COUNT(DISTINCT _pageName)
+|default=|order by=AdditionDate}} units.
+==In other languages==
+{{OtherLanguages
+|english=Feather Sword
+|japanese=フェザーソード
+|german=Federschwert
+|spanishEU=Hoja plumífera
+|spanishLA=Hoja plumífera
+|french=Épée plume
+|italian=Spada piumata
+|chineseTW=鐵羽劍
+|portuguese=Espada pluma
+}}
+==See also==
+{{See also skills|cond=(WeaponEffectiveness='Melee,Colorless bow,Armored' OR Description LIKE '%unit can counterattack before foe_s first attack%' OR Description LIKE '%【Canto (２)】%') AND Exclusive='1'}}
+{{Weapons Navbox}}

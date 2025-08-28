@@ -1,0 +1,68 @@
+{{#invoke:NameAbout|main|Name=Cynthia}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Cynthia
+|Title=Hero Chaser
+|GrowthModifier=Gen 3
+|WeaponType=Blue Lance
+|Origin=Fire Emblem Awakening
+|Gender=Female
+|MoveType=Flying
+|actorJP=山本彩乃
+|actorEN=—
+|artist=まよ
+|additionDate=June 10, 2019
+|releaseDate=June 13, 2019
+|TagID=シンシア
+|InternalID=387
+|Properties=ghb,limited
+|cv1=10
+|cv2=6901400
+|description=Sumia's daughter. Has a strong sense of justice. Enters combat with a speech on her lips, and aches to perform valorous deeds. Appears in Fire Emblem Awakening.
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=8|Lv1SPD=11|Lv1DEF=5|Lv1RES=7
+|GRHP=50|GRATK=55|GRSPD=60|GRDEF=50|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Firesweep Lance
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Firesweep L+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Lance of Heroics
+|weapon5Default=
+|weapon5Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Shove
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveB1=Spd/Def Link 1
+|passiveB2=Spd/Def Link 2
+|passiveB3=Spd/Def Link 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Spur Atk 1
+|passiveC2=Drive Atk 1
+|passiveC3=Drive Atk 2
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

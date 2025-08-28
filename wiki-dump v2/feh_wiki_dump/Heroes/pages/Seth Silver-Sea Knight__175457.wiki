@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Seth}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Seth
+|Title=Silver-Sea Knight
+|WeaponType=Green Axe
+|MoveType=Cavalry
+|Origin=Fire Emblem: The Sacred Stones
+|Gender=Male
+|actorEN=Chris Smith
+|actorJP=小山力也
+|artist=黒野ユウ
+|additionDate=July 7, 2022
+|releaseDate=July 7, 2022
+|cv1=7
+|cv2=100300
+|TagID=水着ゼト
+|InternalID=826
+|Properties=limited,tempest,specDisplay
+|description=Young general of Renais who has been assigned to protect Eirika, prepared to accompany her into the water if the situation calls for it. Appears in Fire Emblem: The Sacred Stones.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=10|Lv1SPD=8|Lv1DEF=9|Lv1RES=5
+|GRHP=50|GRATK=70|GRSPD=70|GRDEF=50|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Seahorse Axe
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Seahorse Axe+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Rally Speed
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Rally Up Spd
+|assist2Unlock=4
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Spd/Def Catch 1
+|passiveA2=Spd/Def Catch 2
+|passiveA3=Spd/Def Catch 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Def Tactic 1
+|passiveC2=Def Tactic 2
+|passiveC3=Def Tactic 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Summer units]]

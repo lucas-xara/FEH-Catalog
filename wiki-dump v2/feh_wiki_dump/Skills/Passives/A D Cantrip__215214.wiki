@@ -1,0 +1,52 @@
+{{Passive
+|name=A/D Cantrip
+|type=B
+|exclusive=0
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=A/D Cantrip 3
+|alt1name=A D Cantrip 3
+|1tagid=SID_攻撃守備の魅了3
+|1effect=If Sing or Dance is used, inflicts Atk/Def-7 and【Sabotage】on foes in cardinal directions of unit and target through their next actions.<br><br>【Sabotage】<br>Inflicts penalty on unit's Atk/Spd/Def/Res during combat = highest penalty on each stat between unit and allies within 2 spaces of unit through its next action. Calculates each stat penalty independently.
+|1cost=300
+|1required=Atk Cantrip 3;Def Cantrip 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{Eft|Penalties|Atk/Def|7}}
+|Se2={{SEt|Sabotage}}
+|SeT={{Tgt|Foes}} within<br>[[cardinal directions]]<br>of {{Tgt|Unit}} '''&'''<br>{{Tgt|Target Ally}}
+|SeC=A {{Uti|Dance}} [[Dance Assist]]<br>is used by {{Tgt|Unit}}
+}}
+
+==Notes==
+{{Penalties}}
+{{Sabotage}}
+{{CardinalDirections}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=A/D Cantrip
+|japanese=攻撃守備の魅了
+|german=A/V-List
+|spanishEU=Aquelarre A/D
+|spanishLA=Embrujo A/D
+|french=Sortilège A/D
+|italian=Silenzia A/D
+|chineseTW=攻擊防守魅惑
+|portuguese=Malefício A/D
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%sing or dance%inflicts%cardinal%' AND Exclusive='1'}}
+* [[Skill families/B Passives#Cantrip|Cantrip Passives]]
+* [[Ruse Passives]]
+{{Passives Navbox|B}}
+[[Category:Cantrip Passives]]

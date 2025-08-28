@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Veronica|Name2=Thrasir}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Veronica
+|Title=Bestowed Love
+|WeaponType=Blue Tome
+|MoveType=Cavalry
+|Origin=Fire Emblem Heroes
+|Gender=Female
+|actorEN=Wendee Lee
+|actorJP=日高里菜
+|artist=えいひ
+|additionDate=February 4, 2021
+|releaseDate=February 5, 2021
+|cv1=0
+|cv2=100500
+|TagID=愛の祭ヴェロニカ
+|InternalID=626
+|Properties=limited,tempest,specDisplay
+|description=Imperial princess of the Emblian Empire. Involving herself in the Day of Devotion festivities in an attempt to make sense of what love means.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=8|Lv1SPD=10|Lv1DEF=4|Lv1RES=5
+|GRHP=50|GRATK=65|GRSPD=65|GRDEF=40|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Thunder
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elthunder
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Pact Blooms
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Pact Blooms+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Rising Thunder
+|special1Default=4
+|special1Unlock=3
+|special2=Growing Thunder
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Speed +1
+|passiveA2=HP/Spd 1
+|passiveA3=HP/Spd 2
+|passiveA1Unlock=1
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveB1=Chill Spd 1
+|passiveB2=Chill Spd 2
+|passiveB3=Chill Spd 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Day of Devotion units]]

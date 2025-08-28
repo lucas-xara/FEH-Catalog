@@ -1,0 +1,104 @@
+{{Weapon Infobox
+|tagid=SID_絶望の邪斧
+|weaponName=Axe of Despair
+|image=wep_ax088
+|weaponType=Axe
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br>At start of combat, if unit's HP ≥ 25%, inflicts Atk/Def-6 on foe during combat, and also, the following effects will occur based on the value of total bonuses on unit + value of total penalties on foe: if ≥ 5, "foe cannot make a follow-up attack"; and if ≥ 10, "unit makes a guaranteed follow-up attack"; and if ≥ 15, "inflicts Special cooldown charge -1 on foe per attack during combat." (Example: if unit has an Atk/Def+6 bonus and foe has an Atk/Def-6 penalty, the calculated total will be 24.)
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Silver Axe
+|intID=2549
+|sort=538
+|value=20
+|timingID=1
+|abilityID=242
+|limit1ID=42
+|randomTimestamp=2021-06-07T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Enables【Canto (２)】.<br>Accelerates Special trigger (cooldown count-1).<br><br>At start of combat, if unit's HP ≥ 25%, inflicts Atk/Def-6 on foe and unit deals +X × 5 damage during combat (max 25; excluding area-of- effect Specials; X = number of Bonus effects active on unit, excluding stat bonuses + number of Penalty effects active on foe, excluding stat penalties), and also, the following effects will occur based on the value of total bonuses on unit + value of total penalties on foe: if ≥ 5, "foe cannot make a follow-up attack"; and if ≥ 10, "unit makes a guaranteed follow-up attack"; and if ≥ 15, "inflicts Special cooldown charge -1 on foe per attack during combat."<br><br>【Canto (２)】<br>After an attack, Assist skill, or structure destruction, unit can move ２ space(s). (Once per turn. Only highest value applied. Does not stack.)
+|effectSkill1=At start of player phase or enemy phase, if unit's HP ≥ 25%, grants Atk/Def+6, 【Rally Spectrum】, and【Hexblade】to unit and allies within 2 spaces of unit for 1 turn.<br><br>At start of combat, if unit's HP ≥ 25%, inflicts penalty on foe's Atk/Def = 10% of unit's Def at start of combat + 6 and reduces damage from foe's attacks by 20% of unit's Def during combat (excluding area-of-effect Specials).<br><br>【Rally Spectrum】<br>Grants Atk/Spd/Def/Res+5 to unit during combat and if unit's attack can trigger unit's Special, grants Special cooldown count-X to unit before unit's first attack during combat (X = 1 if unit can trigger the "unit attacks twice" effect or if unit's maximum Special cooldown count is reduced (Special trigger is accelerated); otherwise, X = 2). (That turn only.)<br><br>【Hexblade】<br>Calculates damage using the lower of foe's Def or Res during combat for 1 turn (including damage dealt by Specials before combat).
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Accelerates Special}}
+|s1 Ce1={{Eft|Temporary debuffs|Atk/Def|6}}
+|s1 Ce1C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s1 Ce2={{Eft|Prevent Follow-Ups}}
+|s1 Ce1-2T={{Tgt|Foe}}
+|s1 Ce2C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' Y ≥ 5
+|s1 Ce3={{Eft|Guaranteed Follow-Ups}}
+|s1 Ce3C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' Y ≥ 10
+|s1 Ce4={{Eft|Guard}}
+|s1 Ce4T={{Tgt|Foe}}<br>
+|s1 Ce4C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' Y ≥ 15
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Accelerates Special}}
+|s2 Me={{Eft|Canto|2}}
+|s2 Ce1={{Eft|Damage Boost|5 x ({{Kp|Bonus}} effects<br>on {{Tgt|Unit}} '''&''' {{Kp|Penalty}}<br>effects on {{Tgt|Foe}})<br>(exc. {{SEt|Bonuses}} '''&''' {{SEt|Penalties}})|max=25}}
+|s2 Ce2={{Eft|Temporary debuffs|Atk/Def|6}}
+|s2 Ce1-2C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s2 Ce3={{Eft|Prevent Follow-Ups}}
+|s2 Ce2-3T={{Tgt|Foe}}
+|s2 Ce3C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' Y ≥ 5
+|s2 Ce4={{Eft|Guaranteed Follow-Ups}}
+|s2 Ce4C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' Y ≥ 10
+|s2 Ce5={{Eft|Guard}}
+|s2 Ce5T={{Tgt|Foe}}<br>
+|s2 Ce5C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' Y ≥ 15
+|skill3={{Si|Axe of Despair|refine=Skill1}} Skill refine effects
+|s3 Se1={{Eft|Bonuses|Atk/Def|6}}
+|s3 Se2={{SEt|Rally Spectrum}}
+|s3 Se3={{SEt|Hexblade}}
+|s3 SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|s3 SeC=At start of Both Phases<br>if {{Tgt|Unit}}'s HP ≥ 25%
+|s3 Ce1={{Eft|Temporary debuffs|Atk/Def|10% of {{Tgt|Unit}}'s Def<br>at start of combat, +6}}
+|s3 Ce1T={{Tgt|Foe}}
+|s3 Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Def}}
+|s3 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+<b>{{Hatnote|1=Y = Total {{SEt|Bonuses}} on {{Tgt|Unit}} + total {{SEt|Penalties}} on {{Tgt|Foe}}}}</b>
+==Notes==
+{{Temporary buffs}}
+{{Prevent follow-up}}
+{{Guaranteed follow-up interaction}}
+{{CooldownChargeMinus}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Canto|2|name=Refined Axe of Despair}}
+{{FlatDamageBoost|X (max:25)|name=Refined Axe of Despair}}
+{{EffectfromBonus|damage boost|name=Refined Axe of Despair}}
+{{EffectfromPenalty|damage boost|name=Refined Axe of Despair}}
+{{Bonuses|name={{St|Axe of Despair|refine=Skill1}}}}
+{{Rally Spectrum|name={{St|Axe of Despair|refine=Skill1}}}}
+{{Hexblade|name={{St|Axe of Despair|refine=Skill1}}}}
+{{At start of combat|name={{St|Axe of Despair|refine=Skill1}}}}
+{{DamageBoost|name={{St|Axe of Despair|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=絶望の邪斧
+|german=Verzagheitsaxt
+|spanishEU=Hacha funesta
+|spanishLA=Hacha funesta
+|french=Hache de chagrin
+|italian=Ascia funesta
+|chineseTW=絕望的邪斧
+|portuguese=Machado aflito
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%total bonuses on unit +%' OR Description LIKE '%total value of bonuses%' OR Description LIKE '%【Rally Spectrum】%') AND Exclusive='1'}}
+* [[Skill families/A Passives#Hexblade|Hexblade Passives]]
+* [[Skill families/Weapons#Hexblade (weapon)|Hexblade Weapons]]
+{{Weapons Navbox}}

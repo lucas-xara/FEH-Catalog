@@ -1,0 +1,39 @@
+{{Weapon Infobox
+|tagid=SID_聖樹＋
+|weaponType=Lance
+|weaponName={{PAGENAME}}
+|altWeaponName=Tannenboom! Plus
+|might=14
+|range=1
+|effect=If foe initiates combat, grants Atk/Spd/Def/Res+2 during combat.
+|cost=300
+|exclusive=0
+|statModifiers=0,14,0,0,0
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Combat boosts}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=聖樹＋
+|german=Tannenbumm!+
+|spanishEU=Árbol explosivo +
+|spanishLA=Árbol explosivo +
+|french=Sapin d'assaut +
+|italian=Jingle boom!+
+|chineseTW=聖樹＋
+|portuguese=Pinheirobomba+
+}}
+==See also==
+* [[Winter's Envoy Weapons]]
+{{Weapons Navbox}}
+[[Category:Winter's Envoy weapons]]

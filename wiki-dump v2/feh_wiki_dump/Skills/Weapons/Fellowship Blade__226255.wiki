@@ -1,0 +1,56 @@
+{{Weapon Infobox
+|tagid=SID_盟友との絆の剣
+|intID=4453
+|image=wep_sw186
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>At start of player phase or enemy phase, if unit is within 2 spaces of an ally, grants Def/Res+6,【Bulwark】, and【Null Panic】to unit and allies within 2 spaces of unit for 1 turn.<br><br>If unit is within 3 spaces of an ally, inflicts penalty on foe's Atk/Def = 20% of unit's Def at start of combat + 6, unit deals +X damage (X = highest total bonuses among unit and allies within 2 spaces of unit; excluding area-of-effect Specials), reduces damage from foe's attacks by 50% of X (excluding area-of-effect Specials), and inflicts Special cooldown charge -1 on foe per attack during combat (only highest value applied; does not stack).<br><br>【Bulwark】<br>Foes with Range = 1 cannot move through spaces adjacent to unit (does not affect foes with Pass skills).<br><br>Foes with Range = 2 cannot move through spaces within 2 spaces of unit (does not affect foes with Pass skills).<br><br>【Null Panic】<br>If unit is inflicted with Panic (bonuses converted into penalties), neutralizes the "converts bonuses on target into penalties" effect for 1 turn. (Even though the effect is neutralized, the Panic status remains, and is treated as a Penalty status.)
+|required=Silver Sword
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Se1={{Eft|Bonuses|Def/Res|6}}
+|Se2={{SEt|Bulwark}}
+|Se3={{SEt|Null Panic}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=At start of Both Phases<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce1={{Eft|Temporary debuffs|Atk/Spd/Def/Res|20% of {{Tgt|Unit}}'s Def<br>at start of combat, +6}}
+|Ce2={{Eft|Guard}}
+|Ce1-2T={{Tgt|Foe}}
+|Ce3={{Eft|Damage Boost|highest total {{SEt|Bonuses}}<br>on {{Tgt|Unit}} & {{Tgt|Allies}}<br>[[within 2 spaces]]}}
+|Ce4={{Eft|Damage Reduction|50% of highest total {{SEt|Bonuses}}<br>on {{Tgt|Unit}} & {{Tgt|Allies}}<br>[[within 2 spaces]]}}
+|CeC=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+}}
+==Notes==
+{{Bonuses}}
+{{Bulwark}}
+{{Null Panic}}
+{{TemporaryBufffromBonus}}
+{{At start of combat}}
+{{DamageBoost}}
+{{FlatDamageReduction}}
+{{EffectfromBonuses|damage boost and damage reduction effects|target=unit or ally within 2 spaces}}
+{{CooldownChargeMinus}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Bulwark】%' OR Description LIKE '%highest total bonuses among unit and allies within _ spaces%') AND Exclusive='1'}}
+* [[Skill families/C Passives#Faith|Faith Passives]]
+{{Weapons Navbox}}

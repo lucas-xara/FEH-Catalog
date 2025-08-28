@@ -1,0 +1,43 @@
+{{Weapon Infobox
+|tagid=SID_水のブレス＋
+|weaponType=Dragonstone
+|might=14
+|range=1
+|effect=If foe initiates combat, grants Def/Res+4 during combat.<br>If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|cost=300
+|exclusive=0
+|statModifiers=0,14,0,0,0
+|required=Water Breath
+|SE=se_effect_waterbreath.flac
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=random_owner
+}}
+==Notes==
+* Has the same effect as {{Pt|Bracing Stance 2}}.
+{{IfFoeInitiates}}
+{{Combat boosts}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+v2.4_50_if01.png|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=水のブレス＋
+|german=Wasseratem+
+|spanishEU=Aliento de agua +
+|spanishLA=Soplo de agua +
+|french=Souffle d'eau +
+|italian=Soffio d'acqua+
+|chineseTW=水之吐息＋
+|portuguese=Sopro de água+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe initiates combat, grants Def/Res+%during combat%' AND Exclusive='1'|columns=3}}
+{{Weapons Navbox}}

@@ -1,0 +1,66 @@
+{{#invoke:NameAbout|main|Name=Azura}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Azura
+|Title=Celebratory Spirit
+|GrowthModifier=None
+|WeaponType=Green Axe
+|MoveType=Flying
+|Origin=Fire Emblem Fates
+|Gender=Female
+|actorEN=Rena Strober
+|actorJP=Lynn
+|artist=kaya8
+|releaseDate=December 31, 2017
+|TagID=年明けアクア
+|InternalID=203
+|Properties=refresher,special,specRate_202202
+|cv1=11
+|cv2=100300
+|description=An enchanting princess raised in Hoshido who has never lost a match of the traditional sport hanetsuki when played at the New Year. Appears in Fire Emblem Fates.
+}}
+__TOC__
+{{Stats Page|Hero=Azura: Celebratory Spirit
+|Lv1HP=15|Lv1ATK=6|Lv1SPD=9|Lv1DEF=5|Lv1RES=4
+|GRHP=50|GRATK=55|GRSPD=60|GRDEF=40|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Hagoita
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Hagoita+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Sing
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveB1=Earth Dance 1
+|passiveB2=Earth Dance 2
+|passiveB3=Earth Dance 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Hone Spd 1
+|passiveC2=Hone Spd 2
+|passiveC3=Hone Fliers
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:New Year's units]]

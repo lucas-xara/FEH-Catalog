@@ -1,0 +1,71 @@
+{{#invoke:NameAbout|main|Name=Inigo|Name2=Laslow}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Inigo
+|Title=Festival Flower
+|WeaponType=Green Bow
+|MoveType=Flying
+|Origin=Fire Emblem Awakening
+|Gender=Male
+|actorEN=Mick Wingert
+|actorJP=木島隆一
+|artist=п猫Ｒ
+|additionDate=March 17, 2021
+|releaseDate=March 17, 2021
+|cv1=10
+|cv2=6900300
+|TagID=春祭アズール
+|InternalID=640
+|Properties=special,specRate_202502
+|description=Olivia's son. Conquering his shyness, he makes his entry to the spring festival. Appears in Fire Emblem Awakening.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=10|Lv1SPD=10|Lv1DEF=5|Lv1RES=5
+|GRHP=50|GRATK=65|GRSPD=70|GRDEF=40|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Springy Bow
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Springy Bow+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Rally Attack
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Rally Atk/Spd
+|assist2Unlock=4
+|assist3=Rally Atk/Spd+
+|assist3Unlock=5
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=G Duel Flying 1
+|passiveA2=G Duel Flying 2
+|passiveA3=G Duel Flying 3
+|passiveA4=G Duel Flying 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveC1=Atk/Spd Rein 1
+|passiveC2=Atk/Spd Rein 2
+|passiveC3=Atk/Spd Rein 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Spring Festival units]]

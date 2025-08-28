@@ -1,0 +1,52 @@
+{{Weapon Infobox
+|tagid=SID_銀の暗器＋
+|weaponType=Dagger
+|might=10
+|range=2
+|effect=After combat, if unit attacked, inflicts Def/Res-7 on foe through its next action.
+|cost=300
+|exclusive=0
+|statModifiers=0,10,0,0,0
+|required=Silver Dagger
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|upgradedMight=14
+|upgradedEffect=After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions.
+|properties=random_all
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1=Base weapon
+|skill1 StatusEffect={{SkillEffectText|Penalties|Def/Res|7}}
+|skill1 StatusEffect Targets={{SkillTargetText|Target Foe}}
+|skill1 StatusEffect Conditions=After combat if<br>{{SkillTargetText|Unit}} attacked
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|skill2 StatusEffect={{SkillEffectText|Penalties|Def/Res|7}}
+|skill2 StatusEffect Targets={{SkillTargetText|Target Foe}} & {{SkillTargetText|Foes}}<br>[[within 2 spaces]]<br>of {{SkillTargetText|Target Foe}}
+|skill2 StatusEffect Conditions=After combat if<br>{{SkillTargetText|Unit}} attacked
+}}
+
+==Notes==
+{{IfUnitAttacked}}
+{{Penalties}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=銀の暗器＋
+|german=Silberdolch+
+|spanishEU=Daga plata +
+|spanishLA=Daga plata +
+|french=Dague argent +
+|italian=Pugnale argento+
+|chineseTW=銀暗器＋
+|portuguese=Adaga de prata+
+}}
+==See also==
+* [[Silver Weapons]]
+{{Weapons Navbox}}
+[[Category:Silver weapons]]

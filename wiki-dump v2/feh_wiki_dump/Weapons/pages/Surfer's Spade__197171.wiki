@@ -1,0 +1,35 @@
+{{Weapon Infobox
+|tagid=SID_深き海の底の双槍
+|intID=3642
+|image=wep_lc150
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=11
+|range=1
+|effect=Enables【Canto (Rem. +1)】.<br><br>Grants Spd+5. Unit attacks twice (even if foe initiates combat, unit attacks twice). Deals damage = 20% of unit's Spd during combat (excluding area-of-effect Specials).<br><br>【Canto (Rem. +1)】<br>After an attack, Assist skill, or structure destruction, unit can move again.<br><br>The distance of the movement is the remaining movement the unit had before the actions listed above+1 (If unit used a movement skill that warps them, the remainder is 0).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|statModifiers=0,11,5,0,0
+|required=Silver Lance
+|properties=
+}}
+==Notes==
+{{Canto|Rem. +1}}
+{{Brave weapon interaction}}
+{{DamageBoost}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=深き海の底の双槍
+|german=Paddellanze
+|spanishEU=Pala surfista
+|spanishLA=Pala surfista
+|french=Pelle océan
+|italian=Spada oceanica
+|chineseTW=深邃海底的雙槍
+|portuguese=Lança surfista
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%Grants Spd+%unit attacks twice%' AND (SP=300 OR Exclusive='1') OR Description LIKE '%deals damage = 20%of unit_s Spd%' AND Exclusive='1'}}
+* [[Brave weapons]]
+{{Weapons Navbox}}

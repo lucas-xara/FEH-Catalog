@@ -1,0 +1,61 @@
+{{Weapon Infobox
+|tagid=SID_氷の部族の雪斧
+|intID=4322
+|image=wep_ax160
+|exclusive=1
+|weaponType=Axe
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br>Calculates damage using the lower of foe's Def or Res.<br><br>If unit is on a team with unit's support partner, at start of turn, grants "neutralizes 'effective against dragons' bonuses" to support partners within 3 spaces of unit for 1 turn. If unit is not on a team with unit's support partner, at start of turn, grants "neutralizes 'effective against dragons' bonuses" to ally with the highest Res among allies within 3 spaces of unit for 1 turn.<br><br>For allies within 3 spaces of unit with "neutralizes 'effective against dragons' bonuses" active, grants Spd/Res+5, neutralizes penalties to Spd/Res, and neutralizes effects that prevent those allies' counterattacks during their combat.<br><br>If unit initiates combat, or if there is an ally within 3 spaces of unit with "neutralizes 'effective against dragons' bonuses" active, grants bonus to unit's Atk/Spd/Def/Res = 5 + 15% of unit's Spd at start of combat, deals damage = 20% of unit's Spd (excluding area-of-effect Specials), reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% (excluding area-of-effect Specials), and reduces damage from foe's first attack by 40% during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes).
+|required=Silver Axe
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Se=<span style="width:12em;display:inline-block"/>{{SEt|Neutralize Effective Against Dragons}}
+|SeT=({{Tgt|Partner}}s '''or'''<br>{{Tgt|Ally}} with the<br>highest Res)<br>[[within 3 spaces]]
+|StatusEffect Conditions=At start of turn<br>if an {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|Ce1={{Eft|Temporary buffs|Spd/Res|5}}
+|Ce2={{Eft|Neutralize Penalties|Spd/Res}}
+|Ce3={{Eft|Neutralize Prevent Counter}}
+|Ce1-3T=<span style="width:12em;display:inline-block"/>{{Tgt|Allies}} with<br>{{SEt|Neutralize Effective Against Dragons}}<br>[[within 3 spaces]] 
+|Ce4={{Eft|Lower Def Res}}
+|Ce5={{Eft|Temporary buffs|Atk/Spd/Def/Res|15% of {{Tgt|Unit}}'s Spd<br>at start of combat, +5}}
+|Ce6={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|Ce7={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce8={{Eft|Reduce Damage Reduction|50%}}
+|Ce8T={{Tgt|Foe}}
+|Ce5-8C=<span style="width:12em;display:inline-block"/>Player Phase '''or'''<br>an {{Tgt|Ally}} with<br>{{SEt|Neutralize Effective Against Dragons}}<br>is [[within 3 spaces]]
+}}
+==Notes==
+{{LowerDefRes}}
+{{Neutralize Effective Against Dragons}}
+{{SupportPartner|effect={{SEt|Neutralize Effective Against Dragons}} effects to the support partner}}
+{{Temporary buffs}}
+{{Penalty neutralization}}
+{{Counterattack prevention neutralization}}
+{{AlliesCombatEffect|temporary buffs, penalty neutralization, and counter prevention neutralization effects}}
+{{IfUnitInitiates}}
+{{At start of combat}}
+{{DamageBoost}}
+{{Reduce Damage Reduction}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%neutralize "effective against dragons" bonuses%' OR Description LIKE '%to ally with the highest ___ within _ spaces of unit%' OR Description LIKE '%that prevent those allies_ counterattacks%'}}
+{{Weapons Navbox}}

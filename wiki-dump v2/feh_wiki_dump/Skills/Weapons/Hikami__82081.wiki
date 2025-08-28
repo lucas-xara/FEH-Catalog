@@ -1,0 +1,79 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_氷神刀
+|weaponType=Sword
+|weaponName=Hikami
+|might=16
+|range=1
+|effect=Grants Spd+3. At start of turn, inflicts Atk/Spd/Def/Res-4 on nearest foes within 4 spaces through their next actions.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,3,0,0
+|required=Silver Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Spd+3. At start of turn, inflicts Atk/Spd/Def/Res-6 on nearest foes within 4 spaces of unit through their next actions. At start of combat, if unit's HP ≥ 25%, inflicts Atk/Spd/Def-4 on foe during combat.
+|tagidExtraSkill1=一
+|effectSkill1=If unit initiates combat or is within 2 spaces of an ally, inflicts Atk/Spd/Def-4 on foe during combat and grants bonus to unit's Atk = total penalties on foe.
+|iconSkill1=Hikami W.png
+|properties=
+}}
+==Notes==
+{{Penalties}}
+{| class="wikitable default mw-collapsible" 
+! align="middle" | Possible Area of Effect
+|-
+| align="middle" ! |
+<div style="max-width: 550px; margin: auto;>{{AoE|u=Gunnthrá: Year's First Dream
+|----x----
+|---xxx---
+|--xxxxx--
+|-xxxxxxx-
+|xxxxuxxxx
+|-xxxxxxx-
+|--xxxxx--
+|---xxx---
+|----x----
+}}</div>
+|}
+{| class="wikitable default mw-collapsible" 
+! align="middle" | Example of Area of Effect
+|-
+| align="middle" ! |
+<div style="max-width: 550px; margin: auto;>{{AoE|u=Gunnthrá: Year's First Dream|t=Gunnthrá: Voice of Dreams
+|----x----
+|---x-x---
+|--x---x--
+|-x-----x-
+|x---u---t
+|-x-----x-
+|--x---x--
+|---x-x---
+|----x----
+}}</div>
+|}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Combat reductions}}
+{{IfUnitInitiates}}
+{{BonusesToAtkFoePenalty}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=氷神刀
+|german=Hikami
+|spanishEU=Hikami
+|spanishLA=Hikami
+|french=Hikami
+|italian=Hikami
+|chineseTW=冰神刀
+|portuguese=Hikami
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%at start of turn%inflicts%-%on%est foes%through their next actions%' AND Exclusive='1' OR Description LIKE '%grants bonus to unit\'s Atk = total penalties on foe%'|columns=3}}
+{{Weapons Navbox}}

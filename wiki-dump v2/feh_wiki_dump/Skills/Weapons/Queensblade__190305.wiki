@@ -1,0 +1,63 @@
+{{Weapon Infobox
+|tagid=SID_女王の護衛の怜剣
+|intID=3485
+|image=wep_sw147
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=16
+|range=1
+|effect=Grants Atk+3. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 during combat, deals damage = 20% of unit's Spd (excluding area-of-effect Specials), and reduces damage from attacks during combat by 30% (excluding area-of-effect Specials). Unit and target cannot trigger Specials during combat or area-of-effect Specials (excluding Røkkr area-of-effect Specials). Disables the following effects for both unit and target during combat: defensive terrain effects, support effects, guaranteed follow-ups, effects that prevent follow-ups, effects that prevent counterattacks, and effects that change attack priority (Vantage, Desperation, etc.). Disables skills of all other foes and allies during combat, excluding unit and target.
+|statModifiers=0,19,0,0,0
+|required=Silver Sword
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Stat Boosts|Atk|3}}
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|Ce3={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s attacks
+|Ce1-3C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce4={{Eft|Prevent Special|[[Area-of-effect Specials|AoE]]<br>'''&''' [[Combat Specials]]}}
+|Ce5=Disables [[Defensive terrain]] effects
+|Ce6={{Eft|Disable Ally Support}}
+|Ce7={{Eft|Neutralize Guaranteed Follow-Ups}}
+|Ce8={{Eft|Neutralize Prevent Follow-Ups}}
+|Ce9={{Eft|Neutralize Prevent Counter}}
+|Ce10={{Eft|Hardy Bearing}}
+|Ce11={{Eft|Disable Ally Skills}}
+|Ce4-11T={{Tgt|Unit}}<br>'''&''' {{Tgt|Foe}}
+}}
+==Notes==
+{{Temporary buffs}}
+{{DamageBoost}}
+{{DamagePercentageReduction}}
+{{Prevent Special}}
+{{Follow-up effect neutralization}}
+{{Counterattack prevention neutralization}}
+* Queensblade disables the damage-reduction of [[Defensive terrain]].
+** Queensblade <i>does not</i> disable [[Divine Vein]] effects, because [[Divine Vein]] effects are not considered as [[defensive terrain]].
+{{Ally Support neutralization}}
+{{PriorityNeutralization}}
+{{CombatEffectNeutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=女王の護衛の怜剣
+|german=Klinge d. Königin
+|spanishEU=Filo de la reina
+|spanishLA=Filo de la reina
+|french=Lame de la reine
+|italian=Lama di sovrana
+|chineseTW=女王護衛的怜劍
+|portuguese=Lâmina da rainha
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%prevent unit_s counterattacks%' OR Description LIKE '%cannot trigger specials during combat%' OR Description LIKE '%prevents%specials%' OR Description LIKE '%disables the following effects%' OR Description LIKE '%disables%' AND (Description LIKE '%change attack priority%' OR Description LIKE '%terrain effects%' OR Description LIKE '%support effects%' OR Description LIKE '%prevent counterattacks%' OR Description LIKE '%skill%excluding%')) AND (Name NOT LIKE '%+' AND Exclusive='1')}}
+* [[Null Passives]]
+* [[Hardy Bearing]]
+* [[Hardy Bearing weapons]]
+* [[Skill families/C Passives#Feud|Feud Passives]]
+{{Weapons Navbox}}

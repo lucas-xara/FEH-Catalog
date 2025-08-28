@@ -1,0 +1,49 @@
+{{Weapon Infobox
+|tagid=SID_聖剣ティルフィング
+|weaponType=Sword
+|might=16
+|range=1
+|effect=Grants Res+3. Reduces damage from magic foe's first attack by 50%.
+|cost=400
+|exclusive=1
+|userVersion1=Weapon
+|userVersion2=Gleam
+|userVersion3=Upgrade Gleam
+|statModifiers=0,16,0,0,3
+|required=Silver Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Res+3. At start of combat, if unit's HP ≥ 50%, grants Atk/Def+5 during combat. If foe uses magic, reduces damage from magic foe's first attack by 50%.
+|effectSkill1=At start of combat, if foe's HP ≥ 50%, grants Atk/Def+5 to unit during combat and unit makes a guaranteed follow-up attack.
+|iconSkill1=Divine Tyrfing W.png
+|tagidExtraSkill1=追
+|properties=random_owner
+}}
+==Notes==
+{{TermRefersTo|Magic}}
+{{DamagePercentageReduction}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Combat boosts}}
+{{Guaranteed follow-up interaction}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|絶対追撃R攻守5|Guaranteed Follow-up R Atk/Def 5}}
+==In other languages==
+{{OtherLanguages
+|japanese=聖剣ティルフィング
+|german=Heiliges Tyrfing
+|spanishEU=Tyrfing divina
+|spanishLA=Tyrfing divina
+|french=Tyrfing divine
+|italian=Tyrfing sacra
+|chineseTW=聖劍斬裂劍
+|portuguese=Tyrfing divina
+}}
+==See also==
+{{See also skills|cond=WikiName LIKE '%tyrfing%' OR Description LIKE '%magic%reduces damage%first attack%' OR Description LIKE '%reduces damage%magic%first attack%'|columns=3}}
+{{Weapons Navbox}}

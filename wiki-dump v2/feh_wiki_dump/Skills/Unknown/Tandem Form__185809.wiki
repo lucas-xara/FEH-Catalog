@@ -1,0 +1,31 @@
+{{Captain Skill
+|name=Tandem Form
+|effect=Grants Atk/Spd+4 to captain during combat. At the start of turns 2 through 5, grants "unit can move to a space adjacent to any ally within 2 spaces" to captain and allies within 2 spaces of captain for 1 turn.
+|statModifiers=
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|StatusEffect={{SEt|Air Orders}}
+|StatusEffect Targets={{SkillTargetText|Captain}} & {{SkillTargetText|Allies}}<br>[[within 2 spaces]]
+|StatusEffect Conditions=At start of turns 2-5
+|CombatEffect={{SkillEffectText|Temporary buffs|Atk/Spd|4}}
+|CombatEffect Targets={{SkillTargetText|Captain}}
+}}
+==Notes==
+{{Temporary buffs}}
+{{Air Orders}}
+==In other languages==
+{{OtherLanguages
+|japanese=二人三脚
+|german=Tandem
+|spanishEU=En tándem
+|spanishLA=En tándem
+|french=En tandem
+|italian=In tandem
+|chineseTW=兩人三腳
+|portuguese=Tandem
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants%to%and allies within _ spaces%"unit can move to a space adjacent to an%ally within 2 spaces%' OR Description LIKE '%unit can move to a space adjacent to an%ally within 2 spaces%to%and allies within _ spaces%'}}
+{{Captain Skills Navbox}}

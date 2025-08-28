@@ -1,0 +1,74 @@
+{{#invoke:NameAbout|main|Name=Python}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Python
+|Title=Apathetic Archer
+|WeaponType=Green Bow
+|Origin=Fire Emblem Echoes: Shadows of Valentia
+|Gender=Male
+|MoveType=Cavalry
+|actorJP=川田紳司
+|actorEN=Doug Erholtz
+|artist=須田彩加
+|additionDate=October 21, 2019
+|releaseDate=October 21, 2019
+|randomStartTime=2019-11-21T07:00:00Z
+|poolDate=November 7, 2019
+|poolRarities=3,4
+|TagID=パイソン
+|InternalID=436
+|Properties=demoted_202004
+|cv1=2
+|cv2=100900
+|description=An archer with the Deliverance. His nonchalant exterior belies a serious character that cares deeply for his allies. Appears in Fire Emblem Echoes: Shadows of Valentia.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=6|Lv1SPD=7|Lv1DEF=7|Lv1RES=5
+|GRHP=45|GRATK=60|GRSPD=65|GRDEF=55|GRRES=35
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=3
+|weapon2Unlock=3
+|weapon3=Short Bow
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Short Bow+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Snide Bow
+|weapon5Default=
+|weapon5Unlock=5
+}}
+===Assists===
+{{Assists Table
+}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Moonbow
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Darting Blow 1
+|passiveA2=Steady Blow 1
+|passiveA3=Steady Blow 2
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=B Tomebreaker 1
+|passiveB2=B Tomebreaker 2
+|passiveB3=B Tomebreaker 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+}}
+{{Heroes Navbox}}

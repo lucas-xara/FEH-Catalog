@@ -1,0 +1,36 @@
+{{Weapon Infobox
+|tagid=SID_末流ラグネル
+|intID=2857
+|image=wep_sw121
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=16
+|range=1
+|effect=Grants Def+3. Unit can counterattack regardless of foe's range. At start of combat, if unit's HP ≥ 50% or【Bonus】is active on unit, inflicts Atk/Def-6 on foe during combat.<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|statModifiers=0,16,0,3,0
+|required=Silver Sword
+|properties=random_owner
+}}
+==Notes==
+* Has the same effect as {{St|Distant Counter}}.
+{{Combat reductions}}
+{{EffectfromBonusKeyword|combat reductions}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=末流ラグネル
+|german=Uraltes Ragnell
+|spanishEU=Ragnell vetusta
+|spanishLA=Ragnell vetusta
+|french=Ragnell ancienne
+|italian=Ragnell antica
+|chineseTW=後代瑞格內爾
+|portuguese=Ragnell vetusta
+}}
+==See also==
+{{See also skills|cond=WikiName LIKE '%Ragnell%' OR Description LIKE '%if%bonus%active on unit%inflicts Atk/Def-%during combat%' OR Description LIKE '%if unit_s HP ≥ ___, inflicts Atk/Def-%during combat%' OR Description LIKE '%inflicts Atk/Def-6%during combat%'|columns=3}}
+* [[Weapons with Distant Counter]]
+* [[Weapons with Close Counter]]
+{{Weapons Navbox}}

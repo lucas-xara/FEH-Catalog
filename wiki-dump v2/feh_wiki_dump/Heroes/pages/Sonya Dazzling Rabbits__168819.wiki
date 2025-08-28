@@ -1,0 +1,80 @@
+{{#invoke:NameAbout|main|Name=Sonya|Name2=Tharja|Name3=Rhajat}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Sonya
+|Title=Dazzling Rabbits
+|WeaponType=Green Tome
+|MoveType=Flying
+|secondPerson=Tharja
+|Origin=Fire Emblem Echoes: Shadows of Valentia,Fire Emblem Awakening
+|Gender=FF
+|harmonized=Grants Special cooldown count-2 to unit and allies from the same titles as unit. Grants Atk+6 and【Resonance: Blades】to unit and allies from the same titles as unit for 1 turn.<br><br>【Resonance: Blades】<br>Grants Atk/Spd+4 during combat for 1 turn.
+|actorEN=Tara Sands,Stephanie Sheh
+|actorJP=下田レイ,高田憂希
+|artist=切符
+|additionDate=March 7, 2022
+|releaseDate=March 8, 2022
+|entry=2;10
+|cv1=2
+|cv2=300300
+|TagID=双界ソニア
+|InternalID=777
+|Properties=special,harmonized,hat
+|description=Bewitching bunnies that have journeyed to Askr for the spring festival to steal the gazes and hearts of all. They appear in Fire Emblem Echoes: Shadows of Valentia/Awakening.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=12|Lv1SPD=11|Lv1DEF=4|Lv1RES=3
+|GRHP=50|GRATK=70|GRSPD=70|GRDEF=45|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Wind
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elwind
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Rexcalibur
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Magic Rabbits
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Bond 1
+|passiveA2=Atk/Spd Bond 2
+|passiveA3=Atk/Spd Bond 3
+|passiveA4=Atk/Spd Unity
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Chill Res 1
+|passiveB2=Chill Def/Res 1
+|passiveB3=Chill Def/Res 2
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Spd/Res Rein 1
+|passiveC2=Spd/Res Rein 2
+|passiveC3=Spd/Res Rein 3
+|passiveC4=Spd/Res Hold
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Spring Festival units]]

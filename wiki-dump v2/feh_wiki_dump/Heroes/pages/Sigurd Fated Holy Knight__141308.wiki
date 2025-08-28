@@ -1,0 +1,85 @@
+{{#invoke:NameAbout|main|Name=Sigurd}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Sigurd
+|Title=Fated Holy Knight
+|WeaponType=Red Sword
+|MoveType=Cavalry
+|Origin=Fire Emblem: Genealogy of the Holy War
+|Gender=Male
+|LegendaryEffect=Wind
+|BoostHP=3
+|Duel=185
+|actorEN=Grant George
+|actorJP=森川智之
+|artist=鈴木理華
+|additionDate=April 28, 2021
+|releaseDate=April 28, 2021
+|cv1=3
+|cv2=100100
+|TagID=伝承シグルド
+|InternalID=654
+|Properties=legendary
+|description=Legendary Hero whose life tragically ended with a broken heart. But the threads of his fate went on to weave new hope. Appears in Fire Emblem: Genealogy of the Holy War.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=11|Lv1SPD=6|Lv1DEF=9|Lv1RES=4
+|GRHP=50|GRATK=70|GRSPD=40|GRDEF=65|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Hallowed Tyrfing
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Draconic Aura
+|special2Unlock=4
+|special3=Holy-Knight Aura
+|special3Unlock=5
+|special4=Holy-Knight II
+|special4Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Def Catch 1
+|passiveA2=Atk/Def Catch 2
+|passiveA3=Atk/Def Catch 3
+|passiveA4=Atk/Def Catch 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Crusader's Ward
+|passiveB2=Seal Def 1
+|passiveB3=Seal Def 2
+|passiveB4=Seal Def 3
+|passiveB5=Seal Def 4
+|passiveB1Unlock=5
+|passiveB2Unlock=2
+|passiveB3Unlock=3
+|passiveB4Unlock=4
+|passiveB5Unlock=5
+|passiveC1=Fatal Smoke 1
+|passiveC2=Fatal Smoke 2
+|passiveC3=Fatal Smoke 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

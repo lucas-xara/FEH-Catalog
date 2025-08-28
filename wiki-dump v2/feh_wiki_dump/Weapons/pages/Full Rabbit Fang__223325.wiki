@@ -1,0 +1,85 @@
+{{Weapon Infobox
+|tagid=SID_豊穣の子兎の爪牙
+|intID=4372
+|noImg=1
+|exclusive=1
+|weaponType=Beast
+|canUseMove=Cavalry
+|cost=400
+|might=14
+|range=1
+|effectiveness=Cavalry
+|effect=Enables【Canto (Rem. +1)】.<br>Effective against cavalry foes. Grants Spd+3.<br><br>At start of turn, if number of adjacent allies other than beast or dragon allies ≤ 1, or if unit's conditions for transforming are met, grants Special cooldown count-1 to unit.<br><br>If number of adjacent allies other than beast or dragon allies ≤ 1, or if unit is transformed, grants bonus to unit's Atk/Spd/Def/Res = 5 + number of foes within 3 rows or 3 columns centered on unit × 3 (max 14), deals damage = 20% of unit's Spd (excluding area-of-effect Specials), and neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat, and after combat, if unit's HP ≤ 90%, grants Special cooldown count-2 to unit.<br><br>At start of turn, if unit is adjacent to only beast or dragon allies or is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 to unit, inflicts Atk/Def-X on foe during combat (X = number of spaces from start position to end position of whoever initiated combat, + 3; max 6), and also, if X ≥ 5, reduces damage from foe's first attack by 30% during combat.<br><br>【Canto (Rem. +1)】<br>After an attack, Assist skill, or structure destruction, unit can move again.<br><br>The distance of the movement is the remaining movement the unit had before the actions listed above + 1 (If unit used a movement skill that warps them, the remainder is 0). (Once per turn. Only highest value applied. Does not stack.)
+|statModifiers=0,14,3,0,0
+|required=Adult (Cavalry)
+|properties=random_inherit_base
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe1={{Eft|Stat Boosts|Spd|3}}
+|Pe2={{Eft|Stat Boosts|Atk|2}}
+|PeC2={{Tgt|Unit}} is transformed
+|Me1={{Eft|Canto|Rem. +1}}
+|Me2={{Eft|Transform}}
+|Me2C=At start of turn if<br>{{Tgt|Unit}} is [[adjacent]] to only<br>{{Cwti|group=1|Dragon,Beast}} [[Dragon]]/[[Beast]]<br>{{Tgt|Allies}} '''or''' not [[adjacent]]<br>to any {{Tgt|Ally}}
+|Me3={{Eft|Reduce Cooldown|1}}
+|Me3C=At start of turn if<br>([[adjacent]] non-<br>{{Cwti|group=1|Dragon,Beast}} [[Dragon]]/[[Beast]]<br>{{Tgt|Allies}} ≤ 1 '''or'''<br>{{Efi|Transform}} Transform<br>conditions met)
+|Me4={{Eft|Reduce Cooldown|2}}
+|Me4C=After combat if<br>{{Tgt|Unit}} HP ≥ 90% '''&'''<br>({{Efi|Damage Boost}} Damage Boost<br>conditions met)
+|Ce1={{Eft|Effectiveness|{{Mt|Cavalry}}}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|3 x {{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}, + 5|max=14}}
+|Ce3={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|Ce4={{Eft|Neutralize Prevent Follow-Ups}}
+|Ce5={{Eft|Neutralize Guaranteed Follow-Ups}}
+|Ce2-5C=[[Adjacent]] non-<br>{{Cwti|group=1|Dragon,Beast}} [[Dragon]]/[[Beast]]<br>{{Tgt|Allies}} ≤ 1 '''or'''<br>{{Tgt|Unit}} is transformed
+|Ce5-6T={{Tgt|Foe}}
+|Ce6={{Eft|Temporary debuffs|Atk/Def|Spaces initiator moved + 3|max=6}}
+|Ce6C={{Tgt|Unit}} is transformed
+|Ce7={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s first attack
+|Ce7T={{Tgt|Unit}}
+|Ce7C={{Tgt|Unit}} is transformed '''&'''<br>Spaces initiator moved ≥ 2
+}}
+
+==Notes==
+{{Canto|Rem. +1}}
+{{Effective damage bonus|Cavalry}}
+{{Start of turn Special modification}}
+{{Temporary buffs}}
+{{DamageBoost}}
+{{Follow-up effect neutralization}}
+{{After combat Special modification}}
+{{Beast (Cavalry)}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Yarne: Trick or Taguel|t=Robin: Fall Vessel
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%after combat%if unit_s HP ≤%grants special cooldown count-%' OR Description LIKE '%if unit is transformed%') AND Exclusive='1'}}
+{{Weapons Navbox}}

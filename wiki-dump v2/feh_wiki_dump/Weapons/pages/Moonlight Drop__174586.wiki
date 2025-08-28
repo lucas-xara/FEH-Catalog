@@ -1,0 +1,43 @@
+{{Weapon Infobox
+|tagid=SID_純白の月の雫
+|intID=3121
+|image=wep_mg315
+|exclusive=1
+|weaponType=Colorless Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effectiveness=Armored,Cavalry
+|effect=Effective against armored and cavalry foes. Accelerates Special trigger (cooldown count-1). If unit initiates combat or is within 2 spaces of an ally, grants Atk/Res+6 to unit during combat, and the following effects will occur based on the value of unit's Res minus foe's Res: If ≥ 5 and ≤ 14, unit makes a guaranteed follow-up attack. If ≥ 15 and unit initiates combat, unit attacks twice.
+|statModifiers=0,14,0,0,0
+|required=Atlas (weapon)
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|armored,cavalry}}
+{{IfUnitInitiates}}
+{{Combat boosts}}
+{{UnitStatMinusFoeStat|stat=Res}}
+{{Guaranteed follow-up interaction}}
+{{Brave weapon interaction}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V6.6_v0606b_summer_Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=純白の月の雫
+|german=Mondlichttropfen
+|spanishEU=Gota lunar
+|spanishLA=Gota lunar
+|french=Goutte lunaire
+|italian=Rugiada di luna
+|chineseTW=純白的月之水滴
+|portuguese=Gota lunar
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants Atk/%+%during combat%unit attacks twice%' OR (Description LIKE '%attacks twice%' OR WeaponEffectiveness='armored,cavalry') AND CanUseWeapon__full LIKE '%Tome'|columns=3}}
+{{Weapons Navbox}}

@@ -1,0 +1,75 @@
+{{Weapon Infobox
+|tagid=SID_イーヴィングル
+|weaponType=Green Tome
+|weaponName=Ífingr
+|might=14
+|range=2
+|effectiveness=dragon
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|effect=Effective against dragon foes. If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+4 and neutralizes effects that guarantee foe's follow-up attacks during combat, but after combat, if unit attacked, inflicts Atk/Spd/Def/Res-4 on nearest ally through its next action.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,0,0,0
+|required=Rexcalibur
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Effective against dragon foes. If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+6 to unit and neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat, but after combat, if unit attacked, inflicts Atk/Spd/Def/Res-4 on nearest ally through its next action.
+|tagidExtraSkill1=一
+|effectSkill1=Accelerates Special trigger (cooldown count-1).<br>At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit and neutralizes foe's bonuses to Spd/Res (from skills like Fortify, Rally, etc.) during combat.
+|iconSkill1=Ifingr W.png
+|cooldownSkill1=-1
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|dragon}}
+{{Temporary buffs}}
+{{Follow-up effect neutralization|guaranteeOnly=1}}
+{{Penalties}}
+{| class="wikitable default mw-collapsible" 
+! align="middle" | Example of Area of Effect
+|-
+| align="middle" ! |
+<div style="max-width: 450px; margin: auto;>{{AoE|u=Thrasir: Omnicidal Witch|t=Líf: Arcane Blade
+|---x---
+|--xxx--
+|-xxxxx-
+|xxxuxtx
+|-xxxxx-
+|--xxx--
+|---x---
+}}</div>
+|}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Follow-up effect neutralization|name=refined Ífingr}}
+{{Bonus neutralization|name={{St|Ífingr|refine=Skill1}}}}
+
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{NorseMyth|is the name of the river that separates [[Ásgarðr]] and [[Jötunheimr]].}}
+==Gallery==
+<gallery>
+v3.0_71_hell01_Mag.png|Sprite sheet for Ífingr's animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=イーヴィングル
+|german=Ífingr
+|spanishEU=Ífingr
+|spanishLA=Ífingr
+|french=Ífingr
+|italian=Ífingr
+|chineseTW=伊溫格爾
+|portuguese=Ífingr
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit attacked%nearest ally%' OR Description LIKE '%neutralize%bonuses%Spd/Res%' AND Exclusive='1'}}
+* [[Sources of effective against dragon foes]]
+{{Weapons Navbox}}

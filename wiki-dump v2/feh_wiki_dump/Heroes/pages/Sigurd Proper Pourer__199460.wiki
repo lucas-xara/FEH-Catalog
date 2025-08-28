@@ -1,0 +1,73 @@
+{{#invoke:NameAbout|main|Name=Sigurd}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Sigurd
+|Title=Proper Pourer
+|WeaponType=Blue Tome
+|MoveType=Cavalry
+|Origin=Fire Emblem: Genealogy of the Holy War
+|Gender=Male
+|actorEN=Grant George
+|actorJP=森川智之
+|artist=鈴木理華
+|additionDate=August 7, 2023
+|releaseDate=August 8, 2023
+|cv1=3
+|cv2=100100
+|TagID=お茶会シグルド
+|InternalID=984
+|Properties=special
+|description=Heir to Chalphy, participating in tea parties to grow closer to his companions. Appears in Fire Emblem: Genealogy of the Holy War.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=16|Lv1SPD=5|Lv1DEF=5|Lv1RES=3
+|GRHP=50|GRATK=70|GRSPD=60|GRDEF=70|GRRES=30
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Light
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Ellight
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Shine
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Knightly Manner
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Draconic Aura
+|special2Unlock=4
+|special3=Chivalric Aura
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Armored Blow 1
+|passiveA2=Sturdy Blow 1
+|passiveA3=Sturdy Blow 2
+|passiveA4=Remote Sturdy
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Seal Res 1
+|passiveB2=Seal Res 2
+|passiveB3=Seal Res 3
+|passiveB4=Seal Res 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Tea Party units]]

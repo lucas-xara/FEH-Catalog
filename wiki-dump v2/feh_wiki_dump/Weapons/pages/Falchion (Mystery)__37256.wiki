@@ -1,0 +1,71 @@
+{{About|the version of Falchion that appears in {{EntryText|1}}|other versions of Falchion|Falchion}}{{Weapon Infobox
+|tagid=SID_ファルシオン
+|wikiName=Falchion Mystery
+|weaponType=Sword
+|weaponName=Falchion
+|userVersion1=Weapon
+|userVersion2=Gleam
+|might=16
+|range=1
+|effectiveness=dragon
+|cost=400
+|exclusive=1
+|effect=Effective against dragon foes. At the start of every third turn, restores 10 HP.
+|statModifiers=0,16,0,0,0
+|required=Silver Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Effective against dragon foes. At start of odd-numbered turns, restores 10 HP.
+|effectSkill1=Grants Atk/Spd/Def/Res+2 to allies within 2 spaces during combat.
+|iconSkill1=Falchion Mystery W.png
+|tagidExtraSkill1=紋
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Me={{Eft|Heal|10}}
+|s1 MeC=At start of every 3<sup>rd</sup> turn
+|s1 Ce={{Eft|Effectiveness|{{Cwti|Dragonstone|group=1}} [[Dragon]]}}
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon|link=|alt=]] Refined weapon
+|s2 Me={{Eft|Heal|10}}
+|s2 MeC=At start of odd turns
+|s2 Ce={{Eft|Effectiveness|{{Cwti|Dragonstone|group=1}} [[Dragon]]}}
+|skill3={{Si|Falchion (Mystery)|refine=Skill1}} Skill refine effects
+|s3 Ce={{Eft|Temporary Buffs|Atk/Spd/Def/Res|2}}
+|s3 CeT={{SkillTargetText|Allies}}<br>[[within 2 spaces]]
+}}
+==Notes==
+* Has the same effect as {{St|Renewal 2}}.
+{{Start-of-turn healing}}
+{{Effective damage bonus|dragon}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+* Refined Falchion has the same effect as {{St|Renewal 3}}.
+{{Temporary buffs|name={{St|Falchion (Mystery)|refine=skill1}}}}
+{{AlliesCombatEffect|effect=temporary buffs|name={{St|Falchion (Mystery)|refine=skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|大紋章R全2|Drive All}}
+==In other languages==
+{{OtherLanguages
+|english=Falchion
+|japanese=ファルシオン
+|german=Falchion
+|spanishEU=Falchion
+|spanishLA=Falchion
+|french=Falchion
+|italian=Falchion
+|chineseTW=法爾西昂
+|portuguese=Falchion
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%start of%turn%restores 10 HP.%' OR (Description LIKE '%grants%/%/%to allies within _ spaces during combat%' AND WikiName NOT LIKE '%Breidablik%') OR Description LIKE '%If unit is within _ spaces of any allies%grants%/%to those allies during combat%' OR WikiName LIKE '%Falchion%') AND (Exclusive=1 AND Name NOT LIKE '%+' AND Name NOT LIKE 'Arcane%')}}
+* [[Drive Passives]]
+* [[Skill families/Weapons#Allied|Allied Weapons]]
+* [[Sources of effective against dragon foes]]
+{{Weapons Navbox}}

@@ -1,0 +1,83 @@
+{{Weapon Infobox
+|tagid=SID_暁星の輝き
+|intID=4185
+|userVersion1=Closed
+|userVersion2=Open
+|exclusive=1
+|weaponType=Green Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effectiveness=Armored,Cavalry
+|effect=Effective against armored and cavalry foes.<br>Accelerates Special trigger (cooldown count-1).<br>Allies within 2 spaces of unit can move to any space within 2 spaces of unit.<br><br>At start of enemy phase, restores 10 HP to unit and allies within 2 spaces of unit.<br><br>After start-of-turn effects trigger on enemy phase, converts penalties on unit and allies within 2 spaces of unit into bonuses, and also, neutralizes two【Penalty】effects on unit, excluding stat penalties (does not apply to Penalty effects that are applied at the same time; neutralizes the first applicable Penalty effects on unit's list of active effects).<br><br>At start of combat, if unit's HP ≥ 25%, inflicts Atk/Res-6 on foe, inflicts penalty on foe's Atk/Res during combat = 20% of unit's Res at start of combat, neutralizes foe's bonuses to Atk/Res (from skills like Fortify, Rally, etc.), and unit deals +X damage during combat (X = number of allies within 3 rows or 3 columns centered on unit × 5; max 15; excluding area-of-effect Specials).<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|required=Rexcalibur
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Me1={{Eft|Warp|[[within 2 spaces]] of {{Tgt|Unit}}}}
+|Me1T={{Tgt|Allies}}<br>[[within 2 spaces]]
+|Me2={{Eft|Heal|10}}
+|Me2T={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|Me2C=At start of<br>Enemy Phase
+|Se1={{Eft|Bonuses|Atk/Spd/Def/Res|{{SEt|Penalty}} on each stat}}
+|Se2=Removes {{SEt|Penalties}}
+|Se3=Removes 1<sup>st</sup> 2 {{Kp|Penalty}} effects<br>(excluding {{SEt|Penalties}})
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=After start-of-turn<br>effects on<br>Enemy Phase
+|Ce1={{Eft|Effectiveness|{{Mt|Armored}} '''&''' {{Mt|Cavalry}}<br>}}
+|Ce2={{Eft|Temporary debuffs|Atk/Res|6}}
+|Ce3={{Eft|Temporary debuffs|Atk/Res|20% of {{Tgt|Unit}}'s Res<br>at start of combat}}
+|Ce4={{Eft|Neutralize Bonuses|Atk/Res}}
+|Ce2-4T={{Tgt|Foe}}
+|Ce5={{Eft|Damage Boost|5 x {{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}|max=15}}
+|Ce5T={{Tgt|Unit}}
+|Ce2-5C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Effective damage bonus|armored,cavalry}}
+{{Warp interaction}}
+{{Start-of-turn healing|allies=1}}
+{{Penalty conversion}}
+{{Penalty neutralization|negstatuses=the 1<sup>st</sup> 2 {{Kp|Penalty}} effects of unit and allies [[within 2 spaces]]|order=1}}
+{{Temporary debuffs}}
+{{At start of combat}}
+{{Bonus neutralization}}
+{{FlatDamageBoost}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Micaiah: Dawning Maiden|t=Sothe: Dawning Zephyr
+|---xxx---
+|---xxx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xtx---
+|---xxx---
+}}
+|}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=暁星の輝き
+|german=Silberner Morgen
+|spanishEU=Plata del Alba
+|spanishLA=Plata del Alba
+|french=Argent de l'Aube
+|italian=Luce d'argento
+|chineseTW=曉星光輝
+|portuguese=Prata da aurora
+}}
+==See also==
+{{See also skills|cond=WeaponEffectiveness='armored,cavalry' AND (CanUseWeapon__full LIKE '%Tome') OR (Description LIKE '%allies within 2 spaces can move%' OR Description LIKE '%allies within 2 spaces of unit can move%' OR Description LIKE '%converts%penalties%into%' OR Description LIKE '%neutralizes the first applicable Penalty effects on unit_s list of active effects%') AND Exclusive='1'}}
+* [[Skill families/C Passives#Guidance|Guidance Passives]]
+* [[Skill families/C Passives#Recovery|Recovery Passives]]
+{{Weapons Navbox}}

@@ -1,0 +1,82 @@
+{{#invoke:NameAbout|main|Name=Naga|Name2=Nagi}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Naga
+|Title=Dragon Divinity
+|WeaponType=Blue Breath
+|Origin=Fire Emblem Awakening,Fire Emblem: Mystery of the Emblem
+|Gender=Female
+|MythicEffect=Astra
+|MythicEffect2=None
+|BoostHP=5
+|BoostDef=5
+|MoveType=Flying
+|actorEN=Mela Lee
+|actorJP=佐藤聡美
+|artist=麻谷知世
+|releaseDate=2019-05-30
+|TagID=神階ナーガ
+|InternalID=382
+|Properties=mythic,tiara
+|entry=1;10
+|cv1=10
+|cv2=7900100
+|description=Ruler of the Divine Dragons. Takes on a variety of appearances in the presence of humans, and is said to have saved the world from despair. Appears in Fire Emblem: Mystery of the Emblem and Fire Emblem Awakening.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=6|Lv1SPD=10|Lv1DEF=9|Lv1RES=4
+|GRHP=45|GRATK=55|GRSPD=60|GRDEF=55|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire Breath
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Fire Breath+
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Flametongue
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Divine Breath
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=AR-O Atk/Spd 1
+|passiveA2=AR-O Atk/Spd 2
+|passiveA3=AR-O Atk/Spd 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Chill Spd 1
+|passiveB2=Chill Spd 2
+|passiveB3=Chill Spd 3
+|passiveB4=Dive-Bomb 1
+|passiveB5=Dive-Bomb 2
+|passiveB6=Dive-Bomb 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveB4Unlock=1
+|passiveB5Unlock=2
+|passiveB6Unlock=4
+|passiveC1=Divine Fang
+|passiveC2=Divine Fang+
+|passiveC1Unlock=5
+|passiveC2Unlock=5
+}}
+{{Heroes Navbox}}

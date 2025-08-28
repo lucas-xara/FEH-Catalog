@@ -1,0 +1,85 @@
+{{#invoke:NameAbout|main|Name=Alm|Name2=Celica}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Alm
+|Title=Lovebird Duo
+|WeaponType=Green Axe
+|Origin=Fire Emblem Echoes: Shadows of Valentia
+|Gender=MF
+|secondPerson=Celica
+|duo=Neutralizes any【Penalty】, restores 30 HP, and grants Atk/Spd+6 to unit and allies within 5 rows and 5 columns centered on unit for 1 turn.<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|Duel=185
+|MoveType=Infantry
+|actorJP=花江夏樹,東山奈央
+|actorEN=Kyle McCarley,Erica Lindbeck
+|artist=ツッキー
+|additionDate=February 6, 2020
+|releaseDate=February 6, 2020
+|TagID=比翼アルム
+|InternalID=482
+|Properties=special,duo,specRate_202402
+|cv1=2
+|cv2=100100
+|description=Prince of Rigel and princess of Zofia. Ended the strife between their countries and founded the One Kingdom of Valentia. They appear in Fire Emblem Echoes: Shadows of Valentia.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=11|Lv1SPD=10|Lv1DEF=6|Lv1RES=6
+|GRHP=50|GRATK=55|GRSPD=70|GRDEF=60|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Scepter of Love
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Moonbow
+|special2Default=
+|special2Unlock=4
+|special3=Lunar Flash
+|special3Default=
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Bonus Doubler 1
+|passiveA2=Bonus Doubler 2
+|passiveA3=Bonus Doubler 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Lull Atk/Spd 1
+|passiveB2=Lull Atk/Spd 2
+|passiveB3=Lull Atk/Spd 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Rouse Spd/Res 1
+|passiveC2=Rouse Spd/Res 2
+|passiveC3=Rouse Spd/Res 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Sources of negative status effect neutralization]]
+[[Category:Sources of bonuses]]
+[[Category:Sources of status effects]]
+[[Category:Sources of self-healing]]
+[[Category:Day of Devotion units]]

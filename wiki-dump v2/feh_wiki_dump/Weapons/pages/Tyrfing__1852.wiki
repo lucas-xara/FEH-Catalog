@@ -1,0 +1,54 @@
+{{Weapon Infobox
+|tagid=SID_ティルフィング
+|weaponType=Sword
+|weaponName=Tyrfing
+|might=16
+|range=1
+|effect=If unit's HP ≤ 50%, grants Def+4 during combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Silver Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|userVersion1=Weapon|userVersion2=Gleam
+|upgradedEffect=At start of combat, if unit's HP ≥ 50%, grants: “If unit’s HP > 1 and foe would reduce unit’s HP to 0, unit survives with 1 HP. (Once per combat. Does not stack.)”
+|effectSkill1=If unit is adjacent to an ally, grants Atk/Def+5 during combat.
+|iconSkill1=Atk Def Bond W.png
+|tagidExtraSkill1=絆
+|properties=random_owner
+}}
+==Notes==
+{{Combat boosts}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Miracle|HPThreshold=under 50%|name=refined Tyrfing}}
+* {{St|Tyrfing|refine=Skill1}} has the same effect as {{St|Atk/Def Bond 3}}.
+{{Temporary buffs|name={{St|Tyrfing|refine=Skill1}}}}
+
+==Evolution==
+{{WEvo
+|weapon=Divine Tyrfing
+|Medals=375
+|Stones=
+|Dew=150
+}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ティルフィング
+|german=Tyrfing
+|spanishEU=Tyrfing
+|spanishLA=Tyrfing
+|french=Tyrfing
+|italian=Tyrfing
+|chineseTW=斬裂劍
+|portuguese=Tyrfing
+}}
+==See also==
+{{See also skills|cond=WikiName LIKE '%tyrfing%' OR Description LIKE '%unit survives with 1 HP%'|columns=3}}
+{{Weapons Navbox}}

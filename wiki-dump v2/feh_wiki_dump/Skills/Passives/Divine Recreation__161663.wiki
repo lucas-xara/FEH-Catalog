@@ -1,0 +1,56 @@
+{{Passive
+|type=B
+|name=Divine Recreation
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Divine Recreation
+|1tagid=SID_それは興味深いね
+|1cost=300
+|1effect=At start of combat, if foe's HP ≥ 50%, inflicts Atk/Spd/Def/Res-4 on foe during combat, reduces damage from foe's first attack during combat by 30%, and boosts unit's next attack by total damage reduced (by any source, including other skills). Resets at end of combat.
+|1required=-
+|1next=-
+|2name=Divine Rec. II
+|2tagid=SID_それは興味深…・承
+|2effect=If unit initiates combat or foe's HP ≥ 50% at start of combat, inflicts Atk/Spd/Def/Res-4 on foe, reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% (excluding area-of-effect Specials), reduces damage from foe's first attack by 50% during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and unit's next attack deals damage = total damage reduced from foe's first attack (by any source, including other skills; resets at end of combat).
+|2cost=300
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Divine Recreation}} Divine Recreation
+|s1 Ce1={{Eft|Temporary Debuffs|Atk/Spd/Def/Res|4}}
+|s1 Ce1T={{Tgt|Foe}}
+|s1 Ce2={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s first attack
+|s1 Ce3={{Eft|Damage Boost|total damage reduced}}<br>from {{Tgt|Foe}}'s first attack<br>for {{Tgt|Unit}}'s next attack<br>(including other sources)
+|s1 CeC={{Tgt|Foe}}'s HP ≥ 50%<br>at start of combat
+|skill2={{Si|Divine Rec. II}} Divine Rec. II
+|s2 Ce1={{Eft|Temporary Debuffs|Atk/Spd/Def/Res|4}}
+|s2 Ce2={{Eft|Reduce Damage Reduction|50%}}
+|s2 Ce1-2T={{Tgt|Foe}}
+|s2 Ce3={{Eft|Damage Reduction|50%}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|s2 Ce4={{Eft|Damage Boost|total damage reduced<br>from {{Tgt|Foe}}'s first attack<br>for {{Tgt|Unit}}'s next attack<br>(including other sources)}}
+|s2 CeC=Player Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 50%<br>at start of combat
+}}
+
+==Notes==
+{{Temporary debuffs}}
+{{DamageBoostFromDamageReduction}}
+{{Reduce Damage Reduction|name=Divine Rec. II}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=それは興味深いね
+|japaneseNotes=<i>Well, isn't that interesting?</i>
+|german=Göttl. Erholung
+|spanishEU=Recreación divina
+|spanishLA=Recreación divina
+|french=Récréation divine
+|italian=Svago divino
+|chineseTW=那真有意思呢
+|portuguese=Recreação divina
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%reduces damage%next attack%damage reduced%'}}
+{{Passives Navbox|B}}

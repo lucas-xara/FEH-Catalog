@@ -1,0 +1,46 @@
+{{Passive
+|type=C
+|name=Spd/Def Hold
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|Flying}}
+|properties=random_owner
+|1name=Spd/Def Hold
+|alt1name=Spd Def Hold
+|1tagid=SID_速さ守備の大牽制
+|1cost=300
+|1effect=Inflicts Spd/Def-4 on foes within 3 spaces during combat.
+|1required=Spd/Def Rein 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce={{Eft|Temporary debuffs|Spd/Def|4}}
+|CeT={{Tgt|Foes}}<br>[[within 3 spaces]]
+}}
+==Notes==
+{{Temporary debuffs}}
+{{FoesCombatEffect|effect=temporary debuffs}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Spd/Def Hold
+|japanese=速さ守備の大牽制
+|german=Ges./Ver.-Halt
+|spanishEU=Aguante Vel/Def
+|spanishLA=Aguante Vel./Def.
+|french=Frein Vit/Déf
+|italian=Redine Vel/Dif
+|chineseTW=速度防守大牽制
+|portuguese=Freio Vel./Def.
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%inflicts%Spd/Def%-%on foes within _ spaces during combat%' AND WikiName NOT LIKE '%Rein%' AND Exclusive='1'}}
+* [[Rein Passives]]
+* [[Skill families/C Passives#Hold|Hold Passives]]
+{{Passives Navbox|C}}

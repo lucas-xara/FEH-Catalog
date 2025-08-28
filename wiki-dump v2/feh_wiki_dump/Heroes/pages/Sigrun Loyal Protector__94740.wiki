@@ -1,0 +1,68 @@
+{{#invoke:NameAbout|main|Name=Sigrun}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Sigrun
+|Title=Loyal Protector
+|GrowthModifier=Gen 4
+|WeaponType=Blue Lance
+|Origin=Fire Emblem: Path of Radiance
+|Gender=Female
+|MoveType=Flying
+|actorJP=荒川美穂
+|actorEN=Megan Lee
+|artist=pikomaro
+|additionDate=August 16, 2019
+|releaseDate=August 17, 2019
+|TagID=シグルーン
+|InternalID=415
+|Properties=tempest,limited
+|cv1=8
+|cv2=900200
+|description=Commander of Begnion's Holy Guard, and charged with the protection of Empress Sanaki. She is kind but strong. Appears in Fire Emblem: Path of Radiance.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=8|Lv1SPD=10|Lv1DEF=4|Lv1RES=10
+|GRHP=45|GRATK=55|GRSPD=60|GRDEF=55|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Reprisal Lance
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Reprisal Lance+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Command Lance
+|weapon5Default=
+|weapon5Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Swap
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveB1=Def/Res Link 1
+|passiveB2=Def/Res Link 2
+|passiveB3=Def/Res Link 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Hone Spd 1
+|passiveC2=Hone Spd 2
+|passiveC3=Hone Fliers
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

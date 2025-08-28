@@ -1,0 +1,33 @@
+{{Weapon Infobox
+|tagid=SID_倭鉾
+|weaponType=Lance
+|might=9
+|range=1
+|effect=Deals +10 damage when Special triggers.
+|cost=200
+|exclusive=0
+|statModifiers=0,9,0,0,0
+|next=Harmonic Lance+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Lance
+|properties=random_all
+}}
+==Notes==
+{{FlatDamage|special=1|10}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=倭鉾
+|german=Harmonielanze
+|spanishEU=Lanza armonía
+|spanishLA=Lanza armonía
+|french=Lance harmonie
+|italian=Lancia armonia
+|chineseTW=倭矛
+|portuguese=Lança harmonia
+}}
+==See also==
+* [[Weapons that boost Special damage]]
+{{Weapons Navbox}}

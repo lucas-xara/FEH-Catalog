@@ -1,0 +1,52 @@
+{{Weapon Infobox
+|tagid=SID_ヴェズルの妖卵
+|weaponType=Blue Tome
+|might=14
+|range=2
+|effect=Grants Atk+3. If unit is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit and neutralizes unit's penalties during combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,17,0,0,0
+|required=Thoron;Shine
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Atk+3. If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit, neutralizes unit's penalties, and unit makes a guaranteed follow-up attack during combat.
+|effectSkill1=Enables【Canto (１)】.<br><br>At start of turn, inflicts Def/Res-6 and【Exposure】 on nearest foes within 5 spaces of unit and foes within 2 spaces of those foes through their next actions. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit during combat, and if【Penalty】is active on foe, foe cannot counterattack.<br><br>【Canto (１)】<br>After an attack, Assist skill, or structure destruction, unit can move １ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)<br><br>【Exposure】<br>Foe's attacks deal +10 damage.<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|properties=
+}}
+==Notes==
+{{Temporary buffs}}
+{{Penalty neutralization}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfUnitInitiates}}
+{{Guaranteed follow-up interaction|name=refined Eagle's Egg}}
+{{Canto|1}}
+{{Penalties|name={{St|Eagle's Egg|refine=Skill1}}}}
+{{Exposure|name={{St|Eagle's Egg|refine=Skill1}}}}
+{{Prevent counterattacks|name={{St|Eagle's Egg|refine=Skill1}}}}
+{{EffectfromPenalty|name={{St|Eagle's Egg|refine=Skill1}}|1=foe cannot counterattack effect}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{NorseMyth|name=Veðrfölnir and eagle|are a hawk and an eagle that are perched atop the world tree, [[wikipedia:Yggdrasil|Yggdrasil]].}}
+==In other languages==
+{{OtherLanguages
+|english=Eagle's Egg
+|japanese=ヴェズルの妖卵
+|japaneseNotes=Vedr's Egg
+|german=Ei des Adlers
+|spanishEU=Huevo celeste
+|spanishLA=Huevo celeste
+|french=Œuf d'aigle
+|italian=Uovo d'aquila
+|chineseTW=維德的妖卵
+|portuguese=Ovo de águia
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%If unit is within%spaces of an ally%grants%/%+%neutralizes unit_s penalties%' AND WikiName NOT LIKE '%steadfast%' OR Description LIKE '%【Exposure】%' OR Description LIKE '%at start of turn%inflicts%/%-%est foe%' OR Description LIKE '%at start of turn%, inflicts%est foes%and foes within _ spaces of those foes%') AND Exclusive='1'}}
+* [[Skill families/Weapons#Steadfast|Steadfast Weapons]]
+{{Weapons Navbox}}

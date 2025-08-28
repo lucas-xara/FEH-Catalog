@@ -1,0 +1,71 @@
+{{#invoke:NameAbout|main|Name=Flame Emperor|Name2=Edelgard}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Flame Emperor
+|Title=Bringer of War
+|WeaponType=Green Axe
+|Gender=N
+|Origin=Fire Emblem: Three Houses
+|MoveType=Armored
+|actorJP=???
+|actorEN=???
+|artist=DAI-XT.
+|additionDate=March 5, 2020
+|releaseDate=March 9, 2020
+|TagID=炎帝
+|InternalID=497
+|Properties=ghb,limited,tiara
+|cv1=12
+|cv2=900600
+|description=A mysterious individual who instigates conflict, disturbing the peace in Fódlan. Willing to use any method to achieve their objectives. Appears in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=20|Lv1ATK=12|Lv1SPD=6|Lv1DEF=11|Lv1RES=7
+|GRHP=70|GRATK=65|GRSPD=45|GRDEF=60|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Guard Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Guard Axe+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Flame Battleaxe
+|weapon5Default=
+|weapon5Unlock=5
+}}
+===Assists===
+{{Assists Table
+}}
+===Specials===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=4
+|special1Unlock=3
+|special2=Ignis
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Warding Stance 1
+|passiveA2=Bracing Stance 1
+|passiveA3=Bracing Stance 2
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=Wary Fighter 1
+|passiveB2=Wary Fighter 2
+|passiveB3=Wary Fighter 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+{{Heroes Navbox}}

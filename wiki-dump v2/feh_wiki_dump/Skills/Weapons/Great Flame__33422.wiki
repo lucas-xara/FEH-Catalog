@@ -1,0 +1,49 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_神炎のブレス
+|weaponType=Dragonstone
+|might=16
+|range=1
+|effect=Grants Atk+3. If unit's Def ≥ foe's Def+5, foe cannot make a follow-up attack. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|cost=400
+|exclusive=1
+|userVersion1=Weapon
+|userVersion2=Gleam
+|statModifiers=0,19,0,0,0
+|required=Flametongue
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Atk+3. If unit's Def ≥ foe's Def+1, foe cannot make a follow-up attack. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|effectSkill1=At start of combat, if unit's HP ≥ 25% and unit is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit and neutralizes effects that guarantee foe's follow-up attacks during combat.
+|iconSkill1=Great Flame W.png
+|tagidExtraSkill1=無
+|properties=random_owner
+}}
+==Notes==
+{{Prevent follow-up}}
+{{LowerDefRes}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Combat boosts}}
+{{Follow-up effect neutralization|guaranteeOnly=1}}
+
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|絶対追撃無効R全4|Absolute No Follow-Up R All 4}}
+==In other languages==
+{{OtherLanguages
+|japanese=神炎のブレス
+|german=Erzflamme
+|spanishEU=Gran llama
+|spanishLA=Gran llama
+|french=Grande flamme
+|italian=Grande fiamma
+|chineseTW=神炎吐息
+|portuguese=Grande chama
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%neutralizes effects that guarantee foe_s follow-up attacks%'}}
+{{Weapons Navbox}}

@@ -1,0 +1,56 @@
+{{Weapon Infobox
+|tagid=SID_雀躍の剣
+|weaponType=Sword
+|might=16
+|range=1
+|effectiveness=armored
+|effect=Effective against armored foes.
+|cost=400
+|exclusive=1
+|userVersion1=Weapon
+|userVersion2=Gleam
+|statModifiers=0,16,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=At start of combat, if unit's max HP ≥ foe's HP+1, grants Atk/Spd/Def/Res+4 to unit during combat.
+|iconSkill1=Combat Bonuses Life W.png
+|tagidExtraSkill1=強
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Ce={{Eft|Effectiveness|{{Mt|Armored}}}}
+|skill2={{Si|Jubilant Blade|refine=Skill1}} Skill refine effects
+|s2 Ce={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s2 CeC={{Tgt|Unit}}'s max HP<br>≥{{Tgt|Foe}}'s HP+1<br>at start of combat
+}}
+
+==Notes==
+{{Effective damage bonus|armored}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|戦闘強化R生命|Combat Bonuses R Life}}
+==In other languages==
+{{OtherLanguages
+|english=Jubilant Blade
+|japanese=雀躍の剣
+|german=Jubilierklinge
+|spanishEU=Hoja alborozada
+|spanishLA=Hoja alborozada
+|french=Lame enjouée
+|italian=Lama esultante
+|chineseTW=雀躍之劍
+|portuguese=Espada jubilante
+}}
+== See also ==
+* [[Dignified Bow]]
+{{Weapons Navbox}}

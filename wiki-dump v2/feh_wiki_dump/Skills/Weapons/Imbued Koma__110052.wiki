@@ -1,0 +1,73 @@
+{{Weapon Infobox
+|tagid=SID_神宿りの独楽
+|weaponType=Blue Tome
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of combat, if Special is ready, grants Atk/Spd/Def/Res+5 during combat and foe cannot make a follow-up attack.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,0,0,0
+|required=Shine
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1). At start of combat, if unit's Special is ready, grants Atk/Spd/Def/Res+5 to unit, foe cannot make a follow-up attack, and reduces damage from foe's attacks by 20% of unit's Def (excluding area-of-effect Specials) during combat.
+|tagidExtraSkill1=一
+|effectSkill1=If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+4 to unit, inflicts Special cooldown charge -1 on foe per attack (only highest value applied; does not stack), reduces the effect of【Deep Wounds】on unit by 50% during combat, and also, when Special triggers, unit deals damage = 15% of unit's Def.<br><br>【Deep Wounds】<br>Unit's HP cannot be healed through its next action.
+|iconSkill1=Imbued Koma W.png
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Accelerates Special}}
+|s1 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s1 CeC=Special is ready<br>at start of combat
+|s1 Ce2={{Eft|Prevent Follow-up}}
+|s1 Ce2T={{Tgt|Foe}}
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Accelerates Special}}
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s2 CeC=Special is ready<br>at start of combat
+|s2 Ce2={{Eft|Prevent Follow-up}}
+|s2 Ce2T={{Tgt|Foe}}
+|s2 Ce3={{Eft|Damage reduction|20% of {{Tgt|Unit}}'s Def}}
+|s2 Ce3T={{Tgt|Unit}}
+|skill3={{Si|Imbued Koma|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s3 Ce2={{Eft|Guard}}
+|s3 Ce3={{Eft|Reduce Deep Wounds|50%}}
+|s3 Ce4={{Eft|Damage Boost|15% of {{Tgt|Unit}}'s Def}} per<br>{{Tgt|Unit}}'s [[offensive Special]]
+|s3 CeC={{Tgt|Unit}} is<br>[[within 3 spaces]]<br>of an {{Tgt|Ally}}
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{Prevent follow-up}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{FlatDamageReduction}}
+{{CooldownChargeMinus}}
+{{Deep Wounds Reduction}}
+{{DamageBoost|name={{St|Imbued Koma|refine=Skill1}}}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Imbued Koma
+|japanese=神宿りの独楽
+|german=Mächtiger Kreisel
+|spanishEU=Koma totémica
+|spanishLA=Koma totémica
+|french=Koma divin
+|italian=Koma divina
+|chineseTW=神宿陀螺
+|portuguese=Koma imbuído
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%special is ready%grants%' OR Description LIKE '%reduces the effect of【Deep Wounds】%' OR Description LIKE '%reduces damage from foe_s attacks by%of unit_s Def%' OR Description LIKE '%when Special triggers%deals damage%=% of unit_s Def%'}}
+{{Weapons Navbox}}

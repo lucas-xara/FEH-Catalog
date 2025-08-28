@@ -1,0 +1,53 @@
+{{SkillPage Tabs}}{{Passive
+|type=S
+|exclusive=0
+|1name=Deflect Melee 1
+|1tagid=SID_連撃防御・剣槍斧1
+|1effect=If unit receives consecutive attacks and foe uses a sword, lance, or axe, reduces damage from foe's second attack onward by 30%.
+|1required=-
+|1cost=50
+|1next=-
+|2name=Deflect Melee 2
+|2tagid=SID_連撃防御・剣槍斧2
+|2effect=If unit receives consecutive attacks and foe uses a sword, lance, or axe, reduces damage from foe's second attack onward by 50%.
+|2cost=100
+|2next=-
+|3name=Deflect Melee 3
+|3tagid=SID_連撃防御・剣槍斧3
+|3effect=If unit receives consecutive attacks and foe uses a sword, lance, or axe, reduces damage from foe's second attack onward by 80%.
+|3cost=200
+|canUseWeapon={{WeaponList|Close}}
+|canUseMove={{MoveList|all}}
+|properties=
+}}
+==Notes==
+{{DamagePercentageReduction}}
+==Seal acquired from==
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Deflect Melee 1;Deflect Melee 2;Deflect Melee 3
+|badgeColor=Scarlet
+|costs1=20;100;50
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=連撃防御・剣槍斧
+|japaneseNotes=''Consecutive Attacks Defense ・ Sword Lance Axe''
+|german=Nahkampf-Abw.
+|spanishEU=Antigolpes
+|spanishLA=Antigolpes
+|french=Abri mêlée
+|italian=Devia fendente
+|chineseTW=連擊防禦・劍槍斧
+|portuguese=Desvia golpe
+}}
+
+==See also==
+* [[Deflect Seals]]
+* [[Crusader's Ward]]
+* [[Urvan]]
+{{Seals Navbox}}
+[[Category: Deflect Seals]]

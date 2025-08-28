@@ -1,0 +1,49 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_ロムファイア
+|weaponType=Lance
+|might=16
+|range=1
+|effectiveness=armored,cavalry
+|effect=Effective against armored and cavalry foes.
+|cost=400
+|exclusive=1
+|userVersion1=Weapon
+|userVersion2=Upgrade Gleam
+|statModifiers=0,16,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If unit's Spd > foe's Spd, grants Special cooldown charge +1 per unit's attack. (Only highest value applied. Does not stack.)
+|iconSkill1=Flashing Blade W.png
+|tagidExtraSkill1=柔
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|armored,cavalry}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+* {{St|Rhomphaia|refine=Skill1}} has the same effect as {{St|Flashing Blade 3}}.
+{{CooldownChargePlus|perAttack=unit}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ロムファイア
+|german=Romphaea
+|spanishEU=Rhomphaia
+|spanishLA=Rhomphaia
+|french=Rhomphaïa
+|italian=Romfaia
+|chineseTW=羅姆菲亞
+|portuguese=Rhomphaia
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If unit_s ___ > foe_s ___, grants Special cooldown charge +1 per unit_s attack%' OR WeaponEffectiveness='armored,cavalry'}}
+* [[Weapons that are effective against armored foes]]
+* [[Weapons that are effective against cavalry foes]]
+{{Weapons Navbox}}

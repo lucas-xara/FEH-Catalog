@@ -1,0 +1,65 @@
+{{#invoke:NameAbout|main|Name=Bruno}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Bruno
+|Title=Masked Reveler
+|WeaponType=Green Tome
+|MoveType=Armored
+|Origin=Fire Emblem Heroes
+|Gender=Male
+|actorEN=T. Axelrod
+|actorJP=三木眞一郎
+|artist=コザキユースケ
+|additionDate=December 16, 2022
+|releaseDate=December 16, 2022
+|cv1=0
+|cv2=100400
+|TagID=冬祭ブルーノ
+|InternalID=892
+|Properties=limited,tempest,specDisplay,hat,tiara
+|description=Emblian prince shrouded in mystery. Appears at the Askran winter festival in hopes of ensuring its success.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=11|Lv1SPD=12|Lv1DEF=7|Lv1RES=6
+|GRHP=55|GRATK=70|GRSPD=60|GRDEF=50|GRRES=65
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Wind
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elwind
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Peppy Cane
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Peppy Cane+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Reciprocal Aid
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Fury 1
+|passiveA2=Fury 2
+|passiveA3=Fury 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Threaten Res 1
+|passiveC2=Threat. Atk/Res 1
+|passiveC3=Threat. Atk/Res 2
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Christmas units]]

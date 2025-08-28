@@ -1,0 +1,73 @@
+{{Weapon Infobox
+|tagid=SID_幻影フェザー
+|statModifiers=0,16,3,0,0
+|weaponType=Lance
+|might=16
+|range=1
+|effectiveness=armored,cavalry
+|effect=Effective against armored and cavalry foes. Grants Spd+3. If unit initiates combat after an ally has already acted, grants Atk/Spd+6 during combat and unit can make a follow-up attack before foe can counterattack.
+|cost=400
+|exclusive=1
+|required=Silver Lance
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Effective against armored and cavalry foes. Grants Spd+3. If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd+6 to unit and neutralizes effects that prevent unit's follow-up attacks during combat. If unit initiates combat after an ally has already acted, unit can make a follow-up attack before foe can counterattack.
+|effectSkill1=Enables【Canto (２)】.<br><br>At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+5 to unit and neutralizes unit's penalties to Atk/Spd during combat, and also, if unit initiates combat after an ally has already acted, grants an additional Atk/Spd+5 to unit during combat.<br><br>【Canto (２)】<br>After an attack, Assist skill, or structure destruction, unit can move ２ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Spd|3}}
+|s1 Ce1={{Eft|Effectiveness|{{Mt|Armored}} & {{Mt|Cavalry}}<br>}}
+|s1 Ce2={{Eft|Temporary buffs|Atk/Spd|6}}
+|s1 Ce3={{Eft|Desperation}}
+|s1 CeC2-3=Player Phase '''&'''<br>{{Tgt|Ally}} has acted
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Spd|3}}
+|s2 Ce1={{Eft|Effectiveness|{{Mt|Armored}} & {{Mt|Cavalry}}<br>}}
+|s2 Ce2={{Eft|Temporary buffs|Atk/Spd|6}}
+|s2 Ce3={{Eft|Neutralize PFU}}
+|s2 CeC2-3=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s2 Ce4={{Eft|Desperation}}
+|s2 CeC4=Player Phase '''&'''<br>{{Tgt|Ally}} has acted
+|skill3={{Si|Mirage Feather|refine=Skill1}} Skill refine effects
+|s3 Me={{Eft|Canto|2}}
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd|5}}
+|s3 Ce2={{Eft|Neutralize Penalties|Atk/Spd}}
+|s3 CeC1-2={{Tgt|Unit}}'s HP ≥ 25%
+|s3 Ce3={{Eft|Temporary buffs|Atk/Spd|5}}
+|s3 CeC3=Player Phase '''&'''<br>{{Tgt|Ally}} has acted
+}}
+
+==Notes==
+{{Effective damage bonus|armored,cavalry}}
+{{Temporary buffs}}
+{{Follow-up before counterattack}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Follow-up effect neutralization|name=refined Mirage Feather}}
+{{Canto|2}}
+{{Penalty neutralization|name={{St|Mirage Feather|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Mirage Feather
+|japanese=幻影フェザー
+|german=Mirage-Feder
+|spanishEU=Pluma Mirage
+|spanishLA=Pluma Mirage
+|french=Plume mirage
+|italian=Piuma Mirage
+|chineseTW=幻影鐵羽槍
+|portuguese=Pluma Mirage
+}}
+==See also==
+{{See also skills|cond=WeaponEffectiveness='armored,cavalry' OR Description LIKE '%all%ha%already%' AND Description NOT LIKE '%another action%'}}
+* [[Skill families/B Passives#Flow|Flow Passives]]
+{{Weapons Navbox}}

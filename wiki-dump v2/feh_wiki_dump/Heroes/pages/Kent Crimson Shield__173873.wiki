@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Kent}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Kent
+|Title=Crimson Shield
+|WeaponType=Red Sword
+|MoveType=Cavalry
+|Origin=Fire Emblem: The Blazing Blade
+|Gender=Male
+|actorEN=Beau Bridgland
+|actorJP=野島裕史
+|artist=たかや友英
+|randomStartTime=2022-07-08T07:00:00Z
+|additionDate=June 7, 2022
+|releaseDate=June 8, 2022
+|poolDate=June 30, 2022
+|poolRarities=3,4
+|cv1=6
+|cv2=400300
+|TagID=ケント
+|InternalID=813
+|Properties=
+|description=A straightforward and stern knight of Caelin. Appointed to be commander of the Caelin knights at a young age. Appears in Fire Emblem: The Blazing Blade.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=7|Lv1SPD=10|Lv1DEF=8|Lv1RES=7
+|GRHP=55|GRATK=70|GRSPD=70|GRDEF=50|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Allied Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Allied Sword+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Reposition
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Bond 1
+|passiveA2=Atk/Spd Bond 2
+|passiveA3=Atk/Spd Bond 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Spd/Def Snag 1
+|passiveB2=Spd/Def Snag 2
+|passiveB3=Spd/Def Snag 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+}}
+{{Heroes Navbox}}

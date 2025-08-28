@@ -1,0 +1,33 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_氷晶のブレス
+|weaponType=Dragonstone
+|might=16
+|range=1
+|effect=Grants Res+3. At start of turn or when Play is used, inflicts Atk/Spd/Def/Res-4 on closest foe within 4 spaces of unit through their next action. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,3
+|required=Flametongue
+|properties=random_owner
+}}
+==Notes==
+{{Penalties}}{{LowerDefRes}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Frost Breath
+|japanese=氷晶のブレス
+|german=Frostatem
+|spanishEU=Aliento gélido
+|spanishLA=Soplo gélido
+|french=Souffle gelé
+|italian=Soffio gelido
+|chineseTW=冰晶吐息
+|portuguese=Sopro gelado
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%at start of turn%inflicts%/%-%est foe%within _ spaces%' OR Description LIKE '%at start of turn%inflicts%/%/%-%est foe%'|columns=3}}
+* [[Skill families#Menace|Menace Skills]]
+* [[Skill families#Cantrip|Cantrip Skills]]
+{{Weapons Navbox}}

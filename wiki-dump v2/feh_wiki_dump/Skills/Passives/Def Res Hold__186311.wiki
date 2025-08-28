@@ -1,0 +1,45 @@
+{{Passive
+|type=C
+|name=Def/Res Hold
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|Flying}}
+|properties=random_owner
+|1name=Def/Res Hold
+|alt1name=Def Res Hold
+|1tagid=SID_守備魔防の大牽制
+|1cost=300
+|1effect=Inflicts Def/Res-4 on foes within 3 spaces during combat.
+|1required=Def/Res Rein 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce={{Eft|Temporary debuffs|Def/Res|4}}
+|CeT={{Tgt|Foes}}<br>[[within 3 spaces]]
+}}
+==Notes==
+{{Temporary debuffs}}
+{{FoesCombatEffect|effect=temporary debuffs}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Def/Res Hold
+|japanese=守備魔防の大牽制
+|german=Ver./Res.-Halt
+|spanishEU=Aguante Def/Res
+|spanishLA=Aguante Def./Res.
+|french=Frein Déf/Rés
+|italian=Redine Dif/Res
+|chineseTW=防守魔防大牽制
+|portuguese=Freio Def./Res.
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%inflicts%Def/Res-%on foes within _ spaces during combat%' AND Exclusive='1'}}
+* [[Rein Passives]]
+* [[Skill families/C Passives#Hold|Hold Passives]]
+{{Passives Navbox|C}}

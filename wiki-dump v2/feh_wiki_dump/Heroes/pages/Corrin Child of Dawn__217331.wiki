@@ -1,0 +1,85 @@
+{{#invoke:NameAbout|main|Name=Corrin}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Corrin
+|Title=Child of Dawn
+|WeaponType=Green Breath
+|MoveType=Infantry
+|Person=Corrin M
+|Origin=Fire Emblem Fates
+|Gender=Male
+|LegendaryEffect=Fire
+|BoostHP=3
+|BoostSpd=3
+|Duel=205
+|actorEN=Cam Clarke
+|actorJP=島﨑信長
+|artist=п猫Ｒ
+|additionDate=May 31, 2024
+|releaseDate=May 31, 2024
+|cv1=11
+|cv2=100100
+|TagID=伝承カムイ男
+|InternalID=1101
+|Properties=legendary
+|description=A Hoshidan prince raised in Nohr. Guided by destiny, he fought against Garon, the king of Nohr, alongside his companions. Appears in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=7|Lv1SPD=7|Lv1DEF=5|Lv1RES=11
+|GRHP=50|GRATK=75|GRSPD=90|GRDEF=50|GRRES=80
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire Breath
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Fire Breath+
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Flametongue
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Hoshido's Breath
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Dragon Fang
+|special2Unlock=4
+|special3=Dragon Fang Shot
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Spd/Res Finish 1
+|passiveA2=Spd/Res Finish 2
+|passiveA3=Spd/Res Finish 3
+|passiveA4=Spd/Res Finish 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Dragon Wall 1
+|passiveB2=Dragon Wall 2
+|passiveB3=Dragon Wall 3
+|passiveB4=High Dragon Wall
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Res Ploy 1
+|passiveC2=Res Ploy 2
+|passiveC3=Res Ploy 3
+|passiveC4=Atk/Res Ploy 3
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}

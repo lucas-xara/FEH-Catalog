@@ -1,0 +1,41 @@
+{{Weapon Infobox
+|tagid=SID_スイカ割りの棍棒
+|weaponType=Axe
+|weaponName={{PAGENAME}}
+|might=10
+|range=1
+|effect=At start of combat, if unit's HP = 100%, grants Atk/Spd/Def/Res+2, but after combat, if unit attacked, deals 2 damage to unit.
+|cost=200
+|exclusive=0
+|statModifiers=0,10,0,0,0
+|next=Melon Crusher+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Axe
+|properties=
+}}
+==Notes==
+* The 100% HP requirement applies to the Atk/Spd/Def/Res +2 as well as the 2 damage after combat.
+{{IfUnitAttacked}}
+** It drains 2 HP from its wielder when they counterattack, so long as they were at full health at the start of combat. It will NOT drain 2 HP if they don't counterattack and just take the hit however.
+{{Combat boosts}}
+{{DamageToUnit}}
+
+==List of owners==
+{{Skill Hero List}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=スイカ割りの棍棒
+|german=Melonenspalter
+|spanishEU=Partesandías
+|spanishLA=Partesandías
+|french=Brise-pastèque
+|italian=Tagliamelone
+|chineseTW=打西瓜的棍棒
+|portuguese=Abremelancia
+}}
+==See also==
+* [[Ylissean Summer Weapons]]
+{{Weapons Navbox}}
+[[Category:Ylissean Summer weapons]]

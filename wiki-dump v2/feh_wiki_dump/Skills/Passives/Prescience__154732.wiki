@@ -1,0 +1,77 @@
+{{Passive
+|name=Prescience
+|type=B
+|exclusive=1
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|1effect=Inflicts Atk/Res-5 on foe during combat. If unit initiates combat or if foe's Range = 2, reduces damage from foe's first attack by 30%.
+|intID=2714
+|sort=585
+|value=8
+|timingID=1
+|abilityID=303
+|randomTimestamp=2021-10-01T07:00:00Z
+|randomMinLv=31
+|properties=random_owner
+|1name=Prescience
+|1tagid=SID_未来を知る力
+|1required=-
+|1next=-
+|2name=Prescience II
+|2tagid=SID_未来を知る力・承
+|2effect=At start of turn, if any foes have the highest Atk, Spd, Def, or Res on the enemy team, inflicts【Sabotage】and【Panic】on those foes and inflicts -7 on the corresponding stat of those foes and foes within 2 spaces of those foes through their next actions.<br><br>Inflicts Atk/Spd/Res-5 on foe, inflicts penalty on foe's Spd/Res = highest total penalties among target and foes within 2 spaces of target, reduces damage from foe's attacks by 30% (excluding area-of-effect Specials), and neutralizes effects that inflict "Special cooldown charge -X" on unit during combat.<br><br>【Sabotage】<br>Inflicts penalty on unit's Atk/Spd/Def/Res during combat = highest penalty on each stat between unit and allies within 2 spaces of unit through its next action. Calculates each stat penalty independently.<br><br>【Panic】<br>Converts bonuses on target into penalties through its next action.
+|2cost=300
+|properties2=
+|1cost=300
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Prescience}} Prescience
+|s1 Ce1={{Eft|Temporary debuffs|Atk/Res|5}}
+|s1 Ce1T={{Tgt|Foe}}
+|s1 Ce2={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s first attack
+|s1 Ce2C=Player Phase '''or'''<br>{{Tgt|Foe}}'s Range = 2
+|skill2={{Si|Prescience II}} Prescience II
+|s2 Se1={{Eft|Penalty|Atk|7}}, {{Eft|Penalty|Spd|7}},<br>{{Eft|Penalty|Def|7}}, {{Eft|Penalty|Res|7}}
+|s2 Se2={{SEt|Sabotage}}
+|s2 Se3={{SEt|Panic}}
+|s2 Se1T={{Tgt|Foes}} with the<br>highest of each stat<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}
+|s2 Se2-3T={{Tgt|Foes}} with the<br>highest of each stat
+|s2 SeC=At start of turn
+|s2 Ce1={{Eft|Temporary debuffs|Atk/Spd/Res|5}}
+|s2 Ce2={{Eft|Temporary debuffs|Spd/Res|highest {{SEt|Penalties}}<br>on {{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]] of {{Tgt|Target Foe}}}}
+|s2 Ce1-2T={{Tgt|Foe}}
+|s2 Ce3={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s attacks
+|s2 Ce4={{Eft|Neutralize Guard}}
+}}
+==Notes==
+{{Temporary debuffs}}
+{{IfUnitInitiates}}
+{{DamagePercentageReduction}}
+{{Penalties|name=Prescience II}}
+{{Sabotage|name=Prescience II}}
+{{Panic|name=Prescience II}}
+{{SelectStat|name=Prescience II}}
+{{TemporaryDebufffromPenalty|multiSource=1|source=the target and foes [[within 2 spaces]] of target|name=Prescience II}}
+{{CooldownChargeMinusNeutralization|name=Prescience II}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=未来を知る力
+|german=Zukunftsblick
+|spanishEU=Presagio
+|spanishLA=Presagio
+|french=Prémonition
+|italian=Preveggenza
+|chineseTW=知曉未來的力量
+|portuguese=Presságio
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%inflicts Atk/Res-%reduces damage from foe_s first attack%' OR Description LIKE '%highest%penalt%target and foes within _ spaces of target%' OR Description LIKE '%total penalt%foe%within _ spaces of target%') AND Exclusive='1'}}
+* [[Chill Passives]]
+* [[Sabotage Passives]]
+* [[Skill families/Weapons#Vulture|Vulture Weapons]]
+{{Passives Navbox|B}}

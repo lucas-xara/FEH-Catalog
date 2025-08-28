@@ -1,0 +1,52 @@
+{{Weapon Infobox
+|tagid=SID_フォルブレイズ
+|weaponType=Red Tome
+|weaponName={{PAGENAME}}
+|might=14
+|range=2
+|effect=At start of turn, inflicts Res-7 on foe on the enemy team with the highest Res through its next action.
+|cost=400
+|exclusive=1
+|userVersion1=Closed|userVersion2=Open|userVersion3=Gleam Closed|userVersion4=Gleam Open|statModifiers=0,14,0,0,0
+|required=-
+|SE=se_effect_forblaze.flac
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If unit initiates combat, grants Atk+6 during combat.
+|iconSkill1=Death Blow W.png
+|tagidExtraSkill1=鬼
+|properties=
+}}
+==Notes==
+* Has the same effect as {{Pt|Chill Res 3}}.
+{{Penalties}}
+{{SelectStat|Res}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+* The upgraded version of Forblaze listed first has the same effect as {{Pt|Death Blow 3}}.
+{{IfUnitInitiates}}
+{{Combat boosts}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+v2.4_49_thrace01_Mag.png|Sprite sheet for the animations of {{PAGENAME}} and {{St|Thunderhead}}.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=フォルブレイズ
+|german=Fegefeuer
+|spanishEU=Forblaze
+|spanishLA=Forblaze
+|french=Forblaze
+|italian=Vampa
+|chineseTW=弗魯布雷茲
+|portuguese=Forblaze
+}}
+==See also==
+{{See also skills|cond=WikiName LIKE '%forblaze%' OR (Description LIKE '%at start of turn, inflicts Res-%enemy team%' OR Description LIKE '%if unit initiates combat, grants%Atk+_ during combat%') AND Exclusive='1'|columns=3}}
+* [[Chill Passives]]
+{{Weapons Navbox}}

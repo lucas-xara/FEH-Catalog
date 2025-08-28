@@ -1,0 +1,36 @@
+{{About|the [[Special]] skill Fire Emblem|other uses|Fire Emblem (Disambiguation)}}
+{{Special
+|tagid=SID_炎の紋章
+|charge=2
+|effect=Boosts damage by 30% of unit's Spd. Grants Atk/Spd/Def/Res+4 to unit and all allies for 1 turn after combat. (Bonus granted to allies even if unit's HP reaches 0.)
+|cost=500
+|exclusive=1
+|required=Draconic Aura
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_owner,offensive_special
+}}
+==Notes==
+{{DamageBoost}}
+{{Bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+Special_Fire_Emblem.webm|Fire Emblem's Special trigger animation
+v2.8_5_582_legend08_Skl.png|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=炎の紋章
+|german=Fire Emblem
+|spanishEU=Sello de Llamas
+|spanishLA=Sello de Llamas
+|french=Emblème du feu
+|italian=Emblema Fuoco
+|chineseTW=火焰紋章
+|portuguese=Selo de Fogo
+|spanishEUNotes=''Flame Seal''|spanishLANotes=''Flame Seal''|portugueseNotes=''Fire Seal''}}
+==See also==
+{{See also skills|cond=SCategory='special' AND Exclusive='1' AND Description LIKE '%Boosts%damage by __% of unit_s Spd%'|columns=3}}
+{{Specials Navbox}}

@@ -1,0 +1,46 @@
+{{Special
+|tagid=SID_ノヴァの聖戦士・承
+|intID=3421
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=3
+|effect=At the start of turn 1, grants Special cooldown count-1. If unit initiates combat and Special is triggered, grants unit another action after combat. (Activates after combat where Special is triggered. Once per turn.) When Special triggers, inflicts "restricts movement to 1 space" on unit and Pair Up cohort through their next action.
+|required=Njörun's Zeal
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Reduce Cooldown|1}}
+|Me1C=At start of turn 1
+|Me2={{Eft|Another Action}}
+|Me2C=After combat<br>in Player Phase<br>'''&''' Special is ready
+|Se={{SEt|Gravity}}
+|SeT={{Tgt|Unit}} '''&'''<br>{{Tgt|Cohort}}
+|SeC=After combat in<br>Player Phase if <br>{{Eft|Another Action}}<br>effect triggered
+}}
+
+==Notes==
+* Njörun's Zeal II has the same effect as {{St|Quickened Pulse}}.
+{{Start of turn Special modification}}
+{{Galeforce notes}}
+{{Gravity}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ノヴァの聖戦士・承
+|german=Njöruns Eifer II
+|spanishEU=Fervor Njörun II
+|spanishLA=Fervor Njörun II
+|french=Ferveur Njörun II
+|italian=Fervore Njörun II
+|chineseTW=諾華的聖戰士・承
+|portuguese=Ardor de Njörun II
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=SCategory='special' AND Description LIKE '%at the start of turn 1, grants special cooldown count-_%' OR Description LIKE '%if unit initiates%after combat%another action to unit%' OR  Description LIKE '%if unit initiates%another action to unit%after combat%' AND Description NOT LIKE '%if unit initiates%assist%another action%' OR Description LIKE '%if unit initiates%grants unit another action%after combat%'}}
+{{Specials Navbox}}

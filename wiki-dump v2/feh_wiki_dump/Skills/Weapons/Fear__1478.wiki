@@ -1,0 +1,41 @@
+{{Weapon Infobox
+|tagid=SID_フィアー
+|weaponType=Staff
+|weaponName={{PAGENAME}}
+|might=5
+|range=2
+|effect=After combat, if unit attacked, inflicts Atk-6 on foe through its next action.
+|cost=150
+|exclusive=0
+|statModifiers=0,5,0,0,0
+|next=Fear+
+|promotionRarity=5
+|promotionTier=2
+|required=Assault
+|properties=random_all
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se={{Eft|Penalties|Atk|6}}
+|SeT={{Tgt|Foe}}
+|SeC=After combat if<br>{{Tgt|Unit}} attacked
+}}
+==Notes==
+{{IfUnitAttacked}}
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=フィアー
+|german=Angst
+|spanishEU=Terror
+|spanishLA=Miedo
+|french=Terreur
+|italian=Paura
+|chineseTW=恐懼
+|portuguese=Pavor
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit attacked%inflicts%Atk%-%next action%' AND Description NOT LIKE '%but after combat%' AND Description NOT LIKE '%after combat%on unit%' AND Description NOT LIKE '%【Triangle Adept】%' AND Exclusive='1'}}
+{{Weapons Navbox}}

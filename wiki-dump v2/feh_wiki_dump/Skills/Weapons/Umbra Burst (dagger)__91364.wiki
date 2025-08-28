@@ -1,0 +1,45 @@
+{{Weapon Infobox
+|tagid=SID_影没の波動・暗
+|wikiName=Umbra Burst (dagger)
+|weaponName=Umbra Burst
+|weaponType=Dagger
+|might=14
+|range=2
+|effect=Unit can counterattack regardless of foe's range. Deals a minimum of 1 damage.<br>Effect:【Dagger ７】<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|cost=0
+|exclusive=0
+|statModifiers=0,14,0,0,0
+|required=-
+|properties=enemy_only
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Close Counter}}
+|Ce2={{Efi|Damage Boost}} Deals minimum 1 damage
+|Se={{Eft|Penalties|Def/Res|7}}
+|SeT={{Tgt|Target Foe}} & {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|SeC=After combat if<br>{{Tgt|Unit}} attacked
+}}
+==Notes==
+{{Umbra Burst notes}}
+==Usage in Røkkr Sieges==
+{{Umbra Burst Hero List}}
+==Gallery==
+<gallery>
+File:Shadow v3.6 85 kakusei03.webp|Sprite sheet for [[:Category:Røkkr Sieges skills|Røkkr Sieges skills']] animations.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|english=Umbra Burst
+|japanese=影没の波動
+|german=Umbra-Stoß
+|spanishEU=Colisión sombría
+|spanishLA=Colisión sombría
+|french=Rafale sombre
+|italian=Boato notte
+|chineseTW=影沒之波動
+|portuguese=Maré umbra
+}}
+==See also==
+* [[Umbra Burst|Umbra Burst weapons]]
+{{Weapons Navbox}}

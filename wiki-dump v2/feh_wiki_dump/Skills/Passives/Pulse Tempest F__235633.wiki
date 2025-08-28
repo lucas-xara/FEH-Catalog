@@ -1,0 +1,51 @@
+{{Passive
+|name=Pulse Tempest F
+|type=C
+|exclusive=0
+|canUseWeapon={{WeaponList|Close}}
+|canUseMove={{MoveList|Infantry}}
+|properties=random_owner
+|1name=Pulse Tempest F
+|1tagid=SID_迅雷風烈・追撃鼓動
+|1effect=At start of turn, unit can move 1 extra space (that turn only; does not stack).<br><br>Grants bonus to unit's Atk/Spd/Def/Res during combat = number of spaces from start position to end position of whoever initiated combat (max 3), and also, if unit's attack can trigger unit's Special, grants Special cooldown count-2 to unit before unit's first follow-up attack.
+|1cost=300
+|1required=Odd Tempest 3;Even Tempest 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se={{SEt|Mobility Increased}}
+|SeC=At start of turn
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|spaces initiator moved|max=3}}
+|Ce2={{Eft|Reduce Cooldown|2}}<br>before {{Tgt|Unit}}'s [[follow-up]]
+|Ce2C={{Tgt|Unit}} has an<br>[[offensive Special]]
+}}
+
+==Notes==
+{{Mobility increased}}
+{{Temporary buffs}}
+{{SpacesFromStarttoEnd}}
+{{CombatCooldownCount|-2}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU= Pulso nevasca D
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+
+==See also==
+{{See also skills|cond=(Description LIKE '%unit can move 1 extra space% from start position to end position%' AND Description NOT LIKE '%transforms%' AND Description NOT LIKE '%inflict%【Stall】%' OR Description LIKE '%before unit_s first follow-up%') AND Exclusive='1'}}
+* [[Skill families/C Passives#Tempest|Tempest Passives]]
+* [[Clash Passives]]
+* [[Skill families/C Passives#Pulse On|Pulse On Passives]]
+{{Passives Navbox|C}}

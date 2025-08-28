@@ -1,0 +1,45 @@
+{{Weapon Infobox
+|tagid=SID_インキュアブル
+|intID=3635
+|image=wep_rd058
+|weaponType=Colorless Staff
+|cost=200
+|might=8
+|range=2
+|effect=Foe cannot recover HP during or after combat. After combat, if unit attacked, deals 7 damage to and inflicts【Deep Wounds】on target.<br><br>【Deep Wounds】<br>Unit's HP cannot be healed through its next action.
+|required=Assault
+|next=Incurable+
+|promotionRarity=5
+|promotionTier=2
+|properties=random_owner
+}}
+==Notes==
+{{Prevent healing}}
+{{IfUnitAttacked}}
+{{Out of combat damage}}
+{{Deep Wounds}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Gallery==
+<gallery>
+V7.6_v0706a_fuin_Rod.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=インキュアブル
+|german=Unheilbar
+|spanishEU=Incurable
+|spanishLA=Incurable
+|french=Incurable
+|italian=Incurabile
+|chineseTW=不癒
+|portuguese=Incurável
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%7 damage%to target%' OR Description LIKE '%【Deep Wounds】%' AND Description NOT LIKE '%reduces the effect of%【Deep Wounds】%'}}
+{{Weapons Navbox}}

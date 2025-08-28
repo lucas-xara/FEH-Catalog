@@ -1,0 +1,79 @@
+{{#invoke:NameAbout|main|Name=Mia}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Mia
+|Title= Moonlit Witch
+|GrowthModifier=Gen 2
+|WeaponType=Colorless Staff
+|MoveType=Flying
+|Origin=Fire Emblem: Radiant Dawn
+|Gender=Female
+|actorEN=Lani Minella
+|actorJP=浅川悠
+|artist=米山舞
+|additionDate=October 9, 2018
+|releaseDate=October 10, 2018
+|TagID=ハロワユ
+|InternalID=301
+|Properties=special,hat,tiara,specRate_202202
+|cv1=9
+|cv2=101100
+|description=A mercenary fighting to improve her sword skills. She can't wait to get to the harvest festival. Appears in Fire Emblem: Radiant Dawn.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=6|Lv1SPD=10|Lv1DEF=5|Lv1RES=6
+|GRHP=45|GRATK=55|GRSPD=55|GRDEF=40|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Assault
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Witchy Wand
+|weapon2Default=4
+|weapon2Unlock=3
+|weapon3=Witchy Wand+
+|weapon3Default=5
+|weapon3Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Heal
+|assist1Default=1
+|assist1Unlock=1
+|assist2=Mend
+|assist2Default=3
+|assist2Unlock=2
+|assist3=Recover
+|assist3Default=4
+|assist3Unlock=3
+|assist4=Recover+
+|assist4Default=5
+|assist4Unlock=5
+}}
+===Specials===
+{{Specials Table
+|special1=Imbue
+|special1Default=4
+|special1Unlock=2
+|special2=Heavenly Light
+|special2Default=5
+|special2Unlock=3
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Spd/Res Bond 1
+|passiveA2=Spd/Res Bond 2
+|passiveA3=Spd/Res Bond 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Hone Spd 1
+|passiveC2=Hone Spd 2
+|passiveC3=Hone Fliers
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Halloween units]]

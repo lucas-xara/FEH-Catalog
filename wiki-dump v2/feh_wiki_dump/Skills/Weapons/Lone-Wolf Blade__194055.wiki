@@ -1,0 +1,46 @@
+{{Weapon Infobox
+|tagid=SID_一匹狼の鋭剣
+|intID=3560
+|weaponNa
+|image=wep_sw150
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). If unit's HP ≥ 25% at start of turn, grants the following effect to unit at start of turn, or if unit's HP ≥ 25% at start of combat, grants the following effect to unit after combat: if unit's Special cooldown count is at its maximum value, grants Special cooldown count-2 to unit; if unit's Special cooldown count is at its maximum value - 1, grants Special cooldown count-1 to unit. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit during combat and reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by 30%, and also, if unit is not adjacent to an ally, inflicts Atk/Spd/Def-5 on foe during combat.
+|statModifiers=0,16,0,0,0
+|required=Silver Sword
+|properties=random_owner
+}}
+==Notes==
+{{Start of turn Special modification}}
+{{After combat Special modification}}
+{{Temporary buffs}}
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+{{Temporary debuffs}}
+
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+* Prior to {{Version|8.8}}, this weapon was called <b>Lone Wolf</b> in English. It was renamed because of the skill introduced in said update, {{St|Lone Wolf}}.
+
+==In other languages==
+{{OtherLanguages
+|japanese=一匹狼の鋭剣
+|german=Einsamer Wolf
+|spanishEU=Lobo solitario
+|spanishLA=Lobo solitario
+|french=Loup solitaire
+|italian=Lupo solitario
+|chineseTW=獨行俠的銳劍
+|portuguese=Lobo solitário
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%maximum value%Special cooldown count-1%' OR Description LIKE '%start of turn%Special cooldown count-1%maximum value%'}}
+* [[Pulse skills]]
+{{Weapons Navbox}}

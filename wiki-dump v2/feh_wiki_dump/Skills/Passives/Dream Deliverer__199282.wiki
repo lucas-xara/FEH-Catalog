@@ -1,0 +1,38 @@
+{{Passive
+|name=Dream Deliverer
+|type=C
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Dream Deliverer
+|1tagid=SID_人に安らかな夢を
+|1effect=At start of player phase or enemy phase, if unit is within 2 spaces of an ally, neutralizes any 【Penalty】that takes effect on unit or allies within 2 spaces of unit at this time. At start of turn, if unit is within 2 spaces of an ally, grants Def/Res+6 and【Resonance: Shields】to unit and allies within 2 spaces of unit for 1 turn. If unit is within 3 spaces of an ally, grants Def/Res+4 to unit and inflicts Special cooldown charge -1 on foe per attack during combat (only highest value applied; does not stack).<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).<br><br>【Resonance: Shields】<br>Grants Def/Res+4 during combat and the following effect for 1 turn: "During unit's first combat in player phase or enemy phase, foe cannot make a follow-up attack."
+|1cost=300
+|1required=-
+}}
+==Notes==
+{{Penalty neutralization|negstatuses=all {{Kp|Penalty}} effects}}
+{{Bonuses}}
+{{Resonance: Shields}}
+{{Temporary buffs}}
+{{CooldownChargeMinus}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=人に安らかな夢を
+|german=Traumbescherer
+|spanishEU=Portasueños
+|spanishLA=Portasueños
+|french=Porteur de rêves
+|italian=Donatore di sogni
+|chineseTW=賜予人類安寧之夢
+|portuguese=Portassonhos
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【Resonance: Shields】%' OR Description LIKE '%at start of turn%grants Def/Res+%to unit and allies%' OR (Description LIKE '%At start of%neutralizes any【Penalty】%' OR Description LIKE '%if unit is within _ spaces of an ally%grants %/%+%inflicts Special cooldown charge -1%') AND Exclusive='1' AND Name NOT LIKE 'Protection%'}}
+* [[Skill families/C Passives#Recovery|Recovery Passives]]
+* [[Skill families/Weapons#Protection|Protection Weapons]]
+{{Passives Navbox|C}}

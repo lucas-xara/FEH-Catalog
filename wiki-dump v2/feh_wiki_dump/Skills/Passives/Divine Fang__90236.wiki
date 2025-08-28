@@ -1,0 +1,39 @@
+{{About|the skill|the Tactics Drill|Skill Studies 53: Divine Fang}}{{Passive
+|name=Divine Fang
+|type=C
+|exclusive=1
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|1name=Divine Fang
+|1tagid=SID_神竜王の牙
+|1effect=At start of turn, grants "effective against dragons" to adjacent allies for 1 turn.
+|1next=-
+|1cost=300
+|2name=Divine Fang+
+|alt2name=Divine Fang Plus
+|2tagid=SID_神竜王の牙・神
+|2cost=300
+|2effect=At start of turn, grants "effective against dragons" to adjacent allies for 1 turn. At start of turn, if unit is within 2 spaces of an ally, grants Atk/Spd+6 and the following status to unit and allies within 2 spaces of unit for 1 turn: "If unit initiates combat, unit makes a guaranteed follow-up attack."
+|properties=random_owner
+}}
+==Notes==
+{{Effective against dragons}}
+{{Bonuses|name=Divine Fang+}}
+{{Guaranteed Follow-Ups|name=Divine Fang+}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=神竜王の牙
+|german=Heiliger Fangzahn
+|spanishEU=Colmillo divino
+|spanishLA=Colmillo divino
+|french=Croc divin
+|italian=Zanna divina
+|chineseTW=神龍王之牙
+|portuguese=Presa divina
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants%"effective against dragons"%for 1 turn%' OR Description LIKE '%"If unit initiates combat, unit makes a guaranteed follow-up attack."%' OR Description LIKE '%if unit is within _ spaces of an ally%grant%to unit and allies within _ spaces%'|columns=3}}
+* [[Skill families#Oath|Oath Passives]]
+{{Passives Navbox|C}}

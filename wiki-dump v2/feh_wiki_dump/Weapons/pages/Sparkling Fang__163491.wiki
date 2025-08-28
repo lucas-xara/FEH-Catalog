@@ -1,0 +1,35 @@
+{{Weapon Infobox
+|tagid=SID_賀正の妹猫の爪牙
+|intID=2896
+|exclusive=1
+|weaponType=Beast
+|canUseMove=Cavalry
+|cost=400
+|might=14
+|range=1
+|effect=Grants Spd+3. At start of combat, if foe's HP ≥ 75%, grants Atk/Spd+6 to unit during combat, and also, if unit's Spd > foe's Spd, grants Special cooldown charge +1 per unit's attack (only highest value applied; does not stack) and deals +5 damage to foe per unit's attack, including when dealing damage with a Special triggered before combat.<br><br>At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack.
+|statModifiers=0,14,3,0,0
+|required=Adult (Cavalry)
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+{{CooldownChargePlus|perAttack=user}}
+{{FixedDamage|5}}
+{{Beast (Cavalry)}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=賀正の妹猫の爪牙
+|german=Funkelnder Zahn
+|spanishEU=Colmillo brillante
+|spanishLA=Colmillo brillante
+|french=Croc étincelant
+|italian=Zanna sfavillante
+|chineseTW=賀年貓妹的爪牙
+|portuguese=Presa lustrosa
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe\'s HP ≥ 75\%, grants Atk/Spd+%during combat%' OR Description LIKE '%including when dealing damage with a Special triggered before combat%'|columns=3}}
+{{Weapons Navbox}}

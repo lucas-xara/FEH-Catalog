@@ -1,0 +1,63 @@
+{{Weapon Infobox
+|tagid=SID_フェンサリル
+|weaponType=Lance
+|weaponName=Fensalir
+|might=16
+|range=1
+|effect=At start of turn, inflicts Atk-4 on foes within 2 spaces through their next actions.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Silver Lance
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Neutralizes foes' bonuses (from skills like Fortify, Rally, etc.) during combat.
+|effectSkill1=If unit is adjacent to an ally, grants Spd/Def+5 during combat.
+|iconSkill1=Spd Def Bond W.png
+|tagidExtraSkill1=絆
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|skill1 StatusEffect={{Eft|Penalties|Atk|4}}
+|skill1 StatusEffect Targets={{Tgt|Foes}}<br>[[within 2 spaces]]
+|skill1 StatusEffect Conditions=At start of turn
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|skill2 CombatEffect={{Eft|Neutralize Bonus}}
+|skill2 CombatEffect Targets={{Tgt|Foe}}
+|skill3={{Si|Fensalir|refine=Skill1}} Skill refine effects
+|skill3 CombatEffect 1={{Eft|Temporary buffs|Spd/Def|5}}
+|skill3 CombatEffect 1 Conditions={{Tgt|Unit}} is [[adjacent]]<br>to an {{Tgt|Ally}}
+}}
+
+==Notes==
+* Fensalir has the same effect as {{St|Threaten Atk 2}}.
+{{Penalties}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Bonus neutralization|name=refined Fensalir}}
+* {{St|Fensalir|refine=Skill1}} has the same effect as {{St|Spd/Def Bond 3}}.
+{{Temporary buffs|name={{St|Fensalir|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=フェンサリル
+|german=Fensalir
+|spanishEU=Fensalir
+|spanishLA=Fensalir
+|french=Fensalir
+|italian=Fensalir
+|chineseTW=芬薩里爾
+|portuguese=Fensalir
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%Neutralizes foe% bonuses (from%' AND Name NOT LIKE '%+' OR Description LIKE '%if unit is adjacent to an ally%grants%during combat%') AND Exclusive=1}}
+* [[Threaten Passives]]
+* [[Dull Passives]]
+* [[Bond Passives]]
+{{Weapons Navbox}}

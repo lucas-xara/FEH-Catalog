@@ -1,0 +1,38 @@
+{{Weapon Infobox
+|tagid=SID_共闘の剣
+|intID=3100
+|image=wep_sw131
+|exclusive=0
+|weaponType=Sword
+|cost=200
+|might=10
+|range=1
+|effect=Grants Atk/Def+4 to allies within 2 spaces during combat. If unit is within 2 spaces of an ally, grants Atk/Def+4 to unit during combat.
+|statModifiers=0,10,0,0,0
+|required=Steel Sword
+|next=Allied Sword+
+|promotionRarity=5
+|promotionTier=1
+|properties=random_owner
+}}
+==Notes==
+{{Combat boosts}}
+{{AlliesCombatEffect}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=共闘の剣
+|german=Bündnisschwert
+|spanishEU=Espada aliada
+|spanishLA=Espada aliada
+|french=Épée alliée
+|italian=Spada alleata
+|chineseTW=共鬥之劍
+|portuguese=Espada aliada
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%grants%/%+%to allies within _ spaces%if unit is within _ spaces of an ally%grants%/%+%during combat%' OR Description LIKE '%if unit is within _ spaces of an ally%grants%/%+%to unit and allies%during combat%') AND WikiName NOT LIKE '%allied%'|columns=3}}
+* [[Skill families#Allied|Allied Weapons]]
+* [[Joint Drive Passives]]
+{{Weapons Navbox}}

@@ -1,0 +1,51 @@
+{{Weapon Infobox
+|tagid=SID_白夜忍の和弓＋
+|intID=3860
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=0
+|weaponType=Bow
+|cost=300
+|might=7
+|range=2
+|effectiveness=Flying
+|effect=Effective against flying foes. Unit can move to a space adjacent to any ally within 2 spaces. If unit initiates combat, unit attacks twice. At start of combat, if foe's HP ≥ 75%, grants Atk/Spd/Def/Res+4 to unit during combat.
+|required=Kumo Yumi
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|MapEffect={{Eft|Warp|[[adjacent]] to an {{Tgt|Ally}}<br>[[within 2 spaces]]}}
+|CombatEffect 1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|CombatEffect 2={{Eft|Attack Twice}}
+|CombatEffect 2 Conditions=Player Phase
+|CombatEffect 3={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|CombatEffect 3 Conditions={{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+}}
+
+==Notes==
+{{Effective damage bonus|flying}}
+{{Warp interaction}}
+{{Temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=白夜忍の和弓＋
+|german=Kumo Yumi+
+|spanishEU=Yumi Kumo +
+|spanishLA=Yumi Kumo +
+|french=Yumi Kumo +
+|italian=Kumo Yumi+
+|chineseTW=白夜忍之和弓＋
+|portuguese=Yumi Kumo+
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%unit can move to a%space%ally%within 2 spaces%' AND Description NOT LIKE '%grants%status%to adjacent%allies%' AND Description NOT LIKE '%"unit can move%') AND (Exclusive='1' OR Description LIKE '%unit attacks twice%' AND SP=300)}}
+* [[Warp Passives]]
+* [[Brave Weapons]]
+{{Weapons Navbox}}

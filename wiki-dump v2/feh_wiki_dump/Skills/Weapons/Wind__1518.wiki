@@ -1,0 +1,36 @@
+{{Weapon Infobox
+|tagid=SID_ウインド
+|weaponType=Green Tome
+|weaponName={{PAGENAME}}
+|might=4
+|range=2
+|effect=
+|cost=50
+|exclusive=0
+|userVersion1=Closed|userVersion2=Open|statModifiers=0,4,0,0,0
+|next=Elwind
+|promotionRarity=3
+|promotionTier=1
+|required=-
+|SE=se_effect_wind.flac
+|properties=random_all
+}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=ウインド
+|german=Wind
+|spanishEU=Viento
+|spanishLA=Viento
+|french=Vent
+|italian=Vento
+|chineseTW=烈風
+|portuguese=Vento
+}}
+==See also==
+* [[Iron Weapons]]
+{{Weapons Navbox}}
+[[Category:Iron weapons]]

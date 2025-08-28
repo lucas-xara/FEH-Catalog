@@ -1,0 +1,82 @@
+{{#invoke:NameAbout|main|Name=Camilla}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Camilla
+|Title=Light of Nohr
+|GrowthModifier=Gen 4
+|WeaponType=Colorless Staff
+|Origin=Fire Emblem Fates
+|Gender=Female
+|MoveType=Flying
+|actorJP=沢城みゆき
+|actorEN=Misty Lee
+|artist=コザキユースケ
+|resplendentArtist=麦うさぎ
+|additionDate=August 16, 2019
+|releaseDate=August 16, 2019
+|poolDate=September 6, 2019
+|poolRarities=5
+|TagID=総選挙カミラ
+|InternalID=414
+|Properties=brave,specRate_202202,resplendent,hel
+|cv1=11
+|cv2=500500
+|description=Camilla from a world where she takes the throne as Queen of Nohr. Rules with both strength and compassion. Loved and supported by all her subjects. Appears in Fire Emblem Fates.
+|resplendentStartTime=2025-01-10T07:00:00Z
+|resplendentEndTime=2025-01-25T06:59:59Z
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=9|Lv1SPD=9|Lv1DEF=4|Lv1RES=6
+|GRHP=50|GRATK=55|GRSPD=65|GRDEF=40|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Assault
+|weapon1Default=
+|weapon1Unlock=1
+|weapon2=Sanngriðr
+|weapon2Default=
+|weapon2Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Heal
+|assist1Default=1
+|assist1Unlock=1
+|assist2=Reconcile
+|assist2Default=3
+|assist2Unlock=2
+|assist3=Restore
+|assist3Default=4
+|assist3Unlock=3
+|assist4=Restore+
+|assist4Default=5
+|assist4Unlock=5
+}}
+===Specials===
+{{Specials Table
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Push 1
+|passiveA2=Atk/Spd Push 2
+|passiveA3=Atk/Spd Push 3
+|passiveA4=Atk/Spd Push 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Wrathful Staff 1
+|passiveB2=Wrathful Staff 2
+|passiveB3=Wrathful Staff 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Atk Tactic 1
+|passiveC2=Atk Tactic 2
+|passiveC3=Atk Tactic 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

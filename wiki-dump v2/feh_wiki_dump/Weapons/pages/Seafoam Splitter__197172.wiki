@@ -1,0 +1,47 @@
+{{Weapon Infobox
+|tagid=SID_蒼海割る裂帛の斧
+|intID=3643
+|image=wep_ax132
+|exclusive=1
+|weaponType=Axe
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of turn, if number of allies adjacent to unit ≤ 2, grants "unit can move 1 extra space" to unit (that turn only; does not stack). At start of combat, if unit's HP ≥ 25%, inflicts Atk/Def-6 on foe, grants Special cooldown charge +1 to unit per attack (only highest value applied; does not stack), and reduces damage from foe's first attack by 40% during combat.
+|required=Silver Axe
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Se={{SEt|Mobility Increased}}
+|SeC=At start of turn if<br>[[Adjacent]] {{Tgt|Allies}} ≤ 2
+|Ce1={{Eft|Temporary debuffs|Atk/Def|6}}
+|Ce1T={{Tgt|Foe}}
+|Ce2={{Eft|Accelerate Charge}}
+|Ce3={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s first attack
+|CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{Mobility increased}}
+{{Temporary debuffs}}
+{{CooldownChargePlus}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=蒼海割る裂帛の斧
+|german=Wellenbrecher
+|spanishEU=Hacha rompeolas
+|spanishLA=Hacha rompeolas
+|french=Hache de mer
+|italian=Ascia di mare
+|chineseTW=二分蒼海的裂帛之斧
+|portuguese=Divisor de mares
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%unit can move 1 extra space%' AND Description NOT LIKE '%if unit transforms%move 1 extra space%' AND Description NOT LIKE '%excluding%1 extra space%' AND Description NOT LIKE '%inflict%【Stall】%') AND Exclusive='1'}}
+* [[Skill families/C Passives#Alarm|Alarm Passives]]
+{{Weapons Navbox}}

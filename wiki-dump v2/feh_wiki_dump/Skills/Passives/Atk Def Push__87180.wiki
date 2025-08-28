@@ -1,0 +1,73 @@
+{{SkillPage Tabs}}{{Passive
+|name=Atk/Def Push
+|type=A
+|exclusive=0
+|1name=Atk/Def Push 1
+|1tagid=SID_攻撃守備の渾身1
+|1promotionRarity=4
+|1promotionTier=1
+|alt1name=Atk Def Push 1
+|1effect=At start of combat, if unit's HP = 100%, grants Atk/Def+3, but if unit attacked, deals 1 damage to unit after combat.
+|1required=-
+|1cost=60
+|2name=Atk/Def Push 2
+|2tagid=SID_攻撃守備の渾身2
+|2promotionRarity=5
+|2promotionTier=1
+|alt2name=Atk Def Push 2
+|2effect=At start of combat, if unit's HP = 100%, grants Atk/Def+4, but if unit attacked, deals 1 damage to unit after combat.
+|2cost=120
+|3name=Atk/Def Push 3
+|3tagid=SID_攻撃守備の渾身3
+|alt3name=Atk Def Push 3
+|3effect=At start of combat, if unit's HP = 100%, grants Atk/Def+5, but if unit attacked, deals 1 damage to unit after combat.
+|3cost=240
+|3next=-
+|4name=Atk/Def Push 4
+|4tagid=SID_攻撃守備の渾身4
+|alt4name=Atk Def Push 4
+|4effect=At start of combat, if unit's HP ≥ 25%, grants Atk/Def+7, but if unit attacked, deals 5 damage to unit after combat.
+|4cost=300
+|canUseWeapon={{WeaponList|all}}
+|canUseMove={{MoveList|all}}
+|properties=random_owner
+}}
+==Notes==
+{{Combat boosts}}
+{{IfUnitAttacked}}
+{{DamageToUnit}}
+
+==List of owners==
+{{Skill Hero List}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Atk/Def Push 1;Atk/Def Push 2;Atk/Def Push 3
+|badgeColor=Verdant
+|costs1=20;100;20
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|english=Atk/Def Push
+|japanese=攻撃守備の渾身
+|german=Angr./Ver.-Zug
+|spanishEU=Empuje Ata/Def
+|spanishLA=Emp. Atq./Def.
+|french=Effort Atq/Déf
+|italian=Slancio Att/Dif
+|chineseTW=攻擊防守的奮擊
+|portuguese=Atq./Def. pulso
+}}
+==See also==
+*
+{{Seals Navbox}}
+{{Passives Navbox|A}}

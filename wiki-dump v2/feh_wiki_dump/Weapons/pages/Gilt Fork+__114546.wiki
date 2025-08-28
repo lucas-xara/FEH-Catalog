@@ -1,0 +1,39 @@
+{{Weapon Infobox
+|tagid=SID_黄金のフォーク＋
+|weaponType=Lance
+|might=14
+|range=1
+|effect=If unit is within 2 spaces of an ally, grants Atk/Def+5 to unit and neutralizes unit's penalties to Atk/Def during combat.
+|cost=300
+|exclusive=0
+|statModifiers=0,14,0,0,0
+|required=Gilt Fork
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+{{Penalty neutralization}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Gilt Fork+
+|japanese=黄金のフォーク＋
+|german=Goldene Gabel+
+|spanishEU=Tenedor dorado +
+|spanishLA=Tenedor dorado +
+|french=Fourchette d'or +
+|italian=Forcone dorato+
+|chineseTW=黃金叉子＋
+|portuguese=Garfo de ouro+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If unit is within%spaces of an ally%grants%/%+%neutralizes unit_s penalties%' AND WikiName NOT LIKE '%steadfast%'|columns=3}}
+* [[Skill families#Steadfast|Steadfast Weapons]]
+{{Weapons Navbox}}

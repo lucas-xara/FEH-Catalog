@@ -1,0 +1,87 @@
+{{Weapon Infobox
+|tagid=SID_万雷の書
+|weaponType=Blue Tome
+|might=14
+|range=2
+|effect=Grants Spd+3. At start of combat, if foe's HP ≥ 75%, grants Atk/Spd+5 to unit during combat and neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat.
+|cost=400
+|exclusive=1
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|statModifiers=0,14,3,0,0
+|required=Thoron
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Spd+3.<br><br>If unit initiates combat or if foe's HP ≥ 75% at start of combat, grants bonus to unit's Atk/Spd = 6 + 15% of unit's Spd at start of combat, neutralizes foe's bonuses to Spd/Res, and neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat, and also, if unit's Spd > foe's Spd, foe cannot counterattack.
+|refineStatsSkill1=0,0,0,0,0
+|effectSkill1=Enables【Canto (１)】.<br><br>At start of turn, if unit's HP ≥ 25%, inflicts Spd/Res-7 and【Exposure】on closest foes and foes within 2 spaces of those foes through their next actions.<br><br>At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+6 to unit during combat and deals damage = 20% of unit's Spd (excluding area-of-effect Specials).<br><br>【Canto (１)】<br>After an attack, Assist skill, or structure destruction, unit can move １ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)<br><br>【Exposure】<br>Foe's attacks deal +10 damage.
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Spd|3}}
+|s1 Ce1={{Eft|Temporary buffs|Atk/Spd|5}}
+|s1 Ce2={{Eft|Neutralize Prevent Follow-Ups}}
+|s1 Ce3={{Eft|Neutralize Guaranteed Follow-Ups}}
+|s1 Ce3T={{Tgt|Foe}}
+|s1 CeC={{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Spd|3}}
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd|15% of {{Tgt|Unit}}'s Spd<br>at start of combat, +5}}
+|s2 Ce2={{Eft|Neutralize Prevent Follow-Ups}}
+|s2 Ce3={{Eft|Neutralize Bonuses|Spd/Res}}
+|s2 Ce4={{Eft|Neutralize Guaranteed Follow-Ups}}
+|s2 Ce3-5T={{Tgt|Foe}}
+|s2 Ce1-4C=Player Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|s2 Ce5={{Eft|Prevent Counter}}
+|s2 Ce5C={{Eft|Neutralize Bonuses|Spd/Res<br>}} conditions<br>'''&''' {{Tgt|Unit}}'s Spd<br>> {{Tgt|Foe}}'s Spd
+|skill3={{Si|Tome of Storms|refine=Skill1}} Skill refine effects
+|s3 Me={{Eft|Canto|1}}
+|s3 Se1={{Eft|Penalties|Spd/Res|7}}
+|s3 Se2={{SEt|Exposure}}
+|s3 SeT=Closest {{Tgt|Foes}}<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}
+|s3 SeC=At start of turn<br>{{Tgt|Unit}}'s HP ≥ 25%
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd|6}}
+|s3 Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|s3 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{Follow-up effect neutralization}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{At start of combat|name=Refined Tome of Storms}}
+{{Bonus neutralization|name=Refined Tome of Storms}}
+{{Prevent counterattacks|name=Refined Tome of Storms}}
+{{Canto|1|name={{St|Tome of Storms|refine=Skill1}}}}
+{{Penalties|name={{St|Tome of Storms|refine=Skill1}}}}
+{{Exposure|name={{St|Tome of Storms|refine=Skill1}}}}
+{{DamageBoost|name={{St|Tome of Storms|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V5.0_201201_nisaveril_Mag.webp|Sprite sheet for {{St|Tome of Favors}} and {{PAGENAME}}'s animations.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=万雷の書
+|german=Buch der Stürme
+|spanishEU=Grimor. tormenta
+|spanishLA=Grimor. tormenta
+|french=Tome tempête
+|italian=Tomo tempesta
+|chineseTW=萬雷之書
+|portuguese=Tomo temporal
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%neutralizes effects%guarantee foe_s follow-up%prevent unit_s follow-up attacks%foe cannot counterattack%' OR Description LIKE '%foe cannot counterattack%neutralizes effects%guarantee foe_s follow-up%prevent unit_s follow-up attacks%' OR Description LIKE '%at start of turn%inflicts%/%-%【%】%est foes and foes within _ spaces of those foes%'}}
+* [[Skill families/B Passives#Sweep|Sweep Passives]]
+{{Weapons Navbox}}

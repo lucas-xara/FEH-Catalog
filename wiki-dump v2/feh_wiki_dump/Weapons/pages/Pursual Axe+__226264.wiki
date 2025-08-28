@@ -1,0 +1,50 @@
+{{Weapon Infobox
+|tagid=SID_追撃の斧＋
+|intID=4462
+|image=wep_ax165
+|exclusive=0
+|weaponType=Axe
+|cost=300
+|might=14
+|range=1
+|effect=If unit initiates combat or is within 2 spaces of an ally, grants Atk/Def+5 to unit during combat and unit makes a guaranteed follow-up attack.
+|required=Pursual Axe
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary buffs|Atk/Def|5}}
+|Ce2={{Eft|Guaranteed Follow-Ups}}
+|CeC=Player Phase<br>'''or''' an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Guaranteed follow-up interaction}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If unit initiates combat or is within _ spaces of an ally%Atk/Def%+%guaranteed follow-up%' AND Exclusive='1' AND NAME NOT LIKE '%pursual%'}}
+* [[Skill families/Weapons#Pursual|Pursual Weapons]]
+{{Weapons Navbox}}

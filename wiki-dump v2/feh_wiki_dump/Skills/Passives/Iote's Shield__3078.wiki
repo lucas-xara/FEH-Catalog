@@ -1,0 +1,45 @@
+{{Passive
+|type=A
+|exclusive=0
+|1name=Iote's Shield
+|1tagid=SID_アイオテの盾
+|1required=-
+|1effect=Neutralizes "effective against flying" bonuses.
+|1cost=200
+|canUseWeapon={{WeaponList|all}}
+|canUseMove=Flying
+|properties=random_owner
+}}
+==Notes==
+{{Effectiveness neutralization|flying}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Iote's Shield
+|badgeColor=Verdant
+|costs1=20;100;20
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=アイオテの盾
+|german=Iotes Schild
+|spanishEU=Escudo Iote
+|spanishLA=Escudo Iote
+|french=Écu d'Iote
+|italian=Scudo di Iote
+|chineseTW=艾奧特之盾
+|portuguese=Escudo Iote
+}}
+==See also==
+* [[Shield Passives]]
+{{See also skills|cond=Description LIKE '%Neutralizes "effective against flying%'}}
+{{Seals Navbox}}
+{{Passives Navbox|A}}

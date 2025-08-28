@@ -1,0 +1,54 @@
+{{Weapon Infobox
+|tagid=SID_立会人の杖＋
+|weaponName=Observant Staff+
+|image=wep_rd040
+|weaponType=Staff
+|might=12
+|range=2
+|effect=If unit is within 3 spaces of two allies in a support-partner pair (excluding unit), grants Atk/Spd/Def/Res+6 to unit during combat and neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.
+|cost=300
+|exclusive=0
+|statModifiers=0,12,0,0,0
+|required=Observant Staff
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|effectSkill1=Calculates damage from staff like other weapons.
+|iconSkill1=Wrathful Staff W.png
+|tagidExtraSkill1=神
+|effectSkill2=Foe cannot counterattack.
+|iconSkill2=Dazzling Staff W.png
+|tagidExtraSkill2=幻
+|intID=2567
+|sort=91501
+|value=15
+|timingID=1
+|abilityID=142
+|limit1ID=65
+|properties=
+}}
+==Notes==
+{{Temporary buffs}}
+{{Bonus neutralization}}
+{{SupportPartner|pair=1|effect=temporary buffs and bonus neutralization}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Staff Plus Refines}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=立会人の杖＋
+|german=Zuschauerstab+
+|spanishEU=Bastón testigo +
+|spanishLA=Bastón testigo +
+|french=Bâton témoin +
+|italian=Bastone astante+
+|chineseTW=見證人之杖＋
+|portuguese=Bastão atento+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%support-partner pair%'}}
+{{Weapons Navbox}}

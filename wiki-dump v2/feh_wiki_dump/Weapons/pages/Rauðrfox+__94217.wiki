@@ -1,0 +1,41 @@
+{{Weapon Infobox
+|tagid=SID_ラウアフォックス＋
+|weaponType=Red Tome
+|might=12
+|range=2
+|effect=If unit initiates combat, inflicts Atk/Spd/Def/Res-4 on foe during combat.
+|cost=300
+|exclusive=0
+|userVersion2=Open
+|userVersion1=Closed
+|statModifiers=0,12,0,0,0
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=random_owner
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Combat reductions}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{TomeColorTrivia|raudr}}
+==In other languages==
+{{OtherLanguages
+|japanese=ラウアフォックス＋
+|german=Rauðrfuchs +
+|spanishEU=Zorro carmesí +
+|spanishLA=Zorro rubí +
+|french=Renard rubis +
+|italian=Rubinvolpe+
+|chineseTW=赤紅狐狸＋
+|portuguese=Rauðrfox+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If unit initiates combat%inflicts Atk/Spd/Def/Res-_ on foe%during combat%' AND WikiName NOT LIKE '%fox%'|columns=3}}
+* [[Skill families#Fox|Fox Weapons]]
+{{Weapons Navbox}}

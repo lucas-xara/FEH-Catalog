@@ -1,0 +1,94 @@
+{{#invoke:NameAbout|main|Name=Plumeria}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Plumeria
+|Title=Rapturous Dream
+|Origin=Fire Emblem Heroes
+|Person=Plumeria
+|Gender=F
+|WeaponType=Blue Tome
+|MoveType=Flying
+|actorEN=Nicole Gose
+|actorJP=堀江由衣
+|artist=kainown
+|additionDate=2023-09-06
+|releaseDate=September 15, 2023
+|cv1=0
+|cv2=400500
+|Properties=refresher,rearmed,tiara
+|description=A jaded dökkálfr from Dökkálfheimr, the realm of nightmares. She delivers salacious dreams to mortals with a new power, as if she once again received the dream nectar that made her álfr.
+|TagID=魔器プルメリア
+|InternalID=997
+|EnemyInternalID=101
+}}
+==Ally stats==
+{{Stats Page|noheader=1
+|Lv1HP=18|Lv1ATK=7|Lv1SPD=3|Lv1DEF=4|Lv1RES=10
+|GRHP=50|GRATK=90|GRSPD=35|GRDEF=35|GRRES=80
+}}
+==Enemy stats==
+{{Stats Page/Enemy|noheader=1
+|Lv1HP=18|Lv1ATK=7|Lv1SPD=3|Lv1DEF=4|Lv1RES=10
+|GRHP=50|GRATK=90|GRSPD=35|GRDEF=35|GRRES=80
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Thunder
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elthunder
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Thoron
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Arcane Euphoria
+|weapon4Default=5
+|weapon4Unlock=5
+|hasEnemy=1
+}}
+
+===Ally Assists===
+{{Assists Table
+|assist1=Dance
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Cloying Dreams
+|assist2Unlock=5
+}}
+===Enemy Assists===
+{{Assists Table/enemy
+|assist1=Dance
+|assist2=Sweet Dreams
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Still Water 1
+|passiveA2=Still Water 2
+|passiveA3=Still Water 3
+|passiveA4=Still Water 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Wings of Mercy 1
+|passiveB2=Wings of Mercy 2
+|passiveB3=Wings of Mercy 3
+|passiveB4=Wings of Mercy 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Res Ploy 1
+|passiveC2=Res Ploy 2
+|passiveC3=Res Ploy 3
+|passiveC4=Def/Res Ploy 3
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+{{Enemies Navbox}}

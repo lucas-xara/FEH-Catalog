@@ -1,0 +1,37 @@
+{{Weapon Infobox
+|tagid=SID_ハイビスカスの本
+|weaponType=Green Tome
+|weaponName={{PAGENAME}}
+|might=8
+|range=2
+|effect=Grants Atk/Spd+1 to allies within 2 spaces during combat.
+|cost=200
+|exclusive=0
+|userVersion1=Closed|userVersion2=Open|statModifiers=0,8,0,0,0
+|next=Hibiscus Tome+
+|promotionRarity=5
+|promotionTier=1
+|required=Elwind
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+{{AlliesCombatEffect|effect=combat boost}}
+==List of owners==
+{{Skill Hero List}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=ハイビスカスの本
+|german=Hibiskusbuch
+|spanishEU=Grimorio hibisco
+|spanishLA=Grimor. hibisco
+|french=Tome hibiscus
+|italian=Tomo dell'ibisco
+|chineseTW=扶桑花之書
+|portuguese=Tomo hibisco
+}}
+==See also==
+* [[Nohrian Summer Weapons]]
+{{Weapons Navbox}}
+[[Category:Nohrian Summer weapons]]

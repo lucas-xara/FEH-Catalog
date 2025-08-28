@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Tethys}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Tethys
+|Title=Dancing Sands
+|WeaponType=Colorless Dagger
+|MoveType=Flying
+|Origin=Fire Emblem: The Sacred Stones
+|Gender=Female
+|actorEN=Jennifer Losi
+|actorJP=桑谷夏子
+|artist=晴乃樹
+|additionDate=January 17, 2025
+|releaseDate=January 17, 2025
+|cv1=7
+|cv2=401200
+|TagID=ジャハナテティス
+|InternalID=1197
+|Properties=special,refresher
+|description=An elegant dancer of Gerik's Mercenaries. She dances to entertain the crowd at the festival of her homeland, Jehanna. Appears in Fire Emblem: The Sacred Stones.
+}}
+{{Stats Page
+|Lv1HP=15|Lv1ATK=3|Lv1SPD=10|Lv1DEF=4|Lv1RES=12
+|GRHP=50|GRATK=65|GRSPD=85|GRDEF=40|GRRES=70
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Dagger
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Dagger
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Jehanna Dagger
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Jehanna Dagger+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Dance
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveB1=Blaze Dance 1
+|passiveB2=Firestorm Dance 1
+|passiveB3=Firestorm Dance 2
+|passiveB4=Firestorm Dance 3
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Guidance 1
+|passiveC2=Guidance 2
+|passiveC3=Guidance 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Desert Festival units]]

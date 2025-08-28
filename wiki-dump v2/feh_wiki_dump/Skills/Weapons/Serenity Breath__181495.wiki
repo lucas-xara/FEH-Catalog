@@ -1,0 +1,42 @@
+{{Weapon Infobox
+|tagid=SID_幽静のブレス
+|intID=3283
+|image=wep_ac063
+|exclusive=0
+|weaponType=Dragonstone
+|cost=200
+|might=10
+|range=1
+|effect=If foe initiates combat or foe's HP ≥ 75% at start of combat, inflicts Atk/Res-5 on foe during combat and foe cannot make a follow-up attack. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|statModifiers=0,10,0,0,0
+|required=Fire Breath+
+|next=Serenity Breath+
+|promotionRarity=5
+|promotionTier=1
+|properties=
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Temporary debuffs}}
+{{Prevent follow-up}}
+{{LowerDefRes}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V6.10_v0610a_halloween_Mag.webp|Sprite sheet for {{St|Ghostly Lanterns}}, {{St|Moonlight Stone}}, {{St|Serenity Breath}}, {{St|Starlight Stone}} and {{St|Surprise Breath+}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=幽静のブレス
+|german=Ruhiger Atem
+|spanishEU=Aliento sereno
+|spanishLA=Soplo sereno
+|french=Souffle serein
+|italian=Soffio sereno
+|chineseTW=幽靜吐息
+|portuguese=Sopro sereno
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe initiates%inflicts Atk/%-% during combat%foe cannot make a follow-up%' AND Description NOT LIKE '%transforms%inflicts Atk/Def-4%foe cannot make a follow-up%'}}
+{{Weapons Navbox}}

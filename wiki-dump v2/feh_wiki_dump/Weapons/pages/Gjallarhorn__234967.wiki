@@ -1,0 +1,87 @@
+{{Weapon Infobox
+|tagid=SID_ギャラルホルン
+|intID=4753
+|image=wep_mg502
+|exclusive=1
+|weaponType=Blue Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>At start of turn, grants Special cooldown count-1 to unit.<br><br>At start of enemy phase, if there is only one ally with the highest Def among allies closest to foe, grants【Foresight Snare】to that ally for 1 turn.<br><br>For foes within 3 rows or 3 columns centered on unit, inflicts Atk/Def/Res-5 and neutralizes foe's bonuses to Atk/Def/Res during combat.<br><br>At start of combat, if unit's HP ≥ 25%, inflicts penalty on foe's Atk/Res = 20% of unit's Res at start of combat, unit deals +X damage (excluding area-of-effect Specials), and reduces damage from foe's attacks by X during combat (excluding area-of-effect Specials; X = number of allies within 3 rows or 3 columns centered on unit × 5; max 15), and restores 7 HP to unit after combat.<br><br>【Foresight Snare】<br>If foe initiates combat and there were no combat instances on the current turn yet (player phase and enemy phase are counted separately), triggers the following effects:<br>- Cancels foe's attack, completing their action.<br>- Inflicts【Isolation】and status preventing counterattacks on foe through foe's next action.<br>- Cancels Foresight Snare granted to your army.<br><br>(These effect trigger after Aether Raids traps but before Savior; does not trigger in Pawns of Loki).<br><br>【Isolation】<br>Target cannot use or be the target of Assist skills through its next action. (Target can neither use nor be the target of skills like Dance and Sing, skills that neutralize penalties, like Restore and Harsh Command+, etc.)
+|required=Thoron;Shine
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Se={{SEt|Foresight Snare}}
+|SeT={{Tgt|Ally}} with<br>the highest Def
+|SeC=At start of Enemy Phase<br>if 1 {{Tgt|Target Ally}}<br>is among {{Tgt|Allies}}<br>closest to {{Tgt|Foe}}
+|Ce1={{Eft|Temporary debuffs|Atk/Def/Res|5}}
+|Ce2={{Eft|Neutralize Bonuses|Atk/Def/Res}}
+|Ce1-2T={{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|Ce3={{Eft|Temporary debuffs|Atk/Res|20% of {{Tgt|Unit}}'s Res<br>at start of combat}}
+|Ce3T={{Tgt|Foe}}
+|Ce4={{Eft|Damage Boost|5 x {{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}|max=15}}
+|Ce5={{Eft|Damage Reduction|5 x {{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}|max=15}}<br>from {{Tgt|Foe}}'s attacks
+|CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Me1={{Eft|Reduce Cooldown|1}}
+|Me1C=At start of turn
+|Me2={{Eft|Heal|7}}
+|Me2C=After combat if<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Start of turn Special modification}}
+{{Foresight Snare}}
+{{Temporary debuffs}}
+{{Bonus neutralization}}
+{{FoesCombatEffect|temporary debuffs and bonus neutralization effects}}
+{{At start of combat}}
+{{FlatDamageBoost|X (max: 15)}}
+{{FlatDamageReduction|X (max: 15)}}
+{{After combat healing}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Heimdallr: God of Foresight|t=Loki: Trickster God
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V9.6_v0906a_kakusei_Mag_3.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==Trivia==
+{{NorseMyth|is a horn owned by [[Heimdallr]] that will herald the onset of [[Ragnarok]].}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%【Foresight Snare】%' OR (Description LIKE '%foes within 3 rows or 3 columns centered on unit%inflicts%-%neutralizes foe_s bonuses%during combat%' AND Description NOT LIKE '%At%start of %inflicts%-%rows%columns%' AND Description NOT LIKE '%At%start of %rows%columns%inflicts%-%') AND Exclusive='1'}}
+* [[Pulse Passives]]
+* [[Rein Passives]]
+* [[Skill families/C Passives#Crux|Crux Passives]]
+{{Weapons Navbox}}

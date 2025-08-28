@@ -1,0 +1,77 @@
+{{#invoke:NameAbout|main|Name=Eremiya}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Eremiya
+|Title=Bishop of Woe
+|WeaponType=Colorless Staff
+|Origin=Fire Emblem: New Mystery of the Emblem
+|Gender=Female
+|MoveType=Infantry
+|actorJP=中原麻衣
+|actorEN=Lisa Ortiz
+|artist=誉
+|additionDate=July 20, 2020
+|releaseDate=July 21, 2020
+|cv1=1
+|cv2=2900100
+|TagID=エレミヤ
+|InternalID=547
+|Properties=ghb,limited,hat
+|description=A bishop in service of Gharnef, and leader of a group of assassins. Formerly a kind-hearted caretaker of war orphans. Appears in Fire Emblem: New Mystery of the Emblem.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=6|Lv1SPD=9|Lv1DEF=6|Lv1RES=8
+|GRHP=60|GRATK=60|GRSPD=60|GRDEF=40|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Assault
+|weapon1Default=
+|weapon1Unlock=1
+|weapon2=Panic
+|weapon2Default=
+|weapon2Unlock=3
+|weapon3=Panic+
+|weapon3Default=
+|weapon3Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Heal
+|assist1Default=1
+|assist1Unlock=1
+|assist2=Mend
+|assist2Default=3
+|assist2Unlock=2
+|assist3=Physic
+|assist3Default=4
+|assist3Unlock=3
+|assist4=Physic+
+|assist4Default=5
+|assist4Unlock=5
+}}
+===Specials===
+{{Specials Table
+|special1=Imbue
+|special1Default=4
+|special1Unlock=2
+|special2=Miracle
+|special2Default=5
+|special2Unlock=3
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Res Push 1
+|passiveA2=Atk/Res Push 2
+|passiveA3=Atk/Res Push 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Distant Guard 1
+|passiveC2=Distant Guard 2
+|passiveC3=Distant Guard 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

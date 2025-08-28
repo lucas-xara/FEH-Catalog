@@ -1,0 +1,73 @@
+{{#invoke:NameAbout|main|Name=Dozla}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Dozla
+|Title=Harvest Attendant
+|WeaponType=Colorless Dagger
+|Origin=Fire Emblem: The Sacred Stones
+|Gender=Male
+|MoveType=Armored
+|actorJP=伊丸岡篤
+|actorEN=Josh Petersdorf
+|artist=北千里
+|additionDate=October 8, 2019
+|releaseDate=October 9, 2019
+|TagID=ハロドズラ
+|InternalID=431
+|Properties=special,specRate_202302
+|cv1=7
+|cv2=500200
+|description=An attendant in L'Arachel's service. A hearty man with a thirst for life, who treasures children above all else. Appears in Fire Emblem: The Sacred Stones.
+|GrowthModifier=Gen 4
+}}
+{{Stats Page
+|Lv1HP=21|Lv1ATK=8|Lv1SPD=7|Lv1DEF=9|Lv1RES=8
+|GRHP=55|GRATK=70|GRSPD=50|GRDEF=60|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Dagger
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Dagger
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Pumpkin-a-Box
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Pumpkin-a-Box+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Rally Defense
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Rally Atk/Def
+|assist2Default=
+|assist2Unlock=4
+|assist3=Rally Atk/Def+
+|assist3Default=
+|assist3Unlock=5
+}}
+===Specials===
+{{Specials Table
+}}
+===Passives===
+{{Passives Table
+|passiveA1=AR-D Atk/Def 1
+|passiveA2=AR-D Atk/Def 2
+|passiveA3=AR-D Atk/Def 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Armor March 1
+|passiveC2=Armor March 2
+|passiveC3=Armor March 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Halloween units]]

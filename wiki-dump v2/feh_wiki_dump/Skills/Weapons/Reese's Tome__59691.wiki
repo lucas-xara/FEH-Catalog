@@ -1,0 +1,58 @@
+{{Weapon Infobox
+|tagid=SID_カタリナの書
+|weaponType=Red Tome
+|weaponName=Reese's Tome
+|might=14
+|range=2
+|effect=During combat, boosts unit's Atk/Spd/Def/Res by number of adjacent allies × 2.
+|cost=400
+|exclusive=1
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|statModifiers=0,14,0,0,0
+|required=-
+|SE=se effect catarina.flac
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=At start of turn, inflicts Spd/Res-4 on foes in cardinal directions with Res < unit's Res through their next actions.
+|iconSkill1=Reeses Tome W.png
+|tagidExtraSkill1=謀
+|properties=
+}}
+==Notes==
+{{Temporary buffs}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Ploy interaction}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+v2.7_55_summer04_Mag.png|Sprite sheet for the animations of {{PAGENAME}}, {{St|Juicy Wave+}}, and {{St|Summer's Breath}}.
+</gallery>
+==Trivia==
+* This tome is a reference to the two tomes in the [[Games|''Fire Emblem'' games]] that bare Katarina's name, particularly [[fireemblemwikia:Reese's Tome|Katarina's Book]] from {{FE|12}}.
+{{Rsn|速さ魔防の謀策R4|Spd Res Ploy R4}}
+==In other languages==
+{{OtherLanguages
+|japanese=カタリナの書
+|japaneseNotes=''Katarina's Tome''
+|german=Reeses Buch
+|spanishEU=Grimorio Reese
+|spanishLA=Grimorio Reese
+|french=Tome de Reese
+|italian=Tomo di Reese
+|chineseTW=卡達麗娜之書
+|portuguese=Tomo de Reese
+}}
+==See also==
+* [[Owl Weapons]]
+* [[Valflame]]
+* [[Wargod's Tome]]
+{{Weapons Navbox}}
+[[Category:Owl weapons]]

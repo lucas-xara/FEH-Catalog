@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Gerome}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Gerome
+|Title=Masked Rider
+|GrowthModifier=Gen 2
+|WeaponType=Green Axe
+|MoveType=Flying
+|Origin=Fire Emblem Awakening
+|Gender=Male
+|actorEN=Orion Acaba
+|actorJP=新垣樽助
+|artist=めか
+|releaseDate=March 15, 2018
+|additionDate=March 9, 2018
+|TagID=ジェローム
+|InternalID=228
+|Properties=tempest,limited
+|cv1=10
+|cv2=6900500
+|description=Cherche's son. Unaccustomed to interpersonal interactions. His wyvern Minerva belonged to his late mother. Appears in Fire Emblem Awakening.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=10|Lv1SPD=6|Lv1DEF=8|Lv1RES=4
+|GRHP=60|GRATK=65|GRSPD=45|GRDEF=60|GRRES=35
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Poleaxe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Poleaxe+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Masking Axe
+|weapon5Unlock=5
+}}
+
+===Assists===
+{{Assists Table
+|assist1=Rally Defense
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Rally Atk/Def
+|assist2Unlock=4
+}}
+
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Fortress Def 1
+|passiveA2=Fortress Def 2
+|passiveA3=Fortress Def 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=Hit and Run
+|passiveB1Unlock=3
+}}
+{{Heroes Navbox}}

@@ -1,0 +1,36 @@
+{{Assist
+|tagid=SID_相互援助
+|name=Reciprocal Aid
+|range=1
+|effect=Unit and target ally swap HP.<br>(Neither can go above their max HP.)
+|cost=150
+|exclusive=0
+|required=-
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_all,random_inherit_base
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Efi|Heal}} Swap HP
+|MeT1={{Tgt|Unit}} '''&'''<br>{{Tgt|Target Ally}}
+|MeC1={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}<br>'''or''' {{SEt|Deep Wounds}}
+}}
+==Notes==
+{{HP transfer notes|swap=1}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=相互援助
+|german=Gegenseitig. Hilfe
+|spanishEU=Entrega vital
+|spanishLA=Entrega vital
+|french=Interversion
+|italian=Aiuto reciproco
+|chineseTW=相互援助
+|portuguese=Ajuda recíproca
+}}
+==See also==
+* [[Ardent Sacrifice]]
+{{Assists Navbox}}

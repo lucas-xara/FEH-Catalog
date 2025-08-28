@@ -1,0 +1,56 @@
+{{Weapon Infobox
+|tagid=SID_師の聖夜の剣
+|intID=3909
+|image=wep_sw171
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). Unit can counterattack regardless of foe's range. At start of combat, if unit's HP ≥ 25%, grants Atk/Def/Res+5 to unit, grants bonus to unit's Atk/Def/Res = 20% of unit's Res at start of combat, and neutralizes effects that inflict "Special cooldown charge -X" on unit during combat. At start of combat, if unit's HP ≥ 25%, foe's attack can trigger foe's Special, and unit's Res ≥ foe's Res+5, inflicts Special cooldown count+X on foe before foe's first attack (X = number of spaces from start position to end position of whoever initiated combat, max 3; if unit triggers Savior, value is treated as 3; cannot exceed the foe's maximum Special cooldown). At start of combat, if unit's HP ≥ 25% and foe's Range = 2, neutralizes effects that prevent unit's counterattacks during combat.
+|required=Silver Sword
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|PermanentEffect={{Eft|Accelerates Special}}
+|CombatEffect 1={{Eft|Distant Counter}}
+|CombatEffect 2={{Eft|Temporary buffs|Atk/Def/Res|5}}
+|CombatEffect 3={{Eft|Temporary buffs|Atk/Def/Res|20% of {{Tgt|Unit}}'s Res<br>at start of combat}}
+|CombatEffect 4={{Eft|Neutralize Guard}}
+|CombatEffect 2-4 Conditions={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|CombatEffect 5={{Eft|Increase Cooldown|Spaces Initiator moved|max=3*}}<br>before {{Tgt|Foe}}'s first attack
+|CombatEffect 5 Targets={{Tgt|Foe}}
+|CombatEffect 5 Conditions={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' {{Tgt|Unit}}'s Res ≥<br>{{Tgt|Foe}}'s Res+5
+|CombatEffect 6={{Eft|Neutralize Prevent Counter}}
+|CombatEffect 6 Targets={{Tgt|Unit}}
+|CombatEffect 6 Conditions={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat '''&'''<br>{{Tgt|Foe}}'s Range = 2
+}}
+<b>{{Hatnote|* If {{Tgt|Unit}} triggers {{Eft|Savior}}, value is treated as max.}}</b>
+
+==Notes==
+{{Temporary buffs}}
+{{At start of combat}}
+{{CooldownChargeMinusNeutralization}}
+{{CombatCooldownCount|+X (max: 3)}}
+{{Counterattack prevention neutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=師の聖夜の剣
+|german=Heilige Festklinge
+|spanishEU=Filo invernal
+|spanishLA=Filo invernal
+|french=Lame des fêtes
+|italian=Spada festiva
+|chineseTW=老師的聖夜之劍
+|portuguese=Espada festiva
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%of unit_s Res at start of combat%' OR Description LIKE '%if foe_s attack can trigger their Special%inflicts Special cooldown count+%on foe before foe_s first attack%') AND Exclusive='1' OR Description LIKE '%neutralizes effects that prevent unit_s counterattacks%'}}
+* [[:Category:Weapons with Distant Counter|Weapons with Distant Counter]]
+* [[:Category:Weapons with Close Counter|Weapons with Close Counter]]
+* [[Skill families/A Passives#Scowl|Scowl Passives]]
+{{Weapons Navbox}}

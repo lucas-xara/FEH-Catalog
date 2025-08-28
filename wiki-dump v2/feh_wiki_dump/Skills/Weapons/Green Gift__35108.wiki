@@ -1,0 +1,38 @@
+{{Weapon Infobox
+|tagid=SID_緑のプレゼント箱
+|weaponType=Green Tome
+|weaponName={{PAGENAME}}
+|might=8
+|range=2
+|effect=If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.
+|cost=200
+|statModifiers=0,8,0,0,0
+|next=Green Gift+
+|promotionRarity=5
+|promotionTier=1
+|required=Elwind
+|exclusive=0
+|properties=
+}}
+==Notes==
+* Has the same effect as {{Pt|Dull Ranged 3}}.
+{{Bonus neutralization}}
+==List of owners==
+{{Skill Hero List}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=緑のプレゼント箱
+|german=Grünes Präsent
+|spanishEU=Regalo verde
+|spanishLA=Regalo verde
+|french=Cadeau vert
+|italian=Regalo verde
+|chineseTW=綠之禮品箱
+|portuguese=Presente verde
+}}
+==See also==
+* [[Love Abounds Weapons]]
+* [[Skills that neutralize bonuses]]
+{{Weapons Navbox}}
+[[Category:Love Abounds weapons]]

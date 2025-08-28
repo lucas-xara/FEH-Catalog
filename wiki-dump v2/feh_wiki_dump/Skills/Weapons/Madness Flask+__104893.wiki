@@ -1,0 +1,44 @@
+{{Weapon Infobox
+|tagid=SID_フラスコ＋
+|weaponType=Green Tome
+|might=12
+|range=2
+|effect=Grants Atk/Spd/Def/Res+3. After combat, deals 6 damage to unit.
+|cost=300
+|exclusive=0
+|statModifiers=0,15,3,3,3
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Stat Boosts|Atk/Spd/Def/Res|3}}
+|Me={{Eft|Damage|6}}
+|MeC=After combat
+}}
+
+==Notes==
+* Has the same effect as {{St|Fury 3}}.
+{{After combat note}}
+{{DamageToUnit}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=フラスコ＋
+|german=Wahnfläschchen+
+|spanishEU=Frasco maníaco +
+|spanishLA=Frasco maníaco +
+|french=Fiole furieuse +
+|italian=Fiala della follia+
+|chineseTW=燒瓶＋
+|portuguese=Frasco maluco+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants Atk/Spd/Def/Res+_.%deals _ damage to unit%'|columns=3}}
+{{Weapons Navbox}}

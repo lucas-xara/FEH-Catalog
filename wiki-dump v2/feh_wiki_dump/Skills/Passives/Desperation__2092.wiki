@@ -1,0 +1,81 @@
+{{About|the [[Passive]] skill Desperation|the [[Tactics Drills]] map|Skill Studies 5: Desperation|the [[status effect]]|Desperation (status effect)}}
+{{Passive
+|name=Desperation
+|type=B
+|exclusive=0
+|1name=Desperation 1
+|1tagid=SID_攻め立て1
+|1promotionRarity=4
+|1promotionTier=1
+|1effect=If unit’s HP ≤ 25% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.
+|1required=-
+|1cost=50
+|2name=Desperation 2
+|2tagid=SID_攻め立て2
+|2promotionRarity=5
+|2promotionTier=1
+|2effect=If unit’s HP ≤ 50% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.
+|2cost=100
+|3name=Desperation 3
+|3tagid=SID_攻め立て3
+|3effect=If unit’s HP ≤ 75% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.
+|3cost=200
+|3next=-
+|4name=Desperation 4
+|4tagid=SID_攻め立て4
+|4effect=Inflicts Spd-4 on foe during combat. At start of combat, if unit's HP ≤ 99% and unit initiates combat, or number of spaces from unit's start position to end position ≥ 2 and unit initiates combat, unit can make a follow-up attack before foe can counterattack.
+|4cost=300
+|properties4=random_owner
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|properties=random_all
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Desperation 3}} Desperation 3
+|skill1 CombatEffect={{Eft|Desperation}}
+|skill1 CombatEffect Conditions=Player Phase '''&'''<br>{{Tgt|Unit}}'s HP ≤ 75%<br>at start of combat
+|skill2={{Si|Desperation 4}} Desperation 4
+|skill2 CombatEffect 1={{Eft|Temporary debuffs|Spd|4}}
+|skill2 CombatEffect 1 Targets={{Tgt|Foe}}
+|skill2 CombatEffect 2={{Eft|Desperation}}
+|skill2 CombatEffect 2 Targets={{Tgt|Unit}}
+|skill2 CombatEffect 2 Conditions=Player Phase '''&'''<br>({{Tgt|Unit}}'s HP ≤ 99%<br>at start of combat<br>'''or''' spaces {{Tgt|Unit}}<br>moved ≥ 2)
+}}
+
+==Notes==
+{{Follow-up before counterattack}}
+{{Temporary debuffs|name=Desperation 4}}
+{{SpacesFromStarttoEnd|name=Desperation 4}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Desperation 1;Desperation 2;Desperation 3
+|badgeColor=Azure
+|costs1=20;100;40
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=攻め立て
+|german=Verzweiflung
+|spanishEU=Arremetida
+|spanishLA=Arremetida
+|french=Adrénaline
+|italian=Disperazione
+|chineseTW=猛攻
+|portuguese=Desespero
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%make a follow-up attack before%can counterattack%' AND (Exclusive=1 AND Name NOT LIKE '%+')) OR (Description LIKE '%follow-up attack before foe can counterattack%' AND SCategory LIKE 'passive_')}}
+{{Passives Navbox|B}}
+{{Seals Navbox}}

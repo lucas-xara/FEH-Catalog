@@ -1,0 +1,70 @@
+{{#invoke:NameAbout|main|Name=Gatekeeper}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Gatekeeper
+|Title=Nothing to Report
+|WeaponType=Green Tome
+|MoveType=Infantry
+|Origin=Fire Emblem: Three Houses
+|Gender=Male
+|actorEN=Kyle McCarley
+|actorJP=松本忍
+|artist=山田章博
+|additionDate=August 17, 2021
+|releaseDate=August 17, 2021
+|poolDate=September 7, 2021
+|poolRarities=5
+|cv1=12
+|cv2=591000
+|TagID=総選挙門番
+|InternalID=695
+|Properties=brave,specRate_202402
+|description=The guard who watches over the gates of Garreg Mach Monastery. A kind man who cares deeply for all Heroes who pass through his gate. Appears in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=9|Lv1SPD=4|Lv1DEF=10|Lv1RES=8
+|GRHP=50|GRATK=65|GRSPD=30|GRDEF=70|GRRES=65
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Wind
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elwind
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Rexcalibur
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Charging Horn
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Harsh Command
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Harsh Command+
+|assist2Unlock=5
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Close Counter
+|passiveA2=Close Reversal
+|passiveA1Unlock=4
+|passiveA2Unlock=5
+|passiveB1=Detailed Report
+|passiveB1Unlock=5
+|passiveC1=Spur Def 1
+|passiveC2=Drive Def 1
+|passiveC3=Drive Def 2
+|passiveC4=Joint Drive Def
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}

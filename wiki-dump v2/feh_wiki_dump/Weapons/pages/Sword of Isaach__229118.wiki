@@ -1,0 +1,63 @@
+{{Weapon Infobox
+|tagid=SID_イザークの守護剣
+|intID=4547
+|image=wep_sw191
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>At start of turn, if unit's HP ≥ 25%, grants Atk/Spd+6,【Potent Follow】, and "neutralizes foe's bonuses during combat" to unit and allies within 2 spaces of unit for 1 turn.<br><br>At start of combat, if unit's HP ≥ 25%, grants bonus to unit's Atk/Spd/Def/Res = 5 + 15% of unit's Spd at start of combat, and also, if【Potent Follow X%】has triggered and X ≤ 99, then X = 100, unit deals +Y × 5 damage (Y = number of Bonus effects active on unit, excluding stat bonuses + number of Penalty effects active on foe, excluding stat penalties; max 5; excluding area-of-effect Specials), and reduces damage from foe's first attack by Y × 3 during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and also, when foe's attack triggers foe's Special, reduces damage by Y × 3 (excluding area-of-effect Specials).<br><br>At start of combat, if unit's HP ≥ 25%, restores 7 HP to unit after combat.<br><br>【Potent Follow】<br>If decreasing the Spd difference necessary to make a follow-up attack by 25 would allow unit to trigger a follow-up attack (excluding guaranteed or prevented follow-ups), triggers【Potent Follow X%】during combat (if unit cannot perform follow-up and attack twice, X = 80; otherwise, X = 40).<br><br>【Potent Follow X%】<br>Triggers an additional follow-up attack immediately after unit's standard follow-up attack and deals damage = X% of unit's normal attack damage (if unit cannot make a follow-up attack, this effect triggers when the standard follow-up attack would occur; this effect is treated like a follow-up attack, so effects like "reduce damage by X%" still apply, but this effect is not affected by effects that prevent follow-ups or "attacks twice" effects; only highest value applied; does not stack).
+|required=Silver Sword
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Se1={{Eft|Bonuses|Atk/Spd|6}}
+|Se2={{SEt|Potent Follow}}
+|Se3={{SEt|Neutralize Bonuses}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25%
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|15% of {{Tgt|Unit}}'s Spd<br>at start of combat, +5}}
+|Ce1C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce2={{Eft|Potent Follow Damage Boost}}
+|Ce2C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat,<br>{{Kp|Potent Follow X%}}<br>triggers '''&''' X ≤ 99%
+|Ce3={{Eft|Damage Boost|5 x ({{Kp|Bonus}} effects<br>on {{Tgt|Unit}} '''&''' {{Kp|Penalty}}<br>effects on {{Tgt|Foe}}), +5<br>(exc. {{SEt|Bonuses}} '''&''' {{SEt|Penalties}})|max=25}}
+|Ce4={{Eft|Damage Reduction|3 x ({{Kp|Bonus}} effects<br>on {{Tgt|Unit}} '''&''' {{Kp|Penalty}}<br>effects on {{Tgt|Foe}}), +5<br>(exc. {{SEt|Bonuses}} '''&''' {{SEt|Penalties}})|max=15}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce5={{Eft|Damage Reduction|3 x ({{Kp|Bonus}} effects<br>on {{Tgt|Unit}} '''&''' {{Kp|Penalty}}<br>effects on {{Tgt|Foe}}), +5<br>(exc. {{SEt|Bonuses}} '''&''' {{SEt|Penalties}})|max=15}}<br>per {{Tgt|Foe}}'s [[offensive Special]]
+|Ce3-5C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat '''&'''<br>{{Kp|Potent Follow X%}}<br>triggers 
+|Me={{Eft|Heal|7}}
+|MeC=After combat if<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Bonuses}}
+{{Potent Follow}}
+{{Neutralize Bonuses}}
+{{Temporary buffs}}
+{{At start of combat}}
+{{FlatDamage|X (max: 25)}}
+{{FlatDamageReduction|X (max: 15)}}
+{{EffectfromBonus|damage boost and flat damage reduction|nonStat=1}}
+{{EffectfromPenalty|damage boost and flat damage reduction|nonStat=1}}
+{{After combat healing}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Potent Follow%】%' OR Description LIKE '%number of%Bonus%unit%penalty%effects active%') AND Exclusive='1' AND Name NOT LIKE '%gainful%'}}
+* [[Skill families/Weapons#Gainful|Gainful Weapons]]
+{{Weapons Navbox}}

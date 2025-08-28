@@ -1,0 +1,55 @@
+{{About|the weapon Nidhogg|the character Níðhöggr|Níðhöggr}}{{Weapon Infobox
+|tagid=SID_蛇弓ニーズヘッグ
+|weaponType=Bow
+|might=14
+|range=2
+|effectiveness=flying
+|effect=Effective against flying foes. During combat, boosts unit's Atk/Spd/Def/Res by number of adjacent allies × 2.
+|cost=400
+|exclusive=1
+|userVersion1=Bow
+|userVersion2=Arrow
+|userVersion3=Upgrade Gleam
+|statModifiers=0,14,0,0,0
+|required=Silver Bow
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=Magic and dragon foes cannot counterattack.
+|iconSkill1=Nidhogg W.png
+|tagidExtraSkill1=反
+|properties=random_owner
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{Combat boosts}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{TermRefersTo|Magic and Dragon|magic,dragonstone}}
+{{Prevent counterattacks}}
+
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|反撃抑制R魔竜|Counterattack Supression Magic/Dragon}}
+{{NorseMyth|is a serpent that gnaws on the roots of the world tree, [[Yggdrasill]].}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=ニーズヘッグ
+|german=Nidhogg
+|spanishEU=Nidhogg
+|spanishLA=Nidhogg
+|french=Nidhogg
+|italian=Nidhogg
+|chineseTW=尼德霍格
+|portuguese=Nidhogg
+}}
+==See also==
+* [[Deathly Dagger]]
+* [[Owl Weapons]]
+{{Weapons Navbox}}
+[[Category:Owl weapons]]

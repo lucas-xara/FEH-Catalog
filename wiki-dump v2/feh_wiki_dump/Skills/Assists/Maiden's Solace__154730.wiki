@@ -1,0 +1,52 @@
+{{Assist
+|tagid=SID_癒しの乙女
+|name=Maiden's Solace
+|range=1
+|effect=Converts penalties on target into bonuses and then neutralizes any【Penalty】that remains. Restores HP to target = unit's current HP-1. Reduces unit's HP by amount restored.<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|cost=400
+|exclusive=1
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|required=Ardent Sacrifice
+|intID=2713
+|sort=584
+|value=11
+|timingID=0
+|abilityID=27
+|randomTimestamp=2021-10-01T07:00:00Z
+|randomMinLv=31
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{Eft|Bonuses|Atk/Spd/Def/Res|{{SEt|Penalty}} on each stat}}
+|Se2=Removes {{Kp|Penalty}} effects
+|SeT={{Tgt|Target Ally}}
+|SeC={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}
+|Me1={{Eft|Heal|{{Tgt|Unit}}'s current HP-1}}
+|MeT1={{Tgt|Target Ally}}
+|MeC1={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}<br>'''or''' {{SEt|Deep Wounds}}
+|Me2={{Eft|Damage|HP restored to<br>{{Tgt|Target Ally}}}}
+|MeT2={{Tgt|Unit}}
+|MeC2={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}
+}}
+==Notes==
+* Maiden's Solace has the same effect as {{St|Harsh Command+}}.
+{{Penalty conversion|negstatuses=1}}
+{{HP transfer notes}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=癒しの乙女
+|german=Balsam der Maid
+|spanishEU=Solaz de doncella
+|spanishLA=Solaz de doncella
+|french=Réconfort royal
+|italian=Dama del ristoro
+|chineseTW=治癒少女
+|portuguese=Donzela acolhida
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%Converts penalties on target into bonuses%' OR Description LIKE '%neutralizes any%penalty%all%' OR Description LIKE '%neutralizes%ally_s%penalties%'}}
+{{Assists Navbox}}

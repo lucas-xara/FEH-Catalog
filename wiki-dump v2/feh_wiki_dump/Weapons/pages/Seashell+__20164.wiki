@@ -1,0 +1,45 @@
+{{Weapon Infobox
+|tagid=SID_貝殻＋
+|weaponType=Dagger
+|weaponName={{PAGENAME}}
+|altWeaponName=Seashell Plus
+|might=10
+|range=2
+|effect=At start of combat, if unit's HP = 100%, grants Atk/Spd/Def/Res+2, but after combat, if unit attacked, deals 2 damage to unit. After combat, if unit attacked, inflicts Def/Res-7 on foe through its next action.
+|cost=300
+|exclusive=0
+|required=Seashell
+|statModifiers=0,10,0,0,0
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|upgradedMight=12
+|upgradedEffect=At start of combat, if unit's HP = 100%, grants Atk/Spd/Def/Res+2, but after combat, if unit attacked, deals 2 damage to unit. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions.
+|properties=
+}}
+==Notes==
+* The 100% HP requirement applies to the Atk/Spd/Def/Res +2 as well as the 2 damage after combat.
+{{Combat boosts}}
+{{IfUnitAttacked}}
+{{DamageToUnit}}
+{{Penalties}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=貝殻＋
+|german=Muschel +
+|spanishEU=Concha marina +
+|spanishLA=Concha marina +
+|french=Coquillage +
+|italian=Conchiglia+
+|chineseTW=貝殼＋
+|portuguese=Concha do mar+
+}}
+==See also==
+* [[Ylissean Summer Weapons]]
+{{Weapons Navbox}}
+[[Category:Ylissean Summer weapons]]

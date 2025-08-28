@@ -1,0 +1,61 @@
+{{Passive
+|name=Vision of Arcadia
+|type=C
+|exclusive=1
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|1name=Vision of Arcadia
+|1tagid=SID_理想郷となるように
+|1effect=At start of turn, if a dragon or beast ally is deployed, grants Atk/Def+6 to ally with the highest Atk for 1 turn.
+|1cost=300
+|1required=-
+|1next=-
+|properties1=random_owner
+|2cost=300
+|properties2=
+|2name=Vision of Arcadia II
+|2tagid=SID_理想郷となる…・承
+|2effect=At start of turn, if a dragon or beast ally is deployed, grants Atk/Spd/Def+6,【Null Panic】, and【Canto (１)】to unit and ally with the highest Atk (excluding unit) for 1 turn.<br><br>【Null Panic】<br>If unit is inflicted with Panic (bonuses converted into penalties), neutralizes the "converts bonuses on target into penalties" effect for 1 turn. (Even though the effect is neutralized, the Panic status remains, and is treated as a Penalty status.)<br><br>【Canto (１)】<br>After an attack, Assist skill, or structure destruction, unit can move １ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Vision of Arcadia}} Vision of Arcadia
+|s1 Se={{Eft|Bonuses|Atk/Def|6}}
+|s1 SeT={{Tgt|Allies}} with<br>the highest Atk
+|s1 SeC=At start of turn if<br>an {{Tgt|Ally}} is a<br>{{Cwti|group=1|Dragon,Beast}} [[Dragon]]/[[Beast]]
+|skill2={{Si|Vision of Arcadia II}} Vision of Arcadia II
+|s2 Se1={{Eft|Bonuses|Atk/Spd/Def|6}}
+|s2 Se2={{SEt|Null Panic}}
+|s2 Se3={{SEt|Canto (1)}}
+|s2 SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>with the highest Atk
+|s2 SeC=At start of turn if<br>an {{Tgt|Ally}} is a<br>{{Cwti|group=1|Dragon,Beast}} [[Dragon]]/[[Beast]]
+}}
+
+==Notes==
+{{Bonuses}}
+{{SelectStat|Atk}}
+{{Null Panic|name=Vision of Arcadia II}}
+{{Canto|1|statusEffect=1|name=Vision of Arcadia II}}
+
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+* The Japanese name for this skill is a direct quote referencing one of {{Ut|Eliwood: Blazing Knight}}'s [[Eliwood: Blazing Knight/Quotes#Status page|status page lines]] in which Eliwood wishes for a utopian world where humans and dragons can live together.
+==In other languages==
+{{OtherLanguages
+|japanese=理想郷となるように
+|german=Arcadia-Vision
+|spanishEU=Utopía arcadiana
+|spanishLA=Utopía arcadiana
+|french=Vision d'Arcadia
+|italian=Visioni di Arcadia
+|chineseTW=為了創造理想鄉
+|portuguese=Utopia arcadiana
+}}
+==See also==
+{{See also skills|cond=Exclusive='1' AND (Description LIKE '%start of turn%grants%to ally with the highest%' OR Description LIKE '%start of turn%grants%bonus%to ally with the highest%')}}
+* [[Opening Passives]]
+* [[Gap Passives]]
+* [[Rouse Passives]]
+{{Passives Navbox|C}}

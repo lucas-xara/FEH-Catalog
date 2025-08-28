@@ -1,0 +1,65 @@
+{{Weapon Infobox
+|tagid=SID_密偵忍者の手裏剣
+|intID=3861
+|image=wep_dg078
+|exclusive=1
+|weaponType=Dagger
+|cost=400
+|might=9
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). If unit initiates combat, unit attacks twice. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit during combat. If a Rally Assist skill is used by unit or targets unit, grants【Null Follow-Up】to unit and target or targeting ally and inflicts【Exposure】on foes in cardinal directions of unit and target or targeting ally through their next actions. If a Rally Assist skill is used by unit, grants another action to unit. (Additional action granted once per turn only.)<br>Effect:【Dagger ７】<br><br>【Null Follow-Up】<br>If unit's Spd > foe's Spd during combat, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks for 1 turn.<br><br>【Exposure】<br>Foe's attacks deal +10 damage.<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|required=Silver Dagger
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Ce1={{Eft|Attack Twice}}
+|Ce1C=Player Phase
+|Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce2C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Se1={{SEt|Null Follow-Up}}
+|Se1T={{Tgt|Unit}} '''&'''<br>{{Tgt|Target (Ally)}}
+|Se2={{SEt|Exposure}}
+|Se2T={{Tgt|Foes}} within<br>[[cardinal directions]]<br>of {{Tgt|Unit}} '''&'''<br>{{Tgt|Target (Ally)}}
+|Se1-2C=A [[Rally Assist]]<br>is used on '''or'''<br>by {{Tgt|Unit}}
+|Se3={{Eft|Penalties|Def/Res|7}}
+|Se3T={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|Se3C=After combat if<br>{{Tgt|Unit}} attacked
+|Me={{Eft|Another Action}}<br>(once per turn)
+|MeC=A [[Rally Assist]] is<br>used by {{Tgt|Unit}}
+}}
+
+==Notes==
+{{IfUnitInitiates}}
+{{Brave weapon interaction}}
+{{Temporary buffs}}
+{{Null Follow-Up}}
+{{Exposure}}
+{{CardinalDirections}}
+{{Galeforce notes}}
+{{IfUnitAttacked}}
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==References==
+<references/>
+
+==In other languages==
+{{OtherLanguages
+|japanese=密偵忍者の手裏剣
+|german=Spion-Shuriken
+|spanishEU=Shuriken espía
+|spanishLA=Shuriken espía
+|french=Shuriken d'espion
+|italian=Shuriken spia
+|chineseTW=密探忍者的手裏劍
+|portuguese=Shuriken espião
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%rally assist%another action%' OR Description LIKE '%rally assist%cardinal direction%' OR Description LIKE '%【Null Follow-Up】%' OR Description LIKE '%【Exposure】%') AND Exclusive='1'}}
+* [[Skill families/B Passives#Feint|Feint Passives]]
+* [[Skill families/B Passives#Ruse|Ruse Passives]]
+* [[Brave Weapons]]
+{{Weapons Navbox}}

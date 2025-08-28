@@ -1,0 +1,68 @@
+{{Weapon Infobox
+|tagid=SID_幸福の花
+|weaponType=Blue Tome
+|might=14
+|range=2
+|effect=Grants Res+3. Grants Atk/Spd+3 to any ally in a cardinal direction from unit during that ally's combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,0,0,3
+|required=Shine
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Res+3. Grants Atk/Spd+4 to any ally in a cardinal direction from unit during that ally's combat. If an ally is in a cardinal direction from unit, grants Atk/Spd/Def/Res+4 to unit during combat.
+|tagidExtraSkill1=一
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit during combat and unit makes a guaranteed follow-up attack. After combat, restores 7 HP to unit and allies in cardinal directions.
+|iconSkill1=Flower of Joy W.png
+|properties=random_owner
+|SE=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Res|3}}
+|s1 Ce={{Eft|Temporary buffs|Atk/Spd|3}}
+|s1 CeT={{Tgt|Allies}} in<br>[[Cardinal directions]]
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Res|3}}
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd|4}}
+|s2 Ce1T={{Tgt|Allies}} in<br>[[cardinal directions]]
+|s2 Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s2 Ce2C=An {{Tgt|Ally}} is in<br>[[cardinal directions]]
+|skill3={{Si|Flower of Joy|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s3 Ce2={{Eft|Guaranteed Follow-Ups}}
+|s3 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s3 Me={{Eft|Heal|7}}
+|s3 MeT={{Tgt|Unit}} '''&'''<br>{{Tgt|Allies}} in<br>[[cardinal directions]]
+|s3 MeC=After combat
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{CardinalDirections}}
+{{AlliesCombatEffect|effect=temporary buffs}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Guaranteed follow-up interaction|name={{St|Flower of Joy|refine=Skill1}}}}
+{{After combat healing|allies=1|name={{St|Flower of Joy|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Flower of Joy
+|japanese=幸福の花
+|german=Freudenblume
+|spanishEU=Flor jubilosa
+|spanishLA=Flor del júbilo
+|french=Fleur joyeuse
+|italian=Fiore della gioia
+|chineseTW=幸福之花
+|portuguese=Flor da alegria
+}}
+==See also==
+{{See also skills|cond=Name LIKE 'Flower of%'}}
+{{Weapons Navbox}}

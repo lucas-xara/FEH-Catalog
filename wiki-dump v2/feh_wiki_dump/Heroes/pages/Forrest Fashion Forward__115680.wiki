@@ -1,0 +1,80 @@
+{{#invoke:NameAbout|main|Name=Forrest}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Forrest
+|Title=Fashion Forward
+|WeaponType=Colorless Staff
+|Origin=Fire Emblem Fates
+|Gender=Male
+|MoveType=Cavalry
+|actorJP=高橋勇太
+|actorEN=Max Mittelman
+|artist=Tobi
+|additionDate=April 7, 2020
+|releaseDate=April 8, 2020
+|randomStartTime=2020-05-08T07:00:00Z
+|poolDate=April 30, 2020
+|poolRarities=3,4
+|TagID=フォレオ
+|InternalID=505
+|Properties=
+|cv1=11
+|cv2=6901600
+|description=Son of Leo. A kind and compassionate soul, with a keen eye for aesthetics. Loves to sew. Appears in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=6|Lv1SPD=7|Lv1DEF=4|Lv1RES=9
+|GRHP=50|GRATK=60|GRSPD=45|GRDEF=35|GRRES=60
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Assault
+|weapon1Default=
+|weapon1Unlock=1
+|weapon2=Panic
+|weapon2Default=
+|weapon2Unlock=3
+|weapon3=Panic+
+|weapon3Default=
+|weapon3Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Heal
+|assist1Default=1
+|assist1Unlock=1
+|assist2=Mend
+|assist2Default=3
+|assist2Unlock=2
+|assist3=Physic
+|assist3Default=4
+|assist3Unlock=3
+|assist4=Physic+
+|assist4Default=5
+|assist4Unlock=5
+}}
+===Specials===
+{{Specials Table
+|special1=Imbue
+|special1Default=4
+|special1Unlock=2
+|special2=Heavenly Light
+|special2Default=5
+|special2Unlock=3
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Fortress Res 1
+|passiveA2=Fortress Res 2
+|passiveA3=Fortress Res 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Res Ploy 1
+|passiveC2=Res Ploy 2
+|passiveC3=Res Ploy 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

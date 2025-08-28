@@ -1,0 +1,50 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_カゲロウの眩惑針
+|weaponType=Dagger
+|might=14
+|range=2
+|effect=At start of combat, if unit's Atk > foe's Atk, grants Atk/Spd+4 during combat.<br>Effect:【Dagger ７】<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|cost=400
+|exclusive=yes
+|userVersion1=Weapon
+|userVersion2=Upgrade Gleam
+|statModifiers=0,14,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If unit initiates combat, reduces damage from foe's first attack by 50%.
+|iconSkill1=Kageros Dart W.png
+|tagidExtraSkill1=軽
+|properties=
+}}
+==Notes==
+{{At start of combat}}
+{{Combat boosts}}
+{{IfUnitAttacked}}
+{{Penalties}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfUnitInitiates}}
+{{DamagePercentageReduction}}
+
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|初撃軽減R50攻|First Strike Mitigation R50 Attacking}}
+==In other languages==
+{{OtherLanguages
+|japanese=カゲロウの眩惑針
+|german=Kageros Pfeil
+|spanishEU=Dardo Kagero
+|spanishLA=Dardo Kagero
+|french=Kunaï de Kagero
+|italian=Dardo di Kagero
+|chineseTW=陽炎的眩惑針
+|portuguese=Dardo de Kagero
+}}
+==See also==
+* [[Urvan]]
+{{Weapons Navbox}}

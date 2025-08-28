@@ -1,0 +1,42 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_天馬のニンジン＋
+|weaponType=Dagger
+|might=12
+|range=2
+|effectiveness=armored
+|effect=Effective against armored foes. If unit has weapon-triangle advantage, neutralizes effects that prevent unit's follow-up attacks during combat. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions.
+|cost=300
+|exclusive=0
+|required=Pegasus Carrot
+|statModifiers=0,12,0,0,0
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|armored}}
+{{WTA}}
+{{Follow-up effect neutralization|preventOnly=1}}
+{{IfUnitAttacked}}
+{{Penalties}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=天馬のニンジン＋
+|german=Pegasuskarotte+
+|spanishEU=Zanah. pegaso +
+|spanishLA=Zanah. pegaso +
+|french=Carotte pégase +
+|italian=Carota pegasea+
+|chineseTW=天馬胡蘿蔔＋
+|portuguese=Cenoura pégaso+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%neutralizes%that prevent unit_s follow-up attack%'}}
+{{Weapons Navbox}}

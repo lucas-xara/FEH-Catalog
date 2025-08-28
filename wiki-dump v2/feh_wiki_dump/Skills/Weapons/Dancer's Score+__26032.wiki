@@ -1,0 +1,41 @@
+{{Weapon Infobox
+|tagid=SID_楽譜＋
+|weaponType=Blue Tome
+|weaponName=Dancer's Score+
+|altWeaponName=Dancer's Score Plus
+|might=12
+|range=2
+|effect=If unit initiates combat, restores 7 HP to adjacent allies after combat.
+|cost=300
+|exclusive=0
+|userVersion1=Closed|userVersion2=Open|statModifiers=0,12,0,0,0
+|SE=se_effect_musica.flac
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Notes==
+* Has the same effect as {{Pt|Breath of Life 3}}.
+{{IfUnitInitiates}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=舞踏祭の楽譜＋
+|german=Tanzschrift+
+|spanishEU=Partit. de baile +
+|spanishLA=Partit. de baile +
+|french=Partition festive +
+|italian=Spartito d'arte+
+|chineseTW=舞會樂章＋
+|portuguese=Solfa de dança+
+}}
+==See also==
+* [[Performing Arts Weapons]]
+* [[Aura]]
+{{Weapons Navbox}}
+[[Category:Performing Arts weapons]]

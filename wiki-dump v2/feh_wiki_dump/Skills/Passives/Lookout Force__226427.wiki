@@ -1,0 +1,55 @@
+{{Passive
+|name=Lookout Force
+|type=C
+|exclusive=0
+|canUseWeapon={{WeaponList|Dagger}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1required=Lookout 3
+|1name=Lookout Force
+|1tagid=SID_露払い・不屈
+|1effect=Enables【Canto (２)】.<br><br>When Canto triggers, enables unit to use 【Distant Swap】on ally (this effect is not treated as an Assist skill; if similar effects are active, this effect does not trigger).<br><br>If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd+4 to unit and neutralizes unit's penalties to Atk/Spd during combat.<br><br>【Canto (２)】<br>After an attack, Assist skill, or structure destruction, unit can move ２ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)<br><br>【Distant Swap】<br>Range = 2. Unit and target ally swap spaces.
+|1cost=300
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Canto|2}}
+|Me2={{Eft|Distant Swap}}
+|Me2T={{Tgt|Unit}} '''&'''<br>{{Tgt|Target Ally}}
+|Me2C=When [[Canto]] triggers
+|Ce1={{Eft|Temporary buffs|Atk/Spd|4}}
+|Ce2={{Eft|Neutralize Penalties|Atk/Spd}}
+|CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+
+==Notes==
+{{Canto|2}}
+{{Movement skill notes|notBeforeRokkr=1}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Penalty neutralization}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%Unit and%swap spaces%' OR Description LIKE '%not treated as an Assist skill%' OR Description LIKE '%【Canto%' AND Scategory='passivec' AND Description NOT LIKE '%【Canto (１)】%for 1 turn%') AND Exclusive='1'}}
+* [[Shadow Passives]]
+* [[Lookout Passives]]
+* [[Movement Assists]]
+{{Passives Navbox|C}}

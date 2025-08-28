@@ -1,0 +1,36 @@
+{{Weapon Infobox
+|tagid=SID_行楽の飾り槍＋
+|weaponType=Lance
+|might=14
+|range=1
+|effect=If foe initiates combat, grants Atk/Def+4 during combat.
+|cost=300
+|exclusive=0
+|statModifiers=0,14,0,0,0
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|required=Luncheon Lance
+|properties=
+}}
+==Notes==
+* Has the same effect as {{St|Sturdy Stance 2}}.
+{{IfFoeInitiates}}
+{{Combat boosts}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=行楽の飾り槍＋
+|german=Schlemmerlanze+
+|spanishEU=Lanza voraz +
+|spanishLA=Lanza voraz +
+|french=Lance repas +
+|italian=Lancia prandiale+
+|chineseTW=郊遊的飾槍＋
+|portuguese=Comi-lança+
+}}
+{{Weapons Navbox}}

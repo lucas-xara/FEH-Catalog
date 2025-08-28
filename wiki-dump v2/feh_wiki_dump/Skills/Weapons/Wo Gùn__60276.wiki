@@ -1,0 +1,36 @@
+{{Weapon Infobox
+|tagid=SID_倭棍
+|weaponType=Axe
+|weaponName={{PAGENAME}}
+|might=9
+|range=1
+|effect=Deals +10 damage when Special triggers.
+|cost=200
+|exclusive=0
+|statModifiers=0,9,0,0,0
+|next=Wo Gùn+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Axe
+|properties=random_all
+}}
+==Notes==
+{{FlatDamage|special=1|10}}
+
+==List of owners==
+{{Skill Hero List}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=倭棍
+|german=Wo Gùn
+|spanishEU=Wo Gùn
+|spanishLA=Wo Gùn
+|french=Wo Gùn
+|italian=Wo Gùn
+|chineseTW=倭棍
+|portuguese=Wo Gùn
+}}
+==See also==
+* [[Weapons that boost Special damage]]
+{{Weapons Navbox}}

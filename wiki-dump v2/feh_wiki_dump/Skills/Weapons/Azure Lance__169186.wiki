@@ -1,0 +1,45 @@
+{{Weapon Infobox
+|tagid=SID_蒼穹の細槍
+|intID=2982
+|image=wep_lc119
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=16
+|range=1
+|effect=If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd+5 to unit during combat and unit deals +7 damage.
+|statModifiers=0,16,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|tagidExtraSkill1=一
+|effectSkill1=If a Rally or movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Atk/Spd+6 to unit and target ally or unit and targeting ally for 1 turn and restores 10 HP to both. At start of combat, if foe's HP ≥ 75%, grants Atk/Spd+5 to unit during combat.
+|iconSkill1=Azure Lance W.png
+|properties=
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Combat boosts}}
+{{FixedDamage|7}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=蒼穹の細槍
+|german=Azurlanze
+|spanishEU=Lanza azúrea
+|spanishLA=Lanza azúrea
+|french=Lance azur
+|italian=Lancia azzurra
+|chineseTW=蒼穹的細槍
+|portuguese=Lança índigo
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%unit deals +7 damage%' OR (Description LIKE '%if a Rally%skill%' OR Description LIKE '%if a%movement assist skill%') AND Exclusive='1'|columns=3}}
+{{Weapons Navbox}}

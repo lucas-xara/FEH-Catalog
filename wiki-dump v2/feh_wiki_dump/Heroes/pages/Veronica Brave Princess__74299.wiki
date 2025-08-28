@@ -1,0 +1,83 @@
+{{#invoke:NameAbout|main|Name=Veronica|Name2=Thrasir}}
+{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Veronica
+|Title=Brave Princess
+|GrowthModifier=None
+|WeaponType=Colorless Staff
+|Origin=Fire Emblem Heroes
+|Gender=Female
+|MoveType=Cavalry
+|actorJP=日高里菜
+|actorEN=Wendee Lee
+|artist=コザキユースケ
+|resplendentArtist=クレタ
+|additionDate=August 21, 2018
+|releaseDate=August 21, 2018
+|poolDate=September 14, 2018
+|poolRarities=5
+|TagID=総選挙ヴェロニカ
+|InternalID=282
+|Properties=brave,tiara,specRate_202008,resplendent,askr
+|cv1=0
+|cv2=100500
+|description=Imperial princess of the Emblian Empire. She is seeking the whereabouts of her missing beloved brother, Bruno.
+|resplendentStartTime=2024-01-25T07:00:00Z
+|resplendentEndTime=2024-02-10T06:59:59Z
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=8|Lv1SPD=10|Lv1DEF=4|Lv1RES=4
+|GRHP=45|GRATK=55|GRSPD=60|GRDEF=40|GRRES=35
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Assault
+|weapon1Unlock=1
+|weapon2=Hliðskjálf
+|weapon2Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Heal
+|assist1Default=1
+|assist1Unlock=1
+|assist2=Mend
+|assist2Default=3
+|assist2Unlock=2
+|assist3=Recover
+|assist3Default=4
+|assist3Unlock=3
+|assist4=Recover+
+|assist4Default=5
+|assist4Unlock=5
+}}
+===Specials===
+{{Specials Table
+|special1=Imbue
+|special1Default=4
+|special1Unlock=2
+|special2=Kindled-Fire Balm
+|special2Default=5
+|special2Unlock=3
+|special3=Windfire Balm
+|special3Unlock=4
+|special4=Windfire Balm+
+|special4Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Wrathful Staff 1
+|passiveB2=Wrathful Staff 2
+|passiveB3=Wrathful Staff 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Close Guard 1
+|passiveC2=Close Guard 2
+|passiveC3=Close Guard 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

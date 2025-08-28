@@ -1,0 +1,62 @@
+{{Weapon Infobox
+|tagid=SID_戦神の聖杖
+|intID=4099
+|image=wep_rd065
+|exclusive=1
+|weaponType=Colorless Staff
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Foe cannot counterattack. Accelerates Special trigger (cooldown count-1; max cooldown count value cannot be reduced below 1). If unit's HP ≤ 60% or if unit has entered combat or used an Assist skill during the current turn, allies can move to a space within 2 spaces of unit. Grants Atk/Spd/Def/Res+4 to allies within 3 spaces of unit during their combat and restores 7 HP to those allies after their combat. If unit is within 3 spaces of an ally, grants Atk/Res+6 to unit, unit makes a guaranteed follow-up attack, and deals damage = 20% of unit's Res during combat (excluding area-of-effect Specials).
+|required=Assault
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerate Special}}<br>(can't reduce CD below 1)
+|Me1={{Eft|Warp|[[within 2 spaces]] of {{Tgt|Unit}}}}
+|MeT1={{Tgt|Allies}}
+|MeC1={{Tgt|Unit}}'s HP ≤ 60% '''or'''<br>({{Tgt|Unit}} entered combat<br>'''or''' used an Assist)<br>during the current turn
+|Me2={{Eft|Heal|7}}
+|MeT2={{Tgt|Allies}}<br>[[within 3 spaces]]
+|MeC2=After {{Tgt|Ally}}'s combat
+|Ce1={{Eft|Prevent Counter}}
+|CeT1={{Tgt|Foe}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|CeT2={{Tgt|Allies}}<br>[[within 3 spaces]]
+|Ce3={{Eft|Temporary buffs|Atk/Res|6}}
+|Ce4={{Eft|Guaranteed Follow-Ups}}
+|Ce5={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Res}}
+|CeC3-5={{Tgt|Unit}} is<br>[[within 3 spaces]]<br>of an {{Tgt|Ally}}
+}}
+
+==Notes==
+* Exalt's War Staff has the same effect as {{St|Dazzling Staff 3}}.
+{{Prevent counterattacks}}
+{{Warp interaction}}
+{{Temporary buffs}}
+{{After combat healing|allies=1}}
+{{AlliesCombatEffect|temporary buffs}}
+{{Guaranteed follow-up interaction}}
+{{DamageBoost}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V8.4_v0804a_child_Rod.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=戦神の聖杖
+|german=Erhabenenstab
+|spanishEU=Bastón bél. sacro
+|spanishLA=Sacro bastón bél.
+|french=Jeune belliqueuse
+|italian=Asta dell'Eletta
+|chineseTW=戰神的聖杖
+|portuguese=Bastão sagrado
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%restore%HP%after their combat%' AND Description NOT LIKE '%elixir%' OR Description LIKE '%allies can move to a space within 2 spaces of unit%' OR Description LIKE '%deals damage%of unit_s Res%') AND Exclusive='1'}}
+{{Weapons Navbox}}

@@ -1,0 +1,54 @@
+{{Weapon Infobox
+|tagid=SID_戦神の戦斧
+|intID=4095
+|image=wep_ax149
+|exclusive=1
+|weaponType=Axe
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). If unit is within 3 spaces of an ally, grants bonus to unit's Atk/Def/Res = 25% of foe's Atk at start of combat - 4 (max 14; min 5), neutralizes effects that grant "Special cooldown charge +X" to foe or inflict "Special cooldown charge -X" on unit, reduces the effect of【Deep Wounds】on unit by 50%, and reduces damage from foe's follow-up attack by 80% during combat ("follow-up attack" normally means the second strike; for effects that grant "unit attacks twice," it means the third and fourth strikes), and also, if unit's HP ≥ 70%, deals damage = X% of unit's Def when unit's attack triggers unit's Special; otherwise, restores HP = X% of unit's Def to unit when unit's attack triggers unit's Special (X = unit's max Special cooldown count value × 10, + 10; excluding area-of-effect Specials).<br><br>【Deep Wounds】<br>Unit's HP cannot be healed through its next action.
+|required=Silver Axe
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Ce1={{Eft|Temporary buffs|Atk/Def/Res|(25% of {{Tgt|Foe}}'s Atk<br>at start of combat) -4|min=5|max=14}}
+|Ce2={{Eft|Neutralize Accelerate Charge}}
+|CeT2={{Tgt|Foe}}
+|Ce3={{Eft|Neutralize Guard}}
+|Ce4={{Eft|Reduce Deep Wounds|50%}}
+|Ce5={{Eft|Damage Reduction|80%}}<br>from {{Tgt|Foe}}'s [[follow-up]]<br>(including fourth attacks)
+|CeC1-5=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|Ce6={{Eft|Damage Boost|(10 x {{Tgt|Unit}}'s max Special<br>CD, +10)% of {{Tgt|Unit}}'s Def}}<br>per {{Tgt|Unit}}'s [[offensive Special]]
+|CeC6=An {{Tgt|Ally}} is<br>[[within 3 spaces]] '''&'''<br>{{Tgt|Unit}}'s HP ≥ 70%
+|Ce7={{Eft|Heal|(10 x {{Tgt|Unit}}'s max Special<br>CD, +10)% of {{Tgt|Unit}}'s Def}}<br>per {{Tgt|Unit}}'s [[offensive Special]]
+|CeT3-7={{Tgt|Unit}}
+|CeC7=An {{Tgt|Ally}} is<br>[[within 3 spaces]] '''&'''<br>{{Tgt|Unit}}'s HP < 70%
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{At start of combat}}
+{{CooldownChargeMinusNeutralization}}
+{{DamageBoost}}
+{{CombatHPRecovery|DWreduction=50}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=戦神の戦斧
+|german=Neue Kriegsaxt
+|spanishEU=Hacha bél. nueva
+|spanishLA=Nueva hacha bél.
+|french=Hache nouvelle
+|italian=Ascia novella
+|chineseTW=戰神的戰斧
+|portuguese=Machado novo
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%foe_s Atk at start of combat%' OR Description LIKE '%reduces the effect of【Deep Wounds】%') AND Exclusive='1'}}
+{{Weapons Navbox}}

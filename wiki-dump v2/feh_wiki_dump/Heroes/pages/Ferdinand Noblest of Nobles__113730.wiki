@@ -1,0 +1,71 @@
+{{#invoke:NameAbout|main|Name=Ferdinand}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Ferdinand
+|Title=Noblest of Nobles
+|WeaponType=Blue Lance
+|Origin=Fire Emblem: Three Houses
+|Gender=Male
+|MoveType=Cavalry
+|actorJP=坂泰斗
+|actorEN=Billy Kametz
+|artist=さいのすけ
+|additionDate=March 5, 2020
+|releaseDate=March 6, 2020
+|randomStartTime=2020-04-06T07:00:00Z
+|poolDate=March 31, 2020
+|poolRarities=3,4
+|TagID=フェルディナント
+|InternalID=493
+|Properties=
+|cv1=12
+|cv2=200300
+|description=Son and heir of Duke Aegir, the Prime Minister of the Adrestian Empire. Accomplished in both literary and military arts, he works hard to live nobly. Appears in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=8|Lv1SPD=9|Lv1DEF=6|Lv1RES=5
+|GRHP=50|GRATK=55|GRSPD=60|GRDEF=55|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Vanguard
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Vanguard+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Stoutheart Lance
+|weapon5Default=
+|weapon5Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Reposition
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Fortress Def 1
+|passiveA2=Fortress Def 2
+|passiveA3=Fortress Def 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Rouse Spd/Def 1
+|passiveC2=Rouse Spd/Def 2
+|passiveC3=Rouse Spd/Def 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

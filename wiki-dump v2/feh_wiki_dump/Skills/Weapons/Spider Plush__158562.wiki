@@ -1,0 +1,47 @@
+{{Weapon Infobox
+|tagid=SID_クモのぬいぐるみ
+|intID=2770
+|image=wep_mg164
+|exclusive=0
+|weaponType=Blue Tome
+|cost=200
+|might=8
+|range=2
+|effect=If foe initiates combat or if foe's HP ≥ 75% at start of combat, grants Atk+5 to unit, inflicts Atk-5 on foe, and inflicts Special cooldown charge -1 on foe per attack during combat. (Only highest value applied. Does not stack.)
+|statModifiers=0,8,0,0,0
+|required=Elthunder;Ellight
+|next=Spider Plush+
+|promotionRarity=5
+|promotionTier=1
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{SkillEffectText|Temporary buffs|Atk|5}}
+|CombatEffect 2={{SkillEffectText|Temporary debuffs|Atk|5}}
+|CombatEffect 3={{SkillEffectText|Guard}}
+|CombatEffect 2-3 Targets={{SkillTargetText|Foe}}
+|CombatEffect Conditions=Enemy Phase '''or'''<br>{{SkillTargetText|Foe}}'s HP ≥ 75%<br>at start of combat
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+{{Temporary debuffs}}
+{{CooldownChargeMinus}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=クモのぬいぐるみ
+|german=Plüschspinne
+|spanishEU=Araña mullida
+|spanishLA=Araña mullida
+|french=Fausse araignée
+|italian=Ragnetto fedele
+|chineseTW=蜘蛛布偶
+|portuguese=Aranha de pelúcia
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%if foe initiates combat%f foe_s HP%at start of combat%grants Atk+%to unit%inflicts Atk-%on foe during combat%' OR Description LIKE '%if foe initiates combat%f foe_s HP%at start of combat%inflicts Special cooldown charge -1 on foe per attack%') AND Exclusive='1' AND Name NOT LIKE '%deer+%'}}
+* [[Skill families/Weapons#Deer|Deer Weapons]]
+{{Weapons Navbox}}

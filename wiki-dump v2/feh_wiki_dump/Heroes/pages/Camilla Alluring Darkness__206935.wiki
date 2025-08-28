@@ -1,0 +1,76 @@
+{{#invoke:NameAbout|main|Name=Camilla}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Camilla
+|Title=Alluring Darkness
+|WeaponType=Green Tome
+|MoveType=Flying
+|Origin=Fire Emblem Fates
+|Gender=Female
+|LegendaryEffect=Water
+|BoostHP=3
+|BoostAtk=2
+|Duel=200
+|actorEN=Misty Lee
+|actorJP=沢城みゆき
+|artist=大熊まい
+|additionDate=December 25, 2023
+|releaseDate=December 25, 2023
+|cv1=11
+|cv2=500500
+|TagID=伝承カミラ
+|InternalID=1040
+|Properties=legendary
+|description=Eldest princess of Nohr. Both elegant and bewitching, she is often praised for being ever more and more alluring. Appears in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=15|Lv1SPD=11|Lv1DEF=3|Lv1RES=3
+|GRHP=50|GRATK=70|GRSPD=80|GRDEF=45|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Wind
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elwind
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Rexcalibur
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Bewitching Tome
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Draconic Aura
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Death Blow 1
+|passiveA2=Swift Sparrow 1
+|passiveA3=Swift Sparrow 2
+|passiveA4=Remote Sparrow
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Spoil Rotten
+|passiveB1Unlock=5
+|passiveC1=Savage Blow 1
+|passiveC2=Savage Blow 2
+|passiveC3=Savage Blow 3
+|passiveC4=Deadly Miasma
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}

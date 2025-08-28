@@ -1,0 +1,65 @@
+{{Passive
+|type=C
+|exclusive=0
+|1name=Drive Atk 1
+|1tagid=SID_攻撃の大紋章1
+|1promotionRarity=5
+|1promotionTier=1
+|1effect=Grants Atk+2 to allies within 2 spaces during combat.
+|1cost=120
+|1required=Spur Atk 1
+|2name=Drive Atk 2
+|2tagid=SID_攻撃の大紋章2
+|2effect=Grants Atk+3 to allies within 2 spaces during combat.
+|2cost=240
+|3name=
+|3effect=
+|3cost=
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=random_all,random_inherit_base
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce={{Eft|Temporary buffs|Atk|3}}
+|CeT={{Tgt|Allies}}<br>[[within 2 spaces]]
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{AlliesCombatEffect|effect=temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Drive Atk 1;Drive Atk 2
+|badgeColor=Scarlet
+|costs1=20;100;40
+|costs2=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=攻撃の大紋章
+|german=Agr. antreiben
+|spanishEU=Impulsar Ata
+|spanishLA=Impulsar Atq.
+|french=Stimulant Atq
+|italian=Trascina Att
+|chineseTW=攻擊大紋章
+|portuguese=Atq. impulso
+}}
+==See also==
+* [[Drive Passives]]
+* [[Goad Passives]]
+* [[Ward Passives]]
+{{Seals Navbox}}
+{{Passives Navbox|C}}
+[[Category:Drive Passives]]
+[[Category:Spur Passives]]

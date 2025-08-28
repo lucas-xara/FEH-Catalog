@@ -1,0 +1,36 @@
+{{Weapon Infobox
+|tagid=SID_親愛の花
+|intID=3814
+|image=wep_ax139
+|exclusive=1
+|weaponType=Axe
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). For allies in cardinal directions of unit, grants Atk/Spd+5 to ally during their combat and restores 5 HP to ally after their combat. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit during combat, reduces damage from foe's first attack during combat by 40%, and restores 5 HP to unit after combat, and also, if an ally is in a cardinal direction of unit, grants an additional Atk/Spd/Def/Res+4 to unit during combat.
+|required=Silver Axe
+|properties=random_owner
+}}
+==Notes==
+{{Temporary buffs}}
+{{CardinalDirections}}
+{{AlliesCombatEffect|effect=temporary buffs}}
+{{After combat healing|allies=1}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=親愛の花
+|german=Zuneigungsblume
+|spanishEU=Flor devota
+|spanishLA=Flor devota
+|french=Fleur dévouée
+|italian=Fiore dell'affetto
+|chineseTW=親愛之花
+|portuguese=Flor do zelo
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%restores%HP%allies%after combat%' OR Description LIKE '%after combat%restores%HP%allies%' AND Description NOT LIKE '%elixir%') AND Exclusive='1' AND Name NOT LIKE '%+' OR Name LIKE 'Flower of%'}}
+{{Weapons Navbox}}

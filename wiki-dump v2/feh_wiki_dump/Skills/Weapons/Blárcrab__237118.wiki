@@ -1,0 +1,58 @@
+{{Weapon Infobox
+|tagid=SID_ブラークラブ
+|intID=4822
+|userVersion1=Closed
+|userVersion2=Open
+|exclusive=0
+|weaponType=Blue Tome
+|cost=200
+|might=8
+|range=2
+|effect=At start of turn, if unit's HP ≥ 25%, grants Atk+6 and "if unit initiates combat, unit makes a guaranteed follow-up attack" to unit for 1 turn.<br><br>At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit during combat and deals +X damage (X = number of【Bonus】 effects active on unit and foe, excluding stat bonuses, × 5; max 25; excluding area-of-effect Specials).<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|required=Elthunder;Ellight
+|next=Blárcrab+
+|promotionRarity=5
+|promotionTier=1
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{Eft|Bonuses|Atk|6}}
+|Se2={{SEt|Guaranteed Follow-Ups}}
+|SeC=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25%
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce2={{Eft|Damage Boost|5 x {{Kp|Bonus}} effects<br>on {{Tgt|Unit}} '''&''' {{Tgt|Foe}}<br>(exc. {{SEt|Bonuses}})|max=25}}
+|CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{Bonuses}}
+{{Guaranteed Follow-Ups}}
+{{FlatDamageBoost|X (max: 25)}}
+{{EffectfromBonus|nonStat=1|target=unit or foe|damage boost effect}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Gallery==
+<gallery>
+V9.3_v0903b_gaiden_Mag_3.webp|Sprite sheet for the [[Skill families/Weapons#Crab|Crab Weapon]]'s animation.
+</gallery>
+==Trivia==
+{{TomeColorTrivia|blar}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%"if unit initiates combat, unit makes a guaranteed follow-up attack%for 1 turn%' OR Description LIKE '%for 1 turn%"if unit initiates combat, unit makes a guaranteed follow-up attack%' OR Description LIKE '% number of【Bonus】%effects active on unit and foe%') AND Exclusive='1' AND Name NOT LIKE '%crab+'}}
+* [[Skill families/Weapons#Crab|Crab Weapons]]
+{{Weapons Navbox}}

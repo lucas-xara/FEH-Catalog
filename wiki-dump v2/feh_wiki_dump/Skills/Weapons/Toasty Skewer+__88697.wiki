@@ -1,0 +1,45 @@
+{{Weapon Infobox
+|tagid=SID_マシュマロの杖＋
+|weaponType=Staff
+|weaponName=Toasty Skewer+
+|might=12
+|range=2
+|effect=If a foe initiates combat against an ally within 2 spaces of unit, grants Def/Res+3 to that ally during combat.
+|cost=300
+|exclusive=0
+|statModifiers=0,12,0,0,0
+|required=Toasty Skewer
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|effectSkill1=Calculates damage from staff like other weapons.
+|iconSkill1=Wrathful Staff W.png
+|tagidExtraSkill1=神
+|effectSkill2=Foe cannot counterattack.
+|iconSkill2=Dazzling Staff W.png
+|tagidExtraSkill2=幻
+|properties=
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Combat boosts}}
+{{AlliesCombatEffect|effect=combat boost}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Staff Plus Refines}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=マシュマロの杖＋
+|german=Grillspieß+
+|spanishEU=Brocheta dulce +
+|spanishLA=Brocheta dulce +
+|french=Brochette +
+|italian=Spiedone+
+|chineseTW=棉花糖之杖＋
+|portuguese=Espetinho doce+
+}}
+{{Weapons Navbox}}

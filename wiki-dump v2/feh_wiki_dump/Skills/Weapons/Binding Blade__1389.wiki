@@ -1,0 +1,51 @@
+{{Weapon Infobox
+|tagid=SID_封印の剣
+|weaponType=Sword
+|might=16
+|range=1
+|effect=If foe initiates combat, grants Def/Res+2 during combat.
+|cost=400
+|exclusive=1
+|userVersion1=Weapon
+|userVersion2=Upgrade Gleam
+|statModifiers=0,16,0,0,0
+|required=Silver Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffectiveness=dragon
+|upgradedEffect=Effective against dragon foes. If foe initiates combat, grants Def/Res+4 during combat.
+|effectSkill1=If unit's HP ≥ 50% and foe initiates combat, unit makes a guaranteed follow-up attack.
+|iconSkill1=Quick Riposte W.png
+|tagidExtraSkill1=切
+|properties=random_owner
+}}
+==Notes==
+* Has the same effect as {{St|Bracing Stance 1}}.
+{{IfFoeInitiates}}
+{{Combat boosts}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+* Any of the upgrades grant Binding Blade the same effect as {{St|Bracing Stance 2}}.
+{{Guaranteed follow-up interaction}}
+{{Combat boosts}}
+{{Effective damage bonus|dragon}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=封印の剣
+|german=Binding Blade
+|spanishEU=E. de los sellos
+|spanishLA=Esp. de los sellos
+|french=Lame du Sceau
+|italian=Spada dei sigilli
+|chineseTW=封印之劍
+|portuguese=Espada do selo
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%foe initiates combat, unit makes a guaranteed follow-up attack%' OR Description LIKE '%if foe initiates combat, grants Def/Res+%during combat%') AND Exclusive='1'|columns=3}}
+* [[Sources of effective against dragon foes]]
+{{Weapons Navbox}}

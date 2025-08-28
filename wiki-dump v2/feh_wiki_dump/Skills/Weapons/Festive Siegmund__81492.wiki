@@ -1,0 +1,51 @@
+{{Weapon Infobox
+|tagid=SID_業槍ジークムント
+|weaponType=Lance
+|userVersion1=Weapon
+|userVersion2=Red Gleam
+|userVersion3=Green Gleam
+|userVersion4=Yellow Gleam
+|userVersion5=Gold Gleam
+|might=16
+|range=1
+|effect=Accelerates Special trigger (cooldown count-1). If unit is not adjacent to an ally, grants Atk/Spd/Def/Res+4 during combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Silver Lance
+|cooldown=-1
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1). At start of combat, if foe's HP ≥ 75% or if unit is not adjacent to an ally, grants Atk/Spd/Def/Res+4 to unit during combat and restores 7 HP to unit after combat.
+|tagidExtraSkill1=一
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, inflicts Atk/Def-5 on foe during combat, and also, if foe initiates combat and unit's Atk > foe’s Atk, unit attacks twice.
+|iconSkill1=Festive Siegmund W.png
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{After combat healing}}
+{{Combat reductions|name={{St|Festive Siegmund|refine=Skill1}}}}
+{{IfFoeInitiates}}
+{{Brave weapon interaction|name={{St|Festive Siegmund|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=業槍ジークムント
+|german=Festl. Siegmund
+|spanishEU=Siegmund festiva
+|spanishLA=Siegmund festiva
+|french=Siegmund festive
+|italian=Siegmund in festa
+|chineseTW=業槍齊格蒙德
+|portuguese=Siegmund festiva
+}}
+==See also==
+{{See also skills|cond=WikiName LIKE '%Siegmund%' OR Description LIKE '%if unit is not%adjacent%to an ally%grants Atk/Spd/Def/Res+%during combat%'|columns=3}}
+{{Weapons Navbox}}

@@ -1,0 +1,41 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_弦楽器の弓
+|weaponType=Bow
+|might=8
+|range=2
+|effectiveness=flying
+|effect=Effective against flying foes. Grants Def/Res+4 to allies within 2 spaces during combat against sword, lance, axe, dragonstone, or beast foes.
+|cost=200
+|exclusive=0
+|userVersion1=Bow
+|userVersion2=Arrow
+|statModifiers=0,8,0,0,0
+|required=Steel Bow
+|next=Fiddlestick Bow+
+|promotionRarity=5
+|promotionTier=1
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+*Has the same effect as {{St|Close Guard 3}}.{{Combat boosts}}{{AlliesCombatEffect|effect=combat boost}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V3.9 91 dance02 Hit.webp|Spritesheet for {{St|Mögþrasir}}, {{St|Vafþrúðnir}}, {{St|Silver Goblet+}}, {{St|Verðandi}}, and {{PAGENAME}}'s hit animations.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=弦楽器の弓
+|german=Geigenbogen
+|spanishEU=Arco musical
+|spanishLA=Arco musical
+|french=Arc musical
+|italian=Arco musicale
+|chineseTW=弦樂器之弓
+|portuguese=Arco de violino
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants Def/Res+4 to allies within 2 spaces during combat against%foes%' AND Description NOT LIKE '%grants%unit%' OR Description LIKE '%allies within 2 spaces gain%Def/Res+4%'|columns=3}}
+{{Weapons Navbox}}

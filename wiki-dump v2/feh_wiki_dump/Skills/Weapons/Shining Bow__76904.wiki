@@ -1,0 +1,38 @@
+{{Weapon Infobox
+|tagid=SID_シャイニングボウ
+|weaponType=Bow
+|might=8
+|range=2
+|effectiveness=flying
+|effect=Effective against flying foes. If foe's Def ≥ foe's Res+5, deals +7 damage.
+|cost=200
+|exclusive=0
+|userVersion1=Bow
+|userVersion2=Arrow
+|statModifiers=0,8,0,0,0
+|next=Shining Bow+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Bow
+|properties=random_owner
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{FlatDamage|7}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=シャイニングボウ
+|german=Glanzbogen
+|spanishEU=Arco de luz
+|spanishLA=Arco de luz
+|french=Arc brillant
+|italian=Arco splendente
+|chineseTW=閃耀弓
+|portuguese=Arco brilhante
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If foe_s Def ≥ foe_s Res+5, deals +7 damage%'}}
+{{Weapons Navbox}}

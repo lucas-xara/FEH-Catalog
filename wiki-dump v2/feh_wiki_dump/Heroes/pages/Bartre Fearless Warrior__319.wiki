@@ -1,0 +1,69 @@
+{{#invoke:NameAbout|main|Name=Bartre}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Bartre
+|Title=Fearless Warrior
+|GrowthModifier=None
+|WeaponType=Green Axe
+|Origin=Fire Emblem: The Binding Blade
+|Gender=Male
+|MoveType=Infantry
+|actorEN=Kyle Hebert
+|actorJP=利根健太朗
+|artist=岡谷
+|releaseDate=February 2, 2017
+|poolDate=February 2, 2017
+|randomStartTime=2017-02-02T07:00:00Z
+|poolRarities=3,4
+|TagID=バアトル
+|InternalID=49
+|cv1=5
+|cv2=800500
+|description=An outpost warrior who went on a journey to find his beloved daughter, Fir. Appears in Fire Emblem: The Binding Blade.
+}}
+{{Stats Page
+|Lv1HP=21|Lv1ATK=10|Lv1SPD=6|Lv1DEF=7|Lv1RES=3
+|GRHP=65|GRATK=60|GRSPD=45|GRDEF=60|GRRES=25
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Hammer
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Hammer+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Axe of Virility
+|weapon5Default=
+|weapon5Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Smite
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Fury 1
+|passiveA2=Fury 2
+|passiveA3=Fury 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Brash Assault 1
+|passiveB2=Brash Assault 2
+|passiveB3=Brash Assault 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+}}
+{{Heroes Navbox}}

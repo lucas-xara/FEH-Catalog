@@ -1,0 +1,95 @@
+{{Weapon Infobox
+|tagid=SID_黒曜の槍
+|weaponType=Lance
+|might=16
+|range=1
+|effect=Grants Def+3. If unit is not adjacent to an ally, inflicts Atk/Def-6 on foe during combat and unit makes a guaranteed follow-up attack.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,3,0
+|required=Silver Lance
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Def+3.<br>Enables【Canto (２)】.<br><br>At start of combat, if foe's HP ≥ 75% or if number of allies adjacent to unit ≤ 1, inflicts Atk/Def-6 on foe, unit makes a guaranteed follow-up attack, and reduces damage from foe's attacks by 20% of unit's Def during combat (excluding area-of-effect Specials).<br><br>【Canto (２)】<br>After an attack, Assist skill, or structure destruction, unit can move ２ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|effectSkill1=For foes within 3 rows or 3 columns centered on unit, inflicts Atk/Def-5, neutralizes bonuses to Atk/Def, neutralizes effects that grant "Special cooldown charge +X", and those foes cannot make a follow-up attack during combat.<br><br>At start of combat, if unit's HP ≥ 25%, inflicts Atk/Def-6 on foe and deals damage = 20% of unit's Def during combat (excluding area-of-effect Specials), and restores 7 HP to unit after combat.
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Def|3}}
+|s1 Ce1={{Eft|Temporary debuffs|Atk/Def|6}}
+|s1 Ce1T={{Tgt|Foe}}
+|s1 Ce2={{Eft|Guaranteed Follow-Ups}}
+|s1 CeC=No {{Tgt|Allies}}<br>are [[adjacent]]
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Def|3}}
+|s2 Me={{Eft|Canto|2}}
+|s2 Ce1={{Eft|Temporary debuffs|Atk/Def|6}}
+|s2 Ce1T={{Tgt|Foe}}
+|s2 Ce2={{Eft|Guaranteed Follow-Ups}}
+|s2 Ce3={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Def}}<br>from {{Tgt|Foe}}'s attacks
+|s2 CeC={{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat '''or'''<br>[[Adjacent]] {{Tgt|Allies}} ≤ 1
+|skill3={{Si|Obsidian Lance|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary debuffs|Atk/Def|5}}
+|s3 Ce2={{Eft|Neutralize Bonuses|Atk/Def}}
+|s3 Ce3={{Eft|Neutralize Accelerate Charge}}
+|s3 Ce4={{Eft|Prevent Follow-Ups}}
+|s3 Ce1-4T={{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|s3 Ce5={{Eft|Temporary debuffs|Atk/Def|6}}
+|s3 Ce5T={{Tgt|Foe}}
+|s3 Ce6={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Def}}
+|s3 Ce5-6C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s3 Me={{Eft|Heal|7}}
+|s3 MeC=After combat if<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Temporary debuffs}}
+{{Guaranteed follow-up interaction}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Canto|2|name=Refined Obsidian Lance}}
+{{FlatDamageReduction}}
+{{Bonus neutralization|name={{St|Obsidian Lance|refine=Skill1}}}}
+{{CooldownChargePlusNeutralization|name={{St|Obsidian Lance|refine=Skill1}}}}
+{{FoesCombatEffect|temporary debuffs, bonus neutralization, special cooldown charge +X neutralization and prevent follow-up effects|name={{St|Obsidian Lance|refine=Skill1}}}}
+{{DamageBoost|name={{St|Obsidian Lance|refine=Skill1}}}}
+{{After combat healing|name={{St|Obsidian Lance|refine=Skill1}}}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Duessel: Obsidian|t=Valter: Dark Moonstone
+|---xxx---
+|---xxx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxtx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=黒曜の槍
+|german=Obsidianlanze
+|spanishEU=Lanza obsidiana
+|spanishLA=Lanza obsidiana
+|french=Lance obsidienne
+|italian=Lancia ossidiana
+|chineseTW=黑曜之槍
+|portuguese=Lança obsidiana
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%not adjacent%makes a guaranteed follow-up%' OR Description LIKE '%suffer guaranteed follow-up attacks%') AND Exclusive='1' AND WikiName NOT LIKE '%unbound%'}}
+* [[Skill families/Weapons#Unbound|Unbound Weapons]]
+* [[Rein Passives]]
+* [[Skill families/C Passives#Crux|Crux Passives]]
+{{Weapons Navbox}}

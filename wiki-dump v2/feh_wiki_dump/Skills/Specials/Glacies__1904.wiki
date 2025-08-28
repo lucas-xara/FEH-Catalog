@@ -1,0 +1,28 @@
+{{Special
+|tagid=SID_氷華
+|name=Glacies
+|charge=4
+|effect=Boosts damage by 80% of unit's Res.
+|cost=200
+|required=Chilling Wind
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_all,offensive_special
+}}
+==Notes==
+{{DamageBoost}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=氷華
+|german=Glacies
+|spanishEU=Glaciar
+|spanishLA=Glaciar
+|french=Glacier
+|italian=Glacies
+|chineseTW=冰華
+|portuguese=Geleira
+}}
+{{Specials Navbox}}

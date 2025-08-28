@@ -1,0 +1,55 @@
+{{Passive
+|name=Atk/Res Discord
+|type=B
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|Infantry,Flying}}
+|properties=random_owner
+|1name=Atk/Res Discord
+|alt1name=Atk Res Discord
+|1tagid=SID_攻撃魔防の不和
+|1effect=At start of player phase or enemy phase, inflicts Atk/Res-6 and【Discord】on foes with Res < unit's Res and that are within 2 spaces of another foe through their next actions.<br><br>Inflicts penalty on foe's Atk/Res during combat = number of foes inflicted with【Discord】 within 2 spaces of target, including target, × 2, + 4 (max 10) and deals damage = 15% of unit's Res (excluding area-of-effect Specials).<br><br>【Discord】<br>Inflicts Atk/Spd/Def/Res-X on unit during combat (X = 2 + number of allies within 2 spaces of unit; max 5) through its next action.
+|1cost=300
+|1required=Sabotage Atk 3;Sabotage Res 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{Eft|Penalties|Atk/Res|6}}
+|Se2={{SEt|Discord}}
+|SeT={{Tgt|Foes}}<br>[[within 2 spaces]]<br>of other {{Tgt|Foes}}
+|SeC=At start of both Phases<br>if {{Tgt|Foe}}'s Res<br>< {{Tgt|Unit}}'s Res
+|Ce1={{Eft|Temporary debuffs|Atk/Res|2 x {{Tgt|Foes}} with<br>{{SEt|Discord}} [[within 2 spaces]]<br>of {{Tgt|Target Foe}}, +4<br>(including {{Tgt|Target Foe}})|max=10}}
+|Ce1T={{Tgt|Foe}}
+|Ce2={{Eft|Damage Boost|15% of {{Tgt|Unit}}'s Res}}
+}}
+==Notes==
+{{Penalties}}
+{{Discord}}
+{{Temporary debuffs}}
+{{DamageBoost}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Atk/Res Discord
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+
+==See also==
+{{See also skills|cond=(Description LIKE '%【Discord】%' OR Description LIKE '%number of foes inflicted with%' OR Description LIKE '%active on foe and any foe within _ spaces of foe%' OR Description LIKE '%number of foes within _ spaces of target with %') AND Exclusive='1'}}
+* [[Sabotage Passives]]
+* [[Skill families/B Passives#Discord|Discord Passives]]
+{{Passives Navbox|B}}
+[[Category:Sabotage Passives]]
+[[Category:Discord Passives]]

@@ -1,0 +1,65 @@
+{{Weapon Infobox
+|tagid=SID_巳年の神蛇の剣
+|intID=4497
+|image=wep_sw188
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>Allies within 2 spaces of unit can move to any space within 2 spaces of unit.<br><br>If unit has entered combat or used an Assist skill during the current turn, allies can move to a space within 2 spaces of unit.<br><br>If unit initiates combat or is within 2 spaces of an ally, grants bonus to unit's Atk/Spd/Def/Res = number of allies within 3 rows or 3 columns centered on unit × 3, + 5 (max 14), deals damage = 20% of unit's Spd (excluding area-of-effect Specials), and reduces damage from foe's first attack by 20% of unit's Spd during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes).
+|required=Silver Sword
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Me1={{Eft|Warp|[[within 2 spaces]] of {{Tgt|Unit}}}}
+|Me1T={{Tgt|Allies}}<br>[[within 2 spaces]]
+|Me2={{Eft|Warp|[[within 2 spaces]] of {{Tgt|Unit}}}}
+|Me2T={{Tgt|Allies}}
+|Me2C={{Tgt|Unit}} has entered<br>combat '''or''' use<br>an [[Assist]] during<br>current phase
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|3 x {{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}, + 5|max=14}}
+|Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|Ce3={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Spd}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+==Notes==
+{{Warp interaction}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{DamageBoost}}
+{{FlatDamageReduction}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Tana: Soaring New Year|t=Innes: New Year's Aim
+|---xxx---
+|---xxx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xtx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%allies within 2 spaces can move%' OR Description LIKE '%allies within 2 spaces of unit can move%') AND Exclusive='1'}}
+* [[Skill families/C Passives#Guidance|Guidance Passives]]
+{{Weapons Navbox}}

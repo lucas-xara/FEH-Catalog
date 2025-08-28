@@ -1,0 +1,45 @@
+{{Assist
+|tagid=SID_尊き竜の血を継ぐ娘
+|intID=3271
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=400
+|range=1
+|effect=Grants another action to target ally. If used on turn 2 onward, also grants another action to unit, grants Atk/Spd+6 to unit and Pair Up cohort (if any) for 1 turn, and inflicts【Isolation】 on unit and Pair Up cohort (if any) through their next action. (Effects that can trigger on turn 2 onward will not trigger again for 3 turns after triggering. Cannot target an ally with Sing or Dance. This skill treated as Sing or Dance.)<br><br>【Isolation】<br>Target cannot use or be the target of Assist skills through its next action. (Target can neither use nor be the target of skills like Dance and Sing, skills that neutralize penalties, like Restore and Harsh Command+, etc.)
+|required=Dance
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{Eft|Bonuses|Atk/Spd|6}}
+|Se2={{SEt|Isolation}}
+|Se1-2T={{Tgt|Unit}} '''&'''<br>{{Tgt|Cohort}}
+|SeC=Turn 2 onward<br>(3 turn cooldown)<br>'''&''' ({{Tgt|Target (Ally)}}<br>doesn't have a<br>{{Uti|Dance}} [[Dance Assist]]<br>'''or''' {{SEt|Isolation}})
+|Me1={{Eft|Another Action}}
+|Me1T={{Tgt|Target Ally}}
+|Me1C={{Tgt|Target (Ally)}}<br>doesn't have a<br>{{Uti|Dance}} [[Dance Assist]]<br>'''or''' {{SEt|Isolation}}
+|Me2={{Eft|Another Action}}<br>(once per turn)
+|Me2C={{Eft|Bonuses|Atk/Spd|6}}<br>conditions
+}}
+
+==Notes==
+{{Bonuses}}
+{{Isolation}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Dragon's Dance
+|japanese=尊き竜の血を継ぐ娘
+|german=Drachentanz
+|spanishEU=Baile de dragón
+|spanishLA=Baile de dragón
+|french=Danse du dragon
+|italian=Danza del drago
+|chineseTW=繼承尊貴龍血之女
+|portuguese=Dança do dragão
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%This skill treated as Sing or Dance%' OR Description LIKE '%another action to unit%' OR Description LIKE '%grants unit another action%'}}
+{{Assists Navbox}}

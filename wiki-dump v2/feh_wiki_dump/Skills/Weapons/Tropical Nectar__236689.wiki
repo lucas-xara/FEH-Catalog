@@ -1,0 +1,85 @@
+{{Weapon Infobox
+|tagid=SID_南国の蜜の角
+|intID=4804
+|noImg=1
+|exclusive=1
+|weaponType=Beast
+|canUseMove=Infantry
+|cost=400
+|might=14
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>Unit can counterattack regardless of foe's range.<br><br>For allies within 3 rows or 3 columns centered on unit, grants Atk/Def/Res+5, neutralizes ally's penalties to Atk/Def/Res, and ally makes a guaranteed follow-up attack during combat.<br><br>If unit is transformed or if foe initiates combat, grants bonus to unit's Atk/Def/Res = number of allies within 3 spaces of unit × 3, + 5 (max 14), neutralizes unit's penalties to Atk/Def/Res, unit makes a guaranteed follow-up attack, deals damage = 20% of unit's Res (excluding area-of-effect Specials), and reduces damage from foe's attacks by 20% of unit's Res during combat (excluding area-of-effect Specials).<br><br>At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, deals +7 damage when Special triggers, and neutralizes effects that grant "Special cooldown charge +X" to foe or inflict "Special cooldown charge -X" on unit.
+|required=Adult (Infantry)
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe1={{Eft|Accelerates Special}}
+|Pe2={{Eft|Stat Boosts|Atk|2}}
+|PeC2={{Tgt|Unit}} is transformed
+|Me={{Eft|Transform}}
+|MeC=At start of turn if<br>{{Tgt|Unit}} is [[adjacent]] to only<br>{{Cwti|group=1|Dragon,Beast}} [[Dragon]]/[[Beast]]<br>{{Tgt|Allies}} '''or''' not [[adjacent]]<br>to any {{Tgt|Ally}}
+|Ce1={{Eft|Distant Counter}}
+|Ce2={{Eft|Temporary buffs|Atk/Def/Res|5}}
+|Ce3={{Eft|Neutralize Penalties|Atk/Def/Res}}
+|Ce4={{Eft|Guaranteed Follow-Ups}}
+|Ce2-4T={{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|Ce5={{Eft|Temporary buffs|Atk/Def/Res|3 x {{Tgt|Allies}}<br>[[within 3 spaces]], +5|max=14}}
+|Ce6={{Eft|Neutralize Penalties|Atk/Def/Res}}
+|Ce7={{Eft|Guaranteed Follow-Ups}}
+|Ce8={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Res}}
+|Ce9={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Res}}<br>from {{Tgt|Foe}}'s attacks
+|Ce5-9C=Enemy Phase '''or'''<br>{{Tgt|Unit}} is transformed
+|Ce10={{Eft|Neutralize Accelerate Charge}}
+|Ce10T={{Tgt|Foe}}<br>
+|Ce11={{Eft|Neutralize Guard}}
+|Ce10-12C={{Tgt|Unit}} is transformed
+|Ce12={{Eft|Damage Boost|7}} per<br>{{Tgt|Unit}}'s [[Area-of-effect Specials|AoE]] '''or''' [[offensive Special]]
+}}
+==Notes==
+* Tropical Nectar has the same effect as {{St|Distant Counter}}.
+{{Temporary buffs}}
+{{Penalty neutralization}}
+{{Guaranteed follow-up interaction}}
+{{AlliesCombatEffect|temporary buffs, penalty neutralization and guaranteed follow-up attack effects}}
+{{IfFoeInitiates}}
+{{DamageBoost}}
+{{FlatDamageReduction}}
+{{Beast (Infantry)}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Heiðrún: Peaceful Horizon|t=Eikþyrnir: Fit for Waves
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%counterattack regardless of%range%' AND SCategory!='Weapon') AND ((Exclusive='1' AND Name NOT LIKE '%+') OR SCategory='captain')}}
+* [[Counter Passives]]
+* [[Counter Seals]]
+* [[Prime Passives]]
+* [[Weapons with Distant Counter]]
+* [[Weapons with Close Counter]]
+{{Weapons Navbox}}

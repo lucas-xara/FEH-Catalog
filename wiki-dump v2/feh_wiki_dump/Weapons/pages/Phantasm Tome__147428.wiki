@@ -1,0 +1,93 @@
+{{Weapon Infobox
+|tagid=SID_幻影の書
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam closed
+|userVersion4=Gleam open
+|weaponType=Colorless Tome
+|might=14
+|range=2
+|effect=Grants Spd+3. At start of combat, if foe's HP ≥ 50%, inflicts Spd/Res-6 and neutralizes foe's bonuses to Spd/Res (from skills like Fortify, Rally, etc.) during combat, and also, if unit initiates combat, reduces damage from foe's first attack by 70%.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,3,0,0
+|required=Atlas (weapon)
+|intID=2702
+|sort=578
+|value=20
+|timingID=1
+|abilityID=303
+|limit1ID=53
+|randomTimestamp=2021-09-17T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1). Grants Spd+3. If unit initiates combat or foe's HP ≥ 50% at start of combat, inflicts Spd/Res-6 on foe, neutralizes foe's bonuses to Spd/Res (from skills like Fortify, Rally, etc.), and reduces damage from foe's first attack by X% during combat (if unit initiates combat, X = 80; otherwise, X = 30).
+|upgradedCooldown=-1
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit, deals damage = 20% of unit's Spd (including when dealing damage with a Special triggered before combat), reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% (example: a foe with a "reduce damage by 45%" skill would reduce damage by 23% instead), and neutralizes effects that inflict "Special cooldown charge -X" on unit during combat.
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Spd|3}}
+|s1 Ce1={{Eft|Temporary Debuffs|Spd/Res|6}}
+|s1 Ce2={{Eft|Neutralize Bonuses|Spd/Res}}
+|s1 CeT1-2={{Tgt|Foe}}
+|s1 CeC1-2={{Tgt|Foe}}'s HP ≥ 50%<br>at start of combat 
+|s1 Ce3={{Eft|Damage Reduction|70%}}<br>from {{Tgt|Foe}}'s first attack
+|s1 CeC3=Player Phase '''&'''<br>{{Tgt|Foe}}'s HP ≥ 50%<br>at start of combat
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe1={{Eft|Accelerates Special}}
+|s2 Pe2={{Eft|Stat Boosts|Spd|3}}
+|s2 Ce1={{Eft|Temporary Debuffs|Spd/Res|6}}
+|s2 Ce2={{Eft|Neutralize Bonuses|Spd/Res}}
+|s2 CeT1-2={{Tgt|Foe}} 
+|s2 Ce3={{Eft|Damage Reduction|2=(80% during Player<br>Phase; else X = 30%)}}<br>from {{Tgt|Foe}}'s first attack
+|s2 CeC=Player Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 50%<br>at start of combat
+|skill3={{Si|Phantasm Tome|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary Buffs|Atk/Spd/Def/Res|5}}
+|s3 Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}<br>before '''&''' during combat
+|s3 Ce3={{Eft|Reduce Damage Reduction|50%}}
+|s3 CeT3={{Tgt|Foe}}
+|s3 Ce4={{Eft|Neutralize Guard}}
+|s3 CeT4={{Tgt|Unit}}
+|s3 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Temporary debuffs}}
+{{Bonus neutralization}}
+{{IfUnitInitiates}}
+{{DamagePercentageReduction}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary buffs|name={{St|Phantasm Tome|refine=Skill1}}}}
+{{DamageBoost|name={{St|Phantasm Tome|refine=Skill1}}}}
+{{Reduce Damage Reduction|name={{St|Phantasm Tome|refine=Skill1}}}}
+{{CooldownChargeMinusNeutralization|name={{St|Phantasm Tome|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V5.8 210802 popularity Mag.webp|Sprite sheet used for the animation of the [[Skill families/Weapons#Lion|Lion Weapons]] and '''Phantasm Tome'''.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=幻影の書
+|german=Buch der Geister
+|spanishEU=Grimorio espectro
+|spanishLA=Grimorio espectro
+|french=Tome fantôme
+|italian=Tomo fantasma
+|chineseTW=幻影之書
+|portuguese=Tomo fantasma
+}}
+==See also==
+{{see also skills|cond=(Description LIKE '%percentage of foe_s non-Special "reduce damage by X%" skills by 50%' OR Description LIKE '%reduces damage%X =%otherwise%X =%') AND (Exclusive='1' AND Name NOT LIKE '%+' AND Properties HOLDS NOT 'arcane')}}
+* [[Null Passives]]
+* [[Tempo Passives]]
+{{Weapons Navbox}}

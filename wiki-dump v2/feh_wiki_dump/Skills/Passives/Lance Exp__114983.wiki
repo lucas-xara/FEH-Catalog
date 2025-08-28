@@ -1,0 +1,47 @@
+{{Passive
+|type=C
+|exclusive=0
+|1name=Lance Exp. 1
+|1tagid=SID_槍の経験1
+|1promotionRarity=4
+|1promotionTier=1
+|1required=-
+|1effect=While unit lives and uses a lance, unit gets 1.5x EXP.<br>(Only highest value applied. Does not stack.)
+|1cost=30
+|2name=Lance Exp. 2
+|2tagid=SID_槍の経験2
+|2promotionRarity=5
+|2promotionTier=1
+|2effect=While unit lives, all lance allies on team get 1.5x EXP.<br>(Only highest value applied. Does not stack.)
+|2cost=60
+|3name=Lance Exp. 3
+|3tagid=SID_槍の経験3
+|3effect=While unit lives, all lance allies on team get 2x EXP.<br>(Only highest value applied. Does not stack.)
+|3cost=120
+|canUseWeapon={{WeaponList|Lance}}
+|canUseMove={{MoveList|all}}
+|properties=
+}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Lance Exp.
+|japanese=槍の経験
+|german=Lanzen-Erf.
+|spanishEU=Exp con lanza
+|spanishLA=Exp. con lanza
+|french=Exp. lance
+|italian=Esp lancia
+|chineseTW=槍之經驗
+|portuguese=Lança exp.
+}}
+==See also==
+* [[Experience Passives]]
+* [[Valor Passives]]
+{{Passives Navbox|C}}
+[[Category:Experience Passives]]

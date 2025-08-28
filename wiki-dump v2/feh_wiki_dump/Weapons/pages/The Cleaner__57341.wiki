@@ -1,0 +1,35 @@
+{{Weapon Infobox
+|tagid=SID_粛清の暗器
+|weaponType=Dagger
+|might=8
+|range=2
+|effect=Grants bonus to unit’s Atk = total bonuses on foe during combat. After combat, if unit attacked, inflicts Def/Res-5 on target and foes within 2 spaces of target through their next actions.
+|cost=200
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|next=The Cleaner+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Dagger
+|properties=random_owner
+}}
+==Notes==
+{{BonusesToAtk|source=the foe|bnsSource=the unit}}
+{{IfUnitAttacked}}
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=粛清の暗器
+|german=Säuberer
+|spanishEU=Limpiador
+|spanishLA=Limpiador
+|french=Nettoyeur
+|italian=Potatore
+|chineseTW=肅清暗器
+|portuguese=Fazendo a limpa
+}}
+==See also==
+* [[Blade Weapons]]
+{{Weapons Navbox}}

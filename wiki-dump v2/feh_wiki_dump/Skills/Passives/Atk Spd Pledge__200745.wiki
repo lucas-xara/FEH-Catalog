@@ -1,0 +1,52 @@
+{{Passive
+|name=Atk/Spd Pledge
+|type=C
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|Infantry}}
+|properties=random_owner
+|1name=Atk/Spd Pledge
+|alt1name=Atk Spd Pledge
+|1tagid=SID_攻撃速さの信条4
+|1effect=At start of turn, if unit is within 2 spaces of an ally, grants Atk/Spd+6 and "Special cooldown charge +1 to unit per attack during combat (only highest value applied; does not stack)" to unit for 1 turn. If unit is within 2 spaces of an ally, grants Atk/Spd+3 to unit during combat.
+|1cost=300
+|1required=Atk/Spd Oath 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{Eft|Bonus|Atk/Spd|6}}
+|Se2=<span style="width:10em;display:inline-block"/>{{SEt|Special Cooldown Charge +1}}
+|SeC=At start of turn<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce={{Eft|Temporary buffs|Atk/Spd|3}}
+|CeC=An {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+
+==Notes==
+{{Bonuses}}
+{{Special Cooldown Charge +1}}
+{{Temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Atk/Spd Pledge
+|japanese=攻撃速さの信条
+|german=Agr./Ges.-Schwur
+|spanishEU=Promesa Ata/Vel
+|spanishLA=Promesa Atq./Vel.
+|french=Serment Atq/Vit
+|italian=Promessa Att/Vel
+|chineseTW=攻擊速度的信念
+|portuguese=Jura Atq./Vel.
+}}
+
+==See also==
+{{See also skills|cond=(Description LIKE '%Special cooldown charge +1 per attack%to%for 1 turn%' OR Description LIKE '%"Grants Special cooldown charge +1 per attack%' OR Description LIKE '%"Special cooldown charge +1 per attack%') AND Exclusive='1'}}
+* [[Oath Passives]]
+* [[Skill families/C Passives#Pledge|Pledge Passives]]
+{{Passives Navbox|C}}
+[[Category:Oath Passives]][[Category:Pledge Passives]]

@@ -1,0 +1,46 @@
+{{Weapon Infobox
+|tagid=SID_アーダンの固剣
+|weaponType=Sword
+|might=10
+|range=1
+|userVersion1=Weapon
+|userVersion2=Gleam
+|effect=Inflicts Spd-5. Unit attacks twice.<br>(Even if foe initiates combat, unit attacks twice.)
+|cost=400
+|exclusive=true
+|statModifiers=0,11,-5,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=At start of combat, if unit's HP ≥ 50%, grants Atk+4, Def+6 to unit during combat and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)
+|iconSkill1=Ardens Blade W.png
+|tagidExtraSkill1=消
+|refineStatsAtk=5,1,0,0,0
+|properties=random_owner
+}}
+==Notes==
+{{Brave weapon interaction}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Combat boosts}}
+{{CooldownChargeMinus}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=アーダンの固剣
+|german=Ardens Klinge
+|spanishEU=Acero Arden
+|spanishLA=Acero Arden
+|french=Épée d'Arden
+|italian=Lama di Arden
+|chineseTW=亞丹的固劍
+|portuguese=Espada de Arden
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%inflicts Spd-_%attacks twice%' AND Description NOT LIKE '%inflicts Spd-_%if unit initiates combat,% attacks twice%' OR Description LIKE '%if unit_s HP ≥%inflicts%special cooldown charge -1 on foe%' OR Description LIKE '%if unit_s HP ≥%grants Atk+%during combat%' AND Description NOT LIKE '%transforms%' AND Description NOT LIKE '%if unit_s HP _ foe_s HP%'|columns=3}}
+* [[Brave Weapons]]
+{{Weapons Navbox}}

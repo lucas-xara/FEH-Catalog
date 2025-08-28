@@ -1,0 +1,50 @@
+{{Weapon Infobox
+|tagid=SID_閉ざす者の爪牙
+|intID=2865
+|exclusive=1
+|weaponType=Beast
+|canUseMove=Flying
+|cost=400
+|might=14
+|range=1
+|effect=Grants Spd+3. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+6 to unit during combat. Unit's first attack during combat deals damage = X% of unit's Spd (X = the number of foes within 3 spaces × 10; max 30%). Reduces damage from foe's first attack during combat by X% (X = the number of foes within 3 spaces × 20; max 60%).<br><br>At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, unit can move 1 extra space. (That turn only. Does not stack.) If unit transforms, grants Atk+2.
+|statModifiers=0,14,3,0,0
+|required=Adult (Flier)
+|properties=random_owner,enemy_only
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe1={{Eft|Stat Boosts|Spd|3}}
+|Pe2={{Eft|Stat Boosts|Atk|2}}
+|Pe2C={{Tgt|Unit}} is transformed
+|Se={{SEt|Mobility Increased}}
+|SeC=At start of turn if<br>{{Tgt|Unit}} is transformed
+|Ce1={{Eft|Temporary debuffs|Atk/Spd|6}}
+|Ce2={{Eft|Damage Boost|(10 x {{Tgt|Foes}} [[within 3 spaces|within<br>3 spaces]] of {{Tgt|Target Foe}})%<br>of {{Tgt|Unit}}'s Spd|max=30%}}<br>for {{Tgt|Unit}}'s first attack
+|Ce3={{Eft|Damage Reduction|(20 x {{Tgt|Foes}} [[within 3 spaces|within<br>3 spaces]] of {{Tgt|Target Foe}})%|max=60%}}<br>from {{Tgt|Foe}}'s first attack
+|CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Me={{Eft|Transform}}
+|MeC=At start of turn if<br>{{Tgt|Unit}} is [[adjacent]] to only<br>{{Cwti|group=1|Dragon,Beast}} [[Dragon]]/[[Beast]]<br>{{Tgt|Allies}} '''or''' not [[adjacent]]<br>to any {{Tgt|Ally}}
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{DamageBoost}}
+{{DamagePercentageReduction}}
+{{Beast (Flier)}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=閉ざす者の爪牙
+|german=Schließzahn
+|spanishEU=Colmillo divisorio
+|spanishLA=Colmillo divisorio
+|french=Croc fermeture
+|italian=Zanna separatrice
+|chineseTW=封閉者的爪牙
+|portuguese=Presa separadora
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%unit\'s first attack%deals damage =%of unit_s Spd%' OR Description LIKE '%reduces damage from foe_s first attack during combat%' AND Exclusive='1'}}
+{{Weapons Navbox}}

@@ -1,0 +1,71 @@
+{{#invoke:NameAbout|main|Name=Lyon}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Lyon
+|Title=Shadow Prince
+|GrowthModifier=Gen 2
+|WeaponType=Red Tome
+|MoveType=Infantry
+|Origin=Fire Emblem: The Sacred Stones
+|Gender=Male
+|actorEN=Mark P. Whitten
+|resplendentActorEN=Mark Whitten
+|actorJP=中村悠一
+|artist=ミヤジマハル
+|resplendentArtist=藤未都也
+|additionDate=January 25, 2018
+|releaseDate=January 26, 2018
+|TagID=リオン
+|InternalID=213
+|Properties=ghb,limited,resplendent,askr
+|cv1=7
+|cv2=300100
+|description=Prince of Grado; not fond of fighting. A childhood friend of Ephraim and Eirika. Appears in Fire Emblem: The Sacred Stones.
+|resplendentStartTime=2025-04-25T07:00:00Z
+|resplendentEndTime=2025-05-10T06:59:59Z
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=10|Lv1SPD=4|Lv1DEF=4|Lv1RES=8
+|GRHP=50|GRATK=55|GRSPD=40|GRDEF=50|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Flux
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Ruin
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Fenrir
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Naglfar
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Retribution
+|special1Default=4
+|special1Unlock=3
+|special2=Vengeance
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Resistance +1
+|passiveA2=Attack/Res 1
+|passiveA3=Attack/Res 2
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Spur Res 1
+|passiveC2=Drive Res 1
+|passiveC3=Drive Res 2
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

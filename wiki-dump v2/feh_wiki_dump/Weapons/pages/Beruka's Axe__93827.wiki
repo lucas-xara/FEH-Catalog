@@ -1,0 +1,44 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_ベルカの殺斧
+|weaponType=Axe
+|might=16
+|range=1
+|effect=Accelerates Special trigger (cooldown count-1).
+|cooldown=-1
+|cost=400
+|exclusive=1
+|userVersion1=Weapon
+|userVersion2=Gleam
+|statModifiers=0,16,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=At start of combat, if unit's HP ≥ 50%, inflicts Atk-4 on foe during combat and Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)
+|iconSkill1=Berukas Axe W.png
+|tagidExtraSkill1=消
+|properties=
+}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Combat reductions}}
+{{CooldownChargeMinus}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|キャンセルR50攻4|Cancel R50 Attack 4}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=ベルカの殺斧
+|german=Berukas Axt
+|spanishEU=Hacha Beruka
+|spanishLA=Hacha Beruka
+|french=Hache de Beruka
+|italian=Ascia di Beruka
+|chineseTW=貝爾卡的殺斧
+|portuguese=Machado Beruka
+}}
+{{Weapons Navbox}}

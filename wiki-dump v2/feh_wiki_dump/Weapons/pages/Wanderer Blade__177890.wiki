@@ -1,0 +1,48 @@
+{{Weapon Infobox
+|tagid=SID_流浪の鋭剣
+|intID=3177
+|image=wep_sw136
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of combat, if foe's HP ≥ 75%, grants Atk/Spd+5 to unit during combat, and also, if unit's Spd > foe's Spd, grants Special cooldown charge +1 per attack. (Only highest value applied. Does not stack.)
+|statModifiers=0,16,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|tagidExtraSkill1=一
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+5 to unit during combat, and also, if unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 4 (max 40%).
+|iconSkill1=Wanderer Blade W.png
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+{{CooldownChargePlus}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=流浪の鋭剣
+|german=Nomadenklinge
+|spanishEU=Hoja viajera
+|spanishLA=Hoja viajera
+|french=Lame nomade
+|italian=Lama vagabonda
+|chineseTW=流浪的銳劍
+|portuguese=Espada errante
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit\'s Spd > foe\'s Spd%educes damage from%area-of-effect Specials%' AND Description NOT LIKE '%【Dodge】%' AND Exclusive='1'|columns=3}}
+* [[Skill families#Dodge|Dodge Passives]]
+{{Weapons Navbox}}

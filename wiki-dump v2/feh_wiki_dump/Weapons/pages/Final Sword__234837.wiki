@@ -1,0 +1,63 @@
+{{Weapon Infobox
+|tagid=SID_終着の剣
+|intID=4737
+|image=wep_sw199
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>At start of player phase or enemy phase, if unit's HP ≥ 25%, grants Atk/Def+6,【Imbue】, and【Reflex】to unit and allies within 2 spaces of unit for 1 turn.<br><br>If foe initiates combat or if unit's HP ≥ 25% at start of combat, grants Atk+X to unit, inflicts Atk-X on foe (X = 20% of unit's Def at start of combat, + 6), unit deals +Y damage (excluding area-of-effect Specials), reduces damage from foe's attacks by Y (excluding area-of-effect Specials), reduces damage from foe's Specials by Y (excluding area-of-effect Specials; if foe's HP ≥ 70% at start of combat, Y = 16; otherwise Y = 10), and neutralizes【Deep Wounds】during combat, and also, when unit's Special triggers, neutralizes foe's "reduces damage by X%" effects from foe's non-Special skills (excluding area-of-effect Specials).<br><br>【Imbue】<br>Reduces the effect of【Deep Wounds】on unit by 50% during combat, and restores 40% of unit's maximum HP as unit's combat begins for 1 turn (triggers after effects that deal damage as combat begins; only highest value applied; does not stack).<br><br>【Reflex】<br>Reduces damage from foe's first attack by 7 during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes) and unit's next attack deals damage = total damage reduced from foe's first attack (by any source, including other skills; resets at end of combat). (For 1 turn.)<br><br>【Deep Wounds】<br>Unit's HP cannot be healed through its next action.
+|required=Silver Sword
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Se1={{Eft|Bonuses|Atk/Def|6}}
+|Se2={{SEt|Imbue}}
+|Se3={{SEt|Reflex}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25%
+|Ce1={{Eft|Temporary buffs|Atk|20% of {{Tgt|Unit}}'s Def<br>at start of combat, +6}}
+|Ce2={{Eft|Temporary debuffs|Atk|20% of {{Tgt|Unit}}'s Def<br>at start of combat, +6}}
+|Ce2T={{Tgt|Foe}}
+|Ce3={{Eft|Damage Boost|percent=0|(16 if {{Tgt|Foe}}'s HP ≥ 70%<br>at start of combat; else 10)}}
+|Ce4={{Eft|Damage Reduction|percent=0|(16 if {{Tgt|Foe}}'s HP ≥ 70%<br>at start of combat; else 10)}}
+|Ce5={{Eft|Damage Reduction|percent=0|(16 if {{Tgt|Foe}}'s HP ≥ 70%<br>at start of combat; else 10)}}<br>per {{Tgt|Foe}}'s [[offensive Special]]
+|Ce6={{Eft|Neutralize Deep Wounds}}
+|Ce7={{Eft|Neutralize Damage Reduction}}<br>per {{Tgt|Unit}}'s [[offensive Special]]
+|Ce7T={{Tgt|Foe}}<br>
+|CeC=Enemy Phase '''or'''<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Bonuses}}
+{{Imbue}}
+{{Reflex}}
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+{{Temporary debuffs}}
+{{At start of combat}}
+{{FlatDamageBoost|10/16}}
+{{FlatDamageReduction|10/16}}
+{{Deep Wounds Neutralization}}
+{{DamageReductionNeutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=終着の剣
+|german=Finales Schwert
+|spanishEU=Espada final
+|spanishLA=Espada final
+|french=Épée finale
+|italian=Ultima spada
+|chineseTW=終點之劍
+|portuguese=Espada final
+}}
+
+==See also==
+{{See also skills|cond=(Description LIKE '%【Imbue】%' OR Description LIKE '%【Reflex】%' OR Description LIKE '%foe_s HP ≥% at start of combat, _ = %' OR Description LIKE '%grants Atk+X%inflicts Atk-X% = % of % at start of combat%') AND Exclusive='1'}}
+{{Weapons Navbox}}

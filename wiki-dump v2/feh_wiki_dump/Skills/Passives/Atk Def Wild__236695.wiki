@@ -1,0 +1,53 @@
+{{Passive
+|name=Atk/Def Wild
+|type=A
+|exclusive=0
+|canUseWeapon={{WeaponList|Beast}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Atk/Def Wild
+|alt1name=Atk Def Wild
+|1tagid=SID_攻撃守備の野性
+|1effect=If number of adjacent allies other than beast or dragon allies ≤ 1, or if unit is transformed, grants Atk/Def+7 to unit during combat and grants Special cooldown charge +1 to unit per attack during combat (only highest value applied; does not stack), and restores 7 HP to unit after combat.
+|1cost=300
+|1required=Atk/Def Solo 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Heal|7}}
+|MeC=After combat if<br>({{Eft|Temporary buffs|Atk/Def|7}}<br>conditions are met)
+|Ce1={{Eft|Temporary buffs|Atk/Def|7}}
+|Ce2={{Eft|Accelerate Charge}}
+|CeC=[[Adjacent]] Non-<br>{{Cwti|group=1|Beast,Dragon}} [[Dragon]]/[[Beast]]<br>{{Tgt|Allies}} ≤ 1 '''or''' {{Tgt|Unit}}<br>is transformed
+}}
+==Notes==
+{{IfUnitTransforms}}
+{{Temporary buffs}}
+{{CooldownChargePlus}}
+{{After combat healing}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Atk/Def Wild
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+
+==See also==
+{{See also skills|cond=Description LIKE '%if unit is transformed%' AND Exclusive='1'}}
+* [[Skill families/A Passives#Wild|Wild Passives]]
+* [[Solo Passives]]
+{{Passives Navbox|A}}
+[[Category:Solo Passives]]
+[[Category:Wild Passives]]

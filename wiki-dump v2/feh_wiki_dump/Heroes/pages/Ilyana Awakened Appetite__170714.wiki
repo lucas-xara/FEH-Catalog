@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Ilyana}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Ilyana
+|Title=Awakened Appetite
+|WeaponType=Green Tome
+|MoveType=Infantry
+|Origin=Fire Emblem: Path of Radiance
+|Gender=Female
+|actorEN=Ryan Bartley
+|actorJP=後藤沙緒里
+|artist=いちかわはる
+|additionDate=April 6, 2022
+|releaseDate=April 7, 2022
+|cv1=8
+|cv2=4900500
+|TagID=幼少イレース
+|InternalID=790
+|Properties=special,hat
+|description=A girl who is endlessly hungry. She has a knack for magic, but...how many Heroes' worth of rations will it take to satisfy her appetite? Appears in Fire Emblem: Path of Radiance.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=11|Lv1SPD=4|Lv1DEF=5|Lv1RES=12
+|GRHP=50|GRATK=70|GRSPD=60|GRDEF=30|GRRES=70
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Wind
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elwind
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Rexcalibur
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Windy War Tome
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Glacies
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Lull Atk/Res 1
+|passiveB2=Lull Atk/Res 2
+|passiveB3=Lull Atk/Res 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Atk/Res Gap 1
+|passiveC2=Atk/Res Gap 2
+|passiveC3=Atk/Res Gap 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Childhood units]]

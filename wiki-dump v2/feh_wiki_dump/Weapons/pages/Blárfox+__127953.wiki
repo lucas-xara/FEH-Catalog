@@ -1,0 +1,52 @@
+{{Weapon Infobox
+|tagid=SID_ブラーフォックス＋
+|weaponName=Blárfox+
+|userVersion2=Open
+|userVersion1=Closed
+|weaponType=Blue Tome
+|might=12
+|range=2
+|effect=If unit initiates combat, inflicts Atk/Spd/Def/Res-4 on foe during combat.
+|cost=300
+|exclusive=0
+|statModifiers=0,12,0,0,0
+|required=Blárfox
+|intID=2232
+|sort=7001
+|value=15
+|timingID=1
+|abilityID=97
+|limit1ID=1
+|randomTimestamp=2020-10-18T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=random_owner
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Combat reductions}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{TomeColorTrivia|Blar}}
+==In other languages==
+{{OtherLanguages
+|english=Blárfox+
+|japanese=ブラーフォックス＋
+|german=Blárfuchs+
+|spanishEU=Zorro zarco +
+|spanishLA=Zorro añil +
+|french=Renard saphir +
+|italian=Turchinvolpe+
+|chineseTW=蒼藍狐狸＋
+|portuguese=Blárfox+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If unit initiates combat%inflicts Atk/Spd/Def/Res-_ on foe%during combat%' AND WikiName NOT LIKE '%fox%'|columns=3}}
+* [[Skill families#Fox|Fox Weapons]]
+{{Weapons Navbox}}

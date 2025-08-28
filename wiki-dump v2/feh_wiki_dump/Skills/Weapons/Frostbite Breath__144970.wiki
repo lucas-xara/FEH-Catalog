@@ -1,0 +1,46 @@
+{{Weapon Infobox
+|tagid=SID_絶氷のブレス
+|weaponName=Frostbite Breath
+|image=wep_ac035
+|weaponType=Dragonstone
+|might=16
+|range=1
+|effect=Grants Spd+3. At start of combat, if unit's HP ≥ 25%, inflicts Atk/Spd/Def/Res-5 on foe during combat, and also, after combat, if unit attacked, inflicts status preventing counterattacks on target and foes within 2 spaces of target through their next actions. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,3,0,0
+|required=Flametongue
+|intID=2643
+|sort=559
+|effectRange=2
+|value=20
+|adaptive=Flying
+|timingID=6
+|abilityID=65
+|limit1ID=42
+|limit2ID=6
+|randomTimestamp=2021-08-07T07:00:00Z
+|randomMinLv=31
+|properties=random_owner
+}}
+==Notes==
+{{Combat reductions}}
+{{IfUnitAttacked}}
+{{Counterattacks disrupted}}
+{{LowerDefRes}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=絶氷のブレス
+|german=Odem des Frosts
+|spanishEU=Aliento helado
+|spanishLA=Soplo helado
+|french=Souffle glacé
+|italian=Soffio algido
+|chineseTW=絕冰吐息
+|portuguese=Sopro frígido
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%inflicts%status%preventing counterattacks%next actions%' AND Description NOT LIKE '%(preventing%'|columns=3}}
+{{Weapons Navbox}}

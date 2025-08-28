@@ -1,0 +1,63 @@
+{{#invoke:NameAbout|main|Name=Michalis}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Michalis
+|Title=Ambitious King
+|GrowthModifier= None
+|WeaponType=Green Axe
+|Origin=Fire Emblem: Mystery of the Emblem
+|Gender=Male
+|MoveType=Flying
+|actorEN=David Vincent
+|actorJP=福島潤
+|artist=Daisuke Izuka
+|releaseDate=March 20, 2017
+|additionDate=February 2, 2017
+|TagID=ミシェイル
+|InternalID=58
+|Properties=ghb,limited
+|cv1=1
+|cv2=400100
+|description=King of Macedon who had great ambitions for his country. Murdered his father. Brother to Minerva and Maria. Appears in Fire Emblem: Mystery of the Emblem.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=8|Lv1SPD=7|Lv1DEF=9|Lv1RES=4
+|GRHP=55|GRATK=60|GRSPD=45|GRDEF=60|GRRES=35
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Hauteclere
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Rising Thunder
+|special1Default=4
+|special1Unlock=3
+|special2=Blazing Thunder
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Iote's Shield
+|passiveA1Unlock=4
+|passiveC1=Threaten Def 1
+|passiveC2=Threaten Def 2
+|passiveC3=Threaten Def 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

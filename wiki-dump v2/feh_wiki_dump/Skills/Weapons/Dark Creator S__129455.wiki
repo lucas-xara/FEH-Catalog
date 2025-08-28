@@ -1,0 +1,85 @@
+{{Weapon Infobox
+|tagid=SID_天帝の闇剣
+|weaponName=Dark Creator S
+|userVersion1=Weapon
+|userVersion2=Upgrade Weapon
+|userVersion3=Upgrade Gleam
+|weaponType=Sword
+|might=16
+|range=1
+|effect=Grants Def+3. During combat, boosts unit's Atk/Def by number of allies with HP ≥ 90% × 2 (max 6). During unit's first combat in player phase or enemy phase, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = number of allies with HP ≥ 90% × 15 (max 45%).
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,3,0
+|required=Silver Sword
+|intID=2271
+|sort=457
+|effectRange=99
+|value=20
+|timingID=1
+|abilityID=239
+|randomTimestamp=2020-11-19T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by X% (if it is unit's first combat initiated by foe or first combat initiated by unit that turn, X = number of allies with HP ≥ 75% × 25; max 75; otherwise X = number of allies with HP ≥ 75% × 15; max 45).<br><br>Grants Def+3. Grants bonus to unit's Atk/Spd/Def/Res during combat = number of allies with HP ≥ 75% × 3, + 4 (max 13).
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit, and grants Special cooldown charge +1 to unit per attack and inflicts Special cooldown charge -1 on foe per attack during combat (only highest value applied; does not stack), and restores 7 HP to unit after combat.
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Def|3}}
+|s1 Ce1={{Eft|Temporary buffs|Atk/Def|2 x {{Tgt|Allies}} with HP ≥ 90%|max=6}}
+|s1 Ce2={{Eft|Damage Reduction|15 x {{Tgt|Allies}} with HP ≥ 90%<br>from attacks & Non-Røkkr [[AoE Specials]]|percent=1|max=45%}}
+|s1 CeC2=1<sup>st</sup> combat in<br>Both Phases
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Def|3}}
+|s2 Ce1={{Eft|Damage Reduction|25 x {{Tgt|Allies}} with HP ≥ 75%<br>from attacks & Non-Røkkr [[AoE Specials]]|percent=1|max=75%}}
+|s2 Ce1C=1<sup>st</sup> combat in<br>Both Phases
+|s2 Ce2={{Eft|Damage Reduction|15 x {{Tgt|Allies}} with HP ≥ 75%<br>from attacks & Non-Røkkr [[AoE Specials]]|percent=1|max=45%}}
+|s2 Ce2C=2<sup>nd</sup>+ combat in<br>Both Phases
+|s2 Ce3={{Eft|Temporary buffs|Atk/Spd/Def/Res|3 x {{Tgt|Allies}} with HP ≥ 75%, +4|max=13}}
+|skill3={{Si|Dark Creator S|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s3 Ce2={{Eft|Accelerate Charge}}
+|s3 Ce3={{Eft|Guard}}
+|s3 Ce3T={{Tgt|Foe}}
+|s3 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s3 Me={{Eft|Heal|7}}
+|s3 MeC=After combat if<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{FirstCombat}}
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{CooldownChargePlus|name={{St|Dark Creator S|refine=Skill1}}}}
+{{CooldownChargeMinus|name={{St|Dark Creator S|refine=Skill1}}}}
+{{After combat healing|name={{St|Dark Creator S|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+* The name <code>Dark Creator Sword</code> is too long, so in-game it's shortened to <code>Dark Creator S</code>.
+==In other languages==
+{{OtherLanguages
+|english=Dark Creator S
+|japanese=天帝の闇剣
+|german=D. Schöpferschw.
+|spanishEU=Espada del Caos
+|spanishLA=Espada del Caos
+|french=Épée du Chaos
+|italian=Sp. Creaz. oscura
+|chineseTW=天帝之闇劍
+|portuguese=Espada do caos
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%number of allies with HP%'}}
+{{Weapons Navbox}}

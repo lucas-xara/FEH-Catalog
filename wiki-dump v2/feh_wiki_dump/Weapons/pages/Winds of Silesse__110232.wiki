@@ -1,0 +1,51 @@
+{{Weapon Infobox
+|tagid=SID_シレジアの風
+|weaponType=Green Tome
+|might=14
+|range=2
+|effect=Grants Spd+3. If unit is not adjacent to an ally, grants Atk/Spd+6 to unit during combat.
+|cost=400
+|exclusive=1
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam closed
+|userVersion4=Gleam open
+|statModifiers=0,14,3,0,0
+|required=Rexcalibur
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Spd+3. If unit initiates combat or the number of allies adjacent to unit ≤ 1, grants Atk/Spd+6 during combat to unit and inflicts penalty on foe's Spd/Res during combat = 20% of unit's Spd at start of combat.
+|effectSkill1=At start of turn, if unit's HP ≥ 25%, grants Atk/Spd+6,【Desperation】, and "Special cooldown charge +1 per attack during combat (only highest value applied; does not stack)" to unit for 1 turn. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+5 to unit during combat.<br><br>【Desperation】<br>Grants the following effect for 1 turn: "If unit initiates combat, unit can make a follow-up attack before foe can counterattack."
+|properties=random_owner
+}}
+==Notes==
+* Winds of Silesse has the same effect as {{St|Atk/Spd Solo 3}}.
+{{Temporary buffs}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfUnitInitiates}}
+{{Temporary debuffs|name=refined Winds of Silesse}}
+{{At start of combat|name=refined Winds of Silesse}}
+{{Bonuses|name={{St|Winds of Silesse|refine=Skill1}}}}
+{{Desperation|name={{St|Winds of Silesse|refine=Skill1}}}}
+{{Special Cooldown Charge +1|name={{St|Winds of Silesse|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Winds of Silesse
+|japanese=シレジアの風
+|german=Wind von Silesse
+|spanishEU=Vientos de Silesse
+|spanishLA=Viento de Silesse
+|french=Vents de Silesse
+|italian=Venti del Silesse
+|chineseTW=西里西亞之風
+|portuguese=Ventos de Silesse
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%if unit is not%adjacent%grants Atk/Spd+%during combat%' AND Exclusive='1' OR Description LIKE '%if unit initiates combat or the number of allies adjacent to unit%' OR Description LIKE '%inflicts%of unit_s Spd at start of combat%' OR Description LIKE '%【Desperation】%' OR Description LIKE '%at start of turn, if unit_s HP%grants%to unit for 1 turn%' OR Description LIKE '%at start of turn%grants Atk/Spd+%to unit for 1 turn%') AND Exclusive='1'}}
+{{Weapons Navbox}}

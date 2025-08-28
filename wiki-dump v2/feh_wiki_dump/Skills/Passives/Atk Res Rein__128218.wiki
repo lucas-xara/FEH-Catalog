@@ -1,0 +1,91 @@
+{{Passive
+|name=Atk/Res Rein
+|type=C
+|exclusive=0
+|canUseMove={{MoveList|Flying}}
+|canUseWeapon={{WeaponList|All}}
+|effectRange=2
+|timingID=2
+|abilityID=97
+|randomTimestamp=2020-10-30T07:00:00Z
+|properties=random_owner
+|1name=Atk/Res Rein 1
+|1tagid=SID_攻撃魔防の牽制1
+|1effect=Inflicts Atk/Res-2 on foes within 2 spaces during combat.
+|1required=-
+|1cost=60
+|1promotionRarity=4
+|1promotionTier=1
+|alt1name=Atk Res Rein 1
+|intID1=2240
+|sort1=4520
+|value1=2
+|randomMinLv1=21
+|randomMaxLv1=30
+|2name=Atk/Res Rein 2
+|2tagid=SID_攻撃魔防の牽制2
+|2effect=Inflicts Atk/Res-3 on foes within 2 spaces during combat.
+|2required=Atk/Res Rein 1
+|2cost=120
+|2promotionRarity=5
+|2promotionTier=1
+|alt2name=Atk Res Rein 2
+|intID2=2241
+|sort2=4521
+|value2=4
+|randomMinLv2=26
+|randomMaxLv2=35
+|3name=Atk/Res Rein 3
+|3tagid=SID_攻撃魔防の牽制3
+|3effect=Inflicts Atk/Res-4 on foes within 2 spaces during combat.
+|3required=Atk/Res Rein 2
+|3cost=240
+|alt3name=Atk Res Rein 3
+|intID3=2242
+|sort3=4522
+|value3=6
+|randomMinLv3=31
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce={{Eft|Temporary debuffs|Atk/Res|4}}
+|CeT={{Tgt|Foes}}<br>[[within 2 spaces]]
+}}
+==Notes==
+{{Temporary debuffs}}
+{{FoesCombatEffect|effect=temporary debuffs}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Atk/Res Rein 1;Atk/Res Rein 2;Atk/Res Rein 3
+|badgeColor=Transparent
+|costs1=20;100;40
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|english=Atk/Res Rein
+|japanese=攻撃魔防の牽制
+|german=Agr./Res.-Zügel
+|spanishEU=Amarra Ata/Res
+|spanishLA=Amrr. Atq./Res.
+|french=Bride Atq/Rés
+|italian=Briglia Att/Res
+|chineseTW=攻擊魔防牽制
+|portuguese=Rédea Atq./Res.
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%inflicts Atk/%Res-_ on foes within _ spaces during combat%' AND Exclusive='1'}}
+* [[Rein Passives]]
+* [[Skill families/Weapons#Rein_.28weapons.29|Rein Weapons]]
+{{Seals Navbox}}
+{{Passives Navbox|C}}

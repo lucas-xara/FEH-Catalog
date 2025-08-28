@@ -1,0 +1,38 @@
+{{Weapon Infobox
+|tagid=SID_牽制の剣
+|intID=3007
+|image=wep_sw126
+|exclusive=0
+|weaponType=Sword
+|cost=200
+|might=10
+|range=1
+|effect=Inflicts Spd/Def-5 on foes within 2 spaces during combat.
+|statModifiers=0,10,0,0,0
+|required=Steel Sword
+|next=Rein Sword+
+|promotionRarity=5
+|promotionTier=1
+|properties=random_owner
+}}
+==Notes==
+{{Combat reductions}}
+{{FoesCombatEffect}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=牽制の剣
+|german=Zügelschwert
+|spanishEU=Espada amarra
+|spanishLA=Espada amarra
+|french=Épée bride
+|italian=Spada Briglia
+|chineseTW=牽制之劍
+|portuguese=Espada rédea
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%inflicts%Spd/Def%-%on foes within _ spaces during combat%' AND WikiName NOT LIKE '%Rein%'|columns=3}}
+* [[Skill families#Rein|Rein Passives]]
+* [[Skill families#Rein_.28weapons.29|Rein Weapons]]
+{{Weapons Navbox}}

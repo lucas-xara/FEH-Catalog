@@ -1,0 +1,51 @@
+{{Passive
+|type=S
+|name=Squad Ace BB
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|1name=Squad Ace BB 1
+|alt1name=Squad Ace AH 1
+|1tagid=SID_第54迷宮の覇者1
+|1cost=100
+|1effect=Grants HP+3, Res+1.
+|statModifiers1=3,0,0,0,1
+|1required=-
+|1next=-
+|2name=Squad Ace BB 2
+|alt2name=Squad Ace AH 2
+|2tagid=SID_第54迷宮の覇者2
+|2cost=200
+|2effect=Grants HP+4, Res+2.
+|statModifiers2=4,0,0,0,2
+}}
+==Seal acquired from==
+===Squad Assault reward===
+* Complete the [[54th Assault]].
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Squad Ace BB 1;Squad Ace BB 2
+|badgeColor=Scarlet
+|costs1=-<!--0;0;0-->
+|costs2=400;1000;100
+}}
+
+==In other languages==
+{{OtherLanguages
+|english=Squad Ace BB
+|japanese=第５４迷宮の覇者
+|german=Überfall-Ass BB
+|spanishEU=As del asalto BB
+|spanishLA=As del asalto BB
+|french=Assaut réussi BB
+|italian=Asso sq. BB
+|chineseTW=第５４迷宮的霸王
+|portuguese=Esquadrão ás BB
+}}
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}
+[[Category:Squad Ace Seals]]

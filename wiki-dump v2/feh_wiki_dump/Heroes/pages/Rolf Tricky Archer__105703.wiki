@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Rolf}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Rolf
+|Title=Tricky Archer
+|WeaponType=Colorless Bow
+|Origin=Fire Emblem: Path of Radiance
+|Gender=Male
+|MoveType=Cavalry
+|actorJP=浅川悠
+|actorEN=Erik Kimerer
+|artist=みく郎
+|additionDate=October 8, 2019
+|releaseDate=October 9, 2019
+|TagID=ハロヨファ
+|InternalID=433
+|Properties=tempest,limited,specDisplay,hat
+|cv1=8
+|cv2=100700
+|description=A member of the Greil Mercenaries and the younger brother of Oscar and Boyd. Joining in on the harvest festivities in a ghostly getup. Appears in Fire Emblem: Path of Radiance.
+|GrowthModifier=Gen 4
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=6|Lv1SPD=10|Lv1DEF=6|Lv1RES=4
+|GRHP=50|GRATK=55|GRSPD=60|GRDEF=50|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Candlewax Bow
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Candlewax Bow+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Shove
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Desperation 1
+|passiveB2=Desperation 2
+|passiveB3=Desperation 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Odd Spd Wave 1
+|passiveC2=Odd Spd Wave 2
+|passiveC3=Odd Spd Wave 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Halloween units]]

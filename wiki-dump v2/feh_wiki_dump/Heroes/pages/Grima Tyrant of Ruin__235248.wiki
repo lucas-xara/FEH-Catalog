@@ -1,0 +1,70 @@
+{{#invoke:NameAbout|main|Name=Grima|Name2=Robin}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Grima
+|Title=Tyrant of Ruin
+|WeaponType=Blue Breath
+|Person=Grima M
+|MoveType=Armored
+|Origin=Fire Emblem Awakening
+|Gender=Male
+|actorEN=David Vincent
+|actorJP=細谷佳正
+|artist=п猫Ｒ
+|randomStartTime=2025-07-06T07:00:00Z
+|additionDate=June 5, 2025
+|releaseDate=June 6, 2025
+|poolDate=June 20, 2025
+|poolRarities=3,4
+|cv1=10
+|cv2=500100
+|TagID=ギムレー男
+|InternalID=1250
+|Properties=
+|description=Grima, having consumed Robin. The world, filled with death and destruction, greets its end. Appears in Fire Emblem Awakening.
+}}
+{{Stats Page
+|Lv1HP=21|Lv1ATK=10|Lv1SPD=5|Lv1DEF=13|Lv1RES=12
+|GRHP=60|GRATK=90|GRSPD=30|GRDEF=75|GRRES=80
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire Breath
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Fire Breath+
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Obstinate Breath
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Obstinate Breath+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Glacies
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Res Scowl 1
+|passiveA2=Atk/Res Scowl 2
+|passiveA3=Atk/Res Scowl 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=Slick Fighter 1
+|passiveB2=Slick Fighter 2
+|passiveB3=Slick Fighter 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+{{Heroes Navbox}}

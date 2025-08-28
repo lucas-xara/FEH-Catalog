@@ -1,0 +1,78 @@
+{{#invoke:NameAbout|main|Name=Lugh}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Lugh
+|Title=Anima Child
+|GrowthModifier=Gen 3
+|WeaponType=Green Tome
+|Origin=Fire Emblem: The Binding Blade
+|Gender=Male
+|MoveType=Infantry
+|actorJP=竹内順子
+|actorEN=Michael Johnston
+|artist=日向悠二
+|additionDate=March 7, 2019
+|releaseDate=March 8, 2019
+|poolDate=April 10, 2019
+|randomStartTime=2019-04-08T07:00:00Z
+|poolRarities=5
+|TagID=ルゥ
+|InternalID=351
+|Properties=specRate_202202
+|cv1=5
+|cv2=300100
+|description=A boy from an orphanage. Raigh's twin brother. He's cheerful and tender-hearted. Appears in Fire Emblem: The Binding Blade.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=5|Lv1SPD=12|Lv1DEF=4|Lv1RES=7
+|GRHP=45|GRATK=70|GRSPD=55|GRDEF=30|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Wind
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elwind
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Gronnserpent
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Gronnserpent+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Tome of Reason
+|weapon5Default=
+|weapon5Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Rally Resistance
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Rally Up Res
+|assist2Default=
+|assist2Unlock=4
+|assist3=Rally Up Res+
+|assist3Default=
+|assist3Unlock=5
+}}
+===Specials===
+{{Specials Table
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Warding Stance 1
+|passiveA2=Mirror Stance 1
+|passiveA3=Mirror Stance 2
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=Atk Feint 1
+|passiveB2=Atk Feint 2
+|passiveB3=Atk Feint 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+{{Heroes Navbox}}

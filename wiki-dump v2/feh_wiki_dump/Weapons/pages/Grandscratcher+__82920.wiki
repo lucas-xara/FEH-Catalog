@@ -1,0 +1,44 @@
+{{Weapon Infobox
+|tagid=SID_孫の手＋
+|weaponType=Staff
+|might=12
+|range=2
+|effect=At the start of turn 1, grants Special cooldown count-1 to ally with the highest Atk. (If that ally does not have a Special skill, this skill has no effect.)
+|cost=300
+|exclusive=0
+|statModifiers=0,12,0,0,0
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|effectSkill1=Calculates damage from staff like other weapons.
+|iconSkill1=Wrathful Staff W.png
+|tagidExtraSkill1=神
+|effectSkill2=Foe cannot counterattack.
+|iconSkill2=Dazzling Staff W.png
+|tagidExtraSkill2=幻
+|properties=
+}}
+==Notes==
+{{SelectStat|Atk}}
+{{Start of turn Special modification}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Staff Plus Refines}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=孫の手＋
+|german=Rückenkratzer+
+|spanishEU=Megarrascador +
+|spanishLA=Megarrascador +
+|french=Grattoir +
+|italian=Grattaschiena+
+|chineseTW=不求人＋
+|portuguese=Megaescova+
+}}
+==References==
+<references/>
+{{Weapons Navbox}}

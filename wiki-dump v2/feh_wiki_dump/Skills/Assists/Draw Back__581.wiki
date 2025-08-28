@@ -1,0 +1,40 @@
+{{Assist
+|tagid=SID_引き寄せ
+|name=Draw Back
+|range=1
+|effect=Unit moves 1 space away from target ally. Ally moves to unit's previous space.
+|cost=150
+|required=-
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_all,random_inherit_base
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Drag Back Units}}
+|MeT={{Tgt|Unit}} '''&'''<br>{{Tgt|Target Ally}}
+|MeC={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}
+}}
+
+==Notes==
+{{Movement skill notes|notBeforeRokkr=1}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=引き寄せ
+|german=Einfangen
+|spanishEU=Enroque
+|spanishLA=Enroque
+|french=Repli
+|italian=Ripiegamento
+|chineseTW=拉近
+|portuguese=Roque
+}}
+
+==See also==
+* [[Movement Assists]]
+
+{{AssistSkillBox}}
+[[Category:Movement Assists]]

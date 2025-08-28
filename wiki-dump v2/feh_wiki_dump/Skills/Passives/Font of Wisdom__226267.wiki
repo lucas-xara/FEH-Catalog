@@ -1,0 +1,49 @@
+{{Passive
+|name=Font of Wisdom
+|type=B
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Font of Wisdom
+|1tagid=SID_知の源
+|1effect=At start of player phase or enemy phase, inflicts Atk/Spd/Res-7 on foes that are within 2 spaces of another foe through their next actions.<br><br>Inflicts Atk/Spd/Res-5 on foe, inflicts penalty on foe's Atk/Spd/Res = highest penalty on each stat between target and foes within 2 spaces of target (calculates each stat penalty independently), deals damage = 20% of unit's Res (excluding area-of-effect Specials), reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% (excluding area-of-effect Specials), and reduces damage from foe's first attack by 7 during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes).
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se={{Eft|Penalties|Atk/Spd/Res|7}}
+|SeT={{Tgt|Foes}}<br>[[within 2 spaces]]<br>of other {{Tgt|Foes}}
+|SeC=At start of both Phases
+|Ce1={{Eft|Temporary debuffs|Atk/Spd/Res|5}}
+|Ce2={{Eft|Temporary debuffs|Atk/Spd/Res|highest {{SEt|Penalty}}<br>on {{Tgt|Target Foe}} & {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}}}
+|Ce3={{Eft|Reduce Damage Reduction|50%}}
+|Ce1-3T={{Tgt|Foe}}
+|Ce4={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Res}}
+|Ce5={{Eft|Damage Reduction|7}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+}}
+==Notes==
+{{Penalties}}
+{{TemporaryBufffromPenalty|multisource=1|source=the foe and foes within 2 spaces of those foes}}
+{{DamageBoost}}
+{{Reduce Damage Reduction}}
+{{FlatDamageReduction|7}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%within 2 spaces of another foe%' OR Description LIKE '%highest penalty on each stat between target and foes within _ spaces of target%') AND Exclusive='1'}}
+* [[Sabotage Passives]]
+* [[Skill families/B Passives#Discord|Discord Passives]]
+{{Passives Navbox|B}}

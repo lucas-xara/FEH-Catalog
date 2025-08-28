@@ -1,0 +1,71 @@
+{{Weapon Infobox
+|tagid=SID_軍略伝授の刃
+|intID=4114
+|image=wep_dg085
+|exclusive=1
+|weaponType=Dagger
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). Grants Atk/Def/Res+4 and "reduces the percentage of foe's non-Special 'reduce damage by X%' skills by 30% (excluding area-of-effect Specials)" to allies within 7 rows and 7 columns centered on unit during combat. At start of combat, if unit's HP ≥ 25%, inflicts penalty on foe's Atk/Def = number of allies within 7 rows and 7 columns centered on unit × 3, + 6 (max 15), reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% (excluding area-of-effect Specials), and grants Special cooldown charge +1 to unit per attack during combat (only highest value applied; does not stack).<br>Effect:【Dagger ７】<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|required=Silver Dagger
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Ce1={{Eft|Temporary buffs|Atk/Def/Res|4}}
+|Ce2={{Eft|Reduce Damage Reduction|30%}}
+|CeT1={{Tgt|Allies}} in a [[7x7 area]]<br>centered on {{Tgt|Unit}}
+|CeT2={{Tgt|Foes}} against<br>{{Tgt|Allies}} in a [[7x7 area]]<br>centered on {{Tgt|Unit}}
+|Ce3={{Eft|Temporary debuffs|Atk/Def|3 x {{Tgt|Allies}} in a [[7x7 area]]<br>centered on {{Tgt|Unit}}, +6|max=15}}
+|Ce4={{Eft|Reduce Damage Reduction|50%}}
+|CeT3-4={{Tgt|Foe}}
+|Ce5={{Eft|Accelerate Charge}}
+|CeC3-5={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Se={{Eft|Penalties|Def/Res|7}}
+|SeT={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|SeC=After combat if<br>{{Tgt|Unit}} attacked
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{Reduce Damage Reduction}}
+{{AlliesCombatEffect|temporary buffs and reduce non-Special "reduce damage by X%" effects}}
+{{Temporary debuffs}}
+{{CooldownChargePlus}}
+{{IfUnitAttacked}}
+{{Penalties}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Yukimura: Puppet Master|t=Ryoma: Peerless Samurai
+|-------------
+|-xxxxxtxxxxx-
+|-xxxxxxxxxxx-
+|-xxxxxxxxxxx-
+|-xxxxxuxxxxx-
+|-xxxxxxxxxxx-
+|-xxxxxxxxxxx-
+|-xxxxxxxxxxx-
+|-------------
+}}
+|}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=軍略伝授の刃
+|german=Scharfsinn
+|spanishEU=Hoja perspicacia
+|spanishLA=Perspicacia
+|french=Perspicace
+|italian=Perspicacia
+|chineseTW=傳授兵法之刃
+|portuguese=Perspicácia
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants%to allies within%rows%' AND Exclusive='1'}}
+{{Weapons Navbox}}

@@ -1,0 +1,39 @@
+{{Passive
+|name=Mercy-Wing Echo
+|type=X
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|1name=Mercy-Wing Echo
+|1tagid=SID_響・救援の行路
+|1effect=If an ally's HP ≤ 50%, unit can move to a space adjacent to that ally.
+|1cost=0
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Warp|[[adjacent]] to {{Tgt|Allies}}<br>with HP ≤ 50%}}
+}}
+
+==Notes==
+{{Warp interaction}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=響・救援の行路
+|german=Hall der Flügel
+|spanishEU=Eco rescate
+|spanishLA=Eco alas piadosas
+|french=Symb. sauvetage
+|italian=Eco ali di pietà
+|chineseTW=響・救援路線
+|portuguese=Eco asa piedosa
+}}
+==See also==
+* [[Warp Passives]]
+{{Passives Navbox|X}}

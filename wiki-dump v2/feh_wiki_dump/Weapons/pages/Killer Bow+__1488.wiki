@@ -1,0 +1,39 @@
+{{Weapon Infobox
+|tagid=SID_キラーボウ＋
+|weaponType=Bow
+|might=9
+|range=2
+|effectiveness=flying
+|effect=Accelerates Special trigger (cooldown count-1).<br>Effective against flying foes.
+|cooldown=-1
+|cost=300
+|exclusive=0
+|userVersion1=Bow
+|userVersion2=Arrow
+|statModifiers=0,9,0,0,0
+|properties=random_all
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+==Evolution==
+{{WEvo
+|weapon=Slaying Bow+
+|Medals=200
+|Stones=20
+}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=キラーボウ＋
+|german=Meisterbogen+
+|spanishEU=Arco asesino +
+|spanishLA=Arco letal +
+|french=Arc létal +
+|italian=Arco letale+
+|chineseTW=必殺弓＋
+|portuguese=Arco letal+
+}}
+==See also==
+* [[Weapons that accelerate the Special trigger]]
+{{Weapons Navbox}}

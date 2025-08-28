@@ -1,0 +1,91 @@
+{{Weapon Infobox
+|tagid=SID_神祖竜のブレス
+|image=wep_ac026
+|weaponType=Dragonstone
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). If foe's Range = 2, calculates damage using the lower of foe's Def or Res. If foe initiates combat or if foe's HP = 100% at start of combat, grants Atk/Spd/Def/Res+5 to unit and grants unit Special cooldown charge +1 per unit's attack. (Only highest value applied. Does not stack.)
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Flametongue
+|intID=2200
+|sort=444
+|value=20
+|adaptive=Flying
+|timingID=1
+|abilityID=76
+|limit1ID=46
+|randomTimestamp=2020-10-01T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1). If foe's Range = 2, calculates damage using the lower of foe's Def or Res. If foe initiates combat or if foe's HP ≥ 75% at start of combat, grants Atk/Spd/Def/Res+5 to unit, grants Special cooldown charge +1 per attack (only highest value applied; does not stack), and reduces damage from foe's first attack by 7 during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes).
+|effectSkill1=At the start of turn 1, if foe's attack can trigger unit's Special, grants Special cooldown count-2. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit during combat, neutralizes effects that inflict "Special cooldown charge -X" on unit during combat, and reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by 30%, and restores 7 HP to unit after combat.
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Accelerate Special}}
+|s1 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s1 Ce2={{Eft|Accelerate Charge}}<br>per {{Tgt|Unit}}'s attack 
+|s1 Ce1-2C=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP = 100%<br>at start of combat
+|s1 Ce3={{Eft|Lower Def Res}}
+|s1 Ce3C={{Tgt|Foe}}'s [[Range = 2]]
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Accelerate Special}}
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s2 Ce2={{Eft|Accelerate Charge}}
+|s2 Ce3={{Eft|Damage Reduction|7}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|s2 Ce1-3C=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|s2 Ce4={{Eft|Lower Def Res}}
+|s2 Ce4C={{Tgt|Foe}}'s [[Range = 2]]
+|skill3={{Si|Primordial Breath|refine=Skill1}} Skill refine effects
+|s3 Me1={{Eft|Reduce Cooldown|2}}
+|s3 Me1C=At start of turn 1<br>if {{Tgt|Unit}} has a<br>[[defensive Special]]
+|s3 Me2={{Eft|Heal|7}}
+|s3 Me2C=After combat if<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s3 Ce2={{Eft|Neutralize Guard}}
+|s3 Ce3={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s attacks<br>'''&''' Non-Røkkr [[AoE Specials]]
+|s3 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{LowerDefRes}}
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+{{CooldownChargePlus|perAttack=user}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{CooldownChargePlus}}
+{{FlatDamageReduction|7|name=refined Primordial Breath}}
+{{Start of turn Special modification|name={{St|Primordial Breath|refine=Skill1}}}}
+{{CooldownChargeMinusNeutralization|name={{St|Primordial Breath|refine=Skill1}}}}
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Primordial Breath
+|japanese=神祖竜のブレス
+|german=Atem der Ahnen
+|spanishEU=Aliento prístino
+|spanishLA=Soplo prístino
+|french=Souffle primordial
+|italian=Soffio ancestrale
+|chineseTW=神祖龍吐息
+|portuguese=Sopro primordial
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%start of turn 1,%if foe_s attack%special cooldown count-%') AND Exclusive='1'}}
+* [[Pulse Passives]]
+{{Weapons Navbox}}

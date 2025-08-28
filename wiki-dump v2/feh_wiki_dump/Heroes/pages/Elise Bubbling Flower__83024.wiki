@@ -1,0 +1,78 @@
+{{#invoke:NameAbout|main|Name=Elise}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Elise
+|Title=Bubbling Flower
+|GrowthModifier=
+|WeaponType=Red Dagger
+|Origin=Fire Emblem Fates
+|Gender=Female
+|MoveType=Cavalry
+|actorJP=諏訪彩花
+|actorEN=Liv Strander
+|artist=みく郎
+|additionDate=January 23, 2019
+|releaseDate=January 23, 2019
+|TagID=温泉エリーゼ
+|InternalID=334
+|Properties=special,specRate_202202
+|cv1=11
+|cv2=501200
+|description=Youngest princess of Nohr. Sometimes slips out of the castle to enjoy herself at a famous hot spring. Appears in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=15|Lv1ATK=7|Lv1SPD=11|Lv1DEF=3|Lv1RES=7
+|GRHP=45|GRATK=60|GRSPD=60|GRDEF=35|GRRES=35
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Dagger
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Dagger
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Red-Hot Ducks
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Red-Hot Ducks+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Rally Attack
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Rally Up Atk
+|assist2Default=
+|assist2Unlock=4
+|assist3=Rally Up Atk+
+|assist3Default=
+|assist3Unlock=5
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Darting Blow 1
+|passiveA2=Swift Sparrow 1
+|passiveA3=Swift Sparrow 2
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Atk Feint 1
+|passiveB2=Atk Feint 2
+|passiveB3=Atk Feint 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Dagger Valor 1
+|passiveC2=Dagger Valor 2
+|passiveC3=Dagger Valor 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Hot Springs units]]

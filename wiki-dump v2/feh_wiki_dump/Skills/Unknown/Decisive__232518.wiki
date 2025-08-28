@@ -1,0 +1,29 @@
+{{Captain Skill
+|name=Decisive
+|effect=If decreasing the Spd difference necessary to make a follow-up attack by 30 would allow captain to trigger a follow-up attack, triggers Potent Follow X% during combat (if captain cannot perform follow-up and attack twice, X = 100; otherwise, X = 50).
+|statModifiers=
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce={{Eft|Potent Follow X%|2=100% if {{Tgt|Captain}} can't<br>[[follow-up]] '''&''' [[attack twice]];<br>else, X = 50%}}
+|CeT={{Tgt|Captain}}
+|CeC={{Tgt|Captain}}'s Spd ≥<br>{{Tgt|Foe}}'s Spd -25
+}}
+
+==Notes==
+{{Potent Follow|X%}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【Potent Follow%】%'}}
+{{Captain Skills Navbox}}

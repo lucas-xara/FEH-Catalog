@@ -1,0 +1,56 @@
+{{Passive
+|name=Just like Mother
+|type=C
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Just like Mother
+|1tagid=SID_お母様みたいに
+|1effect=Enables【Canto (Dist.; Max ３)】.<br><br>At start of player phase or enemy phase, if unit is within 3 spaces of an ally, grants 【Creation Pulse】and【Empathy】to unit and allies within 3 spaces of unit for 1 turn.<br><br>If unit initiates combat or if unit is within 3 spaces of an ally, grants Atk/Spd+5 to unit and unit deals +7 damage during combat (excluding area-of-effect Specials), and also, if unit's HP > 1 and foe would reduce unit's HP to 0, unit survives with 1 HP (once per combat; does not stack with non-Special effects that allow unit to survive with 1 HP if foe's attack would reduce HP to 0).<br><br>After unit acts, if an ally within 3 spaces of unit initiates combat, grants another action to unit after ally's combat, and if Canto has already been triggered, re-enables Canto (once per turn; if another effect that grants action to unit has been activated at the same time, this effect is also considered to have been triggered; "within 3 spaces" is calculated based on the position after triggering post-combat skill effects that change positioning).<br><br>【Canto (Dist.; Max ３)】<br>After an attack, Assist skill, or structure destruction, unit can move spaces = number of spaces from start position to end position unit moved prior to taking action (max ３).<br><br>【Creation Pulse】<br>If unit's attack can trigger unit's Special, grants Special cooldown count-X before unit's first attack during combat (X = number of Penalty effects active on foe, excluding stat penalties; max 2).<br>(For 1 turn.)<br><br>【Empathy】<br>Grants bonus to unit's Atk/Spd/Def/Res = number of types of Bonus effects, excluding stat bonuses, and Penalty effects, excluding stat penalties, active on player team and enemy team during combat (max 7).
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Canto|Dist.; Max 3}}
+|Me2={{Eft|Galeforce}}<br>(once per turn)
+|Me3=Re-enables [[Canto]]<br>(once per turn)
+|MeC2-3=After combat<br>of an {{Tgt|Ally}}<br>[[within 3 spaces]]
+|Se1={{SEt|Creation Pulse}}
+|Se2={{SEt|Empathy}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 3 spaces]]
+|SeC=At start of Both Phases<br>if an {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|Ce1={{Eft|Temporary buffs|Atk/Spd|5}}
+|Ce2={{Eft|Damage Boost|7}}
+|Ce1-2C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|Ce3={{Eft|Miracle}}
+|Ce3C={{Eft|Temporary buffs|Atk/Spd|5}} conditions<br>'''&''' {{Tgt|Unit}}'s HP > 1
+}}
+==Notes==
+{{Canto|Dist.; Max 3}}
+{{Creation Pulse}}
+{{Empathy}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{FlatDamageBoost}}
+{{Survive with 1 HP}}
+{{Galeforce notes}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%re-enables Canto%' AND Exclusive='1'}}
+{{Passives Navbox|C}}

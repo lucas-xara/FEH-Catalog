@@ -1,0 +1,68 @@
+{{#invoke:NameAbout|main|Name=Kana}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Kana
+|Title=Rising Sunlight
+|WeaponType=Blue Breath
+|MoveType=Infantry
+|Person=Kana F
+|Origin=Fire Emblem Fates
+|Gender=Female
+|actorEN=Claudia Lenz
+|actorJP=佐藤聡美
+|artist=さとうぽて
+|additionDate=December 28, 2023
+|releaseDate=January 1, 2024
+|cv1=11
+|cv2=6900200
+|TagID=年明カンナ女
+|InternalID=1045
+|Properties=limited,tempest,specDisplay,tiara
+|description=Corrin's daughter, always lively and cheerful, celebrating the new year and taking in all the festival sights with a smile on her face. Appears in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=10|Lv1SPD=15|Lv1DEF=5|Lv1RES=8
+|GRHP=45|GRATK=75|GRSPD=70|GRDEF=50|GRRES=75
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire Breath
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Fire Breath+
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=New-Sun Stone
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=New-Sun Stone+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Glimmer
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Dragon's Ire 1
+|passiveB2=Dragon's Ire 2
+|passiveB3=Dragon's Ire 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Spur Res 1
+|passiveC2=Drive Res 1
+|passiveC3=Drive Res 2
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:New Year's units]]

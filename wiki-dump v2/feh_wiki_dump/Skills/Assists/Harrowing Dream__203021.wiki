@@ -1,0 +1,47 @@
+{{Assist
+|tagid=SID_こわいかこのゆめ
+|intID=3830
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=400
+|range=1
+|effect=Grants another action to target ally. Inflicts Atk/Spd/Def/Res-5,【Guard】, and 【Sabotage】on foes in cardinal directions of unit and target ally through their next actions. (Cannot target an ally with Sing or Dance. This skill treated as Sing or Dance.)<br><br>【Guard】<br>Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)<br><br>【Sabotage】<br>Inflicts penalty on unit's Atk/Spd/Def/Res during combat = highest penalty on each stat between unit and allies within 2 spaces of unit through its next action. Calculates each stat penalty independently.
+|required=Dance
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Another Action}}
+|MeT={{Tgt|Target Ally}}
+|MeC={{Tgt|Target (Ally)}}<br>doesn't have a<br>{{Uti|Dance}} [[Dance Assist]]<br>'''or''' {{SEt|Isolation}}
+|Se1={{Eft|Penalty|Atk/Spd/Def/Res|5}}
+|Se2={{SEt|Guard}}
+|Se3={{SEt|Sabotage}}
+|SeT={{Tgt|Foes}} within<br>[[Cardinal directions]] of<br>{{Tgt|Unit}} '''&''' {{Tgt|Ally}}
+|SeC={{Tgt|Target (Ally)}}<br>doesn't have a<br>{{Uti|Dance}} [[Dance Assist]]<br>'''or''' {{SEt|Isolation}}
+}}
+==Notes==
+{{Penalties}}
+{{Guard}}
+{{Sabotage}}
+{{CardinalDirections}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=こわいかこのゆめ
+|german=Qualvoller Traum
+|spanishEU=Ensueño terrible
+|spanishLA=Ensueño terrible
+|french=Rêve atroce
+|italian=Sogni strazianti
+|chineseTW=可怕過去的夢
+|portuguese=Sonho tétrico
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%This skill treated as Sing or Dance%' OR Description LIKE '%【Sabotage】%' AND Exclusive='1'}}
+{{Assists Navbox}}
+[[Category:Dance skills]][[Category:Sources of effects that grant "another action"]]

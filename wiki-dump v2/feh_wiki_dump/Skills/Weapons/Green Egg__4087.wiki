@@ -1,0 +1,37 @@
+{{Weapon Infobox
+|tagid=SID_緑の卵
+|weaponType=Green Tome
+|weaponName={{PAGENAME}}
+|might=7
+|range=2
+|effect=If unit initiates combat, restores 4 HP after combat.
+|cost=200
+|exclusive=0
+|statModifiers=0,7,0,0,0
+|next=Green Egg+
+|promotionRarity=5
+|promotionTier=1
+|required=Elwind
+|properties=
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{After combat healing}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=緑の卵
+|german=Grünes Ei
+|spanishEU=Huevo verde
+|spanishLA=Huevo verde
+|french=Œuf vert
+|italian=Uovo verde
+|chineseTW=綠之卵
+|portuguese=Ovo verde
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%estores%HP after combat%' OR Description LIKE '%estores%HP to unit after combat%') AND Exclusive='1'|columns=3}}
+* [[Spring Festival Weapons]]
+{{Weapons Navbox}}
+[[Category:Spring Festival weapons]]

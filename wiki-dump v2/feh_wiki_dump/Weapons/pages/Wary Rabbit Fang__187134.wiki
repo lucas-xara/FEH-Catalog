@@ -1,0 +1,40 @@
+{{Weapon Infobox
+|tagid=SID_賀正の子兎の爪牙
+|intID=3402
+|exclusive=1
+|weaponType=Beast
+|canUseMove=Cavalry
+|cost=400
+|might=14
+|range=1
+|effectiveness=Cavalry
+|effect=Grants Spd+3. Effective against cavalry foes. If unit initiates combat or is not adjacent to an ally, grants Atk/Spd+6 to unit during combat and inflicts penalty on foe's Atk/Def during combat = 20% of unit's Spd at start of combat, and also, after combat, if unit's HP ≤ 90%, grants Special cooldown count-2. At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack.
+|statModifiers=0,14,3,0,0
+|required=Adult (Cavalry)
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|cavalry}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Temporary debuffs}}
+{{At start of combat}}
+{{After combat note}}
+{{After combat Special modification}}
+{{Beast (Cavalry)}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=賀正の子兎の爪牙
+|german=Hasenpfötchen
+|spanishEU=Diente de conejo
+|spanishLA=Diente de conejo
+|french=Dents vigilantes
+|italian=Zanna conigliesca
+|chineseTW=賀年幼兔的爪牙
+|portuguese=Dente prudente
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%after combat%grants special cooldown count-%' OR Description LIKE '%grants special cooldown count-_ after combat%' OR Description LIKE '%penalty on foe_s Atk/%during combat%=%of unit_s%at start of combat%'}}
+{{Weapons Navbox}}

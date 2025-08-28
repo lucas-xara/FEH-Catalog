@@ -1,0 +1,52 @@
+{{Weapon Infobox
+|tagid=SID_剣姫の刀
+|weaponType=Sword
+|might=16
+|range=1
+|effect=Accelerates Special trigger (cooldown count-1). If unit's Spd > foe's Spd, deals damage = 70% of difference between stats. (Maximum bonus of +7 damage. Combos with Phantom Spd.)
+|cooldown=-1
+|cost=400
+|userVersion1=Weapon
+|userVersion2=Gleam
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Wo Dao
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1). If unit initiates combat or is within 2 spaces of an ally, grants Spd+5 to unit during combat and deals damage = 15% of unit's Spd.
+|effectSkill1=At start of combat, if foe's HP ≥ 75%, grants Atk/Spd+5 during combat and neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat.
+|iconSkill1=Vassals Blade W.png
+|tagidExtraSkill1=見
+|properties=random_owner
+}}
+==Notes==
+{{BonusStatDamage|stat=Spd}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{DamageBoost}}
+{{Follow-up effect neutralization}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+* Vassal's Blade, along with {{St|Giga Excalibur}}, which came out at the same time, are the first weapons to come out that may give a damage bonus if {{Sgp|Phantom Spd}} is equipped.
+* The artwork of Vassal's Blade is based on the sword Karla wields in her [[FireEmblemWikia:File:Karla.png|official artwork]] in {{FE|7}}.
+==In other languages==
+{{OtherLanguages
+|japanese=剣姫の刀
+|german=Vasallenklinge
+|spanishEU=Espada leal
+|spanishLA=Espada leal
+|french=Épée loyale
+|italian=Spada di Sacae
+|chineseTW=劍姬之刀
+|portuguese=Espada leal
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%unit_s%>%foe_s%deals damage =%difference between%' AND Exclusive='1' OR Description LIKE '%if unit initiates%deals damage =%of unit_s Spd%'}}
+* [[Weapons that accelerate the Special trigger]]
+{{Weapons Navbox}}

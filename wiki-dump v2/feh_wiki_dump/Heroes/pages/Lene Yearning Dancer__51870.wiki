@@ -1,0 +1,76 @@
+{{#invoke:NameAbout|main|Name=Lene}}{{HeroPage Tabs|{{PAGENAME}}}}
+{{Hero Infobox
+|Name=Lene
+|Title = Yearning Dancer
+|GrowthModifier= None
+|WeaponType= Red Sword
+|Origin= Fire Emblem: Genealogy of the Holy War
+|Gender= Female
+|MoveType= Infantry
+|actorEN = Faye Mata
+|actorJP=高橋美佳子
+|artist=四々九
+|releaseDate = May 10, 2018
+|additionDate = May 9, 2018
+|poolDate = May 21, 2018
+|poolRarities=5
+|TagID=リーン
+|InternalID=248
+|Properties=refresher,tiara,specRate_202008
+|cv1=3
+|cv2=7900300
+|description=A dancer and descendant of the high priest Bragi. She understands how the world works, but she doesn't let it get her down. Appears in Fire Emblem: Genealogy of the Holy War.
+}}
+
+__TOC__
+
+{{Stats Page|Hero={{BASEPAGENAME}}
+|Lv1HP=16|Lv1ATK=6|Lv1SPD=7|Lv1DEF=4|Lv1RES=6
+|GRHP=45|GRATK=50|GRSPD=65|GRDEF=45|GRRES=50
+}}
+
+== Skills ==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Safeguard
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Safeguard+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+
+===Assists===
+{{Assists Table
+|assist1=Dance
+|assist1Default=4
+|assist1Unlock=3
+}}
+
+===Specials===
+{{Specials Table
+}}
+
+===Passives===
+{{Passives Table
+|passiveB1=Gale Dance 1
+|passiveB2=Firestorm Dance 1
+|passiveB3=Firestorm Dance 2
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Sword Valor 1
+|passiveC2=Sword Valor 2
+|passiveC3=Sword Valor 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+
+{{Heroes Navbox}}

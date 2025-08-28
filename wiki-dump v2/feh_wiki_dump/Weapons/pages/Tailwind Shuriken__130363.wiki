@@ -1,0 +1,103 @@
+{{Weapon Infobox
+|tagid=SID_疾風の双手裏剣
+|weaponType=Dagger
+|might=9
+|range=2
+|effect=Accelerates Special trigger (cooldown count-1).<br>Grants Spd+4. Inflicts Def/Res-4. If unit initiates combat, unit attacks twice.<br><br>Effect:【Dagger ７】<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|userVersion1=Main
+|userVersion2=Sub
+|cost=400
+|exclusive=1
+|statModifiers=0,9,4,-4,-4
+|required=Silver Dagger
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1).<br>Grants Atk/Spd+6. Inflicts Def/Res-4.<br><br>If unit initiates combat, unit attacks twice.<br><br>At start of combat, if unit's HP ≥ 25%, grants bonus to unit's Atk/Spd = number of allies within 3 rows or 3 columns centered on unit × 2 (max 6) and disables skills of all foes excluding foe in combat during combat.<br><br>Effect:【Dagger ７】<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|upgradedStatModifiers=0,15,6,-4,-4
+|effectSkill1=For foes within 3 rows or 3 columns centered on unit, inflicts Spd/Def-5, reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% (excluding area-of-effect Specials), and those foes suffer guaranteed follow-up attacks during combat.<br><br>At start of combat, if unit's HP ≥ 25%, deals damage = 20% of unit's Spd during combat (excluding area-of-effect Specials).
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe1={{Eft|Accelerates Special}}
+|s1 Pe2={{Eft|Stat Boosts|Spd|4}}, {{Eft|Stat Reductions|Def/Res|4}}
+|s1 Ce={{Eft|Attack Twice}}
+|s1 CeC=Player Phase
+|s1 Se={{Eft|Penalties|Def/Res|7}}
+|s1 SeT={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|s1 SeC=After combat if<br>{{Tgt|Unit}} attacked
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe1={{Eft|Accelerates Special}}
+|s2 Pe2={{Eft|Stat Boosts|Atk/Spd|6}}, {{Eft|Stat Reductions|Def/Res|4}}
+|s2 Ce1={{Eft|Attack Twice}}
+|s2 Ce1C=Player Phase
+|s2 Ce2={{Eft|Temporary buffs|Atk/Spd|2 x {{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}|max=6}}
+|s2 Ce3={{Eft|Disable Ally Skills}}
+|s2 Ce3T={{Tgt|Foe}}
+|s2 Ce2-3C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s2 Se={{Eft|Penalties|Def/Res|7}}
+|s2 SeT={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|s2 SeC=After combat if<br>{{Tgt|Unit}} attacked
+|skill3={{Si|Tailwind Shuriken|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary debuffs|Spd/Def|5}}
+|s3 Ce2={{Eft|Reduce Damage Reduction|50%}}
+|s3 Ce1-2T={{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|s3 Ce3={{Eft|Guaranteed Follow-Ups}}
+|s3 Ce3T={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>against {{Tgt|Foes}} in<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|s3 Ce4={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|s3 Ce4C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{IfUnitInitiates}}
+{{Brave weapon interaction}}
+{{IfUnitAttacked}}
+{{Penalties}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary buffs|name=Refined Tailwind Shuriken}}
+{{CombatEffectNeutralization|name=Refined Tailwind Shuriken}}
+{{Temporary debuffs|name={{St|Tailwind Shuriken|refine=Skill1}}}}
+{{Reduce Damage Reduction|name={{St|Tailwind Shuriken|refine=Skill1}}}}
+{{FoesCombatEffect|temporary debuffs and reduce damage percentage reduction effects|name={{St|Tailwind Shuriken|refine=Skill1}}}}
+{{Guaranteed follow-up interaction|name={{St|Tailwind Shuriken|refine=Skill1}}}}
+{{AlliesCombatEffect|guaranteed follow-up|name={{St|Tailwind Shuriken|refine=Skill1}}}}
+{{DamageBoost|name={{St|Tailwind Shuriken|refine=Skill1}}}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Lyn: Ninja-Friend Duo|t=Heath: Wyvern Ninja
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=疾風の双手裏剣
+|german=Zyklon-Shuriken
+|spanishEU=Shuriken viento
+|spanishLA=Shuriken viento
+|french=Shuriken du vent
+|italian=Shuriken dei venti
+|chineseTW=疾風的雙手裏劍
+|portuguese=Shuriken ventoso
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%inflicts Def/Res-%Unit attacks twice.%' OR Description LIKE '%inflicts%/%on%foes within%rows%during combat%' AND Description NOT LIKE '%at start of turn%inflicts%on foes within%rows%next action%during combat%' OR Description LIKE '%suffer guaranteed follow-up%') AND Exclusive='1'}}
+* [[Brave Weapons]]
+* [[Rein Passives]]
+* [[Skill families/C Passives#Crux|Crux Passives]]
+{{Weapons Navbox}}

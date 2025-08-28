@@ -1,0 +1,104 @@
+{{Weapon Infobox
+|tagid=SID_楽園の果汁
+|weaponName=Exotic Fruit Juice
+|weaponType=Green Tome
+|might=14
+|range=2
+|effect=Grants Atk+3. Inflicts Spd/Res-6 on foes within 2 spaces during combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,17,0,0,0
+|required=Rexcalibur
+|intID=2113
+|sort=419
+|effectRange=2
+|value=20
+|timingID=2
+|abilityID=97
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Atk+3. Inflicts Spd/Res-6 on foes within 3 rows or 3 columns centered on unit during combat.<br><br>At start of combat, if unit's HP ≥ 25%, neutralizes foe's bonuses to Spd/Res (from skills like Fortify, Rally, etc.) and unit deals damage = 15% of foe's Atk during combat (excluding area-of-effect Specials).
+|effectSkill1=At start of turn, if unit is within 5 spaces of a foe, grants Atk/Spd+6 and【Hexblade】to unit and allies within 2 spaces for 1 turn.<br><br>At start of turn, inflicts Spd/Res-7 and status preventing counterattacks on nearest foes within 5 spaces of unit and foes within 2 spaces of those foes through their next actions.<br><br>If unit initiates combat or if foe's HP ≥ 75% at start of combat, inflicts Spd/Res-5 on foe, and neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat.<br><br>【Hexblade】<br>Calculates damage using the lower of foe's Def or Res during combat for 1 turn (including damage dealt by Specials before combat).
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Atk|3}}
+|s1 Ce={{Eft|Temporary debuffs|Spd/Res|6}}
+|s1 CeT={{Tgt|Foes}}<br>[[within 2 spaces]]
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Atk|3}}
+|s2 Ce1={{Eft|Temporary debuffs|Spd/Res|6}}
+|s2 CeT1={{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|s2 Ce2={{Eft|Neutralize Bonuses|Spd/Res}}
+|s2 Ce2T={{Tgt|Foe}}
+|s2 Ce3={{Eft|Damage Boost|15% of {{Tgt|Foe}}'s Atk}}
+|s2 Ce2-3C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|skill3={{Si|Exotic Fruit Juice|refine=Skill1}} Skill refine effects
+|s3 Se1={{Eft|Bonuses|Atk/Spd|6}}
+|s3 Se2={{SEt|Hexblade}}
+|s3 Se1-2T={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|s3 Se3={{Eft|Penalties|Spd/Res|7}}
+|s3 Se4={{SEt|Counterattacks disrupted}}
+|s3 Se3-4T=Nearest {{Tgt|Foes}}<br>[[within 5 spaces]]<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}
+|s3 SeC=At start of turn<br>if a {{Tgt|Foe}} is<br>[[within 5 spaces]]
+|s3 Ce1={{Eft|Temporary debuffs|Spd/Res|5}}
+|s3 Ce2={{Eft|Neutralize Guaranteed Follow-Ups}}
+|s3 Ce1-2T={{Tgt|Foe}}
+|s3 Ce3={{Eft|Neutralize Prevent Follow-Ups}}
+|s3 Ce3T={{Tgt|Unit}}
+|s3 CeC=Player Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+}}
+
+==Notes==
+{{Temporary debuffs}}
+{{FoesCombatEffect}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Bonus neutralization|name=Refined Exotic Fruit Juice}}
+{{DamageBoost|name=Refined Exotic Fruit Juice}}
+{{Bonuses|name={{St|Exotic Fruit Juice|refine=Skill1}}}}
+{{Hexblade|name={{St|Exotic Fruit Juice|refine=Skill1}}}}
+{{Penalties|name={{St|Exotic Fruit Juice|refine=Skill1}}}}
+{{Counterattacks disrupted|name={{St|Exotic Fruit Juice|refine=Skill1}}}}
+{{IfUnitInitiates|name={{St|Exotic Fruit Juice|refine=Skill1}}}}
+{{Follow-up effect neutralization|name={{St|Exotic Fruit Juice|refine=Skill1}}}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Selena: Sandbar Fluorspar|t=Ephraim: Sunshine Valiant
+|---xxx---
+|---xxx---
+|---xxx---
+|xxxxxxxxx
+|xtxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Exotic Fruit Juice
+|japanese=楽園の果汁
+|german=Exotischer Saft
+|spanishEU=Brebaje tropical
+|spanishLA=Brebaje tropical
+|french=Jus exotique
+|italian=Bevanda esotica
+|chineseTW=樂園的果汁
+|portuguese=Suco tropical
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%inflicts Spd/Res-_ on foes%within _ spaces%during combat%' OR Description LIKE '%inflicts%on foes%within%columns centered on unit%during%combat%' OR Description LIKE '%status preventing counterattacks%') AND Exclusive='1'}}
+* [[Rein Passives]]
+* [[Skill families/C Passives#Hold|Hold Passives]]
+* [[Menace Passives]]
+{{Weapons Navbox}}

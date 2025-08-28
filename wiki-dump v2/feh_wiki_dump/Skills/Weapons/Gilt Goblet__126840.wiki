@@ -1,0 +1,43 @@
+{{Weapon Infobox
+|tagid=SID_黄金のゴブレット
+|image=wep_mg046
+|weaponType=Red Tome
+|might=14
+|range=2
+|effect=Grants Atk+3. If foe initiates combat or if foe's HP = 100% at start of combat, grants Atk/Res+6 during combat, and also, if foe uses magic, reduces damage from attacks during combat and from area-of-effect Specials by 50% (excluding Røkkr area-of-effect Specials).
+|cost=400
+|exclusive=1
+|statModifiers=0,17,0,0,0
+|required=Bolganone;Fenrir
+|intID=2216
+|sort=446
+|value=20
+|timingID=1
+|abilityID=229
+|limit1ID=46
+|properties=
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+{{TermRefersTo|Magic}}
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Gilt Goblet
+|japanese=黄金のゴブレット
+|german=Goldkelch
+|spanishEU=Cáliz áureo
+|spanishLA=Cáliz áureo
+|french=Coupe d'or
+|italian=Calice dorato
+|chineseTW=黃金高腳杯
+|portuguese=Cálice de ouro
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%foe uses%magic%educes damage from%' OR Description LIKE '%foe initiates combat%if foe_s HP%grants Atk/Res+%during combat%'|columns=3}}
+{{Weapons Navbox}}

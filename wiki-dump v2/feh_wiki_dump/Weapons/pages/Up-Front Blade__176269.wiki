@@ -1,0 +1,43 @@
+{{Weapon Infobox
+|tagid=SID_正々堂々の剣
+|intID=3152
+|image=wep_sw135
+|exclusive=0
+|weaponType=Sword
+|cost=200
+|might=10
+|range=1
+|effect=At start of combat, if foe's HP ≥ 75%, grants Atk/Spd+5 to unit and neutralizes unit's penalties to Atk/Spd during combat.
+|statModifiers=0,10,0,0,0
+|required=Steel Sword
+|next=Up-Front Blade+
+|promotionRarity=5
+|promotionTier=1
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary buffs|Atk/Spd|5}}
+|Ce2={{Eft|Neutralize Penalties|Atk/Spd}}
+|CeC={{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+}}
+==Notes==
+{{Temporary buffs}}
+{{Penalty neutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=正々堂々の剣
+|german=Faires Schwert
+|spanishEU=Espada honesta
+|spanishLA=Espada honesta
+|french=Épée franche
+|italian=Lama onesta
+|chineseTW=堂堂正正之劍
+|portuguese=Espada justa
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%if foe_s HP ≥ ___, grants Atk/Spd+%neutralizes unit_s penalties%' OR Description LIKE '%if foe_s HP ≥ ___, grants Atk/Spd+%neutralizes penalties%') AND WikiName NOT LIKE '%Up-Front%' AND Exclusive='1'}}
+* [[Skill families/Weapons#Up-Front|Up-Front Weapons]]
+{{Weapons Navbox}}

@@ -1,0 +1,76 @@
+{{#invoke:NameAbout|main|Name=Ratatoskr}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Ratatoskr
+|Title=Mending Hand
+|WeaponType=Blue Beast
+|MoveType=Cavalry
+|Origin=Fire Emblem Heroes
+|Gender=Female
+|MythicEffect=Astra
+|MythicEffect2=Raiding Party Bonus
+|BoostHP=5
+|BoostSpd=4
+|actorEN=Madeline Dorroh
+|actorJP=長縄まりあ
+|artist=コザキユースケ
+|additionDate=December 6, 2023
+|releaseDate=December 7, 2023
+|cv1=0
+|cv2=800100
+|TagID=ラタトスク
+|InternalID=1029
+|Properties=mythic,hat
+|description=A member of Yggdrasill's Healing Hands who has a tendency to get overwhelmed when there are things that need to be done. Has healed illnesses across the nine realms.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=11|Lv1SPD=7|Lv1DEF=12|Lv1RES=4
+|GRHP=50|GRATK=75|GRSPD=90|GRDEF=50|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Whelp (Cavalry)
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Yearling (Cavalry)
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Adult (Cavalry)
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=World-Tree Tail
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Clash 1
+|passiveA2=Atk/Spd Clash 2
+|passiveA3=Atk/Spd Clash 3
+|passiveA4=Atk/Spd Clash 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Beast Agility 1
+|passiveB2=Beast Agility 2
+|passiveB3=Beast Agility 3
+|passiveB4=Beast Agility 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Mending Heart
+|passiveC1Unlock=5
+}}
+{{Heroes Navbox}}

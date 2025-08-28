@@ -1,0 +1,80 @@
+{{#invoke:NameAbout|main|Name=Ephraim|Name2=Lyon}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Ephraim
+|Title=Dynastic Duo
+|WeaponType=Blue Lance
+|Origin=Fire Emblem: The Sacred Stones
+|Gender=MM
+|duo=Infantry and armored allies within 2 spaces of unit (including unit) can move 1 extra space. (That turn only. Does not stack.)
+|secondPerson=Lyon
+|Duel=185
+|MoveType=Infantry
+|actorJP=八代拓,中村悠一
+|actorEN=Greg Chun,Mark P. Whitten
+|artist=山田孝太郎
+|additionDate=November 6, 2019
+|releaseDate=November 7, 2019
+|TagID=比翼エフラム
+|InternalID=441
+|Properties=duo,specRate_202208,notRandomized
+|cv1=7
+|cv2=100200
+|description=The princes of Renais and Grado. As heirs to allied kingdoms, they were raised with a strong bond with one another. They appear in Fire Emblem: The Sacred Stones.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=9|Lv1SPD=8|Lv1DEF=9|Lv1RES=6
+|GRHP=50|GRATK=70|GRSPD=50|GRDEF=65|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Slaying Spear
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Reginleif
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Draconic Aura
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Heavy Blade 1
+|passiveA2=Heavy Blade 2
+|passiveA3=Heavy Blade 3
+|passiveA4=Heavy Blade 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Lull Atk/Def 1
+|passiveB2=Lull Atk/Def 2
+|passiveB3=Lull Atk/Def 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Odd Atk Wave 1
+|passiveC2=Odd Atk Wave 2
+|passiveC3=Odd Atk Wave 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Sources of Mobility increased]][[Category:Sources of status effects]]

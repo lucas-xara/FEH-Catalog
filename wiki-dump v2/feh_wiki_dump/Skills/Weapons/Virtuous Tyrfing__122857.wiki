@@ -1,0 +1,77 @@
+{{Weapon Infobox
+|tagid=SID_至聖ティルフィング
+|weaponType=Sword
+|might=16
+|range=1
+|effect=Grants Res+3. If foe initiates combat or if unit's HP < 100% at start of combat, inflicts Atk/Def-6 on foe during combat, and if unit deals damage to foe during combat, restores 7 HP to unit. (Triggers even if 0 damage is dealt.)
+|cost=400
+|userVersion1=Weapon
+|userVersion2=Gleam
+|userVersion3=Upgrade gleam
+|exclusive=1
+|statModifiers=0,16,0,0,3
+|required=Silver Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Res+3. At start of combat, if unit's HP ≤ 99%, if foe's HP ≥ 75%, or if foe initiates combat, inflicts Atk/Def-6 on foe, deals damage = 15% of unit's Atk (excluding area-of-effect Specials), and neutralizes effects that prevent unit's counterattacks during combat, and also, if unit deals damage to foe during combat, restores 8 HP to unit (triggers even if 0 damage is dealt).
+|effectSkill1=If unit initiates combat or is within 3 spaces of an ally, inflicts Atk/Def-5 on foe and reduces damage from attacks by X% during combat (if foe uses magic or staff, X = 80; otherwise, X = 40; excluding area-of-effect Specials). If foe initiates combat, unit is within 3 spaces of an ally, unit's HP ≥ 50%, and foe would reduce unit's HP to 0 during combat, unit survives with 1 HP (once per turn; does not stack with non-Special effects that allow unit to survive with 1 HP if foe's attack would reduce unit's HP to 0; when any other such effect triggers, this effect will trigger too, regardless of its HP conditional).
+|properties=random_owner 
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Res|3}}
+|s1 Ce1={{Eft|Temporary debuffs|Atk/Def|6}}
+|s1 CeT1={{Tgt|Foe}}
+|s1 Ce2={{Eft|Heal|7}}<br>per {{Tgt|Unit}}'s attack
+|s1 CeC=Enemy Phase '''or'''<br>{{Tgt|Unit}}'s HP < 100%<br>at start of combat
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Res|3}}
+|s2 Ce1={{Eft|Temporary debuffs|Atk/Def|6}}
+|s2 CeT1={{Tgt|Foe}}
+|s2 Ce2={{Eft|Damage Boost|15% of {{Tgt|Unit}}'s Atk}}
+|s2 Ce3={{Eft|Neutralize Prevent Counter}}
+|s2 Ce4={{Eft|Heal|8}}<br>per {{Tgt|Unit}}'s attack
+|s2 CeC=Enemy Phase '''or'''<br>({{Tgt|Unit}}'s HP ≤ 99%<br>'''or''' {{Tgt|Foe}}'s HP ≥ 75%)<br>at start of combat
+|skill3={{Si|Virtuous Tyrfing|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary debuffs|Atk/Def|5}}
+|s3 CeT1={{Tgt|Foe}}
+|s3 Ce2={{Eft|Damage Reduction|2=80% if {{Tgt|Foe}} uses<br>{{Cwti|Magic|group=1}} [[Magic]] or {{Wtt|Staff}};<br>else X = 40%}}
+|s3 CeC1-2=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|s3 Ce3={{Eft|Miracle}}
+|s3 CeC3=Enemy Phase,<br>an {{Tgt|Ally}} is<br>[[within 3 spaces]], '''&'''<br>{{Tgt|Unit}}'s HP ≥ 50%
+}}
+
+==Notes==
+{{IfFoeInitiates}}
+{{Temporary debuffs}}
+{{CombatHPRecovery}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{DamageBoost|name=refined Virtuous Tyrfing}}
+{{Counterattack prevention neutralization|name=refined Virtuous Tyrfing}}
+{{IfUnitInitiates}}
+{{DamagePercentageReduction|name={{St|Virtuous Tyrfing|refine=Skill1}}}}
+{{TermRefersTo|magic}}
+{{DefensiveSkill|name={{St|Virtuous Tyrfing|refine=Skill1}}}}
+{{Miracle|name={{St|Virtuous Tyrfing|refine=Skill1}}|HPThreshold=under 50%}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Virtuous Tyrfing
+|japanese=至聖ティルフィング
+|german=Tyrfing-Tugend
+|spanishEU=Hoja pura Tyrfing
+|spanishLA=Hoja pura Tyrfing
+|french=Sainte Tyrfing
+|italian=Tyrfing virtuosa
+|chineseTW=至聖斬裂劍
+|portuguese=Tyrfing virtuosa
+}}
+==See also==
+{{See also skills|cond=wikiName LIKE '%tyrfing%' OR (Description LIKE '%prevent unit_s counterattacks%' OR Description LIKE '%prevent counterattacks%') AND Exclusive='1'}}
+{{Weapons Navbox}}

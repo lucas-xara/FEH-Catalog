@@ -1,0 +1,38 @@
+{{Special
+|tagid=SID_疾風迅雷
+|name=Galeforce
+|charge=5
+|effect=If unit initiates combat, grants unit another action after combat. (Once per turn.)
+|cost=500
+|required=Astra
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|Melee,Beast}}
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Another Action}}
+|MeC=After combat<br>in Player Phase<br>'''&''' Special is ready
+}}
+==Notes==
+{{Galeforce notes}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==In other languages==
+{{OtherLanguages
+|japanese=疾風迅雷
+|german=Wirbelwind
+|spanishEU=Impacto final
+|spanishLA=Asalto impetuoso
+|french=Élan victorieux
+|italian=Assalto impet.
+|chineseTW=疾風迅雷
+|portuguese=Intempérie
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%if unit initiates%after combat%another action to unit%' OR  Description LIKE '%if unit initiates%another action to unit%after combat%' AND Description NOT LIKE '%if unit initiates%assist%another action%' OR Description LIKE '%if unit initiates%grants unit another action%after combat%'}}
+{{Specials Navbox}}

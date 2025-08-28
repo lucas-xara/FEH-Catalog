@@ -1,0 +1,65 @@
+{{#invoke:NameAbout|main|Name=Arvis}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Arvis
+|Title=Emperor of Flame 
+|Origin=Fire Emblem: Genealogy of the Holy War
+|Gender=Male
+|GrowthModifier= None
+|WeaponType=Red Tome
+|MoveType=Infantry
+|actorEN=Xander Mobus 
+|actorJP=速水奨
+|artist=悌太
+|additionDate=October 16, 2017
+|releaseDate=October 18, 2017
+|TagID=アルヴィス
+|InternalID=182
+|Properties=ghb,limited
+|cv1=3
+|cv2=300100
+|description=Duke of Velthomer, and descendant of the crusader Fjalar and Maera of the imperial family. Appears in Fire Emblem: Genealogy of the Holy War.
+}}
+__TOC__
+{{Stats Page|Hero=Arvis: Emperor of Flame
+|Lv1HP=18|Lv1ATK=8|Lv1SPD=7|Lv1DEF=4|Lv1RES=7
+|GRHP=35|GRATK=60|GRSPD=55|GRDEF=30|GRRES=60
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elfire
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Bolganone
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Valflame
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Rising Flame
+|special1Default=4
+|special1Unlock=3
+|special2=Growing Flame
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Recover Ring
+|passiveB1Unlock=5
+|passiveC1=Def Ploy 1
+|passiveC2=Def Ploy 2
+|passiveC3=Def Ploy 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

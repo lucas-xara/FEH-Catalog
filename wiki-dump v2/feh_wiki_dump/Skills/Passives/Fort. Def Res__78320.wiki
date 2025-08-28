@@ -1,0 +1,77 @@
+{{Passive
+|type=A
+|name=Fort. Def/Res
+|exclusive=0
+|1name=Fort. Def/Res 1
+|1tagid=SID_守備魔防の城塞1
+|1promotionRarity=5
+|1promotionTier=1
+|alt1name=Fort. Def Res 1
+|1required=Fortress Def 1;Fortress Res 1
+|1effect=Grants Def/Res+3.<br>Inflicts Atk-3.
+|1cost=100
+|2name=Fort. Def/Res 2
+|2tagid=SID_守備魔防の城塞2
+|alt2name=Fort. Def Res 2
+|2effect=Grants Def/Res+4.<br>Inflicts Atk-3.
+|2cost=200
+|2next=-
+|3name=Fort. Def/Res 3
+|3tagid=SID_守備魔防の城塞3
+|alt3name=Fort. Def Res 3
+|3effect=Grants Def/Res+6.<br>Inflicts Atk-2.
+|3cost=300
+|statModifiers1=0,-3,0,3,3
+|statModifiers2=0,-3,0,4,4
+|statModifiers3=0,-2,0,6,6
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Fort. Def/Res 2}} Fort. Def/Res 2
+|s1 Pe={{Eft|Stat Reductions|Atk|3}}, {{Eft|Stat Boosts|Def/Res|4}}
+|skill2={{Si|Fort. Def/Res 3}} Fort. Def/Res 3
+|s2 Pe={{Eft|Stat Reductions|Atk|2}}, {{Eft|Stat Boosts|Def/Res|6}}
+}}
+
+==List of owners==
+{{Skill Hero List}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Fort. Def/Res 1;Fort. Def/Res 2
+|badgeColor=Transparent
+|costs1=20;100;20
+|costs2=400;1000;100
+}}
+
+==Gallery==
+<gallery>
+Fort. Def Res 1 Error.png|The erroneous icon used for Fort. Def/Res 1 when it was initially released. It was later removed when all ranks of the skill borders were upgraded.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|english=Fort. Def/Res
+|japanese=守備魔防の城塞
+|german=Ver./Res.-Fest.
+|spanishEU=Bastión Def/Res
+|spanishLA=Fort. Def./Res.
+|french=Fort. Déf/Rés
+|italian=Forte Dif/Res
+|chineseTW=防守魔防堡壘
+|portuguese=Fort. Def./Res.
+}}
+==See also==
+* [[Fortress Passives]]
+{{Seals Navbox}}
+{{Passives Navbox|A}}
+[[Category:Fortress Passives]]

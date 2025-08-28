@@ -1,0 +1,35 @@
+{{Weapon Infobox
+|tagid=SID_朱傭兵の戦斧
+|intID=3254
+|image=wep_ax119
+|exclusive=1
+|weaponType=Axe
+|cost=400
+|might=16
+|range=1
+|effect=Grants Spd+3. At start of combat, if foe's HP ≥ 75%, grants Atk/Spd+6 to unit during combat and the following effects will occur based on unit's HP at start of combat: if ≥ 20%, grants Special cooldown charge +1 to unit per attack (only highest value applied; does not stack), and also, if ≥ 40%, reduces damage from foe's first attack during combat by 40%.
+|statModifiers=0,16,3,0,0
+|required=Silver Axe
+|properties=random_owner
+}}
+==Notes==
+{{Temporary buffs}}
+{{CooldownChargePlus}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Crimson War-Axe
+|japanese=朱傭兵の戦斧
+|german=Purpur-Kriegsaxt
+|spanishEU=Hacha grana
+|spanishLA=Hacha grana
+|french=Hache pourpre
+|italian=Scure cremisi
+|chineseTW=朱傭兵的戰斧
+|portuguese=Machado carmim
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%HP%if ≥%reduces damage from foe_s first attack%' AND Exclusive='1'}}
+{{Weapons Navbox}}

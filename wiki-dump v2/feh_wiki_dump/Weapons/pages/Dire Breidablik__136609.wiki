@@ -1,0 +1,38 @@
+{{Weapon Infobox
+|tagid=SID_ブレイザブリク
+|weaponName=Dire Breidablik
+|image=wep_mg306
+|weaponType=Colorless Tome
+|might=14
+|range=2
+|effect=Grants Atk/Spd/Def/Res+4 to allies within 2 spaces during combat. Inflicts Atk/Spd/Def/Res-4 on foes within 2 spaces during combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,0,0,0
+|required=-
+|intID=2415
+|sort=499
+|effectRange=2
+|value=20
+|timingID=2
+|abilityID=227
+|properties=
+}}
+==Notes==
+{{Combat boosts}}{{AlliesCombatEffect}}{{Combat reductions}}{{FoesCombatEffect}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=死銃ブレイザブリク
+|german=Unheil-Breidablik
+|spanishEU=Breidablik funesto
+|spanishLA=Breidablik funesta
+|french=Breidablik sinistre
+|italian=Breidablik funesta
+|chineseTW=死槍布雷薩布利克
+|portuguese=Breidablik letal
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants Atk/Spd/Def/Res+_ to allies within _ spaces during combat%' OR Description LIKE '%inflicts Atk/Spd/Def/Res-_ on foes within _ spaces during combat%' OR Description LIKE '%grants%/%+%to allies within _ spaces during combat%inflicts%/%-%on foes within _ spaces during combat%'|columns=3}}
+{{Weapons Navbox}}

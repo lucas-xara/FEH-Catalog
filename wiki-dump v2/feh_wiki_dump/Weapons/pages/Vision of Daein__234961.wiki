@@ -1,0 +1,76 @@
+{{Weapon Infobox
+|tagid=SID_デインの後継の書
+|intID=4746
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|exclusive=1
+|weaponType=Red Tome
+|cost=400
+|might=14
+|range=2
+|effect=At start of turn, if unit is within 2 spaces of an ally, grants Atk/Res+6, "Special cooldown charge +1 per attack during combat (only highest value applied; does not stack)," and "unit can move to a space adjacent to any ally within 2 spaces" to unit and allies within 2 spaces of unit for 1 turn.<br><br>If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit, neutralizes unit's penalties to Atk/Spd, and unit makes a guaranteed follow-up attack during combat.
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit and deals damage = 15% of unit's Atk during combat (excluding area-of-effect Specials), restores 7 HP to unit when unit deals damage to foe during combat, and also, if unit's HP > 1 and foe would reduce unit's HP to 0, unit survives with 1 HP (once per combat; does not stack with non-Special effects that allow unit to survive with 1 HP if foe's attack would reduce HP to 0).
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Se1={{Eft|Bonuses|Atk/Res|6}}
+|s1 Se2={{SEt|Special Cooldown Charge +1}}
+|s1 Se3={{SEt|Air Orders}}
+|s1 SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|s1 SeC=At start of turn<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s1 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s1 Ce2={{Eft|Neutralize Penalties|Atk/Spd}}
+|s1 Ce3={{Eft|Guaranteed Follow-Ups}}
+|s1 CeC=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|skill2={{Si|Vision of Daein|refine=Skill1}} Skill refine effects
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s2 Ce2={{Eft|Damage Boost|15% of {{Tgt|Unit}}'s Atk}}
+|s2 Ce3={{Eft|Heal|7}}<br>per {{Tgt|Unit}}'s attack
+|s2 Ce1-3C=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|s2 Ce4={{Eft|Miracle}}<br>(once per combat)
+|s2 Ce4C=An {{Tgt|Ally}} is<br>[[within 3 spaces]]<br>'''&''' {{Tgt|Unit}}'s HP > 1
+}}
+==Notes==
+{{Bonuses}}
+{{Special Cooldown Charge +1}}
+{{Air Orders}}
+{{Temporary buffs}}
+{{Penalty neutralization}}
+{{Guaranteed follow-up interaction}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{AtkDamageBoost|name={{St|Vision of Daein|refine=Skill1}}}}
+{{CombatHPRecovery|name={{St|Vision of Daein|refine=Skill1}}}}
+{{Miracle|name={{St|Vision of Daein|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V9.6_v0906a_kakusei_Mag_2_3.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%At start of%if unit is within 2 spaces of an ally%grants %"Special cooldown charge +1 per attack during combat%' OR Description LIKE '%At start of%if unit is within 2 spaces of an ally%grants %"unit can move to a space adjacent to an%') AND Exclusive='1' AND NAME NOT LIKE '%r%lantern+'}}
+* [[Oath Passives]]
+* [[Pledge Passives]]
+{{Weapons Navbox}}

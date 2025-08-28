@@ -1,0 +1,86 @@
+{{#invoke:NameAbout|main|Name=Byleth}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Byleth
+|Title=The Fódlan Light
+|WeaponType=Blue Tome
+|MoveType=Infantry
+|Origin=Fire Emblem: Three Houses
+|Gender=Female
+|Person=Byleth F
+|LegendaryEffect=Wind
+|BoostHP=3
+|Duel=185
+|actorEN=Jeannie Tirado
+|actorJP=伊藤静
+|artist=かかげ
+|additionDate=December 24, 2021
+|releaseDate=December 24, 2021
+|cv1=12
+|cv2=100200
+|TagID=伝承ベレス
+|InternalID=749
+|Properties=legendary
+|description=Former professor at Garreg Mach Monastery who leads the charge in the campaign to end war. Appears in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=9|Lv1SPD=10|Lv1DEF=4|Lv1RES=9
+|GRHP=50|GRATK=70|GRSPD=75|GRDEF=45|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Light
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Ellight
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Shine
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Professorial Guide
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Draconic Aura
+|special2Unlock=4
+|special3=Ruptured Sky
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Ideal 1
+|passiveA2=Atk/Spd Ideal 2
+|passiveA3=Atk/Spd Ideal 3
+|passiveA4=Atk/Spd Ideal 4
+|passiveA5=Atk/Spd Finish 1
+|passiveA6=Atk/Spd Finish 2
+|passiveA7=Atk/Spd Finish 3
+|passiveA8=Atk/Spd Finish 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveA5Unlock=2
+|passiveA6Unlock=3
+|passiveA7Unlock=4
+|passiveA8Unlock=5
+|passiveB1=Lull Spd/Res 1
+|passiveB2=Lull Spd/Res 2
+|passiveB3=Lull Spd/Res 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Goddess Bearer
+|passiveC2=Goddess Bearer II
+|passiveC1Unlock=5
+|passiveC2Unlock=5
+}}
+{{Heroes Navbox}}

@@ -1,0 +1,51 @@
+{{Weapon Infobox
+|tagid=SID_瞬閃アイラの剣
+|weaponType=Sword
+|might=16
+|range=1
+|effect=Grants Spd+3. If unit's Spd > foe's Spd, grants Special cooldown charge +1 per unit's attack. (Only highest value applied. Does not stack.)
+|cost=400
+|exclusive=1
+|statModifiers=0,16,3,0,0
+|required=Silver Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1). Grants Atk/Spd+3. During combat, neutralizes effects that grant "Special cooldown charge +X" to foe or inflict "Special cooldown charge -X" on unit.
+|effectSkill1=At start of combat, if foe's HP ≥ 75%, grants Atk/Spd/Def/Res+4 during combat and reduces damage from foe's first attack by 20%.
+|upgradedStatModifiers=0,19,3,0,0
+|upgradedCooldown=-1
+|iconSkill1=Ayras Blade W.png
+|tagidExtraSkill1=軽
+|properties=random_owner
+}}
+==Notes==
+* Has the same effect as {{St|Flashing Blade 3}}.
+{{CooldownChargePlus|perAttack=user}}
+==List of owners==
+{{Skill Hero List}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Note===
+{{CooldownChargePlusNeutralization}}
+{{CooldownChargeMinusNeutralization}}
+{{Temporary buffs}}
+{{DamagePercentageReduction|name={{St|Ayra's Blade|refine=Skill1}}}}
+==Trivia==
+*Ayra's Blade in {{FE|H}} is a reference to the sword she wielded in her artwork from {{FE|4}}.
+==In other languages==
+{{OtherLanguages
+|japanese=瞬閃アイラの剣
+|german=Ayras Klinge
+|spanishEU=Sable Ayra
+|spanishLA=Sable Ayra
+|french=Épée d'Ayra
+|italian=Lama di Ayra
+|chineseTW=瞬閃艾伊拉之劍
+|portuguese=Lâmina de Ayra
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If unit_s ___ > foe_s ___, grants Special cooldown charge +1 per unit_s attack%' OR Description LIKE '%neutralizes effects%grant "Special cooldown charge +X" to foe%"Special cooldown charge -X" on unit%' AND WikiName NOT LIKE '%Tempo%' AND Description NOT LIKE '%transforms%+7 damage%neutralizes%"Special cooldown charge +X"%"Special cooldown charge -X"%'|columns=3}}
+* [[Skill families#Tempo|Tempo Passives]]
+{{Weapons Navbox}}

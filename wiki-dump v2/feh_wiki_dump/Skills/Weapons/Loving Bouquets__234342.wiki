@@ -1,0 +1,82 @@
+{{Weapon Infobox
+|tagid=SID_愛深き花嫁のブーケ
+|intID=4726
+|image=wep_mg336
+|exclusive=1
+|weaponType=Colorless Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effectiveness=Dragonstone
+|effect=Effective against dragon foes.<br>Accelerates Special trigger (cooldown count-1).<br><br>For allies within 3 rows or 3 columns centered on unit, grants Atk/Res+5, neutralizes foe's bonuses, and grants Special cooldown count-1 before ally's first attack during combat.<br><br>At start of combat, if unit's HP ≥ 25%, inflicts penalty on foe's Atk/Res = 20% of unit's Res at start of combat + 6, neutralizes foe's bonuses, unit deals +X damage (excluding area-of-effect Specials), reduces damage from foe's attacks by X (excluding area-of-effect Specials; X = number of allies within 3 rows or 3 columns centered on unit × 5; max 15), neutralizes effects that inflict "Special cooldown charge -X" on unit, and grants Special cooldown count-1 to unit before unit's first attack during combat, and also, if unit's Res ≥ foe's Res+10, unit attacks twice during combat.
+|required=Atlas (weapon)
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Ce1={{Eft|Effectiveness|{{Cwti|Dragonstone|group=1}} [[Dragon]]}}
+|Ce2={{Eft|Temporary buffs|Atk/Res|5}}
+|Ce3={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Ally}}'s first attack
+|Ce2-3T={{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|Ce4={{Eft|Neutralize Bonuses}}
+|Ce4T={{Tgt|Foes}} of<br>{{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|Ce5={{Eft|Temporary debuffs|Atk/Res|20% of {{Tgt|Unit}}'s Res<br>at start of combat, +6}}
+|Ce6={{Eft|Neutralize Bonuses}}
+|Ce5-6T={{Tgt|Foe}}
+|Ce7={{Eft|Damage Boost|5 x {{Tgt|Allies}}<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}|max=15}}
+|Ce8={{Eft|Damage Reduction|5 x {{Tgt|Allies}}<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}|max=15}}<br>from {{Tgt|Foe}}'s attacks
+|Ce9={{Eft|Neutralize Guard}}
+|Ce10={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Unit}}'s first attack
+|Ce5-10C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce11={{Eft|Attack Twice}}
+|Ce11C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' {{Tgt|Unit}}'s Res<br>≥ {{Tgt|Foe}}'s Res+10
+}}
+==Notes==
+{{Effective damage bonus|Dragon}}
+{{Temporary buffs}}
+{{Bonus neutralization}}
+{{CombatCooldownCount|-1}}
+{{AlliesCombatEffect|temporary buffs, bonus neutralization and -1 special cooldown effects}}
+{{Temporary debuffs}}
+{{At start of combat}}
+{{FlatDamageBoost|X (max: 15)}}
+{{FlatDamageReduction|X (max: 15)}}
+{{CooldownChargeMinusNeutralization}}
+{{AttackTwice}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Julia: Brides of Light|t=Seliph: Light's Legacy
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V9.5_v0905b_bride_Mag_2.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=WeaponEffectiveness='dragon' AND CanUseWeapon__full LIKE '%Tome' OR (Description LIKE '%before ally_s first attack%' OR Description LIKE '%unit_s ___ ≥ foe_s ___+10%unit attacks twice%') AND Exclusive='1'}}
+{{Weapons Navbox}}

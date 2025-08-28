@@ -1,0 +1,59 @@
+{{Weapon Infobox
+|tagid=SID_光炎の姉妹の忍法帖
+|intID=3863
+|image=wep_mg083
+|exclusive=1
+|weaponType=Red Tome
+|cost=400
+|might=8
+|range=2
+|cooldown=-1
+|effect=Enables【Canto (Rem.)】.<br><br>Accelerates Special trigger (cooldown count-1). Unit attacks twice (even if foe initiates combat, unit attacks twice). If unit initiates combat or is within 2 spaces of an ally, inflicts Atk/Res-6 on foe during combat, deals damage = Y during combat (excluding area-of-effect Specials), and reduces the effect of foe's non-Special "reduces damage by X%" skills by percentage = Y × 4 during combat (Y = highest total penalties among target and foes within 2 spaces of target; example: if Y × 4 = 64, a foe with a "reduces damage by 45%" skill would reduce damage by 17% instead).<br><br>【Canto (Rem.)】<br>After an attack, Assist skill, or structure destruction, unit can move spaces = any movement not already used that turn. (If unit used a movement skill that warped them, its remaining movement is 0.)<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|required=Bolganone;Fenrir
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|PermanentEffect={{Eft|Accelerates Special}}
+|MapEffect={{Eft|Canto|Rem.}}
+|CombatEffect 1={{Eft|Unit Attacks Twice}}
+|CombatEffect 2={{Eft|Damage Boost|Highest total {{SEt|Penalties}}<br>on {{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]] of {{Tgt|Target Foe}}}}
+|CombatEffect 3={{Eft|Temporary debuffs|Atk/Res|6}}
+|CombatEffect 4={{Eft|Reduce Damage Reduction|4 x Highest total {{SEt|Penalties}}<br>on {{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]] of {{Tgt|Target Foe}}|percent=1}}
+|CombatEffect 3-4 Targets={{Tgt|Foe}}
+|CombatEffect 2-4 Conditions=Player Phase '''or''' {{Tgt|Allies}}<br>[[within 2 spaces]] ≥ 1
+}}
+
+==Notes==
+{{Canto|Rem.}}
+{{Brave weapon interaction}}
+{{IfUnitInitiates}}
+{{Temporary debuffs}}
+{{EffectfromPenalties|damage boost and reduce damage reduction|target=foe and foes within 2 spaces of foe}}
+{{DamageBoost}}
+{{Reduce Damage Reduction}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V7.11_v0711a_ninja_Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=光炎の姉妹の忍法帖
+|german=Solenne Schriften
+|spanishEU=Rollos radiantes
+|spanishLA=Rollos radiantes
+|french=Rouleaux radieux
+|italian=Rotoli radiosi
+|chineseTW=光炎姊妹的忍法帖
+|portuguese=Escritos radiantes
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%foe_s non-Special "reduce damage by X%" skills by%' OR Description LIKE '%highest%penalt%target and foes within _ spaces of target%' OR Description LIKE '%total penalt%the foe within _ spaces of target%' OR (Description LIKE '%attacks twice%' AND CanUseWeapon__full LIKE '%Tome' AND Description NOT LIKE '%first and second strikes%')) AND (Exclusive=1 AND Name NOT LIKE '%+')}}
+* [[Brave Weapons]]
+* [[Null Passives]]
+* [[Tempo Passives]]
+{{Weapons Navbox}}

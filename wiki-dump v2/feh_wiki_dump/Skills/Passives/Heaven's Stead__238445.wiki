@@ -1,0 +1,57 @@
+{{Passive
+|name=Heaven's Stead
+|type=A
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Heaven's Stead
+|alt1name=Heavens Stead
+|1tagid=SID_天に代わりて
+|1effect=Enables【Canto (Rem.; Min １)】.<br><br>At start of turn, if unit is within 2 spaces of an ally, inflicts【Triangle Adept】and【Exposure】 on closest foes and foes within 2 spaces of those foes through their next actions.<br><br>If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+9 to unit, unit deals +7 damage (excluding area-of-effect Specials), reduces damage from foe's first attack by 7 ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat, and also, if【Exposure】is active on foe, or if unit has weapon-triangle advantage, unit attacks twice.<br><br>【Canto (Rem.; Min １)】<br>After an attack, Assist skill, or structure destruction, unit can move spaces = any movement not already used that turn (min. １; if unit used a movement skill that warped them, unit can move １ space(s)). (Once per turn. Only highest value applied. Does not stack.)<br><br>【Triangle Adept】<br>If unit has weapon-triangle advantage, boosts Atk by 20% through its next action, and if unit has weapon-triangle disadvantage, reduces Atk by 20% through its next action.<br><br>【Exposure】<br>Foe's attacks deal +10 damage.
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Canto|Rem.; Min 1}}
+|Se1={{SEt|Triangle Adept}}
+|Se2={{SEt|Exposure}}
+|SeT=Closest {{Tgt|Foes}}<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}
+|SeC=At start of turn<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce1={{Eft|Temporary buff|Atk/Spd/Def/Res|9}}
+|Ce2={{Eft|Damage Boost|7}}
+|Ce3={{Eft|Damage Reduction|7}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce4={{Eft|Neutralize Prevent Follow-Ups}}
+|Ce5={{Eft|Neutralize Guaranteed Follow-Ups}}
+|Ce5T={{Tgt|Foe}}
+|Ce1-5C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce6={{Eft|Attack Twice}}
+|Ce6C={{Eft|Temporary buff|Atk/Spd/Def/Res|9}}<br>conditions '''&''' ({{Tgt|Foe}}<br>has {{SEt|Exposure}}<br>'''or''' {{Tgt|Unit}} has<br>[[Weapon-triangle|triangle]] advantage)
+}}
+==Notes==
+{{Canto|Rem.; Min 1}}
+{{Triangle Adept}}
+{{Exposure}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{FlatDamageBoost|7}}
+{{FlatDamageReduction|7}}
+{{Follow-up effect neutralization}}
+{{AttackTwice}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Triangle Adept】%' OR Description LIKE '%if【Exposure】is active on foe%') AND Exclusive='1'}}
+{{Passives Navbox|A}}

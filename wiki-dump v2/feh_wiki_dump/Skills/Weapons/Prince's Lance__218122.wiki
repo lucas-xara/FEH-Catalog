@@ -1,0 +1,54 @@
+{{Weapon Infobox
+|tagid=SID_荒波制す氷王の槍
+|intID=4193
+|image=wep_lc170
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Enables【Canto (２)】.<br><br>Accelerates Special trigger (cooldown count-1).<br><br>If unit initiates combat or if unit is within 2 spaces of an ally, grants bonus to unit's Atk/Spd/Def/Res during combat = 25% of foe's Atk at start of combat - 4 (min 5; max 14), inflicts penalty on foe's Atk/Spd/Def/Res during combat = current bonus on each of foe's stats × 2 (example: if foe has +7 bonus to Atk, inflicts Atk-14, for a net penalty of Atk-7; calculates each stat penalty independently), and reduces damage from foe's attacks by 40% (excluding area-of-effect Specials), and also, if unit deals damage to foe using a Special during combat, restores a percentage of unit's max HP = 10 + unit's max Special cooldown count value × 20 (max 100%; triggers even if 0 damage is dealt).<br><br>【Canto (２)】<br>After an attack, Assist skill, or structure destruction, unit can move ２ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|required=Silver Lance
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Me={{Eft|Canto|2}}
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|25% of {{Tgt|Foe}}'s Atk<br>at start of combat, -4|min=5|max=14}}
+|Ce2={{SkillEffectText|Temporary debuffs|Atk/Spd/Def/Res|2 x {{SEt|Bonus}} on each<br>stat on {{Tgt|Foe}}}}
+|Ce2T={{Tgt|Foe}}
+|Ce3={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s attacks
+|Ce4={{Eft|Heal|20 x {{Tgt|Unit}}'s max CD, +10|percent=1|max=100%}}<br>per {{Tgt|Unit}}'s [[offensive special]]
+|Ce3-4T={{Tgt|Unit}}
+|CeC=Player Phase<br>'''or''' an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+==Notes==
+{{Canto|2}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{At start of combat}}
+{{TemporaryDebufffromBonus|source=the foe}}
+{{DamagePercentageReduction}}
+{{CombatHPRecovery}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=荒波制す氷王の槍
+|german=Prinzenlanze
+|spanishEU=Lanza de príncipe
+|spanishLA=Lanza de príncipe
+|french=Lance du prince
+|italian=Lancia natante
+|chineseTW=抑制風浪的冰王之槍
+|portuguese=Lança do príncipe
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%unit_s max special cooldown count%' OR Description LIKE '%inflicts penalty%current bonus on each of foe_s stats _ 2%') AND Exclusive='1' AND Name NOT LIKE '%reversal%'}}
+* [[Skill families/A Passives#Surge|Surge Passives]]
+* [[Skill families/Weapons#Reversal|Reversal Weapons]]
+{{Weapons Navbox}}

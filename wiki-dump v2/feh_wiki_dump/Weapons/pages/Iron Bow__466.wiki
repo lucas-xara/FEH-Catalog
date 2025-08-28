@@ -1,0 +1,42 @@
+{{Weapon Infobox
+|tagid=SID_鉄の弓
+|weaponType=Bow
+|might=4
+|range=2
+|effectiveness=flying
+|effect=Effective against flying foes. 
+|cost=50
+|userVersion1=Bow
+|userVersion2=Arrow
+|statModifiers=0,4,0,0,0
+|next=Steel Bow
+|promotionRarity=3
+|promotionTier=1
+|required=-
+|properties=random_all
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect={{SkillEffectText|Effectiveness|{{Mt|Flying}}}}
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=鉄の弓
+|german=Eisenbogen
+|spanishEU=Arco hierro
+|spanishLA=Arco hierro
+|french=Arc fer
+|italian=Arco ferro
+|chineseTW=鐵弓
+|portuguese=Arco de ferro
+}}
+==See also==
+* [[Iron Weapons]]
+{{Weapons Navbox}}
+[[Category:Iron weapons]]

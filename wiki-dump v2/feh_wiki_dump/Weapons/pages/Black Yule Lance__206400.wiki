@@ -1,0 +1,81 @@
+{{Weapon Infobox
+|tagid=SID_黒鷲の聖夜の槍
+|intID=3910
+|image=wep_lc159
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of combat, if unit's HP ≥ 25% and unit initiates combat, applies【Divine Vein (Flame)】on 5 spaces in a line centered on foe's space and on the 5 spaces behind those spaces (based on direction unit is facing) for 1 turn after combat. At start of combat, if unit's HP ≥ 25%, inflicts Atk/Def-X on foe (X = 15 - number of adjacent allies × 2; min 6), grants Special cooldown count-Y to unit before unit's first attack (Y = number of spaces from start position to end position of whoever initiated combat, max 3; if foe is in a space where allied 【Divine Vein (Flame)】is applied, then the value is treated as 3), and reduces the percentage of foe's non-Special "reduce damage by X%" skills by percentage = 100 - number of allies adjacent to unit × 30 during combat, and also, if unit has weapon-triangle advantage or if foe is in a space where allied【Divine Vein (Flame)】is applied, neutralizes foe's non-Special "if foe would reduce unit's HP to 0, unit survives with 1 HP" effects during combat.<br><br>【Divine Vein (Flame)】<br>Applies the following effects on space: Acts as difficult terrain for foes with Range = 2 (moving over this space costs +1 movement; does not apply to "cannot be slowed by terrain" effects; movement cost cannot exceed unit's allowed movement). At start of enemy phase, deals 7 damage to foe, and also, as combat begins, deals an additional 7 damage to foe (effects that reduce damage "during combat" do not apply; will not reduce foe's HP below 1). (Divine Vein effects do not stack; replaces any existing Divine Vein effect; Divine Vein effects applied simultaneously cancel each other out.)
+|required=Silver Lance
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|PermanentEffect={{Eft|Accelerates Special}}
+|MapEffect={{Eft|Divine Vein (Flame)}}
+|MapEffect Targets=2 5 space lines with<br>closest line centered<br>on {{Tgt|Target Foe}}
+|MapEffect Conditions=After combat<br>in Player Phase '''&'''<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|CombatEffect 1={{Eft|Reduce Cooldown|Spaces Initiator moved|max=3*}}<br>before {{Tgt|Unit}}'s first attack
+|CombatEffect 2={{Eft|Temporary debuffs|Atk/Def|15 - [[Adjacent]] {{Tgt|Allies}} x 2|min=6}}
+|CombatEffect 3={{Eft|Reduce Damage Reduction|percent=1|100 - [[Adjacent]] {{Tgt|Allies}} x 30}}
+|CombatEffect 4={{Eft|Neutralize Survival}}
+|CombatEffect 2-4 Targets={{Tgt|Foe}}
+|CombatEffect 1-3 Conditions={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|CombatEffect 4 Conditions=<span style="width:10em;display:inline-block"/>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat '''&'''<br>({{Tgt|Unit}} has [[Weapon-triangle|Triangle<br>advantage]] '''or''' {{Tgt|Foe}}<br>is on an allied<br>{{Eft|Divine Vein (Flame)}} space)
+}}
+<b>{{Hatnote|* If {{Tgt|Foe}} is on an allied {{Eft|Divine Vein (Flame)}} space,<br>value is treated as max.}}</b>
+
+==Notes==
+{{Divine Vein|Flame}}
+{{Temporary debuffs}}
+{{CombatCooldownCount|-X (max: 3)}}
+{{Reduce Damage Reduction}}
+{{Survive with 1 HP Neutralization}}
+{| class="wikitable default mw-collapsible"
+!colspan=2 style="text-align:center;max-width:450px;margin:auto;" align="middle"|Examples of {{Eft|Divine Vein (Flame)}}'s<br>area-of-effect
+|-
+!Horizontal 
+|{{AoE|u=Edelgard: Snowfall Future|t=Dimitri: Blessed Protector
+|-------
+|-xxxxx-
+|-xxtxx-
+|---u---
+|-------
+|-------
+|-------
+}}
+|-
+!Vertical
+|{{AoE|u=Edelgard: Snowfall Future|t=Dimitri: Blessed Protector
+|-------
+|-xx----
+|-xx----
+|-xtu---
+|-xx----
+|-xx----
+|-------
+}}
+|}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=黒鷲の聖夜の槍
+|german=Festliche Lanze
+|spanishEU=Lanza invernal
+|spanishLA=Lanza invernal
+|french=Lance des fêtes
+|italian=Lancia festiva
+|chineseTW=黑鷲的聖夜之槍
+|portuguese=Lança festiva
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Divine Vein (Flame)】%' OR Description LIKE '%foe_s non-Special "reduce damage by X%" skills by%' OR Description LIKE '%before unit_s first attack%special cooldown count-%' OR Description LIKE '%special cooldown count-%before unit_s first attack%') AND Exclusive='1'}}
+* [[Flare Passives]]
+* [[Null Passives]]
+* [[Tempo Passives]]
+{{Weapons Navbox}}

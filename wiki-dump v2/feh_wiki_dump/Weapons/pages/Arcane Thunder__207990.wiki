@@ -1,0 +1,66 @@
+{{Weapon Infobox
+|tagid=SID_魔器・雷公の書
+|intID=3959
+|userVersion1=Closed
+|userVersion2=Open
+|exclusive=0
+|weaponType=Blue Tome
+|cost=300
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit, grants Special cooldown charge +1 to unit per attack (only highest value applied; does not stack), and neutralizes foe's bonuses to Spd/Res (from skills like Fortify, Rally, etc.) during combat, and also, if unit's Spd > foe's Spd, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat.
+|required=Thoron;Shine
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=200
+|properties=arcane,random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|PermanentEffect={{Eft|Accelerate Special}}
+|CombatEffect 1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|CombatEffect 2={{Eft|Accelerate Charge}}
+|CombatEffect 3={{Eft|Neutralize Bonuses|Spd/Res}}
+|CombatEffect 1-3 Conditions={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|CombatEffect 4={{Eft|Neutralize Guaranteed Follow-Ups}}
+|CombatEffect 3-4 Targets={{Tgt|Foe}}
+|CombatEffect 5={{Eft|Neutralize Prevent Follow-Ups}}
+|CombatEffect 5 Targets={{Tgt|Unit}}
+|CombatEffect 4-5 Conditions={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&'''{{Tgt|Unit}}'s Spd ><br>{{Tgt|Foe}}'s Spd
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{CooldownChargePlus}}
+{{Bonus neutralization}}
+{{Follow-up effect neutralization}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Gallery==
+<gallery>
+V8.1_v0801a_thrace_Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=魔器・雷公の書
+|german=Arkaner Donner
+|spanishEU=Trueno arcano
+|spanishLA=Trueno arcano
+|french=Foudre arcane
+|italian=Tuono arcano
+|chineseTW=魔器・雷公之書
+|portuguese=Trovão arcano
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%neutralizes foe_s bonuses to Spd/Res%' OR Description LIKE '%Atk/Spd/Def/Res+%special cooldown charge +1%neutralize%guarantee foe_s follow-up%prevent unit_s follow-up%') AND Exclusive='1'}}
+{{Weapons Navbox}}

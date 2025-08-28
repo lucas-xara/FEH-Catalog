@@ -1,0 +1,90 @@
+{{Weapon Infobox
+|tagid=SID_紅蓮の竜槍
+|intID=4360
+|image=wep_lc181
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=16
+|range=1
+|effect=If unit's HP ≥ 25% at start of combat, grants Atk/Spd/Def/Res+5 to unit, reduces damage from foe's first attack by 20% of unit's Def ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and foe cannot make a follow-up attack during combat, and also, if unit's Def > foe's Def, increases the Spd difference necessary for foe to make a follow-up attack by difference between stats × 2 during combat (for example, if Spd difference necessary increases by 10, Spd must be ≥ 15 more than foe's Spd to make a follow-up attack; stacks with similar skills).<br><br>If unit's HP ≥ 25% at start of combat, restores 7 HP to unit after combat.
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|refineStatsSkill1=3,0,0,0,0
+|effectSkill1=For foes within 3 rows or 3 columns centered on unit, inflicts Atk/Spd/Def-4 and Special cooldown charge -1 on those foes per attack during combat (only highest value applied; does not stack).<br><br>If foe initiates combat or foe's HP ≥ 75% at start of combat, grants Atk/Spd/Def/Res+5 to unit, deals damage = 20% of unit's Def (excluding area-of-effect Specials), and unit makes a guaranteed follow-up attack during combat.
+|properties=random_inherit_base
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s1 Ce2={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Def}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|s1 Ce3={{Eft|Prevent Follow-Ups}}
+|s1 Ce3-4T={{Tgt|Foe}}
+|s1 Ce1-3C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s1 Ce4={{Eft|Spd Difference Increase|2 x ({{Tgt|Unit}}'s Def<br>- {{Tgt|Foe}}'s Def)}}
+|s1 Ce4C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' {{Tgt|Unit}}'s Def<br>> {{Tgt|Foe}}'s Def
+|s1 Me={{Eft|Heal|7}}
+|s1 MeC=After combat if<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|skill2={{Si|Crimson Lance|refine=Skill1}} Skill refine effects
+|s2 Ce1={{Eft|Temporary debuffs|Atk/Spd/Def|4}}
+|s2 Ce2={{Eft|Guard}}
+|s2 Ce1-2T={{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|s2 Ce3={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s2 Ce4={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Def}}
+|s2 Ce5={{Eft|Guaranteed Follow-Ups}}
+|s2 Ce3-5C=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{FlatDamageReduction}}
+{{Prevent follow-up}}
+{{SpdDiffIncrease}}
+{{After combat healing}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary debuffs|name={{St|Crimson Lance|refine=Skill1}}}}
+{{CooldownChargeMinus|name={{St|Crimson Lance|refine=Skill1}}}}
+{{AlliesCombatEffect|temporary debuffs and special cooldown charge -1 effects|name={{St|Crimson Lance|refine=Skill1}}}}
+{{IfFoeInitiates}}
+{{DamageBoost|name={{St|Crimson Lance|refine=Skill1}}}}
+{{Guaranteed follow-up interaction|name={{St|Crimson Lance|refine=Skill1}}}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Melady: Crimson Rider|t=Galle: Azure Rider
+|---xxx---
+|---xxx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxtx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%increases the Spd difference necessary%to make a follow-up attack by%' OR Description LIKE '%inflicts%/%on%foes within%rows%during combat%' AND Description NOT LIKE '%at start of%inflicts%on foes within%rows%next action%during combat%') AND Exclusive='1'}}
+* [[Rein Passives]]
+* [[Skill families/C Passives#Crux|Crux Passives]]
+{{Weapons Navbox}}

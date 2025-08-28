@@ -1,0 +1,32 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_火薙ぎの剣＋
+|weaponName=Firesweep S+
+|weaponType=Sword
+|might=15
+|range=1
+|effect=Unit and foe cannot counterattack.
+|cost=300
+|exclusive=0
+|statModifiers=0,15,0,0,0
+|properties=random_owner
+}}
+==Notes==
+{{Firesweep interaction}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+* The name <code>Firesweep Sword+</code> is too long, so in-game it's shortened to <code>Firesweep S+</code>.
+==In other languages==
+{{OtherLanguages
+|japanese=火薙ぎの剣＋
+|german=Feuerfegersch.+
+|spanishEU=Esp. Vulcano +
+|spanishLA=E. Vulcano +
+|french=É. enflammée +
+|italian=Tagliafuoco+
+|chineseTW=火薙之劍＋
+|portuguese=Espada vulcão+
+}}
+==See also==
+* [[Skill families#Firesweep|Firesweep weapons]]
+{{Weapons Navbox}}

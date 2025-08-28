@@ -1,0 +1,37 @@
+{{Captain Skill
+|name=Adroit Captain
+|effect=Grants Spd+5 to captain during combat.<br>Captain and allies within 2 spaces of captain receive: "If Spd > foe's Spd, neutralizes effects that guarantee foe's follow-up attacks and prevent unit's follow-up attacks."
+|statModifiers=
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary buffs|Spd|5}}
+|Ce1T={{Tgt|Captain}}
+|Ce2={{Eft|Neutralize Guaranteed Follow-Ups}}
+|Ce2T={{Tgt|Foes}} of<br>{{Tgt|Captain}}<br>'''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|Ce3={{Eft|Neutralize Prevent Follow-Ups}}
+|Ce3T={{Tgt|Captain}}<br>'''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|Ce2-3C={{Tgt|Captain}} '''or'''<br>{{Tgt|Ally}}'s Spd<br>> {{Tgt|Foe}}'s Spd
+}}
+==Notes==
+{{Temporary buffs}}
+{{Follow-up effect neutralization}}
+{{AlliesCombatEffect}}
+==In other languages==
+{{OtherLanguages
+|english=Adroit Captain
+|japanese=竜跳虎臥
+|german=Clevere Taktik
+|spanishEU=Capitán hábil
+|spanishLA=Capitán hábil
+|french=Capitaine adroit
+|italian=Capitan Saetta
+|chineseTW=龍躍虎臥
+|portuguese=Comando veloz
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%unit_s Spd > foe_s Spd%neutralizes effects%guarantee foe_s follow-up%prevent unit_s follow-up%' AND Exclusive='1' AND Description NOT LIKE '%Null Follow-Up%' AND NAME NOT LIKE 'Null %+'}}
+* [[Skill families/Weapons#Null (weapons)|Null Weapons]]
+* [[Null Passives]]
+{{Captain Skills Navbox}}

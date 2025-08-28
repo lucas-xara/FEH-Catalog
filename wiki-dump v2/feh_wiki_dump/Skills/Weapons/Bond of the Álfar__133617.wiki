@@ -1,0 +1,37 @@
+{{Weapon Infobox
+|tagid=SID_妖精姉妹の絆
+|weaponName=Bond of the Álfar
+|image=wep_mg249
+|weaponType=Green Tome
+|might=14
+|range=2
+|effect=Grants Spd+3. Grants Atk+6 to any ally in cardinal directions of unit during that ally's combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,3,0,0
+|required=Rexcalibur
+|intID=2363
+|sort=482
+|value=20
+|timingID=2
+|abilityID=35
+|properties=
+}}
+==Notes==
+{{Combat boosts}}{{AlliesCombatEffect}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=妖精姉妹の絆
+|german=Elfenbund
+|spanishEU=Vínculo élfico
+|spanishLA=Vínculo élfico
+|french=Lien elfique
+|italian=Legame elfico
+|chineseTW=妖精姊妹的羈絆
+|portuguese=Vínculo Álfar
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants%all%cardinal%during%combat%' AND Description NOT LIKE '%guard%' OR Description LIKE '%grants%all%rows%columns%during%combat%'|columns=3}}
+{{Weapons Navbox}}

@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Fogado}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Fogado
+|Title=Summer of Bliss
+|WeaponType=Colorless Dagger
+|MoveType=Cavalry
+|Origin=Fire Emblem Engage
+|Gender=Male
+|actorEN=Zeno Robinson
+|actorJP=KENN
+|artist=argon
+|additionDate=June 17, 2025
+|releaseDate=June 17, 2025
+|cv1=14
+|cv2=500500
+|TagID=水着フォガート
+|InternalID=1257
+|Properties=limited,tempest,specDisplay
+|description=First prince of Solm. He loves the heat, the ocean, the beach, and everyone. Appears in Fire Emblem Engage.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=12|Lv1SPD=8|Lv1DEF=7|Lv1RES=6
+|GRHP=50|GRATK=75|GRSPD=90|GRDEF=45|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Dagger
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Dagger
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Tropical Juice
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Tropical Juice+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Catch 1
+|passiveA2=Atk/Spd Catch 2
+|passiveA3=Atk/Spd Catch 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Pulse Smoke 1
+|passiveC2=Pulse Smoke 2
+|passiveC3=Pulse Smoke 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Summer units]]

@@ -1,0 +1,38 @@
+{{Weapon Infobox
+|tagid=SID_巾着袋
+|weaponType=Dagger
+|might=8
+|range=2
+|effect=At the start of turn 1, grants Special cooldown count-2. After combat, if unit attacked, inflicts Def/Res-5 on foes within 2 spaces of target through their next actions.
+|cost=200
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|next=Ouch Pouch+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Dagger
+|properties=
+}}
+==Notes==
+{{Start of turn Special modification}}
+{{IfUnitAttacked}}
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=巾着袋
+|german=Autschbeuteln
+|spanishEU=Monedero
+|spanishLA=Monedero
+|french=Pochette
+|italian=Borsello flagello
+|chineseTW=束口袋
+|portuguese=Niqueleira
+}}
+==References==
+<references/>
+==See also==
+* [[It's Curtains...]]([[It's Curtains...+|+]])
+* [[Scarlet Sword]]
+{{Weapons Navbox}}

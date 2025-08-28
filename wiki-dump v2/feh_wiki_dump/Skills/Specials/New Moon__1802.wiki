@@ -1,0 +1,32 @@
+{{Special
+|tagid=SID_影月
+|name=New Moon
+|charge=3
+|effect=Treats foe's Def/Res as if reduced by 30% during combat.
+|cost=100
+|next=Luna
+|promotionRarity=4
+|promotionTier=2
+|required=-
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_all,offensive_special
+}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==In other languages==
+{{OtherLanguages
+|japanese=影月
+|german=Neumond
+|spanishEU=Novilunio
+|spanishLA=Novilunio
+|french=Nouvelle lune
+|italian=Novilunio
+|chineseTW=新月
+|portuguese=Novilúnio
+}}
+==See also==
+{{See also skills|cond=SCategory='special' AND Exclusive='1' AND Description LIKE '%Treats foe_s Def/Res as if reduced by __% during combat%'}}
+{{Specials Navbox}}

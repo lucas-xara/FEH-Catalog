@@ -1,0 +1,46 @@
+{{Weapon Infobox
+|tagid=SID_正々堂々の斧
+|intID=4381
+|image=wep_ax162
+|exclusive=0
+|weaponType=Axe
+|cost=200
+|might=10
+|range=1
+|effect=At start of combat, if foe's HP ≥ 75%, grants Atk/Spd+5 to unit and neutralizes unit's penalties to Atk/Spd during combat.
+|required=Steel Axe
+|next=Up-Front Axe+
+|promotionRarity=5
+|promotionTier=1
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary buffs|Atk/Spd|5}}
+|Ce2={{Eft|Neutralize Penalties|Atk/Spd}}
+|CeC={{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+}}
+==Notes==
+{{Temporary buffs}}
+{{Penalty neutralization}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%if foe_s HP ≥ ___, grants Atk/Spd+%neutralizes unit_s penalties%' OR Description LIKE '%if foe_s HP ≥ ___, grants Atk/Spd+%neutralizes penalties%') AND WikiName NOT LIKE '%Up-Front%' AND Exclusive='1'}}
+* [[Skill families/Weapons#Up-Front|Up-Front Weapons]]
+{{Weapons Navbox}}

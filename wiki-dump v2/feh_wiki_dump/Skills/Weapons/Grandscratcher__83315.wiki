@@ -1,0 +1,36 @@
+{{Weapon Infobox
+|tagid=SID_孫の手
+|weaponType=Staff
+|weaponName=Grandscratcher
+|might=8
+|range=2
+|effect=At the start of turn 1, grants Special cooldown count-1 to ally with the highest Atk. (If that ally does not have a Special skill, this skill has no effect.)
+|cost=200
+|exclusive=0
+|canUseMove=
+|statModifiers=0,8,0,0,0
+|next=Grandscratcher+
+|promotionRarity=5
+|promotionTier=2
+|required=Assault
+|properties=
+}}
+==Notes==
+{{SelectStat|Atk}}
+{{Start of turn Special modification}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=孫の手
+|german=Rückenkratzer
+|spanishEU=Megarrascador
+|spanishLA=Megarrascador
+|french=Grattoir
+|italian=Grattaschiena
+|chineseTW=不求人
+|portuguese=Megaescova
+}}
+==References==
+<references/>
+{{Weapons Navbox}}

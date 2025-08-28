@@ -1,0 +1,51 @@
+{{Weapon Infobox
+|tagid=SID_被造フィンブル
+|intID=3106
+|userVersion1=Closed
+|userVersion2=Open
+|exclusive=1
+|weaponType=Green Tome
+|cost=400
+|might=14
+|range=2
+|effect=Grants Atk+3. If unit is within 3 spaces of an ally, inflicts Atk/Res-8 on foe during combat, foe cannot make a follow-up attack, and grants bonus to unit's Atk during combat = total Atk+Res bonuses on ally with the highest total Atk+Res bonuses within 3 spaces. If unit is within 3 spaces of an ally, after combat, if unit attacked, deals 15 damage to nearest ally.
+|statModifiers=0,17,0,0,0
+|required=Rexcalibur
+|properties=random_owner
+}}
+==Notes==
+{{Combat reductions}}
+{{Prevent follow-up}}
+{{BonusesToAtk|noNeutralize=1|source=the ally with the highest total bonuses within 3 spaces}}
+{{IfUnitAttacked}}
+{{Out of Combat Damage}}
+{| class="wikitable default mw-collapsible" 
+! align="middle" | Example of Area of Effect
+|-
+| align="middle" ! |
+<div style="max-width: 450px; margin: auto;>{{AoE|u=Limstella: Living Construct|t=Ursula: Blue Crow
+|---x---
+|--xxx--
+|-xxxxx-
+|xxxuxtx
+|-xxxxx-
+|--xxx--
+|---x---
+}}</div>
+|}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=被造フィンブル
+|german=Morph-Fimbulwi.
+|spanishEU=Fimbulvetr morph
+|spanishLA=Fimbulvetr morph
+|french=Fimbulvetr créée
+|italian=Fimbulvetr fittizio
+|chineseTW=被創造的芬布爾
+|portuguese=Fimbulvetr mut.
+}}
+==See also==
+{{See also skills|cond=WikiName LIKE '%Fimbulvetr%' OR Description LIKE '%unit is within _ spaces of an ally%cannot make a follow-up attack%' OR Description LIKE '%grants bonus to unit\'s Atk =%total%bonuses on ally with the highest%' OR Description LIKE '%if unit attacked%nearest ally%'}}
+{{Weapons Navbox}}

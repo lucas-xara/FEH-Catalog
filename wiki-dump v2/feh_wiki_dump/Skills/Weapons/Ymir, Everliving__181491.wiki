@@ -1,0 +1,40 @@
+{{Weapon Infobox
+|tagid=SID_永生ユーミル
+|intID=3279
+|image=wep_dg069
+|exclusive=1
+|weaponType=Dagger
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). If unit initiates combat or foe's Range = 2, grants Atk/Spd/Def/Res+5 during combat and bonus to unit's Atk during combat = 40% of the current HP of the ally with the second-lowest current HP at start of combat (excludes unit; maximum bonus of 20; if number of allies ≤ 1, bonus = 0), neutralizes effects that prevent unit's follow-up attacks, and also, if unit's HP ≥ 25% and foe would reduce unit's HP to 0, unit survives with 1 HP. (Once per combat. Does not stack with non-Special effects that allow unit to survive with 1 HP if foe's attack would reduce HP to 0.)<br>Effect:【Dagger ７】<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|statModifiers=0,14,0,0,0
+|required=Silver Dagger
+|properties=random_owner
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Follow-up effect neutralization|preventOnly=1}}
+{{DefensiveSkill}}
+{{Miracle|HPThreshold=under 25%}}
+{{IfUnitAttacked}}
+{{Penalties}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=永生ユーミル
+|german=Langlebige Ymir
+|spanishEU=Ymir perenne
+|spanishLA=Ymir perenne
+|french=Ymir, sans fin
+|italian=Ymir perenne
+|chineseTW=永生優彌爾
+|portuguese=Ymir perene
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%bonus to unit_s%during combat%=%HP at start of combat%' OR Description LIKE '%unit survives with 1 HP%'}}
+{{Weapons Navbox}}

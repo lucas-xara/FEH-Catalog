@@ -1,0 +1,71 @@
+{{Weapon Infobox
+|tagid=SID_弓騎士の守城弓
+|intID=4523
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=1
+|weaponType=Bow
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effectiveness=Flying
+|effect=Accelerates Special trigger (cooldown count-1).<br>Effective against flying foes.<br><br>At start of turn, if unit's HP ≥ 25%, inflicts Spd/Def-7,【Exposure】, and【Deep Wounds】on closest foes and foes within 2 spaces of those foes through their next actions.<br><br>At start of combat, if unit's HP ≥ 25%, grants bonus to unit's Atk/Spd/Def/Res = number of foes within 3 rows or 3 columns centered on unit × 3, + 5 (max 14), neutralizes unit's penalties, deals +X damage (X = number of foes within 3 spaces of target, including target, × 8; max 32; excluding area-of-effect Specials), and reduces damage from foe's first attack by 7 during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes).<br><br>【Exposure】<br>Foe's attacks deal +10 damage.<br><br>【Deep Wounds】<br>Unit's HP cannot be healed through its next action.
+|required=Silver Bow
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Se1={{Eft|Penalties|Spd/Def|7}}
+|Se2={{SEt|Exposure}}
+|Se3={{SEt|Deep Wounds}}
+|SeT=Closest {{Tgt|Foes}}<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}
+|SeC=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25%
+|Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|3 x {{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}, + 5|max=14}}
+|Ce3={{Eft|Neutralize Penalties}}
+|Ce4={{Eft|Damage Boost|8 x {{Tgt|Foes}}<br>[[within 3 spaces]]<br>of {{Tgt|Target Foe}}<br>(including {{Tgt|Target Foe}})|max=32}}
+|Ce5={{Eft|Damage Reduction|7}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce2-5C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{Penalties}}
+{{Exposure}}
+{{Deep Wounds}}
+{{Temporary buffs}}
+{{Penalty neutralization}}
+{{FlatDamageBoost|X (max: 32)}}
+{{FlatDamageReduction|7}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Midir: Archer of Yngvi|t=Arvis: Emperor of Flame
+|---xxx---
+|---xxx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xtx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Deep Wounds】%' AND (Description NOT LIKE '%reduces the effect of【Deep Wounds】%' AND Description NOT LIKE '%neutralizes%【Deep Wounds】%') OR Description LIKE '%number of foes within _ spaces of target%') AND Exclusive='1'}}
+{{Weapons Navbox}}

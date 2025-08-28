@@ -1,0 +1,76 @@
+{{Weapon Infobox
+|tagid=SID_辺境の盗賊の暗器
+|intID=4173
+|image=wep_dg086
+|exclusive=1
+|weaponType=Dagger
+|cost=400
+|might=14
+|range=2
+|effectiveness=Cavalry
+|effect=Effective against cavalry foes.<br><br>At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit, deals damage = 20% of unit's Spd (excluding area-of-effect Specials), reduces damage from foe's first attack by 30% ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and disables unit's and foe's skills that change attack priority during combat.<br><br>Effect:【Dagger ７】<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+4 to unit, grants Atk/Spd/Def/Res+X to unit, inflicts Atk/Spd/Def/Res-X on foe (X = current bonus on each of foe's stats; calculates each stat bonus and penalty independently), grants Special cooldown charge +1 to unit per attack during combat (only highest value applied; does not stack), and restores 7 HP to unit after combat.
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Ce1={{Eft|Effectiveness|{{Mt|Cavalry}}}}
+|s1 Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s1 Ce3={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|s1 Ce4={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|s1 Ce5={{Eft|Hardy Bearing}}
+|s1 CeT5={{Tgt|Unit}}<br>'''&''' {{Tgt|Foe}}
+|s1 Ce2-5C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s1 Se={{Eft|Penalties|Def/Res|7}}
+|s1 SeT={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|s1 SeC=After combat if<br>{{Tgt|Unit}} attacked
+|skill2={{Si|Thief's Honesty|refine=Skill1}} Skill refine effects
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s2 Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|{{SEt|Bonuses}} on<br>each of {{Tgt|Foe}}'s stats}}
+|s2 Ce3={{Eft|Temporary debuffs|Atk/Spd/Def/Res|{{SEt|Bonuses}} on<br>each of {{Tgt|Foe}}'s stats}}
+|s2 CeT3={{Tgt|Foe}}
+|s2 Ce4={{Eft|Special Cooldown Charge +1}}
+|s2 CeT4={{Tgt|Unit}}<br>
+|s2 CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s2 Me={{Eft|Heal|7}}
+|s2 MeC=After combat on<br>Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+==Notes==
+{{Effective damage bonus|Cavalry}}
+{{Temporary buffs}}
+{{DamageBoost}}
+{{DamagePercentageReduction}}
+{{PriorityNeutralization}}
+{{IfUnitAttacked}}
+{{Penalties}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfUnitInitiates|name={{St|Thief's Honesty|refine=Skill1}}}}
+{{TemporaryBufffromBonus|source=the foe|name={{St|Thief's Honesty|refine=Skill1}}}}
+{{TemporaryDebufffromBonus|source=the foe|name={{St|Thief's Honesty|refine=Skill1}}}}
+{{CooldownChargePlus|name={{St|Thief's Honesty|refine=Skill1}}}}
+{{After combat healing|name={{St|Thief's Honesty|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=辺境の盗賊の暗器
+|german=Diebesehre
+|spanishEU=Daga convertida
+|spanishLA=Daga convertida
+|french=Voleur honnête
+|italian=Pugnale onesto
+|chineseTW=邊境盜賊暗器
+|portuguese=Lisura do ladrão
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%change attack priority%' AND Exclusive='1'}}
+* [[Skill families/Weapons#Reversal|Reversal Weapons]]
+{{Weapons Navbox}}

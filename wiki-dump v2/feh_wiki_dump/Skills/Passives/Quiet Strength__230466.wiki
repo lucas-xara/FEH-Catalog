@@ -1,0 +1,55 @@
+{{Passive
+|name=Quiet Strength
+|type=C
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Quiet Strength
+|1tagid=SID_小さな声援
+|1effect=For allies on the map with the【Salvage】 effect active and allies within 2 spaces of unit, grants Atk/Spd/Def/Res+5, deals +7 damage (excluding area-of-effect Specials), reduces damage from foe's first attack by 7 ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and grants Special cooldown count-1 to ally before ally's first attack during their combat.<br><br>If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd+5, neutralizes penalties to unit's Atk/Spd, deals +7 damage (excluding area-of-effect Specials), reduces damage from foe's first attack by 7 ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), grants Special cooldown count-1 to unit before unit's first attack, and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials).<br><br>【Salvage】<br>Enables【Canto (２)】.<br><br>When【Canto Control】is applied to unit, if unit's Range = 1, unit can move 2 spaces with Canto instead of 1 space, and if unit's Range = 2, unit can move 1 space with Canto instead of 0 spaces.<br><br>【Canto (２)】<br>After an attack, Assist skill, or structure destruction, unit can move ２ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)<br><br>【Canto Control】<br>Limits the number of spaces target can move with Canto through their next action. If target's Range = 1, target can move 1 space when Canto triggers. If target's Range = 2, target's action ends when Canto triggers.
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce2={{Eft|Damage Boost|7}}
+|Ce3={{Eft|Damage Reduction|7}}
+|Ce4={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Ally}}'s first attack
+|Ce1-4T={{Tgt|Allies}} with<br>{{SEt|Salvage}} '''&'''<br>{{Tgt|Allies}}<br>[[within 2 spaces]]
+|Ce5={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce6={{Eft|Neutralize Penalties|Atk/Spd}}
+|Ce7={{Eft|Damage Boost|7}}
+|Ce8={{Eft|Damage Reduction|7}}
+|Ce9={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Unit}}'s first attack
+|Ce10={{Eft|Reduce Damage Reduction|50%}}
+|Ce10T={{Tgt|Foe}}
+|Ce5-10C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{FlatDamageBoost|7}}
+{{FlatDamageReduction|7}}
+{{CombatCooldownCount|-1}}
+{{AlliesCombatEffect|temporary buffs, damage boost, damage reduction and special cooldown count -1 effects}}
+{{IfUnitInitiates}}
+{{Penalty neutralization}}
+{{Reduce Damage Reduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Salvage】%' OR Description LIKE '%allies on the map with %' OR Description LIKE '%special cooldown count-%before ally_s first attack%' OR Description LIKE '%special cooldown count-%before their first attack%') AND Exclusive='1'}}
+{{Passives Navbox|C}}

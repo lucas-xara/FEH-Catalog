@@ -1,0 +1,47 @@
+{{Passive
+|name=Atk/Spd Aria
+|type=A
+|exclusive=0
+|canUseWeapon={{WeaponList|Magic,Colorless Staff}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Atk/Spd Aria
+|alt1name=Atk Spd Aria
+|1tagid=SID_攻撃速さの詠唱
+|1effect=If unit initiates combat or is within 3 spaces of an ally, grants bonus to unit's Atk/Spd = unit's maximum Special cooldown count + 7 during combat, and also, when unit's Special triggers, deals damage = unit's maximum Special cooldown count × X (excluding area-of-effect Specials; if unit triggers the "unit attacks twice" effect, X = 3; otherwise, X = 5).
+|1cost=300
+|1required=Atk/Spd Bond 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary buffs|Atk/Spd|7 + {{Tgt|Unit}}'s max CD}}
+|Ce2={{Eft|Damage Boost|2=Y x {{Tgt|Unit}}'s max CD<br>(Y = 3 if {{Tgt|Unit}} can<br>[[attack twice]]; else Y = 5)}}<br>per {{Tgt|Unit}}'s [[offensive Special]]
+|CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 3 spaces]]
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{FlatDamageBoost|X (max: 15)}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%unit_s maximum Special cooldown count%' AND Exclusive='1'}}
+* [[Skill families/A Passives#Aria|Aria Passives]]
+* [[Bond Passives]]
+* [[Unity Passives]]
+{{Passives Navbox|A}}

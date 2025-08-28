@@ -1,0 +1,33 @@
+{{Weapon Infobox
+|tagid=SID_幼獣の化身・歩行
+|weaponType=Beast
+|might=4
+|range=1
+|effect=At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 and deals +10 damage when Special triggers.
+|cost=50
+|canUseMove=Infantry
+|statModifiers=0,4,0,0,0
+|next=Yearling (Infantry)
+|promotionRarity=3
+|promotionTier=1
+|required=-
+|properties=random_all
+}}
+==Notes==
+{{Beast (Infantry)}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=幼獣の化身・歩行
+|german=Welpe
+|spanishEU=Cachorro
+|spanishLA=Cachorro
+|french=Bébé (infant.)
+|italian=Cucciolo (fante)
+|chineseTW=幼獸化身・步行
+|portuguese=Filhote (infant.)
+}}
+==See also==
+{{See also skills|cond=Next LIKE 'Yearling%' OR Next='Fledgling Flier'}}
+{{Weapons Navbox}}

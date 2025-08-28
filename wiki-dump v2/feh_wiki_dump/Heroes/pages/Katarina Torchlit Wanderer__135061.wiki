@@ -1,0 +1,75 @@
+{{#invoke:NameAbout|main|Name=Katarina}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Katarina
+|Title=Torchlit Wanderer
+|WeaponType=Blue Tome
+|MoveType=Flying
+|Origin=Fire Emblem: New Mystery of the Emblem
+|Gender=Female
+|actorEN=Kira Buckland
+|actorJP=優木かな
+|artist=kaya8
+|additionDate=January 18, 2021
+|releaseDate=January 18, 2021
+|cv1=1
+|cv2=2900200
+|TagID=砂漠カタリナ
+|InternalID=617
+|Properties=special,specRate_202402
+|description=Knight of Altea who joined the new recruits of the 7th Platoon. Currently deployed on a mission. Appears in Fire Emblem: New Mystery of the Emblem.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=11|Lv1SPD=10|Lv1DEF=3|Lv1RES=6
+|GRHP=50|GRATK=60|GRSPD=75|GRDEF=30|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Thunder
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elthunder
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Thoron
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Fell Flambeau
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Solo 1
+|passiveA2=Atk/Spd Solo 2
+|passiveA3=Atk/Spd Solo 3
+|passiveA4=Atk/Spd Solo 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Chill Res 1
+|passiveB2=Chill Def/Res 1
+|passiveB3=Chill Def/Res 2
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Atk/Res Rein 1
+|passiveC2=Atk/Res Rein 2
+|passiveC3=Atk/Res Rein 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Desert Festival units]]

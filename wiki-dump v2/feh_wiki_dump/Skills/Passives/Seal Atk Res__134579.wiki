@@ -1,0 +1,77 @@
+{{Passive
+|name=Seal Atk/Res
+|type=B
+|exclusive=0
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|1name=Seal Atk/Res 1
+|alt1name=Seal Atk Res 1
+|intID1=2391
+|1tagid=SID_攻撃魔防封じ1
+|1effect=Inflicts Atk/Res-3 on foe through its next action after combat.
+|1required=Seal Atk 1;Seal Res 1
+|1cost=100
+|1promotionRarity=5
+|1promotionTier=1
+|2name=Seal Atk/Res 2
+|alt2name=Seal Atk Res 2
+|intID2=2392
+|2tagid=SID_攻撃魔防封じ2
+|2effect=Inflicts Atk/Res-5 on foe through its next action after combat.
+|2required=Seal Atk/Res 1
+|2cost=200
+|2next=-
+|3name=Seal Atk/Res 3
+|alt3name=Seal Atk Res 3
+|3tagid=SID_攻撃魔防封じ3
+|3effect=Inflicts Atk/Res-3 on foe and additional penalty to foe's Atk/Res = 6 - current penalty on each of those stats during combat (min 0; calculates each stat penalty independently; still inflicts penalty on foe even if foe triggers an effect that neutralizes penalties during combat). If penalty is active on foe's Atk or Res, inflicts Special cooldown charge -1 on foe per attack during combat (only highest value applied; does not stack). After combat, inflicts Atk/Res-6 on foe through its next action.
+|3cost=300
+|properties3=random_owner
+|randomTimestamp=2021-02-08T07:00:00Z
+|properties=random_all
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Seal Atk/Res 2}} Seal Atk/Res 2
+|s1 Se={{Eft|Penalties|Atk/Res|5}}
+|s1 SeT={{Tgt|Foe}}
+|s1 SeC=After combat
+|skill2={{Si|Seal Atk/Res 3}} Seal Atk/Res 3
+|s2 Ce1={{Eft|Temporary Debuffs|Atk/Res|3}}
+|s2 Ce2={{Eft|Temporary Debuffs|Atk/Res|min=0|6 - {{SEt|Penalties}}<br>on {{Tgt|Foe}}'s Atk/Res*}}
+|s2 Ce3={{Eft|Guard}}
+|s2 CeT={{Tgt|Foe}}
+|s2 Ce3C={{Tgt|Foe}} has Atk '''or'''<br>Res {{SEt|Penalties}}
+|s2 Se={{Eft|Penalties|Atk/Res|6}}
+|s2 SeT={{Tgt|Foe}}
+|s2 SeC=After combat
+}}
+<b>{{Hatnote|* 2X if {{Tgt|Foe}} has a {{Eft|Neutralize Penalties}} effect}}</b>
+==Notes==
+{{After combat note|{{SEt|penalty}}}}
+{{Penalties}}
+{{Temporary debuffs|name=Seal Atk/Res 3}}
+{{CooldownChargeMinus}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Seal Atk/Res
+|japanese=攻撃魔防封じ
+|german=Agr./Res.-Raub
+|spanishEU=Sellar Ata/Res
+|spanishLA=Sellar Atq./Res.
+|french=Sceau Atq/Rés
+|italian=Sigilla Att/Res
+|chineseTW=攻擊魔防封印
+|portuguese=Selo Atq./Res.
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%- current penalt%on%' AND Exclusive='1'}}
+* [[Seal Passives]]
+{{Passives Navbox|B}}
+[[Category:Seal Passives]]

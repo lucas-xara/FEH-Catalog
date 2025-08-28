@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Clanne}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Clanne
+|Title=Summer Fan
+|WeaponType=Colorless Dagger
+|MoveType=Infantry
+|Origin=Fire Emblem Engage
+|Gender=Male
+|actorEN=Justin Briner
+|actorJP=天﨑滉平
+|artist=Tobi
+|additionDate=July 5, 2024
+|releaseDate=July 5, 2024
+|cv1=14
+|cv2=100500
+|TagID=水着クラン
+|InternalID=1115
+|Properties=special,hat
+|description=A 33rd Steward of the Dragon who wishes to burn the image of summer's Divine Dragon into his eyes. Appears in Fire Emblem Engage.
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=10|Lv1SPD=11|Lv1DEF=4|Lv1RES=12
+|GRHP=50|GRATK=70|GRSPD=80|GRDEF=35|GRRES=75
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Dagger
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Dagger
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Small Spade
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Small Spade+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Moonbow
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Finish 1
+|passiveA2=Atk/Spd Finish 2
+|passiveA3=Atk/Spd Finish 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=Spd/Def Tempo 1
+|passiveB2=Spd/Def Tempo 2
+|passiveB3=Spd/Def Tempo 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Summer units]]

@@ -1,0 +1,92 @@
+{{#invoke:NameAbout|main|Name=Elm}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Elm
+|Title=Retainer to Embla
+|Origin=Fire Emblem Heroes
+|Gender=Male
+|WeaponType=Red Beast
+|MoveType=Flying
+|MythicEffect=Astra
+|MythicEffect2=Raiding Party Bonus
+|MythicEffect3=Raiding Party Call
+|BoostHP=5
+|BoostSpd=4
+|actorEN=Landon McDonald
+|actorJP=入野自由
+|artist=コザキユースケ
+|additionDate=2021-12-06
+|releaseDate=April 28, 2025
+|Person=Elm
+|Properties=mythic
+|description=Retainer to Embla, god of barriers and broken bonds. Snide and shameless, he lines his words with barbs meant to wound.
+|cv1=0
+|cv2=600400
+|TagID=エルム
+|InternalID=1236
+|EnemyInternalID=80
+}}
+==Ally stats==
+{{Stats Page|noheader=1
+|Lv1HP=19|Lv1ATK=10|Lv1SPD=9|Lv1DEF=9|Lv1RES=8
+|GRHP=50|GRATK=75|GRSPD=90|GRDEF=55|GRRES=50
+}}
+==Enemy stats==
+{{Stats Page/Enemy|noheader=1
+|Lv1HP=19|Lv1ATK=9|Lv1SPD=12|Lv1DEF=5|Lv1RES=7
+|GRHP=50|GRATK=65|GRSPD=70|GRDEF=50|GRRES=55
+}}
+==Skills==
+===Ally Weapons===
+{{Weapons Table
+|weapon1=Hatchling (Flier)
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Fledgling (Flier)
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Adult (Flier)
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Jaws of Closure
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Enemy Weapons===
+{{Weapons Table/enemy
+|weapon4=Fang of Closure
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Astra
+|special2Unlock=4
+|special3=Nimble Beast
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=New Opening
+|passiveA1Unlock=5
+|passiveB1=Beast Agility 1
+|passiveB2=Beast Agility 2
+|passiveB3=Beast Agility 3
+|passiveB4=Bestial Agility
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=C Feud 1
+|passiveC2=C Feud 2
+|passiveC3=C Feud 3
+|passiveC4=Preempt Screech
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+{{Enemies Navbox}}

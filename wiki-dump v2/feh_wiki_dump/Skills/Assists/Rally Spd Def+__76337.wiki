@@ -1,0 +1,38 @@
+{{Assist
+|tagid=SID_速さ守備の応援＋
+|name=Rally Spd/Def+
+|range=1
+|effect=Grants Spd/Def+6 to target ally for 1 turn.
+|cost=400
+|required=Rally Spd/Def
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_owner,random_inherit_base
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se={{Eft|Bonuses|Spd/Def|6}}
+|SeT={{Tgt|Target Ally}}
+|SeC={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}
+}}
+==Notes==
+{{Bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Rally Spd/Def+
+|japanese=速さ守備の応援＋
+|german=Ges./Ver. sam.+
+|spanishEU=Potenc. Vel/Def +
+|spanishLA=Pot. Vel./Def. +
+|french=Rall. : Vit/Déf +
+|italian=Sprone Vel/Dif+
+|chineseTW=速度防守支援＋
+|portuguese=Vel./Def. nímias+
+}}
+==See also==
+* [[Rally Assists]]
+{{AssistSkillBox}}
+[[Category:Rally Assists]]

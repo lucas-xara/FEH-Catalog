@@ -1,0 +1,82 @@
+{{#invoke:NameAbout|main|Name=Leo}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Leo
+|Title=Dark Sprout
+|WeaponType=Red Tome
+|MoveType=Cavalry
+|Origin=Fire Emblem Fates
+|Gender=Male
+|actorEN=-
+|actorJP=種﨑敦美
+|artist=Tobi
+|additionDate=April 3, 2025
+|releaseDate=April 4, 2025
+|cv1=11
+|cv2=500800
+|TagID=幼少レオン
+|InternalID=1227
+|Properties=special
+|description=Youngest prince of Nohr. Exceptionally talented, he is capable of just about anything, particularly magic. Appears in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=10|Lv1SPD=5|Lv1DEF=3|Lv1RES=13
+|GRHP=50|GRATK=90|GRSPD=50|GRDEF=30|GRRES=80
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Flux
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Ruin
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Fenrir
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Tome of Dusk
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Reposition
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table
+|special1=Rising Thunder
+|special1Default=4
+|special1Unlock=3
+|special2=Blazing Thunder
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Still Water 1
+|passiveA2=Still Water 2
+|passiveA3=Still Water 3
+|passiveA4=Crystalline Water
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Atk/Res Snag 1
+|passiveB2=Atk/Res Snag 2
+|passiveB3=Atk/Res Snag 3
+|passiveB4=Atk/Res Detect
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Fortify Res 1
+|passiveC2=Fortify Res 2
+|passiveC3=Fortify Res 3
+|passiveC4=A/R Incite Hone
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}

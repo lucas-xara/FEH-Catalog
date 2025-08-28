@@ -1,0 +1,35 @@
+{{Passive
+|name=Power of Nihility
+|type=A
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Power of Nihility
+|1tagid=SID_虚無の力
+|1effect=If number of allies adjacent to unit ≤ 1, grants Atk/Spd/Def/Res+9 to unit and grants Special cooldown charge +1 to unit per attack during combat (only highest value applied; does not stack), and also, if unit deals damage to foe using a Special during combat, restores X% of unit's max HP to unit (X = unit's max Special cooldown count value × 20, + 10; max 100; triggers even if 0 damage is dealt).
+|1cost=300
+|1required=-
+}}
+==Notes==
+{{Temporary buffs}}
+{{CooldownChargePlus}}
+{{CombatHPRecovery}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=虚無の力
+|german=Macht des Nichts
+|spanishEU=Poder del vacío
+|spanishLA=Poder de nada
+|french=Pouvoir du néant
+|italian=Potere del nulla
+|chineseTW=虛無之力
+|portuguese=Poder do nada
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%restores HP%of unit_s max HP%' OR Description LIKE '%restores%of unit_s maximum HP%' OR Description LIKE '%X = unit_s max special cooldown count value%' OR Description LIKE '%number of allies adjacent to unit ≤%') AND Exclusive='1'}}
+* [[Skill families/C Passives#Alarm|Alarm Passives]]
+* [[Skill families/A Passives#Surge|Surge Passives]]
+{{Passives Navbox|A}}

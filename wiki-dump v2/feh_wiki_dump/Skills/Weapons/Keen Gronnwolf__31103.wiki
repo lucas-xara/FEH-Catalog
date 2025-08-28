@@ -1,0 +1,41 @@
+{{Weapon Infobox
+|tagid=SID_グルンウルフ2
+|weaponType=Green Tome
+|might=8
+|range=2
+|effectiveness=cavalry
+|effect=Effective against cavalry foes.
+|cost=200
+|exclusive=0
+|userVersion1=Closed|userVersion2=Open|statModifiers=0,8,0,0,0
+|next=Keen Gronnwolf+
+|promotionRarity=5
+|promotionTier=1
+|required=Elwind
+|SE=se_effect_wolf01.flac
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce={{Eft|Effectiveness|{{Mt|Cavalry}}}}
+}}
+==Notes==
+{{Effective damage bonus|cavalry}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{TomeColorTrivia|gronn}}
+==In other languages==
+{{OtherLanguages
+|japanese=グルンウルフ鍛
+|german=Eifr. Gronnwolf
+|spanishEU=Lobo g. agudo
+|spanishLA=Lobo jade agudo
+|french=Canines émer.
+|italian=Viridelupo lesto
+|chineseTW=翠綠餓狼鍛
+|portuguese=Lobo jade sagaz
+}}
+==See also==
+* [[Weapons that are effective against cavalry foes]]
+{{Weapons Navbox}}

@@ -1,0 +1,42 @@
+{{Weapon Infobox
+|tagid=SID_共感の花
+|weaponName=Amity Blooms
+|image=wep_mg252
+|weaponType=Green Tome
+|might=8
+|range=2
+|effect=If unit is within 2 spaces of an ally, inflicts Atk/Res-5 on foe during combat, and when unit deals damage to foe during combat, restores 4 HP to unit. (Triggers even if 0 damage is dealt.)
+|cost=200
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|required=Elwind
+|next=
+|promotionRarity=5
+|promotionTier=1
+|intID=2430
+|sort=90000
+|value=11
+|timingID=1
+|abilityID=210
+|limit1ID=14
+|properties=
+}}
+==Notes==
+{{Temporary debuffs}}
+{{CombatHPRecovery}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=共感の花
+|german=Harmonieblüten
+|spanishEU=Armonía floral
+|spanishLA=Armonía floral
+|french=Fleurs d'amitié
+|italian=Fiori dell'intesa
+|chineseTW=共鳴之花
+|portuguese=Empatia floral
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%inflicts Atk/%-%during combat%unit deals damage to foe during combat, restores%HP to unit%'}}
+{{Weapons Navbox}}

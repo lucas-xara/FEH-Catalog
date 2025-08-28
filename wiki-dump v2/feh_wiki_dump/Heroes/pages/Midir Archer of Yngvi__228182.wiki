@@ -1,0 +1,73 @@
+{{#invoke:NameAbout|main|Name=Midir}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Midir
+|Title=Archer of Yngvi
+|WeaponType=Blue Bow
+|MoveType=Cavalry
+|Origin=Fire Emblem: Genealogy of the Holy War
+|Gender=Male
+|actorEN=Ry McKeand
+|actorJP=優希比呂
+|artist=かわすみ
+|randomStartTime=2025-02-07T07:00:00Z
+|additionDate=January 6, 2025
+|releaseDate=January 7, 2025
+|poolDate=January 28, 2025
+|poolRarities=5
+|cv1=3
+|cv2=200300
+|TagID=ミデェール
+|InternalID=1193
+|Properties=
+|description=An archer knight in service of Yngvi. He was severely injured when he stood up against Munnir's assault. Appears in Fire Emblem: Genealogy of the Holy War.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=11|Lv1SPD=12|Lv1DEF=6|Lv1RES=3
+|GRHP=50|GRATK=80|GRSPD=80|GRDEF=55|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Bow
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Rampart Bow
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Death Blow 1
+|passiveA2=Swift Sparrow 1
+|passiveA3=Swift Sparrow 2
+|passiveA4=Sly Swift Sparrow
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveC1=Rouse Spd/Def 1
+|passiveC2=Rouse Spd/Def 2
+|passiveC3=Rouse Spd/Def 3
+|passiveC4=Incite Spd/Def
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}

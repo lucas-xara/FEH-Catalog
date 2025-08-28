@@ -1,0 +1,57 @@
+{{Passive
+|type=C
+|name=Ostia's Pulse
+|exclusive=1
+|1name=Ostia's Pulse
+|1tagid=SID_オスティアの鼓動
+|1required=-
+|1next=-
+|1effect=At the start of turn 1, grants Special cooldown count-1 to all allies. Granted only if number of those allies' movement types on current team ≤ 2.
+|1cost=300
+|2name=Ostia's Pulse II
+|alt2name=Ostias Pulse II
+|2tagid=SID_盟主の鼓動・承
+|2cost=300
+|2effect=At start of turn, grants Def/Res+6 to unit and allies for one turn, and also, if any unit or ally's Special cooldown count is at its maximum value, grants them Special cooldown count-1. All effects granted only if the number of that unit or ally's movement type on the current team is ≤ 2.
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Ostia's Pulse 3}} Ostia's Pulse 3
+|s1 Me={{Eft|Reduce Cooldown|1}}
+|s1 MeT={{Tgt|Allies}}
+|s1 MeC=At the start of turn 1<br>if {{Tgt|Ally}}'s [[move type]]<br>on current team ≤ 2
+|skill2={{Si|Ostia's Pulse 4}} Ostia's Pulse 4
+|s2 Se={{Eft|Bonuses|Def/Res|6}}
+|s2 SeT={{Tgt|Unit}} '''&'''<br>{{Tgt|Allies}}
+|s2 SeC=At start of turn if<br>{{Tgt|Unit}} or {{Tgt|Ally}}'s<br>[[move type]] on<br>current team ≤ 2
+|s2 Me={{Eft|Reduce Cooldown|1}}
+|s2 MeT={{Tgt|Unit}} '''&'''<br>{{Tgt|Allies}}
+|s2 MeC=At start of turn if<br>{{Tgt|Unit}} or {{Tgt|Ally}}'s<br>CD is max value<br>'''&''' {{Tgt|Unit}} or<br>{{Tgt|Ally}}'s [[move type]]<br>on current team ≤ 2
+}}
+==Notes==
+{{Start of turn Special modification}}
+{{Bonuses|name=Ostia's Pulse II}}
+{{Tactic Passive notes|moveType=Armored|noBonus=1}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=オスティアの鼓動
+|german=Ositias Puls
+|spanishEU=Pulso de Ositia
+|spanishLA=Pulso de Ositia
+|french=Pouls d'Ositia
+|italian=Battito d'Ositia
+|chineseTW=奧斯提亞之躍動
+|portuguese=Pulso de Ositia
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%movement type%current team%≤ 2%' OR Description LIKE '%unit and allies%Special cooldown count%at its maximum%') AND Exclusive='1'}}
+* [[Pulse Passives]]
+* [[Tactic Passives]]
+{{Passives Navbox|C}}

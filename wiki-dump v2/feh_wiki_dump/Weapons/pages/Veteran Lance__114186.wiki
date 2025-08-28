@@ -1,0 +1,44 @@
+{{Weapon Infobox
+|tagid=SID_古強者の槍
+|weaponType=Lance
+|might=16
+|range=1
+|effect=If foe initiates combat or, at start of combat, if foe's HP ≥ 70%, grants Atk/Res+5 to unit during combat.
+|cost=400
+|exclusive=1
+|userVersion1=Weapon
+|userVersion2=Gleam
+|statModifiers=0,16,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=At start of turn, if any foe's Res ≤ unit's Res-3 and that foe is adjacent to another foe, inflicts Atk-7 on that foe through its next action.
+|iconSkill1=Sabotage Atk W.png
+|tagidExtraSkill1=混
+|properties=
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+* The skill refined version of Veteran Lance has the same effect as {{St|Sabotage Atk 3}}.
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Veteran Lance
+|japanese=古強者の槍
+|german=Veteranenlanze
+|spanishEU=Lanza veterano
+|spanishLA=Lanza veterano
+|french=Lance de vétéran
+|italian=Lancia vissuta
+|chineseTW=古強者之槍
+|portuguese=Lança veterana
+}}
+{{Weapons Navbox}}

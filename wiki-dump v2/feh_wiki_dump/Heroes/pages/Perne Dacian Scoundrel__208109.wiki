@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Perne}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Perne
+|Title=Dacian Scoundrel
+|WeaponType=Colorless Dagger
+|MoveType=Infantry
+|Origin=Fire Emblem: Thracia 776
+|Gender=Male
+|actorEN=Michael Schlotthauer
+|actorJP=岡本信彦
+|artist=otorihara
+|artist-extra=Trys Inc.
+|additionDate=January 9, 2024
+|releaseDate=January 11, 2024
+|cv1=4
+|cv2=5900100
+|TagID=パーン
+|InternalID=1050
+|Properties=limited,ghb
+|description=Leader of the Dandelion Bandits. Though he seems unfriendly, he doesn't believe in ending a life. Appears in Fire Emblem: Thracia 776.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=13|Lv1SPD=10|Lv1DEF=6|Lv1RES=6
+|GRHP=60|GRATK=70|GRSPD=80|GRDEF=65|GRRES=35
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Dagger
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Dagger
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Dagger
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Blade Royale
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Dragon Fang
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Null Follow-Up 1
+|passiveB2=Null Follow-Up 2
+|passiveB3=Null Follow-Up 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Spur Spd 1
+|passiveC2=Drive Spd 1
+|passiveC3=Drive Spd 2
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

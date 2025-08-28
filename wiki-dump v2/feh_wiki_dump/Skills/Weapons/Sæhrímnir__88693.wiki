@@ -1,0 +1,53 @@
+{{Weapon Infobox
+|tagid=SID_セーフリムニル
+|weaponType=Dagger
+|might=14
+|range=2
+|effectiveness=beast
+|effect=Effective against beast foes. Grants Atk+3. At start of combat, if unit's Res > foe's Res, reduces foe's Atk/Def by 50% of difference between stats during combat. (Calculates reduction before combat. Maximum penalty of -8.) After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions.
+|cost=400
+|exclusive=1
+|statModifiers=0,17,0,0,0
+|required=Silver Dagger
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Effective against beast foes. Grants Atk+3. At start of combat, if unit's Res > foe's Res, reduces foe's Atk/Spd/Def by 80% of difference between stats during combat. (Calculates reduction before combat. Maximum penalty of -8.) At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit during combat.<br>Effect:【Dagger ７】<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|tagidExtraSkill1=一
+|effectSkill1=If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+4 to unit during combat and the following effects will occur based on the value of unit's Res minus foe's Res: If ≥ 1, reduces damage from foe's first attack during combat by 30%. If ≥ 7, foe cannot make a follow-up attack.
+|iconSkill1=Saehrimnir W.png
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|beast}}
+{{At start of combat}}
+{{Combat reductions}}
+{{IfUnitAttacked}}
+{{Penalties}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Combat boosts}}
+{{UnitStatMinusFoeStat|stat=Res}}
+{{DamagePercentageReduction}}
+{{Prevent follow-up}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{NorseMyth|is a creature that is killed and eaten every night by the [[Wikipedia:Æsir|aesir]] and [[Wikipedia:einherjar|einherjar]].}}
+==In other languages==
+{{OtherLanguages
+|japanese=セーフリムニル
+|german=Sæhrímnir
+|spanishEU=Sæhrímnir
+|spanishLA=Sæhrímnir
+|french=Sæhrímnir
+|italian=Sæhrímnir
+|chineseTW=沙赫利姆尼爾
+|portuguese=Sæhrímnir
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%reduces foe\'s Atk/Spd/Def%difference between%' OR Description LIKE '%penalty on foe\'s Atk/Spd/Def%difference between%' OR Description LIKE '%unit is within _ spaces of an ally%reduces damage from foe\'s first attack%' OR Description LIKE '%unit is within _ spaces of an ally%cannot make a follow-up attack%'|columns=3}}
+* [[Sources of effective against beast foes]]
+{{Weapons Navbox}}

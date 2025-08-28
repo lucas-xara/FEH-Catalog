@@ -1,0 +1,59 @@
+{{Passive
+|name=Joint Drive Res
+|type=C
+|exclusive=0
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|intID=2196
+|sort=3230
+|effectRange=2
+|value=8
+|timingID=20
+|abilityID=143
+|randomTimestamp=2020-09-18T07:00:00Z
+|randomMinLv=36
+|properties=random_inherit_base,random_owner
+|1name=Joint Drive Res
+|1tagid=SID_魔防の相互大紋章
+|1effect=Grants Res+4 to allies within 2 spaces during combat. If unit is within 2 spaces of an ally, grants Res+4 to unit during combat.
+|1required=Drive Res 2
+|1cost=300
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary buffs|Res|4}}
+|Ce1T={{Tgt|Allies}}<br>[[within 2 spaces]]
+|Ce2={{Eft|Temporary buffs|Res|4}}
+|Ce2C={{Tgt|Unit}} is<br>[[within 2 spaces]]<br>of an {{Tgt|Ally}}
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{AlliesCombatEffect|effect=temporary buffs}}
+{{AlliesCombatEffect|effect=combat boost}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Joint Drive Res
+|japanese=魔防の相互大紋章
+|german=Nachbar-Res. ant.
+|spanishEU=Maximpulsar Res
+|spanishLA=Maximpulsar Res.
+|french=Entraide stim. Rés
+|italian=Tras. Res gruppo
+|chineseTW=魔防相互大紋章
+|portuguese=Res. omnimpulso
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%grants%Res+%to allies within _ spaces%is within _ space%grants%Res+%' OR Description LIKE '%is within _ space%grants%Res+%grants%Res+%to allies within _ spaces%') AND Exclusive='1'}}
+* [[Drive Passives]]
+* [[Joint Drive Passives]]
+{{Passives Navbox|C}}
+[[Category:Drive Passives]]
+[[Category:Joint Drive Passives]]
+[[Category:Spur Passives]]

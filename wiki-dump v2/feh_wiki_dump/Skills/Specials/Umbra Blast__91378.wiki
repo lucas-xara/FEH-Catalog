@@ -1,0 +1,43 @@
+{{Special
+|tagid=SID_影滅・初級
+|charge=9
+|effect=After combat, deals 5 damage to target and foes within 2 spaces of target and then unit and target foe swap spaces.
+|cost=0
+|exclusive=0
+|required=-
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=enemy_only,rokkr_aoe_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Damage|5}}
+|Me1T={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|Me2={{Eft|Swap Units}} 
+|Me2T={{Tgt|Unit}} '''&''' {{Tgt|Target Foe}}
+|MeC=Special triggers<br>after combat
+}}
+
+==Notes==
+{{Røkkr AoE Special notes}}
+==List of owners==
+* This is a [[Røkkr Sieges]] exclusive Special. It is exclusively equipped by Enemy Røkkrs in Røkkr Sieges.
+==Gallery==
+<gallery>
+File:Shadow v3.6 85 kakusei03.webp|Sprite sheet for [[:Category:Røkkr Sieges skills|Røkkr Sieges skills']] animations.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=影撃
+|german=Umbra-Schlag
+|spanishEU=Estallido sombrío
+|spanishLA=Estallido sombrío
+|french=Attaque sombre
+|italian=Scoppio notte
+|chineseTW=影擊
+|portuguese=Explosão umbra
+}}
+==See also==
+* [[Area-of-effect Specials]]
+* [[Røkkr Sieges skills]]
+{{Specials Navbox}}

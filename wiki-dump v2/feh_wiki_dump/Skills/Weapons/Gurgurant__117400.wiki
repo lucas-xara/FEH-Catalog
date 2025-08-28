@@ -1,0 +1,73 @@
+{{Weapon Infobox
+|tagid=SID_グルグラント
+|weaponType=Sword
+|might=16
+|range=1
+|effect=Neutralizes "effective against flying" bonuses. Grants Def+3. Inflicts Atk/Def-5 on foes within 2 spaces during combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,3,0
+|required=Silver Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Neutralizes "effective against flying" bonuses. Grants Def+3. Inflicts Atk/Def-5 on foes within 4 spaces of unit during combat, neutralizes those foe's bonuses to Atk/Def during combat, those foes cannot make a follow-up attack, and inflicts Special cooldown charge -1 on those foes per attack during combat (only highest value applied; does not stack).
+|effectSkill1=If foe initiates combat or foe's HP ≥ 75% at start of combat, inflicts Atk/Def-X on foe during combat (X = 15% of unit's Def at start of combat + 5) and reduces damage from attacks during combat by 30% (excluding area-of-effect Specials).
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Def|3}}
+|skill1 CombatEffect 1={{SkillEffectText|Neutralize Weakness|{{Mt|Flying}}}}
+|skill1 CombatEffect 2={{SkillEffectText|Temporary debuffs|Atk/Def|5}}
+|skill1 CombatEffect 2 Targets={{SkillTargetText|Foes}}<br>[[within 2 spaces]]
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Def|3}}
+|skill2 CombatEffect 1={{SkillEffectText|Neutralize Weakness|{{Mt|Flying}}}}
+|skill2 CombatEffect 2={{SkillEffectText|Temporary debuffs|Atk/Def|5}}
+|skill2 CombatEffect 3={{SkillEffectText|Neutralize Bonus|Atk/Def}}
+|skill2 CombatEffect 4={{SkillEffectText|Prevent Follow-Ups}}
+|skill2 CombatEffect 5={{SkillEffectText|Guard}}
+|skill2 CombatEffect 2-5 Targets={{SkillTargetText|Foes}}<br>[[within 4 spaces]]
+|skill3={{Si|Gurgurant|refine=Skill1}} Skill refine effects
+|skill3 CombatEffect 1={{SkillEffectText|Temporary debuffs|Atk/Def|15% of {{SkillTargetText|Unit}}'s Def<br>at start of combat}}
+|skill3 CombatEffect 2={{SkillEffectText|Damage Reduction|30%}}<br>from {{SkillTargetText|Foe}}'s attacks
+|skill3 CombatEffect Conditions=Enemy phase '''or'''<br>{{SkillTargetText|Foe}}'s HP ≥ 75%<br>at start of combat
+}}
+
+==Notes==
+* Gurgurant Has the same effect as {{St|Iote's Shield}}.
+{{Effectiveness neutralization|flying}}
+{{Temporary debuffs}}
+{{FoesCombatEffect|effect=temporary debuffs}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Bonus neutralization|name=refined Gurgurant}}
+{{Prevent follow-up|name=Refined Gurgurant}}
+{{CooldownChargeMinus|name=refined Gurgurant}}
+{{FoesCombatEffect|name=refined Gurgurant|effect=temporary debuffs, bonus neutralization, prevent follow-up and Special cooldown charge -1 effects}}
+{{IfFoeInitiates|name={{St|Gurgurant|refine=Skill1}}}}
+{{At start of combat|name={{St|Gurgurant|refine=Skill1}}}}
+{{DamagePercentageReduction|name={{St|Gurgurant|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Gurgurant
+|japanese=グルグラント
+|german=Gurgurant
+|spanishEU=Gurgurant
+|spanishLA=Gurgurant
+|french=Gurgurant
+|italian=Gurgurant
+|chineseTW=古魯格蘭特
+|portuguese=Gurgurant
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%Neutralizes "effective against flying%' AND WikiName!='Iotes Shield' OR (Description LIKE '%inflicts Atk/Def-%foes within _ spaces during combat%' OR Description LIKE '%of unit_s Def at start of combat%') AND Exclusive='1'}}
+* [[Rein Passives]]
+* [[Shield Passives]]
+{{Weapons Navbox}}

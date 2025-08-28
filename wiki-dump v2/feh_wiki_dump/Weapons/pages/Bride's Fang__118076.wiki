@@ -1,0 +1,114 @@
+{{Weapon Infobox
+|tagid=SID_狼花嫁の牙
+|weaponType=Beast
+|canUseMove=Infantry
+|might=14
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br>At start of combat, if foe's HP ≥ 75%, inflicts Atk/Spd/Def-5 on foe during combat, and if Special triggers before or during combat and unit attacked, grants Special cooldown count-1 after combat.<br><br>At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 and deals +10 damage when Special triggers.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,0,0,0
+|required=Adult (Infantry)
+|intID=2072
+|sort=399
+|value=20
+|timingID=15
+|abilityID=205
+|limit1ID=18
+|limit2ID=53
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1).<br>At start of turn, grants Special cooldown count-1. If unit initiates combat or if foe's HP ≥ 75% at start of combat, inflicts Atk/Spd/Def-5 on foe and reduces damage from foe's first attack by 40% during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and also, if Special triggers before or during combat, grants Special cooldown count-2 after combat. At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, deals +7 damage when Special triggers, and neutralizes effects that grant "Special cooldown charge +X" to foe or inflict "Special cooldown charge -X" on unit.
+|refineStatsSkill1=3,0,0,0,0
+|effectSkill1=Enables【Canto (Rem. +1)】while transformed.<br><br>At start of turn, if unit's transform conditions are met, grants "unit cannot be slowed by terrain (does not apply to impassable terrain)" to unit for 1 turn and unit can move 1 extra space (that turn only; does not stack). At start of combat, if unit's HP ≥ 25%, inflicts Atk/Spd/Def-4 on foe during combat, restores 7 HP to unit after combat, and also, when unit's Special triggers (excluding area-of-effect Specials), neutralizes foe's "reduces damage by X%" effects from foe's non-Special skills.<br><br>【Canto (Rem. +1)】<br>After an attack, Assist skill, or structure destruction, unit can move again.<br><br>The distance of the movement is the remaining movement the unit had before the actions listed above+1 (If unit used a movement skill that warps them, the remainder is 0).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe1={{Eft|Accelerates Special}}
+|s1 Pe2={{Eft|Stat Boosts|Atk|2}}
+|s1 Pe2C={{Tgt|Unit}} is transformed
+|s1 Me1={{Eft|Reduce Cooldown|1}}
+|s1 MeC1=After combat if<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|s1 Me2={{Eft|Transform}}
+|s1 MeC2=At start of turn if<br>{{Tgt|Unit}} is [[adjacent]] to only<br>{{Cwti|group=1|Beast,Dragon}} [[Dragon]]/[[Beast]]<br>{{Tgt|Allies}} '''or''' not [[adjacent]]<br>to any {{Tgt|Ally}}
+|s1 Ce1={{Eft|Temporary debuffs|Atk/Spd/Def|5}}
+|s1 CeT1={{Tgt|Foe}}
+|s1 CeC1={{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|s1 Ce2={{Eft|Damage Boost|10}} per<br>{{Tgt|Unit}}'s [[Area-of-effect Specials|AoE]] '''or''' [[offensive Special]]
+|s1 CeC2={{Tgt|Unit}} is transformed
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon|link=|alt=]] Refined weapon
+|s2 Pe1={{Eft|Accelerates Special}}
+|s2 Pe2={{Eft|Stat Boosts|Atk|2}}
+|s2 Pe2C={{Tgt|Unit}} is transformed
+|s2 Me1={{Eft|Reduce Cooldown|1}}
+|s2 MeC1=At start of turn
+|s2 Me2={{Eft|Reduce Cooldown|2}}
+|s2 MeC2=After combat in<br>Player Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|s2 Me3={{Eft|Transform}}
+|s2 MeC3=At start of turn if<br>{{Tgt|Unit}} is [[adjacent]] to only<br>{{Cwti|group=1|Beast,Dragon}} [[Dragon]]/[[Beast]]<br>{{Tgt|Allies}} '''or''' not [[adjacent]]<br>to any {{Tgt|Ally}}
+|s2 Ce1={{Eft|Temporary debuffs|Atk/Spd/Def|5}}
+|s2 CeT1={{Tgt|Foe}}
+|s2 Ce2={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|s2 CeT2={{Tgt|Unit}}
+|s2 CeC1-2=Player Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|s2 Ce3={{Eft|Neutralize Accelerate Charge}}
+|s2 CeT3={{Tgt|Foe}} <br>
+|s2 Ce4={{Eft|Neutralize Guard}}
+|s2 CeC3-5={{Tgt|Unit}} is transformed
+|s2 Ce5={{Eft|Damage Boost|7}}  per<br>{{Tgt|Unit}}'s [[Area-of-effect Specials|AoE]] '''or''' [[offensive Special]]
+|skill3={{Si|Bride's Fang|refine=Skill1}} Skill refine effects
+|s3 Me1={{Eft|Canto|Rem. +1}}
+|s3 MeC1={{Tgt|Unit}} is transformed
+|s3 Me2={{Eft|Heal|7}}
+|s3 MeC2=After combat if<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s3 Se1={{SEt|Traverse Terrain}}
+|s3 Se2={{SEt|Mobility increased}}
+|s3 SeC=At start of turn if<br>{{Tgt|Unit}} is transformed
+|s3 Ce1={{Eft|Temporary debuffs|Atk/Spd/Def|4}}
+|s3 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s3 Ce2={{Eft|Neutralize Damage Reduction}} per<br>{{Tgt|Unit}}'s [[offensive Special]]
+|s3 CeT={{Tgt|Foe}}
+}}
+
+==Notes==
+{{Temporary debuffs}}
+{{IfUnitAttacked}}
+{{Special Spiral notes}}
+{{Beast (Infantry)}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Start of turn Special modification|name=Refined Bride's Fang}}
+{{DamagePercentageReduction}}
+{{Beast (Infantry) Upgrade}}
+{{Canto|Rem. +1|name={{St|Bride's Fang|refine=Skill1}}}}
+{{Traverse Terrain|name={{St|Bride's Fang|refine=Skill1}}}}
+{{Mobility increased|name={{St|Bride's Fang|refine=Skill1}}}}
+{{After combat healing|name={{St|Bride's Fang|refine=Skill1}}}}
+{{DamageReductionNeutralization|name={{St|Bride's Fang|refine=Skill1}}}}
+{{IfUnitTransforms|{{Kp|Canto (Rem. +1)}}, {{SEt|Traverse Terrain}}, and {{SEt|Mobility Increased}} effects}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Bride's Fang
+|japanese=狼花嫁の牙
+|german=Brautzahn
+|spanishEU=Colmillo nupcial
+|spanishLA=Colmillo nupcial
+|french=Croc de mariée
+|italian=Zanna da sposa
+|chineseTW=狼新娘之牙
+|portuguese=Presa nupcial
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%grants special cooldown count%-_ after combat%' OR Description LIKE '%after combat%grants special cooldown count%-%' AND Description NOT LIKE '%At start of turn, if unit_s HP ≤ 75% and unit_s attack triggers Special%' OR Description LIKE '%unit cannot be slowed by terrain%') AND Exclusive='1'}}
+{{Weapons Navbox}}

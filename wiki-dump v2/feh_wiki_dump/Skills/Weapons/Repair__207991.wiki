@@ -1,0 +1,62 @@
+{{Weapon Infobox
+|tagid=SID_リペア
+|intID=3961
+|image=wep_rd062
+|exclusive=1
+|weaponType=Colorless Staff
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Calculates damage from staff like other weapons. Accelerates Special trigger (cooldown count-1; max cooldown count value cannot be reduced below 1). At start of turn, neutralizes any【Penalty】on unit and allies within 2 spaces of unit (excluding penalties inflicted at start of turn) and restores 20 HP to those units. Grants Atk/Spd/Def/Res+4 to allies within 2 spaces during combat. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit during combat and unit makes a guaranteed follow-up attack.<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|required=Assault
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerate Special}}<br>(can't reduce CD below 1)
+|Se=Removes {{Kp|Penalty}} effects
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=At start of turn
+|Me2={{Eft|Heal|20}}
+|MeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|MeC=At start of turn
+|Ce1={{Eft|Wrathful Staff}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|CeT2={{Tgt|Allies}}<br>[[within 2 spaces]]
+|Ce3={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce4={{Eft|Guaranteed Follow-Ups}}
+|CeT3-4={{Tgt|Unit}}
+|CeC3-4={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+* Repair has the same effect as {{St|Wrathful Staff 3}}.
+{{Wrathful Staff}}
+{{Penalty neutralization|negstatuses=all {{Kp|Penalty}} effects}}
+{{Start-of-turn healing|allies=1}}
+{{Temporary buffs}}
+{{AlliesCombatEffect}}
+{{Guaranteed follow-up interaction}}
+
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V8.1_v0801a_thrace_Rod.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=リペア
+|german=Linderung
+|spanishEU=Reparación
+|spanishLA=Reparación
+|french=Réparation
+|italian=Riparazione
+|chineseTW=修復
+|portuguese=Reparo
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%start of%turn%neutralize%【Penalty】%unit%' OR Description LIKE '%start of%turn%restores%unit and allies%' OR Description LIKE '%start of%turn%unit and allies%restores%') AND Description NOT LIKE '%restores _ HP to unit after combat%' AND Exclusive='1'}}
+* [[Skill families/C Passives#Recovery|Recovery Passives]]
+{{Weapons Navbox}}

@@ -1,0 +1,32 @@
+{{Captain Skill
+|name=Mass Confusion
+|effect=Grants Atk+5 to captain during combat. At start of turns 2-5, if any foe is adjacent to another foe, inflicts Atk/Def/Res-7 on that foe through its next action.
+|statModifiers=
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect={{SkillEffectText|Temporary buffs|Atk|5}}
+|CombatEffect Targets={{SkillTargetText|Captain}}
+|StatusEffect={{SkillEffectText|Penalties|Atk/Def/Res|7}}
+|StatusEffectTargets={{SkillTargetText|Foes}} [[adjacent]] to<br>another {{SkillTargetText|Foe}}
+|StatusEffect Conditions=At start of turns 2-5
+}}
+==Notes==
+{{Temporary buffs}}
+{{Penalties}}
+==In other languages==
+{{OtherLanguages
+|japanese=空花乱墜
+|german=Totale Verwirrung
+|spanishEU=Confusión grupal
+|spanishLA=Confusión grupal
+|french=Confusion totale
+|italian=Scompiglio
+|chineseTW=空花亂墜
+|portuguese=Confusão massiva
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%at start%foe is adjacent to another foe%inflicts%' AND WikiName NOT LIKE '%Sabotage%'}}
+* [[Sabotage Passives]]
+{{Captain Skills Navbox}}

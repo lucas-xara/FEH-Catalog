@@ -1,0 +1,36 @@
+{{Weapon Infobox
+|tagid=SID_聖夜のステッキ
+|intID=3391
+|image=wep_mg272
+|exclusive=0
+|weaponType=Green Tome
+|cost=200
+|might=8
+|range=2
+|effect=At start of combat, if unit's HP ≥ 25%, inflicts Atk/Res-5 on foe during combat and foe cannot make a follow-up attack.
+|statModifiers=0,8,0,0,0
+|required=Elwind
+|next=Peppy Cane+
+|promotionRarity=5
+|promotionTier=1
+|properties=
+}}
+==Notes==
+{{Temporary debuffs}}
+{{Prevent follow-up}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=聖夜のステッキ
+|german=Lebhafter Stab
+|spanishEU=Bastón alegre
+|spanishLA=Bastón alegre
+|french=Bâton animé
+|italian=Bastone vispo
+|chineseTW=聖夜之杖
+|portuguese=Cajado vivaz
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%inflicts Atk/Res-% during combat%foe cannot make a follow-up%' AND Exclusive='1'}}
+{{Weapons Navbox}}

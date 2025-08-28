@@ -1,0 +1,68 @@
+{{#invoke:NameAbout|main|Name=Death Knight}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Death Knight
+|Title=The Reaper
+|GrowthModifier=Gen 3
+|WeaponType=Blue Lance
+|Origin=Fire Emblem: Three Houses
+|Gender=Male
+|MoveType=Cavalry
+|actorJP=???
+|actorEN=???
+|artist=やまお
+|additionDate=August 6, 2019
+|releaseDate=August 12, 2019
+|TagID=死神騎士
+|InternalID=410
+|Properties=ghb,limited
+|cv1=12
+|cv2=900500
+|description=The Flame Emperor's subordinate, a knight who desires only to fight the strong. Given his name due to his scythe and dark steed. Appears in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=9|Lv1SPD=6|Lv1DEF=8|Lv1RES=5
+|GRHP=50|GRATK=60|GRSPD=45|GRDEF=50|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Lance
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Scythe of Sariel
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Rising Flame
+|special1Default=4
+|special1Unlock=3
+|special2=Blazing Flame
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Escape Route 1
+|passiveB2=Escape Route 2
+|passiveB3=Escape Route 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Close Guard 1
+|passiveC2=Close Guard 2
+|passiveC3=Close Guard 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

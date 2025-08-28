@@ -1,0 +1,40 @@
+{{Passive
+|type=A
+|name=Knightly Devotion
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Knightly Devotion
+|1tagid=SID_忠義の槍
+|1cost=300
+|1effect=Enables【Canto (Rem. +1)】.<br><br>If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+8 to unit and neutralizes unit's penalties during combat, and restores 7 HP to unit after combat.<br><br>【Canto (Rem. +1)】<br>After an attack, Assist skill, or structure destruction, unit can move again.<br><br>The distance of the movement is the remaining movement the unit had before the actions listed above+1 (If unit used a movement skill that warps them, the remainder is 0).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|1required=-
+}}
+==Notes==
+{{Canto|Rem. +1}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Penalty neutralization}}
+{{After combat healing}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=忠義の槍
+|german=Ritterlicher Eifer
+|spanishEU=Fervor caballero
+|spanishLA=Fervor caballero
+|french=Fidélité héroïque
+|italian=Dedizione cortese
+|chineseTW=忠義之槍
+|portuguese=Devoção heroica
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants Atk/Spd/Def/Res+%neutralizes unit_s penalties%' OR Description LIKE '%restores 7 HP%after combat%' AND Exclusive='1' AND Name NOT LIKE '%+'}}
+* [[Skill families/B Passives#Trace|Trace Passives]]
+{{Passives Navbox|A}}

@@ -1,0 +1,40 @@
+{{Weapon Infobox
+|tagid=SID_メロンフロート＋
+|weaponType=Green Tome
+|might=12
+|range=2
+|effect=During unit's first combat in player phase or enemy phase, grants Atk/Res+5 to unit and restores 7 HP to unit after combat.
+|cost=300
+|exclusive=0
+|statModifiers=0,12,0,0,0
+|required=Melon Float
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Notes==
+{{FirstCombat}}
+{{Temporary buffs}}
+{{After combat healing}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Melon Float+
+|japanese=メロンフロート＋
+|german=Melonendrink+
+|spanishEU=Sandía flotante +
+|spanishLA=Agua de melón +
+|french=Boisson melon +
+|italian=Melone a galla+
+|chineseTW=哈密瓜漂浮飲＋
+|portuguese=Refresco melão+
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%estores%HP after combat%' OR Description LIKE '%estores%HP to unit after combat%') AND WikiName NOT LIKE '%rabbit%' AND Exclusive='1'}}
+* [[Skill families/Weapons#Rabbit|Rabbit Weapons]]
+{{Weapons Navbox}}

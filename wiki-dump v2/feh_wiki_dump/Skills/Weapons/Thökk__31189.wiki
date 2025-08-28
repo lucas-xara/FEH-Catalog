@@ -1,0 +1,86 @@
+{{Weapon Infobox
+|tagid=SID_セック
+|weaponType=Staff
+|might=14
+|range=2
+|effect=Calculates damage from staff like other weapons.<br>At start of turn, if foe's HP ≤ unit's HP-3 and foe is in cardinal direction and uses bow, dagger, magic, or staff, foe cannot move more than 1 space through its action.
+|cost=400
+|exclusive=1
+|userVersion1=Weapon
+|userVersion2=Gleam
+|statModifiers=0,14,0,0,0
+|required=Assault
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Calculates damage from staff like other weapons.<br><br>At start of turn, inflicts Atk-7 and【Stall】on sword, lance, axe, dragonstone, and beast foes with HP < unit's HP in cardinal directions through their next actions.<br><br>At start of turn, inflicts Res-7 and【Gravity】<br>on bow, dagger, magic, and staff foes with HP < unit's HP in cardinal directions through their next actions.<br><br>【Stall】<br>If unit has "unit can move 1 extra space," converts that effect into "restricts movement to 1 space" through its next action.<br><br>【Gravity】<br>Restricts target's movement to 1 space through its next action.
+|tagidExtraSkill1=一
+|effectSkill1=At start of turn, inflicts【Guard】on foes on the enemy team with the lowest Spd and any foes within 1 space of those foes. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+4 during combat.<br><br>【Guard】<br>Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)
+|iconSkill1=Thokk W.png
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Se={{SEt|Gravity}}
+|s1 SeT=Range = 2<br>{{Tgt|Foes}} within<br>[[cardinal directions]]
+|s1 SeC=At start of turn<br>if {{Tgt|Unit}}'s HP<br>≥ {{Tgt|Foe}}'s HP+3
+|s1 Ce={{Eft|Wrathful Staff}}
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Se1={{Eft|Penalties|Atk|7}}
+|s2 Se2={{SEt|Stall}}
+|s2 SeT1-2=Range = 1<br>{{Tgt|Foes}} within<br>[[cardinal directions]]
+|s2 Se3={{Eft|Penalties|Res|7}}
+|s2 Se4={{SEt|Gravity}}
+|s2 SeT3-4=Range = 2<br>{{Tgt|Foes}} within<br>[[cardinal directions]]
+|s2 SeC1-4=At start of turn<br>if {{Tgt|Unit}}'s HP<br>> {{Tgt|Foe}}'s HP
+|s2 Ce={{Eft|Wrathful Staff}}
+|skill3={{Si|Thökk|refine=Skill1}} Skill refine effects
+|s3 Se={{SEt|Guard}}
+|s3 SeT={{Tgt|Foes}} with the<br>lowest Spd '''&'''<br>{{Tgt|Foes}} [[adjacent]]<br>to those {{Tgt|Foes}}
+|s3 SeC=At start of turn
+|s3 Ce={{Eft|Temporary buffs|Atk/Spd|4}}
+|s3 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+* Thökk has the same effect as {{St|Wrathful Staff 3}}.
+{{Wrathful Staff}}
+{{CardinalDirections}}
+{{Gravity}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Penalties|name=Refined Thökk}}
+{{Stall|name=Refined Thökk}}
+{{Penalties|name=Refined Thökk}}
+{{SelectStat|Spd|lowest=1}}
+{{Guard|name={{St|Thökk|refine=Skill1}}}}
+{{Temporary buffs|name={{St|Thökk|refine=Skill1}}}}
+
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+v2.0_41_muspell01_Rod.png|Sprite for {{PAGENAME}}'s animation.
+</gallery>
+==Trivia==
+{{NorseMyth|name=Þökk|was a female giant who refused to cry at Baldr's funeral, thus preventing his revival and dooming him to Helheim. Afterwards, the mourners reasoned that Thökk was actually Loki in disguise.}}
+* Prior to October 26th, 2018, [[Thökk Skill Description Correction (Notification)|Thökk's description]] was inconsistent with its in-game effect.
+==In other languages==
+{{OtherLanguages
+|japanese=セック
+|german=Thökk
+|spanishEU=Thökk
+|spanishLA=Thökk
+|french=Thökk
+|italian=Thökk
+|chineseTW=索克
+|portuguese=Thökk
+}}
+==See also==
+{{See also skills|cond=WikiName LIKE '%thökk%' OR (Description LIKE '%start of turn%foe%cardinal directions%inflicts%' or Description LIKE '%start of turn%inflicts%cardinal directions%') AND Exclusive='1'}}
+* [[Skill_families/C Passives#Ploy|Ploy Passives]]
+{{Weapons Navbox}}

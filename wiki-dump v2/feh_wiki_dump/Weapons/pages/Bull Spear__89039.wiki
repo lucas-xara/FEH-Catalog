@@ -1,0 +1,49 @@
+{{Weapon Infobox
+|tagid=SID_若き猛牛の槍
+|weaponType=Lance
+|might=16
+|range=1
+|effect=If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=-
+|userVersion1=Weapon
+|userVersion2=Gleam
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If cavalry allies within 2 spaces use sword, lance, or axe and foe initiates combat, unit attacks twice.
+|iconSkill1=Def Side Consecutive Atk RG W.png
+|tagidExtraSkill1=連
+|properties=
+}}
+==Notes==
+* Has the same effect as {{St|Triangle Adept 3}}.
+{{WTA boost}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfFoeInitiates}}
+{{Brave weapon interaction}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|防御側連撃R赤緑|Defense Side Consecutive Attacks R Red Green}}
+==In other languages==
+{{OtherLanguages
+|japanese=若き猛牛の槍
+|german=Stierspeer
+|spanishEU=Lanza del Toro
+|spanishLA=Lanza del Toro
+|french=Lance de la voix
+|italian=Lancia taurina
+|chineseTW=年少猛牛之槍
+|portuguese=Lança touro
+}}
+==See also==
+* [[Gem Weapons]]
+{{Weapons Navbox}}
+[[Category:Gem weapons]]

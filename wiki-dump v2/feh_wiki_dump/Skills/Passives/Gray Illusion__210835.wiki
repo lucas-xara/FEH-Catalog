@@ -1,0 +1,52 @@
+{{Passive
+|name=Gray Illusion
+|type=A
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Gray Illusion
+|1tagid=SID_鈍色の迷夢
+|1effect=If unit initiates combat or foe's HP ≥ 75% at start of combat, grants Atk/Def/Res+9 to unit during combat, and if unit's Res > foe's Res, foe cannot counterattack. If unit initiates combat, after combat, inflicts the following status on foes with the highest Spd within 3 spaces of target foe (excluding target) through their next actions: "after start-of-turn skills trigger, action ends immediately" (for foes who have not yet taken an action in Summoner Duels, instead of inflicting this effect, ends their action immediately).
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{SkillEffectText|Temporary buffs|Atk/Def/Res|9}}
+|CombatEffect 1 Conditions=Player Phase '''or'''<br>{{SkillTargetText|Foe}}'s HP ≥ 75%<br>at start of combat
+|CombatEffect 2={{SkillEffectText|Prevent Counter}}
+|CombatEffect 2 Targets={{SkillTargetText|Foe}}
+|CombatEffect 2 Conditions=(Player Phase '''or'''<br>{{SkillTargetText|Foe}}'s HP ≥ 75%<br>at start of combat)<br>'''&''' {{SkillTargetText|Unit}}'s Res ><br>{{SkillTargetText|Foe}}'s Res
+|StatusEffect=<span style="width:11em;display:inline-block"/>{{SEt|After Start-of-Turn Skills Trigger, Action Ends Immediately}}
+|StatusEffect Targets={{SkillTargetText|Foe}} with<br>the highest Spd<br>[[within 3 spaces]]<br>of {{SkillTargetText|Target Foe}}
+|StatusEffect Conditions=After combat in<br>Player Phase<br>outside of<br>[[Summoner Duels]]
+|MapEffect={{SkillEffectText|End Action}}
+|MapEffect Targets={{SkillTargetText|Foe}} with<br>the highest Spd<br>[[within 3 spaces]]<br>of {{SkillTargetText|Target Foe}}
+|MapEffect Conditions=After combat in<br>Player Phase of<br>[[Summoner Duels]]
+}}
+
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Prevent counterattacks}}
+{{Ends Action}}
+{{EndAction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=鈍色の迷夢
+|german=Graue Illusion
+|spanishEU=Ilusión gris
+|spanishLA=Ilusión gris
+|french=Illusion grise
+|italian=Grigia illusione
+|chineseTW=深灰色的迷夢
+|portuguese=Ilusão cinza
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%action ends immediately%' OR Description LIKE '%actions end immediately%'}}
+* [[Safety Fence (O)]]
+* [[Hex Trap]]
+{{Passives Navbox|A}}

@@ -1,0 +1,52 @@
+{{Passive
+|name=Squad Ace AP
+|type=S
+|exclusive=0
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|properties=
+|1name=Squad Ace AP 1
+|alt1name=Squad Ace AF 1
+|1tagid=SID_第42迷宮の覇者1
+|1effect=Grants HP+3, Spd+1.
+|1required=-
+|1cost=100
+|statModifiers1=3,0,1,0,0
+|intID1=2381
+|2name=Squad Ace AP 2
+|alt2name=Squad Ace AF 2
+|2tagid=SID_第42迷宮の覇者2
+|2effect=Grants HP+4, Spd+2.
+|2required=Squad Ace AP 1
+|2cost=200
+|statModifiers2=4,0,2,0,0
+|intID2=2382
+}}
+==Seal acquired from==
+===Squad Assault reward===
+* Complete the [[42nd Assault]].
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Squad Ace AP 1;Squad Ace AP 2
+|badgeColor=Azure
+|costs1=-
+|costs2=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=第４２迷宮の覇者
+|german=Überfall-Ass AP
+|spanishEU=As del asalto AP
+|spanishLA=As del asalto AP
+|french=Assaut réussi AP
+|italian=Asso sq. AP
+|chineseTW=第４２迷宮的霸王
+|portuguese=Esquadrão ás AP
+}}
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}
+[[Category:Squad Ace Seals]]

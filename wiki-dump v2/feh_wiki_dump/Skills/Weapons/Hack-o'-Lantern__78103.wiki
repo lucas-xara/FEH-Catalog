@@ -1,0 +1,33 @@
+{{Weapon Infobox
+|tagid=SID_カボチャの斧
+|weaponType=Axe
+|might=10
+|range=1
+|effect=Inflicts Special cooldown charge -1 on foe per attack during combat. (Only highest value applied. Does not stack.)
+|cost=200
+|exclusive=0
+|statModifiers=0,10,0,0,0
+|next=Hack-o'-Lantern+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Axe
+|properties=
+}}
+==Notes==
+{{CooldownChargeMinus}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=カボチャの斧
+|german=Kürbisaxt
+|spanishEU=Hacha calabaza
+|spanishLA=Hacha calabaza
+|french=Hache-loween
+|italian=Ascia zucca
+|chineseTW=南瓜斧
+|portuguese=Racha abóbora
+}}
+==See also==
+* [[Guard Sword]]
+{{Weapons Navbox}}

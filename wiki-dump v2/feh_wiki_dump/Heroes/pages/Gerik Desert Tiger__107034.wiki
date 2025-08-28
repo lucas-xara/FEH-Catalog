@@ -1,0 +1,82 @@
+{{#invoke:NameAbout|main|Name=Gerik}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Gerik
+|Title=Desert Tiger
+|WeaponType=Green Axe
+|Origin=Fire Emblem: The Sacred Stones
+|Gender=Male
+|MoveType=Infantry
+|actorJP=津田健次郎
+|actorEN=Nathaniel Lane
+|artist=スエカネクミコ
+|additionDate=November 6, 2019
+|releaseDate=November 7, 2019
+|randomStartTime=2019-12-07T07:00:00Z
+|TagID=ジスト
+|InternalID=442
+|Properties=specRate_202208
+|cv1=7
+|cv2=401000
+|description=A veteran soldier who leads his own mercenary band, Gerik's Mercenaries. He's the commander of Tethys, Ewan, Marisa, and others. Appears in Fire Emblem: The Sacred Stones.
+|poolDate=November 28, 2019
+|poolRarities=5
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=11|Lv1SPD=10|Lv1DEF=8|Lv1RES=3
+|GRHP=65|GRATK=60|GRSPD=60|GRDEF=50|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Firesweep Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Firesweep Axe+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Desert-Tiger Axe
+|weapon5Default=
+|weapon5Unlock=5
+}}
+===Assists===
+{{Assists Table
+}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Moonbow
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Darting Blow 1
+|passiveA2=Darting Blow 2
+|passiveA3=Darting Blow 3
+|passiveA4=Darting Blow 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Sudden Panic 1
+|passiveB2=Sudden Panic 2
+|passiveB3=Sudden Panic 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Infantry Pulse 1
+|passiveC2=Infantry Pulse 2
+|passiveC3=Infantry Pulse 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

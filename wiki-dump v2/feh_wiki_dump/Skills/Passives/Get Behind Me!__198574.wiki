@@ -1,0 +1,35 @@
+{{Passive
+|name=Get Behind Me!
+|type=B
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Get Behind Me!
+|alt1name=Get Behind Me
+|1tagid=SID_僕が守ります！
+|1effect=If unit initiates combat or is within 2 spaces of an ally, inflicts Spd/Def-5 on foe, inflicts penalty on foe's Def = 30% of foe's Def at start of combat, and neutralizes effects that inflict "Special cooldown charge -X" on unit during combat.
+|1cost=300
+|1required=-
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary debuffs}}
+{{At start of combat}}
+{{CooldownChargeMinusNeutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=僕が守ります！
+|german=Ich schütze dich!
+|spanishEU=Protector
+|spanishLA=Protector
+|french=Grand protecteur
+|italian=Vi proteggo io
+|chineseTW=由我守護！
+|portuguese=Atrás de mim!
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%inflicts penalty on foe_s %Def%=%of foe_s%at start of combat%' AND Description NOT LIKE '%【Panic】%'}}
+{{Passives Navbox|B}}

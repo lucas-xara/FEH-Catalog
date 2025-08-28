@@ -1,0 +1,36 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_幼獣の化身・騎馬
+|weaponType=Beast
+|might=4
+|range=1
+|effect=At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack.
+|cost=50
+|next=Yearling (Cavalry)
+|promotionRarity=3
+|promotionTier=1
+|required=-
+|exclusive=0
+|canUseMove=Cavalry
+|statModifiers=0,4,0,0,0
+|properties=random_all
+}}
+==Notes==
+{{Beast (Cavalry)}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=幼獣の化身・騎馬
+|german=Welpe (Reiter)
+|spanishEU=Cachorro veloz
+|spanishLA=Cachorro veloz
+|french=Bébé (cavalerie)
+|italian=Cucciolo (fantino)
+|chineseTW=幼獸化身・騎馬
+|portuguese=Filhote (caval.)
+}}
+==See also==
+{{See also skills|cond=Next LIKE 'Yearling%' OR Next='Fledgling Flier'}}
+{{Weapons Navbox}}

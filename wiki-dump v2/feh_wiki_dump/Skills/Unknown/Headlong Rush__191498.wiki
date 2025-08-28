@@ -1,0 +1,30 @@
+{{Captain Skill
+|name=Headlong Rush
+|effect=At the start of turns 2 through 5, grants 【Charge】and【Canto (１)】to captain for 1 turn.<br><br>【Charge】<br>Unit can move up to 3 spaces in any cardinal direction. (Cannot move through foes, terrain that blocks movement, or effects of skills like Obstruct. Granted movement treated as Warp movement.)<br><br>【Canto (１)】<br>After an attack, Assist skill, or structure destruction, unit can move １ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|statModifiers=
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|StatusEffect 1={{SEt|Charge}}
+|StatusEffect 2={{SEt|Canto (1)}}
+|StatusEffect Targets={{SkillTargetText|Captain}}
+|StatusEffect Conditions=At start of turns 2-5
+}}
+==Notes==
+{{Charge}}
+{{Canto|1|statusEffect=1}}
+==In other languages==
+{{OtherLanguages
+|japanese=猪突猛進
+|german=Wilder Ritt
+|spanishEU=Irrefrenable
+|spanishLA=Irrefrenable
+|french=Course hâtive
+|italian=Corsa temeraria
+|chineseTW=橫衝直撞
+|portuguese=Irrefreável
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【Charge】%' OR Description LIKE '%at start of turn%grants%【Canto (１)】%for 1 turn%'}}
+{{Captain Skills Navbox}}

@@ -1,0 +1,47 @@
+{{Weapon Infobox
+|tagid=SID_ルーンアクス
+|weaponType=Axe
+|might=16
+|range=1
+|effect=When unit deals damage to foe during combat, restores 7 HP to unit. (Triggers even if 0 damage is dealt.)
+|cost=400
+|exclusive=1
+|userVersion1=Weapon
+|userVersion2=Gleam
+|statModifiers=0,16,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If【Penalty】is active on foe, grants Atk/Spd/Def/Res+4 to unit during combat.<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|iconSkill1=Combat Bonuses Enemy Penalty W.png
+|tagidExtraSkill1=強
+|properties=
+}}
+==Notes==
+{{CombatHPRecovery}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Combat boosts}}
+{{EffectfromPenalty|target=foe|temporary buff effect}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|戦闘強化R敵被弱化|Combat Bonuses R Enemy Penalty}}
+==In other languages==
+{{OtherLanguages
+|english=Runeaxe
+|japanese=ルーンアクス
+|german=Runenaxt
+|spanishEU=Hacha rúnica
+|spanishLA=Hacha rúnica
+|french=Hache runique
+|italian=Ascia delle rune
+|chineseTW=符文之斧
+|portuguese=Machado rúnico
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%unit deals damage to foe during combat, restores%HP to unit%' OR Description LIKE '%if%【Penalty】%active on foe%Atk/Spd/Def/Res+%during combat%') AND Exclusive='1'}}
+{{Weapons Navbox}}

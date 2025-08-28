@@ -1,0 +1,52 @@
+{{Passive
+|name=Close Ward
+|type=A
+|exclusive=0
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|Ranged}}
+|intID=2368
+|sort=7003
+|value=8
+|timingID=1
+|abilityID=129
+|limit1ID=2
+|limit2ID=9
+|randomTimestamp=2021-02-01T07:00:00Z
+|randomMinLv=36
+|properties=random_owner
+|1name=Close Ward
+|1tagid=SID_明鏡の反撃・近距離
+|1effect=If magic, staff, or dragonstone foe initiates combat, unit can counterattack regardless of foe's range, disables foe's skills that "calculate damage using the lower of foe's Def or Res," and grants Atk/Res+5 to unit during combat.
+|1required=-
+|1cost=300
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{LowerDefRes}}
+{{Temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=明鏡の反撃・近距離
+|japaneseNotes=''Warding Counter, Close Range''
+|german=Nahbann
+|spanishEU=Pugna guardiana
+|spanishLA=Pugna protectora
+|french=Gardien proche
+|italian=Scudo vicino
+|chineseTW=明鏡反擊・近距離
+|portuguese=Zelo de perto
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%counterattack regardless of%range%' AND SCategory!='Weapon') AND ((Exclusive='1' AND Name NOT LIKE '%+') OR SCategory='captain')}}
+* [[Counter Passives]]
+* [[Counter Seals]]
+* [[Prime Passives]]
+* [[Weapons with Distant Counter]]
+* [[Weapons with Close Counter]]
+{{Passives Navbox|A}}

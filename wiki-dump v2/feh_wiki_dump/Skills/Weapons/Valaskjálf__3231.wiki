@@ -1,0 +1,47 @@
+{{Weapon Infobox
+|tagid=SID_ヴラスキャルヴ
+|weaponType=Blue Tome
+|might=14
+|range=2
+|effect=If unit's HP ≤ 50% and foe initiates combat, unit can counterattack before foe's first attack.
+|cost=400
+|exclusive=1
+|userVersion1=Closed
+|userVersion2=Open
+|statModifiers=0,14,0,0,0
+|required=Thoron
+|SE=se_effect_ice.flac
+|properties=enemy_only
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce={{Eft|Vantage}}
+|CeC=Enemy Phase '''&'''<br>{{Tgt|Unit}}'s HP ≤ 50%
+}}
+==Notes==
+* Valaskjálf has the same effect as {{St|Vantage 2}}.
+{{Preempt}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+Valaskjalf_Cover.png
+Valaskjalf_Inside.png
+</gallery>
+==Trivia==
+{{NorseMyth|("the Shelf of the Slain") is one of Odin's Halls, a great dwelling built and roofed with pure silver. In this room is a high seat, [[Wikipedia:Hliðskjálf|Hliðskjálf]], where Odin can watch over the entire universe. To put it simply, it is Odin's throne room.}}
+** In the context of {{FE|H}} this corresponds with {{St|Hliðskjálf}}, the staff used by {{Ut|Veronica: Brave Princess}}.
+==In other languages==
+{{OtherLanguages
+|japanese=ヴラスキャルヴ
+|german=Valaskjálf
+|spanishEU=Valaskjálf
+|spanishLA=Valaskjálf
+|french=Valaskjálf
+|italian=Valaskjálf
+|chineseTW=瓦拉斯卡夫
+|portuguese=Valaskjálf
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%unit can counterattack before foe_s first attack%' OR Name LIKE'%Valaskjálf%') AND (Exclusive=1 AND Name NOT LIKE '%+' AND Properties HOLDS NOT 'arcane')}}
+{{Weapons Navbox}}

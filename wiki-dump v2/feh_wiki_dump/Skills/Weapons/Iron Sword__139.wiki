@@ -1,0 +1,32 @@
+{{Weapon Infobox
+|tagid=SID_鉄の剣
+|weaponType=Sword
+|might=6
+|range=1
+|cost=50
+|statModifiers=0,6,0,0,0
+|exclusive=0
+|next=Steel Sword
+|promotionRarity=3
+|promotionTier=1
+|required=-
+|properties=random_all
+}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==In other languages==
+{{OtherLanguages
+|japanese=鉄の剣
+|german=Eisenschwert
+|spanishEU=Espada hierro
+|spanishLA=Espada hierro
+|french=Épée fer
+|italian=Spada ferro
+|chineseTW=鐵劍
+|portuguese=Espada de ferro
+}}
+==See also==
+* [[Iron Weapons]]
+{{Weapons Navbox}}
+[[Category:Iron weapons]]

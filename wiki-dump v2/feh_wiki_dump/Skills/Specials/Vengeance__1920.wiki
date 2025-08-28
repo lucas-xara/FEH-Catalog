@@ -1,0 +1,29 @@
+{{Special
+|tagid=SID_復讐
+|charge=3
+|effect=Boosts damage by 50% of damage dealt to unit.
+|cost=200
+|required=Retribution
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_all,offensive_special
+}}
+==Notes==
+* Vengeance boosts damage by 50% of ''missing HP at the moment of activation'', not actual damage suffered.
+{{DamageBoost}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=復讐
+|german=Vergeltung
+|spanishEU=Venganza
+|spanishLA=Venganza
+|french=Vengeance
+|italian=Taglione
+|chineseTW=復仇
+|portuguese=Vingança
+}}
+{{Specials Navbox}}

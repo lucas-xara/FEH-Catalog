@@ -1,0 +1,40 @@
+{{Weapon Infobox
+|tagid=SID_透魔竜の力
+|intID=3065
+|image=wep_ac052
+|exclusive=1
+|weaponType=Dragonstone
+|cost=400
+|might=16
+|range=1
+|effect=Grants Spd+3. Unit can move to a space within 2 spaces of support partner. At start of turn, if unit is within 3 spaces of support partner, grants【Null Follow-Up】to unit and that ally for 1 turn. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 during combat. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.<br><br>【Null Follow-Up】<br>If unit's Spd > foe's Spd during combat, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks for 1 turn.
+|statModifiers=0,16,3,0,0
+|required=Water Breath
+|properties=random_owner
+}}
+==Notes==
+{{Warp interaction}}
+{{Null Follow-Up}}
+{{SupportPartner|effect=warping and {{SEt|Null Follow-Up}} to unit and support partner effects}}
+{{Combat boosts}}
+{{LowerDefRes}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V6.5_v0605a_dark_Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=透魔竜の力
+|german=Stille Macht
+|spanishEU=Poder silente
+|spanishLA=Poder silente
+|french=Force du néant
+|italian=Potere silente
+|chineseTW=透魔龍之力
+|portuguese=Poder silencioso
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%support partner%' OR Description LIKE '%Unit can move to a space within 2 spaces of%' OR Description LIKE '%【Null Follow-Up】%'|columns=3}}
+{{Weapons Navbox}}

@@ -1,0 +1,74 @@
+{{#invoke:NameAbout|main|Name=Mustafa}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Mustafa
+|Title=Plegian Champion
+|WeaponType=Green Axe
+|Origin=Fire Emblem Awakening
+|Gender=Male
+|MoveType=Infantry
+|actorJP=浜田賢二
+|actorEN=TJ Storm
+|artist=草木原俊行
+|additionDate=June 5, 2020
+|releaseDate=June 5, 2020
+|randomStartTime=2020-07-05T07:00:00Z
+|poolDate=June 30, 2020
+|poolRarities=3,4
+|TagID=ムスタファー
+|cv1=10
+|cv2=400800
+|InternalID=528
+|Properties=
+|description=General of Plegia. He is endlessly loyal to his king, but he is a military man who prefers a fair fight to besting his foes through trickery. Appears in Fire Emblem Awakening.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=10|Lv1SPD=6|Lv1DEF=10|Lv1RES=6
+|GRHP=60|GRATK=65|GRSPD=45|GRDEF=60|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Barrier Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Barrier Axe+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Plegian War Axe
+|weapon5Default=
+|weapon5Unlock=5
+}}
+===Assists===
+{{Assists Table
+}}
+===Specials===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=4
+|special1Unlock=3
+|special2=Bonfire
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Water Boost 1
+|passiveA2=Water Boost 2
+|passiveA3=Water Boost 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Def Tactic 1
+|passiveC2=Def Tactic 2
+|passiveC3=Def Tactic 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

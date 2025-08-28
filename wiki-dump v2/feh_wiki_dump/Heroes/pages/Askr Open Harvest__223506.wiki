@@ -1,0 +1,71 @@
+{{#invoke:NameAbout|main|Name=Askr}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Askr
+|Title=Open Harvest
+|WeaponType=Colorless Beast
+|MoveType=Infantry
+|Origin=Fire Emblem Heroes
+|Gender=Male
+|actorEN=Dustin Rubin
+|actorJP=黒田崇矢
+|artist=西木あれく
+|additionDate=October 3, 2024
+|releaseDate=October 4, 2024
+|cv1=0
+|cv2=600100
+|TagID=ハロアスク
+|InternalID=1152
+|Properties=special
+|description=The god of openness from which the kingdom of Askr's name originates. He enjoys the harvest festival to its fullest.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=15|Lv1SPD=3|Lv1DEF=9|Lv1RES=12
+|GRHP=55|GRATK=75|GRSPD=30|GRDEF=90|GRRES=75
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Whelp (Infantry)
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Yearling (Infantry)
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Adult (Infantry)
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Horn of Harvest
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=4
+|special1Unlock=3
+|special2=Ignis
+|special2Unlock=4
+|special3=Sturdy Beast
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Distant Counter
+|passiveA2=D Bonus Doubler
+|passiveA1Unlock=4
+|passiveA2Unlock=5
+|passiveB1=Guard 1
+|passiveB2=Guard 2
+|passiveB3=Guard 3
+|passiveB4=Reopening
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Connected World
+|passiveC1Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Halloween units]]

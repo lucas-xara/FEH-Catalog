@@ -1,0 +1,103 @@
+{{Weapon Infobox
+|tagid=SID_賀正の妖狐王の爪牙
+|weaponType=Beast
+|canUseMove=Cavalry
+|might=14
+|range=1
+|effect=Grants Spd+3. At start of combat, if foe's HP ≥ 75%, grants Spd+5 to unit, inflicts Spd-5 on foe during combat, and then, if unit's Spd > foe's Spd, deals damage = 70% of difference between stats. (Maximum bonus of +7 damage. Combos with Phantom Spd.)<br><br>At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and also, if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,3,0,0
+|required=Adult (Cavalry)
+|intID=2366
+|sort=485
+|value=20
+|timingID=21
+|abilityID=101
+|limit1ID=53
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Spd+3.<br><br>If unit is transformed or if foe's HP ≥ 75% at start of combat, grants Atk/Spd+5 to unit, inflicts Atk/Spd-5 on foe, deals damage = 20% of unit's Spd (including area-of-effect Specials), neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks, and neutralizes unit's penalties to Atk/Spd during combat.<br><br>At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, inflicts Atk/Def-X on foe during combat (X = number of spaces from start position to end position of whoever initiated combat + 3; max 6), and also, if X ≥ 5, reduces damage from foe's first attack by 30% during combat.
+|effectSkill1=For allies within 3 spaces of unit, grants bonus to ally's Atk/Spd/Def/Res = current bonus on each of unit's stats (calculates each value independently) and ally deals damage = 50% of total bonuses on unit during combat (excluding area-of-effect Specials).<br><br>If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit, reduces damage from foe's first attack by 20% of unit's Spd ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and grants Special cooldown charge +1 to unit per attack during combat (only highest value applied; does not stack).
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe1={{Eft|Stat Boosts|Spd|3}}
+|s1 Pe2={{Eft|Stat Boosts|Atk|2}}
+|s1 PeC2={{Tgt|Unit}} is transformed
+|s1 Me={{Eft|Transform}}
+|s1 MeC=At start of turn if<br>{{Tgt|Unit}} is [[adjacent]] to only<br>{{Cwti|group=1|Dragon,Beast}} [[Dragon]]/[[Beast]]<br>{{Tgt|Allies}} '''or''' not [[adjacent]]<br>to any {{Tgt|Ally}}
+|s1 Ce1={{Eft|Temporary buffs|Spd|5}}
+|s1 Ce2={{Eft|Temporary debuffs|Spd|5}}
+|s1 Ce2T={{Tgt|Foe}}
+|s1 Ce1-2C={{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|s1 Ce3={{Eft|Damage Boost|70% of ({{Tgt|Unit}}'s Spd<br>- {{Tgt|Foe}}'s Spd)|max=7}}
+|s1 Ce3C={{Eft|Temporary buffs|Spd|5}} conditions '''&'''<br>{{Tgt|Unit}}'s Spd<br>> {{Tgt|Foe}}'s Spd
+|s1 Ce4={{Eft|Temporary debuffs|Atk/Def|4}}
+|s1 Ce5={{Eft|Prevent Follow-Ups}}
+|s1 Ce4-5T={{Tgt|Foe}}
+|s1 Ce4-5C=Player Phase '''&'''<br>{{Tgt|Unit}} is transformed
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe1={{Eft|Stat Boosts|Spd|3}}
+|s2 Pe2={{Eft|Stat Boosts|Atk|2}}
+|s2 PeC2={{Tgt|Unit}} is transformed
+|s2 Me={{Eft|Transform}}
+|s2 MeC=At start of turn if<br>{{Tgt|Unit}} is [[adjacent]] to only<br>{{Cwti|group=1|Dragon,Beast}} [[Dragon]]/[[Beast]]<br>{{Tgt|Allies}} '''or''' not [[adjacent]]<br>to any {{Tgt|Ally}}
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd|5}}
+|s2 Ce2={{Eft|Neutralize Penalties|Atk/Spd}}
+|s2 Ce3={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}<br>before '''&''' during combat
+|s2 Ce4={{Eft|Temporary debuffs|Atk/Spd|5}}
+|s2 Ce5={{Eft|Neutralize Guaranteed Follow-Ups}}
+|s2 Ce4-5T={{Tgt|Foe}}
+|s2 Ce6={{Eft|Neutralize Prevent Follow-Ups}}
+|s2 Ce1-6C={{Tgt|Unit}} is transformed<br>'''or''' {{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|s2 Ce7={{Eft|Temporary debuffs|Atk/Def|Spaces initiator moved + 3|max=6}}
+|s2 Ce7T={{Tgt|Foe}}
+|s2 Ce7C={{Tgt|Unit}} is transformed
+|s2 Ce8={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s first attack
+|s2 Ce8T={{Tgt|Unit}}
+|s2 Ce8C={{Tgt|Unit}} is transformed '''&'''<br>Spaces initiator moved ≥ 2
+|skill3={{Si|Refreshed Fang|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|{{SEt|Bonuses}} on each of<br>{{Tgt|Unit}}'s stats}}
+|s3 Ce2={{Eft|Damage Boost|50% of total {{SEt|Bonuses}}<br>on {{Tgt|Unit}}}}
+|s3 Ce1-2T={{Tgt|Allies}}<br>[[within 3 spaces]]
+|s3 Ce3={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s3 Ce4={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Spd}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|s3 Ce5={{Eft|Accelerate Charge}}
+|s3 Ce3-5C=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+}}
+==Notes==
+{{Temporary buffs}}
+{{Temporary debuffs}}
+{{BonusStatDamage|stat=Spd}}
+{{Beast (Cavalry)}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Penalty neutralization|name=Refined Refreshed Fang}}
+{{Follow-up effect neutralization|name=Refined Refreshed Fang}}
+{{Beast (Cavalry) Upgrade}}
+{{TemporaryBufffromBonus|name={{St|Refreshed Fang|refine=Skill1}}}}
+{{EffectfromBonuses|damage boost|name={{St|Refreshed Fang|refine=Skill1}}}}
+{{FlatDamageReduction|name={{St|Refreshed Fang|refine=Skill1}}}}
+{{CooldownChargePlus|name={{St|Refreshed Fang|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=賀正の妖狐王の爪牙
+|german=Kitsune-Zahn
+|spanishEU=Colmillo nuevo
+|spanishLA=Colmillo nuevo
+|french=Croc renouvelé
+|italian=Zanna nuova
+|chineseTW=賀年妖狐王的爪牙
+|portuguese=Presa renascida
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%70_ of difference between stats%' OR Description LIKE '%grants allies within%= current bonus on each of unit_s stats%') AND Exclusive='1'}}
+{{Weapons Navbox}}

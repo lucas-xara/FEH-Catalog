@@ -1,0 +1,39 @@
+{{Special
+|tagid=SID_疾風静水の祝福
+|charge=1
+|effect=When healing an ally with a staff, grants Spd/Res+4 to all allies for 1 turn.
+|cost=200
+|exclusive=0
+|required=Swift-Winds Balm;Still-Water Balm
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|Staff}}
+|intID=2277
+|sort=5080
+|value=6
+|timingID=7
+|abilityID=16
+|randomTimestamp=2020-11-19T07:00:00Z
+|randomMinLv=26
+|randomMaxLv=35
+|properties=random_owner
+}}
+==Notes==
+{{Bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Deluge Balm
+|japanese=疾風静水の祝福
+|german=Sturmflutbalsam
+|spanishEU=Ciclobálsamo
+|spanishLA=Ciclobálsamo
+|french=Baume déluge
+|italian=Balsamo diluvio
+|chineseTW=疾風靜水的祝福
+|portuguese=Bálsamo dilúvio
+}}
+==See also==
+* [[Balm Specials]]
+{{Specials Navbox}}
+[[Category:Balm Specials]]

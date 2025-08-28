@@ -1,0 +1,47 @@
+{{Weapon Infobox
+|tagid=SID_山猫の暗器
+|intID=3804
+|image=wep_dg077
+|exclusive=1
+|weaponType=Dagger
+|cost=400
+|might=14
+|range=2
+|effect=At start of combat, if unit's HP ≥ 25%, grants bonus to unit's Atk/Spd/Def/Res = 4 + current bonus on each of foe's stats, inflicts penalty on foe's Atk/Spd/Def/Res = current bonus on each of foe's stats (calculates each stat bonus and penalty independently), and neutralizes effects that inflict "Special cooldown charge -X" on unit during combat.<br>Effect:【Dagger ７】<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If unit initiates combat or foe's HP ≥ 75% at start of combat, grants Atk/Spd/Def/Res+4 to unit, reduces damage from foe's first attack by 30%, and deals damage = 10% of unit's Spd during combat (excluding area-of-effect Specials).
+|properties=
+}}
+==Notes==
+{{TemporaryBufffromBonus|source=the foe}}
+{{TemporaryDebufffromBonus|source=the foe}}
+{{CooldownChargeMinusNeutralization}}
+{{IfUnitAttacked}}
+{{Penalties}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfUnitInitiates}}
+{{DamagePercentageReduction}}
+{{DamageBoost|name={{St|Wildcat Dagger|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=山猫の暗器
+|german=Wildkatzendolch
+|spanishEU=Daga felina
+|spanishLA=Daga felina
+|french=Dague de félin
+|italian=Pugnale randagio
+|chineseTW=山貓暗器
+|portuguese=Adaga de lince
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%deals damage = 10%of unit_s Spd%' OR Description LIKE '%X = current bonus on each of foe_s stats%') AND Exclusive='1'}}
+* [[Skill families/Weapons#Defier's|Defier's Weapons]]
+{{Weapons Navbox}}

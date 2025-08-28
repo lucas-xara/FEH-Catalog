@@ -1,0 +1,39 @@
+{{Weapon Infobox
+|tagid=SID_継承グングニル
+|intID=3788
+|image=wep_lc152
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=16
+|range=1
+|effect=Neutralizes "effective against flying" bonuses. Grants Def+3. At start of turn, if unit's HP ≥ 25%, grants Atk/Def+6 and【Charge】 to unit and flying allies within 2 spaces of unit for 1 turn. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit, unit makes a guaranteed follow-up attack, and deals damage = 15% of unit's Def (excluding area-of-effect Specials) during combat.<br><br>【Charge】<br>Unit can move up to 3 spaces in any cardinal direction. (Cannot move through foes, terrain that blocks movement, or effects of skills like Obstruct. Granted movement treated as Warp movement.)
+|statModifiers=0,16,0,3,0
+|required=Silver Lance
+|properties=random_owner
+}}
+==Notes==
+* Heired Gungnir has the same effect as {{St|Iote's Shield}}.
+{{Effectiveness neutralization|flying}}
+{{Bonuses}}
+{{Charge}}
+{{Temporary buffs}}
+{{Guaranteed follow-up interaction}}
+{{DamageBoost}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=継承グングニル
+|german=Ererbte Gungnir
+|spanishEU=Legado Gungnir
+|spanishLA=Legado Gungnir
+|french=Gungnir héritée
+|italian=Gungnir ereditata
+|chineseTW=繼承岡格尼爾
+|portuguese=Gungnir legada
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%Neutralizes "effective against flying" bonuses%' AND WikiName!='Iotes Shield' OR (Description LIKE '%【Charge】%' OR Description LIKE '%deals damage%of unit_s Def at start of combat%') AND Exclusive='1'}}
+* [[Shield Passives]]
+{{Weapons Navbox}}

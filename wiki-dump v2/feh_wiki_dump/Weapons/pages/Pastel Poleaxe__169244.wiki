@@ -1,0 +1,39 @@
+{{Weapon Infobox
+|tagid=SID_無邪気な白兎の斧
+|intID=2996
+|image=wep_ax108
+|exclusive=1
+|weaponType=Axe
+|cost=400
+|might=16
+|range=1
+|effect=Grants Def+3. Neutralizes "effective against flying" bonuses. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit during combat, deals damage = 20% of unit's Def, reduces damage from foe's attacks by 20% of unit's Def (excluding area-of-effect Specials), and restores 7 HP to unit and allies within 2 spaces after combat.
+|statModifiers=0,16,0,3,0
+|required=Silver Axe
+|properties=
+}}
+==Notes==
+* Has the same effect as {{St|Iote's Shield}}.
+{{Effectiveness neutralization|flying}}
+{{Temporary buffs}}
+{{DamageBoost}}
+{{FlatDamageReduction}}
+{{After combat healing|allies=1}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=無邪気な白兎の斧
+|german=Pastellstabaxt
+|spanishEU=Alabarda pastel
+|spanishLA=Alabarda pastel
+|french=Hache pastel
+|italian=Alabarda chiara
+|chineseTW=天真白兔之斧
+|portuguese=Alarbada pastel
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%Neutralizes "effective against flying%' AND WikiName!='Iotes Shield' OR Description LIKE '%deals damage = __\% of unit\'s Def%' OR Description LIKE '%reduces damage%by%of unit_s Def%' OR Description LIKE '%restores 7 HP to unit and allies within 2 spaces after combat%'}}
+* [[Shield Passives]]
+{{Weapons Navbox}}

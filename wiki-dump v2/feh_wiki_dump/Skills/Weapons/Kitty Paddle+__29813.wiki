@@ -1,0 +1,30 @@
+{{Weapon Infobox
+|tagid=SID_猫の暗器＋
+|weaponType=Dagger
+|might=8
+|range=2
+|effectiveness=magic
+|effect=Effective against magic foes.<br>After combat, if unit attacked and if foe uses magic, inflicts Def/Res-7 on foe through its next action.
+|cost=300
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|magic}}
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=猫の暗器＋
+|german=Kätzchenfächer+
+|spanishEU=Lanzamininos +
+|spanishLA=Lanzamininos +
+|french=Lance-chats +
+|italian=Ventaglio felino+
+|chineseTW=小貓暗器＋
+|portuguese=Lança felina+
+}}
+{{Weapons Navbox}}
+[[Category:Seasonal weapons]]

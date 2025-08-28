@@ -1,0 +1,46 @@
+{{Weapon Infobox
+|tagid=SID_グラディウス
+|weaponType=Lance
+|might=16
+|range=1
+|effect=Unit can counterattack regardless of foe's range.
+|userVersion1=Weapon
+|userVersion2=Gleam
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Silver Lance
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|tagidExtraSkill1=回
+|effectSkill1=If foe initiates combat or if foe's HP = 100% at start of combat, grants Atk/Spd/Def/Res+4 to unit during combat, and also, if unit deals damage to foe during combat, restores 7 HP to unit. (Triggers even if 0 damage is dealt.)
+|iconSkill1=Gradivus W.png
+|properties=random_owner
+}}
+==Notes==
+* Has the same effect as {{St|Distant Counter}}.
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfFoeInitiates}}
+{{Combat boosts}}
+{{CombatHPRecovery}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=グラディウス
+|german=Gradivus
+|spanishEU=Gradivus
+|spanishLA=Gradivus
+|french=Gradivus
+|italian=Gradivus
+|chineseTW=古拉迪烏斯
+|portuguese=Gradivus
+}}
+==See also==
+{{See also skills|cond=WikiName LIKE '%Gradivus%' OR Description LIKE '%unit deals damage to foe during combat, restores%HP to unit%' AND Exclusive='1'}}
+* [[Weapons with Distant Counter]]
+{{Weapons Navbox}}

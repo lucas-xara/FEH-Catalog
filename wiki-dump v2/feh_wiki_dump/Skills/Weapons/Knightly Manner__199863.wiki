@@ -1,0 +1,43 @@
+{{Weapon Infobox
+|tagid=SID_聖騎士の嗜み
+|intID=3721
+|image=wep_mg182
+|exclusive=1
+|weaponType=Blue Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit, unit makes a guaranteed follow-up attack, and deals damage = 15% of unit's Atk (excluding area-of-effect Specials) during combat, and also, if foe uses sword, lance, axe, magic, staff, dragonstone, or beast damage, foe cannot counterattack.
+|required=Thoron;Shine
+|properties=
+}}
+==Notes==
+{{Temporary buffs}}
+{{Guaranteed follow-up interaction}}
+{{DamageBoost}}
+{{TermRefersTo|magic}}
+{{TermRefersTo|Dragonstone}}
+{{TermRefersTo|Beast damage|Beast}}
+{{Prevent counterattacks}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V7.8_v0708a_teatime_Mag.webp|Sprite sheet for {{St|Baked Treats}} , {{St|Teacake Tower+|Teacake Tower(+)}}, {{St|Teatime Set+|Teatime Set(+)}} and {{PAGENAME}}'s animations.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=聖騎士の嗜み
+|german=Feinste Manieren
+|spanishEU=Actitud refinada
+|spanishLA=Actitud refinada
+|french=Bienséance
+|italian=Modi galanti
+|chineseTW=聖騎士的嗜好
+|portuguese=Modos refinados
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%deals damage =%15%of unit_s Atk%' OR Description LIKE '%foe uses%foe cannot counterattack%' AND Exclusive=1}}
+* [[Sweep Passives]]
+{{Weapons Navbox}}

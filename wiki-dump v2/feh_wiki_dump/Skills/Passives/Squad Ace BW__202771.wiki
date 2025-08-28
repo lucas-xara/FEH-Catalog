@@ -1,0 +1,55 @@
+{{Passive
+|name=Squad Ace BW
+|type=S
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|1name=Squad Ace BW 1
+|1tagid=SID_第75迷宮の覇者1
+|1effect=Grants HP+3, Spd/Res+1.
+|statModifiers1=3,0,1,0,1
+|1cost=120
+|1required=-
+|1next=-
+|2name=Squad Ace BW 2
+|2tagid=SID_第75迷宮の覇者2
+|2effect=Grants HP+4, Spd/Res+2.
+|statModifiers2=4,0,2,0,2
+|2cost=180
+|2next=-
+|3name=Squad Ace BW 3
+|3tagid=SID_第75迷宮の覇者3
+|3effect=Grants HP+5, Spd/Res+3.
+|statModifiers3=5,0,3,0,3
+|3cost=240
+}}
+==Seal acquired from==
+===Squad Assault reward===
+* Complete the [[75th Assault]].
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Squad Ace BW 1;Squad Ace BW 2;Squad Ace BW 3
+|badgeColor=Transparent
+|costs1=-
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|english=Squad Ace BW
+|japanese=第７５迷宮の覇者
+|german=Überf.-Ass BW
+|spanishEU=As del asalto BW
+|spanishLA=As del asalto BW
+|french=Assaut réussi BW
+|italian=Asso sq. BW
+|chineseTW=第７５迷宮的霸王
+|portuguese=Esquad. ás BW
+}}
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}
+[[Category:Squad Ace Seals]]

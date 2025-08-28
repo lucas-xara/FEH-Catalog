@@ -1,0 +1,42 @@
+{{Weapon Infobox
+|tagid=SID_愛情の花の弓
+|weaponType=Bow
+|might=8
+|range=2
+|effectiveness=Flying
+|cooldown=0
+|effect=Effective against flying foes. If unit initiates combat, grants Atk/Def+4 during combat and foe cannot make a follow-up attack.
+|cost=200
+|exclusive=0
+|userVersion1=Bow
+|userVersion2=Arrow
+|statModifiers=0,8,0,0,0
+|required=Steel Bow
+|next=Budding Bow+
+|promotionRarity=5
+|promotionTier=1
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|Flying}}
+{{IfUnitInitiates}}
+{{Combat boosts}}
+{{Prevent follow-up}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Budding Bow
+|japanese=愛情の花の弓
+|german=Knospenbogen
+|spanishEU=Arco floreciente
+|spanishLA=Arco floreciente
+|french=Arc bourgeon
+|italian=Arco in fiore
+|chineseTW=愛情之花弓
+|portuguese=Arco florido
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If unit initiates combat, grants Atk%Def+%and foe cannot make a follow-up attack%' AND WikiName NOT LIKE '%Instant%'|columns=3}}
+* [[Skill families#Instant|Instant Weapons]]
+{{Weapons Navbox}}

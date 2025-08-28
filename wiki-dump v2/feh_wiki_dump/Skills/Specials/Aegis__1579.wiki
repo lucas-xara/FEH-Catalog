@@ -1,0 +1,30 @@
+{{Special
+|tagid=SID_聖盾
+|name=Aegis
+|charge=3
+|effect=If foe is 2 spaces from unit, reduces damage from foe's attack by 50%.
+|cost=200
+|required=Holy Vestments
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|Close}}
+|properties=random_all,defensive_special
+}}
+==Notes==
+{{DefensiveSpecial}}
+{{DamagePercentageReduction}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=聖盾
+|german=Aegis
+|spanishEU=Égida
+|spanishLA=Égida
+|french=Égide
+|italian=Egida
+|chineseTW=聖盾
+|portuguese=Égide
+}}
+{{Specials Navbox}}

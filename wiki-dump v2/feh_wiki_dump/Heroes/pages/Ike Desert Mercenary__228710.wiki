@@ -1,0 +1,78 @@
+{{#invoke:NameAbout|main|Name=Ike}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Ike
+|Title=Desert Mercenary
+|WeaponType=Blue Lance
+|MoveType=Infantry
+|Origin=Fire Emblem: Path of Radiance
+|Gender=Male
+|actorEN=Greg Chun
+|actorJP=萩道彦
+|artist=argon
+|artist-extra=Trys Inc.
+|additionDate=January 17, 2025
+|releaseDate=January 17, 2025
+|cv1=8
+|cv2=100100
+|TagID=ジャハナアイク
+|InternalID=1198
+|Properties=special
+|description=Leader of the Greil Mercenaries. He works as security at the festival being held in the deserts of Jehanna. Appears in Fire Emblem: Path of Radiance.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=12|Lv1SPD=8|Lv1DEF=12|Lv1RES=6
+|GRHP=50|GRATK=80|GRSPD=90|GRDEF=55|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Lance
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Swirling Lance
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Daylight
+|special1Default=4
+|special1Unlock=3
+|special2=Sol
+|special2Unlock=4
+|special3=Aether's Path
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Distant Counter
+|passiveA2=D Bonus Doubler
+|passiveA1Unlock=4
+|passiveA2Unlock=5
+|passiveB1=Laguz Friend 1
+|passiveB2=Laguz Friend 2
+|passiveB3=Laguz Friend 3
+|passiveB4=Laguz Loyalty
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Time's Pulse 1
+|passiveC2=Time's Pulse 2
+|passiveC3=Time's Pulse 3
+|passiveC4=Time Pulse Edge
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Desert Festival units]]

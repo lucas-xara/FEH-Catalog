@@ -1,0 +1,37 @@
+{{Weapon Infobox
+|tagid=SID_ほら貝のブーケ
+|weaponType=Red Tome
+|might=8
+|range=2
+|effect=During unit's first combat in player phase or enemy phase, grants Atk/Res+5 to unit and restores 7 HP to unit after combat.
+|cost=200
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|required=Elfire;Ruin
+|next=Conch Bouquet+
+|promotionRarity=5
+|promotionTier=1
+|properties=
+}}
+==Notes==
+{{FirstCombat}}
+{{Temporary buffs}}
+{{After combat healing}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Conch Bouquet
+|japanese=ほら貝のブーケ
+|german=Muschelstrauß
+|spanishEU=Ramo nacarado
+|spanishLA=Ramo nacarado
+|french=Bouquet marin
+|italian=Fiori di mare
+|chineseTW=法螺花束
+|portuguese=Buquê marinho
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%estores%HP after combat%' OR Description LIKE '%estores%HP to unit after combat%') AND WikiName NOT LIKE '%rabbit%' AND Exclusive='1'}}
+* [[Skill families/Weapons#Rabbit|Rabbit Weapons]]
+{{Weapons Navbox}}

@@ -1,0 +1,38 @@
+{{Passive
+|name=Glare
+|type=C
+|exclusive=1
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|1name=Glare
+|1tagid=SID_邪眼
+|1effect=After combat, if unit attacked, inflicts status on target and foes within 1 space of target restricting movement to 1 space through their next actions.
+|1required=-
+|1cost=300
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se={{SEt|Gravity}}
+|SeT={{Tgt|Target Foe}} '''&'''<br>{{Tgt|Foes}} [[adjacent]]<br>to {{Tgt|Target Foe}}
+|SeC=After combat if<br>{{Tgt|Unit}} attacked
+}}
+==Notes==
+{{IfUnitAttacked}}
+{{Gravity}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=邪眼
+|german=Blendung
+|spanishEU=Mirada ira
+|spanishLA=Mirada ira
+|french=Haine
+|italian=Ipnosi
+|chineseTW=邪眼
+|portuguese=Olhar irado
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%inflicts status on target and foes%restricting movement%next actions%' OR Description LIKE '%inflicts%【Gravity】%on target and foes%') AND Exclusive=1}}
+{{Passives Navbox|C}}

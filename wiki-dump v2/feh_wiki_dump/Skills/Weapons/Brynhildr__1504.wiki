@@ -1,0 +1,56 @@
+{{Weapon Infobox
+|tagid=SID_ブリュンヒルデ
+|weaponType=Red Tome
+|might=14
+|range=2
+|effect=If unit initiates combat, inflicts status on foe restricting movement to 1 space through its next action.
+|cost=400
+|exclusive=1
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|statModifiers=0,14,0,0,0
+|required=Bolganone;Fenrir
+|SE=se_effect_brunhild.flac
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Reduces damage from magic foe's first attack by 30%.
+|effectSkill1=If foe uses bow, dagger, magic, or staff and unit's Def > foe's Def, foe cannot make a follow-up attack.
+|iconSkill1=Brynhildr W.png
+|tagidExtraSkill1=追
+|properties=random_owner
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Gravity}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{TermRefersTo|magic}}
+{{DamagePercentageReduction|name=Refined Brynhildr}}
+{{Prevent follow-up}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{NorseMyth|(Old Norse for "Armor battle") is a valkyrie.}}
+{{Rsn|追撃不可R遠守備1|Follow-Up Disable R Ranged Def 1}}
+==In other languages==
+{{OtherLanguages
+|japanese=ブリュンヒルデ
+|german=Brynhildr
+|spanishEU=Brynhildr
+|spanishLA=Brynhildr
+|french=Brynhildr
+|italian=Brynhildr
+|chineseTW=布倫希爾德
+|portuguese=Brynhildr
+}}
+==See also==
+* [[Gravity+]]
+* [[Thökk]]
+* [[Divine Tyrfing]]
+* [[Thani]]
+{{Weapons Navbox}}

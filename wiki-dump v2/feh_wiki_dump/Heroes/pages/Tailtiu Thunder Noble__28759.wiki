@@ -1,0 +1,85 @@
+{{#invoke:NameAbout|main|Name=Tailtiu}}{{HeroPage Tabs|{{PAGENAME}}}}
+{{Hero Infobox
+|Name=Tailtiu
+|Title = Thunder Noble
+|GrowthModifier= None
+|WeaponType= Blue Tome
+|Origin= Fire Emblem: Genealogy of the Holy War
+|Gender= Female
+|MoveType= Infantry
+|actorEN = Heather Watson
+|actorJP=桑島法子
+|artist=しおえもん
+|resplendentArtist=kaya8
+|releaseDate = October 16, 2017
+|poolDate = October 30, 2017
+|randomStartTime=2017-10-30T07:00:00Z
+|poolRarities=3,4
+|TagID=ティルテュ
+|InternalID=180
+|Properties=tiara,demoted_201904,resplendent,embla
+|cv1=3
+|cv2=500100
+|description=A noblewoman from Friege and descendant of the crusader Thrud. She appears cheerful but is hiding her troubles. Appears in Fire Emblem: Genealogy of the Holy War.
+|resplendentStartTime=2021-09-10T07:00:00Z
+|resplendentEndTime=2021-09-25T06:59:59Z
+}}
+
+__TOC__
+
+{{Stats Page|Hero={{BASEPAGENAME}}
+|Lv1HP=17|Lv1ATK=8|Lv1SPD=9|Lv1DEF=4|Lv1RES=6
+|GRHP=50|GRATK=55|GRSPD=60|GRDEF=30|GRRES=45
+}}
+
+== Skills ==
+===Weapons===
+{{Weapons Table
+|weapon1=Thunder
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elthunder
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Blárblade
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Blárblade+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Tome of Thoron
+|weapon5Default=
+|weapon5Unlock=5
+}}
+
+===Assists===
+{{Assists Table
+|assist1=Rally Resistance
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Rally Spd/Res
+|assist2Default=
+|assist2Unlock=4
+}}
+
+===Specials===
+{{Specials Table
+}}
+
+===Passives===
+{{Passives Table
+|passiveA1=Attack +1
+|passiveA2=Attack/Res 1
+|passiveA3=Attack/Res 2
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Spur Spd 1
+|passiveC2=Drive Spd 1
+|passiveC3=Drive Spd 2
+|passiveC1Unlock=1
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+}}
+
+{{Heroes Navbox}}

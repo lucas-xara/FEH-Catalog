@@ -1,0 +1,73 @@
+{{#invoke:NameAbout|main|Name=Robin}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Robin
+|Title=Mystery Tactician
+|GrowthModifier= None
+|WeaponType=Green Tome
+|Origin=Fire Emblem Awakening
+|Gender=Female
+|MoveType=Infantry
+|actorEN=Lauren Landa
+|actorJP=沢城みゆき
+|artist=上田夢人
+|resplendentArtist=藤川祥
+|releaseDate=February 23, 2017
+|additionDate=February 2, 2017
+|TagID=ルフレ女
+|InternalID=84
+|Person=Robin F
+|Properties=ghb,limited,resplendent,hel
+|cv1=10
+|cv2=100300
+|description=A tactician of Ylisse and Chrom's close ally. Lost memory of her life before meeting Chrom. Appears in Fire Emblem Awakening.
+|resplendentStartTime=2023-06-25T07:00:00Z
+|resplendentEndTime=2023-07-10T06:59:59Z
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=7|Lv1SPD=7|Lv1DEF=7|Lv1RES=5
+|GRHP=50|GRATK=50|GRSPD=50|GRDEF=50|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Wind
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elwind
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Gronnwolf
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Gronnwolf+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Tactical Gale
+|weapon5Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=4
+|special1Unlock=3
+|special2=Ignis
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Defiant Res 1
+|passiveA2=Defiant Res 2
+|passiveA3=Defiant Res 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=B Tomebreaker 1
+|passiveB2=B Tomebreaker 2
+|passiveB3=B Tomebreaker 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+}}
+{{Heroes Navbox}}

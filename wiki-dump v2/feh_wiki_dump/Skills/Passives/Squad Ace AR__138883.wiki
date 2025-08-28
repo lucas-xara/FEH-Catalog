@@ -1,0 +1,58 @@
+{{Passive
+|name=Squad Ace AR
+|type=S
+|exclusive=0
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|timingID=0
+|abilityID=0
+|properties=
+|1name=Squad Ace AR 1
+|alt1name=Squad Ace AH 1
+|1tagid=SID_第44迷宮の覇者1
+|1effect=Grants HP+3, Res+1.
+|1required=-
+|1cost=100
+|statModifiers1=3,0,0,0,1
+|intID1=2464
+|sort1=50430
+|value1=2
+|2name=Squad Ace AR 2
+|alt2name=Squad Ace AH 2
+|2tagid=SID_第44迷宮の覇者2
+|2effect=Grants HP+4, Res+2.
+|2required=Squad Ace AR 1
+|2cost=200
+|statModifiers2=4,0,0,0,2
+|intID2=2465
+|sort2=50431
+|value2=4
+}}
+==Seal acquired from==
+===Squad Assault reward===
+* Complete the [[44th Assault]].
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Squad Ace AR 1;Squad Ace AR 2
+|badgeColor=Transparent
+|costs1=-
+|costs2=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=第４４迷宮の覇者
+|german=Überfall-Ass AR
+|spanishEU=As del asalto AR
+|spanishLA=As del asalto AR
+|french=Assaut réussi AR
+|italian=Asso sq. AR
+|chineseTW=第４４迷宮的霸王
+|portuguese=Esquadrão ás AR
+}}
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}
+[[Category:Squad Ace Seals]]

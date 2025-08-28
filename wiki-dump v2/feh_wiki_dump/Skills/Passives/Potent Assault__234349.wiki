@@ -1,0 +1,50 @@
+{{Passive
+|name=Potent Assault
+|type=B
+|exclusive=0
+|canUseWeapon={{WeaponList|Melee}}
+|canUseMove={{MoveList|Cavalry,Flying}}
+|properties=random_owner
+|1name=Potent Assault
+|1tagid=SID_強襲・神速
+|1effect=If unit initiates combat or is within 2 spaces of an ally, inflicts Spd/Def-4 on foe, deals damage = 20% of the greater of unit's Spd or Def (excluding area-of-effect Specials), and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials), and also, if decreasing the Spd difference necessary to make a follow-up attack by 25 would allow unit to trigger a follow-up attack (excluding guaranteed or prevented follow-ups), triggers【Potent Follow X%】during combat (if unit cannot perform follow-up and attack twice, X = 80; otherwise, X = 40).<br><br>【Potent Follow X%】<br>Triggers an additional follow-up attack immediately after unit's standard follow-up attack and deals damage = X% of unit's normal attack damage (if unit cannot make a follow-up attack, this effect triggers when the standard follow-up attack would occur; this effect is treated like a follow-up attack, so effects like "reduce damage by X%" still apply, but this effect is not affected by effects that prevent follow-ups or "attacks twice" effects; only highest value applied; does not stack).
+|1cost=300
+|1required=Flow Refresh 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary debuffs|Spd/Def|4}}
+|Ce2={{Eft|Reduce Damage Reduction|50%}}
+|Ce1-2T={{Tgt|Foe}}
+|Ce3={{Eft|Damage Boost|20% of the greater<br>of {{Tgt|Unit}}'s Spd/Def}}
+|Ce1-3C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce4={{Eft|Potent Follow X%|2=80% if {{Tgt|Unit}} can't<br>[[follow-up]] '''&''' [[attack twice]];<br>else, X = 40%}}
+|Ce4C={{Eft|Temporary debuffs|Spd/Def|4}} conditions<br>'''&''' {{Tgt|Unit}}'s Spd ≥<br>{{Tgt|Foe}}'s Spd -20
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary debuffs}}
+{{DamageBoost}}
+{{Reduce Damage Reduction}}
+{{Potent Follow|X%}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Potent Follow%】%' OR Description LIKE '%deals damage%the greater of unit_s ___ or ___%reduces the percentage%') AND Exclusive='1'}}
+* [[Skill families/B Passives#Potent|Potent Passives]]
+{{Passives Navbox|B}}

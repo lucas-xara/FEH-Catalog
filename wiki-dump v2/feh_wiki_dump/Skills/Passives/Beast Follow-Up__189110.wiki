@@ -1,0 +1,49 @@
+{{Passive
+|type=B
+|name=Beast Follow-Up
+|exclusive=0
+|canUseWeapon={{WeaponList|Beast}}
+|canUseMove={{MoveList|All}}
+|properties=random_inherit_base,random_owner
+|1name=Beast Follow-Up 1
+|1tagid=SID_絶対化身・追撃1
+|1cost=60
+|1effect=If unit's HP = 100%, removes the condition to transform. At start of combat, if unit's HP = 100%, unit makes a guaranteed follow-up attack during combat.
+|1required=-
+|1promotionRarity=4
+|1promotionTier=1
+|2name=Beast Follow-Up 2
+|2tagid=SID_絶対化身・追撃2
+|2cost=120
+|2effect=If unit's HP ≥ 50%, removes the condition to transform. At start of combat, if unit's HP ≥ 50%, unit makes a guaranteed follow-up attack during combat.
+|2promotionRarity=5
+|2promotionTier=1
+|3name=Beast Follow-Up 3
+|3tagid=SID_絶対化身・追撃3
+|3cost=240
+|3effect=Removes the condition to transform. Unit makes a guaranteed follow-up attack during combat.
+}}
+==Notes==
+{{TransformConditionRemoval}}
+{{Guaranteed follow-up interaction}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=絶対化身・追撃
+|german=Bestienfolge
+|spanishEU=At. doble bestia
+|spanishLA=At. doble bestia
+|french=Double de bête
+|italian=Att. dopp. bestia
+|chineseTW=絕對化身・追擊
+|portuguese=Atq. duplo fera
+}}
+==See also==
+* [[Skill families/B Passives#Beast|Beast Passives]]
+{{Passives Navbox|B}}

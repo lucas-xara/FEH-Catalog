@@ -1,0 +1,59 @@
+{{Weapon Infobox
+|tagid=SID_魔器・恍惚の花
+|intID=3777
+|image=wep_mg184
+|exclusive=0
+|weaponType=Blue Tome
+|cost=300
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit, unit makes a guaranteed follow-up attack, deals damage = 15% of unit's Atk (including when dealing damage with a Special triggered before combat), and reduces damage from foe's first attack by 30% during combat.
+|required=Thoron;Shine
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=200
+|properties=arcane,random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce2={{Eft|Guaranteed Follow-Ups}}
+|Ce3={{Eft|Damage Boost|15% of {{Tgt|Unit}}'s Atk}}<br>before '''&''' during combat
+|Ce4={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s first attack
+|CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{Temporary buffs}}
+{{Guaranteed follow-up interaction}}
+{{AtkDamageBoost}}
+{{DamagePercentageReduction}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Gallery==
+<gallery>
+V7.9_v0709a_wind_Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=魔器・恍惚の花
+|german=Arkane Euphorie
+|spanishEU=Euforia arcana
+|spanishLA=Euforia arcana
+|french=Euphorie arcane
+|italian=Euforia arcana
+|chineseTW=魔器・陶醉之花
+|portuguese=Euforia arcana
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%deals damage =%of unit_s Atk%including when dealing damage%' AND Exclusive='1'}}
+{{Weapons Navbox}}

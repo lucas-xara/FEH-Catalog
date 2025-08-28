@@ -1,0 +1,70 @@
+{{#invoke:NameAbout|main|Name=Caeda}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Caeda
+|Title=Marth's Faithful
+|WeaponType=Blue Lance
+|MoveType=Infantry
+|Origin=Fire Emblem: Mystery of the Emblem
+|Gender=Female
+|actorEN=Cherami Leigh
+|actorJP=早見沙織
+|artist=大熊まい
+|additionDate=March 15, 2024
+|releaseDate=March 15, 2024
+|cv1=1
+|cv2=200100
+|TagID=響心シーダ
+|InternalID=1075
+|Properties=attuned
+|description=Princess of the small kingdom of Talys. She and Prince Marth, who fled from Altea to Talys, share a close and unbreakable bond. Appears in Fire Emblem: Mystery of the Emblem.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=12|Lv1SPD=8|Lv1DEF=8|Lv1RES=10
+|GRHP=50|GRATK=70|GRSPD=90|GRDEF=50|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Lance
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Pure-Wing Spear
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Distant Counter
+|passiveA2=D Bonus Doubler
+|passiveA1Unlock=4
+|passiveA2Unlock=5
+|passiveB1=Believe in Love?
+|passiveB1Unlock=5
+|passiveC1=Def/Res Oath 1
+|passiveC2=Def/Res Oath 2
+|passiveC3=Def/Res Oath 3
+|passiveC4=Def/Res Pledge
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+|passiveX1=Guard Echo
+|passiveX1Unlock=5
+}}
+{{Heroes Navbox}}

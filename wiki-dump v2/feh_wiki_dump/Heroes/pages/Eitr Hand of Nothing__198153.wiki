@@ -1,0 +1,83 @@
+{{#invoke:NameAbout|main|Name=Eitr|Name2=Freyja}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Eitr
+|Title=Hand of Nothing
+|Origin=Fire Emblem Heroes
+|Person=Eitr
+|Gender=F
+|WeaponType=Blue Beast
+|MoveType=Cavalry
+|actorEN=Caitlyn Elizabeth
+|actorJP=和多田美咲
+|artist=切符
+|additionDate=2023-07-06
+|releaseDate=July 18, 2023
+|cv1=0
+|cv2=400710
+|Properties=rearmed
+|description=Unquestioning servant of the ruler of nothingness, she lacks the confidence to express her own will.
+|TagID=魔器アイト
+|InternalID=973
+|EnemyInternalID=98
+}}
+==Ally stats==
+{{Stats Page|noheader=1
+|Lv1HP=18|Lv1ATK=11|Lv1SPD=16|Lv1DEF=3|Lv1RES=3
+|GRHP=50|GRATK=75|GRSPD=70|GRDEF=70|GRRES=30
+}}
+==Enemy stats==
+{{Stats Page/Enemy|noheader=1
+|Lv1HP=18|Lv1ATK=11|Lv1SPD=16|Lv1DEF=3|Lv1RES=3
+|GRHP=50|GRATK=75|GRSPD=70|GRDEF=70|GRRES=30
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Whelp (Cavalry)
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Yearling (Cavalry)
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Adult (Cavalry)
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Arcane Nihility
+|weapon4Default=5
+|weapon4Unlock=5
+|hasEnemy=1
+}}
+
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Power of Nihility
+|passiveA1Unlock=5
+|passiveB1=Beast Sense 1
+|passiveB2=Beast Sense 2
+|passiveB3=Beast Sense 3
+|passiveB4=Beast Sense 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Rouse Atk/Spd 1
+|passiveC2=Rouse Atk/Spd 2
+|passiveC3=Rouse Atk/Spd 3
+|passiveC4=Alarm Atk/Spd
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+{{Enemies Navbox}}

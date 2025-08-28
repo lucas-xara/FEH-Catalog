@@ -1,0 +1,72 @@
+{{#invoke:NameAbout|main|Name=Mist}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Mist
+|Title=Helpful Sister
+|artist=みわべさくら
+|WeaponType=Colorless Staff
+|MoveType=Infantry
+|Origin=Fire Emblem: Path of Radiance
+|Gender=Female
+|actorEN=Sarah Williams
+|actorJP=榎本温子
+|releaseDate=April 26, 2017
+|poolDate=May 15, 2017
+|randomStartTime=2017-05-12T07:00:00Z
+|poolRarities=5
+|TagID=ミスト
+|InternalID=125
+|cv1=8
+|cv2=100400
+|description=Ike's younger sister. Active and cheerful, and takes care of the Greil Mercenaries. Appears in Fire Emblem: Path of Radiance.
+|Properties=specRate_201904
+|GrowthModifier=None
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=8|Lv1SPD=6|Lv1DEF=5|Lv1RES=8
+|GRHP=50|GRATK=45|GRSPD=50|GRDEF=35|GRRES=60
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Assault
+|weapon1Unlock=1
+|weapon2=Slow
+|weapon2Unlock=3
+|weapon3=Slow+
+|weapon3Unlock=5
+|weapon4=Elena's Staff
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Heal
+|assist1Default=1
+|assist1Unlock=1
+|assist2=Mend
+|assist2Default=3
+|assist2Unlock=2
+|assist3=Recover
+|assist3Default=5
+|assist3Unlock=4
+|assist4=Recover+
+|assist4Unlock=5
+}}
+===Specials===
+{{Specials Table
+|special1=Imbue
+|special1Default=4
+|special1Unlock=2
+|special2=Miracle
+|special2Default=5
+|special2Unlock=3
+}}
+===Passives===
+{{Passives Table
+|passiveC1=Spur Res 1
+|passiveC2=Spur Def/Res 1
+|passiveC3=Spur Def/Res 2
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

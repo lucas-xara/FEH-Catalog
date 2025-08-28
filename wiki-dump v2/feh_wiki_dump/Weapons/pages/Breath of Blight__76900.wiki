@@ -1,0 +1,87 @@
+{{Weapon Infobox
+|tagid=SID_暗夜竜のブレス
+|weaponType=Dragonstone
+|might=16
+|range=1
+|effect=Neutralizes "effective against dragons" bonuses. At the start of turn 4, deals 10 damage to foes within 3 spaces, and restores HP to unit = number of foes within 3 spaces × 5. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Flametongue
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Neutralizes "effective against dragons" bonuses. At the start of turns 3 and 4, deals 13 damage to foes within 4 spaces of unit and restores HP to unit = number of foes within 4 spaces × 13. At start of combat, if unit's HP ≥ 25%, grants Atk+5 to unit and inflicts Atk-5 on foe during combat. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|tagidExtraSkill1=一
+|effectSkill1=If foe initiates combat or if foe's HP ≥ 75% at start of combat, grants Atk+5 to unit and inflicts Atk-5 on foe during combat and also inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)
+|iconSkill1=Breath of Blight W.png
+|properties=
+}}
+==Notes==
+{{Effectiveness neutralization|dragon}}
+{{Out of Combat Damage}}
+* Breath of Blight activates only on the 4th [[turn]] of combat.
+{{LowerDefRes}}
+{| class="wikitable default mw-collapsible" 
+! align="middle" | Example of Area of Effect
+|-
+| align="middle" ! |
+<div style="max-width: 450px; margin: auto;>{{AoE|u=Garon: King of Nohr
+|---x---
+|--xxx--
+|-xxxxx-
+|xxxuxxx
+|-xxxxx-
+|--xxx--
+|---x---
+}}</div>
+|}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+* Breath of Blight activates only on the 3rd and 4th [[turn]] of combat.
+{{Start-of-turn healing}}
+{{IfFoeInitiates}}
+{{Temporary buffs|name=refined Breath of Blight}}
+{{Temporary debuffs|name=refined Breath of Blight}}
+{{CooldownChargeMinus}}
+{| class="wikitable default mw-collapsible" 
+! align="middle" | Example of refine Area of Effect
+|-
+| align="middle" ! |
+<div style="max-width: 450px; margin: auto;>{{AoE|u=Garon: King of Nohr
+|----x----
+|---xxx---
+|--xxxxx--
+|-xxxxxxx-
+|xxxxuxxxx
+|-xxxxxxx-
+|--xxxxx--
+|---xxx---
+|----x----
+}}</div>
+|}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+v2.9_60_if02_Mag.png|Sprite sheet for {{St|Missiletainn (tome)}} and {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=暗夜竜のブレス
+|german=Fäulnisatem
+|spanishEU=Aliento pútrido
+|spanishLA=Soplo rancio
+|french=Souffle fléau
+|italian=Soffio malevolo
+|chineseTW=暗夜龍吐息
+|portuguese=Sopro ferrugem
+}}
+==See also==
+{{See also skills|cond=Description LIKE 'Neutralizes "effective against dragon%' OR Description LIKE '%grants Atk+%inflicts Atk-%inflicts Special cooldown charge -1 on foe per attack%' AND Exclusive='1'}}
+* [[Skill families/Weapons#Deer|Deer Weapons]]
+* [[:Category:Skills with out of combat damage|Skills with out of combat damage]]
+* [[Dragon Shield (status effect)|Dragon Shield]]
+{{Weapons Navbox}}

@@ -1,0 +1,75 @@
+{{#invoke:NameAbout|main|Name=Dimitri}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Dimitri
+|Title=Stargazing Lion
+|WeaponType=Red Sword
+|MoveType=Cavalry
+|Origin=Fire Emblem: Three Houses
+|Gender=Male
+|actorEN=Chris Hackney
+|actorJP=石川界人
+|artist=コウ
+|additionDate=February 6, 2025
+|releaseDate=February 7, 2025
+|cv1=12
+|cv2=300100
+|TagID=愛の祭ディミトリ
+|InternalID=1205
+|Properties=special
+|description=Crown prince of the Holy Kingdom of Faerghus. Enjoying the enthusiasm of the festival, he lets loose and throws aside his inhibitions. Appears in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=10|Lv1SPD=12|Lv1DEF=8|Lv1RES=4
+|GRHP=50|GRATK=90|GRSPD=80|GRDEF=60|GRRES=35
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Lion's Heart
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Draconic Aura
+|special2Unlock=4
+|special3=Haze Slice
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Clash 1
+|passiveA2=Atk/Spd Clash 2
+|passiveA3=Atk/Spd Clash 3
+|passiveA4=Atk/Spd Excel
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Pure Atrocity
+|passiveB1Unlock=5
+|passiveC1=Shadow Shift 1
+|passiveC2=Shadow Shift 2
+|passiveC3=Shadow Shift 3
+|passiveC4=Shadow Shift 4
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Day of Devotion units]]

@@ -1,0 +1,67 @@
+{{Passive
+|type=B
+|name=Chivalry
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Chivalry
+|1tagid=SID_騎士道
+|1cost=300
+|1effect=Enables【Canto (Rem. +1)】.<br><br>At start of combat, if foe's HP ≥ 50%, inflicts Atk/Spd/Def-5 on foe during combat. Reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = 50% of foe's HP at start of combat. (Example: if foe's HP = 75%, damage is reduced by 37%.)<br><br>【Canto (Rem. +1)】<br>After an attack, Assist skill, or structure destruction, unit can move again.<br><br>The distance of the movement is the remaining movement the unit had before the actions listed above+1 (If unit used a movement skill that warps them, the remainder is 0).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|1required=-
+|1next=-
+|2name=Chivalry II
+|2tagid=SID_騎士道・承
+|2effect=Enables【Canto (Rem. +1; Min ２)】.<br><br>Reduces damage from attacks during combat and from area-of-effect Specials by 50% (excluding Røkkr area-of-effect Specials).<br><br>Inflicts Atk/Spd/Def-5 on foe, deals damage = X% of unit's Atk (excluding area-of-effect Specials), reduces damage from foe's attacks by X% of unit's Atk (excluding area-of-effect Specials; if foe's HP ≥ 50% at start of combat, X = 25; otherwise, X = 15), and grants Special cooldown count-Y to unit before unit's first attack during combat (Y = number of spaces from start position to end position of whoever initiated combat, max 3; if foe's HP ≥ 75% at start of combat, however, value is treated as 3).<br><br>【Canto (Rem. +1; Min ２)】<br>After an attack, Assist skill, or structure destruction, unit can move spaces = any movement not already used that turn +1 (min ２; if unit used a movement skill that warped them, unit can move ２ space(s)).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|2cost=300
+|properties2=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Chivalry}} Chivalry
+|s1 Me={{Eft|Canto|Rem. +1}}
+|s1 Ce1={{Eft|Temporary debuffs|Atk/Spd/Def|5}}
+|s1 Ce1T={{Tgt|Foe}}
+|s1 Ce1C={{Tgt|Foe}}'s HP ≥ 50%<br>at start of combat
+|s1 Ce2={{Eft|Damage Reduction|50% of {{Tgt|Foe}}'s HP%}}<br>from {{Tgt|Foe}}'s attacks<br>& Non-Røkkr [[AoE Specials]]
+|skill2={{Si|Chivalry II}} Chivalry II
+|s2 Me={{Eft|Canto|Rem. +1; Min 2}}
+|s2 Ce1={{Eft|Damage Reduction|50%}}<br>from {{Tgt|Foe}}'s attacks<br>& Non-Røkkr [[AoE Specials]]
+|s2 Ce2={{Eft|Temporary debuffs|Atk/Spd/Def|5}}
+|s2 Ce2T={{Tgt|Foe}}
+|s2 Ce3={{Eft|Damage Boost|(25% if {{Tgt|Foe}}'s HP ≥ 50%<br>at start of combat; else 15%)}}<br>of {{Tgt|Unit}}'s Atk
+|s2 Ce4={{Eft|Damage Reduction|(25% if {{Tgt|Foe}}'s HP ≥ 50%<br>at start of combat; else 15%)}}<br>of {{Tgt|Unit}}'s Atk<br>from {{Tgt|Foe}}'s attacks
+|s2 Ce5={{Eft|Reduce Cooldown|spaces initiator moved|max=3*}}<br>before {{Tgt|Unit}}'s first attack
+|s2 Ce3-5T={{Tgt|Unit}}
+}}
+<b>{{Hatnote|* If {{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat, value is treated as max.}}</b>
+
+==Notes==
+{{Canto|Rem. +1}}
+{{Temporary debuffs}}
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+{{Canto|Rem. +1; Min 2|name=Chivalry II}}
+{{AtkDamageBoost|name=Chivalry II}}
+{{FlatDamageReduction}}
+{{CombatCooldownCount|-X (max: 3)|name=Chivalry II}}
+{{SpacesFromStarttoEnd|name=Chivalry II}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=騎士道
+|german=Ritterlichkeit
+|spanishEU=Caballerosidad
+|spanishLA=Caballerosidad
+|french=Chevalerie
+|italian=Galanteria
+|chineseTW=騎士精神
+|portuguese=Cavalheirismo
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%reduces damage from foe_s attacks by %\% of unit_s Atk%' AND Description NOT LIKE '%reduces damage%next attack%of unit_s Atk%' OR Description LIKE '%reduces damage%=%of foe_s HP at start of combat%' OR Description LIKE '%foe_s HP ≥% at start of combat, _ = %') AND Exclusive='1'}}
+* [[Trace Passives]]
+{{Passives Navbox|B}}

@@ -1,0 +1,43 @@
+{{Weapon Infobox
+|tagid=SID_トナカイの弓
+|weaponName=Reindeer Bow
+|weaponType=Bow
+|userVersion1=Bow
+|userVersion2=Arrow
+|might=8
+|range=2
+|effectiveness=Flying
+|effect=Effective against flying foes. If unit is within 2 spaces of an ally, grants Atk/Def+5 to unit during combat and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)
+|cost=200
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|required=Steel Bow
+|next=
+|promotionRarity=5
+|promotionTier=1
+|intID=2346
+|sort=88000
+|value=11
+|timingID=1
+|abilityID=116
+|limit1ID=14
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|flying}}{{Combat boosts}}{{CooldownChargeMinus}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=トナカイの弓
+|german=Rentierbogen
+|spanishEU=Arco de reno
+|spanishLA=Arco de reno
+|french=Arc renne
+|italian=Arco renna
+|chineseTW=鹿角弓
+|portuguese=Arco de rena
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit is within _ spaces of an ally%grants Atk/Def+%during combat%' OR Description LIKE '%if unit is within _ spaces of an ally%inflicts special cooldown charge -1%'|columns=3}}
+{{Weapons Navbox}}

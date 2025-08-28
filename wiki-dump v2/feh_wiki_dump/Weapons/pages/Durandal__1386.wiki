@@ -1,0 +1,57 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_デュランダル
+|weaponType=Sword
+|might=16
+|range=1
+|effect=If unit initiates combat, grants Atk+4 during combat.
+|cost=400
+|exclusive=1
+|userVersion1=Weapon|userVersion2=Gleam
+|statModifiers=0,16,0,0,0
+|required=Silver Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=If unit initiates combat, grants Atk+6 during combat.
+|effectSkill1=If unit initiates combat, grants Atk/Spd+4 during combat.
+|iconSkill1=Swift Sparrow W.png
+|tagidExtraSkill1=一
+|properties=random_owner
+}}
+==Notes==
+* Has the same effect as {{Pt|Death Blow 2}}.
+{{Combat boosts}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+* Any of the upgrades grant Durandal the same effect as {{St|Death Blow 3}}.
+* The upgraded version of Durandal listed first has the same effect as {{St|Swift Sparrow 2}}.
+{{Combat boosts}}
+
+==Evolution==
+{{WEvo
+|weapon=Blazing Durandal
+|Medals=375
+|Dew=150
+}}
+
+==List of owners==
+{{Skill Hero List}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=デュランダル
+|german=Durandal
+|spanishEU=Durandal
+|spanishLA=Durandal
+|french=Durandal
+|italian=Durandal
+|chineseTW=迪朗達爾
+|portuguese=Durandal
+}}
+==Gallery==
+<gallery>
+Weapon Durandal Old.png|Original Durandal Sprite. Durandal's sprite was updated in [[What's in Store for the 1.6.0 Update (Notification)|Version 1.6.0]].
+</gallery>
+{{Weapons Navbox}}

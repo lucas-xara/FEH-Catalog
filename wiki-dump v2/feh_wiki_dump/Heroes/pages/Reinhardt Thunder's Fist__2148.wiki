@@ -1,0 +1,72 @@
+{{#invoke:NameAbout|main|Name=Reinhardt}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Reinhardt
+|Title=Thunder's Fist 
+|WeaponType=Blue Tome
+|Origin=Fire Emblem: Thracia 776 
+|Gender=Male
+|MoveType=Cavalry 
+|actorEN=Chris Smith 
+|actorJP=利根健太朗
+|artist=cuboon
+|releaseDate=February 27, 2017
+|poolDate=March 14, 2017
+|randomStartTime=2017-03-16T07:00:00Z
+|poolRarities=3,4
+|TagID=ラインハルト
+|InternalID=105
+|Properties=demoted_240,resplendent,askr
+|cv1=4
+|cv2=1100100
+|description=Formidable and admired mage knight in Friege's army. Ever ready to lend an ear to his younger sister, Olwen. Appears in Fire Emblem: Thracia 776.
+|GrowthModifier=None
+|resplendentArtist=たかや友英
+|resplendentStartTime=2021-03-25T07:00:00Z
+|resplendentEndTime=2021-04-10T06:59:59Z
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=8|Lv1SPD=6|Lv1DEF=5|Lv1RES=8
+|GRHP=50|GRATK=55|GRSPD=40|GRDEF=50|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Thunder
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elthunder
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Thoron
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Dire Thunder
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Rising Thunder
+|special1Default=4
+|special1Unlock=3
+|special2=Blazing Thunder
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Vantage 1
+|passiveB2=Vantage 2
+|passiveB3=Vantage 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Spur Atk 1
+|passiveC2=Spur Atk 2
+|passiveC3=Goad Cavalry
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

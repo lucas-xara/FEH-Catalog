@@ -1,0 +1,48 @@
+{{SkillPage Tabs}}{{Passive
+|type=S
+|name=Squad Ace AY
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|1name=Squad Ace AY 1
+|alt1name=Squad Ace AE 1
+|1tagid=SID_第51迷宮の覇者1
+|1cost=100
+|1effect=Grants HP+3, Atk+1.
+|statModifiers1=3,1,0,0,0
+|1required=-
+|1next=-
+|2name=Squad Ace AY 2
+|alt2name=Squad Ace AE 2
+|2tagid=SID_第51迷宮の覇者2
+|2cost=200
+|2effect=Grants HP+4, Atk+2.
+|statModifiers2=4,2,0,0,0
+}}
+==Seal acquired from==
+===Squad Assault reward===
+* Complete the [[51st Assault]].
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Squad Ace AY 1;Squad Ace AY 2
+|badgeColor=Scarlet
+|costs1=-<!--0;0;0-->
+|costs2=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=第５１迷宮の覇者
+|german=Überfall-Ass AY
+|spanishEU=As del asalto AY
+|spanishLA=As del asalto AY
+|french=Assaut réussi AY
+|italian=Asso sq. AY
+|chineseTW=第５１迷宮的霸王
+|portuguese=Esquadrão ás AY
+}}
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}

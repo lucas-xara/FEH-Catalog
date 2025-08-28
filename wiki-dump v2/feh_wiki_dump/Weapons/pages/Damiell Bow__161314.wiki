@@ -1,0 +1,39 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_ディアメル家の宝弓
+|intID=2838
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=1
+|weaponType=Bow
+|cost=400
+|might=14
+|range=2
+|effectiveness=Flying
+|effect=Effective against flying foes. Grants Spd+3. If a Rally Assist skill is used by unit, grants target【Bonus Doubler】and target can move 1 extra space. (That turn only. Does not stack. No effect on cavalry allies with Range = 2.) At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+6 to unit during combat.<br><br>【Bonus Doubler】<br>Grants bonus to Atk/Spd/Def/Res during combat = current bonus on each of unit's stats for 1 turn. Calculates each stat bonus independently.
+|statModifiers=0,14,3,0,0
+|required=Silver Bow
+|properties=random_owner
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{Bonus Doubler}}
+{{Mobility increased}}
+{{Temporary buffs}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ディアメル家の宝弓
+|german=Damiell-Bogen
+|spanishEU=Arco de Damiell
+|spanishLA=Arco de Damiell
+|french=Arc de Damiell
+|italian=Arco di Damiell
+|chineseTW=帝雅梅爾家的寶弓
+|portuguese=Arco de Damiell
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%rally assist skill%' AND Exclusive='1' OR Description LIKE '%bonus doubler%' OR Description LIKE '%target can move 1 extra space%' OR Description LIKE '%if unit_s HP ≥%grants Atk/Spd+%during combat%'|columns=3}}
+* [[Skill families#Rally|Rally Skills]] 
+{{Weapons Navbox}}

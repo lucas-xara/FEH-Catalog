@@ -1,0 +1,73 @@
+{{Weapon Infobox
+|tagid=SID_邪竜の御子の剣
+|intID=4710
+|image=wep_sw198
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>For foes within 3 rows or 3 columns centered on unit, inflicts Atk/Spd/Def/Res-5 and neutralizes foe's bonuses during combat.<br><br>If foe initiates combat or if unit's HP ≥ 25% at start of combat, inflicts penalty on foe's Atk/Spd/Def/Res = number of distinct game titles among allies within 3 spaces of unit × 3, + 4 (max 10), reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% (excluding area-of-effect Specials), unit deals +X damage (excluding area-of-effect Specials), reduces damage from foe's attacks by X (excluding area-of-effect Specials), and reduces damage from foe's Specials by X during combat (excluding area-of-effect Specials; X = 20% of unit's Spd), and restores 7 HP to unit after combat.
+|required=Silver Sword
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Ce1={{Eft|Temporary debuffs|Atk/Spd/Def/Res|5}}
+|Ce2={{Eft|Neutralize Bonuses}}
+|Ce1-2T={{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|Ce3={{Eft|Temporary Debuffs|Atk/Spd/Def/Res|3 x {{Tgt|Allies}} from distinct<br>[[titles]] [[within 3 spaces]], +4|max=10}}
+|Ce4={{Eft|Reduce Damage Reduction|50%}}
+|Ce3-4T={{Tgt|Foe}}
+|Ce5={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|Ce6={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Spd}}<br>from {{Tgt|Foe}}'s attacks
+|Ce7={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Spd}}<br>per {{Tgt|Foe}}'s [[offensive special]]
+|Ce3-7C=Enemy Phase '''or'''<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Me={{Eft|Heal|7}}
+|MeC=After combat in<br>Enemy Phase '''or'''<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{Temporary debuffs}}
+{{Bonus neutralization}}
+{{FoesCombatEffect|temporary debuffs and bonus neutralization effects}}
+{{DistinctGameTitles}}
+{{Reduce Damage Reduction}}
+{{DamageBoost}}
+{{FlatDamageReduction}}
+{{After combat healing}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Alear: Fell Dragon Child|t=Alear: Dragon Youth
+|---xxx---
+|---xxx---
+|---xxx---
+|xxxxxxxxx
+|xtxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%distinct game titles%'}}
+* [[Rein Passives]]
+* [[Skill families/C Passives#Crux|Crux Passives]]
+{{Weapons Navbox}}

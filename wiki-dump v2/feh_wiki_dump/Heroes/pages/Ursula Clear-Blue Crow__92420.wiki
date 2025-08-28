@@ -1,0 +1,70 @@
+{{#invoke:NameAbout|main|Name=Ursula}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Ursula
+|Title=Clear-Blue Crow
+|GrowthModifier=Gen 3
+|WeaponType=Colorless Dagger
+|MoveType=Cavalry
+|Origin=Fire Emblem: The Blazing Blade
+|Gender=Female
+|artist=山田孝太郎
+|actorEN=Misty Lee
+|actorJP=水橋かおり
+|releaseDate=2019-07-09
+|additionDate=2019-07-08
+|TagID=水着ウルスラ
+|InternalID=397
+|Properties=special,specRate_202302
+|cv1=6
+|cv2=2900800
+|description=An elite member of the Black Fang, known as the Blue Crow. Her motives for visiting the beach remain mysterious. Appears in Fire Emblem: The Blazing Blade.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=10|Lv1SPD=8|Lv1DEF=3|Lv1RES=6
+|GRHP=45|GRATK=60|GRSPD=60|GRDEF=30|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Dagger
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Dagger
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Scallop Blade
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Scallop Blade+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Rally Speed
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Rally Atk/Spd
+|assist2Unlock=4
+|assist3=Rally Atk/Spd+
+|assist3Unlock=5
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveB1=Def/Res Ruse 1
+|passiveB2=Def/Res Ruse 2
+|passiveB3=Def/Res Ruse 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Even Res Wave 1
+|passiveC2=Even Res Wave 2
+|passiveC3=Even Res Wave 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Summer units]]

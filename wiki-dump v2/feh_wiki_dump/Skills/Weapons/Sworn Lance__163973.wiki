@@ -1,0 +1,48 @@
+{{Weapon Infobox
+|tagid=SID_騎士の誓いの槍
+|intID=2900
+|userVersion1=Weapon
+|userVersion2=Gleam
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=16
+|range=1
+|effectiveness=Armored
+|effect=Effective against armored foes. At start of combat, if unit's HP ≥ 25%, grants Atk/Def+5 to unit during combat.
+|statModifiers=0,16,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|tagidExtraSkill1=一
+|effectSkill1=If unit is within 3 spaces of support partner or support partner's HP ≤ 80%, grants Atk/Def+7 to unit during combat and foe cannot make a follow-up attack.
+|iconSkill1=Sworn Lance W.png
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|Armored}}
+{{Combat boosts}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Prevent follow-up}}
+{{SupportPartner|effect=combat boosts granted to unit and the follow up preventing effects}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=騎士の誓いの槍
+|german=Lanze des Eids
+|spanishEU=Lanza prometida
+|spanishLA=Lanza prometida
+|french=Lance promise
+|italian=Lancia giurata
+|chineseTW=騎士的誓約之槍
+|portuguese=Lança prometida
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit\'s HP ≥%grants Atk/Def+%during combat%' OR Description LIKE '%support partner%'|columns=3}}
+* [[Weapons that are effective against armored foes]]
+{{Weapons Navbox}}

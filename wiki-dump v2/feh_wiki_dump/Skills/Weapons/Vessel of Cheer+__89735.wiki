@@ -1,0 +1,40 @@
+{{Weapon Infobox
+|tagid=SID_祝杯のボトル＋
+|weaponType=Blue Tome
+|might=12
+|range=2
+|effect=If unit initiates combat, grants Atk/Spd+4 during combat.
+|cost=300
+|exclusive=0
+|statModifiers=0,12,0,0,0
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|required=Vessel of Cheer
+|properties=
+}}
+==Notes==
+* Has the same effect as {{St|Swift Sparrow 2}}.
+{{IfUnitInitiates}}
+{{Combat boosts}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+File:V3.5 84 bride03 Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=祝杯のボトル＋
+|german=Festtagsflasche+
+|spanishEU=Botella festiva +
+|spanishLA=Botella festiva +
+|french=Bouteille festive +
+|italian=Brindisi sapiente+
+|chineseTW=慶典玻璃瓶＋
+|portuguese=Tim-tim+
+}}
+{{Weapons Navbox}}

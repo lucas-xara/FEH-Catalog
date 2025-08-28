@@ -1,0 +1,36 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_お大尽の弓
+|weaponType=Bow
+|might=8
+|range=2
+|effectiveness=Flying
+|effect=Effective against flying foes. Grants Atk+7 to unit and inflicts Atk-7 on foe during combat. After combat, if unit attacked, inflicts Special cooldown count+2 on unit. (Cannot exceed the unit's maximum Special cooldown.)
+|cost=200
+|exclusive=0
+|userVersion1=Bow
+|userVersion2=Arrow
+|statModifiers=0,8,0,0,0
+|required=Steel Bow
+|next=Spendthrift Bow+
+|promotionRarity=5
+|promotionTier=1
+|properties=random_owner
+}}
+==Notes==
+{{Effective damage bonus|Flying}}{{Combat boosts}}{{Combat reductions}}{{IfUnitAttacked}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=お大尽の弓
+|german=Verschwender
+|spanishEU=Arco soborno
+|spanishLA=Arco soborno
+|french=Arc dépensier
+|italian=Arco prodigo
+|chineseTW=富豪之弓
+|portuguese=Arco perdulário
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants Atk+%to unit%inflicts Atk-%on foe%'|columns=3}}
+{{Weapons Navbox}}

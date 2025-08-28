@@ -1,0 +1,52 @@
+{{Weapon Infobox
+|tagid=SID_金蘭の書
+|weaponType=Blue Tome
+|might=14
+|range=2
+|effect=If unit initiates combat, grants Atk+6 during combat.
+|cost=400
+|exclusive=1
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|statModifiers=0,14,0,0,0
+|required=-
+|SE=
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Atk/Spd+6 to unit and target ally or unit and targeting ally for 1 turn.
+|iconSkill1=Atk Spd Link W.png
+|tagidExtraSkill1=連
+|properties=
+}}
+==Notes==
+* Has the same effect as {{Pt|Death Blow 3}}.
+{{IfUnitInitiates}}
+{{Combat boosts}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+* The upgraded version of Book of Orchids listed first has the same effect as {{St|Atk/Spd Link 3}}.
+{{Bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+Book of Orchids animation.webm|Animation
+V3.8_89_abc02_Mag.webp|Spritesheet for {{St|Inscribed Tome}}, [[Fox tomes]], and {{PAGENAME}}'s animations.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=金蘭の書
+|german=Orchideenbuch
+|spanishEU=Libro orquídeas
+|spanishLA=Libro orquídeas
+|french=Livre d'orchidées
+|italian=Tomo di orchidea
+|chineseTW=金蘭之書
+|portuguese=Livro da orquídea
+}}
+{{Weapons Navbox}}

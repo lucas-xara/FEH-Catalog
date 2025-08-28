@@ -1,0 +1,37 @@
+{{Weapon Infobox
+|tagid=SID_荘厳なる祝福の聖斧
+|intID=3387
+|image=wep_ax124
+|exclusive=1
+|weaponType=Axe
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit during combat, and also, if unit's attack can trigger their Special, the following effects will occur based on foe's HP at start of combat: if ≥ 20%, reduces damage from foe's first attack by 40%; and if ≥ 40%, reduces foe's Atk/Spd by 25% of foe's Atk at start of combat, -8 (max 10, min 0); and if ≥ 60%, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat.
+|statModifiers=0,16,0,0,0
+|required=Silver Axe
+|properties=
+}}
+==Notes==
+{{Temporary buffs}}
+{{DamagePercentageReduction}}
+{{At start of combat}}
+{{Temporary debuffs}}
+{{Follow-up effect neutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=荘厳なる祝福の聖斧
+|german=Feierliche Axt
+|spanishEU=Hacha solemne
+|spanishLA=Hacha solemne
+|french=Hache solennelle
+|italian=Ascia solenne
+|chineseTW=莊嚴的祝福聖斧
+|portuguese=Machado solene
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%foe_s HP%reduces damage from foe_s first attack%' OR Description LIKE '%following effects%HP%reduces damage from foe_s first attack%') AND Exclusive='1'}}
+{{Weapons Navbox}}

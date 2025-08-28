@@ -1,0 +1,42 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_冬祭のブーツ＋
+|weaponType=Dagger
+|weaponName=Goodie Boot+
+|might=12
+|range=2
+|effect=During combat, boosts unit's Def/Res by number of allies within 2 spaces × 2. (Maximum bonus of +6 to each stat.)<br> After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions.
+|cost=300
+|exclusive=0
+|statModifiers=0,12,0,0,0
+|required=Goodie Boot
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+{{Debuffs}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=冬祭のブーツ＋
+|german=Festtagsstiefel+
+|spanishEU=Bota generosa +
+|spanishLA=Bota generosa +
+|french=Botte à joujoux +
+|italian=Stivale dei doni+
+|chineseTW=冬祭之靴＋
+|portuguese=Bota generosa+
+}}
+
+==See also==
+* [[Glittering Breath+]]
+{{Weapons Navbox}}
+[[Category:Seasonal weapons]]

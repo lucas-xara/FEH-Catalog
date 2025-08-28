@@ -1,0 +1,41 @@
+{{Passive
+|type=A
+|name=Gift of Magic
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Gift of Magic
+|1tagid=SID_人に魔道を授けし者
+|1cost=300
+|1effect=If unit initiates combat or foe's Range = 2, inflicts Atk/Res-10 on foe during combat, unit makes a guaranteed follow-up attack, and also, if unit receives consecutive attacks, reduces damage from foe's second attack onward by 80%. If foe with Range = 2 initiates combat and foe can make a follow-up attack, foe makes a follow-up attack before unit can counterattack.
+|1required=-
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary debuffs}}
+{{Guaranteed follow-up interaction}}
+{{DamagePercentageReduction}}
+{{Follow-up before counterattack|foe=1|phase=Enemy}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=人に魔道を授けし者
+|german=Magiegabe
+|spanishEU=Regalo mágico
+|spanishLA=Regalo mágico
+|french=Talent magique
+|italian=Talento magico
+|chineseTW=向人傳授魔道者
+|portuguese=Dom da magia
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit initiates combat or%foe_s Range%=%2%' AND Description NOT LIKE '%lower of%' OR Description LIKE '%consecutive attacks%' AND Exclusive='1' OR Description LIKE '%foe can make a follow-up attack before unit%'}}
+* [[Deflect Seals]]
+{{Passives Navbox|A}}

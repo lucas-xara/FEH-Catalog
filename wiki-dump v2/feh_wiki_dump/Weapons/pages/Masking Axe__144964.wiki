@@ -1,0 +1,55 @@
+{{Weapon Infobox
+|tagid=SID_鉄面の斧
+|userVersion1=Weapon
+|userVersion2=Gleam
+|weaponType=Axe
+|might=16
+|range=1
+|effectiveness=Cavalry
+|effect=Effective against cavalry foes. If foe initiates combat or if foe's HP ≥ 75% at start of combat, grants Atk/Def+5 to unit during combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=-
+|intID=2628
+|sort=555
+|value=20
+|timingID=0
+|abilityID=0
+|limit1ID=67
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|tagidExtraSkill1=奮
+|effectSkill1=If unit is not adjacent to an ally, inflicts Atk/Def-5 on foe during combat. At start of turn, if unit is not adjacent to an ally, grants Atk/Def+6 to unit for 1 turn.
+|iconSkill1=Masking Axe W.png
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|Cavalry}}
+{{IfFoeInitiates}}
+{{Combat boosts}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+* The refined effect listed first has the same effect as {{St|Rouse Atk/Def 3}}.
+{{Combat reductions}}
+{{Bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=鉄面の斧
+|german=Masken-Axt
+|spanishEU=Hacha incógnito
+|spanishLA=Hacha incógnito
+|french=Hache masquée
+|italian=Ascia mascherata
+|chineseTW=鐵面之斧
+|portuguese=Mach. mascarado
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%foe initiates combat%foe_s HP%grants Atk/Def+_%during combat%' OR Description LIKE '%if unit is not%adjacent%to an ally%inflicts Atk/Def-%during combat%' AND Description NOT LIKE '%transforms%'|columns=3}}
+* [[Weapons that are effective against cavalry foes]]
+{{Weapons Navbox}}

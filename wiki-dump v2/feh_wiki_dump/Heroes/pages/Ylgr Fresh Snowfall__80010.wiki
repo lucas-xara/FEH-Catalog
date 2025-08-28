@@ -1,0 +1,76 @@
+{{#invoke:NameAbout|main|Name=Ylgr}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Ylgr
+|Title=Fresh Snowfall
+|GrowthModifier=
+|WeaponType=Blue Dagger
+|Origin=Fire Emblem Heroes
+|Gender=Female
+|MoveType=Infantry
+|actorJP=大空直美
+|actorEN=Megan Lee
+|artist=前嶋重機
+|additionDate=November 21, 2018
+|releaseDate=November 21, 2018
+|poolDate=December 12, 2018
+|randomStartTime=2018-12-21T07:00:00Z
+|poolRarities=5
+|TagID=ユルグ
+|InternalID=314
+|cv1=0
+|cv2=200400
+|description=The youngest princess of Nifl, the Kingdom of Ice. Naive and brimming with curiosity, she's eager to explore new horizons.
+|Properties=specRate_202108
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=7|Lv1SPD=10|Lv1DEF=7|Lv1RES=5
+|GRHP=50|GRATK=60|GRSPD=65|GRDEF=35|GRRES=35
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Dagger
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Dagger
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Dagger
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Sylgr
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Glimmer
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Sorcery Blade 1
+|passiveA2=Sorcery Blade 2
+|passiveA3=Sorcery Blade 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Chill Spd 1
+|passiveB2=Chill Spd 2
+|passiveB3=Chill Spd 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Spd Tactic 1
+|passiveC2=Spd Tactic 2
+|passiveC3=Spd Tactic 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

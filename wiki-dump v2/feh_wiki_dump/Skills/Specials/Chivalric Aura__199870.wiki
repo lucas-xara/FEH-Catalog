@@ -1,0 +1,49 @@
+{{Special
+|tagid=SID_グランベルの騎士道
+|intID=3728
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=2
+|effect=At start of turn, if unit's Special cooldown count is at its maximum value, grants Special cooldown count-1 to unit. Boosts Special damage by 25% of unit's Atk. After combat, if unit's Special triggered, grants Atk+6 to unit and all allies for 1 turn, and unit and all allies can move 1 extra space (that turn only; does not stack; bonus granted to allies even if unit's HP reaches 0).
+|required=Draconic Aura
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Reduce Cooldown|1}}
+|MeC=At start of turn<br>if {{Tgt|Unit}}'s CD<br>is max value
+|Se1={{Eft|Bonuses|Atk|6}}
+|Se2={{SEt|Mobility increased}}
+|SeT1-2={{Tgt|Unit}} '''&'''<br>{{Tgt|Allies}}
+|SeC1-2=After combat if<br>special triggers<br>(even if {{Tgt|Unit}}'s<br>HP reaches 0)
+|Ce={{Eft|Damage Boost|25% of {{Tgt|Unit}}'s Atk}}
+|CeC=Special triggers
+}}
+
+==Notes==
+* Chivalric Aura has the same effect as {{St|Time's Pulse 3}}.
+{{Start of turn Special modification}}
+{{AtkDamageBoost}}
+{{Bonuses}}
+{{Mobility increased}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=グランベルの騎士道
+|german=Ritterliche Aura
+|spanishEU=Aura caballeresca
+|spanishLA=Aura caballeresca
+|french=Aura de chevalier
+|italian=Aura cavalleresca
+|chineseTW=格蘭貝魯的騎士精神
+|portuguese=Aura honrosa
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE'%even if unit_s HP reaches 0%' OR Description LIKE '%maximum value%Special cooldown count-1%' OR Description LIKE '%start of turn%Special cooldown count-1%maximum value%'}}
+* [[Pulse skills]]
+{{Specials Navbox}}

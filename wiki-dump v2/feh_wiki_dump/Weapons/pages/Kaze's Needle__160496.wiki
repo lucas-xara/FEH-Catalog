@@ -1,0 +1,49 @@
+{{Weapon Infobox
+|tagid=SID_スズカゼの疾風針
+|intID=2805
+|userVersion1=Weapon
+|userVersion2=Gleam
+|exclusive=1
+|weaponType=Dagger
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Res+4 to unit during combat.<br>Effect:【Dagger ７】<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|statModifiers=0,14,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|tagidExtraSkill1=一
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Res+4 to unit during combat, and also, if unit's Spd > foe's Spd, grants Special cooldown charge +1 and deals +5 damage per unit's attack, including when dealing damage with a Special triggered before combat. (Only highest value applied. Does not stack.)
+|iconSkill1=Kazes Needle W.png
+|properties=
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Combat boosts}}
+{{IfUnitAttacked}}
+{{Penalties}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{CooldownChargePlus|perAttack=user}}
+{{FixedDamage|5}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=スズカゼの疾風針
+|german=Kazes Nadel
+|spanishEU=Cuchilla Kaze
+|spanishLA=Cuchilla Kaze
+|french=Aiguille (Kaze)
+|italian=Ago di Kaze
+|chineseTW=涼風的疾風針
+|portuguese=Agulha de Kaze
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit initiates%within 2 spaces of an ally%grants Atk/Spd/Res+%during combat%' OR Description LIKE '%if unit_s HP ≥%grants Atk/Spd/Res+%during combat%' OR Description LIKE '%unit_s Spd > foe_s Spd%Special cooldown charge +1%'|columns=3}}
+{{Weapons Navbox}}

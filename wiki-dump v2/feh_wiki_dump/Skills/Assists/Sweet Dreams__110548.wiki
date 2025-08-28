@@ -1,0 +1,53 @@
+{{About|the Exclusive Assist skill|the Tempest Trial|Tempest Trials+: Sweet Dreams}}{{Assist
+|tagid=SID_あまいゆめ
+|name=Sweet Dreams
+|range=1
+|effect=Grants another action to target ally and grants Atk/Spd/Def/Res+3 to target ally for 1 turn. Inflicts Atk/Spd/Def/Res-4 on nearest foes within 4 spaces of target ally through foes' next actions. (Cannot target an ally with Sing or Dance. This skill treated as Sing or Dance.)
+|cost=400
+|exclusive=1
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|exclude=staff}}
+|required=Dance
+|intID=1899
+|sort=343
+|effectRange=4
+|value=15
+|timingID=0
+|abilityID=30
+|randomTimestamp=2020-02-09T07:00:00Z
+|randomMinLv=31
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|MapEffect={{Eft|Another Action}}
+|MapEffect Targets={{Tgt|Target Ally}}
+|MapEffect Conditions={{Tgt|Target (Ally)}}<br>doesn't have a<br>{{Uti|Dance}} [[Dance Assist]]<br>'''or''' {{SEt|Isolation}}
+|StatusEffect 1={{Eft|Bonus|Atk/Spd/Def/Res|3}}
+|StatusEffect 1 Targets={{Tgt|Target Ally}}
+|StatusEffect Conditions={{Tgt|Target (Ally)}}<br>doesn't have a<br>{{Uti|Dance}} [[Dance Assist]]<br>'''or''' {{SEt|Isolation}}
+|StatusEffect 2={{Eft|Penalties|Atk/Spd/Def/Res|4}}
+|StatusEffect 2 Targets=Nearest {{Tgt|Foes}}<br>[[within 4 spaces]]<br>of {{Tgt|Target (Ally)}}
+}}
+
+==Notes==
+{{Bonuses}}
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Sweet Dreams
+|japanese=あまいゆめ
+|german=Süße Träume
+|spanishEU=Ensueño dulce
+|spanishLA=Ensueño dulce
+|french=Doux rêves
+|italian=Sogni d'oro
+|chineseTW=甜蜜夢境
+|portuguese=Doces sonhos
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%This skill treated as Sing or Dance%'}}
+{{Assists Navbox}}
+[[Category:Dance skills]][[Category:Sources of effects that grant "another action"]]

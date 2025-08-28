@@ -1,0 +1,47 @@
+{{Weapon Infobox
+|tagid=SID_エイド＋
+|intID=3381
+|image=wep_rd051
+|exclusive=0
+|weaponType=Colorless Staff
+|cost=300
+|might=12
+|range=2
+|effect=At start of turn, restores 10 HP to ally that has been dealt the most damage. (Excludes unit.)
+|statModifiers=0,12,0,0,0
+|required=Aid
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|tagidExtraSkill1=神
+|effectSkill1=Calculates damage from staff like other weapons.
+|iconSkill1=Wrathful Staff W.png
+|tagidExtraSkill2=幻
+|effectSkill2=Foe cannot counterattack.
+|iconSkill2=Dazzling Staff W.png
+|properties=random_owner
+}}
+==Notes==
+{{HealDamagedAlly}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Staff Plus Refines}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=エイド＋
+|german=Beihilfe+
+|spanishEU=Auxilio +
+|spanishLA=Auxilio +
+|french=Assistance +
+|italian=Conforto+
+|chineseTW=救護＋
+|portuguese=Amparo+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%At start of turn, restores%HP to ally that has been dealt the most damage%'}}
+{{Weapons Navbox}}

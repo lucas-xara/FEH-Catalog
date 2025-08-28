@@ -1,0 +1,46 @@
+{{Passive
+|name=Cross Spur Spd
+|type=C
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_inherit_base,random_owner
+|1name=Cross Spur Spd
+|1tagid=SID_速さの十字紋章
+|1effect=Grants Spd+5 to allies in cardinal directions of unit during combat.
+|1cost=300
+|1required=Spur Spd 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce={{Eft|Temporary buffs|Spd|5}}
+|CeT={{Tgt|Allies}} within<br>[[Cardinal directions]]
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{CardinalDirections}}
+{{AlliesCombatEffect|temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=速さの十字紋章
+|german=Kreuz-Ges. anspo.
+|spanishEU=Mejora Vel cruz
+|spanishLA=Mejora Vel. cruz
+|french=Ence. croisé Vit
+|italian=Migliora Vel area
+|chineseTW=速度十字紋章
+|portuguese=Vel. realç. cruz
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grant%+%to%all%cardinal direction%combat%' AND WikiName NOT LIKE '%spur%' AND Description NOT LIKE '%rally%'}}
+* [[Skill families/C Passives#Cross Spur|Cross Spur Passives]]
+{{Passives Navbox|C}}
+[[Category:Spur Passives]][[Category:Cross Spur Passives]]

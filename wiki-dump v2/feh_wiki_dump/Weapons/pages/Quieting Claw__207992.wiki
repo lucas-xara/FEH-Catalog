@@ -1,0 +1,68 @@
+{{Weapon Infobox
+|tagid=SID_刃の葬り手の爪
+|intID=3962
+|exclusive=1
+|weaponType=Beast
+|canUseMove=Flying
+|cost=400
+|might=14
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of turn, if unit's HP ≥ 25%, inflicts Spd/Def-7,【Exposure】, and a penalty that neutralizes non-Special "if foe would reduce unit's HP to 0, unit survives with 1 HP" effects on nearest foe and foes within 2 spaces of them through their next actions. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit and inflicts Atk/Spd/Def-X on foe (X = number of foes within 2 spaces of target with Bonuses or Penalties active on them, excluding target, × 3, + 4; max 10), deals Y damage (Y = total number of Bonuses and Penalties active on foe and any foe within 2 spaces of foe, excluding stat bonuses and stat penalties, x 3; excluding when dealing damage with an area-of-effect Special), reduces damage from attacks by 40%, and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat. At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, unit can move 1 extra space (that turn only; does not stack) and grants Atk+2 to unit.<br><br>【Exposure】<br>Foe's attacks deal +10 damage.
+|required=Adult (Flier)
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe1={{Eft|Accelerate Special}}
+|Pe2={{Eft|Stat Boosts|Atk|2}}
+|Pe2C={{Tgt|Unit}} is transformed
+|Se1={{Eft|Penalties|Spd/Def|7}}
+|Se2={{SEt|Exposure}}
+|Se3=<span style="width:14.5em;display:inline-block"/>{{SEt|Neutralizes non-Special "unit survives with 1 HP" effects}}
+|Se1-3T=Nearest {{Tgt|Foes}}<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}
+|Se1-3C=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25%
+|Se4={{SEt|Mobility Increased}}
+|Se4T={{Tgt|Unit}}
+|Se4C=At start of turn if<br>{{Tgt|Unit}} is transformed
+|Me={{Eft|Transform}}
+|MeC=At start of turn if<br>{{Tgt|Unit}} is [[adjacent]] to only<br>{{Cwti|group=1|Beast,Dragon}} [[Dragon]]/[[Beast]]<br>{{Tgt|Allies}} '''or''' not [[adjacent]]<br>to any {{Tgt|Ally}}
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce2={{Eft|Damage boost|3 x [[Status effects]] on<br>{{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]] of {{Tgt|Target Foe}}<br>(exc. {{SEt|Bonuses}} '''&''' {{SEt|Penalties}})}}
+|Ce3={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s attacks
+|Ce4={{Eft|Temporary debuffs|Atk/Spd/Def/Res|3 x {{Tgt|Foes}} [[within 2 spaces]] of<br>{{Tgt|Target Foe}} with a [[status effect]], +4<br>(excluding {{Tgt|Target Foe}})|max=10}}
+|Ce5={{Eft|Reduce Damage Reduction|50%}}
+|Ce4-5T={{Tgt|Foe}}
+|CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Penalties}}
+{{Exposure}}
+{{Neutralize Unit Survives With 1 HP}}
+{{Temporary buffs}}
+{{Temporary debuffs}}
+{{EffectfromBonusPenalty|target=foes within 2 spaces of target|temporary debuffs}}
+{{FlatDamageBoost}}
+{{EffectfromBonusPenalty|target=foes within 2 spaces of target|damage boost|nonStat=1}}
+{{DamagePercentageReduction}}
+{{Beast (Flier)}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=刃の葬り手の爪
+|german=Todesklaue
+|spanishEU=Garra silenciadora
+|spanishLA=Garra cruel
+|french=Griffe funeste
+|italian=Artiglio fatale
+|chineseTW=刀刃的葬送者之爪
+|portuguese=Garra cerceadora
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%number of %bonus%penalty%' OR Description LIKE '%start of turn%inflicts%est%foe%and foes within _ spaces of%') AND Exclusive='1'}}
+* [[Null Passives]]
+* [[Tempo Passives]]
+{{Weapons Navbox}}

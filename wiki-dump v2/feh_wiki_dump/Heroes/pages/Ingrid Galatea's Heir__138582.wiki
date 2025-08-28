@@ -1,0 +1,77 @@
+{{#invoke:NameAbout|main|Name=Ingrid}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Ingrid
+|Title=Galatea's Heir
+|WeaponType=Blue Lance
+|MoveType=Cavalry
+|Origin=Fire Emblem: Three Houses
+|Gender=Female
+|actorEN=Brittany Cox
+|actorJP=石見舞菜香
+|artist=西木あれく
+|randomStartTime=2021-04-05T07:00:00Z
+|additionDate=March 4, 2021
+|releaseDate=March 5, 2021
+|poolDate=March 30, 2021
+|poolRarities=5
+|cv1=12
+|cv2=300800
+|TagID=イングリット
+|InternalID=635
+|Properties=specRate_202402
+|description=Heir to House Galatea of the Holy Kingdom of Faerghus. Lost her fiancé in the Tragedy of Duscur. Appears in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=7|Lv1SPD=10|Lv1DEF=6|Lv1RES=8
+|GRHP=45|GRATK=65|GRSPD=70|GRDEF=50|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Lance
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Lúin
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Moonbow
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Solo 1
+|passiveA2=Atk/Spd Solo 2
+|passiveA3=Atk/Spd Solo 3
+|passiveA4=Atk/Spd Solo 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Lull Spd/Def 1
+|passiveB2=Lull Spd/Def 2
+|passiveB3=Lull Spd/Def 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Rouse Atk/Spd 1
+|passiveC2=Rouse Atk/Spd 2
+|passiveC3=Rouse Atk/Spd 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

@@ -1,0 +1,41 @@
+{{Weapon Infobox
+|tagid=SID_花開く心技の剣
+|intID=3006
+|image=wep_sw125
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At the start of turn 1, grants Special cooldown count-1. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 during combat, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks, and after combat, grants Special cooldown count-1.
+|statModifiers=0,16,0,0,0
+|required=Silver Sword
+|properties=random_owner
+}}
+==Notes==
+* Has the same effect as {{St|Quickened Pulse}}.
+{{Start of turn Special modification}}
+{{Temporary buffs}}
+{{Follow-up effect neutralization}}
+{{After combat note}}
+{{After combat Special modification}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=花開く心技の剣
+|german=Erleuchtete Klinge
+|spanishEU=Hoja floreciente
+|spanishLA=Hoja floreciente
+|french=Lame éminente
+|italian=Lama fiorente
+|chineseTW=綻放的心技之劍
+|portuguese=Corte ascendente
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%at the start of turn 1, grants special cooldown count-1%' AND Exclusive='1' OR Description LIKE '%grants%/%+%during combat%neutralizes effects that guarantee foe\'s follow-up attacks and effects that prevent unit\'s follow-up attacks%' AND Description NOT LIKE '%【Null Follow-Up】%' OR Description LIKE '%after combat,%grants special cooldown count-%'}}
+{{Weapons Navbox}}

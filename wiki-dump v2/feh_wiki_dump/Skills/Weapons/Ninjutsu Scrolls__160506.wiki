@@ -1,0 +1,44 @@
+{{Weapon Infobox
+|tagid=SID_双風忍法帳
+|intID=2824
+|image=wep_mg259
+|exclusive=1
+|weaponType=Green Tome
+|cost=400
+|might=9
+|range=2
+|effect=Grants Spd+4. Inflicts Def/Res-4. If unit initiates combat, unit attacks twice, and also, if unit's Spd > foe's Spd, deals damage = 70% of difference between stats. (Maximum bonus of +7 damage.)
+|statModifiers=0,9,4,-4,-4
+|required=Rexcalibur
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Stat Boosts|Spd|4}}, {{Eft|Stat Reductions|Def/Res|5}}
+|Ce1={{Eft|Attack Twice}}
+|Ce1C=Player Phase
+|Ce2={{Eft|Damage Boost|70% of {{Tgt|Unit}}'s Spd<br>- {{Tgt|Foe}}'s Spd|max=7}}
+|Ce2C=Player Phase '''&'''<br>{{Tgt|Unit}}'s Spd ><br>{{Tgt|Foe}}'s Spd
+}}
+
+==Notes==
+{{IfUnitInitiates}}
+{{Brave weapon interaction}}
+{{BonusStatDamage|stat=Spd}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=双風忍法帳
+|german=Ninjutsu-Schrift
+|spanishEU=Rollos ninjas
+|spanishLA=Rollos ninjas
+|french=Parchemins ninja
+|italian=Pergamene ninja
+|chineseTW=雙風忍法帳
+|portuguese=Pergaminho ninja
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%inflicts Def/Res-%Unit attacks twice%' AND (SP=300 OR Exclusive='1') OR Description LIKE '%attacks twice%' AND CanUseWeapon__full LIKE '%Tome') AND Description NOT LIKE '%"unit attacks twice%"%strikes%'}}
+* [[Brave Weapons]]
+{{Weapons Navbox}}

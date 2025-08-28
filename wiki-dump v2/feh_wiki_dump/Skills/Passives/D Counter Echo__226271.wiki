@@ -1,0 +1,43 @@
+{{Passive
+|name=D Counter Echo
+|type=X
+|exclusive=0
+|canUseWeapon={{WeaponList|Close}}
+|canUseMove={{MoveList|All}}
+|1name=D Counter Echo
+|1tagid=SID_響・遠距離反撃
+|1effect=Unit can counterattack regardless of foe's range.
+|1cost=0
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce={{Eft|Distant Counter}}
+}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%counterattack regardless of%range%' AND SCategory!='Weapon') AND ((Exclusive='1' AND Name NOT LIKE '%+') OR SCategory='captain')}}
+* [[Counter Passives]]
+* [[Counter Seals]]
+* [[Prime Passives]]
+* [[Weapons with Distant Counter]]
+* [[Weapons with Close Counter]]
+{{Passives Navbox|X}}

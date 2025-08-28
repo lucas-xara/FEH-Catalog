@@ -1,0 +1,30 @@
+{{Passive
+|1name=Follow-Up Ring
+|1tagid=SID_追撃リング
+|1required=-
+|1effect=At start of combat, if unit's HP ≥ 50%, unit makes a guaranteed follow-up attack. (Skill cannot be inherited.)
+|1cost=200
+|type=B
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=
+}}
+==Notes==
+{{Guaranteed follow-up interaction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=追撃リング
+|german=Folgering
+|spanishEU=Anillo doble
+|spanishLA=Anillo doble
+|french=Anneau frappe x
+|italian=Anello att. doppio
+|chineseTW=追擊手鐲
+|portuguese=Anel duplo
+}}
+==See also==
+* [[Quick Riposte]]
+{{Passives Navbox|B}}

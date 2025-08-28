@@ -1,0 +1,69 @@
+{{#invoke:NameAbout|main|Name=Astram}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Astram
+|Title=Midia's Hero
+|WeaponType=Red Sword
+|Origin=Fire Emblem: Mystery of the Emblem
+|Gender=Male
+|MoveType=Infantry
+|actorJP=中井和哉
+|actorEN=Jamison Boaz
+|artist=AKIRA
+|additionDate=September 19, 2019
+|releaseDate=September 23, 2019
+|TagID=アストリア
+|InternalID=427
+|Properties=ghb,limited
+|cv1=1
+|cv2=300400
+|description=Captain of Archanea's free company. Awarded the sword Mercurius in light of his heroism and loyalty. Appears in Fire Emblem: Mystery of the Emblem.
+|GrowthModifier=Gen 4
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=11|Lv1SPD=10|Lv1DEF=8|Lv1RES=4
+|GRHP=60|GRATK=55|GRSPD=60|GRDEF=65|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Mercurius
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+}}
+===Specials===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=4
+|special1Unlock=3
+|special2=Bonfire
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Wind Boost 1
+|passiveA2=Wind Boost 2
+|passiveA3=Wind Boost 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=Wrath 1
+|passiveB2=Wrath 2
+|passiveB3=Wrath 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+{{Heroes Navbox}}

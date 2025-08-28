@@ -1,0 +1,49 @@
+{{Weapon Infobox
+|tagid=SID_蛇の杖＋
+|intID=2928
+|exclusive=0
+|weaponType=Colorless Staff
+|cost=300
+|might=12
+|range=2
+|effect=Foe cannot recover HP during or after combat. After combat, if unit attacked, deals 7 damage to and inflicts【Deep Wounds】on target and foes within 2 spaces of target.<br><br>【Deep Wounds】<br>Unit's HP cannot be healed through its next action.
+|statModifiers=0,12,0,0,0
+|required=Serpentine Staff
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|tagidExtraSkill1=神
+|effectSkill1=Calculates damage from staff like other weapons.
+|iconSkill1=Wrathful Staff W.png
+|tagidExtraSkill2=幻
+|effectSkill2=Foe cannot counterattack.
+|iconSkill2=Dazzling Staff W.png
+|properties=
+}}
+==Notes==
+{{Prevent healing}}
+{{IfUnitAttacked}}
+{{Out of combat damage}}
+{{Deep Wounds}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Staff Plus Refines}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=蛇の杖＋
+|german=Schlangenstab+
+|spanishEU=Bastón sierpe +
+|spanishLA=Bastón sierpe +
+|french=Bâton serpentin +
+|italian=Asta serpentina+
+|chineseTW=蛇之杖＋
+|portuguese=Bastão serpente+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%7 damage%to target%' OR Description LIKE '%【Deep Wounds】%' AND Description NOT LIKE '%reduces the effect of%【Deep Wounds】%'|columns=3}}
+{{Weapons Navbox}}

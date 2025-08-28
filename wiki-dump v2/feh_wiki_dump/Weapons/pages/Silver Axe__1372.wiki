@@ -1,0 +1,31 @@
+{{Weapon Infobox
+|tagid=SID_銀の斧
+|weaponType=Axe
+|might=11
+|range=1
+|cost=200
+|statModifiers=0,11,0,0,0
+|next=Silver Axe+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Axe
+|properties=random_all
+}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==In other languages==
+{{OtherLanguages
+|japanese=銀の斧
+|german=Silberaxt
+|spanishEU=Hacha plata
+|spanishLA=Hacha plata
+|french=Hache argent
+|italian=Ascia argento
+|chineseTW=銀斧
+|portuguese=Machado prata
+}}
+==See also==
+* [[Silver Weapons]]
+{{Weapons Navbox}}
+[[Category:Silver weapons]]

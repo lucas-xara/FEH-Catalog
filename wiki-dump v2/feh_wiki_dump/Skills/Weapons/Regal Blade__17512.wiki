@@ -1,0 +1,48 @@
+{{Weapon Infobox
+|tagid=SID_リガルブレイド
+|weaponType=Sword
+|might=16
+|range=1
+|effect=At start of combat, if foe’s HP = 100%, grants Atk/Spd+2 during combat.
+|cost=400
+|exclusive=1
+|userVersion1=Weapon
+|userVersion2=Upgrade Gleam
+|statModifiers=0,16,0,0,0
+|required=Silver Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=At start of combat, if foe's HP = 100%, grants Atk/Spd+3 during combat.
+|effectSkill1=If unit is within 2 spaces of an infantry magic ally, grants Atk/Spd/Def/Res+3 during combat.
+|iconSkill1=Regal Blade W.png
+|tagidExtraSkill1=絆
+|properties=random_owner
+}}
+==Notes==
+{{Temporary buffs}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{TermRefersTo|magic}}
+{{Temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|絆R歩行魔法|Infantry Mage Bond}}
+==In other languages==
+{{OtherLanguages
+|japanese=リガルブレイド
+|german=Königsklinge
+|spanishEU=Espada real
+|spanishLA=Filo real
+|french=Fer impérial
+|italian=Spada reale
+|chineseTW=帝王之劍
+|portuguese=Lâmina régia
+}}
+==See also==
+* [[Gleipnir]]
+* [[Ivaldi]]
+{{Weapons Navbox}}

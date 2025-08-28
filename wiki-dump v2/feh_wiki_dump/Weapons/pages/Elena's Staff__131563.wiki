@@ -1,0 +1,68 @@
+{{Weapon Infobox
+|tagid=SID_エルナの杖
+|weaponType=Colorless Staff
+|might=14
+|range=2
+|effect=Grants Res+3. Foe cannot counterattack. At start of turn, inflicts Atk/Spd-7 on nearest foes within 4 spaces through their next actions. After combat, if unit attacked, inflicts Atk/Spd-7 on target and foes within 2 spaces of target through their next actions.  
+|cost=400
+|exclusive=1
+|statModifiers=0,14,3,0,0
+|required=-
+|userVersion1=Weapon
+|userVersion2=Gleam
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=At start of turn, inflicts【Panic】on nearest foes within 4 spaces through their next actions. After combat, if unit attacked, inflicts【Panic】on target and foes within 2 spaces of target through their next actions.<br><br>【Panic】<br>Converts bonuses on target into penalties through its next action.
+|iconSkill1=Elenas Staff W.png
+|tagidExtraSkill1=恐
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Res|3}}
+|s1 Se1={{Eft|Penalties|Atk/Spd|7}}
+|s1 Se1T=Nearest {{Tgt|Foes}}<br>[[within 4 spaces]]
+|s1 Se1C=At start of turn
+|s1 Se2={{Eft|Penalties|Atk/Spd|7}}
+|s1 Se2T={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|s1 Se2C=After combat if<br>{{Tgt|Unit}} attacked
+|s1 Ce={{Eft|Prevent Counter}}
+|s1 CeT={{Tgt|Foe}}
+|skill2={{Si|Elena's Staff|refine=Skill1}} Skill refine effects
+|s2 Se1={{SEt|Panic}}
+|s2 Se1T=Nearest {{Tgt|Foes}}<br>[[within 4 spaces]]
+|s2 Se1C=At start of turn
+|s2 Se2={{SEt|Panic}}
+|s2 Se2T={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|s2 Se2C=After combat if<br>{{Tgt|Unit}} attacked
+}}
+
+==Notes==
+* Elena's Staff has the same effect as {{Pt|Dazzling Staff 3}}.
+{{Prevent counterattacks}}
+{{IfUnitAttacked}}
+{{Penalties}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Panic}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=エルナの杖
+|german=Elenas Stab
+|spanishEU=Bastón Elena
+|spanishLA=Bastón Elena
+|french=Bâton d'Elena
+|italian=Bastone di Elena
+|chineseTW=艾璐娜之杖
+|portuguese=Bastão de Elena
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%if unit attacked%bonuses%into%penalties%' AND Description NOT LIKE '%【Null Panic】%' OR (Description LIKE '%if unit attacked%inflicts%Atk%-%next action%' OR Description LIKE '%if unit attacked%inflicts%Spd%-%next action%') AND Description NOT LIKE '%but after combat%' AND Description NOT LIKE '%after combat%on unit%' AND Description NOT LIKE '%【Triangle Adept】%') AND Exclusive='1'}}
+* [[Menace Passives]]
+{{Weapons Navbox}}

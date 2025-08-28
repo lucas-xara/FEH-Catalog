@@ -1,0 +1,57 @@
+{{Passive
+|name=Squad Ace AQ
+|type=S
+|exclusive=0
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|timingID=0
+|abilityID=0
+|properties=
+|1name=Squad Ace AQ 1
+|alt1name=Squad Ace AG 1
+|1tagid=SID_第43迷宮の覇者1
+|1effect=Grants HP+3, Def+1.
+|1required=-
+|1cost=100
+|statModifiers1=3,0,0,1,0
+|intID1=2422
+|sort1=50420
+|value1=2
+|2name=Squad Ace AQ 2
+|alt2name=Squad Ace AG 2
+|2tagid=SID_第43迷宮の覇者2
+|2effect=Grants HP+4, Def+2.
+|2required=Squad Ace AQ 1
+|2cost=200
+|statModifiers2=4,0,0,2,0
+|intID2=2423
+|sort2=50421
+|value2=4
+}}
+==Seal acquired from==
+===Squad Assault reward===
+* Complete the [[43rd Assault]].
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Squad Ace AQ 1;Squad Ace AQ 2
+|badgeColor=Verdant 
+|costs1=-<!--0;0;0-->
+|costs2=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=第４３迷宮の覇者
+|german=Überf.-Ass AQ
+|spanishEU=As del asalto AQ
+|spanishLA=As del asalto AQ
+|french=Assaut réussi AQ
+|italian=Asso sq. AQ
+|chineseTW=第４３迷宮的霸王
+|portuguese=Esquadrão ás AQ
+}}
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}

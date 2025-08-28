@@ -1,0 +1,38 @@
+{{Weapon Infobox
+|tagid=SID_守りの斧
+|weaponType=Green Axe
+|might=10
+|range=1
+|effect=If foe initiates combat, grants Def+7 during combat.
+|cost=200
+|exclusive=0
+|statModifiers=0,10,0,0,0
+|next=Rearguard+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Axe
+|properties=random_all
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Combat boosts}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Rearguard
+|japanese=守りの斧
+|german=Nachhut
+|spanishEU=Retaguardia
+|spanishLA=Retaguardia
+|french=Hache protect.
+|italian=Retroguardia
+|chineseTW=守護之斧
+|portuguese=Retaguarda
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe initiates combat, grants Def+%during combat%' AND WikiName NOT RLIKE 'guard'|columns=1}}
+* [[Skill families/Weapons#Reprisal|Reprisal Weapons]]
+* [[Skill families/Weapons#Guard (temporary buffs)|Guard Weapons]]
+* [[Skill families/Weapons#Barrier|Barrier Weapons]]
+{{Weapons Navbox}}

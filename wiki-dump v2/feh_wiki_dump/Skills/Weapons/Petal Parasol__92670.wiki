@@ -1,0 +1,34 @@
+{{Weapon Infobox
+|tagid=SID_日傘
+|weaponType=Sword
+|might=10
+|range=1
+|effect=If【Penalty】is active on foe, grants Atk/Spd+5 during combat.<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|cost=200
+|exclusive=0
+|statModifiers=0,10,0,0,0
+|required=Steel Sword
+|next=Petal Parasol+
+|promotionRarity=5
+|promotionTier=1
+|properties=
+}}
+==Notes==
+{{Combat boosts}}{{EffectfromPenalty|target=foe|combat boost effect}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=日傘
+|german=Blütenschirm
+|spanishEU=Sombrilla floral
+|spanishLA=Sombrilla floral
+|french=Parasol fleur
+|italian=Petalo parasole
+|chineseTW=陽傘
+|portuguese=Sombrinha floral
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if%penalty%is active on foe%grants%/%+%during combat%' AND SCategory='weapon'|columns=3}}
+*[[Skill families#Catch|Catch Passives]]
+{{Weapons Navbox}}

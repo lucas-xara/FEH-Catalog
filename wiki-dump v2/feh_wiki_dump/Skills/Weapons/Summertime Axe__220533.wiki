@@ -1,0 +1,61 @@
+{{Weapon Infobox
+|tagid=SID_意気軒昂の夏祭の斧
+|intID=4275
+|image=wep_ax157
+|exclusive=1
+|weaponType=Axe
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Enables【Canto (Rem. +1)】.<br>Accelerates Special trigger (cooldown count-1).<br>Grants Atk/Spd/Def/Res+5.<br><br>At start of turn, if unit's HP ≥ 25%, grants Spd/Def/Res+6, "neutralizes 'effective against flying' bonuses," and "reduces the percentage of foe's non-Special 'reduce damage by X%' skills by 50% during combat (excluding area-of-effect Specials)" to unit for 1 turn.<br><br>At start of combat, if unit's HP ≥ 25% grants bonus to unit's Atk/Spd/Def/Res = 15% of unit's Spd at start of combat, neutralizes effects that inflict "Special cooldown charge -X" on unit, unit deals +X × 5 damage (max 30; excluding area-of-effect Specials), and reduces damage from foe's attacks by X × 3 during combat (max 18; excluding area-of-effect Specials), and also, when foe's attack triggers foe's Special, reduces damage further by X × 3 (max 18; excluding area-of-effect Specials; X = number of【Bonus】effects active on unit and foe, excluding stat bonuses).<br><br>At start of combat, if unit's HP ≥ 25%, restores 7 HP to unit after combat.<br><br>【Canto (Rem. +1)】<br>After an attack, Assist skill, or structure destruction, unit can move again.<br><br>The distance of the movement is the remaining movement the unit had before the actions listed above+1 (If unit used a movement skill that warps them, the remainder is 0).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|statModifiers=0,21,5,5,5
+|required=Silver Axe
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe1={{Eft|Accelerates Special}}
+|Pe2={{Eft|Stat Boosts|Atk/Spd/Def/Res|5}}
+|Me1={{Eft|Canto|Rem. +1}}
+|Me2={{Eft|Heal|7}}
+|Me2C=After combat if<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Se1={{Eft|Bonuses|Spd/Def/Res|6}}
+|Se2=<span style="width:12em;display:inline-block"/>{{SEt|Neutralize Effective Against Flying}}
+|Se3=<span style="width:12em;display:inline-block"/>{{SEt|Halves non-Special damage reduction}}
+|SeC=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25%
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|15% of {{Tgt|Unit}}'s Atk<br>at start of combat}}
+|Ce2={{Eft|Neutralize Guard}}
+|Ce3={{Eft|Damage Boost|5 x {{Kp|Bonus}} effects<br>on {{Tgt|Unit}} '''&''' {{Tgt|Foe}}}}
+|Ce4={{Eft|Damage Reduction|3 x {{Kp|Bonus}} effects<br>on {{Tgt|Unit}} '''&''' {{Tgt|Foe}}}}<br>from {{Tgt|Foe}}'s attacks
+|Ce5={{Eft|Damage Reduction|3 x {{Kp|Bonus}} effects<br>on {{Tgt|Unit}} '''&''' {{Tgt|Foe}}}} per<br>{{Tgt|Foe}}'s [[offensive special]]
+|CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Canto|Rem. +1}}
+{{Bonuses}}
+{{Neutralize Effective Against Flying}}
+{{Halves non-Special damage reduction}}
+{{Temporary buffs}}
+{{At start of combat}}
+{{CooldownChargeMinusNeutralization}}
+{{FlatDamageBoost|X (max: 30)}}
+{{FlatDamageReduction|X (max: 18)}}
+{{EffectfromBonus|nonStat=1|target=unit or foe|damage boost and damage reduction effects}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=意気軒昂の夏祭の斧
+|german=Sommeraxt
+|spanishEU=Hacha veraniega
+|spanishLA=Hacha veraniega
+|french=Hache estivale
+|italian=Ascia d'estate
+|chineseTW=意氣軒昂的夏祭之斧
+|portuguese=Machado estival
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%"neutralizes _effective against flying_ bonuses%' OR Description LIKE '%"reduces the percentage of foe_s non-Special%for 1 turn%' OR Description LIKE '% number of【Bonus】%effects active on unit and foe%' OR Description LIKE '%foe_s attack triggers foe_s Special%reduce%damage%') AND Exclusive='1'}}
+{{Weapons Navbox}}

@@ -1,0 +1,68 @@
+{{#invoke:NameAbout|main|Name=Mae}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Mae
+|Title=Spring Cheer
+|WeaponType=Green Tome
+|MoveType=Infantry
+|Origin=Fire Emblem Echoes: Shadows of Valentia
+|Gender=Female
+|actorEN=-
+|actorJP=稲川英里
+|artist=たん旦
+|additionDate=March 6, 2025
+|releaseDate=March 7, 2025
+|cv1=2
+|cv2=200200
+|TagID=春祭メイ
+|InternalID=1216
+|Properties=special
+|description=A mage who is well liked for her positivity and energy. She is Celica's close friend and strives to bring Askr's spring festival to life. Appears in Fire Emblem Echoes: Shadows of Valentia.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=9|Lv1SPD=11|Lv1DEF=4|Lv1RES=11
+|GRHP=50|GRATK=90|GRSPD=70|GRDEF=30|GRRES=70
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Wind
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elwind
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Spring-Air Egg
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Spring-Air Egg+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Glacies
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Null Follow-Up 1
+|passiveB2=Null Follow-Up 2
+|passiveB3=Null Follow-Up 3
+|passiveB4=Mag. Null Follow
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Atk/Spd Oath 1
+|passiveC2=Atk/Spd Oath 2
+|passiveC3=Atk/Spd Oath 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

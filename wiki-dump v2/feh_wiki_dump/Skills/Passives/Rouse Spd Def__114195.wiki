@@ -1,0 +1,73 @@
+{{Passive
+|name=Rouse Spd/Def
+|type=C
+|exclusive=0
+|1name=Rouse Spd/Def 1
+|1tagid=SID_速さ守備の奮起1
+|alt1name=Rouse Spd Def 1
+|1effect=At start of turn, if unit is not adjacent to an ally, grants Spd/Def+2 to unit for 1 turn.
+|1required=-
+|1cost=60
+|1promotionRarity=4
+|1promotionTier=1
+|2name=Rouse Spd/Def 2
+|2tagid=SID_速さ守備の奮起2
+|alt2name=Rouse Spd Def 2
+|2effect=At start of turn, if unit is not adjacent to an ally, grants Spd/Def+4 to unit for 1 turn.
+|2cost=120
+|2promotionRarity=5
+|2promotionTier=1
+|3name=Rouse Spd/Def 3
+|3tagid=SID_速さ守備の奮起3
+|alt3name=Rouse Spd Def 3
+|3effect=At start of turn, if unit is not adjacent to an ally, grants Spd/Def+6 to unit for 1 turn.
+|3next=-
+|3cost=240
+|4name=Rouse Spd/Def 4
+|alt4name=Rouse Spd Def 4
+|4tagid=SID_速さ守備の奮起4
+|4cost=300
+|4effect=At start of turn, if unit is not adjacent to an ally, grants Spd/Def+6 and【Null Panic】to unit for 1 turn.<br><br>【Null Panic】<br>If unit is inflicted with Panic (bonuses converted into penalties), neutralizes the "converts bonuses on target into penalties" effect for 1 turn. (Even though the effect is neutralized, the Panic status remains, and is treated as a Penalty status.)
+|canUseMove={{MoveList|Infantry,Cavalry}}
+|canUseWeapon={{WeaponList|All}}
+|properties=random_owner
+}}
+==Notes==
+{{Bonuses}}
+{{Null Panic|name=Rouse Spd/Def 4}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Rouse Spd/Def 1;Rouse Spd/Def 2;Rouse Spd/Def 3
+|badgeColor=Transparent
+|costs1=20;100;40
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|english=Rouse Spd/Def
+|japanese=速さ守備の奮起
+|german=Ges./Ver.-Hoch
+|spanishEU=Brío Vel/Def
+|spanishLA=Brío Vel./Def.
+|french=Réveil Vit/Déf
+|italian=Sveglia Vel/Dif
+|chineseTW=速度防守的奮起
+|portuguese=Vel./Def. ânimo
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【Null Panic】%' AND WikiName NOT LIKE '%rouse%'|columns=3}}
+* [[Solo Passives]]
+* [[Rouse Passives]]
+{{Passives Navbox|C}}
+[[Category:Rouse Passives]]
+{{Seals Navbox}}

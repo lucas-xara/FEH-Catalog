@@ -1,0 +1,60 @@
+{{Weapon Infobox
+|tagid=SID_悪夢の女王の角
+|weaponType=Beast
+|might=14
+|range=1
+|effect=Grants Spd+3. Unit can counterattack regardless of foe's range. If unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 4 (max 40%).<br><br>At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack.
+|cost=400
+|exclusive=1
+|canUseMove=Cavalry 
+|statModifiers=0,14,3,0,0
+|required=Adult (Cavalry)
+|intID=2157
+|sort=429
+|value=20
+|timingID=1
+|abilityID=182
+|randomTimestamp=2020-08-20T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|cooldownSkill1=-1
+|upgradedEffect=Grants Spd+3. Unit can counterattack regardless of foe's range. At start of combat, if foe's HP ≥ 50%, grants Atk/Spd/Def/Res+4 to unit during combat. If unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 4 (max 40%). At start of turn, if unit is adjacent to only beast or dragon allies or is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 to unit, inflicts Atk/Def-X on foe during combat (X = number of spaces from start position to end position of whoever initiated combat + 3; max 6), and also, if X ≥ 5, reduces damage from foe's first attack by 30% during combat.
+|effectSkill1=Enables【Canto (Rem. +1)】.<br><br>Accelerates Special trigger (cooldown count-1).<br>At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit and neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat.<br><br>【Canto (Rem. +1)】<br>After an attack, Assist skill, or structure destruction, unit can move again.<br><br>The distance of the movement is the remaining movement the unit had before the actions listed above+1 (If unit used a movement skill that warps them, the remainder is 0).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|properties=random_owner
+}}
+==Notes==
+* Nightmare Horn as the same effect as {{St|Distant Counter}}.
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+{{Beast (Cavalry)}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary buffs|name=refined Nightmare Horn}}
+{{Beast (Cavalry) Upgrade}}
+{{Canto|Rem. +1}}
+{{Follow-up effect neutralization|name={{St|Nightmare Horn|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Nightmare Horn
+|japanese=悪夢の女王の角
+|german=Albtraumhorn
+|spanishEU=Cuerno pesadilla
+|spanishLA=Cuerno pesadilla
+|french=Cor cauchemar
+|italian=Corno da incubo
+|chineseTW=惡夢女王之角
+|portuguese=Berrante pesadelo
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%unit_s Spd > foe_s Spd%educes damage from%area-of-effect Specials%' OR Description LIKE '%【Canto (Rem. +1)】%') AND (Exclusive=1 AND Name NOT LIKE '%+')}}
+* [[Weapons with Distant Counter]]
+* [[Weapons with Close Counter]]
+* [[Trace Passives]]
+{{Weapons Navbox}}

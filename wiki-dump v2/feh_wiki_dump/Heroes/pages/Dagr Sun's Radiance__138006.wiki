@@ -1,0 +1,95 @@
+{{#invoke:NameAbout|main|Name=Dagr}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Dagr
+|Title=Sun's Radiance
+|Origin=Fire Emblem Heroes
+|Gender=Female
+|MythicEffect=Light
+|MythicEffect2=Raiding Party Bonus
+|BoostHP=5
+|BoostRes=5
+|WeaponType=Green Axe
+|MoveType=Infantry
+|actorEN=Alex Cazares
+|actorJP=高垣彩陽
+|artist=コザキユースケ
+|additionDate=2021-02-16
+|releaseDate=2021-03-30
+|cv1=0
+|cv2=500700
+|Person=Dagr
+|Properties=mythic
+|description=The younger of the princesses of Jötunheimr, and Nótt's twin sister. Cheerful and big-hearted, but also ready for a scrap when the time comes.
+|TagID=ダグ
+|InternalID=643
+|EnemyInternalID=62
+}}
+==Ally stats==
+{{Stats Page|noheader=1
+|Lv1HP=19|Lv1ATK=9|Lv1SPD=11|Lv1DEF=8|Lv1RES=6
+|GRHP=50|GRATK=70|GRSPD=70|GRDEF=50|GRRES=45
+}}
+==Enemy stats==
+{{Stats Page/Enemy|noheader=1
+|Lv1HP=19|Lv1ATK=9|Lv1SPD=11|Lv1DEF=8|Lv1RES=6
+|GRHP=50|GRATK=70|GRSPD=70|GRDEF=50|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Skinfaxi
+|weapon4Default=5
+|weapon4Unlock=5
+|hasEnemy=1
+}}
+
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Dragon Fang
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Push 1
+|passiveA2=Atk/Spd Push 2
+|passiveA3=Atk/Spd Push 3
+|passiveA4=Atk/Spd Push 4
+|passiveA5=Sorcery Blade 1
+|passiveA6=Sorcery Blade 2
+|passiveA7=Sorcery Blade 3
+|passiveA8=Atk/Spd Hexblade
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveA5Unlock=2
+|passiveA6Unlock=3
+|passiveA7Unlock=4
+|passiveA8Unlock=5
+|passiveB1=Sun-Twin Wing
+|passiveB2=Sun-Twin Wing+
+|passiveB1Unlock=5
+|passiveB2Unlock=5
+|passiveC1=Even Tempest 1
+|passiveC2=Even Tempest 2
+|passiveC3=Even Tempest 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+{{Enemies Navbox}}

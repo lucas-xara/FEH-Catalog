@@ -1,0 +1,51 @@
+{{Passive
+|type=C
+|name=Opened Domain
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Opened Domain
+|1tagid=SID_みんなが繋がる世界
+|1cost=300
+|1effect=At start of turn, if unit is within 2 spaces of any allies from a different title than unit, grants 【Resonance: Blades】and【Resonance: Shields】to unit and all allies within 2 spaces of unit, and also, if unit or any of those allies has their Special cooldown count at its maximum value, grants Special cooldown count-1 to them.<br><br>【Resonance: Blades】<br>Grants Atk/Spd+4 during combat for 1 turn.<br><br>【Resonance: Shields】<br>Grants Def/Res+4 during combat and the following effect for 1 turn: "During unit's first combat in player phase or enemy phase, foe cannot make a follow-up attack."
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Reduce Cooldown|1}}
+|Me1T={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|Me1C=At start of turn<br>if an {{Tgt|Ally}} from<br>a different [[title]] is<br>[[within 2 spaces]] '''&'''<br>{{Tgt|Unit}} or {{Tgt|Ally}}'s <br>CD is max value
+|Se1={{SEt|Resonance: Blades}}
+|Se2={{SEt|Resonance: Shields}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=At start of turn<br>if an {{Tgt|Ally}} from<br>a different [[title]] is<br>[[within 2 spaces]]
+}}
+
+==Notes==
+* The effects of Opened Domain will ''only'' be granted to the user and allies within 2 spaces (regardless of titles), if there is an ally from a different title than the user within 2 spaces.
+{{Resonance: Blades}}
+{{Resonance: Shields}}
+{{Start of turn Special modification}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=みんなが繋がる世界
+|german=Offenes Gebiet
+|spanishEU=Dominio abierto
+|spanishLA=Dominio abierto
+|french=Domaine ouvert
+|italian=Dominio aperto
+|chineseTW=彼此相連的世界
+|portuguese=Domínio aberto
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%【Resonance:%' OR (Description LIKE '%at start of turn%unit%allies%maximum value%Special cooldown count-%' OR Description LIKE '%start of turn%unit%allies%Special cooldown count-%maximum value%') AND Description NOT LIKE '%after combat, if unit_s Special cooldown%'}}
+{{Passives Navbox|C}}

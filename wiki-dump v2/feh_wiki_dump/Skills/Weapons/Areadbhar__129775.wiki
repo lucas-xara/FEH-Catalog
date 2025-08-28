@@ -1,0 +1,91 @@
+{{Weapon Infobox
+|tagid=SID_アラドヴァル
+|userVersion1=Weapon
+|userVersion2=Upgrade Weapon
+|userVersion3=Upgrade Gleam
+|weaponType=Lance
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br>At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 during combat, and also, if unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 4 (max 40%).<br><br>(If area-of-effect Special triggers outside of combat, checks stats and conditions for damage reduction at time of trigger and again at start of combat.)
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Silver Lance
+|intID=2282
+|sort=461
+|value=20
+|timingID=1
+|abilityID=182
+|limit1ID=42
+|randomTimestamp=2020-11-30T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1).<br>If a skill compares unit's Spd to a foe's or ally's Spd, treats unit's Spd as if granted +7. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit during combat and restores 7 HP to unit after combat, and also, if unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 4 (max 40%). (If area-of-effect Special triggers outside of combat, checks stats and conditions for damage reduction at time of trigger and again at start of combat.)
+|effectSkill1=If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+4 to unit, neutralizes effects that grant "Special cooldown charge +X" to foe or inflict "Special cooldown charge -X" on unit, and reduces the percentage of foe's non-Special "reduces damage by X%" skills by 50% during combat (example: a foe with a "reduces damage by 45%" skill would reduce damage by 23% instead).
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Accelerates Special}}
+|s1 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s1 Ce1C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s1 Ce2={{Eft|Damage Reduction|4 x ({{Tgt|Unit}}'s Spd - {{Tgt|Foe)}}'s Spd)<br>from attacks & Non-Røkkr [[AoE Specials]]|percent=1|max=40%}}
+|s1 Ce2C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' {{Tgt|Unit}}'s Spd<br>> {{Tgt|Foe}}'s Spd
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Accelerates Special}}
+|s2 Me={{Eft|Healing|7}}
+|s2 MeC=After combat if<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s2 Ce1C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s2 Ce2={{Eft|Damage Reduction|4 x ({{Tgt|Unit}}'s Spd - {{Tgt|Foe)}}'s Spd)<br>from attacks & Non-Røkkr [[AoE Specials]]|percent=1|max=40%}}
+|s2 Ce2C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' {{Tgt|Unit}}'s Spd<br>> {{Tgt|Foe}}'s Spd
+|s2 Ce3={{Eft|Phantom|Spd|7}}
+|skill3={{Si|Areadbhar|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s3 Ce2={{Eft|Neutralize Charge -1}}
+|s3 Ce3={{Eft|Neutralize Charge +1}}
+|s3 Ce4={{Eft|Reduce Damage Reduction|50%}}
+|s3 Ce3-4t={{Tgt|Foe}}
+|s3 CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Phantom Passive notes|Spd|name=Refined Areadbhar}}
+{{After combat healing|name=Refined Areadbhar}}
+{{IfUnitInitiates}}
+{{CooldownChargePlusNeutralization|name={{St|Areadbhar|refine=Skill1}}}}
+{{CooldownChargeMinusNeutralization|name={{St|Areadbhar|refine=Skill1}}}}
+{{Reduce Damage Reduction|name={{St|Areadbhar|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Areadbhar
+|japanese=アラドヴァル
+|german=Areadbhar
+|spanishEU=Areadbhar
+|spanishLA=Areadbhar
+|french=Areadbhar
+|italian=Areadbhar
+|chineseTW=阿萊德巴爾
+|portuguese=Areadbhar
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%if unit_s Spd > foe_s Spd%educes damage from%area-of-effect Specials%' AND Description NOT LIKE '%【Dodge】%' OR Description LIKE '%percentage of foe_s non-Special "reduce damage by X%" skills by 50%') AND Exclusive='1'}}
+* [[Dodge Passives]]
+* [[Phantom Passives]]
+* [[Tempo Passives]]
+* [[Null Passives]]
+{{Weapons Navbox}}

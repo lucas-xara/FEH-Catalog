@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Fuga}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Fuga
+|Title=Force of Gales
+|WeaponType=Green Axe
+|MoveType=Infantry
+|Origin=Fire Emblem Fates
+|Gender=Male
+|actorEN=Imari Williams
+|actorJP=松本大
+|artist=ニジハヤシ
+|additionDate=September 6, 2023
+|releaseDate=September 7, 2023
+|cv1=11
+|cv2=400300
+|TagID=風部族フウガ
+|InternalID=996
+|Properties=limited,tempest,specDisplay
+|description=The chief of the Wind Tribe, who shares close ties with the kingdom of Hoshido. Though he may be growing older, he's still in peak physical condition. Appears in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=11|Lv1SPD=8|Lv1DEF=15|Lv1RES=4
+|GRHP=55|GRATK=80|GRSPD=50|GRDEF=70|GRRES=60
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Wind Tribe Club
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Wind Tribe Club+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=4
+|special1Unlock=3
+|special2=Bonfire
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Heavy Blade 1
+|passiveA2=Heavy Blade 2
+|passiveA3=Heavy Blade 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Threaten Atk 1
+|passiveC2=Threat. Atk/Def 1
+|passiveC3=Threat. Atk/Def 2
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Wind Festival units]]

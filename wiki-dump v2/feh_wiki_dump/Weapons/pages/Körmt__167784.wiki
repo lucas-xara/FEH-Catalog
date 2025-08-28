@@ -1,0 +1,42 @@
+{{Weapon Infobox
+|tagid=SID_ケルムト
+|intID=2968
+|image=wep_mg264
+|exclusive=1
+|weaponType=Green Tome
+|cost=400
+|might=14
+|range=2
+|effect=Grants Atk+3. At start of combat, if unit's HP ≥ 25%, grants Atk+6 to unit during combat, inflicts Atk-6 on foe during combat, unit makes a guaranteed follow-up attack, and inflicts penalty on foe's Atk/Spd/Def/Res during combat based on the number of the following conditions that apply × 3 (max: 9):<br>&nbsp;&nbsp;- An ally is within 3 spaces of unit.<br>&nbsp;&nbsp;- Another foe is within 2 spaces of target.<br>&nbsp;&nbsp;- A【Bonus】is active on unit.<br>&nbsp;&nbsp;- A【Penalty】is active on foe.<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|statModifiers=0,17,0,0,0
+|required=Rexcalibur
+|properties=random_owner
+}}
+==Notes==
+{{Combat boosts}}
+{{Combat reductions}}
+{{Guaranteed follow-up interaction}}
+{{EffectfromBonusKeyword}}
+{{EffectfromPenalty}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V6.2_v0602b_fuin_Mag_2.webp|Sprite sheet for {{St|Sell-Spell Tome}}, {{St|Dew Dragonstone}} and {{PAGENAME}}'s animation.
+</gallery>
+==Trivia==
+{{NorseMyth|name=Körmt and Örmt}} are two rivers which [[Thórr]] must wade through every day whenever he goes for judgement by Yggdrasill.
+==In other languages==
+{{OtherLanguages
+|japanese=ケルムト
+|german=Körmt
+|spanishEU=Körmt
+|spanishLA=Körmt
+|french=Körmt
+|italian=Körmt
+|chineseTW=科爾姆特
+|portuguese=Körmt
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants Atk+_ to unit%inflicts Atk-_ on foe%unit makes a guaranteed follow-up attack%'|columns=3}}
+{{Weapons Navbox}}

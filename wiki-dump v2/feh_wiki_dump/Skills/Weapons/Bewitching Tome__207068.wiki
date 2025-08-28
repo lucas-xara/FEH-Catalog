@@ -1,0 +1,58 @@
+{{Weapon Infobox
+|tagid=SID_妖艶なる夜の書
+|intID=3927
+|userVersion1=Closed
+|userVersion2=Open
+|exclusive=1
+|weaponType=Green Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Enables【Canto (１)】.<br><br>Accelerates Special trigger (cooldown count-1). If unit initiates combat or foe's Range = 2, as combat begins, deals damage to foe = X% of foe's Atk (if unit has weapon-triangle advantage or unit's Spd > foe's Spd, X = 40; otherwise, X = 20; effects that reduce damage during combat do not apply; will not reduce foe's HP below 1). If unit initiates combat or foe's Range = 2, grants Atk/Spd/Def/Res+5 to unit, grants bonus to unit's Atk/Spd = 20% of unit's Spd at start of combat, and reduces damage from foe's first attack by 30% during combat, and restores 7 HP to unit after combat.<br><br>【Canto (１)】<br>After an attack, Assist skill, or structure destruction, unit can move １ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|required=Rexcalibur
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|PermanentEffect={{Eft|Accelerates Special}}
+|MapEffect 1={{Eft|Canto|1}}
+|MapEffect 2={{Eft|Healing|7}}
+|MapEffect 2 Conditions=After combat in<br>Player Phase '''or'''<br>{{Tgt|Foe}}'s Range = 2
+|CombatEffect 1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|CombatEffect 2={{Eft|Temporary buffs|Atk/Spd|20% of {{Tgt|Unit}}'s Spd<br>at start of combat}}
+|CombatEffect 3={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s first attack
+|CombatEffect Conditions=Player Phase '''or'''<br>{{Tgt|Foe}}'s Range = 2
+|CombatEffect 4={{Eft|Damage|(40% if {{Tgt|Unit}}'s Spd ><br>{{Tgt|Foe}}'s Spd '''or''' {{Tgt|Unit}} has<br>[[weapon triangle|triangle]] advantage; else 20%)}} of<br>{{Tgt|Foe}}'s Atk as combat begins
+|CombatEffect 4 Targets={{Tgt|Foe}}
+}}
+
+==Notes==
+{{Canto|1}}
+{{IfUnitInitiates}}
+{{CombatDamage|fixed=0}}
+{{Temporary buffs}}
+{{At start of combat}}
+{{DamagePercentageReduction}}
+{{After combat healing}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V8.0_v0800c_legend_Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=妖艶なる夜の書
+|german=Betörendes Buch
+|spanishEU=Grimorio seductor
+|spanishLA=Grimorio seductor
+|french=Tome charmeur
+|italian=Tomo incantatore
+|chineseTW=妖豔的夜之書
+|portuguese=Tomo enfeitiçante
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%=%of unit_s Spd at start of combat%' OR (Description LIKE '%unit%has weapon%triangle advantage%' AND Description NOT LIKE '%boosts Atk%' OR Description LIKE '%deals%damage%combat begins%') AND Exclusive='1'}}
+* [[Flare Passives]]
+{{Weapons Navbox}}

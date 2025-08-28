@@ -1,0 +1,75 @@
+{{#invoke:NameAbout|main|Name=Reinhardt}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Reinhardt
+|Title=Thunder's Sword
+|GrowthModifier=Gen 2
+|WeaponType=Red Sword
+|MoveType=Cavalry
+|Origin=Fire Emblem: Thracia 776
+|Gender=Male
+|actorEN=Chris Smith
+|actorJP=利根健太朗
+|artist=cuboon
+|releaseDate=April 11, 2018
+|poolDate=April 24, 2018
+|randomStartTime=2018-05-11T07:00:00Z
+|poolRarities=5
+|TagID=ラインハルト2
+|InternalID=234
+|cv1=4
+|cv2=1100100
+|Properties=specRate_202008
+|description=A formidable mage knight in Friege's army and Olwen's older brother. He was defeated by Prince Leif. Appears in Fire Emblem: Thracia 776.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=9|Lv1SPD=6|Lv1DEF=7|Lv1RES=6
+|GRHP=50|GRATK=60|GRSPD=40|GRDEF=55|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Meisterschwert
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Buckler
+|special1Default=4
+|special1Unlock=3
+|special2=Pavise
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Death Blow 1
+|passiveA2=Death Blow 2
+|passiveA3=Death Blow 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Vantage 1
+|passiveB2=Vantage 2
+|passiveB3=Vantage 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Spur Atk 1
+|passiveC2=Spur Atk/Def 1
+|passiveC3=Spur Atk/Def 2
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

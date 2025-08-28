@@ -1,0 +1,78 @@
+{{#invoke:NameAbout|main|Name=Xander}}{{HeroPage Tabs|{{PAGENAME}}}}
+{{Hero Infobox
+|Name=Xander
+|Title=Dancing Knight
+|GrowthModifier=None
+|WeaponType=Colorless Dagger
+|Origin=Fire Emblem Fates
+|Gender=Male
+|MoveType=Infantry
+|actorJP=小西克幸
+|actorEN=George Spelvin
+|artist=п猫Ｒ
+|additionDate=August 8, 2018
+|releaseDate=August 10, 2018
+|TagID=夏祭マークス
+|InternalID=275
+|Properties=refresher,special,hair,hat,specRate_202202
+|cv1=11
+|cv2=500200
+|description=Crown Prince of Nohr. Seeks to better himself. Invited to a Hoshidan festival, he opted to don the traditional garb and participate. Appears in Fire Emblem Fates.
+}}
+
+__TOC__
+
+{{Stats Page|Hero={{BASEPAGENAME}}
+|Lv1HP=16|Lv1ATK=7|Lv1SPD=4|Lv1DEF=6|Lv1RES=3
+|GRHP=50|GRATK=65|GRSPD=30|GRDEF=65|GRRES=30
+}}
+
+== Skills ==
+
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Dagger
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Dagger
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Dusk Uchiwa
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Dusk Uchiwa+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+
+===Assists===
+{{Assists Table
+|assist1=Dance
+|assist1Default=4
+|assist1Unlock=3
+}}
+
+===Specials===
+{{Specials Table
+}}
+
+===Passives===
+{{Passives Table
+|passiveA1=Close Counter
+|passiveA1Unlock=5
+|passiveB1=Quick Riposte 1
+|passiveB2=Quick Riposte 2
+|passiveB3=Quick Riposte 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Odd Def Wave 1
+|passiveC2=Odd Def Wave 2
+|passiveC3=Odd Def Wave 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+
+{{Heroes Navbox}}
+[[Category:Hoshidan Summer Festival units]]

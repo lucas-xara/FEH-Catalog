@@ -1,0 +1,56 @@
+{{Weapon Infobox
+|tagid=SID_王者の刃
+|intID=3956
+|image=wep_dg083
+|exclusive=1
+|weaponType=Dagger
+|cost=400
+|might=9
+|range=2
+|effect=Grants Spd+3. At start of turn, if unit is within 2 spaces of an ally, grants Atk/Spd+6 and the following status to unit and allies within 2 spaces for 1 turn: "neutralizes penalties on unit during combat." If unit initiates combat, unit attacks twice. If unit initiates combat or if unit is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit and grants Special cooldown charge +1 to unit per attack during combat (only highest value applied; does not stack).<br><br>Effect:【Dagger ７】<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|statModifiers=0,9,3,0,0
+|required=Silver Dagger
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|PermanentEffect={{Eft|Stat Boosts|Spd|3}}
+|CombatEffect 1={{SkillEffectText|Attacks Twice}}
+|CombatEffect 1 Conditions=Player Phase
+|CombatEffect 2={{SkillEffectText|Temporary buffs|Atk/Spd/Def/Res|5}}
+|CombatEffect 3={{SkillEffectText|Accelerate Charge}}
+|CombatEffect 2-3 Conditions=Player Phase '''or'''<br>{{SkillTargetText|Unit}} is<br>[[within 2 spaces]]<br>of an {{SkillTargetText|Ally}}
+|StatusEffect 1={{SkillEffectText|Bonuses|Atk/Spd|6}}
+|StatusEffect 2={{SEt|Neutralize Penalties}}
+|StatusEffect 1-2 Targets={{SkillTargetText|Unit}} '''&''' {{SkillTargetText|Allies}}<br>[[within 2 spaces]]
+|StatusEffect 1-2 Conditions=At start of turn<br>if {{SkillTargetText|Unit}} is<br>[[within 2 spaces]]<br>of an {{SkillTargetText|Ally}}
+|StatusEffect 3={{SkillEffectText|Penalties|Def/Res|7}}
+|StatusEffect 3 Targets={{SkillTargetText|Target Foe}} '''&''' {{SkillTargetText|Foes}}<br>[[within 2 spaces]]<br>of {{SkillTargetText|Target Foe}}
+|StatusEffect 3 Conditions=After combat if<br>{{SkillTargetText|Unit}} attacked
+}}
+
+==Notes==
+{{Bonuses}}
+{{Neutralize Penalties}}
+{{IfUnitInitiates}}
+{{Brave weapon interaction}}
+{{Temporary buffs}}
+{{CooldownChargePlus}}
+{{IfUnitAttacked}}
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=王者の刃
+|german=Siegerklinge
+|spanishEU=Hoja del líder
+|spanishLA=Hoja del líder
+|french=Lame de chef
+|italian=Lama regia
+|chineseTW=王者之刃
+|portuguese=Lâmina majestosa
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%at start of turn, if unit is within _ spaces of an ally, grants%to unit and allies%for 1 turn%' AND Exclusive='1'}}
+{{Weapons Navbox}}

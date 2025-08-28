@@ -1,0 +1,52 @@
+{{Passive
+|type=B
+|name=Firestorm Dance
+|exclusive=0
+|1name=Firestorm Dance 1
+|1tagid=SID_業火疾風の舞い1
+|1promotionRarity=5
+|1promotionTier=1
+|1effect=If Sing or Dance is used, grants Atk/Spd+2 to target.
+|1cost=120
+|1required=Blaze Dance 1;Gale Dance 1
+|2name=Firestorm Dance 2
+|2tagid=SID_業火疾風の舞い2
+|2effect=If Sing or Dance is used, grants Atk/Spd+3 to target.
+|2next=-
+|2cost=240
+|3name=Firestorm Dance 3
+|3tagid=SID_業火疾風の舞い3
+|3effect=If Sing or Dance is used, enables【Canto (１)】on unit and grants Atk/Spd+6 and【Desperation】 to target for 1 turn.<br><br>【Canto (１)】<br>After an attack, Assist skill, or structure destruction, unit can move １ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)<br><br>【Desperation】<br>Grants the following effect for 1 turn: "If unit initiates combat, unit can make a follow-up attack before foe can counterattack."
+|3cost=300
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+}}
+==Notes==
+{{Dance passive interaction}}
+* {{Kp|Canto (1)}} will only activate if the unit uses a {{Uti|Dance}} [[:Category:Dance skills|Dance Assist]] on an ally.
+** {{Kp|Canto (1)}} is enabled '''''only''''' for the user, '''''not''''' the target.
+{{Canto|1}}
+{{Desperation|name=Firestorm Dance 3}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=業火疾風の舞い
+|german=Feuriger Tanz
+|spanishEU=Siroco bailarín
+|spanishLA=Siroco bailarín
+|french=Danse brasier
+|italian=Danza incendio
+|chineseTW=業火疾風之舞
+|portuguese=Dança siroco
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Desperation】%' OR Description LIKE '%Sing or Dance is used%grants%') AND Exclusive='1'}}
+* [[Dance Passives]]
+{{Passives Navbox|B}}

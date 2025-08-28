@@ -1,0 +1,70 @@
+{{Weapon Infobox
+|tagid=SID_地槍ゲイボルグ
+|weaponType=Lance
+|might=16
+|range=1
+|effect=Grants Def+3. In combat against an infantry, armored, or cavalry foe, inflicts Atk/Def-5 on foe and neutralizes foe's bonuses to Atk/Def (from skills like Fortify, Rally, etc.) during combat.
+|cost=400
+|userVersion1=Weapon
+|userVersion2=Gleam
+|exclusive=1
+|statModifiers=0,16,0,3,0
+|required=Silver Lance
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Def+3. In combat against an infantry, armored, or cavalry foe, or if unit's HP ≥ 50% at start of combat, inflicts Atk/Def-5 on foe, neutralizes foe's bonuses to Atk/Def (from skills like Fortify, Rally, etc.), and deals damage = 10% of unit's Def (excluding area-of-effect Specials) during combat.
+|effectSkill1=If foe initiates combat or if foe's HP ≥ 75% at start of combat, inflicts Atk/Def-5 on foe, unit makes a guaranteed follow-up attack, and neutralizes unit's penalties to Atk/Def during combat.
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Def|3}}
+|s1 Ce1={{Eft|Temporary debuffs|Atk/Def|5}}
+|s1 Ce2={{Eft|Neutralize Bonus|Atk/Def}}
+|s1 CeT={{Tgt|Foe}}
+|s1 CeC={{Tgt|Foe}} isn't {{Mt|Flying}}
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Def|3}}
+|s2 Ce1={{Eft|Temporary debuffs|Atk/Def|5}}
+|s2 Ce2={{Eft|Neutralize Bonus|Atk/Def}}
+|s2 Ce1-2T={{Tgt|Foe}}
+|s2 Ce3={{Eft|Damage Boost|10% of {{Tgt|Unit}}'s Def}}
+|s2 CeC={{Tgt|Foe}} isn't {{Mt|Flying}}<br>'''or''' {{Tgt|Unit}}'s HP ≥ 50%<br>at start of combat
+|skill3={{Si|Earthly Gáe Bolg|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary debuffs|Atk/Def|5}}
+|s3 Ce1T={{Tgt|Foe}}
+|s3 Ce2={{Eft|Guaranteed Follow-up}}
+|s3 Ce3={{Eft|Neutralize Penalties|Atk/Def}}
+|s3 CeC=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+}}
+
+==Notes==
+{{Temporary debuffs}}
+{{Bonus neutralization}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{DamageBoost|name=refined Earthly Gáe Bolg}}
+{{Guaranteed follow-up interaction}}
+{{Penalty neutralization|name={{St|Earthly Gáe Bolg|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Earthly Gáe Bolg
+|japanese=地槍ゲイボルグ
+|german=Irdische Gáe Bolg
+|spanishEU=Gáe Bolg terrenal
+|spanishLA=Gáe Bolg terrenal
+|french=Gáe Bolg (terre)
+|italian=Gáe Bolg terrena
+|chineseTW=地槍蓋伯爾加
+|portuguese=Gáe Bolg terrena
+}}
+==See also==
+{{See also skills|cond=wikiName LIKE '%Gáe Bolg%' OR Description LIKE '%inflicts Atk/Def-%neutralizes foe_s bonuses%' AND Exclusive='1' AND Name NOT LIKE '%unbound%' OR Description LIKE '%deals damage =%of unit_s Def%'}}
+* [[Skill families/Weapons#Unbound|Unbound Weapons]]
+{{Weapons Navbox}}

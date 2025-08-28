@@ -1,0 +1,88 @@
+{{Weapon Infobox
+|tagid=SID_四天馬騎士の冷槍
+|intID=4398
+|image=wep_lc182
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=16
+|range=1
+|effect=Inflicts Spd/Def-5 on foes within 3 rows or 3 columns centered on unit, those foes cannot make a follow-up attack, and those foes suffer guaranteed follow-up attacks during combat.<br><br>At start of combat, if unit's HP ≥ 25%, inflicts Atk-5 on foe and reduces damage from foe's first attack by 40% during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes).
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|refineStatsSkill1=3,0,0,0,0
+|effectSkill1=Enables【Canto (Rem. +1)】.<br><br>If unit initiates combat or is within 3 spaces of an ally, inflicts Atk/Spd/Def-5 on foe, neutralizes foe's bonuses to Atk/Spd/Def, and unit deals +X × 4 damage during combat (X = number of allies within 3 spaces of unit + number of foes within 3 spaces of target (including target); max 16; excluding area-of-effect Specials).<br><br>【Canto (Rem. +1)】<br>After an attack, Assist skill, or structure destruction, unit can move again.<br><br>The distance of the movement is the remaining movement the unit had before the actions listed above+1 (If unit used a movement skill that warps them, the remainder is 0).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|properties=
+}}
+
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Ce1={{Eft|Temporary debuffs|Spd/Def|5}}
+|s1 Ce2={{Eft|Prevent Follow-Ups}}
+|s1 Ce1-2T={{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|s1 Ce3={{Eft|Guaranteed Follow-Ups}}
+|s1 CeT3={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>against {{Tgt|Foes}} in<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|s1 Ce4={{Eft|Temporary debuffs|Atk|5}}
+|s1 Ce4T={{Tgt|Foe}}
+|s1 Ce5={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|s1 Ce4-5C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|skill2={{Si|Heavenly Icicle|refine=Skill1}} Skill refine effects
+|s2 Me={{Eft|Canto|Rem. +1}}
+|s2 Ce1={{Eft|Temporary debuffs|Atk/Spd/Def|5}}
+|s2 Ce2={{Eft|Neutralize Bonuses|Atk/Spd/Def|5}}
+|s2 Ce1-2T={{Tgt|Foe}}
+|s2 Ce3={{Eft|Damage Boost|4 x ({{Tgt|Allies}} [[within 3 spaces]]<br>+ {{Tgt|Foes}} [[within 3 spaces]] of<br>{{Tgt|Target Foe}} (including {{Tgt|Target Foe}})|max=16}}
+|s2 CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+
+==Notes==
+{{Temporary debuffs}}
+{{Prevent follow-up}}
+{{FoesCombatEffect|temporary debuffs and prevent follow-up}}
+{{Guaranteed follow-up interaction}}
+{{AlliesCombatEffect}}
+{{AlliesCombatEffect|guaranteed follow-up}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Díthorba: Cutting Knight|t=Erinys: Earnest Knight
+|---xxx---
+|---xxx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xtx---
+|---xxx---
+}}
+|}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Canto|Rem. +1|name={{St|Heavenly Icicle|refine=Skill1}}}}
+{{Bonus neutralization|name={{St|Heavenly Icicle|refine=Skill1}}}}
+{{FlatDamageBoost|X (max: 16)|name={{St|Heavenly Icicle|refine=Skill1}}}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%suffer guaranteed follow-up%' OR Description LIKE '%deals damage%number of allies within%' OR Description LIKE '%deals damage%number of foes within%') AND Exclusive='1'}}
+* [[Rein Passives]]
+* [[Skill families/C Passives#Crux|Crux Passives]]
+{{Weapons Navbox}}

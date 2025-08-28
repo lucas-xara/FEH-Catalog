@@ -1,0 +1,66 @@
+{{#invoke:NameAbout|main|Name=Xane}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Xane
+|Title=Fickle Dragon
+|WeaponType=Blue Tome
+|MoveType=Infantry
+|Origin=Fire Emblem: Mystery of the Emblem
+|Gender=Male
+|actorEN=Brandon McInnis
+|actorJP=渡辺明乃
+|artist=はなだ
+|additionDate=April 15, 2025
+|releaseDate=April 16, 2025
+|cv1=1
+|cv2=1000250
+|TagID=若年チェイニー
+|InternalID=1234
+|Properties=limited,ghb
+|description=A young, dubious Divine Dragon. Took part in the conflict in which Naga sealed away the Earth Dragons. Appears in Fire Emblem: Mystery of the Emblem.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=10|Lv1SPD=11|Lv1DEF=8|Lv1RES=6
+|GRHP=70|GRATK=75|GRSPD=80|GRDEF=35|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Light
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Ellight
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Shine
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Ancient Trickery
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Spd/Res Tempo 1
+|passiveB2=Spd/Res Tempo 2
+|passiveB3=Spd/Res Tempo 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Infantry Pulse 1
+|passiveC2=Infantry Pulse 2
+|passiveC3=Infantry Pulse 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

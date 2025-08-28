@@ -1,0 +1,46 @@
+{{Weapon Infobox
+|tagid=SID_未来の聖騎士の槍
+|weaponType=Lance
+|might=16
+|range=1
+|effect=Unit and foe cannot counterattack.
+|cost=400
+|exclusive=1
+|userVersion1=Weapon
+|userVersion2=Gleam
+|statModifiers=0,16,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If unit initiates combat, grants Spd+6 during combat.
+|iconSkill1=Darting Blow W.png
+|tagidExtraSkill1=一
+|properties=
+}}
+==Notes==
+{{Firesweep interaction}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+* The refined version listed first has the same effect as {{St|Darting Blow 3}}.
+{{IfUnitInitiates}}
+{{Combat boosts}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=未来の聖騎士の槍
+|japaneseNotes=''Future Paladin's Lance''
+|german=Ruhige Lanze
+|spanishEU=Lanza seria
+|spanishLA=Lanza seria
+|french=Lance stable
+|italian=Lancia salda
+|chineseTW=未來聖騎士之槍
+|portuguese=Lança firme
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%Unit and foe cannot counterattack%' OR Description LIKE '%if unit initiates%grants Spd+6%during combat%'|columns=3}}
+{{Weapons Navbox}}

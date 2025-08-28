@@ -1,0 +1,32 @@
+{{Weapon Infobox
+|tagid=SID_火炎のブレス
+|weaponType=Dragonstone
+|might=8
+|range=1
+|next=Flametongue
+|promotionRarity=4
+|promotionTier=1
+|cost=100
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|properties=random_all
+}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=火炎のブレス
+|german=Feueratem+
+|spanishEU=A. de fuego +
+|spanishLA=Soplo de fuego +
+|french=Souffle brûlant +
+|italian=Soffio di fuoco+
+|chineseTW=火焰吐息
+|portuguese=Sopro de fogo+
+}}
+==See also==
+* [[Steel Weapons]]
+{{Weapons Navbox}}
+[[Category:Steel weapons]]

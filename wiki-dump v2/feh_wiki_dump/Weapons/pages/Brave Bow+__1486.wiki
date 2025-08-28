@@ -1,0 +1,35 @@
+{{Weapon Infobox
+|tagid=SID_勇者の弓＋
+|weaponType=Bow
+|might=7
+|range=2
+|effectiveness=flying
+|effect=Effective against flying foes.<br>Inflicts Spd-5. If unit initiates combat, unit attacks twice.
+|cost=300
+|exclusive=0
+|userVersion1=Bow
+|userVersion2=Arrow
+|statModifiers=0,7,-5,0,0
+|properties=random_all
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{IfUnitInitiates}}
+{{Brave weapon interaction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=勇者の弓＋
+|german=Kriegerbogen+
+|spanishEU=Arco valor +
+|spanishLA=Arco valor +
+|french=Arc héros +
+|italian=Arco forte+
+|chineseTW=勇者之弓＋
+|portuguese=Arco altivo+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit initiates combat, unit attacks twice%' AND WikiName NOT LIKE '%Brave%' AND Exclusive='1'}}
+* [[Brave Weapons]]
+{{Weapons Navbox}}

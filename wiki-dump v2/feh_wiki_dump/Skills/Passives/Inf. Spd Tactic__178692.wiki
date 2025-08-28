@@ -1,0 +1,40 @@
+{{Passive
+|type=C
+|name=Inf. Spd Tactic
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_inherit_base,random_owner
+|1name=Inf. Spd Tactic
+|1tagid=SID_速指揮・歩行重視
+|1cost=300
+|1effect=At start of turn, grants Spd+6 to allies within 2 spaces for 1 turn and【Null Follow-Up】 to infantry allies within 2 spaces. Granted only if number of that ally's movement type on current team ≤ 2.<br><br>【Null Follow-Up】<br>If unit's Spd > foe's Spd during combat, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks for 1 turn.
+|1required=Spd Tactic 3
+}}
+==Notes==
+{{Tactic Passive notes}}
+{{Null Follow-Up}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=速指揮・歩行重視
+|german=Ges.-Taktik Inf.
+|spanishEU=Estrategia Vel Inf.
+|spanishLA=Estrategia Vel. Inf.
+|french=Tactique Vit inf.
+|italian=Tattica Vel fant.
+|chineseTW=速度指揮・步行重視
+|portuguese=Tática Vel. inf.
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%movement type%current team%≤ 2%' AND Exclusive='1' OR Description LIKE '%【Null Follow-Up】%'|columns=3}}
+* [[Skill families#Tactic|Tactic Passives]]
+{{Passives Navbox|C}}
+[[Category:Tactic Passives]][[Category:Inf. Tactic Passives]]

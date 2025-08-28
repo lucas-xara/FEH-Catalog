@@ -1,0 +1,54 @@
+{{Passive
+|name=Human Virtue
+|type=C
+|exclusive=1
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|1name=Human Virtue
+|1tagid=SID_人の可能性を！
+|1effect=At start of turn, if unit is adjacent to any allies that are not beast or dragon allies, grants Atk/Spd+6 to unit and those allies for 1 turn.
+|1required=-
+|1next=-
+|properties1=random_owner
+|2name=Human Virtue II
+|2tagid=SID_人の可能性を！・承
+|2cost=300
+|2effect=At start of turn, if unit is within 2 spaces of any allies other than beast or dragon allies, grants Atk/Spd+6 to unit and those allies for 1 turn. Grants bonus to unit's Atk/Spd/Def/Res during combat = highest bonus on allies other than beast or dragon allies within 2 spaces. Calculates each stat bonus independently. Reduces damage from foe's first attack during combat by X% (X = total value of bonuses on the 3 allies other than beast or dragon allies with the highest bonus totals within 2 spaces; max. 40).
+|1cost=300
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Human Virtue}} Human Virtue
+|s1 Se={{Eft|Bonuses|Atk/Spd|6}}
+|s1 SeT={{Tgt|Unit}} '''&'''<br>[[adjacent]] non-<br>[[Dragon]]/[[Beast]]<br>{{Tgt|Allies}}
+|s1 SeC=At start of turn if<br>a non-[[Dragon]]/[[Beast]]<br>{{Tgt|Ally}} is [[adjacent]]
+|skill2={{Si|Human Virtue II}} Human Virtue II
+|s2 Se={{Eft|Bonuses|Atk/Spd|6}}
+|s2 SeT={{Tgt|Unit}} '''&''' non-<br>[[Dragon]]/[[Beast]]<br>{{Tgt|Allies}} [[within 2 spaces|within<br>2 spaces]]
+|s2 SeC=At start of turn if<br>a non-[[Dragon]]/[[Beast]]<br>{{Tgt|Ally}} is [[within 2 spaces]]
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|highest total {{SEt|Bonuses}} on<br>{{Tgt|Unit}} '''or''' non-[[Dragon]]/[[Beast]]<br>{{Tgt|Allies}} [[within 2 spaces]]}}
+|s2 Ce2={{Eft|Damage Reduction|highest total {{SEt|Bonuses}} on<br>{{Tgt|Unit}} '''or''' non-[[Dragon]]/[[Beast]]<br>{{Tgt|Allies}} [[within 2 spaces]]|percent=1|max=40}}<br>from {{Tgt|Foe}}'s first attack
+}}
+==Notes==
+{{Bonuses}}
+{{TemporaryBufffromBonus|source=allies within 2 spaces|multiSource=yes|name=Human Virtue II}}
+{{DamagePercentageReduction|name=Human Virtue II}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=人の可能性を！
+|german=Pfad der Tugend
+|spanishEU=Virtud humana
+|spanishLA=Virtud humana
+|french=Humanité
+|italian=Virtù umana
+|chineseTW=發揮人類的潛能！
+|portuguese=Virtude humana
+}}
+== See also==
+{{See also skills|cond=(Description LIKE '%grants %Atk/Spd/Def/Res%= highest bonus on%allies%within 2 spaces%' OR Description LIKE '%reduces damage%=%total value of bonuses%') AND Exclusive='1'}}
+*[[Skill families/C Passives#Joint Hone|Joint Hone Passives]]
+{{Passives Navbox|C}}

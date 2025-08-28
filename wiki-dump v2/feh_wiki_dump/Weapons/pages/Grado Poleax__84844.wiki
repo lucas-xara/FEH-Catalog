@@ -1,0 +1,47 @@
+{{Weapon Infobox
+|tagid=SID_グラドの戦斧
+|weaponType=Axe
+|weaponName=Grado Poleax
+|might=16
+|range=1
+|effect=Accelerates Special trigger (cooldown count-1).
+|cooldown=-1
+|cost=400
+|exclusive=1
+|userVersion1=Weapon
+|userVersion2=Gleam
+|statModifiers=0,16,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If a bonus granted by a skill like Rally or Hone and/or 1 extra space of movement granted by a skill like Armor March or Armored Boots is active, grants Spd/Def+5 during combat.
+|iconSkill1=Grado Poleax W.png
+|tagidExtraSkill1=強
+|properties=
+}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary buffs}}
+{{EffectfromBonusesMobility|target=unit|temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|戦闘強化R被強化|Combat Bonuses R Recieved Bonuses}}
+==In other languages==
+{{OtherLanguages
+|japanese=グラドの戦斧
+|german=Grado-Stabaxt
+|spanishEU=Alabarda Grado
+|spanishLA=Alabarda Grado
+|french=Merlin de Grado
+|italian=Alabarda di Graze
+|chineseTW=格拉多的戰斧
+|portuguese=Alabarda Grado
+}}
+==See also==
+* [[Garm]]
+* [[Gjöll]]
+{{Weapons Navbox}}

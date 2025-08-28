@@ -1,0 +1,79 @@
+{{Weapon Infobox
+|tagid=SID_夕影の神弓
+|intID=4456
+|image=wep_bw128
+|exclusive=1
+|weaponType=Bow
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effectiveness=Flying
+|effect=Accelerates Special trigger (cooldown count-1).<br>Effective against flying foes.<br><br>At start of player phase or enemy phase, grants the following effects to unit and allies within 2 spaces of unit for 1 turn: Res+6, 【Bonus Doubler】, and "reduces the percentage of foe's non-Special 'reduce damage by X%' skills by 50% during combat (excluding area-of-effect Specials)."<br><br>After start-of-turn effects trigger on enemy phase, for unit and allies within 2 spaces of unit, converts penalties into bonuses and neutralizes two【Penalty】effects (does not apply to Penalty effects that are applied at the same time; neutralizes the first applicable Penalty effects on unit's list of active effects).<br><br>If unit initiates combat or is within 2 spaces of an ally, grants bonus to unit's Atk/Spd/Def/Res = number of allies within 3 rows or 3 columns centered on unit × 3, + 5 (max 14), deals damage = 20% of unit's Res (excluding area-of-effect Specials), unit makes a guaranteed follow-up attack, and grants Special cooldown count-1 to unit before unit's first attack during combat.<br><br>【Bonus Doubler】<br>Grants bonus to Atk/Spd/Def/Res during combat = current bonus on each of unit's stats for 1 turn. Calculates each stat bonus independently.<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|required=Silver Bow
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Se1={{Eft|Bonuses|Res|6}}
+|Se2={{SEt|Bonus Doubler}}
+|Se3=<span style="width:12em;display:inline-block"/>{{SEt|Halves non-Special damage reduction}}
+|Se1-3C=At start of both Phases
+|Se4={{Eft|Bonuses|Atk/Spd/Def/Res|{{SEt|Penalty}} on each stat}}
+|Se5=Removes {{SEt|Penalties}}
+|Se6=Removes 1<sup>st</sup> 2 {{Kp|Penalty}} effects<br>(excluding {{SEt|Penalties}})
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|Se4-6C=After start-of-turn<br>effects on<br>Enemy Phase
+|Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|3 x {{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}, + 5|max=14}}
+|Ce3={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Res}}
+|Ce4={{Eft|Guaranteed Follow-Ups}}
+|Ce5={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Unit}}'s first attack
+|Ce2-5C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{Bonuses}}
+{{Bonus Doubler}}
+{{Halves non-Special damage reduction}}
+{{Penalty conversion}}
+{{Penalty neutralization|order=1|negstatuses=the 1<sup>st</sup> 2 {{Kp|Penalty}} effects of unit and allies [[within 2 spaces]]}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{DamageBoost}}
+{{Guaranteed Follow-Ups}}
+{{CombatCooldownCount|1}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Höðr: Dusk Shadow God|t=Baldr: Celestial Sun God
+|---xxx---
+|---xxx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxtx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=Fusil del ocaso
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+
+==See also==
+{{See also skills|cond=(Description LIKE '%converts%penalties%into%' OR Description LIKE '%neutralizes the first applicable Penalty effects on unit_s list of active effects%') AND Exclusive='1'}}
+{{Weapons Navbox}}

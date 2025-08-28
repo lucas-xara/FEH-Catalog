@@ -1,0 +1,37 @@
+{{Assist
+|tagid=SID_魔防の応援
+|name=Rally Resistance
+|range=1
+|effect=Grants Res+4 to target ally for 1 turn.
+|cost=150
+|exclusive=0
+|required=-
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_all,random_inherit_base
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se={{Eft|Bonuses|Res|4}}
+|SeT={{Tgt|Target Ally}}
+|SeC={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}
+}}
+==Notes==
+{{Bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=魔防の応援
+|german=Res. sammeln
+|spanishEU=Potenciar Res
+|spanishLA=Potenciar Res.
+|french=Ralliement : Rés
+|italian=Sprone Res
+|chineseTW=魔防支援
+|portuguese=Resist. nímia
+}}
+==See also==
+* [[Rally Assists]]
+{{Assists Navbox}}
+[[Category:Rally Assists]]

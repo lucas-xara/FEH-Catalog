@@ -1,0 +1,44 @@
+{{Weapon Infobox
+|tagid=SID_祝福の花の弓＋
+|weaponType=Bow
+|userVersion1=Bow
+|userVersion2=Arrow
+|might=12
+|range=2
+|effectiveness=flying
+|effect=Effective against flying foes. If unit initiates combat, grants Atk/Spd+4 during combat.
+|cost=300
+|exclusive=0
+|statModifiers=0,12,0,0,0
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|required=Bouquet Bow
+|properties=
+}}
+==Notes==
+* Has the same effect as {{St|Swift Sparrow 2}}.
+{{Effective damage bonus|flying}}
+{{IfUnitInitiates}}
+{{Combat boosts}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+File:V3.5 84 bride03 Hit.webp|Sprite sheet for {{St|Lofty Blossoms+}}, {{St|Cake Cutter+}}, and {{PAGENAME}}'s hit animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=祝福の花の弓＋
+|german=Blumenbogen+
+|spanishEU=Arco floral +
+|spanishLA=Arco floral +
+|french=Arc floral +
+|italian=Arco fiorito+
+|chineseTW=祝福之花弓＋
+|portuguese=Arco floral+
+}}
+{{Weapons Navbox}}

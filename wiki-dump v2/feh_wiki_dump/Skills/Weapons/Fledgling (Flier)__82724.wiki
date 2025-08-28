@@ -1,0 +1,34 @@
+{{Weapon Infobox
+|tagid=SID_若獣の化身・飛行
+|weaponType=Beast
+|might=6
+|range=1
+|effect=At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, unit can move 1 extra space. (That turn only. Does not stack.) If unit transforms, grants Atk+2.
+|cost=100
+|exclusive=0
+|canUseMove=Flying
+|statModifiers=0,6,0,0,0
+|next=Adult (Flier)
+|promotionRarity=4
+|promotionTier=1
+|required=Hatchling (Flier)
+|properties=random_all
+}}
+==Notes==
+{{Beast (Flier)}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=若獣の化身・飛行
+|german=Grünschnabel
+|spanishEU=Pájaro joven
+|spanishLA=Pájaro joven
+|french=Jeune (vol)
+|italian=Giovane (volante)
+|chineseTW=若獸化身・飛行
+|portuguese=Pássaro jovem
+}}
+==See also==
+{{See also skills|cond=Next LIKE 'Adult%'}}
+{{Weapons Navbox}}

@@ -1,0 +1,52 @@
+{{Passive
+|name=A/S Incite Hone
+|type=C
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|Cavalry}}
+|properties=random_owner
+|1name=A/S Incite Hone
+|alt1name=A S Incite Hone
+|1tagid=SID_攻速鼓舞・奮激
+|1effect=At start of turn, if unit is within 2 spaces of an ally, grants Atk/Spd+6 and【Incited】to unit and allies within 2 spaces of unit for 1 turn.<br><br>Grants bonus to unit's Atk/Spd during combat = number of allies on the map with the【Incited】 effect + 2 (excluding unit; max 5).<br><br>【Incited】<br>If unit initiates combat, grants bonus to unit's Atk/Spd/Def/Res = number of spaces from start position to end position of unit during combat (max 3; that turn only).
+|1cost=300
+|1required=Hone Atk 3;Hone Spd 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{Eft|Bonuses|Atk/Spd|6}}
+|Se2={{SEt|Incited}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=At start of turn<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce1={{Eft|Temporary buffs|Atk/Spd|2 + {{Tgt|Allies}}<br>with {{SEt|Incited}}|max=5}}
+}}
+==Notes==
+{{Bonuses}}
+{{Incited}}
+{{Temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=A/S Incite Hone
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=Incitapulsion A/V
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【Incited】%' AND Exclusive='1'}}
+* [[Hone Passives]]
+* [[Incite Passives]]
+* [[Incite Hone Passives]]
+{{Passives Navbox|C}}
+[[Category:Hone Passives]]
+[[Category:Incite Hone Passives]]

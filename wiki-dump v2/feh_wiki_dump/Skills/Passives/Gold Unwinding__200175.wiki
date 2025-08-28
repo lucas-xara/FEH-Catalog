@@ -1,0 +1,50 @@
+{{Passive
+|name=Gold Unwinding
+|type=B
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Gold Unwinding
+|1tagid=SID_時を戻す黄金の魔女
+|1effect=Inflicts Spd/Res-5 on foe during combat. At start of combat, if unit's HP ≥ 50% and unit initiates combat, reduces damage from foe's first attack by 60% during combat. If unit initiates combat, grants another action to unit after combat, and inflicts【Gravity】on unit and Pair Up cohort through their next action (will not trigger again for 2 turns after triggering).<br><br>【Gravity】<br>Restricts target's movement to 1 space through its next action.
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary debuffs|Spd/Res|5}}
+|Ce1T={{Tgt|Foe}}
+|Ce2={{Eft|Damage Reduction|60%}}<br>from {{Tgt|Foe}}'s first attack
+|Ce2T={{Tgt|Unit}}
+|Ce2C=Player Phase '''&'''<br>{{Tgt|Unit}}'s HP ≥ 50%<br>at start of combat
+|Me={{Eft|Another Action}}
+|MeC=After combat<br>in Player Phase<br>(2 turn cooldown)
+|Se={{SEt|Gravity}}
+|SeT={{Tgt|Unit}} '''&'''<br>{{Tgt|Cohort}}
+|SeC=After combat<br>in Player Phase<br>(2 turn cooldown)
+}}
+==Notes==
+{{Temporary debuffs}}
+{{IfUnitInitiates}}
+{{DamagePercentageReduction}}
+{{Galeforce notes}}
+{{Gravity}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=時を戻す黄金の魔女
+|german=Gold. Zeitsprung
+|spanishEU=Oro intemporal
+|spanishLA=Oro intemporal
+|french=Dénouement d'or
+|italian=Ritorno dorato
+|chineseTW=倒轉時間黃金魔女
+|portuguese=Reversão áurea
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%if unit initiates%after combat%another action to unit%' OR  Description LIKE '%if unit initiates%another action to unit%after combat%' AND Description NOT LIKE '%if unit initiates%assist%another action%' OR Description LIKE '%if unit initiates%grants unit another action%after combat%'}}
+{{Passives Navbox|B}}

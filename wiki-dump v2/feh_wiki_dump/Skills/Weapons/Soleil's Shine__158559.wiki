@@ -1,0 +1,46 @@
+{{Weapon Infobox
+|tagid=SID_ソレイユの陽剣
+|intID=2761
+|userVersion1=Weapon
+|userVersion2=Gleam
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=16
+|range=1
+|effect=Unit and foe cannot counterattack.
+|statModifiers=0,16,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|tagidExtraSkill1=一
+|effectSkill1=If unit initiates combat, grants Atk/Spd+5 and Special cooldown charge +1 per unit's attack during combat. (Only highest value applied. Does not stack.)
+|iconSkill1=Soleils Shine W.png
+|properties=
+}}
+==Notes==
+{{Firesweep interaction}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfUnitInitiates}}
+{{Combat boosts}}
+{{CooldownChargePlus|perAttack=user}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ソレイユの陽剣
+|german=Soleils Strahlen
+|spanishEU=Brillo de Soleil
+|spanishLA=Brillo de Soleil
+|french=Rayon de Soleil
+|italian=Vivacità di Soleil
+|chineseTW=索雷優的陽劍
+|portuguese=Brilho de Soleil
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%Unit and foe cannot counterattack%' OR Description LIKE '%f unit initiates combat%grants%cooldown charge +1%per unit\'s attack%'|columns=3}}
+{{Weapons Navbox}}

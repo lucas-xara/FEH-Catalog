@@ -1,0 +1,64 @@
+{{Weapon Infobox
+|tagid=SID_魔器・ヨトゥンの斧
+|intID=4408
+|image=wep_ax163
+|exclusive=0
+|weaponType=Axe
+|cost=300
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>At start of player phase or enemy phase, neutralizes【Panic】and penalties on unit's Atk/Def that take effect on unit at that time.<br><br>If foe initiates combat or if unit's HP ≥ 25% at start of combat, grants bonus to unit's Atk/Spd/Def/Res = 25% of foe's Atk at start of combat - 4 (max 14; min 5), deals damage = 15% of unit's Atk (including when dealing damage with an area-of-effect Special), reduces damage from foe's attacks by 15% of unit's Atk (including from area-of-effect Specials; excluding Røkkr area-of-effect Specials), and grants Special cooldown count-1 to unit before unit's first attack during combat.<br><br>【Panic】<br>Converts bonuses on target into penalties through its next action.
+|required=Silver Axe
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=200
+|properties=arcane,random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Se1=Removes Atk/Def {{SEt|Penalties}}
+|Se2=Removes {{SEt|Panic}}
+|SeC=At start of both Phases 
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|25% of {{Tgt|Foe}}'s Atk<br>at start of combat, -4|min=5|max=14}}
+|Ce2={{Eft|Damage Boost|15% of {{Tgt|Unit}}'s Atk}}<br>before '''&''' during combat
+|Ce3={{Eft|Damage Reduction|15% of {{Tgt|Unit}}'s Atk}}<br>from {{Tgt|Foe}}'s attacks<br>& Non-Røkkr [[AoE Specials]]
+|Ce4={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Unit}}'s first attack
+|CeC=Enemy Phase '''or'''<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{Penalty neutralization|negstatuses=Atk/Def {{SEt|Penalties}} and {{SEt|Panic}}}}
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+{{At start of combat}}
+{{AtkDamageBoost}}
+{{FlatDamageReduction}}
+{{FlatAoEDamageReduction}}
+{{CombatCooldownCount|-1}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%deals damage%=%of unit_s Atk%(including when dealing damage%' OR Description LIKE '%reduces damage from foe_s attacks by ___ of unit_s Atk%') AND Exclusive='1' OR Description LIKE '%At start of player phase or enemy phase%neutralize%at this time%'}}
+{{Weapons Navbox}}

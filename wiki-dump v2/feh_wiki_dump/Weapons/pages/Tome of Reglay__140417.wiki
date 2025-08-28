@@ -1,0 +1,99 @@
+{{Weapon Infobox
+|tagid=SID_銀の魔道軍将の書
+|weaponName=Tome of Reglay
+|userVersion1=Close
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|weaponType=Green Tome
+|might=14
+|range=2
+|effect=Grants Atk+3. At start of turn, grants Special cooldown count-1 to any magic allies within two spaces of unit (including unit) that has their Special cooldown count at its maximum value. At start of combat, if foe's HP ≥ 75%, grants Atk/Spd+6 to unit during combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,17,0,0,0
+|required=Rexcalibur
+|intID=2506
+|sort=520
+|effectRange=2
+|value=20
+|timingID=29
+|abilityID=273
+|limit1ID=53
+|randomTimestamp=2021-05-06T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Atk+3.<br><br>At start of turn, grants Atk/Spd+6 and "neutralizes penalties on unit during combat" to unit and allies within 2 spaces of unit for 1 turn, and for unit and any support-partner, magic, or staff allies within 2 spaces of unit, if Special cooldown count is at its maximum value, grants Special cooldown count-2; if Special cooldown count is at its maximum value - 1, grants Special cooldown count-1.<br><br>At start of combat, if foe's HP ≥ 75%, grants Atk/Spd+6 and Def/Res+5 to unit, reduces damage from foe's first attack by 7 ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and neutralizes effects that grant "Special cooldown charge +X" to foe or inflict "Special cooldown charge -X" on unit during combat.
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants bonus to unit's Atk/Spd/Def/Res = number of allies within 3 spaces of unit × 2, + 5 (max 11; if support partner is within 3 spaces of unit, value is treated as 11), deals damage = 20% of unit's Spd (excluding area-of-effect Specials), and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials).
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Atk|3}}
+|s1 Me={{Eft|Reduce Cooldown|1}}
+|s1 MeT={{Tgt|Unit}} '''&'''<br>{{Cwti|group=1|Magic}}[[Magic]] {{Tgt|Allies}}<br>[[within 2 spaces]]
+|s1 MeC=At start of turn if<br>{{Tgt|Unit}} or {{Tgt|Ally}}'s <br>CD is max value
+|s1 Ce={{Eft|Temporary buffs|Atk/Spd|6}}
+|s1 CeC={{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Atk|3}}
+|s2 Se1={{Eft|Bonuses|Atk/Spd|6}}
+|s2 Se2={{SEt|Neutralize Penalties}}
+|s2 Se1-2T={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|s2 SeC=At start of turn
+|s2 Me1={{Eft|Reduce Cooldown|2}}
+|s2 Me1C=At start of turn if<br>{{Tgt|Unit}} or {{Tgt|Ally}}'s<br>CD is max value
+|s2 Me2={{Eft|Reduce Cooldown|1}}
+|s2 Me1-2T={{Tgt|Unit}}, {{Tgt|Partner}} '''&'''<br>{{Cwti|group=1|Magic,Staff}} [[Magic]]/{{Wtp|Colorless Staff}}<br>{{Tgt|Allies}}<br>[[within 2 spaces]]
+|s2 Me2C=At start of turn if<br>{{Tgt|Unit}} or {{Tgt|Ally}}'s<br>CD is max value -1
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd|6}}, {{Eft|Temporary buffs|Def/Res|5}}
+|s2 Ce2={{Eft|Damage Reduction|7}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|s2 Ce3={{Eft|Neutralize Guard}}
+|s2 Ce4={{Eft|Neutralize Accelerate Charge}}
+|s2 Ce4T={{Tgt|Foe}}
+|s2 CeC={{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|skill3={{Si|Tome of Reglay|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|2 x {{Tgt|Allies}}<br>[[within 3 spaces]], +5|max=11*}}
+|s3 Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|s3 Ce3={{Eft|Reduce Damage Reduction|50%}}
+|s3 Ce3T={{Tgt|Foe}}
+|s3 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+<b>{{Hatnote|* If {{Tgt|Partner}} is [[within 3 spaces]], value is treated as max.}}</b>
+
+==Notes==
+{{Start of turn Special modification}}
+{{Temporary buffs}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Bonuses|name=Refined Tome of Reglay}}
+{{Neutralize Penalties|name=Refined Tome of Reglay}}
+{{FlatDamageReduction|7|name=Refined Tome of Reglay}}
+{{CooldownChargePlusNeutralization|name=Refined Tome of Reglay}}
+{{CooldownChargeMinusNeutralization|name=Refined Tome of Reglay}}
+{{DamageBoost|name={{St|Tome of Reglay|refine=Skill1}}}}
+{{Reduce Damage Reduction|name={{St|Tome of Reglay|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=銀の魔道軍将の書
+|german=Buch von Reglay
+|spanishEU=Grimorio Reglay
+|spanishLA=Grimorio Reglay
+|french=Tome de Reglay
+|italian=Tomo dei Reglay
+|chineseTW=銀之魔道軍將之書
+|portuguese=Tomo de Reglay
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%start of turn%unit and allies%maximum value%Special cooldown count-1%' OR Description LIKE '%start of turn%unit and allies%Special cooldown count-1%maximum value%') AND Exclusive='1'}}
+* [[Time Pulse Passives]]
+{{Weapons Navbox}}

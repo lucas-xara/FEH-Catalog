@@ -1,0 +1,51 @@
+{{Weapon Infobox
+|tagid=SID_霧氷のナイフ
+|weaponType=Dagger
+|might=14
+|range=2
+|effect=Accelerates Special trigger (cooldown count-1). If unit initiates combat and foe uses sword, lance, axe, dragonstone, or beast damage, grants Def+20 during combat, and if foe can counter, unit makes a guaranteed follow-up attack. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions.
+|cooldown=-1
+|cost=400
+|exclusive=1
+|userVersion1=Weapon
+|userVersion2=Gleam
+|statModifiers=0,14,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1). If unit initiates combat, grants Def+20 to unit during combat, and also, if foe can counter, unit makes a guaranteed follow-up attack.<br><br>Effect:【Dagger ７】<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|effectSkill1=If unit initiates combat or is within 2 spaces of an ally, inflicts Atk/Def-5 on foe and inflicts Special cooldown charge -1 on foe per attack during combat. (Only highest value applied. Does not stack.)
+|iconSkill1=Hoarfrost Knife W.png
+|tagidExtraSkill1=消
+|properties=random_owner
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{IfFoeCanCounter}}
+{{Temporary buffs}}
+{{Guaranteed follow-up interaction}}
+{{IfUnitAttacked}}
+{{Penalties}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary debuffs}}
+{{CooldownChargeMinus}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=霧氷のナイフ
+|german=Raureifmesser
+|spanishEU=Daga escarchada
+|spanishLA=Daga escarchada
+|french=Couteau du givre
+|italian=Pugnale brina
+|chineseTW=霧冰匕首
+|portuguese=Faca da geada
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if%foe%can counter%makes a guaranteed follow-up%' AND Description NOT LIKE '%unit can counterattack regardless%' OR Description LIKE '%if unit initiates combat%inflicts Atk/Def-%during combat%' AND Description NOT LIKE '%transforms%' AND Description NOT LIKE '%inflicts%within _ spaces%during combat%' OR Description LIKE '%if unit initiates combat%inflicts Special cooldown charge -1%'}}
+{{Weapons Navbox}}

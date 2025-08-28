@@ -1,0 +1,81 @@
+{{#invoke:NameAbout|main|Name=Diamant}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Diamant
+|Title=Gallant Ninja
+|WeaponType=Green Axe
+|MoveType=Infantry
+|Origin=Fire Emblem Engage
+|Gender=Male
+|actorEN=Stephen Fu
+|actorJP=諏訪部順一
+|artist=スエカネクミコ
+|additionDate=November 5, 2024
+|releaseDate=November 6, 2024
+|cv1=14
+|cv2=300200
+|TagID=忍者ディアマンド
+|InternalID=1164
+|Properties=special
+|description=The crown prince of Brodia. He works earnestly to become proficient in the art of the ninja. Appears in Fire Emblem Engage.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=9|Lv1SPD=12|Lv1DEF=15|Lv1RES=3
+|GRHP=50|GRATK=90|GRSPD=60|GRDEF=75|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Bold Kusarigama
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=4
+|special1Unlock=3
+|special2=Bonfire
+|special2Unlock=4
+|special3=Boulder
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Def Finish 1
+|passiveA2=Atk/Def Finish 2
+|passiveA3=Atk/Def Finish 3
+|passiveA4=Atk/Def Finish 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Atk/Def Bulwark 1
+|passiveB2=Atk/Def Bulwark 2
+|passiveB3=Atk/Def Bulwark 3
+|passiveB4=A/D Spiked Wall
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Even Tempest 1
+|passiveC2=Even Tempest 2
+|passiveC3=Even Tempest 3
+|passiveC4=Endless Tempest
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Ninja Festival units]]

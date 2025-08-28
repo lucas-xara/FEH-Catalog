@@ -1,0 +1,53 @@
+{{Weapon Infobox
+|tagid=SID_絶海の蒼弓
+|weaponType=Bow
+|might=14
+|range=2
+|effectiveness=armored,flying
+|effect=Grants Spd+3. Effective against flying and armored foes. If foe's HP = 100% and unit initiates combat, grants Atk/Spd/Def/Res+4 during combat.
+|cost=400
+|exclusive=1
+|userVersion1=Bow
+|userVersion2=Arrow
+|statModifiers=0,14,3,0,0
+|required=Silver Bow
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Spd+3. Effective against flying and armored foes. If unit initiates combat or foe's HP ≥ 75% at start of combat, grants Atk/Spd/Def/Res+4 to unit during combat and neutralizes effects that prevent unit's follow-up attacks or inflict "Special cooldown charge -X" on unit.
+|tagidExtraSkill1=一
+|effectSkill1=Accelerates Special trigger (cooldown count-1).<br>At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit during combat, and also, if foe uses sword, lance, axe, dragonstone, or beast damage and unit's Spd ≥ foe's Spd+5, foe cannot counterattack.
+|iconSkill1=Deep-Blue Bow W.png
+|cooldownSkill1=-1
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|flying,armored}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Follow-up effect neutralization|preventOnly=1}}
+{{CooldownChargeMinusNeutralization}}
+{{TermRefersTo|Dragonstone}}
+{{TermRefersTo|Beast}}
+{{Prevent counterattacks|name={{St|Deep-Blue Bow|refine=skill1}}}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=絶海の蒼弓
+|german=Meeresbogen
+|spanishEU=Arco marítimo
+|spanishLA=Arco marítimo
+|french=Arc bleu lagon
+|italian=Arco cobalto
+|chineseTW=遠海之蒼弓
+|portuguese=Arco marítimo
+}}
+==See also==
+{{See also skills|cond=WeaponEffectiveness='armored,flying' OR Description LIKE '%if foe_s HP =%grants Atk/Spd/Def/Res+%during combat%' AND Description NOT LIKE '%magic ally%' OR Description LIKE '%if foe uses%unit_s Spd%foe_s Spd%foe cannot counterattack%'}}
+{{Weapons Navbox}}

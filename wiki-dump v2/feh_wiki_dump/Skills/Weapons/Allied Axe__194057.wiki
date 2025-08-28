@@ -1,0 +1,38 @@
+{{Weapon Infobox
+|tagid=SID_共闘の斧
+|intID=3562
+|image=wep_ax129
+|exclusive=0
+|weaponType=Axe
+|cost=200
+|might=10
+|range=1
+|effect=Grants Atk/Def+4 to allies within 2 spaces during combat. If unit is within 2 spaces of an ally, grants Atk/Def+4 to unit during combat.
+|statModifiers=0,10,0,0,0
+|required=Steel Axe
+|next=Allied Axe+
+|promotionRarity=5
+|promotionTier=1
+|properties=random_owner
+}}
+==Notes==
+{{Temporary buffs}}
+{{AlliesCombatEffect}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=共闘の斧
+|german=Bündnisaxt
+|spanishEU=Hacha aliada
+|spanishLA=Hacha aliada
+|french=Hache alliée
+|italian=Ascia alleata
+|chineseTW=共鬥之斧
+|portuguese=Machado aliado
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%grants%/%+%to allies within _ spaces%if unit is within _ spaces of an ally%grants%/%+%during combat%' OR Description LIKE '%if unit is within _ spaces of an ally%grants%/%+%to unit and allies%during combat%') AND WikiName NOT LIKE '%allied%'}}
+* [[Skill families#Allied|Allied Weapons]]
+* [[Joint Drive Passives]]
+{{Weapons Navbox}}

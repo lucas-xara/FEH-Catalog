@@ -1,0 +1,64 @@
+{{Weapon Infobox
+|tagid=SID_魔器メデューサ
+|intID=4632
+|image=wep_mg500
+|exclusive=0
+|weaponType=Blue Tome
+|cost=300
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>At start of turn, if unit's HP ≥ 25%, grants 【Anathema】to unit for 1 turn.<br><br>At start of combat, if unit's HP ≥ 25%, grants bonus to unit's Atk/Spd/Def/Res = 25% of foe's Atk at start of combat - 4 (max 14; min 5), deals damage = 15% of unit's Atk (including area-of-effect Specials), reduces damage from foe's first attack by 7 ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and grants Special cooldown count-1 to unit before unit's first attack during combat.<br><br>【Anathema】<br>Inflicts Spd/Def/Res-4 on foes within 3 spaces of unit during combat.
+|required=Thoron;Shine
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=200
+|properties=arcane,random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Se={{SEt|Anathema}}
+|SeC=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25%
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|25% of {{Tgt|Foe}}'s Atk<br>at start of combat, -4|min=5|max=14}}
+|Ce2={{Eft|Damage Boost|15% of {{Tgt|Unit}}'s Atk}}<br>before '''&''' during combat
+|Ce3={{Eft|Damage Reduction|7}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce4={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Unit}}'s first attack
+|CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{Anathema}}
+{{Temporary buffs}}
+{{At start of combat}}
+{{AtkDamageBoost}}
+{{FlatDamageBoost|7}}
+{{CombatCooldownCount|-1}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Gallery==
+<gallery>
+V9.3_v0903b_gaiden_Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%deals damage%=%of unit_s Atk%(including%' OR Description LIKE '%【Anathema】%') AND Exclusive='1'}}
+{{Weapons Navbox}}

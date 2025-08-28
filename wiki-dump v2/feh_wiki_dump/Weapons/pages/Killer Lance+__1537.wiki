@@ -1,0 +1,37 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_キラーランス＋
+|weaponType=Lance
+|weaponName={{PAGENAME}}
+|altWeaponName=Killer Lance Plus
+|might=11
+|range=1
+|effect=Accelerates Special trigger (cooldown count-1).
+|cooldown=-1
+|cost=300
+|exclusive=0
+|statModifiers=0,11,0,0,0
+|properties=random_all
+}}
+==Evolution==
+{{WEvo
+|weapon=Slaying Lance+
+|Medals=200
+|Stones=20
+|Dew=
+}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=キラーランス＋
+|german=Meisterlanze+
+|spanishEU=Lanza asesina +
+|spanishLA=Lanza letal +
+|french=Lance létale +
+|italian=Lancia letale+
+|chineseTW=必殺槍＋
+|portuguese=Lança letal+
+}}
+==See also==
+* [[Weapons that accelerate the Special trigger]]
+{{Weapons Navbox}}

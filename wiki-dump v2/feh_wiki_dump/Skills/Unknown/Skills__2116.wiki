@@ -1,0 +1,36 @@
+[[File:Icon Skill.png|alt=|right]]Skills can be equipped by heroes to help them become more powerful and fight more effectively, such as buffing stats, using a more powerful weapon, and other various benefits.
+__TOC__
+==List of Skills==
+{{Main|Weapons|Assists|Specials|Passives|Sacred Seals}}
+==Skill Basics / Learning Skills==
+All units have specific skills which they can learn. To learn skills, the character needs to have enough Skill Points (SP), the "currency" for learning skills, in order to learn that skill. These points can be earned through battle by doing damage to enemies, levelling up, and successfully killing enemies. Additionally, some skills can't be learned unless the hero is at a high enough rarity to unlock that skill.
+
+Skills are split into 5 categories:
+* {{SCi|Weapon}} Weapons
+* {{SCi|Assist}} Assists
+* {{SCi|Special}} Specials
+* {{SCi|ABC}}{{SCi|X}} Passives
+* {{SCi|S}} Sacred Seals 
+<br>A character can only have one weapon, assist skill, and special skill equipped. For passives, these are divided into 4 categories, [[File:Passive Icon ABC.png|x32px|class=inline-icon|alt=|link=]] and [[File:Passive Icon X.png|x26px|class=inline-icon|alt=|link=]] Attuned Skills. Certain passive skills belong in certain passive slots, denoted by the letter in the skill picture. [[File:Basics Learn Skills Passive A.png|x75px|center]] Only one passive can be equipped in each Passive slot.
+
+==Equip Skills==
+Typically, a character will have multiple skills that can be equipped in a certain slot. For example, some characters have two different Special skills which they can equip, but you can only choose one to take into battle.
+
+A player can go into the Equip Skills menu and can change the skills that are equipped on a hero from the skills that hero has learned. There was originally a stamina cost to change skills; however, Nintendo indefinitely removed the cost for changing equipped skills after initially having it at 0 stamina as part of the Launch Celebration event.
+
+==Inherit Skills==
+{{Main|Inherit Skill}}
+Skills can be passed on from one hero to another, providing extensive possibilities of customizing heroes.
+
+==In other languages==
+{{OtherLanguages
+|japanese=スキル
+|german=Fähigkeit
+|spanishEU=Habilidad
+|spanishLA=Habilidad
+|french=Aptitude
+|italian=Abilità
+|chineseTW=技能
+|portuguese=Habilidade
+}}
+[[Category:Skills]]

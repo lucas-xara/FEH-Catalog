@@ -1,0 +1,47 @@
+{{Weapon Infobox
+|tagid=SID_芽生えし心の竜石
+|intID=2971
+|image=wep_ac049
+|exclusive=1
+|weaponType=Dragonstone
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effectiveness=Armored
+|effect=Accelerates Special trigger (cooldown count-1). Effective against armored foes. Neutralizes "effective against armored" bonuses. If unit is within 3 spaces of an ally, inflicts Atk/Spd/Def/Res-5 on foe during combat, neutralizes penalties on unit during combat, and foe cannot make a follow-up attack. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|statModifiers=0,16,0,0,0
+|required=Flametongue
+|properties=random_owner
+}}
+==Notes==
+{{Effective damage bonus|armored}}
+* Has the same effect as {{St|Svalinn Shield}}.
+{{Effectiveness neutralization|armored}}
+{{Temporary debuffs}}
+{{Penalty neutralization}}
+{{Prevent follow-up}}
+{{LowerDefRes}}
+
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V6.2_v0602b_fuin_Mag_2.webp|Sprite sheet for {{St|Körmt}}, {{St|Sell-Spell Tome}} and Dew Dragonstone's animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=芽生えし心の竜石
+|german=Taudrachenstein
+|spanishEU=Piedra drag. rocío
+|spanishLA=Piedra drag. rocío
+|french=Dracop. rosée
+|italian=Rugiada drago
+|chineseTW=萌芽之心的龍石
+|portuguese=Pedra orvalho
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%neutralizes _effective against armored_ bonuses%' OR (Description LIKE '%inflicts Atk/Spd/Def/Res-_ on foe during combat%' OR Description LIKE '%neutralizes penalties on unit during combat%' OR Description LIKE '%foe cannot make a follow-up attack%' OR Description LIKE '%foe cannot make a follow-up attack%') AND Description LIKE '%if unit is within _ spaces of an ally%'|columns=3}}
+* [[Sources of effective against armored foes]]
+* [[:Category:Skills that accelerate the Special trigger|Skills that accelerate the Special trigger]]
+{{Weapons Navbox}}

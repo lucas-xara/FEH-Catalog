@@ -1,0 +1,40 @@
+{{Weapon Infobox
+|tagid=SID_旧年を閉ざす爪牙
+|intID=3403
+|exclusive=1
+|weaponType=Beast
+|canUseMove=Flying
+|cost=400
+|might=14
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). If unit initiates combat or is not adjacent to an ally, grants Atk/Spd+6 to unit, neutralizes effects that prevent unit's follow-up attacks, deals damage = X% of unit's Spd (X = the number of foes within 3 spaces of target, including target, × 10) during combat (Excluding area-of-effect Specials; max 30%.), and reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = the number of foes within 3 spaces of target, including target, × 20 (max 60%). At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, unit can move 1 extra space. (That turn only. Does not stack.) If unit transforms, grants Atk+2.
+|statModifiers=0,14,0,0,0
+|required=Adult (Flier)
+|properties=
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Follow-up effect neutralization|preventOnly=1}}
+{{DamageBoost}}
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+{{Beast (Flier)}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=旧年を閉ざす爪牙
+|german=Pfote d. Finalität
+|spanishEU=Colmillo decisivo
+|spanishLA=Colmillo decisivo
+|french=Dents de clôture
+|italian=Zanna del finale
+|chineseTW=關閉舊年的爪牙
+|portuguese=Presa decisiva
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit initiates combat or is not adjacent to an ally%prevent unit_s follow-up%' OR Description LIKE '%deals damage = X% of unit_s Spd%' OR Description LIKE '%reduces damage%=%number of foes within _ spaces of%'}}
+{{Weapons Navbox}}

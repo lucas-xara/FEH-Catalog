@@ -1,0 +1,68 @@
+{{#invoke:NameAbout|main|Name=Shiro}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Shiro
+|Title=Raw Talent
+|GrowthModifier=Gen 2
+|WeaponType=Blue Lance
+|MoveType=Infantry
+|Origin=Fire Emblem Fates
+|Gender=Male
+|actorEN=Kaiji Tang
+|actorJP=内匠靖明
+|artist=新井テル子
+|releaseDate=December 4, 2017
+|additionDate=November 28, 2017
+|poolDate=December 18, 2017
+|randomStartTime=2017-12-28T07:00:00Z
+|poolRarities=5
+|TagID=シノノメ
+|InternalID=193
+|cv1=11
+|cv2=6900700
+|Properties=specRate_202008
+|description=Ryoma's son. Doesn't slack on training. Outgoing and easy to get along with. Appears in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=9|Lv1SPD=6|Lv1DEF=9|Lv1RES=5
+|GRHP=50|GRATK=60|GRSPD=55|GRDEF=60|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Lance
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Bright Naginata
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Swap
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Steady Stance 1
+|passiveA2=Steady Stance 2
+|passiveA3=Steady Stance 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Def Tactic 1
+|passiveC2=Def Tactic 2
+|passiveC3=Def Tactic 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

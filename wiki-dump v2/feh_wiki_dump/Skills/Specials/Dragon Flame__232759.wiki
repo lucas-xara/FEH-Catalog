@@ -1,0 +1,47 @@
+{{Special
+|tagid=SID_竜炎
+|intID=4681
+|exclusive=0
+|canUseWeapon={{WeaponList|Dragonstone}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=4
+|effect=Boosts damage by 80% of unit's Def and restores 30% of unit's maximum HP when Special triggers.<br><br>If both of the following conditions are met, reduces damage from foe's next attack by 40% during combat:<br>&nbsp;&nbsp;- Unit's or foe's Special is ready, or unit's<br>&nbsp;&nbsp;&nbsp;&nbsp;or foe's Special triggered before or during<br>&nbsp;&nbsp;&nbsp;&nbsp;this combat.<br>&nbsp;&nbsp;- Foe initiates combat or unit's Def ≥ foe's<br>&nbsp;&nbsp;&nbsp;&nbsp;Def-10.<br>(Once per combat; excluding area-of-effect Specials).
+|required=Ignis
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Damage Boost|80% of {{Tgt|Unit}}'s Def}}
+|Ce2={{Eft|Heal|30% of {{Tgt|Unit}}'s max HP}}
+|Ce1-2C=Special triggers
+|Ce3={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s next attack
+|Ce3C=({{Tgt|Unit}} or {{Tgt|Foe}}'s<br>Special is ready '''or'''<br>triggered before or<br>during combat) '''&'''<br>(Enemy Phase '''or'''<br>{{Tgt|Unit}}'s Def ≥<br>{{Tgt|Foe}}'s Def-10)
+}}
+==Notes==
+{{DamageBoost}}
+{{CombatHPRecovery}}
+{{DamagePercentageReduction}}
+{{IfFoeInitiates}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=Llama de dragón
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(SCategory='special' AND (Description LIKE '%boosts%damage%of unit_s Def%' OR Description LIKE '%of unit_s max% HP%')) AND (Exclusive='1' AND Name NOT LIKE '%+' AND Properties HOLDS NOT 'arcane')}}
+{{Specials Navbox}}

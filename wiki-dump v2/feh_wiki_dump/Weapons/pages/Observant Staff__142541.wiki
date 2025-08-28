@@ -1,0 +1,43 @@
+{{Weapon Infobox
+|tagid=SID_立会人の杖
+|weaponName=Observant Staff
+|image=wep_rd040
+|weaponType=Staff
+|might=8
+|range=2
+|effect=If unit is within 3 spaces of two allies in a support-partner pair (excluding unit), grants Atk/Spd/Def/Res+6 to unit during combat and neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.
+|cost=200
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|required=Assault
+|next=
+|promotionRarity=5
+|promotionTier=2
+|intID=2566
+|sort=91500
+|value=11
+|timingID=1
+|abilityID=142
+|limit1ID=65
+|properties=
+}}
+==Notes==
+{{Temporary buffs}}
+{{Bonus neutralization}}
+{{SupportPartner|pair=1|effect=temporary buffs and bonus neutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=立会人の杖
+|german=Zuschauerstab
+|spanishEU=Bastón testigo
+|spanishLA=Bastón testigo
+|french=Bâton témoin
+|italian=Bastone astante
+|chineseTW=見證人之杖
+|portuguese=Bastão atento
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%support-partner pair%'}}
+{{Weapons Navbox}}

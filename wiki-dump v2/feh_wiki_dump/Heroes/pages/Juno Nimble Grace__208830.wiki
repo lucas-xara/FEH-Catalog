@@ -1,0 +1,71 @@
+{{#invoke:NameAbout|main|Name=Juno}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Juno
+|Title=Nimble Grace
+|WeaponType=Red Sword
+|MoveType=Flying
+|Origin=Fire Emblem: The Binding Blade
+|Gender=Female
+|actorEN=Suzie Yeung
+|actorJP=田中敦子
+|artist=hanusu
+|additionDate=January 19, 2024
+|releaseDate=January 19, 2024
+|cv1=5
+|cv2=700400
+|TagID=ナバタユーノ
+|InternalID=1053
+|Properties=special
+|description=The eldest of three sisters from Ilia. Visits Nabata's festival as a representative of Edessa. Appears in Fire Emblem: The Binding Blade.
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=8|Lv1SPD=16|Lv1DEF=9|Lv1RES=5
+|GRHP=50|GRATK=80|GRSPD=70|GRDEF=60|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Blade of Sands
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Guard Bearing 1
+|passiveB2=Guard Bearing 2
+|passiveB3=Guard Bearing 3
+|passiveB4=Guard Bearing 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Atk/Def Oath 1
+|passiveC2=Atk/Def Oath 2
+|passiveC3=Atk/Def Oath 3
+|passiveC4=Atk/Def Oath 4
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Desert Festival units]]

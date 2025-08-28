@@ -1,0 +1,31 @@
+{{About|the Captain Skill|the Passive Skill|Rallying Cry}}{{Captain Skill
+|name=Rallying Cry
+|wikiName=Rallying Cry (Captain Skill)
+|altname=Rallying Cry Captain Skill
+|effect=At start of turns 2-5, grants Atk/Spd/Def/Res+6 to captain and allies within 2 spaces of captain for 1 turn.
+|statModifiers=
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|StatusEffect={{SkillEffectText|Bonuses|Atk/Spd/Def/Res|6}}
+|StatusEffect Targets={{SkillTargetText|Captain}} & {{SkillTargetText|Allies}}<br>[[within 2 spaces]]
+|StatusEffect Conditions=At start of turns 2-5
+}}
+==Notes==
+{{Bonuses}} 
+==In other languages==
+{{OtherLanguages
+|english=Rallying Cry
+|japanese=叱咤激励
+|german=Schlachtruf
+|spanishEU=Grito potenciador
+|spanishLA=Grito potenciador
+|french=Cri de ralliement
+|italian=Grido di forza
+|chineseTW=高聲激勵
+|portuguese=Grito mobilizador
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%at start of turn%grants%+%and allies within 2 spaces of%for 1 turn%' AND Exclusive='1' OR Name='Rallying Cry'}}
+{{Captain Skills Navbox}}

@@ -1,0 +1,33 @@
+{{Weapon Infobox
+|tagid=SID_キルソード
+|weaponType=Sword
+|weaponName={{PAGENAME}}
+|might=7
+|range=1
+|effect=Accelerates Special trigger (cooldown count-1).
+|cooldown=-1
+|cost=200
+|exclusive=0
+|statModifiers=0,7,0,0,0
+|next=Killing Edge+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Sword
+|properties=random_all
+}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=キルソード
+|german=Schnitter
+|spanishEU=Espada asesina
+|spanishLA=Espada letal
+|french=Fer létal
+|italian=Lama letale
+|chineseTW=必殺劍
+|portuguese=Espada letal
+}}
+==See also==
+* [[Weapons that accelerate the Special trigger]]
+{{Weapons Navbox}}

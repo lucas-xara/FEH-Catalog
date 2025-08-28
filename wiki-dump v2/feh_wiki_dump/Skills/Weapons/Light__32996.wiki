@@ -1,0 +1,34 @@
+{{Weapon Infobox
+|tagid=SID_ライト
+|weaponType=Blue Tome
+|weaponName={{PAGENAME}}
+|might=4
+|range=2
+|effect=
+|next=Ellight
+|promotionRarity=3
+|promotionTier=1
+|required=-
+|cost=50
+|exclusive=0
+|userVersion1=Closed|userVersion2=Open|statModifiers=0,4,0,0,0
+|SE=se_effect_light01.flac
+|properties=random_all
+}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ライト
+|german=Licht
+|spanishEU=Luz
+|spanishLA=Luz
+|french=Lumière
+|italian=Luce
+|chineseTW=光輝
+|portuguese=Luz
+}}
+==See also==
+* [[Iron Weapons]]
+{{Weapons Navbox}}
+[[Category:Iron weapons]]

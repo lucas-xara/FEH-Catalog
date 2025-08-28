@@ -1,0 +1,58 @@
+{{Weapon Infobox
+|tagid=SID_ペレジアの燭台
+|weaponName=Plegian Torch
+|weaponType=Green Tome
+|might=8
+|range=2
+|effect=If unit is not adjacent to an ally, inflicts penalty on foe's Atk/Res during combat = 5 + any current penalty on each of those stats. (Example: if foe has -7 penalty to Atk, inflicts Atk-12, for a net penalty of Atk-19 during combat.) Calculates each stat penalty independently.
+|cost=200
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|required=Elwind
+|next=
+|promotionRarity=5
+|promotionTier=1
+|intID=2403
+|sort=89000
+|value=11
+|timingID=1
+|abilityID=255
+|limit1ID=19
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce={{Eft|Temporary Debuffs|Atk/Res|5 + {{SEt|penalties}}<br>on {{Tgt|Foe}}'s Atk/Res}}
+|CeT={{Tgt|Foe}}
+|CeC=No {{Tgt|Allies}}<br>are [[adjacent]]
+}}
+==Notes==
+{{TemporaryDebufffromPenalty}}
+
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+Weapon Plegian Torch.png|Phase 1
+Weapon Plegian Torch V2.png|Phase 2
+Weapon Plegian Torch V3.png|Phase 3
+Weapon Plegian Torch V4.png|Phase 4
+Wep mg251.webp|Sprite sheet use to animate the weapon.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=ペレジアの燭台
+|german=Plegia-Fackel
+|spanishEU=Cirio plegiano
+|spanishLA=Cirio plegiano
+|french=Torche Plegia
+|italian=Torcia plegiana
+|chineseTW=佩萊吉亞的燭台
+|portuguese=Tocha plegiana
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%inflicts penalty on foe_s%/%any current penalty on each of those stats%' AND WikiName NOT LIKE '%vulture%'|columns=3}}
+* [[Skill families#Vulture|Vulture Weapons]]
+{{Weapons Navbox}}

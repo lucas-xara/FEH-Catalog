@@ -1,0 +1,45 @@
+{{Weapon Infobox
+|tagid=SID_鎧殺の暗器＋
+|intID=2966
+|image=wep_dg064
+|exclusive=0
+|weaponType=Dagger
+|cost=300
+|might=12
+|range=2
+|effectiveness=Armored
+|effect=Effective against armored foes. Disables unit's and foe's skills that change attack priority.<br>Effect:【Dagger ７】<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|statModifiers=0,12,0,0,0
+|required=Armorpin Dagger
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=random_owner
+}}
+==Notes==
+* Has the same effect as {{St|Hardy Bearing 3}}.
+{{Effective damage bonus|armored}}
+{{Hardy Bearing}}
+{{IfUnitAttacked}}
+{{Penalties}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=鎧殺の暗器＋
+|german=Panzertod+
+|spanishEU=Daga punzón +
+|spanishLA=Daga punzón +
+|french=Dague cuirasse +
+|italian=Spaccacorazze+
+|chineseTW=破鎧暗器＋
+|portuguese=Adaga alfinetada+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%change attack priority%' AND Name NOT LIKE '%+' AND Exclusive=1|columns=3}}
+* [[Hardy Bearing weapons]]
+* [[Sources of effective against armored foes]]
+{{Weapons Navbox}}

@@ -1,0 +1,50 @@
+{{Passive
+|name=Seal Atk/Def
+|type=B
+|exclusive=0
+|1name=Seal Atk/Def 1
+|1tagid=SID_攻撃守備封じ1
+|1promotionRarity=5
+|1promotionTier=1
+|alt1name=Seal Atk Def 1
+|1effect=Inflicts Atk/Def-3 on foe through its next action after combat.
+|1cost=100
+|1required=Seal Atk 1;Seal Def 1
+|2name=Seal Atk/Def 2
+|2tagid=SID_攻撃守備封じ2
+|alt2name=Seal Atk Def 2
+|2effect=Inflicts Atk/Def-5 on foe through its next action after combat.
+|2cost=200
+|3name=
+|3effect=
+|3cost=
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|all}}
+|properties=random_all
+}}
+==Notes==
+{{After combat note|{{SEt|penalty}}}}
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Seal Atk/Def
+|japanese=攻撃守備封じ
+|german=Agr./Ver.-Raub
+|spanishEU=Sellar Ata/Def
+|spanishLA=Sellar Atq./Def.
+|french=Sceau Atq/Déf
+|italian=Sigilla Att/Dif
+|chineseTW=攻擊防守封印
+|portuguese=Selo Atq./Def.
+}}
+==See also==
+* [[Seal Passives]]
+* [[Chill Passives]]
+{{Passives Navbox|B}}
+[[Category:Seal Passives]]

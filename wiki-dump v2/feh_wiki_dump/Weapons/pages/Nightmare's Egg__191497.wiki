@@ -1,0 +1,42 @@
+{{Weapon Infobox
+|tagid=SID_春に微睡む悪夢の卵
+|intID=3515
+|image=wep_mg322
+|exclusive=1
+|weaponType=Colorless Tome
+|cost=400
+|might=14
+|range=2
+|effect=Grants Spd+3. If a skill like Sing or Dance is used, grants【Foe Penalty Doubler】to target and allies within 2 spaces of target (excluding unit) and inflicts【Panic】on foes in cardinal directions of unit and target. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+6 to unit during combat.<br><br>【Foe Penalty Doubler】<br>Inflicts penalty on foe's Atk/Spd/Def/Res during combat = any current penalty on each of those stats for 1 turn. Calculates each stat penalty independently.<br><br>【Panic】<br>Converts bonuses on target into penalties through its next action.
+|statModifiers=0,14,3,0,0
+|required=Atlas (weapon)
+|properties=
+}}
+==Notes==
+{{Foe Penalty Doubler}}
+{{Panic}}
+{{CardinalDirections}}
+{{Temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V7.3_v0703a_spring_Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=春に微睡む悪夢の卵
+|german=Albtraumei
+|spanishEU=Huevo pesadilla
+|spanishLA=Huevo pesadilla
+|french=Œuf cauchemar
+|italian=Uovo da incubo
+|chineseTW=春天淺眠惡夢之卵
+|portuguese=Ovo pesadelo
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%【Foe Penalty Doubler】%' OR Description LIKE '%Sing or Dance is used%' AND Exclusive='1'}}
+* [[Skill families/B Passives#Dance|Dance Passives]]
+{{Weapons Navbox}}

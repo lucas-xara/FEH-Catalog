@@ -1,0 +1,70 @@
+{{Passive
+|name=Odd Recovery
+|type=C
+|exclusive=0
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|Staff}}
+|effectRange=2
+|timingID=8
+|abilityID=50
+|limit2ID=4
+|randomTimestamp=2021-01-17T07:00:00Z
+|properties=random_inherit_base,random_owner
+|1name=Odd Recovery 1
+|1tagid=SID_快癒・奇数1
+|1effect=At start of odd-numbered turns, neutralizes any【Penalty】on allies within 2 spaces of unit (excluding penalties inflicted at start of turn) and restores 5 HP to those units.<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|1required=-
+|1cost=60
+|1promotionRarity=4
+|1promotionTier=1
+|intID1=2355
+|sort1=16000
+|value1=2
+|randomMinLv1=21
+|randomMaxLv1=30
+|2name=Odd Recovery 2
+|2tagid=SID_快癒・奇数2
+|2effect=At start of odd-numbered turns, neutralizes any【Penalty】on allies within 2 spaces of unit (excluding penalties inflicted at start of turn) and restores 10 HP to those units.<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|2required=Odd Recovery 1
+|2cost=120
+|2promotionRarity=5
+|2promotionTier=1
+|intID2=2356
+|sort2=16001
+|value2=4
+|randomMinLv2=26
+|randomMaxLv2=35
+|3name=Odd Recovery 3
+|3tagid=SID_快癒・奇数3
+|3effect=At start of odd-numbered turns, neutralizes any【Penalty】on allies within 2 spaces of unit (excluding penalties inflicted at start of turn) and restores 20 HP to those units.<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|3required=Odd Recovery 2
+|3cost=240
+|intID3=2357
+|sort3=16002
+|value3=6
+|randomMinLv3=31
+}}
+==Notes==
+{{Penalty neutralization|negstatuses=all {{Kp|Penalty}} effects}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=快癒・奇数
+|german=Ugr. Gesundung
+|spanishEU=Sanación impar
+|spanishLA=Sanación impar
+|french=Récup. impaire
+|italian=Ripresa dispari
+|chineseTW=痊癒・奇數
+|portuguese=Recup. ímp.
+}}
+==See also==
+* [[Even Recovery]]
+* [[Sparkling Boost]]
+{{Passives Navbox|C}}

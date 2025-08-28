@@ -1,0 +1,73 @@
+{{Weapon Infobox
+|tagid=SID_魔器・虚無の角
+|intID=3678
+|exclusive=0
+|weaponType=Beast
+|canUseMove=Cavalry
+|cost=300
+|might=14
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 and Atk/Spd/Def/Res+X to unit, inflicts Atk/Spd/Def/Res-X on foe (X = current bonus on each of foe's stats; calculates each stat bonus and penalty independently), and deals damage = 15% of unit's Spd during combat (including when dealing damage with a Special triggered before combat), and also, if unit's Spd > foe's Spd, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat. At start of turn, if unit is adjacent to only beast or dragon allies or is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 to unit, inflicts Atk/Def-X on foe during combat (X = number of spaces from start position to end position of whoever initiated combat + 3; max 6), and also, if X ≥ 5, reduces damage from foe's first attack by 30% during combat.
+|required=Adult (Cavalry)
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=200
+|properties=arcane,random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe1={{Eft|Accelerates Special}}
+|Pe2={{Eft|Stat Boosts|Atk|2}}
+|PeC2={{Tgt|Unit}} is transformed
+|Me={{Eft|Transform}}
+|MeC=At start of turn if<br>{{Tgt|Unit}} is [[adjacent]] to only<br>{{Cwti|group=1|Dragon,Beast}} [[Dragon]]/[[Beast]]<br>{{Tgt|Allies}} '''or''' not [[adjacent]]<br>to any {{Tgt|Ally}}
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce2={{Eft|Damage Boost|15% of {{Tgt|Unit}}'s Spd}}<br>before '''&''' during combat
+|Ce3={{Eft|Temporary buffs|Atk/Spd/Def/Res|{{SEt|Bonuses}} on<br>each of {{Tgt|Foe}}'s stats}}
+|Ce4={{Eft|Temporary debuffs|Atk/Spd/Def/Res|{{SEt|Bonuses}} on<br>each of {{Tgt|Foe}}'s stats}}
+|Ce4-5T={{Tgt|Foe}}
+|Ce1-4C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce5={{Eft|Neutralize Guaranteed Follow-Ups}}
+|Ce6={{Eft|Neutralize Prevent Follow-Ups}}
+|Ce6T={{Tgt|Unit}}
+|Ce5-6C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' {{Tgt|Unit}}'s Spd<br>> {{Tgt|Foe}}'s Spd
+|Ce7={{Eft|Temporary debuffs|Atk/Def|Spaces initiator moved + 3|max=6}}
+|Ce7T={{Tgt|Foe}}<br>
+|Ce7C={{Tgt|Unit}} is transformed
+|Ce8={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s first attack
+|Ce8T={{Tgt|Unit}}<br>
+|Ce8C={{Tgt|Unit}} is transformed '''&'''<br>Spaces initiator moved ≥ 2
+}}
+
+==Notes==
+{{TemporaryBufffromBonus|source=the foe}}
+{{TemporaryDebufffromBonus|source=the foe}}
+{{DamageBoost}}
+{{Follow-up effect neutralization}}
+{{Beast (Cavalry)}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=魔器・虚無の角
+|german=Arkanes Nichts
+|spanishEU=Vacío arcano
+|spanishLA=Nada arcana
+|french=Néant arcane
+|italian=Nulla arcano
+|chineseTW=魔器・虛無之角
+|portuguese=Nada arcano
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%current bonus on each of foe_s stats%' OR Description LIKE '%current bonus on foe_s%') AND Description NOT LIKE '%stats × 2%' AND NAME NOT LIKE '%defier%' AND Exclusive='1'}}
+* [[Skill families/Weapons#Defier's|Defier's Weapons]]
+{{Weapons Navbox}}

@@ -1,0 +1,74 @@
+{{#invoke:NameAbout|main|Name=Robin}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Robin
+|Title=Fated Vessel
+|WeaponType=Red Tome
+|MoveType=Infantry
+|Person=Robin M
+|Origin=Fire Emblem Awakening
+|Gender=Male
+|actorEN=David Vincent
+|actorJP=沢城みゆき
+|artist=ネコモチ
+|additionDate=April 4, 2024
+|releaseDate=April 5, 2024
+|cv1=10
+|cv2=100200
+|TagID=幼少ルフレ男
+|InternalID=1081
+|Properties=special
+|description=A boy who knows little of his father or the nature of his birth because he left with his mother soon after being born. Appears in Fire Emblem Awakening.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=13|Lv1SPD=6|Lv1DEF=12|Lv1RES=3
+|GRHP=50|GRATK=75|GRSPD=90|GRDEF=55|GRRES=30
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Flux
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Ruin
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Fenrir
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Fell War Tome
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=4
+|special1Unlock=3
+|special2=Ignis
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Death Blow 1
+|passiveA2=Swift Sparrow 1
+|passiveA3=Swift Sparrow 2
+|passiveA4=Flash Sparrow
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Magic Gambit 1
+|passiveB2=Magic Gambit 2
+|passiveB3=Magic Gambit 3
+|passiveB4=Magic Gambit 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Tip the Scales!
+|passiveC1Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Childhood units]]

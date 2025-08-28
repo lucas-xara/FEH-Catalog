@@ -1,0 +1,82 @@
+{{#invoke:NameAbout|main|Name=Titania}}{{HeroPage Tabs|{{PAGENAME}}}}
+{{Hero Infobox
+|Name=Titania
+|Title= Mighty Mercenary
+|artist=ワダサチコ
+|resplendentArtist=RIZ3
+|GrowthModifier= None
+|WeaponType= Green Axe
+|MoveType= Cavalry
+|Origin= Fire Emblem: Path of Radiance
+|Gender = Female
+|actorEN = Misty Lee
+|actorJP=宮川美保
+|releaseDate= April 26, 2017
+|poolDate = May 15, 2017
+|randomStartTime=2017-05-12T07:00:00Z
+|poolRarities=3,4
+|TagID=ティアマト
+|InternalID=126
+|Properties=demoted_240,resplendent,vanaheimr
+|cv1=8
+|cv2=100200
+|description=Deputy commander of the Greil Mercenaries. An idealistic former knight who values honor. Appears in Fire Emblem: Path of Radiance.
+|resplendentStartTime=2025-06-10T07:00:00Z
+|resplendentEndTime=2025-06-25T06:59:59Z
+}}
+
+__TOC__
+
+{{Stats Page|Hero={{BASEPAGENAME}}
+|Lv1HP=18|Lv1ATK=6|Lv1SPD=8|Lv1DEF=6|Lv1RES=8
+|GRHP=45|GRATK=50|GRSPD=60|GRDEF=45|GRRES=50
+}}
+
+== Skills ==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Emerald Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Emerald Axe+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Draconic Poleax
+|weapon5Default=
+|weapon5Unlock=5
+}}
+
+===Assists===
+{{Assists Table
+|assist1=Reciprocal Aid
+|assist1Default=4
+|assist1Unlock=3
+}}
+
+===Specials===
+{{Specials Table
+}}
+
+===Passives===
+{{Passives Table
+|passiveA1=Armored Blow 1
+|passiveA2=Armored Blow 2
+|passiveA3=Armored Blow 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=Guard 1
+|passiveB2=Guard 2
+|passiveB3=Guard 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+
+{{Heroes Navbox}}

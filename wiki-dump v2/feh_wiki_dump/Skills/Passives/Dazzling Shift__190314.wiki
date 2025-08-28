@@ -1,0 +1,46 @@
+{{Passive
+|type=B
+|name=Dazzling Shift
+|exclusive=0
+|canUseWeapon={{WeaponList|Colorless Staff}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Dazzling Shift
+|1tagid=SID_幻惑・転移
+|1cost=300
+|1effect=Unit can move to a space adjacent to an ally within 2 spaces. Inflicts Spd-4 on foe during combat and foe cannot counterattack.
+|1required=Dazzling Staff 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Warp|[[adjacent]] to an {{Tgt|Ally}}<br>[[within 2 spaces]]}}
+|Ce1={{Eft|Temporary debuffs|Spd|4}}
+|Ce2={{Eft|Prevent Counter}}
+|CeT={{Tgt|Foe}}
+}}
+==Notes==
+{{Warp interaction}}
+{{Temporary debuffs}}
+{{Prevent counterattacks}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=幻惑・転移
+|german=Brillanter Schritt
+|spanishEU=Avance cegador
+|spanishLA=Avance cegador
+|french=Mouv. éclatant
+|italian=Scatto accecante
+|chineseTW=幻惑・轉移
+|portuguese=Desvio ofuscante
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%foe cannot counterattack%' AND CanUseWeapon__full='Colorless Staff' AND Name NOT LIKE '%+' OR Description LIKE '%unit can move to a%space%ally%within 2 spaces%' AND Description NOT LIKE '%grants%adjacent%all%') AND Exclusive='1'}}
+* [[Skill families/B Passives#Formation|Formation Passives]]
+* [[Skill families/B Passives#Staff|Staff Passives]]
+{{Passives Navbox|B}}

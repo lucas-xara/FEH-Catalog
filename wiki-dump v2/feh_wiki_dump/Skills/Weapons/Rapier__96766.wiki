@@ -1,0 +1,33 @@
+{{Weapon Infobox
+|tagid=SID_レイピア
+|weaponType=Red Sword
+|might=16
+|range=1
+|effectiveness=armored,cavalry
+|effect=Effective against armored and cavalry foes. Grants Spd+3. If unit’s HP ≤ 75% and foe initiates combat, unit can counterattack before foe's first attack.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,3,0,0
+|required=Silver Sword
+|properties=random_owner
+}}
+==Notes==
+{{Effective damage bonus|armored,cavalry}}
+* Has the same effect as {{St|Vantage 3}}.
+{{Preempt}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=レイピア
+|german=Rapier
+|spanishEU=Estoque
+|spanishLA=Estoque
+|french=Rapière
+|italian=Spadino
+|chineseTW=刺劍
+|portuguese=Rapieira
+}}
+==See also==
+{{See also skills|cond=WeaponEffectiveness='armored,cavalry' OR Description LIKE '%unit can counterattack before foe_s first attack%'|columns=3}}
+{{Weapons Navbox}}

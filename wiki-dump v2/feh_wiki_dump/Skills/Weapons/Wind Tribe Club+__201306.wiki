@@ -1,0 +1,54 @@
+{{Weapon Infobox
+|tagid=SID_風の部族の金棒＋
+|intID=3772
+|image=wep_ax137
+|exclusive=0
+|weaponType=Axe
+|cost=300
+|might=14
+|range=1
+|effect=At start of turn, if unit's HP ≥ 25%, grants "if unit initiates combat, unit makes a guaranteed follow-up attack" and【Null Panic】to unit for 1 turn. At start of combat, if unit's HP ≥ 25%, grants Atk/Def+X to unit during combat (X = number of【Bonus】effects active on unit and【Penalty】effects active on foe, excluding stat bonuses and stat penalties, × 2, + 5).<br><br>【Null Panic】<br>If unit is inflicted with Panic (bonuses converted into penalties), neutralizes the "converts bonuses on target into penalties" effect for 1 turn. (Even though the effect is neutralized, the Panic status remains, and is treated as a Penalty status.)<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|required=Wind Tribe Club
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{SEt|Guaranteed Follow-Ups}}
+|Se2={{SEt|Null Panic}}
+|SeC=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25%
+|Ce={{Eft|Temporary buffs|Atk/Def|2 x {{Kp|Bonus}} effects<br>on {{Tgt|Unit}} '''&''' {{Kp|Penalty}}<br>effects on {{Tgt|Foe}}, +5<br>(exc. {{SEt|Bonuses}}<br>'''&''' {{SEt|Penalties}})}}
+|CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{Guaranteed Follow-Ups}}
+{{Null Panic}}
+{{Temporary buffs}}
+{{EffectfromBonus|temporary buffs|nonStat=1}}
+{{EffectfromPenalty|temporary buffs|nonStat=1}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=風の部族の金棒＋
+|german=Windkeule+
+|spanishEU=Porra del viento +
+|spanishLA=Porra del viento +
+|french=Batte du vent +
+|italian=Clava del Vento+
+|chineseTW=風之部落的金棒＋
+|portuguese=Clava do vento+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%number of%Bonus%effects active on%' AND (Exclusive='1' AND Name NOT LIKE '%+' AND Properties HOLDS NOT 'arcane')}}
+* [[Skill families/Weapons#Gainful|Gainful Weapons]]
+{{Weapons Navbox}}

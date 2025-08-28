@@ -1,0 +1,50 @@
+{{Passive
+|name=Squad Ace BR
+|type=S
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|1name=Squad Ace BR 1
+|alt1name=Squad Ace AN 1
+|1tagid=SID_第70迷宮の覇者1
+|1effect=Grants Def/Res+1.
+|statModifiers1=0,0,0,1,1
+|1cost=80
+|1required=-
+|1next=-
+|2name=Squad Ace BR 2
+|alt2name=Squad Ace AN 2
+|2tagid=SID_第70迷宮の覇者2
+|2effect=Grants Def/Res+2.
+|statModifiers2=0,0,0,2,2
+|2cost=160
+}}
+==Seal acquired from==
+===Squad Assault reward===
+* Complete the [[70th Assault]].
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Squad Ace BR 1;Squad Ace BR 2
+|badgeColor=Transparent
+|costs1=-
+|costs2=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|english=Squad Ace BR
+|japanese=第７０迷宮の覇者
+|german=Überfall-Ass BR
+|spanishEU=As del asalto BR
+|spanishLA=As del asalto BR
+|french=Assaut réussi BR
+|italian=Asso sq. BR
+|chineseTW=第７０迷宮的霸王
+|portuguese=Esquad. ás BR
+}}
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}
+[[Category:Squad Ace Seals]]

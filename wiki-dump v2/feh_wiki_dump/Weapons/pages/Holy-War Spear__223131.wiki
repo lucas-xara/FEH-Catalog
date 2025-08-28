@@ -1,0 +1,66 @@
+{{Weapon Infobox
+|tagid=SID_聖騎士の槍
+|intID=4350
+|image=wep_lc180
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Enables【Canto (３)】.<br>Accelerates Special trigger (cooldown count-1).<br><br>At the start of turn, grants【Gallop】to unit.<br><br>If unit initiates combat or is within 2 spaces of an ally, grants bonus to unit's Atk/Spd/Def/Res = 5 + number of foes within 3 rows or 3 columns centered on unit × 3 (max 14), deals damage = 20% of unit's Def (including when dealing damage with a Special triggered before combat), and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials), and restores 7 HP to unit after combat.<br><br>【Canto (３)】<br>After an attack, Assist skill, or structure destruction, unit can move ３ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)<br><br>【Gallop】<br>Unit can move 2 extra spaces (that turn only; only highest value applied; does not stack).
+|required=Silver Lance
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Me1={{Eft|Canto|3}}
+|Me2={{Eft|Heal|7}}
+|Me2C=After combat on<br>Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Se={{SEt|Gallop}}
+|SeC=At start of turn
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|3 x {{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}, + 5|max=14}}
+|Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Def}}<br>before '''&''' during combat
+|Ce3={{Eft|Reduce Damage Reduction|50%}}
+|Ce3T={{Tgt|Foe}}
+|CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+==Notes==
+{{Canto|3}}
+{{Gallop}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{DamageBoost}}
+{{Reduce Damage Reduction}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Sigurd: Of the Holy War|t=Zephia: Scheming Dragon
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【Canto (３)】%' OR Description LIKE '%【Gallop】%'}}
+{{Weapons Navbox}}

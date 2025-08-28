@@ -1,0 +1,74 @@
+{{#invoke:NameAbout|main|Name=Soren}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Soren
+|Title=Shrewd Strategist
+|artist=ミヤジマハル
+|resplendentArtist=岡田学彌
+|GrowthModifier=None
+|WeaponType=Green Tome
+|MoveType=Infantry
+|Origin=Fire Emblem: Path of Radiance
+|Gender=Male
+|actorEN=Kyle McCarley
+|actorJP=村瀬歩
+|releaseDate=April 26, 2017
+|poolDate=May 15, 2017
+|randomStartTime=2017-05-12T07:00:00Z
+|poolRarities=3,4
+|TagID=セネリオ
+|InternalID=124
+|Properties=demoted_240,resplendent,hel
+|cv1=8
+|cv2=100300
+|description=An officer in the Greil Mercenaries. A coolheaded realist who has opened up to Ike. Appears in Fire Emblem: Path of Radiance.
+|resplendentStartTime=2024-02-10T07:00:00Z
+|resplendentEndTime=2024-02-25T06:59:59Z
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=7|Lv1SPD=9|Lv1DEF=4|Lv1RES=7
+|GRHP=45|GRATK=60|GRSPD=55|GRDEF=30|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Wind
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elwind
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Rexcalibur
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Rexcalibur+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Wind's Brand
+|weapon5Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Rising Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Growing Wind
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Watersweep 1
+|passiveB2=Watersweep 2
+|passiveB3=Watersweep 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Fortify Res 1
+|passiveC2=Fortify Res 2
+|passiveC3=Fortify Res 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

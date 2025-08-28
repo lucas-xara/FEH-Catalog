@@ -1,0 +1,46 @@
+{{Passive
+|type=A
+|name=Swift Slice
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Swift Slice
+|1tagid=SID_連閃
+|1cost=300
+|1effectiveness=All
+|1effect=If unit initiates combat or if unit is within 2 spaces of an ally, grants Atk/Spd/Def/Res+8 to unit during combat. If unit initiates combat against a non-dragon or non-beast infantry foe and unit's Spd ≥ foe's Spd+20, grants "effective against all weapon types" to unit during combat. Otherwise, if unit initiates combat and unit's Spd ≥ foe's Spd+5, grants "effective against all weapon types" to unit during combat.
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|8}}
+|Ce1C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce2={{Eft|Effectiveness|All [[Weapon Type]]s<br>}}
+|Ce2C=Player Phase '''&'''<br>{{Tgt|Unit}}'s Spd ≥<br>{{Tgt|Foe}}'s Spd+X<br>X = (20 if {{Tgt|Foe}} is a<br>non-{{Cwti|group=1|Dragon,Beast}} [[Dragon]]/[[Beast]]<br>{{Mt|Infantry}}; else 5)
+}}
+
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Effective damage bonus|All}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=連閃
+|german=Schnellschlitzer
+|spanishEU=Corte raudo
+|spanishLA=Corte raudo
+|french=Coupe instantanée
+|italian=Taglio improvviso
+|chineseTW=連閃
+|portuguese=Talho ligeiro
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants Atk/Spd/Def/Res+8 to unit%during combat%' AND Description NOT LIKE '%to unit.%' OR Description LIKE '%effective against all weapon types%' AND Exclusive='1'}}
+{{Passives Navbox|A}}

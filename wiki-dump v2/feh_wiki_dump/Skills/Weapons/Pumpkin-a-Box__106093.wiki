@@ -1,0 +1,47 @@
+{{Weapon Infobox
+|tagid=SID_びっくり箱
+|weaponType=Dagger
+|might=8
+|range=2
+|effect=Grants Atk/Spd/Def/Res+3. After combat, deals 6 damage to unit.<br>Effect:【Dagger ５】<br><br>【Dagger ５】<br>After combat, if unit attacked, inflicts Def/Res-５ on target and foes within 2 spaces of target through their next actions.
+|cost=200
+|exclusive=0
+|statModifiers=0,11,3,3,3
+|required=Steel Dagger
+|next=Pumpkin-a-Box+
+|promotionRarity=5
+|promotionTier=1
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se={{Eft|Penalties|Def/Res|5}}
+|SeT={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|SeC=After combat if<br>{{Tgt|Unit}} attacked
+|Pe={{Eft|Stat Boosts|Atk/Spd/Def/Res|3}}
+|Me={{Eft|Damage|6}}
+|MeC=After combat
+}}
+
+==Notes==
+* Has the same effect as {{St|Fury 3}}.
+{{After combat note}}
+{{DamageToUnit}}
+{{IfUnitAttacked}}
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=びっくり箱
+|german=Kürbiskistchen
+|spanishEU=Calabaza aciaga
+|spanishLA=Calabaza aciaga
+|french=Coffre à courge
+|italian=Zucca in scatola
+|chineseTW=驚嚇箱
+|portuguese=Doce surpresa
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants Atk/Spd/Def/Res+_.%deals _ damage to unit%'|columns=3}}
+{{Weapons Navbox}}

@@ -1,0 +1,38 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_銀のゴブレット
+|weaponType=Blue Tome
+|might=8
+|range=2
+|effect=Grants Def/Res+4 to allies within 2 spaces during combat against bow, dagger, magic, or staff foes.
+|cost=200
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|required=Elthunder;Ellight
+|next=Silver Goblet+
+|promotionRarity=5
+|promotionTier=1
+|properties=
+}}
+==Notes==
+*Has the same effect as {{St|Distant Guard 3}}.{{Combat boosts}}{{AlliesCombatEffect|effect=combat boost}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V3.9 91 dance02 Mag.webp|Spritesheet for {{St|Mögþrasir}}, {{St|Vafþrúðnir}}, and {{PAGENAME}}'s animations.
+V3.9 91 dance02 Hit.webp|Spritesheet for {{St|Mögþrasir}}, {{St|Vafþrúðnir}}, {{St|Verðandi}}, {{St|Fiddlestick Bow+}}, and {{PAGENAME}}'s hit animations.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=銀のゴブレット
+|german=Silberkelch
+|spanishEU=Cáliz plata
+|spanishLA=Cáliz plata
+|french=Coupe d'argent
+|italian=Calice argenteo
+|chineseTW=銀製高腳杯
+|portuguese=Cálice de prata
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants Def/Res+4 to allies within 2 spaces during combat against%foes%' AND Description NOT LIKE '%grants%unit%' OR Description LIKE '%allies within 2 spaces gain%Def/Res+4%'|columns=3}}
+{{Weapons Navbox}}

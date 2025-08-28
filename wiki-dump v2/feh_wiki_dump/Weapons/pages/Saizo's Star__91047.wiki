@@ -1,0 +1,50 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_サイゾウの爆炎針
+|weaponType=Dagger
+|might=14
+|range=2
+|effect=After combat, if unit attacked, inflicts Atk/Spd/Def/Res-6 on target and foes within 2 spaces of target through their next actions.
+|cost=400
+|exclusive=yes
+|userVersion1=Weapon
+|userVersion2=Upgrade Gleam
+|statModifiers=0,14,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=Grants bonus to Atk/Spd/Def/Res during combat = current penalty on each of target's stats. Calculates each stat bonus independently.
+|iconSkill1=Combat Bonuses Enemy Weakening W.png
+|tagidExtraSkill1=強
+|properties=
+}}
+==Notes==
+{{IfUnitAttacked}}
+{{Penalties}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{CombatBoostfromPenalty|ptySource=the foe}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|戦闘強化R敵弱化|Combat Bonuses R Enemy Weakening}}
+==In other languages==
+{{OtherLanguages
+|japanese=サイゾウの爆炎針
+|german=Saizos Stern
+|spanishEU=Estrella Saizo
+|spanishLA=Estrella Saizo
+|french=Étoile de Saizo
+|italian=Shuriken di Saizo
+|chineseTW=彩造的爆炎針
+|portuguese=Estrela de Saizo
+}}
+==References==
+<references/>
+
+==See also==
+* [[Light of Dawn]]
+* [[Gloom Breath]]
+{{Weapons Navbox}}

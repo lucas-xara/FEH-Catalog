@@ -1,0 +1,53 @@
+{{Special
+|tagid=SID_肉体の咆哮
+|intID=4868
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=3
+|effect=Boosts damage by 60% of unit's Def when Special triggers.<br><br>At start of player phase or enemy phase, grants Res+6 and【Magic Twin Save】to target allies within 2 spaces of unit for 1 turn (if support partner is on player team, targets any support partner; otherwise, targets ally with the highest Res at start of battle, excluding unit; "at start of battle" excludes increases to Res granted after ally is deployed, such as Legendary Effects, Mythic Effects, Bonus Heroes, Great Talent, etc.; does not trigger when unit is equipped with "Savior" effects other than【P Save】).<br><br>Reduces damage from foe's attacks during combat by 40% (excluding area-of-effect Specials) and grants Special cooldown count-X ÷ 12 (rounded down) to unit before unit's first attack during combat (X = highest total bonuses among unit and allies within 3 spaces of unit), and also, if unit's Def ≥ foe's Def+5, disables unit's and foe's effects that change attack priority during combat.<br><br>【Magic Twin Save】<br>If a magic, staff, or dragon foe initiates combat against an ally within 2 spaces of unit, triggers Savior on unit (triggers only if unit is not equipped with a skill that can trigger another Savior effect; if unit is granted multiple statuses that enable "Savior" effects to trigger, Savior will not trigger).<br><br>If foe uses magic, staff, or dragon damage, disables foe's effects that "calculate damage using the lower of foe's Def or Res" (including area-of-effect Specials), and any "reduces damage by X%" effect that can be triggered only once per combat by unit's equipped Special skill can be triggered up to twice per combat during combat (excludes boosted Special effects from engaging; only highest value applied; does not stack).<br><br>【P Save】<br>"If sword, lance, axe, bow, dagger, or beast foe initiates combat" is an activation condition for "Savior."
+|required=Ignis
+|properties=offensive_special,random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{Eft|Bonus|Res|6}}
+|Se2={{SEt|Magic Twin Save}}
+|SeT=({{Tgt|Partner}} '''or'''<br>{{Tgt|Ally}} with the<br>highest Res*)<br>[[within 2 spaces]]
+|SeC=At start of Both Phases<br>if {{Tgt|Unit}} has<br>only a {{Kp|P Save}}<br>{{Eft|Savior}} effect
+|Ce1={{Eft|Damage Boost|60% of {{Tgt|Unit}}'s Def}}
+|Ce1C=Special triggers
+|Ce2={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s attacks
+|Ce3={{Eft|Reduce Cooldown|(highest total {{SEt|Bonuses}}<br>on {{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 3 spaces]]) ÷ 12<br>(rounded down)}}<br>before {{Tgt|Unit}}'s first attack
+|Ce4={{Eft|Hardy Bearing}}
+|Ce4T={{Tgt|Unit}} '''&'''<br>{{Tgt|Foe}}
+|Ce4C={{Tgt|Unit}}'s Def ≥<br>{{Tgt|Foe}}'s Def+5
+}}
+<b>{{Hatnote|* Excludes Res stat boosts from after deployment.}}</b>
+
+==Notes==
+{{DamageBoost}}
+{{Bonuses}}
+{{Magic Twin Save}}
+{{SupportPartner|effect={{SEt|bonuses}} and {{SEt|Magic Twin Save}} effects}}
+{{DamagePercentageReduction}}
+{{CombatCooldownCount|-X ÷ 12}}
+{{EffectfromBonuses|multiTarget=1|target=unit or allies [[within 3 spaces]]|reduce cooldown}}
+{{PriorityNeutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%highest total bonuses among unit and allies within _ spaces of unit%' OR Description LIKE '%【Magic Twin Save】%') AND Exclusive='1'}}
+{{Specials Navbox}}

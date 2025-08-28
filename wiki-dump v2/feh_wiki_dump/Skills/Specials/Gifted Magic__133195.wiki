@@ -1,0 +1,55 @@
+{{Special
+|tagid=SID_天与の魔道
+|charge=2
+|effect=Before combat this unit initiates, foes in an area near target take damage equal to 0.8 × (unit's Atk minus foe's Def or Res).
+|cost=500
+|exclusive=1
+|required=Blazing Flame
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|intID=2361
+|sort=480
+|value=12
+|timingID=5
+|abilityID=12
+|limit1ID=1
+|randomTimestamp=2021-01-25T07:00:00Z
+|randomMinLv=31
+|properties=random_owner,aoe_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|MapEffect={{Eft|Damage|0.8 x ({{Tgt|Unit}}'s Atk -<br>{{Tgt|Foe}}'s Def/Res)}}
+|MapEffect Targets={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[adjacent]] to {{Tgt|Target Foe}}
+|MapEffect Conditions=Special triggers<br>before combat
+}}
+
+==Notes==
+{{AoE Special notes}}
+{{Main|Area-of-effect Specials}}
+{|class="wikitable default mw-collapsible" style="text-align:center"
+!Example of Area-of-effect for Gifted Magic
+|-
+|align="middle"|{{AoE|special=1
+|-----
+|--x--
+|-xtx-
+|--x--
+|-----
+}}
+|}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=天与の魔道
+|german=Mag. Begabung
+|spanishEU=Magia prodigiosa
+|spanishLA=Magia prodigiosa
+|french=Don de magie
+|italian=Magia prodigiosa
+|chineseTW=魔道天賦
+|portuguese=Magia prodigiosa
+}}
+{{Specials Navbox}}

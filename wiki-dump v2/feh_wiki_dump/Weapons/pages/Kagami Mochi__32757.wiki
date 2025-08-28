@@ -1,0 +1,38 @@
+{{About|the weapon Kagami Mochi|the accessory|Kagami Mochi (accessory)}}
+{{Weapon Infobox
+|tagid=SID_鏡餅
+|weaponType=Dagger
+|might=8
+|range=2
+|effect=Accelerates Special trigger (cooldown count-1). After combat, if unit attacked, inflicts Def/Res-5 on target and foes within 2 spaces of target through their next actions.
+|cooldown=-1
+|cost=200
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|next=Kagami Mochi+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Dagger
+|properties=
+}}
+==Notes==
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Kagami Mochi
+|japanese=鏡餅
+|german=Kagami-Mochi
+|spanishEU=Kagami Mochi
+|spanishLA=Kagami Mochi
+|french=Kagami Mochi
+|italian=Kagami Mochi
+|chineseTW=鏡餅麻糬
+|portuguese=Kagami Mochi
+}}
+==See also==
+* [[Weapons that accelerate the Special trigger]]
+* [[Barb Shuriken]]
+{{Weapons Navbox}}
+[[Category:Seasonal weapons]]

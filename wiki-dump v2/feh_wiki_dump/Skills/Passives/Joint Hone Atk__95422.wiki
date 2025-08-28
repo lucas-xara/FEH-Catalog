@@ -1,0 +1,46 @@
+{{Passive
+|type=C
+|exclusive=0
+|1name=Joint Hone Atk
+|1tagid=SID_攻撃の相互鼓舞
+|1effect=At start of turn, if unit is adjacent to an ally, grants Atk+5 to unit and adjacent allies for 1 turn.
+|1cost=300
+|1required=Hone Atk 3
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se={{Eft|Bonuses|Atk|5}}
+|SeT={{Tgt|Unit}} '''&''' [[Adjacent]]<br>{{Tgt|Allies}}
+|SeC=At start of turn if<br>{{Tgt|Unit}} is [[Adjacent]]<br>to an {{Tgt|Ally}}
+}}
+
+==Notes==
+{{Bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=攻撃の相互鼓舞
+|german=Nachbar-Agr.
+|spanishEU=Omnimpulso Ata
+|spanishLA=Omnipulso Atq.
+|french=Entraide Atq
+|italian=Incita Att gruppo
+|chineseTW=攻擊相互鼓舞
+|portuguese=Atq. omnielevado
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%at start of turn, if%grants Atk%+%to unit%allies%for 1 turn%' AND Exclusive='1'}}
+* [[Hone Passives]]
+* [[Fortify Passives]]
+* [[Skill families/C Passives#Joint Hone|Joint Hone Passives]]
+{{Passives Navbox|C}}
+[[Category:Hone Passives]]
+[[Category:Joint Hone Passives]]

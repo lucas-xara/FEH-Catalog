@@ -1,0 +1,90 @@
+{{Weapon Infobox
+|tagid=SID_ゲイルドリヴル
+|intID=3204
+|image=wep_lc126
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effectiveness=Armored
+|effect=Accelerates Special trigger (cooldown count-1).<br>Effective against armored foes.<br>If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+X to unit during combat (X = number of【Bonus】and【Penalty】 effects active on unit × 2, + 5; excludes stat bonuses and stat penalties), reduces damage from foe's first attack during combat by 40%, and also, if【Bonus】is active on unit, grants Special cooldown charge +1 per attack during combat. (Only highest value applied. Does not stack.)<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|statModifiers=0,16,0,0,0
+|required=Silver Lance
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1).<br>Effective against armored foes.<br><br>If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit, grants bonus to unit's Atk/Spd/Def/Res = number of【Bonus】effects and 【Penalty】 effects active on unit × 2 (excluding stat bonuses and stat penalties), and reduces damage foe's first attack during combat by 40% ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and also, if【Bonus】effect is active on unit, grants Special cooldown charge +1 per attack (only highest value applied; does not stack).<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|refineStatsSkill1=3,0,0,0,0
+|effectSkill1=If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants "reduces the percentage of foe's non-Special 'reduce damage by X%' skills by 50% during combat (excluding area-of-effect Specials)" and "neutralizes foe's bonuses during combat" to unit for 1 turn.<br><br>At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit and unit deals damage = number of Bonus effects active on unit, excluding stat bonuses, × 4 (max 16; excluding area-of-effect Specials) during combat, and restores 7 HP to unit after combat.
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Accelerates Special}}
+|s1 Ce1={{Eft|Effectiveness|{{Mt|Armored}}}}
+|s1 Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|2 x ([[Status effects]]<br>active on {{Tgt|Unit}}), +5<br>(exc. {{SEt|Bonuses}} '''&''' {{SEt|Penalties}})}}
+|s1 Ce3={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s first attack
+|s1 Ce2-3C=Player Phase '''or'''<br> an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s1 Ce4={{Eft|Accelerate Charge}}
+|s1 Ce4C=Player Phase '''or'''<br> an {{Tgt|Ally}} is<br>[[within 2 spaces]] '''&'''<br>{{Tgt|Unit}} has a {{Kp|Bonus}}
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Accelerates Special}}
+|s2 Ce1={{Eft|Effectiveness|{{Mt|Armored}}}}
+|s2 Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|2 x ([[Status effects]]<br>active on {{Tgt|Unit}}), +5<br>(exc. {{SEt|Bonuses}} '''&''' {{SEt|Penalties}})}}
+|s2 Ce3={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|s2 Ce2-3C=Player Phase '''or'''<br> an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s2 Ce4={{Eft|Accelerate Charge}}
+|s2 Ce4C=Player Phase '''or'''<br> an {{Tgt|Ally}} is<br>[[within 2 spaces]] '''&'''<br>{{Tgt|Unit}} has a {{Kp|Bonus}}
+|skill3={{Si|Geirdriful|refine=Skill1}} Skill refine effects
+|s3 Se1=<span style="width:12em;display:inline-block"/>{{SEt|Halves non-Special damage reduction}}
+|s3 Se2={{SEt|Neutralize Bonuses}}
+|s3 SeT={{Tgt|Unit}}
+|s3 SeC=A [[Movement Assist]]<br>is used on '''or'''<br>by {{Tgt|Unit}}
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s3 Ce2={{Eft|Damage Boost|4 x {{Kp|Bonus}} effects<br>active on {{Tgt|Unit}}<br>(excluding {{SEt|Bonus}})|max=16}}
+|s3 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s3 Me={{Eft|Heal|7}}
+|s3 MeC=After combat if<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Effective damage bonus|Armored}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{EffectfromStatusEffect|nonStat=1|temporary buffs}}
+{{DamagePercentageReduction}}
+{{EffectfromBonus|Special cooldown charge increase}}
+{{CooldownChargePlus}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Halves non-Special damage reduction|name={{St|Geirdriful|refine=Skill1}}}}
+{{Neutralize Bonuses|name={{St|Geirdriful|refine=Skill1}}}}
+{{FlatDamageBoost|X (max: 16)|name={{St|Geirdriful|refine=Skill1}}}}
+{{EffectfromBonusKeyword|damage boosting effect|name={{St|Geirdriful|refine=Skill1}}}}
+{{After combat healing|name={{St|Geirdriful|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+* The maximum amount of [[temporary buffs]] granted by {{St|Geirdriful}} (from being affected by all [[Status effects]] (except {{SEt|Bonuses}} & {{SEt|Penalties}})) is: Atk/Spd/Def/Res+{{#expr:5+2*{{#cargo_query:tables=StatusEffects|fields=COUNT(DISTINCT _pageName)|where=Name NOT IN ('Bonus','Penalty')|format=li|order by=Name|limit=9999|no html}}}}.
+{{NorseMyth|(Old Norse for "Spear-flinger") is a valkyrie.}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=ゲイルドリヴル
+|german=Geirdriful
+|spanishEU=Geirdriful
+|spanishLA=Geirdriful
+|french=Geirdriful
+|italian=Geirdriful
+|chineseTW=吉德瑞芙
+|portuguese=Geirdriful
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%if【bonus】is active on unit, grants special cooldown charge +1%' OR Description LIKE '%number of【Bonus】%effects active on%') AND (Exclusive='1' AND Name NOT LIKE '%+')}}
+*[[Sources of effective against armored foes]]
+{{Weapons Navbox}}

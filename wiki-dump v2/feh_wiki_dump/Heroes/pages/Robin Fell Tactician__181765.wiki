@@ -1,0 +1,69 @@
+{{#invoke:NameAbout|main|Name=Robin|Name2=Grima}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Robin
+|Title=Fell Tactician
+|WeaponType=Colorless Breath
+|MoveType=Armored
+|Person=Robin F
+|Origin=Fire Emblem Awakening
+|Gender=Female
+|actorEN=Lauren Landa
+|actorJP=沢城みゆき
+|artist=大熊まい
+|additionDate=October 17, 2022
+|releaseDate=October 17, 2022
+|cv1=10
+|cv2=100300
+|TagID=魔器ルフレ女
+|InternalID=863
+|Properties=rearmed
+|description=A host for the soul of Grima, the Fell Dragon, bent on using her newfound power to sink the world further into despair. Appears in Fire Emblem Awakening.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=11|Lv1SPD=11|Lv1DEF=9|Lv1RES=11
+|GRHP=60|GRATK=70|GRSPD=75|GRDEF=60|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire Breath
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Fire Breath+
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Flametongue
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Arcane Grima
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Buckler
+|special1Default=4
+|special1Unlock=3
+|special2=Pavise
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Dragonhide
+|passiveA1Unlock=5
+|passiveB1=Hardy Fighter 1
+|passiveB2=Hardy Fighter 2
+|passiveB3=Hardy Fighter 3
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=5
+|passiveC1=A/S Near Save 1
+|passiveC2=A/S Near Save 2
+|passiveC3=A/S Near Save 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

@@ -1,0 +1,52 @@
+{{Weapon Infobox
+|tagid=SID_海賊の長の大斧
+|intID=3870
+|image=wep_ax141
+|exclusive=1
+|weaponType=Axe
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of turn, if unit is within 3 spaces of an ally, grants Atk/Def+6 and "unit can move to a space adjacent to any ally within 2 spaces" to unit and allies within 3 spaces of unit for 1 turn. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit, unit makes a guaranteed follow-up attack, and neutralizes effects that grant "Special cooldown charge +X" to foe or inflict "Special cooldown charge -X" on unit during combat.
+|required=Silver Axe
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|PermanentEffect={{SkillEffectText|Accelerate Special}}
+|StatusEffect 1={{SkillEffectText|Bonuses|Atk/Def|6}}
+|StatusEffect 2={{SEt|Air Orders}}
+|StatusEffect 1-2 Targets={{SkillTargetText|Unit}} '''&''' {{SkillTargetText|Allies}}<br>[[within 3 spaces]]
+|StatusEffect 1-2 Conditions=At start of turn<br>if {{SkillTargetText|Unit}} is<br>[[within 3 spaces]]<br>of an {{SkillTargetText|Ally}}
+|CombatEffect 1={{SkillEffectText|Temporary buffs|Atk/Spd/Def/Res|5}}
+|CombatEffect 2={{SkillEffectText|Guaranteed Follow-ups}}
+|CombatEffect 3={{SkillEffectText|Neutralize Slow Charge}}
+|CombatEffect 4={{SkillEffectText|Neutralize Accelerate Charge}}
+|CombatEffect 4 Targets={{SkillTargetText|Foe}}
+|CombatEffect Conditions={{SkillTargetText|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Bonuses}}
+{{Temporary buffs}}
+{{Guaranteed follow-up interaction}}
+{{CooldownChargePlusNeutralization}}
+{{CooldownChargeMinusNeutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=海賊の長の大斧
+|german=Beil des Piraten
+|spanishEU=Hacha pirata
+|spanishLA=Hacha pirata
+|french=Arme de corsaire
+|italian=Scure corsara
+|chineseTW=海盜首領的大斧
+|portuguese=Cutelo pirata
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%neutralizes effects%grant "Special cooldown charge +X" to foe%"Special cooldown charge -X" on unit%' AND Description NOT LIKE '%transforms%+7 damage when%' AND WikiName NOT LIKE '%Tempo%' OR Description LIKE '%at start of turn%"%can move to%ally%within 2 spaces%' AND Exclusive='1'}}
+* [[Tempo Passives]]
+{{Weapons Navbox}}

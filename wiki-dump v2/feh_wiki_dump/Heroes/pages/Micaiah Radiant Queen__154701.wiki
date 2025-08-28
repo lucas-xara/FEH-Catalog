@@ -1,0 +1,85 @@
+{{#invoke:NameAbout|main|Name=Micaiah}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Micaiah
+|Title=Radiant Queen
+|WeaponType=Colorless Tome
+|MoveType=Infantry
+|Origin=Fire Emblem: Radiant Dawn
+|Gender=Female
+|LegendaryEffect=Wind
+|BoostHP=3
+|Duel=185
+|actorEN=Veronica Taylor
+|actorJP=桑谷夏子
+|artist=HACCAN
+|additionDate=August 31, 2021
+|releaseDate=August 31, 2021
+|cv1=9
+|cv2=100100
+|TagID=伝承ミカヤ
+|InternalID=700
+|Properties=legendary
+|description=The fifteenth ruler of Daein, often praised as the country's dawn. After her ascension, Daein was thrust into a new age of progress. Appears in Fire Emblem: Radiant Dawn.
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=12|Lv1SPD=7|Lv1DEF=4|Lv1RES=11
+|GRHP=50|GRATK=70|GRSPD=55|GRDEF=35|GRRES=70
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Stone
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elstone
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Atlas (weapon)
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=New Dawn
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Ardent Sacrifice
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Maiden's Solace
+|assist2Unlock=5
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Fury 1
+|passiveA2=Fury 2
+|passiveA3=Fury 3
+|passiveA4=Fury 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Prescience
+|passiveB2=Prescience II
+|passiveB1Unlock=5
+|passiveB2Unlock=5
+|passiveC1=Distant Guard 1
+|passiveC2=Distant Guard 2
+|passiveC3=Distant Guard 3
+|passiveC4=Joint Dist. Guard
+|passiveC5=Time's Pulse 1
+|passiveC6=Time's Pulse 2
+|passiveC7=Time's Pulse 3
+|passiveC8=Time's Pulse 4
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+|passiveC5Unlock=2
+|passiveC6Unlock=3
+|passiveC7Unlock=4
+|passiveC8Unlock=5
+}}
+{{Heroes Navbox}}

@@ -1,0 +1,43 @@
+{{Weapon Infobox
+|tagid=SID_生涯の相棒の鋭弓
+|intID=3644
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=1
+|weaponType=Bow
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effectiveness=Flying
+|effect=Accelerates Special trigger (cooldown count-1). Effective against flying foes. At start of turn, inflicts【Discord】and【Panic】on nearest foes within 5 spaces of unit and foes within 2 spaces of those foes. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit and inflicts Spd/Def-X on foe during combat (X = number of【Bonus】and【Penalty】 effects active on foe × 4; max 16; excludes stat bonuses and stat penalties), and also, if any【Bonus】or【Penalty】is active on foe, neutralizes "Special cooldown charge -X" effects on unit and effects that prevent unit's follow-up attacks during combat.<br><br>【Discord】<br>Inflicts Atk/Spd/Def/Res-X on unit during combat (X = 2 + number of allies within 2 spaces of unit; max 5) through its next action.<br><br>【Panic】<br>Converts bonuses on target into penalties through its next action.<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|required=Silver Bow
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{Discord}}
+{{Panic}}
+{{Temporary buffs}}
+{{Temporary debuffs}}
+{{CooldownChargeMinusNeutralization}}
+{{Follow-up effect neutralization|preventOnly=1}}
+{{EffectfromBonusPenalty|temporary debuffs, "Special cooldown charge -X" neutralization, and follow-up prevention neutralization effects|target=the foe|nonStat=1}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=生涯の相棒の鋭弓
+|german=Partnerbogen
+|spanishEU=Arco compañía
+|spanishLA=Arco de unión
+|french=Arc d'union
+|italian=Arco dell'unione
+|chineseTW=畢生搭檔之銳弓
+|portuguese=Arco da parceria
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【Discord】%' OR (Description LIKE '%at start of turn, inflicts%est foes within%and foes within _ spaces%' OR Description LIKE '%number of【Bonus】%effects active on%') AND (Exclusive='1' AND Name NOT LIKE '%+')}}
+* [[Skill families/B Passives#Lull|Lull Passives]]
+{{Weapons Navbox}}

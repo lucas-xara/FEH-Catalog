@@ -1,0 +1,62 @@
+{{Passive
+|type=C
+|name=A/D Far Save
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|Armored}}
+|properties=random_owner
+|1name=A/D Far Save 1
+|alt1name=A D Far Save 1
+|1tagid=SID_鎧の護り手・遠間1
+|1cost=100
+|1effect=If a foe uses bow, dagger, magic, or staff and initiates combat against an ally adjacent to unit, triggers【Savior】on unit.<br><br>If unit triggers Savior, grants Atk/Def+1 during combat.<br><br>【Savior】<br>Unit takes ally's space, enters combat in ally's place, and receives all after-combat effects.<br><br>Savior will not trigger if ally is on terrain that unit cannot move to or if multiple units are able to use Savior during the same combat. If Savior triggers, after-combat movement effects do not occur.
+|1required=-
+|1promotionRarity=5
+|1promotionTier=1
+|2name=A/D Far Save 2
+|alt2name=A D Far Save 2
+|2tagid=SID_鎧の護り手・遠間2
+|2cost=200
+|2effect=If a foe uses bow, dagger, magic, or staff and initiates combat against an ally within 2 spaces of unit, triggers【Savior】on unit.<br><br>If unit triggers Savior, grants Atk/Def+2 during combat.<br><br>【Savior】<br>Unit takes ally's space, enters combat in ally's place, and receives all after-combat effects.<br><br>Savior will not trigger if ally is on terrain that unit cannot move to or if multiple units are able to use Savior during the same combat. If Savior triggers, after-combat movement effects do not occur.
+|2next=-
+|3name=A/D Far Save 3
+|alt3name=A D Far Save 3
+|3tagid=SID_鎧の護り手・遠間3
+|3cost=300
+|3effect=If a foe uses bow, dagger, magic, or staff and initiates combat against an ally within 2 spaces of unit, triggers【Savior】on unit.<br><br>If unit triggers Savior, grants Atk/Def+4 during combat.<br><br>【Savior】<br>Unit takes ally's space, enters combat in ally's place, and receives all after-combat effects.<br><br>Savior will not trigger if ally is on terrain that unit cannot move to or if multiple units are able to use Savior during the same combat. If Savior triggers, after-combat movement effects do not occur.
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Savior}}
+|MeC=Enemy Phase '''&'''<br>[[Range = 2]] {{Tgt|Foe}}<br>attacks an {{Tgt|Ally}}<br>[[within 2 spaces]]
+|Ce={{Eft|Temporary buffs|Atk/Def|4}}
+|CeC={{Eft|Savior}} triggers
+}}
+
+==Notes==
+{{Save skill notes}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=A/D Far Save
+|japanese=鎧の護り手・遠間
+|japaneseNotes=''Protector of the Armor・Far''
+|german=A/V Schutz fern
+|spanishEU=Ayuda lej. A/D
+|spanishLA=Ayuda lej. A/D
+|french=Sauv. dist. A/D
+|italian=Aiuto dist. A/D
+|chineseTW=鎧之守護人・遠處
+|portuguese=Ajuda longe A/D
+}}
+==See also==
+{{See also skills|cond=Description LIKE'%【Savior】%' AND Exclusive='1'}}
+* [[Skill families/C Passives#Save|Save Passives]]
+{{Passives Navbox|C}}

@@ -1,0 +1,52 @@
+{{Weapon Infobox
+|tagid=SID_セイニー
+|weaponType=Blue Tome
+|might=14
+|range=2
+|effectiveness=armored,cavalry
+|effect=Effective against armored and cavalry foes. Grants Res+3. If armored or cavalry foe uses bow, dagger, magic, or staff, reduces damage from foe's first attack by 30%.
+|cost=400
+|exclusive=1
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|statModifiers=0,14,0,0,3
+|required=Shine
+|SE=se_effect_light04.flac
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Effective against armored and cavalry foes. Grants Res+3. If foe uses bow, dagger, magic, or staff, reduces damage from foe's first attack by 30% during combat.
+|effectSkill1=At start of combat, if units HP ≥ 50%, grants Atk/Res+5 during combat and unit makes a guaranteed follow-up attack.
+|iconSkill1=Thani W.png
+|tagidExtraSkill1=追
+|properties=random_owner
+}}
+==Notes==
+{{Effective damage bonus|armored,cavalry}}{{DamagePercentageReduction}}
+* The damage reduction is only applied against {{Cwtt|ranged}} {{Mt|armored}} or {{Mt|cavalry}} foes.
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Combat boosts}}
+{{Guaranteed follow-up interaction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=セイニー
+|german=Thani
+|spanishEU=Thani
+|spanishLA=Thani
+|french=Thani
+|italian=Thani
+|chineseTW=賽尼
+|portuguese=Thani
+}}
+==See also==
+{{See also skills|cond=WeaponEffectiveness='armored,cavalry'|columns=3}}
+* [[Weapons that are effective against armored foes]]
+* [[Weapons that are effective against cavalry foes]]
+{{Weapons Navbox}}

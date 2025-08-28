@@ -1,0 +1,69 @@
+{{#invoke:NameAbout|main|Name=Tharja|Name2=Rhajat}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Tharja
+|Title="Normal Girl"
+|GrowthModifier=Gen 2
+|WeaponType=Red Tome
+|MoveType=Armored
+|Origin=Fire Emblem Awakening
+|Gender=Female
+|actorEN=Stephanie Sheh
+|actorJP=高田憂希
+|artist=わし元
+|releaseDate=December 18, 2017
+|TagID=冬祭サーリャ
+|InternalID=198
+|Properties=special,hat,specRate_202202
+|cv1=10
+|cv2=0000400300
+|description=A mage from Plegia who, while usually creepy, is acting bright and cheerful...for some reason. Appears in Fire Emblem Awakening.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=10|Lv1SPD=5|Lv1DEF=8|Lv1RES=10
+|GRHP=55|GRATK=55|GRSPD=30|GRDEF=60|GRRES=60
+}}
+==Skills==
+===Weapons     ===
+{{Weapons Table
+|weapon1=Flux
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Ruin
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Candelabra
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Candelabra+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists      ===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Iceberg
+|special2Unlock=4
+}}
+===Passives     ===
+{{Passives Table
+|passiveA1=Close Counter
+|passiveA1Unlock=5
+|passiveB1=Vengeful Fighter 1
+|passiveB2=Vengeful Fighter 2
+|passiveB3=Vengeful Fighter 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=R Tome Valor 1
+|passiveC2=R Tome Valor 2
+|passiveC3=R Tome Valor 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Christmas units]]

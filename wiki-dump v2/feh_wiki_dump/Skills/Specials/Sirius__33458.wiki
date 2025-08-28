@@ -1,0 +1,36 @@
+{{About|the [[Special]] skill|the person who used the alias Sirius|Camus}}{{Special
+|tagid=SID_天狼
+|charge=2
+|effect=Boosts damage by 30% of unit's Spd. Restores HP = 30% of damage dealt.
+|cost=500
+|exclusive=1
+|required=Noontime
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_owner,offensive_special
+}}
+==Notes==
+* Has the same effect as {{St|Noontime}}.
+{{DamageBoost}}
+* The healing calculation will always use the [[Damage calculation#Final Damage calculation|final damage number]] for the damage dealt.
+{{CombatHPRecovery}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V3.7_882_legend19_Skl.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=天狼
+|german=Sirius
+|spanishEU=Sirius
+|spanishLA=Sirius
+|french=Sirius
+|italian=Sirio
+|chineseTW=天狼
+|portuguese=Sirius
+}}
+==See also==
+{{See also skills|cond=SCategory='special' AND Exclusive='1' AND (Description LIKE '%Boosts%damage by __% of unit_s Spd%' OR Description LIKE '%Restores HP = __% of damage dealt%')|columns=3}}
+{{Specials Navbox}}

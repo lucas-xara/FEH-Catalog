@@ -1,0 +1,46 @@
+{{Weapon Infobox
+|tagid=SID_フェリシアの氷皿
+|weaponType=Dagger
+|might=14
+|range=2
+|effect=After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces through their next actions.<br>Calculates damage using the lower of foe's Def or Res.
+|cost=400
+|exclusive=yes
+|userVersion1=Weapon
+|userVersion2=Upgrade Gleam
+|statModifiers=0,14,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If foe uses magic, grants Special cooldown charge +1 per attack. (Only highest value applied. Does not stack.)
+|iconSkill1=Felicias Plate W.png
+|tagidExtraSkill1=奥
+|properties=
+}}
+==Notes==
+{{IfUnitAttacked}}
+{{Penalties}}
+{{LowerDefRes}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{TermRefersTo|magic}}
+{{CooldownChargePlus}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|TP変動R魔|TP Charge R Magic}}
+==In other languages==
+{{OtherLanguages
+|japanese=フェリシアの氷皿
+|german=Felicias Teller
+|spanishEU=Plato Felicia
+|spanishLA=Plato Felicia
+|french=Plat de Felicia
+|italian=Vassoio di Felicia
+|chineseTW=菲利西亞的冰盤
+|portuguese=Prato de Felicia
+}}
+{{Weapons Navbox}}

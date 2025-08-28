@@ -1,0 +1,73 @@
+{{#invoke:NameAbout|main|Name=Klein}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Klein
+|Title=Silver Nobleman 
+|WeaponType=Colorless Bow
+|Origin=Fire Emblem: The Binding Blade 
+|Gender=Male
+|MoveType=Infantry 
+|actorEN=Edward Bosco 
+|actorJP=太田悠介
+|artist=Tobi
+|releaseDate=February 27, 2017
+|poolDate=March 14, 2017
+|randomStartTime=2017-03-16T07:00:00Z
+|poolRarities=3,4
+|TagID=クレイン
+|InternalID=104
+|Properties=demoted_240
+|cv1=5
+|cv2=400400
+|description=A young general of Etruria. Clarine's brother. Treats all as equals. Appears in Fire Emblem: The Binding Blade.
+|GrowthModifier=None
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=9|Lv1SPD=7|Lv1DEF=5|Lv1RES=5
+|GRHP=50|GRATK=50|GRSPD=60|GRDEF=35|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Brave Bow
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Brave Bow+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Argent Bow
+|weapon5Default=
+|weapon5Unlock=5
+}}
+
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Glacies
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Death Blow 1
+|passiveA2=Death Blow 2
+|passiveA3=Death Blow 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=Quick Riposte 1
+|passiveB2=Quick Riposte 2
+|passiveB3=Quick Riposte 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+{{Heroes Navbox}}

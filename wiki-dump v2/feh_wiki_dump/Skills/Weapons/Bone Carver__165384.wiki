@@ -1,0 +1,37 @@
+{{Weapon Infobox
+|tagid=SID_骨の暗器
+|intID=2924
+|exclusive=0
+|weaponType=Dagger
+|cost=200
+|might=8
+|range=2
+|effect=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+5 to unit during combat, and also, if unit attacked, deals 7 damage to target and foes within 2 spaces of target after combat.<br>Effect:【Dagger ５】<br><br>【Dagger ５】<br>After combat, if unit attacked, inflicts Def/Res-５ on target and foes within 2 spaces of target through their next actions.
+|statModifiers=0,8,0,0,0
+|required=Steel Dagger
+|next=Bone Carver+
+|promotionRarity=5
+|promotionTier=1
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+{{IfUnitAttacked}}
+{{Out of combat damage}}
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=骨の暗器
+|german=Knochenmesser
+|spanishEU=Tallahuesos
+|spanishLA=Tallahuesos
+|french=Sculpteur d'os
+|italian=Coltello d'osso
+|chineseTW=骨之暗器
+|portuguese=Talha-ossos
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%7 damage%to target%'}}
+{{Weapons Navbox}}

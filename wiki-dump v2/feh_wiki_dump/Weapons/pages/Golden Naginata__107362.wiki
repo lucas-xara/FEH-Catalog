@@ -1,0 +1,47 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_ツバキの金薙刀
+|weaponType=Lance
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of combat, if foe's Atk ≥ unit's Atk+3, grants Atk/Spd/Def/Res+3 during combat.
+|cost=400
+|exclusive=1
+|userVersion1=Weapon
+|userVersion2=Gleam
+|statModifiers=0,16,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=At the start of combat, if unit's HP ≥ 70%, deals +7 damage.
+|iconSkill1=Golden Naginata W.png
+|tagidExtraSkill1=完
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{FlatDamage|7}}
+
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|完璧主義R|[[FireEmblemWiki:Perfectionist|Perfectionist]] R}}
+==In other languages==
+{{OtherLanguages
+|japanese=ツバキの金薙刀
+|german=Goldnaginata
+|spanishEU=Naginata oro
+|spanishLA=Naginata oro
+|french=Naginata or
+|italian=Naginata dorato
+|chineseTW=椿的金薙刀
+|portuguese=Naginata ouro
+}}
+==See also==
+* [[Niles's Bow]]
+{{Weapons Navbox}}

@@ -1,0 +1,43 @@
+{{Passive
+|type=C
+|exclusive=0
+|1name=Ward Armor
+|1tagid=SID_重盾の紋章
+|1effect=Grants Def/Res+4 to armored allies within 2 spaces during combat.
+|1cost=200
+|1required=Spur Def 2;Spur Res 2
+|canUseWeapon={{WeaponList|all}}
+|canUseMove=Armored
+|properties=random_all,random_inherit_base
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{SkillEffectText|Temporary buffs|Def/Res|4}}
+|CombatEffect 1 Targets={{Mt|Armored}} {{SkillTargetText|Allies}}<br>[[within 2 spaces]]
+}}
+==Notes==
+{{Temporary buffs}}
+{{AlliesCombatEffect|effect=temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=重盾の紋章
+|german=Panzer+ (Vert.)
+|spanishEU=Muro corazas
+|spanishLA=Muro corazas
+|french=Vigilance (Cuira.)
+|italian=Difesa corazzati
+|chineseTW=重盾紋章
+|portuguese=Armadura zelosa
+}}
+==See also==
+* [[Drive Passives]]
+* [[Goad Passives]]
+* [[Ward Passives]]
+{{Passives Navbox|C}}
+[[Category:Ward Passives]]

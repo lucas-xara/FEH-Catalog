@@ -1,0 +1,48 @@
+{{Weapon Infobox
+|tagid=SID_紫竜山の荒弓
+|intID=3622
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=1
+|weaponType=Bow
+|cost=400
+|might=14
+|range=2
+|effectiveness=Flying
+|effect=Effective against flying foes. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit during combat, deals damage = 10% of unit's Spd (including when dealing damage with a Special triggered before combat), and calculates damage using the lower of foe's Def or Res.
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=At start of combat, if foe's HP ≥ 75% or 【Penalty】is active on foe, grants Atk/Spd/Def/Res+4 to unit and inflicts Atk/Spd/Def/Res-X on foe during combat (X = current penalty on each of foe's stats during combat; calculates each stat penalty independently).<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{Temporary buffs}}
+{{DamageBoost}}
+{{LowerDefRes}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{EffectfromPenalty|source=the foe|name={{St|Violdrake Bow|refine=Skill1}}}}
+{{TemporaryDebufffromPenalty|source=the foe|name={{St|Violdrake Bow|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=紫竜山の荒弓
+|german=Violdrake-Bogen
+|spanishEU=Arco Violdrake
+|spanishLA=Arco Violdrake
+|french=Arc Violdrake
+|italian=Arco Violdrake
+|chineseTW=紫龍山的荒弓
+|portuguese=Arco Violdrake
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%deals damage = 10%of unit_s Spd%' OR Description LIKE '%lower of foe_s Def or Res%' AND Description NOT LIKE '%range = 2%lower of foe_s Def or Res%' AND Description NOT LIKE '%disables%"calculate%damage%' OR Description LIKE '%X = current penalty on each of foe_s stats during combat%') AND Exclusive='1'}}
+{{Weapons Navbox}}

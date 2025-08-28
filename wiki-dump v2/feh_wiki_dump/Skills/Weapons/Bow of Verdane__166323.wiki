@@ -1,0 +1,50 @@
+{{Weapon Infobox
+|tagid=SID_ヴェルダンの荒弓
+|intID=2934
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=1
+|weaponType=Bow
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effectiveness=Flying
+|effect=Accelerates Special trigger (cooldown count-1). Effective against flying foes. If unit initiates combat or is not adjacent to an ally, grants Atk/Spd+5 to unit during combat.
+|statModifiers=0,14,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|tagidExtraSkill1=一
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+5 during combat, and also, if unit initiates combat, the following effects will occur based on the value of unit's Spd minus foe's Spd: If ≥ 3, unit makes a guaranteed follow-up attack. If ≥ 7, unit can make a follow-up attack before foe can counterattack.
+|iconSkill1=Bow of Verdane W.png
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{UnitStatMinusFoeStat|stat=Spd}}
+{{Follow-up before counterattack|guaranteed=1}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ヴェルダンの荒弓
+|german=Verdane-Bogen
+|spanishEU=Arco de Verdane
+|spanishLA=Arco de Verdane
+|french=Arc de Verdane
+|italian=Arco di Verdane
+|chineseTW=凡爾登的荒弓
+|portuguese=Arco de Verdane
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%based on the value of unit_s Spd minus foe_s Spd%'}}
+* [[:Category:Skills that accelerate the Special trigger|Skills that accelerate the Special trigger]]
+{{Weapons Navbox}}

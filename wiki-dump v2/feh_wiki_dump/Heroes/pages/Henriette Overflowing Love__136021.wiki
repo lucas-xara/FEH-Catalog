@@ -1,0 +1,75 @@
+{{#invoke:NameAbout|main|Name=Henriette}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Henriette
+|Title=Overflowing Love
+|WeaponType=Red Tome
+|MoveType=Armored
+|Origin=Fire Emblem Heroes
+|Gender=Female
+|actorEN=Mona Marshall
+|actorJP=能登麻美子
+|artist=あんべよしろう
+|additionDate=February 4, 2021
+|releaseDate=February 5, 2021
+|cv1=0
+|cv2=100320
+|TagID=愛の祭ヘンリエッテ
+|InternalID=624
+|Properties=special,specRate_202502
+|description=Queen of Askr, adored by her people. Joining in on the Day of Devotion festivities alongside her family members.
+}}
+{{Stats Page
+|Lv1HP=20|Lv1ATK=7|Lv1SPD=5|Lv1DEF=11|Lv1RES=10
+|GRHP=50|GRATK=75|GRSPD=30|GRDEF=55|GRRES=70
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elfire
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Unity Blooms
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Unity Blooms+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Iceberg
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Distant Def 1
+|passiveA2=Distant Def 2
+|passiveA3=Distant Def 3
+|passiveA4=Distant Def 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Slick Fighter 1
+|passiveB2=Slick Fighter 2
+|passiveB3=Slick Fighter 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=A/R Far Save 1
+|passiveC2=A/R Far Save 2
+|passiveC3=A/R Far Save 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Day of Devotion units]]

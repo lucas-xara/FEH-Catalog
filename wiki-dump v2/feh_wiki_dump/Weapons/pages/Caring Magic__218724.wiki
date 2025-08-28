@@ -1,0 +1,56 @@
+{{Weapon Infobox
+|tagid=SID_慈愛の王女の魔力
+|intID=4207
+|image=wep_mg193
+|exclusive=1
+|weaponType=Blue Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd+6 to unit, grants bonus to unit's Atk/Spd = 20% of unit's Spd at start of combat, deals damage = 20% of unit's Spd (excluding area-of-effect Specials), neutralizes foe's bonuses to Spd/Res (from skills like Fortify, Rally, etc.), and grants Special cooldown count-1 to unit before unit's first follow-up attack during combat, and also, if unit initiates combat, unit can make a follow-up attack before foe's next attack.
+|required=Thoron;Shine
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Ce1={{Eft|Temporary buffs|Atk/Spd|6}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd|20% of {{Tgt|Unit}}'s Spd<br>at start of combat}}
+|Ce3={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|Ce4={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Unit}}'s first [[follow-up]]
+|Ce5={{Eft|Neutralize Bonuses|Spd/Res}}
+|Ce5T={{Tgt|Foe}}
+|Ce1-5C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce6={{Eft|Desperation}}
+|Ce6T={{Tgt|Unit}}
+|Ce6C=Player Phase
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{At start of combat}}
+{{DamageBoost}}
+{{Bonus neutralization}}
+{{CombatCooldownCount|-1}}
+{{Follow-up before counterattack}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V8.6_v0806c_legend_Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=慈愛の王女の魔力
+|german=Gütige Magie
+|spanishEU=Magia amable
+|spanishLA=Magia amable
+|french=Tendre magie
+|italian=Magia premurosa
+|chineseTW=慈悲公主的魔力
+|portuguese=Magia amável
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%of unit_s Spd at start of combat%' OR Description LIKE '%special cooldown count-%to unit%before unit_s first follow-up attack%') AND Exclusive='1'}}
+{{Weapons Navbox}}

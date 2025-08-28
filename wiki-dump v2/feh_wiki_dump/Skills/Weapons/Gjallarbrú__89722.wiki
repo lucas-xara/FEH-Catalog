@@ -1,0 +1,53 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_ギャッラルブルー
+|weaponType=Staff
+|might=14
+|range=2
+|effect=Calculates damage from staff like other weapons. At start of turn, if foe's HP ≤ unit's HP-3 and foe is in cardinal directions, inflicts【Isolation】on foe.<br><br>【Isolation】<br>Target cannot use or be the target of Assist skills through its next action. (Target can neither use nor be the target of skills like Dance and Sing, skills that neutralize penalties, like Restore and Harsh Command+, etc.)
+|cost=400
+|exclusive=1
+|statModifiers=0,14,0,0,0
+|required=Assault
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Calculates damage from staff like other weapons. At start of turn, if foe's HP ≤ unit's HP-1 and foe is in cardinal directions, inflicts【Isolation】 on foe.<br><br>【Isolation】<br>Target cannot use or be the target of Assist skills through its next action. (Target can neither use nor be the target of skills like Dance and Sing, skills that neutralize penalties, like Restore and Harsh Command+, etc.)
+|tagidExtraSkill1=一
+|effectSkill1=Grants Atk/Spd+4 and neutralizes penalties to allies within 2 spaces of unit during combat. If unit is within 3 spaces of an ally, grants Atk/Spd+4 to unit during combat.
+|iconSkill1=Gjallarbru W.png
+|properties=
+}}
+==Notes==
+* Has the same effect as {{St|Wrathful Staff 3}}.
+{{Wrathful Staff}}
+{{CardinalDirections}}
+{{Isolation}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Combat boosts}}
+{{Penalty neutralization}}
+{{AlliesCombatEffect}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+File:V3.5 84 bride03 Rod.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==Trivia==
+{{NorseMyth|is a bridge that spans the river [[Wikipedia:Gjöll|Gjöll]]. It must be crossed in order to reach [[Wikipedia:Hel (realm)|Hel]].}}
+==In other languages==
+{{OtherLanguages
+|japanese=ギャッラルブルー
+|german=Gjallarbrú
+|spanishEU=Gjallarbrú
+|spanishLA=Gjallarbrú
+|french=Gjallarbrú
+|italian=Gjallarbrú
+|chineseTW=吉歐爾橋之杖
+|portuguese=Gjallarbrú
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【Isolation】%' OR Description LIKE '%grants Atk/Spd+%and neutralizes penalties to%allies%during combat%'|columns=3}}
+{{Weapons Navbox}}

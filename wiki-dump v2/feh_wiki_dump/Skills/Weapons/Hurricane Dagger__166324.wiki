@@ -1,0 +1,49 @@
+{{Weapon Infobox
+|tagid=SID_疾風の暗器
+|intID=2935
+|image=wep_dg063
+|exclusive=1
+|weaponType=Dagger
+|cost=400
+|might=14
+|range=2
+|effect=Grants bonus to unit's Atk = total bonuses on foe during combat. At start of combat, if foe's HP ≥ 75% or 【Bonus】 is active on foe, grants Atk/Spd+5 to unit during combat.<br>Effect:【Dagger ７】<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|statModifiers=0,14,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|tagidExtraSkill1=一
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+5 to unit during combat, and also, if unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 3 (max 30%), and unit deals +5 damage including when dealing damage with a Special triggered before combat.
+|iconSkill1=Hurricane Dagger W.png
+|properties=
+}}
+==Notes==
+{{BonusesToAtk|source=the foe|bnsSource=the unit}}
+{{EffectfromBonusKeyword|target=the foe}}
+{{IfUnitAttacked}}
+{{Penalties}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+{{FlatDamageBoost|5}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=疾風の暗器
+|german=Sturmdolch
+|spanishEU=Daga huracán
+|spanishLA=Daga huracán
+|french=Dague ouragan
+|italian=Pugnale uragano
+|chineseTW=疾風暗器
+|portuguese=Adaga furacão
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%bonus to unit%s Atk = total bonuses on foe during combat%' OR Description LIKE '%【Bonus】%active on foe%' OR Description LIKE '%if unit\'s Spd > foe\'s Spd%reduces damage from%area-of-effect Specials%'|columns=3}}
+{{Weapons Navbox}}

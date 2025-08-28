@@ -1,0 +1,44 @@
+{{Weapon Infobox
+|tagid=SID_鋼の暗器
+|weaponType=Dagger
+|weaponName={{PAGENAME}}
+|might=5
+|range=2
+|effect=After combat, if unit attacked, inflicts Def/Res-3 on foe through its next action.
+|cost=100
+|exclusive=0
+|statModifiers=0,5,0,0,0
+|next=Silver Dagger
+|promotionRarity=4
+|promotionTier=1
+|required=Iron Dagger
+|properties=random_all
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|StatusEffect={{SkillEffectText|Penalties|Def/Res|3}}
+|StatusEffect Targets={{SkillTargetText|Target Foe}}
+|StatusEffect Conditions=After combat if<br>{{SkillTargetText|Unit}} attacked
+}}
+
+==Notes==
+{{IfUnitAttacked}}
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==In other languages==
+{{OtherLanguages
+|japanese=鋼の暗器
+|german=Stahldolch
+|spanishEU=Daga acero
+|spanishLA=Daga acero
+|french=Dague acier
+|italian=Pugnale acciaio
+|chineseTW=鋼暗器
+|portuguese=Adaga de aço
+}}
+==See also==
+* [[Steel Weapons]]
+{{Weapons Navbox}}
+[[Category:Steel weapons]]

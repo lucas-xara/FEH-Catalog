@@ -1,0 +1,55 @@
+{{Weapon Infobox
+|tagid=SID_タングリスニ
+|weaponType=Bow
+|might=14
+|range=2
+|effectiveness=Flying
+|effect=Effective against flying foes. Grants Spd+3. If a bonus granted by a skill like Rally or Hone and/or 1 extra space of movement granted by a skill like Armor March or Armored Boots is active, grants Atk/Spd/Def/Res+3 and Special cooldown charge +1 per unit's attack during combat. (Only highest value applied. Does not stack.)
+|cost=400
+|exclusive=1
+|userVersion1=Bow
+|userVersion2=Arrow
+|statModifiers=0,14,3,0,0
+|required=Silver Bow
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Effective against flying foes. Grants Spd+3. At start of combat, if unit's HP ≥ 50% or if【Bonus】is active on unit, grants Atk/Spd/Def/Res+4 and Special cooldown charge +1 to unit per attack during combat. (Only highest value applied. Does not stack.)<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|tagidExtraSkill1=一
+|effectSkill1=If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+4 to unit during combat, and if foe initiates combat and uses bow, dagger, magic, or staff and unit's Spd > foe's Spd, unit can counterattack before foe's first attack, and unit can make a follow-up attack before foe can counterattack.
+|iconSkill1=Tanngrisnir W.png
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|Flying}}
+{{EffectfromBonusesMobility|temporary buffs and Special cooldown charge +1}}
+{{Temporary buffs}}
+{{CooldownChargePlus|perAttack=user}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{EffectfromBonus}}
+{{CooldownChargePlus}}
+{{Follow-up before counterattack|phase=enemy|preempt=1|name={{St|Tanngrisnir|refine=Skill1}}}}
+
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{NorseMyth|is one of two goats that pull [[Wikipedia:Thor|Thor]]'s chariot.}}
+==In other languages==
+{{OtherLanguages
+|english=Tanngrisnir
+|japanese=タングリスニ
+|german=Tanngrisnir
+|spanishEU=Tanngrisnir
+|spanishLA=Tanngrisnir
+|french=Tanngrisnir
+|italian=Tanngrisnir
+|chineseTW=坦格里斯尼爾
+|portuguese=Tanngrisnir
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%if%bonus%is active%grants Atk/Spd/Def/Res+%during combat%' AND Description NOT LIKE '%active on foe%' OR Description LIKE '%if%movement%is active%grants%during combat%' AND Description NOT LIKE '%active on foe%' OR Description LIKE '%if%bonus%is active%special cooldown charge +1%' OR Description LIKE '%unit_s%foe_s%unit can counterattack before foe_s first attack%') AND Exclusive='1'}}
+* [[Skill families/B Passives#Preempt|Preempt Passives]]
+{{Weapons Navbox}}

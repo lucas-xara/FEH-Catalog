@@ -1,0 +1,68 @@
+{{#invoke:NameAbout|main|Name=Artur}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Artur
+|Title=Silver Saint
+|WeaponType=Green Tome
+|MoveType=Armored
+|Origin=Fire Emblem: The Sacred Stones
+|Gender=Male
+|actorEN=Adin Rudd
+|actorJP=河本啓佑
+|artist=Tobi
+|additionDate=December 16, 2021
+|releaseDate=December 16, 2021
+|cv1=7
+|cv2=102200
+|TagID=冬祭アスレイ
+|InternalID=746
+|Properties=special,hat,tiara,specRate_202502
+|description=A sincere monk of Renais who has come to Askr to play the role of winter envoy. Appears in Fire Emblem: The Sacred Stones.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=11|Lv1SPD=4|Lv1DEF=9|Lv1RES=11
+|GRHP=55|GRATK=70|GRSPD=35|GRDEF=60|GRRES=70
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Wind
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elwind
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Snow Globe
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Snow Globe+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Iceberg
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Odd Follow-Up 1
+|passiveB2=Odd Follow-Up 2
+|passiveB3=Odd Follow-Up 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=D/R Far Save 1
+|passiveC2=D/R Far Save 2
+|passiveC3=D/R Far Save 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Christmas units]]
+[[Category:Christmas units]]

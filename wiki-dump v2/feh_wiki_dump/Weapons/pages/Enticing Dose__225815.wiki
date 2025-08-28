@@ -1,0 +1,84 @@
+{{Weapon Infobox
+|tagid=SID_毒の葬り手の妖牙
+|intID=4437
+|noImg=1
+|exclusive=1
+|weaponType=Beast
+|canUseMove=Armored
+|cost=400
+|might=14
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>At start of turn and after unit acts (if Canto triggers, after Canto), inflicts Atk/Def-7 and 【Sabotage】on foes within 3 rows or 3 columns centered on unit through their next actions.<br><br>If unit is transformed or unit's HP ≥ 25% at start of combat, deals damage to foe = 25% of foe's max HP as combat begins (activates only when unit can attack in combat; only highest value applied; does not stack with other "deals X damage as combat begins" effects; effects that reduce damage during combat do not apply; will not reduce foe's HP below 1; excluding certain foes, such as Røkkr).<br><br>If unit is transformed or unit's HP ≥ 25% at start of combat, inflicts penalty on foe's Atk/Def = 6 + 20% of unit's Def at start of combat, reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% (excluding area-of-effect Specials), deals damage = 30% of foe's max HP (excluding area-of-effect Specials; excluding certain foes, such as Røkkr), and reduces damage from foe's attacks by X during combat (excluding area-of-effect Specials), and also, when foe's attack triggers foe's Special, reduces damage from foe's attacks by an additional X (excluding area-of-effect Specials; X = total damage dealt to foe; min 10; max 20).<br><br>At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and unit can counterattack regardless of foe's range.<br><br>【Sabotage】<br>Inflicts penalty on unit's Atk/Spd/Def/Res during combat = highest penalty on each stat between unit and allies within 2 spaces of unit through its next action. Calculates each stat penalty independently.
+|required=Adult (Armored)
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe1={{Eft|Accelerates Special}}
+|Pe2={{Eft|Stat Boosts|Atk|2}}
+|PeC2={{Tgt|Unit}} is transformed
+|Se1={{Eft|Penalty|Atk/Def|7}}
+|Se2={{SEt|Sabotage}}
+|SeT={{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|SeC=At start turn '''or'''<br>after {{Tgt|Unit}}'s<br>action(s) '''or''' after<br>[[Canto]] movement
+|Me={{Eft|Transform}}
+|MeC=At start of turn if<br>{{Tgt|Unit}} is [[adjacent]] to only<br>{{Cwti|group=1|Beast,Dragon}} [[Dragon]]/[[Beast]]<br>{{Tgt|Allies}} '''or''' not [[adjacent]]<br>to any {{Tgt|Ally}}
+|Ce1={{Eft|Damage|25% of {{Tgt|Foe}}'s max HP}}<br>as combat begins<br>(doesn't stack; exc.<br>Røkkr {{Tgt|Foes}})
+|CeC1=({{Tgt|Unit}} is transformed<br>'''or''' {{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat)<br>'''&''' {{Tgt|Unit}} can attack
+|Ce2={{Eft|Temporary Debuffs|Atk/Def|20% of {{Tgt|Unit}}'s Def<br>at start of combat, +6}}
+|CeT1-3={{Tgt|Foe}}
+|Ce3={{Eft|Reduce Damage Reduction|50%}}
+|Ce4={{Eft|Damage Boost|30% of {{Tgt|Foe}}'s max HP}}<br>(excludes Røkkr {{Tgt|Foes}})
+|Ce5={{Eft|Damage Reduction|(total damage<br>dealt to {{Tgt|Foe}})|min=10|max=20}}<br>from {{Tgt|Foe}}'s attacks
+|Ce6={{Eft|Damage Reduction|(total damage<br>dealt to {{Tgt|Foe}})|min=10|max=20}}<br>from {{Tgt|Foe}}'s<br>[[offensive Special]]
+|CeC2-6={{Tgt|Unit}} is transformed<br>'''or''' {{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce7={{Eft|Distant Counter}}
+|CeC7={{Tgt|Unit}} is transformed
+}}
+
+==Notes==
+{{Penalties}}
+{{Sabotage}}
+{{CombatDamage|noStack=1|noCounter=1}}
+{{Temporary debuffs}}
+{{At start of combat}}
+{{Reduce Damage Reduction}}
+{{DamageBoost}}
+{{FlatDamageReduction}}
+{{Beast (Armored)}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Níðhöggr: Quieting Dose|t=Veronica: Princess Rising
+|---xxx---
+|---xxx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xtx---
+|---xxx---
+}}
+|}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=毒の葬り手の妖牙
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%at start of turn%inflicts%row%columns%' OR Description LIKE '%of foe_s max HP%' OR Description LIKE '%as combat begins%') AND Exclusive='1'}}
+* [[Flare Passives]]
+{{Weapons Navbox}}

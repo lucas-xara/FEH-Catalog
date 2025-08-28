@@ -1,0 +1,37 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_祝祭の剣
+|weaponType=Sword
+|might=10
+|next=Heart's Blade+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Sword
+|range=1
+|effect=If unit is adjacent to an ally, grants Atk/Spd/Def/Res+3 during combat.
+|cost=200
+|exclusive=0
+|statModifiers=0,10,0,0,0
+|userVersion1=
+|userVersion2=
+|userVersion3=
+|userVersion4=
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=祝祭の剣
+|german=Herzensklinge
+|spanishEU=Hoja romántica
+|spanishLA=Filo romántico
+|french=Lame du cœur
+|italian=Lama del cuore
+|chineseTW=祝祭之劍
+|portuguese=Espada coração
+}}
+==See also==
+* 
+{{Weapons Navbox}}

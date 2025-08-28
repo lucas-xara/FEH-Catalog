@@ -1,0 +1,103 @@
+{{Weapon Infobox
+|tagid=SID_賀正の人狼王の爪牙
+|weaponType=Beast
+|canUseMove=Infantry
+|might=14
+|range=1
+|effect=Grants Def+3. At start of combat, if foe's HP ≥ 75%, grants Def+5 to unit, inflicts Def-5 on foe during combat, and then, if unit's Def > foe's Def, deals damage = 70% of difference between stats. (Maximum bonus of +7 damage.)<br><br>At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 and deals +10 damage when Special triggers.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,0,3,0
+|required=Adult (Infantry)
+|intID=2364
+|sort=483
+|value=20
+|timingID=21
+|abilityID=101
+|limit1ID=53
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Def+3.<br><br>If foe initiates combat or foe's HP ≥ 75% at start of combat, grants Spd/Def/Res+5 to unit, inflicts Def-5 on foe, deals damage = 20% of unit's Def (including when dealing damage with a Special triggered before combat), unit makes a guaranteed follow-up attack, and neutralizes unit's penalties to Atk/Def during combat.<br><br>At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, deals +7 damage when Special triggers, and neutralizes effects that grant "Special cooldown charge +X" to foe or inflict "Special cooldown charge -X" on unit.
+|refineStatsSkill1=3,0,0,0,0
+|effectSkill1=If unit is within 3 spaces of an ally, grants Spd/Def/Res+5 to unit, inflicts Def-5 on foe, reduces damage from foe's attacks by 15% of unit's Def (excluding area-of-effect Specials), and reduces the effect of【Deep Wounds】on unit by 50% during combat.<br><br>If unit is within 3 spaces of an ally, restores X HP to unit as unit's combat begins (triggers after effects that deal damage as combat begins; if unit's Def > foe's Def, X = 20% of unit's max HP + difference between stats × 4; otherwise, X = 20% of unit's max HP; max 40% of unit's max HP + damage dealt to unit as combat begins; only highest value applied; does not stack).<br><br>【Deep Wounds】<br>Unit's HP cannot be healed through its next action.
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe1={{Eft|Stat Boosts|Def|3}}
+|s1 Pe2={{Eft|Stat Boosts|Atk|2}}
+|s1 PeC2={{Tgt|Unit}} is transformed
+|s1 Me={{Eft|Transform}}
+|s1 MeC=At start of turn if<br>{{Tgt|Unit}} is [[adjacent]] to only<br>{{Cwti|group=1|Dragon,Beast}} [[Dragon]]/[[Beast]]<br>{{Tgt|Allies}} '''or''' not [[adjacent]]<br>to any {{Tgt|Ally}}
+|s1 Ce1={{Eft|Temporary buffs|Def|5}}
+|s1 Ce2={{Eft|Temporary debuffs|Def|5}}
+|s1 Ce2T={{Tgt|Foe}}
+|s1 Ce1-2C={{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|s1 Ce3={{Eft|Damage Boost|70% of ({{Tgt|Unit}}'s Def<br>- {{Tgt|Foe}}'s Def)|max=7}}
+|s1 Ce3C={{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat<br>'''&''' {{Tgt|Unit}}'s Def<br>> {{Tgt|Foe}}'s Def
+|s1 Ce4={{Eft|Damage Boost|10}} per<br>{{Tgt|Unit}}'s [[Area-of-effect Specials|AoE]] '''or''' [[offensive Special]]
+|s1 CeC4={{Tgt|Unit}} is transformed
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe1={{Eft|Stat Boosts|Def|3}}
+|s2 Pe2={{Eft|Stat Boosts|Atk|2}}
+|s2 PeC2={{Tgt|Unit}} is transformed
+|s2 Me={{Eft|Transform}}
+|s2 MeC=At start of turn if<br>{{Tgt|Unit}} is [[adjacent]] to only<br>{{Cwti|group=1|Dragon,Beast}} [[Dragon]]/[[Beast]]<br>{{Tgt|Allies}} '''or''' not [[adjacent]]<br>to any {{Tgt|Ally}}
+|s2 Ce1={{Eft|Temporary buffs|Spd/Def/Res|5}}
+|s2 Ce2={{Eft|Temporary debuffs|Def|5}}
+|s2 Ce2T={{Tgt|Foe}}
+|s2 Ce3={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Def}}<br>before '''&''' during combat
+|s2 Ce4={{Eft|Guaranteed Follow-Ups}}
+|s2 Ce5={{Eft|Neutralize Penalties|Atk/Def}}
+|s2 Ce1-5C=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|s2 Ce6={{Eft|Neutralize Accelerate Charge}}
+|s2 Ce6T={{Tgt|Foe}}<br>
+|s2 Ce7={{Eft|Neutralize Guard}}
+|s2 Ce6-8C={{Tgt|Unit}} is transformed
+|s2 Ce8={{Eft|Damage Boost|7}} per<br>{{Tgt|Unit}}'s [[Area-of-effect Specials|AoE]] '''or''' [[offensive Special]]
+|s2 Ce7-8T={{Tgt|Unit}}<br>
+|skill3={{Si|Resolved Fang|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary buffs|Spd/Def/Res|5}}
+|s3 Ce2={{Eft|Temporary debuffs|Def|5}}
+|s3 Ce2T={{Tgt|Foe}}
+|s3 Ce3={{Eft|Damage Reduction|15% of {{Tgt|Unit}}'s Def}}<br>from {{Tgt|Foe}}'s attacks
+|s3 Ce4={{Eft|Reduce Deep Wounds|50%}}
+|s3 Ce1-4C=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|s3 Ce5={{Eft|Heal|20% of {{Tgt|Unit}}'s max HP +<br>(4 x ({{Tgt|Unit}}'s Def - {{Tgt|Foe}}'s Def))|max=*}}<br>after combat begins damage
+|s3 CeC5={{Tgt|Unit}}'s Def ><br>{{Tgt|Foe}}'s Def '''&'''<br>An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|s3 Ce6={{Eft|Heal|20% of {{Tgt|Unit}}'s max HP|max=*}}<br>after combat begins damage
+|s3 CeC6={{Tgt|Unit}}'s Def ≤<br>{{Tgt|Foe}}'s Def '''&'''<br>An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+}}
+<b>{{Hatnote|&#42; 40% of {{Tgt|Unit}}'s Max HP + damage dealt to {{Tgt|Unit}} as combat begins}}</b>
+==Notes==
+{{Temporary buffs}}
+{{Temporary debuffs}}
+{{BonusStatDamage|stat=Def}}
+{{Beast (Infantry)}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Guaranteed follow-up interaction|name=Refined Resolved Fang}}
+{{Penalty neutralization|name=Refined Resolved Fang}}
+{{Beast (Infantry) Upgrade|name=Refined Resolved Fang}}
+{{FlatDamageReduction}}
+{{CombatHPRecovery|DWreduction=50|name={{St|Resolved Fang|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=賀正の人狼王の爪牙
+|german=Ulfhedin-Zahn
+|spanishEU=Garra resoluta
+|spanishLA=Garra resoluta
+|french=Croc résolu
+|italian=Zanna risoluta
+|chineseTW=賀年狼人王的爪牙
+|portuguese=Presa resolvida
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%70_ of difference between stats%' OR Description LIKE '%reduce% the effect of%【Deep Wounds】%') AND Exclusive='1'}}
+{{Weapons Navbox}}

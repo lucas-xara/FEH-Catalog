@@ -1,0 +1,39 @@
+{{Assist
+|tagid=SID_攻撃の大応援
+|name=Rally Up Atk
+|range=1
+|effect=Grants Atk+4 to target ally and allies within 2 spaces of target (excluding unit) for 1 turn.
+|cost=300
+|exclusive=0
+|required=Rally Attack
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_owner,random_inherit_base
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se={{Eft|Bonuses|Atk|4}}
+|SeT={{Tgt|Target Ally}}<br>'''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Ally}}
+|SeC={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}
+}}
+==Notes==
+{{Bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=攻撃の大応援
+|german=Gr. Angr. sam.
+|spanishEU=Reforzar Ata
+|spanishLA=Reforzar Atq.
+|french=Rall. sup. Atq
+|italian=Gran sprone Att
+|chineseTW=攻擊大支援
+|portuguese=Atq. imenso
+}}
+==See also==
+* [[Rally Assists]]
+* [[Rally Up Assists]]
+{{Assists Navbox}}
+[[Category:Rally Assists]]
+[[Category:Rally Up Assists]]

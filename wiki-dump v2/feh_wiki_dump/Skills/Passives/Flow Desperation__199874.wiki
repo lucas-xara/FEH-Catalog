@@ -1,0 +1,50 @@
+{{Passive
+|name=Flow Desperation
+|type=B
+|exclusive=0
+|canUseWeapon={{WeaponList|Melee}}
+|canUseMove={{MoveList|Cavalry,Flying}}
+|properties=random_owner
+|1name=Flow Desperation
+|1tagid=SID_怒涛・攻め立て4
+|1effect=Inflicts Spd/Def-4 on foe during combat. If unit initiates combat, neutralizes effects that prevent unit's follow-up attacks during combat, and also, if number of spaces from unit's start position to end position ≥ 2 or unit's HP ≤ 75% at start of combat, unit can make a follow-up attack before foe can counterattack.
+|1cost=300
+|1required=Desperation 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{SkillEffectText|Temporary debuffs|Spd/Def|4}}
+|CombatEffect 1 Targets={{SkillTargetText|Foe}}
+|CombatEffect 2={{SkillEffectText|Neutralize Prevent Follow-Ups}}
+|CombatEffect 3={{SkillEffectText|Desperation}}
+|CombatEffect 2-3 Targets={{SkillTargetText|Unit}}
+|CombatEffect 2 Conditions=Player Phase
+|CombatEffect 3 Conditions=Player Phase '''&'''<br>({{SkillTargetText|Unit}}'s HP ≤ 75%<br>at start of combat<br>'''or''' number of spaces<br>{{SkillTargetText|Unit}} moved ≥ 2)
+}}
+==Notes==
+{{Temporary debuffs}}
+{{IfUnitInitiates}}
+{{Follow-up effect neutralization|preventOnly=1}}
+{{SpacesFromStarttoEnd}}
+{{Follow-up before counterattack}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=怒涛・攻め立て
+|german=Entmutigung
+|spanishEU=Corriente arrem.
+|spanishLA=Corriente arrem.
+|french=Flots d'adrénaline
+|italian=Disper. fluida
+|chineseTW=怒濤・猛攻
+|portuguese=Onda desespero
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%make a follow-up attack before%can counterattack%' AND (Exclusive=1 AND Name NOT LIKE '%+')) OR (Description LIKE '%follow-up attack before foe can counterattack%' AND SCategory LIKE 'passive_')}}
+* [[Flow Passives]]
+{{Passives Navbox|B}}

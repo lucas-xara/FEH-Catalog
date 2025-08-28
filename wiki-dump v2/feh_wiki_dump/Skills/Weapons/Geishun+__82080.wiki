@@ -1,0 +1,39 @@
+{{Weapon Infobox
+|tagid=SID_迎春の剣＋
+|weaponType=Sword
+|weaponName=Geishun+
+|might=14
+|range=1
+|effect=At start of turn, inflicts Atk-7 on foe on the enemy team with the highest Atk through its next action.
+|cost=300
+|exclusive=0
+|statModifiers=0,14,0,0,0
+|required=Geishun
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Notes==
+* Has the same effect as {{Pt|Chill Atk 3}}.
+{{Penalties}}
+{{SelectStat}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=迎春の剣＋
+|german=Geishun+
+|spanishEU=Geishun +
+|spanishLA=Geishun +
+|french=Geishun +
+|italian=Geishun+
+|chineseTW=迎春之劍＋
+|portuguese=Geishun+
+}}
+==See also==
+* [[Chill Passives]]
+{{Weapons Navbox}}

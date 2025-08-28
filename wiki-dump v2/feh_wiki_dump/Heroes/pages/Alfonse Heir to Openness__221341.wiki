@@ -1,0 +1,82 @@
+{{#invoke:NameAbout|main|Name=Alfonse}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Alfonse
+|Title=Heir to Openness
+|WeaponType=Green Axe
+|MoveType=Cavalry
+|Origin=Fire Emblem Heroes
+|Gender=Male
+|actorEN=Ray Chase
+|actorJP=鈴木達央
+|artist=ニジハヤシ
+|additionDate=August 16, 2024
+|releaseDate=August 16, 2024
+|poolDate=September 17, 2024
+|poolRarities=5
+|cv1=0
+|cv2=100100
+|TagID=総選挙アルフォンス
+|InternalID=1133
+|Properties=brave
+|description=A kind and serious prince of Askr. Wearing the same gear his father once wore, he possesses a renewed determination and sense of purpose.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=7|Lv1SPD=3|Lv1DEF=14|Lv1RES=10
+|GRHP=50|GRATK=90|GRSPD=30|GRDEF=75|GRRES=70
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Majestic Glitnir
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=4
+|special1Unlock=3
+|special2=Bonfire
+|special2Unlock=4
+|special3=Makings of a King
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Fortress Def 1
+|passiveA2=Fort. Def/Res 1
+|passiveA3=Fort. Def/Res 2
+|passiveA4=Fortifications
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Guard 1
+|passiveB2=Guard 2
+|passiveB3=Guard 3
+|passiveB4=Reopening
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Breath of Life 1
+|passiveC2=Breath of Life 2
+|passiveC3=Breath of Life 3
+|passiveC4=Breath of Life 4
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}

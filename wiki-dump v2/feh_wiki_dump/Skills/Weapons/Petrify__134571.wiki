@@ -1,0 +1,92 @@
+{{Weapon Infobox
+|tagid=SID_ストーン
+|weaponName=Petrify
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|weaponType=Red Tome
+|might=14
+|range=2
+|effect=Grants Res+3. At start of turns 1 through 5, inflicts Atk/Spd-7 and【Gravity】on foe on the enemy team with the lowest specified stat (see below).<br><br>(Specified stats: Turn 1 = HP, Turn 2 = Atk, Turn 3 = Spd, Turn 4 = Def, Turn 5 = Res.)<br><br>【Gravity】<br>Restricts target's movement to 1 space through its next action.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,0,0,3
+|required=Bolganone;Fenrir
+|intID=2385
+|sort=490
+|value=20
+|timingID=8
+|abilityID=251
+|limit1ID=60
+|randomTimestamp=2021-02-08T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Res+3. At start of turns 1 through 5, inflicts【Gravity】on foe on the enemy team with the lowest specified stat (see below), and also, inflicts Atk/Spd-7 and【Sabotage】 on that foe and foes within 2 spaces of that foe through their next actions.<br><br>(Specified stats: Turn 1 = HP, Turn 2 = Atk, Turn 3 = Spd, Turn 4 = Def, Turn 5 = Res.)<br><br>If unit initiates combat or the number of allies adjacent to unit ≤ 1, grants Atk/Spd/Def/Res+5 to unit and unit makes a guaranteed follow-up attack during combat.<br><br>【Gravity】<br>Restricts target's movement to 1 space through its next action.<br><br>【Sabotage】<br>Inflicts penalty on unit's Atk/Spd/Def/Res during combat = highest penalty on each stat between unit and allies within 2 spaces of unit through its next action. Calculates each stat penalty independently.
+|refineStatsSkill1=0,0,0,0,0
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit, neutralizes foe's bonuses to Atk/Res, unit deals +X damage (excluding area-of-effect Specials; X = highest total penalties among target and foes within 2 spaces of target), and reduces damage from foe's attacks by 30% during combat (excluding area-of-effect Specials).
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Res|3}}
+|s1 Se1={{Eft|Penalties|Atk/Spd|7}}
+|s1 Se2={{SEt|Gravity}}
+|s1 SeT={{Tgt|Foes}} with the<br>lowest specific stat:<br>Turn 1 = HP, turn 2 = Atk,<br>turn 3 = Spd, turn 4 = Def,<br>turn 5 = Res
+|s1 SeC=At start of turns 1 - 5
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Res|3}}
+|s2 Se1={{SEt|Gravity}}
+|s2 Se1T={{Tgt|Foes}} with the<br>lowest specific stat:<br>Turn 1 = HP, turn 2 = Atk,<br>turn 3 = Spd, turn 4 = Def,<br>turn 5 = Res
+|s2 Se2={{Eft|Penalties|Atk/Spd|7}}
+|s2 Se3={{SEt|Sabotage}}
+|s2 Se2-3T={{Tgt|Target Foes}} of<br>{{SEt|Gravity}}<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}
+|s2 SeC=At start of turns 1 - 5
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s2 Ce2={{Eft|Guaranteed Follow-Ups}}
+|s2 CeC=Player Phase '''or'''<br>[[adjacent]] {{Tgt|Allies}} ≤ 1
+|skill3={{Si|Petrify|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s3 Ce2={{Eft|Damage Boost|highest total {{SEt|Penalties}}<br>on {{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]] of {{Tgt|Target Foe}}}}
+|s3 Ce3={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s attacks
+|s3 Ce4={{Eft|Neutralize Bonuses|Atk/Res}}
+|s3 Ce4T={{Tgt|Foe}}
+|s3 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{Penalties}}
+{{Gravity}}
+{{SelectStat|lowest=1}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Sabotage|name=Refined Petrify}}
+{{IfUnitInitiates}}
+{{Temporary buffs|name=Refined Petrify}}
+{{Guaranteed follow-up interaction|name=Refined Petrify}}
+{{DamageBoost|name={{St|Petrify|refine=Skill1}}}}
+{{EffectfromPenalties|damage boost|target=the foe and foes within 2 spaces of foe|multisource=1|name={{St|Petrify|refine=Skill1}}}}
+{{DamagePercentageReduction}}
+{{Bonus neutralization|name={{St|Petrify|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ストーン
+|german=Versteinerung
+|spanishEU=Petrificar
+|spanishLA=Petrificar
+|french=Pétrifié
+|italian=Pietra
+|chineseTW=石化
+|portuguese=Pedra
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%at%start of%inflicts%【Gravity】%' AND Description NOT LIKE '%if unit attacked%' AND Description NOT LIKE '%after combat%' OR Description LIKE '%deals%damage%highest total penalties%and foes within _ spaces%') AND Exclusive='1'}}
+{{Weapons Navbox}}

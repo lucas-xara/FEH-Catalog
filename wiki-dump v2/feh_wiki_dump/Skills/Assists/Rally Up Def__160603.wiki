@@ -1,0 +1,39 @@
+{{Assist
+|tagid=SID_守備の大応援
+|intID=2825
+|exclusive=0
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=300
+|range=1
+|effect=Grants Def+4 to target ally and allies within 2 spaces of target (excluding unit) for 1 turn.
+|required=Rally Defense
+|properties=random_inherit_base,random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se={{Eft|Bonuses|Def|4}}
+|SeT={{Tgt|Target Ally}}<br>'''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Ally}}
+|SeC={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}
+}}
+==Notes==
+{{Bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=守備の大応援
+|german=Gr. Ver. sam.
+|spanishEU=Reforzar Def
+|spanishLA=Reforzar Def.
+|french=Rall. sup. Déf
+|italian=Gran sprone Dif
+|chineseTW=防守大支援
+|portuguese=Def. imensa
+}}
+==See also==
+* [[Rally Assists]]
+* [[Rally Up Assists]]
+{{Assists Navbox}}
+[[Category:Rally Assists]]
+[[Category:Rally Up Assists]]

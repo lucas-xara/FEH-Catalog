@@ -1,0 +1,41 @@
+{{Weapon Infobox
+|tagid=SID_守備逆用の槍＋
+|intID=3299
+|image=wep_lc130
+|exclusive=0
+|weaponType=Lance
+|cost=300
+|might=14
+|range=1
+|effect=At start of combat, if foe's HP ≥ 75%, grants Def+5 to unit and inflicts Def-5 on foe during combat, and also, if foe has bonuses, grants bonus to unit's Def and inflicts penalty on foe's Def during combat = current bonus on foe's Def. Calculates each stat bonus and penalty independently.
+|statModifiers=0,14,0,0,0
+|required=Defier's Lance
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=random_owner
+}}
+==Notes==
+{{TemporaryBufffromBonus|source=the foe}}
+{{TemporaryDebufffromBonus|source=the foe}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=守備逆用の槍＋
+|german=Verteidigerlanze+
+|spanishEU=Lanza defensiva +
+|spanishLA=Lanza defensiva +
+|french=Lance défensive +
+|italian=Lancia sfidante+
+|chineseTW=防守逆用之槍＋
+|portuguese=Lança defensiva+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe has%bonus%grants%inflicts%' AND Exclusive='1' AND WikiName NOT LIKE '%defier%'}}
+* [[Skill families/Weapons#Defier's|Defier's Weapons]]
+{{Weapons Navbox}}

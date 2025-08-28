@@ -1,0 +1,63 @@
+{{SkillPage Tabs}}{{Passive
+|type=C
+|exclusive=0
+|1name=Threaten Def 1
+|1tagid=SID_守備の威嚇1
+|1promotionRarity=4
+|1promotionTier=1
+|1required=-
+|1effect=At start of turn, inflicts Def-3 on foes within 2 spaces through their next actions.
+|1cost=50
+|2name=Threaten Def 2
+|2tagid=SID_守備の威嚇2
+|2promotionRarity=5
+|2promotionTier=1
+|2effect=At start of turn, inflicts Def-4 on foes within 2 spaces through their next actions.
+|2cost=100
+|3name=Threaten Def 3
+|3tagid=SID_守備の威嚇3
+|3effect=At start of turn, inflicts Def-5 on foes within 2 spaces through their next actions.	
+|3cost=200
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=random_all,random_inherit_base
+}}
+==Notes==
+{{Debuffs}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===Sacred Seal Forge===
+{{SealCosts
+|seals=Threaten Def 1;Threaten Def 2;Threaten Def 3
+|badgeColor=Verdant
+|costs1=20;100;20
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=守備の威嚇
+|german=Ver. gefährden
+|spanishEU=Reducir Def
+|spanishLA=Reducir Def.
+|french=Déf réduite
+|italian=Mina Dif
+|chineseTW=防守威嚇
+|portuguese=Def. minaz
+}}
+==See also==
+* [[Threaten Passives]]
+* [[Eckesachs]]
+{{Seals Navbox}}
+{{Passives Navbox|C}}
+[[Category:Threaten Passives]]

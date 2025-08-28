@@ -1,0 +1,57 @@
+{{Weapon Infobox
+|tagid=SID_強く気高き魂の槍
+|intID=4006
+|image=wep_lc163
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). Grants Atk/Def+4 to allies within 3 spaces during combat and restores 7 HP to those allies after their combat. If foe initiates combat or foe's HP ≥ 75% at start of combat, inflicts Atk/Def-X on foe during combat (X = number of allies within 3 spaces of unit × 4, + 6; max 14) and reduces damage from attacks by 30% (excluding area-of-effect Specials), and restores 7 HP to unit after combat. If foe initiates combat or foe's HP ≥ 75% at start of combat, when unit's Special triggers, neutralizes foe's "reduces damage by X%" effects from foe's non-Special skills (excluding when dealing damage with an area-of-effect Special).
+|required=Silver Lance
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Ce1={{Eft|Temporary Buffs|Atk/Def|4}}
+|Ce1T={{Tgt|Allies}}<br>[[within 3 spaces]]
+|Ce2={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s attacks
+|Ce2T={{Tgt|Unit}}
+|Ce3={{Eft|Temporary Debuffs|Atk/Def|number of {{Tgt|Allies}}<br>[[within 3 spaces]] x 4, +6|max=14}}
+|Ce2-4C=Enemy phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|Ce4={{Eft|Neutralize Damage Reduction}}<br>per {{Tgt|Unit}}'s [[offensive Special]]
+|Ce3-4T={{Tgt|Foe}}
+|Me1={{Eft|Heal|7}}
+|Me1T={{Tgt|Allies}}<br>[[within 3 spaces]]
+|Me1C=After {{Tgt|Ally}}'s combat
+|Me2={{Eft|Heal|7}}
+|Me2T={{Tgt|Unit}}
+|Me2C=After combat in<br>Enemy phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+}}
+==Notes==
+{{Temporary buffs}}
+{{After combat healing|allies=1}}
+{{AlliesCombatEffect|effect=temporary buffs}}
+{{IfFoeInitiates}}
+{{Temporary debuffs}}
+{{DamagePercentageReduction}}
+{{DamageReductionNeutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=強く気高き魂の槍
+|german=Gerechte Lanze
+|spanishEU=Lanza justa
+|spanishLA=Lanza justa
+|french=Lance intègre
+|italian=Lancia virtuosa
+|chineseTW=強大高潔的靈魂之槍
+|portuguese=Lança justa
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%number of allies within _ spaces ×%' OR Description LIKE '%restores%HP%allies%after their combat%' OR Description LIKE '%restores%HP%that ally_s combat%') AND Exclusive='1'}}
+* [[Skill families/A Passives#Form|Form Passives]]
+{{Weapons Navbox}}

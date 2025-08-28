@@ -1,0 +1,42 @@
+{{Weapon Infobox
+|tagid=SID_大きな扇子
+|image=wep_ax065
+|weaponType=Axe
+|might=10
+|range=1
+|effect=If【Bonus】is active on unit, grants Atk/Def+4 and Special cooldown charge +1 per foe's attack during combat. (Only highest value applied. Does not stack. Special cooldown charge granted even if foe's attack deals 0 damage.)<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|cost=200
+|exclusive=0
+|statModifiers=0,10,0,0,0
+|required=Steel Axe
+|next=Huge Fan+
+|promotionRarity=5
+|promotionTier=1
+|intID=2069
+|sort=81000
+|value=11
+|timingID=1
+|abilityID=76
+|limit1ID=21
+|properties=
+}}
+==Notes==
+{{EffectfromBonusKeyword|target=unit|combat boosts and cooldown charge}}
+{{Combat boosts}}
+{{CooldownChargePlus|perAttack=foe}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=大きな扇子
+|german=Riesenfächer
+|spanishEU=Abanico magno
+|spanishLA=Abanico magno
+|french=Grand éventail
+|italian=Ventaglione
+|chineseTW=大扇子
+|portuguese=Leque gigante
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%Special cooldown charge +1 per foe_s attack during combat%Special cooldown charge granted even if foe_s attack deals 0 damage%' OR Description LIKE '%if%bonus%active on unit%grants Atk/Def+%during combat%'|columns=3}}
+{{Weapons Navbox}}

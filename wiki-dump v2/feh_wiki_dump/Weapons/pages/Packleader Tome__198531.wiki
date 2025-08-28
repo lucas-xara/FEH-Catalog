@@ -1,0 +1,44 @@
+{{Weapon Infobox
+|tagid=SID_四狗頭領の魔書
+|intID=3689
+|userVersion1=Closed
+|userVersion2=Open
+|exclusive=1
+|weaponType=Red Tome
+|cost=400
+|might=14
+|range=2
+|effect=Grants Spd+3. At start of turn, if unit's HP ≥ 25%, inflicts Spd/Res-6 and【Panic】on nearest foes within 5 spaces of unit and foes within 2 spaces of those foes through their next actions. At start of combat, if unit's HP ≥ 25%, inflicts Atk/Spd/Res-X on foe during combat (X = any current penalty on each of those stats + 5; example: if foe has -7 penalty to Atk, inflicts Atk-12, for a net penalty of Atk-19; calculates each stat penalty independently), and also, if unit initiates combat, neutralizes effects that prevent unit's follow-up attacks during combat.<br><br>【Panic】<br>Converts bonuses on target into penalties through its next action.
+|statModifiers=0,14,3,0,0
+|required=Bolganone;Fenrir
+|properties=random_owner
+}}
+==Notes==
+{{Penalties}}
+{{Panic}}
+{{TemporaryDebufffromPenalty}}
+{{IfUnitInitiates}}
+{{Follow-up effect neutralization|preventOnly=1}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V7.7_v0707b_engage_Mag.webp|Sprite sheet for {{St|Tome of Luxuries}} and {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=四狗頭領の魔書
+|german=Buch des Rudels
+|spanishEU=Grimorio de líder
+|spanishLA=Grimorio de líder
+|french=Tome de meute
+|italian=Tomo capobranco
+|chineseTW=四狗首領的魔書
+|portuguese=Tomo da líder
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%at start of turn%, inflicts%est foes%and foes within _ spaces of those foes%' OR Description LIKE '%inflicts penalty on foe_s%/%any current penalty on each of those stats%') AND Exclusive='1' AND WikiName NOT LIKE '%vulture%'}}
+* [[Skill families/Weapons#Vulture|Vulture Weapons]]
+{{Weapons Navbox}}

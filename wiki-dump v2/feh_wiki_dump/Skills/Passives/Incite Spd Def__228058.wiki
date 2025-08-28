@@ -1,0 +1,54 @@
+{{Passive
+|name=Incite Spd/Def
+|type=C
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|Infantry,Cavalry}}
+|properties=random_owner
+|1name=Incite Spd/Def
+|alt1name=Incite Spd Def
+|1tagid=SID_速さ守備の奮激4
+|1effect=At start of turn, if number of allies adjacent to unit ≤ 2, grants Spd/Def+6 and【Incited】 to unit for 1 turn. If number of allies adjacent to unit ≤ 1, grants Spd/Def+3 to unit during combat.<br><br>【Incited】<br>If unit initiates combat, grants bonus to unit's Atk/Spd/Def/Res = number of spaces from start position to end position of unit during combat (max 3; that turn only).
+|1cost=300
+|1required=Rouse Spd/Def 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{Eft|Bonuses|Spd/Def|6}}
+|Se2={{SEt|Incited}}
+|SeC=At start of turn if<br>[[adjacent]] {{Tgt|Allies}} ≤ 2
+|Ce={{Eft|Temporary buffs|Spd/Def|3}}
+|CeC=[[Adjacent]] {{Tgt|Allies}} ≤ 1
+}}
+==Notes==
+{{Bonuses}}
+{{Incited}}
+{{Temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Incite Spd/Def
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+
+==See also==
+{{See also skills|cond=(Description LIKE '%at start of turn, if unit is not adjacent to an ally, grants Atk/Spd%+%for 1 turn%' OR Description LIKE '%【Incited】%' OR Description LIKE '%number of allies adjacent to unit ≤%') AND Exclusive='1'}}
+* [[Skill families/C Passives#Incite|Incite Passives]]
+* [[Skill families/C Passives#Alarm|Alarm Passives]]
+* [[Rouse Passives]]
+* [[Solo Passives]]
+{{Passives Navbox|C}}
+[[Category:Rouse Passives]]
+[[Category:Incite Passives]]

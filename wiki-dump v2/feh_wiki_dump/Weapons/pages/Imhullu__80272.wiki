@@ -1,0 +1,76 @@
+{{Weapon Infobox
+|tagid=SID_マフー
+|weaponType=Red Tome
+|weaponName={{PAGENAME}}
+|might=14
+|range=2
+|effect=Grants Res+3. At the start of turn 3, deals 5 damage to non-magic foes within 5 columns centered on unit, and inflicts status on those foes preventing counterattacks through their next actions.
+|cost=400
+|exclusive=1
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|statModifiers=0,14,0,0,3
+|required=Fenrir
+|SE=se_effect_t_hummer.flac
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Res+3. At the start of turn 3, deals 7 damage to non-magic foes within 5 columns centered on unit and inflicts status on those foes preventing counterattacks through their next actions. If unit initiates combat or unit is not adjacent to an ally, grants Atk/Spd+5 to unit during combat.
+|tagidExtraSkill1=一
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+5 to unit during combat, and also, if foe is non-magic, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by 30% and foe cannot counterattack.
+|iconSkill1=Imhullu W.png
+|properties=
+}}
+==Notes==
+{{TermRefersTo|magic}}
+{{Out of combat damage}}
+{{Counterattacks disrupted}}
+* Imhullu activates only on the 3rd [[turn]] of combat and affects only non-magic foes.
+{| class="wikitable default mw-collapsible" 
+! align="middle" | Example of Area of Effect
+|-
+| align="middle" ! |
+<div style="max-width: 650px; margin: auto;>{{AoE|u=Gharnef: Dark Pontifex
+|-xxxxx--
+|-xxxxx--
+|-xxuxx--
+|-xxxxx--
+|-xxxxx--
+|-xxxxx--
+|-xxxxx--
+|-xxxxx--
+}}</div>
+|}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+{{Prevent counter}}
+
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+v2.11_64_muspell02.png|Sprite sheet for the skull effect
+se_effect_ruin.flac|The sound of the skulls summoned by Imhullu.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=マフー
+|german=Imhullu
+|spanishEU=Imhullu
+|spanishLA=Imhullu
+|french=Imhullu
+|italian=Imhullu
+|chineseTW=摩忽
+|portuguese=Imhullu
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%at start of turn%deals%damage%to%foes%' OR Description LIKE '%inflicts status%preventing counterattacks%' OR Description LIKE '%if foe is non-magic%'|columns=3}}
+{{Weapons Navbox}}

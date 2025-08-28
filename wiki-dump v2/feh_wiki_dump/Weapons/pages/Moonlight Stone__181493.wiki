@@ -1,0 +1,44 @@
+{{Weapon Infobox
+|tagid=SID_月夜の魔女の竜石
+|intID=3281
+|image=wep_ac061
+|exclusive=1
+|weaponType=Dragonstone
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At the start of turn 1, if foe's attack can trigger unit's Special, grants Special cooldown count-2. If foe initiates combat or foe's HP ≥ 75% at start of combat, grants Atk/Spd/Def/Res+5 to unit during combat, grants Special cooldown charge +1 to unit per unit's attack and inflicts Special cooldown charge -1 on foe per attack (only highest value applied; does not stack), and reduces damage dealt to unit by 8 when foe's attack triggers unit's Special. (Excludes Miracle.) If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|statModifiers=0,16,0,0,0
+|required=Flametongue
+|properties=
+}}
+==Notes==
+{{Shield Pulse notes|DamageReduced=8}}
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+{{CooldownChargeMinus}}
+{{LowerDefRes}}
+
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V6.10_v0610a_halloween_Mag.webp|Sprite sheet for {{St|Ghostly Lanterns}}, {{St|Moonlight Stone}}, {{St|Serenity Breath+}}, {{St|Starlight Stone}} and {{St|Surprise Breath+}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=月夜の魔女の竜石
+|german=Mondlichtstein
+|spanishEU=Piedra luz lunar
+|spanishLA=Piedra luz lunar
+|french=Pierre lunaire
+|italian=Pietra selenica
+|chineseTW=月夜魔女的龍石
+|portuguese=Pedra do luar
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%start of turn 1%foe_s attack%trigger%special%grants special cooldown count-%' OR Description LIKE '%if foe initiates%grants%+%during combat%inflicts special cooldown charge -1%' AND Exclusive='1'}}
+{{Weapons Navbox}}

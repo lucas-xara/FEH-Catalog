@@ -1,0 +1,40 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_スレッダラウア＋
+|weaponType=Red Tome
+|might=13
+|range=2
+|effect=Slows Special trigger (cooldown count+1).<br>Grants bonus to unit’s Atk = total bonuses on unit during combat.
+|cooldown=1
+|cost=300
+|exclusive=0
+|userVersion1=Closed
+|userVersion2=Open
+|statModifiers=0,13,0,0,0
+|required=Rauðrblade
+|SE=se_effect_sword01.flac
+|properties=random_all
+}}
+==Notes==
+{{BonusesToAtk}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{TomeColorTrivia|rauðr}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=ラウアブレード＋
+|german=Rauðrklinge+
+|spanishEU=Lluvia carmesí +
+|spanishLA=Cuchillas rubí +
+|french=Lames rubis +
+|italian=Rubinlama+
+|chineseTW=赤紅之刃＋
+|portuguese=Lâmina rubra+
+}}
+==See also==
+* [[The Cleaner]]
+* [[The Cleaner+]]
+* [[Blade Weapons]]
+{{Weapons Navbox}}
+[[Category:Blade weapons]]

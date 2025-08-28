@@ -1,0 +1,79 @@
+{{Weapon Infobox
+|tagid=SID_激情の炎の書
+|intID=4657
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|exclusive=1
+|weaponType=Red Tome
+|cost=400
+|might=14
+|range=2
+|effect=Grants weapon-triangle advantage against colorless foes, and inflicts weapon-triangle disadvantage on colorless foes during combat.<br><br>At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit, deals damage = 20% of unit's Res (excluding area-of-effect Specials), and reduces damage from foe's attacks by 7 during combat (excluding area-of-effect Specials).
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|refineStatsSkill1=0,0,0,0,0
+|effectSkill1=At start of turn, if unit is within 2 spaces of an ally, grants Atk/Res+6, "neutralizes foe's bonuses during combat," and【Hexblade】to unit and allies within 2 spaces of unit for 1 turn.<br><br>If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit and unit makes a guaranteed follow-up attack during combat, and restores 7 HP to unit after combat.<br><br>【Hexblade】<br>Calculates damage using the lower of foe's Def or Res during combat for 1 turn (including damage dealt by Specials before combat).
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Ce1={{Eft|New WTA}}
+|s1 Ce2={{Eft|New WTD}}
+|s1 Ce2T={{Tgt|Foe}}
+|s1 Ce1-2C={{Tgt|Foe}} is<br>{{Wti|group=1|Colorless}} Colorless
+|s1 Ce3={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s1 Ce4={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Res}}
+|s1 Ce5={{Eft|Damage Reduction|7}}<br>from {{Tgt|Foe}}'s attacks
+|s1 Ce3-5C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|skill2={{Si|Tome of Fury|refine=Skill1}} Skill refine effects
+|s2 Se1={{Eft|Bonuses|Atk/Res|6}}
+|s2 Se2={{SEt|Neutralize Bonuses}}
+|s2 Se3={{SEt|Hexblade}}
+|s2 SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|s2 SeC=At start of turn<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s2 Ce2={{Eft|Guaranteed Follow-Ups}}
+|s2 CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s2 Me={{Eft|Heal|7}}
+|s2 MeC=After combat on<br>Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+==Notes==
+{{New WTA|colorless}}
+{{Temporary buffs}}
+{{DamageBoost}}
+{{FlatDamageReduction|7}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Bonuses|name={{St|Tome of Fury|refine=Skill1}}}}
+{{Neutralize Bonuses|name={{St|Tome of Fury|refine=Skill1}}}}
+{{Hexblade|name={{St|Tome of Fury|refine=Skill1}}}}
+{{IfUnitInitiates}}
+{{Guaranteed follow-up interaction|name={{St|Tome of Fury|refine=Skill1}}}}
+{{After combat healing|name={{St|Tome of Fury|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%grants weapon-triangle advantage%' AND Description LIKE '%colorless%weapon-triangle%' OR Description LIKE '%【Hexblade】%unit and allies within _ spaces%') AND Exclusive='1'}}
+* [[Raven Tomes]]
+* [[Skill families/A Passives#Hexblade|Hexblade Passives]]
+* [[Skill families/Weapons#Hexblade (weapons)|Hexblade Weapons]]
+{{Weapons Navbox}}
+[[Category:Weapons that grant triangle advantage against colorless foes]]

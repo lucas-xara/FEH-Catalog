@@ -1,0 +1,59 @@
+{{SkillPage Tabs}}{{Passive
+|type=C
+|exclusive=0
+|1name=Even Res Wave 1
+|1tagid=SID_魔防の波・偶数1
+|1promotionRarity=4
+|1promotionTier=1
+|1required=-
+|1effect=At start of even-numbered turns, grants Res+2 to unit and adjacent allies for 1 turn.<br>(Bonus granted to unit even if no allies are adjacent.)
+|1cost=60
+|2name=Even Res Wave 2
+|2tagid=SID_魔防の波・偶数2
+|2promotionRarity=5
+|2promotionTier=1
+|2effect=At start of even-numbered turns, grants Res+4 to unit and adjacent allies for 1 turn.<br>(Bonus granted to unit even if no allies are adjacent.)
+|2cost=120
+|3name=Even Res Wave 3
+|3tagid=SID_魔防の波・偶数3
+|3effect=At start of even-numbered turns, grants Res+6 to unit and adjacent allies for 1 turn.<br>(Bonus granted to unit even if no allies are adjacent.)
+|3cost=240
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=random_all,random_inherit_base
+}}
+==Notes==
+{{Bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Even Res Wave 1;Even Res Wave 2;Even Res Wave 3
+|badgeColor=Transparent
+|costs1=20;100;20
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=魔防の波・偶数
+|german=Gerade Res.
+|spanishEU=Ola Res par
+|spanishLA=Ola Res. par
+|french=Pair Rés
+|italian=Res pari
+|chineseTW=魔防之波・偶數
+|portuguese=Onda Res. par
+}}
+{{Seals Navbox}}
+{{Passives Navbox|C}}
+[[Category:Even Wave Passives]]
+[[Category:Wave Passives]]

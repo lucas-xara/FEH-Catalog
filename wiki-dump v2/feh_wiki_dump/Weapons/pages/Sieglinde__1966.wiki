@@ -1,0 +1,48 @@
+{{Weapon Infobox
+|tagid=SID_ジークリンデ
+|weaponType=Sword
+|weaponName={{PAGENAME}}
+|might=16
+|range=1
+|effect=At start of turn, grants Atk+3 to adjacent allies for 1 turn.
+|cost=400
+|exclusive=1
+|userVersion1=Weapon|userVersion2=Upgrade Gleam|statModifiers=0,16,0,0,0
+|required=Silver Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=At start of turn, grants Atk+4 to adjacent allies for 1 turn.
+|effectSkill1=Grants bonus to Atk/Spd/Def/Res = highest bonus on allies within 2 spaces during combat. Calculates each stat bonus independently.
+|iconSkill1=Sieglinde W.png
+|tagidExtraSkill1=共
+|properties=random_owner
+}}
+==Notes==
+* Has the same effect as {{Pt|Hone Atk 2}}.
+{{Bonuses}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+* Any of the upgrades grant {{PAGENAME}} the same effect as {{Pt|Hone Atk 3}}.
+{{CombatBoostfromBonus|source=allies within 2 spaces|multiSource=yes}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|強化共有R|Share Bonuses}}
+==In other languages==
+{{OtherLanguages
+|japanese=ジークリンデ
+|german=Sieglinde
+|spanishEU=Sieglinde
+|spanishLA=Sieglinde
+|french=Sieglinde
+|italian=Sieglinde
+|chineseTW=齊格林德
+|portuguese=Sieglinde
+}}
+==See also==
+{{See also skills|cond=WikiName LIKE '%sieglinde%' OR (Description LIKE '%at start of turn, grants Atk+%adjacent%allies for 1 turn%' OR Description LIKE '%at start of turn%adjacent allies%grants Atk+%for 1 turn%') AND WikiName NOT LIKE '%lion%' OR Description LIKE '%grants bonus to Atk/Spd/Def/Res%=%highest bonus on%allies%within _ spaces during combat%'}}
+* [[Skill families#Lion|Lion Weapons]]
+{{Weapons Navbox}}

@@ -1,0 +1,41 @@
+{{Weapon Infobox
+|tagid=SID_毒煙の暗器
+|intID=3790
+|image=wep_dg076
+|exclusive=0
+|weaponType=Dagger
+|cost=200
+|might=8
+|range=2
+|effect=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+5 to unit during combat, and also, if unit attacked, deals 7 damage to target and foes within 2 spaces of target after combat.<br>Effect:【Dagger ５】<br><br>【Dagger ５】<br>After combat, if unit attacked, inflicts Def/Res-５ on target and foes within 2 spaces of target through their next actions.
+|required=Steel Dagger
+|next=Miasma Dagger+
+|promotionRarity=5
+|promotionTier=1
+|properties=random_owner
+}}
+==Notes==
+{{Temporary buffs}}
+{{IfUnitAttacked}}
+{{Out of combat damage}}
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=毒煙の暗器
+|german=Miasma-Dolch
+|spanishEU=Daga miasma
+|spanishLA=Daga miasma
+|french=Dague putride
+|italian=Pugnale fosco
+|chineseTW=毒煙暗器
+|portuguese=Adaga virosa
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%7 damage%to target%'}}
+{{Weapons Navbox}}

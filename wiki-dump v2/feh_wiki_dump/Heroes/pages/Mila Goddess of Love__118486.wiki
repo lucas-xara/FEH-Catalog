@@ -1,0 +1,87 @@
+{{#invoke:NameAbout|main|Name=Mila}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Mila
+|Title=Goddess of Love
+|WeaponType=Colorless Breath
+|Origin=Fire Emblem Echoes: Shadows of Valentia
+|Gender=Female
+|MythicEffect=Light
+|MythicEffect2=None
+|BoostHP=5
+|BoostDef=5
+|MoveType=Infantry
+|actorJP=榊原良子
+|actorEN=Monica Rial
+|artist=山田章博
+|additionDate=May 29, 2020
+|releaseDate=May 29, 2020
+|TagID=神階ミラ
+|InternalID=525
+|Properties=mythic
+|cv1=2
+|cv2=930200
+|description=Goddess of Love and sister of the god Duma. She and Duma fought over the continent of Valentia and split it in twain. Zofia, the south of Valentia, is her domain. Appears in Fire Emblem Echoes: Shadows of Valentia.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=11|Lv1SPD=4|Lv1DEF=10|Lv1RES=7
+|GRHP=50|GRATK=60|GRSPD=30|GRDEF=70|GRRES=70
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire Breath
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Fire Breath+
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Flametongue
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Nurturing Breath
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Rally Defense
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Rally Def/Res
+|assist2Default=
+|assist2Unlock=4
+|assist3=Rally Def/Res+
+|assist3Default=
+|assist3Unlock=5
+}}
+===Specials===
+{{Specials Table
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Steady Stance 1
+|passiveA2=Bracing Stance 1
+|passiveA3=Bracing Stance 2
+|passiveA4=Bracing Stance 3
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Sabotage Atk 1
+|passiveB2=Sabotage Atk 2
+|passiveB3=Sabotage Atk 3
+|passiveB4=Dragon Wall 1
+|passiveB5=Dragon Wall 2
+|passiveB6=Dragon Wall 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveB4Unlock=1
+|passiveB5Unlock=2
+|passiveB6Unlock=4
+|passiveC1=Mila's Turnwheel
+|passiveC2=Mila's Turnwheel II
+|passiveC1Unlock=5
+|passiveC2Unlock=5
+}}
+{{Heroes Navbox}}

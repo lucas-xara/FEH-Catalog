@@ -1,0 +1,37 @@
+{{Weapon Infobox
+|tagid=SID_サラダサンド
+|weaponType=Green Tome
+|might=8
+|range=2
+|next=Sandwiches!+
+|promotionRarity=5
+|promotionTier=1
+|required=Elwind
+|effect=If foe initiates combat, grants Atk/Res+4 during combat.
+|cost=200
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|properties=
+}}
+==Notes==
+* Has the same effect as {{St|Mirror Stance 2}}.
+{{IfFoeInitiates}}
+{{Combat boosts}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+v3.4_82_picnic01_Mag.png|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=サラダサンド
+|german=Brotzeit
+|spanishEU=Cesta letal
+|spanishLA=Cesta letal
+|french=Sandwiches !
+|italian=Tramezzini
+|chineseTW=沙拉三明治
+|portuguese=Sandubas
+}}
+{{Weapons Navbox}}

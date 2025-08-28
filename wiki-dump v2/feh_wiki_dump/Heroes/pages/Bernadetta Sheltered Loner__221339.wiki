@@ -1,0 +1,76 @@
+{{#invoke:NameAbout|main|Name=Bernadetta}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Bernadetta
+|Title=Sheltered Loner
+|WeaponType=Blue Bow
+|MoveType=Cavalry
+|Origin=Fire Emblem: Three Houses
+|Gender=Female
+|actorEN=Erica Mendez
+|actorJP=辻あゆみ
+|artist=ゲソきんぐ
+|additionDate=August 16, 2024
+|releaseDate=August 16, 2024
+|poolDate=September 17, 2024
+|poolRarities=5
+|cv1=12
+|cv2=200600
+|TagID=総選挙ベルナデッタ
+|InternalID=1131
+|Properties=brave
+|description=Daughter of Count Varley, Minister of Religious Affairs to the Adrestian Empire. Overly shy, she prefers to spend her time alone in her room. Appears in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=12|Lv1SPD=9|Lv1DEF=5|Lv1RES=6
+|GRHP=50|GRATK=75|GRSPD=90|GRDEF=45|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Bow
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=The Inexhaustible
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Moonbow
+|special2Unlock=4
+|special3=Curved Shot
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Prime 1
+|passiveA2=Atk/Spd Prime 2
+|passiveA3=Atk/Spd Prime 3
+|passiveA4=Atk/Spd Prime 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Poison Strike 1
+|passiveB2=Poison Strike 2
+|passiveB3=Poison Strike 3
+|passiveB4=Assassin's Strike
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Paranoia
+|passiveC1Unlock=5
+}}
+{{Heroes Navbox}}

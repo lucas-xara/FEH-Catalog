@@ -1,0 +1,32 @@
+{{Special
+|tagid=SID_氷点
+|name=Chilling Wind
+|charge=4
+|effect=Boosts damage by 50% of unit's Res.
+|cost=100
+|next=Glacies
+|promotionRarity=4
+|promotionTier=2
+|required=-
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_all,offensive_special
+}}
+==Notes==
+{{DamageBoost}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==In other languages==
+{{OtherLanguages
+|japanese=氷点
+|german=Eishauch
+|spanishEU=Viento gélido
+|spanishLA=Viento gélido
+|french=Blizzard
+|italian=Vento raggelante
+|chineseTW=冰點
+|portuguese=Vento gelado
+}}
+{{Specials Navbox}}

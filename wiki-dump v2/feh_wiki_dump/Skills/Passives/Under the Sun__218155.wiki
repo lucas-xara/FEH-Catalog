@@ -1,0 +1,51 @@
+{{Passive
+|name=Under the Sun
+|type=B
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Under the Sun
+|1tagid=SID_日に育ち地に満ちる
+|1effect=Enables【Canto (２)】.<br><br>At start of combat, if unit's HP ≥ 25%, inflicts Spd/Def-5 on foe, neutralizes effects that inflict "Special cooldown charge -X" on unit, unit deals damage = 20% of unit's Spd (excluding area-of-effect Specials), and reduces damage from foe's first attack by 25% of unit's Spd during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and unit's next attack deals damage = total damage reduced from foe's first attack (by any source, including other skills; resets at end of combat), and restores 7 HP to unit after combat.<br><br>【Canto (２)】<br>After an attack, Assist skill, or structure destruction, unit can move ２ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Canto|2}}
+|Me2={{Eft|Heal|7}}
+|MeT={{Tgt|Unit}}
+|Me2C=After combat if<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce1={{Eft|Temporary Debuffs|Spd/Def|5}}
+|Ce1T={{Tgt|Foe}}
+|Ce2={{Eft|Neutralize Guard}}
+|Ce3={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|Ce4={{Eft|Damage Reduction|25% of {{Tgt|Unit}}'s Spd}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce5={{Eft|Damage Boost|total damage reduced}}<br>from {{Tgt|Foe}}'s first attack<br>for {{Tgt|Unit}}'s next attack<br>(including other sources)
+|Ce2-5T={{Tgt|Unit}}
+|CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{Canto|2}}
+{{Temporary debuffs}}
+{{CooldownChargeMinusNeutralization}}
+{{DamageBoostFromDamageReduction|flat=1}}
+{{After combat healing}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=日に育ち地に満ちる
+|german=Unter der Sonne
+|spanishEU=Bajo el sol
+|spanishLA=Bajo el sol
+|french=Sous le soleil
+|italian=Sotto il sole
+|chineseTW=日光下成長盈滿大地
+|portuguese=Sob o sol
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%reduces damage%next attack%equal to%' OR Description LIKE '%reduces damage%next attack%total damage reduced%'}}
+{{Passives Navbox|B}}

@@ -1,0 +1,59 @@
+{{Passive
+|name=Pure Atrocity
+|type=B
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Pure Atrocity
+|1tagid=SID_正真無惨
+|1effect=If unit initiates combat or is within 2 spaces of an ally, inflicts Spd/Def-5 on foe, deals damage = 25% of unit's Atk (excluding area-of-effect Specials), grants Special cooldown count-1 to unit before unit's first attack, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks, and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials).<br><br>After combat, if unit attacked, neutralizes two【Bonus】effects on target and any foe within 2 spaces of target, excluding stat bonuses (does not apply to【Bonus】effects that are applied at the same time; neutralizes the first applicable【Bonus】effects on foe's list of active effects), and applies 【Divine Vein (Haze)】on target's space and on each space within 2 spaces of target's space for 1 turn.<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).<br><br>【Divine Vein (Haze)】<br>Applies the following effects on space: Inflicts Atk/Spd/Def/Res-5 on foe and neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat. (Divine Vein effects do not stack; replaces any existing Divine Vein effect; Divine Vein effects applied simultaneously cancel each other out.)
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary debuffs|Spd/Def|5}}
+|Ce1T={{Tgt|Foe}}
+|Ce2={{Eft|Damage Boost|25% of {{Tgt|Unit}}'s Atk}}
+|Ce3={{Eft|Reduce Cooldown|1}}
+|Ce4={{Eft|Neutralize Prevent Follow-Ups}}
+|Ce2-4T={{Tgt|Unit}}
+|Ce5={{Eft|Neutralize Guaranteed Follow-Ups}}
+|Ce6={{Eft|Reduce Damage Reduction|50%}}
+|Ce5-6T={{Tgt|Foe}}<br>
+|CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Se=Removes 1<sup>st</sup> 2 {{Kp|Bonus}} effects<br>(excluding {{SEt|Bonuses}})
+|SeT={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|SeC=After combat if<br>{{Tgt|Unit}} attacked
+|Me={{Eft|Divine Vein (Haze)}}
+|MeT=Spaces<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|MeC=After combat if<br>{{Tgt|Unit}} attacked
+}}
+
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary debuffs}}
+{{AtkDamageBoost}}
+{{CombatCooldownCount|-1}}
+{{Follow-up effect neutralization}}
+{{Reduce Damage Reduction}}
+{{Bonus neutralization|posstatuses=the 1<sup>st</sup> 2 {{Kp|Bonus}} effects of target and foes [[within 2 spaces]]|order=1}}
+{{Divine Vein|Haze}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Divine Vein (Haze)】%' OR Description LIKE '%deals damage = 25% of unit_s Atk%' AND Description NOT LIKE '%Atk minus%' OR Description LIKE '%neutralizes two【Bonus】effects on%and any foe within 2 spaces of%') AND Exclusive='1'}}
+{{Passives Navbox|B}}

@@ -1,0 +1,36 @@
+{{Weapon Infobox
+|tagid=SID_くノ一の飛刀
+|intID=2823
+|exclusive=1
+|weaponType=Dagger
+|cost=400
+|might=9
+|range=2
+|effect=Grants Spd+4. Inflicts Def/Res-4. If unit initiates combat, unit attacks twice. Unit can move to a space within 2 spaces of any ally within 2 spaces.<br>Effect: 【Dagger ７】<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|statModifiers=0,9,4,-4,-4
+|required=Silver Dagger
+|properties=
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Brave weapon interaction}}
+{{Warp interaction}}
+{{IfUnitAttacked}}
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=くの一の飛刀
+|german=Nabata-Kunai
+|spanishEU=Kunai de Nabata
+|spanishLA=Kunai de Nabata
+|french=Kunai de Nabata
+|italian=Kunai di Nabata
+|chineseTW=女忍的飛刀
+|portuguese=Kunai de Nabata
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%inflicts Def/Res-%unit attacks twice%' OR Description LIKE '%unit can move to a%space%ally%within 2 spaces%' AND Description NOT LIKE '%grants%status%to adjacent%allies%') AND Exclusive='1'}}
+* [[Brave Weapons]]
+{{Weapons Navbox}}

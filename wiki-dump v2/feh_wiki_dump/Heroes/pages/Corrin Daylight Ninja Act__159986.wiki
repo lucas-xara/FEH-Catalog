@@ -1,0 +1,68 @@
+{{#invoke:NameAbout|main|Name=Corrin}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Corrin
+|Title=Daylight Ninja Act
+|WeaponType=Blue Lance
+|MoveType=Infantry
+|Origin=Fire Emblem Fates
+|Gender=Male
+|actorEN=Cam Clarke
+|actorJP=島﨑信長
+|artist=花邑まい
+|additionDate=November 4, 2021
+|releaseDate=November 5, 2021
+|cv1=11
+|cv2=100100
+|Person=Corrin M
+|TagID=忍者カムイ男
+|InternalID=728
+|Properties=special
+|description=A ninja torn between the kingdoms of Hoshido and Nohr. He is participating in the festival in the garb of the Hoshidan ninja clans. Appears in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=10|Lv1SPD=10|Lv1DEF=9|Lv1RES=6
+|GRHP=50|GRATK=70|GRSPD=65|GRDEF=60|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Ninja Naginata
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Ninja Naginata+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Draconic Aura
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Death Blow 1
+|passiveA2=Swift Sparrow 1
+|passiveA3=Swift Sparrow 2
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=Special Spiral 1
+|passiveB2=Special Spiral 2
+|passiveB3=Special Spiral 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Ninja Festival units]]

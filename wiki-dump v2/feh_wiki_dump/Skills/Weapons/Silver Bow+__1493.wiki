@@ -1,0 +1,45 @@
+{{Weapon Infobox
+|tagid=SID_銀の弓＋
+|weaponType=Bow
+|altWeaponName=Silver Bow
+|might=13
+|range=2
+|effectiveness=flying
+|effect=Effective against flying foes. 
+|cost=300
+|exclusive=0
+|userVersion1=Bow
+|userVersion2=Arrow
+|statModifiers=0,13,0,0,0
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|upgradedMight=14
+|properties=random_all
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect={{SkillEffectText|Effectiveness|{{Mt|Flying}}}}
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=銀の弓＋
+|german=Silberbogen+
+|spanishEU=Arco plata +
+|spanishLA=Arco plata +
+|french=Arc argent +
+|italian=Arco argento+
+|chineseTW=銀弓＋
+|portuguese=Arco de prata+
+}}
+==See also==
+* [[Silver Weapons]]
+{{Weapons Navbox}}
+[[Category:Silver weapons]]

@@ -1,0 +1,46 @@
+{{Passive
+|name=Firm Canto Curb
+|type=C
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|Infantry}}
+|properties=random_owner
+|1name=Firm Canto Curb
+|1tagid=SID_再移動制限・不惑
+|1effect=If foe within 4 spaces of this unit triggers Canto, inflicts【Canto Control】on that foe.<br><br>Prevents "after start-of-turn skills trigger, action ends immediately" status effects from being inflicted on unit and allies within 3 spaces of unit.<br><br>For unit and allies within 3 spaces of unit, neutralizes "action ends immediately" effects from foe's skills or the "after start-of-turn skills trigger, action ends immediately" status (does not neutralize effects from Aether Raid structures or the special slot).<br><br>【Canto Control】<br>Limits the number of spaces target can move with Canto through their next action. If target's Range = 1, target can move 1 space when Canto triggers. If target's Range = 2, target's action ends when Canto triggers.
+|1cost=300
+|1required=Canto Control 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{SEt|Canto Control}}
+|Se1T={{Tgt|Foes}}<br>[[within 4 spaces]]
+|Se1C={{Tgt|Foe}} triggers<br>[[Canto]]
+|Se2=<span style="width:12em;display:inline-block"/>Removes {{SEt|After Start-of-Turn Skills Trigger, Action Ends Immediately}}
+|Se2T={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 3 spaces]]
+|Me={{Eft|Neutralize End Action}}
+|MeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 3 spaces]]
+}}
+==Notes==
+{{Canto Control}}
+{{EndActionNeutralization}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=再移動制限・不惑
+|german=Schritthemmnis
+|spanishEU=Movilidad firme
+|spanishLA=Movilidad firme
+|french=Mobilité freinée
+|italian=Mobilità arrestata
+|chineseTW=再移動限制・不惑
+|portuguese=Mobilidade rija
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【Canto Control】%' OR Description LIKE '%prevents "after start-of-turn skills trigger, action ends immediately"%' OR Description LIKE '%neutralizes%that would end%action as a result of foe_s skills%"after start-of-turn skills trigger, action ends immediately"%'}}
+{{Passives Navbox|C}}

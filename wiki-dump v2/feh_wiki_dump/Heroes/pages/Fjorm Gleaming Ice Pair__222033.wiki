@@ -1,0 +1,83 @@
+{{#invoke:NameAbout|main|Name=Fjorm|Name2=Nifl}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Fjorm
+|Title=Gleaming Ice Pair
+|WeaponType=Blue Lance
+|MoveType=Armored
+|secondPerson=Nifl
+|Origin=Fire Emblem Heroes
+|Gender=FF
+|duo=Applies【Divine Vein (Ice)】to unit's space and spaces within 2 spaces of unit for 2 turns (excludes spaces occupied by a foe, destructible terrain other than 【Divine Vein (Ice)】, and warp spaces in Rival Domains).<br><br>【Divine Vein (Ice)】<br>Applies the following status on space: Foes treat space as impassable terrain while status is active, but status is destructible (with 1 HP). Allies can move into and occupy space. If any allies occupy spaces with Divine Vein (Ice) applied, attacks targeting those spaces will hit the ally over destroying the Divine Vein (Ice). (Divine Vein effects do not stack; replaces any existing Divine Vein effect; Divine Vein effects applied simultaneously cancel each other out. Does not count as defensive terrain. Does not trigger in Pawns of Loki.)
+|Duel=205
+|actorEN=Heather Watson,Anairis Quiñones
+|actorJP=高橋李依
+|artist=恒星ホリグチ
+|additionDate=September 5, 2024
+|releaseDate=September 6, 2024
+|cv1=0
+|cv2=200100
+|TagID=比翼フィヨルム
+|InternalID=1137
+|Properties=special,duo,tiara
+|description=Nifl, known as the god of ice, and Princess Fjorm participate in the festival of snow and ice.
+}}
+{{Stats Page
+|Lv1HP=21|Lv1ATK=12|Lv1SPD=8|Lv1DEF=13|Lv1RES=7
+|GRHP=50|GRATK=70|GRSPD=90|GRDEF=50|GRRES=75
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Lance
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Ice-Crystal Spear
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Holy Vestments
+|special1Default=4
+|special1Unlock=3
+|special2=Sacred Cowl
+|special2Unlock=4
+|special3=Dual Ice Mirrors
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Water Boost 1
+|passiveA2=Water Boost 2
+|passiveA3=Water Boost 3
+|passiveA4=Deluge Boost 3
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Hardy Fighter 1
+|passiveB2=Hardy Fighter 2
+|passiveB3=Hardy Fighter 3
+|passiveB4=Shield Fighter
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=A/S Far Save 1
+|passiveC2=A/S Far Save 2
+|passiveC3=A/S Far Save 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Sources of Divine Vein]]
+[[Category:Snow-and-Ice Festival units]]

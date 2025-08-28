@@ -1,0 +1,77 @@
+{{#invoke:NameAbout|main|Name=Byleth}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Byleth
+|Title=Anchor of Hope
+|WeaponType=Red Sword
+|MoveType=Infantry
+|Person=Byleth M
+|Origin=Fire Emblem: Three Houses
+|Gender=Male
+|actorEN=Zach Aguilar
+|actorJP=小林裕介
+|artist=めばる
+|additionDate=August 15, 2025
+|releaseDate=August 15, 2025
+|poolDate=September 5, 2025
+|poolRarities=5
+|cv1=12
+|cv2=100100
+|TagID=総選挙ベレト
+|InternalID=1280
+|Properties=brave
+|description=A former mercenary, and once a teacher at the Officers Academy. Wields the blade of another world for those who seek peace. Appears in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=12|Lv1SPD=9|Lv1DEF=10|Lv1RES=8
+|GRHP=50|GRATK=80|GRSPD=90|GRDEF=65|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Sublime Creator
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Glimmer
+|special2Unlock=4
+|special3=Gust
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Prof's Guidance
+|passiveA1Unlock=5
+|passiveB1=Velocity 1
+|passiveB2=Velocity 2
+|passiveB3=Velocity 3
+|passiveB4=Null C-Avoid
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Atk/Spd Oath 1
+|passiveC2=Atk/Spd Oath 2
+|passiveC3=Atk/Spd Oath 3
+|passiveC4=Atk/Spd Faith
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}

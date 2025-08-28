@@ -1,0 +1,40 @@
+{{Special
+|tagid=SID_無双の流星
+|intID=3727
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=2
+|effect=Boosts Special damage by 40% of unit's Spd. At start of turn, if unit's Special cooldown count is at its maximum value, grants Special cooldown count-1 to unit. After unit's Special triggers, grants Special cooldown count-1 to unit (once per turn).
+|required=Astra
+|properties=random_owner,offensive_special
+}}
+==Notes==
+* Supreme Astra has the same effect as {{St|Time's Pulse 3}}.
+{{Start of turn Special modification}}
+{{DamageBoost}}
+{{CombatCooldownCount|-1}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V7.8_v0708a_teatime_Skl.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=無双の流星
+|german=Ideale Astra
+|spanishEU=Estrella suprema
+|spanishLA=Estrella suprema
+|french=Stellaire suprême
+|italian=Astra suprema
+|chineseTW=無雙的流星
+|portuguese=Astro supremo
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=SCategory='special' AND Exclusive='1' AND Description LIKE '%Boosts%damage by __% of unit_s Spd%' OR Description LIKE '%maximum value%Special cooldown count-1%' OR Description LIKE '%start of turn%Special cooldown count-1%maximum value%' OR Description LIKE '%After unit_s special triggers%grants Special cooldown count-_%' OR Description LIKE '%after unit_s special triggers%grants Special cooldown count-_%'}}
+* [[Pulse skills]]
+{{Specials Navbox}}

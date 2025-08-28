@@ -1,0 +1,76 @@
+{{#invoke:NameAbout|main|Name=Fir}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Fir
+|Title=Sword Student
+|GrowthModifier=None
+|WeaponType=Red Sword
+|Origin=Fire Emblem: The Binding Blade
+|Gender=Female
+|MoveType=Infantry
+|actorEN=Liv Strander
+|actorJP=日笠陽子
+|artist=kaya8
+|resplendentArtist=朝日川日和
+|releaseDate=February 2, 2017
+|poolDate=February 2, 2017
+|randomStartTime=2017-02-02T07:00:00Z
+|poolRarities=3,4
+|TagID=フィル
+|InternalID=9
+|Properties=tiara,resplendent,nifl
+|cv1=5
+|cv2=800600
+|description=A woman who travels in search of the best swordplay opponents anywhere. Appears in Fire Emblem: The Binding Blade.
+|resplendentStartTime=2023-11-10T07:00:00Z
+|resplendentEndTime=2023-11-25T06:59:59Z
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=6|Lv1SPD=10|Lv1DEF=5|Lv1RES=7
+|GRHP=50|GRATK=45|GRSPD=60|GRDEF=45|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Killing Edge
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Killing Edge+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Nameless Blade
+|weapon5Default=
+|weapon5Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Glacies
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Speed +1
+|passiveA2=Speed +2
+|passiveA3=Speed +3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=Pass 1
+|passiveB2=Pass 2
+|passiveB3=Pass 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+{{Heroes Navbox}}

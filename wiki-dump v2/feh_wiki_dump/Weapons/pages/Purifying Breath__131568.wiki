@@ -1,0 +1,48 @@
+{{Weapon Infobox
+|tagid=SID_天真のブレス
+|weaponType=Dragonstone
+|might=14
+|range=1
+|effect=Slows Special trigger (cooldown count+1). Unit can counterattack regardless of foe's range. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|cost=400
+|cooldown=1
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|userVersion1=Weapon
+|userVersion2=Gleam
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=At start of combat, if units HP ≥ 50%, grants Atk/Spd/Def/Res+4 to unit during combat and neutralizes unit's penalties.
+|iconSkill1=Purifying Breath W.png
+|tagidExtraSkill1=無
+|properties=
+}}
+==Notes==
+* Has the same effect as {{St|Distant Counter}}.
+{{LowerDefRes}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Combat boosts}}
+{{Penalty neutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=天真のブレス
+|german=Läuternder Atem
+|spanishEU=Aliento purgante
+|spanishLA=Soplo purificador
+|french=Souffle purifiant
+|italian=Soffio depurante
+|chineseTW=天真吐息
+|portuguese=Sopro purificador
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%unit can counterattack regardless of range%if foe_s range = 2%' OR Description LIKE '%if unit_s HP ≥%grants Atk/Spd/Def/Res+%during combat%' OR Description LIKE '%grants %/%/%+%neutralizes unit_s penalties%'|columns=3}}
+*[[Weapons with Distant Counter]]
+*[[Weapons with Close Counter]]
+{{Weapons Navbox}}

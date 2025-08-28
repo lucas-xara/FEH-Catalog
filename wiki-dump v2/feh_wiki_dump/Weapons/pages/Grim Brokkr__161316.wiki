@@ -1,0 +1,92 @@
+{{Weapon Infobox
+|tagid=SID_魔銃ブロック
+|intID=2840
+|image=wep_mg260
+|exclusive=1
+|weaponType=Green Tome
+|cost=400
+|might=14
+|range=2
+|effect=Grants Atk+3. Enables【Canto (２)】during turns 1 through 4. If unit initiates combat or is not adjacent to an ally, inflicts Atk/Res-6 on foe during combat and unit makes a guaranteed follow-up attack.<br><br>【Canto (２)】<br>After an attack, Assist skill, or structure destruction, unit can move ２ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|statModifiers=0,17,0,0,0
+|required=Rexcalibur
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Atk+3.<br><br>Enables Canto (2) during turns 1 through 4.<br><br>If unit initiates combat or if the number of allies adjacent to unit ≤ 1, inflicts Atk/Res-6 and Spd-5 on foe, unit makes a guaranteed follow-up attack, and deals damage = 15% of unit's Atk during combat (excluding area-of-effect Specials), and restores 7 HP to unit after combat.
+|refineStatsSkill1=0,0,0,0,0
+|effectSkill1=At start of turn, if unit's HP ≥ 25%, inflicts Atk/Res-7,【Sabotage】,and【Schism】 on closest foes and any foes within 2 spaces of those foes through their next actions.<br><br>At start of combat, if unit's HP ≥ 25%, inflicts penalty on foe's Atk/Spd/Res during combat = 5 + number of foes within 3 spaces of target (including target), reduces damage from foe's attacks by X during combat, and also, when foe's attack triggers foe's Special, reduces damage by X (X = 3 × the total of the number of Bonus effects active on unit and the number of Penalty effects active on foe, excluding stat bonuses and stat penalties; max 12; excluding area-of-effect Specials).<br><br>【Sabotage】<br>Inflicts penalty on unit's Atk/Spd/Def/Res during combat = highest penalty on each stat between unit and allies within 2 spaces of unit through its next action. Calculates each stat penalty independently.<br><br>【Schism】<br>Neutralizes Triangle Attack, Dual Strike, and Pathfinder effects active on unit through unit's next action. Unit is excluded from ally Triangle Attack and Dual Strike effects calculated using numbers of allies. When this status (Schism) is neutralized, Triangle Attack, Dual Strike, and Pathfinder effects are also neutralized.
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Atk|3}}
+|s1 Me={{Eft|Canto|2}}
+|s1 MeC=On turns 1 - 4
+|s1 Ce1={{Eft|Temporary Debuffs|Atk/Res|6}}
+|s1 Ce1T={{Tgt|Foe}}
+|s1 Ce2={{Eft|Guaranteed Follow-Ups}}
+|s1 CeC=Player Phase '''or'''<br>{{Tgt|Unit}} isn't [[adjacent]]<br>to an {{Tgt|Ally}}
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Atk|3}}
+|s2 Me1={{Eft|Canto|2}}
+|s2 Me1C=On turns 1 - 4
+|s2 Me2={{Eft|Heal|7}}
+|s2 Me2C=After combat in<br>Player Phase<br>'''or''' [[adjacent]]<br>{{Tgt|Allies}} ≤ 1
+|s2 Ce1={{Eft|Temporary Debuffs|Atk/Res|6}}, {{Eft|Temporary Debuffs|Spd|5}}
+|s2 Ce1T={{Tgt|Foe}}
+|s2 Ce2={{Eft|Damage Boost|15% of {{Tgt|Unit}}'s Atk}}
+|s2 Ce3={{Eft|Guaranteed Follow-Ups}}
+|s2 CeC=Player Phase<br>'''or''' [[adjacent]]<br>{{Tgt|Allies}} ≤ 1
+|skill3={{Si|Grim Brokkr|refine=Skill1}} Skill refine effects
+|s3 Se1={{Eft|Penalties|Atk/Res|7}}
+|s3 Se2={{SEt|Sabotage}}
+|s3 Se3={{SEt|Schism}}
+|s3 SeT=Closest {{Tgt|Foes}}<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}
+|s3 SeC=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25%
+|s3 Ce1={{Eft|Temporary debuffs|Atk/Spd/Res|5 + {{Tgt|Foes}}<br>[[within 3 spaces]]<br>of {{Tgt|Target Foe}}<br>(including {{Tgt|Target Foe}})}}
+|s3 Ce1T={{Tgt|Foe}}
+|s3 Ce2={{Eft|Damage Reduction|3 x ({{Kp|Bonus}} effects<br>on {{Tgt|Unit}} '''&''' {{Kp|Penalty}}<br>effects on {{Tgt|Foe}})<br>(exc. {{SEt|Bonuses}} '''&''' {{SEt|Penalties}})|max=12}}
+|s3 Ce3={{Eft|Damage Reduction|3 x ({{Kp|Bonus}} effects<br>on {{Tgt|Unit}} '''&''' {{Kp|Penalty}}<br>effects on {{Tgt|Foe}})<br>per {{Tgt|Foe}}'s [[offensive Special]]<br>(exc. {{SEt|Bonuses}} '''&''' {{SEt|Penalties}})|max=12}}
+|s3 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Canto|2}}
+{{IfUnitInitiates}}
+{{Temporary debuffs}}
+{{Guaranteed follow-up interaction}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{DamageBoost|name=Refined Grim Brokkr}}
+{{After combat healing|name=Refined Grim Brokkr}}
+{{Penalties|name={{St|Grim Brokkr|refine=Skill1}}}}
+{{Sabotage|name={{St|Grim Brokkr|refine=Skill1}}}}
+{{Schism|name={{St|Grim Brokkr|refine=Skill1}}}}
+{{FlatDamageReduction|X (max: 12)|name={{St|Grim Brokkr|refine=Skill1}}}}
+{{EffectfromBonus|flat damage reduction|nonStat=1|name={{St|Grim Brokkr|refine=Skill1}}}}
+{{EffectfromPenalty|flat damage reduction|nonStat=1|name={{St|Grim Brokkr|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{NorseMyth|name=Brokkr|is a dwarf blacksmith who is the brother of [[Eitri]], whom together forged the golden boar [[Gullinbursti]], the golden ring Draupnir, and [[Thórr|Thórr's]] hammer [[War-God Mjölnir|Mjölnir]].}}
+==In other languages==
+{{OtherLanguages
+|japanese=魔銃ブロック
+|german=Düsterer Brokkr
+|spanishEU=Brokkr sombrío
+|spanishLA=Brokkr sombrío
+|french=Brokkr sinistre
+|italian=Tetro Brokkr
+|chineseTW=魔槍布洛克
+|portuguese=Brokkr sombrio
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%Canto%during turns 1 through 4%' OR (Description LIKE '%number of%Bonus%effects active on unit%Penalty%effects active on foe%' OR Description LIKE '%【Schism】%') AND (Exclusive='1' AND Name NOT LIKE '%+' AND Properties HOLDS NOT 'arcane')}}
+* [[Skill families/B Passives#Ruse|Ruse Passives]]
+{{Weapons Navbox}}

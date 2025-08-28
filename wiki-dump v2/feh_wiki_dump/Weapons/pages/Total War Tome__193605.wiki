@@ -1,0 +1,46 @@
+{{Weapon Infobox
+|tagid=SID_戦神の破界の戦記
+|intID=3549
+|userVersion1=Closed
+|userVersion2=Open
+|exclusive=1
+|weaponType=Blue Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of turn, inflicts Atk/Spd/Def/Res-5, 【Sabotage】, and【Stall】on closest foes within 5 spaces of unit and foes within 2 spaces of those foes through their next actions. At start of combat, if unit's HP ≥ 25%, inflicts Atk/Spd/Def/Res-5 on foe during combat and unit makes a guaranteed follow-up attack, and also, if a stat penalty is active on any foe within 2 spaces of target, neutralizes effects that inflict "Special cooldown charge -X" on unit during combat.<br><br>【Sabotage】<br>Inflicts penalty on unit's Atk/Spd/Def/Res during combat = highest penalty on each stat between unit and allies within 2 spaces of unit through its next action. Calculates each stat penalty independently.<br><br>【Stall】<br>If unit has "unit can move 1 extra space," converts that effect into "restricts movement to 1 space" through its next action.
+|statModifiers=0,14,0,0,0
+|required=Thoron;Shine
+|properties=
+}}
+==Notes==
+{{Penalties}}
+{{Sabotage}}
+{{Stall}}
+{{Temporary debuffs}}
+{{Guaranteed follow-up interaction}}
+{{CooldownChargeMinusNeutralization}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V7.4_v0704a_child_Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=戦神の破界の戦記
+|german=Kriegsbuch
+|spanishEU=Gr. bélico ruina
+|spanishLA=Gr. bélico ruina
+|french=Ruine belliqueuse
+|italian=Guerra totale
+|chineseTW=戰神的破界戰記
+|portuguese=Tomo ruinoso
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%【Sabotage】%' OR Description LIKE '%【Stall】%' AND Description NOT LIKE '%【Stall】is active%' OR Description LIKE '%at start of turn%inflicts%/%-%est foe%' OR Description LIKE '%at start of turn%, inflicts%est foes%and foes within _ spaces of those foes%') AND Exclusive='1'}}
+* [[Menace Passives]]
+{{Weapons Navbox}}

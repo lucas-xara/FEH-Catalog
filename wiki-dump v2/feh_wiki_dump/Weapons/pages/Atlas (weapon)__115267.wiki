@@ -1,0 +1,43 @@
+{{About|the weapon Atlas|the character Atlas|Atlas}}{{Weapon Infobox
+|weaponName=Atlas
+|wikiName=Atlas (weapon)
+|tagid=SID_アトラース
+|weaponType=Colorless Tome
+|might=9
+|range=2
+|effect=
+|cost=200
+|exclusive=0
+|userVersion1=Closed
+|userVersion2=Open
+|statModifiers=0,9,0,0,0
+|next=Atlas+
+|promotionRarity=5
+|promotionTier=1
+|required=Elstone
+|properties=random_all
+}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+File:v4.3 200303 legend Mag.webp|Sprite sheet for {{St|Stone}}, {{St|Elstone}}, {{St|Atlas}}, {{St|Atlas+}}, and {{St|Void Tome}}'s animations.
+</gallery>
+
+==In other languages==
+{{OtherLanguages
+|english=Atlas
+|japanese=アトラース
+|german=Atlas
+|spanishEU=Atlas
+|spanishLA=Atlas
+|french=Atlas
+|italian=Macigno
+|chineseTW=阿特拉斯
+|portuguese=Atlas
+}}
+
+==See also==
+* [[Silver Weapons]]
+{{Weapons Navbox}}
+[[Category:Silver weapons]]

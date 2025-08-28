@@ -1,0 +1,53 @@
+{{Weapon Infobox
+|tagid=SID_ラウアラビット＋
+|weaponName=Rauðrrabbit+
+|image=wep_mg059
+|weaponType=Red Tome
+|userVersion1=Closed
+|userVersion2=Open
+|might=12
+|range=2
+|effect=During unit's first combat in player phase or enemy phase, grants Atk/Res+5 to unit and restores 7 HP to unit after combat.
+|cost=300
+|exclusive=0
+|statModifiers=0,12,0,0,0
+|required=Rauðrrabbit
+|intID=2660
+|sort=8001
+|value=15
+|timingID=15
+|abilityID=219
+|limit2ID=56
+|randomTimestamp=2021-08-19T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=random_owner
+}}
+==Notes==
+{{FirstCombat}}
+{{Temporary buffs}}
+{{After combat healing}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{TomeColorTrivia|raudr}}
+==In other languages==
+{{OtherLanguages
+|japanese=ラウアラビット＋
+|german=Rauðrhase+
+|spanishEU=Conejo carmesí +
+|spanishLA=Conejo carmesí +
+|french=Lapin rubis +
+|italian=Rubinlepre+
+|chineseTW=赤紅之兔＋
+|portuguese=Lebre rubra+
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%estores%HP after combat%' OR Description LIKE '%estores%HP to unit after combat%') AND WikiName NOT LIKE '%rabbit%' AND Exclusive='1'}}
+* [[Skill families/Weapons#Rabbit|Rabbit Weapons]]
+{{Weapons Navbox}}

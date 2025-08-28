@@ -1,0 +1,34 @@
+{{Passive
+|name=Bern's New Way
+|type=C
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Bern's New Way
+|alt1name=Berns New Way
+|1tagid=SID_新たなるベルンの道
+|1effect=Restores 7 HP to allies within 3 spaces of unit after combat. If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit during combat, grants Special cooldown charge +1 to unit per attack (only highest value applied; does not stack), and restores 7 HP to unit after combat.
+|1cost=300
+|1required=-
+}}
+==Notes==
+{{After combat healing|allies=1}}
+{{Temporary buffs}}
+{{CooldownChargePlus}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=新たなるベルンの道
+|german=Neues Biran
+|spanishEU=Nuevo Biran
+|spanishLA=Nuevo Biran
+|french=Avenir de Biran
+|italian=Futuro di Biran
+|chineseTW=嶄新的伯爾尼之路
+|portuguese=Novo rumo
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%restores%HP%allies%after combat%' OR Description LIKE '%after combat%restores%HP%allies%' AND Description NOT LIKE '%elixir%') AND Exclusive='1' AND Name NOT LIKE '%+'}}
+{{Passives Navbox|C}}

@@ -1,0 +1,98 @@
+{{Weapon Infobox
+|tagid=SID_凄腕の鋭槍
+|weaponName=Hotshot Lance
+|image=wep_lc098
+|weaponType=Lance
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br>At start of combat, if unit's HP ≥ 25%, grants bonus to Atk/Spd/Def/Res during combat based on the number of times unit has been enhanced using Dragonflowers. (Five or more times grants +7, four times grants +6, three times grants +5, and two or fewer times grants +4.)<br><br>At start of combat, if unit's HP ≥ 25% and the unit has been enhanced using Dragonflowers three or more times, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Silver Lance
+|intID=2503
+|sort=519
+|value=20
+|timingID=1
+|abilityID=274
+|limit1ID=42
+|randomTimestamp=2021-05-06T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Enables【Canto (２)】.<br>Accelerates Special trigger (cooldown count-1).<br><br>At start of combat, if unit's HP ≥ 25%, grants bonus to unit's Atk/Spd/Def/Res based on the number of times unit has been enhanced using Dragonflowers during combat (five or more times grants +12, four times grants +10, three times grants +8, and two or fewer times grants +6).<br><br>At start of combat, if unit's HP ≥ 25% and unit has been enhanced using Dragonflowers three or more times, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.<br><br>【Canto (２)】<br>After an attack, Assist skill, or structure destruction, unit can move ２ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|effectSkill1=For foes within 3 rows or 3 columns centered on unit, inflicts Atk/Spd/Def-5 and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials).<br><br>If unit initiates combat or is within 2 spaces of an ally, deals damage = number of times unit has been enhanced using Dragonflowers × 2, + 5 (max 25; excluding area-of-effect Specials), and reduces damage from foe's attacks by 7 during combat (excluding area-of-effect Specials).
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Accelerates Special}}
+|s1 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|[[Use Dragonflowers|Dragonflower uses]], +2|max=7|min=4}}
+|s1 Ce1C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s1 Ce2={{Eft|Neutralize Bonuses}}
+|s1 Ce2T={{Tgt|Foe}}
+|s1 Ce2C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat '''&'''<br>[[Use Dragonflowers|Dragonflower uses]] ≥ 3
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Accelerates Special}}
+|s2 Me={{Eft|Canto|2}}
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|2 x [[Use Dragonflowers|Dragonflower uses]], +2|max=12|min=6}}
+|s2 Ce1C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s2 Ce2={{Eft|Neutralize Bonuses}}
+|s2 Ce2T={{Tgt|Foe}}
+|s2 Ce2C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat '''&'''<br>[[Use Dragonflowers|Dragonflower uses]] ≥ 3
+|skill3={{Si|Hotshot Lance|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary debuffs|Atk/Spd/Def|5}}
+|s3 Ce2={{Eft|Reduce Damage Reduction|50%}}
+|s3 Ce1-2T={{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|s3 Ce3={{Eft|Damage Boost|2 x [[Use Dragonflowers|Dragonflower uses]], +5|max=25}}
+|s3 Ce4={{Eft|Damage Reduction|7}}<br>from {{Tgt|Foe}}'s attacks
+|s3 Ce3-4C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+==Notes==
+{{Temporary buffs}}
+{{Bonus neutralization}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Canto|2|name=Refined Hotshot Lance}}
+{{Temporary debuffs|name={{St|Hotshot Lance|refine=Skill1}}}}
+{{Reduce Damage Reduction|name={{St|Hotshot Lance|refine=Skill1}}}}
+{{FoesCombatEffect|temporary debuffs and reduce damage reduction effects|name={{St|Hotshot Lance|refine=Skill1}}}}
+{{FlatDamageBoost|X (max: 25)|name={{St|Hotshot Lance|refine=Skill1}}}}
+{{FlatDamageReduction|7|name={{St|Hotshot Lance|refine=Skill1}}}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Farina: The Great Wing|t=Sonia: Inhuman Beauty
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=凄腕の鋭槍
+|german=Spitzenlanze
+|spanishEU=Lanza triunfadora
+|spanishLA=Lanza triunfadora
+|french=Lance ingénieuse
+|italian=Lancia vincente
+|chineseTW=出眾的銳槍
+|portuguese=Lança triunfante
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%dragonflower%' OR Description LIKE '%for foes within%rows%reduces the percentage of foe_s non-Special "reduce damage by X%') AND Exclusive='1'}}
+* [[Skill families/C Passives#Crux|Crux Passives]]
+{{Weapons Navbox}}

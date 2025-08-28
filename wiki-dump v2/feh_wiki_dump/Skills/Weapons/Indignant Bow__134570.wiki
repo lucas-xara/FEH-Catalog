@@ -1,0 +1,101 @@
+{{Weapon Infobox
+|tagid=SID_義憤の強弓
+|weaponName=Indignant Bow
+|weaponType=Bow
+|userVersion1=Bow
+|userVersion2=Arrow
+|might=14
+|range=2
+|effectiveness=Flying
+|effect=Effective against flying foes. Grants Res+3. If foe initiates combat or if foe's HP = 100% at start of combat, grants Atk+6 to unit and inflicts Atk-6 on foe during combat, and also neutralizes penalties to unit's Atk and bonuses to foe's Atk (from skills like Fortify, Rally, etc.) during combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,0,0,3
+|required=Silver Bow
+|intID=2384
+|sort=489
+|value=20
+|timingID=1
+|abilityID=254
+|limit1ID=46
+|randomTimestamp=2021-02-08T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Effective against flying foes. Grants Res+3.<br><br>Disables foe's skills that "calculate damage using the lower of foe's Def or Res" (including area-of-effect Specials).<br><br>If foe initiates combat or foe's HP ≥ 75% at start of combat, grants Atk/Def/Res+6 and Spd+5 to unit, neutralizes unit's penalties to Atk/Spd/Res and foe's bonuses to Atk/Spd (from skills like Fortify, Rally, etc.), and deals damage = 20% of unit's Res during combat (excluding area-of-effect Specials), and also, when unit's Special triggers, calculates damage using 150% of unit's Res instead of the value of unit's Atk (excluding area-of-effect Specials).
+|cooldownSkill1=-1
+|effectSkill1=Accelerates Special trigger (cooldown count-1).<br><br>For allies within 3 spaces of unit, grants Atk/Spd/Res+5, neutralizes effects that inflict "Special cooldown charge -X" on ally, and reduces damage from foe's first attack by 7 during their combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes).<br><br>If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit, neutralizes effects that inflict "Special cooldown charge -X" on unit, grants Special cooldown count-1 to unit before unit's first attack, and reduces damage from foe's attacks by 10 during combat (including from area-of-effect Specials; excluding Røkkr area-of-effect Specials), and also, when foe's attack triggers foe's Special, reduces damage from foe's attacks by an additional 10 (including from area-of-effect Specials; excluding Røkkr area-of-effect Specials).
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Res|3}}
+|s1 Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|s1 Ce2={{Eft|Temporary buffs|Atk|6}}
+|s1 Ce3={{Eft|Neutralize Penalties|Atk}}
+|s1 Ce4={{Eft|Temporary debuffs|Atk|6}}
+|s1 Ce5={{Eft|Neutralize Bonuses|Atk}}
+|s1 Ce4-5T={{Tgt|Foe}}
+|s1 Ce2-5C=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP = 100%<br>at start of combat
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Res|3}}
+|s2 Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|s2 Ce2={{Eft|Neutralize Lower Def Res}}<br>(including [[AoE Specials]])
+|s2 Ce3={{Eft|Temporary buffs|Atk/Def/Res|6}}, {{Eft|Temporary buffs|Spd|5}}
+|s2 Ce4={{Eft|Neutralize Penalties|Atk/Spd/Res<br>}}
+|s2 Ce5={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Res}}
+|s2 Ce6={{Eft|Damage Calculation|150% of {{Tgt|Unit}}'s Res}}<br>per{{Tgt|Unit}}'s [[offensive Special]]
+|s2 Ce7={{Eft|Neutralize Bonuses|Atk/Spd}}
+|s2 Ce7T={{Tgt|Foe}}
+|s2 Ce3-7C=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|skill3={{Si|Indignant Bow|refine=Skill1}} Skill refine effects
+|s3 Pe={{Eft|Accelerates Special}}
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Res|5}}
+|s3 Ce2={{Eft|Neutralize Guard}}
+|s3 Ce3={{Eft|Damage Reduction|7}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|s3 Ce1-3T={{Tgt|Allies}}<br>[[within 3 spaces]]
+|s3 Ce4={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s3 Ce5={{Eft|Neutralize Guard}}
+|s3 Ce6={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Unit}}'s first attack
+|s3 Ce7={{Eft|Damage Reduction|10}}<br>from {{Tgt|Foe}}'s attacks<br>& Non-Røkkr [[AoE Specials]]
+|s3 Ce8={{Eft|Damage Reduction|10}}<br>from {{Tgt|Foe}}'s [[offensive special|offensive]]<br>& Non-Røkkr [[AoE Specials]]
+|s3 Ce4-8C=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+}}
+
+==Notes==
+{{Effective damage bonus|flying}}
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+{{Temporary debuffs}}
+{{Penalty neutralization}}
+{{Bonus neutralization}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{DamageBoost|name=Refined Indignant Bow}}
+{{SingleStatDamageCalc|name=Refined Indignant Bow}}
+{{CooldownChargeMinusNeutralization|name={{St|Indignant Bow|refine=Skill1}}}}
+{{FlatDamageReduction|7/10}}
+{{FlatAoEDamageReduction|7/10}}
+{{AlliesCombatEffect|temporary buffs, special cooldown charge -X and damage reduction effects}}
+{{CombatCooldownCount|-1|name={{St|Indignant Bow|refine=Skill1}}}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=義憤の強弓
+|german=Empörter Bogen
+|spanishEU=Arco indignado
+|spanishLA=Arco indignado
+|french=Arc indigné
+|italian=Arco indignato
+|chineseTW=義憤的強弓
+|portuguese=Arco indignado
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%neutralizes%penalties%to unit%bonuses%to foe%' OR Description LIKE '%Disables%"calculate damage using the lower%Def or Res"%' OR Description LIKE '%calculates damage using%instead%of unit_s Atk%') AND Exclusive='1'}}
+{{Weapons Navbox}}

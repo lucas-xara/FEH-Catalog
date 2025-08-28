@@ -1,0 +1,37 @@
+{{Weapon Infobox
+|tagid=SID_キャンセルの剣
+|weaponType=Sword
+|might=10
+|range=1
+|effect=Inflicts Special cooldown charge -1 on foe per attack during combat. (Only highest value applied. Does not stack.)
+|cost=200
+|exclusive=0
+|statModifiers=0,10,0,0,0
+|next=Guard Sword+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Sword
+|properties=random_all
+}}
+==Notes==
+{{CooldownChargeMinus}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Guard Sword
+|japanese=キャンセルの剣
+|japaneseNotes=''[[Guard|Cancel]] Sword''
+|german=Wachtschwert
+|spanishEU=Filo cancelante
+|spanishLA=Filo guardián
+|french=Épée négation
+|italian=Spada arginante
+|chineseTW=取消之劍
+|portuguese=Espada guarda
+}}
+
+==See also==
+* [[Skill families#Guard (cooldown charge)|Guard weapons]]
+* [[Hack-o'-Lantern]]
+{{Weapons Navbox}}

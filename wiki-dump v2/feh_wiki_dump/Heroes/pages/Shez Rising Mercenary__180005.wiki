@@ -1,0 +1,72 @@
+{{#invoke:NameAbout|main|Name=Shez}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Shez
+|Title=Rising Mercenary
+|WeaponType=Red Sword
+|MoveType=Infantry
+|Person=Shez M
+|Origin=Fire Emblem Warriors: Three Hopes
+|Gender=Male
+|actorEN=Damien Haas
+|actorJP=畠中祐
+|artist=江川あきら
+|randomStartTime=2022-10-16T07:00:00Z
+|additionDate=September 16, 2022
+|releaseDate=September 16, 2022
+|poolDate=October 6, 2022
+|poolRarities=5
+|cv1=12
+|cv2=1100100
+|TagID=シェズ男
+|InternalID=852
+|Properties=specRate_202508
+|description=A mercenary who wandered Fódlan. Though ordinarily rational, a burning desire sleeps within him. Appears in Fire Emblem Warriors: Three Hopes.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=13|Lv1SPD=11|Lv1DEF=9|Lv1RES=4
+|GRHP=50|GRATK=70|GRSPD=70|GRDEF=65|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Crimson Blades
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Moonbow
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Spd/Def Bulwark 1
+|passiveB2=Spd/Def Bulwark 2
+|passiveB3=Spd/Def Bulwark 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Atk/Spd Oath 1
+|passiveC2=Atk/Spd Oath 2
+|passiveC3=Atk/Spd Oath 3
+|passiveC4=Atk/Spd Oath 4
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}

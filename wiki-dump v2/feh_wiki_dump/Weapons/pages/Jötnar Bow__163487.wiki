@@ -1,0 +1,38 @@
+{{Weapon Infobox
+|tagid=SID_巨人姉妹の弓
+|intID=2892
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=1
+|weaponType=Bow
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effectiveness=Flying
+|effect=Accelerates Special trigger (cooldown count-1). Effective against flying foes. If unit initiates combat or is within 2 spaces of an ally, inflicts Atk/Spd/Def-5 on foe during combat and inflicts penalty on foe's Atk/Spd/Def during combat = current bonus on each of unit's Atk/Spd/Def. Calculates each stat penalty independently.<br>Effect:【Pathfinder】<br><br>【Pathfinder】<br>When an ally moves through unit's space, that space is counted as 0 spaces moved instead of 1 space. (Unit's space can be freely added to ally's normal movement. Applies only to allies with movement types that allow movement through unit's space.)
+|statModifiers=0,14,0,0,0
+|required=Silver Bow
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{IfUnitInitiates}}
+{{CombatReductionfromBonus}}
+{{Pathfinder}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=巨人姉妹の弓
+|german=Jötnarbogen
+|spanishEU=Arco de gigante
+|spanishLA=Arco de gigante
+|french=Arc de géantes
+|italian=Arco gigantesse
+|chineseTW=巨人姊妹之弓
+|portuguese=Arco dos jötnar
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%Atk/Spd/Def-%during combat%' OR Description LIKE '%【Pathfinder】%' OR Description LIKE '%inflicts Atk/Spd/Def% during combat = current bonus on unit\'s Atk/Spd/Def%'|columns=3}}
+{{Weapons Navbox}}

@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Laevatein}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Laevatein
+|Title=Ninja of Múspell
+|WeaponType=Green Axe
+|MoveType=Flying
+|Origin=Fire Emblem Heroes
+|Gender=Female
+|actorEN=Sarah Williams
+|actorJP=釘宮理恵
+|artist=ヤスダスズヒト
+|additionDate=November 5, 2020
+|releaseDate=November 6, 2020
+|cv1=0
+|cv2=300300
+|TagID=忍者レーヴァテイン
+|InternalID=584
+|Properties=special,specRate_202402
+|description=The younger princess of Múspell, joining in on the ninja festivities and donning ninja garb to help her sister.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=12|Lv1SPD=5|Lv1DEF=7|Lv1RES=8
+|GRHP=50|GRATK=70|GRSPD=30|GRDEF=70|GRRES=60
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Twin Star Axe
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Miracle
+|special1Default=4
+|special1Unlock=3
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Distant Ward
+|passiveA1Unlock=5
+|passiveB1=Vantage 1
+|passiveB2=Vantage 2
+|passiveB3=Vantage 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Atk/Def Rein 1
+|passiveC2=Atk/Def Rein 2
+|passiveC3=Atk/Def Rein 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Ninja Festival units]]

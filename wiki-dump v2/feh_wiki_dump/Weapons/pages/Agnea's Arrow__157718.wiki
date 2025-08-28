@@ -1,0 +1,33 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_アグネアの矢
+|intID=2741
+|userVersion1=Closed
+|userVersion2=Open
+|exclusive=1
+|weaponType=Red Tome
+|cost=400
+|might=14
+|range=2
+|effect=Grants Spd+3. If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd+6 to unit during combat, neutralizes effects that prevent unit's follow-up attacks, neutralizes foe's bonuses to Spd/Res (from skills like Fortify, Rally, etc.) on odd-numbered turns, and neutralizes unit's penalties to Atk/Spd on even-numbered turns.
+|statModifiers=0,14,3,0,0
+|required=Bolganone;Fenrir
+|properties=random_owner
+}}
+==Notes==
+{{IfUnitInitiates}}{{Combat boosts}}{{Follow-up effect neutralization|preventOnly=1}}{{Bonus neutralization}}{{Penalty neutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=アグネアの矢
+|german=Agneas Pfeil
+|spanishEU=Flecha de Agnea
+|spanishLA=Flecha de Agnea
+|french=Flèche d'Agnea
+|italian=Freccia di Agnea
+|chineseTW=阿古尼亞之箭
+|portuguese=Flecha de Agnea
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit initiates combat%neutralizes%that prevent unit_s follow-up attack%'|columns=3}}
+{{Weapons Navbox}}

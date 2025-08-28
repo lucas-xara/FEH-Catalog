@@ -1,0 +1,48 @@
+{{Weapon Infobox
+|tagid=SID_冬祭のレイピア＋
+|intID=2873
+|image=wep_sw124
+|exclusive=0
+|weaponType=Sword
+|cost=300
+|might=14
+|range=1
+|effect=If unit is within 2 spaces of an ally, grants Atk/Def+5 and bonus to Atk/Def during combat = current penalty on each of those stats × 2. (Example: if unit has -7 penalty to Atk, grants Atk+19, for a net bonus of Atk+12.) Calculates each stat bonus independently.
+|statModifiers=0,14,0,0,0
+|required=Winter Rapier
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary buffs|Atk/Def|5}}
+|Ce2={{Eft|Temporary buffs|Atk/Def|2 x {{SEt|penalties}} on<br>each of {{Tgt|Unit}}'s stats}}
+|CeC=An {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+==Notes==
+* Has the same effect at {{St|Atk Def Unity}}.
+{{TemporaryBufffromPenalty|source=the unit|ptySource=the unit}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}} 
+==In other languages==
+{{OtherLanguages
+|japanese=冬祭の突剣＋
+|german=Winterrapier+
+|spanishEU=Estoque frío +
+|spanishLA=Estoque frío +
+|french=Rapière d'hiver +
+|italian=Spadino del gelo+
+|chineseTW=冬祭刺劍＋
+|portuguese=Rapieira invernal+
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%Example: if unit has -%penalty to%, grants%, for a net bonus of%' AND Exclusive='1'}}
+* [[Unity Passives]]
+{{Weapons Navbox}}

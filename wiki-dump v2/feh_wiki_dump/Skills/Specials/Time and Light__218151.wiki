@@ -1,0 +1,46 @@
+{{Special
+|tagid=SID_時と光
+|intID=4200
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=2
+|effect=Boosts Special damage by 30% of unit's Spd when Special triggers.<br><br>Neutralizes effects that inflict "Special cooldown charge -X" on unit during combat.<br><br>If unit initiates combat, after combat, if unit's Special triggered and unit survives, grants another action to unit and inflicts "restricts movement to 1 space" on unit and Pair Up cohort through their next action (once per turn). (This effect has priority over other similar effects; in such cases, these other similar effects are treated as not having triggered.)
+|required=Vengeance
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Damage Boost|30% of {{Tgt|Unit}}'s Spd}}
+|Ce1C=Special triggers
+|Ce2={{Eft|Neutralize Guard}}
+|Me={{Eft|Another Action}}
+|MeC=After combat in<br>Player Phase if<br>Special triggered
+|Se={{SEt|Gravity}}
+|SeT={{Tgt|Unit}} '''&'''<br>{{Tgt|Cohort}}
+|SeC=After combat in<br>Player Phase if<br>Special triggered
+}}
+==Notes==
+{{CooldownChargeMinusNeutralization}}
+{{Galeforce notes|priority=1}}
+{{Gravity}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=時と光
+|german=Zeit und Licht
+|spanishEU=Tiempo y luz
+|spanishLA=Tiempo y luz
+|french=Temps de lumière
+|italian=Tempo e luce
+|chineseTW=時間與光
+|portuguese=Tempo e luz
+}}
+
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%if unit initiates%after combat%another action to unit%' OR  Description LIKE '%if unit initiates%another action to unit%after combat%' AND Description NOT LIKE '%if unit initiates%assist%another action%' OR Description LIKE '%if unit initiates%grants unit another action%after combat%'}}
+{{Specials Navbox}}

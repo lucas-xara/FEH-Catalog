@@ -1,0 +1,85 @@
+{{#invoke:NameAbout|main|Name=Eir}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Eir
+|Title=Life Ascendant
+|Origin=Fire Emblem Heroes
+|Gender=F
+|WeaponType=Green Dagger
+|MoveType=Cavalry
+|actorEN=Xanthe Huynh
+|actorJP=雨宮天
+|artist=HACCAN
+|randomStartTime=2022-11-17T07:00:00Z
+|additionDate=October 5, 2022
+|releaseDate=October 17, 2022
+|poolDate=November 8, 2022
+|Person=Eir
+|cv1=0
+|cv2=330200
+|Properties=ascended,tiara,specRate_202508
+|description=Princess of the realm of life, raised in Hel, the realm of the dead, as daughter and heir to its ruler.
+|TagID=開花エイル
+|InternalID=862
+|EnemyInternalID=91
+}}
+==Ally stats==
+{{Stats Page|noheader=1
+|Lv1HP=16|Lv1ATK=12|Lv1SPD=12|Lv1DEF=3|Lv1RES=5
+|GRHP=45|GRATK=70|GRSPD=75|GRDEF=30|GRRES=70
+}}
+==Enemy stats==
+{{Stats Page/Enemy|noheader=1
+|Lv1HP=15|Lv1ATK=11|Lv1SPD=11|Lv1DEF=2|Lv1RES=4
+|GRHP=45|GRATK=70|GRSPD=75|GRDEF=30|GRRES=70
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Dagger
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Dagger
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Dagger
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Ymir, Everliving
+|weapon4Default=5
+|weapon4Unlock=5
+|hasEnemy=1
+}}
+
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Draconic Aura
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Catch 1
+|passiveA2=Atk/Spd Catch 2
+|passiveA3=Atk/Spd Catch 3
+|passiveA4=Atk/Spd Catch 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Mystic Boost 1
+|passiveB2=Mystic Boost 2
+|passiveB3=Mystic Boost 3
+|passiveB4=Mystic Boost 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Sparkling Boost
+|passiveC1Unlock=5
+}}
+{{Heroes Navbox}}
+{{Enemies Navbox}}

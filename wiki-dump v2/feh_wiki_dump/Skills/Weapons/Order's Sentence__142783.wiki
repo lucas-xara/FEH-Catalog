@@ -1,0 +1,85 @@
+{{Weapon Infobox
+|tagid=SID_正の裁き
+|image=wep_mg307
+|weaponType=Colorless Tome
+|might=14
+|range=2
+|effect=Grants Atk+3. At start of combat, if unit's HP ≥ 25% or if【Bonus】is active on unit, grants Atk/Spd/Def/Res+5 to unit during combat and grants bonus to unit's Atk during combat = total bonuses on ally with the highest total bonuses within 2 spaces. (Example: if an ally within 2 spaces has Atk/Spd/Def/Res+6, grants Atk+24.)<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|cost=400
+|exclusive=1
+|statModifiers=0,17,0,0,0
+|required=Atlas (weapon)
+|intID=2579
+|sort=545
+|effectRange=2
+|value=20
+|timingID=1
+|abilityID=287
+|limit1ID=61
+|randomTimestamp=2021-07-01T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Atk+3.<br><br>At start of combat, if unit's HP ≥ 25% or if【Bonus】is active on unit, grants Atk/Spd/Def/Res+5 to unit during combat and grants bonus to unit's Atk during combat = highest total bonuses among unit and allies within 3 spaces of unit × 1.5 (example: if an ally within 3 spaces has Atk/Spd/Def/Res+6, grants Atk+36), and reduces damage from foe's first attack by 30% during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes).<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|effectSkill1=If unit initiates combat or foe's Range = 2, grants Atk/Spd/Def/Res+4 to unit, reduces damage from foe's first attack by X (X = 50% of the value of highest total bonuses among unit and allies within 3 spaces of unit; "first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and inflicts Special cooldown charge -1 on foe per attack during combat (only highest value applied; does not stack), and restores 7 HP to unit after combat.
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Atk|3}}
+|s1 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s1 Ce2={{Eft|Temporary buffs|Atk|highest total {{SEt|bonuses}}<br>on {{Tgt|Allies}} [[within 2 spaces]]}}
+|s1 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat '''or'''<br>a {{Kp|Bonus}} effect<br>is active on {{Tgt|Unit}}
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Atk|3}}
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s2 Ce2={{Eft|Temporary buffs|Atk|1.5 x highest total {{SEt|bonuses}}<br>on {{Tgt|Unit}} & {{Tgt|Allies}}<br>[[within 3 spaces]]}}
+|s2 Ce3={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|s2 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat '''or'''<br>a {{Kp|Bonus}} effect<br>is active on {{Tgt|Unit}}
+|skill3={{Si|Order's Sentence|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s3 Ce2={{Eft|Damage Reduction|percent=0|50% of highest total {{SEt|bonuses}}<br>on {{Tgt|Unit}} & {{Tgt|Allies}}<br>[[within 3 spaces]]}} from<br>{{Tgt|Foe}}'s first attack<br>(including second attacks)
+|s3 Ce3={{Eft|Guard}}
+|s3 Ce3T={{Tgt|Foe}}
+|s3 CeC=Player Phase '''or'''<br>{{Tgt|Foe}}'s Range = 2
+|s3 Me={{Eft|Heal|7}}
+|s3 MeC=After combat in<br>Player Phase '''or'''<br>{{Tgt|Foe}}'s Range = 2
+}}
+
+==Notes==
+{{EffectfromBonusKeyword}}
+{{BonusesToAtk|noNeutralize=1|source=ally with the highest total bonuses within 2 spaces}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{BonusesToAtk|noNeutralize=1|multiSource=1|source=unit and ally with the highest total bonuses within 3 spaces|name=Refined Order's Sentence}}
+{{DamagePercentageReduction}}
+{{IfUnitInitiates}}
+{{EffectfromBonuses|target=unit and ally with the highest total bonuses within 3 spaces|multiTarget=1|damage-reduction effect|name={{St|Order's Sentence|refine=Skill1}}}}
+{{FlatDamageReduction|name={{St|Order's Sentence|refine=Skill1}}}}
+{{CooldownChargeMinus|name={{St|Order's Sentence|refine=Skill1}}}}
+{{After combat healing|name={{St|Order's Sentence|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V5.5_210503_legend_Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=正の裁き
+|german=Urteil d. Ordnung
+|spanishEU=Juicio del Orden
+|spanishLA=Juicio del Orden
+|french=Verdict de l'ordre
+|italian=Ordine giusto
+|chineseTW=正之制裁
+|portuguese=Juízo da Ordem
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%grants bonus to unit_s Atk =%total bonuses on unit%' or Description LIKE '%highest total bonuses among unit and allies%') AND Exclusive='1'}}
+* [[Blade Weapons]]
+{{Weapons Navbox}}

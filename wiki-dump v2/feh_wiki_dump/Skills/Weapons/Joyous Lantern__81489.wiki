@@ -1,0 +1,35 @@
+{{Weapon Infobox
+|tagid=SID_ランタンの杖
+|weaponType=Staff
+|might=8
+|range=2
+|effect=At start of turn, grants Def/Res+3 to ally with the highest Atk for 1 turn. (Excludes unit.)
+|cost=200
+|next=Joyous Lantern+
+|promotionRarity=5
+|promotionTier=2
+|required=Assault
+|statModifiers=0,8,0,0,0
+|exclusive=0
+|properties=
+}}
+==Notes==
+{{Bonuses}}{{SelectStat|Atk}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ランタンの杖
+|german=Laternenstab
+|spanishEU=Farolillo alegre
+|spanishLA=Farolito alegre
+|french=Lanterne
+|italian=Lanterna vivace
+|chineseTW=提燈之杖
+|portuguese=Farol feliz
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%start of turn%grants%to ally with the highest%' AND NOT (Description LIKE '% Atk+%' OR Description LIKE '% Spd+%' OR Description LIKE '% Def+%' OR Description LIKE '% Res+%') OR Description LIKE '%start of turn%grants%bonus%to ally with the highest%'|columns=3}}
+* [[Skill families#Opening|Opening Passives]]
+* [[Skill families#Gap|Gap Passives]]
+{{Weapons Navbox}}

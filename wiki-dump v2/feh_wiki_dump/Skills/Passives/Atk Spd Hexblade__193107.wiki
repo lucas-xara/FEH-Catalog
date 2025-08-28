@@ -1,0 +1,44 @@
+{{Passive
+|name=Atk/Spd Hexblade
+|type=A
+|exclusive=0
+|canUseWeapon={{WeaponList|Missile,Melee}}
+|canUseMove={{MoveList|Infantry}}
+|properties=random_owner
+|1name=Atk/Spd Hexblade
+|alt1name=Atk Spd Hexblade
+|1tagid=SID_攻撃速さの魔刃4
+|1effect=At start of turn, if unit is within 2 spaces of a magic ally, grants【Hexblade】to unit for 1 turn. If【Bonus】is active on unit, grants Atk/Spd+7 to unit during combat.<br><br>【Hexblade】<br>Calculates damage using the lower of foe's Def or Res during combat for 1 turn (including damage dealt by Specials before combat).<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|1cost=300
+|1required=Sorcery Blade 3
+}}
+==Notes==
+{{TermRefersTo|Magic}}
+{{Hexblade}}
+{{Temporary buffs}}
+{{EffectfromBonus|temporary buffs}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Atk/Spd Hexblade
+|japanese=攻撃速さの魔刃
+|german=A/G-Hexklinge
+|spanishEU=Sortilegio Ata/Vel
+|spanishLA=Sortilegio Atq./Vel.
+|french=Lame m. Atq/Vit
+|italian=Lama magica A/V
+|chineseTW=攻擊速度之魔刃
+|portuguese=Espadahexa A/V
+}}
+
+==See also==
+{{See also skills|cond=(Description LIKE '%【Hexblade】%' OR Description LIKE '%calculates%damage using the lower of foe_s Def or Res%' AND CanUseWeapon__full NOT LIKE '%breath%') AND Name NOT LIKE '%/%Hexblade' OR Description LIKE '%if%bonus%active on unit%grants Atk/Spd+%during combat%' AND Exclusive='1'}}
+* [[Skill families/A Passives#Hexblade|Hexblade Passives]]
+* [[Skill families/A Passives#Ideal|Ideal Passives]]
+{{Passives Navbox|A}}

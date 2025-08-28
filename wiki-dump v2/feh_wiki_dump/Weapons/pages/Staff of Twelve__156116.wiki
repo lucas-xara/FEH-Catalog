@@ -1,0 +1,36 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_聖祭の杖
+|intID=2734
+|image=wep_rd044
+|weaponType=Colorless Staff
+|might=8
+|range=2
+|effect=At start of turn, restores 5 HP to ally that has been dealt the most damage. (Excludes unit.)
+|exclusive=0
+|cost=200
+|statModifiers=0,8,0,0,0
+|required=Assault
+|next=Staff of Twelve+
+|promotionRarity=5
+|promotionTier=2
+|properties=
+}}
+==Notes==
+{{HealDamagedAlly}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=聖祭の杖
+|german=Stab der Zwölf
+|spanishEU=Bastón de Doce
+|spanishLA=Bastón de Doce
+|french=Bât. des douze
+|italian=Asta dei Dodici
+|chineseTW=聖祭之杖
+|portuguese=Bastão dos doze
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%At start of turn, restores%HP to ally that has been dealt the most damage%'|columns=3}}
+{{Weapons Navbox}}

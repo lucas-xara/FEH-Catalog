@@ -1,0 +1,92 @@
+{{#invoke:NameAbout|main|Name=Deirdre}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Deirdre
+|Title=Fated Saint
+|WeaponType=Blue Tome
+|MoveType=Infantry
+|Origin=Fire Emblem: Genealogy of the Holy War
+|Gender=Female
+|LegendaryEffect=Earth
+|BoostHP=3
+|BoostAtk=2
+|Duel=190
+|actorEN=Erica Mendez
+|actorJP=井上喜久子
+|artist=はいむらきよたか
+|additionDate=August 31, 2022
+|releaseDate=August 31, 2022
+|cv1=3
+|cv2=2900100
+|TagID=伝承ディアドラ
+|InternalID=844
+|Properties=legendary
+|description=A central figure of the tragedy at Belhalla. Brought three children into the world as dictated by the whims of fate. Appears in Fire Emblem: Genealogy of the Holy War.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=13|Lv1SPD=6|Lv1DEF=4|Lv1RES=10
+|GRHP=50|GRATK=70|GRSPD=60|GRDEF=35|GRRES=75
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Light
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Ellight
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Shine
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Spirit Forest Writ
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Iceberg
+|special2Unlock=4
+|special3=Circlet of Balance
+|special3Unlock=5
+|special4=Balance Circlet II
+|special4Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Still Water 1
+|passiveA2=Still Water 2
+|passiveA3=Still Water 3
+|passiveA4=Still Water 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Atk/Res Tempo 1
+|passiveB2=Atk/Res Tempo 2
+|passiveB3=Atk/Res Tempo 3
+|passiveB4=Sabotage Res 1
+|passiveB5=Sabotage Res 2
+|passiveB6=Sabotage Res 3
+|passiveB7=Atk/Res Discord
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveB4Unlock=1
+|passiveB5Unlock=2
+|passiveB6Unlock=4
+|passiveB7Unlock=5
+|passiveC1=Threaten Res 1
+|passiveC2=Threat. Atk/Res 1
+|passiveC3=Threat. Atk/Res 2
+|passiveC4=Atk/Res Menace
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}

@@ -1,0 +1,57 @@
+{{Weapon Infobox
+|tagid=SID_邪な曲弓
+|weaponType=Bow
+|userVersion1=Bow
+|userVersion2=Arrow
+|userVersion3=Gleam
+|might=14
+|range=2
+|effectiveness=Flying
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). Effective against flying foes. If foe's Def ≥ foe's Res+5, deals +7 damage.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If unit is within 3 spaces of two allies in a support-partner pair (excluding unit), grants Atk/Spd/Def/Res+6 to unit during combat, and also, if unit deals damage to foe during combat, restores 5 HP to unit. (Triggers even if 0 damage is dealt.)
+|iconSkill1=Spy-Song Bow W.png
+|tagidExtraSkill1=邪
+|intID=2414
+|sort=498
+|value=20
+|timingID=11
+|abilityID=96
+|limit1ID=12
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{FlatDamage|7}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary buffs|name={{St|Spy-Song Bow|refine=skill1}}}}
+{{CombatHPRecovery|name={{St|Spy-Song Bow|refine=skill1}}}}
+{{SupportPartner|pair=1|effect=[[Temporary buffs|temporary buffs]] and HP recovery|name={{St|Spy-Song Bow|refine=skill1}}}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=邪な曲弓
+|german=Adlerbogen
+|spanishEU=Arco espía
+|spanishLA=Arco espía
+|french=Arc mouchard
+|italian=Arco della lince
+|chineseTW=邪惡的曲弓
+|portuguese=Arco da espiã
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%support-partner pair%'}}
+{{Weapons Navbox}}

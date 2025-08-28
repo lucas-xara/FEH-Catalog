@@ -1,0 +1,33 @@
+{{Special
+|tagid=SID_祈り
+|charge=5
+|effect=If unit's HP > 1 and foe would reduce unit's HP to 0, unit survives with 1 HP.
+|cost=200
+|required=-
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=random_all,defensive_special
+}}
+==Notes==
+{{DefensiveSkill}}
+{{Miracle}}
+
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=祈り
+|german=Arkanum
+|spanishEU=Milagro
+|spanishLA=Milagro
+|french=Miracle
+|italian=Miracolo
+|chineseTW=祈禱
+|portuguese=Milagre
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%unit survives with 1 HP%'}}
+{{Specials Navbox}}

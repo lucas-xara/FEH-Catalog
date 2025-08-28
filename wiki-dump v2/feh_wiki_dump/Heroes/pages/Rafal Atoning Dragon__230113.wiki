@@ -1,0 +1,75 @@
+{{#invoke:NameAbout|main|Name=Rafal}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Rafal
+|Title=Atoning Dragon
+|WeaponType=Red Breath
+|MoveType=Armored
+|Origin=Fire Emblem Engage
+|Gender=Male
+|actorEN=Y. Chang
+|actorJP=江口拓也
+|artist=麻先みち
+|randomStartTime=2025-03-17T07:00:00Z
+|additionDate=February 17, 2025
+|releaseDate=February 17, 2025
+|poolDate=March 7, 2025
+|poolRarities=5
+|cv1=14
+|cv2=950200
+|TagID=ラファール
+|InternalID=1210
+|Properties=
+|description=A child of the Fell Dragon from another Elyos. He is Nel's younger brother and very much her counterpart. Appears in Fire Emblem Engage.
+}}
+{{Stats Page
+|Lv1HP=20|Lv1ATK=12|Lv1SPD=5|Lv1DEF=10|Lv1RES=14
+|GRHP=55|GRATK=80|GRSPD=50|GRDEF=90|GRRES=60
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire Breath
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Fire Breath+
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Flametongue
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Fell Slaystone
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=4
+|special1Unlock=3
+|special2=Bonfire
+|special2Unlock=4
+|special3=Armored Blaze
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Def Scowl 1
+|passiveA2=Atk/Def Scowl 2
+|passiveA3=Atk/Def Scowl 3
+|passiveA4=Atk/Def Scowl 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveC1=A/R Near Save 1
+|passiveC2=A/R Near Save 2
+|passiveC3=A/R Near Save 3
+|passiveC4=A/R Twin N Save
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}

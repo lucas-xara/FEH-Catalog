@@ -1,0 +1,58 @@
+{{Passive
+|type=C
+|name=Threat. Spd/Res
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Threat. Spd/Res 1
+|alt1name=Threat. Spd Res 1
+|1tagid=SID_速さ魔防の威嚇1
+|1cost=100
+|1effect=At start of turn, inflicts Spd/Res-3 on foes within 2 spaces through their next actions.
+|1required=Threaten Spd 1;Threaten Res 1
+|1promotionRarity=5
+|1promotionTier=1
+|properties1=random_owner
+|2name=Threat. Spd/Res 2
+|alt2name=Threat. Spd Res 2
+|2tagid=SID_速さ魔防の威嚇2
+|2cost=200
+|2effect=At start of turn, inflicts Spd/Res-4 on foes within 2 spaces through their next actions.
+|properties2=random_inherit_base,random_owner
+}}
+==Notes==
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Threat. Spd/Res 1;Threat. Spd/Res 2
+|badgeColor=Transparent
+|costs1=20;100;20
+|costs2=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|english=Threat. Spd/Res
+|japanese=速さ魔防の威嚇
+|german=Ges./Res. gefähr.
+|spanishEU=Reducir Vel/Res
+|spanishLA=Red. Vel./Res.
+|french=Vit/Rés réduites
+|italian=Mina Vel/Res
+|chineseTW=速度魔防的威嚇
+|portuguese=Vel./Res. minaz
+}}
+==See also==
+* [[Skill families/C Passives#Threaten|Threaten Passives]]
+{{Seals Navbox}}
+{{Passives Navbox|C}}
+[[Category:Threaten Passives]]

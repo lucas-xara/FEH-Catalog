@@ -1,0 +1,40 @@
+{{Weapon Infobox
+|tagid=SID_燭台
+|weaponType=Red Tome
+|weaponName={{PAGENAME}}
+|might=8
+|range=2
+|effect=If foe initiates combat, grants Atk/Spd/Def/Res+2 during combat.
+|cost=200
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|next=Candelabra+
+|promotionRarity=5
+|promotionTier=1
+|required=Elfire;Ruin
+|properties=
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Combat boosts}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+Wep mg017.webp|Sprite sheet use to animate the weapon.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=燭台
+|german=Kronleuchter
+|spanishEU=Candelabro
+|spanishLA=Candelabro
+|french=Candélabre
+|italian=Candelabro
+|chineseTW=燭台
+|portuguese=Candelabro
+}}
+==See also==
+* [[Winter's Envoy Weapons]]
+{{Weapons Navbox}}
+[[Category:Winter's Envoy weapons]]

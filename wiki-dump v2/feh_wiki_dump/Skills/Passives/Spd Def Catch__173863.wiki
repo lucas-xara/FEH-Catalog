@@ -1,0 +1,71 @@
+{{Passive
+|type=A
+|name=Spd/Def Catch
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|Cavalry,Flying}}
+|properties=random_owner
+|1name=Spd/Def Catch 1
+|alt1name=Spd Def Catch 1
+|1tagid=SID_速さ守備の機先1
+|1cost=60
+|1effect=At start of combat, if foe's HP = 100% or if【Penalty】is active on foe, grants Spd/Def+3 to unit during combat.<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|1required=-
+|1promotionRarity=4
+|1promotionTier=1
+|2name=Spd/Def Catch 2
+|alt2name=Spd Def Catch 2
+|2tagid=SID_速さ守備の機先2
+|2cost=120
+|2effect=At start of combat, if foe's HP = 100% or if【Penalty】is active on foe, grants Spd/Def+4 to unit during combat.<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|2promotionRarity=5
+|2promotionTier=1
+|3name=Spd/Def Catch 3
+|alt3name=Spd Def Catch 3
+|3tagid=SID_速さ守備の機先3
+|3cost=240
+|3effect=At start of combat, if foe's HP = 100% or if【Penalty】is active on foe, grants Spd/Def+5 to unit during combat.<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|3next=-
+|4name=Spd/Def Catch 4
+|alt4name=Spd Def Catch 4
+|4tagid=SID_速さ守備の機先4
+|4cost=300
+|4effect=At start of combat, if foe's HP = 100% or if【Penalty】is active on foe, grants Spd/Def+7 to unit during combat. At start of combat, if foe's HP = 100% and【Penalty】is active on foe, grants an additional Spd/Def+2 to unit during combat.<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+}}
+==Notes==
+{{Temporary buffs}}
+{{EffectfromPenalty}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Spd/Def Catch 1;Spd/Def Catch 2;Spd/Def Catch 3
+|badgeColor=Verdant
+|costs1=20;100;20
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|english=Spd/Def Catch
+|japanese=速さ守備の機先
+|german=Ges./Ver.-Fang
+|spanishEU=Captura Vel/Def
+|spanishLA=Presa Vel./Def.
+|french=Prise Vit/Déf
+|italian=Cogli Vel/Dif
+|chineseTW=速度防守的先機
+|portuguese=Capt. Vel./Def.
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe_s HP%grants Spd/Def+%during combat%' OR Description LIKE '%if%penalty%active on foe%grants Spd/Def+%during combat%'|columns=3}}
+* [[Skill families/A Passives#Catch|Catch Passives]]
+{{Seals Navbox}}
+{{Passives Navbox|A}}

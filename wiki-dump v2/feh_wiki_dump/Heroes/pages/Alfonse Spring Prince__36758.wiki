@@ -1,0 +1,68 @@
+{{#invoke:NameAbout|main|Name=Alfonse|Name2=Líf}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Alfonse
+|Title=Spring Prince
+|GrowthModifier= Gen 2
+|WeaponType=Green Axe
+|MoveType=Cavalry
+|Origin=Fire Emblem Heroes
+|Gender=Male
+|actorEN=Ray Chase
+|actorJP=鈴木達央
+|artist=コザキユースケ
+|releaseDate=March 22, 2018
+|TagID=春祭アルフォンス
+|InternalID=229
+|Properties=special,hat,specRate_202202
+|cv1=0
+|cv2=100100
+|description=A prince of Askr who's kind and serious. He's taking part in the spring festival as a member of the Order of Heroes.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=9|Lv1SPD=7|Lv1DEF=6|Lv1RES=5
+|GRHP=50|GRATK=60|GRSPD=60|GRDEF=55|GRRES=30
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Giant Spoon
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Giant Spoon+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Daylight
+|special1Default=4
+|special1Unlock=3
+|special2=Noontime
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Death Blow 1
+|passiveA2=Sturdy Blow 1
+|passiveA3=Sturdy Blow 2
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Def Smoke 1
+|passiveC2=Def Smoke 2
+|passiveC3=Def Smoke 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Spring Festival units]]

@@ -1,0 +1,47 @@
+{{Weapon Infobox
+|tagid=SID_紅姫の斧
+|weaponType=Axe
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).
+|cost=400
+|exclusive=1
+|userVersion1=Weapon
+|userVersion2=Gleam
+|statModifiers=0,16,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If foe initiates combat or if foe's HP = 100% at start of combat, grants Atk/Def+5 to unit during combat and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)
+|iconSkill1=Crimson Axe W.png
+|tagidExtraSkill1=消
+|properties=
+}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfFoeInitiates}}
+{{Combat boosts}}
+{{CooldownChargeMinus}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|キャンセルR攻守5|[[Guard|Cancel]] R Atk/Def 5}}
+==In other languages==
+{{OtherLanguages
+|english=Crimson Axe
+|japanese=紅姫の斧
+|german=Purpurne Axt
+|spanishEU=Hacha carmesí
+|spanishLA=Hacha carmesí
+|french=Hache écarlate
+|italian=Ascia cremisi
+|chineseTW=紅姬之斧
+|portuguese=Machado carmim
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe initiates combat%foe_s HP%grants%+%during combat%inflicts special cooldown charge -%'|columns=3}}
+{{Weapons Navbox}}

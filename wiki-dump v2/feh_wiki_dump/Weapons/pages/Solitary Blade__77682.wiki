@@ -1,0 +1,46 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_孤高の剣
+|weaponType=Sword
+|weaponName={{PAGENAME}}
+|might=16
+|range=1
+|effectiveness=
+|effect=Accelerates Special trigger (cooldown count-1).
+|cooldown=-1
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=Grants Atk/Spd+5. Inflicts Def/Res-5.
+|iconSkill1=Life and Death W.png
+|tagidExtraSkill1=死
+|statModifiersSkill1=3,21,5,-5,-5
+|properties=
+}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+* The refined version listed first has the special effect of {{Pt|Life and Death 3}}.
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=孤高の剣
+|german=Einsame Klinge
+|spanishEU=Acero solitario
+|spanishLA=Espada solitaria
+|french=Lame solitaire
+|italian=Lama solitaria
+|chineseTW=孤高之劍
+|portuguese=Espada solitária
+}}
+
+==See also==
+* [[Basilikos]]
+* [[Weapons that accelerate the Special trigger]]
+
+{{Weapons Navbox}}

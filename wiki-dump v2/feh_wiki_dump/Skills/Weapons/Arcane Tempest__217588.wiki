@@ -1,0 +1,69 @@
+{{Weapon Infobox
+|tagid=SID_魔器・暁風の刃
+|intID=4184
+|image=wep_dg087
+|exclusive=0
+|weaponType=Dagger
+|cost=300
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>At start of turn, if Special cooldown count is at its maximum value, grants Special cooldown count-1.<br><br>At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+X to unit (X = 25% of foe's Atk at start of combat, - 4; min 5, max 14), reduces damage from foe's first attack by 30% ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and also, if unit's Spd > foe's Spd, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat.<br><br>Effect:【Dagger ７】<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|required=Silver Dagger
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=200
+|properties=arcane,random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Me={{Eft|Reduce Cooldown|1}}
+|MeC=At start of turn<br>if {{Tgt|Unit}}'s CD<br>is max value
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|25% of {{Tgt|Foe}}'s Atk<br>at start of combat, -4|min=5|max=14}}
+|Ce2={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce1-2C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce3={{Eft|Neutralize Prevent Follow-Ups}}
+|Ce4={{Eft|Neutralize Guaranteed Follow-Ups}}
+|Ce4T={{Tgt|Foe}}
+|Ce3-4C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' {{Tgt|Unit}}'s Spd<br>> {{Tgt|Foe}}'s Spd
+|Se={{Eft|Penalties|Def/Res|7}}
+|SeT={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|SeC=After combat if<br>{{Tgt|Unit}} attacked
+}}
+
+==Notes==
+* Arcane Tempest has the same effect as {{St|Time's Pulse 3}}.
+{{Start of turn Special modification}}
+{{Temporary buffs}}
+{{At start of combat}}
+{{DamagePercentageReduction}}
+{{Follow-up effect neutralization}}
+{{IfUnitAttacked}}
+{{Penalties}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=魔器・暁風の刃
+|german=Arkaner Sturm
+|spanishEU=Tormenta arcana
+|spanishLA=Tormenta arcana
+|french=Tempête arcane
+|italian=Tempesta arcana
+|chineseTW=魔器・曉風之刃
+|portuguese=Tormenta arcana
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%maximum value%Special cooldown count-1%' OR Description LIKE '%start of turn%Special cooldown count-1%maximum value%') AND Exclusive='1'}}
+* [[Time Pulse Passives]]
+{{Weapons Navbox}}

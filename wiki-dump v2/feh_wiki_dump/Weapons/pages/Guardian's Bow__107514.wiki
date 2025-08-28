@@ -1,0 +1,54 @@
+{{Weapon Infobox
+|tagid=SID_守護者の烈弓
+|weaponType=Bow
+|might=14
+|range=2
+|effectiveness=flying
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). Effective against flying foes. If unit's Spd > foe's Spd at start of combat or during combat, inflicts Atk/Spd/Def-5 on foe during combat. (If unit and foe both have this weapon equipped, effect is calculated first for whoever initiates combat.)
+|cost=400
+|exclusive=1
+|userVersion1=Bow
+|userVersion2=Arrow
+|statModifiers=0,14,0,0,0
+|required=Silver Bow
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1). Effective against flying foes. If unit initiates combat or unit's Spd ≥ foe's Spd-7 at start of combat, inflicts Atk/Spd/Def-5 on foe and reduces damage from foe's first attack by 30% during combat.
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit, deals damage = 10% of unit's Spd (including when dealing damage with a Special triggered before combat), neutralizes effects that inflict "Special cooldown charge -X" on unit, and neutralizes foe's bonuses to Spd/Def (from skills like Fortify, Rally, etc.) during combat.
+|properties=random_owner
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{Temporary debuffs}}
+{{IfUnitInitiates}}
+* {{PAGENAME}} is considered after all other skills that grant [[Temporary buffs]] or inflict [[Temporary debuffs]].
+** See [[Regarding an Issue with the Description of the Guardian's Bow Skill and How It Will Be Addressed (Notification)|Regarding an Issue with the Description of the Guardian's Bow Skill and How It Will Be Addressed]] for examples of the interaction between {{PAGENAME}} and other skills during combat.
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfUnitInitiates}}
+{{DamagePercentageReduction}}
+{{Temporary buffs|name={{St|Guardian's Bow|refine=Skill1}}}}
+{{DamageBoost|name={{St|Guardian's Bow|refine=Skill1}}}}
+{{CooldownChargeMinusNeutralization|name={{St|Guardian's Bow|refine=Skill1}}}}
+{{Bonus neutralization|name={{St|Guardian's Bow|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Guardian's Bow
+|japanese=守護者の烈弓
+|german=Bogen des Hüters
+|spanishEU=Arco guardián
+|spanishLA=Arco guardián
+|french=Arc du gardien
+|italian=Arco sentinella
+|chineseTW=守護者的烈弓
+|portuguese=Arco duna
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit_s Spd > foe_s Spd%grants%during combat%' AND Description NOT LIKE '%reduces damage%' AND Description NOT LIKE '%deals damage%' OR Description LIKE '%deals damage = 10%of unit_s Spd%'}}
+{{Weapons Navbox}}

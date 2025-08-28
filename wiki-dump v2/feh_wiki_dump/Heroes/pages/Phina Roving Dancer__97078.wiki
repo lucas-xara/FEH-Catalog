@@ -1,0 +1,68 @@
+{{#invoke:NameAbout|main|Name=Phina}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Phina
+|Title=Roving Dancer
+|WeaponType=Red Sword
+|Origin=Fire Emblem: Mystery of the Emblem
+|Gender=Female
+|MoveType=Infantry
+|actorJP=ファイルーズあい
+|actorEN=Megan Harvey
+|artist=まよ
+|additionDate=September 19, 2019
+|releaseDate=September 19, 2019
+|poolDate=October 9, 2019
+|poolRarities=5
+|TagID=フィーナ
+|InternalID=424
+|Properties=refresher,specRate_202208
+|cv1=1
+|cv2=4900150
+|description=A self-confident dancer. The swordsman Navarre saved her life when she had been attacked by thieves. Appears in Fire Emblem: Mystery of the Emblem.
+|GrowthModifier=Gen 4
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=7|Lv1SPD=9|Lv1DEF=7|Lv1RES=4
+|GRHP=55|GRATK=65|GRSPD=65|GRDEF=45|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Rapier
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Dance
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Spd/Def Form 1
+|passiveA2=Spd/Def Form 2
+|passiveA3=Spd/Def Form 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Earth Dance 1
+|passiveB2=Geyser Dance 1
+|passiveB3=Geyser Dance 2
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+}}
+{{Heroes Navbox}}

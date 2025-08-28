@@ -1,0 +1,50 @@
+{{Weapon Infobox
+|tagid=SID_鴉王の嘴爪
+|weaponType=Beast
+|might=14
+|range=1
+|effect=Grants Spd+3. If unit's Spd > foe's Spd, deals damage = 70% of difference between stats. (Maximum bonus of +7 damage. Combos with Phantom Spd.) At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, unit can move 1 extra space. (That turn only. Does not stack.) If unit transforms, grants Atk+2.
+|cost=400
+|exclusive=1
+|canUseMove=Flying
+|statModifiers=0,14,3,0,0
+|required=Adult (Flier)
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Spd+3. If unit initiates combat or foe's HP ≥ 75% at start of combat, grants Atk/Spd+5 to unit during combat and deals damage = 15% of unit's Spd.<br><br>At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, unit can move 1 extra space. (That turn only. Does not stack.) If unit transforms, grants Atk+2.
+|tagidExtraSkill1=一
+|effectSkill1=If unit is transformed or if foe's HP ≥ 75% at start of combat, grants Atk/Spd+5 to unit during combat and the following effects will occur based on the value of unit's Spd minus foe's Spd: If ≥ 1, grants Special cooldown charge +1 to unit per unit's attack. (Only highest value applied. Does not stack.) If ≥ 6, neutralizes effects that prevent unit's follow-up attacks.
+|iconSkill1=Raven King Beak W.png
+|properties=random_owner
+}}
+==Notes==
+{{BonusStatDamage|stat=Spd}}
+{{Beast (Flier)}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfUnitInitiates}}
+{{Temporary buffs|name=refined Raven King Beak}}
+{{DamageBoost|name=refined Raven King Beak}}
+{{IfUnitTransforms}}
+{{UnitStatMinusFoeStat|stat=Spd}}
+{{CooldownChargePlus|perAttack=user}}
+{{Follow-up effect neutralization|preventOnly=1|name={{St|Raven King Beak|refine=skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=鴉王の嘴爪
+|german=Rabenschnabel
+|spanishEU=Pico de cuervo
+|spanishLA=Pico de cuervo
+|french=Bec de roi
+|italian=Becco regale
+|chineseTW=鴉王之喙
+|portuguese=Bico de corvo
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%unit_s Spd%>%foe_s Spd%deals damage =%difference between%' AND Exclusive='1' OR Description LIKE '%if unit\'s Spd%foe\'s Spd%special cooldown charge +1 per unit\'s attack%' OR Description LIKE '%if unit initiates%deals damage =%of unit\'s Spd%'}}
+{{Weapons Navbox}}

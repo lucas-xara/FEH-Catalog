@@ -1,0 +1,61 @@
+{{Weapon Infobox
+|tagid=SID_愛の祭の祝杯＋
+|intID=4572
+|image=wep_mg199
+|exclusive=0
+|weaponType=Blue Tome
+|cost=300
+|might=12
+|range=2
+|effect=At start of turn, inflicts Spd/Res-7 and 【Discord】on closest foes and foes within 2 spaces of those foes through their next actions.<br><br>If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit and unit deals +X × 5 damage during combat (X = total number of【Bonus】effects active on unit, excluding stat bonuses, and【Penalty】 effects active on foe, excluding stat penalties; max 5; excluding area-of-effect Specials).<br><br>【Discord】<br>Inflicts Atk/Spd/Def/Res-X on unit during combat (X = 2 + number of allies within 2 spaces of unit; max 5) through its next action.<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|required=Devoted Cup
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{Eft|Penalties|Spd/Res|7}}
+|Se2={{SEt|Discord}}
+|SeT=Closest {{Tgt|Foes}}<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}
+|SeC=At start of turn
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce2={{Eft|Damage Boost|5 x ({{Kp|Bonus}} effects<br>on {{Tgt|Unit}} '''&''' {{Kp|Penalty}}<br>effects on {{Tgt|Foe}}), +5<br>(exc. {{SEt|Bonuses}} '''&''' {{SEt|Penalties}})|max=25}}
+|CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+==Notes==
+{{Penalties}}
+{{Discord}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{FlatDamage|X (max: 25)}}
+{{EffectfromBonus|damage boost|nonStat=1}}
+{{EffectfromPenalty|damage boost|nonStat=1}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Gallery==
+<gallery>
+V9.2_v0902a_valentine_Mag_2.webp|Sprite sheet for {{St|Dark Monograph}} and {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%number of%Bonus%effects active on unit%Penalty%active on foe%' AND (Exclusive='1' AND Name NOT LIKE '%+' AND Properties HOLDS NOT 'arcane')}}
+{{Weapons Navbox}}

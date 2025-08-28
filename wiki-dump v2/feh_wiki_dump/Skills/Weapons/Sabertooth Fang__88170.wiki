@@ -1,0 +1,48 @@
+{{Weapon Infobox
+|tagid=SID_虎戦士の爪牙
+|canUseMove=Infantry
+|weaponType=Beast
+|might=14
+|range=1
+|effect=Grants Def+3. If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, inflicts Atk/Spd/Def/Res-4 on foes within 2 spaces of unit and target through their next actions after movement. At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 and deals +10 damage when Special triggers.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,0,3,0
+|required=Adult (Infantry)
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Def+3. If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, inflicts Atk/Spd/Def/Res-5 on foes within 2 spaces of unit and target through their next actions after movement. At start of combat, if foe's HP ≥ 75%, grants Atk/Def+5 to unit during combat. At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, deals +7 damage when Special triggers, and neutralizes effects that grant "Special cooldown charge +X" to foe or inflict "Special cooldown charge -X" on unit during combat.
+|tagidExtraSkill1=一
+|effectSkill1=If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, inflicts Special cooldown count+1 on foes within 2 spaces of unit and target. (Does not stack even if effect ranges of unit and target overlap.) If unit is within 3 spaces of an ally, grants Atk/Def+5 to unit during combat.
+|iconSkill1=Sabertooth Fang W.png
+|properties=random_owner
+}}
+==Notes==
+{{Penalties}}
+{{Beast (Infantry)}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Beast (Infantry) Upgrade}}
+{{Temporary buffs}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=虎戦士の爪牙
+|german=Säbelzahnpranke
+|spanishEU=Colmillo de sable
+|spanishLA=Colmillo incisivo
+|french=Croc du tigre
+|italian=Zanna di tigre
+|chineseTW=虎戰士的爪牙
+|portuguese=Presa sabre
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%movement Assist skill%' AND Exclusive='1' OR Description LIKE '%inflicts Special cooldown count+%foes%'|columns=3}}
+* [[Link Passives]]
+* [[Snag Passives]]
+{{Weapons Navbox}}

@@ -1,0 +1,89 @@
+{{Passive
+|name=Atk/Spd Prime
+|type=A
+|exclusive=0
+|canUseWeapon={{WeaponList|Physical}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Atk/Spd Prime 1
+|alt1name=Atk Spd Prime 1
+|1tagid=SID_攻撃速さの備え1
+|1effect=If【Bonus】is active on unit, grants Atk/Spd+X to unit during combat (X = number of【Bonus】effects active on unit, excluding stat bonuses, × 2, + 1; max 3).<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|1cost=60
+|1required=-
+|1promotionTier=1
+|1promotionRarity=4
+|2name=Atk/Spd Prime 2
+|alt2name=Atk Spd Prime 2
+|2tagid=SID_攻撃速さの備え2
+|2effect=If【Bonus】is active on unit, grants Atk/Spd+X to unit during combat (X = number of【Bonus】effects active on unit, excluding stat bonuses, × 2, + 1; max 5).<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|2cost=120
+|2promotionTier=1
+|2promotionRarity=5
+|3name=Atk/Spd Prime 3
+|alt3name=Atk Spd Prime 3
+|3tagid=SID_攻撃速さの備え3
+|3effect=If【Bonus】is active on unit, grants Atk/Spd+X to unit during combat (X = number of【Bonus】effects active on unit, excluding stat bonuses, × 2, + 3; max 7).<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|3cost=240
+|3next=-
+|4name=Atk/Spd Prime 4
+|alt4name=Atk Spd Prime 4
+|4tagid=SID_攻撃速さの備え4
+|4effect=If【Bonus】is active on unit, grants Atk/Spd+X to unit during combat (X = number of【Bonus】effects active on unit, excluding stat bonuses, × 2, + 3; max 9), and also, if number of【Bonus】effects active on unit (excluding stat bonuses) ≥ 4, unit can counterattack regardless of foe's range during combat.<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|4cost=300
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Atk/Spd Prime 3}} Atk/Spd Prime 3
+|skill1 CombatEffect={{SkillEffectText|Temporary buffs|Atk/Spd|{{Kp|Bonus}} effects<br>active on {{SkillTargetText|Unit}} x 2, +3<br>(excluding {{SEt|Bonuses}})|max=7}}
+|skill1 CombatEffect Conditions=A {{Kp|Bonus}} effect<br>is active on {{SkillTargetText|Unit}}
+|skill2={{Si|Atk/Spd Prime 4}} Atk/Spd Prime 4
+|skill2 CombatEffect 1={{SkillEffectText|Temporary buffs|Atk/Spd|{{Kp|Bonus}} effects<br>active on {{SkillTargetText|Unit}} x 2, +3<br>(excluding {{SEt|Bonuses}})|max=9}}
+|skill2 CombatEffect 1 Conditions=A {{Kp|Bonus}} effect<br>is active on {{SkillTargetText|Unit}}
+|skill2 CombatEffect 2={{SkillEffectText|Counter}}
+|skill2 CombatEffect 2 Conditions=A {{Kp|Bonus}} effect<br>is active on {{SkillTargetText|Unit}}<br>'''&''' {{Kp|Bonus}} effects<br>active on {{SkillTargetText|Unit}}<br>(exc. {{SEt|Bonuses}}) ≥ 4
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{EffectfromBonus|temporary buffs and counterattack effects|nonStat=1}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Atk/Spd Prime 1;Atk/Spd Prime 2;Atk/Spd Prime 3
+|badgeColor=Azure
+|costs1=20;100;20
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|english=Atk/Spd Prime
+|japanese=攻撃速さの備え
+|german=A/G Auftakt
+|spanishEU=Ata/Vel Apresto
+|spanishLA=Prep. Atq./Vel.
+|french=Prélude Atq/Vit
+|italian=Zelo Att/Vel
+|chineseTW=攻擊速度的準備
+|portuguese=Zelo Atq./Vel.
+}}
+
+==See also== 
+{{See also skills|cond=(Description LIKE '%number of%Bonus%effects active on%' OR (Description LIKE '%counterattack regardless of%range%' AND SCategory!='Weapon')) AND ((Exclusive='1' AND Name NOT LIKE '%+') OR SCategory='captain')}}
+* [[Counter Passives]]
+* [[Counter Seals]]
+* [[Prime Passives]]
+* [[Weapons with Distant Counter]]
+* [[Weapons with Close Counter]]
+{{Passives Navbox|A}}
+{{Seals Navbox}}

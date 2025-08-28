@@ -1,0 +1,33 @@
+{{Weapon Infobox
+|tagid=SID_若獣の化身・歩行
+|weaponType=Beast
+|might=6
+|range=1
+|effect=At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 and deals +10 damage when Special triggers.
+|cost=100
+|canUseMove=Infantry
+|statModifiers=0,6,0,0,0
+|next=Adult (Infantry)
+|promotionRarity=4
+|promotionTier=1
+|required=Whelp (Infantry)
+|properties=random_all
+}}
+==Notes==
+{{Beast (Infantry)}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=若獣の化身・歩行
+|german=Jährling
+|spanishEU=Fiera joven
+|spanishLA=Fiera joven
+|french=Jeune (infant.)
+|italian=Giovane (fante)
+|chineseTW=若獸化身・步行
+|portuguese=Jovem (infant.)
+}}
+==See also==
+{{See also skills|cond=Next LIKE 'Adult%'}}
+{{Weapons Navbox}}

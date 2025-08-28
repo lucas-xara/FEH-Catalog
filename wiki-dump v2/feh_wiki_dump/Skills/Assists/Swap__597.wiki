@@ -1,0 +1,42 @@
+{{Assist
+|tagid=SID_入れ替え
+|name=Swap
+|range=1
+|effect=Unit and target ally swap spaces.
+|cost=150
+|exclusive=0
+|required=-
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_all,random_inherit_base
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|MapEffect 1={{Eft|Swap Units}}
+|MapEffect 1 Targets={{Tgt|Unit}} '''&'''<br>{{Tgt|Target Ally}}
+|MapEffect Conditions={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}
+}}
+
+==Notes==
+{{Movement skill notes|notBeforeRokkr=1}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==Trivia==
+*According to Sharena, the use of Swap appears near instantaneous to the units during battle.<ref>{{RefQuote|Until a second ago, I was in a forest. But then I suddenly found myself on a plain! Plus, I thought Alfonse was on a plain, but then I saw him in a forest! It was like we instantly swapped places!|Sharena, [https://guide.fire-emblem-heroes.com/en-US/015/ Learn with Sharena!]}}</ref>
+==In other languages==
+{{OtherLanguages
+|japanese=入れ替え
+|german=Rochade
+|spanishEU=Trocar
+|spanishLA=Intercambiar
+|french=Inversion
+|italian=Inversione
+|chineseTW=替換
+|portuguese=Troca
+}}
+==References==
+<references/>
+==See also==
+* [[Movement Assists]]
+{{Assists Navbox}}

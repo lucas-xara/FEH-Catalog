@@ -1,0 +1,60 @@
+{{Weapon Infobox
+|tagid=SID_魔器ナーストレンド
+|intID=3524
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=0
+|weaponType=Bow
+|cost=300
+|might=14
+|range=2
+|cooldown=-1
+|effectiveness=Flying
+|effect=Accelerates Special trigger (cooldown count-1). Effective against flying foes. If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit during combat, unit makes a guaranteed follow-up attack, reduces damage from foe's first attack during combat by 30%, and grants bonus to unit's Atk during combat = 12 - foe's max Special cooldown count value × 2 (min 4; if foe does not have a Special skill, bonus = 4).
+|statModifiers=0,14,0,0,0
+|required=Silver Bow
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=200
+|properties=arcane,random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce3={{Eft|Temporary buffs|Atk|12 - ({{Tgt|Foe}}'s max CD x 2)|min=4}}
+|Ce4={{Eft|Guaranteed Follow-Ups}}
+|Ce5={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s first attack
+|Ce2-5C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Guaranteed follow-up interaction}}
+{{DamagePercentageReduction}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=魔器ナーストレンド
+|german=Arkaner Náströnd
+|spanishEU=Náströnd arcano
+|spanishLA=Náströnd arcano
+|french=Náströnd arcane
+|italian=Náströnd arcano
+|chineseTW=魔器納斯特隆德
+|portuguese=Náströnd arcano
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%=%foe_s max special cooldown count value%') AND Exclusive='1'}}
+{{Weapons Navbox}}

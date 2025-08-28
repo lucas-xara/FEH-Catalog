@@ -1,0 +1,40 @@
+{{Special
+|tagid=SID_閉界
+|intID=3359
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=2
+|effect=Boosts Special damage by 25% of unit's Atk. If Special triggers, neutralizes "reduces damage by X%" effects from non-Special skills. Neutralizes effects that inflict "Special cooldown charge -X" on unit during combat.
+|required=Reprisal
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Damage Boost|25% of {{Tgt|Unit}}'s Atk}}
+|Ce2={{Eft|Neutralize Damage Reduction}}
+|Ce2T={{Tgt|Foe}}
+|Ce1-2C=Special triggers
+|Ce3={{Eft|Neutralize Guard}}
+}}
+==Notes==
+{{AtkDamageBoost}}
+{{DamageReductionNeutralization}}
+{{CooldownChargeMinusNeutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=閉界
+|german=Umgrenzung
+|spanishEU=Barrera
+|spanishLA=Barrera
+|french=Barricade
+|italian=Recinto
+|chineseTW=閉界
+|portuguese=Oclusão
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%disables%reduce%damage by x%' OR Description LIKE '%neutralizes%reduce%damage by x%') AND Description LIKE '%non-Special%' AND SCategory='special' AND Exclusive='1'}}
+{{Specials Navbox}}

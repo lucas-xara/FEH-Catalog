@@ -1,0 +1,56 @@
+{{Passive
+|type=S
+|exclusive=0
+|alt1name=Squad Ace B 1
+|alt2name=Squad Ace B 2
+|alt3name=Squad Ace B 3
+|1name=Squad Ace Q 1
+|1tagid=SID_第17迷宮の覇者1
+|1effect=Grants Def+1.
+|1cost=30
+|1next=-
+|2name=Squad Ace Q 2
+|2tagid=SID_第17迷宮の覇者2
+|2effect=Grants Def+2.
+|2cost=60
+|2next=-
+|3name=Squad Ace Q 3
+|3tagid=SID_第17迷宮の覇者3
+|3effect=Grants Def+3.
+|3cost=120
+|statModifiers1=0,0,0,1,0
+|statModifiers2=0,0,0,2,0
+|statModifiers3=0,0,0,3,0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=
+}}
+==Seal acquired from==
+===Squad Assault reward===
+* Complete the [[17th Assault]].
+===Sacred Seal Forge===
+{{SealCosts
+|seals=Squad Ace Q 1;Squad Ace Q 2;Squad Ace Q 3
+|badgeColor=Verdant 
+|costs1=-
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=第１７迷宮の覇者
+|german=Überfall-Ass Q
+|spanishEU=As del asalto Q
+|spanishLA=As del asalto Q
+|french=Assaut réussi Q
+|italian=Asso squadra Q
+|chineseTW=第１７迷宮的霸王
+|portuguese=Esquadrão ás Q
+}}
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}
+[[Category:Squad Ace Seals]]

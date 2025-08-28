@@ -1,0 +1,35 @@
+{{SkillPage Tabs}}{{Passive
+|name=Solitary Dream
+|type=C
+|exclusive=1
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|1name=Solitary Dream
+|1tagid=SID_ひとりぼっちのゆめ
+|1effect=At start of turn, if unit is adjacent to only dragon allies or if unit is not adjacent to any ally, grants Atk/Spd/Def/Res+4 to unit and unit can move 1 extra space. (That turn only. Does not stack.)
+|1required=-
+|1cost=300
+|properties=random_owner
+}}
+==Notes==
+{{Bonuses}}
+{{March}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+*
+==In other languages==
+{{OtherLanguages
+|japanese=ひとりぼっちのゆめ
+|german=Einsamer Traum
+|spanishEU=Sueño solitario
+|spanishLA=Sueño solitario
+|french=Rêve solitaire
+|italian=Sogno solitario
+|chineseTW=孤單的夢
+|portuguese=Sonho solitário
+}}
+
+==See also==
+* [[Armored Stride]]
+{{Passives Navbox|C}}

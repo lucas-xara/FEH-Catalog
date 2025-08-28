@@ -1,0 +1,41 @@
+{{Assist
+|tagid=SID_ユラリユルレリ・承
+|intID=2991
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=400
+|range=1
+|effect=Grants another action to target ally, and if target is an infantry or flying ally, grants 【Null Panic】to target and target can move 1 extra space. (That turn only. Does not stack. Cannot target an ally with Sing or Dance. This skill treated as Sing or Dance.)<br><br>【Null Panic】<br>If unit is inflicted with Panic (bonuses converted into penalties), neutralizes the "converts bonuses on target into penalties" effect for 1 turn. (Even though the effect is neutralized, the Panic status remains, and is treated as a Penalty status.)
+|required=Gray Waves
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Another Action}}
+|MeT={{Tgt|Target Ally}}
+|MeC={{Tgt|Target Ally}}<br>doesn't have a<br>{{Uti|Dance}} [[Dance Assist]]<br>'''or''' {{SEt|Isolation}}
+|Se1={{SEt|Null Panic}}
+|SeT={{Mt|Infantry}}<br>'''or''' {{Mt|Flying}}<br>{{Tgt|Target Ally}}
+|Se2={{SEt|Mobility increased}}
+|SeC={{Tgt|Target Ally}}<br>doesn't have a<br>{{Uti|Dance}} [[Dance Assist]]<br>'''or''' {{SEt|Isolation}}
+}}
+==Notes==
+{{Null Panic}}
+{{Mobility increased}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ユラリユルレリ・承
+|german=Graue Wellen II
+|spanishEU=Grises olas II
+|spanishLA=Grises olas II
+|french=Vagues grises II
+|italian=Grigie onde II
+|chineseTW=悠悠搖曳・承
+|portuguese=Ondas cinza II
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【Null Panic】%' AND Exclusive=1 OR Description LIKE '%This skill treated as Sing or Dance%'|columns=3}}
+{{Assists Navbox}}

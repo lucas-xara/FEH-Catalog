@@ -1,0 +1,45 @@
+{{Weapon Infobox
+|tagid=SID_怒雷の紫書
+|intID=3041
+|userVersion1=Closed
+|userVersion2=Open
+|exclusive=1
+|weaponType=Colorless Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At the start of turns 1 through 3 or if unit's HP < 100% at start of turn, grants Special cooldown count-1 to unit. During turns 1-3, or if unit's HP < 100% at start of combat, grants Atk/Spd+6 to unit during combat, and also, if Special triggers (excluding area-of-effect Specials), deals +7 damage and neutralizes "reduces damage by X%" effects from non-Special skills.
+|statModifiers=0,14,0,0,0
+|required=Atlas (weapon)
+|properties=random_owner
+}}
+==Notes==
+{{Start of turn Special modification}}
+{{Temporary buffs}}
+{{FlatDamage|special=1|7}}
+{{DamageReductionNeutralization}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V6.4_v0604b_seisen_Mag.webp|Sprite sheet for {{St|Fiery Bolganone}} and {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=怒雷の紫書
+|japaneseNotes=''Violet Tome of Raging Thunder''
+|german=Donnerbuch
+|spanishEU=Grimorio rugiente
+|spanishLA=Grimorio rugiente
+|french=Tome retentissant
+|italian=Tomo rombante
+|chineseTW=怒雷的紫書
+|portuguese=Tomo trovoso
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%at start of turn%if unit_s HP%special cooldown count-1%' OR (Description LIKE '%disables%reduce%damage by x%' OR Description LIKE '%neutralizes%reduce%damage by x%') AND Description LIKE '%non-Special%' AND Description NOT LIKE '%reduces the percentage%'}}
+* [[Weapons that boost Special damage]]
+{{Weapons Navbox}}

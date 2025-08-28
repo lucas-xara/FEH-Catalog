@@ -1,0 +1,31 @@
+{{Captain Skill
+|name=Piercing Cold
+|effect=At start of turns 2 through 5, if captain is within 6 spaces of a foe, inflicts Spd-7 and【Frozen】 on closest foes to captain and foes within 2 spaces of those foes.<br><br>【Frozen】<br>Reduces inflicted unit's follow-up ability and increases foe's follow-up ability through unit's next action:<br><br>Increases Spd difference necessary for unit to make a follow-up attack by X and decreases Spd difference necessary for foe to make a follow-up attack by X during combat (if foe's Def > unit's Def, X = 10 + difference between Def stats × 2; otherwise, X = 10). (For example, if Spd difference necessary increases by 10, Spd must be ≥ 15 more than foe's Spd to make a follow-up attack; stacks with similar skills.)
+|statModifiers=
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{Eft|Penalties|Spd|7}}
+|Se2={{SEt|Frozen}}
+|SeT=Closest {{Tgt|Foes}}<br>[[within 6 spaces]]<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}
+|SeC=At start of turns 2-5<br>if {{Tgt|Captain}} is<br>[[within 6 spaces]]<br>of a {{Tgt|Foe}}
+}}
+==Notes==
+{{Penalties}}
+{{Frozen}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【Frozen】%' AND Exclusive='1'}}
+* [[Menace Passives]]
+{{Captain Skills Navbox}}

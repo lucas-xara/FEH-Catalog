@@ -1,0 +1,73 @@
+{{#invoke:NameAbout|main|Name=Malice}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Malice
+|Title=Blooming Blade
+|WeaponType=Red Sword
+|MoveType=Infantry
+|Origin=Fire Emblem: New Mystery of the Emblem
+|Gender=Female
+|actorEN=Giselle Fernandez
+|actorJP=田村睦心
+|artist=チーコ
+|additionDate=January 17, 2025
+|releaseDate=January 17, 2025
+|cv1=1
+|cv2=4900500
+|TagID=ジャハナマリス
+|InternalID=1199
+|Properties=special
+|description=A mercenary who wields a sword as easily as water flows through a stream. She sets her sights on making money at the Jehanna festival. Appears in Fire Emblem: New Mystery of the Emblem.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=11|Lv1SPD=9|Lv1DEF=11|Lv1RES=7
+|GRHP=50|GRATK=75|GRSPD=90|GRDEF=55|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Swirling Scimitar
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Glimmer
+|special2Unlock=4
+|special3=Gust
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Prime 1
+|passiveA2=Atk/Spd Prime 2
+|passiveA3=Atk/Spd Prime 3
+|passiveA4=Atk/Spd Prime 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Atk/Spd Bulwark 1
+|passiveB2=Atk/Spd Bulwark 2
+|passiveB3=Atk/Spd Bulwark 3
+|passiveB4=A/S Spiked Wall
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Desert Festival units]]

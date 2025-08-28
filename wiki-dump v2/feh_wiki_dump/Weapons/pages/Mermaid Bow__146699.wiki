@@ -1,0 +1,46 @@
+{{Weapon Infobox
+|tagid=SID_海泳ぐ人魚の弓
+|weaponName=Mermaid Bow
+|weaponType=Bow
+|userVersion1=Bow
+|userVersion2=Arrow
+|might=14
+|range=2
+|effectiveness=Armored,Flying
+|effect=Effective against flying and armored foes. Grants Atk+3. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+6 to unit during combat and calculates damage using the lower of foe's Def or Res, and also, if unit initiates combat, unit's Spd > foe's Spd, and unit has weapon-triangle advantage, unit attacks twice.
+|cost=400
+|exclusive=1
+|statModifiers=0,17,0,0,0
+|required=Silver Bow
+|intID=2682
+|sort=571
+|value=20
+|timingID=1
+|abilityID=90
+|limit1ID=42
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|flying,armored}}
+{{Combat boosts}}
+{{LowerDefRes}}
+{{IfUnitInitiates}}
+{{WTA}}
+{{Brave weapon interaction}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=海泳ぐ人魚の弓
+|german=Nixenbogen
+|spanishEU=Arco de sirena
+|spanishLA=Arco de sirena
+|french=Arc de sirène
+|italian=Arco della sirena
+|chineseTW=游海人魚之弓
+|portuguese=Arco de sereia
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%calculates damage using%lower of foe_s Def or Res%' AND Description NOT LIKE '%foe_s range = 2%' OR Description LIKE '%and%unit initiates combat%unit attacks twice%' OR Description LIKE '%unit has weapon-triangle advantage,%attack%' AND Description NOT LIKE '%disadvantage%'|columns=3}}
+{{Weapons Navbox}}

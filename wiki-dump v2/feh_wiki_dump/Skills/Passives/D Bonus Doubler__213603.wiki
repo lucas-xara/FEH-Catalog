@@ -1,0 +1,48 @@
+{{Passive
+|name=D Bonus Doubler
+|type=A
+|exclusive=0
+|canUseWeapon={{WeaponList|Close}}
+|canUseMove={{MoveList|Infantry}}
+|properties=random_owner
+|1name=D Bonus Doubler
+|1tagid=SID_遠反・強化増幅
+|1effect=Unit can counterattack regardless of foe's range. Grants Atk/Spd/Def/Res+X to unit during combat (X = highest bonus on each stat between unit and allies within 2 spaces of unit; calculates each stat bonus independently).
+|1cost=300
+|1required=Distant Counter
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{Eft|Distant Counter}}
+|CombatEffect 2={{Eft|Temporary buffs|Atk/Spd/Def/Res|highest {{SEt|Bonus}}<br>on {{Tgt|Unit}} & {{Tgt|Allies}}<br>[[within 2 spaces]]}}
+}}
+
+==Notes==
+{{TemporaryBufffromBonus|multiSource=1|source=unit or allies with the highest bonuses}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=遠反・強化増幅
+|german=Bonus-Doppler F
+|spanishEU=Bonif. doble larga
+|spanishLA=Bonific. doble lej.
+|french=Amplification dist.
+|italian=Aum. bonus D
+|chineseTW=遠反・強化增幅
+|portuguese=Dobra bônus D
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%Atk/Spd/Def/Res%=%highest bonus on%allies%within _ spaces%' AND Exclusive='1' AND Description NOT LIKE '%grants allies within _ spaces%' OR Description LIKE '%counterattack regardless of%range%' AND (SCategory!='Weapon' AND Name NOT LIKE 'Distant%' AND Name NOT LIKE 'Close%') AND (Exclusive='1' OR SCategory='captain')}}
+* [[Counter Passives]]
+* [[Counter Seals]]
+* [[Prime Passives]]
+* [[Weapons with Distant Counter]]
+* [[Weapons with Close Counter]]
+{{Passives Navbox|A}}

@@ -1,0 +1,38 @@
+{{Weapon Infobox
+|tagid=SID_ベルクトの槍
+|weaponType=Lance
+|weaponName=Berkut's Lance
+|might=10
+|range=1
+|effect=If foe initiates combat, grants Res+4 during combat.
+|cost=200
+|exclusive=0
+|statModifiers=0,10,0,0,0
+|next=Berkut's Lance+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Lance
+|properties=
+}}
+==Notes==
+* Has the same effect as {{St|Warding Stance 2}}.
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ベルクトの槍
+|german=Berkuts Lanze
+|spanishEU=Lanza Berkut
+|spanishLA=Lanza Berkut
+|french=Lance Berkut
+|italian=Lancia di Berkut
+|chineseTW=貝爾克特之槍
+|portuguese=Lança Berkut
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe initiates combat, grants Res+%during combat%' AND WikiName NOT LIKE '%barrier%'|columns=3}}
+* [[Skill families#Barrier|Barrier Weapons]]
+* [[Skill families#Guard (combat boosts)|Guard Weapons]]
+{{Weapons Navbox}}

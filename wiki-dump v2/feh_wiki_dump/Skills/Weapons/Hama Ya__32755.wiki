@@ -1,0 +1,39 @@
+{{Weapon Infobox
+|tagid=SID_破魔矢
+|weaponType=Bow
+|weaponName={{PAGENAME}}
+|might=8
+|range=2
+|effectiveness=flying
+|effect=Effective against flying foes.<br>Grants Def/Res+2 to allies within 2 spaces during combat.
+|cost=200
+|exclusive=0
+|userVersion1=Bow|userVersion2=Arrow|statModifiers=0,8,0,0,0
+|next=Hama Ya+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Bow
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{Combat boosts}}
+{{AlliesCombatEffect|effect=combat boost}}
+
+==List of owners==
+{{Skill Hero List}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=破魔矢
+|german=Hamaya
+|spanishEU=Hama Ya
+|spanishLA=Hama Ya
+|french=Hama Ya
+|italian=Hama Ya
+|chineseTW=破魔箭
+|portuguese=Hama Ya
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%Grants Def/Res+2 to allies within 2 spaces during combat.%'}}{{Weapons Navbox}}
+[[Category:Happy New Year! weapons]]

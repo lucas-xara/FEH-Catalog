@@ -1,0 +1,46 @@
+{{Special
+|tagid=SID_砂陣
+|intID=4337
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=4
+|effect=Boosts damage by 80% of unit's Def and calculates damage using 150% of unit's Def instead of the value of unit's Atk when Special triggers.<br><br>Reduces damage from attacks by percentage = 40 - current Special cooldown count value × 10 during combat.<br><br>If unit's Def > foe's Def, decreases Spd difference necessary for unit to make a follow-up attack by X and increases Spd difference necessary for foe to make a follow-up attack by X during combat (X = difference between Def stats; max 10; for example, if Spd difference necessary increases by 10, Spd must be ≥ 15 more than foe's Spd to make a follow-up attack; stacks with similar skills).
+|required=Ignis
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Damage Boost|80% of {{Tgt|Unit}}'s Def}}
+|Ce2={{Eft|Damage Calculation|150% of {{Tgt|Unit}}'s Def}}
+|Ce1-2C=Special triggers
+|Ce3={{Eft|Damage Reduction|40 - {{Tgt|Unit}}'s<br>current Special CD x 10|percent=1}}<br>from {{Tgt|Foe}}'s attacks
+|Ce4={{Eft|Spd Difference Decrease|max=10|{{Tgt|Unit}}'s Def - {{Tgt|Foe}}'s Def}}
+|Ce5={{Eft|Spd Difference Increase|max=10|{{Tgt|Unit}}'s Def - {{Tgt|Foe}}'s Def}}
+|Ce5T={{Tgt|Foe}}
+|Ce4-5C={{Tgt|Unit}}'s Def<br>> {{Tgt|Foe}}'s Def
+}}
+
+==Note==
+{{DamageBoost}}
+{{SingleStatDamageCalc}}
+{{DamagePercentageReduction}}
+{{SpdDiffDecrease}}
+{{SpdDiffIncrease}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(SCategory='special' AND (Description LIKE '%of unit_s Def%') OR Description LIKE '%reduces damage from%-% current Special cooldown count value%' OR Description LIKE '%increases the Spd difference necessary%to make a follow-up attack by%' OR Description LIKE '%calculates damage using%instead%of unit_s Atk%') AND Exclusive='1'}}
+{{Specials Navbox}}

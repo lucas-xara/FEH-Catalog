@@ -1,0 +1,40 @@
+{{Weapon Infobox
+|tagid=SID_魔獣の書
+|intID=2742
+|userVersion1=Closed
+|userVersion2=Open
+|exclusive=1
+|weaponType=Blue Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effectiveness=Dragon,Beast
+|effect=Effective against dragon and beast foes. Accelerates Special trigger (cooldown count-1). At start of turn, if Special cooldown count is at its maximum value, grants Special cooldown count-1. At start of combat, if unit's HP ≥ 25%, grants Atk/Res+6 to unit during combat.
+|statModifiers=0,14,0,0,0
+|required=Thoron;Shine
+|properties=random_owner
+}}
+==Notes==
+* Has the same effect as {{St|Time's Pulse 3}}.
+{{Effective damage bonus|dragon,beast}}
+{{Start of turn Special modification}}
+{{Combat boosts}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=魔獣の書
+|german=Dämonenbuch
+|spanishEU=Gr. demoníaco
+|spanishLA=Gr. demoníaco
+|french=Tome de démon
+|italian=Tomo demoniaco
+|chineseTW=魔獸之書
+|portuguese=Tomo demoníaco
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=WeaponEffectiveness='Dragon,Beast' OR Description LIKE '%Special cooldown count%at its maximum value%' OR Description LIKE '%Accelerates Special trigger%grants Atk/Res+6%'|columns=3}}
+{{Weapons Navbox}}

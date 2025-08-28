@@ -1,0 +1,66 @@
+{{#invoke:NameAbout|main|Name=Delthea}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Delthea
+|Title=Tatarrah's Puppet
+|WeaponType=Blue Tome
+|MoveType=Infantry
+|Origin=Fire Emblem Echoes: Shadows of Valentia
+|Gender=Female
+|artist=海鵜げそ
+|actorEN=Christine Marie Cabanos
+|actorJP=鈴木絵理
+|additionDate=2019-05-09
+|releaseDate=2019-05-12
+|TagID=催眠デューテ
+|InternalID=376
+|Properties=fallen,limited,ghb,tiara
+|cv1=2
+|cv2=300200
+|description=A naturally gifted mage who has fallen under the control of Tatarrah, of the Duma Faithful. Appears in Fire Emblem Echoes: Shadows of Valentia.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=10|Lv1SPD=9|Lv1DEF=4|Lv1RES=6
+|GRHP=55|GRATK=60|GRSPD=55|GRDEF=35|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Thunder
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elthunder
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Thoron
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Death
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Glacies
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Death Blow 1
+|passiveA2=Death Blow 2
+|passiveA3=Death Blow 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Even Atk Wave 1
+|passiveC2=Even Atk Wave 2
+|passiveC3=Even Atk Wave 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

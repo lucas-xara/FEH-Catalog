@@ -1,0 +1,86 @@
+{{#invoke:NameAbout|main|Name=Sothis|Name2=Byleth}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Sothis
+|Title=Bound-Spirit Duo
+|WeaponType=Blue Breath
+|MoveType=Flying
+|Origin=Fire Emblem: Three Houses
+|Gender=FM
+|duo=Grants【Null Follow-Up】to unit and allies within 2 spaces. If unit or any ally within 2 spaces has their Special cooldown count at its maximum value, grants them Special cooldown count-1.<br><br>Once used, Duo Skill cannot be activated again right away. At start of odd-numbered turns, if Duo Skill has already been used, unit can use Duo Skill again.<br><br>【Null Follow-Up】<br>If unit's Spd > foe's Spd during combat, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks for 1 turn.
+|secondPerson=Byleth M
+|Duel=195
+|actorEN=Cassandra Lee Morris,Zach Aguilar
+|actorJP=黒沢ともよ,小林裕介
+|actorJPDelimiter=&
+|artist=azuタロウ
+|additionDate=October 6, 2021
+|releaseDate=October 7, 2021
+|cv1=12
+|cv2=100300
+|TagID=比翼ソティス
+|InternalID=713
+|Properties=special,duo,hat,tiara,specRate_202502
+|description=A mysterious girl who appeared to Byleth only in dreams now joins him in reality for the harvest festival. They appear in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=6|Lv1SPD=9|Lv1DEF=7|Lv1RES=4
+|GRHP=50|GRATK=70|GRSPD=75|GRDEF=55|GRRES=70
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire Breath
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Fire Breath+
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Flametongue
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Eerie Scripture
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Daylight
+|special1Default=4
+|special1Unlock=3
+|special2=Noontime
+|special2Unlock=4
+|special3=Sirius
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Solo 1
+|passiveA2=Atk/Spd Solo 2
+|passiveA3=Atk/Spd Solo 3
+|passiveA4=Atk/Spd Solo 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Dragon's Wrath 1
+|passiveB2=Dragon's Wrath 2
+|passiveB3=Dragon's Wrath 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Atk/Spd Rein 1
+|passiveC2=Atk/Spd Rein 2
+|passiveC3=Atk/Spd Rein 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Sources of guaranteed follow-up neutralization]]
+[[Category:Sources of follow-up prevention neutralization]]
+[[Category:Sources of Null Follow-Up]]
+[[Category:Sources of status effects]]
+[[Category:Sources of Special cooldown count modifications out of combat]]
+[[Category:Halloween units]]

@@ -1,0 +1,92 @@
+{{Passive
+|name=Spd/Def Rein
+|type=C
+|exclusive=0
+|canUseMove={{MoveList|Flying}}
+|canUseWeapon={{WeaponList|All}}
+|effectRange=2
+|timingID=2
+|abilityID=97
+|randomTimestamp=2020-10-18T07:00:00Z
+|properties=random_owner
+|1name=Spd/Def Rein 1
+|1tagid=SID_速さ守備の牽制1
+|1effect=Inflicts Spd/Def-2 on foes within 2 spaces during combat.
+|1required=-
+|1cost=60
+|1promotionRarity=4
+|1promotionTier=1
+|alt1name=Spd Def Rein 1
+|intID1=2237
+|sort1=4530
+|value1=2
+|randomMinLv1=21
+|randomMaxLv1=30
+|2name=Spd/Def Rein 2
+|2tagid=SID_速さ守備の牽制2
+|2effect=Inflicts Spd/Def-3 on foes within 2 spaces during combat.
+|2required=Spd/Def Rein 1
+|2cost=120
+|2promotionRarity=5
+|2promotionTier=1
+|alt2name=Spd Def Rein 2
+|intID2=2238
+|sort2=4531
+|value2=4
+|randomMinLv2=26
+|randomMaxLv2=35
+|3name=Spd/Def Rein 3
+|3tagid=SID_速さ守備の牽制3
+|3effect=Inflicts Spd/Def-4 on foes within 2 spaces during combat.
+|3required=Spd/Def Rein 2
+|3cost=240
+|alt3name=Spd Def Rein 3
+|intID3=2239
+|sort3=4532
+|value3=6
+|randomMinLv3=31
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce={{Eft|Temporary debuffs|Spd/Def|4}}
+|CeT={{Tgt|Foes}}<br>[[within 2 spaces]]
+}}
+==Notes==
+{{Temporary debuffs}}
+{{FoesCombatEffect|effect=temporary debuffs}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Spd/Def Rein 1;Spd/Def Rein 2;Spd/Def Rein 3
+|badgeColor=Verdant
+|costs1=20;100;40
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|english=Spd/Def Rein
+|japanese=速さ守備の牽制
+|german=Ges./Ver.-Zügel
+|spanishEU=Amarra Vel/Def
+|spanishLA=Amarra Vel./Def.
+|french=Bride Vit/Déf
+|italian=Briglia Vel/Dif
+|chineseTW=速度防守牽制
+|portuguese=Rédea Vel./Def.
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%inflicts%Spd/Def%-%on foes within _ spaces during combat%' AND WikiName NOT LIKE '%Rein%' AND Exclusive='1'}}
+* [[Rein Passives]]
+* [[Skill families/Weapons#Rein_.28weapons.29|Rein Weapons]]
+{{Seals Navbox}}
+{{Passives Navbox|C}}

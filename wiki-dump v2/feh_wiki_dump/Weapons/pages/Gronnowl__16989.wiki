@@ -1,0 +1,39 @@
+{{Weapon Infobox
+|tagid=SID_グルンアウル
+|weaponType=Green Tome
+|might=6
+|range=2
+|effect=During combat, boosts unit's Atk/Spd/Def/Res by number of adjacent allies × 2.
+|cost=200
+|exclusive=0
+|userVersion1=Closed
+|userVersion2=Open
+|statModifiers=0,6,0,0,0
+|next=Gronnowl+
+|promotionRarity=5
+|promotionTier=1
+|required=Elwind
+|SE=se_effect_bird02.flac
+|properties=random_all
+}}
+==Notes==
+{{Combat boosts}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{TomeColorTrivia|gronn}}
+==In other languages==
+{{OtherLanguages
+|japanese=グルンアウル
+|german=Gronneule
+|spanishEU=Búho glauco
+|spanishLA=Búho jade
+|french=Ailes émeraude
+|italian=Viridegufo
+|chineseTW=翠綠夜梟
+|portuguese=Coruja jade
+}}
+==See also==
+* [[Owl Weapons]]
+{{Weapons Navbox}}
+[[Category:Owl weapons]]

@@ -1,0 +1,47 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_アミーテ
+|weaponType=Sword
+|might=11
+|range=1
+|effect=Inflicts Spd-2. If unit initiates combat, unit attacks twice.
+|cost=400
+|exclusive=Yes
+|userVersion1=Weapon
+|userVersion2=Upgrade Gleam
+|statModifiers=0,11,-2,0,0
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If unit initiates combat, grants Atk/Spd+4 during combat.
+|iconSkill1=Swift Sparrow W.png
+|tagidExtraSkill1=一
+|refineStatsAtk=5,1,0,0,0
+|required=Silver Sword
+|properties=random_owner
+}}
+==Notes==
+{{Brave weapon interaction}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+* The upgraded version of Amiti listed first has the same effect as {{St|Swift Sparrow 2}}.
+{{Combat boosts}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=アミーテ
+|german=Amiti
+|spanishEU=Amiti
+|spanishLA=Amiti
+|french=Amiti
+|italian=Amiti
+|chineseTW=亞米特
+|portuguese=Amiti
+}}
+==See also==
+* [[Brave Weapons]]
+* [[Mögþrasir]]
+* [[Cordelia's Lance]]
+{{Weapons Navbox}}

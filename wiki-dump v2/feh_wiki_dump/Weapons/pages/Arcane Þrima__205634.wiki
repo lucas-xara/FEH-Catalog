@@ -1,0 +1,74 @@
+{{Weapon Infobox
+|tagid=SID_魔器スリマ
+|intID=3899
+|image=wep_ax142
+|exclusive=0
+|weaponType=Axe
+|cost=300
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of turn, if unit's HP ≥ 25%, inflicts Atk/Def-6 on closest foes and foes within 2 spaces of those foes through their next actions. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit, inflicts Atk/Spd/Def/Res-X on foe (X = highest penalty on each stat between target and foes within 2 spaces of target; calculates each stat penalty independently), neutralizes effects that grant "Special cooldown charge +X" to foe or inflict "Special cooldown charge -X" on unit during combat, and also, if unit's Spd > foe's Spd, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat.
+|required=Silver Axe
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=200
+|properties=arcane,random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|PermanentEffect={{Eft|Accelerates Special}}
+|StatusEffect={{Eft|Penalties|Atk/Def|6}}
+|StatusEffect Targets=Closest {{Tgt|Foes}}<br>[[within 5 spaces]]<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}
+|StatusEffect Conditions=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25%
+|CombatEffect 1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|CombatEffect 2={{Eft|Neutralize Guard}}
+|CombatEffect 3={{Eft|Temporary debuffs|Atk/Spd/Def/Res|highest {{SEt|Penalties}}<br>on {{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]] of {{Tgt|Target Foe}}}}
+|CombatEffect 4={{Eft|Neutralize Accelerate Charge}}
+|CombatEffect 3-5 Targets={{Tgt|Foe}}
+|CombatEffect 1-4 Conditions={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|CombatEffect 5={{Eft|Neutralize Guaranteed Follow-Ups}}
+|CombatEffect 6={{Eft|Neutralize Prevent Follow-Ups}}
+|CombatEffect 6 Targets={{Tgt|Unit}}
+|CombatEffect 5-6 Conditions={{Tgt|Unit}}'s HP ≥ 25% '''&'''<br>{{Tgt|Unit}}'s Spd ><br>{{Tgt|Foe}}'s Spd
+}}
+
+==Notes==
+{{Penalties}}
+{{Temporary buffs}}
+{{TemporaryDebufffromPenalty|source=the foe or foes within 2 spaces of foe}}
+{{CooldownChargePlusNeutralization}}
+{{CooldownChargeMinusNeutralization}}
+{{Follow-up effect neutralization}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Trivia==
+{{NorseMyth|name=Þrima|(Old Norse for "Fight") is a valkyrie.}}
+==In other languages==
+{{OtherLanguages
+|japanese=魔器スリマ
+|german=Arkane Þrima
+|spanishEU=Þrima arcana
+|spanishLA=Þrima arcana
+|french=Þrima arcane
+|italian=Þrima arcana
+|chineseTW=魔器斯利瑪
+|portuguese=Þrima arcano
+}}
+
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%at start of turn%inflicts%-%est%and foes within _ spaces of those foes%' OR Description LIKE '%between target and foes within 2 spaces of target%' OR Description LIKE '%foe within 2 spaces of target, including target%') AND Exclusive='1'}}
+* [[Sabotage Passives]]
+* [[Tempo Passives]]
+{{Weapons Navbox}}

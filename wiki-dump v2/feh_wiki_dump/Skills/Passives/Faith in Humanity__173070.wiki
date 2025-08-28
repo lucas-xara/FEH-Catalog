@@ -1,0 +1,35 @@
+{{Passive
+|type=C
+|name=Faith in Humanity
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Faith in Humanity
+|1tagid=SID_人の可能性を信じる
+|1cost=300
+|1effect=At start of turn, if unit is within 3 spaces of allies other than dragon or beast allies, grants Atk/Spd+6 to unit and those allies for 1 turn. If 2 or more allies on your current team other than dragon or beast allies have total bonuses ≥ 10 (excluding unit), neutralizes effects that grant "Special cooldown charge +X" to foe or inflict "Special cooldown charge -X" on unit.
+|1required=-
+}}
+==Notes==
+{{TermRefersTo|Dragon|Dragonstone}}
+{{TermRefersTo|Beast}}
+{{Bonuses}}
+{{CooldownChargePlusNeutralization}}
+{{CooldownChargeMinusNeutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=人の可能性を信じる
+|german=Vertrauen
+|spanishEU=Fe en el prójimo
+|spanishLA=Humanidad
+|french=Foi en autrui
+|italian=Fede negli altri
+|chineseTW=相信人類的可能性
+|portuguese=Fé nos humanos
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%at start of turn%grants%to unit and%allies%for 1 turn%' AND WikiName NOT LIKE '%joint%'|columns=3}}
+{{Passives Navbox|C}}

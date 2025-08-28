@@ -1,0 +1,47 @@
+{{Weapon Infobox
+|tagid=SID_剣闘士の剛剣
+|weaponType=Sword
+|might=16
+|range=1
+|effect=If unit’s Atk > foe’s Atk, grants Special cooldown charge +1 per unit's attack. (Only highest value applied. Does not stack.)
+|cost=400
+|exclusive=1
+|userVersion1=Weapon
+|userVersion2=Gleam
+|statModifiers=0,16,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If unit is within 2 spaces of a flying or infantry ally, grants Atk/Spd+4 during combat.
+|iconSkill1=Gladiators Blade W.png
+|tagidExtraSkill1=絆
+|properties=
+}}
+==Notes==
+* Has the same effect as {{St|Heavy Blade 3}}.
+{{CooldownChargePlus|perAttack=user}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Combat boosts}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|攻撃速さの絆R歩飛|Attack Speed Bond R Infantry Flier}}
+* The border and the hilt of the Gladiator's Blade is identical to the sword featured in Ogma's attack, special, and damaged artwork, but the blade is different.
+==In other languages==
+{{OtherLanguages
+|japanese=剣闘士の剛剣
+|german=Gladiatorenklinge
+|spanishEU=Espada gladiador
+|spanishLA=Espada gladiador
+|french=Épée gladiateur
+|italian=Lama gladiatore
+|chineseTW=劍鬥士的剛劍
+|portuguese=Espada gladiador
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If unit_s ___ > foe_s ___, grants Special cooldown charge +1 per unit_s attack%'}}
+{{Weapons Navbox}}

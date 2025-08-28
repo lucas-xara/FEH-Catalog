@@ -1,0 +1,36 @@
+{{Weapon Infobox
+|tagid=SID_ハンドベル
+|weaponType=Axe
+|weaponName={{PAGENAME}}
+|might=10
+|range=1
+|effect=If foe initiates combat, grants Atk/Spd/Def/Res+2 during combat.
+|cost=200
+|exclusive=0
+|statModifiers=0,10,0,0,0
+|next=Handbell+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Axe
+|properties=
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Combat boosts}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ハンドベル
+|german=Handglocke
+|spanishEU=Campanitas
+|spanishLA=Campanitas
+|french=Cloche
+|italian=Campanella
+|chineseTW=手鐘
+|portuguese=Sineta
+}}
+==See also==
+* [[Winter's Envoy Weapons]]
+{{Weapons Navbox}}
+[[Category:Winter's Envoy weapons]]

@@ -1,0 +1,67 @@
+{{Special
+|tagid=SID_天与の魔道・承
+|intID=3955
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=2
+|effect=Before combat this unit initiates, foes in an area near target take damage equal to (unit's Atk - foe's Def or Res). After combat, if unit's Special triggered, grants【Canto (１)】 to unit and allies within 3 rows or 3 columns centered on unit for 1 turn (granted even if unit's HP reaches 0).<br><br>【Canto (１)】<br>After an attack, Assist skill, or structure destruction, unit can move １ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|required=Gifted Magic
+|properties=aoe_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|MapEffect={{Eft|Damage|{{Tgt|Unit}}'s Atk<br>- {{Tgt|Foe}}'s Def/Res}}
+|MapEffect Targets={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[adjacent]] to {{Tgt|Target Foe}}
+|MapEffect Conditions=Special triggers<br>before combat
+|StatusEffect={{SEt|Canto (1)}}
+|StatusEffect Targets={{Tgt|Unit}} '''&''' {{Tgt|Allies}} in<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|StatusEffect Conditions=After combat if<br>Special triggered
+}}
+
+==Notes==
+{{AoE Special notes}}
+{{After combat note}}
+{{Canto|1|statusEffect=1}}
+{{Main|Area-of-effect Specials}}
+{|class="wikitable default mw-collapsible" style="text-align:center"
+!colspan=2|Example of Area-of-effect for Gifted Magic II
+|-
+!{{SCi|Special}} Special
+|align="middle"|{{AoE|special=1
+|-----
+|--x--
+|-xtx-
+|--x--
+|-----
+}}
+|-
+!{{SEt|Canto (1)}}
+|align="middle"|{{AoE|u=Lilina: Firelight Leader|t=Roy: Blazing Lion
+|---xxx---
+|---xxx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xtx---
+|---xxx---
+}}
+|}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=天与の魔道・承
+|german=Mag. Begabung II
+|spanishEU=Magia prodig. II
+|spanishLA=Magia prodig. II
+|french=Don de magie II
+|italian=Magia prodig. II
+|chineseTW=魔道天賦・承
+|portuguese=Magia prodigi. II
+}}
+{{Specials Navbox}}

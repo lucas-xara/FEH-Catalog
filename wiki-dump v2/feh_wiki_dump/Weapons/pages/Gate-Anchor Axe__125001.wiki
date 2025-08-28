@@ -1,0 +1,90 @@
+{{Weapon Infobox
+|tagid=SID_波閉ざす錨の斧
+|image=wep_ax070
+|weaponType=Axe
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br>If unit is not adjacent to an ally, grants Def/Res+5 to unit and inflicts Def/Res-5 on foe during combat and unit makes a guaranteed follow-up attack.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Silver Axe
+|intID=2173
+|sort=435
+|value=20
+|timingID=1
+|abilityID=140
+|limit1ID=19
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Enables【Canto (Dist. +1; Max ４)】.<br>Accelerates Special trigger (cooldown count-1).<br><br>If unit initiates combat or if the number of allies adjacent to unit ≤ 1, grants Def/Res+5 to unit, inflicts Def/Res-5 on foe, unit makes a guaranteed follow-up attack, and grants Special cooldown count-X to unit before unit's first attack during combat (X = number of spaces from start position to end position of whoever initiated combat; max 3).<br><br>【Canto (Dist. +1; Max ４)】<br>After an attack, Assist skill, or structure destruction, unit can move spaces = number of spaces from start position to end position of unit before the above, +1. (Max ４.)
+|effectSkill1=At start of turn, if unit's HP ≥ 25%, inflicts Atk/Def-7 and【Feud】on closest foes and foes within 2 spaces of those foes through their next actions.<br><br>At start of combat, if unit's HP ≥ 25%, grants Def/Res+5 to unit, inflicts Def/Res-5 on foe, and deals damage = 20% of unit's Def during combat (excluding area-of-effect Specials), and also, when unit's Special triggers, neutralizes foe's "reduces damage by X%" effects from foe's non-Special skills (excluding area-of-effect Specials).<br><br>【Feud】<br>Disables all ally skills (excluding unit's) during combat through unit's next action.
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Accelerates Special}}
+|s1 Ce1={{Eft|Temporary buffs|Def/Res|5}}
+|s1 Ce2={{Eft|Guaranteed Follow-Ups}}
+|s1 Ce3={{Eft|Temporary debuffs|Def/Res|5}}
+|s1 Ce3T={{Tgt|Foe}}
+|s1 CeC=No {{Tgt|Allies}}<br>are [[adjacent]]
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Accelerates Special}}
+|s2 Me={{Eft|Canto|Dist. +1; Max 4}}
+|s2 Ce1={{Eft|Temporary buffs|Def/Res|5}}
+|s2 Ce2={{Eft|Guaranteed Follow-Ups}}
+|s2 Ce3={{Eft|Reduce Cooldown|spaces initiator moved|max=3}}<br>before {{Tgt|Unit}}'s first attack
+|s2 Ce4={{Eft|Temporary debuffs|Def/Res|5}}
+|s2 Ce4T={{Tgt|Foe}}
+|s2 CeC=Player Phase '''or'''<br>[[adjacent]] {{Tgt|Allies}} ≤ 1
+|skill3={{Si|Gate-Anchor Axe|refine=Skill1}} Skill refine effects
+|s3 Se1={{Eft|Penalties|Atk/Def|7}}
+|s3 Se2={{SEt|Feud}}
+|s3 SeT=Closest {{Tgt|Foes}}<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}
+|s3 SeC=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25%
+|s3 Ce1={{Eft|Temporary buffs|Def/Res|5}}
+|s3 Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Def}}
+|s3 Ce3={{Eft|Temporary debuffs|Def/Res|5}}
+|s3 Ce4={{Eft|Neutralize Damage Reduction}} per<br>{{Tgt|Unit}}'s [[offensive Special]]
+|s3 Ce3-4T={{Tgt|Foe}}
+|s3 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{Temporary debuffs}}
+{{Guaranteed follow-up interaction}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Canto|Dist. +1; Max 4|name=Refined Gate-Anchor Axe}}
+{{IfUnitInitiates}}
+{{SpacesFromStarttoEnd|name=Refined Gate-Anchor Axe}}
+{{CombatCooldownCount|name=Refined Gate-Anchor Axe}}
+{{Penalties|name={{St|Gate-Anchor Axe|refine=Skill1}}}}
+{{Feud|name={{St|Gate-Anchor Axe|refine=Skill1}}}}
+{{DamageBoost|name={{St|Gate-Anchor Axe|refine=Skill1}}}}
+{{DamageReductionNeutralization|name={{St|Gate-Anchor Axe|refine=Skill1}}}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Gate-Anchor Axe
+|japanese=波閉ざす錨の斧
+|german=Anker-Axt
+|spanishEU=Hacha de anclaje
+|spanishLA=Hacha de anclaje
+|french=Hache de barrage
+|italian=Ascia ad ancora
+|chineseTW=止浪錨之斧
+|portuguese=Machado âncora
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%unit is not adjacent%makes a guaranteed follow-up attack%' OR Description LIKE '%【Feud】%' OR Description LIKE '%【Canto (Dist. +1; Max ４)】%') AND Exclusive='1'}}
+{{Weapons Navbox}}

@@ -1,0 +1,65 @@
+{{#invoke:NameAbout|main|Name=Sophia}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Sophia
+|Title=Cobweb Prophet
+|WeaponType=Blue Tome
+|MoveType=Flying
+|Origin=Fire Emblem: The Binding Blade
+|Gender=Female
+|actorEN=Wendee Lee
+|actorJP=大西沙織
+|artist=うらたあさお
+|additionDate=October 6, 2021
+|releaseDate=October 7, 2021
+|cv1=5
+|cv2=1000100
+|TagID=ハロソフィーヤ
+|InternalID=717
+|Properties=limited,tempest,specDisplay,hat
+|description=A half-dragon priestess from Nabata. She has come to the harvest festival accompanied by her spider friend. Appears in Fire Emblem: The Binding Blade.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=10|Lv1SPD=6|Lv1DEF=5|Lv1RES=9
+|GRHP=45|GRATK=65|GRSPD=40|GRDEF=50|GRRES=75
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Thunder
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elthunder
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Spider Plush
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Spider Plush+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Ardent Sacrifice
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Res Form 1
+|passiveA2=Atk/Res Form 2
+|passiveA3=Atk/Res Form 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=Sabotage Res 1
+|passiveB2=Sabotage Res 2
+|passiveB3=Sabotage Res 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Halloween units]]

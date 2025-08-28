@@ -1,0 +1,58 @@
+{{SkillPage Tabs}}{{Passive
+|type=A
+|exclusive=0
+|1name=HP/Spd 1
+|1tagid=SID_HP速さ1
+|1promotionRarity=5
+|1promotionTier=1
+|alt1name=HP Spd 1
+|1effect=Grants HP+3, Spd+1.
+|1cost=100
+|1required=HP +3;Speed +1
+|2name=HP/Spd 2
+|2tagid=SID_HP速さ2
+|alt2name=HP Spd 2
+|2effect=Grants HP+4, Spd+2.
+|2cost=200
+|statModifiers1=3,0,1,0,0
+|statModifiers2=4,0,2,0,0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=random_all
+}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=HP/Spd 1;HP/Spd 2
+|badgeColor=Azure
+|costs1=20;100;20
+|costs2=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|english=HP/Spd
+|japanese=ＨＰ速さ
+|german=KP/Ges.
+|spanishEU=PV/Vel
+|spanishLA=PV/Vel.
+|french=PV/Vit
+|italian=PS/Vel
+|chineseTW=ＨＰ速度
+|portuguese=PV/Vel.
+}}
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}
+{{Passives Navbox|A}}
+[[Category:Plus Passives]]

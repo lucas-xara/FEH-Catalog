@@ -1,0 +1,44 @@
+{{Weapon Infobox
+|tagid=SID_聖光スターライト
+|intID=3450
+|image=wep_mg321
+|exclusive=1
+|weaponType=Colorless Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of turn, if unit's HP ≥ 25%, grants Def/Res+6 and "reduces damage from area-of-effect Specials by 80% (excluding Røkkr area-of-effect Specials)" to unit and allies within 2 spaces of unit for 1 turn. At start of combat, if unit's HP ≥ 25%, inflicts Atk/Res-6 on foe during combat, neutralizes bonuses to foe's Atk/Res during combat, neutralizes effects that prevent unit's counterattacks, and restores 7 HP to unit after combat.
+|statModifiers=0,14,0,0,0
+|required=Atlas (weapon)
+|properties=random_owner
+}}
+==Notes==
+{{Bonuses}}
+{{Reduce Area-of-Effect Special Damage Taken}}
+{{Temporary debuffs}}
+{{Bonus neutralization}}
+{{Prevent counter neutralization}}
+{{After combat healing}}
+
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V7.1_v0701c_legend_Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=聖光スターライト
+|german=Sternenfunkeln
+|spanishEU=Luz brillante
+|spanishLA=Luz brillante
+|french=Lumière d'étoile
+|italian=Bagliore siderale
+|chineseTW=聖光星閃
+|portuguese=Brilho estrelar
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%at start of turn%unit and allies within _ spaces%for 1 turn%' OR Description LIKE '%that prevent unit_s counterattacks%' OR Description LIKE '%reduces damage from area-of-effect specials by%' OR Description LIKE '%if unit_s HP%inflicts Atk/%on foe%neutralize%bonuses%Atk/%during combat%' AND Exclusive='1'}}
+* [[Lull Passives]]
+{{Weapons Navbox}}

@@ -1,0 +1,38 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_泡影の書
+|weaponType=Green Tome
+|weaponName={{PAGENAME}}
+|might=14
+|range=2
+|effect=Grants Spd+3. If unit is adjacent to an ally, inflicts Atk/Spd/Def/Res-4 on foe during combat.
+|cost=400
+|exclusive=1
+|userVersion1=Closed|userVersion2=Open|statModifiers=0,14,3,0,0
+|required=Rexcalibur
+|SE=se_effect_blessing_water.flac
+|properties=random_owner
+}}
+==Notes==
+{{Combat reductions}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V2.11_63_dream01.png|Sprite sheet used for attack effects
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=泡影の書
+|german=Schattenbuch
+|spanishEU=Libro de sombras
+|spanishLA=Libro de visiones
+|french=Livre des ombres
+|italian=Tomo d'ombra
+|chineseTW=泡影之書
+|portuguese=Livro de sombras
+}}
+
+==See also==
+* [[Book of Dreams]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Weapons Navbox}}

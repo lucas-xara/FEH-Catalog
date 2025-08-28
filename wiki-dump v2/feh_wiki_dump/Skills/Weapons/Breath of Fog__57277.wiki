@@ -1,0 +1,51 @@
+{{Weapon Infobox
+|tagid=SID_霧のブレス
+|weaponType=Dragonstone
+|might=16
+|range=1
+|effectiveness=dragon
+|effect=Effective against dragon foes. At start of odd-numbered turns, restores 10 HP. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|cost=400
+|exclusive=1
+|userVersion1=Weapon
+|userVersion2=Upgrade Gleam
+|statModifiers=0,16,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If unit is within 2 spaces of sword or dragon ally, grants Atk/Def+5 during combat.
+|iconSkill1=Breath of Fog W.png
+|tagidExtraSkill1=絆
+|properties=
+}}
+==Notes==
+* Has the same effect as {{St|Renewal 3}}.
+{{Start-of-turn healing}}
+{{Effective damage bonus|dragon}}
+{{LowerDefRes}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{TermRefersTo|Dragon|dragonstone}}
+{{Temporary buffs|name={{St|Breath of Fog|refine=skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|攻撃守備の絆R剣竜|Atk Def Bond R Sword Dragon}}
+==In other languages==
+{{OtherLanguages
+|japanese=霧のブレス
+|german=Nebelatem
+|spanishEU=Aliento brumoso
+|spanishLA=Soplo brumoso
+|french=Souffle embrumé
+|italian=Alito di nebbia
+|chineseTW=霧之吐息
+|portuguese=Sopro de névoa
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%start of%turn%restores 10 HP.%' OR Description LIKE '%if unit is within _ spaces of% or %ally, grants Atk/%during combat.%' AND Description NOT LIKE '%at start of turn, if unit is within _ spaces of% or %ally, grants%') AND Exclusive='1'}}
+* [[Sources of effective against dragon foes]]
+{{Weapons Navbox}}

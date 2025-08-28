@@ -1,0 +1,75 @@
+{{Passive
+|type=A
+|name=Atk/Res Scowl
+|exclusive=0
+|canUseWeapon={{WeaponList|Dragonstone}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Atk/Res Scowl 1
+|alt1name=Atk Res Scowl 1
+|1tagid=SID_攻撃魔防の竜眼1
+|1cost=60
+|1effect=If foe initiates combat or foe's HP ≥ 75% at start of combat, grants Atk/Res+2 to unit during combat, and also, if foe's attack can trigger foe's Special and unit's Res ≥ foe's Res+15 during combat, inflicts Special cooldown count+1 on foe before foe's first attack. (Cannot exceed the foe's maximum Special cooldown.)
+|1required=-
+|1promotionRarity=4
+|1promotionTier=1
+|2name=Atk/Res Scowl 2
+|alt2name=Atk Res Scowl 2
+|2tagid=SID_攻撃魔防の竜眼2
+|2cost=120
+|2effect=If foe initiates combat or foe's HP ≥ 75% at start of combat, grants Atk/Res+4 to unit during combat, and also, if foe's attack can trigger foe's Special and unit's Res ≥ foe's Res+12 during combat, inflicts Special cooldown count+1 on foe before foe's first attack. (Cannot exceed the foe's maximum Special cooldown.)
+|2promotionRarity=5
+|2promotionTier=1
+|3name=Atk/Res Scowl 3
+|alt3name=Atk Res Scowl 3
+|3tagid=SID_攻撃魔防の竜眼3
+|3cost=240
+|3effect=If foe initiates combat or foe's HP ≥ 75% at start of combat, grants Atk/Res+6 to unit during combat, and also, if foe's attack can trigger foe's Special and unit's Res ≥ foe's Res+9 during combat, inflicts Special cooldown count+1 on foe before foe's first attack. (Cannot exceed the foe's maximum Special cooldown.)
+|3next=-
+|4name=Atk/Res Scowl 4
+|alt4name=Atk Res Scowl 4
+|4tagid=SID_攻撃魔防の竜眼4
+|4cost=300
+|4effect=If foe initiates combat or foe's HP ≥ 75% at start of combat, grants Atk/Res+7 to unit during combat, and also, if foe's attack can trigger foe's Special and unit's Res ≥ foe's Res+5 during combat, inflicts Special cooldown count+1 on foe before foe's first attack. (Cannot exceed the foe's maximum Special cooldown.)
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Atk/Res Scowl 3}} Atk/Res Scowl 3
+|s1 Ce1={{Eft|Temporary buffs|Atk/Res|6}}
+|s1 Ce1C=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|s1 Ce2={{Eft|Increase Cooldown|1}}<br>before {{Tgt|Foe}}'s first attack
+|s1 Ce2T={{Tgt|Foe}}
+|s1 Ce2C=(Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat),<br>{{Tgt|Foe}} has an<br>[[offensive special]],<br>'''&''' {{Tgt|Unit}}'s Res ≥<br>{{Tgt|Foe}}'s Res+9
+|skill2={{Si|Atk/Res Scowl 4}} Atk/Res Scowl 4
+|s2 Ce1={{Eft|Temporary buffs|Atk/Res|7}}
+|s2 Ce1C=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|s2 Ce2={{Eft|Increase Cooldown|1}}<br>before {{Tgt|Foe}}'s first attack
+|s2 Ce2T={{Tgt|Foe}}
+|s2 Ce2C=(Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat),<br>{{Tgt|Foe}} has an<br>[[offensive special]],<br>'''&''' {{Tgt|Unit}}'s Res ≥<br>{{Tgt|Foe}}'s Res+5
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+{{CombatCooldownCount|+1}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Atk/Res Scowl
+|japanese=攻撃魔防の竜眼
+|german=Agr./Res.-Blick
+|spanishEU=Miedo Ata/Res
+|spanishLA=Ceño Atq./Res.
+|french=Rictus Atq/Rés
+|italian=Cipiglio Att/Res
+|chineseTW=攻擊魔防的龍眼
+|portuguese=Carranca A/R
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe_s attack can trigger%inflicts Special cooldown count+%on foe before foe_s first attack%' AND Exclusive='1'}}
+* [[Scowl Passives]]
+{{Passives Navbox|A}}

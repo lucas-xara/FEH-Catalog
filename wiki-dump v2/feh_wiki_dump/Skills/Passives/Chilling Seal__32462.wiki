@@ -1,0 +1,51 @@
+{{Passive
+|name=Chilling Seal
+|1name=Chilling Seal
+|1tagid=SID_氷の封印
+|1effect=At start of turn, if unit's HP ≥ 50%, inflicts Atk/Spd-6 on foe on the enemy team with the lowest Def through its next action. (Skill cannot be inherited.)
+|1required=-
+|1cost=300
+|2name=Chilling Seal II
+|2tagid=SID_氷の封印・承
+|2effect=At start of turn, inflicts Atk/Spd/Def/Res-7 on foes on the enemy team with the lowest Def through their next actions and inflicts Atk/Res-7 on foes within 2 spaces of foes on the enemy team with the lowest Def through their next actions.
+|2required=Chilling Seal
+|2cost=300
+|type=B
+|exclusive=1
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Chilling Seal}} Chilling Seal
+|s1 Se={{Eft|Penalties|Atk/Spd|6}}
+|s1 SeT={{Tgt|Foes}} with the<br>lowest Def
+|s1 SeC=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 50%
+|skill2={{Si|Chilling Seal II}} Chilling Seal II
+|s2 Se1={{Eft|Penalties|Atk/Spd/Def/Res|7}}
+|s2 Se1T={{Tgt|Foes}} with the<br>lowest Def
+|s2 Se2={{Eft|Penalties|Atk/Res|7}}
+|s2 Se2T={{Tgt|Foes}} [[within 2 spaces|within<br>2 spaces]] of<br>{{Tgt|Foes}} with the<br>lowest Def
+|s2 SeC=At start of turn
+}}
+==Notes==
+{{SelectStat|Def|lowest=1}}
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=氷の封印
+|german=Eissiegel
+|spanishEU=Hechizo gélido
+|spanishLA=Hechizo gélido
+|french=Sceau de glace
+|italian=Sigillo gelante
+|chineseTW=冰之封印
+|portuguese=Encanto gelado
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%start of turn%inflicts %/%-%enemy team%' AND Exclusive='1'}}
+* [[Chill Passives]]
+{{Passives Navbox|B}}

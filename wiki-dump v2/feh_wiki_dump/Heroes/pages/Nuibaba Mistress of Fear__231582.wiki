@@ -1,0 +1,72 @@
+{{#invoke:NameAbout|main|Name=Nuibaba}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Nuibaba
+|Title=Mistress of Fear
+|WeaponType=Blue Tome
+|MoveType=Infantry
+|Origin=Fire Emblem Echoes: Shadows of Valentia
+|Gender=Female
+|actorEN=Cindy Robinson
+|actorJP=北西純子
+|artist=誉
+|additionDate=March 18, 2025
+|releaseDate=March 18, 2025
+|cv1=2
+|cv2=950050
+|TagID=魔器ヌイババ
+|InternalID=1220
+|Properties=rearmed,hat
+|description=An arcanist who serves the Duma Faithful. Trades souls in exchange for a dark spell that brings death. Appears in Fire Emblem Echoes: Shadows of Valentia.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=9|Lv1SPD=14|Lv1DEF=4|Lv1RES=8
+|GRHP=50|GRATK=90|GRSPD=50|GRDEF=30|GRRES=90
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Thunder
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elthunder
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Thoron
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Arcane Medusa
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Iceberg
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Warding Blow 1
+|passiveA2=Mirror Strike 1
+|passiveA3=Mirror Strike 2
+|passiveA4=Sly Mirror
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Mounting Fear
+|passiveB1Unlock=5
+|passiveC1=Time's Pulse 1
+|passiveC2=Time's Pulse 2
+|passiveC3=Time's Pulse 3
+|passiveC4=Time Pulse Helm
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}

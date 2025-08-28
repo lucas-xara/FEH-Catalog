@@ -1,0 +1,76 @@
+{{Weapon Infobox
+|tagid=SID_春踊る兎達の槍
+|intID=4614
+|image=wep_lc189
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=16
+|range=1
+|effect=Enables【Canto (Rem. +1; Min ２)】.<br>Grants Res+3.<br><br>At start of turn, grants【Canto (１)】 to allies within 2 spaces of unit for 1 turn.<br><br>For allies within 3 rows or 3 columns centered on unit, grants Atk/Def/Res+5, ally deals +10 damage (excluding area-of-effect Specials), and grants Special cooldown count-1 to ally before ally's first attack during their combat.<br><br>If there is an ally within 3 rows or 3 columns centered on unit, inflicts penalty on foe's Atk/Def = 20% of unit's Res at start of combat + 6, unit deals +10 damage (excluding area-of-effect Specials), reduces damage from foe's attacks by 10 (excluding area-of-effect Specials), and foe cannot make a follow-up attack during combat.<br><br>【Canto (Rem. +1; Min ２)】<br>After an attack, Assist skill, or structure destruction, unit can move spaces = any movement not already used that turn +1 (min ２; if unit used a movement skill that warped them, unit can move ２ space(s)).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)<br><br>【Canto (１)】<br>After an attack, Assist skill, or structure destruction, unit can move １ space(s).<br>(Once per turn. Only highest value applied. Does not stack.)
+|statModifiers=0,16,0,0,3
+|required=Silver Lance
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Stat Boosts|Res|3}}
+|Me={{Eft|Canto|Rem. +1; Min 2}}
+|Se={{SEt|Canto (1)}}
+|SeT={{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=At start of turn
+|Ce1={{Eft|Temporary buffs|Atk/Def/Res|5}}
+|Ce2={{Eft|Damage Boost|10}}
+|Ce3={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Ally}}'s first attack
+|Ce1-3T={{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|Ce4={{Eft|Temporary debuffs|Atk/Def|20% of {{Tgt|Unit}}'s Res<br>at start of combat, +6}}
+|Ce4T={{Tgt|Foe}}
+|Ce5={{Eft|Damage Boost|10}}
+|Ce6={{Eft|Damage Reduction|10}}<br>from the {{Tgt|Foe}}'s attacks
+|Ce7={{Eft|Prevent Follow-Ups}}
+|Ce7T={{Tgt|Foe}}<br>
+|Ce4-7C=An {{Tgt|Ally}} is within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+}}
+
+==Notes==
+{{Canto|Rem. +1; Min 2}}
+{{Canto|statusEffect=1|1}}
+{{Temporary buffs}}
+{{FlatDamageBoost|10}}
+{{CombatCooldownCount|-1}}
+{{AlliesCombatEffect|temporary buffs, +10 damage boost and special cooldown count -1 effects}}
+{{Temporary debuffs}}
+{{At start of combat}}
+{{FlatDamageReduction|10}}
+{{Prevent follow-up}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Plumeria: Spring Dance|t=Triandra: Sunlit Nightmare
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%ally deals +%damage%' OR Description LIKE '%Special cooldown count-_ to ally before ally_s first attack%' OR Description LIKE '%Special cooldown count-_%before their first attack%') AND Exclusive='1'}}
+{{Weapons Navbox}}

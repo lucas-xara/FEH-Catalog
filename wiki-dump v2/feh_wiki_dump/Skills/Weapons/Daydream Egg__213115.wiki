@@ -1,0 +1,68 @@
+{{Weapon Infobox
+|tagid=SID_春に揺蕩う白夢の卵
+|intID=4059
+|image=wep_mg190
+|exclusive=1
+|weaponType=Blue Tome
+|cost=400
+|might=14
+|range=2
+|effect=Grants Res+3. If【Penalty】is active on any foes within 3 rows or 3 columns centered on unit, inflicts Atk/Def/Res-5 and Special cooldown charge -1 per attack (only highest value applied; does not stack) on those foes during their combat. At start of combat, if foe's HP ≥ 75% or if【Penalty】is active on foe, grants Atk/Def/Res+5 to unit and reduces damage from foe's attacks by 20% of unit's Res during combat (excluding area-of-effect Specials).<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|statModifiers=0,14,0,0,3
+|required=Thoron;Shine
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Stat Boosts|Res|3}}
+|CombatEffect 1={{SkillEffectText|Temporary Debuffs|Atk/Def/Res|5}}
+|CombatEffect 2={{SkillEffectText|Guard}}
+|CombatEffect 1-2 Targets={{SkillTargetText|Foes}} with a<br>{{Kp|Penalty}} within<br>[[3 rows or 3 columns]]<br>centered on {{SkillTargetText|Unit}}
+|CombatEffect 3={{SkillEffectText|Temporary buffs|Atk/Def/Res|5}}
+|CombatEffect 4={{SkillEffectText|Damage Reduction|20% of {{SkillTargetText|Unit}}'s Res}}<br>from {{SkillTargetText|Foe}}'s attacks
+|CombatEffect 3-4 Conditions={{SkillTargetText|Foe}}'s HP ≥ 75%<br>at start of combat '''or'''<br>{{SkillTargetText|Foe}} has a {{Kp|Penalty}}
+}}
+
+==Notes==
+{{Temporary debuffs}}
+{{CooldownChargeMinus}}
+{{FoesCombatEffect|effect=temporary debuffs and special cooldown charge -1 effects}}
+{{Temporary buffs}}
+{{FlatDamageReduction}}
+{{EffectfromPenalty|temporary buffs and damage reduction}}
+{|class="wikitable default mw-collapsible"
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Mirabilis: Spring Daydream|t=Ginnungagap: Ruler of Nihility
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V8.3_v0803a_spring_Mag.webp|Sprite sheet for {{St|Sky-Hopper Egg}} and {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=春に揺蕩う白夢の卵
+|german=Tagtraum-Ei
+|spanishEU=Huevo fantasioso
+|spanishLA=Huevo fantasioso
+|french=Œuf rêveur
+|italian=Uovo dei sogni
+|chineseTW=春色蕩漾的白夢之卵
+|portuguese=Ovo sonhador
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If【Penalty】is active on%foes within%rows%' OR Description LIKE '%If【Penalty】is active on%foes within%columns%' OR Description LIKE '%reduces damage%of unit_s Res%' AND Description NOT LIKE '%reduces damage%deals damage%of unit_s Res%' AND Description NOT LIKE '%reduces damage%boosts damage%of unit_s Res%'}}
+{{Weapons Navbox}}

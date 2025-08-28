@@ -1,0 +1,96 @@
+{{About|the weapon Ginnungagap|the character Ginnungagap|Ginnungagap}}{{Weapon Infobox
+|tagid=SID_ギンヌンガガプ
+|wikiName=Ginnungagap (weapon)
+|weaponName=Ginnungagap
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|weaponType=Red Tome
+|might=14
+|range=2
+|effect=Grants Spd+3. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+6 to unit during combat, and also, if unit initiates combat or foe initiates combat and uses magic or staff, reduces damage from foe's first attack by 40% and boosts unit's next attack by total damage reduced (by any source, including other skills). Resets at end of combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,3,0,0
+|required=Bolganone;Fenrir
+|intID=2658
+|sort=563
+|value=20
+|timingID=1
+|abilityID=297
+|limit1ID=42
+|randomTimestamp=2021-08-19T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Spd+3.<br><br>At start of combat, if unit's HP ≥ 25%, grants bonus to unit's Atk/Spd during combat = 10% of unit's Spd at start of combat + 6.<br><br>If unit initiates combat or magic or staff foe initiates combat, and if unit's HP ≥ 25% at start of combat, reduces damage from foe's first attack during combat by 40% ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and unit's next attack deals damage = total damage reduced (by any source, including other skills; resets at end of combat), and also, if unit's HP > 1 and foe would reduce unit's HP to 0, unit survives with 1 HP (once per combat; does not stack with non-Special effects that allow unit to survive with 1 HP if foe's attack would reduce HP to 0).
+|effectSkill1=At start of player phase or enemy phase, if unit's HP ≥ 25%, grants Atk/Spd+6, 【Anathema】, and【Null Follow-Up】to unit and allies within 2 spaces of unit for 1 turn.<br><br>At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+6 to unit and deals damage = 20% of unit's Spd during combat (excluding area-of- effect Specials), and restores 10 HP to unit after combat.<br><br>【Anathema】<br>Inflicts Spd/Def/Res-4 on foes within 3 spaces of unit during combat.<br><br>【Null Follow-Up】<br>If unit's Spd > foe's Spd during combat, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks for 1 turn.
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Atk|3}}
+|s1 Ce1={{Eft|Temporary buffs|Atk/Spd|6}}
+|s1 Ce1C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s1 Ce2={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s first attack
+|s1 Ce3={{Eft|Damage Boost|total damage reduced}}<br>from {{Tgt|Foe}}'s first attack<br>for {{Tgt|Unit}}'s next attack<br>(including other sources)
+|s1 Ce2-3C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat '''&'''<br>(Player Phase '''or'''<br>{{Tgt|Foe}} uses<br>{{Cwti|group=1|Magic,Staff}} [[Magic]]/{{Wtp|Colorless Staff}})
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Atk|3}}
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd|10% of {{Tgt|Unit}}'s Spd<br>at start of combat, +6}}
+|s2 Ce1C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s2 Ce2={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|s2 Ce3={{Eft|Damage Boost|total damage reduced}}<br>from {{Tgt|Foe}}'s first attack<br>for {{Tgt|Unit}}'s next attack<br>(including other sources)
+|s2 Ce2-3C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat '''&'''<br>(Player Phase '''or'''<br>{{Tgt|Foe}} uses<br>{{Cwti|group=1|Magic,Staff}} [[Magic]]/{{Wtp|Colorless Staff}})
+|s2 Ce4={{Eft|Miracle}}
+|s2 Ce4C=({{Efi|Damage Reduction}} Damage Reduction<br>conditions) '''&'''<br>{{Tgt|Unit}}'s HP > 1
+|skill3={{Si|Ginnungagap|refine=Skill1}} Skill refine effects
+|s3 Se1={{Eft|Bonuses|Atk/Spd|6}}
+|s3 Se2={{SEt|Anathema}}
+|s3 Se3={{SEt|Null Follow-Up}}
+|s3 SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|s3 SeC=At start of Both Phases<br>if {{Tgt|Unit}}'s HP ≥ 25%
+|s3 Me={{Eft|Heal|10}}
+|s3 MeC=After combat if<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd|6}}
+|s3 Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|s3 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{IfUnitInitiates}}
+{{IfFoeInitiates}}
+{{DamageBoostFromDamageReduction}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{At start of combat|name=Refined Ginnungagap}}
+{{Survive with 1 HP|name=Refined Ginnungagap}}
+{{Bonuses|name={{St|Ginnungagap|refine=Skill1}}}}
+{{Anathema|name={{St|Ginnungagap|refine=Skill1}}}}
+{{Null Follow-Up|name={{St|Ginnungagap|refine=Skill1}}}}
+{{DamageBoost|name={{St|Ginnungagap|refine=Skill1}}}}
+{{After combat healing|name={{St|Ginnungagap|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Ginnungagap
+|japanese=ギンヌンガガプ
+|german=Ginnungagap
+|spanishEU=Ginnungagap
+|spanishLA=Ginnungagap
+|french=Ginnungagap
+|italian=Ginnungagap
+|chineseTW=金倫加
+|portuguese=Ginnungagap
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Anathema】%') AND Exclusive='1'}}
+{{Weapons Navbox}}

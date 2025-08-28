@@ -1,0 +1,72 @@
+{{#invoke:NameAbout|main|Name=Ike}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Ike
+|Title=Stalwart Heart
+|GrowthModifier=
+|WeaponType=Red Sword
+|Origin=Fire Emblem: Path of Radiance
+|Gender=Male
+|MoveType=Armored
+|actorJP=萩道彦
+|actorEN=Greg Chun
+|artist=北千里
+|additionDate=February 8, 2019
+|releaseDate=February 8, 2019
+|TagID=愛の祭アイク
+|InternalID=339
+|Properties=special,specRate_202302
+|cv1=8
+|cv2=100100
+|description=The leader of the Greil Mercenaries. A stoic and brave warrior who treats his friends like family. Appears in Fire Emblem: Path of Radiance.
+}}
+{{Stats Page
+|Lv1HP=21|Lv1ATK=9|Lv1SPD=10|Lv1DEF=9|Lv1RES=6
+|GRHP=55|GRATK=65|GRSPD=65|GRDEF=60|GRRES=30
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Heart's Blade
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Heart's Blade+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Daylight
+|special1Default=4
+|special1Unlock=3
+|special2=Sol
+|special2Unlock=4
+|special3=Radiant Aether
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Distant Counter
+|passiveA1Unlock=5
+|passiveB1=Special Fighter 1
+|passiveB2=Special Fighter 2
+|passiveB3=Special Fighter 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Even Spd Wave 1
+|passiveC2=Even Spd Wave 2
+|passiveC3=Even Spd Wave 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Day of Devotion units]]

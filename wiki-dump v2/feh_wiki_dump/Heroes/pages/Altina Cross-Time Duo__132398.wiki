@@ -1,0 +1,82 @@
+{{#invoke:NameAbout|main|Name=Altina|Name2=Sanaki}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Altina
+|secondPerson=Sanaki
+|Title=Cross-Time Duo
+|WeaponType=Red Sword
+|MoveType=Infantry
+|Origin=Fire Emblem: Radiant Dawn,Fire Emblem: Path of Radiance
+|Gender=FF
+|harmonized=Grants【Resonance: Blades】to unit and allies from the same titles as unit.<br><br>Grants【Vantage】to unit.<br><br>【Resonance: Blades】<br>Grants Atk/Spd+4 during combat for 1 turn.<br><br>【Vantage】<br>If foe initiates combat, unit can counterattack before foe's first attack for 1 turn.
+|actorEN=Krizia Bajos,Sara Cravens
+|actorJP=宮川美保,中原麻衣
+|artist=北千里
+|additionDate=December 17, 2020
+|releaseDate=December 17, 2020
+|entry=8;9
+|cv1=9
+|cv2=900050
+|TagID=双界オルティナ
+|InternalID=600
+|Properties=special,harmonized,hat,specRate_202402
+|description=Altina, the founder of Begnion, and her descendant Sanaki, binding past and future. They appear in Fire Emblem: Radiant Dawn / Path of Radiance.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=10|Lv1SPD=3|Lv1DEF=11|Lv1RES=11
+|GRHP=55|GRATK=70|GRSPD=35|GRDEF=60|GRRES=65
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Ragnell·Alondite
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Iceberg
+|special2Unlock=4
+|special3=Twin Blades
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Res Bond 1
+|passiveA2=Atk/Res Bond 2
+|passiveA3=Atk/Res Bond 3
+|passiveA4=Atk/Res Unity
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Null C-Disrupt 1
+|passiveB2=Null C-Disrupt 2
+|passiveB3=Null C-Disrupt 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Atk/Res Oath 1
+|passiveC2=Atk/Res Oath 2
+|passiveC3=Atk/Res Oath 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Sources of Vantage]]
+[[Category:Sources of priority changing effects]]
+[[Category:Christmas units]]

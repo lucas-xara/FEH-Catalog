@@ -1,0 +1,70 @@
+{{#invoke:NameAbout|main|Name=Alfred}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Alfred
+|Title=Floral Protector
+|WeaponType=Blue Lance
+|MoveType=Cavalry
+|Origin=Fire Emblem Engage
+|Gender=Male
+|actorEN=Nick Wolfhard
+|actorJP=木村良平
+|artist=kaya8
+|additionDate=January 17, 2023
+|releaseDate=January 17, 2023
+|cv1=14
+|cv2=200200
+|TagID=魔器アルフレッド
+|InternalID=904
+|Properties=rearmed
+|description=Crown prince of Firene, a peace-loving land. He trains constantly with the intent of improving his constitution. Appears in Fire Emblem Engage.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=15|Lv1SPD=3|Lv1DEF=10|Lv1RES=5
+|GRHP=50|GRATK=70|GRSPD=50|GRDEF=75|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Lance
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Arcane Qiang
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=4
+|special1Unlock=3
+|special2=Bonfire
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Self-Improver
+|passiveA1Unlock=5
+|passiveB1=Flow N Trace 1
+|passiveB2=Flow N Trace 2
+|passiveB3=Flow N Trace 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Spur Atk 1
+|passiveC2=Spur Atk 2
+|passiveC3=Spur Atk 3
+|passiveC4=Cross Spur Atk
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}

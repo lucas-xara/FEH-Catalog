@@ -1,0 +1,43 @@
+{{Weapon Infobox
+|tagid=SID_聖なるブーケ＋
+|weaponType=Blue Tome
+|weaponName={{PAGENAME}}
+|altWeaponName=Blessed Bouquet Plus
+|might=12
+|range=2
+|effect=If unit initiates combat, grants Def/Res+2 to allies within 2 spaces for 1 turn after combat.
+|cost=300
+|exclusive=0
+|statModifiers=0,12,0,0,0
+|SE=se_effect_bouquet.flac
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|upgradedEffect=After combat, if unit attacked, grants Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn.
+|properties=
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Bonuses}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfUnitAttacked}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=聖なるブーケ＋
+|german=Sakralstrauß+
+|spanishEU=Ramo bendito +
+|spanishLA=Ramo bendito +
+|french=Bouquet béni +
+|italian=Bouquet nuziale+
+|chineseTW=聖潔花束＋
+|portuguese=Buquê bendito+
+}}
+==See also==
+* [[Bridal Blessings Weapons]]
+{{Weapons Navbox}}
+[[Category:Bridal Blessings weapons]]

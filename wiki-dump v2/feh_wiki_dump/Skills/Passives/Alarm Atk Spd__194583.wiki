@@ -1,0 +1,51 @@
+{{Passive
+|name=Alarm Atk/Spd
+|type=C
+|exclusive=0
+|canUseWeapon={{WeaponList|Close}}
+|canUseMove={{MoveList|Cavalry}}
+|properties=random_owner
+|1name=Alarm Atk/Spd
+|alt1name=Alarm Atk Spd
+|1tagid=SID_攻撃速さの奮進4
+|1effect=At start of turn, if number of allies adjacent to unit ≤ 2, grants Atk/Spd+6 and【Canto (１)】 to unit for 1 turn. If number of allies adjacent to unit ≤ 1, grants Atk/Spd+3 to unit during combat.<br><br>【Canto (１)】<br>After an attack, Assist skill, or structure destruction, unit can move １ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|1cost=300
+|1required=Rouse Atk/Spd 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|StatusEffect 1={{SkillEffectText|Bonuses|Atk/Spd|6}}
+|StatusEffect 2={{SEt|Canto (1)}}
+|StatusEffect Conditions=At start of turn if<br>[[adjacent]] {{SkillTargetText|Allies}} ≤ 2
+|CombatEffect={{SkillEffectText|Temporary buffs|Atk/Spd|3}}
+|CombatEffect Conditions=[[Adjacent]] {{SkillTargetText|Allies}} ≤ 1
+}}
+==Notes==
+{{Bonuses}}
+{{Canto|statusEffect=1|1}}
+{{Temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Alarm Atk/Spd
+|japanese=攻撃速さの奮進
+|german=Agr./Ges.-Alarm
+|spanishEU=Alarma Ata/Vel
+|spanishLA=Alarma Atq./Vel.
+|french=Alarme Atq/Vit
+|italian=Allarme Att/Vel
+|chineseTW=攻擊速度的奮進
+|portuguese=Alarme Atq./Vel.
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%at start of turn, if unit is not adjacent to an ally, grants Atk/Spd%+%for 1 turn%' OR Description LIKE '%grants%【Canto (１)】%for 1 turn%' OR Description LIKE '%number of allies adjacent to unit ≤%') AND Exclusive='1'}}
+* [[Skill families/C Passives#Alarm|Alarm Passives]]
+* [[Rouse Passives]]
+* [[Solo Passives]]
+{{Passives Navbox|C}}
+[[Category:Rouse Passives]][[Category:Alarm Passives]]

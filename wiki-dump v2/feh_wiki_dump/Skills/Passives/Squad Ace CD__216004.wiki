@@ -1,0 +1,58 @@
+{{Passive
+|name=Squad Ace CD
+|type=S
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|1name=Squad Ace CD 1
+|alt1name=Squad Ace BT 1
+|1tagid=SID_第82迷宮の覇者1
+|1effect=Grants HP+3, Atk/Def+1.
+|statModifiers1=3,1,0,1,0
+|1cost=120
+|1required=-
+|1next=-
+|2name=Squad Ace CD 2
+|alt2name=Squad Ace BT 2
+|2tagid=SID_第82迷宮の覇者2
+|2effect=Grants HP+4, Atk/Def+2.
+|statModifiers2=4,2,0,2,0
+|2cost=180
+|2next=-
+|3name=Squad Ace CD 3
+|alt3name=Squad Ace BT 3
+|3tagid=SID_第82迷宮の覇者3
+|3effect=Grants HP+5, Atk/Def+3.
+|statModifiers3=5,3,0,3,0
+|3cost=240
+}}
+==Seal acquired from==
+===Squad Assault reward===
+* Complete the [[82nd Assault]].
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Squad Ace CD 1;Squad Ace CD 2;Squad Ace CD 3
+|badgeColor=Verdant
+|costs1=-
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|english=Squad Ace CD
+|japanese=第８２迷宮の覇者
+|german=Überfall-Ass CD
+|spanishEU=As del asalto CD
+|spanishLA=As del asalto CD
+|french=Assaut réussi CD
+|italian=Asso sq. CD
+|chineseTW=第８２迷宮的霸王
+|portuguese=Esquad. ás CD
+}}
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}
+[[Category:Squad Ace Seals]]

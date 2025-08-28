@@ -1,0 +1,87 @@
+{{#invoke:NameAbout|main|Name=Maria}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Maria
+|Title=Ritual Sacrifice
+|WeaponType=Colorless Staff
+|MoveType=Infantry
+|Origin=Fire Emblem: Mystery of the Emblem
+|Gender=Female
+|actorEN=Wendee Lee
+|actorJP=洲崎綾
+|artist=まよ
+|randomStartTime=2023-06-09T07:00:00Z
+|additionDate=May 8, 2023
+|releaseDate=May 9, 2023
+|poolDate=June 8, 2023
+|poolRarities=5
+|cv1=1
+|cv2=400300
+|TagID=闇マリア
+|InternalID=947
+|Properties=fallen
+|description=Youngest princess of Macedon, kidnapped and robbed of her consciousness by Gharnef for use as a sacrifice to Medeus. Appears in Fire Emblem: Mystery of the Emblem.
+}}
+{{Stats Page
+|Lv1HP=15|Lv1ATK=11|Lv1SPD=15|Lv1DEF=3|Lv1RES=7
+|GRHP=50|GRATK=75|GRSPD=70|GRDEF=30|GRRES=65
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Assault
+|weapon1Unlock=1
+|weapon2=Sacrifice Staff
+|weapon2Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Heal
+|assist1Default=1
+|assist1Unlock=1
+|assist2=Reconcile
+|assist2Default=3
+|assist2Unlock=2
+|assist3=Nudge
+|assist3Default=4
+|assist3Unlock=3
+|assist4=Nudge+
+|assist4Default=5
+|assist4Unlock=5
+}}
+===Specials===
+{{Specials Table
+|special1=Imbue
+|special1Default=4
+|special1Unlock=2
+|special2=Miracle
+|special2Default=5
+|special2Unlock=3
+|special3=Holy Panic
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Bond 1
+|passiveA2=Atk/Spd Bond 2
+|passiveA3=Atk/Spd Bond 3
+|passiveA4=Atk/Spd Unity
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Wrathful Staff 1
+|passiveB2=Wrathful Staff 2
+|passiveB3=Wrathful Staff 3
+|passiveB4=Poetic Justice
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Even Recovery 1
+|passiveC2=Even Recovery 2
+|passiveC3=Even Recovery 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

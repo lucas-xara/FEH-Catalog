@@ -1,0 +1,75 @@
+{{#invoke:NameAbout|main|Name=Hector}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Hector
+|Title=Marquess of Ostia
+|LegendaryEffect=Fire
+|BoostHP=3
+|BoostAtk=2
+|GrowthModifier=Gen 2
+|WeaponType=Green Axe
+|MoveType=Armored
+|Origin=Fire Emblem: The Blazing Blade
+|Gender=Male
+|actorEN=Patrick Seitz
+|actorJP=鳥海浩輔
+|artist=ワダサチコ
+|releaseDate=June 28, 2018
+|TagID=伝承ヘクトル
+|InternalID=264
+|Properties=legendary
+|cv1=6
+|cv2=100300
+|description=Hector has ascended as the marquess of Ostia. Will renewed, he swings Armads and leads the people. Appears in Fire Emblem: The Blazing Blade.
+}}
+{{Stats Page
+|Lv1HP=23|Lv1ATK=10|Lv1SPD=6|Lv1DEF=12|Lv1RES=4
+|GRHP=55|GRATK=70|GRSPD=40|GRDEF=60|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Thunder Armads
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Draconic Aura
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Distant Counter
+|passiveA1Unlock=5
+|passiveB1=Vengeful Fighter 1
+|passiveB2=Vengeful Fighter 2
+|passiveB3=Vengeful Fighter 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveB4=Crafty Fighter 1
+|passiveB5=Crafty Fighter 2
+|passiveB6=Crafty Fighter 3
+|passiveB4Unlock=3
+|passiveB5Unlock=4
+|passiveB6Unlock=5
+|passiveC1=Ostia's Pulse
+|passiveC2=Ostia's Pulse II
+|passiveC1Unlock=5
+|passiveC2Unlock=5
+}}
+{{Heroes Navbox}}

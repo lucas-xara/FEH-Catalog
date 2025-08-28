@@ -1,0 +1,51 @@
+{{Weapon Infobox
+|tagid=SID_冥輝のブレス
+|weaponType=Dragonstone
+|might=16
+|range=1
+|effect=At start of turn, inflicts Atk/Spd-7 on foes within 2 spaces through their next actions. After combat, if unit attacked, inflicts Atk/Spd-7 on target and foes within 2 spaces of target through their next actions. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|userVersion1=Weapon
+|userVersion2=Upgrade Gleam
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=Grants bonus to Atk/Spd/Def/Res during combat = current penalty on each of target's stats. Calculates each stat bonus independently.
+|iconSkill1=Combat Bonuses Enemy Weakening W.png
+|tagidExtraSkill1=強
+|properties=
+}}
+==Notes==
+{{IfUnitAttacked}}
+{{Penalties}}
+{{LowerDefRes}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{CombatBoostfromPenalty|ptySource=the foe}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|戦闘強化R敵弱化|Combat Bonuses R Enemy Weakening}}
+==In other languages==
+{{OtherLanguages
+|english=Gloom Breath
+|japanese=冥輝のブレス
+|german=Trübsalsatem
+|spanishEU=Aliento lúgubre
+|spanishLA=Soplo lúgubre
+|french=Souffle sinistre
+|italian=Soffio tenebroso
+|chineseTW=冥輝吐息
+|portuguese=Sopro lúgubre
+}}
+==References==
+<references/>
+==See also==
+* [[Saizo's Star]]
+* [[Light of Dawn]]
+{{Weapons Navbox}}

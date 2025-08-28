@@ -1,0 +1,48 @@
+{{Weapon Infobox
+|tagid=SID_ドニの朴槍
+|weaponType=Lance
+|might=11
+|range=1
+|effect=Inflicts Spd-5. If unit initiates combat, unit attacks twice.
+|cost=400
+|exclusive=1
+|required=-
+|statModifiers=0,11,-5,0,0
+|userVersion1=Weapon
+|userVersion2=Gleam
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If unit initiates combat, grants Atk/Def+4 during combat and foe cannot make a follow-up attack.
+|iconSkill1=Hewn Lance W.png
+|tagidExtraSkill1=瞬
+|refineStatsAtk=5,1,0,0,0
+|properties=
+}}
+==Notes==
+{{Brave weapon interaction}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Combat boosts}}
+{{Prevent follow-up}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|瞬撃R攻守4|Impact R Atk/Def 4}}
+==In other languages==
+{{OtherLanguages
+|japanese=ドニの朴槍
+|german=Behauene Lanze
+|spanishEU=Lanza tosca
+|spanishLA=Lanza tosca
+|french=Lance affilée
+|italian=Lancia semplice
+|chineseTW=多尼的朴槍
+|portuguese=Lança tosca
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If unit initiates combat, grants Atk%Def+%and foe cannot make a follow-up attack%' AND WikiName NOT LIKE '%Instant%' OR Description LIKE '%unit attacks twice%if unit initiates combat%foe cannot make a follow-up%'|columns=3}}
+* [[Skill families#Instant|Instant Weapons]]
+{{Weapons Navbox}}

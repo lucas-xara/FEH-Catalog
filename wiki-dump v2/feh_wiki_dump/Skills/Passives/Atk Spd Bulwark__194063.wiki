@@ -1,0 +1,85 @@
+{{Passive
+|type=B
+|name=Atk/Spd Bulwark
+|exclusive=0
+|canUseWeapon={{WeaponList|Close}}
+|canUseMove={{MoveList|Infantry}}
+|properties=random_owner
+|1name=Atk/Spd Bulwark 1
+|alt1name=Atk Spd Bulwark 1
+|1tagid=SID_攻撃速さの防壁1
+|1cost=60
+|1effect=Foes with Range = 1 cannot move through spaces adjacent to unit, and foes with Range = 2 cannot move through spaces within 2 spaces of unit. (Does not affect foes with Pass skills.) Inflicts Atk/Spd-2 on foe during combat. Restores 3 HP to unit after combat.
+|1required=-
+|1promotionRarity=4
+|1promotionTier=1
+|2name=Atk/Spd Bulwark 2
+|alt2name=Atk Spd Bulwark 2
+|2tagid=SID_攻撃速さの防壁2
+|2cost=120
+|2effect=Foes with Range = 1 cannot move through spaces adjacent to unit, and foes with Range = 2 cannot move through spaces within 2 spaces of unit. (Does not affect foes with Pass skills.) Inflicts Atk/Spd-3 on foe during combat. Restores 5 HP to unit after combat.
+|2promotionRarity=5
+|2promotionTier=1
+|3name=Atk/Spd Bulwark 3
+|alt3name=Atk Spd Bulwark 3
+|3tagid=SID_攻撃速さの防壁3
+|3cost=240
+|3effect=Foes with Range = 1 cannot move through spaces adjacent to unit, and foes with Range = 2 cannot move through spaces within 2 spaces of unit. (Does not affect foes with Pass skills.) Inflicts Atk/Spd-4 on foe during combat. Restores 7 HP to unit after combat.
+|3next=-
+|4name=A/S Bulwark 4
+|alt4name=A S Bulwark 4
+|4tagid=SID_攻撃速さの防壁4
+|4effect=Foes with Range = 1 cannot move through spaces adjacent to unit, and foes with Range = 2 cannot move through spaces within 2 spaces of unit (does not affect foes with Pass skills). Inflicts Atk/Spd-4 on foe and reduces damage from foe's first attack by 40% during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes). Restores 7 HP to unit after combat.
+|4cost=300
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Atk/Spd Bulwark 3}} Atk/Spd Bulwark 3
+|s1 Me1={{Eft|Obstruct|[[adjacent]] to {{Tgt|Unit}}}}
+|s1 MeT1=Range = 1<br>{{Tgt|Foes}}
+|s1 Me2={{Eft|Obstruct|[[within 2 spaces]] of {{Tgt|Unit}}}}
+|s1 MeT2=Range = 2<br>{{Tgt|Foes}}
+|s1 Me3={{Eft|Heal|7}}
+|s1 MeC3=After combat
+|s1 Ce={{Eft|Temporary debuffs|Atk/Spd|4}}
+|s1 CeT={{Tgt|Foe}}
+|skill2={{Si|A/S Bulwark 4}} A/S Bulwark 4
+|s2 Me1={{Eft|Obstruct|[[adjacent]] to {{Tgt|Unit}}}}
+|s2 MeT1=Range = 1<br>{{Tgt|Foes}}
+|s2 Me2={{Eft|Obstruct|[[within 2 spaces]] of {{Tgt|Unit}}}}
+|s2 MeT2=Range = 2<br>{{Tgt|Foes}}
+|s2 Me3={{Eft|Heal|7}}
+|s2 MeC3=After combat
+|s2 Ce1={{Eft|Temporary debuffs|Atk/Spd|4}}
+|s2 CeT1={{Tgt|Foe}}
+|s2 Ce2={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|s2 CeT2={{Tgt|Unit}}
+}}
+
+==Notes==
+{{Obstruct notes}}
+{{Temporary debuffs}}
+{{After combat healing}}
+{{DamagePercentageReduction|name=A/S Bulwark 4}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Atk/Spd Bulwark
+|japanese=攻撃速さの防壁
+|german=Agr./Ges.-Wall
+|spanishEU=Muro Ata/Vel
+|spanishLA=Muro Atq./Vel.
+|french=Muraille A/V
+|italian=Barricata A/V
+|chineseTW=攻擊速度防護屏障
+|portuguese=Muralha AV
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%foe%cannot move through spaces%unit%' AND WikiName NOT LIKE '%Bulwark%'}}
+* [[Skill families/B Passives#Bulwark|Bulwark Passives]]
+{{Passives Navbox|B}}

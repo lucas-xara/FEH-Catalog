@@ -1,0 +1,62 @@
+{{Weapon Infobox
+|tagid=SID_山の隠者の書
+|weaponType=Red Tome
+|might=14
+|range=2
+|effectiveness=cavalry
+|effect=Effective against cavalry foes. If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.
+|cost=400
+|exclusive=1
+|required=—
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|statModifiers=0,14,0,0,0
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=During combat, boosts unit's Atk/Spd/Def/Res by number of adjacent allies × 2.
+|iconSkill1=Hermits Tome W.png
+|tagidExtraSkill1=梟
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Ce1={{Eft|Effectiveness|{{Mt|Cavalry}}}}
+|s1 Ce2={{Eft|Neutralize Bonus}}
+|s1 CeT2=Range = 2<br>{{Tgt|Foe}}
+|skill2={{Si|Hermit's Tome|refine=Skill1}} Skill refine effects
+|s2 Ce={{Eft|Temporary buffs|Atk/Spd/Def/Res|2 x [[Adjacent]]{{Tgt|Allies}}}}
+}}
+
+==Notes==
+* Hermit's Tome has the same effect as {{St|Dull Ranged 3}}.
+{{Effective damage bonus|cavalry}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Combat boosts}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|アウルR|Owl}}
+==In other languages==
+{{OtherLanguages
+|japanese=山の隠者の書
+|japaneseNotes=''Mountain Hermit's Book''
+|german=Eremitenbuch
+|spanishEU=Grimorio eremita
+|spanishLA=Grimorio eremita
+|french=Tome de l'ermite
+|italian=Tomo dell'asceta
+|chineseTW=山之隱者之書
+|portuguese=Tomo eremita
+}}
+==See also==
+* [[Wolf Tomes]]
+* [[Owl Weapons]]
+{{Weapons Navbox}}
+[[Category:Owl weapons]]

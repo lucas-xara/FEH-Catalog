@@ -1,0 +1,59 @@
+{{Passive
+|type=B
+|name=Chill Spd/Def
+|exclusive=0
+|1name=Chill Spd/Def 1
+|alt1name=Chill Spd Def 1
+|1tagid=SID_速さ守備の封印1
+|1promotionRarity=5
+|1promotionTier=1
+|1effect=At start of turn, inflicts Spd/Def-3 on foe on the enemy team with the highest Spd+Def total through its next action.
+|1required=Chill Spd 1;Chill Def 1
+|1cost=120
+|2name=Chill Spd/Def 2
+|alt2name=Chill Spd Def 2
+|2tagid=SID_速さ守備の封印2
+|2effect=At start of turn, inflicts Spd/Def-5 on foe on the enemy team with the highest Spd+Def total through its next action.
+|2cost=240
+|2next=-
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+}}
+==Notes==
+{{Penalties}}
+{{SelectStat|Spd+Def total}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Chill Spd/Def 1;Chill Spd/Def 2
+|badgeColor=Verdant
+|costs1=20;100;40
+|costs2=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|english=Chill Spd/Def
+|japanese=速さ守備の封印
+|german=Ges./Ver.-Brem.
+|spanishEU=Gelidez Vel/Def
+|spanishLA=Gelid. Vel./Def.
+|french=Gel Vit/Déf
+|italian=Vel/Dif gelanti
+|chineseTW=速度防守封殺
+|portuguese=Vel./Def. gelad.
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%at start of turn, inflict%-%enemy%highest%' OR Description LIKE '%at start of turn, inflict%-%enemy%lowest%') AND Exclusive='1'|columns=3}}
+* [[Chill Passives]]
+{{Passives Navbox|B}}
+[[Category: Chill Passives]]
+{{Seals Navbox}}

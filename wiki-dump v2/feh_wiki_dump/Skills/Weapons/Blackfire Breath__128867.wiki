@@ -1,0 +1,45 @@
+{{Weapon Infobox
+|tagid=SID_黒夜のブレス
+|image=wep_ac029
+|weaponType=Dragonstone
+|might=10
+|range=1
+|effect=If unit is not adjacent to an ally, inflicts Atk/Res-5 on foe during combat and neutralizes foe's bonuses to Atk/Res (from skills like Fortify, Rally, etc.) during combat. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|cost=200
+|exclusive=0
+|statModifiers=0,10,0,0,0
+|required=Fire Breath+
+|next=Blackfire Breath+
+|promotionRarity=5
+|promotionTier=1
+|intID=2253
+|sort=86000
+|value=11
+|adaptive=Flying
+|timingID=1
+|abilityID=162
+|limit1ID=19
+|properties=
+}}
+==Notes==
+{{Combat reductions}}
+{{Bonus neutralization}}
+{{LowerDefRes}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Blackfire Breath
+|japanese=黒夜のブレス
+|german=Schwarzer Atem
+|spanishEU=Aliento sombrío
+|spanishLA=Soplo sombrío
+|french=Souffle noirfeu
+|italian=Soffio fuoconero
+|chineseTW=黑夜吐息
+|portuguese=Sopro sombrio
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If unit is not adjacent to an ally, inflicts%neutralizes foe_s bonuses%' AND WikiName NOT LIKE '%Unbound%'|columns=3}}
+* [[Skill families#Unbound|Unbound Weapons]]
+{{Weapons Navbox}}

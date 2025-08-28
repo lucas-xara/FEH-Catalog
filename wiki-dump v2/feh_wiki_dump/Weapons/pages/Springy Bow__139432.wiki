@@ -1,0 +1,53 @@
+{{Weapon Infobox
+|tagid=SID_春兎の弓
+|weaponName=Springy Bow
+|weaponType=Bow
+|might=8
+|range=2
+|effectiveness=Flying
+|effect=Effective against flying foes. At start of combat, if foe's HP ≥ 75%, grants Atk/Spd+5 to unit and neutralizes unit's penalties to Atk/Spd during combat.
+|cost=200
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|userVersion1=Bow
+|userVersion2=Arrow
+|required=Steel Bow
+|next=
+|promotionRarity=5
+|promotionTier=1
+|intID=2480
+|sort=91000
+|value=11
+|timingID=1
+|abilityID=222
+|limit1ID=53
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd|5}}
+|Ce3={{Eft|Neutralize Penalties|Atk/Spd}}
+|Ce2-3C={{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+}}
+==Notes==
+{{Effective damage bonus|Flying}}
+{{Temporary buffs}}
+{{Penalty neutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=春兎の弓
+|german=Frühlingsbogen
+|spanishEU=Arco vernal
+|spanishLA=Arco vernal
+|french=Arc vernal
+|italian=Arco vernale
+|chineseTW=春兔之弓
+|portuguese=Arco vernal
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%if foe_s HP ≥ ___, grants Atk/Spd+%neutralizes unit_s penalties%' OR Description LIKE '%if foe_s HP ≥ ___, grants Atk/Spd+%neutralizes penalties%') AND WikiName NOT LIKE '%Up-Front%' AND Exclusive='1'}}
+* [[Skill families/Weapons#Up-Front|Up-Front Weapons]]
+{{Weapons Navbox}}

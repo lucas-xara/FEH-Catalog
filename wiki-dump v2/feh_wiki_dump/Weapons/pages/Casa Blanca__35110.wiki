@@ -1,0 +1,38 @@
+{{Weapon Infobox
+|tagid=SID_カサブランカ
+|weaponType=Lance
+|weaponName={{PAGENAME}}
+|might=10
+|range=1
+|effect=If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.
+|cost=200
+|statModifiers=0,10,0,0,0
+|exclusive=0
+|next=Casa Blanca+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Lance
+|properties=
+}}
+==Notes==
+* Has the same effect as {{Pt|Dull Ranged 3}}.
+{{Bonus neutralization}}
+==List of owners==
+{{Skill Hero List}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=カサブランカ
+|german=Weiße Lilie
+|spanishEU=Casablanca
+|spanishLA=Casablanca
+|french=Casablanca
+|italian=Casablanca
+|chineseTW=卡薩布蘭卡
+|portuguese=Casablanca
+}}
+==See also==
+* [[Love Abounds Weapons]]
+* [[Skills that neutralize bonuses]]
+{{Weapons Navbox}}
+[[Category:Love Abounds weapons]]

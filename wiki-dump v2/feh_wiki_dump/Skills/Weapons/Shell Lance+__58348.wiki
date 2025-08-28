@@ -1,0 +1,40 @@
+{{Weapon Infobox
+|tagid=SID_貝殻の槍＋
+|weaponType=Lance
+|weaponName={{PAGENAME}}
+|might=14
+|range=1
+|effectiveness=
+|effect=If unit initiates combat, grants Atk/Spd/Def/Res+2 during combat.
+|cost=300
+|exclusive=0
+|userVersion1=Weapon
+|statModifiers=0,14,0,0,0
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Combat boosts}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=貝殻の槍＋
+|german=Muschellanze+
+|spanishEU=Lanza caracola +
+|spanishLA=Lanza caracola +
+|french=L. coquillage +
+|italian=Lancia conch.+
+|chineseTW=貝殼之槍＋
+|portuguese=Lança marinha+
+}}
+==See also==
+* [[Summer's Arrival Weapons]]
+{{Weapons Navbox}}
+[[Category:Summer's Arrival weapons]]

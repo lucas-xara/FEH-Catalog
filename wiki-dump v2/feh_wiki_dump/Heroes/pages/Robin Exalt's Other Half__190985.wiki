@@ -1,0 +1,75 @@
+{{#invoke:NameAbout|main|Name=Robin}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Robin
+|Title=Exalt's Other Half
+|WeaponType=Green Tome
+|MoveType=Infantry
+|Person=Robin M
+|Origin=Fire Emblem Awakening
+|Gender=Male
+|LegendaryEffect=Earth
+|BoostHP=3
+|BoostDef=4
+|Duel=200
+|actorEN=David Vincent
+|actorJP=細谷佳正
+|artist=大熊ゆうご
+|additionDate=February 28, 2023
+|releaseDate=February 28, 2023
+|cv1=10
+|cv2=100200
+|TagID=伝承ルフレ男
+|InternalID=922
+|Properties=legendary
+|description=Tactician of Ylisse. Celebrated as Exalt Chrom's other half in the legends that followed their exploits. Appears in Fire Emblem Awakening.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=15|Lv1SPD=6|Lv1DEF=5|Lv1RES=7
+|GRHP=50|GRATK=70|GRSPD=55|GRDEF=60|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Wind
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elwind
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Rexcalibur
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Master's Tactics
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=4
+|special1Unlock=3
+|special2=Ignis
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Part of the Plan
+|passiveA1Unlock=5
+|passiveB1=Seal Atk 1
+|passiveB2=Seal Atk 2
+|passiveB3=Seal Atk 3
+|passiveB4=Seal Atk 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Canto Control 1
+|passiveC2=Canto Control 2
+|passiveC3=Canto Control 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

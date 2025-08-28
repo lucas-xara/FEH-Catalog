@@ -1,0 +1,67 @@
+{{Weapon Infobox
+|tagid=SID_魔器ギンヌンガガプ
+|intID=3862
+|userVersion1=Weapon
+|userVersion2=Gleam
+|exclusive=0
+|weaponType=Dagger
+|cost=300
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit, inflicts Atk/Spd/Def/Res-X on foe (X = highest penalty on each stat between target and foes within 2 spaces of target; calculates each stat penalty independently), unit makes a guaranteed follow-up attack, and grants Special cooldown charge +1 to unit per attack (only highest value applied; does not stack) during combat.<br>Effect:【Dagger ７】<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|required=Silver Dagger
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=200
+|properties=arcane,random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|PermanentEffect={{Eft|Accelerate Special}}
+|CombatEffect 1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|CombatEffect 2={{Eft|Guaranteed Follow-ups}}
+|CombatEffect 3={{Eft|Accelerate Charge}}
+|CombatEffect 4={{Eft|Temporary debuffs|Atk/Spd/Def/Res|highest {{SEt|Penalties}}<br>on {{Tgt|Target Foe}} & {{Tgt|Foes}}<br>[[within 2 spaces]] of {{Tgt|Target Foe}}}}
+|CombatEffect 4 Targets={{Tgt|Foe}}
+|CombatEffect Conditions={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|StatusEffect={{Eft|Penalties|Def/Res|7}}
+|StatusEffect Targets={{Tgt|Target Foe}} & {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|StatusEffect Conditions=After combat if<br>{{Tgt|Unit}} attacked
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{TemporaryDebufffromPenalty|source=the foe or foes within 2 spaces of foe}}
+{{Guaranteed follow-up interaction}}
+{{CooldownChargePlus}}
+{{IfUnitAttacked}}
+{{Penalties}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=魔器ギンヌンガガプ
+|german=Arkane Leere
+|spanishEU=Olvido arcano
+|spanishLA=Olvido arcano
+|french=Arcane du néant
+|italian=Oblio arcano
+|chineseTW=魔器金倫加
+|portuguese=Vazio arcano
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%grants Atk/Spd/Def/Res+%during combat%special cooldown charge +_%per attack%' OR Description LIKE '%between target and foes within 2 spaces of target%' OR Description LIKE '%foe within 2 spaces of target, including target%') AND (Exclusive='1' AND Name NOT LIKE '%+' AND Properties HOLDS NOT 'arcane')}}
+* [[Skill families/B Passives#Sabotage|Sabotage Passives]]
+{{Weapons Navbox}}

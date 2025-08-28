@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Lyon}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Lyon
+|Title=Grado's Gaze
+|WeaponType=Blue Tome
+|MoveType=Infantry
+|Origin=Fire Emblem: The Sacred Stones
+|Gender=Male
+|actorEN=Mark P. Whitten
+|actorJP=田村睦心
+|artist=azuタロウ
+|additionDate=April 19, 2021
+|releaseDate=April 19, 2021
+|cv1=7
+|cv2=300100
+|TagID=幼少リオン
+|InternalID=651
+|Properties=special
+|description=Beloved son of the emperor of Grado, Vigarde. Like his father, who is referred to as the Silent Emperor, he prefers to keep to himself. Appears in Fire Emblem: The Sacred Stones.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=8|Lv1SPD=5|Lv1DEF=8|Lv1RES=9
+|GRHP=45|GRATK=70|GRSPD=30|GRDEF=60|GRRES=65
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Thunder
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elthunder
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Thoron
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Tome of Grado
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Iceberg
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Res Solo 1
+|passiveA2=Atk/Res Solo 2
+|passiveA3=Atk/Res Solo 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Def/Res Gap 1
+|passiveC2=Def/Res Gap 2
+|passiveC3=Def/Res Gap 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Childhood units]]

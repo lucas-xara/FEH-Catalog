@@ -1,0 +1,73 @@
+{{#invoke:NameAbout|main|Name=Serra}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Serra
+|Title=Outspoken Cleric
+|GrowthModifier=None
+|WeaponType=Colorless Staff
+|Origin=Fire Emblem: The Blazing Blade
+|Gender=Female
+|MoveType=Infantry
+|actorEN=Kate Davis
+|actorJP=小澤亜李
+|artist=久杉トク
+|resplendentArtist=えいひ
+|releaseDate=February 2, 2017
+|poolDate=February 2, 2017
+|randomStartTime=2017-02-02T07:00:00Z
+|poolRarities=3,4
+|TagID=セーラ
+|InternalID=88
+|cv1=6
+|cv2=300300
+|description=Cleric who thinks less of others, more of herself. Serves Hector, brother of the marquess of Ostia. Appears in Fire Emblem: The Blazing Blade.
+|Properties=resplendent,nifl
+|resplendentStartTime=2021-11-10T07:00:00Z
+|resplendentEndTime=2021-11-25T06:59:59Z
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=6|Lv1SPD=9|Lv1DEF=4|Lv1RES=9
+|GRHP=40|GRATK=55|GRSPD=50|GRDEF=40|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Assault
+|weapon1Unlock=1
+|weapon2=Absorb
+|weapon2Unlock=3
+|weapon3=Absorb+
+|weapon3Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Heal
+|assist1Default=1
+|assist1Unlock=1
+|assist2=Mend
+|assist2Default=3
+|assist2Unlock=2
+|assist3=Recover
+|assist3Default=5
+|assist3Unlock=4
+|assist4=Recover+
+|assist4Unlock=5
+}}
+===Specials===
+{{Specials Table
+|special1=Imbue
+|special1Default=4
+|special1Unlock=2
+|special2=Swift-Winds Balm
+|special2Default=5
+|special2Unlock=3
+}}
+===Passives===
+{{Passives Table
+|passiveC1=Hone Atk 1
+|passiveC2=Hone Atk 2
+|passiveC3=Hone Atk 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

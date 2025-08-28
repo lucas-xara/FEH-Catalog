@@ -1,0 +1,58 @@
+{{Passive
+|name=Fortifications
+|type=A
+|exclusive=0
+|canUseWeapon={{WeaponList|Close}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Fortifications
+|1tagid=SID_野戦築城
+|1effect=Inflicts Atk-5. Grants Def/Res+7.<br><br>If unit is in a space where a Divine Vein effect is applied, unit can counterattack regardless of foe's range.<br><br>If unit initiates combat, grants Def/Res+6 to unit and reduces damage from foe's Specials by 10 during combat (excluding area-of-effect Specials).<br><br>If unit has entered combat during the current turn, after unit acts (if Canto triggers, after Canto), applies【Divine Vein (Stone)】to unit's space and spaces within 2 spaces of unit for 1 turn.<br><br>【Divine Vein (Stone)】<br>Applies the following effects on space for unit and allies: Grants Def/Res+6 during combat, reduces damage from foe's Specials by 10 during combat (excluding area-of-effect Specials), and reduces damage from area-of-effect Specials by 50% (excluding Røkkr area-of-effect Specials). (Divine Vein effects do not stack; replaces any existing Divine Vein effect; Divine Vein effects applied simultaneously cancel each other out. Does not count as defensive terrain.)
+|statModifiers1=0,-5,0,7,7
+|1cost=300
+|1required=Fort. Def/Res 2
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Stat Reductions|Atk|5}}, {{Eft|Stat Boosts|Def/Res|7}}
+|Ce1={{Eft|Distant Counter}}
+|Ce1C={{Tgt|Unit}} is on<br>a [[Divine Vein]]
+|Ce2={{Eft|Temporary buffs|Def/Res|6}}
+|Ce3={{Eft|Damage Reduction|10}}<br>per {{Tgt|Foe}}'s [[offensive special]]
+|Ce2-3C=Player Phase
+|Me={{Eft|Divine Vein (Stone)}}
+|MeT=Spaces<br>[[within 2 spaces]]<br>of {{Tgt|Unit}}
+|MeC=After {{Tgt|Unit}}'s<br>action(s) '''or''' (after<br>[[Canto]] movement)<br>if {{Tgt|Unit}} entered<br>combat during the<br>current turn
+}}
+
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{FlatDamageReduction|10}}
+{{Divine Vein|Stone}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=野戦築城
+|german=Befestigungen
+|spanishEU=Fortificaciones
+|spanishLA=Fortificaciones
+|french=Fortifications
+|italian=Fortificazioni
+|chineseTW=野戰築城
+|portuguese=Fortificações
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Divine Vein (Stone)】%' OR Description LIKE '%reduces damage from foe_s specials by%') AND Exclusive='1'}}
+* [[Counter Passives]]
+* [[Counter Seals]]
+* [[Prime Passives]]
+* [[Weapons with Distant Counter]]
+* [[Weapons with Close Counter]]
+{{Passives Navbox|A}}
+[[Category:Fortress Passives]]

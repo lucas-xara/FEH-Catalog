@@ -1,0 +1,45 @@
+{{Weapon Infobox
+|tagid=SID_紫翠のブレス
+|weaponName=Lilac-Jade Breath
+|image=wep_ac034
+|weaponType=Dragonstone
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). If foe initiates combat or if foe's HP = 100% at start of combat, grants Atk/Spd/Def/Res+5 to unit during combat and reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by 40%. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Flametongue
+|intID=2483
+|sort=515
+|value=20
+|adaptive=Flying
+|timingID=1
+|abilityID=229
+|limit1ID=46
+|properties=
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+{{LowerDefRes}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=紫翠のブレス
+|german=Lila-Jade-Atem
+|spanishEU=Aliento lilaverde
+|spanishLA=Soplo lilaverde
+|french=Souffle lilas vert
+|italian=Soffio lilla-verde
+|chineseTW=紫翠吐息
+|portuguese=Sopro lilás jade
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If foe initiates combat or if foe_s HP%Atk/Spd/Def/Res+%' OR Description LIKE '%if foe initiates%reduces damage from attacks%'|columns=3}}
+{{Weapons Navbox}}

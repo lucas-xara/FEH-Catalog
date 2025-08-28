@@ -1,0 +1,79 @@
+{{#invoke:NameAbout|main|Name=Mareeta}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Mareeta
+|Title=Astra Awakened
+|WeaponType=Red Sword
+|MoveType=Infantry
+|Origin=Fire Emblem: Thracia 776
+|Gender=Female
+|actorEN=Kayli Mills
+|actorJP=井上麻里奈
+|artist=麻谷知世
+|randomStartTime=2022-04-18T07:00:00Z
+|additionDate=March 18, 2022
+|releaseDate=March 18, 2022
+|poolDate=April 7, 2022
+|poolRarities=5
+|cv1=4
+|cv2=100500
+|TagID=開花マリータ
+|InternalID=782
+|Properties=ascended,specRate_202502
+|description=Foster daughter of Eyvel, mistress of Fiana. The gleaming strength of Astra is hers, and she is now beyond peer. Appears in Fire Emblem: Thracia 776.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=10|Lv1SPD=10|Lv1DEF=10|Lv1RES=6
+|GRHP=50|GRATK=70|GRSPD=75|GRDEF=55|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Ascending Blade
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Astra
+|special2Unlock=4
+|special3=Vital Astra
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Solo 1
+|passiveA2=Atk/Spd Solo 2
+|passiveA3=Atk/Spd Solo 3
+|passiveA4=Atk/Spd Solo 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Spurn 1
+|passiveB2=Spurn 2
+|passiveB3=Spurn 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Even Tempest 1
+|passiveC2=Even Tempest 2
+|passiveC3=Even Tempest 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

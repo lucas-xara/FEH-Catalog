@@ -1,0 +1,72 @@
+{{Weapon Infobox
+|tagid=SID_幸福忍者の忍法帳
+|intID=4412
+|image=wep_mg196
+|exclusive=1
+|weaponType=Blue Tome
+|cost=400
+|might=8
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br>Unit attacks twice (even if foe initiates combat, unit attacks twice).<br><br>Unit can move to any space within 2 spaces of an ally within 2 spaces of unit.<br><br>At start of enemy phase, restores 10 HP to unit and allies within 3 spaces of unit.<br><br>After start-of-turn effects trigger on enemy phase, for unit and allies within 3 spaces of unit, neutralizes stat penalties and two【Penalty】 effects (does not apply to Penalty effects that are applied at the same time; neutralizes the first applicable Penalty effects on unit's list of active effects).<br><br>Grants Spd/Res+4 to allies within 3 spaces of unit during their combat and restores 10 HP to those allies after their combat.<br><br>If unit initiates combat or is within 3 spaces of an ally, grants bonus to unit's Atk/Spd/Def/Res = 15% of unit's Spd at start of combat + 5, deals damage = 6 × number of allies with HP ≥ 50% during combat (max 18; excluding area-of-effect Specials), and restores 10 HP to unit after combat.<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|required=Thoron;Shine
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Me1={{Eft|Warp|[[within 2 spaces]]<br>of an {{Tgt|Ally}}<br>[[within 2 spaces]]}}
+|Me2={{Eft|Heal|10}}
+|Me2T={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 3 spaces]]
+|Me2C=At start of Enemy Phase
+|Me3={{Eft|Heal|10}}
+|Me3T={{Tgt|Allies}}<br>[[within 3 spaces]]
+|Me3C=After {{Tgt|Ally}}'s combat
+|Me4={{Eft|Heal|10}}
+|Me4T={{Tgt|Unit}}
+|Me4C=After combat on<br>Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|Se1=Removes {{SEt|Penalties}}
+|Se2=Removes 1<sup>st</sup> 2 {{Kp|Penalty}} effects<br>(excluding {{SEt|Penalties}})
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 3 spaces]]
+|SeC=After start-of-turn<br>effects on<br>Enemy Phase
+|Ce1={{Eft|Attack Twice}}
+|Ce2={{Eft|Temporary buffs|Spd/Res|4}}
+|Ce2T={{Tgt|Allies}}<br>[[within 3 spaces]]
+|Ce3={{Eft|Temporary buffs|Atk/Spd/Def/Res|15% of {{Tgt|Unit}}'s Spd<br>at start of combat, +5}}
+|Ce4={{Eft|Damage Boost|6 x {{Tgt|Allies}} with HP ≥ 50%|percent=0|max=18}}
+|Ce3-4T={{Tgt|Unit}}
+|Ce3-4C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 3 spaces]]
+}}
+==Notes==
+{{AttackTwice}}
+{{Warp interaction}}
+{{Start-of-turn healing}}
+{{Penalty neutralization|order=1|negstatuses={{SEt|Penalties}} & the 1<sup>st</sup> 2 {{Kp|Penalty}} effects of unit and allies [[within 2 spaces]]}}
+{{Temporary buffs}}
+{{After combat healing|allies=1}}
+{{AlliesCombatEffect|temporary buffs}}
+{{IfUnitInitiates}}
+{{At start of combat}}
+{{FlatDamageBoost|X (max: 18)}}
+
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V8.11_v0811a_ninja_Mag.webp|Sprite sheet for {{St|Scroll of Curses}} and {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%neutralizes the first applicable Penalty effects on unit_s list of active effects%' OR Description LIKE '%grants%number of allies with HP%' OR Description LIKE '%restores%after their combat%') AND Exclusive='1'}}
+* [[Skill families/C Passives#Recovery|Recovery Passives]]
+{{Weapons Navbox}}

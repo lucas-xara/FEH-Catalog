@@ -1,0 +1,66 @@
+{{#invoke:NameAbout|main|Name=Dedue}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Dedue
+|Title=Loyal Life Guard
+|WeaponType=Green Axe
+|MoveType=Infantry
+|Origin=Fire Emblem: Three Houses
+|Gender=Male
+|actorEN=Ben Lepley
+|actorJP=高橋英則
+|artist=北千里
+|additionDate=July 5, 2024
+|releaseDate=July 5, 2024
+|cv1=12
+|cv2=300200
+|TagID=水着ドゥドゥー
+|InternalID=1117
+|Properties=limited,tempest,specDisplay
+|description=A servant to Dimitri who is loyal to all ends, including along the shores of Askr's ocean. Appears in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=21|Lv1ATK=11|Lv1SPD=5|Lv1DEF=8|Lv1RES=11
+|GRHP=55|GRATK=80|GRSPD=35|GRDEF=90|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Anchor Axe
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Anchor Axe+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Buckler
+|special1Default=4
+|special1Unlock=3
+|special2=Pavise
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Solid Ground 1
+|passiveA2=Solid Ground 2
+|passiveA3=Solid Ground 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Even Def Wave 1
+|passiveC2=Even Def Wave 2
+|passiveC3=Even Def Wave 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

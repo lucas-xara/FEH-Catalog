@@ -1,0 +1,38 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_倭刀＋
+|weaponType=Sword
+|weaponName={{PAGENAME}}
+|altWeaponName=Wo Dao Plus
+|might=13
+|range=1
+|effect=Deals +10 damage when Special triggers.
+|cost=300
+|statModifiers=0,13,0,0,0
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|upgradedMight=14
+|properties=random_all
+}}
+==Notes==
+{{FlatDamage|special=1|10}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=倭刀＋
+|german=Wo Dao+
+|spanishEU=Wo Dao +
+|spanishLA=Wo Dao+
+|french=Wo Dao +
+|italian=Wo Dao+
+|chineseTW=倭刀＋
+|portuguese=Wo Dao+
+}}
+==See also==
+* [[Weapons that boost Special damage]]
+{{Weapons Navbox}}

@@ -1,0 +1,43 @@
+{{Passive
+|type=B
+|name=Assured Rebirth
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Assured Rebirth
+|1tagid=SID_我が復活は成った
+|1cost=300
+|1effect=If unit's Res > foe's Res, unit makes a guaranteed follow-up attack. Reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = number of staff or dragon allies within 3 spaces of unit × 20, and also, if unit's Res > foe's Res, difference between stats × 4 (max 40%; total max 60%).
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Guaranteed Follow-Ups}}
+|Ce2={{Eft|Damage Reduction|4 x ({{Tgt|Unit}}'s Res - {{Tgt|Foe)}}'s<br>Res) from {{Tgt|Foe}}'s attacks<br>'''&''' Non-Røkkr [[AoE Specials]]|percent=1|max=40%*}}
+|Ce1-2C={{Tgt|Unit}}'s Res ><br>{{Tgt|Foe}}'s Res
+|Ce3={{Eft|Damage Reduction|20 x {{Cwti|Dragon,Staff|group=1}} {{Wtp|Staff}}/[[Dragon]]<br>{{Tgt|Allies}} [[within 3 spaces]]|percent=1|max=60%*}}
+}}
+<b>{{Hatnote|* Total max 60%.}}</b>
+==Notes==
+{{UnitStatMinusFoeStat|stat=Res}}
+{{Guaranteed follow-up interaction}}
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=我が復活は成った
+|japaneseNotes=''My Resurrection is Complete''
+|german=Wiedergeburt
+|spanishEU=Renacer seguro
+|spanishLA=Renacer seguro
+|french=Retour garanti
+|italian=Rinascita riuscita
+|chineseTW=我於此復活
+|portuguese=Renascer certo
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%number of staff%dragon allies%' OR Description LIKE '%if unit_s Res > foe_s Res%× 4%') AND Exclusive='1'}}
+{{Passives Navbox|B}}

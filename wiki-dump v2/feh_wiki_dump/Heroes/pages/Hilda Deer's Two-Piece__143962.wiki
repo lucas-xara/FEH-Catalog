@@ -1,0 +1,80 @@
+{{#invoke:NameAbout|main|Name=Hilda|Name2=Marianne}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Hilda
+|Title=Deer's Two-Piece
+|WeaponType=Colorless Staff
+|MoveType=Flying
+|Origin=Fire Emblem: Three Houses
+|Gender=FF
+|duo=Inflicts Atk-7 on foes within 3 columns or 3 rows centered on unit through their next actions and inflicts【Isolation】on them.<br><br>Once used, Duo Skill cannot be activated again right away. At start of every third turn, if Duo Skill has already been used, unit can use Duo Skill again.<br><br>【Isolation】<br>Target cannot use or be the target of Assist skills through its next action. (Target can neither use nor be the target of skills like Dance and Sing, skills that neutralize penalties, like Restore and Harsh Command+, etc.)
+|secondPerson=Marianne
+|Duel=190
+|actorEN=Celeste Henderson,Xanthe Huynh
+|actorJP=桑原由気,秦佐和子
+|artist=ニジハヤシ
+|additionDate=June 21, 2021
+|releaseDate=June 21, 2021
+|cv1=12
+|cv2=400700
+|TagID=比翼ヒルダ
+|InternalID=672
+|Properties=special,duo,specRate_202502
+|description=The cosmopolitan Hilda joined by the provincial Marianne, but it seems even with their polar- opposite personalities, the two get along well... They appear in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=9|Lv1SPD=10|Lv1DEF=5|Lv1RES=6
+|GRHP=50|GRATK=65|GRSPD=70|GRDEF=35|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Assault
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Sunshade Staff
+|weapon2Default=5
+|weapon2Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Heal
+|assist1Default=1
+|assist1Unlock=1
+|assist2=Reconcile
+|assist2Default=3
+|assist2Unlock=2
+|assist3=Nudge
+|assist3Default=4
+|assist3Unlock=3
+|assist4=Nudge+
+|assist4Default=5
+|assist4Unlock=5
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Push 1
+|passiveA2=Atk/Spd Push 2
+|passiveA3=Atk/Spd Push 3
+|passiveA4=Atk/Spd Push 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Dazzling Staff 1
+|passiveB2=Dazzling Staff 2
+|passiveB3=Dazzling Staff 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Even Recovery 1
+|passiveC2=Even Recovery 2
+|passiveC3=Even Recovery 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Sources of penalties]][[Category:Sources of Isolation]][[Category:Sources of status effects]]
+[[Category:Summer units]]

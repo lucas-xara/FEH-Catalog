@@ -1,0 +1,46 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_青の花かご＋
+|weaponType=Blue Tome
+|might=12
+|range=2
+|effect=If unit is adjacent to an ally, grants Atk/Spd/Def/Res+3 during combat.
+|cost=300
+|exclusive=0
+|userVersion1=
+|userVersion2=
+|userVersion3=
+|userVersion4=
+|statModifiers=0,12,0,0,0
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+v3.2_77_valentine02_Hit.png|Sprite sheet for {{PAGENAME}}'s hit animation.
+v3.2_77_valentine02_Mag.png|Sprite sheet for the animations of {{PAGENAME}}, {{St|Gronnblooms+}}, {{St|Loyal Wreath+}}, {{St|Tharja's Hex}} and {{St|Iris's Tome}}.
+</gallery>
+==Trivia==
+{{TomeColorTrivia|blar}}
+==In other languages==
+{{OtherLanguages
+|japanese=青の花かご＋
+|german=Blárblüten+
+|spanishEU=Flores zarcas +
+|spanishLA=Flores añil +
+|french=Fleurs saphir +
+|italian=Turchinfiore+
+|chineseTW=青之花籃＋
+|portuguese=Flores anis+
+}}
+==See also==
+* 
+{{Weapons Navbox}}

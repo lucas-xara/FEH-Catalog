@@ -1,0 +1,71 @@
+{{#invoke:NameAbout|main|Name=Eliwood}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Eliwood
+|Title=Pledged Friend
+|WeaponType=Red Sword
+|MoveType=Cavalry
+|Origin=Fire Emblem: The Blazing Blade
+|Gender=Male
+|actorEN=Yuri Lowenthal
+|actorJP=矢口アサミ
+|artist=azuタロウ
+|additionDate=April 6, 2023
+|releaseDate=April 7, 2023
+|cv1=6
+|cv2=100100
+|TagID=幼少エリウッド
+|InternalID=935
+|Properties=special
+|description=A young noble of House Pherae, part of the Lycian League. Sincere and considerate toward everyone he meets. Appears in Fire Emblem: The Blazing Blade.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=15|Lv1SPD=13|Lv1DEF=3|Lv1RES=3
+|GRHP=50|GRATK=70|GRSPD=75|GRDEF=60|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Fiery War Sword
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Spd/Def Clash 1
+|passiveA2=Spd/Def Clash 2
+|passiveA3=Spd/Def Clash 3
+|passiveA4=Spd/Def Clash 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=S/D Near Trace 1
+|passiveB2=S/D Near Trace 2
+|passiveB3=S/D Near Trace 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Inborn Idealism
+|passiveC1Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Childhood units]]

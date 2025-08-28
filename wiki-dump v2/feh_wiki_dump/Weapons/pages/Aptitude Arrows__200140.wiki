@@ -1,0 +1,47 @@
+{{Weapon Infobox
+|tagid=SID_良成長の弓
+|intID=3735
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=1
+|weaponType=Bow
+|cost=400
+|might=14
+|range=2
+|effectiveness=Flying
+|effect=Effective against flying foes. Grants Spd+3. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+X (X = 25% of unit's level; max 10), deals damage = 20% of unit's Spd (including when dealing damage with a Special triggered before combat), and neutralizes unit's penalties during combat.
+|statModifiers=0,14,3,0,0
+|required=Silver Bow
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Stat Boosts|Spd|3}}
+|Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|25% of {{Tgt|Unit}}'s level|max=10}}
+|Ce3={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd<br>before '''&''' during combat}}
+|Ce4={{Eft|Neutralize Penalties}}
+|CeC2-4={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Effective damage bonus|flying}}
+{{Temporary buffs}}
+{{DamageBoost}}
+{{Penalty neutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=良成長の弓
+|german=Bogen d. Talents
+|spanishEU=Arco de promesa
+|spanishLA=Arco de promesa
+|french=Arc de prodige
+|italian=Frecce talento
+|chineseTW=天賦過人之弓
+|portuguese=Arco da aptidão
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%of unit_s level%' OR Description LIKE '%deals damage = 20%of unit_s Spd%'}}
+{{Weapons Navbox}}

@@ -1,0 +1,37 @@
+{{Passive
+|name=Heart of Crimea
+|type=C
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Heart of Crimea
+|1tagid=SID_クリミアの心
+|1effect=Allies within 2 spaces of unit can move to any space within 2 spaces of unit. Inflicts Atk/Spd/Def/Res-4 on foes within 4 spaces of unit during combat. At start of turn, if unit is within 2 spaces of an ally, grants 【Null Follow-Up】to unit and allies within 2 spaces of unit.<br><br>【Null Follow-Up】<br>If unit's Spd > foe's Spd during combat, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks for 1 turn.
+|1cost=300
+|1required=-
+}}
+==Notes==
+{{Warp interaction}}
+{{Temporary debuffs}}
+{{FoesCombatEffect|temporary debuffs}}
+{{Null Follow-Up}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=クリミアの心
+|german=Herz von Crimea
+|spanishEU=Corazón crimeo
+|spanishLA=Corazón crimeo
+|french=Cœur de Crimea
+|italian=Cuore di Ozna
+|chineseTW=克里米亞之心
+|portuguese=Alma de Crimea
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%allies within _ spaces%can move to a%space within 2 spaces of unit%' OR Description LIKE '%inflicts %/%/%-%on foes within _ spaces during combat%' AND Name NOT LIKE '%Breidablik%' OR Description LIKE '%【Null Follow-Up】%') AND Exclusive='1'}}
+* [[Skill families/C Passives#Guidance|Guidance Passives]]
+* [[Skill families/C Passives#Rein|Rein Passives]]
+* [[Skill families/C Passives#Hold|Hold Passives]]
+{{Passives Navbox|C}}

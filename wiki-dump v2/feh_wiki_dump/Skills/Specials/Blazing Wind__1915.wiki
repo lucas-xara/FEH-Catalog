@@ -1,0 +1,50 @@
+{{Special
+|tagid=SID_烈風
+|name=Blazing Wind
+|charge=4
+|effect=Before combat this unit initiates, foes in an area near target take damage equal to 1.5 x (unit's Atk minus foe's Def or Res).
+|cost=300
+|required=Rising Wind
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_all,aoe_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|MapEffect={{SkillEffectText|Damage|1.5 x ({{SkillTargetText|Unit}}'s Atk -<br>{{SkillTargetText|Foe}}'s Def/Res)}}
+|MapEffect Targets={{SkillTargetText|Target Foe}} '''&''' {{SkillTargetText|Foes}}<br>[[adjacent]] to {{SkillTargetText|Target Foe}}
+|MapEffect Conditions=Special triggers<br>before combat
+}}
+
+==Notes==
+{{AoE Special notes}}
+{{Main|Area of Effect Specials}}
+{|class="wikitable default mw-collapsible" style="text-align:center"
+!Example of Area of Effect for Blazing Wind
+|-
+|style="max-width:450px;margin:auto" align="middle"|{{AoE|special=1
+|-----
+|--x--
+|-xtx-
+|--x--
+|-----
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==Trivia==
+* Blazing Wind's cooldown was reduced by 1 with {{Version|2}}, released on November 28th, 2017.
+==In other languages==
+{{OtherLanguages
+|japanese=烈風
+|german=Wütender Wind
+|spanishEU=Viento asolador
+|spanishLA=Viento asolador
+|french=Vent déferlant
+|italian=Vento devastante
+|chineseTW=強風
+|portuguese=Vento voraz
+}}
+{{Specials Navbox}}

@@ -1,0 +1,94 @@
+{{Passive
+|name=Wings of Light
+|type=C
+|exclusive=1
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|intID=2413
+|sort=497
+|effectRange=99
+|value=8
+|timingID=2
+|abilityID=257
+|limit1ID=60
+|limit2ID=64
+|randomTimestamp=2021-02-28T07:00:00Z
+|randomMinLv=31
+|properties=random_owner
+|1name=Wings of Light
+|1tagid=SID_光輝く翼
+|1required=-
+|1next=-
+|2name=Wings of Light+
+|alt2name=Wings of Light Plus
+|2tagid=SID_光輝く翼・神
+|2effect=If the number of Mythic Hero allies on team ≤ 3 (including unit), grants Atk/Spd/Def/Res+X (X = turn number + 3; max 8) and "reduces damage from attacks (excluding area-of-effect Specials) by 30%" to Mythic Hero allies (excluding unit) during their combat. Grants Atk/Spd/Def/Res+4 and Special cooldown charge +1 (only highest value applied; does not stack) per attack to allies within 3 rows or 3 columns centered on unit during their combat. If there is a Mythic Hero ally on your team (excluding unit), or if there is an ally within 3 rows or 3 columns centered on unit, grants Atk/Spd/Def/Res+5 to unit, reduces damage from attacks during combat by 30% (excluding area-of-effect Specials), and grants Special cooldown charge +1 to unit per attack during combat (only highest value applied; does not stack).
+|2cost=300
+|properties2=
+|1cost=300
+|1effect=Grants Atk/Spd/Def/Res+2+X to ally Mythic Heroes during combat in turns 1 through 5 (X = turn number). (Excludes unit.)<br><br>(Effect only active if team includes three or fewer Mythic Heroes, including unit.)
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Wings of Light}} Wings of Light
+|s1 Ce={{Eft|Temporary buffs|Atk/Spd/Def/Res|turn number, +2}}
+|s1 CeT={{Utt|Mythic}} {{Tgt|Allies}}
+|s1 CeC=Turns 1 - 5 '''&'''<br>{{Utt|Mythic}} {{Tgt|Allies}} ≤ 3<br>(including {{Tgt|Unit}})
+|skill2={{Si|Wings of Light+}} Wings of Light+
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|turn number, +3|max=8}}
+|s2 Ce2={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s attacks
+|s2 Ce1-2T={{Utt|Mythic}} {{Tgt|Allies}}
+|s2 Ce1-2C={{Utt|Mythic}} {{Tgt|Allies}} ≤ 3<br>(including {{Tgt|Unit}})
+|s2 Ce3={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s2 Ce4={{Eft|Accelerate Charge}}
+|s2 Ce3-4T={{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|s2 Ce5={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s2 Ce6={{Eft|Accelerate Charge}}
+|s2 Ce7={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s attacks
+|s2 Ce5-7T={{Tgt|Unit}}
+|s2 Ce5-7C=A {{Utt|Mythic}} {{Tgt|Ally}}<br>is deployed '''or''' an<br>{{Tgt|Ally}} is within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{AlliesCombatEffect|effect=temporary buffs}}
+* {{Utt|Mythic}} Heroes that are in play but hidden via {{SEt|Pair Up}} are not counted toward the 3 {{Utt|Mythic}} Hero limit.
+{{DamagePercentageReduction|name=Wings of Light+}}
+{{CooldownChargePlus|name=Wings of Light+}}
+{{AlliesCombatEffect|effect=temporary buffs, damage reduction and +1 Special cooldown charge effects|name=Wings of Light+}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Seiros: Saint of Legend|t=Sothis: Girl on the Throne
+|---xxx---
+|---xxx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxtx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=光輝く翼
+|german=Lichtschwingen
+|spanishEU=Alas de luz
+|spanishLA=Alas de luz
+|french=Ailes de lumière
+|italian=Ali fulgide
+|chineseTW=燦爛光翼
+|portuguese=Asas da luz
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants Atk/Spd/Def/Res+_ to allies%during combat%' AND Exclusive='1' OR Description LIKE '%an ally is within%rows%'}}
+{{Passives Navbox|C}}

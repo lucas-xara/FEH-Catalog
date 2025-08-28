@@ -1,0 +1,82 @@
+{{#invoke:NameAbout|main|Name=Quan}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Quan
+|Title=Luminous Lancer
+|GrowthModifier=Gen 2
+|WeaponType=Blue Lance
+|Origin=Fire Emblem: Genealogy of the Holy War
+|Gender=Male
+|MoveType=Cavalry
+|actorJP=鈴村健一
+|actorEN=Chris Hackney
+|artist=あおじ
+|resplendentArtist=平坂康也
+|additionDate=September 6, 2018
+|releaseDate=September 7, 2018
+|poolDate=September 21, 2018
+|randomStartTime=2018-10-07T07:00:00Z
+|poolRarities=5
+|TagID=キュアン
+|InternalID=286
+|cv1=3
+|cv2=700100
+|description=Prince of Leonster and inheritor of the lance Gáe Bolg. Husband of Ethlyn, the younger sister of his close friend Sigurd. Appears in Fire Emblem: Genealogy of the Holy War.
+|Properties=specRate_202108,resplendent,hel
+|resplendentStartTime=2025-02-25T07:00:00Z
+|resplendentEndTime=2025-03-10T06:59:59Z
+}}
+{{Stats Page
+|Lv1HP=20|Lv1ATK=11|Lv1SPD=5|Lv1DEF=7|Lv1RES=3
+|GRHP=55|GRATK=60|GRSPD=55|GRDEF=55|GRRES=30
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Lance
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Gáe Bolg
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Rally Defense
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Rally Spd/Def
+|assist2Unlock=4
+|assist3=Rally Spd/Def+
+|assist3Unlock=5
+}}
+
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Draconic Aura
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Darting Stance 1
+|passiveA2=Steady Posture 1
+|passiveA3=Steady Posture 2
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Spur Atk 1
+|passiveC2=Drive Atk 1
+|passiveC3=Drive Atk 2
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

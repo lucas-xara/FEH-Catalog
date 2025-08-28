@@ -1,0 +1,35 @@
+{{Weapon Infobox
+|tagid=SID_忍の薙刀＋
+|intID=2817
+|image=wep_lc112
+|exclusive=0
+|weaponType=Lance
+|cost=300
+|might=9
+|range=1
+|effect=Inflicts Def/Res-4. If unit initiates combat, unit attacks twice, and also, if unit's Spd > foe's Spd, deals damage = 50% of difference between stats. (Maximum bonus of +4 damage.)
+|statModifiers=0,9,0,-4,-4
+|required=Ninja Naginata
+|properties=
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Brave weapon interaction}}
+{{BonusStatDamage|stat=Spd|4|8}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=忍の薙刀＋
+|german=Ninja Naginata+
+|spanishEU=Naginata ninja +
+|spanishLA=Naginata ninja +
+|french=Naginata ninja +
+|italian=Naginata ninja+
+|chineseTW=忍之薙刀＋
+|portuguese=Naginata ninja+
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%inflicts Def/Res-%unit attacks twice%' OR Description LIKE '%unit_s Spd%>%foe_s%deals damage =%difference between%') AND (SP=300 OR Exclusive='1')}}
+* [[Brave Weapons]]
+{{Weapons Navbox}}

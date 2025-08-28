@@ -1,0 +1,64 @@
+{{Passive
+|name=Spd/Def Crux
+|type=C
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|Flying}}
+|properties=random_owner
+|1name=Spd/Def Crux
+|alt1name=Spd Def Crux
+|1tagid=SID_速さ守備の十字牽制
+|1effect=Inflicts Spd/Def-4 on foes within 3 rows or 3 columns centered on unit, and those foes suffer guaranteed follow-up attacks during combat.
+|1cost=300
+|1required=Spd/Def Rein 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary debuffs|Spd/Def|4}}
+|Ce1T={{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|Ce2={{Eft|Guaranteed Follow-Ups}}
+|CeT2={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>against {{Tgt|Foes}} in<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+}}
+==Notes==
+{{Temporary debuffs}}
+{{FoesCombatEffect|temporary debuffs}}
+{{Guaranteed follow-up interaction}}
+{{AlliesCombatEffect|guaranteed follow-up}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Petra: Faraway Sun|t=Caspar: Summer Intensity
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Spd/Def Crux
+|japanese=速さ守備の十字牽制
+|german=Kreuz-Ges./Ver.
+|spanishEU=Aspa Vel/Def
+|spanishLA=Aspa Vel./Def.
+|french=Croix Vit/Déf
+|italian=Croce Vel/Dif
+|chineseTW=速度防守的十字牽制
+|portuguese=Cruz Vel./Def.
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%inflicts%/%on%foes within%rows%during combat%' AND Description NOT LIKE '%at start of turn%inflicts%on foes within%rows%next action%during combat%' OR Description LIKE '%suffer guaranteed follow-up%') AND Exclusive='1'}}
+* [[Rein Passives]]
+* [[Skill families/C Passives#Crux|Crux Passives]]
+{{Passives Navbox|C}}

@@ -1,0 +1,50 @@
+{{Passive
+|name=Atk/Res Unity
+|type=A
+|exclusive=0
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|alt1name=Atk Res Unity
+|1effect=If unit is within 2 spaces of an ally, grants Atk/Res+5 and bonus to Atk/Res during combat=current penalty on each of those stats × 2. (Example: if unit has -7 penalty to Atk, grants Atk+19, for a net bonus of Atk+12.) Calculates each stat bonus independently.
+|intID=2351
+|randomTimestamp=2021-01-17T07:00:00Z
+|properties=random_owner
+|1name=Atk/Res Unity
+|1tagid=SID_攻撃魔防の連帯4
+|1required=Atk/Res Bond 3
+|1cost=300
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary buffs|Atk/Res|5}}
+|Ce2={{Eft|Temporary buffs|Atk/Res|2 x {{SEt|penalties}} on<br>each of {{Tgt|Unit}}'s stats}}
+|CeC=An {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+==Notes==
+{{TemporaryBufffromPenalty|source=the unit|ptySource=the unit}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Atk/Res Unity
+|japanese=攻撃魔防の連帯
+|german=Agr./Res.-Bündnis
+|spanishEU=Alianza Ata/Res
+|spanishLA=Alianza Atq./Res.
+|french=Unité Atq/Rés
+|italian=Coesione Att/Res
+|chineseTW=攻擊魔防的連帶
+|portuguese=Aliança Atq./Res.
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%Example: if unit has -%penalty to%, grants%, for a net bonus of%' AND Exclusive='1'}}
+* [[Skill families/A Passives#Unity|Unity Passives]]
+{{Passives Navbox|A}}
+[[Category:Unity Passives]]
+[[Category:Bond Passives]]

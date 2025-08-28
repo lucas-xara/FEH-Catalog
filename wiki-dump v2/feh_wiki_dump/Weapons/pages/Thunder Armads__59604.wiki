@@ -1,0 +1,66 @@
+{{Weapon Infobox
+|tagid=SID_天雷アルマーズ
+|weaponType=Axe
+|might=16
+|range=1
+|effect=Grants Def+3. If the number of allies within 2 spaces (excluding unit) > the number of foes within 2 spaces (excluding target), foe cannot make a follow-up attack.
+|cost=400
+|exclusive=1
+|userVersion1=Weapon
+|userVersion2=Gleam
+|userVersion3=Upgrade Gleam
+|statModifiers=0,16,0,3,0
+|required=Silver Axe
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Def+3. If unit is within 3 spaces of an ally, inflicts Atk/Def-5 on foe during combat and foe cannot make a follow-up attack.
+|tagidExtraSkill1=一
+|effectSkill1=If foe initiates combat or if foe's HP ≥ 75% at start of combat, inflicts Atk/Def-5 on foe during combat and reduces damage from foe's first attack during combat by 40%.
+|iconSkill1=Thunder Armads W.png
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Def|3}}
+|s1 Ce={{Eft|Prevent Follow-Ups}}
+|s1 CeT={{Tgt|Foe}}
+|s1 CeC={{Tgt|Allies}} [[within 2 spaces|within 2<br>spaces]] of {{Tgt|Unit}}<br>> {{Tgt|Foes}} [[within 2 spaces|within 2<br>spaces]] of {{Tgt|Unit}}
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Def|3}}
+|s2 Ce1={{Eft|Temporary debuffs|Atk/Def|5}}
+|s2 Ce2={{Eft|Prevent Follow-Ups}}
+|s2 CeT={{Tgt|Foe}}
+|s2 CeC=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|skill3={{Si|Thunder Armads|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary debuffs|Atk/Def|5}}
+|s3 Ce1T={{Tgt|Foe}}
+|s3 Ce2={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s first attack
+|s3 CeC=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+}}
+==Notes==
+{{Prevent follow-up}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary debuffs|name=Refined Thunder Armads}}
+{{IfFoeInitiates}}
+{{DamagePercentageReduction|name={{St|Thunder Armads|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=天雷アルマーズ
+|german=Donner-Armads
+|spanishEU=Armads eléctrica
+|spanishLA=Armads eléctrica
+|french=Armadès foudre
+|italian=Fragore tuono
+|chineseTW=天雷阿爾瑪茲
+|portuguese=Armads trovão
+}}
+==See also==
+{{See also skills|cond=WikiName LIKE '%Armads%' OR (Description LIKE '%if unit is within _ spaces%inflicts Atk/%-%foe cannot make a follow-up%') AND Exclusive='1'}}
+{{Weapons Navbox}}

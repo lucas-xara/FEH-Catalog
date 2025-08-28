@@ -1,0 +1,40 @@
+{{Weapon Infobox
+|tagid=SID_守りの剣＋
+|weaponType=Sword
+|might=14
+|range=1
+|effect=If foe initiates combat, grants Def+7 during combat.
+|cost=300
+|exclusive=0
+|statModifiers=0,14,0,0,0
+|required=Safeguard
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=random_all
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=守りの剣＋
+|german=Abschirmung+
+|spanishEU=Salvaguardia +
+|spanishLA=Salvaguardia +
+|french=Épée protect. +
+|italian=Salvaguardia+
+|chineseTW=守護之劍＋
+|portuguese=Salvaguarda+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe initiates combat, grants Def+%during combat%' AND WikiName NOT RLIKE 'guard'|columns=1}}
+* [[Skill families/Weapons#Reprisal|Reprisal Weapons]]
+* [[Skill families/Weapons#Guard (temporary buffs)|Guard Weapons]]
+* [[Skill families/Weapons#Barrier|Barrier Weapons]]
+{{Weapons Navbox}}

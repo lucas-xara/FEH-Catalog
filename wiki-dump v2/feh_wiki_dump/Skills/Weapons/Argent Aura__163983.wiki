@@ -1,0 +1,41 @@
+{{Weapon Infobox
+|tagid=SID_アルジローレ
+|intID=2918
+|userVersion1=Closed
+|userVersion2=Open
+|exclusive=1
+|weaponType=Blue Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of turn, inflicts Atk/Spd/Def/Res-5 and 【Stall】on foes on the enemy team with the lowest Spd and any foes within 2 spaces of those foes. At start of combat, if foe's HP ≥ 75%, grants Atk/Res+6 to unit during combat.<br><br>【Stall】<br>If unit has "unit can move 1 extra space," converts that effect into "restricts movement to 1 space" through its next action.
+|statModifiers=0,14,0,0,0
+|required=Thoron;Shine
+|properties=random_owner
+}}
+==Notes==
+{{Penalties}}
+{{Stall}}
+{{SelectStat|Spd|lowest=1}}
+{{Combat boosts}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V6.1_v0601a_seima_Mag.webp|Sprite sheet for {{St|Ancient Codex}} and {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=アルジローレ
+|german=Silberaura
+|spanishEU=Aura argéntea
+|spanishLA=Aura argéntea
+|french=Aura d'argent
+|italian=Aurorargento
+|chineseTW=亞爾吉羅列
+|portuguese=Aura argêntea
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%start of turn%inflicts%/%-%enemy team%' OR Description LIKE '%if foe\'s HP ≥%grants Atk/Res+%during combat%') AND Exclusive='1'|columns=3}}
+{{Weapons Navbox}}

@@ -1,0 +1,79 @@
+{{#invoke:NameAbout|main|Name=Ishtar}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Ishtar
+|Title=Thunder Goddess
+|WeaponType=Blue Tome
+|Origin=Fire Emblem: Genealogy of the Holy War
+|Gender=Female
+|GrowthModifier=Gen 2
+|MoveType=Infantry
+|actorEN=Ratana
+|actorJP=門脇舞以
+|artist=スエカネクミコ
+|resplendentArtist=鈴木理華
+|releaseDate=May 10, 2018
+|additionDate=May 9, 2018
+|poolDate=May 21, 2018
+|randomStartTime=2018-06-10T07:00:00Z
+|poolRarities=5
+|TagID=イシュタル
+|InternalID=247
+|cv1=3
+|cv2=9900200
+|Properties=specRate_202008,resplendent,jotunheimr
+|description=The heir to Mjölnir, she carries the blood of the royal family of Friege. The descent of her love, Julius, into the darkness troubles her. Appears in Fire Emblem: Genealogy of the Holy War.
+|resplendentStartTime=2021-12-25T07:00:00Z
+|resplendentEndTime=2022-01-10T06:59:59Z
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=8|Lv1SPD=10|Lv1DEF=4|Lv1RES=7
+|GRHP=50|GRATK=60|GRSPD=60|GRDEF=30|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Thunder
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elthunder
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Thoron
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Mjölnir
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Moonbow
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Darting Blow 1
+|passiveA2=Swift Sparrow 1
+|passiveA3=Swift Sparrow 2
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Vantage 1
+|passiveB2=Vantage 2
+|passiveB3=Vantage 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Odd Atk Wave 1
+|passiveC2=Odd Atk Wave 2
+|passiveC3=Odd Atk Wave 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

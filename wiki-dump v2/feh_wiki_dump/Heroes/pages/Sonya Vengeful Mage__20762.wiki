@@ -1,0 +1,82 @@
+{{#invoke:NameAbout|main|Name=Sonya}}{{HeroPage Tabs|{{PAGENAME}}}}
+{{Hero Infobox
+|Name=Sonya
+|Title= Vengeful Mage
+|GrowthModifier= None
+|WeaponType= Green Tome
+|MoveType= Infantry
+|Origin= Fire Emblem Echoes: Shadows of Valentia
+|Gender= Female
+|actorEN = Tara Sands
+|actorJP=下田レイ
+|artist=由良
+|resplendentArtist=п猫Ｒ
+|releaseDate = July 13, 2017
+|poolDate = July 28, 2017
+|randomStartTime=2017-07-27T07:00:00Z
+|poolRarities=5
+|TagID=ソニア
+|InternalID=153
+|cv1=2
+|cv2=300300
+|description=A mage hired by Grieth. Cool but flamboyant. Vowed vengeance upon her father, Jedah. Appears in Fire Emblem Echoes: Shadows of Valentia.
+|Properties=specRate_201904,resplendent,muspell
+|resplendentStartTime=2021-08-25T07:00:00Z
+|resplendentEndTime=2021-09-10T06:59:59Z
+}}
+
+__TOC__
+
+{{Stats Page|Hero={{BASEPAGENAME}}
+|Lv1HP=17|Lv1ATK=7|Lv1SPD=7|Lv1DEF=5|Lv1RES=8
+|GRHP=45|GRATK=60|GRSPD=55|GRDEF=25|GRRES=55
+}}
+
+== Skills ==
+===Weapons===
+{{Weapons Table
+|weapon1=Wind
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elwind
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Rexcalibur
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Dark Excalibur
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+
+===Assists===
+{{Assists Table
+}}
+
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Moonbow
+|special2Default=
+|special2Unlock=4
+}}
+
+===Passives===
+{{Passives Table
+|passiveA1=Warding Blow 1
+|passiveA2=Mirror Strike 1
+|passiveA3=Mirror Strike 2
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Res Ploy 1
+|passiveC2=Res Ploy 2
+|passiveC3=Res Ploy 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+
+{{Heroes Navbox}}

@@ -1,0 +1,48 @@
+{{Passive
+|type=S
+|name=Squad Ace BK
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|1name=Squad Ace BK 1
+|alt1name=Squad Ace AG 1
+|1tagid=SID_第63迷宮の覇者1
+|1cost=100
+|1effect=Grants HP+3, Def+1.
+|statModifiers1=3,0,0,1,0
+|1required=-
+|1next=-
+|2name=Squad Ace BK 2
+|alt2name=Squad Ace AG 2
+|2tagid=SID_第63迷宮の覇者2
+|2cost=200
+|2effect=Grants HP+4, Def+2.
+|statModifiers2=4,0,0,2,0
+}}
+==Seal acquired from==
+===Squad Assault reward===
+* Complete the [[63rd Assault]].
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Squad Ace BK 1;Squad Ace BK 2
+|badgeColor=Scarlet
+|costs1=-<!--0;0;0-->
+|costs2=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=第６３迷宮の覇者
+|german=Überfall-Ass BK
+|spanishEU=As del asalto BK
+|spanishLA=As del asalto BK
+|french=Assaut réussi BK
+|italian=Asso sq. BK
+|chineseTW=第６３迷宮的霸王
+|portuguese=Esquadrão ás BK
+}}
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}

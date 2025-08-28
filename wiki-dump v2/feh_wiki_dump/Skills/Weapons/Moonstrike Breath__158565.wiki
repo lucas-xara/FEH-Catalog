@@ -1,0 +1,35 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_誰彼のブレス
+|intID=2773
+|exclusive=1
+|weaponType=Dragonstone
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). If unit is within 2 spaces of an ally, grants Atk+6 to unit and inflicts Atk-6 on foe during combat, and also, if unit deals damage to foe using a Special, restores 30% of unit's maximum HP. (Triggers even if 0 damage is dealt.) If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|statModifiers=0,16,0,0,0
+|required=Flametongue
+|properties=
+}}
+==Notes==
+{{Temporary buffs}}
+{{Temporary debuffs}}
+{{CombatHPRecovery}}
+{{LowerDefRes}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=誰彼のブレス
+|german=Mondstrahlatem
+|spanishEU=Aliento nostálgico
+|spanishLA=Soplo nostálgico
+|french=Souffle lunaire
+|italian=Soffio alla luna
+|chineseTW=陌生吐息
+|portuguese=Sopro lunar
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants Atk+%to unit%inflicts Atk-%on foe%' OR Description LIKE '%deals damage to foe using a Special%restores%of unit_s maximum HP%'|columns=3}}
+{{Weapons Navbox}}

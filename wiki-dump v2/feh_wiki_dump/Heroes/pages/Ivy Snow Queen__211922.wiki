@@ -1,0 +1,74 @@
+{{#invoke:NameAbout|main|Name=Ivy}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Ivy
+|Title=Snow Queen
+|WeaponType=Blue Tome
+|MoveType=Flying
+|Origin=Fire Emblem Engage
+|Gender=Female
+|actorEN=Reba Buhr
+|actorJP=日笠陽子
+|artist=かかげ
+|additionDate=February 19, 2024
+|releaseDate=February 19, 2024
+|cv1=14
+|cv2=400200
+|TagID=響心アイビー
+|InternalID=1063
+|Properties=attuned,hat,tiara
+|description=Crown princess of Elusia, Kingdom of Knowledge. Unfailingly upholds the dignity and majesty of royalty. Appears in Fire Emblem Engage.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=8|Lv1SPD=4|Lv1DEF=11|Lv1RES=8
+|GRHP=50|GRATK=90|GRSPD=70|GRDEF=35|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Thunder
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elthunder
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Thoron
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Icebound Tome
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Obsession
+|passiveA1Unlock=5
+|passiveB1=A/R Far Trace 1
+|passiveB2=A/R Far Trace 2
+|passiveB3=A/R Far Trace 3
+|passiveB4=A/R Far Trace 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Savage Blow 1
+|passiveC2=Savage Blow 2
+|passiveC3=Savage Blow 3
+|passiveC4=Deadly Miasma
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+|passiveX1=Soaring Echo
+|passiveX1Unlock=5
+}}
+{{Heroes Navbox}}

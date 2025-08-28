@@ -1,0 +1,34 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_手毬
+|weaponType=Dagger
+|might=8
+|range=2
+|effect=At start of turn, if any foe's Res ≤ unit's Res-3 and that foe is adjacent to another foe, inflicts Atk/Spd-5 on that foe through its next action.<br>Effect:【Dagger ５】<br><br>【Dagger ５】<br>After combat, if unit attacked, inflicts Def/Res-５ on target and foes within 2 spaces of target through their next actions.
+|cost=200
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|next=Temari+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Dagger
+|properties=
+}}
+==Notes==
+{{IfUnitAttacked}}{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Temari
+|japanese=手毬
+|german=Temari
+|spanishEU=Temari
+|spanishLA=Temari
+|french=Temari
+|italian=Temari
+|chineseTW=手鞠
+|portuguese=Temari
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%foe_s Res%unit_s Res%foe is adjacent to another foe%'|columns=3}}
+{{Weapons Navbox}}

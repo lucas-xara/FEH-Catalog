@@ -1,0 +1,35 @@
+{{Weapon Infobox
+|tagid=SID_戦神の剛なる鉄剣
+|intID=3025
+|image=wep_sw128
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=16
+|range=1
+|effect=Grants Atk+3. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit during combat, and if unit's attack can trigger their Special, the following effects will occur based on the number of allies within 4 spaces of unit: If ≥ 1, before unit's first attack, grants Special cooldown count-X (X = 50% of unit's max Special cooldown count value, rounded down) to unit. If ≥ 2, reduces damage from foe's first attack by X% (X = unit's max Special cooldown count value × 10). If ≥ 3, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks.
+|statModifiers=0,19,0,0,0
+|required=Silver Sword
+|properties=
+}}
+==Notes==
+{{Temporary buffs}}
+{{CombatCooldownCount|-X (50% of Unit's max cooldown count)}}
+{{DamagePercentageReduction}}
+{{Follow-up effect neutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=戦神の剛なる鉄剣
+|german=Kriegsschwert
+|spanishEU=Espada bélica
+|spanishLA=Espada bélica
+|french=Épée belliqueuse
+|italian=Lama di guerra
+|chineseTW=戰神的剛強鐵劍
+|portuguese=Espada robusta
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%following effects will occur based on the number of allies within _ spaces of unit%' OR Description LIKE '%before unit_s first attack%special cooldown count-%' OR Description LIKE '%special cooldown count-%before unit_s first attack%'}}
+{{Weapons Navbox}}

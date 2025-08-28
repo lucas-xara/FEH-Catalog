@@ -1,0 +1,45 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_緑の花かご
+|weaponType=Green Tome
+|might=8
+|range=2
+|effect=If unit is adjacent to an ally, grants Atk/Spd/Def/Res+3 during combat.
+|cost=200
+|exclusive=0
+|next=Gronnblooms+
+|promotionRarity=5
+|promotionTier=1
+|required=Elwind
+|userVersion1=
+|userVersion2=
+|userVersion3=
+|userVersion4=
+|statModifiers=0,8,0,0,0
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+v3.2_77_valentine02_Hit.png|Sprite sheet for {{PAGENAME}}'s hit animation.
+v3.2_77_valentine02_Mag.png|Sprite sheet for the animations of {{PAGENAME}}, {{St|Blárblooms+}}, {{St|Loyal Wreath+}}, {{St|Tharja's Hex}} and {{St|Iris's Tome}}.
+</gallery>
+
+==Trivia==
+{{TomeColorTrivia|gronn}}
+==In other languages==
+{{OtherLanguages
+|japanese=緑の花かご
+|german=Gronnblüten
+|spanishEU=Flores glaucas
+|spanishLA=Flores jade
+|french=Fleurs émeraude
+|italian=Viridefiore
+|chineseTW=綠之花籃
+|portuguese=Flores jade
+}}
+==See also==
+* 
+{{Weapons Navbox}}

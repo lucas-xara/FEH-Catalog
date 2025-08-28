@@ -1,0 +1,42 @@
+{{Passive
+|name=Soaring Echo
+|type=X
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|Flying}}
+|1name=Soaring Echo
+|1tagid=SID_響・飛走の先導
+|1effect=Infantry and flying allies within 2 spaces can move to a space within 2 spaces of unit.
+|1cost=0
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|MapEffect={{Eft|Warp|[[within 2 spaces]]<br>of {{Tgt|Unit}}}}
+|MapEffect Targets={{Mt|Infantry}} &<br>{{Mt|Flying}} {{Tgt|Allies}}<br>[[within 2 spaces]]
+}}
+
+==Notes==
+{{Warp interaction}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=響・飛走の先導
+|german=Gleithall
+|spanishEU=Eco alado
+|spanishLA=Eco alado
+|french=Symb. aérienne
+|italian=Eco plananti
+|chineseTW=響・飛走前導
+|portuguese=Eco alado
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%allies within 2 spaces can move%' OR Description LIKE '%allies within 2 spaces of unit can move%'}}
+{{Passives Navbox|X}}

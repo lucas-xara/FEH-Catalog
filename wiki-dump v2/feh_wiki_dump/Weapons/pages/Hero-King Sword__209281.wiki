@@ -1,0 +1,49 @@
+{{Weapon Infobox
+|tagid=SID_英雄王の剣
+|intID=3979
+|image=wep_sw173
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effectiveness=Dragonstone
+|effect=Accelerates Special trigger (cooldown count-1). Effective against dragon foes. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+X to unit (X = 20% of unit's Spd at start of combat, + 5), reduces damage from foe's first attack by 40% ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50%, and unit can make a follow-up attack before foe's next attack during combat.
+|required=Silver Sword
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|PermanentEffect={{Eft|Accelerate Special}}
+|Ce1={{Eft|Effectiveness|{{Cwti|Dragonstone|group=1}} [[Dragon]]}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|20% of {{Tgt|Unit}}'s Spd<br>at start of combat, +5}}
+|Ce3={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce4={{Eft|Desperation}}
+|Ce5={{Eft|Reduce Damage Reduction|50%}}
+|CeT5={{Tgt|Foe}}
+|CeC2-5={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{Effective damage bonus|Dragon}}
+{{Temporary buffs}}
+{{At start of combat}}
+{{DamagePercentageReduction}}
+{{Reduce Damage Reduction}}
+{{Follow-up before counterattack|phase=Mixed}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=英雄王の剣
+|german=Heldenklinge
+|spanishEU=Espada del rey
+|spanishLA=Estoque heroico
+|french=Épée Roi-Héros
+|italian=Spada eroica
+|chineseTW=英雄王之劍
+|portuguese=Espada do rei
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%of unit_s Spd at start of combat%' AND Exclusive='1'}}
+{{Weapons Navbox}}

@@ -1,0 +1,82 @@
+{{Weapon Infobox
+|tagid=SID_フリムファクシ
+|weaponType=Lance
+|might=16
+|range=1
+|effect=Grants Spd+3. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 and bonus to Atk/Spd/Def/Res during combat = current bonus on each of unit's stats for 1 turn. (Example: if unit has +7 bonus to Atk, grants Atk+12, for a net bonus of Atk+19.) Calculates each stat bonus independently.<br>Effect:【Pathfinder】<br><br>【Pathfinder】<br>When an ally moves through unit's space, that space is counted as 0 spaces moved instead of 1 space. (Unit's space can be freely added to ally's normal movement. Applies only to allies with movement types that allow movement through unit's space.)
+|cost=400
+|exclusive=1
+|statModifiers=0,16,3,0,0
+|required=Silver Lance
+|intID=2466
+|sort=510
+|value=20
+|timingID=1
+|abilityID=104
+|limit1ID=42
+|randomTimestamp=2021-04-05T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Spd+3 and【Pathfinder】.<br><br>At start of turn, if unit's HP ≥ 25%, grants 【Incited】to allies within 2 spaces of unit (excludes unit).<br><br>At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit and grants bonus to unit's Atk/Spd/Def/Res = highest bonus on each stat between unit and allies within 2 spaces of unit (calculates each stat bonus independently).<br><br>【Pathfinder】<br>When an ally moves through unit's space, that space is counted as 0 spaces moved instead of 1 space. (Unit's space can be freely added to ally's normal movement. Applies only to allies with movement types that allow movement through unit's space.)<br><br>【Incited】<br>If unit initiates combat, grants bonus to unit's Atk/Spd/Def/Res = number of spaces from start position to end position of unit during combat (max 3; that turn only).
+|effectSkill1=If foe initiates combat or foe's HP ≥ 75% at start of combat, inflicts Atk/Spd/Def-4 on foe, inflicts penalty on foe's Atk/Spd/Def = highest penalty on each stat between foe and foes within 2 spaces of that foe (calculates each stat penalty independently), reduces damage from foe's first attack by 7 ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and grants Special cooldown charge +1 to unit per attack during combat (only highest value applied; does not stack).
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Spd|3}}
+|s1 Me={{Eft|Pathfinder}}
+|s1 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s1 Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|{{SEt|Bonus}} on each stat}}
+|s1 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Spd|3}}
+|s2 Me={{Eft|Pathfinder}}
+|s2 Se={{SEt|Incited}}
+|s2 SeT={{Tgt|Allies}}<br>[[within 2 spaces]]
+|s2 SeC=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25%
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s2 Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|highest {{SEt|Bonus}}<br>on {{Tgt|Unit}} & {{Tgt|Allies}}<br>[[within 2 spaces]]}}
+|s2 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|skill3={{Si|Hrímfaxi|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary debuffs|Atk/Spd/Def|4}}
+|s3 Ce2={{Eft|Temporary debuffs|Atk/Spd/Def|highest {{SEt|Penalty}}<br>on {{Tgt|Target Foe}} & {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}}}
+|s3 Ce1-2T={{Tgt|Foe}}
+|s3 Ce3={{Eft|Damage Reduction|7}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|s3 Ce4={{Eft|Accelerate Charge}}
+|s3 Ce3-4T={{Tgt|Unit}}
+|s3 CeC=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+}}
+==Notes==
+{{TemporaryBufffromBonus}}
+{{Pathfinder}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Incited|name=Refined Hrímfaxi}}
+{{TemporaryBufffromBonus|multisource=1|source=unit and allies within 2 spaces|name=Refined Hrímfaxi}}
+{{IfFoeInitiates}}
+{{TemporaryDebufffromPenalty|name={{St|Hrímfaxi|refine=Skill1}}|multisource=1|source=the foe and foes within 2 spaces of those foes}}
+{{FlatDamageReduction|7}}
+{{CooldownChargePlus|name={{St|Hrímfaxi|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=フリムファクシ
+|german=Hrímfaxi
+|spanishEU=Hrímfaxi
+|spanishLA=Hrímfaxi
+|french=Hrímfaxi
+|italian=Hrímfaxi
+|chineseTW=赫利姆法克西
+|portuguese=Hrímfaxi
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%bonus to Atk/Spd/Def/Res during combat%current%' AND Description NOT LIKE '%bonus doubler%' AND Description NOT LIKE '%Grants allies%bonus to%' OR Description LIKE '%highest%penalt%between foe and foes within _ spaces of that foe%') AND Exclusive='1'}}
+{{Weapons Navbox}}

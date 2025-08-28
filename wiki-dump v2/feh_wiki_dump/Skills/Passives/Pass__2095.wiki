@@ -1,0 +1,49 @@
+{{SkillPage Tabs}}{{Passive
+|type=B
+|exclusive=0
+|1name=Pass 1
+|1tagid=SID_すり抜け1
+|1promotionRarity=4
+|1promotionTier=1
+|1required=-
+|1effect=If unit's HP ≥ 75%, unit can move through foes' spaces.
+|1cost=50
+|2name=Pass 2
+|2tagid=SID_すり抜け2
+|2promotionRarity=5
+|2promotionTier=1
+|2effect=If unit's HP ≥ 50%, unit can move through foes' spaces.
+|2cost=100
+|3name=Pass 3
+|3tagid=SID_すり抜け3
+|3effect=If unit's HP ≥ 25%, unit can move through foes' spaces.
+|3cost=200
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=random_all
+}}
+==Notes==
+{{Pass notes}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Trivia==
+* This skill appears in {{FE|10}}, where it allowed units to pass through foes.
+==In other languages==
+{{OtherLanguages
+|japanese=すり抜け
+|german=Passieren
+|spanishEU=Pasar
+|spanishLA=Pasar
+|french=Passage
+|italian=Passaggio
+|chineseTW=穿越
+|portuguese=Passagem
+}}
+==See also==
+* [[Fujin Yumi]]
+
+{{Passives Navbox|B}}

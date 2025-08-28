@@ -1,0 +1,41 @@
+{{Weapon Infobox
+|tagid=SID_ヤシの実の弓＋
+|weaponType=Bow
+|might=12
+|range=2
+|effectiveness=flying
+|effect=Effective against flying foes.<br>If unit initiates combat, grants Atk/Spd/Def/Res+2 during combat.
+|cost=300
+|exclusive=0
+|userVersion1=Bow
+|userVersion2=Arrow
+|statModifiers=0,12,0,0,0
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ヤシの実の弓＋
+|german=Kokosbogen+
+|spanishEU=Arco de cocos +
+|spanishLA=Arco de cocos +
+|french=Arc coco +
+|italian=Arcocco+
+|chineseTW=椰子之弓＋
+|portuguese=Arco tropical+
+}}
+==See also==
+* [[Summer's Arrival Weapons]]
+{{Weapons Navbox}}
+[[Category:Summer's Arrival weapons]]

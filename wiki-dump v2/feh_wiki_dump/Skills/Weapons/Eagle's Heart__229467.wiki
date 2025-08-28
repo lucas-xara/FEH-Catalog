@@ -1,0 +1,59 @@
+{{Weapon Infobox
+|tagid=SID_黒鷲の愛の斧
+|intID=4568
+|image=wep_ax167
+|exclusive=1
+|weaponType=Axe
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Enables【Canto (Rem. +1; Min ２)】.<br>Accelerates Special trigger (cooldown count-1).<br><br>After Canto, if unit entered combat on the current turn, grants another action to unit, and re-enables Canto (once per turn; does not trigger when affected by effects of traps in Aether Raids during Canto).<br><br>If unit initiates combat or the number of allies adjacent to unit ≤ 1, inflicts penalty on foe's Atk/Def = 20% of unit's Def at start of combat + 6, unit deals +X × 5 damage (X = number of Bonus effects active on unit, excluding stat bonuses + number of Penalty effects active on foe, excluding stat penalties; max 5; excluding area-of-effect Specials), and reduces damage from foe's attacks by X × 3 during combat (excluding area-of-effect Specials), and also, reduces damage by an additional X × 3 when foe's attack triggers foe's Special (excluding area-of-effect Specials), grants Special cooldown count-1 to unit before unit's first attack during combat, and restores 7 HP to unit after combat.<br><br>【Canto (Rem. +1; Min ２)】<br>After an attack, Assist skill, or structure destruction, unit can move spaces = any movement not already used that turn +1 (min ２; if unit used a movement skill that warped them, unit can move ２ space(s)). (Once per turn. Only highest value applied. Does not stack.)
+|required=Silver Axe
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Me1={{Eft|Canto|Rem. +1; Min 2}}
+|Me2={{Eft|Galeforce}}<br>(once per turn)
+|Me3=Re-enables [[Canto]]<br>(once per turn)
+|Me2-3C=After [[Canto]] movement<br>if {{Tgt|Unit}} didn't end<br>turn on {{Stt|Traps}}<br>that triggers
+|Me4={{Eft|Heal|7}}
+|Me4C=After combat in<br>Player Phase '''or'''<br>[[adjacent]] {{Tgt|Allies}} ≤ 1
+|Ce1={{Eft|Temporary debuffs|Atk/Def|20% of {{Tgt|Unit}}'s Def<br>start of combat, +6}}
+|Ce1T={{Tgt|Foe}}
+|Ce2={{Eft|Damage Boost|5 x ({{Kp|Bonus}} effects<br>on {{Tgt|Unit}} '''&''' {{Kp|Penalty}}<br>effects on {{Tgt|Foe}}),<br>(exc. {{SEt|Bonuses}} '''&''' {{SEt|Penalties}})|max=25}} 
+|Ce3={{Eft|Damage Reduction|3 x ({{Kp|Bonus}} effects<br>on {{Tgt|Unit}} '''&''' {{Kp|Penalty}}<br>effects on {{Tgt|Foe}})<br>(exc. {{SEt|Bonuses}} '''&''' {{SEt|Penalties}})|max=15}}<br>from {{Tgt|Foe}}'s attacks
+|Ce4={{Eft|Damage Reduction|3 x ({{Kp|Bonus}} effects<br>on {{Tgt|Unit}} '''&''' {{Kp|Penalty}}<br>effects on {{Tgt|Foe}})<br>(exc. {{SEt|Bonuses}} '''&''' {{SEt|Penalties}})|max=15}}<br>per {{Tgt|Foe}}'s [[offensive Specials]]
+|Ce5={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Unit}}'s first attack
+|CeC=Player Phase '''or'''<br>[[adjacent]] {{Tgt|Allies}} ≤ 1
+}}
+==Notes==
+{{Canto|Rem. +1; Min 2}}
+{{Galeforce notes}}
+{{Temporary debuffs}}
+{{At start of combat}}
+{{FlatDamageBoost|X (max: 25)}}
+{{FlatDamageReduction|X (max: 15)}}
+{{CombatCooldownCount|-1}}
+{{After combat healing}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%re-enables Canto%' OR Description LIKE '%number of%Bonus%effects active on unit%Penalty%effects active on foe%') AND Exclusive='1' AND NAME NOT LIKE '%gainful%'}}
+* [[Skill families/Weapons#Gainful|Gainful Weapons]]
+{{Weapons Navbox}}

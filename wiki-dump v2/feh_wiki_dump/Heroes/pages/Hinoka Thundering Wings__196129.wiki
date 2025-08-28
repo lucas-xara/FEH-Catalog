@@ -1,0 +1,78 @@
+{{#invoke:NameAbout|main|Name=Hinoka}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Hinoka
+|Title=Thundering Wings
+|WeaponType=Red Bow
+|MoveType=Flying
+|Origin=Fire Emblem Fates
+|Gender=F
+|LegendaryEffect=Fire
+|BoostHP=3
+|BoostRes=4
+|Duel=200
+|artist=北千里
+|actorEN=Cindy Robinson
+|actorJP=名塚佳織
+|additionDate=2023-05-31
+|releaseDate=2023-05-31
+|cv1=11
+|cv2=200600
+|TagID=伝承ヒノカ
+|InternalID=955
+|Properties=legendary,tiara
+|description=Queen of Hoshido, having taken up both the convictions and the divine weapons of her brothers, Ryoma and Takumi. Appears in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=7|Lv1SPD=16|Lv1DEF=4|Lv1RES=5
+|GRHP=50|GRATK=90|GRSPD=70|GRDEF=45|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Bow
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Fujin-Raijin Yumi
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Glimmer
+|special2Unlock=4
+|special3=Deadeye
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Catch 1
+|passiveA2=Atk/Spd Catch 2
+|passiveA3=Atk/Spd Catch 3
+|passiveA4=Atk/Spd Catch 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Wings of Mercy 1
+|passiveB2=Wings of Mercy 2
+|passiveB3=Wings of Mercy 3
+|passiveB4=Wings of Mercy 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Rallying Cry
+|passiveC1Unlock=5
+}}
+{{Heroes Navbox}}

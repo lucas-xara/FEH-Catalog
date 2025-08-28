@@ -1,0 +1,66 @@
+{{#invoke:NameAbout|main|Name=Sigrun}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Sigrun
+|Title=Steadfast Bride
+|GrowthModifier=Gen 3
+|WeaponType=Red Sword
+|Origin=Fire Emblem: Path of Radiance
+|Gender=Female
+|MoveType=Flying
+|actorJP=荒川美穂
+|actorEN=Megan Lee
+|artist=pikomaro
+|additionDate=May 21, 2019
+|releaseDate=May 21, 2019
+|TagID=花嫁シグルーン
+|InternalID=378
+|Properties=special,specRate_202302
+|cv1=8
+|cv2=900200
+|description=Commander of Begnion's Holy Guard. Serves and supports Empress Sanaki. She heard that Sanaki had participated previously, so she came to see the festival for herself. Appears in Fire Emblem: Path of Radiance.
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=7|Lv1SPD=12|Lv1DEF=5|Lv1RES=7
+|GRHP=45|GRATK=55|GRSPD=60|GRDEF=50|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Cake Cutter
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Cake Cutter+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Ardent Sacrifice
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=AR-D Spd/Def 1
+|passiveA2=AR-D Spd/Def 2
+|passiveA3=AR-D Spd/Def 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Air Orders 1
+|passiveC2=Air Orders 2
+|passiveC3=Air Orders 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Bridal Festival units]]

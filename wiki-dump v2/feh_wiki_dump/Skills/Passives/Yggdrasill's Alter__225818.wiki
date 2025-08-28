@@ -1,0 +1,51 @@
+{{Passive
+|name=Yggdrasill's Alter
+|type=B
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Yggdrasill's Alter
+|alt1name=Yggdrasills Alter
+|1tagid=SID_世界樹の半身
+|1effect=At start of player phase or enemy phase, inflicts Atk/Def-7 and【Discord】on foes that are within 2 spaces of another foe through their next actions.<br><br>Inflicts penalty on foe's Atk/Def during combat = number of foes on the map with the【Discord】 effect active (including target) × 3 + 5 (max 14), deals damage = 20% of unit's Res (excluding area-of-effect Specials), and unit makes a guaranteed follow-up attack during combat, and also, when Special triggers, neutralizes foe's "reduces damage by X%" effects from foe's non-Special skills during combat (excluding area-of-effect Specials).<br><br>【Discord】<br>Inflicts Atk/Spd/Def/Res-X on unit during combat (X = 2 + number of allies within 2 spaces of unit; max 5) through its next action.
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{Eft|Penalties|Atk/Def|7}}
+|Se2={{SEt|Discord}}
+|SeT={{Tgt|Foes}}<br>[[within 2 spaces]]<br>of other {{Tgt|Foes}}
+|SeC=At start of both Phases
+|Ce1={{Eft|Temporary debuffs|Atk/Def|3 x {{Tgt|Foes}} with<br>{{SEt|Discord}}, +5<br>(including {{Tgt|Target Foe}})|max=14}}
+|Ce1T={{Tgt|Foe}}
+|Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Res}}
+|Ce3={{Eft|Guaranteed Follow-Ups}}
+|Ce4={{Eft|Neutralize Damage Reduction}}<br>per {{Tgt|Unit}}'s [[offensive Special]]
+}}
+==Notes==
+{{Penalties}}
+{{Discord}}
+{{Temporary debuffs}}
+{{DamageBoost}}
+{{Guaranteed follow-up interaction}}
+{{DamageReductionNeutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=世界樹の半身
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Discord】%' OR Description LIKE '%number of foes inflicted with%' OR Description LIKE '%active on foe and any foe within _ spaces of foe%' OR Description LIKE '%number of foes within _ spaces of target with %') AND Exclusive='1'}}
+* [[Sabotage Passives]]
+* [[Skill families/B Passives#Discord|Discord Passives]]
+{{Passives Navbox|B}}

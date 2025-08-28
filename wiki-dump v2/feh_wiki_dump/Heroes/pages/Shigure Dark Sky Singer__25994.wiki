@@ -1,0 +1,65 @@
+{{#invoke:NameAbout|main|Name=Shigure}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Shigure
+|Title=Dark Sky Singer
+|GrowthModifier=None
+|WeaponType=Blue Tome
+|Origin=Fire Emblem Fates
+|Gender=Male
+|MoveType=Infantry
+|actorJP=細谷佳正
+|actorEN=Matt Mercer
+|artist=由良
+|releaseDate=September 29, 2017
+|TagID=舞踏祭シグレ
+|InternalID=174
+|Properties=refresher,special,specRate_202202
+|cv1=11
+|cv2=6900300
+|description=A descendant of the songstress Azura. Sings in Cyrkensia while hiding his identity. Appears in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=15|Lv1ATK=7|Lv1SPD=5|Lv1DEF=4|Lv1RES=5
+|GRHP=45|GRATK=55|GRSPD=55|GRDEF=40|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Thunder
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elthunder
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Dancer's Score
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Dancer's Score+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Sing
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveB1=Torrent Dance 1
+|passiveB2=Geyser Dance 1
+|passiveB3=Geyser Dance 2
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=B Tome Valor 1
+|passiveC2=B Tome Valor 2
+|passiveC3=B Tome Valor 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Dance Festival units]]

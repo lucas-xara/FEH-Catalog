@@ -1,0 +1,39 @@
+{{Weapon Infobox
+|tagid=SID_聖夜の弓
+|intID=3388
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=0
+|weaponType=Bow
+|cost=200
+|might=8
+|range=2
+|effectiveness=Flying
+|effect=Effective against flying foes. At start of combat, if unit's HP ≥ 25%, inflicts Atk/Def-5 on foe during combat and foe cannot make a follow-up attack.
+|statModifiers=0,8,0,0,0
+|required=Steel Bow
+|next=Peppy Bow+
+|promotionRarity=5
+|promotionTier=1
+|properties=
+}}
+==Notes==
+{{effective damage bonus|flying}}
+{{Temporary debuffs}}
+{{Prevent follow-up}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=聖夜の弓
+|german=Lebhafter Bogen
+|spanishEU=Arco alegre
+|spanishLA=Arco alegre
+|french=Arc animé
+|italian=Arco vispo
+|chineseTW=聖夜之弓
+|portuguese=Arco vivaz
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%inflicts Atk/Def-% during combat%foe cannot make a follow-up%' AND Description NOT LIKE '%transforms%inflicts Atk/Def-4%foe cannot make a follow-up%' AND Exclusive='1'}}
+{{Weapons Navbox}}

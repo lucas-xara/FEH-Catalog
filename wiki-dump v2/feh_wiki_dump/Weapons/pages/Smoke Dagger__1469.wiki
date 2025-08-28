@@ -1,0 +1,33 @@
+{{Weapon Infobox
+|tagid=SID_紫煙の暗器
+|weaponType=Dagger
+|weaponName={{PAGENAME}}
+|might=6
+|range=2
+|effect=After combat, if unit attacked, inflicts Def/Res-4 on foes within 2 spaces of target through their next actions.
+|cost=200
+|exclusive=0
+|statModifiers=0,6,0,0,0
+|next=Smoke Dagger+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Dagger
+|properties=random_all
+}}
+==Notes==
+{{IfUnitAttacked}}
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=紫煙の暗器
+|german=Rauchdolch
+|spanishEU=Daga humo
+|spanishLA=Daga humo
+|french=Dague fumigène
+|italian=Pugnale fumo
+|chineseTW=紫煙暗器
+|portuguese=Adaga fumaça
+}}
+{{Weapons Navbox}}

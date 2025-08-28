@@ -1,0 +1,65 @@
+{{#invoke:NameAbout|main|Name=Norne}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Norne
+|Title=Seaside Volunteer
+|WeaponType=Blue Lance
+|MoveType=Infantry
+|Origin=Fire Emblem: New Mystery of the Emblem
+|Gender=Female
+|actorEN=Brittney Harvey
+|actorJP=原由実
+|artist=kaya8
+|additionDate=July 6, 2021
+|releaseDate=July 7, 2021
+|cv1=1
+|cv2=101500
+|TagID=水着ノルン
+|InternalID=682
+|Properties=limited,tempest,specDisplay
+|description=Volunteer soldier of Altea excited to be taking her first trip to the beach after having been summoned. Appears in Fire Emblem: New Mystery of the Emblem.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=9|Lv1SPD=9|Lv1DEF=9|Lv1RES=8
+|GRHP=55|GRATK=65|GRSPD=70|GRDEF=50|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Shellpoint Lance
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Shellpoint Lance+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Reciprocal Aid
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Spd/Def Bond 1
+|passiveA2=Spd/Def Bond 2
+|passiveA3=Spd/Def Bond 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Spur Spd 1
+|passiveC2=Drive Spd 1
+|passiveC3=Drive Spd 2
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Summer units]]

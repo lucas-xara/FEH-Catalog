@@ -1,0 +1,38 @@
+{{Special
+|tagid=SID_漆黒の月光
+|intID=3864
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=3
+|effect=Treats foe's Def/Res as if reduced by 80% when Special triggers. If unit's or foe's Special is ready or triggered before or during this combat, reduces damage from foe's next attack by 40% (once per combat; excluding area-of-effect Specials).
+|required=Luna
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1=Treats {{Tgt|foe}}'s Def/Res<br>as if reduced by 80%
+|CombatEffect 1 Targets={{Tgt|Foe}}
+|CombatEffect 1 Conditions=Special triggers
+|CombatEffect 2={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s next attack
+|CombatEffect 2 Conditions={{Tgt|Unit}} or {{Tgt|Foe}}'s<br>Special is ready '''or'''<br>triggered before or<br>during combat
+}}
+==Notes==
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=漆黒の月光
+|german=Lichtloser Mond
+|spanishEU=Eclipse final
+|spanishLA=Eclipse final
+|french=Noir lunaire
+|italian=Luna soffusa
+|chineseTW=漆黑的月光
+|portuguese=Eclipse total
+}}
+==See also==
+{{See also skills|cond=(SCategory='special' AND Description LIKE '%Treats foe_s Def/Res as if reduced by __% during combat%' OR Description LIKE '%special is ready or triggered before or during this combat%') AND Exclusive='1'}}
+{{Specials Navbox}}

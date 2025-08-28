@@ -1,0 +1,68 @@
+{{Weapon Infobox
+|tagid=SID_ガルム
+|weaponType=Axe
+|might=16
+|range=1
+|effect=Grants Atk+3. If a bonus granted by a skill like Rally or Hone and/or 1 extra space of movement granted by a skill like Armor March or Armored Boots is active, unit makes a guaranteed follow-up attack.
+|cost=400
+|exclusive=1
+|statModifiers=0,19,0,0,0
+|required=Silver Axe
+|userVersion1=Weapon
+|userVersion2=Gleam
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Atk+3. If【Bonus】is active on unit, unit makes a guaranteed follow-up attack and neutralizes effects that prevent unit's follow-up attacks.<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|tagidExtraSkill1=回
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 during combat, and also, if unit deals damage to foe during combat, restores 7 HP to unit. (Triggers even if 0 damage is dealt.)
+|iconSkill1=Garm W.png
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Atk|3}}
+|s1 Ce={{Eft|Guaranteed Follow-up}}
+|s1 CeC={{SEt|Bonuses}} '''or'''<br>{{SEt|Mobility increased}}<br>are active on {{Tgt|Unit}}
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Atk|3}}
+|s2 Ce1={{Eft|Guaranteed Follow-up}}
+|s2 Ce2={{Eft|Neutralize Prevent Follow-up}}
+|s2 CeC=A {{Kp|Bonus}} effect<br>is active on {{Tgt|Unit}}
+|skill3={{Si|Garm|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary Buffs|Atk/Spd/Def/Res|5}}
+|s3 Ce2={{Eft|Heal|7}}<br>per {{Tgt|Unit}}'s attack 
+|s3 CeT={{Tgt|Unit}}
+|s3 CeC=At start of combat if<br>{{Tgt|Unit}}'s HP ≥ 25%
+}}
+
+==Notes==
+{{EffectfromBonusesMobility|target=unit|guaranteed follow-up effect}}
+{{Guaranteed follow-up interaction}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{EffectfromBonus|target=unit|guaranteed follow-up effect and follow-up prevention neutralization}}
+{{Follow-up effect neutralization|preventOnly=1}}
+{{Temporary buffs}}
+{{CombatHPRecovery}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|与ダメ時回復R全5|Given Health Recovery R All 5}}
+==In other languages==
+{{OtherLanguages
+|japanese=ガルム
+|german=Garm
+|spanishEU=Garm
+|spanishLA=Garm
+|french=Garm
+|italian=Garm
+|chineseTW=加姆
+|portuguese=Garm
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if%【Bonus】%active on unit%makes a guaranteed follow-up%' OR Description LIKE '%unit deals damage to foe during combat, restores%HP to unit%' AND Exclusive='1'}}
+{{Weapons Navbox}}

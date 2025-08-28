@@ -1,0 +1,57 @@
+{{Weapon Infobox
+|tagid=SID_白百合の杖
+|intID=3539
+|image=wep_rd054
+|exclusive=1
+|weaponType=Colorless Staff
+|cost=400
+|might=14
+|range=2
+|effect=Calculates damage from staff like other weapons. After combat, if unit attacked, resets Special cooldown of target and foes within 2 spaces of target, and inflicts【Guard】on target and foes within 2 spaces of target. (Neutralizes Special cooldown count reductions after combat, but skills that Accelerate and Slow Specials are still effective.) At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit during combat.<br><br>【Guard】<br>Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)
+|statModifiers=0,16,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|tagidExtraSkill1=一
+|effectSkill1=If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+4 to unit during combat, and also, after combat, if unit attacked, inflicts Atk/Spd-6 on target and foes within 2 spaces of target through their next actions. Grants Def/Res+6 to allies within 2 spaces of unit during combat and restores 7 HP to those allies after combat.
+|iconSkill1=Staff of Lilies W.png
+|properties=
+}}
+==Notes==
+* Staff of Lilies has the same effect as {{St|Wrathful Staff}}.
+{{Wrathful Staff}}
+{{IfUnitAttacked}}
+{{Guard}}
+* The "resets Special cooldown" effect of Staff of Lilies works by inflicting Special cooldown count+99 on the foe. (Cannot exceed the foe's maximum Special cooldown.)
+{{After combat Special modification}}
+{{Temporary buffs}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfUnitInitiates}}
+{{Penalties|name={{St|Staff of Lilies|refine=Skill1}}}}
+{{AlliesCombatEffect|effect=temporary buffs|name={{St|Staff of Lilies|refine=Skill1}}}}
+{{After combat healing|allies=1|name={{St|Staff of Lilies|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V7.4_v0704a_child_Rod_2.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=白百合の杖
+|german=Lilienstab
+|spanishEU=Bastón de lirios
+|spanishLA=Bastón de lirios
+|french=Bâton de lys
+|italian=Bastone giglio
+|chineseTW=白百合之杖
+|portuguese=Bastão de lírios
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%if unit attacked%inflicts%special cooldown charge -_%per attack%' AND Description NOT LIKE '%if unit attacked%inflicts Def/Res-%special cooldown charge -_%per attack%' OR Description LIKE '%inflicts special cooldown count%after combat%' OR Description LIKE '%after combat%inflicts special cooldown count+_ on target%' OR Description LIKE '%restores%HP%allies%after their combat%' AND Description NOT LIKE '%adjacent%') AND Exclusive='1'}}
+{{Weapons Navbox}}

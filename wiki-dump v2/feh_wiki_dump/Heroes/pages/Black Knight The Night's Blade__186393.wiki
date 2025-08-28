@@ -1,0 +1,75 @@
+{{#invoke:NameAbout|main|Name=Black Knight|Name2=Zelgius}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Black Knight
+|Title=The Night's Blade
+|WeaponType=Green Axe
+|MoveType=Armored
+|Origin=Fire Emblem: Path of Radiance
+|Gender=Male
+|actorEN=Robert Clotworthy
+|actorJP=間島淳司
+|artist=山田孝太郎
+|additionDate=December 16, 2022
+|releaseDate=December 16, 2022
+|cv1=8
+|cv2=4900100
+|TagID=冬祭漆黒の騎士
+|InternalID=891
+|Properties=special
+|description=One of Daein's Four Riders. What could have brought him to the festival? None can say. Appears in Fire Emblem: Path of Radiance.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=11|Lv1SPD=14|Lv1DEF=9|Lv1RES=6
+|GRHP=55|GRATK=75|GRSPD=70|GRDEF=60|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Solemn Axe
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Unlock=4
+|special3=Black Luna
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Distant Counter
+|passiveA2=Distant Dart
+|passiveA1Unlock=4
+|passiveA2Unlock=5
+|passiveB1=Special Fighter 1
+|passiveB2=Special Fighter 2
+|passiveB3=Special Fighter 3
+|passiveB4=Special Fighter 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=D/R Far Save 1
+|passiveC2=D/R Far Save 2
+|passiveC3=D/R Far Save 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Christmas units]]

@@ -1,0 +1,36 @@
+{{Weapon Infobox
+|tagid=SID_雷のブレス
+|weaponType=Dragonstone
+|might=7
+|range=1
+|effect=Slows Special trigger (cooldown count+1).<br>Unit can counterattack regardless of foe's range.
+|cooldown=1
+|cost=200
+|exclusive=0
+|statModifiers=0,7,0,0,0
+|next=Lightning Breath+
+|promotionRarity=5
+|promotionTier=1
+|required=Fire Breath+
+|SE=se_effect_thunderbreath.flac
+|properties=random_all
+}}
+==Notes==
+* Has the same effect as {{St|Distant Counter}}.
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=雷のブレス
+|german=Blitzatem
+|spanishEU=Aliento trueno
+|spanishLA=Soplo trueno
+|french=Souffle électrique
+|italian=Soffio di lampo
+|chineseTW=雷之吐息
+|portuguese=Sopro de raio
+}}
+==See also==
+* [[Weapons with Distant Counter]]
+* [[:Category:Skills that slow the Special trigger|Skills that slow the Special trigger]]
+{{Weapons Navbox}}

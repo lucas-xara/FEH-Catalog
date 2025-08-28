@@ -1,0 +1,49 @@
+{{Passive
+|name=Atk/Res Menace
+|type=C
+|exclusive=0
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|altname=Atk Res Menace
+|intID=2559
+|sort=7123
+|effectRange=4
+|value=8
+|timingID=8
+|abilityID=276
+|randomTimestamp=2021-06-07T07:00:00Z
+|randomMinLv=36
+|properties=random_inherit_base,random_owner
+|1name=Atk/Res Menace
+|alt1name=Atk Res Menace
+|1tagid=SID_攻撃魔防の脅嚇3
+|1effect=At start of turn, if unit is within 4 spaces of a foe, inflicts Atk/Res-6 on nearest foes through their next actions and grants Atk/Res+6 to unit for 1 turn.
+|1required=Threat. Atk/Res 2
+|1cost=300
+}}
+==Notes==
+{{Bonuses}}
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Atk/Res Menace
+|japanese=攻撃魔防の脅嚇
+|german=Agr./Res.-Geißel
+|spanishEU=Amenaza Ata/Res
+|spanishLA=Amnza. Atq./Res.
+|french=Menace Atq/Rés
+|italian=Minaccia Att/Res
+|chineseTW=攻擊魔防的恐嚇
+|portuguese=Atq./Res. ameaça
+}}
+==See also==
+* [[Surtr's Portent]]
+{{Passives Navbox|C}}
+[[Category:Threaten Passives]]
+[[Category:Menace Passives]]

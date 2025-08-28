@@ -1,0 +1,73 @@
+{{#invoke:NameAbout|main|Name=Hugh}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Hugh
+|Title=Worldly Mage
+|WeaponType=Red Tome
+|MoveType=Infantry
+|Origin=Fire Emblem: The Binding Blade
+|Gender=Male
+|actorEN=Matthew David Rudd
+|actorJP=ランズベリー・アーサー
+|artist=8イチビ8
+|randomStartTime=2022-03-18T07:00:00Z
+|additionDate=February 18, 2022
+|releaseDate=February 18, 2022
+|poolDate=March 8, 2022
+|poolRarities=5
+|cv1=5
+|cv2=700800
+|TagID=ヒュウ
+|InternalID=772
+|Properties=specRate_202408
+|description=Taking after his grandmother Niime, he traveled the world to research dark magic. His travels, however, led him to focus on anima magic. Appears in Fire Emblem: The Binding Blade.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=8|Lv1SPD=9|Lv1DEF=8|Lv1RES=7
+|GRHP=50|GRATK=70|GRSPD=75|GRDEF=45|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elfire
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Bolganone
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Sell-Spell Tome
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Moonbow
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Spd/Def Ideal 1
+|passiveA2=Spd/Def Ideal 2
+|passiveA3=Spd/Def Ideal 3
+|passiveA4=Spd/Def Ideal 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveC1=Rouse Atk/Spd 1
+|passiveC2=Rouse Atk/Spd 2
+|passiveC3=Rouse Atk/Spd 3
+|passiveC4=Rouse Atk/Spd 4
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}

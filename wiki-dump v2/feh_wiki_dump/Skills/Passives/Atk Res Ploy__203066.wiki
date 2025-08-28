@@ -1,0 +1,66 @@
+{{Passive
+|name=Atk/Res Ploy
+|type=C
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Atk/Res Ploy 3
+|alt1name=Atk Res Ploy 3
+|1tagid=SID_攻撃魔防の謀策3
+|1effect=At start of player phase or enemy phase, if any foes within 3 rows or 3 columns centered on unit have Res < unit's Res+5, inflicts Atk/Res-7,【Ploy】, and【Exposure】 on those foes through their next actions.<br><br>【Ploy】<br>Neutralizes【Bonus Doubler】,【Treachery】, and【Grand Strategy】effects active on unit during combat through unit's next action.<br><br>【Exposure】<br>Foe's attacks deal +10 damage.<br><br>【Bonus Doubler】<br>Grants bonus to Atk/Spd/Def/Res during combat = current bonus on each of unit's stats for 1 turn. Calculates each stat bonus independently.<br><br>【Treachery】<br>Unit deals additional damage = total bonuses on unit for 1 turn.<br><br>【Grand Strategy】<br>Grants bonus to Atk/Spd/Def/Res during combat = current penalty on each of unit's stats × 2 for 1 turn. (Example: if unit has -7 penalty to Atk, grants Atk+14, for a net bonus of Atk+7.) Calculates each stat bonus independently.<br><br>Unit's negative effects that last "through unit's next action" will remain in effect until this status (Grand Strategy) is neutralized.
+|1cost=300
+|1required=Atk Ploy 3;Res Ploy 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{Eft|Penalties|Atk/Res|7}}
+|Se2={{SEt|Ploy}}
+|Se3={{SEt|Exposure}}
+|SeT={{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|SeC=At start of both Phases<br>if {{Tgt|Unit}}'s Res<br>> {{Tgt|Foe}}'s Res+5
+}}
+
+==Notes==
+{{Penalties}}
+{{Ploy}}
+{{Exposure}}
+* Stat comparison takes place after all {{SEt|bonuses}} on allies are removed, and before any new bonuses or {{SEt|penalties}} are applied. Other existing bonuses and penalties on both units count towards their respective stats during stat comparison.
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Sonya: Beautiful Mage|t=Hestia: Duma's Witch
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Atk/Res Ploy
+|japanese=攻撃魔防の謀策
+|german=Ang./Res.-Trick
+|spanishEU=Ardid Ata/Res
+|spanishLA=Ardid Atq./Res.
+|french=Ruse Atq/Rés
+|italian=Complotto A/R
+|chineseTW=攻擊魔防謀策
+|portuguese=Manobra A/R
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%at%start of%inflicts%rows%columns%' OR Description LIKE '%【Ploy】%' OR Description LIKE '%【Exposure】%') AND Exclusive='1'}}
+{{Passives Navbox|C}}
+[[Category:Ploy Passives]]

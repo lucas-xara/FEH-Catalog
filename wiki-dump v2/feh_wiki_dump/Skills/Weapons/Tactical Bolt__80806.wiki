@@ -1,0 +1,61 @@
+{{Weapon Infobox
+|tagid=SID_軍師の雷書
+|weaponType=Blue Tome
+|might=14
+|range=2
+|effect=Grants weapon-triangle advantage against colorless foes, and inflicts weapon-triangle disadvantage on colorless foes during combat.
+|cost=400
+|exclusive=1
+|userVersion1=Closed
+|userVersion2=Open
+|statModifiers=0,14,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=At start of turn, grants Atk/Spd/Def/Res+4 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2.
+|iconSkill1=All Tactic W.png
+|tagidExtraSkill1=指
+|SE=se_effect_thoron.flac
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Ce1={{Eft|New WTA}}
+|s1 Ce2={{Eft|New WTD}}
+|s1 Ce2T={{Tgt|Foe}}
+|s1 CeC={{Tgt|Foe}} is<br>{{Wti|group=1|Colorless}} Colorless
+|skill2={{Si|Tactical Bolt|refine=Skill1}} Skill refine effects
+|s2 Se1={{Eft|Bonuses|Atk/Spd/Def/Res|4}}
+|s2 SeT={{Tgt|Allies}}<br>[[within 2 spaces]]
+|s2 SeC=At start of turn if<br>{{Tgt|Ally}}'s [[move type]]<br>on current team ≤ 2
+}}
+
+==Notes==
+{{New WTA|colorless}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Tactic Passive notes|name={{St|Tactical Bolt|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|指揮R全4|Tactic R All 4}}
+==In other languages==
+{{OtherLanguages
+|japanese=軍師の雷書
+|german=Taktischer Blitz
+|spanishEU=Rayo estratégico
+|spanishLA=Rayo estratégico
+|french=Éclair tactique
+|italian=Folgore tattica
+|chineseTW=軍師的雷書
+|portuguese=Raio tático
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%grants weapon-triangle advantage%' AND Description LIKE '%colorless%weapon-triangle%' OR Description LIKE '%ally_s movement type on current team ≤%') AND Exclusive='1'}}
+* [[Raven Tomes]]
+* [[Tactic Passives]]
+{{Weapons Navbox}}

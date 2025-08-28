@@ -1,0 +1,55 @@
+{{Weapon Infobox
+|tagid=SID_負の力
+|weaponType=Green Tome
+|might=14
+|range=2
+|effect=Grants Res+3. If a penalty inflicted by a skill like Panic or Threaten and/or a negative status effect (preventing counterattacks or restricting movement) is active on foe, grants Atk+6 during combat and unit makes a guaranteed follow-up attack.
+|cost=400
+|exclusive=1
+|canUseMove={{MoveList|all}}
+|statModifiers=0,14,0,0,3
+|required=Rexcalibur
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Res+3. At start of combat, if foe's HP ≥ 75% or if【Penalty】is active on foe, grants Atk+6, Res+5 to unit during combat, unit makes a guaranteed follow-up attack, and also, if unit initiates combat, reduces damage from foe's first attack by X% (X = 2 × total penalties on the foe within 2 spaces of target, including target, who has the highest total penalties).<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|tagidExtraSkill1=一
+|effectSkill1=If unit initiates combat or is within 2 spaces of an ally, grants Atk/Res+5 to unit during combat and deals damage = total penalties on the foe within 2 spaces of target (including target) who has the highest total penalties (excluding area-of-effect Specials).
+|iconSkill1=Chaos Manifest W.png
+|properties=random_owner
+}}
+==Notes==
+{{Temporary buffs}}
+{{EffectfromPenalty|target=foe|temporary buffs and follow-up effects}}
+{{Guaranteed follow-up interaction}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{DamagePercentageReduction}}
+{{IfUnitInitiates}}
+{{DamageBoost|name={{St|Chaos Manifest|refine=Skill1}}}}
+{{EffectfromPenalties|damage boost and damage reduction|name={{St|Chaos Manifest|refine=Skill1}}|multiTarget=1|target=target and foes within 2 spaces of target}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V3.3 802 legend15 Mag.png|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=負の力
+|german=Gestalt des Chaos
+|spanishEU=Espíritu del Caos
+|spanishLA=Espíritu caótico
+|french=Pouvoir du chaos
+|italian=Caos scatenato
+|chineseTW=負之力
+|portuguese=Espírito do caos
+}}
+==References==
+<references/>
+
+==See also==
+{{See also skills|cond=Description LIKE '%if%Penalty%is active on foe%makes a guaranteed follow-up%' OR Description LIKE '%deals damage = total%penalties%' AND Exclusive='1'}}
+{{Weapons Navbox}}

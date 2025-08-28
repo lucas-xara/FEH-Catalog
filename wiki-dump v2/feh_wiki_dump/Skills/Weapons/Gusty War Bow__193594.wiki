@@ -1,0 +1,41 @@
+{{Weapon Infobox
+|tagid=SID_戦神の風弓
+|intID=3548
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=1
+|weaponType=Bow
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effectiveness=Beast,Flying
+|effect=Accelerates Special trigger (cooldown count-1). Effective against beast and flying foes. At start of turn, if unit is within 3 spaces of an ally and unit's Special cooldown count is at its maximum value, grants Special cooldown count-1 to unit. If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit and reduces damage from foe's first attack by X% during combat (if in combat against a beast foe, or a cavalry or flying foe with Range = 2, X = 60; otherwise, X = 30), and also, if unit's Special is ready or unit's Special triggered before or during this combat, deals +7 damage during combat (except when dealing damage with area-of-effect Specials).
+|statModifiers=0,14,0,0,0
+|required=Silver Bow
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|moveWep=1|beast,flying}}
+{{Start of turn Special modification}}
+{{Temporary buffs}}
+{{DamagePercentageReduction}}
+{{FixedDamage|7}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=戦神の風弓
+|german=Windkriegsbogen
+|spanishEU=Arco bélico viento
+|spanishLA=Arco bél. viento
+|french=Arc belliqueux
+|italian=Arco di guerra
+|chineseTW=戰神的風弓
+|portuguese=Arco ventoso
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=WeaponEffectiveness='Beast' OR (Description LIKE '%maximum value%Special cooldown count-1%' OR Description LIKE '%special is ready%') AND Exclusive='1'}}
+{{Weapons Navbox}}

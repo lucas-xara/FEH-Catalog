@@ -1,0 +1,67 @@
+{{Passive
+|name=Wrathful Staff
+|type=B
+|exclusive=0
+|1name=Wrathful Staff 1
+|1tagid=SID_神罰の杖1
+|1promotionRarity=4
+|1promotionTier=1
+|1required=-
+|1effect=At start of combat, if unit's HP = 100%, calculates damage from staff like other weapons.
+|1cost=60
+|2name=Wrathful Staff 2
+|2tagid=SID_神罰の杖2
+|2promotionRarity=5
+|2promotionTier=1
+|2effect=At start of combat, if unit's HP ≥ 50%, calculates damage from staff like other weapons.
+|2cost=120
+|3name=Wrathful Staff 3
+|3tagid=SID_神罰の杖3
+|3effect=Calculates damage from staff like other weapons.
+|3cost=240
+|canUseWeapon={{WeaponList|Colorless Staff}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Wrathful Staff}}
+}}
+==Notes==
+{{Wrathful Staff}}
+
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Wrathful Staff 1;Wrathful Staff 2;Wrathful Staff 3
+|badgeColor=Scarlet
+|costs1=20;100;20
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=神罰の杖
+|german=Rachsuchtstab
+|spanishEU=Bastón furioso
+|spanishLA=Bastón furioso
+|french=Bâton furieux
+|italian=Bastone irato
+|chineseTW=神罰之杖
+|portuguese=Bastão da ira
+}}
+==See also==
+* [[Dazzling Staff]]
+* [[Staves|Refined Staff Weapons]]
+{{Passives Navbox|B}}
+{{Seals Navbox}}

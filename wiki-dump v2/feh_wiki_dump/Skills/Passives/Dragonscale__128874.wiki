@@ -1,0 +1,46 @@
+{{Passive
+|name=Dragonscale
+|type=A
+|exclusive=1
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|1effect=Neutralizes "effective against flying" bonuses. If foe initiates combat or if foe's HP = 100% at start of combat, inflicts Atk/Res-6 on foe and grants Special cooldown charge +1 per foe's attack during combat. (Only highest value applied. Does not stack. Special cooldown charge granted even if foe’s attack deals 0 damage.)
+|intID=2259
+|sort=455
+|value=8
+|timingID=1
+|abilityID=190
+|limit1ID=46
+|randomTimestamp=2020-11-08T07:00:00Z
+|randomMinLv=31
+|properties=random_owner
+|1name=Dragonscale
+|1tagid=SID_邪竜の大鱗
+|1required=-
+|1cost=300
+}}
+==Notes==
+* Has the same effect as {{St|Iote's Shield}}.
+{{Effectiveness neutralization|Flying}}
+** Does not neutralize "Effective against dragon foes" bonuses from skills such as {{St|Falchion}} or the {{SEt|Effective against dragons}} status effect.
+{{IfFoeInitiates}}
+{{Temporary debuffs}}
+{{CooldownChargePlus|perAttack=foe}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Dragonscale
+|japanese=邪竜の大鱗
+|german=Drachenschuppe
+|spanishEU=Coraza dragontina
+|spanishLA=Coraza dragontina
+|french=Cuir de dragon
+|italian=Squame di drago
+|chineseTW=邪龍的大鱗
+|portuguese=Escama dragão
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%Neutralizes "effective against flying%' AND WikiName!='Iotes Shield') OR Description LIKE '%foe initiates combat%foe_s HP%inflicts Atk/Res-%during combat%'}}
+* [[Shield Passives]]
+{{Passives Navbox|A}}

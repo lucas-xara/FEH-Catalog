@@ -1,0 +1,45 @@
+{{Weapon Infobox
+|tagid=SID_青の卵＋
+|weaponType=Blue Tome
+|weaponName=Blue Egg+
+|altWeaponName=Blue Egg Plus
+|might=11
+|range=2
+|effect=If unit initiates combat, restores 4 HP after combat.
+|cost=300
+|exclusive=0
+|statModifiers=0,11,0,0,0
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|upgradedMight=12
+|upgradedEffect=After combat, if unit attacked, restores 4 HP.
+|SE=se_effect_thoron.flac
+|properties=
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{After combat healing}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfUnitAttacked}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=青の卵＋
+|german=Blaues Ei+
+|spanishEU=Huevo azul +
+|spanishLA=Huevo azul +
+|french=Œuf bleu +
+|italian=Uovo blu+
+|chineseTW=青之卵＋
+|portuguese=Ovo azul+
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%estores%HP after combat%' OR Description LIKE '%estores%HP to unit after combat%') AND Exclusive='1'|columns=3}}
+* [[Spring Festival Weapons]]
+{{Weapons Navbox}}
+[[Category:Spring Festival weapons]]

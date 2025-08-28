@@ -1,0 +1,62 @@
+{{Weapon Infobox
+|tagid=SID_異邦ヴラスキャルヴ
+|intID=4866
+|userVersion1=Closed
+|userVersion2=Open
+|exclusive=1
+|weaponType=Blue Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>At start of player phase or enemy phase, if unit's HP ≥ 25%, grants Atk/Spd+6, 【Anathema】, and "unit makes a guaranteed follow-up attack during combat" to unit and allies within 2 spaces of unit for 1 turn.<br><br>If unit's HP ≥ 25% at start of combat, grants bonus to unit's Atk/Spd = 20% of unit's Spd at start of combat + 6, deals damage = 20% of unit's Spd (excluding area-of-effect Specials), and unit can make a follow-up attack before foe's next attack during combat, and also, if foe initiates combat, unit can counterattack before foe's first attack.<br><br>【Anathema】<br>Inflicts Spd/Def/Res-4 on foes within 3 spaces of unit during combat.
+|required=Thoron;Shine
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Se1={{Eft|Bonuses|Atk/Spd|6}}
+|Se2={{SEt|Anathema}}
+|Se3={{SEt|Guaranteed Follow-Up}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25%
+|Ce1={{Eft|Temporary buffs|Atk/Spd|20% of {{Tgt|Unit}}'s Spd<br>at start of combat, +6}}
+|Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|Ce3={{Eft|Desperation}}
+|Ce1-3C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce4={{Eft|Vantage}}
+|Ce4C=Enemy Phase '''&'''<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{Bonuses}}
+{{Anathema}}
+{{Guaranteed Follow-Up}}
+{{Temporary buffs}}
+{{At start of combat}}
+{{DamageBoost}}
+{{Follow-up before counter|phase=Mixed|preempt=1}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V9.8_v0908b_popularity_Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==Trivia==
+{{NorseMyth|name=Valaskjálf|("the Shelf of the Slain") is one of Odin's Halls, a great dwelling built and roofed with pure silver. In this room is a high seat, [[Wikipedia:Hliðskjálf|Hliðskjálf]], where Odin can watch over the entire universe. To put it simply, it is Odin's throne room.}}
+** In the context of {{FE|H}} this corresponds with {{St|Hliðskjálf}}, the staff used by {{Ut|Veronica: Brave Princess}}.
+
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=WikiName LIKE '%Valaskjálf%' OR Description LIKE '%【Anathema】%' AND Exclusive='1'}}
+{{Weapons Navbox}}

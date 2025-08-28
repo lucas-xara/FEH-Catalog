@@ -1,0 +1,44 @@
+{{Weapon Infobox
+|tagid=SID_星夜の魔術師の竜石
+|intID=3282
+|image=wep_ac062
+|exclusive=1
+|weaponType=Dragonstone
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). If foe initiates combat or foe's HP ≥ 75% at start of combat, grants Atk+6 to unit and inflicts Atk-6 on foe during combat, inflicts Special cooldown charge -1 on foe per attack (only highest value applied; does not stack), restores 7 HP to unit when unit deals damage to foe during combat (triggers even if 0 damage is dealt), and also, if foe can make a follow-up attack, reduces damage from foe's first attack during combat by 75%. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|statModifiers=0,16,0,0,0
+|required=Flametongue
+|properties=
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+{{Temporary debuffs}}
+{{CooldownChargeMinus}}
+{{CombatHPRecovery}}
+{{DamagePercentageReduction}}
+{{LowerDefRes}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V6.10_v0610a_halloween_Mag.webp|Sprite sheet for {{St|Ghostly Lanterns}}, {{St|Moonlight Stone}}, {{St|Serenity Breath+}}, {{St|Starlight Stone}} and {{St|Surprise Breath+}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=星夜の魔術師の竜石
+|german=Sternenlichtstein
+|spanishEU=Piedra estrellada
+|spanishLA=Piedra estrellada
+|french=Pierre étoilée
+|italian=Pietra astrale
+|chineseTW=星夜魔術師的龍石
+|portuguese=Pedra estrelada
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe can make a follow-up attack%reduces damage from foe_s first attack%' AND Exclusive='1' AND WikiName NOT LIKE '%Stout%' OR Description LIKE '%if foe initiates%grants%+%during combat%inflicts special cooldown charge -1%' AND Exclusive='1'}}
+* [[Skill families/Weapons#Stout|Stout Weapons]]
+{{Weapons Navbox}}

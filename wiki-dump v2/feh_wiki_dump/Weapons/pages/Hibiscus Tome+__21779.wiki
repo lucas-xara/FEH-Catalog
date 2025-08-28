@@ -1,0 +1,40 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_ハイビスカスの本＋
+|weaponType=Green Tome
+|altWeaponName=Hibiscus Tome Plus
+|might=12
+|range=2
+|effect=Grants Atk/Spd+1 to allies within 2 spaces during combat.
+|cost=300
+|exclusive=0
+|userVersion1=Closed|userVersion2=Open|statModifiers=0,12,0,0,0
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|SE=se_effect_lexcalibur.flac
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+{{AlliesCombatEffect|effect=combat boost}}
+==Upgrades==
+{{Weapon Upgrade List}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ハイビスカスの本＋
+|german=Hibiskusbuch+
+|spanishEU=Grimor. hibisco +
+|spanishLA=Grimor. hibisco +
+|french=Tome hibiscus +
+|italian=Tomo dell'ibisco+
+|chineseTW=扶桑花之書＋
+|portuguese=Tomo hibisco+
+}}
+==See also==
+* [[Nohrian Summer Weapons]]
+{{Weapons Navbox}}
+[[Category:Nohrian Summer weapons]]

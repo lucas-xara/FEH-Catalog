@@ -1,0 +1,82 @@
+{{#invoke:NameAbout|main|Name=Libra}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Libra
+|Title=Fetching Friar
+|GrowthModifier=Gen 2
+|WeaponType=Green Axe
+|MoveType=Infantry
+|Origin=Fire Emblem Awakening
+|Gender=Male
+|artist=ミヤジマハル
+|actorEN=Cindy Robinson
+|actorJP=山戸めぐみ
+|releaseDate=July 20, 2018
+|poolDate=August 10, 2018
+|randomStartTime=2018-08-20T07:00:00Z
+|poolRarities=3,4
+|TagID=リベラ
+|InternalID=272
+|cv1=10
+|cv2=101600
+|description=An Ylissean priest with a calming mien. His features are so lovely, he is often mistaken for a woman. Appears in Fire Emblem Awakening.
+|Properties=demoted_201904
+}}
+
+__TOC__
+
+{{Stats Page|Hero={{BASEPAGENAME}}
+|Lv1HP=18|Lv1ATK=9|Lv1SPD=8|Lv1DEF=6|Lv1RES=7
+|GRHP=50|GRATK=60|GRSPD=55|GRDEF=50|GRRES=50
+}}
+
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Wo Gùn
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Wo Gùn+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Inviolable Axe
+|weapon5Default=
+|weapon5Unlock=5
+}}
+
+===Assists===
+{{Assists Table
+}}
+
+===Specials===
+{{Specials Table
+|special1=Daylight
+|special1Default=4
+|special1Unlock=3
+|special2=Noontime
+|special2Default=
+|special2Unlock=4
+}}
+
+===Passives===
+{{Passives Table
+|passiveB1=Renewal 1
+|passiveB2=Renewal 2
+|passiveB3=Renewal 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Spur Res 1
+|passiveC2=Spur Atk/Res 1
+|passiveC3=Spur Atk/Res 2
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+
+{{Heroes Navbox}}

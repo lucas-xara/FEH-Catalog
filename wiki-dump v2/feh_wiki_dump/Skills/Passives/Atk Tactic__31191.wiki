@@ -1,0 +1,60 @@
+{{Passive
+|type=C
+|exclusive=0
+|1name=Atk Tactic 1
+|1tagid=SID_攻撃の指揮1
+|1promotionRarity=4
+|1promotionTier=1
+|1effect=At start of turn, grants Atk+2 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2.
+|1required=-
+|1cost=60
+|2name=Atk Tactic 2
+|2tagid=SID_攻撃の指揮2
+|2promotionRarity=5
+|2promotionTier=1
+|2effect=At start of turn, grants Atk+4 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2.
+|2cost=120
+|3name=Atk Tactic 3
+|3tagid=SID_攻撃の指揮3
+|3effect=At start of turn, grants Atk+6 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2.
+|3cost=240
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=random_owner,random_inherit_base
+}}
+==Notes==
+{{Tactic Passive notes}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Atk Tactic 1;Atk Tactic 2;Atk Tactic 3
+|badgeColor=Scarlet
+|costs1=20;100;40
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=攻撃の指揮
+|german=Angriffstaktik
+|spanishEU=Estrategia Ata
+|spanishLA=Táctica Atq.
+|french=Tactique Atq
+|italian=Tattica Att
+|chineseTW=攻擊指揮
+|portuguese=Tática Atq.
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%movement type%current team%≤ 2%' AND Exclusive='1'|columns=3}}
+* [[Tactic Passives]]
+{{Seals Navbox}}
+{{Passives Navbox|C}}
+[[Category:Tactic Passives]]

@@ -1,0 +1,41 @@
+{{Weapon Infobox
+|tagid=SID_舞踏の輪＋
+|weaponType=Green Tome
+|weaponName=Dancer's Ring+
+|altWeaponName=Dancer's Ring Plus
+|might=12
+|range=2
+|effect=If unit initiates combat, restores 7 HP to adjacent allies after combat.
+|cost=300
+|exclusive=0
+|statModifiers=0,12,0,0,0
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|SE=se_effect_lexcalibur.flac
+|properties=
+}}
+==Notes==
+* Has the same effect as {{Pt|Breath of Life 3}}.
+{{IfUnitInitiates}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=舞踏祭の輪＋
+|german=Tanzring+
+|spanishEU=Anillo de baile +
+|spanishLA=Anillo de baile +
+|french=Anneau festif +
+|italian=Anello d'arte+
+|chineseTW=舞會之環＋
+|portuguese=Anel de dança+
+}}
+==See also==
+* [[Performing Arts Weapons]]
+* [[Aura]]
+{{Weapons Navbox}}
+[[Category:Performing Arts weapons]]

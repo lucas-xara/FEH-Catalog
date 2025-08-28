@@ -1,0 +1,36 @@
+{{Weapon Infobox
+|tagid=SID_レクスカリバー
+|weaponType=Green Tome
+|weaponName={{PAGENAME}}
+|might=9
+|range=2
+|effect=
+|cost=200
+|exclusive=0
+|userVersion1=Closed|userVersion2=Open|statModifiers=0,9,0,0,0
+|next=Rexcalibur+
+|promotionRarity=5
+|promotionTier=1
+|required=Elwind
+|SE=se_effect_lexcalibur.flac
+|properties=random_all
+}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=レクスカリバー
+|german=Rexcalibur
+|spanishEU=Rexcalibur
+|spanishLA=Rexcalibur
+|french=Fimbulvetr
+|italian=Rexcalibur
+|chineseTW=列克斯卡利伯
+|portuguese=Rexcalibur
+}}
+==See also==
+* [[Silver Weapons]]
+{{Weapons Navbox}}
+[[Category:Silver weapons]]

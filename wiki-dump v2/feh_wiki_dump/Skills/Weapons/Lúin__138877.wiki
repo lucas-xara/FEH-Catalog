@@ -1,0 +1,112 @@
+{{Weapon Infobox
+|tagid=SID_ルーン
+|userVersion1=Weapon
+|userVersion2=Upgrade Weapon
+|userVersion3=Upgrade Gleam
+|weaponType=Lance
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br>If unit initiates combat or is within 2 spaces of an ally, grants Spd+6 during combat, deals damage = 20% of unit's Spd, and also, if unit's Spd ≥ foe’s Spd+5, foe cannot counterattack.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Silver Lance
+|intID=2467
+|sort=511
+|value=20
+|timingID=21
+|abilityID=268
+|limit1ID=58
+|randomTimestamp=2021-04-05T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1).<br><br>If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd+6 to unit and deals damage = 20% of unit's Spd during combat (including area-of-effect Specials), and also, when Special triggers, deals additional damage = 20% of unit's Spd (including area-of-effect Specials).<br><br>If unit's Spd ≥ foe's Spd-7 during combat, foe cannot counterattack.
+|refineStatsSkill1=3,0,0,0,0
+|effectSkill1=Enables【Canto (２)】.<br><br>Inflicts Spd/Def-5 on foes within 3 rows or 3 columns centered on unit, neutralizes those foes' bonuses to Spd/Def, and those foes suffer guaranteed follow-up attacks during combat.<br><br>At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+6 to unit, neutralizes effects that inflict "Special cooldown charge -X" on unit, and grants Special cooldown count-1 to unit before unit's first attack during combat.<br><br>【Canto (２)】<br>After an attack, Assist skill, or structure destruction, unit can move ２ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Accelerates Special}}
+|s1 Ce1={{Eft|Temporary buffs|Spd|6}}
+|s1 Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|s1 Ce1-2C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s1 Ce3={{Eft|Prevent Counter}}
+|s1 Ce3T={{Tgt|Foe}}
+|s1 Ce3C={{Eft|Temporary buffs|Spd|6}}<br>conditions '''&'''<br>{{Tgt|Unit}}'s Spd ≥<br>{{Tgt|Foe}}'s Spd+5
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Accelerates Special}}
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd|6}}
+|s2 Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}<br>before '''&''' during combat
+|s2 Ce3={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}<br>per {{Tgt|Unit}}'s [[offensive Special]]
+|s2 Ce1-3C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s2 Ce4={{Eft|Prevent Counter}}
+|s2 Ce4T={{Tgt|Foe}}
+|s2 Ce4C={{Tgt|Unit}}'s Spd ≥<br>{{Tgt|Foe}}'s Spd-7
+|skill3={{Si|Lúin|refine=Skill1}} Skill refine effects
+|s3 Me={{Eft|Canto|2}}
+|s3 Ce1={{Eft|Temporary debuffs|Spd/Def|5}}
+|s3 Ce2={{Eft|Neutralize Bonuses|Spd/Def}}
+|s3 Ce1-2T={{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|s3 Ce3={{Eft|Guaranteed Follow-Ups}}
+|s3 Ce3T={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>against {{Tgt|Foes}} in<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|s3 Ce4={{Eft|Temporary buffs|Atk/Spd|6}}
+|s3 Ce5={{Eft|Neutralize Guard}}
+|s3 Ce6={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Unit}}'s first attack
+|s3 Ce4-6C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{DamageBoost}}
+{{Prevent counterattacks}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Canto|2|name={{St|Lúin|refine=Skill1}}}}
+{{Temporary debuffs|name={{St|Lúin|refine=Skill1}}}}
+{{Bonus neutralization|name={{St|Lúin|refine=Skill1}}}}
+{{Guaranteed follow-up interaction|name={{St|Lúin|refine=Skill1}}}}
+{{FoesCombatEffect|temporary debuffs and bonus neutralization effects|name={{St|Lúin|refine=Skill1}}}}
+{{AlliesCombatEffect|guaranteed follow-up|name={{St|Lúin|refine=Skill1}}}}
+{{CooldownChargeMinusNeutralization|name={{St|Lúin|refine=Skill1}}}}
+{{CombatCooldownCount|-1|name={{St|Lúin|refine=Skill1}}}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Ingrid: Galatea's Heir|t=Cornelia: Saint Consumed
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ルーン
+|german=Lúin
+|spanishEU=Lúin
+|spanishLA=Lúin
+|french=Lúin
+|italian=Lúin
+|chineseTW=盧恩
+|portuguese=Lúin
+}}
+==See also==
+{{See also skills|cond=wikiName LIKE '%Lúin%' OR (Description LIKE '%if unit_s Spd _ foe_s Spd%foe cannot counterattack%' OR Description LIKE '%suffer guaranteed follow-up%') AND Exclusive='1'}}
+* [[Sweep Passives]]
+* [[Rein Passives]]
+* [[Skill families/C Passives#Crux|Crux Passives]]
+{{Weapons Navbox}}

@@ -1,0 +1,74 @@
+{{#invoke:NameAbout|main|Name=Noire}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Noire
+|Title=Shade Seeker
+|GrowthModifier=Gen 2
+|WeaponType=Colorless Bow
+|MoveType=Infantry
+|Origin=Fire Emblem Awakening
+|Gender=Female
+|artist=草木原俊行
+|actorEN=Michelle Ruff
+|actorJP=吉田聖子
+|releaseDate=June 21, 2018
+|TagID=水着ノワール
+|InternalID=260
+|Properties=special,specRate_202202
+|cv1=10
+|cv2=6901100
+|description=Tharja's daughter. Turns into a terrifying alter ego when pushed too far. The summer sun has made her a bit dizzy. Appears in Fire Emblem Awakening.
+}}
+
+__TOC__
+
+{{Stats Page|Hero={{BASEPAGENAME}}
+|Lv1HP=17|Lv1ATK=8|Lv1SPD=10|Lv1DEF=5|Lv1RES=5
+|GRHP=45|GRATK=55|GRSPD=60|GRDEF=50|GRRES=35
+}}
+
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Cocobow
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Cocobow+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+
+===Assists===
+{{Assists Table
+|assist1=Ardent Sacrifice
+|assist1Default=4
+|assist1Unlock=3
+}}
+
+===Specials===
+{{Specials Table
+}}
+
+===Passives===
+{{Passives Table
+|passiveA1=Speed +1
+|passiveA2=Atk/Spd 1
+|passiveA3=Atk/Spd 2
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Infantry Rush 1
+|passiveC2=Infantry Rush 2
+|passiveC3=Infantry Rush 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+
+{{Heroes Navbox}}
+[[Category:Summer units]]

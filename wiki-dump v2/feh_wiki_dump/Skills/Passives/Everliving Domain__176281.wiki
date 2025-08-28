@@ -1,0 +1,49 @@
+{{Passive
+|type=C
+|name=Everliving Domain
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Everliving Domain
+|1tagid=SID_永生結界
+|1cost=300
+|1effect=If unit is within 2 spaces of any allies, grants Def/Res+4 and the following effect to unit and those allies during combat: "If unit's HP ≥ 75% and foe would reduce unit's HP to 0, unit survives with 1 HP. (Once per combat. Does not stack with non-Special effects that allow unit to survive with 1 HP if foe's attack would reduce HP to 0.)"
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary buffs|Def/Res|4}}
+|Ce1C=An {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce2={{Eft|Miracle}}
+|Ce2C=An {{Tgt|Ally}} is<br>[[within 2 spaces]] '''&'''<br>{{Tgt|Unit}}'s HP ≥ 75%
+|Ce3={{Eft|Temporary buffs|Def/Res|4}}
+|Ce4={{Eft|Miracle}}
+|Ce3-4T={{Tgt|Allies}}<br>[[within 2 spaces]]
+|Ce4C={{Tgt|Ally}}'s HP ≥ 75%
+}}
+==Notes==
+{{Temporary buffs}}
+{{DefensiveSkill}}
+{{Miracle|HPThreshold=under 75%}}
+{{AlliesCombatEffect|effect=temporary buffs and unit survives with 1 HP effect}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=永生結界
+|german=Langlebiges Reich
+|spanishEU=Dominio perenne
+|spanishLA=Dominio perenne
+|french=Domaine sans fin
+|italian=Dominio perenne
+|chineseTW=永生結界
+|portuguese=Domínio perene
+}}
+==See also==
+{{See also skills|cond=((Description LIKE '%survive%with 1 HP%' AND Description NOT LIKE '%"if foe would reduce%' AND (Description LIKE '%for allies within%survive%with 1 HP%' OR Description LIKE '%survive%with 1 HP%to allies within%'))) AND Exclusive='1'}}
+{{Passives Navbox|C}}

@@ -1,0 +1,78 @@
+{{#invoke:NameAbout|main|Name=Azama}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Azama
+|Title=Carefree Monk
+|GrowthModifier=None
+|WeaponType=Colorless Staff
+|Origin=Fire Emblem Fates
+|Gender=Male
+|MoveType=Infantry
+|actorEN=Matt Mercer
+|actorJP=浜田賢二
+|artist=岡谷
+|resplendentArtist=田野きの太
+|resplendentArtist-extra=Trys Inc.
+|releaseDate=February 2, 2017
+|poolDate=February 2, 2017
+|randomStartTime=2017-02-02T07:00:00Z
+|poolRarities=3,4
+|TagID=アサマ
+|InternalID=91
+|cv1=11
+|cv2=200700
+|description=A monk of Hoshido with a curious sense of humor. One of Hinoka's retainers. Appears in Fire Emblem Fates.
+|Properties=resplendent,nidavellir
+|resplendentStartTime=2023-11-25T07:00:00Z
+|resplendentEndTime=2023-12-10T06:59:59Z
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=4|Lv1SPD=7|Lv1DEF=8|Lv1RES=6
+|GRHP=55|GRATK=40|GRSPD=45|GRDEF=55|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Assault
+|weapon1Default=
+|weapon1Unlock=1
+|weapon2=Pain
+|weapon2Default=
+|weapon2Unlock=3
+|weapon3=Pain+
+|weapon3Default=
+|weapon3Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Heal
+|assist1Default=1
+|assist1Unlock=1
+|assist2=Reconcile
+|assist2Default=3
+|assist2Unlock=2
+|assist3=Martyr
+|assist3Default=5
+|assist3Unlock=4
+|assist4=Martyr+
+|assist4Default=
+|assist4Unlock=5
+}}
+===Specials===
+{{Specials Table
+|special1=Imbue
+|special1Default=4
+|special1Unlock=2
+|special2=Solid-Earth Balm
+|special2Default=5
+|special2Unlock=3
+}}
+===Passives===
+{{Passives Table
+|passiveC1=Threaten Atk 1
+|passiveC2=Threaten Atk 2
+|passiveC3=Threaten Atk 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

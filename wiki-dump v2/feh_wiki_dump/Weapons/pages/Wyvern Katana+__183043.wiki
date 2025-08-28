@@ -1,0 +1,33 @@
+{{Weapon Infobox
+|tagid=SID_竜忍の剣＋
+|intID=3330
+|image=wep_sw143
+|exclusive=0
+|weaponType=Sword
+|cost=300
+|might=8
+|range=1
+|effect=Grants Def/Res+5 and inflicts Spd-8 on unit. Unit attacks twice. (Even if foe initiates combat, unit attacks twice.)
+|statModifiers=0,8,-8,5,5
+|required=Wyvern Katana
+|properties=
+}}
+==Notes==
+{{Brave weapon interaction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=竜忍の剣＋
+|german=Wyvern-Katana+
+|spanishEU=Katana wyvern +
+|spanishLA=Katana wyvern +
+|french=Katana wyverne +
+|italian=Katana viverna+
+|chineseTW=龍忍之劍＋
+|portuguese=Katana wyvern+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants Def/Res+%inflicts Spd-%unit attacks twice.%' AND (Exclusive='1' OR SP=300)}}
+* [[Brave weapons]]
+{{Weapons Navbox}}

@@ -1,0 +1,47 @@
+{{Passive
+|name=Dazzle Far Trace
+|type=B
+|exclusive=0
+|canUseWeapon={{WeaponList|Colorless Staff}}
+|canUseMove=Cavalry,Flying
+|properties=random_owner
+|1name=Dazzle Far Trace
+|1tagid=SID_幻惑・遠影
+|1effect=Enables【Canto (Rem.)】.<br><br>Inflicts Spd-4 on foe and foe cannot counterattack during combat.<br><br>【Canto (Rem.)】<br>After an attack, Assist skill, or structure destruction, unit can move spaces = any movement not already used that turn. (If unit used a movement skill that warped them, its remaining movement is 0.)<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|1cost=300
+|1required=Dazzling Staff 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Canto|Rem.}}
+|Ce1={{Eft|Temporary debuffs|Spd|4}}
+|Ce2={{Eft|Prevent Counter}}
+|CeT={{Tgt|Foe}}
+}}
+==Notes==
+{{Canto|Rem.}}
+{{Temporary debuffs}}
+{{Prevent counterattacks}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=幻惑・遠影
+|german=Brillant. Spur fern
+|spanishEU=Rastro lej. cegador
+|spanishLA=Rastro lej. cegad.
+|french=Trace dist. éclat.
+|italian=Scia vivida dist.
+|chineseTW=幻惑・遠影
+|portuguese=Rastro ofuscante
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%foe cannot counterattack%' AND CanUseWeapon__full='Colorless Staff' AND Name NOT LIKE '%+' OR Description LIKE '%【Canto (Rem.)】%') AND Exclusive='1'}}
+* [[Skill families/B Passives#Staff|Staff Passives]]
+* [[Gullinbursti]]
+* [[Trace Passives]]
+{{Passives Navbox|B}}

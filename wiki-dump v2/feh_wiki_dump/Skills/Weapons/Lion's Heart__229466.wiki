@@ -1,0 +1,64 @@
+{{Weapon Infobox
+|tagid=SID_蒼獅子の愛の剣
+|intID=4567
+|image=wep_sw193
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Enables【Canto (Rem. +1; Min ２)】.<br>Accelerates Special trigger (cooldown count-1).<br><br>After Canto, if unit entered combat on the current turn, grants another action to unit, and re-enables Canto (once per turn; does not trigger when affected by effects of traps in Aether Raids during Canto).<br><br>At start of turn, if unit is within 2 spaces of an ally, grants "unit can move 1 extra space" to unit (that turn only; does not stack), and grants the following statuses on unit and allies within 2 spaces of unit for 1 turn: "neutralizes penalties on unit during combat" and "Special cooldown charge +1 to unit per attack during combat (only highest value applied; does not stack)."<br><br>If unit initiates combat or is within 2 spaces of an ally, grants bonus to unit's Atk/Spd/Def/Res = 15% of unit's Spd at start of combat + 5, unit deals +X × 5 damage (X = number of Bonus effects active on unit, excluding stat bonuses + number of Penalty effects active on foe, excluding stat penalties; max 5; excluding area-of-effect Specials), and reduces damage from foe's first attack by X × 3 during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and also, reduces damage by an additional X × 3 when foe's attack triggers foe's Special (excluding area-of-effect Specials), and restores 7 HP to unit after combat.<br><br>【Canto (Rem. +1; Min ２)】<br>After an attack, Assist skill, or structure destruction, unit can move spaces = any movement not already used that turn +1 (min ２; if unit used a movement skill that warped them, unit can move ２ space(s)). (Once per turn. Only highest value applied. Does not stack.)
+|required=Silver Sword
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Me1={{Eft|Canto|Rem. +1; Min 2}}
+|Me2={{Eft|Galeforce}}<br>(once per turn)
+|Me3=Re-enables [[Canto]]<br>(once per turn)
+|Me2-3C=After [[Canto]] movement<br>if {{Tgt|Unit}} didn't end<br>turn on {{Stt|Traps}}
+|Me4={{Eft|Heal|7}}
+|Me4C=After combat on<br>Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Se1={{SEt|Mobility Increased}}
+|Se2={{SEt|Neutralize Penalties}}
+|Se3={{SEt|Special Cooldown Charge +1}}
+|Se2-3T={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=At start of turn<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|15% of {{Tgt|Unit}}'s Spd<br>at start of combat, +5}}
+|Ce2={{Eft|Damage Boost|5 x ({{Kp|Bonus}} effects<br>on {{Tgt|Unit}} '''&''' {{Kp|Penalty}}<br>effects on {{Tgt|Foe}})<br>(exc. {{SEt|Bonuses}} '''&''' {{SEt|Penalties}})|max=25}} 
+|Ce3={{Eft|Damage Reduction|3 x ({{Kp|Bonus}} effects<br>on {{Tgt|Unit}} '''&''' {{Kp|Penalty}}<br>effects on {{Tgt|Foe}})<br>(exc. {{SEt|Bonuses}} '''&''' {{SEt|Penalties}})|max=15}}<br>from {{Tgt|Foe}}'s attacks
+|Ce4={{Eft|Damage Reduction|3 x ({{Kp|Bonus}} effects<br>on {{Tgt|Unit}} '''&''' {{Kp|Penalty}}<br>effects on {{Tgt|Foe}})<br>(exc. {{SEt|Bonuses}} '''&''' {{SEt|Penalties}})|max=15}}<br>per {{Tgt|Foe}}'s [[offensive Specials]]
+|CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+==Notes==
+{{Canto|Rem. +1; Min 2}}
+{{Galeforce notes}}
+{{Mobility increased}}
+{{Neutralize Penalties}}
+{{Special Cooldown Charge +1}}
+{{Temporary buffs}}
+{{At start of combat}}
+{{FlatDamageBoost|X (max: 25)}}
+{{FlatDamageReduction|X (max: 15)}}
+{{After combat healing}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%re-enables Canto%' OR Description LIKE '%number of%Bonus%effects active on unit%Penalty%effects active on foe%') AND Exclusive='1' AND NAME NOT LIKE '%gainful%'}}
+* [[Skill families/Weapons#Gainful|Gainful Weapons]]
+{{Weapons Navbox}}

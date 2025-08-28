@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Ignatz}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Ignatz
+|Title=Snowscape Artist
+|WeaponType=Colorless Bow
+|MoveType=Armored
+|Origin=Fire Emblem: Three Houses
+|Gender=Male
+|actorEN=Christian La Monte
+|actorJP=矢野奨吾
+|artist=ネコモチ
+|additionDate=December 16, 2021
+|releaseDate=December 16, 2021
+|cv1=12
+|cv2=400400
+|TagID=冬祭イグナーツ
+|InternalID=748
+|Properties=limited,tempest,specDisplay,hat,tiara
+|description=A student at Garreg Mach Monastery who has come to participate in the winter festival in search of a landscape he has yet to see. Appears in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=20|Lv1ATK=7|Lv1SPD=12|Lv1DEF=7|Lv1RES=9
+|GRHP=50|GRATK=65|GRSPD=65|GRDEF=55|GRRES=65
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Tannenbow
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Tannenbow+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Rally Speed
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Rally Atk/Spd
+|assist2Unlock=4
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Spd/Def Form 1
+|passiveA2=Spd/Def Form 2
+|passiveA3=Spd/Def Form 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Def Tactic 1
+|passiveC2=Def Tactic 2
+|passiveC3=Def Tactic 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Christmas units]]

@@ -1,0 +1,34 @@
+{{Weapon Infobox
+|tagid=SID_聖鈴の剣
+|weaponType=Sword
+|might=10
+|range=1
+|effect=When unit deals damage to foe during combat, restores 5 HP to unit. (Triggers even if 0 damage is dealt.)
+|cost=200
+|exclusive=0
+|statModifiers=0,10,0,0,0
+|required=Steel Sword
+|next=Bellringer+
+|promotionRarity=5
+|promotionTier=1
+|properties=
+}}
+==Notes==
+{{CombatHPRecovery}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Bellringer
+|japanese=聖鈴の剣
+|german=Glockenläuten
+|spanishEU=Hoja melodiosa
+|spanishLA=Hoja melodiosa
+|french=Épée carillon
+|italian=Batacchio
+|chineseTW=聖鈴之劍
+|portuguese=Bate o sino
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%unit deals damage to foe during combat, restores%HP to unit%' AND Exclusive='1'}}
+{{Weapons Navbox}}

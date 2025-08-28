@@ -1,0 +1,72 @@
+{{Weapon Infobox
+|tagid=SID_碧き風空の剣
+|intID=4645
+|image=wep_sw195
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>At start of turn, if unit is within 2 spaces of an ally, grants【Empathy】and the following status to unit and allies within 2 spaces for 1 turn: "grants Special cooldown charge +1 per attack during combat (only highest value applied; does not stack)."<br><br>If unit initiates combat or if unit is within 2 spaces of an ally, grants bonus to unit's Atk/Spd/Def/Res = number of allies within 3 rows or 3 columns centered on unit × 3, + 5 (max 14), deals damage = 20% of unit's Spd (excluding area-of-effect Specials), reduces damage from foe's first attack by 20% of unit's Spd ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat.<br><br>Unit can use the following【Style】:<br>――――― Wind Sword Style ―――――<br>Unit can attack foes 2 spaces away (unit cannot attack adjacent foes). Calculates damage using the lower of foe's Def or Res during combat (excluding area-of-effect Specials).<br><br>Unit suffers a counterattack if any of the following conditions are met: foe is armored with Range = 1, foe can counterattack regardless of unit's range, or foe's Range is the same as the distance between unit and foe.<br><br>After-combat movement effects do not occur. Skill effect's Range is treated as 1, including by skill effects determined by attack Range, like Pavise and Aegis. This Style can be used only once per turn.<br>――――――――――――――――――――<br><br>【Empathy】<br>Grants bonus to unit's Atk/Spd/Def/Res = number of types of Bonus effects, excluding stat bonuses, and Penalty effects, excluding stat penalties, active on player team and enemy team during combat (max 7).<br><br>【Style】<br>Change Style using the Style button at the bottom of the screen.<br><br>A unit's Style is only active when that unit is taking an action. When unit is equipped with a skill that has a Style, unit will not be able to use skills like Duo Skills or Harmonized Skills. Style use is disabled when unit is deployed using Pair Up or when unit is equipped with multiple skills that have a Style.
+|required=Silver Sword
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Me={{Eft|Style|Wind Sword}}<br>(once per turn)
+|Se1={{SEt|Empathy}}
+|Se2={{SEt|Special Cooldown Charge +1}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=At start of turn<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|3 x {{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}, + 5|max=14}}
+|Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|Ce3={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Spd}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce4={{Eft|Neutralize Prevent Follow-Ups}}
+|Ce5={{Eft|Neutralize Guaranteed Follow-Ups}}
+|Ce5T={{Tgt|Foe}}
+|CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+
+==Notes==
+{{Empathy}}
+{{Special Cooldown Charge +1}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{DamageBoost}}
+{{FlatDamageReduction}}
+{{Follow-up effect neutralization}}
+{{Styles|Wind Sword}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Eirika: Of the Sacred|t=Rosado: Adorable Artist
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Empathy】%' OR Description LIKE '%【Style】%' OR Description LIKE '%deals damage%=%of unit_s Spd%reduces damage%of unit_s Spd%') AND Exclusive='1'}}
+{{Weapons Navbox}}

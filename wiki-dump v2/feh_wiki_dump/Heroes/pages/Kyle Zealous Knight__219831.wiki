@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Kyle}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Kyle
+|Title=Zealous Knight
+|WeaponType=Blue Lance
+|MoveType=Cavalry
+|Origin=Fire Emblem: The Sacred Stones
+|Gender=Male
+|actorEN=Grant Paulsen
+|actorJP=泰勇気
+|artist=motsutsu
+|randomStartTime=2024-08-16T07:00:00Z
+|additionDate=July 16, 2024
+|releaseDate=July 16, 2024
+|poolDate=July 16, 2024
+|poolRarities=3,4
+|cv1=7
+|cv2=100400
+|TagID=カイル
+|InternalID=1120
+|Properties=
+|description=A knight of Renais who serves Ephraim directly. He is eager and known for his sternness. Appears in Fire Emblem: The Sacred Stones.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=8|Lv1SPD=9|Lv1DEF=12|Lv1RES=4
+|GRHP=50|GRATK=90|GRSPD=50|GRDEF=75|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Pursual Lance
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Pursual Lance+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Reposition
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Def Clash 1
+|passiveA2=Atk/Def Clash 2
+|passiveA3=Atk/Def Clash 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Atk/Def Snag 1
+|passiveB2=Atk/Def Snag 2
+|passiveB3=Atk/Def Snag 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+}}
+{{Heroes Navbox}}

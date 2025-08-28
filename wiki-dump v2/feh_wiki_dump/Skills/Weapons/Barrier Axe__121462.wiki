@@ -1,0 +1,37 @@
+{{Weapon Infobox
+|tagid=SID_バリアの斧
+|weaponType=Axe
+|weaponName=Barrier Axe
+|range=1
+|might=10
+|effect=If foe initiates combat, grants Res+7 during combat.
+|cost=200
+|exclusive=0
+|statModifiers=0,10,0,0,0
+|next=Barrier Axe+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Axe
+|properties=random_all
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Combat boosts}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=バリアの斧
+|german=Barriereaxt
+|spanishEU=Hacha defens.
+|spanishLA=Hacha defens.
+|french=Hache barrière
+|italian=Ascia barriera
+|chineseTW=巴里亞之斧
+|portuguese=Mach. muralha
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe initiates combat, grants Res+%during combat%' AND WikiName NOT LIKE '%barrier%'|columns=3}}
+* [[Skill families#Barrier|Barrier Weapons]]
+* [[Skill families#Guard (combat boosts)|Guard Weapons]]
+{{Weapons Navbox}}

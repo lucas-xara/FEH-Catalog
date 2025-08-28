@@ -1,0 +1,56 @@
+{{Weapon Infobox
+|tagid=SID_命なき狼牙の剣
+|intID=4137
+|image=wep_sw176
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=16
+|range=1
+|effect=Grants Spd+3.<br><br>At start of turn, if unit's HP ≥ 25%, grants 【Foe Penalty Doubler】to unit and allies within 2 spaces of unit and inflicts Spd/Def-7 on closest foes and any foe within 2 spaces of those foes through their next actions.<br><br>At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit, grants bonus to unit's Atk/Spd/Def/Res = 15% of unit's Spd at start of combat, reduces damage from foe's first attack by 40% ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and inflicts Special cooldown charge -1 on foe per attack during combat (only highest value applied; does not stack).<br><br>【Foe Penalty Doubler】<br>Inflicts penalty on foe's Atk/Spd/Def/Res during combat = any current penalty on each of those stats for 1 turn. Calculates each stat penalty independently.
+|statModifiers=0,16,3,0,0
+|required=Silver Sword
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Stat Boosts|Spd|3}}
+|Se1={{SEt|Foe Penalty Doubler}}
+|SeT1={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|Se2={{Eft|Penalties|Spd/Def|7}}
+|SeT2=Closest {{Tgt|Foes}}<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}
+|SeC=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25%
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|15% of {{Tgt|Unit}}'s Spd<br>at start of combat}}
+|Ce3={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce4={{Eft|Guard}}
+|CeT4={{Tgt|Foe}}
+|CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Foe Penalty Doubler}}
+{{Penalties}}
+{{Temporary buffs}}
+{{At start of combat}}
+{{DamagePercentageReduction}}
+{{CooldownChargeMinus}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=命なき狼牙の剣
+|german=Wolfsschwert
+|spanishEU=Hoja lupina
+|spanishLA=Hoja lupina
+|french=Épée du loup
+|italian=Lama lupesca
+|chineseTW=絕命狼牙之劍
+|portuguese=Lâmina lupina
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%【Foe Penalty Doubler】%' OR Description LIKE '%grants%Atk/Spd/Def/Res%=%of unit_s Spd at start of combat%') AND Exclusive='1'}}
+* [[Menace Passives]]
+{{Weapons Navbox}}

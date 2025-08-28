@@ -1,0 +1,68 @@
+{{Weapon Infobox
+|tagid=SID_フォルクヴァング
+|might=16
+|range=1
+|effect=At start of turn, if unit's HP ≤ 50%, grants Atk+5 for 1 turn.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Silver Sword
+|weaponType=Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|userVersion1=Weapon
+|userVersion2=Gleam
+|upgradedEffect=At start of combat, if unit's HP ≤ 80%, grants Atk/Def+7 during combat.
+|effectSkill1=If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%.
+|iconSkill1=Triangle Adept W.png
+|tagidExtraSkill1=相
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|skill1 StatusEffect={{Eft|Bonuses|Atk|5}}
+|skill1 StatusEffect Conditions=At start of turn if<br>{{Tgt|Unit}}'s HP ≤ 50%
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|skill2 CombatEffect={{Eft|Temporary buffs|Atk/Def|7}}
+|skill2 CombatEffect Conditions={{Tgt|Unit}}'s HP ≤ 80%<br> at start of combat 
+|skill3={{Si|Fólkvangr|refine=Skill1}} Skill refine effects
+|skill3 CombatEffect 1={{Eft|WTA boost}}
+|skill3 CombatEffect 2={{Eft|WTA reduction}}
+|skill3 CombatEffect 1-2 Targets={{Tgt|Unit}}
+|skill3 CombatEffect 1 Conditions={{Tgt|Unit}} has<br>[[Weapon-triangle]]<br>advantage
+|skill3 CombatEffect 2 Conditions={{Tgt|Unit}} has<br>[[Weapon-triangle]]<br>disadvantage
+}}
+
+==Notes==
+* Fólkvangr has the same effect as {{St|Defiant Atk 2}}.
+{{Defiant Passive notes}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+* Refined Fólkvangr the same effect as {{St|Brazen Atk/Def 3}}.
+{{Temporary buffs|name=refined Fólkvangr}}
+* {{St|Fólkvangr|refine=skill1}} listed first has the same effect as {{St|Triangle Adept 3}}.
+{{WTA boost|name={{St|Fólkvangr|refine=skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=フォルクヴァング
+|german=Fólkvangr
+|spanishEU=Fólkvangr
+|spanishLA=Fólkvangr
+|french=Fólkvangr
+|italian=Fólkvangr
+|chineseTW=弗爾克范格
+|portuguese=Fólkvangr
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%At start of combat%if unit_s HP ≤%grants%' OR Description LIKE '%unit has weapon-triangle advantage%boosts%' AND Description NOT LIKE '%"if unit has%') AND Exclusive='1'}}
+* [[Defiant Passives]]
+* [[Brazen Passives]]
+* [[Gem Weapons]]
+{{Weapons Navbox}}
+[[Category:Gem weapons]]

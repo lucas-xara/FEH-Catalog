@@ -1,0 +1,47 @@
+{{Passive
+|name=Oath of Ostia
+|type=A
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Oath of Ostia
+|1tagid=SID_オスティアの血盟
+|1effect=Grants HP+5.<br><br>After unit acts (if Canto triggers, after Canto), or, if defending in Aether Raids, at the start of enemy phase, applies【Divine Vein (Stone)】to unit's space and spaces within 2 spaces of unit for 1 turn.<br><br>If foe initiates combat or foe's HP ≥ 75% at start of combat, inflicts Atk/Def-10 on foe, grants Special cooldown count-2 to unit before foe's first attack, and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials).<br><br>【Divine Vein (Stone)】<br>Applies the following effects on space for unit and allies: Grants Def/Res+6 during combat, reduces damage from foe's Specials by 10 during combat (excluding area-of-effect Specials), and reduces damage from area-of-effect Specials by 50% (excluding Røkkr area-of-effect Specials). (Divine Vein effects do not stack; replaces any existing Divine Vein effect; Divine Vein effects applied simultaneously cancel each other out. Does not count as defensive terrain.)
+|statModifiers1=5,0,0,0,0
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Stat Boosts|HP|5}}
+|Me={{Eft|Divine Vein (Stone)}}
+|MeT=Spaces<br>[[within 2 spaces]]<br>of {{Tgt|Unit}}
+|MeC=After action(s),<br>[[Canto]] movement, '''or''' at<br>start of Enemy Phase<br>when defending in<br>[[Aether Raids]]
+|Ce1={{Eft|Temporary debuffs|Atk/Def|10}}
+|Ce2={{Eft|Reduce Damage Reduction|50%}}
+|Ce1-2T={{Tgt|Foe}}
+|Ce3={{Eft|Reduce Cooldown|2}}<br>before {{Tgt|Foe}}'s first attack 
+|CeC=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+}}
+==Notes==
+{{Divine Vein|Stone}}
+{{IfFoeInitiates}}
+{{CombatCooldownCount|-2}}
+{{Reduce Damage Reduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Divine Vein (Stone)】%' OR Description LIKE '%grants special cooldown count-_ to unit before foe_s first attack%') AND Exclusive='1'}}
+{{Passives Navbox|A}}

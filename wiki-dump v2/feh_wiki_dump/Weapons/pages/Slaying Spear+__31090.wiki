@@ -1,0 +1,57 @@
+{{Weapon Infobox
+|tagid=SID_貫きの槍2＋
+|weaponType=Lance
+|weaponName=Slaying Spear+
+|altWeaponName=Slaying Spear Plus
+|might=14
+|range=1
+|effectiveness=armored
+|effect=Effective against armored foes.
+|cost=300
+|exclusive=0
+|required=Slaying Spear
+|userVersion1=Weapon
+|userVersion2=Gleam
+|statModifiers=0,14,0,0,0
+|refinePaths=Skill1,Atk,Spd,Def,Res
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|effectSkill1=Neutralizes armored foes' bonuses (from skills like Fortify, Rally, etc.) during combat.
+|iconSkill1=Dull Armor W.png
+|tagidExtraSkill1=無
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Ce={{Eft|Effectiveness|{{Mt|Armored}}}}
+|skill2={{Si|Slaying Spear+|refine=Skill1}} Skill refine effects
+|s2 Ce={{Eft|Neutralize Bonus}}
+|s2 CeT={{Mt|Armored}}<br>{{Tgt|Foes}}
+}}
+==Notes==
+{{Effective damage bonus|armored}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Bonus neutralization}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|強化無効R重装|Dull Armor}}
+==In other languages==
+{{OtherLanguages
+|japanese=貫きの槍　鍛＋
+|german=Gnadenspeer+
+|spanishEU=Pica ejecutora +
+|spanishLA=Pica cruel +
+|french=Pique meurtr. +
+|italian=Asta falciante+
+|chineseTW=貫穿之槍鍛＋
+|portuguese=Pique cruel+
+}}
+==See also==
+* [[Weapons that are effective against armored foes]]
+* [[Skills that neutralize bonuses]]
+{{Weapons Navbox}}

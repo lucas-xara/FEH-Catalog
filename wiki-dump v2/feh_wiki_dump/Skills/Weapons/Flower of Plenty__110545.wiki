@@ -1,0 +1,74 @@
+{{Weapon Infobox
+|tagid=SID_豊潤の花
+|image=wep_mg038
+|weaponType=Red Tome
+|might=14
+|range=2
+|effect=Grants Res+3. Grants Atk/Res+3 to allies within 5 rows and 3 columns centered on unit during combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,0,0,3
+|required=Bolganone;Fenrir
+|intID=1897
+|sort=341
+|effectRange=12
+|value=20
+|timingID=2
+|abilityID=35
+|randomTimestamp=2020-02-09T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Res+3. If an ally is within 5 rows and 3 columns centered on unit, grants Atk/Res+5 to unit during combat. Grants Atk/Res+4 to allies within 5 rows and 3 columns centered on unit during their combat.
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Res+5 to unit and unit makes a guaranteed follow-up attack during combat, and also, after combat, if unit attacked, inflicts【Gravity】 on target and foes within 1 space of target.<br><br>【Gravity】<br>Restricts target's movement to 1 space through its next action.
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Res|3}}
+|s1 Ce={{Eft|Temporary buffs|Atk/Res|3}}
+|s1 CeT={{Tgt|Allies}} in a [[5x3 area]]<br>centered on {{Tgt|Unit}}
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Res|3}}
+|s2 Ce1={{Eft|Temporary buffs|Atk/Res|4}}
+|s2 Ce1T={{Tgt|Allies}} in a [[5x3 area]]<br>centered on {{Tgt|Unit}}
+|s2 Ce2={{Eft|Temporary buffs|Atk/Res|5}}
+|s2 Ce2C=An {{Tgt|Ally}} is in a [[5x3 area|5x3<br>area]] centered on {{Tgt|Unit}}
+|skill3={{Si|Flower of Plenty|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary buffs|Atk/Res|5}}
+|s3 Ce2={{Eft|Guaranteed follow-ups}}
+|s3 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s3 Se={{SEt|Gravity}}
+|s3 SeT={{Tgt|Target Foe}} & {{Tgt|Foes}}<br>[[adjacent]] to {{Tgt|Target Foe}}
+|s3 SeC=After combat if<br>{{Tgt|Unit}} attacked '''&'''<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{AlliesCombatEffect|effect=temporary buffs}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Guaranteed follow-up interaction|name={{St|Flower of Plenty|refine=Skill1}}}}
+{{IfUnitAttacked|name={{St|Flower of Plenty|refine=Skill1}}}}
+{{Gravity|name={{St|Flower of Plenty|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Flower of Plenty
+|japanese=豊潤の花
+|german=Blumenmeer
+|spanishEU=Flor suntuosa
+|spanishLA=Flor suntuosa
+|french=Gerbe de fleurs
+|italian=Fiore della dovizia
+|chineseTW=豐潤之花
+|portuguese=Flor da fartura
+}}
+==See also==
+{{See also skills|cond=Name LIKE 'Flower of%' OR Description LIKE '%if unit attacked%restrict%movement%' AND Exclusive='1'}}
+{{Weapons Navbox}}

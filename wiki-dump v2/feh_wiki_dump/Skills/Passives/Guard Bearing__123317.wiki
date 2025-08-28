@@ -1,0 +1,59 @@
+{{Passive
+|name=Guard Bearing
+|type=B
+|exclusive=0
+|canUseMove=Flying
+|canUseWeapon={{WeaponList|Melee}}
+|properties=random_inherit_base,random_owner
+|1name=Guard Bearing 1
+|1tagid=SID_警戒姿勢1
+|1effect=During unit's first combat in enemy phase, if foe initiates combat, reduces damage from foe's first attack by 30%.
+|1required=-
+|1cost=60
+|1promotionRarity=4
+|1promotionTier=1
+|2name=Guard Bearing 2
+|2tagid=SID_警戒姿勢2
+|2effect=During unit's first combat in enemy phase, if foe initiates combat, reduces damage from foe's first attack by 40%.
+|2cost=120
+|2promotionRarity=5
+|2promotionTier=1
+|3name=Guard Bearing 3
+|3tagid=SID_警戒姿勢3
+|3effect=During unit's first combat in enemy phase, if foe initiates combat, reduces damage from foe's first attack by 50%.
+|3cost=240
+|4name=Guard Bearing 4
+|4tagid=SID_警戒姿勢4
+|4effect=Inflicts Spd/Def-4 on foe during combat. Reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by X% (during unit's first combat initiated by foe each turn, X = 60; otherwise, X = 30).
+|4cost=300
+|properties4=random_owner
+}}
+==Notes==
+{{FirstCombat|phase=Enemy}}
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+{{Temporary debuffs|name=Guard Bearing 4}}
+
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=警戒姿勢
+|japaneseNotes=''[[fireemblemwiki:Alert Stance|Alert Stance]]'' from {{FE|16}}
+|german=Schutzhaltung
+|spanishEU=Guardia recia
+|spanishLA=Guardia recia
+|french=Maintien garde
+|italian=Postura guardia
+|chineseTW=警戒姿態
+|portuguese=Porte guarda
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe initiates combat%reduces damage%'}}
+{{Passives Navbox|B}}

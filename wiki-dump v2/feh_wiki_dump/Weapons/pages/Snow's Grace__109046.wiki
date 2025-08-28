@@ -1,0 +1,50 @@
+{{Weapon Infobox
+|tagid=SID_神祖の恵み
+|weaponType=Dragonstone
+|might=16
+|range=1
+|effect=Neutralizes "effective against dragons" bonuses. Grants Spd+3. At start of combat, if unit's HP ≥ 50%, grants Atk/Spd/Def/Res+5 during  combat. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,3,0,0
+|required=Flametongue
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Neutralizes "effective against dragons" bonuses. Grants Spd+3. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit and neutralizes unit's penalties during combat. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|tagidExtraSkill1=一
+|effectSkill1=If foe initiates combat or if foe's HP ≥ 75% at start of combat, grants Atk/Spd/Def/Res+4 to unit, neutralizes effects that guarantee foe's follow-up attacks, and reduces damage from foe's first attack by 30% during combat.
+|iconSkill1=Snows Grace W.png
+|properties=
+}}
+==Notes==
+{{Effectiveness neutralization|dragon}}
+{{Temporary buffs}}
+{{LowerDefRes}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Penalty neutralization|name=Refined Snow's Grace}}
+{{IfFoeInitiates}}
+{{Follow-up effect neutralization|guaranteeOnly=1|name={{St|Snow's Grace|refine=Skill1}}}}
+{{DamagePercentageReduction|name={{St|Snow's Grace|refine=Skill1}}}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Snow's Grace
+|japanese=神祖の恵み
+|german=Gunst d. Schnees
+|spanishEU=Gracia nívea
+|spanishLA=Gracia nívea
+|french=Grâce des neiges
+|italian=Grazia innevata
+|chineseTW=神祖的恩惠
+|portuguese=Graça prateada
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%Neutralizes "effective against dragon%' OR Description LIKE '%grants Atk/Spd/Def/Res+%neutralizes unit_s penalties%'}}
+* [[Shield Passives]]
+{{Weapons Navbox}}

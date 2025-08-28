@@ -1,0 +1,75 @@
+{{#invoke:NameAbout|main|Name=Melady}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Melady
+|Title=Crimson Rider
+|WeaponType=Blue Lance
+|MoveType=Flying
+|Origin=Fire Emblem: The Binding Blade
+|Gender=Female
+|actorEN=Morgan Berry
+|actorJP=七瀬彩夏
+|artist=kiyu
+|artist-extra=Trys Inc.
+|randomStartTime=2020-12-17T07:00:00Z
+|additionDate=November 17, 2020
+|releaseDate=November 17, 2020
+|poolDate=December 7, 2020
+|poolRarities=5
+|cv1=5
+|cv2=500600
+|TagID=ミレディ
+|InternalID=588
+|Properties=specRate_202308
+|description=A wyvern rider who accompanies Guinivere. Though she is conflicted about opposing her homeland, she is loyal to her lady. Appears in Fire Emblem: The Binding Blade.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=10|Lv1SPD=7|Lv1DEF=11|Lv1RES=4
+|GRHP=50|GRATK=70|GRSPD=60|GRDEF=70|GRRES=30
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Instant Lance
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Instant Lance+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Crimson Lance
+|weapon5Default=
+|weapon5Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=4
+|special1Unlock=3
+|special2=Bonfire
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Def Solo 1
+|passiveA2=Atk/Def Solo 2
+|passiveA3=Atk/Def Solo 3
+|passiveA4=Atk/Def Solo 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Wyvern Flight 1
+|passiveB2=Wyvern Flight 2
+|passiveB3=Wyvern Flight 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+}}
+{{Heroes Navbox}}

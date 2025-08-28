@@ -1,0 +1,42 @@
+{{Weapon Infobox
+|tagid=SID_クリミア女王の王笏
+|intID=3491
+|image=wep_rd053
+|exclusive=1
+|weaponType=Colorless Staff
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Calculates damage from staff like other weapons. Accelerates Special trigger (cooldown count-1; max cooldown count cannot be reduced below 1). At start of turn, if unit is within 2 spaces of an ally, grants Atk/Spd+6 and the following status to unit and allies within 2 spaces for 1 turn: "If unit initiates combat, unit makes a guaranteed follow-up attack." If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd+6 to unit and grants bonus to unit's Atk/Spd = highest respective Atk/Spd bonuses among unit and allies within 2 spaces × 1.5 (calculates each stat bonus independently).
+|statModifiers=0,14,0,0,0
+|required=Assault
+|properties=random_owner
+}}
+==Notes==
+* Has the same effect as {{St|Wrathful Staff}}.
+{{Wrathful Staff}}
+{{Bonuses}}
+{{Guaranteed Follow-Ups}}
+{{IfUnitInitiates}}
+{{TemporaryBufffromBonus|source=the unit and/or allies within 2 spaces with the highest Atk and/or Spd bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V7.2_v0702b_akatsuki_Rod.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=クリミア女王の王笏
+|german=Zepter v. Crimea
+|spanishEU=Cetro crimeo
+|spanishLA=Cetro crimeo
+|french=Sceptre de Crimea
+|italian=Scettro di Ozna
+|chineseTW=克里米亞女王的權杖
+|portuguese=Cetro de Crimea
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%"If unit initiates combat, unit makes a guaranteed follow-up attack."%' OR Description LIKE '%bonus to unit_s%/%=%highest%' OR Description LIKE '%at start of turn, if unit is within _ spaces of an ally%grants%+%to unit and allies%for 1 turn%'}}
+{{Weapons Navbox}}

@@ -1,0 +1,73 @@
+{{Weapon Infobox
+|tagid=SID_光の花婿の斧
+|intID=4725
+|image=wep_ax171
+|exclusive=1
+|weaponType=Axe
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>For allies within 3 rows or 3 columns centered on unit, grants Atk/Spd+5 and neutralizes penalties during combat.<br><br>If unit initiates combat or is within 2 spaces of an ally, grants bonus to unit's Atk/Spd/Def/Res = number of allies within 3 rows or 3 columns centered on unit × 3, + 5 (max 14; if number of spaces from start position to end position of whoever initiated combat ≥ 3, value is treated as 14), neutralizes penalties on unit, unit deals +X × 5 damage (max 25; X = number of【Bonus】effects active on unit, excluding stat bonuses + number of 【Penalty】effects active on foe, excluding stat penalties; excluding area-of-effect Specials), grants Special cooldown count-Y before unit's first attack, and grants Special cooldown count-Y before unit's first follow-up attack during combat (Y = 50% of the number of spaces from start position to end position of whoever initiated combat, rounded down before first attack and up before follow-up attack), and also, if unit's HP > 1 and foe would reduce unit's HP to 0, unit survives with 1 HP (once per combat; does not stack with non-Special effects that allow unit to survive with 1 HP if foe's attack would reduce HP to 0).<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|required=Silver Axe
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Ce1={{Eft|Temporary buffs|Atk/Spd|5}}
+|Ce2={{Eft|Neutralize Penalties}}
+|Ce1-2T={{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|Ce3={{Eft|Temporary buffs|Atk/Spd/Def/Res|3 x {{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}, + 5|max=14*}}
+|Ce4={{Eft|Neutralize Penalties}}
+|Ce5={{Eft|Damage Boost|5 x ({{Kp|Bonus}} effects<br>on {{Tgt|Unit}} '''&''' {{Kp|Penalty}}<br>effects on {{Tgt|Foe}}), +5<br>(exc. {{SEt|Bonuses}} '''&''' {{SEt|Penalties}})|max=25}}
+|Ce6={{Eft|Reduce Cooldown|50% of spaces initiator<br>moved, rounded down}}<br>before {{Tgt|Unit}}'s first attack
+|Ce7={{Eft|Reduce Cooldown|50% of spaces initiator<br>moved, rounded up}}<br>before {{Tgt|Unit}}'s first [[follow-up]]
+|Ce3-7C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce8={{Eft|Miracle}}
+|Ce8C=(Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]) '''&'''<br>{{Tgt|Unit}}'s HP > 1
+}}
+<b>{{Hatnote|* If spaces initiator moved ≥ 3, value is treated as max.}}</b>
+==Notes==
+{{Temporary buffs}}
+{{Penalty neutralization}}
+{{AlliesCombatEffect|temporary buffs and penalty neutralization effects}}
+{{IfUnitInitiates}}
+{{SpacesFromStarttoEnd}}
+{{FlatDamageBoost|X (max: 25)}}
+{{EffectfromBonus|damage boost|nonStat=1}}
+{{EffectfromPenalty|damage boost|nonStat=1}}
+{{CombatCooldownCount}}
+{{Survive with 1 HP}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Seliph: Light's Legacy|t=Julia: Brides of Light
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%allies within%rows%grants %/%neutralizes penalties%' OR Description LIKE '%number of%Bonus%effects active on unit%Penalty%effects active on foe%') AND Exclusive='1' AND NAME NOT LIKE '%gainful%'}}
+* [[Skill families/Weapons#Gainful|Gainful Weapons]]
+{{Weapons Navbox}}

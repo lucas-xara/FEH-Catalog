@@ -1,0 +1,36 @@
+{{Weapon Infobox
+|tagid=SID_ミィル
+|weaponType=Red Tome
+|weaponName={{PAGENAME}}
+|might=4
+|range=2
+|effect=
+|cost=50
+|exclusive=0
+|userVersion1=Closed|userVersion2=Open|statModifiers=0,4,0,0,0
+|next=Ruin
+|promotionRarity=3
+|promotionTier=1
+|required=-
+|SE=se_effect_mil.flac
+|properties=random_all
+}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=ミィル
+|german=Flux
+|spanishEU=Flux
+|spanishLA=Flux
+|french=Flux
+|italian=Flusso
+|chineseTW=流動
+|portuguese=Flux
+}}
+==See also==
+* [[Iron Weapons]]
+{{Weapons Navbox}}
+[[Category:Iron weapons]]

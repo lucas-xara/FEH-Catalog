@@ -1,0 +1,41 @@
+{{Weapon Infobox
+|tagid=SID_鎧殺の暗器
+|intID=2965
+|image=wep_dg064
+|exclusive=0
+|weaponType=Dagger
+|cost=200
+|might=8
+|range=2
+|effectiveness=Armored
+|effect=Effective against armored foes. Disables unit's and foe's skills that change attack priority.<br>Effect:【Dagger ５】<br><br>【Dagger ５】<br>After combat, if unit attacked, inflicts Def/Res-５ on target and foes within 2 spaces of target through their next actions.
+|statModifiers=0,8,0,0,0
+|required=Steel Dagger
+|next=Armorpin Dagger+
+|promotionRarity=5
+|promotionTier=1
+|properties=random_owner
+}}
+==Notes==
+* Has the same effect as {{St|Hardy Bearing 3}}.
+{{Effective damage bonus|armor}}
+{{Hardy Bearing}}
+{{IfUnitAttacked}}
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=鎧殺の暗器
+|german=Panzertod
+|spanishEU=Daga punzón
+|spanishLA=Daga punzón
+|french=Dague cuirasse
+|italian=Spaccacorazze
+|chineseTW=破鎧暗器
+|portuguese=Adaga alfinetada
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%change attack priority%'|columns=3}}
+* [[Sources of effective against armored foes]]
+{{Weapons Navbox}}

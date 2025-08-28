@@ -1,0 +1,35 @@
+{{Assist
+|tagid=SID_一喝
+|name=Harsh Command
+|range=1
+|effect=Converts penalties on target into bonuses.
+|cost=150
+|required=-
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_all
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{Eft|Bonuses|Atk/Spd/Def/Res|{{SEt|Penalty}} on each stat}}
+|Se2=Removes {{SEt|Penalties}}
+|SeT={{Tgt|Target Ally}}
+|SeC={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}
+}}
+==Notes==
+{{Penalty conversion}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=一喝
+|german=Harscher Befehl
+|spanishEU=Orden imperiosa
+|spanishLA=Orden imperiosa
+|french=Ordre impérieux
+|italian=Ordine perentorio
+|chineseTW=大喝
+|portuguese=Ordem severa
+}}
+{{Assists Navbox}}

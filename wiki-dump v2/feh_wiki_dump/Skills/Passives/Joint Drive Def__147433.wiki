@@ -1,0 +1,58 @@
+{{Passive
+|name=Joint Drive Def
+|type=C
+|exclusive=0
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|intID=2711
+|sort=3220
+|effectRange=2
+|value=8
+|timingID=20
+|abilityID=143
+|randomTimestamp=2021-09-17T07:00:00Z
+|randomMinLv=36
+|properties=random_inherit_base,random_owner
+|1name=Joint Drive Def
+|1tagid=SID_守備の相互大紋章
+|1effect=Grants Def+4 to allies within 2 spaces during combat. If unit is within 2 spaces of an ally, grants Def+4 to unit during combat.
+|1required=Drive Def 2
+|1cost=300
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary buffs|Def|4}}
+|Ce1T={{Tgt|Allies}}<br>[[within 2 spaces]]
+|Ce2={{Eft|Temporary buffs|Def|4}}
+|Ce2C={{Tgt|Unit}} is<br>[[within 2 spaces]]<br>of an {{Tgt|Ally}}
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{AlliesCombatEffect|effect=temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=守備の相互大紋章
+|german=Nachbar-Ver. ant.
+|spanishEU=Maximpulsar Def
+|spanishLA=Maximpulsar Def.
+|french=Entraide stim. Déf
+|italian=Tras. Dif gruppo
+|chineseTW=防守相互大紋章
+|portuguese=Def. omnimpulso
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%grants%Def%+%to allies within _ spaces%is within _ space%grants%Def%+%' OR Description LIKE '%is within _ space%grants%Def%+%grants%Def%+%to allies within _ spaces%') AND Exclusive='1' AND Name NOT LIKE '%allied%'}}
+* [[Skill families/Weapons#Allied|Allied Weapons]]
+* [[Drive Passives]]
+* [[Joint Drive Passives]]
+{{Passives Navbox|C}}
+[[Category:Drive Passives]]
+[[Category:Joint Drive Passives]]
+[[Category:Spur Passives]]

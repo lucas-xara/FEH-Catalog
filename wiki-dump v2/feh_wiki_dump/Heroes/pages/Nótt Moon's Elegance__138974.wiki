@@ -1,0 +1,85 @@
+{{#invoke:NameAbout|main|Name=Nótt}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Nótt
+|Title=Moon's Elegance
+|Origin=Fire Emblem Heroes
+|Gender=Female
+|WeaponType=Blue Lance
+|MoveType=Infantry
+|MythicEffect=Dark
+|MythicEffect2=Defensive Team Bonus
+|BoostHP=5
+|BoostDef=5
+|actorEN=Erika Harlacher
+|actorJP=水樹奈々
+|artist=コザキユースケ
+|additionDate=2021-03-04
+|releaseDate=June 8, 2021
+|cv1=0
+|cv2=500800
+|Person=Nótt
+|TagID=ノート
+|InternalID=666
+|EnemyInternalID=63
+|Properties=mythic
+|description=The crown princess of Jötunheimr and twin sister of Dagr. Appreciates the finer things in life, prizing beauty and elegance.
+}}
+==Ally stats==
+{{Stats Page|noheader=1
+|Lv1HP=18|Lv1ATK=11|Lv1SPD=10|Lv1DEF=6|Lv1RES=8
+|GRHP=50|GRATK=70|GRSPD=70|GRDEF=50|GRRES=45
+}}
+==Enemy stats==
+{{Stats Page/Enemy|noheader=1
+|Lv1HP=18|Lv1ATK=11|Lv1SPD=10|Lv1DEF=6|Lv1RES=8
+|GRHP=50|GRATK=70|GRSPD=70|GRDEF=50|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Lance
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Hrímfaxi
+|weapon4Default=5
+|weapon4Unlock=5
+|hasEnemy=1
+}}
+
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Dragon Fang
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Distant Counter
+|passiveA2=Distant Dart
+|passiveA1Unlock=5
+|passiveA2Unlock=5
+|passiveB1=Moon-Twin Wing
+|passiveB2=Moon-Twin Wing+
+|passiveB1Unlock=5
+|passiveB2Unlock=5
+|passiveC1=Threaten Spd 1
+|passiveC2=Threat. Atk/Spd 1
+|passiveC3=Threat. Atk/Spd 2
+|passiveC4=Atk/Spd Menace
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+{{Enemies Navbox}}

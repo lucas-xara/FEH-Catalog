@@ -1,0 +1,38 @@
+{{Weapon Infobox
+|tagid=SID_青のプレゼント箱
+|weaponType=Blue Tome
+|weaponName={{PAGENAME}}
+|might=8
+|range=2
+|effect=If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.
+|cost=200
+|statModifiers=0,8,0,0,0
+|exclusive=0
+|next=Blue Gift+
+|promotionRarity=5
+|promotionTier=1
+|required=Elthunder;Ellight
+|properties=
+}}
+==Notes==
+* Has the same effect as {{Pt|Dull Ranged 3}}.
+{{Bonus neutralization}}
+==List of owners==
+{{Skill Hero List}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=青のプレゼント箱
+|german=Blaues Präsent
+|spanishEU=Regalo azul
+|spanishLA=Regalo azul
+|french=Cadeau bleu
+|italian=Regalo blu
+|chineseTW=青之禮品箱
+|portuguese=Presente azul
+}}
+==See also==
+* [[Love Abounds Weapons]]
+* [[Skills that neutralize bonuses]]
+{{Weapons Navbox}}
+[[Category:Love Abounds weapons]]

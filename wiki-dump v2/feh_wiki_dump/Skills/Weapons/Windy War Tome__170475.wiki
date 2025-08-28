@@ -1,0 +1,51 @@
+{{Weapon Infobox
+|tagid=SID_戦神の風書
+|intID=3028
+|userVersion1=Closed
+|userVersion2=Open
+|exclusive=1
+|weaponType=Green Tome
+|cost=400
+|might=14
+|range=2
+|effect=Grants Res+3. If foe initiates combat or foe's HP ≥ 75% at start of combat, inflicts Atk/Res-6 on foe during combat, and also, if unit's Res > foe's Res, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 4 (max 40%), and also, if unit's Res ≥ foe's Res+5, foe cannot make a follow-up attack.
+|statModifiers=0,14,0,0,3
+|required=Rexcalibur
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Stat Boosts|Res|3}}
+|Ce1={{Eft|Temporary debuffs|Atk/Res|6}}
+|Ce1T={{Tgt|Foe}}
+|Ce1C=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|Ce2={{Eft|Damage Reduction|4 x ({{Tgt|Unit}}'s Res - {{Tgt|Foe)}}'s Res)<br>from attacks & Non-Røkkr [[AoE Specials]]|percent=1|max=40%}}
+|Ce2C={{Eft|Temporary debuffs|Atk/Res|6}}<br>conditions '''&'''<br>{{Tgt|Unit}}'s Res<br>> {{Tgt|Foe}}'s Res
+|Ce3={{Eft|Prevent Follow-Ups}}
+|Ce3T={{Tgt|Foe}}
+|Ce3C={{Eft|Temporary debuffs|Atk/Res|6}}<br>conditions '''&'''<br>{{Tgt|Unit}}'s Res ≥<br>{{Tgt|Foe}}'s Res+5
+}}
+
+==Notes==
+{{IfFoeInitiates}}
+{{Temporary debuffs}}
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+{{Prevent follow-up}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=戦神の風書
+|german=Wind-Kriegsbuch
+|spanishEU=Gr. bélico viento
+|spanishLA=Gr. bélico viento
+|french=Vent belliqueux
+|italian=Venti di guerra
+|chineseTW=戰神的風書
+|portuguese=Tomo ventoso
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%if unit\'s Res > foe\'s Res, reduces damage from attacks%' OR Description LIKE '%if unit\'s Res ≥ foe\'s Res%') AND Exclusive='1'}}
+{{Weapons Navbox}}

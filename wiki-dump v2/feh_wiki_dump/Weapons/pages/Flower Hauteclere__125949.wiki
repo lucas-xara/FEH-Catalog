@@ -1,0 +1,82 @@
+{{Weapon Infobox
+|tagid=SID_紅花オートクレール
+|weaponName=Flower Hauteclere
+|image=wep_ax072
+|weaponType=Axe
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of turn, if unit's HP ≥ 25%, unit can move 1 extra space (that turn only; does not stack) and grants the following status to unit for 1 turn: "Unit can move to a space adjacent to any ally within 2 spaces." At the start of combat, if unit's HP ≥ 25%, inflicts Atk/Def-6 on foe during combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Silver Axe
+|intID=2189
+|sort=438
+|value=20
+|timingID=29
+|abilityID=224
+|limit1ID=3
+|randomTimestamp=2020-09-18T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|tagidExtraSkill1=一
+|effectSkill1=If unit is within 3 spaces of an ally, grants bonus to unit's Atk/Def/Res during combat = X × 2, + 3 (X = number of spaces from start position to end position of whoever initiated combat; max 3), inflicts Atk/Def-6 on foe during combat, restores 7 HP to unit when unit deals damage to foe during combat (triggers even if 0 damage is dealt), and also, if X ≥ 1, inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)
+|iconSkill1=Flower Hauteclere W.png
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Accelerates Special}}
+|s1 Se1={{SEt|Mobility increased}}
+|s1 Se2={{SEt|Air Orders}}
+|s1 SeC={{Tgt|Unit}}'s HP ≥ 25%
+|s1 Ce={{Eft|Temporary Debuffs|Atk/Def|6}}
+|s1 CeT={{Tgt|Foe}}
+|s1 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|skill2={{Si|Flower Hauteclere|refine=Skill1}} Skill refine effects
+|s2 Ce1={{Eft|Temporary Buffs|Atk/Def/Res|max=9|(Spaces initiator moved) x 2, + 3}}
+|s2 Ce2={{Eft|Temporary Debuffs|Atk/Def|6}}
+|s2 Ce2T={{Tgt|Foe}}
+|s2 Ce3={{Eft|Heal|7}}<br>per {{Tgt|Unit}}'s attack
+|s2 Ce1-3C={{Tgt|Unit}} is<br>[[within 3 spaces]]<br>of an {{Tgt|Ally}}
+|s2 Ce4={{Eft|Guard}}
+|s2 Ce3-4T={{Tgt|Unit}}
+|s2 Ce4C=({{Tgt|Unit}} is<br>[[within 3 spaces]]<br>of an {{Tgt|Ally}})<br>'''&''' Spaces initiator<br>moved ≥ 1
+}}
+
+==Notes==
+{{Mobility increased}}
+{{Air Orders}}
+{{Temporary debuffs}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary buffs|name={{St|Flower Hauteclere|refine=skill1}}}}
+{{SpacesFromStarttoEnd|name={{St|Flower Hauteclere|refine=skill1}}}}
+{{CombatHPRecovery|name={{St|Flower Hauteclere|refine=skill1}}}}
+{{CooldownChargeMinus}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Flower Hauteclere
+|japanese=紅花オートクレール
+|german=Blumen-H.claire
+|spanishEU=Hauteclaire floral
+|spanishLA=Hauteclaire floral
+|french=Fleur Hauteclaire
+|italian=Hauteclaire fiore
+|chineseTW=紅花奧托克雷爾
+|portuguese=Hauteclaire floral
+}}
+==See also==
+{{See also skills|cond=WikiName LIKE '%hauteclere%' OR (Description LIKE '%start of%turn%unit can move 1 extra space%' AND Description NOT LIKE '%transforms%' AND Description NOT LIKE '%stall%' OR Description LIKE '%start of turn%grants%unit%"Unit can move to a space adjacent to any ally within 2 spaces%' AND Description NOT LIKE '%start of turn%grants%unit%and allies%' OR (Description LIKE '%=%number of spaces from start position to end position%' OR Description LIKE '%=%number of spaces moved%') AND Description NOT LIKE '%transforms%if X ≥ 5%') AND Exclusive='1'}}
+* [[Skill families/C Passives#Tempest|Tempest Passives]]
+* [[Skill families/C Passives#Oath|Oath Passives]]
+* [[Skill families/A Passives#Clash|Clash Passives]]
+{{Weapons Navbox}}

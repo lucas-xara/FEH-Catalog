@@ -1,0 +1,43 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_グルンアウル＋
+|weaponType=Green Tome
+|weaponName={{PAGENAME}}
+|altWeaponName=Gronnowl Plus
+|might=10
+|range=2
+|effect=During combat, boosts unit's Atk/Spd/Def/Res by number of adjacent allies × 2.
+|cost=300
+|exclusive=0
+|userVersion1=Closed|userVersion2=Open|statModifiers=0,10,0,0,0
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|upgradedMight=11
+|SE=se_effect_bird02.flac
+|properties=random_all
+}}
+==Notes==
+{{Combat boosts}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{TomeColorTrivia|gronn}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=グルンアウル＋
+|german=Gronneule+
+|spanishEU=Búho glauco +
+|spanishLA=Búho jade +
+|french=Ailes émeraude +
+|italian=Viridegufo+
+|chineseTW=翠綠夜梟＋
+|portuguese=Coruja jade+
+}}
+==See also==
+* [[Owl Weapons]]
+{{Weapons Navbox}}
+[[Category:Owl weapons]]

@@ -1,0 +1,50 @@
+{{Passive
+|type=A
+|name=Nightmare
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Nightmare
+|1tagid=SID_漆黒の悪夢
+|1cost=300
+|1effect=If foe initiates combat or foe's HP ≥ 75% at start of combat, inflicts Atk/Def-10 on foe during combat and reduces damage from foe's first attack during combat by 30%. If foe initiates combat, after combat, the closest foes within 4 spaces of target who have yet to act have their actions end immediately.
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|End Action}}
+|MeT=Closest {{Tgt|Foes}}<br>[[within 4 spaces]]<br>of {{Tgt|Target Foe}}
+|MeC=After combat in<br>Enemy Phase
+|Ce1={{Eft|Temporary debuffs|Atk/Def|10}}
+|Ce1T={{Tgt|Foe}}
+|Ce2={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s first attack
+|CeC=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+}}
+
+==Notes==
+{{IfFoeInitiates}}
+{{Temporary debuffs}}
+{{DamagePercentageReduction}}
+{{After combat note}}
+{{EndAction}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=漆黒の悪夢
+|german=Alptraum
+|spanishEU=Pesadilla
+|spanishLA=Pesadilla
+|french=Cauchemar
+|italian=Incubo
+|chineseTW=漆黑的惡夢
+|portuguese=Pesadelo
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%action%end%immediately%' AND Description NOT LIKE '%prevents%"%action%end%immediately%' AND Description NOT LIKE '%neutralize%%"%action%end%immediately%'}}
+{{Passives Navbox|A}}

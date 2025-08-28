@@ -1,0 +1,60 @@
+{{Weapon Infobox
+|tagid=SID_神軍師の書
+|intID=3496
+|userVersion1=Closed
+|userVersion2=Open
+|exclusive=1
+|weaponType=Green Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of turn, if unit's HP ≥ 25%, grants 【Grand Strategy】to unit and allies within 2 spaces for 1 turn, inflicts Atk/Spd/Def/Res-4 on unit through its next action, and inflicts -6 on the highest and second highest stat values between Atk, Spd, Def, and Res for each ally within 2 spaces through their next actions (subtract 15 from Atk when comparing). At start of turn, if unit's HP ≥ 25%, inflicts Atk/Spd/Def/Res-3 on closest foes and foes within 3 spaces of those foes through their next actions. At start of combat, if unit's HP ≥ 25%, inflicts Atk/Spd/Res-5 on foe during combat and foe cannot make a follow-up attack.<br><br>【Grand Strategy】<br>Grants bonus to Atk/Spd/Def/Res during combat = current penalty on each of unit's stats × 2 for 1 turn. (Example: if unit has -7 penalty to Atk, grants Atk+14, for a net bonus of Atk+7.) Calculates each stat bonus independently.<br><br>Unit's negative effects that last "through unit's next action" will remain in effect until this status (Grand Strategy) is neutralized.
+|statModifiers=0,14,0,0,0
+|required=Rexcalibur
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Se1={{SEt|Grand Strategy}}
+|Se1T={{Tgt|Unit}} '''&'''<br>{{Tgt|Allies}}<br>[[within 2 spaces]]
+|Se2={{Eft|Penalties|Atk/Spd/Def/Res|4}}
+|Se3={{Eft|Penalties|Atk|6}}*, {{Eft|Penalties|Spd|6}},<br>{{Eft|Penalties|Def|6}} '''or''' {{Eft|Penalties|Res|6}}
+|Se3T={{Tgt|Allies}}<br>[[within 2 spaces]]<br>on the highest<br>'''&''' 2nd highest<br>on each stat
+|Se4={{Eft|Penalties|Atk/Spd/Def/Res|3}}
+|Se4T=Closest {{Tgt|Foes}}<br>'''&''' {{Tgt|Foes}}<br>[[within 3 spaces]]<br>of those {{Tgt|Foes}}
+|SeC=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25%
+|Ce1={{Eft|Temporary debuffs|Atk/Spd/Res|5}}
+|Ce2={{Eft|Prevent Follow-Ups}}
+|CeT={{Tgt|Foe}}
+|CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+<b>{{Hatnote|* -15 Atk when comparing stats on {{Tgt|Ally}}.}}</b>
+==Notes==
+{{Grand Strategy}}
+{{Penalties}}
+{{Temporary debuffs}}
+{{Prevent follow-up}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V7.2_v0702c_legend_Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=神軍師の書
+|german=Meistertaktik
+|spanishEU=Genio maestro
+|spanishLA=Genio maestro
+|french=Tactique de maître
+|italian=Tattiche maestre
+|chineseTW=神軍師之書
+|portuguese=Táticas magistrais
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%【Grand Strategy】%' AND Description NOT LIKE '%【Ploy】%' OR (((Description LIKE '%inflicts%/%-%est foes%and foes within _ spaces%' OR Description LIKE '%at start of turn%, inflicts%est foes%and foes within _ spaces of those foes%')) AND Exclusive='1'}}
+{{Weapons Navbox}}

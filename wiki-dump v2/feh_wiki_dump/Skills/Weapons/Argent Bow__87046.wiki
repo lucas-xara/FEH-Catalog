@@ -1,0 +1,49 @@
+{{Weapon Infobox
+|tagid=SID_銀の宝弓
+|weaponType=Bow
+|might=8
+|range=2
+|effectiveness=flying
+|effect=Effective against flying foes. Inflicts Spd-2. If unit initiates combat, unit attacks twice.
+|cost=400
+|exclusive=1
+|userVersion1=Bow
+|userVersion2=Arrow
+|userVersion3=Gleam
+|statModifiers=0,8,-2,0,0
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=At start of turn, inflicts Def-7 on foe on the enemy team with the highest Def through its next action.
+|iconSkill1=Chill Def W.png
+|tagidExtraSkill1=封
+|required=-
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{IfUnitInitiates}}
+{{Brave weapon interaction}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+* The refined version listed first has the same effect as {{St|Chill Def 3}}.
+{{Penalties}}
+{{SelectStat|Def}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=銀の宝弓
+|german=Argentumbogen
+|spanishEU=Arco argénteo
+|spanishLA=Arco argento
+|french=Arc précieux
+|italian=Arco argentato
+|chineseTW=銀之寶弓
+|portuguese=Arco argênteo
+}}
+==See also==
+* [[Brave Weapons]]
+{{Weapons Navbox}}

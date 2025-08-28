@@ -1,0 +1,72 @@
+{{#invoke:NameAbout|main|Name=Rhea|Name2=Seiros}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Rhea
+|Title=Immaculate One
+|WeaponType=Colorless Breath
+|MoveType=Armored
+|Origin=Fire Emblem: Three Houses
+|Gender=Female
+|actorEN=Cherami Leigh
+|actorJP=井上喜久子
+|artist=teffish
+|additionDate=May 9, 2022
+|releaseDate=May 10, 2022
+|poolDate=June 8, 2022
+|poolRarities=5
+|cv1=12
+|cv2=100500
+|TagID=暴走レア
+|InternalID=799
+|Properties=fallen,notRandomized,specRate_202502
+|description=Child of the progenitor god Sothis. Unable to control the power coursing through her, she takes on a draconic form. Appears in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=20|Lv1ATK=13|Lv1SPD=5|Lv1DEF=10|Lv1RES=10
+|GRHP=60|GRATK=70|GRSPD=30|GRDEF=70|GRRES=75
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire Breath
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Fire Breath+
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Flametongue
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Ruinous Frost
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Glimmer
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Warding Stance 1
+|passiveA2=Bracing Stance 1
+|passiveA3=Bracing Stance 2
+|passiveA4=Bracing Stance 3
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=True Dragon Wall
+|passiveB1Unlock=5
+|passiveC1=D/R Near Save 1
+|passiveC2=D/R Near Save 2
+|passiveC3=D/R Near Save 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

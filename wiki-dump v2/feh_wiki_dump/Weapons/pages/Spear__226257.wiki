@@ -1,0 +1,70 @@
+{{Weapon Infobox
+|tagid=SID_スレンドスピア
+|intID=4455
+|image=wep_lc185
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=16
+|range=1
+|effect=Grants Atk+3. Unit can counterattack regardless of foe's range.<br><br>At start of turn, if unit's HP ≥ 25%, grants the following effects to unit and allies within 2 spaces of unit for 1 turn: Atk/Def+6, "neutralizes 'effective against flying' bonuses," and "neutralizes foe's bonuses during combat."<br><br>At start of combat, if unit's HP ≥ 25%, grants bonus to unit's Atk/Spd/Def/Res = number of foes within 3 rows or 3 columns centered on unit × 3, + 5 (max 14), deals damage = 10% of unit's Atk (excluding area-of-effect Specials), and reduces damage from foe's attacks by 10% of unit's Atk during combat (excluding area-of-effect Specials).
+|statModifiers=0,19,0,0,0
+|required=Silver Lance
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Stat Boosts|Atk|3}}
+|Se1={{Eft|Bonuses|Atk/Def|6}}
+|Se2=<span style="width:12em;display:inline-block"/>{{SEt|Neutralize Effective Against Flying}}
+|Se3={{SEt|Neutralize Bonuses}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25%
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|3 x {{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}, + 5|max=14}}
+|Ce2={{Eft|Damage Boost|10% of {{Tgt|Unit}}'s Atk}}
+|Ce3={{Eft|Damage Reduction|10% of {{Tgt|Unit}}'s Atk}}<br>from {{Tgt|Foe}}'s attacks
+|CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+* Spear has the same effect as {{St|Distant Counter}}.
+{{Bonuses}}
+{{Neutralize Effective Against Flying}}
+{{Neutralize Bonuses}}
+{{Temporary buffs}}
+{{AtkDamageBoost}}
+{{FlatDamageReduction}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Vaida: Dracofang General|t=Eliwood: Knight of Lycia
+|---xxx---
+|---xxx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xtx---
+|---xxx---
+}}
+|}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%"neutralizes _effective against flying_ bonuses%"%' OR Description LIKE '%reduces damage from foe_s attacks by ___ of unit_s Atk%') AND Exclusive='1'}}
+* [[Weapons with Distant Counter]]
+* [[Weapons with Close Counter]]
+{{Weapons Navbox}}

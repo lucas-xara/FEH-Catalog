@@ -1,0 +1,84 @@
+{{Weapon Infobox
+|tagid=SID_春の夜の夢の角
+|intID=4616
+|noImg=1
+|exclusive=1
+|weaponType=Beast
+|canUseMove=Cavalry
+|cost=400
+|might=14
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>For foes within 3 rows or 3 columns centered on unit, inflicts Atk/Spd/Def/Res-5 and Special cooldown charge -1 on those foes per attack during combat (only highest value applied; does not stack), and also, if those foes have bonuses, inflicts a penalty on those foes' Atk/Spd/Def/Res and grants a bonus to foes' combat targets' Atk/Spd/Def/Res during combat = current bonus on each of that foe's stats (calculates each stat bonus and penalty independently).<br><br>At start of combat, if unit's HP ≥ 25%, grants bonus to unit's Atk/Spd/Def/Res = number of foes within 3 rows or 3 columns centered on unit × 3 (max 9), deals damage = 20% of unit's Spd (excluding area-of-effect Specials), and reduces damage from foe's first attack by 20% of unit's Spd during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and restores 7 HP to unit after combat.<br><br>At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and also, inflicts Atk/Def-X on foe during combat (X = number of spaces from start position to end position of whoever initiated combat + 3; max 6), and also, if X ≥ 5, reduces damage from foe's first attack by 30% during combat.
+|required=Adult (Cavalry)
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe1={{Eft|Accelerates Special}}
+|Pe2={{Eft|Stat Boosts|Atk|2}}
+|PeC2={{Tgt|Unit}} is transformed
+|Me1={{Eft|Transform}}
+|Me1C=At start of turn if<br>{{Tgt|Unit}} is [[adjacent]] to only<br>{{Cwti|group=1|Dragon,Beast}} [[Dragon]]/[[Beast]]<br>{{Tgt|Allies}} '''or''' not [[adjacent]]<br>to any {{Tgt|Ally}}
+|Me2={{Eft|Heal|7}}
+|Me2C=After combat if<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce1={{Eft|Temporary debuffs|Atk/Spd/Def/Res|5}}
+|Ce2={{Eft|Temporary debuffs|Atk/Spd/Def/Res|{{SEt|Bonuses}} on each<br>of {{Tgt|Target Foe}}'s stats}}
+|Ce3={{Eft|Guard}}
+|Ce1-3T={{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|Ce4={{Eft|Temporary buffs|Atk/Spd/Def/Res|{{SEt|Bonuses}} on each<br>of {{Tgt|Target Foe}}'s stats}}
+|Ce4T={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>against {{Tgt|Foes}} in<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|Ce5={{Eft|Temporary buffs|Atk/Spd/Def/Res|3 x {{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}|max=9}}
+|Ce6={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|Ce7={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Spd}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce5-7C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce8={{Eft|Temporary debuffs|Atk/Def|Spaces initiator moved + 3|max=6}}
+|Ce8T={{Tgt|Foe}}
+|Ce8C={{Tgt|Unit}} is transformed
+|Ce9={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s first attack
+|Ce9T={{Tgt|Unit}}
+|Ce9C={{Tgt|Unit}} is transformed '''&'''<br>Spaces initiator moved ≥ 2
+}}
+
+==Notes==
+{{TemporaryDebufffromBonus|source=the foe}}
+{{CooldownChargeMinus}}
+{{FoesCombatEffect|temporary debuffs and special cooldown charge -1}}
+{{TemporaryBufffromBonus|source=the foe}}
+{{AlliesCombatEffect|temporary buffs}}
+{{DamageBoost}}
+{{FlatDamageReduction}}
+{{Beast (Cavalry)}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Eitr: Spring Sunrise|t=Ginnungagap: Ruler of Nihility
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%current bonus on each of foe_s stats%' OR Description LIKE '%current bonus on foe_s%') AND Description NOT LIKE '%stats × 2%' AND NAME NOT LIKE '%defier%' AND Exclusive='1'}}
+* [[Skill families/Weapons#Defier's|Defier's Weapons]]
+{{Weapons Navbox}}

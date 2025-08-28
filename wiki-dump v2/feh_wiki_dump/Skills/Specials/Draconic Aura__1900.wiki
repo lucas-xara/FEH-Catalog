@@ -1,0 +1,31 @@
+{{Special
+|tagid=SID_竜裂
+|name=Draconic Aura
+|charge=3
+|effect=Boosts damage by 30% of unit's Atk.
+|cost=200
+|required=Dragon Gaze
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_all,offensive_special
+}}
+==Notes==
+{{AtkDamageBoost}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==In other languages==
+{{OtherLanguages
+|japanese=竜裂
+|german=Drachenaura
+|spanishEU=Aura dragón
+|spanishLA=Aura dragón
+|french=Aura draconique
+|italian=Aura di drago
+|chineseTW=龍裂
+|portuguese=Aura dracônica
+}}
+==See also==
+{{See also skills|cond=Description LIKE 'Deals damage = __% of unit_s Atk%' OR Description LIKE '%boosts damage%by __% of unit_s Atk%'}}
+{{Specials Navbox}}

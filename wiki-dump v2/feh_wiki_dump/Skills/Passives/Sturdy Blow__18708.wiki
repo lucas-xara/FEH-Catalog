@@ -1,0 +1,61 @@
+{{Passive
+|type=A
+|exclusive=0
+|1name=Sturdy Blow 1
+|1tagid=SID_鬼神金剛の一撃1
+|1promotionRarity=5
+|1promotionTier=1
+|1effect=If unit initiates combat, grants Atk/Def+2 during combat.
+|1cost=120
+|1required=Armored Blow 1;Death Blow 1
+|2name=Sturdy Blow 2
+|2tagid=SID_鬼神金剛の一撃2
+|2effect=If unit initiates combat, grants Atk/Def+4 during combat.
+|2cost=240
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|all}}
+|properties=random_all
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Sturdy Blow 2}} Sturdy Blow 2
+|skill1 CombatEffect={{SkillEffectText|Temporary buffs|Atk/Def|4}}
+|skill1 CombatEffect Conditions=Player Phase
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Sturdy Blow 1;Sturdy Blow 2
+|badgeColor=Verdant
+|costs1=20;100;20
+|costs2=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=鬼神金剛の一撃
+|german=Krafthieb
+|spanishEU=Golpe duro
+|spanishLA=Golpe duro
+|french=Coup robuste
+|italian=Colpo ferreo
+|chineseTW=鬼神金剛擊
+|portuguese=Golpe robusto
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit initiates combat, grants Atk/Def+%' AND Exclusive='1' AND Name NOT LIKE '%instant%'}}
+* [[Skill families/Weapons#Instant|Instant Weapons]]
+* [[Blow Passives]]
+{{Seals Navbox}}
+{{Passives Navbox|A}}
+[[Category:Blow Passives]]

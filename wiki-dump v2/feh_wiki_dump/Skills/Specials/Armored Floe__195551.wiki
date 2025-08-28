@@ -1,0 +1,43 @@
+{{Special
+|tagid=SID_重装の聖氷
+|intID=3613
+|exclusive=0
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|Armored}}
+|cost=500
+|cooldown=3
+|effect=Boosts Special damage by 40% of unit's Res. If foe's Range = 2 and unit or foe's Special is ready or triggered before or during this combat, reduces damage from foe's next attack by 40% (once per combat; excluding area-of-effect Specials).
+|required=Iceberg
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{Eft|Damage Boost|40% of {{Tgt|Unit}}'s Res}}
+|CombatEffect 1 Conditions=Special triggers
+|CombatEffect 2={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s next attack
+|CombatEffect Targets={{Tgt|Unit}}
+|CombatEffect 2 Conditions={{Tgt|Foe}}'s Range = 2 '''&'''<br>({{Tgt|Unit}} or {{Tgt|Foe}}'s<br>special is ready '''or'''<br>triggered before or<br>during combat)
+}}
+==Notes==
+{{DamageBoost}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=重装の聖氷
+|german=Gerüsteter Frost
+|spanishEU=Hielo blindado
+|spanishLA=Hielo blindado
+|french=Glace blindée
+|italian=Gelo corazzato
+|chineseTW=重裝之聖冰
+|portuguese=Gelo blindado
+}}
+==See also==
+{{See also skills|cond=SCategory='special' AND Exclusive='1' AND (Description LIKE '%of unit_s Res%' OR Description LIKE '%reduces damage from foe_s next attack%') OR (Description LIKE '%special is ready%' OR Description LIKE '%special%triggered before or during%') AND Exclusive='1' OR (SCategory='special' AND Name LIKE 'Armored%')}}
+{{Specials Navbox}}

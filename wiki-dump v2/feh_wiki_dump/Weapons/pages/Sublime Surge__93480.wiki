@@ -1,0 +1,51 @@
+{{Weapon Infobox
+|tagid=SID_天帝の波動
+|weaponType=Dragonstone
+|might=16
+|range=1
+|effect=Neutralizes "effective against dragons" bonuses. Unit can counterattack regardless of foe's range. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Flametongue
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|tagidExtraSkill1=一
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit during combat and reduces damage from foe's first attack by 40%.
+|iconSkill1=Sublime Surge W.png
+|properties=random_owner
+}}
+==Notes==
+{{Effectiveness neutralization|dragon}}
+* Has the same effect as {{St|Distant Counter}}.
+{{LowerDefRes}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary buffs|name={{St|Sublime Surge|refine=skill1}}}}
+{{DamagePercentageReduction|name={{St|Sublime Surge|refine=skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V3.7_882_legend19_Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=天帝の波動
+|german=Allmächtige Flut
+|spanishEU=Purga sublime
+|spanishLA=Purga sublime
+|french=Vague sublime
+|italian=Onda sublime
+|chineseTW=天帝之波動
+|portuguese=Cerco sublime
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%eutralizes "effective against dragon%'}}
+* [[Expiration]]
+* [[Weapons with Distant Counter]]
+* [[Weapons with Close Counter]]
+{{Weapons Navbox}}

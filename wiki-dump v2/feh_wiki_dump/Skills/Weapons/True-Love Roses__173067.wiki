@@ -1,0 +1,39 @@
+{{Weapon Infobox
+|tagid=SID_一途な想いの薔薇
+|intID=3079
+|image=wep_mg171
+|exclusive=1
+|weaponType=Blue Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of turn 1, grants Special cooldown count-1 to unit. If unit initiates combat or is within 2 spaces of an ally, grants Atk/Res+6 to unit during combat, and deals damage = 10% of unit's Res.
+|statModifiers=0,14,0,0,0
+|required=Thoron;Shine
+|properties=
+}}
+==Notes==
+* Has the same effect as {{St|Quickened Pulse}}.
+{{Start of turn Special modification}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{DamageBoost}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=一途な想いの薔薇
+|german=Rosen der Liebe
+|spanishEU=Rosas de amor
+|spanishLA=Rosas de amor
+|french=Roses d'âme sœur
+|italian=Rose d'amore
+|chineseTW=專情的薔薇
+|portuguese=Rosas amorosas
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%Accelerates Special trigger%start of turn%grants Atk/Res+6%during combat%' OR Description LIKE '%start of turn 1, grants Special cooldown count-1%' AND Description NOT LIKE '%-1 to ally%' AND Exclusive='1' OR Description LIKE '%deals damage =%of unit_s Res%'}}
+{{Weapons Navbox}}

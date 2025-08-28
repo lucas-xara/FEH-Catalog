@@ -1,0 +1,34 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_火薙ぎの槍＋
+|weaponType=Lance
+|weaponName=Firesweep L+
+|required=Firesweep Lance
+|might=15
+|range=1
+|effect=Unit and foe cannot counterattack.
+|cost=300
+|exclusive=0
+|statModifiers=0,15,0,0,0
+|properties=random_owner
+}}
+==Notes==
+{{Firesweep interaction}}
+==List of owners==
+{{Skill Hero List}}
+
+==Trivia==
+* The name <code>Firesweep Lance+</code> is too long, so in-game it's shortened to <code>Firesweep L+</code>.
+==In other languages==
+{{OtherLanguages
+|japanese=火薙ぎの槍＋
+|german=Feuerfegerlan. +
+|spanishEU=Lanza Vulcano +
+|spanishLA=Lanza Vulcano +
+|french=L. enflammée +
+|italian=Lanciafuoco+
+|chineseTW=火薙之槍＋
+|portuguese=Lança vulcão+
+}}
+==See also==
+* [[Skill families#Firesweep|Firesweep weapons]]
+{{Weapons Navbox}}

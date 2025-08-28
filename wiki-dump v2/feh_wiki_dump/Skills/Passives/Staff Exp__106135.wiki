@@ -1,0 +1,46 @@
+{{SkillPage Tabs}}{{Passive
+|type=C
+|exclusive=0
+|1name=Staff Exp. 1
+|1tagid=SID_杖の経験1
+|1promotionRarity=4
+|1promotionTier=1
+|1required=-
+|1effect=While unit lives and uses a staff, unit gets 1.5x EXP. (Only highest value applied. Does not stack.)
+|1cost=30
+|2name=Staff Exp. 2
+|2tagid=SID_杖の経験2
+|2promotionRarity=5
+|2promotionTier=1
+|2effect=While unit lives, all staff allies on team get 1.5x EXP. (Only highest value applied. Does not stack.)
+|2cost=60
+|3name=Staff Exp. 3
+|3tagid=SID_杖の経験3
+|3effect=While unit lives, all staff allies on team get 2x EXP. (Only highest value applied. Does not stack.)
+|3cost=120
+|canUseWeapon={{WeaponList|Staff}}
+|canUseMove={{MoveList|all}}
+|properties=
+}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=杖の経験
+|german=Staberf.
+|spanishEU=Exp con bastón
+|spanishLA=Exp. con bastón
+|french=Exp. bâton
+|italian=Esp bastone
+|chineseTW=杖之經驗
+|portuguese=Bastão exp.
+}}
+==See also==
+* [[Experience Passives]]
+* [[Valor Passives]]
+{{Passives Navbox|C}}
+[[Category:Experience Passives]]

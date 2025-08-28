@@ -1,0 +1,41 @@
+{{Special
+|tagid=SID_凶弾
+|intID=2756
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=3
+|effect=At the start of turn 1, grants Special cooldown count-3 to unit. Treats foe's Def/Res as if reduced by 50% when Special triggers.
+|required=Luna
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Reduce Cooldown|3}}
+|MeC=At start of turn 1
+|Ce=Treats {{Tgt|foe}}'s Def/Res<br>as if reduced by 50%
+|CeT={{Tgt|Foe}}
+|CeC=Special triggers
+}}
+==Notes==
+* Brutal Shell has the same effect as {{St|Luna}}.
+{{Start of turn Special modification}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=凶弾
+|german=Brutales Projektil
+|spanishEU=Proyectil cruel
+|spanishLA=Proyectil cruel
+|french=Projectile brutal
+|italian=Capsula spietata
+|chineseTW=凶彈
+|portuguese=Projétil brutal
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=SCategory='special' AND (Description LIKE '%turn 1, grants Special cooldown count-%' OR Description LIKE '%foe\'s Def/Res as if reduced by%')}}
+{{Specials Navbox}}

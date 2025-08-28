@@ -1,0 +1,32 @@
+{{Captain Skill
+|name=Storm of Blows
+|effect=Neutralizes bonuses of captain's foes during combat. Captain and allies within 2 spaces of captain make guaranteed follow-up attacks.
+|statModifiers=
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{Eft|Neutralize Bonuses}}
+|CombatEffect 1 Targets={{Tgt|Foe}}
+|CombatEffect 2={{Eft|Guaranteed Follow-Ups}}
+|CombatEffect 2 Targets={{Tgt|Captain}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+}}
+
+==Notes==
+{{Bonus neutralization}}
+{{Guaranteed follow-up interaction}}
+{{AlliesCombatEffect|effect=guaranteed follow-up attack}}
+==In other languages==
+{{OtherLanguages
+|japanese=雷轟電撃
+|german=Schlagwirbel
+|spanishEU=Aluvión de golpes
+|spanishLA=Ráfaga de golpes
+|french=Rafale de coups
+|italian=Sfuriata
+|chineseTW=雷轟電擊
+|portuguese=Chuva de golpes
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%neutralizes%bonuses%fortify, rally%during combat%' AND (Description NOT LIKE '%bonuses%foe_s%during combat%' OR Description NOT LIKE '%foe_s%bonuses%to%during combat%')) AND (Exclusive=1 AND Name NOT LIKE '%+')}}
+{{Captain Skills Navbox}}

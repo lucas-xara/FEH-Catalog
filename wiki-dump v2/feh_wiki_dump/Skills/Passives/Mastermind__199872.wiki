@@ -1,0 +1,39 @@
+{{Passive
+|name=Mastermind
+|type=A
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Mastermind
+|1tagid=SID_天才
+|1effect=At start of turn, deals 1 damage to unit. If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd+9 to unit during combat and deals damage = X + Y (X = 80% of highest total bonuses among unit and allies within 2 spaces of unit; Y = 80% of highest total penalties among target and foes within 2 spaces of target; excluding area-of-effect Specials).
+|1cost=300
+|1required=-
+}}
+==Notes==
+{{DamageToUnit}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{DamageBoost}}
+{{EffectfromBonuses|target=unit and allies within 2 spaces of unit|multiTarget=1|damage boosting effect}}
+{{EffectfromPenalties|target=target and foes within 2 spaces of target|multiTarget=1|damage boosting effect}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=天才
+|german=Genie
+|spanishEU=Luminaria
+|spanishLA=Luminaria
+|french=Génie
+|italian=Genio
+|chineseTW=天才
+|portuguese=Idealizadora
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%at start of turn%deals 1 damage to unit%' OR Description LIKE '%highest total bonuses among unit and allies within _ spaces%' OR Description LIKE '%highest total penalties among target and foes within _ spaces of target%'}}
+{{Passives Navbox|A}}

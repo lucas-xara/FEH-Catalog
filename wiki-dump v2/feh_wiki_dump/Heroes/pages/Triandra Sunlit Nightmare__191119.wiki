@@ -1,0 +1,71 @@
+{{#invoke:NameAbout|main|Name=Triandra}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Triandra
+|Title=Sunlit Nightmare
+|WeaponType=Colorless Tome
+|MoveType=Flying
+|Origin=Fire Emblem Heroes
+|Gender=Female
+|actorEN=Lexi Klein
+|actorJP=井口裕香
+|artist=切符
+|additionDate=March 6, 2023
+|releaseDate=March 7, 2023
+|cv1=0
+|cv2=400400
+|TagID=春祭スカビオサ
+|InternalID=924
+|Properties=special,refresher,hat
+|description=One of the dökkálfar of Dökkálfheimr. What will the spring festival hold in store for this girl who once lost all hope?
+}}
+{{Stats Page
+|Lv1HP=15|Lv1ATK=13|Lv1SPD=7|Lv1DEF=3|Lv1RES=3
+|GRHP=50|GRATK=70|GRSPD=90|GRDEF=35|GRRES=35
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Stone
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elstone
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Atlas (weapon)
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Nightmare's Egg
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Dance
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Frightful Dream
+|assist2Unlock=5
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveB1=Blaze Dance 1
+|passiveB2=Firestorm Dance 1
+|passiveB3=Firestorm Dance 2
+|passiveB4=Firestorm Dance 3
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Def/Res Rein 1
+|passiveC2=Def/Res Rein 2
+|passiveC3=Def/Res Rein 3
+|passiveC4=Def/Res Hold
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Spring Festival units]]

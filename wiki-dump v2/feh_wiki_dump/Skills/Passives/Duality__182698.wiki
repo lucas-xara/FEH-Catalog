@@ -1,0 +1,47 @@
+{{Passive
+|type=A
+|name=Duality
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Duality
+|1tagid=SID_陰陽の法則
+|1cost=300
+|1effect=Grants Atk/Res+9. Grants weapon-triangle advantage against and inflicts weapon-triangle disadvantage on red, blue, and green foes during combat. Neutralizes effects that boost values along with weapon-triangle advantage or reduce values along with weapon-triangle disadvantage (Triangle Adept) on unit and foe. At start of combat, if unit's HP ≥ 25%, unit makes a guaranteed follow-up attack during combat.
+|statModifiers1=0,9,0,0,9
+|1required=-
+}}
+==Notes==
+{{New WTA|Red,Blue,Green}}
+{{Reverse WTA}}
+{{Guaranteed follow-up interaction}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Trivia==
+* {{St|Duality}} grants [[weapon-triangle]] advantage against {{#cargo_query:tables=Units
+|fields=COUNT(DISTINCT _pageName)
+|where=WeaponType NOT RLIKE 'Colorless'|default=|order by=AdditionDate}}/{{#cargo_query:tables=Units
+|fields=COUNT(DISTINCT _pageName)
+|default=|order by=AdditionDate}} units.
+
+==In other languages==
+{{OtherLanguages
+|japanese=陰陽の法則
+|german=Dualität
+|spanishEU=Dualidad
+|spanishLA=Dualidad
+|french=Dualité
+|italian=Dualismo
+|chineseTW=陰陽法則
+|portuguese=Dualidade
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%weapon_triangle advantage against%weapon_triangle disadvantage on%' AND Exclusive='1' OR Description LIKE '%neutralizes%triangle advantage%'}}
+* [[Raven Tomes]]
+{{Passives Navbox|A}}

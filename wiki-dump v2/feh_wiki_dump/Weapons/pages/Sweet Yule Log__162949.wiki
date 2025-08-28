@@ -1,0 +1,37 @@
+{{Weapon Infobox
+|tagid=SID_幸運ぶ冬の聖菓
+|intID=2879
+|image=wep_mg310
+|exclusive=1
+|weaponType=Colorless Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+6 to unit during combat, and also, if unit initiates combat, the following effects will occur based on the value of unit's Spd minus foe's Spd: if ≤ 9, unit can make a follow-up attack before foe can counterattack; if ≥ 10, unit attacks twice.
+|statModifiers=0,14,0,0,0
+|required=Atlas (weapon)
+|properties=
+}}
+==Notes==
+{{Temporary buffs}}
+{{UnitStatMinusFoeStat|stat=Spd}}
+{{Follow-up before counterattack}}
+{{Brave weapon interaction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=幸運ぶ冬の聖菓
+|german=Festtagskuchen
+|spanishEU=Tronco invernal
+|spanishLA=Tronco invernal (formerly "Ensueño Navidad")
+|french=Bûche sucrée
+|italian=Tronchetto
+|chineseTW=帶來幸福的冬天聖菓
+|portuguese=Tronco de Yule
+}}
+
+==See also==
+{{See also skills|cond=Description LIKE '%if unit_s HP ≥%make a follow-up attack before%' OR (Description LIKE '%attacks twice%' AND CanUseWeapon__full LIKE '%Tome')}}
+{{Weapons Navbox}}

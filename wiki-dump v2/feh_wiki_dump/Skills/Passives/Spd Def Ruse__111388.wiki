@@ -1,0 +1,85 @@
+{{Passive
+|name=Spd/Def Ruse
+|type=B
+|exclusive=0
+|canUseMove={{MoveList|Infantry,Cavalry}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|1name=Spd/Def Ruse 1
+|1tagid=SID_速さ守備の大共謀1
+|alt1name=Spd Def Ruse 1
+|1effect=If a Rally Assist skill is used by unit or targets unit, inflicts Spd/Def-1 and【Guard】on foes in cardinal directions of unit and target through their next actions.<br><br>【Guard】<br>Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)
+|1required=-
+|1cost=60
+|1promotionRarity=4
+|1promotionTier=1
+|2name=Spd/Def Ruse 2
+|2tagid=SID_速さ守備の大共謀2
+|alt2name=Spd Def Ruse 2
+|2effect=If a Rally Assist skill is used by unit or targets unit, inflicts Spd/Def-3 and【Guard】on foes in cardinal directions of unit and target through their next actions.<br><br>【Guard】<br>Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)
+|2cost=120
+|2promotionRarity=5
+|2promotionTier=1
+|3name=Spd/Def Ruse 3
+|3tagid=SID_速さ守備の大共謀3
+|alt3name=Spd Def Ruse 3
+|3effect=If a Rally Assist skill is used by unit or targets unit, inflicts Spd/Def-5 and【Guard】on foes in cardinal directions of unit and target through their next actions.<br><br>【Guard】<br>Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)
+|3cost=240
+|3next=-
+|4name=Spd/Def Ruse 4
+|alt4name=Spd Def Ruse 4
+|4tagid=SID_速さ守備の大共謀4
+|4effect=Inflicts Spd/Def-4 on foe during combat. If a Rally Assist skill is used by unit or targets unit, inflicts Spd/Def-6,【Guard】, 【Discord】, and【Schism】on foes in cardinal directions of unit and target through their next actions.<br><br>【Guard】<br>Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)<br><br>【Discord】<br>Inflicts Atk/Spd/Def/Res-X on unit during combat (X = 2 + number of allies within 2 spaces of unit; max 5) through its next action.<br><br>【Schism】<br>Neutralizes Triangle Attack, Dual Strike, and Pathfinder effects active on unit through unit's next action. Unit is excluded from ally Triangle Attack and Dual Strike effects calculated using numbers of allies. When this status (Schism) is neutralized, Triangle Attack, Dual Strike, and Pathfinder effects are also neutralized.
+|4cost=300
+|properties4=random_owner
+|properties=random_inherit_base,random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Spd/Def Ruse 3}} Spd/Def Ruse 3
+|skill1 StatusEffect 1={{SkillEffectText|Penalties|Spd/Def|5}}
+|skill1 StatusEffect 2={{SEt|Guard}}
+|skill1 StatusEffect Targets={{SkillTargetText|Foes}} within<br>[[Cardinal directions]] of<br>{{SkillTargetText|Unit}} & {{SkillTargetText|Ally}}
+|skill1 StatusEffect Conditions=A [[Rally Assist]]<br>is used on '''or'''<br>by {{SkillTargetText|Unit}}
+|skill2={{Si|Spd/Def Ruse 4}} Spd/Def Ruse 4
+|skill2 CombatEffect={{SkillEffectText|Temporary debuffs|Spd/Def|4}}
+|skill2 CombatEffect Targets={{SkillTargetText|Foe}}
+|skill2 StatusEffect 1={{SkillEffectText|Penalties|Spd/Def|6}}
+|skill2 StatusEffect 2={{SEt|Guard}}
+|skill2 StatusEffect 3={{SEt|Discord}}
+|skill2 StatusEffect 4={{SEt|Schism}}
+|skill2 StatusEffect Targets={{SkillTargetText|Foes}} within<br>[[Cardinal directions]] of<br>{{SkillTargetText|Unit}} & {{SkillTargetText|Ally}}
+|skill2 StatusEffect Conditions=A [[Rally Assist]]<br>is used on '''or'''<br>by {{SkillTargetText|Unit}}
+}}
+
+==Notes==
+{{Penalties}}
+{{Guard}}
+* Spd/Def Ruse does not trigger if the unit receives a {{SEt|bonus}} indirectly from skills, such as from {{St|Rally Up Res+}}.
+{{CardinalDirections}}
+{{Temporary debuffs|name=Spd/Def Ruse 4}}
+{{Discord|name=Spd/Def Ruse 4}}
+{{Schism|name=Spd/Def Ruse 4}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Spd/Def Ruse
+|japanese=速さ守備の大共謀
+|german=Ges./Ver.-Kniff
+|spanishEU=Treta Vel/Def
+|spanishLA=Treta Vel./Def.
+|french=Leurre Vit/Déf
+|italian=Furto Vel/Dif
+|chineseTW=速度防守大共謀
+|portuguese=Ardil Vel./Def.
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%Rally%cardinal directions%' OR Description LIKE '%【Guard】%cardinal directions%' OR Description LIKE '%【Discord】%' OR Description LIKE '%【Schism】%') AND Exclusive='1'}}
+* [[Skill families/B Passives#Feint|Feint Passives]]
+* [[Skill families/B Passives#Ruse|Ruse Passives]]
+{{Passives Navbox|B}}
+[[Category:Ruse Passives]]

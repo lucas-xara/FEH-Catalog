@@ -1,0 +1,50 @@
+{{Passive
+|type=S
+|name=Squad Ace BH
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|1name=Squad Ace BH 1
+|alt1name=Squad Ace AN 1
+|1tagid=SID_第60迷宮の覇者1
+|1cost=80
+|1effect=Grants Def/Res+1.
+|statModifiers1=0,0,0,1,1
+|1required=-
+|1next=-
+|2name=Squad Ace BH 2
+|alt2name=Squad Ace AN 2
+|2tagid=SID_第60迷宮の覇者2
+|2cost=160
+|2effect=Grants Def/Res+2.
+|statModifiers2=0,0,0,2,2
+}}
+==Seal acquired from==
+===Squad Assault reward===
+* Complete the [[60th Assault]].
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Squad Ace BH 1;Squad Ace BH 2
+|badgeColor=Scarlet
+|costs1=-<!--0;0;0-->
+|costs2=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|english=Squad Ace BH
+|japanese=第６０迷宮の覇者
+|german=Überfall-Ass BH
+|spanishEU=As del asalto BH
+|spanishLA=As del asalto BH
+|french=Assaut réussi BH
+|italian=Asso sq. BH
+|chineseTW=第６０迷宮的霸王
+|portuguese=Esquadrão ás BH
+}}
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}
+[[Category:Squad Ace Seals]]

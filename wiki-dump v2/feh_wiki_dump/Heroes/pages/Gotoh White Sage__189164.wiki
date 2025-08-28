@@ -1,0 +1,76 @@
+{{#invoke:NameAbout|main|Name=Gotoh}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Gotoh
+|Title=White Sage
+|WeaponType=Colorless Tome
+|MoveType=Infantry
+|Origin=Fire Emblem: Mystery of the Emblem
+|Gender=Male
+|MythicEffect=Light
+|MythicEffect2=Raiding Party Bonus
+|BoostHP=5
+|BoostRes=5
+|actorEN=Leonard Draper
+|actorJP=清川元夢
+|artist=霜村航
+|additionDate=January 27, 2023
+|releaseDate=January 27, 2023
+|cv1=1
+|cv2=1000230
+|TagID=神階ガトー
+|InternalID=911
+|Properties=mythic,hat
+|description=Legendary figure who granted gifts to humanity across the age, including the Khadein school of magic. Also known as the White Sage. Appears in Fire Emblem: Mystery of the Emblem.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=12|Lv1SPD=4|Lv1DEF=8|Lv1RES=9
+|GRHP=50|GRATK=70|GRSPD=25|GRDEF=70|GRRES=75
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Stone
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elstone
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Atlas (weapon)
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Brilliant Starlight
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Iceberg
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Gift of Magic
+|passiveA1Unlock=5
+|passiveB1=Guard 1
+|passiveB2=Guard 2
+|passiveB3=Guard 3
+|passiveB4=Guard 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Distant Guard 1
+|passiveC2=Distant Guard 2
+|passiveC3=Distant Guard 3
+|passiveC4=Joint Dist. Guard
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}

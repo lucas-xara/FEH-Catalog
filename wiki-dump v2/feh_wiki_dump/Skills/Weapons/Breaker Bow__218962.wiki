@@ -1,0 +1,71 @@
+{{Weapon Infobox
+|tagid=SID_波間の欠片の鋭弓
+|intID=4230
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=1
+|weaponType=Bow
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effectiveness=Beast,Flying
+|effect=Accelerates Special trigger (cooldown count-1).<br>Effective against beast and flying foes.<br>Enables【Canto (１)】.<br><br>Unit can move to a space within 2 spaces of any ally within 2 spaces.<br><br>At start of combat, if unit's HP ≥ 25%, neutralizes foe's bonuses to Spd/Def (from skills like Fortify, Rally, etc.), grants Atk/Spd/Def/Res+5 to unit, and grants Atk/Spd+X × 6 to unit during combat (X = the number of allies with Atk ≥ 55 within 3 rows or 3 columns centered on unit + the number of allies with Spd ≥ 40 in the same area; max 3), and also, if unit's attack can trigger unit's Special, grants Special cooldown count-A to unit before unit's first attack and grants Special cooldown count-B to unit before unit's first follow-up attack during combat (A = X + 1; max = unit's Special cooldown count value at start of combat; B = X + 1 - unit's Special cooldown count value at start of combat; min 0).<br><br>【Canto (１)】<br>After an attack, Assist skill, or structure destruction, unit can move １ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|required=Silver Bow
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Me1={{Eft|Canto|1}}
+|Me2={{Eft|Warp|[[within 2 spaces]] of an<br>{{Tgt|Ally}} [[within 2 spaces]]}}
+|Ce1={{Eft|Effectiveness|{{Mt|Flying}} '''&''' {{Cwti|Beast|group=1}} [[Beast]]<br>}}
+|Ce2={{Eft|Neutralize Bonuses|Spd/Def}}
+|Ce2T={{Tgt|Foe}}
+|Ce3={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce4={{Eft|Temporary buffs|Atk/Spd|6 x Y|max=18}}
+|Ce2-4C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce5={{Eft|Reduce Cooldown|Y + 1|max=*}}<br>before {{Tgt|Unit}}'s first attack
+|Ce6={{Eft|Reduce Cooldown|Y + 1 - {{Tgt|Unit}}'s CD<br>at start of combat|min=0|max=*}} before<br>{{Tgt|Unit}}'s first [[follow-up]]
+|Ce3-6T={{Tgt|Unit}}
+|Ce5-6C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' {{Tgt|Unit}} has an<br>[[offensive special]]
+}}
+<b>{{Hatnote|1=* {{Tgt|Unit}}'s CD at start of combat<br>Y = {{Tgt|Allies}} with Atk ≥ 55 + {{Tgt|Allies}} with Spd ≥ 40<br>within [[3 rows or 3 columns]] centered on {{Tgt|Unit}}}}</b>
+==Notes==
+{{Effective damage bonus|moveWep=1|Flying,Beast}}
+{{Canto|1}}
+{{Warp interaction}}
+{{Bonus neutralization}}
+{{Temporary buffs}}
+{{CombatCooldownCount|-A/-B (max: Unit's cooldown at start of combat)}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Petra: Faraway Sun|t=Dorothea: Solar Songstress
+|---xxx---
+|---xxx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xtx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=波間の欠片の鋭弓
+|german=Wellenbogen
+|spanishEU=Arco aluvión
+|spanishLA=Arco aluvión
+|french=Arc des flots
+|italian=Arco spezzante
+|chineseTW=波浪碎片之銳弓
+|portuguese=Arco ruptor
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%allies with Atk ≥%' OR Description LIKE '%allies with Spd ≥%' OR Description LIKE '%special cooldown count-%to unit%before unit_s first attack%' OR Description LIKE '%special cooldown count-%to unit%before unit_s first follow-up attack%') AND Exclusive='1'}}
+{{Weapons Navbox}}

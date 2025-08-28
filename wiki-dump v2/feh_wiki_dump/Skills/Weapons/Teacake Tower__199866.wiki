@@ -1,0 +1,52 @@
+{{Weapon Infobox
+|tagid=SID_お茶菓子
+|intID=3724
+|image=wep_mg282
+|exclusive=0
+|weaponType=Green Tome
+|cost=200
+|might=8
+|range=2
+|effect=If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+4 to unit and inflicts penalty on foe's Atk/Spd/Def/Res during combat = current bonus on each of foe's stats × 2. (Calculates each stat penalty independently; example: if foe has +7 bonus to Atk, inflicts Atk-14, for a net penalty of Atk-7.)
+|required=Elwind
+|next=Teacake Tower+
+|promotionRarity=5
+|promotionTier=1
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{SkillEffectText|Temporary buffs|Atk/Spd/Def/Res|4}}
+|CombatEffect 2={{SkillEffectText|Temporary Debuffs|Atk/Spd/Def/Res|2 x {{SEt|Bonus}} on<br>each of {{SkillTargetText|Foe}}'s stats}}
+|CombatEffect 2 Targets={{SkillTargetText|Foe}}
+|CombatEffect Conditions=Player phase<br>'''or''' an {{SkillTargetText|Ally}} is<br>[[within 2 spaces]]
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{TemporaryDebufffromBonus|source=the foe}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Gallery==
+<gallery>
+V7.8_v0708a_teatime_Mag.webp|Sprite sheet for {{St|Baked Treats}}, {{St|Knightly Manner}}, {{St|Teatime Set+|Teatime Set(+)}} and {{PAGENAME}}'s animations.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=お茶菓子
+|german=Kuchenallerlei
+|spanishEU=Torre dulce
+|spanishLA=Torre dulce
+|french=Tour à gâteaux
+|italian=Torre di dolci
+|chineseTW=茶點
+|portuguese=Torre açucarada
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%inflicts penalty on foe%current bonus%× 2%' AND (Exclusive='1' AND (Name NOT LIKE '%+' OR Name NOT LIKE '%reversal %'))}}
+* [[Skill families/Weapons#Reversal|Reversal Weapons]]
+{{Weapons Navbox}}

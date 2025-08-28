@@ -1,0 +1,91 @@
+{{Weapon Infobox
+|tagid=SID_地の女神の溺愛
+|intID=4199
+|noImg=1
+|exclusive=1
+|weaponType=Beast
+|canUseMove=Cavalry
+|cost=400
+|might=14
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>At start of combat, if unit's HP ≥ 25%, grants bonus to unit's Atk/Spd/Def/Res = number of allies within 3 rows or 3 columns centered on unit × 3, + 5 (max 14), neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks, and reduces damage from foe's first attack by 40% during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes).<br><br>Grants the following effects to allies within 3 rows or 3 columns centered on unit, and if unit's HP ≥ 25% at start of combat, to unit: when that unit or ally's Special triggers during combat, reduces the percentage of foe's non-Special "reduce damage by X%" skills by percentage = that unit or ally's max Special cooldown count value × 30, + 10 (max 100%; excluding area-of-effect Specials), and also, if that unit or ally's max Special cooldown count value ≥ 3 and their attack can trigger their Special, grants Special cooldown count-1 to that unit or ally before their first attack during combat.<br><br>At start of turn, if unit is adjacent to only beast or dragon allies or is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 to unit, inflicts Atk/Def-X on foe during combat (X = number of spaces from start position to end position of whoever initiated combat, + 3; max 6), and also, if X ≥ 5, reduces damage from foe's first attack by 30% during combat.
+|required=Adult (Cavalry)
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe1={{Eft|Accelerates Special}}
+|Pe2={{Eft|Stat Boosts|Atk|2}}
+|PeC2={{SkillTargetText|Unit}} is transformed
+|Me={{Eft|Transform}}
+|MeC=At start of turn if<br>{{Tgt|Unit}} is [[adjacent]] to only<br>{{Cwti|group=1|Beast,Dragon}} [[Dragon]]/[[Beast]]<br>{{Tgt|Allies}} '''or''' not [[adjacent]]<br>to any {{Tgt|Ally}}
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|3 x {{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}, + 5|max=14}}
+|Ce2={{Eft|Neutralize Guaranteed Follow-Ups}}
+|Ce2T={{Tgt|Foe}}
+|Ce3={{Eft|Neutralize Prevent Follow-Ups}}
+|Ce4={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce3-4T={{Tgt|Unit}}
+|Ce5={{Eft|Reduce Damage Reduction|percent=1|max=100%|30 × {{Tgt|Unit}}'s max CD, +10}}<br>per {{Tgt|Unit}}'s [[offensive Special]]
+|Ce5T={{Tgt|Foe}} <br>
+|CeC1-5={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce6={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Unit}}'s first attack
+|Ce6T={{Tgt|Unit}}<br>
+|Ce6C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat '''&'''<br>{{Tgt|Unit}}'s maximum<br>[[offensive Special]] CD ≥ 3
+|Ce7={{Eft|Reduce Damage Reduction|percent=1|max=100%|30 x {{Tgt|Ally}}'s max CD, +10}}<br>per {{Tgt|Ally}}'s [[offensive Special]]
+|Ce7T={{Tgt|Foes}} of<br>{{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|Ce8={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Ally}}'s first attack
+|Ce8T={{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|Ce8C={{Tgt|Ally}}'s maximum<br>[[offensive Special]] CD ≥ 3
+|Ce9={{Eft|Temporary debuffs|Atk/Def|Spaces initiator moved + 3|max=6}}
+|Ce9T={{Tgt|Foe}}<br>
+|Ce9C={{Tgt|Unit}} is transformed
+|Ce10={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s first attack
+|Ce10T={{Tgt|Unit}} <br>
+|Ce10C={{Tgt|Unit}} is transformed '''&'''<br>Spaces initiator moved ≥ 2
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{Follow-up effect neutralization}}
+{{DamagePercentageReduction}}
+{{Reduce Damage Reduction}}
+{{CombatCooldownCount|-1}}
+{{AlliesCombatEffect|effect=damage reduction reducing and Special cooldown count reducing effects}} 
+{{Beast (Cavalry)}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Nerþuz: Beach Chaperone|t=Gullveig: Glittering Sunlight
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V8.6_v0806b_summer_Mag_2.webp|Sprite sheet for {{St|Sea Tambourine+}} and {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=地の女神の溺愛
+|german=Nerþuz' Liebe
+|spanishEU=Amor de Nerþuz
+|spanishLA=Amor de Nerþuz
+|french=Amour de Nerþuz
+|italian=Affetto di Nerþuz
+|chineseTW=地之女神的溺愛
+|portuguese=Amor de Nerþuz
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%grants%to allies within%rows%' OR Description LIKE '%special cooldown count-1%before%first attack%' OR Description LIKE '%max Special cooldown count value ≥%') AND Exclusive='1'}}
+{{Weapons Navbox}}

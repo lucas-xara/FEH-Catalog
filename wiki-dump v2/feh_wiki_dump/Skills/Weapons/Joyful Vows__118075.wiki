@@ -1,0 +1,96 @@
+{{Weapon Infobox
+|tagid=SID_幸せの誓約
+|image=wep mg304
+|weaponType=Colorless Tome
+|might=14
+|range=2
+|effectiveness=Armored,Cavalry
+|effect=Effective against armored and cavalry foes. Grants Atk+3. If【Bonus】is active on unit, grants Atk/Res+6 during combat, and if unit initiates combat, foe cannot make a follow-up attack.<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|cost=400
+|exclusive=1
+|statModifiers=0,17,0,0,0
+|required=Atlas (weapon)
+|intID=2071
+|sort=398
+|value=20
+|timingID=1
+|abilityID=121
+|limit1ID=21
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Effective against armored and cavalry foes. Grants Atk+3. If【Bonus】is active on unit or if【Penalty】is active on foe, grants Atk/Res+6 to unit, grants additional bonus to unit's Atk = highest total penalties among target and foes within 2 spaces of target, unit makes a guaranteed follow-up attack, and foe cannot make a follow-up attack during combat.<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|refineStatsSkill1=0,0,0,0,0
+|effectSkill1=At start of turn, if any foes have the highest Atk, Spd, Def, or Res on the enemy team, inflicts -7 on the corresponding stat of those foes and foes within 2 spaces of those foes through their next actions. At start of turn, if any foes have the highest Atk, Spd, Def, or Res on the enemy team, inflicts【Sabotage】on those foes. If unit initiates combat or is within 2 spaces of an ally, grants Atk/Res+5 to unit and reduces the percentage of foe's non-Special "reduces damage by X%" skills by 50% during combat (excluding area-of-effect Specials).<br><br>【Sabotage】<br>Inflicts penalty on unit's Atk/Spd/Def/Res during combat = highest penalty on each stat between unit and allies within 2 spaces of unit through its next action. Calculates each stat penalty independently.
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Atk|3}}
+|s1 Ce1={{Eft|Effectiveness|{{Mt|Armored}} '''&''' {{Mt|Cavalry}}<br>}}
+|s1 Ce2={{Eft|Temporary buffs|Atk/Res|6}}
+|s1 Ce2C=A {{Kp|Bonus}} effect<br>is active on {{Tgt|Unit}}
+|s1 Ce3={{Eft|Prevent Follow-Ups}}
+|s1 Ce3T={{Tgt|Foe}}
+|s1 Ce3C=Player Phase '''&'''<br>a {{Kp|Bonus}} effect<br>is active on {{Tgt|Unit}}
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Atk|3}}
+|s2 Ce1={{Eft|Effectiveness|{{Mt|Armored}} '''&''' {{Mt|Cavalry}}<br>}}
+|s2 Ce2={{Eft|Temporary buffs|Atk/Res|6}}
+|s2 Ce3={{Eft|Temporary buffs|Atk|highest total {{SEt|penalties}}<br>on {{Tgt|Target Foe}} & {{Tgt|Foes}}<br>[[within 2 spaces]] of {{Tgt|Target Foe}}}}
+|s2 Ce4={{Eft|Guaranteed Follow-Ups}}
+|s2 Ce5={{Eft|Prevent Follow-Ups}}
+|s2 Ce5T={{Tgt|Foe}}
+|s2 CeC=A {{Kp|Bonus}} effect<br>is active on {{Tgt|Unit}}<br>'''or''' a {{Kp|Penalty}} effect<br>is active on {{Tgt|Foe}}
+|skill3={{Si|Joyful Vows|refine=Skill1}} Skill refine effects
+|s3 Se1={{Eft|Penalties|Atk|7}}, {{Eft|Penalties|Spd|7}},<br>{{Eft|Penalties|Def|7}}, {{Eft|Penalties|Res|7}}
+|s3 Se2={{SEt|Sabotage}}
+|s3 Se1T={{Tgt|Foes}} with the<br>highest of each stat<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}
+|s3 Se2T={{Tgt|Foes}} with the<br>highest of each stat
+|s3 SeC=At start of turn
+|s3 Ce1={{Eft|Temporary buffs|Atk/Res|5}}
+|s3 Ce2={{Eft|Reduce Damage Reduction|50%}}
+|s3 Ce2T={{Tgt|Foe}}
+|s3 CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+
+==Notes==
+{{Effective damage bonus|armored,cavalry}}
+{{Temporary buffs}}
+{{EffectfromBonusKeyword|target=unit|temporary buffs and follow-up preventing effects}}
+{{Prevent follow-up}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{TemporaryBufffromPenalty|multiSource=1|source=the target and foes [[within 2 spaces]] of target|name=Refined Joyful Vows}}
+{{Guaranteed follow-up interaction|name=Refined Joyful Vows}}
+{{EffectfromBonus|name=Refined Joyful Vows}}
+{{EffectfromPenalty|name=Refined Joyful Vows}}
+{{Penalties|name={{St|Joyful Vows|refine=Skill1}}}}
+{{SelectStat}}
+{{Sabotage|name={{St|Joyful Vows|refine=Skill1}}}}
+{{Reduce Damage Reduction}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Joyful Vows
+|japanese=幸せの誓約
+|german=Frohes Gelöbnis
+|spanishEU=Votos dichosos
+|spanishLA=Votos dichosos
+|french=Vœux joyeux
+|italian=Voti giulivi
+|chineseTW=幸福的誓約
+|portuguese=Votos jubilosos
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(WeaponEffectiveness='armored,cavalry' OR Description LIKE '%if%bonus%active on unit%cannot make a follow-up%' AND Description NOT LIKE '%transforms%inflicts Atk/Def-4%cannot make a follow-up%' OR Description LIKE '%highest%penalt%target and foes within _ spaces of target%' OR Description LIKE '%total penalt%foe%within _ spaces of target%') AND Exclusive='1'}}
+* [[Chill Passives]]
+* [[Sabotage Passives]]
+{{Weapons Navbox}}

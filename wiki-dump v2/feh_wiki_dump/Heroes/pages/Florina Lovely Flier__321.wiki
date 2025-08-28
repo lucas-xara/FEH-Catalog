@@ -1,0 +1,73 @@
+{{#invoke:NameAbout|main|Name=Florina}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Florina
+|Title=Lovely Flier
+|GrowthModifier=None
+|WeaponType=Blue Lance
+|Origin=Fire Emblem: The Blazing Blade
+|Gender=Female
+|MoveType=Flying
+|actorEN=Julie Kliewer
+|actorJP=白城なお
+|artist=ザザ
+|resplendentArtist=ぷきゅのすけ
+|releaseDate=February 2, 2017
+|poolDate=February 2, 2017
+|randomStartTime=2017-02-02T07:00:00Z
+|poolRarities=3,4
+|TagID=フロリーナ
+|InternalID=44
+|cv1=6
+|cv2=1000300
+|description=Youngest of three sisters who are Pegasus Knights of Ilia. Shy, gentle girl who loves animals. Appears in Fire Emblem: The Blazing Blade.
+|Properties=resplendent,hel
+|resplendentStartTime=2022-01-25T07:00:00Z
+|resplendentEndTime=2022-02-10T06:59:59Z
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=7|Lv1SPD=8|Lv1DEF=6|Lv1RES=8
+|GRHP=55|GRATK=50|GRSPD=45|GRDEF=45|GRRES=60
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Heavy Spear
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Heavy Spear+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Florina's Lance
+|weapon5Default=
+|weapon5Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Ardent Sacrifice
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Darting Blow 1
+|passiveA2=Darting Blow 2
+|passiveA3=Darting Blow 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Breath of Life 1
+|passiveC2=Breath of Life 2
+|passiveC3=Breath of Life 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

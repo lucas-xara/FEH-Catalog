@@ -1,0 +1,52 @@
+{{About|the weapon|the story map|Book VIII, Chapter 7: Part 2: Corrupted Dragon}}
+{{Passive
+|name=Corrupted Dragon
+|type=C
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Corrupted Dragon
+|1tagid=SID_異形なる竜王
+|1effect=After unit acts (if Canto triggers, after Canto), applies【Divine Vein (Stone)】to spaces within 5 rows and 5 columns centered on unit for 1 turn.<br><br>Grants Atk/Spd/Def/Res+4 to allies within 5 rows and 5 columns centered on unit and neutralizes effects that inflict "Special cooldown charge -X" on those allies during combat.<br><br>If there is an ally within 5 rows and 5 columns centered on unit, grants Atk/Spd/Def/Res+4 to unit and neutralizes effects that inflict "Special cooldown charge -X" on unit during combat, and also, when unit's Special triggers, neutralizes foe's "reduces damage by X%" effects from foe's non-Special skills (excluding when dealing damage with an area-of-effect Special).<br><br>【Divine Vein (Stone)】<br>Applies the following effects on space for unit and allies: Grants Def/Res+6 during combat, reduces damage from foe's Specials by 10 during combat (excluding area-of-effect Specials), and reduces damage from area-of-effect Specials by 50% (excluding Røkkr area-of-effect Specials). (Divine Vein effects do not stack; replaces any existing Divine Vein effect; Divine Vein effects applied simultaneously cancel each other out. Does not count as defensive terrain.)
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Divine Vein (Stone)}}
+|MeT=Spaces in a [[5x5 area]]<br>centered on {{Tgt|Unit}}
+|MeC=After {{Tgt|Unit}}'s<br>action(s) '''or''' after<br>[[Canto]] movement
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|Ce2={{Eft|Neutralize Guard}}
+|CeT1-2={{Tgt|Allies}} in a [[5x5 area]]<br>centered on {{Tgt|Unit}}
+|Ce3={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|Ce4={{Eft|Neutralize Damage Reduction}} per<br>{{Tgt|Unit}}'s [[offensive Special]]
+|Ce5={{Eft|Neutralize Guard}}
+|CeT3-5={{Tgt|Unit}}
+|CeC3-5=An {{Tgt|Ally}} is in a<br>[[5x5 area]] centered<br>on {{Tgt|Unit}}
+}}
+
+==Note==
+{{Divine Vein|Stone}}
+{{Temporary buffs}}
+{{CooldownChargeMinusNeutralization}}
+{{AlliesCombatEffect|effect=temporary buffs and "Special cooldown charge -X" neutralization effects}}
+{{DamageReductionNeutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=異形なる竜王
+|german=Verzerrter Drache
+|spanishEU=Dragón corrupto
+|spanishLA=Dragón corrupto
+|french=Dragon corrompu
+|italian=Il Drago corrotto
+|chineseTW=異形的龍王
+|portuguese=Dragão corrupto
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants%to allies within%rows%columns%centered on unit%' OR Description LIKE '%【Divine Vein (Stone)】%' AND Exclusive='1'}}
+* [[Joint Drive Passives]]
+{{Passives Navbox|C}}

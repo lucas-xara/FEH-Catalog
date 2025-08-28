@@ -1,0 +1,61 @@
+{{#invoke:NameAbout|main|Name=Xander}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Xander
+|Title=Spring Prince
+|GrowthModifier=None
+|WeaponType=Blue Lance
+|Origin=Fire Emblem Fates
+|Gender=Male
+|MoveType=Cavalry
+|actorEN=George Spelvin
+|actorJP=小西克幸
+|artist=スエカネクミコ
+|releaseDate=March 30, 2017
+|TagID=春祭マークス
+|InternalID=116
+|Properties=special,hat,specRate_202202
+|cv1=11
+|cv2=500200
+|description=Nohrian prince who normally wields the divine blade Siegfried but left it behind for the festival. Appears in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=6|Lv1SPD=6|Lv1DEF=9|Lv1RES=7
+|GRHP=50|GRATK=45|GRSPD=50|GRDEF=60|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Carrot Lance
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Carrot Lance+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Swap
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveB1=Live for Honor
+|passiveB1Unlock=4
+|passiveC1=Fortify Def 1
+|passiveC2=Fortify Def 2
+|passiveC3=Fortify Def 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Spring Festival units]]

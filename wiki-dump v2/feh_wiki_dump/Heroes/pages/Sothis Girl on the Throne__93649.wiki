@@ -1,0 +1,87 @@
+{{#invoke:NameAbout|main|Name=Sothis}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Sothis
+|Title=Girl on the Throne
+|GrowthModifier=Gen 3, Trainee
+|WeaponType=Red Breath
+|Origin=Fire Emblem: Three Houses
+|Gender=Female
+|MythicEffect=Dark
+|MythicEffect2=None
+|BoostHP=5
+|BoostRes=5
+|MoveType=Infantry
+|actorJP=黒沢ともよ
+|actorEN=Cassandra Lee Morris
+|artist=まいぽんぽん
+|additionDate=July 30, 2019
+|releaseDate=July 31, 2019
+|TagID=神階ソティス
+|InternalID=405
+|Properties=mythic
+|cv1=12
+|cv2=100300
+|description=Mysterious girl that sits upon a throne within dreams. Full of emotion, her attitude changes by the moment. Appears in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=6|Lv1SPD=9|Lv1DEF=6|Lv1RES=3
+|GRHP=55|GRATK=65|GRSPD=70|GRDEF=60|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire Breath
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Fire Breath+
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Flametongue
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Sublime Surge
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Daylight
+|special1Default=4
+|special1Unlock=3
+|special2=Noontime
+|special2Unlock=4
+|special3=Sirius
+|special3Unlock=5
+|special4=Sirius+
+|special4Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Solo 1
+|passiveA2=Atk/Spd Solo 2
+|passiveA3=Atk/Spd Solo 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=Wrath 1
+|passiveB2=Wrath 2
+|passiveB3=Wrath 3
+|passiveB4=Null C-Disrupt 1
+|passiveB5=Null C-Disrupt 2
+|passiveB6=Null C-Disrupt 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveB4Unlock=3
+|passiveB5Unlock=4
+|passiveB6Unlock=5
+|passiveC1=Time's Pulse 1
+|passiveC2=Time's Pulse 2
+|passiveC3=Time's Pulse 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

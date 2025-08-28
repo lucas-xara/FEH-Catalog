@@ -1,0 +1,70 @@
+{{Passive
+|name=Divine Deceit
+|type=C
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Divine Deceit
+|1tagid=SID_神杖天空を偽る
+|1effect=At start of player phase or enemy phase, if any foes in cardinal directions of unit have Res < unit's Res+5, inflicts【Gravity】on those foes. At start of player phase or enemy phase, if any foes within 3 rows or 3 columns centered on unit have Res < unit's Res+5, inflicts【Ploy】and【Exposure】on those foes through their next actions. After start-of-turn effects trigger on player phase or enemy phase, if any foes within 3 rows or 3 columns have ≥ 3 Bonus effects active, excluding stat bonuses, neutralizes those effects (excludes Bonus effects being applied at the same time). If foe has any Penalty effects active, grants Atk/Res+5 to unit during combat.<br><br>【Gravity】<br>Restricts target's movement to 1 space through its next action.<br><br>【Ploy】<br>Neutralizes Bonus Doubler, Treachery, and【Grand Strategy】effects active on unit during combat through unit's next action.<br><br>【Exposure】<br>Foe's attacks deal +10 damage.<br><br>【Grand Strategy】<br>Grants bonus to Atk/Spd/Def/Res during combat = current penalty on each of unit's stats × 2 for 1 turn. (Example: if unit has -7 penalty to Atk, grants Atk+14, for a net bonus of Atk+7.) Calculates each stat bonus independently.<br><br>Unit's negative effects that last "through unit's next action" will remain in effect until this status (Grand Strategy) is neutralized.
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{SEt|Gravity}}
+|SeT1={{Tgt|Foes}} within<br>[[cardinal directions]]
+|Se2={{SEt|Ploy}}
+|Se3={{SEt|Exposure}}
+|SeT2-3={{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}} 
+|SeC1-3=At start of both Phases<br>if {{Tgt|Unit}}'s Res<br>>{{Tgt|Foe}}'s Res+5
+|Se4=Removes {{Kp|Bonus}} effects<br>(excluding {{SEt|Bonuses}})
+|SeT4={{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered in {{Tgt|Unit}}
+|SeC4=After start-of-turn<br>effects trigger during<br>both Phases '''&'''<br>{{Tgt|Target Foes}} have ≥ 3<br>{{Kp|Bonus}} effects<br>(excluding {{SEt|Bonuses}})
+|Ce={{Eft|Temporary buffs|Atk/Res|5}}
+|CeC={{Tgt|Foe}} has a<br>{{Kp|Penalty}} effect
+}}
+
+==Notes==
+{{Gravity}}
+{{CardinalDirections}}
+{{Ploy}}
+{{Exposure}}
+* Stat comparison takes place after all {{SEt|bonuses}} on allies are removed, and before any new bonuses or {{SEt|penalties}} are applied. Other existing bonuses and penalties on both units count towards their respective stats during stat comparison.
+{{Bonus neutralization|posstatuses=all {{Kp|Bonus}} effects (excluding {{SEt|Bonuses}})}}
+{{Temporary buffs}}
+{{EffectfromPenalty|temporary buffs}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Loki: Trickster God|t=Thórr: War God
+|---xxx---
+|---xxx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xtx---
+|---xxx---
+}}
+|}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=神杖天空を偽る
+|german=Göttlicher Trug
+|spanishEU=Engaño divino
+|spanishLA=Engaño divino
+|french=Mensonge divin
+|italian=Inganno divino
+|chineseTW=神杖虛假天空
+|portuguese=Farsa divina
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%at%start of%inflicts%rows%columns%' OR Description LIKE '%【Ploy】%' OR Description LIKE '%【Exposure】%') AND Exclusive='1'}}
+* [[Ploy Passives]]
+{{Passives Navbox|C}}

@@ -1,0 +1,70 @@
+{{Weapon Infobox
+|tagid=SID_微睡の花の剣
+|weaponType=Red Sword
+|might=16
+|range=1
+|effect=Grants Res+3. If【Penalty】is active on any foes within 3 columns centered on unit, inflicts Atk/Def/Res-3 on those foes during combat.<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|cost=400
+|exclusive=1
+|statModifiers=0,14,0,0,3
+|required=Silver Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Res+3. If【Penalty】is active on any foes within 3 columns centered on unit, inflicts Atk/Def/Res-4 on those foes during combat. At start of combat, if foe's HP ≥ 75% or【Penalty】is active on foe, inflicts Atk/Def-5 on foe during combat.<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, inflicts Atk/Def-5 on foe and unit makes a guaranteed follow-up attack during combat, and also, after combat, if unit attacked, inflicts status on foes within 3 columns centered on target preventing counterattacks through their next actions.
+|properties=random_owner
+}}
+==Notes==
+{{Temporary debuffs}}
+{{EffectfromPenalty|temporary debuffs}}
+{{FoesCombatEffect|effect=temporary debuffs}}
+{|class="wikitable default mw-collapsible"
+!align="middle"|Example of Area of Effect
+|-
+|style="max-width:450px;margin:auto" align="middle"|{{AoE|u=Mirabilis: Daydream
+|-xxx-
+|-xxx-
+|-xxx-
+|-xux-
+|-xxx-
+|-xxx-
+|-xxx-
+}}
+|}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Guaranteed follow-up interaction|name={{St|Flower of Ease|refine=Skill1}}}}
+{{IfUnitAttacked}}
+{{Counterattacks disrupted|name={{St|Flower of Ease|refine=Skill1}}}}
+{|class="wikitable default mw-collapsible"
+!Example of {{St|Flower of Ease|refine=Skill1}}'s Area of Effect
+|-
+|style="max-width:450px;margin:auto" align="middle"|{{AoE|u=Mirabilis: Daydream|t=Plumeria: Rapturous Dream
+|-xxx-
+|-xxx-
+|-xxx-
+|-xtx-
+|-uxx-
+|-xxx-
+|-xxx-
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=微睡の花の剣
+|german=Linderungsblume
+|spanishEU=Flor somnolienta
+|spanishLA=Flor de la calma
+|french=Fleur sereine
+|italian=Fiore dell'agio
+|chineseTW=小憩之花劍
+|portuguese=Flor sonolenta
+}}
+==See also==
+{{See also skills|cond=Name LIKE 'Flower of%' OR Description LIKE '%if unit attacked%inflicts status%preventing counterattacks%' AND Exclusive='1'}}
+{{Weapons Navbox}}

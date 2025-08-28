@@ -1,0 +1,52 @@
+{{Special
+|tagid=SID_砕雷
+|name=Rising Thunder
+|charge=4
+|effect=Before combat this unit initiates, foes in an area near target take damage equal to (unit's Atk minus foe's Def or Res).
+|cost=150
+|next=Blazing Thunder
+|promotionRarity=4
+|promotionTier=2
+|required=-
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_all,aoe_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|MapEffect={{Eft|Damage|{{Tgt|Unit}}'s Atk -<br>{{Tgt|Foe}}'s Def/Res}}
+|MapEffect Targets={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>within 5 spaces<br>in a vertical line<br>centered on {{Tgt|Target Foe}}
+|MapEffect Conditions=Special triggers<br>before combat
+}}
+
+==Notes==
+{{AoE Special notes}}
+{{Main|Area-of-effect Specials}}
+{|class="wikitable default mw-collapsible" style="text-align:center"
+!Example of Area of Effect for Rising Thunder
+|-
+|style="max-width:450px;margin:auto" align="middle"|{{AoE|special=1
+|-x-
+|-x-
+|-t-
+|-x-
+|-x-
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+* Rising Thunder's cooldown was reduced by 1 with {{Version|2}}, released on November 28th, 2017.
+==In other languages==
+{{OtherLanguages
+|japanese=砕雷
+|german=Starker Donner
+|spanishEU=Rayo creciente
+|spanishLA=Rayo creciente
+|french=Éclair naissant
+|italian=Tuono nascente
+|chineseTW=碎雷
+|portuguese=Trovão crescente
+}}
+{{Specials Navbox}}

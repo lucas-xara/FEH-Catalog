@@ -1,0 +1,74 @@
+{{Weapon Infobox
+|tagid=SID_リュングヘイズ
+|weaponType=Sword
+|might=16
+|range=1
+|effect=Grants Spd+3. Enables【Canto (３)】during turns 1 through 4. If unit initiates combat, grants Atk/Spd+6 during combat and reduces damage from foe's first attack by 30%.<br><br>【Canto (3)】<br>After an attack, Assist skill, or structure destruction, unit can move ３ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|cost=400
+|exclusive=1
+|userVersion1=Weapon
+|statModifiers=0,16,0,0,0
+|required=Silver Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Spd+3. Enables【Canto (３)】during turns 1 through 4. If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd+6 and Def/Res+4 to unit, neutralizes unit's penalties to Atk/Spd, and reduces damage from foe's first attack by 40% during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes).<br><br>【Canto (３)】<br>After an attack, Assist skill, or structure destruction, unit can move ３ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks, and deals damage = 20% of unit's Spd (excluding area-of-effect Specials) during combat.
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|skill1 PermanentEffect=[[File:Speed Plus W.png|x26px|class=inline-icon]] Spd+3
+|skill1 MapEffect={{Eft|Canto|3}}
+|skill1 MapEffect Conditions=On turns 1 - 4
+|skill1 CombatEffect 1={{Eft|Temporary buffs|Atk/Spd|6}}
+|skill1 CombatEffect 2={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s first attack
+|skill1 CombatEffect Conditions=Player phase
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|skill2 PermanentEffect=[[File:Speed Plus W.png|x26px|class=inline-icon]] Spd+3
+|skill2 MapEffect={{Eft|Canto|3}}
+|skill2 MapEffect Conditions=On turns 1 - 4
+|skill2 CombatEffect 1={{Eft|Temporary buffs|Atk/Spd|6}}, {{Eft|Temporary buffs|Def/Res|4}}
+|skill2 CombatEffect 2={{Eft|Neutralize Penalties|Atk/Spd}}
+|skill2 CombatEffect 3={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|skill2 CombatEffect Conditions=Player phase<br>'''or''' an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|skill3={{Si|Lyngheiðr|refine=Skill1}} Skill refine effects
+|skill3 CombatEffect 1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|skill3 CombatEffect 2={{Eft|Neutralize Prevent Follow-Ups}}
+|skill3 CombatEffect 3={{Eft|Neutralize Guaranteed Follow-Ups}}
+|skill3 CombatEffect 3 Targets={{Tgt|Foe}}
+|skill3 CombatEffect 4={{Eft|Damage Boost|percent=1|20% of {{Tgt|Unit}}'s Spd}}
+|skill3 CombatEffect 4 Targets={{Tgt|Unit}}
+|skill3 CombatEffect Conditions={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Canto|3}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{DamagePercentageReduction}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Penalty neutralization|name=Refined Lyngheiðr}}
+{{Follow-up effect neutralization|name={{St|Lyngheiðr|refine=Skill1}}}}
+{{DamageBoost|name={{St|Lyngheiðr|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{NorseMyth}} is a dwarf who was a daughter of the dwarf king [[Hreiðmarr]], and sister of [[Reginn]], [[Ótr]], [[Fáfnir]], and [[Lofnheiðr]].
+==In other languages==
+{{OtherLanguages
+|japanese=リュングヘイズ
+|german=Lyngheiðr
+|spanishEU=Lyngheiðr
+|spanishLA=Lyngheiðr
+|french=Lyngheiðr
+|italian=Lyngheiðr
+|chineseTW=倫格赫茲
+|portuguese=Lyngheiðr
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【Canto (３)】%' OR Description LIKE '%Canto%during turns 1 through 4%' OR Description LIKE '%neutralizes penalties%unit_s Atk/Spd %' OR Description LIKE '%deals damage%= 20%of unit_s Spd%'}}
+{{Weapons Navbox}}

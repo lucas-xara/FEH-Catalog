@@ -1,0 +1,37 @@
+{{Weapon Infobox
+|tagid=SID_雇われ魔道士の書
+|intID=2967
+|userVersion1=Closed
+|userVersion2=Open
+|exclusive=1
+|weaponType=Red Tome
+|cost=400
+|might=14
+|range=2
+|effect=Grants Spd+3. At start of combat, if unit's HP ≥ 25%, grants bonus to Atk/Spd/Def/Res during combat based on the number of times unit has been enhanced using Dragonflowers. (Five or more times grants +7, four times grants +6, three times grants +5, and two or fewer times grants +4.)<br><br>At start of combat, if unit's HP ≥ 25% and unit has been enhanced using Dragonflowers three or more times, grants further bonus to Atk/Spd/Def/Res during combat = current bonus on each of unit's stats. Calculates each stat bonus independently.
+|statModifiers=0,14,3,0,0
+|required=Bolganone;Fenrir
+|properties=random_owner
+}}
+==Notes==
+{{CombatBoostfromBonus}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V6.2_v0602b_fuin_Mag_2.webp|Sprite sheet for {{St|Körmt}}, {{St|Dew Dragonstone}} and {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=雇われ魔道士の書
+|german=Söldnerbuch
+|spanishEU=Tomo mercenario
+|spanishLA=Grimorio en venta
+|french=Tome mercenaire
+|italian=Tomo al soldo
+|chineseTW=受雇魔道士之書
+|portuguese=Tomo de aluguel
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%Dragonflowers%' OR Description LIKE '%Atk/Spd/Def/Res during combat = current bonus on each of unit\'s stats%' AND Description NOT LIKE '%bonus doubler%'|columns=3}}
+{{Weapons Navbox}}

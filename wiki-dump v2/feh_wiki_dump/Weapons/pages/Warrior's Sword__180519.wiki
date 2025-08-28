@@ -1,0 +1,35 @@
+{{Weapon Infobox
+|tagid=SID_武人の鉄剣
+|intID=3252
+|image=wep_sw140
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=16
+|range=1
+|effect=Grants Atk+3. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit during combat, grants bonus to Atk/Spd/Def/Res during combat = current bonus on each of unit's stats (calculates each stat bonus independently), and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)
+|statModifiers=0,19,0,0,0
+|required=Silver Sword
+|properties=random_owner
+}}
+==Notes==
+{{TemporaryBufffromBonus}}
+{{CooldownChargeMinus}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Warrior's Sword
+|japanese=武人の鉄剣
+|german=Kämpferschwert
+|spanishEU=Espada guerrera
+|spanishLA=Espada guerrera
+|french=Épée de guerrier
+|italian=Spada dell'Eroe
+|chineseTW=武人的鐵劍
+|portuguese=Espada guerreira
+}}
+
+==See also==
+{{See also skills|cond=Description LIKE '%bonus%current bonus on each of unit_s stats%' AND Description NOT LIKE '%bonus doubler%'}}
+{{Weapons Navbox}}

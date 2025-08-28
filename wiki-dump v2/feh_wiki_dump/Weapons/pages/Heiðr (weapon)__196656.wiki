@@ -1,0 +1,60 @@
+{{About|the weapon Heiðr|the character Heiðr|Heiðr}}{{Weapon Infobox
+|weaponName=Heiðr
+|wikiName=Heiðr (weapon)
+|tagid=SID_ヘイズ
+|intID=3634
+|image=wep_mg277
+|exclusive=1
+|weaponType=Green Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br>If a Rally Assist skill is used by unit or targets unit, inflicts Atk/Spd/Def/Res-4 and【Guard】 on foes in cardinal directions of unit and target through their next actions. If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit, deals damage = 15% of unit's Atk (excluding area-of-effect Specials), and reduces damage from foe's first attack by 30% during combat.<br><br>【Guard】<br>Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)
+|required=Rexcalibur
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerate Special}}
+|Se1={{Eft|Penalties|Atk/Spd/Def/Res|4}}
+|Se2={{SEt|Guard}}
+|SeT={{Tgt|Foes}} within<br>[[Cardinal directions]] of<br>{{Tgt|Unit}} & {{Tgt|Ally}}
+|SeC=A [[Rally Assist]]<br>is used on '''or'''<br>by {{Tgt|Unit}}
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce2={{Eft|Damage Boost|15% of {{Tgt|Unit}}'s Atk}}
+|Ce3={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s first attack
+|CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+==Notes==
+{{Penalties}}
+{{Guard}}
+* Heiðr does not trigger if the unit receives a {{SEt|bonus}} indirectly from skills, such as from {{St|Rally Up Atk+}}.
+{{CardinalDirections}}
+{{IfUnitInitiates}}
+{{DamageBoost}}
+{{DamagePercentageReduction}}
+
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V7.6_v0706a_fuin_Mag.webp|Sprite sheet for {{St|Kvasir (weapon)}} and {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|english=Heiðr
+|japanese=ヘイズ
+|german=Heiðr
+|spanishEU=Heiðr
+|spanishLA=Heiðr
+|french=Heiðr
+|italian=Heiðr
+|chineseTW=海慈
+|portuguese=Heiðr
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%skill%inflicts%cardinal%' AND Exclusive='1' OR Description LIKE '%deals damage = 15%of unit_s Atk%'}}
+* [[Ruse Passives]]
+* [[Feint Passives]]
+{{Weapons Navbox}}

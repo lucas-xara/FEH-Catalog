@@ -1,0 +1,38 @@
+{{Weapon Infobox
+|tagid=SID_お調子者の碧槍
+|intID=3104
+|image=wep_lc123
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=16
+|range=1
+|effect=Enables【Canto (Rem. +1)】.<br><br>Grants Atk+3. If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd+6 to unit during combat. If a Rally Assist is used by unit, grants Atk/Spd+6 to unit for 1 turn and grants unit another action. (Once per turn.)<br><br>【Canto (Rem. +1)】<br>After an attack, Assist skill, or structure destruction, unit can move again.<br><br>The distance of the movement is the remaining movement the unit had before the actions listed above+1 (If unit used a movement skill that warps them, the remainder is 0).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|statModifiers=0,19,0,0,0
+|required=Silver Lance
+|properties=random_owner
+}}
+==Notes==
+{{Canto|Rem. +1}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Bonuses}}
+{{Galeforce notes}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=お調子者の碧槍
+|german=Muntere Lanze
+|spanishEU=Lanza jade jovial
+|spanishLA=Lanza jade jovial
+|french=Lance de jade
+|italian=Lancia di giada
+|chineseTW=得意忘形者的碧槍
+|portuguese=Lança jade jovial
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%Canto (Rem. +1)%' AND Exclusive='1' OR Description LIKE '%grants%unit another action%'  OR Description LIKE '%grants%another action to unit%'|columns=3}}
+* [[Skill families#Trace|Trace Passives]]
+{{Weapons Navbox}}

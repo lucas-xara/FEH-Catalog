@@ -1,0 +1,54 @@
+{{Passive
+|name=Forever Yours
+|type=C
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Forever Yours
+|1tagid=SID_あなたのシャロン
+|1effect=Enables【Canto (Dist. +1; Max ４)】.<br><br>If unit initiates combat or is within 3 spaces of an ally, grants Atk/Spd/Def/Res+4 to unit, reduces damage from attacks during combat by 40% (excluding area-of-effect Specials), and neutralizes effects that grant "Special cooldown charge +X" to foe or inflict "Special cooldown charge -X" on unit during combat.<br><br>After unit acts, if an ally within 3 spaces of unit enters into combat, grants another action to unit after ally's combat, and if Canto has already been triggered, re-enables Canto (once per turn; if another effect that grants action to unit has been activated at the same time, this effect is also considered to have been triggered).<br><br>【Canto (Dist. +1; Max ４)】<br>After an attack, Assist skill, or structure destruction, unit can move spaces = number of spaces from start position to end position of unit before the above, +1. (Max ４.)<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Canto|Dist. +1; Max 4}}
+|Me2={{Eft|Galeforce}}<br>(once per turn)
+|Me3=Re-enables [[Canto]]<br>(once per turn)
+|MeC2-3=After combat<br>of an {{Tgt|Ally}}<br>[[within 3 spaces]]
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|Ce2={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s attacks
+|Ce3={{Eft|Neutralize Guard}}
+|Ce4={{Eft|Neutralize Accelerate Charge}}
+|CeT4={{Tgt|Foe}}
+|CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 3 spaces]]
+}}
+
+==Notes==
+{{Canto|Dist. +1; Max 4}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{DamagePercentageReduction}}
+{{CooldownChargePlusNeutralization}}
+{{CooldownChargeMinusNeutralization}}
+{{Galeforce notes}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=あなたのシャロン
+|german=Auf ewig
+|spanishEU=Siempre a tu lado
+|spanishLA=Siempre a tu lado
+|french=Toujours là
+|italian=Tua per sempre
+|chineseTW=你的夏蓉
+|portuguese=Sempre contigo
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%【Canto (Dist. +1; Max ４)】%' OR Description LIKE '%re-enables Canto%'}}
+* [[Tempo Passives]]
+{{Passives Navbox|C}}

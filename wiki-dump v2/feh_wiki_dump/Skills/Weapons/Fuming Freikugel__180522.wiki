@@ -1,0 +1,39 @@
+{{Weapon Infobox
+|tagid=SID_却火フライクーゲル
+|intID=3255
+|userVersion1=Weapon
+|userVersion2=Gleam
+|exclusive=1
+|weaponType=Axe
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of combat for allies within 2 spaces of unit, if the ally has Def > unit's Def or if unit has not entered combat during the current phase, grants Atk/Spd/Def/Res+3 and "reduces damage from foe's first attack by 20%" to those allies during combat. At start of unit's combat, if unit is not within 2 spaces of any allies with Def > unit's Def or if unit is not adjacent to an ally, grants Atk/Spd+6 to unit during combat, reduces damage from foe's first attack by 40% during combat, and deals damage = X% of unit's Spd when Special triggers (X = unit's max Special cooldown count value × 10, + 20; excludes area-of-effect Specials).
+|statModifiers=0,16,0,0,0
+|required=Silver Axe
+|properties=random_owner
+}}
+==Notes==
+{{Temporary buffs}}
+{{DamagePercentageReduction}}
+{{AlliesCombatEffect}}
+{{DamageBoost}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Fuming Freikugel
+|japanese=劫火フライクーゲル
+|japaneseNotes=''[[Fireemblemwiki:Apocalyptic Flame|Apocalyptic Flame]] Freikugel''
+|german=Hitzige Freikugel
+|spanishEU=Freikugel ardiente
+|spanishLA=Freikugel férvida
+|french=Freikugel fumante
+|italian=Freikugel fumante
+|chineseTW=劫火弗萊克葛爾
+|portuguese=Freikugel ardente
+}}
+==See also==
+{{See also skills|cond=WikiName LIKE '%freikugel%' OR Description LIKE '%educes damage from%to allies within _ spaces%' OR Description LIKE '%allies within _ spaces%reduces damage%by%to those allies%' OR Description LIKE '%deals damage =%of unit_s Spd when special triggers%'}}
+{{Weapons Navbox}}

@@ -1,0 +1,86 @@
+{{Passive
+|name=Close Call
+|type=B
+|exclusive=0
+|canUseMove={{MoveList|Infantry}}
+|canUseWeapon={{WeaponList|Melee}}
+|1name=Close Call 1
+|1tagid=SID_回避・一撃離脱1
+|1effect=If unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 2 (max 20%). If unit initiates combat, unit moves 1 space away after combat.
+|1required=-
+|1cost=60
+|1promotionRarity=4
+|1promotionTier=1
+|2name=Close Call 2
+|2tagid=SID_回避・一撃離脱2
+|2effect=If unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 3 (max 30%). If unit initiates combat, unit moves 1 space away after combat.
+|2cost=120
+|2promotionRarity=5
+|2promotionTier=1
+|3name=Close Call 3
+|3tagid=SID_回避・一撃離脱3
+|3effect=If unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 4 (max 40%). If unit initiates combat, unit moves 1 space away after combat.
+|3next=-
+|4name=Close Call 4
+|4tagid=SID_回避・一撃離脱4
+|4cost=300
+|4effect=Inflicts Spd/Def-4 on foe during combat. If a skill compares unit's Spd to a foe's or ally's Spd, treats unit's Spd as if granted +7. If unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 5 (max 50%). If unit initiates combat, unit moves 1 space away after combat.
+|3cost=240
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Close Call 3}} Close Call 3
+|s1 Me={{Eft|Drag Back Units}}
+|s1 MeT={{Tgt|Unit}}
+|s1 MeC=After combat<br>in Player Phase
+|s1 Ce={{Eft|Damage Reduction|4 x ({{Tgt|Unit}}'s Spd - {{Tgt|Foe)}}'s Spd)<br>from attacks & Non-Røkkr [[AoE Specials]]|percent=1|max=40%}}
+|s1 CeT={{Tgt|Unit}}
+|s1 CeC={{Tgt|Unit}}'s Spd ><br>{{Tgt|Foe)}}'s Spd
+|skill2={{Si|Close Call 4}} Close Call 4
+|s2 Me={{Eft|Drag Back Units}}
+|s2 MeT={{Tgt|Unit}}
+|s2 MeC=After combat<br>in Player Phase
+|s2 Ce1={{Eft|Temporary debuffs|Spd/Def|4}}
+|s2 Ce1T={{Tgt|Foe}} 
+|s2 Ce2={{Eft|Phantom|Spd|7}}
+|s2 Ce3={{Eft|Damage Reduction|5 x ({{Tgt|Unit}}'s Spd - {{Tgt|Foe)}}'s Spd)<br>from attacks & Non-Røkkr [[AoE Specials]]|percent=1|max=50%}}
+|s2 Ce2-3T={{Tgt|Unit}}
+|s2 Ce3C={{Tgt|Unit}}'s Spd ><br>{{Tgt|Foe)}}'s Spd
+}}
+
+==Notes==
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+* Close Call has the same effect as {{St|Hit and Run}}.
+{{IfUnitInitiates}}
+{{Movement Passive notes}}
+{{Temporary debuffs|name=Close Call 4}}
+{{Phantom Passive notes|Spd|name=Close Call 4|columns=4}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Close Call 
+|japanese=回避・一撃離脱
+|japaneseNotes=''Evasion/[[Hit and Run]]''
+|german=Schutzüberfall
+|spanishEU=Pirueta
+|spanishLA=Pirueta
+|french=Coup-repli
+|italian=Stoccata e fuga
+|chineseTW=迴避・一擊即離
+|portuguese=Bate e foge
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit_s Spd%foe_s Spd%reduces damage from%area-of-effect Specials%difference between stats%' AND Exclusive='1'}}
+* [[Dodge Passives]]
+* [[Movement Passives]]
+* [[Phantom Passives]]
+{{Passives Navbox|B}}
+[[Category:Dodge Passives]]

@@ -1,0 +1,69 @@
+{{#invoke:NameAbout|main|Name=Kaden}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Kaden
+|Title=Kitsune Braggart
+|GrowthModifier=
+|WeaponType=Green Beast
+|Origin=Fire Emblem Fates
+|Gender=Male
+|MoveType=Cavalry
+|actorJP=高橋勇太
+|actorEN=Max Mittelman
+|artist=久杉トク
+|additionDate=February 20, 2019
+|releaseDate=February 20, 2019
+|poolDate=March 8, 2019
+|randomStartTime=2019-03-20T07:00:00Z
+|poolRarities=5
+|TagID=ニシキ
+|InternalID=346
+|Properties=specRate_202108
+|cv1=11
+|cv2=400500
+|description=The chief of a hidden village of kitsune. He has absolute confidence in the beauty of his fur. Appears in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=8|Lv1SPD=10|Lv1DEF=6|Lv1RES=6
+|GRHP=50|GRATK=55|GRSPD=60|GRDEF=45|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Whelp (Cavalry)
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Yearling (Cavalry)
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Adult (Cavalry)
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Kitsune Fang
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Pivot
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Spd/Res Link 1
+|passiveB2=Spd/Res Link 2
+|passiveB3=Spd/Res Link 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Spur Atk 1
+|passiveC2=Spur Atk 2
+|passiveC3=Goad Beasts
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

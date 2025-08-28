@@ -1,0 +1,81 @@
+{{Passive
+|type=A
+|exclusive=0
+|1name=Death Blow 1
+|1tagid=SID_鬼神の一撃1
+|1promotionRarity=4
+|1promotionTier=1
+|1effect=If unit initiates combat, grants Atk+2 during combat.
+|1required=-
+|1cost=50
+|2name=Death Blow 2
+|2tagid=SID_鬼神の一撃2
+|2promotionRarity=5
+|2promotionTier=1
+|2effect=If unit initiates combat, grants Atk+4 during combat.
+|2cost=100
+|3name=Death Blow 3
+|3tagid=SID_鬼神の一撃3
+|3effect=If unit initiates combat, grants Atk+6 during combat.
+|3cost=200
+|3next=-
+|4name=Death Blow 4
+|4tagid=SID_鬼神の一撃4
+|4effect=If unit initiates combat, grants Atk+8 during combat.
+|4cost=300
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|all}}
+|properties1=random_all
+|properties2=random_all
+|properties3=random_all
+|properties4=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Death Blow 3}} Death Blow 3
+|skill1 CombatEffect={{SkillEffectText|Temporary buffs|Atk|6}}
+|skill1 CombatEffect Conditions=Player Phase
+|skill2={{Si|Death Blow 4}} Death Blow 4
+|skill2 CombatEffect={{SkillEffectText|Temporary buffs|Atk|8}}
+|skill2 CombatEffect Conditions=Player Phase
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Death Blow 1;Death Blow 2;Death Blow 3
+|badgeColor=Scarlet
+|costs1=20;100;40
+|costs2=60;100;50
+|costs3=400;1000;100
+}}
+==Trivia==
+* {{St|Death Blow 4}} is the first tier 4 inheritable Passive and tier 4 inheritable A Passive that was released in ''Heroes''.
+==In other languages==
+{{OtherLanguages
+|japanese=鬼神の一撃
+|german=Ins Schwarze
+|spanishEU=Golpe mortal
+|spanishLA=Golpe mortal
+|french=Coup fatal
+|italian=Colpo mortale
+|chineseTW=鬼神一擊
+|portuguese=Golpe mortal
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%if unit initiates combat, grants Atk+_%during combat%' AND (Exclusive=1 AND Name NOT LIKE '%+')) OR Name LIKE '%Death Blow%'}}
+* [[Blow Passives]]
+{{Seals Navbox}}
+{{Passives Navbox|A}}
+[[Category:Blow Passives]]

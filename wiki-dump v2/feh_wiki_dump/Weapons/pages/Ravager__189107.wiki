@@ -1,0 +1,39 @@
+{{Weapon Infobox
+|tagid=SID_滅びの魔拳
+|intID=3451
+|exclusive=1
+|weaponType=Beast
+|canUseMove=Armored
+|cost=400
+|might=14
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of combat, if unit's HP ≥ 25%, inflicts Special cooldown charge -1 per attack on foe and Atk/Def-6 on foe during combat (only highest value applied; does not stack), and also, if unit is transformed, grants Special cooldown charge +1 per attack to unit during combat (only highest value applied; does not stack). If unit's HP ≥ 25% at start of combat and foe initiates combat, reduces damage from foe's follow-up attack by 80% during combat ("follow-up attack" normally means only the second strike; for effects that grant "unit attacks twice," it means the third and fourth strikes). At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and if foe initiates combat, unit can counterattack regardless of foe's range.
+|statModifiers=0,14,0,0,0
+|required=Adult (Armored)
+|properties=random_owner
+}}
+==Notes==
+{{CooldownChargeMinus}}
+{{Temporary debuffs}}
+{{CooldownChargePlus}}
+{{IfUnitTransforms|special cooldown charge +1}}
+{{DamagePercentageReduction}}
+{{Beast (Armored)}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=滅びの魔拳
+|german=Verwüster
+|spanishEU=Plaga
+|spanishLA=Plaga
+|french=Ravageur
+|italian=Distruttore
+|chineseTW=毀滅魔拳
+|portuguese=Devastação
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants special%cooldown charge%+1 to unit%inflicts Special cooldown charge -1%' OR Description LIKE '%inflicts Special cooldown charge -1%grants special%cooldown charge%+1 to unit%' OR Description LIKE '%reduces damage from foe_s follow-up attack by%'}}
+{{Weapons Navbox}}

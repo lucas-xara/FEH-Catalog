@@ -1,0 +1,58 @@
+{{Weapon Infobox
+|tagid=SID_魔器・鍛錬の花槍
+|intID=3435
+|image=wep_lc136
+|exclusive=0
+|weaponType=Lance
+|cost=300
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 during combat, unit makes a guaranteed follow-up attack, foe cannot make a follow-up attack, and also, if unit or foe initiates combat after moving to a different space, grants Special cooldown charge +1 to unit per attack during combat. (Only highest value applied. Does not stack.)
+|statModifiers=0,16,0,0,0
+|required=Silver Lance
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=200
+|properties=arcane,random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce2={{Eft|Guaranteed Follow-Ups}}
+|Ce3={{Eft|Prevent Follow-Ups}}
+|Ce3T={{Tgt|Foe}}
+|Ce1-3C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce4={{Eft|Accelerate Charge}}
+|Ce4T={{Tgt|Unit}}
+|Ce4C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' Initiator moved to<br>a different space
+}}
+==Notes==
+{{Temporary buffs}}
+{{Guaranteed follow-up interaction}}
+{{Prevent follow-up}}
+{{IfUnitInitiates}}
+{{IfFoeInitiates}}
+{{CooldownChargePlus}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==In other languages==
+{{OtherLanguages
+|japanese=魔器・鍛錬の花槍
+|german=Arkane Lanze
+|spanishEU=Qiang arcana
+|spanishLA=Qiang arcana
+|french=Qiang arcane
+|italian=Qiang arcana
+|chineseTW=魔器・鍛鍊花槍
+|portuguese=Qiang arcana
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%unit or foe initiates%moving to a different space%' OR Description LIKE '%grants Atk/Spd/Def/Res+%during combat%guaranteed follow-up%cannot make a follow-up%' OR Description LIKE '%grants Atk/Spd/Def/Res+%during combat%cannot make a follow-up%guaranteed follow-up%') AND Exclusive='1'}}
+* [[Clash Passives]]
+{{Weapons Navbox}}

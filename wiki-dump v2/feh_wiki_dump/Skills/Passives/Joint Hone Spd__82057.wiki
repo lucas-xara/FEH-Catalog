@@ -1,0 +1,48 @@
+{{Passive
+|type=C
+|exclusive=0
+|1name=Joint Hone Spd
+|1tagid=SID_速さの相互鼓舞
+|1effect=At start of turn, if unit is adjacent to an ally, grants Spd+5 to unit and adjacent allies for 1 turn.
+|1cost=300
+|1required=Hone Spd 3
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se={{Eft|Bonuses|Spd|5}}
+|SeT={{Tgt|Unit}} '''&''' [[Adjacent]]<br>{{Tgt|Allies}}
+|SeC=At start of turn if<br>{{Tgt|Unit}} is [[Adjacent]]<br>to an {{Tgt|Ally}}
+}}
+
+==Notes==
+{{Bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Trivia==
+* {{St|Joint Hone Spd}}, alongside {{St|Hone Atk 4}}, are the first tier 4 inheritable C Passives that was released in ''Heroes'', just under 4 months after the first tier 4 inheritable Passive {{St|Death Blow 4}}.
+==In other languages==
+{{OtherLanguages
+|japanese=速さの相互鼓舞
+|german=Nachbar-Ges.
+|spanishEU=Omnimpulso Vel
+|spanishLA=Omnipulso Vel.
+|french=Entraide Vit
+|italian=Incita Vel gruppo
+|chineseTW=速度相互鼓舞
+|portuguese=Vel. omnielevada
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%at start of turn, if%grants%Spd%+%to unit%allies%for 1 turn%' AND Exclusive='1'}}
+* [[Hone Passives]]
+* [[Fortify Passives]]
+* [[Skill families/C Passives#Joint Hone|Joint Hone Passives]]
+{{Passives Navbox|C}}
+[[Category:Hone Passives]]
+[[Category:Joint Hone Passives]]

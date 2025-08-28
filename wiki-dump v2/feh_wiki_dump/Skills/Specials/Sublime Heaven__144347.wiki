@@ -1,0 +1,45 @@
+{{Special
+|tagid=SID_覇天
+|charge=2
+|effect=Boosts damage by 25% of unit's Atk. If in combat against a dragon foe or beast foe, boosts damage by 50% instead of 25%. Disables non-Special skills that "reduce damage by X%."
+|cost=500
+|exclusive=1
+|required=Draconic Aura
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|intID=2627
+|sort=554
+|value=12
+|timingID=3
+|abilityID=293
+|randomTimestamp=2021-07-30T07:00:00Z
+|randomMinLv=31
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Damage Boost|(50% if against a<br>{{Cwti|group=1|Beast,Dragon}} [[Dragon]]/[[Beast]]<br>{{Tgt|Foe}}; else 25%)<br>of {{Tgt|Unit}}'s Atk}}
+|Ce2={{Eft|Neutralize Damage Reduction}}
+|CeT2={{Tgt|Foe}}
+|CeC1-2=Special triggers
+}}
+
+==Notes==
+{{AtkDamageBoost}}
+{{DamageReductionNeutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=覇天
+|german=Ewiger Himmel
+|spanishEU=Cielo sublime
+|spanishLA=Cielo sublime
+|french=Ciel suprême
+|italian=Cieli supremi
+|chineseTW=霸天
+|portuguese=Paraíso sublime
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%disables%reduce%damage by x%' OR Description LIKE '%neutralizes%reduce%damage by x%') AND Description LIKE '%non-Special%' AND Description NOT LIKE '%reduces the percentage%' OR Description LIKE '%if in combat against a dragon%or beast foe%'}}
+{{Specials Navbox}}

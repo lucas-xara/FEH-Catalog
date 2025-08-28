@@ -1,0 +1,79 @@
+{{#invoke:NameAbout|main|Name=Lapis}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Lapis
+|Title=Mighty Bride
+|WeaponType=Red Sword
+|MoveType=Cavalry
+|Origin=Fire Emblem Engage
+|Gender=Female
+|actorEN=Kimberly Woods
+|actorJP=高柳知葉
+|artist=みわべさくら
+|additionDate=May 20, 2024
+|releaseDate=May 20, 2024
+|cv1=14
+|cv2=300600
+|TagID=花嫁ラピス
+|InternalID=1097
+|Properties=special,hat,tiara
+|description=Prince Alcryst's retainer. Afraid of getting her outfit dirty, she is behaving a little more modestly than usual. Appears in Fire Emblem Engage.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=12|Lv1SPD=8|Lv1DEF=8|Lv1RES=5
+|GRHP=50|GRATK=70|GRSPD=90|GRDEF=50|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Wildflower Edge
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Buckler
+|special1Default=4
+|special1Unlock=3
+|special2=Escutcheon
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Darting Blow 1
+|passiveA2=Swift Sparrow 1
+|passiveA3=Swift Sparrow 2
+|passiveA4=Flared Sparrow
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Flow Guard 1
+|passiveB2=Flow Guard 2
+|passiveB3=Flow Guard 3
+|passiveB4=Flow Guard 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Panic Smoke 1
+|passiveC2=Panic Smoke 2
+|passiveC3=Panic Smoke 3
+|passiveC4=Panic Smoke 4
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Bridal Festival units]]

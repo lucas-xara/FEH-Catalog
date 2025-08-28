@@ -1,0 +1,53 @@
+{{Weapon Infobox
+|tagid=SID_参謀役の書
+|intID=3367
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|exclusive=1
+|weaponType=Red Tome
+|cost=400
+|might=14
+|range=2
+|effect=At start of combat, if foe's HP ≥ 75%, or if【Penalty】is active on foe, grants Atk/Spd/Def/Res+4 to unit during combat and unit makes a guaranteed follow-up attack.<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|statModifiers=0,14,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|tagidExtraSkill1=一
+|effectSkill1=If a Rally or movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, inflicts Atk/Def/Res-7, 【Guard】, and【Exposure】on foes in cardinal directions of unit and target after movement through their next actions. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit during combat.<br><br>【Guard】<br>Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)<br><br>【Exposure】<br>Foe's attacks deal +10 damage.
+|iconSkill1=Retainers Report W.png
+|properties=
+}}
+==Notes==
+{{EffectfromPenalty}}
+{{Temporary buffs}}
+{{Guaranteed follow-up interaction}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Penalties|name={{St|Retainer's Report|refine=Skill1}}}}
+{{Guard|name={{St|Retainer's Report|refine=Skill1}}}}
+{{Exposure|name={{St|Retainer's Report|refine=Skill1}}}}
+{{CardinalDirections}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=参謀役の書
+|german=Getreuen-Bericht
+|spanishEU=Informe auxiliar
+|spanishLA=Informe auxiliar
+|french=Rapport tactique
+|italian=Libro consigliere
+|chineseTW=參謀之書
+|portuguese=Relatório auxiliar
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%movement assist%inflicts%/%-%through%' OR Description LIKE '%【Guard】%cardinal directions%') AND Exclusive='1' OR Description LIKE '%【Exposure】%'}}
+* [[Skill families/B Passives#Ruse|Ruse Passives]]
+* [[Skill families/B Passives#Snag|Snag Passives]]
+{{Weapons Navbox}}

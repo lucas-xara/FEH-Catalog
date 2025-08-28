@@ -1,0 +1,89 @@
+{{#invoke:NameAbout|main|Name=Tiki}}{{HeroPage Tabs|{{PAGENAME}}}}
+{{Hero Infobox
+|Name=Tiki
+|Title=Legendary Dragon
+|GrowthModifier=Gen 2, Trainee
+|WeaponType=Blue Breath
+|Origin=Fire Emblem: Mystery of the Emblem
+|Gender=Female
+|LegendaryEffect=Earth
+|BoostHP=3
+|BoostDef=4
+|MoveType=Armored
+|actorEN=Mela Lee
+|actorJP=諸星すみれ
+|artist=円居雄一郎
+|releaseDate = 2018-09-28
+|TagID=伝承チキ
+|InternalID=297
+|Properties=legendary,hat,tiara
+|cv1=1
+|cv2=1000100
+|description=A princess and daughter of the Divine Dragon. Left behind long ago, before Naga's death, she hides great power within herself. Appears in Fire Emblem: Mystery of the Emblem.
+}}
+
+__TOC__
+
+{{Stats Page|Hero={{BASEPAGENAME}}
+|Lv1HP=17|Lv1ATK=10|Lv1SPD=11|Lv1DEF=4|Lv1RES=5
+|GRHP=65|GRATK=55|GRSPD=55|GRDEF=75|GRRES=55
+}}
+
+==Skills==
+
+===Weapons===
+{{Weapons Table
+|weapon1=Fire Breath
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Fire Breath+
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Flametongue
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Divine Mist
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+
+===Assists===
+{{Assists Table
+}}
+
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Moonbow
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Fierce Stance 1
+|passiveA2=Fierce Stance 2
+|passiveA3=Fierce Breath
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Bold Fighter 1
+|passiveB2=Bold Fighter 2
+|passiveB3=Bold Fighter 3
+|passiveB4=Slick Fighter 1
+|passiveB5=Slick Fighter 2
+|passiveB6=Slick Fighter 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveB4Unlock=3
+|passiveB5Unlock=4
+|passiveB6Unlock=5
+|passiveC1=With Everyone!
+|passiveC2=With Everyone! II
+|passiveC1Unlock=5
+|passiveC2Unlock=5
+}}
+
+{{Heroes Navbox}}

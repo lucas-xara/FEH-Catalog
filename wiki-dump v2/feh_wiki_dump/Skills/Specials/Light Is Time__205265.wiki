@@ -1,0 +1,52 @@
+{{Special
+|tagid=SID_光は時
+|intID=3883
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=5
+|effect=Boosts damage by 60% of foe's Atk when Special triggers. Neutralizes effects that inflict "Special cooldown charge -X" on unit during combat. If unit initiates combat, unit's Special triggered, and unit survives, grants one of the following two effects after combat (once per turn): if there is only one ally with the highest HP among allies within 2 spaces of unit who have already acted, grants another action to that ally (allies with Sing or Dance can be granted this effect as well), and also, if that ally's or their Pair Up cohort's Range = 2, inflicts "restricts movement to 1 space" on that ally or that Pair Up cohort through their next action; otherwise, grants【Time's Gate】 to unit.<br><br>【Time's Gate】<br>Allies within 4 spaces of unit can move to a space adjacent to unit (that turn only).
+|required=Reprisal
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{Eft|Damage boost|percent=1|60% of {{Tgt|Foe}}'s Atk}}
+|CombatEffect 1 Conditions=Special triggers
+|CombatEffect 2={{Eft|Neutralize Guard}}
+|StatusEffect 1={{SEt|Time's Gate}}
+|StatusEffect 1 Targets={{Tgt|Unit}}
+|StatusEffect 1 Conditions=After combat in<br>Player Phase if<br>Special triggered '''&'''<br>{{Eft|Another Action}}<br>effect not applied
+|StatusEffect 2={{SEt|Gravity}}
+|StatusEffect 2 Targets={{SkillEffectIcon|Ally}} Target of<br>{{Eft|Another Action}}<br>'''or''' their {{Tgt|Cohort}}<br>whose Range = 2
+|StatusEffect 2 Conditions=After combat in<br>Player Phase if<br>Special triggered
+|MapEffect={{Eft|Another Action}}
+|MapEffect Targets={{Tgt|Ally}} with the<br>highest HP<br>[[within 2 spaces]]<br>who has acted
+|MapEffect Conditions=After combat in<br>Player Phase if<br>Special triggered '''&'''<br>only 1 {{Tgt|Target Ally}}
+}}
+==Notes==
+{{CooldownChargeMinusNeutralization}}
+{{IfUnitInitiates}}
+{{Gravity}}
+{{Time's Gate}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V7.11_v0711c_legend_Skl.webp|Sprite sheet for {{St|Time Is Light}} and {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=光は時
+|german=Licht ist Zeit
+|spanishEU=La luz es tiempo
+|spanishLA=La luz es tiempo
+|french=Lumière et temps
+|italian=La luce è tempo
+|chineseTW=光等同時間
+|portuguese=A luz é tempo
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%another action to target%' OR Description LIKE '%another action to that ally%') AND Description NOT LIKE '%【Canto%】%' OR Description LIKE '%【Time_s Gate】%'}}
+{{Specials Navbox}}

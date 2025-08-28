@@ -1,0 +1,67 @@
+{{Passive
+|type=B
+|exclusive=0
+|1name=Poison Strike 1
+|1tagid=SID_蛇毒1
+|1promotionRarity=4
+|1promotionTier=1
+|1required=-
+|1effect=If unit initiates combat, deals 4 damage to foe after combat.
+|1cost=60
+|2name=Poison Strike 2
+|2tagid=SID_蛇毒2
+|2promotionRarity=5
+|2promotionTier=1
+|2effect=If unit initiates combat, deals 7 damage to foe after combat.
+|2cost=120
+|3name=Poison Strike 3
+|3tagid=SID_蛇毒3
+|3effect=If unit initiates combat, deals 10 damage to foe after combat.
+|3cost=240
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|all}}
+|properties=random_all
+}}
+==Notes==
+{{IfUnitInitiates}}
+* Unlike {{St|Pain}} and {{St|Deathly Dagger}}, Poison Strike does not activate if the initiating unit is defeated.
+{{Out of combat damage}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===Sacred Seal Forge===
+{{SealCosts
+|seals=Poison Strike 1;Poison Strike 2;Poison Strike 3
+|badgeColor=Azure
+|costs1=20;100;20
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==Trivia==
+* This skill appears in {{FE|14}}, where it inflicts 20% of maximum hp in damage to foe after any combat the user initiates.
+==In other languages==
+{{OtherLanguages
+|japanese=蛇毒
+|japaneseNotes=<i>snake venom</i>
+|german=Giftklinge
+|spanishEU=Asalto tóxico
+|spanishLA=Asalto tóxico
+|french=Frappe ciguë
+|italian=Colpo velenoso
+|chineseTW=蛇毒
+|portuguese=Golpe tóxico
+}}
+
+==See also==
+* [[Deathly Dagger]]
+* [[Pain+]]
+{{Seals Navbox}}
+{{Passives Navbox|B}}

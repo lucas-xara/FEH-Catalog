@@ -1,0 +1,89 @@
+{{About|the passive skill|the [[Status effects|status effect]]|Guard (status effect)}}{{Passive
+|type=B
+|name=Guard
+|exclusive=0
+|1name=Guard 1
+|1tagid=SID_キャンセル1
+|1promotionRarity=4
+|1promotionTier=1
+|properties1=random_all
+|1required=-
+|1effect=At start of combat, if unit's HP = 100%, inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)
+|1cost=50
+|2name=Guard 2
+|2tagid=SID_キャンセル2
+|2promotionRarity=5
+|2promotionTier=1
+|properties2=random_all
+|2effect=At start of combat, if unit's HP ≥ 90%, inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)
+|2cost=100
+|3name=Guard 3
+|3tagid=SID_キャンセル3
+|3effect=At start of combat, if unit's HP ≥ 80%, inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)
+|3next=-
+|properties3=random_all
+|4name=Guard 4
+|4tagid=SID_キャンセル4
+|4cost=300
+|4effect=At start of combat, if unit's HP ≥ 25%, inflicts Atk-4 and Special cooldown charge -1 on foe per attack during combat (only highest value applied; does not stack) and reduces damage from foe's first attack during combat by 30%.
+|properties4=random_owner
+|3cost=200
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|properties=random_all
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Guard 3}} Guard 3
+|s1 Ce={{Eft|Guard}}
+|s1 CeT={{Tgt|Foe}}
+|s1 CeC={{Tgt|Unit}}'s HP ≥ 80%<br>at start of combat
+|skill2={{Si|Guard 4}} Guard 4
+|s2 Ce1={{Eft|Temporary Debuffs|Atk|4}}
+|s2 Ce2={{Eft|Guard}}
+|s2 Ce1-2T={{Tgt|Foe}}
+|s2 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s2 Ce3={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s first attack
+}}
+
+==Notes==
+{{CooldownChargeMinus}}
+{{Temporary debuffs|name=Guard 4}}
+{{DamagePercentageReduction|name=Guard 4}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Trivia==
+* This skill appears in {{FE|9}}, where it was named Cancel and prevented enemies from counterattacking. 
+**The Japanese names of Cancel in {{FE|9}} and Guard in {{FE|H}} are the same, however, the name was changed for the English versions.
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Guard 1;Guard 2;Guard 3
+|badgeColor=Transparent
+|costs1=20;100;40
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=キャンセル
+|japaneseNotes=''Cancel''
+|german=Wacht
+|spanishEU=Cancelar
+|spanishLA=Cancelar
+|french=Négation
+|italian=Neutralizza
+|chineseTW=取消
+|portuguese=Guarda
+}}
+==See also==
+* [[Hack-o'-Lantern+]]
+* [[Skill families#Guard (cooldown charge)|Guard weapons]]
+{{Seals Navbox}}
+{{Passives Navbox|B}}

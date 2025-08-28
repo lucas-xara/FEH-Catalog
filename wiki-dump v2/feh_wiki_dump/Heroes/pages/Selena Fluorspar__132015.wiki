@@ -1,0 +1,73 @@
+{{#invoke:NameAbout|main|Name=Selena}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Selena
+|Title=Fluorspar
+|WeaponType=Blue Tome
+|MoveType=Cavalry
+|Origin=Fire Emblem: The Sacred Stones
+|Gender=Female
+|actorEN=Tiana Camacho
+|actorJP=渡辺優里奈
+|artist=ワダサチコ
+|randomStartTime=2021-01-08T07:00:00Z
+|additionDate=December 8, 2020
+|releaseDate=December 8, 2020
+|poolDate=December 25, 2020
+|poolRarities=5
+|cv1=7
+|cv2=300300
+|TagID=セライナ
+|InternalID=596
+|Properties=specRate_202308
+|description=Commoner from out of a desolate village who used her magic ability to become the Fluorspar of the Imperial Three. Appears in Fire Emblem: The Sacred Stones.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=9|Lv1SPD=9|Lv1DEF=3|Lv1RES=6
+|GRHP=50|GRATK=70|GRSPD=70|GRDEF=30|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Thunder
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elthunder
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Thoron
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Tome of Storms
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Rally Attack
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Rally Atk/Res
+|assist2Unlock=4
+|assist3=Rally Atk/Res+
+|assist3Unlock=5
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Life and Death 1
+|passiveA2=Life and Death 2
+|passiveA3=Life and Death 3
+|passiveA4=Life and Death 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Atk/Res Ruse 1
+|passiveB2=Atk/Res Ruse 2
+|passiveB3=Atk/Res Ruse 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+}}
+{{Heroes Navbox}}

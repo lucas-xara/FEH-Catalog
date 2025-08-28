@@ -1,0 +1,44 @@
+{{Weapon Infobox
+|tagid=SID_グラドの史書
+|weaponName=Tome of Grado
+|image=wep_mg158
+|weaponType=Blue Tome
+|might=14
+|range=2
+|effect=Grants Atk+3. If foe initiates combat or if foe's HP = 100% at start of combat, inflicts Atk/Res-6 on foe and neutralizes unit's penalties to Atk/Res during combat, and also, if foe is colorless and uses bow, dagger, magic, or staff, grants weapon-triangle advantage to unit and inflicts weapon-triangle disadvantage on foe during combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,17,0,0,0
+|required=Thoron;Shine
+|userVersion1=Closed
+|userVersion2=Open
+|intID=2518
+|sort=524
+|value=20
+|timingID=1
+|abilityID=37
+|limit1ID=46
+|properties=
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Combat reductions}}
+{{Penalty neutralization}}
+{{WTA}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=グラドの史書
+|german=Grado-Buch
+|spanishEU=Grimorio Grado
+|spanishLA=Grimorio Grado
+|french=Tome de Grado
+|italian=Tomo di Graze
+|chineseTW=格拉多的史書
+|portuguese=Tomo de Grado
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%colorless%weapon-triangle disadvantage%' AND WikiName NOT LIKE '%Raven%'|columns=3}}
+* [[Raven Tomes]]
+{{Weapons Navbox}}

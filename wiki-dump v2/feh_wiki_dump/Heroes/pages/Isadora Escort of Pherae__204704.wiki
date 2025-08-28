@@ -1,0 +1,71 @@
+{{#invoke:NameAbout|main|Name=Isadora}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Isadora
+|Title=Escort of Pherae
+|WeaponType=Blue Lance
+|MoveType=Cavalry
+|Origin=Fire Emblem: The Blazing Blade
+|Gender=Female
+|actorEN=Chelsea Rebecca
+|actorJP=長谷川育美
+|artist=たかや友英
+|randomStartTime=2023-12-17T07:00:00Z
+|additionDate=November 17, 2023
+|releaseDate=November 17, 2023
+|poolDate=December 7, 2023
+|poolRarities=5
+|cv1=6
+|cv2=200300
+|TagID=イサドラ
+|InternalID=1023
+|Properties=
+|description=A knight of Pherae known for being a paladin of marked beauty. She serves as the personal guard of Eleanora, wife of Marquess Pherae. Appears in Fire Emblem: The Blazing Blade.
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=13|Lv1SPD=11|Lv1DEF=6|Lv1RES=6
+|GRHP=50|GRATK=70|GRSPD=80|GRDEF=60|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Lance
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Guarding Lance
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Reposition
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Clash 1
+|passiveA2=Atk/Spd Clash 2
+|passiveA3=Atk/Spd Clash 3
+|passiveA4=Atk/Spd Clash 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Atk/Def Snag 1
+|passiveB2=Atk/Def Snag 2
+|passiveB3=Atk/Def Snag 3
+|passiveB4=Atk/Def Snag 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+}}
+{{Heroes Navbox}}

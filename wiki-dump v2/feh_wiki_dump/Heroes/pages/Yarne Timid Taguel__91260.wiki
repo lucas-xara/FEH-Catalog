@@ -1,0 +1,81 @@
+{{#invoke:NameAbout|main|Name=Yarne}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Yarne
+|Title=Timid Taguel
+|GrowthModifier=Gen 3
+|WeaponType=Green Beast
+|Origin=Fire Emblem Awakening
+|Gender=Male
+|MoveType=Cavalry
+|actorJP=遠藤大輔
+|actorEN=Chris Smith
+|artist=п猫Ｒ
+|additionDate=June 10, 2019
+|releaseDate=June 11, 2019
+|poolDate=June 28, 2019
+|randomStartTime=2019-07-11T07:00:00Z
+|poolRarities=5
+|TagID=シャンブレー
+|InternalID=385
+|Properties=specRate_202202
+|cv1=10
+|cv2=6900600
+|description=Panne's son. The last of the taguel. Continually terrified that his death will mark the end of his race. Appears in Fire Emblem Awakening.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=9|Lv1SPD=7|Lv1DEF=8|Lv1RES=4
+|GRHP=50|GRATK=60|GRSPD=60|GRDEF=55|GRRES=30
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Whelp (Cavalry)
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Yearling (Cavalry)
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Adult (Cavalry)
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Bunny Fang
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+}}
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Astra
+|special2Default=
+|special2Unlock=4
+|special3=Galeforce
+|special3Default=
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Solo 1
+|passiveA2=Atk/Spd Solo 2
+|passiveA3=Atk/Spd Solo 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Escape Route 1
+|passiveB2=Escape Route 2
+|passiveB3=Escape Route 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Odd Spd Wave 1
+|passiveC2=Odd Spd Wave 2
+|passiveC3=Odd Spd Wave 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

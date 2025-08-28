@@ -1,0 +1,38 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_キルソード＋
+|weaponType=Sword
+|weaponName={{PAGENAME}}
+|altWeaponName=Killing Edge Plus
+|might=11
+|range=1
+|effect=Accelerates Special trigger (cooldown count-1).
+|cooldown=-1
+|cost=300
+|exclusive=0
+|statModifiers=0,11,0,0,0
+|required=Killing Edge
+|properties=random_all
+}}
+==Evolution==
+{{WEvo
+|weapon=Slaying Edge+
+|Medals=200
+|Stones=20
+|Dew=
+}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=キルソード＋
+|german=Schnitter+
+|spanishEU=E. asesina +
+|spanishLA=Espada letal +
+|french=Fer létal +
+|italian=Lama letale+
+|chineseTW=必殺劍＋
+|portuguese=Espada letal+
+}}
+==See also==
+* [[Weapons that accelerate the Special trigger]]
+{{Weapons Navbox}}

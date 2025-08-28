@@ -1,0 +1,55 @@
+{{Weapon Infobox
+|tagid=SID_魔道の寵子の羅針盤
+|intID=3424
+|image=wep_mg076
+|exclusive=1
+|weaponType=Red Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of turn, if unit's HP ≥ 25%, grants "unit cannot be slowed by terrain (does not apply to impassable terrain)" to unit for 1 turn and unit can move 1 extra space. (That turn only. Does not stack.) At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 during combat, grants bonus to unit's Atk/Spd = number of【Bonus】effects active on unit × 4 (excluding stat bonuses; max 16), and also, if unit deals damage to foe using a Special (excluding area-of-effect Specials), reduces damage from foe's next attack by 50% (once per combat; resets at end of combat; triggers even if 0 damage is dealt).<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|statModifiers=0,14,0,0,0
+|required=Bolganone;Fenrir
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Se1={{SEt|Traverse Terrain}}
+|Se2={{SEt|Mobility Increased}}
+|SeC=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25%
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd|4 x {{Kp|Bonus}}<br>effects on {{Tgt|Unit}}<br>(exc. {{SEt|Bonuses}})|max=16}}
+|Ce1-2C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce3={{Eft|Damage Reduction|50%}}<br>from {{Tgt|Foe}}'s next attack
+|Ce3C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat '''&'''<br>{{Tgt|Unit}}'s [[offensive Special|offensive<br>Special]] triggered
+}}
+==Notes==
+{{Traverse Terrain}}
+{{Mobility increased}}
+{{Temporary buffs}}
+{{EffectfromBonus|nonStat=1|additional temporary buffs}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V7.1_v0701a_khadein_Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=魔道の寵子の羅針盤
+|german=Zauberkompass
+|spanishEU=Brújula infantil
+|spanishLA=Brújula infantil
+|french=Boussole juvénile
+|italian=Bussola infantile
+|chineseTW=魔道寵兒的指南針
+|portuguese=Bússola infantil
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%"unit cannot be slowed by terrain%' AND Exclusive='1' AND Name NOT LIKE '%r%lantern+'}}
+* [[Skill families/Weapons#Lantern|Lantern Weapons]]
+* [[Skill families/C Passives#Tempest|Tempest Passives]]
+{{Weapons Navbox}}

@@ -1,0 +1,52 @@
+{{Passive
+|type=S
+|exclusive=0
+|1name=Squad Ace A 1
+|1tagid=SID_第1迷宮の覇者1
+|1effect=Grants HP+3.
+|1cost=40
+|1next=-
+|2name=Squad Ace A 2
+|2tagid=SID_第1迷宮の覇者2
+|2effect=Grants HP+4.
+|2cost=80
+|2next=-
+|3name=Squad Ace A 3
+|3tagid=SID_第1迷宮の覇者3
+|3effect=Grants HP+5.
+|3cost=160
+|statModifiers1=3,0,0,0,0
+|statModifiers2=4,0,0,0,0
+|statModifiers3=5,0,0,0,0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=
+}}
+==Seal acquired from==
+===Squad Assault reward===
+* Complete the [[1st Assault]].
+===Sacred Seal Forge===
+{{SealCosts
+|seals=Squad Ace A 1;Squad Ace A 2;Squad Ace A 3
+|badgeColor=Transparent 
+|costs1=-
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=第１迷宮の覇者
+|german=Überfall-Ass A
+|spanishEU=As del asalto A
+|spanishLA=As del asalto A
+|french=Assaut réussi A
+|italian=Asso squadra A
+|chineseTW=第１迷宮的霸王
+|portuguese=Esquadrão ás A
+}}
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}

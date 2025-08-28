@@ -1,0 +1,31 @@
+{{Weapon Infobox
+|tagid=SID_銀の剣
+|weaponType=Sword
+|might=11
+|range=1
+|cost=200
+|statModifiers=0,11,0,0,0
+|next=Silver Sword+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Sword
+|properties=random_all
+}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==In other languages==
+{{OtherLanguages
+|japanese=銀の剣
+|german=Silberschwert
+|spanishEU=Espada plata
+|spanishLA=Espada plata
+|french=Épée argent
+|italian=Spada argento
+|chineseTW=銀劍
+|portuguese=Espada de prata
+}}
+==See also==
+* [[Silver Weapons]]
+{{Weapons Navbox}}
+[[Category:Silver weapons]]

@@ -1,0 +1,39 @@
+{{Assist
+|tagid=SID_魔防の大応援＋
+|name=Rally Up Res+
+|range=1
+|effect=Grants Res+6 to target ally and allies within 2 spaces of target (excluding unit) for 1 turn.
+|cost=400
+|exclusive=0
+|required=Rally Up Res
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_owner,random_inherit_base
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se={{Eft|Bonuses|Res|6}}
+|SeT={{Tgt|Target Ally}}<br>'''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Ally}}
+|SeC={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}
+}}
+==Notes==
+{{Bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=魔防の大応援＋
+|german=Gr. Res. sam.+
+|spanishEU=Reforzar Res +
+|spanishLA=Reforzar Res. +
+|french=Rall. sup. Rés +
+|italian=Gran sprone Res+
+|chineseTW=魔防大支援＋
+|portuguese=Res. imensa+
+}}
+==See also==
+* [[Rally Assists]]
+* [[Rally Up Assists]]
+{{Assists Navbox}}
+[[Category:Rally Assists]]
+[[Category:Rally Up Assists]]

@@ -1,0 +1,80 @@
+{{#invoke:NameAbout|main|Name=Maribelle}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Maribelle
+|Title=Dire Damsel
+|GrowthModifier=None
+|WeaponType=Colorless Staff
+|MoveType=Cavalry
+|Origin=Fire Emblem Awakening
+|Gender=Female
+|artist=恒星ホリグチ
+|actorEN=Melissa Fahn
+|actorJP=五十嵐裕美
+|releaseDate=July 20, 2018
+|poolDate=August 10, 2018
+|randomStartTime=2018-08-20T07:00:00Z
+|poolRarities=5
+|TagID=マリアベル
+|InternalID=271
+|cv1=10
+|cv2=101000
+|Properties=specRate_202008
+|description=A proud noble from one of Ylisse's most well-to-do houses. A Shepherd and Lissa's best friend. Appears in Fire Emblem Awakening.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=9|Lv1SPD=9|Lv1DEF=3|Lv1RES=5
+|GRHP=40|GRATK=60|GRSPD=55|GRDEF=30|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Assault
+|weapon1Unlock=1
+|weapon2=Trilemma
+|weapon2Unlock=3
+|weapon3=Trilemma+
+|weapon3Unlock=5
+|weapon4=Punishment Staff
+|weapon4Unlock=5
+}}
+
+===Assists===
+{{Assists Table
+|assist1=Heal
+|assist1Default=1
+|assist1Unlock=1
+|assist2=Reconcile
+|assist2Default=3
+|assist2Unlock=2
+|assist3=Martyr
+|assist3Default=4
+|assist3Unlock=3
+|assist4=Martyr+
+|assist4Default=5
+|assist4Unlock=5
+}}
+===Specials===
+{{Specials Table
+|special1=Imbue
+|special1Default=4
+|special1Unlock=2
+|special2=Miracle
+|special2Default=5
+|special2Unlock=3
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Dazzling Staff 1
+|passiveB2=Dazzling Staff 2
+|passiveB3=Dazzling Staff 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Staff Valor 1
+|passiveC2=Staff Valor 2
+|passiveC3=Staff Valor 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

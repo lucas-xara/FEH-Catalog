@@ -1,0 +1,58 @@
+{{Weapon Infobox
+|tagid=SID_魔竜封印の剣
+|weaponType=Sword
+|might=16
+|range=1
+|effectiveness=dragon
+|effect=Effective against dragon foes. Unit can counterattack regardless of foe's range.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Silver Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|tagidExtraSkill1=一
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 and Special cooldown charge +1 to unit per attack (only highest value applied; does not stack), and neutralizes effects that inflict "Special cooldown charge -X" on unit during combat.
+|iconSkill1=Dragonbind W.png
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Ce1={{Eft|Effectiveness|{{Cwti|Dragonstone|group=1}} [[Dragon]]}}
+|s1 Ce2={{Eft|Distant Counter}}
+|skill2={{Si|Dragonbind|refine=Skill1}} Skill refine effects
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s2 Ce2={{Eft|Accelerate Charge}}
+|s2 Ce3={{Eft|Neutralize Guard}}
+|s2 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+* Dragonbind has the same effect as {{St|Distant Counter}}.
+{{Effective damage bonus|dragon}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary buffs}}
+{{CooldownChargePlus}}
+{{CooldownChargeMinusNeutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=魔竜封印の剣
+|german=Drachenklinge
+|spanishEU=Selladragones
+|spanishLA=Selladragones
+|french=Lame du dragon
+|italian=Sigilladraghi
+|chineseTW=封印魔龍之劍
+|portuguese=Selo de dragão
+}}
+==See also==
+{{See also skills|cond=WikiName LIKE '%binding blade%' OR (Description LIKE '%special cooldown charge +%neutralizes%"Special cooldown charge -X"%' OR Description LIKE '%neutralizes%"Special cooldown charge -X"%special cooldown charge +1 per%') AND Exclusive='1'}}
+* [[:Category:Weapons with Distant Counter|Weapons with Distant Counter]]
+* [[:Category:Weapons with Close Counter|Weapons with Close Counter]]
+{{Weapons Navbox}}

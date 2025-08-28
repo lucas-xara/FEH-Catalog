@@ -1,0 +1,79 @@
+{{#invoke:NameAbout|main|Name=Athena}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Athena
+|Title=Borderland Sword
+|artist=深遊
+|resplendentArtist=黒葉.K
+|GrowthModifier=None
+|WeaponType=Red Sword
+|MoveType=Infantry
+|Origin=Fire Emblem: New Mystery of the Emblem
+|Gender=Female
+|actorEN=Cristina Valenzuela
+|resplendentActorEN=Cristina Vee
+|actorJP=日笠陽子
+|releaseDate=June 14, 2017
+|poolDate=June 30, 2017
+|randomStartTime=2017-06-28T07:00:00Z
+|poolRarities=3,4
+|TagID=アテナ
+|InternalID=139
+|Properties=demoted_240,resplendent,embla
+|cv1=1
+|cv2=4900300
+|description=A foreign warrior with a straightforward personality. Speaks with an accent. Appears in Fire Emblem: New Mystery of the Emblem.
+|resplendentStartTime=2025-05-10T07:00:00Z
+|resplendentEndTime=2025-05-25T06:59:59Z
+}}
+__TOC__
+{{Stats Page|Hero=Athena: Borderland Sword
+|Lv1HP=17|Lv1ATK=7|Lv1SPD=10|Lv1DEF=8|Lv1RES=5
+|GRHP=45|GRATK=55|GRSPD=65|GRDEF=45|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Wo Dao
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Wo Dao+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Concealed Blade
+|weapon5Default=
+|weapon5Unlock=5
+}}
+
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Moonbow
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Armored Blow 1
+|passiveA2=Sturdy Blow 1
+|passiveA3=Sturdy Blow 2
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Sword Exp. 1
+|passiveC2=Sword Exp. 2
+|passiveC3=Sword Exp. 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

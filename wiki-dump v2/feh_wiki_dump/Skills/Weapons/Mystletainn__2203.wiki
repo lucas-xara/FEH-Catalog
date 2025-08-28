@@ -1,0 +1,62 @@
+{{About|the sword Mystletainn|the tome called Missiletain|Missiletainn (tome)|the sword called Missiletainn|Missiletainn (sword)}}{{Weapon Infobox
+|tagid=SID_ミストルティン
+|weaponType=Sword
+|might=16
+|range=1
+|effect=Accelerates Special trigger (cooldown count-1).
+|cooldown=-1
+|cost=400
+|exclusive=1
+|userVersion1=Weapon
+|userVersion2=Upgrade Gleam
+|statModifiers=0,16,0,0,0
+|required=Killing Edge
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=Grants Atk/Spd/Def/Res+3. After combat, deals 6 damage to unit.
+|iconSkill1=Fury W.png
+|tagidExtraSkill1=獅
+|statModifiersSkill1=3,19,3,3,3
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Accelerates Special}}
+|skill2={{Si|Mystletainn|refine=Skill1}} Skill refine effects
+|s2 Pe={{Eft|Stat Boosts|Atk/Spd/Def/Res|3}}
+|s2 Me={{Eft|Damage|6}}
+|s2 MeC=After combat
+}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+* {{St|Mystletainn|refine=skill1}} has the same effect as {{St|Fury 3}}.
+{{After combat note|out of combat damage|name={{St|Mystletainn|refine=skill1}}}}
+{{DamageToUnit|name={{St|Mystletainn|refine=skill1}}}}
+==Evolution==
+{{WeaponEvolution
+|weapon=Dark Mystletainn
+|Medals=375
+|Dew=150
+}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ミストルティン
+|german=Misteltein
+|spanishEU=Mistilteinn
+|spanishLA=Mistilteinn
+|french=Mistilteinn
+|italian=Mystletainn
+|chineseTW=米斯特汀
+|portuguese=Mystletainn
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%Grants Atk/Spd/Def/Res+_. After combat, deals _ damage to unit.%' OR WikiName LIKE '%M%letainn%') AND (Exclusive=1 AND Name NOT LIKE '%+')}}
+* [[Weapons that accelerate the Special trigger]]
+{{Weapons Navbox}}

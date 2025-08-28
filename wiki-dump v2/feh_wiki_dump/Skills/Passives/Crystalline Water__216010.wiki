@@ -1,0 +1,46 @@
+{{Passive
+|name=Crystalline Water
+|type=A
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Crystalline Water
+|1tagid=SID_明鏡止水
+|1effect=Grants Atk/Res+8. Inflicts Def-8.<br><br>At start of player phase or enemy phase, neutralizes【Panic】and any penalties to unit's Atk/Res that take effect on unit at this time.<br><br>【Panic】<br>Converts bonuses on target into penalties through its next action.
+|statModifiers1=0,8,0,-8,8
+|1cost=300
+|1required=Still Water 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Stat Boost|Atk/Res|8}}, {{Eft|Stat Reductions|Def|8}}
+|Se1=Removes Atk/Res {{SEt|Penalties}}
+|Se2=Removes {{SEt|Panic}}
+|SeC=At start of both Phases 
+}}
+
+==Notes==
+{{Penalty neutralization|negstatuses=Atk/Res {{SEt|Penalties}} and {{SEt|Panic}}}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=明鏡止水
+|german=Glasklares Wasser
+|spanishEU=Agua cristalina
+|spanishLA=Agua cristalina
+|french=Eau cristalline
+|italian=Acqua cristallina
+|chineseTW=明鏡止水
+|portuguese=Água cristalina
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%At start of player phase or enemy phase%neutralize%at this time%' OR Description LIKE '%At start of player phase or enemy phase%neutralize%at that time%'}}
+* [[Skill families/A Passives#Surface|Surface Passives]]
+{{Passives Navbox|A}}

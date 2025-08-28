@@ -1,0 +1,48 @@
+{{Weapon Infobox
+|tagid=SID_マリータの剣
+|weaponType=Sword
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). If unit is not adjacent to an ally, grants Atk/Spd/Def/Res+4 and neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Silver Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1). If unit initiates combat or the number of allies adjacent to unit ≤ 1, grants Atk/Spd/Def/Res+4 to unit, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks, and neutralizes foe's bonuses to Spd/Def (from skills like Fortify, Rally, etc.) during combat.
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit, neutralizes effects that inflict "Special cooldown charge -X" on unit, and deals damage = 10% of unit's Spd during combat (excluding area-of-effect Specials), and also, if unit's Special triggers (excluding area-of-effect Specials), neutralizes "reduces damage by X%" effects from non-Special skills.
+|properties=random_owner
+}}
+==Notes==
+* The not adjacent condition applies to both the combat boosts and follow-up effect neutralization.
+{{Temporary buffs}}
+{{Follow-up effect neutralization}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfUnitInitiates}}
+{{Bonus neutralization|name=refined Mareeta's Sword}}
+{{CooldownChargeMinusNeutralization|name={{St|Mareeta's Sword|refine=Skill1}}}}
+{{DamageBoost|name={{St|Mareeta's Sword|refine=Skill1}}}}
+{{DamageReductionNeutralization|name={{St|Mareeta's Sword|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Mareeta's Sword
+|japanese=マリータの剣
+|german=Mareetas Schwert
+|spanishEU=Espada Mareeta
+|spanishLA=Espada Mareeta
+|french=Épée de Mareeta
+|italian=Spada di Mareeta
+|chineseTW=瑪麗塔之劍
+|portuguese=Espada Mareeta
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit initiates combat or the number of allies adjacent to unit%' OR (Description LIKE '%disables%reduce%damage by x%' OR Description LIKE '%neutralizes%reduce%damage by x%') AND Description LIKE '%non-Special%' AND Description NOT LIKE '%reduces the percentage%'}}
+{{Weapons Navbox}}

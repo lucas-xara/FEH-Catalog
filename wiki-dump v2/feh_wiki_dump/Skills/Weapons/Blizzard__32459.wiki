@@ -1,0 +1,67 @@
+{{Weapon Infobox
+|tagid=SID_ブリザード
+|weaponType=Green Tome
+|might=14
+|range=2
+|effect=Grants Res+3. Grants bonus to unit's Atk = total penalties on foe during combat.
+|cost=400
+|exclusive=1
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|statModifiers=0,14,0,0,3
+|required=Rexcalibur
+|SE=se_effect_blizzard01.flac
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Res+3. Grants bonus to unit's Atk = total penalties on foe during combat. At start of combat, if foe's HP ≥ 75%, inflicts Spd/Res-4 on foe during combat.
+|tagidExtraSkill1=弱
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, inflicts penalty on foe's Atk/Spd/Def/Res during combat = 4 + any current penalty on each of those stats. (Example: if foe has -7 penalty to Atk, inflicts Atk-11, for a net penalty of Atk-18 during combat.) Calculates each stat penalty independently.
+|iconSkill1=Weakness Amplification W.png
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Res|3}}
+|s1 Ce={{Eft|Temporary buffs|Atk|total {{SEt|Penalties}}<br>on {{Tgt|Foe}}}}
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Res|3}}
+|s2 Ce1={{Eft|Temporary buffs|Atk|total {{SEt|Penalties}}<br>on {{Tgt|Foe}}}}
+|s2 Ce2={{Eft|Temporary debuffs|Spd/Res|4}}
+|s2 Ce2T={{Tgt|Foe}}
+|s2 Ce2C={{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|skill3={{Si|Blizzard|refine=Skill1}} Skill refine effects
+|s3 Ce={{Eft|Temporary debuffs|Atk/Spd/Def/Res|4 + {{SEt|Penalties}} on<br>each of {{Tgt|Foe}}'s stats}}
+|s3 CeT={{Tgt|Foe}}
+|s3 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{BonusesToAtkFoePenalty}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{TemporaryDebufffromPenalty|name={{St|Blizzard|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ブリザード
+|german=Blizzard
+|spanishEU=Ventisca
+|spanishLA=Ventisca
+|french=Blizzard
+|frenchNotes=Has the same name as [[Chilling Wind]].
+|italian=Bufera
+|chineseTW=暴風雪
+|portuguese=Nevasca
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%Grants bonus to unit_s Atk =%total%on foe during combat%' OR Description LIKE '%inflicts penalty on foe_s%/%any current penalty on each of those stats%') AND Exclusive='1' AND WikiName NOT LIKE '%vulture%' AND NAME NOT LIKE '%+'}}
+* [[Skill families/Weapons#Vulture|Vulture Weapons]]
+{{Weapons Navbox}}

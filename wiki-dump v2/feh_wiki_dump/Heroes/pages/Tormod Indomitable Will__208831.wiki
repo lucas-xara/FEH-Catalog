@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Tormod}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Tormod
+|Title=Indomitable Will
+|WeaponType=Red Tome
+|MoveType=Infantry
+|Origin=Fire Emblem: Radiant Dawn
+|Gender=Male
+|actorEN=Paul Castro Jr.
+|actorJP=内田真礼
+|artist=めか
+|additionDate=January 19, 2024
+|releaseDate=January 19, 2024
+|cv1=9
+|cv2=800600
+|TagID=ナバタトパック
+|InternalID=1054
+|Properties=special
+|description=Boy who claims to lead the Laguz Emancipation Army. Confidently pursues his ideals for a new world. Appears in Fire Emblem: Radiant Dawn.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=13|Lv1SPD=10|Lv1DEF=3|Lv1RES=8
+|GRHP=50|GRATK=70|GRSPD=80|GRDEF=50|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elfire
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Nabata Beacon
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Nabata Beacon+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Draconic Aura
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Spd/Res Tempo 1
+|passiveB2=Spd/Res Tempo 2
+|passiveB3=Spd/Res Tempo 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Spd/Res Gap 1
+|passiveC2=Spd/Res Gap 2
+|passiveC3=Spd/Res Gap 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}
+[[Category:Desert Festival units]]

@@ -1,0 +1,51 @@
+{{Weapon Infobox
+|tagid=SID_狼女王の牙
+|weaponType=Beast
+|might=14
+|range=1
+|effect=Accelerates Special trigger (cooldown count-1).<br>During combat, boosts unit's Atk/Spd by number of allies within 2 spaces × 2. (Maximum bonus of +6 to each stat.) At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 and deals +10 damage when Special triggers.
+|cooldown=-1
+|cost=400
+|exclusive=1
+|canUseMove=Infantry
+|statModifiers=0,14,0,0,0
+|required=Adult (Infantry)
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1). At start of combat, if foe's HP ≥ 75% or unit is within 3 spaces of an ally, grants Atk/Spd+5 to unit during combat, and also, if both conditions are met, inflicts Atk/Def-5 on foe during combat. At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, deals +7 damage when Special triggers, and neutralizes effects that grant "Special cooldown charge +X" to foe or inflict "Special cooldown charge -X" on unit.
+|tagidExtraSkill1=一
+|effectSkill1=Enables【Canto (Rem. +1)】while transformed.<br><br>At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 during combat, and also, when unit deals damage (even 0 damage) to foe during combat, restores 7 HP to unit.<br><br>【Canto (Rem. +1)】<br>After an attack, Assist skill, or structure destruction, unit can move again.<br><br>The distance of the movement is the remaining movement the unit had before the actions listed above+1 (If unit used a movement skill that warps them, the remainder is 0).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|iconSkill1=Wolf Queen Fang W.png
+|properties=random_owner
+}}
+==Notes==
+{{Temporary buffs}}
+{{Beast (Infantry)}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary debuffs}}
+{{Beast (Infantry) Upgrade}}
+{{Canto|Rem. +1}}
+{{CombatHPRecovery}}
+{{IfUnitTransforms|+7 Special damage boost, cooldown charge neutralization effects and {{Kp|Canto (Rem. +1)}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=狼女王の牙
+|german=Wolfzahn
+|spanishEU=Colmillo lupino
+|spanishLA=Colmillo lupino
+|french=Croc de reine
+|italian=Zanna regale
+|chineseTW=狼女王之牙
+|portuguese=Presa lupina
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%boosts unit_s%/%by number of allies within 2 spaces%' OR Description LIKE '%【Canto (Rem. +1)】%') AND Exclusive='1'}}
+* [[Form Passives]]
+* [[Trace Passives]]
+{{Weapons Navbox}}

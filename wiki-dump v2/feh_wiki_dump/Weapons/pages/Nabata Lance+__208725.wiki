@@ -1,0 +1,57 @@
+{{Weapon Infobox
+|tagid=SID_ナバタの槍＋
+|intID=3969
+|image=wep_lc161
+|exclusive=0
+|weaponType=Lance
+|cost=300
+|might=14
+|range=1
+|effect=At start of turn, if unit is within 2 spaces of an ally, grants "unit cannot be slowed by terrain (does not apply to impassable terrain)" and 【Hexblade】to unit for 1 turn. If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+4 to unit during combat and deals damage = 10% of unit's Atk (excluding area-of-effect Specials).<br><br>【Hexblade】<br>Calculates damage using the lower of foe's Def or Res during combat for 1 turn (including damage dealt by Specials before combat).
+|required=Nabata Lance
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{SEt|Traverse Terrain}}
+|Se2={{SEt|Hexblade}}
+|SeC=At start of turn<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce1={{SkillEffectText|Temporary buffs|Atk/Spd/Def/Res|4}}
+|Ce2={{SkillEffectText|Damage Boost|10% of {{Tgt|Unit}}'s Atk}}
+|CeC=Player Phase<br>'''or''' an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+==Notes==
+{{Traverse Terrain}}
+{{Hexblade}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{AtkDamageBoost}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=ナバタの槍＋
+|german=Nabata-Lanze+
+|spanishEU=Lanza Nabata +
+|spanishLA=Lanza Nabata +
+|french=Lance Nabata +
+|italian=Lancia di Nabata+
+|chineseTW=納巴塔之槍＋
+|portuguese=Lança de Nabata+
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%"unit cannot be slowed by terrain%' OR Description LIKE '%【Hexblade】%') AND Exclusive='1' AND Name NOT LIKE '%r%lantern+' AND Name NOT LIKE 'Hexblade%+'}}
+* [[Skill families/Weapons#Hexblade (weapons)|Hexblade Weapons]]
+* [[Skill families/A Passives#Hexblade|Hexblade Passives]]
+* [[Skill families/Weapons#Lantern|Lantern Weapons]]
+{{Weapons Navbox}}

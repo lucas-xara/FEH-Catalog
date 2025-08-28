@@ -1,0 +1,50 @@
+{{Weapon Infobox
+|tagid=SID_シュルグ
+|weaponType=Dagger
+|might=14
+|range=2
+|effect=Grants Spd+3. At start of combat, if unit's Spd > foe's Spd, grants Atk/Spd+4 during combat. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,3,0,0
+|required=Silver Dagger
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Spd+3. At start of combat, if unit's Spd > foe's Spd or if foe's HP ≥ 75%, grants Atk/Spd+5 to unit during combat and deals damage = 15% of unit's Spd.<br>Effect:【Dagger ７】<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|tagidExtraSkill1=一
+|effectSkill1=Inflicts Atk/Spd/Def/Res-X on foes within 3 spaces of unit during combat (X = the greater of unit's current bonus or foe's current penalty on each stat). Calculates each stat penalty independently. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+4 to unit during combat.
+|iconSkill1=Sylgr W.png
+|properties=random_owner
+}}
+==Notes==
+{{At start of combat}}
+{{Temporary buffs}}
+{{IfUnitAttacked}}
+{{Penalties}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{DamageBoost}}
+{{CombatReductionfromBonus}}
+{{CombatReductionfromPenalty}}
+{{FoesCombatEffect}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=シュルグ
+|german=Sylgr
+|spanishEU=Sylgr
+|spanishLA=Sylgr
+|french=Sylgr
+|italian=Sylgr
+|chineseTW=休爾格
+|portuguese=Sylgr
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%if unit\'s Spd > foe\'s Spd, grants%'}}
+{{Weapons Navbox}}

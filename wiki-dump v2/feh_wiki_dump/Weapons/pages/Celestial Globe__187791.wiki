@@ -1,0 +1,43 @@
+{{Weapon Infobox
+|tagid=SID_魔継ぐ少女の天球儀
+|intID=3423
+|image=wep_mg075
+|exclusive=1
+|weaponType=Red Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of turn, if unit is within 2 spaces of an ally, grants "unit cannot be slowed by terrain (does not apply to impassable terrain)" and 【Null Follow-Up】to unit and allies within 2 spaces of unit for 1 turn. If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit during combat, deals damage = 20% of unit's Spd (including when dealing damage with a Special triggered before combat), and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50%. (Example: a foe with a "reduce damage by 45%" skill would reduce damage by 23% instead.)<br><br>【Null Follow-Up】<br>If unit's Spd > foe's Spd during combat, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks for 1 turn.
+|statModifiers=0,14,0,0,0
+|required=Bolganone;Fenrir
+|properties=
+}}
+==Notes==
+{{Ignore Terrain}}
+{{Null Follow-Up}}
+{{Temporary buffs}}
+{{DamageBoost}}
+{{Reduce Damage Reduction}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V7.1_v0701a_khadein_Mag_2.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=魔継ぐ少女の天球儀
+|german=Himmelskugel
+|spanishEU=Esfera celestial
+|spanishLA=Esfera celestial
+|french=Sphère céleste
+|italian=Globo celeste
+|chineseTW=繼魔少女的天球儀
+|portuguese=Globo celestial
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%cannot be slowed by terrain%' OR Description LIKE '%【Null Follow-Up】%' OR Description LIKE '%"reduce damage by X%" skills by 50%') AND Exclusive='1'}}
+* [[Null Passives]]
+* [[Skill families/B Passives#Tempo|Tempo Passives]]
+{{Weapons Navbox}}

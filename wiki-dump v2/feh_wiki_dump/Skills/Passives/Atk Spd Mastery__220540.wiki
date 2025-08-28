@@ -1,0 +1,49 @@
+{{Passive
+|name=Atk/Spd Mastery
+|type=A
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|Flying}}
+|properties=random_owner
+|1name=Atk/Spd Mastery
+|alt1name=Atk Spd Mastery
+|1tagid=SID_攻撃速さの制空
+|1effect=If unit has entered combat during the current turn, enables【Canto (２)】.<br><br>At start of combat, if foe's HP ≥ 50%, grants Atk/Spd+7 to unit during combat, and also, if any space within 2 spaces of unit has a Divine Vein effect applied or counts as difficult terrain, excluding impassable terrain, grants Atk/Spd+4 to unit during combat.<br><br>【Canto (２)】<br>After an attack, Assist skill, or structure destruction, unit can move ２ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|1cost=300
+|1required=Atk/Spd Catch 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Canto|2}}
+|MeC={{Tgt|Unit}} entered combat<br>during the current turn
+|Ce1={{Eft|Temporary buffs|Atk/Spd|7}}
+|Ce1C={{Tgt|Foe}}'s HP ≥ 50%<br>at start of combat
+|Ce2={{Eft|Temporary buffs|Atk/Spd|4}}
+|Ce2C={{Tgt|Foe}}'s HP ≥ 50%<br>at start of combat<br>'''&''' ({{Tgt|Unit}} is<br>[[within 2 spaces]]<br>of a [[Divine Vein]]<br>'''or''' difficult [[terrain]])
+}}
+
+==Notes==
+{{Canto|2}}
+{{Temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Atk/Spd Mastery
+|japanese=攻撃速さの制空
+|german=A/G-Kontrolle
+|spanishEU=Maestría Ata/Vel
+|spanishLA=Maestría Atq./Vel.
+|french=Maîtrise Atq/Vit
+|italian=Maestria Att/Vel
+|chineseTW=攻擊速度制空
+|portuguese=Maestria Atq./Vel.
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%entered combat during the current turn%enables【Canto%】%' OR Description LIKE '%if any space within _ spaces of unit has a Divine Vein effect applied or counts as difficult terrain%') AND Exclusive='1'}}
+* [[Skill families/A Passives#Mastery|Mastery Passives]]
+{{Passives Navbox|A}}

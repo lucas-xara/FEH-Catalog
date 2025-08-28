@@ -1,0 +1,53 @@
+{{Special
+|tagid=SID_砕風
+|name=Rising Wind
+|charge=4
+|effect=Before combat this unit initiates, foes in an area near target take damage equal to (unit's Atk minus foe's Def or Res).
+|cost=150
+|next=Blazing Wind
+|promotionRarity=4
+|promotionTier=2
+|required=-
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_all,aoe_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|MapEffect={{Eft|Damage|{{Tgt|Unit}}'s Atk -<br>{{Tgt|Foe}}'s Def/Res}}
+|MapEffect Targets={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[adjacent]] to {{Tgt|Target Foe}}
+|MapEffect Conditions=Special triggers<br>before combat
+}}
+
+==Notes==
+{{AoE Special notes}}
+{{Main|Area of Effect Specials}}
+{|class="wikitable default mw-collapsible" style="text-align:center"
+!Example of Area of Effect for Rising Wind
+|-
+|style="max-width:450px;margin:auto" align="middle"|{{AoE|special=1
+|-----
+|--x--
+|-xtx-
+|--x--
+|-----
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==Trivia==
+* Rising Wind's cooldown was reduced by 1 with {{Version|2}}, released on November 28th, 2017.
+==In other languages==
+{{OtherLanguages
+|japanese=砕風
+|german=Starker Wind
+|spanishEU=Viento creciente
+|spanishLA=Viento creciente
+|french=Vent naissant
+|italian=Vento nascente
+|chineseTW=碎風
+|portuguese=Vento crescente
+}}
+{{Specials Navbox}}

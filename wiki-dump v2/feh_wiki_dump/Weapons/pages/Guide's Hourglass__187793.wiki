@@ -1,0 +1,41 @@
+{{Weapon Infobox
+|tagid=SID_導きの教師の砂時計
+|intID=3425
+|image=wep_mg177
+|exclusive=1
+|weaponType=Blue Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of turn, if unit is within 2 spaces of an ally, grants "unit cannot be slowed by terrain (does not apply to impassable terrain)" and 【Dodge】to unit for 1 turn. If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit and neutralizes effects that grant "Special cooldown charge +X" to foe or inflict "Special cooldown charge -X" on unit during combat. If unit is within 2 spaces of any allies, grants Atk/Spd/Def/Res+4 to those allies during combat.<br><br>【Dodge】<br>If unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 4 (max 40%).
+|statModifiers=0,14,0,0,0
+|required=Thoron;Shine
+|properties=
+}}
+==Notes==
+{{Ignore Terrain}}
+{{Dodge}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{CooldownChargePlusNeutralization}}
+{{CooldownChargeMinusNeutralization}}
+{{AlliesCombatEffect}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=導きの教師の砂時計
+|german=Sanduhr d. Lehre
+|spanishEU=Reloj de guía
+|spanishLA=Reloj de guía
+|french=Sablier de guide
+|italian=Clessidra guida
+|chineseTW=引導之師的沙漏
+|portuguese=Ampulheta guia
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%cannot be slowed by terrain%' OR Description LIKE '%【Dodge】%') AND Exclusive='1' OR Description LIKE '%neutralizes%Special cooldown charge +X%Special cooldown charge -X%' AND Description NOT LIKE '%transforms%+7 damage when Special triggers%neutralizes effects%' AND WikiName NOT LIKE '%Tempo%'}}
+* [[Skill families/B Passives#Tempo|Tempo Passives]]
+{{Weapons Navbox}}

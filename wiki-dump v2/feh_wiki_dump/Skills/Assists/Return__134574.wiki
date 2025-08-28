@@ -1,0 +1,54 @@
+{{Assist
+|tagid=SID_リターン
+|name=Return
+|range=1
+|effect=Restores 8 HP to target ally and target ally moves to opposite side of unit.<br><br>If ally cannot move to the target space (if another ally or foe is occupying the space), ally will not move. Using this skill has no effect on Special cooldown charge and unit does not gain EXP or SP. (This skill is treated as a movement skill only when movement takes place.)
+|cost=200
+|exclusive=0
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|Staff}}
+|next=Return+
+|required=Reconcile
+|intID=2388
+|sort=1140
+|value=8
+|timingID=0
+|abilityID=22
+|randomTimestamp=2021-02-08T07:00:00Z
+|randomMinLv=21
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Heal|8}}
+|MeT={{Tgt|Target Ally}}
+|MeC1={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}<br>'''or''' {{SEt|Deep Wounds}}
+|Me2={{Eft|Reposition Units}}
+|MeC2={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}
+|Ce={{Eft|No Special Cooldown Charge}}
+|CeC={{Tgt|Unit}} uses Assist
+}}
+
+==Notes==
+* Has the same effect as {{St|Reposition}}.
+{{Movement skill notes|notBeforeRokkr=1}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+Wep rd038.webp|Return Sprite
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=リターン
+|german=Rückkehr
+|spanishEU=Regreso
+|spanishLA=Regreso
+|french=Retour
+|italian=Ritorno
+|chineseTW=回歸
+|portuguese=Retorno
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%target ally moves to opposite side of unit%' OR Description LIKE '%Restores%HP%to target ally%treated as a movement skill%'|columns=2}}
+{{Assists Navbox}}

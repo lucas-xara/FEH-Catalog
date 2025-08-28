@@ -1,0 +1,39 @@
+{{SkillPage Tabs}}{{Passive
+|type=A
+|exclusive=0
+|1name=Distant Counter
+|1tagid=SID_遠距離反撃
+|1effect=Unit can counterattack regardless of foe's range.
+|1required=-
+|1cost=300
+|canUseWeapon={{WeaponList|Close}}
+|canUseMove={{MoveList|all}}
+|properties=random_owner
+}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=遠距離反撃
+|german=Fernkonter
+|spanishEU=Contra larga
+|spanishLA=Contra larga
+|french=Contre distant
+|italian=Contratt. lontano
+|chineseTW=遠距離反擊
+|portuguese=Contra distante
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%counterattack regardless of%range%' AND SCategory!='Weapon') AND ((Exclusive='1' AND Name NOT LIKE '%+') OR SCategory='captain')}}
+* [[Counter Passives]]
+* [[Counter Seals]]
+* [[Prime Passives]]
+* [[Weapons with Distant Counter]]
+* [[Weapons with Close Counter]]
+{{Passives Navbox|A}}

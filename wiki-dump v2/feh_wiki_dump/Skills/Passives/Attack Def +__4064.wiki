@@ -1,0 +1,61 @@
+{{SkillPage Tabs}}{{Passive
+|name=Attack/Def +
+|type=A
+|exclusive=0
+|1name=Attack/Def +1
+|1tagid=SID_攻撃守備1
+|1promotionRarity=5
+|1promotionTier=1
+|alt1name=Attack Def Plus 1
+|1effect=Grants Atk/Def+1.
+|1cost=80
+|1required=Attack +1;Defense +1
+|2name=Attack/Def +2
+|2tagid=SID_攻撃守備2
+|alt2name=Attack Def Plus 2
+|2effect=Grants Atk/Def+2.
+|2cost=160
+|statModifiers1=0,1,0,1,0
+|statModifiers2=0,2,0,2,0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=random_all
+}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Attack/Def +1;Attack/Def +2
+|badgeColor=Verdant
+|costs1=20;100;20
+|costs2=400;1000;100
+}}
+==Trivia==
+* Unlike most of the other double [[Plus Passives]], the in-game name of this skill is <code>Attack/Def +#</code> instead of <code>Atk/Def #</code>.
+==In other languages==
+{{OtherLanguages
+|english=Attack/Def +
+|japanese=攻撃守備
+|german=Angriff/Vert. +
+|spanishEU=Ata/Def +
+|spanishLA=Atq./Def. +
+|french=Atq/Déf +
+|italian=Att/Dif +
+|chineseTW=攻擊防守
+|portuguese=Atq./Def. +
+}}
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}
+{{Passives Navbox|A}}
+[[Category: Plus Passives]]

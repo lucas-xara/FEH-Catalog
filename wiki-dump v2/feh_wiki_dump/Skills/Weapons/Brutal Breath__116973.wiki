@@ -1,0 +1,84 @@
+{{Weapon Infobox
+|tagid=SID_獣乱のブレス
+|weaponType=Dragonstone
+|image=wep_ac023
+|might=16
+|range=1
+|effect=Grants Spd+3. Grants Atk/Spd/Def/Res+X during combat. (Calculates X based on number of allies within 2 spaces of unit: 0 allies grants +5; 1 grants +3; 2 grants +1; ≥3 allies grants +0.) If the number of allies within 2 spaces is ≤ 1, inflicts Special cooldown charge -1 on foe per attack during combat. (Only highest value applied. Does not stack.) If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,3,0,0
+|required=Flametongue
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Spd+3. Grants Atk/Spd/Def/Res+X (calculates X based on number of allies adjacent to unit: if 0 allies, X = 11; if 1 ally, X = 9; if 2 allies, X = 7; if 3 allies, X = 5, and if allies ≥ 4, X = 4) and inflicts Special cooldown charge -1 on foe per attack during combat (only highest value applied; does not stack). Restores 7 HP to unit after combat. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|refineStatsSkill1=3,0,0,0,0
+|effectSkill1=At start of turn, if number of allies adjacent to unit ≤ 2, grants Atk/Spd+6,【Dodge】, and "neutralizes foe's bonuses during combat" to unit for 1 turn. If foe initiates combat or if foe's HP ≥ 75% at start of combat, grants Atk/Spd/Def/Res+4 to unit and deals damage = 20% of unit's Spd during combat (excluding area-of-effect Specials).<br><br>【Dodge】<br>If unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 4 (max 40%).
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Spd|3}}
+|s1 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5 - {{Tgt|Allies}}<br>[[within 2 spaces]] x 2|min=0}}
+|s1 Ce2={{Eft|Guard}}
+|s1 Ce2C={{Tgt|Allies}}<br>[[within 2 spaces]] ≤ 1
+|s1 Ce2T={{Tgt|Foe}}
+|s1 Ce3={{Eft|Lower Def Res}}
+|s1 Ce3T={{Tgt|Unit}}
+|s1 Ce3C={{Tgt|Foe}}'s Range = 2
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Spd|3}}
+|s2 Me={{Eft|Heal|7}}
+|s2 MeC=After combat
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|11 - [[Adjacent]] {{Tgt|Allies}} x 2|min=4}}
+|s2 Ce2={{Eft|Guard}}
+|s2 Ce2T={{Tgt|Foe}}
+|s2 Ce3={{Eft|Lower Def Res}}
+|s2 Ce3T={{Tgt|Unit}}
+|s2 Ce3C={{Tgt|Foe}}'s Range = 2
+|skill3={{Si|Brutal Breath|refine=Skill1}} Skill refine effects
+|s3 Se1={{Eft|Bonuses|Atk/Spd|6}}
+|s3 Se2={{SEt|Dodge}}
+|s3 Se3={{SEt|Neutralize Bonuses}}
+|s3 SeC=[[Adjacent]]<br>{{Tgt|Allies}} ≤ 2
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s3 Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|s3 CeC=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{CooldownChargeMinus}}
+{{LowerDefRes}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{After combat healing|name=Refined Brutal Breath}}
+{{Bonuses|name={{St|Brutal Breath|refine=Skill1}}}}
+{{Dodge|name={{St|Brutal Breath|refine=Skill1}}}}
+{{Neutralize Bonuses|name={{St|Brutal Breath|refine=Skill1}}}}
+{{IfFoeInitiates}}
+{{DamageBoost|name={{St|Brutal Breath|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Brutal Breath
+|japanese=獣乱のブレス
+|german=Brutaler Atem
+|spanishEU=Aliento cruel
+|spanishLA=Soplo cruel
+|french=Souffle brutal
+|italian=Soffio brutale
+|chineseTW=獸亂吐息
+|portuguese=Sopro brutal
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants%+X%+0%' OR Description LIKE '%number of allies within 2 spaces is ≤ 1%' OR Description LIKE '%【Dodge】%' AND Exclusive='1'}}
+* [[Skill families/C Passives#Rouse|Rouse Passives]]
+* [[Skill families/C Passives#Alarm|Alarm Passives]]
+* [[Skill families/C Passives#Incite|Incite Passives]]
+{{Weapons Navbox}}

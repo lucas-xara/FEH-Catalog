@@ -1,0 +1,44 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_傭兵団の長槍
+|weaponType=Lance
+|might=16
+|range=1
+|effect=Accelerates Special trigger (cooldown count-1).
+|cost=400
+|exclusive=1
+|cooldown=-1
+|userVersion1=Weapon
+|userVersion2=Upgrade Gleam
+|statModifiers=0,16,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=Grants Atk/Spd+3 to infantry and cavalry allies within 2 spaces during combat. If unit is within 2 spaces of an infantry or cavalry ally, grants Atk/Spd+3 during combat.
+|iconSkill1=Loyal Greatlance W.png
+|tagidExtraSkill1=紋
+|properties=
+}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Combat boosts}}
+{{AlliesCombatEffect|effect=combat boost}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|相互紋章R歩騎|Joint Goad R Infantry Cavalry}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=傭兵団の長槍
+|german=Loyale Großlanze
+|spanishEU=Asta lealtad
+|spanishLA=Asta lealtad
+|french=Épieu loyal
+|italian=Picca leale
+|chineseTW=傭兵團的長槍
+|portuguese=Glaive leal
+}}
+{{Weapons Navbox}}

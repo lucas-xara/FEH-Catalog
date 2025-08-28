@@ -1,0 +1,80 @@
+{{Weapon Infobox
+|tagid=SID_正義の一矢の弓
+|intID=4379
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=1
+|weaponType=Bow
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effectiveness=Flying
+|effect=Accelerates Special trigger (cooldown count-1). Effective against flying foes.<br><br>If unit initiates combat or if there is an ally within 3 rows or 3 columns centered on unit, grants bonus to unit's Atk/Spd/Def/Res = 5 + 15% of unit's Spd at start of combat, unit deals +7 damage (excluding area-of-effect Specials), and neutralizes effects that inflict "Special cooldown charge -X" on unit during combat, and also, when unit's Special triggers, neutralizes foe's "reduces damage by X%" effects from foe's non-Special skills during combat (excluding area-of-effect Specials).<br><br>If unit initiates combat, grants Special cooldown count-1 to unit before unit's first attack during combat, and also, if foe's attack can trigger foe's Special, inflicts Special cooldown count+1 on foe before foe's first attack during combat (cannot exceed the foe's maximum Special cooldown).<br><br>For allies within 3 rows or 3 columns centered on unit, grants Atk/Spd+4 during their combat, and also, if ally initiates combat and foe's attack can trigger foe's Special, inflicts Special cooldown count+1 on foe before foe's first attack during their combat (cannot exceed the foe's maximum Special cooldown).
+|required=Silver Bow
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce3={{Eft|Temporary buffs|Atk/Spd/Def/Res|15% of {{Tgt|Unit}}'s Spd<br>at start of combat}}
+|Ce4={{Eft|Damage Boost|7}}
+|Ce5={{Eft|Neutralize Guard}}
+|Ce6={{Eft|Neutralize Damage Reduction}}<br>per {{Tgt|Unit}}'s [[offensive special]]
+|Ce2-6C=Player Phase '''or'''<br>an {{Tgt|Ally}} is within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|Ce7={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Foe}}'s first attack
+|Ce7C=Player Phase
+|Ce8={{Eft|Increase Cooldown|1}}<br>before {{Tgt|Foe}}'s first attack
+|Ce8T={{Tgt|Foe}}
+|Ce8C=Player Phase '''&'''<br>{{Tgt|Foe}} has an<br>[[offensive special]]
+|Ce9={{Eft|Temporary buffs|Atk/Spd|4}}
+|Ce9T={{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|Ce10={{Eft|Increase Cooldown|1}}<br>before {{Tgt|Foe}}'s first attack
+|Ce10T={{Tgt|Foes}} of<br>{{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|Ce10C=Player Phase '''&'''<br>{{Tgt|Foe}} has an<br>[[offensive special]]
+}}
+==Note==
+{{Effective damage bonus|Flying}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{At start of combat}}
+{{FlatDamage|7}}
+{{CooldownChargeMinusNeutralization}}
+{{DamageReductionNeutralization}}
+{{CombatCooldownCount}}
+{{CombatCooldownCount|+1}}
+{{AlliesCombatEffect|temporary buffs and special cooldown count +1}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Ashe: Chivalric Amends|t=Caspar: Hotheaded Inciter
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants special cooldown count-%before unit_s first attack%inflicts special cooldown count+%before foe_s first attack%'}} 
+* [[Skill families/A Passives#Scowl|Scowl Passives]]
+{{Weapons Navbox}}

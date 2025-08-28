@@ -1,0 +1,82 @@
+{{#invoke:NameAbout|main|Name=Ayra|Name2=Mercedes}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Ayra
+|Title=Together in Tea
+|WeaponType=Red Sword
+|MoveType=Cavalry
+|secondPerson=Mercedes
+|Origin=Fire Emblem: Genealogy of the Holy War,Fire Emblem: Three Houses
+|Gender=FF
+|harmonized=Grants Atk/Spd+6,【Resonance: Blades】, and "unit can move 1 extra space (that turn only; does not stack)" to unit and allies from the same titles as unit for 1 turn and neutralizes any【Penalty】on unit and allies from the same titles as unit.<br><br>【Resonance: Blades】<br>Grants Atk/Spd+4 during combat for 1 turn.<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|actorEN=Brina Palencia,Dorothy Fahn
+|actorJP=折笠愛,花守ゆみり
+|artist=麻谷知世
+|additionDate=August 7, 2023
+|releaseDate=August 8, 2023
+|entry=3;12
+|cv1=3
+|cv2=800100
+|TagID=双界アイラ
+|InternalID=981
+|Properties=special,harmonized
+|description=Princess Ayra of Isaach is joined by Mercedes of the Adrestian Empire, and the pair are serving tea together! They appear in Fire Emblem: Genealogy of the Holy War / Three Houses.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=14|Lv1SPD=11|Lv1DEF=4|Lv1RES=4
+|GRHP=50|GRATK=70|GRSPD=80|GRDEF=65|GRRES=30
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Teatime's Edge
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Astra
+|special2Unlock=4
+|special3=Supreme Astra
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Clash 1
+|passiveA2=Atk/Spd Clash 2
+|passiveA3=Atk/Spd Clash 3
+|passiveA4=Atk/Spd Clash 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Desperation 1
+|passiveB2=Desperation 2
+|passiveB3=Desperation 3
+|passiveB4=Flow Desperation
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Red Feud 1
+|passiveC2=Red Feud 2
+|passiveC3=Red Feud 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}[[Category:Sources of bonuses]][[Category:Sources of Mobility increased]][[Category:Sources of negative status effect neutralization]]
+[[Category:Tea Party units]]

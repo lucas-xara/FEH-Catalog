@@ -1,0 +1,46 @@
+{{Special
+|tagid=SID_絆・神竜破
+|intID=3756
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=3
+|effect=Boosts Special damage by 50% of unit's Spd. If unit is on a team with their support partner, when unit's or unit's support partner's Special triggers (excluding area-of-effect Specials), neutralizes "reduces damage by X%" effects from foe's non-Special skills. If unit is within 3 spaces of their support partner and unit or foe's Special is ready or triggered before or during this combat, reduces damage from foe's next attack by 40% (once per combat; excluding area-of-effect Specials).
+|required=Glimmer
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Damage Boost|50% of {{Tgt|Unit}}'s Spd}}
+|Ce1C=Special triggers
+|Ce2={{Eft|Neutralize Damage Reduction}}<br>per {{Tgt|Target Units}}' [[offensive Specials]]
+|Ce2T={{Tgt|Unit}} '''&'''<br>{{Tgt|Partner}}
+|Ce2C=A {{Tgt|Partner}}<br>is deployed
+|Ce3={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s next attack
+|Ce3T={{Tgt|Unit}}
+|Ce3C=({{Tgt|Unit}} or {{Tgt|Foe}}'s<br>Special is ready '''or'''<br>triggered before or<br>during combat) '''&'''<br>a {{Tgt|Partner}} is<br>[[within 3 spaces]]
+}}
+
+==Notes==
+{{DamageBoost}}
+{{DamageReductionNeutralization}}
+{{DamagePercentageReduction}}
+{{SupportPartner|effect=damage reduction granted to the unit and damage reduction neutralization effects}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=神竜破
+|german=Drachenschlag
+|spanishEU=Ráfaga dragón
+|spanishLA=Ráfaga dragón
+|french=Explosion drac.
+|italian=Raggio di drago
+|chineseTW=神龍破
+|portuguese=Rajada dragão
+}}
+==See also==
+{{See also skills|cond=SCategory='special' AND Exclusive='1' AND (Description LIKE '%Boosts%damage by __% of unit_s Spd%' OR Description LIKE '%reduces%foe_s next attack by%' OR (Description LIKE '%disables%reduce%damage by x%' OR Description LIKE '%neutralizes%reduce%damage by x%') AND Description LIKE '%non-Special%' AND Description NOT LIKE '%reduces the percentage%') OR Description LIKE '%unit or foe_s special is ready%'}}
+* [[Skill families/A Passives#Finish|Finish Passives]]
+{{Specials Navbox}}

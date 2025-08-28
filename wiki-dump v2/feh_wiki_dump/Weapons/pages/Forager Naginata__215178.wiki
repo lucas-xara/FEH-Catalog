@@ -1,0 +1,52 @@
+{{Weapon Infobox
+|tagid=SID_農地の主の鋤
+|intID=4110
+|image=wep_lc167
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of turn, if unit's HP ≥ 25%, grants Def/Res+6 and "Special cooldown charge +1 per attack during combat (only highest value applied; does not stack)" to unit and allies within 3 spaces of unit for 1 turn. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit, grants an additional Atk/Spd/Def/Res+X to unit (X = number of allies within 3 spaces of unit × 3, + 1; max 10; if any space within 2 spaces of unit has a Divine Vein effect applied or counts as difficult terrain, excluding impassable terrain, value is treated as 10), and reduces damage from foe's first attack by X during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and also, when unit deals damage to foe during combat, restores X HP to unit (triggers even if 0 damage is dealt).
+|required=Silver Lance
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Se1={{Eft|Bonuses|Def/Res|6}}
+|Se2={{SEt|Special Cooldown Charge +1}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 3 spaces]]
+|SeC=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25%
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|3 x {{Tgt|Allies}} [[within 3 spaces]], +1|max=10*}}
+|Ce3={{Eft|Damage Reduction|3 x {{Tgt|Allies}} [[within 3 spaces]], +1|max=10*}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce4={{Eft|Heal|3 x {{Tgt|Allies}} [[within 3 spaces]], +1|max=10*}}<br>per {{Tgt|Unit}}'s attack
+|CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+<b>{{Hatnote|* If {{Tgt|Unit}} is [[within 2 spaces]] of a [[Divine Vein]] '''or''' difficult [[terrain]],<br>value is treated as max.}}</b>
+
+==Notes==
+{{Bonuses}}
+{{Special Cooldown Charge +1}}
+{{Temporary buffs}}
+{{FlatDamageReduction}}
+{{CombatHPRecovery}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=農地の主の薙刀
+|german=Demutsnaginata
+|spanishEU=Asta de montaraz
+|spanishLA=Asta de montaraz
+|french=Naginata fureteur
+|italian=Naginata rurale
+|chineseTW=農田主人之薙刀
+|portuguese=Naginata agrícola
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%if any space within _ spaces of unit has a Divine Vein effect applied or counts as difficult terrain%' OR Description LIKE '%at start of turn%grants%and allies within _ spaces%for 1 turn%') AND Exclusive='1'}}
+* [[Form Passives]]
+{{Weapons Navbox}}

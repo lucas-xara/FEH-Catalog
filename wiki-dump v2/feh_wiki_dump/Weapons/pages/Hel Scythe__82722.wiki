@@ -1,0 +1,42 @@
+{{Weapon Infobox
+|tagid=SID_ヘル
+|weaponType=Axe
+|might=16
+|range=1
+|effect=Accelerates Special trigger (cooldown count-1).<br>If foe does not use magic or staff, calculates damage using foe's Res, and if unit’s HP > 1 and foe would reduce unit’s HP to 0, unit survives with 1 HP. (Once per combat. Does not stack.)
+|cooldown=-1
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Silver Axe
+|properties=enemy_only
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerate Special}}
+|Ce1={{Efi|Lower Def Res}} Damage uses {{Tgt|Foe}}'s Res
+|Ce2={{Eft|Miracle}}
+|CeC1={{Tgt|Foe}} doesn't use<br>{{Cwti|group=1|Magic,Staff}} [[Magic]]/{{Wtp|Colorless Staff}}
+|CeC2={{Tgt|Foe}} doesn't use<br>{{Cwti|group=1|Magic,Staff}} [[Magic]]/{{Wtp|Colorless Staff}}<br>'''&''' {{Tgt|Unit}}'s HP > 1
+}}
+==Notes==
+{{SingleStatDamageCalc}}
+{{DefensiveSkill}}
+{{Survive with 1 HP}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ヘル
+|german=Hels Sense
+|spanishEU=Guadaña Hel
+|spanishLA=Guadaña Hel
+|french=Faux de la mort
+|italian=Falcianime
+|chineseTW=赫爾
+|portuguese=Foice Hel
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%f unit_s HP > 1 and foe would reduce unit_s HP to 0, unit survives with 1 HP%' AND Description NOT LIKE '%neutralizes%"if foe would reduce%' AND Exclusive='1' OR Name='Arcane Downfall'}}
+{{Weapons Navbox}}

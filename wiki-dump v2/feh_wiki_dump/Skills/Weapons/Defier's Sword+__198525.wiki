@@ -1,0 +1,43 @@
+{{Weapon Infobox
+|tagid=SID_守備逆用の剣＋
+|intID=3687
+|image=wep_sw159
+|exclusive=0
+|weaponType=Sword
+|cost=300
+|might=14
+|range=1
+|effect=At start of combat, if foe's HP ≥ 75%, grants Def+5 to unit and inflicts Def-5 on foe during combat, and also, if foe has bonuses, grants bonus to unit's Def and inflicts penalty on foe's Def during combat = current bonus on foe's Def. Calculates each stat bonus and penalty independently.
+|required=Defier's Sword
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=random_owner
+}}
+==Notes==
+{{TemporaryBufffromBonus|source=the foe}}
+{{TemporaryDebufffromBonus|source=the foe}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=守備逆用の剣＋
+|german=Verteidigerklinge+
+|spanishEU=Filo defensivo +
+|spanishLA=Filo defensivo +
+|french=Épée défensive +
+|italian=Spada sfidante+
+|chineseTW=防守逆用之劍＋
+|portuguese=Espada defens.+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe has%bonus%grants%inflicts%' AND Exclusive='1' AND WikiName NOT LIKE '%defier%'}}
+* [[Skill families/Weapons#Defier's|Defier's Weapons]]
+{{Weapons Navbox}}

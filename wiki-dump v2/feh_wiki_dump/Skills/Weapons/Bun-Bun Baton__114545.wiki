@@ -1,0 +1,57 @@
+{{Weapon Infobox
+|tagid=SID_ウカノミタマ
+|weaponType=Axe
+|might=16
+|range=1
+|effectiveness=armored
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). Effective against armored foes. Neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Silver Axe
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1). Effective against armored foes. Neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit and neutralizes effects that inflict "Special cooldown charge -X" on unit during combat.
+|effectSkill1=If a skill compares unit's Spd to a foe's or ally's Spd, treats unit's Spd as if granted +7. If foe initiates combat or foe's HP ≥ 75% at start of combat, grants Atk/Spd/Def/Res+4 to unit and reduces the percentage of foe's non-Special "reduces damage by X%" skills by 50% during combat (example: a foe with a "reduces damage by 45%" skill would reduce damage by 23% instead), and also, if unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 4 (max 40%).
+|properties=
+}}
+==Notes==
+* Bun-Bun Baton the same effect as {{St|Null Follow-Up 3}}.
+{{Effective damage bonus|armored}}
+{{Follow-up effect neutralization}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary buffs|name=refined Bun-Bun Baton}}
+{{CooldownChargeMinusNeutralization|name=refined Bun-Bun Baton}}
+{{Phantom Passive notes|Spd|name={{St|Bun-Bun Baton|refine=Skill1}}}}
+{{IfFoeInitiates}}
+{{Reduce Damage Reduction|name={{St|Bun-Bun Baton|refine=Skill1}}}}
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+* Bun-Bun Baton's internal ID, <code>SID_ウカノミタマ</code>, can be translated as [[wikipedia:Ukanomitama|''Uka-no-Mitama'']] who is a Shinto deity associated with food and agriculture.
+==In other languages==
+{{OtherLanguages
+|english=Bun-Bun Baton
+|japanese=白兎神の人参
+|german=Möhrenknüppel
+|spanishEU=Vara zanahoria
+|spanishLA=Porra conejil
+|french=Bâton carotte
+|italian=Mazza coniglina
+|chineseTW=白兔神的胡蘿蔔
+|portuguese=Clava da coelha
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%"reduce damage by X\%" skills by 50%' OR Description LIKE '%if unit_s Spd%foe_s Spd%reduces damage from%area-of-effect Specials%difference between stats%' AND Exclusive='1'}}
+* [[Dodge Passives]]
+* [[Phantom Passives]]
+* [[Sources of effective against armored foes]]
+{{Weapons Navbox}}

@@ -1,0 +1,46 @@
+{{Weapon Infobox
+|tagid=SID_アスクレピオス
+|intID=3564
+|image=wep_rd056
+|exclusive=1
+|weaponType=Colorless Staff
+|cost=400
+|might=14
+|range=2
+|effect=Grants Res+3. Calculates damage from staff like other weapons. At start of turn, if any foe's Res < unit's Res and that foe is adjacent to another foe, inflicts Atk/Res-6 and status preventing counterattacks on that foe through its next action. At start of combat, if unit's HP ≥ 25%, grants Atk/Res+6 to unit and deals damage = total penalties on foe during combat. (If the "calculates damage from staff like other weapons" effect is neutralized, damage from staff is calculated after combat damage is added.)
+|statModifiers=0,14,0,0,3
+|required=Assault
+|properties=random_owner
+}}
+==Notes==
+* Asclepius has the same effect as {{St|Wrathful Staff}}.
+{{Wrathful Staff}}
+{{Penalties}}
+{{Counterattacks disrupted}}
+{{Temporary buffs}}
+{{DamageBoost}}
+{{EffectfromPenalties|damage boost}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V7.4_v0704b_abc_Rod.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=アスクレピオス
+|german=Äskulap
+|spanishEU=Asclepius
+|spanishLA=Asclepius
+|french=Asclépius
+|italian=Esculapio
+|chineseTW=阿斯克勒庇俄斯
+|portuguese=Asclepius
+}}
+==References==
+<references/>
+
+==See also==
+{{See also skills|cond=(Description LIKE '%foe_s Res%unit_s Res%foe is adjacent to another foe%' OR Description LIKE '%deals damage = total%penalties%') AND Exclusive='1' OR Description LIKE '%inflicts%status%preventing counterattacks%next actions%' AND Description NOT LIKE '%(preventing%'}}
+* [[Skill families/B Passives#Sabotage|Sabotage Passives]]
+{{Weapons Navbox}}

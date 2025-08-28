@@ -1,0 +1,47 @@
+{{Weapon Infobox
+|tagid=SID_幽暗ヴラスキャルヴ
+|intID=3159
+|userVersion1=Closed
+|userVersion2=Open
+|exclusive=1
+|weaponType=Blue Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br>At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit during combat, and also, if foe initiates combat, unit can counterattack before foe’s first attack.
+|statModifiers=0,14,0,0,0
+|required=Thoron;Shine
+|properties=random_owner,enemy_only
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce1C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce2={{Eft|Vantage}}
+|Ce2C=Enemy Phase '''&'''<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{Temporary buffs}}
+{{Preempt}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{NorseMyth|name=Valaskjálf|("the Shelf of the Slain") is one of Odin's Halls, a great dwelling built and roofed with pure silver. In this room is a high seat, [[Wikipedia:Hliðskjálf|Hliðskjálf]], where Odin can watch over the entire universe. To put it simply, it is Odin's throne room.}}
+** In the context of {{FE|H}} this corresponds with {{St|Hliðskjálf}}, the staff used by {{Ut|Veronica: Brave Princess}}.
+
+==In other languages==
+{{OtherLanguages
+|japanese=幽暗ヴラスキャルヴ
+|german=Nebel-Valaskjálf
+|spanishEU=Valaskjálf oculto
+|spanishLA=Valaskjálf oculto
+|french=Valaskjálf voilé
+|italian=Valaskjálf velato
+|chineseTW=幽暗瓦拉斯卡夫
+|portuguese=Valaskjálf velado
+}}
+==See also==
+{{See also skills|cond=(Name LIKE '%Valaskjálf%' OR Description LIKE '%foe initiates combat%before foe_s first attack%') AND (Exclusive=1 AND Name NOT LIKE '%+' AND Properties HOLDS NOT 'arcane')|columns=3}}
+{{Weapons Navbox}}

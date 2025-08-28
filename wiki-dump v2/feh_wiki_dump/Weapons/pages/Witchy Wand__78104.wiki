@@ -1,0 +1,42 @@
+{{Weapon Infobox
+|tagid=SID_キャンディの杖
+|weaponType=Staff
+|weaponName={{PAGENAME}}
+|might=8
+|range=2
+|effect=After combat, if unit attacked, resets Special cooldown of foe, and inflicts the following status on foe through its next action: "Inflicts Special cooldown charge -1 per attack during combat. (Only highest value applied. Does not stack.)" (Neutralizes Special cooldown count reductions after combat, but skills that Accelerate and Slow Special are still effective.)
+|cost=200
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|next=Witchy Wand+
+|promotionRarity=5
+|promotionTier=2
+|required=Assault
+|properties=
+}}
+==Notes==
+{{IfUnitAttacked}}
+{{Guard}}
+* The "resets Special cooldown" effect of Witchy Wand works by inflicting Special cooldown count+99 on the foe. (Cannot exceed the foe's maximum Special cooldown.)
+{{After combat Special modification}}
+
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V2.10 61 halloween 02 Rod.png|Sprite sheet for {{St|Melancholy+}} and {{PAGENAME}}'s effect.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=キャンディの杖
+|german=Hexenstab
+|spanishEU=Varita de bruja
+|spanishLA=Varita de bruja
+|french=Bâton bonbon
+|italian=Bacchetta
+|chineseTW=糖果杖
+|portuguese=Vara de bruxa
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit attacked%inflicts%special cooldown charge -_%per attack%' AND Description NOT LIKE '%if unit attacked%inflicts Def/Res-%special cooldown charge -_%per attack%' OR Description LIKE '%inflicts special cooldown count%after combat%' AND Description NOT LIKE '%seal%' OR Description LIKE '%after combat%inflicts special cooldown count+_ on target%'|columns=3}}
+{{Weapons Navbox}}

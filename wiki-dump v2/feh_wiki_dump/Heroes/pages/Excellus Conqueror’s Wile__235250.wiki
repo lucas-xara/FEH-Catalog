@@ -1,0 +1,72 @@
+{{#invoke:NameAbout|main|Name=Excellus}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Excellus
+|Title=Conqueror’s Wile
+|WeaponType=Red Tome
+|MoveType=Infantry
+|Origin=Fire Emblem Awakening
+|Gender=Male
+|actorEN=Spike Spencer
+|actorJP=松本忍
+|artist=オットン
+|additionDate=June 5, 2025
+|releaseDate=June 7, 2025
+|cv1=10
+|cv2=600600
+|TagID=エクセライ
+|InternalID=1252
+|Properties=limited,ghb
+|description=A tactician who serves Walhart, the emperor of Valm. Acts superior to others and does not hesitate to make use of and discard them. Appears in Fire Emblem Awakening.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=12|Lv1SPD=6|Lv1DEF=9|Lv1RES=8
+|GRHP=55|GRATK=80|GRSPD=35|GRDEF=50|GRRES=90
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elfire
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Rauðrsparrow
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Rauðrsparrow+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Rally Attack
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Rally Up Atk
+|assist2Unlock=4
+}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Glacies
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Def/Res Ruse 1
+|passiveB2=Def/Res Ruse 2
+|passiveB3=Def/Res Ruse 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Atk Ploy 1
+|passiveC2=Atk Ploy 2
+|passiveC3=Atk Ploy 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

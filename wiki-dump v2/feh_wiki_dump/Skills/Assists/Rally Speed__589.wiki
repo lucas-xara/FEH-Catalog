@@ -1,0 +1,37 @@
+{{Assist
+|tagid=SID_速さの応援
+|name=Rally Speed
+|range=1
+|effect=Grants Spd+4 to target ally for 1 turn.
+|cost=150
+|exclusive=0
+|required=-
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_all,random_inherit_base
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se={{Eft|Bonuses|Spd|4}}
+|SeT={{Tgt|Target Ally}}
+|SeC={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}
+}}
+==Notes==
+{{Bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=速さの応援
+|german=Ges. sammeln
+|spanishEU=Potenciar Vel
+|spanishLA=Potenciar Vel.
+|french=Ralliement : Vit
+|italian=Sprone Vel
+|chineseTW=速度支援
+|portuguese=Veloc. nímia
+}}
+==See also==
+* [[Rally Assists]]
+{{Assists Navbox}}
+[[Category:Rally Assists]]

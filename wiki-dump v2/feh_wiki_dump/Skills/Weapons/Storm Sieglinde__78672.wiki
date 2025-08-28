@@ -1,0 +1,68 @@
+{{Weapon Infobox
+|tagid=SID_雷剣ジークリンデ
+|weaponType=Sword
+|might=16
+|range=1
+|effect=Grants Atk+3. If the number of foes within 2 spaces (excluding target) ≥ the number of allies within 2 spaces (excluding unit), grants Def/Res+3 and Special cooldown charge +1 per unit's attack during combat.<br>(Only highest value applied. Does not stack.)
+|cost=400
+|userVersion1=Weapon
+|userVersion2=Gleam
+|userVersion3=Upgrade Gleam
+|exclusive=1
+|statModifiers=0,19,0,0,0
+|required=Silver Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Atk+3. If unit initiates combat or is not adjacent to an ally, grants Atk/Spd/Def/Res+4 and Special cooldown charge +1 to unit per attack during combat. (Only highest value applied. Does not stack.)
+|tagidExtraSkill1=一
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit during combat, and also, if unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 4 (max 40%).
+|iconSkill1=Storm Sieglinde W.png
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Atk|3}}
+|s1 Ce1={{Eft|Temporary buffs|Def/Res|3}}
+|s1 Ce2={{Eft|Accelerate Charge}}<br>per {{Tgt|Unit}}'s attack
+|s1 CeC={{Tgt|Foes}} [[within 2 spaces|within 2<br>spaces]] of {{Tgt|Target Foe}}<br>≥ {{Tgt|Allies}} [[within 2 spaces|within 2<br>spaces]] of {{Tgt|Unit}}
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Atk|3}}
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s1 Ce2={{Eft|Accelerate Charge}}
+|s2 CeC=Player Phase '''or'''<br>no {{Tgt|Allies}}<br>are [[adjacent]]
+|skill3={{Si|Storm Sieglinde|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s3 Ce1C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s3 Ce2={{Eft|Damage Reduction|4 x ({{Tgt|Unit}}'s Spd - {{Tgt|Foe)}}'s Spd)<br>from attacks & Non-Røkkr [[AoE Specials]]|percent=1|max=40%}}
+|s3 Ce2C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' {{Tgt|Unit}}'s Spd<br>>{{Tgt|Foe}}'s Spd
+}}
+==Notes==
+{{Temporary buffs}}
+{{CooldownChargePlus|perAttack=user}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfUnitInitiates}}
+{{CooldownChargePlus}}
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=雷剣ジークリンデ
+|german=Sturm-Sieglinde
+|spanishEU=Sieglinde trueno
+|spanishLA=Sieglinde trueno
+|french=Sieglinde foudre
+|italian=Sieglinde tifone
+|chineseTW=雷劍齊格林德
+|portuguese=Sieglinde trovão
+}}
+==See also==
+{{See also skills|cond=WikiName LIKE '%Sieglinde%' OR (Description LIKE '%number of foes within 2 spaces (excluding target) _ the number of allies within 2 spaces (excluding unit)%' OR Description LIKE '%unit_s Spd > foe_s Spd%reduces damage%difference%' AND Description NOT LIKE '%【Dodge】%') AND Exclusive='1'}}
+* [[Dodge Passives]]
+{{Weapons Navbox}}

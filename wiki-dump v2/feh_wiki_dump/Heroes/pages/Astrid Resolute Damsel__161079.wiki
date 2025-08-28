@@ -1,0 +1,73 @@
+{{#invoke:NameAbout|main|Name=Astrid}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Astrid
+|Title=Resolute Damsel
+|WeaponType=Green Bow
+|MoveType=Cavalry
+|Origin=Fire Emblem: Path of Radiance
+|Gender=Female
+|actorEN=Jenny Yokobori
+|actorJP=南條愛乃
+|artist=鳴瀬うろこ
+|randomStartTime=2021-12-17T07:00:00Z
+|additionDate=November 17, 2021
+|releaseDate=November 17, 2021
+|poolDate=December 7, 2021
+|poolRarities=5
+|cv1=8
+|cv2=902000
+|TagID=ステラ
+|InternalID=733
+|Properties=specRate_202408
+|description=Lady of Begnion's House Damiell. Refusing the life of an aristocrat's daughter, she enlisted and became a knight. Appears in Fire Emblem: Path of Radiance.
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=9|Lv1SPD=11|Lv1DEF=5|Lv1RES=6
+|GRHP=50|GRATK=70|GRSPD=70|GRDEF=50|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Bow
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Damiell Bow
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Rally Attack
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Rally Atk/Def
+|assist2Unlock=4
+|assist3=Rally Atk/Def+
+|assist3Unlock=5
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Spd/Def Bond 1
+|passiveA2=Spd/Def Bond 2
+|passiveA3=Spd/Def Bond 3
+|passiveA4=Spd/Def Bond 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Atk/Def Ruse 1
+|passiveB2=Atk/Def Ruse 2
+|passiveB3=Atk/Def Ruse 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+}}
+{{Heroes Navbox}}

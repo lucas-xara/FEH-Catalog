@@ -1,0 +1,42 @@
+{{Weapon Infobox
+|tagid=SID_嘲謔ボルガノン
+|intID=3037
+|userVersion1=Closed
+|userVersion2=Open
+|exclusive=1
+|weaponType=Red Tome
+|cost=400
+|might=14
+|range=2
+|effect=Grants Res+3. At start of turn, if unit is within 4 spaces of a foe, grants【Dominance】 to unit and inflicts Atk/Res-6 on nearest foes through their next actions. If unit initiates combat or is not adjacent to an ally, grants Atk/Res+6 to unit during combat.<br><br>【Dominance】<br>Unit deals additional damage = total penalties on foe for 1 turn.
+|statModifiers=0,14,0,0,3
+|required=Bolganone;Fenrir
+|properties=random_owner
+}}
+==Notes==
+{{Dominance}}
+{{Penalties}}
+{{IfUnitInitiates}}
+{{Combat boosts}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V6.4_v0604b_seisen_Mag.webp|Sprite sheet for {{St|Thunderer Tome}} and {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=嘲謔ボルガノン
+|german=Feuer-Bolganone
+|spanishEU=Bolganone fogoso
+|spanishLA=Bolganone fogoso
+|french=Bolganone ardent
+|italian=Bolganone vivo
+|chineseTW=嘲謔火山爆焰
+|portuguese=Bolganone cálido
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%【Dominance】%' OR Description LIKE '%at start of turn%inflicts%-%on%est foes%through their next actions%' AND Exclusive='1' OR Description LIKE '%grants bonus to unit\'s Atk = total penalties on foe%'|columns=3}}
+{{Weapons Navbox}}

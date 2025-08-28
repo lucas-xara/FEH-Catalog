@@ -1,0 +1,36 @@
+{{Special
+|tagid=SID_月光閃
+|charge=2
+|effect=Treats foe’s Def/Res as if reduced by 20% during combat. Boosts damage by 20% of unit's Spd.
+|cost=500
+|exclusive=1
+|required=Moonbow
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1=Treats {{Tgt|foe}}'s Def/Res<br>as if reduced by 20%
+|Ce1T={{Tgt|Foe}}
+|Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|CeC=Special triggers
+}}
+==Notes==
+{{DamageBoost}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=月光閃
+|german=Luna-Blitz
+|spanishEU=Destello lunar
+|spanishLA=Destello lunar
+|french=Éclair lunaire
+|italian=Lampo lunare
+|chineseTW=月光閃
+|portuguese=Raio de luar
+}}
+==See also==
+{{See also skills|cond=SCategory='special' AND Exclusive='1' AND (Description LIKE '%Boosts%damage by __% of unit_s Spd%' OR Description LIKE '%Treats foe_s Def/Res as if reduced by __% during combat%')}}
+{{Specials Navbox}}

@@ -1,0 +1,36 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_騎殺の暗器
+|weaponType=Dagger
+|might=8
+|range=2
+|effectiveness=Cavalry
+|effect=Effective against cavalry foes. Disables unit's and foe's skills that change attack priority.<br>Effect:【Dagger ５】<br><br>【Dagger ５】<br>After combat, if unit attacked, inflicts Def/Res-５ on target and foes within 2 spaces of target through their next actions.
+|cost=200
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|required=Steel Dagger
+|next=Caltrop Dagger+
+|promotionRarity=5
+|promotionTier=1
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|cavalry}}
+* Has the same effect as {{St|Hardy Bearing 3}}.{{Hardy Bearing}}{{IfUnitAttacked}}{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Caltrop Dagger
+|japanese=騎殺の暗器
+|german=Reiters Unglück
+|spanishEU=Daga abrojo
+|spanishLA=Daga equina
+|french=Pied de corbeau
+|italian=Pugnale tribolo
+|chineseTW=破騎暗器
+|portuguese=Adaga equina
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%isables unit_s and foe_s skills that change attack priority%'|columns=3}}
+{{Weapons Navbox}}

@@ -1,0 +1,75 @@
+{{#invoke:NameAbout|main|Name=Kjelle}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Kjelle
+|Title=Fair Fighter
+|GrowthModifier=Gen 3
+|WeaponType=Blue Lance
+|Origin=Fire Emblem Awakening
+|Gender=Female
+|MoveType=Armored
+|actorJP=山戸めぐみ
+|actorEN=Stephanie Sheh
+|artist=アマガイタロー
+|additionDate=June 10, 2019
+|releaseDate=June 11, 2019
+|poolDate=June 28, 2019
+|randomStartTime=2019-07-11T07:00:00Z
+|poolRarities=5
+|TagID=デジェル
+|InternalID=386
+|Properties=specRate_202202
+|cv1=10
+|cv2=6901300
+|description=Sully's daughter. Won't miss a chance to train for battle. Determined to be the best soldier she can be. Appears in Fire Emblem Awakening.
+}}
+{{Stats Page
+|Lv1HP=23|Lv1ATK=10|Lv1SPD=5|Lv1DEF=11|Lv1RES=6
+|GRHP=55|GRATK=70|GRSPD=40|GRDEF=60|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Barrier Lance
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Barrier Lance+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Heartbeat Lance
+|weapon5Default=
+|weapon5Unlock=5
+}}
+===Assists===
+{{Assists Table
+}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Draconic Aura
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=AR-D Def/Res 1
+|passiveA2=AR-D Def/Res 2
+|passiveA3=AR-D Def/Res 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=Bold Fighter 1
+|passiveB2=Bold Fighter 2
+|passiveB3=Bold Fighter 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+{{Heroes Navbox}}

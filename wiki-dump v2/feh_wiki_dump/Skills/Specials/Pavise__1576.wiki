@@ -1,0 +1,31 @@
+{{Special
+|tagid=SID_大盾
+|name=Pavise
+|charge=3
+|effect=Reduces damage from an adjacent foe's attack by 50%.
+|cost=200
+|required=Buckler
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|Close}}
+|properties=random_all,defensive_special
+}}
+==Notes==
+{{DefensiveSpecial}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=大盾
+|german=Pavise
+|spanishEU=Pavés
+|spanishLA=Pavés
+|french=Pavois
+|italian=Ultradifesa
+|chineseTW=大盾
+|portuguese=Pavês
+}}
+{{Specials Navbox}}

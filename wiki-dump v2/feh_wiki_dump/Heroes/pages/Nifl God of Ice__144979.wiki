@@ -1,0 +1,86 @@
+{{#invoke:NameAbout|main|Name=Nifl}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Nifl
+|Title=God of Ice
+|Origin=Fire Emblem Heroes
+|Gender=Female
+|WeaponType=Blue Breath
+|MoveType=Cavalry
+|actorEN=Anairis Quiñones
+|actorJP=高橋李依
+|artist=ヤスダスズヒト
+|randomStartTime=2021-08-19T07:00:00Z
+|additionDate=2021-07-06
+|releaseDate=July 19, 2021
+|poolDate=August 5, 2021
+|poolRarities=5
+|cv1=0
+|cv2=200050
+|Person=Nifl
+|TagID=ニフル
+|InternalID=683
+|EnemyInternalID=74
+|Properties=tiara,specRate_202402
+|description=The god of Nifl, the Kingdom of Ice. Her frozen personality is as cold and distant as her realm.
+}}
+==Ally stats==
+{{Stats Page|noheader=1
+|Lv1HP=17|Lv1ATK=8|Lv1SPD=10|Lv1DEF=8|Lv1RES=6
+|GRHP=50|GRATK=70|GRSPD=70|GRDEF=45|GRRES=40
+}}
+==Enemy stats==
+{{Stats Page/Enemy|noheader=1
+|Lv1HP=17|Lv1ATK=8|Lv1SPD=10|Lv1DEF=8|Lv1RES=6
+|GRHP=50|GRATK=70|GRSPD=70|GRDEF=45|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire Breath
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Fire Breath+
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Flametongue
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Frostbite Breath
+|weapon4Default=5
+|weapon4Unlock=5
+|hasEnemy=1
+}}
+
+===Assists===
+{{Assists Table
+|assist1=Rally Resistance
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Rally Def/Res
+|assist2Unlock=4
+|assist3=Rally Def/Res+
+|assist3Unlock=5
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=AR-D Atk/Spd 1
+|passiveA2=AR-D Atk/Spd 2
+|passiveA3=AR-D Atk/Spd 3
+|passiveA4=AR-D Atk/Spd 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Lull Atk/Spd 1
+|passiveB2=Lull Atk/Spd 2
+|passiveB3=Lull Atk/Spd 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Domain of Ice
+|passiveC1Unlock=5
+}}
+{{Heroes Navbox}}
+{{Enemies Navbox}}

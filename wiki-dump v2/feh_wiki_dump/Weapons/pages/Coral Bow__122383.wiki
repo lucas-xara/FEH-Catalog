@@ -1,0 +1,48 @@
+{{Weapon Infobox
+|tagid=SID_サンゴの弓
+|weaponName=Coral Bow
+|weaponType=Bow
+|might=8
+|range=2
+|effectiveness=Flying
+|effect=Effective against flying foes. Inflicts Spd/Def-5 on foes within 2 spaces during combat.
+|cost=200
+|exclusive=0
+|userVersion1=Bow
+|userVersion2=Arrow
+|statModifiers=0,8,0,0,0
+|required=Steel Bow
+|next=Coral Bow+
+|promotionRarity=5
+|promotionTier=1
+|intID=2108
+|sort=82000
+|effectRange=2
+|value=11
+|timingID=2
+|abilityID=97
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{Combat reductions}}
+{{FoesCombatEffect}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Coral Bow
+|japanese=サンゴの弓
+|german=Korallenbogen
+|spanishEU=Arco coral
+|spanishLA=Arco coral
+|french=Arc corail
+|italian=Arco corallino
+|chineseTW=珊瑚之弓
+|portuguese=Arco coral
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%inflicts%Spd/Def%-%on foes within _ spaces during combat%' AND WikiName NOT LIKE '%Rein%'|columns=3}}
+* [[Skill families#Rein|Rein Passives]]
+* [[Skill families#Rein_.28weapons.29|Rein Weapons]]
+{{Weapons Navbox}}

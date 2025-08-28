@@ -1,0 +1,45 @@
+{{Passive
+|name=Ostian Counter
+|type=A
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|1name=Ostian Counter
+|1tagid=SID_オスティアの反撃
+|1effect=Unit can counterattack regardless of foe's range. If foe initiates combat, grants Atk/Def+4 during combat.
+|1required=-
+|1cost=350
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Distant Counter}}
+|Ce2={{Eft|Temporary buffs|Atk/Def|4}}
+|Ce2C=Enemy Phase
+}}
+==Notes==
+* Has the same effects as {{St|Distant Counter}} and {{St|Sturdy Stance 2}}.
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=オスティアの反撃
+|german=Ositia-Konter
+|spanishEU=Contra de Ositia
+|spanishLA=Contra de Ositia
+|french=Contre d'Ositia
+|italian=Risposta ositiana
+|chineseTW=奧斯提亞的反擊
+|portuguese=Contra de Ositia
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%counterattack regardless of%range%' AND (SCategory!='Weapon' AND Name NOT LIKE 'Distant%' AND Name NOT LIKE 'Close%') AND (Exclusive='1' OR SCategory='captain')}}
+* [[Counter Passives]]
+* [[Counter Seals]]
+* [[Prime Passives]]
+* [[Stance Passives]]
+* [[Weapons with Distant Counter]]
+* [[Weapons with Close Counter]]
+{{Passives Navbox|A}}

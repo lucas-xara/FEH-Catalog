@@ -1,0 +1,83 @@
+{{Weapon Infobox
+|tagid=SID_想い合う絆の弓
+|intID=4633
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=1
+|weaponType=Bow
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effectiveness=Flying
+|effect=Accelerates Special trigger (cooldown count-1).<br>Effective against flying foes.<br><br>Unit can move to a space within 2 spaces of any ally within 2 spaces.<br><br>At start of turn, if unit is within 2 spaces of an ally, for unit and allies within 2 spaces of unit, grants Atk/Spd【Great Talent】+2, and also, if Special cooldown count is at its maximum value, grants Special cooldown count-2; if Special cooldown count is at its maximum value - 1, grants Special cooldown count-1.<br><br>If unit initiates combat or is within 2 spaces of an ally, grants bonus to unit's Atk/Spd/Def/Res = number of allies within 3 rows or 3 columns centered on unit × 3, + 5 (max 14), unit deals +X damage (excluding area-of-effect Specials), and reduces damage from foe's first attack by X during combat (X = total value of Atk and Spd【Great Talent】× 2; max 30; "first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and restores 7 HP to unit after combat.<br><br>(This skill grants max of【Great Talent】+10.)<br><br>【Great Talent】<br>Adds value of Great Talent (+X) to specified stats (until end of battle; max value of X is determined by the stat reaching the limit of 99, each stat calculated separately and cannot exceed max value for each skill; stat increases are not treated as Bonus effects).
+|required=Silver Bow
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe1={{Eft|Accelerates Special}}
+|Pe2={{Eft|Great Talent|Atk/Spd<br>|2|max=10}}
+|Pe2T={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|Pe2C=At start of turn<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Me1={{Eft|Warp|[[within 2 spaces]]<br>of an {{Tgt|Ally}}<br>[[within 2 spaces]]}}
+|Me2={{Eft|Reduce Cooldown|2}}
+|Me2C=({{Kp|Great Talent}}<br>conditions) '''&'''<br>{{Tgt|Unit}} '''or''' {{Tgt|Ally}}'s<br>CD is max value
+|Me3={{Eft|Reduce Cooldown|1}}
+|Me2-3T={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|Me3C=({{Kp|Great Talent}}<br>conditions) '''&'''<br>{{Tgt|Unit}} '''or''' {{Tgt|Ally}}'s<br>CD is max value-1
+|Me4={{Eft|Heal|7}}
+|Me4T={{Tgt|Unit}}
+|Me4C=After combat on<br>Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|3 x {{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}, + 5|max=14}}
+|Ce3={{Eft|Damage Boost|2 x ({{Tgt|Unit}}'s Atk +<br>Spd {{Kp|Great Talent}})|max=30}}
+|Ce4={{Eft|Damage Reduction|2 x ({{Tgt|Unit}}'s Atk +<br>Spd {{Kp|Great Talent}})|max=30}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce2-4C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+
+==Notes==
+{{Effective damage bonus|Flying}}
+{{Warp interaction}}
+{{Great Talent}}
+{{Start of turn Special modification}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{FlatDamageBoost|X (max=30)}}
+{{FlatDamageReduction|X (max=30)}}
+{{After combat healing}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Alm: Powerful Resolve|t=Celica: Valentia's Hope
+|---xxx---
+|---xxx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xtx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=Arco de la unión
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%【Great Talent】%' OR Description LIKE '%start of turn%Special cooldown count-%maximum value - 1%' OR Description LIKE '%unit and%allies%if %Special cooldown count%max%value%grants Special cooldown count-%') AND Exclusive='1'}}
+* [[Pulse Passives]]
+{{Weapons Navbox}}

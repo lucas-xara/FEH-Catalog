@@ -1,0 +1,55 @@
+{{Weapon Infobox
+|tagid=SID_トローン
+|weaponType=Blue Tome
+|might=14
+|range=2
+|effect=At start of turn, if unit's HP ≤ 75% and unit's attack can trigger their Special, grants Special cooldown count-1, and deals +10 damage when Special triggers.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,0,0,0
+|required=-
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If unit initiates combat, grants Spd+6 during combat.
+|iconSkill1=Darting Blow W.png
+|tagidExtraSkill1=一
+|properties=
+}}
+==Notes==
+* Has the same effect as {{St|Wrath 3}}.
+{{Wrath}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+* The refined version listed first has the same effect as {{St|Darting Blow 3}}.
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+v3.1_75_akatsuki02_Mag.png|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=トローン
+|german=Thorons Macht
+|spanishEU=Grimorio Thoron
+|spanishLA=Grimorio Thoron
+|french=Tome de Thoron
+|italian=Tomo di Thoron
+|chineseTW=托龍
+|portuguese=Tomo de Thoron
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%if unit_s HP%unit_s attack%trigger%Special%deals +% when Special triggers%' OR Description LIKE '%if unit_s HP%Special triggers%deals +%' AND Description NOT LIKE '%transforms%' OR Description LIKE '%If unit initiates combat%grants Spd+6%during combat%'}}
+* [[Weapons that boost Special damage]]
+{{Weapons Navbox}}

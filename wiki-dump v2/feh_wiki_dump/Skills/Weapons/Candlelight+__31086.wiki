@@ -1,0 +1,47 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_キャンドル＋
+|weaponType=Staff
+|altWeaponName=Candlelight Plus
+|might=11
+|range=2
+|effect=After combat, if unit attacked, inflicts status on target and foes within 2 spaces of target preventing counterattacks through their next actions.
+|cost=300
+|exclusive=0
+|statModifiers=0,11,0,0,0
+|required=Candlelight
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|effectSkill1=Calculates damage from staff like other weapons.
+|iconSkill1=Wrathful Staff W.png
+|tagidExtraSkill1=神
+|effectSkill2=Foe cannot counterattack.
+|iconSkill2=Dazzling Staff W.png
+|tagidExtraSkill2=幻
+|properties=
+}}
+==Notes==
+{{IfUnitAttacked}}{{No counterattacks}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Staff Plus Refines}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=キャンドル＋
+|german=Kerzenlicht+
+|spanishEU=Luz de vela +
+|spanishLA=Luz de vela +
+|french=Lueur bougie +
+|italian=Lume candela+
+|chineseTW=燭光＋
+|portuguese=Luz de vela+
+}}
+==See also==
+* [[Flash+]]
+* [[Imhullu]]
+{{Weapons Navbox}}
+[[Category:Seasonal weapons]]

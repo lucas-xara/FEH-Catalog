@@ -1,0 +1,61 @@
+{{Weapon Infobox
+|tagid=SID_見えざる聖夜の刃
+|intID=3914
+|image=wep_dg082
+|exclusive=1
+|weaponType=Dagger
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Enables【Canto (Dist.; Max ３)】.<br><br>Accelerates Special trigger (cooldown count-1). At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit and grants bonus to unit's Atk/Spd = 9 - number of allies adjacent to unit × 2 (min 0), neutralizes effects that prevent unit's follow-up attacks, and neutralizes effects that inflict "Special cooldown charge -X" on unit during combat, and also, if unit initiates combat, reduces the percentage of foe's non-Special "reduce damage by X%" skills by percentage = X × 30 and reduces damage from foe's first attack by percentage = X × 30 during combat (X = number of spaces from start position to end position of whoever initiated combat, max 3; if any space within 2 spaces of unit has a Divine Vein effect applied or counts as difficult terrain, excluding impassable terrain, value is treated as 3; "first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes). After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions.<br><br>【Canto (Dist.; Max ３)】<br>After an attack, Assist skill, or structure destruction, unit can move spaces = number of spaces from start position to end position unit moved prior to taking action (max ３).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|required=Silver Dagger
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|PermanentEffect={{Eft|Accelerates Special}}
+|MapEffect={{Eft|Canto|Dist.; Max 3}}
+|CombatEffect 1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|CombatEffect 2={{Eft|Temporary buffs|Atk/Spd|9 - ([[Adjacent]] {{Tgt|Allies}} x 2)|min=0}}
+|CombatEffect 3={{Eft|Neutralize Prevent Follow-Ups}}
+|CombatEffect 4={{Eft|Neutralize Guard}}
+|CombatEffect 1-4 Conditions={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|CombatEffect 5={{Eft|Damage Reduction|percent=1|max=90%*|30 x Spaces {{Tgt|Unit}} moved}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|CombatEffect 6={{Eft|Reduce Damage Reduction|30 x Spaces {{Tgt|Unit}} moved|percent=1|max=90%*}}
+|CombatEffect 6 Targets={{Tgt|Foe}}
+|CombatEffect 5-6 Conditions=Player Phase '''&'''<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|StatusEffect={{Eft|Penalties|Def/Res|7}}
+|StatusEffect Targets={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|StatusEffect Conditions=After combat if<br>{{Tgt|Unit}} attacked
+}}
+<b>{{Hatnote|* If {{Tgt|Unit}} is [[within 2 spaces]] of a [[Divine Vein]] '''or''' difficult [[terrain]],<br>value is treated as max.}}</b>
+
+==Notes==
+{{Temporary buffs}}
+{{Follow-up effect neutralization|preventOnly=1}}
+{{CooldownChargeMinusNeutralization}}
+{{IfUnitInitiates}}
+{{Reduce Damage Reduction}}
+{{DamagePercentageReduction}}
+{{SpacesFromStarttoEnd}}
+{{IfUnitAttacked}}
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=見えざる聖夜の刃
+|german=Festlicher Dolch
+|spanishEU=Daga invernal
+|spanishLA=Daga invernal
+|french=Couteau des fêtes
+|italian=Pugnale festivo
+|chineseTW=無形的聖夜之刃
+|portuguese=Adaga festiva
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Canto (Dist.%' OR Description LIKE '%foe_s non-Special "reduce damage by X%" skills by%' OR Description LIKE '%if any space within _ spaces of unit has a Divine Vein effect applied or counts as difficult terrain%') AND Exclusive='1'}}
+* [[Null Passives]]
+* [[Tempo Passives]]
+{{Weapons Navbox}}

@@ -1,0 +1,51 @@
+{{Weapon Infobox
+|tagid=SID_獅子王の爪牙
+|weaponType=Beast
+|might=14
+|range=1
+|effect=Grants Atk+3. If foe initiates combat, grants Atk/Spd/Def/Res+4 during combat. At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and unit can counterattack regardless of foe's range.
+|cost=400
+|exclusive=1
+|canUseMove=Armored
+|statModifiers=0,17,0,0,0
+|required=Adult (Armored)
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Atk+3. If foe initiates combat or foe's HP ≥ 75% at start of combat, grants Atk/Spd/Def/Res+4 to unit during combat. If foe initiates combat, reduces damage from area-of-effect Specials (excluding Røkkr area-of-effect Specials) and foe's follow-up attack by 70% ("follow-up attack" normally means only the second strike; for effects that grant "unit attacks twice," it means the third and fourth strikes). At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 and unit can counterattack regardless of foe's range.
+|tagidExtraSkill1=一
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, inflicts Atk/Def-5 on foe during combat and unit makes a guaranteed follow-up attack, and also, if unit is transformed, grants bonus to unit's Atk/Def/Res during combat = 25% of foe's Atk at start of combat, - 8 (min 0, max 10).
+|iconSkill1=Lion King Fang W.png
+|properties=random_owner
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Combat boosts}}
+{{Beast (Armored)}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+{{At start of combat}}
+{{Temporary debuffs|name={{St|Lion King Fang|refine=skill1}}}}
+{{Guaranteed follow-up interaction|name={{St|Lion King Fang|refine=skill1}}}}
+{{IfUnitTransforms}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=獅子王の爪牙
+|german=Raubtierpranke
+|spanishEU=Colmillo fiero
+|spanishLA=Colmillo fiero
+|french=Croc du lion
+|italian=Zanna di leone
+|chineseTW=獅子王的爪牙
+|portuguese=Presa do rei leão
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%reduces damage from%foe_s follow-up attack%' OR Description LIKE '%grants bonus to unit_s%=%of foe_s%'|columns=3}}
+{{Weapons Navbox}}

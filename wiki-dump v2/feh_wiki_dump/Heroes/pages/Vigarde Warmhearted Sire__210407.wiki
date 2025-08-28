@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Vigarde}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Vigarde
+|Title=Warmhearted Sire
+|WeaponType=Green Axe
+|MoveType=Armored
+|Origin=Fire Emblem: The Sacred Stones
+|Gender=Male
+|actorEN=Chris Okawa
+|actorJP=三宅健太
+|artist=麻谷知世
+|additionDate=February 6, 2024
+|releaseDate=February 7, 2024
+|cv1=7
+|cv2=300050
+|TagID=愛の祭ヴィガルド
+|InternalID=1062
+|Properties=limited,tempest,specDisplay,hat
+|description=Beloved emperor of Grado, once known as the Silent Emperor. He is said to have great concern for the well-being of all his people, far and wide. Appears in Fire Emblem: The Sacred Stones.
+}}
+{{Stats Page
+|Lv1HP=21|Lv1ATK=10|Lv1SPD=7|Lv1DEF=10|Lv1RES=12
+|GRHP=70|GRATK=80|GRSPD=45|GRDEF=85|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Axe of Devotion
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Axe of Devotion+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=4
+|special1Unlock=3
+|special2=Ignis
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Def Form 1
+|passiveA2=Atk/Def Form 2
+|passiveA3=Atk/Def Form 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=Even Follow-Up 1
+|passiveB2=Even Follow-Up 2
+|passiveB3=Even Follow-Up 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Day of Devotion units]]

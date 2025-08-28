@@ -1,0 +1,55 @@
+{{Weapon Infobox
+|tagid=SID_断絶のブレス
+|weaponType=Dragonstone
+|might=16
+|range=1
+|effectiveness=dragon
+|effect=Effective against dragon foes. Unit can counterattack regardless of foe's range. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Flametongue
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|tagidExtraSkill1=一
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants bonus to unit's Atk/Spd/Def/Res during combat = 4 + current bonus on each of unit's stats (calculates each stat bonus independently), and also, if【Bonus】is active on unit, the following will occur based on who initiated combat: if unit initiated, unit makes a guaranteed follow-up attack; if foe initiated, foe cannot make a follow-up attack.<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|iconSkill1=Razing Breath W.png
+|properties=random_owner
+}}
+==Notes==
+* Has the same effect as {{St|Distant Counter}}.
+{{Effective damage bonus|dragon}}
+{{LowerDefRes}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{TemporaryBufffromBonus|name={{St|Razing Breath|refine=skill1}}}}
+{{EffectfromBonusKeyword|name={{St|Razing Breath|refine=skill1}}}}
+{{IfUnitInitiates}}
+{{Guaranteed follow-up interaction|name={{St|Razing Breath|refine=skill1}}}}
+{{IfFoeInitiates}}
+{{Prevent follow-up|name={{St|Razing Breath|refine=skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+v3.5_83_dark02_Mag.png|Sprite sheet for {{St|Death}}, {{St|Savage Breath}} and Razing Breath's animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=断絶のブレス
+|german=Unheilvoller Atem
+|spanishEU=Aliento asolador
+|spanishLA=Soplo asolador
+|french=Souffle meurtrier
+|italian=Soffio devastante
+|chineseTW=斷絕吐息
+|portuguese=Sopro assolador
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%unit can counterattack%if foe_s range = 2%calculates damage%' AND WikiName NOT LIKE '%umbra%' OR Description LIKE '%bonus%current bonus on each of unit_s stats%' AND Description NOT LIKE '%bonus doubler%' OR Description LIKE '%if unit initiate%makes a guaranteed follow-up%if foe initiate%cannot make a follow-up%' OR Description LIKE '%if foe initiate%cannot make a follow-up%if unit initiate%makes a guaranteed follow-up%'}}
+* [[Countering skills]]
+* [[Sources of effective against dragon foes]]
+{{Weapons Navbox}}

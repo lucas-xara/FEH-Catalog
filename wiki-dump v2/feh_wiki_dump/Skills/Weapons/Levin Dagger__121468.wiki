@@ -1,0 +1,84 @@
+{{Weapon Infobox
+|tagid=SID_サンダーダガー
+|weaponType=Dagger
+|might=14
+|range=2
+|effect=Grants Res+3. If【Penalty】is active on foe, grants Atk/Spd/Def/Res+4 to unit and deals damage = 20% of unit's Res during combat.<br>Effect:【Dagger ７】<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,0,0,3
+|required=Silver Dagger
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Res+3. At start of turn, inflicts Spd/Res-7 and【Guard】on nearest foes within 5 spaces of unit and foes within 2 spaces of those foes through their next actions. If【Bonus】is active on unit or if【Penalty】is active on foe, grants Atk/Spd/Def/Res+4 to unit and deals damage = 20% of unit's Res during combat (including when dealing damage with an area-of-effect Special).<br>Effect:【Dagger ７】<br><br>【Guard】<br>Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|refineStatsSkill1=0,0,0,0,0
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, calculates damage using the lower of foe's Def or Res during combat. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit, inflicts Atk/Spd/Def/Res-X on foe (X = highest penalty on each stat between target and foes within 2 spaces of target; calculates each stat penalty independently), and reduces damage from foe's first attack by 30% during combat.
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Res|3}}
+|s1 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s1 Ce2={{Eft|Damage Boost|percent=1|20% of {{Tgt|Unit}}'s Res}}
+|s1 CeC=A {{Kp|Penalty}} effect<br>is active on {{Tgt|Foe}}
+|s1 Se={{Eft|Penalties|Def/Res|7}}
+|s1 SeT={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|s1 SeC=After combat if<br>{{Tgt|Unit}} attacked
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Res|3}}
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s2 Ce2={{Eft|Damage Boost|percent=1|20% of {{Tgt|Unit}}'s Res}}<br>before '''&''' during combat
+|s2 CeC=A {{Kp|Bonus}} effect<br>is active on {{Tgt|Unit}}<br>'''or''' a {{Kp|Penalty}} effect<br>is active on {{Tgt|Foe}}
+|s2 Se1={{Eft|Penalties|Spd/Res|7}}
+|s2 Se2={{SEt|Guard}}
+|s2 Se1-2T=Nearest {{Tgt|Foes}}<br>[[within 5 spaces]]<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}
+|s2 Se1-2C=At start of turn
+|s2 Se3={{Eft|Penalties|Def/Res|7}}
+|s2 Se3T={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|s2 Se3C=After combat if<br>{{Tgt|Unit}} attacked
+|skill3={{Si|Levin Dagger|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Lower Def Res}}
+|s3 Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s3 Ce3={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s first attack
+|s3 Ce4={{Eft|Temporary debuffs|Atk/Spd/Def/Res|highest {{SEt|Penalties}}<br>on {{Tgt|Target Foe}} & {{Tgt|Foes}}<br>[[within 2 spaces]] of {{Tgt|Target Foe}}}}
+|s3 Ce4T={{Tgt|Foe}}
+|s3 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{DamageBoost}}
+* The extra damage of Levin Dagger also applies to [[area-of-effect Specials]].
+{{EffectfromPenalty|temporary buffs and damage boost}}
+{{IfUnitAttacked}}
+{{Penalties}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Penalties|name=Refined Levin Dagger}}
+{{Guard|name=Refined Levin Dagger}}
+{{EffectfromBonus|name=Refined Levin Dagger}}
+{{EffectfromPenalty|name=Refined Levin Dagger}}
+{{LowerDefRes|name={{St|Levin Dagger|refine=Skill1}}}}
+{{TemporaryDebufffromPenalty|name={{St|Levin Dagger|refine=Skill1}}}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=サンダーダガー
+|german=Donnerdolch
+|spanishEU=Daga trueno
+|spanishLA=Daga trueno
+|french=Dague orage
+|italian=Pugnale folgore
+|chineseTW=雷電之刃
+|portuguese=Adaga trovão
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%deals damage =% of unit_s Res%' OR Description LIKE '%at start of turn%inflicts%/%-%est foe%' OR Description LIKE '%at start of turn%, inflicts%est foes%and foes within _ spaces of those foes%') AND Exclusive='1'}}
+* [[Menace Passives]]
+{{Weapons Navbox}}

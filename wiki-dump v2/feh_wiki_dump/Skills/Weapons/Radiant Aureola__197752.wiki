@@ -1,0 +1,45 @@
+{{Weapon Infobox
+|tagid=SID_至光アーリアル
+|intID=3654
+|userVersion1=Closed
+|userVersion2=Open
+|exclusive=1
+|weaponType=Colorless Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effectiveness=Magic
+|effect=Accelerates Special trigger (cooldown count-1). Effective against magic foes. If foe initiates combat or foe's HP ≥ 75% at start of combat, grants Atk/Spd/Def/Res+5 to unit, deals damage = 20% of unit's Res, reduces damage from foe's attacks by 20% of unit's Res (excluding area-of-effect Specials), inflicts Special cooldown charge -1 on foe per attack (only highest value applied; does not stack), and disables foe's effects that "calculate damage using the lower of foe's Def or Res" (excluding when dealing damage with an area-of-effect Special) during combat.
+|required=Atlas (weapon)
+|properties=random_owner
+}}
+==Notes==
+{{Effective damage bonus|magic}}
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+{{DamageBoost}}
+{{FlatDamageReduction}}
+{{CooldownChargeMinus}}
+* Radiant Aureola ''does not'' disable foes' skills that calculate damage using the lower of the unit's Def or Res when the owner is attacked by an [[area-of-effect Special]].
+
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V7.6_v0706c_legend_Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=至光アーリアル
+|german=Helle Aureola
+|spanishEU=Aureola radiante
+|spanishLA=Aureola radiante
+|french=Auréole radieuse
+|italian=Etere radioso
+|chineseTW=至光亞利艾爾
+|portuguese=Auréola radiante
+}}
+==See also==
+{{See also skills|cond=WikiName LIKE '%aureola%' OR (Description LIKE '%disables%calculate damage using the lower%' OR Description LIKE '%effective against magic%') AND Exclusive='1' OR Description LIKE '%deals damage = 20%of unit_s Res%' OR Description LIKE '%reduces damage from foe_s attack by%of unit_s Res%'}}
+{{Weapons Navbox}}

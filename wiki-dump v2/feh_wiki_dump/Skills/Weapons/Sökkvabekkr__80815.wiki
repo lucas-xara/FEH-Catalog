@@ -1,0 +1,83 @@
+{{Weapon Infobox
+|tagid=SID_セクヴァベク
+|weaponType=Sword
+|weaponName=Sökkvabekkr
+|might=16
+|range=1
+|effect=If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+4 during combat, and unit makes a guaranteed follow-up attack, but after combat, if unit attacked, deals 20 damage to nearest ally.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Silver Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|cooldownSkill1=-1
+|upgradedEffect=If unit is within 4 spaces of an ally, grants Atk/Spd/Def/Res+6 to unit and unit makes a guaranteed follow-up attack during combat, but after combat, if unit attacked, deals 20 damage to nearest ally, and also, if unit's Special is ready or unit's Special triggered before or during this combat, deals +5 damage (excluding when dealing damage with an area-of-effect Special), and when unit deals damage to foe, restores 7 HP to unit during combat (triggers even if 0 damage is dealt).
+|effectSkill1=Accelerates Special trigger (cooldown count-1).<br>At the start of turn 1, grants Special cooldown count-2 to unit. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit and reduces damage from foe's first attack by 30% during combat.
+|properties=
+}}
+==Notes==
+{{Guaranteed follow-up interaction}}
+{{Temporary buffs}}
+{{Out of Combat Damage}}
+{| class="wikitable default mw-collapsible" 
+! align="middle" | Example of Area of Effect
+|-
+| align="middle" ! |
+<div style="max-width: 450px; margin: auto;>{{AoE|u=Líf: Lethal Swordsman|t=Thrasir: Omnicidal Witch
+|---x---
+|--xxx--
+|-xxxxx-
+|xxxuxtx
+|-xxxxx-
+|--xxx--
+|---x---
+}}</div>
+|}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{| class="wikitable default mw-collapsible" 
+! align="middle" | Example of Area of Effect
+|-
+| align="middle" ! |
+<div style="max-width: 450px; margin: auto;>{{AoE|u=Líf: Lethal Swordsman|t=Thrasir: Omnicidal Witch
+|----x----
+|---xxx---
+|--xxxxx--
+|-xxxxxxx-
+|xxxxuxtxx
+|-xxxxxxx-
+|--xxxxx--
+|---xxx---
+|----x----
+}}</div>
+|}
+{{FixedDamage|5}}
+{{CombatHPRecovery|name=Refined Sökkvabekkr}}
+{{Start of turn Special modification|name={{St|Sökkvabekkr|refine=Skill1}}}}
+{{DamagePercentageReduction}}
+
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{NorseMyth|is the location where [[Wikipedia:Odin|Odin]] gained great wisdom from the goddess [[Wikipedia:Sága|Sága]]}}
+==In other languages==
+{{OtherLanguages
+|japanese=セクヴァベク
+|german=Sökkvabekkr
+|spanishEU=Sökkvabekkr
+|spanishLA=Sökkvabekkr
+|french=Sökkvabekkr
+|italian=Sökkvabekkr
+|chineseTW=索克瓦貝克
+|portuguese=Sökkvabekkr
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%if unit attacked%nearest ally%' OR (Description LIKE '%unit_s special is ready%' OR Description LIKE '%at the start of turn 1, grants Special cooldown count-%') AND Exclusive='1' AND NAME NOT LIKE '%+'}}
+* [[Skill families/A Passives#Finish|Finish Passives]]
+{{Weapons Navbox}}

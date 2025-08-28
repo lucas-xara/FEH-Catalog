@@ -1,0 +1,65 @@
+{{Weapon Infobox
+|tagid=SID_春陽の杖
+|weaponType=Colorless Staff
+|might=14
+|range=2
+|effect=Grants Atk+3. Foe cannot counterattack. After combat, if unit attacked, inflicts 【Gravity】on target and foes within 1 space of target.<br><br>【Gravity】<br>Restricts target's movement to 1 space through its next action.
+|cost=400
+|exclusive=1
+|statModifiers=0,17,0,0,0
+|required=-
+|userVersion1=Weapon
+|userVersion2=Gleam
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If unit initiates combat or is within 2 spaces of an ally, grants Atk/Res+5 to unit during combat. Restores 7 HP to unit and allies within 2 spaces of unit after combat.
+|iconSkill1=Springtime Staff W.png
+|tagidExtraSkill1=回
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Atk|3}}
+|s1 Ce={{Eft|Prevent Counter}}
+|s1 CeT={{Tgt|Foe}}
+|s1 Se={{SEt|Gravity}}
+|s1 SeT={{Tgt|Target Foe}} '''&'''<br>{{Tgt|Foes}} [[adjacent]]<br>to {{Tgt|Target Foe}}
+|s1 SeC=After combat if<br>{{Tgt|Unit}} attacked
+|skill2={{Si|Elise's Staff|refine=Skill1}} Skill refine effects
+|s2 Ce={{Eft|Temporary buffs|Atk/Res|5}}
+|s2 CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s2 Me={{Eft|Heal|7}}
+|s2 MeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|s2 MeC=After combat
+}}
+==Notes==
+* Springtime Staff has the same effect as {{St|Dazzling Staff 3}}.
+{{Prevent counterattacks}}
+{{IfUnitAttacked}}
+{{Gravity}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfUnitInitiates}}
+{{Temporary buffs|name={{St|Springtime Staff|refine=Skill1}}}}
+{{After combat healing|allies=1|name={{St|Springtime Staff|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=春陽の杖
+|german=Frühlingsstab
+|spanishEU=Bastón vernal
+|spanishLA=Bastón vernal
+|french=Bâton printanier
+|italian=Bastone fiorito
+|chineseTW=春陽之杖
+|portuguese=Bastão primavera
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%inflicts status on target and foes%restricting movement%next actions%' OR Description LIKE '%inflicts%【Gravity】%on target and foes%' OR Description LIKE '%restores%HP%allies%after combat%') AND Exclusive='1' AND Name NOT LIKE '%+'}}
+{{Weapons Navbox}}

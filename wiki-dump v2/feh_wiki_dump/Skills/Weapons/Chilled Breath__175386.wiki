@@ -1,0 +1,51 @@
+{{Weapon Infobox
+|tagid=SID_夏氷のブレス
+|intID=3145
+|image=wep_ac055
+|exclusive=1
+|weaponType=Dragonstone
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd+6 to unit during combat, neutralizes effects that guarantee foe's follow-up attacks and prevent unit's follow-up attacks, and also, if unit’s Spd ≥ foe's Spd+5, foe cannot counterattack. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|statModifiers=0,16,0,0,0
+|required=Flametongue
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Ce1={{Eft|Temporary buffs|Atk/Spd|6}}
+|Ce2={{Eft|Neutralize Prevent Follow-Ups}}
+|Ce3={{Eft|Neutralize Guaranteed Follow-Ups}}
+|Ce1-3C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce4={{Eft|Prevent Counter}}
+|Ce3-4T={{Tgt|Foe}}
+|Ce4C={{Eft|Temporary buffs|Atk/Spd|6}}<br>conditions '''&'''<br>{{Tgt|Unit}}’s Spd ≥<br>{{Tgt|Foe}}'s Spd+5
+|Ce5={{Eft|Lower Def Res}}
+|Ce5C={{Tgt|Foe}}'s Range = 2
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Follow-up effect neutralization}}
+{{Prevent counterattacks}}
+{{LowerDefRes}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=夏氷のブレス
+|german=Eisiger Atem
+|spanishEU=Aliento frío
+|spanishLA=Soplo frío
+|french=Souffle frais
+|italian=Soffio ghiacciato
+|chineseTW=夏冰吐息
+|portuguese=Sopro frio
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%unit_s Spd%foe_s Spd%foe cannot counterattack%' AND Exclusive='1'}}
+* [[Sweep Passives]]
+{{Weapons Navbox}}

@@ -1,0 +1,69 @@
+{{Weapon Infobox
+|tagid=SID_体の葬り手の角
+|intID=4186
+|noImg=1
+|exclusive=1
+|weaponType=Beast
+|canUseMove=Cavalry
+|cost=400
+|might=14
+|range=1
+|cooldown=-1
+|effect=Enables【Canto (２)】.<br>Accelerates Special trigger (cooldown count-1).<br><br>At start of turn, if unit is within 2 spaces of an ally, grants Atk/Def+6 and【Bonus Doubler】to unit and allies within 2 spaces of unit for 1 turn.<br><br>If unit is within 2 spaces of an ally, and if unit or allies within 2 spaces of unit have bonuses to Atk/Spd/Def/Res after start-of-turn skills trigger, grants an additional +3 to each corresponding stat for unit and those allies for 1 turn (calculates each stat bonus independently; max 10).<br><br>If unit initiates combat or if unit is within 2 spaces of an ally, inflicts penalty on foe's Atk/Def = 6 + 20% of unit's Def at start of combat, unit deals +X damage (X = highest total bonuses among unit and allies within 3 spaces of unit; excluding area-of-effect Specials), and reduces damage from foe's attacks by 50% of X (excluding area-of-effect Specials).<br><br>At start of turn, if unit is adjacent to only beast or dragon allies or is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 to unit, inflicts Atk/Def-Y on foe during combat (Y = number of spaces from start position to end position of whoever initiated combat, + 3; max 6), and also, if Y ≥ 5, reduces damage from foe's first attack by 30% during combat.<br><br>【Canto (２)】<br>After an attack, Assist skill, or structure destruction, unit can move ２ space(s).<br>(Once per turn. Only highest value applied. Does not stack.)<br><br>【Bonus Doubler】<br>Grants bonus to Atk/Spd/Def/Res during combat = current bonus on each of unit's stats for 1 turn. Calculates each stat bonus independently.
+|required=Adult (Cavalry)
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe1={{Eft|Accelerates Special}}
+|Pe2={{Eft|Stat Boosts|Atk|2}}
+|PeC2={{SkillTargetText|Unit}} is transformed
+|Me1={{Eft|Canto|2}}
+|Me2={{Eft|Transform}}
+|Me2C=At start of turn if<br>{{Tgt|Unit}} is [[adjacent]] to only<br>{{Cwti|group=1|Beast,Dragon}} [[Dragon]]/[[Beast]]<br>{{Tgt|Allies}} '''or''' not [[adjacent]]<br>to any {{Tgt|Ally}}
+|Se1={{Eft|Bonuses|Atk/Def|6}}
+|Se2={{SEt|Bonus Doubler}}
+|Se3={{Eft|Bonuses|Atk/Spd/Def/Res|max=10|+3 to highest<br>{{SEt|Bonus}} on each stat}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|Se1-2C=At start of turn<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Se3C=After start-of-turn<br>skills trigger if<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce1={{Eft|Temporary debuffs|Atk/Def|6 + 20% of {{Tgt|Unit}}'s<br>Def at start of combat}}
+|Ce1T={{Tgt|Foe}}
+|Ce2={{Eft|Damage Boost|highest total {{SEt|Bonuses}}<br>on {{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 3 spaces]]}}
+|Ce3={{Eft|Damage Reduction|percent=0|50% of highest total {{SEt|Bonuses}}<br>on {{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 3 spaces]]}}<br>from {{Tgt|Foe}}'s attacks
+|Ce2-3T={{Tgt|Unit}}
+|Ce1-3C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce4={{Eft|Temporary debuffs|Atk/Def|Spaces initiator moved + 3|max=6}}
+|CeT4={{Tgt|Foe}}<br>
+|CeC4={{Tgt|Unit}} is transformed
+|Ce5={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s first attack
+|CeC5={{Tgt|Unit}} is transformed '''&'''<br>Spaces initiator moved ≥ 2
+}}
+
+==Notes==
+{{Canto|2}}
+{{Bonuses}}
+{{Bonus Doubler}}
+{{IfUnitInitiates}}
+{{Temporary debuffs}}
+{{At start of combat}}
+{{FlatDamageBoost}}
+{{FlatDamageReduction}}
+{{EffectfromBonuses|multiTarget=1|target=unit or allies [[within 3 spaces]]|damage boost and flat damage-reduction effects}}
+{{Beast (Cavalry)}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=体の葬り手の角
+|german=Unheilsgeweih
+|spanishEU=Asta silenciadora
+|spanishLA=Asta silenciadora
+|french=Ramure funeste
+|italian=Corno fatale
+|chineseTW=身體的葬送者之角
+|portuguese=Chifre silenciador
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%highest total bonuses%unit and allies within _ spaces%') AND Exclusive='1'}}
+{{Weapons Navbox}}

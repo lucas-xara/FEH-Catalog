@@ -1,0 +1,52 @@
+{{Weapon Infobox
+|tagid=SID_タグエルの爪牙
+|weaponType=Beast
+|might=14
+|range=1
+|effectiveness=cavalry
+|effect=Effective against cavalry foes. If unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, grants Atk/Spd/Def/Res+3 during combat. At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack.
+|cost=400
+|exclusive=1
+|canUseMove=Cavalry
+|statModifiers=0,14,0,0,0
+|required=Adult (Cavalry)
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Effective against cavalry foes. If unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, grants Atk/Spd/Def/Res+4 to unit during combat, and also, if foe is not a beast or dragon foe, grants an additional Atk/Spd/Def/Res+4 to unit and inflicts Special cooldown charge -1 on foe per attack during combat. (Only highest value applied. Does not stack.) At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack.
+|upgradedEffect2=Effective against cavalry foes. If unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, grants Atk/Spd/Def/Res+4 to unit during combat, and also, if foe is not a beast or dragon foe, grants an additional Atk/Spd/Def/Res+4 to unit and inflicts Special cooldown charge -1 on foe per attack during combat. (Only highest value applied. Does not stack.) At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 to unit, inflicts Atk/Def-X on foe during combat (X = number of spaces from start position to end position of whoever initiated combat + 3; max 6), and also, if X ≥ 5, reduces damage from foe's first attack by 30% during combat.
+|tagidExtraSkill1=一
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit during combat, and also, the following effects will occur based on the value of unit's Spd minus foe's Spd: If ≥ 1, unit makes a guaranteed follow-up attack. If ≥ 5, unit deals +7 damage.
+|iconSkill1=Taguel Fang W.png
+|properties=random_owner
+}}
+==Notes==
+{{Effective damage bonus|cavalry}}
+{{Temporary buffs}}
+{{Beast (Cavalry)}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{CooldownChargeMinus}}
+{{UnitStatMinusFoeStat|stat=Spd}}
+{{Guaranteed follow-up interaction}}
+{{FixedDamage|7}}
+{{Beast (Cavalry) Upgrade}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=タグエルの爪牙
+|german=Wilde Taguel
+|spanishEU=Garra taguel
+|spanishLA=Garra taguel
+|french=Croc de Tagüel
+|italian=Zanna di taguel
+|chineseTW=塔格艾爾的爪牙
+|portuguese=Presa taguel
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe is not a beast or dragon foe%' OR Description LIKE '%based on the value of unit\'s Spd minus foe\'s Spd%'|columns=3}}
+* [[:Category:Solo Passives|Solo Passives]]
+{{Weapons Navbox}}

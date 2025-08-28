@@ -1,0 +1,54 @@
+{{Passive
+|name=Swift Impact
+|type=A
+|exclusive=0
+|canUseMove=Infantry,Flying
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|intID=2405
+|sort=4082
+|value=8
+|timingID=1
+|abilityID=127
+|limit1ID=1
+|randomTimestamp=2021-02-18T07:00:00Z
+|randomMinLv=36
+|properties=random_owner
+|1name=Swift Impact
+|1tagid=SID_飛燕明鏡の瞬撃3
+|1effect=If unit initiates combat, grants Spd+7, Res+10 during combat and foe cannot make a follow-up attack.
+|1required=Swift Strike 2
+|1cost=300
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{SkillEffectText|Temporary buffs|Spd|7}}, {{SkillEffectText|Temporary buffs|Res|10}}
+|CombatEffect 2={{SkillEffectText|Foe Cannot Follow-Up}}
+|CombatEffect 2 Targets={{SkillTargetText|Foe}}
+|CombatEffect Conditions=Player Phase
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Prevent follow-up}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=飛燕明鏡の瞬撃
+|german=Flinker Prall
+|spanishEU=Impacto veloz
+|spanishLA=Impacto veloz
+|french=Impact rapide
+|italian=Impatto rapido
+|chineseTW=飛燕明鏡瞬擊
+|portuguese=Impacto ligeiro
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit initiates combat, grants Spd%Res+%and foe cannot make a follow-up attack%'}}
+* [[Blow Passives]]
+{{Passives Navbox|A}}
+[[Category:Impact Passives]][[Category:Blow Passives]]

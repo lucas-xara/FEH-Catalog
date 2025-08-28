@@ -1,0 +1,52 @@
+{{Weapon Infobox
+|tagid=SID_狙撃手の弓
+|weaponType=Bow
+|might=14
+|range=2
+|effectiveness=flying
+|effect=Effective against flying foes. After combat, if unit attacked, deals 7 damage to target and foes within 2 spaces of target, and inflicts Atk/Spd-7 on them through their next actions.
+|cost=400
+|exclusive=1
+|required=-
+|userVersion1=Bow
+|userVersion2=Arrow
+|userVersion3=Gleam
+|statModifiers=0,14,0,0,0
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=At start of combat, if unit's HP ≥ 50%, grants Atk/Spd+4 during combat, and if unit is also within 2 spaces of support partner, foe cannot counterattack.
+|iconSkill1=Snipers Bow W.png
+|tagidExtraSkill1=抑
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{IfUnitAttacked}}
+{{Out of combat damage}}
+{{Penalties}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Combat boosts}}
+{{Prevent counterattacks}}
+{{SupportPartner|effect=counterattack prevention effect}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|支援反撃抑制R攻速4|Ally Support Counterattack Suppression R Atk/Spd 4}}
+==In other languages==
+{{OtherLanguages
+|japanese=狙撃手の弓
+|german=Schützenbogen
+|spanishEU=Arco certero
+|spanishLA=Arco certero
+|french=Arc fatal
+|italian=Arco tiratrice
+|chineseTW=狙擊手之弓
+|portuguese=Arco sombrio
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%of support partner%' OR Description LIKE '%if unit attacked%inflicts Atk/Spd-%though their next actions%' OR Description LIKE '%if unit attacked%deals%damage to target and foes within 2 spaces%'|columns=3}}
+{{Weapons Navbox}}

@@ -1,0 +1,55 @@
+{{Passive
+|name=Squad Ace CA
+|type=S
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|1name=Squad Ace CA 1
+|1tagid=SID_第79迷宮の覇者1
+|1effect=Grants Atk/Def/Res+1.
+|statModifiers1=0,1,0,1,1
+|1cost=120
+|1required=-
+|1next=-
+|2name=Squad Ace CA 2
+|2tagid=SID_第79迷宮の覇者2
+|2effect=Grants Atk/Def/Res+2.
+|statModifiers2=0,2,0,2,2
+|2cost=180
+|2next=-
+|3name=Squad Ace CA 3
+|3tagid=SID_第79迷宮の覇者3
+|3effect=Grants Atk/Def/Res+3.
+|statModifiers3=0,3,0,3,3
+|3cost=240
+}}
+==Seal acquired from==
+===Squad Assault reward===
+* Complete the [[79th Assault]].
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Squad Ace CA 1;Squad Ace CA 2;Squad Ace CA 3
+|badgeColor=Azure
+|costs1=-
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|english=Squad Ace CA
+|japanese=第７９迷宮の覇者
+|german=Überfall-Ass CA
+|spanishEU=As del asalto CA
+|spanishLA=As del asalto CA
+|french=Assaut réussi CA
+|italian=Asso sq. CA
+|chineseTW=第７９迷宮的霸王
+|portuguese=Esquad. ás CA
+}}
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}
+[[Category:Squad Ace Seals]]

@@ -1,0 +1,76 @@
+{{Passive
+|name=Dragon Wall
+|type=B
+|exclusive=0
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|Dragonstone}}
+|timingID=21
+|abilityID=186
+|randomTimestamp=2021-02-28T07:00:00Z
+|properties=random_owner
+|1name=Dragon Wall 1
+|1tagid=SID_竜鱗障壁1
+|1effect=If unit's Res > foe's Res, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 2 (max 20%).
+|1required=-
+|1cost=60
+|1promotionRarity=4
+|1promotionTier=1
+|intID1=2410
+|sort1=36000
+|value1=2
+|randomMinLv1=21
+|randomMaxLv1=30
+|2name=Dragon Wall 2
+|2tagid=SID_竜鱗障壁2
+|2effect=If unit's Res > foe's Res, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 3 (max 30%).
+|2required=Dragon Wall 1
+|2cost=120
+|2promotionRarity=5
+|2promotionTier=1
+|intID2=2411
+|sort2=36001
+|value2=4
+|randomMinLv2=26
+|randomMaxLv2=35
+|3name=Dragon Wall 3
+|3tagid=SID_竜鱗障壁3
+|3effect=If unit's Res > foe's Res, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 4 (max 40%).
+|3required=Dragon Wall 2
+|3cost=240
+|intID3=2412
+|sort3=36002
+|value3=6
+|randomMinLv3=31
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce={{Eft|Damage Reduction|4 x ({{Tgt|Unit}}'s Res - {{Tgt|Foe)}}'s Res)<br>from attacks & Non-Røkkr [[AoE Specials]]|percent=1|max=40%}}
+|CeC={{Tgt|Unit}}'s Res ><br>{{Tgt|Foe}}'s Res
+}}
+
+==Notes==
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=竜鱗障壁
+|german=Drachenwand
+|spanishEU=Dracoescamas
+|spanishLA=Dracoescamas
+|french=Mur de dragon
+|italian=Barriera drago
+|chineseTW=龍鱗防護障壁
+|portuguese=Barreira dragão
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%unit\'s Res > foe\'s Res%educes damage from attacks during combat%'|columns=3}}
+* [[Dodge Passives]]
+* [[Dragon Passives]]
+{{Passives Navbox|B}}

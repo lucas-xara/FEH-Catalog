@@ -1,0 +1,74 @@
+{{#invoke:NameAbout|main|Name=Leanne}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Leanne
+|Title=Forest's Song
+|GrowthModifier=
+|WeaponType=Colorless Beast
+|Origin=Fire Emblem: Radiant Dawn
+|Gender=Female
+|MoveType=Flying
+|actorJP=鈴木絵理
+|actorEN=Rachelle Heger
+|artist=由良
+|additionDate=January 10, 2019
+|releaseDate=January 11, 2019
+|poolDate=January 30, 2019
+|poolRarities=5
+|TagID=リアーネ
+|InternalID=330
+|Properties=refresher,specRate_202108
+|cv1=9
+|cv2=700400
+|description=Princess of Serenes. Reyson's younger sister. She speaks the ancient tongue and has not yet mastered the language of Tellius. Appears in Fire Emblem: Radiant Dawn.
+}}
+__TOC__
+{{Stats Page|Hero=Leanne: Forest's Song
+|Lv1HP=14|Lv1ATK=5|Lv1SPD=9|Lv1DEF=3|Lv1RES=8
+|GRHP=50|GRATK=50|GRSPD=65|GRDEF=30|GRRES=60
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Hatchling (Flier)
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Fledgling (Flier)
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Adult (Flier)
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Heron Wing
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Sing
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Warding Stance 1
+|passiveA2=Mirror Stance 1
+|passiveA3=Mirror Stance 2
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=Flier Formation 1
+|passiveB2=Flier Formation 2
+|passiveB3=Flier Formation 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Hone Spd 1
+|passiveC2=Hone Spd 2
+|passiveC3=Hone Beasts
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

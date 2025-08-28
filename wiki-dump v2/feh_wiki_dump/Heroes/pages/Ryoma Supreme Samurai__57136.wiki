@@ -1,0 +1,89 @@
+{{#invoke:NameAbout|main|Name=Ryoma}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Ryoma
+|Title=Supreme Samurai
+|LegendaryEffect=Water
+|BoostHP=3
+|BoostDef=4
+|GrowthModifier=Gen 2
+|WeaponType=Red Sword
+|MoveType=Flying
+|Origin=Fire Emblem Fates
+|Gender=Male
+|actorEN=Matt Mercer
+|actorJP=中村悠一
+|artist=北千里
+|releaseDate=May 30, 2018
+|TagID=伝承リョウマ
+|InternalID=254
+|Properties=legendary,tiara
+|cv1=11
+|cv2=200300
+|description=The eldest brother of the Hoshidan royal siblings. Rules from the heavens on the back of a legendary kinshi. Appears in Fire Emblem Fates.
+}}
+
+__TOC__
+
+{{Stats Page|Hero={{BASEPAGENAME}}
+|Lv1HP=17|Lv1ATK=8|Lv1SPD=11|Lv1DEF=6|Lv1RES=5
+|GRHP=55|GRATK=60|GRSPD=65|GRDEF=50|GRRES=35
+}}
+
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Raijinto
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+
+===Assists===
+{{Assists Table
+}}
+
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Glimmer
+|special2Default=
+|special2Unlock=4
+}}
+
+===Passives===
+{{Passives Table
+|passiveA1=Fierce Stance 1
+|passiveA2=Kestrel Stance 1
+|passiveA3=Kestrel Stance 2
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Bushido
+|passiveB2=Bushido II
+|passiveB1Unlock=5
+|passiveB2Unlock=5
+|passiveC1=Guidance 1
+|passiveC2=Guidance 2
+|passiveC3=Guidance 3
+|passiveC4=Atk/Spd Rein 1
+|passiveC5=Atk/Spd Rein 2
+|passiveC6=Atk/Spd Rein 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+|passiveC4Unlock=3
+|passiveC5Unlock=4
+|passiveC6Unlock=5
+}}
+
+{{Heroes Navbox}}

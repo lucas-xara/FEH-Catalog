@@ -1,0 +1,51 @@
+{{Weapon Infobox
+|tagid=SID_ラクチェの流剣
+|weaponType=Sword
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of combat, if unit's Spd > foe's Spd or if foe's HP = 100%, grants Atk/Spd/Def/Res+4 to unit and neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Silver Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1). At start of combat, if unit's Spd > foe's Spd or foe's HP ≥ 75%, grants Atk/Spd/Def/Res+4 to unit, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.), and neutralizes effects that inflict "Special cooldown charge -X" on unit during combat.
+|effectSkill1=At start of turn, if unit's Special cooldown count is at its maximum value, grants Special cooldown count-1 to unit. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit, deals damage = 15% of unit's Spd during combat (excluding area-of-effect Specials), and also, after combat, if unit's Special cooldown count is at its maximum value, grants Special cooldown count-1 to unit.
+|properties=random_owner
+}}
+==Notes==
+{{At start of combat}}
+{{Temporary buffs}}
+{{Bonus neutralization}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{CooldownChargeMinusNeutralization|name=Refined Larcei's Edge}}
+* {{St|Larcei's Edge|refine=Skill1}} has the same effect as {{St|Time's Pulse 3}}.
+{{Start of turn Special modification|name={{St|Larcei's Edge|refine=Skill1}}}}
+{{DamageBoost|name={{St|Larcei's Edge|refine=Skill1}}}}
+{{After combat note|name={{St|Larcei's Edge|refine=Skill1}}}}
+{{After combat Special modification|name={{St|Larcei's Edge|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Larcei's Edge
+|japanese=ラクチェの流剣
+|german=Larceis Klinge
+|spanishEU=Filo Larcei
+|spanishLA=Filo Larcei
+|french=Lame de Larcei
+|italian=Lama di Larcei
+|chineseTW=拉克榭的流劍
+|portuguese=Espada Larcei
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%maximum value%Special cooldown count-1%' OR Description LIKE '%start of turn%Special cooldown count-1%maximum value%'}}
+{{Weapons Navbox}}

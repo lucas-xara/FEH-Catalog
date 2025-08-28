@@ -1,0 +1,44 @@
+{{Passive
+|name=Far Trace Echo
+|type=X
+|exclusive=0
+|canUseWeapon={{WeaponList|Ranged}}
+|canUseMove={{MoveList|Cavalry,Flying}}
+|1name=Far Trace Echo
+|1tagid=SID_響・遠影
+|1effect=Enables【Canto (Rem.; Min １)】.<br><br>Unit deals +3 damage during combat (including when dealing damage with a Special triggered before combat).<br><br>【Canto (Rem.; Min １)】<br>After an attack, Assist skill, or structure destruction, unit can move spaces = any movement not already used that turn (min. １; if unit used a movement skill that warped them, unit can move １ space(s)).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|1cost=0
+|1required=-
+}}
+
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Canto|Rem.; Min 1}}
+|Ce={{Eft|Damage boost|3}}<br>before '''&''' during combat
+}}
+==Notes==
+{{Canto|Rem.; Min 1}}
+{{FixedDamage|3}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=響・遠影
+|german=Hall Spur fern
+|spanishEU=Eco rastro lej.
+|spanishLA=Eco rastro lej.
+|french=Symb. trace dist.
+|italian=Eco scia distante
+|chineseTW=響・遠影
+|portuguese=Eco rastro l.
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【Canto (Rem.; Min １)】%' AND Exclusive='1'}}
+* [[Trace Passives]]
+{{Passives Navbox|X}}

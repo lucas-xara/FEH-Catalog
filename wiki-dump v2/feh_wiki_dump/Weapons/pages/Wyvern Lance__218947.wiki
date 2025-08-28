@@ -1,0 +1,85 @@
+{{Weapon Infobox
+|tagid=SID_蒼穹の竜槍
+|intID=4217
+|image=wep_lc171
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=16
+|range=1
+|effect=Inflicts Atk/Def-5 and Special cooldown charge -1 (only highest value applied; does not stack) on foes within 3 rows or 3 columns centered on unit, and those foes suffer guaranteed follow-up attacks during combat.<br><br>Restores 7 HP to unit after combat.
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If foe initiates combat or foe's HP ≥ 75% at start of combat, inflicts Atk/Def-5 on foe and inflicts penalty on foe's Atk/Def = 15% of unit's Def at start of combat, grants Special cooldown charge +1 to unit per attack (only highest value applied; does not stack), and neutralizes penalties to Atk/Def on unit during combat.
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Ce1={{Eft|Temporary debuffs|Atk/Def|5}}
+|s1 Ce2={{Eft|Guard}}
+|s1 Ce1-2T={{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|s1 Ce3={{Eft|Guaranteed Follow-Ups}}
+|s1 CeT3={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>against {{Tgt|Foes}} in<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|s1 Me={{Eft|Heal|7}}
+|s1 MeT={{Tgt|Unit}}
+|s1 MeC=After combat
+|skill2={{Si|Wyvern Lance|refine=Skill1}} Skill refine effects
+|s2 Ce1={{Eft|Temporary debuffs|Atk/Def|5}}
+|s2 Ce2={{Eft|Temporary debuffs|Atk/Def|15% of {{Tgt|Unit}}s' Def<br>at start of combat}}
+|s2 Ce1-2T={{Tgt|Foe}}
+|s2 Ce3={{Eft|Accelerate Charge}}
+|s2 Ce4={{Eft|Neutralize Penalties|Atk/Def}}
+|s2 Ce3-4T={{Tgt|Unit}}
+|s2 CeC=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+}}
+==Notes==
+{{Temporary debuffs}}
+{{CooldownChargeMinus}}
+{{FoesCombatEffect|temporary debuffs and special cooldown charge-1}}
+{{Guaranteed follow-up interaction}}
+{{AlliesCombatEffect|guaranteed follow-up}}
+{{After combat healing}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Galle: Azure Rider|t=Narcian: Wyvern General
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfFoeInitiates}}
+{{At start of combat}}
+{{CooldownChargePlus|name={{St|Wyvern Lance|refine=Skill1}}}}
+{{Penalty neutralization|name={{St|Wyvern Lance|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=蒼穹の竜槍
+|german=Wyvernlanze
+|spanishEU=Lanza de wyvern
+|spanishLA=Lanza de wyvern
+|french=Lance wyverne
+|italian=Lancia viverna
+|chineseTW=蒼穹的龍槍
+|portuguese=Lança de wyvern
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%suffer guaranteed follow-up%' OR Description LIKE '%of unit_s Def at start of combat%') AND Exclusive='1'}}
+* [[Rein Passives]]
+* [[Skill families/C Passives#Crux|Crux Passives]]
+{{Weapons Navbox}}

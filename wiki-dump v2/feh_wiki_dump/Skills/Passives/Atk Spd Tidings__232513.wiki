@@ -1,0 +1,49 @@
+{{Passive
+|name=Atk/Spd Tidings
+|type=A
+|exclusive=0
+|canUseWeapon={{WeaponList|Colorless Staff}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Atk/Spd Tidings
+|alt1name=Atk Spd Tidings
+|1tagid=SID_攻撃速さの福音
+|1effect=If unit initiates combat or is within 3 spaces of an ally, grants bonus to unit's Atk/Spd = number of allies within 3 spaces of unit × 2, + 8 (max 12), and foe cannot counterattack during combat.
+|1cost=300
+|1required=Atk/Spd Form 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary buffs|Atk/Spd|2 x {{Tgt|Allies}}<br>[[within 3 spaces]], +8|max=12}}
+|Ce2={{Eft|Prevent Counter}}
+|Ce2T={{Tgt|Foe}}
+|CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 3 spaces]]
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Prevent counterattacks}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Atk/Spd Tidings
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+
+==See also==
+{{See also skills|cond=(Description LIKE '%is within _ spaces of an ally%number of allies within%spaces%') AND Exclusive='1' AND NAME NOT LIKE '%+'}}
+* [[Skill families/A Passives#Tidings|Tidings Passives]]
+* [[Sway Passives]]
+{{Passives Navbox|A}}

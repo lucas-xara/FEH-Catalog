@@ -1,0 +1,36 @@
+{{Weapon Infobox
+|tagid=SID_闇のブレス
+|weaponType=Dragonstone
+|might=9
+|range=1
+|effect=If unit initiates combat, inflicts Atk/Spd-5 on foes within 2 spaces of target through their next actions after combat.
+|cost=200
+|exclusive=0
+|statModifiers=0,9,0,0,0
+|next=Dark Breath+
+|promotionRarity=5
+|promotionTier=1
+|required=Fire Breath+
+|SE=se_effect_darkbreath.flac
+|properties=random_all
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Penalties}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=闇のブレス
+|german=Dunkler Atem
+|spanishEU=Aliento oscuro
+|spanishLA=Soplo sombrío
+|french=Souffle sombre
+|italian=Soffio oscuro
+|chineseTW=暗之吐息
+|portuguese=Sopro vil
+}}
+==See also==
+* [[Clarisse's Bow]]
+{{Weapons Navbox}}

@@ -1,0 +1,107 @@
+{{Weapon Infobox
+|tagid=SID_暗黒の聖書
+|weaponType=Red Tome
+|might=14
+|range=2
+|effect=Grants Atk+3. If unit is not adjacent to an ally, inflicts Atk/Res-6 on foe during combat, and if foe does not have "effective against dragons," unit makes a guaranteed follow-up attack.
+|cost=400
+|exclusive=1
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|statModifiers=0,17,0,0,0
+|required=Fenrir
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Atk+3. At start of player phase or enemy phase, if any foes within 3 rows or 3 columns centered on unit have Res < unit's Res+5, inflicts Atk/Res-7,【Sabotage】, 【Deep Wounds】, and a penalty that neutralizes non-Special "if foe would reduce unit's HP to 0, unit survives with 1 HP" effects on those foes through their next actions. If foe initiates combat or if unit is not adjacent to an ally, inflicts Atk/Res-6 and Spd-4 on foe and unit makes a guaranteed follow-up attack during combat.<br><br>【Sabotage】<br>Inflicts penalty on unit's Atk/Spd/Def/Res during combat = highest penalty on each stat between unit and allies within 2 spaces of unit through its next action. Calculates each stat penalty independently.<br><br>【Deep Wounds】<br>Unit's HP cannot be healed through its next action.
+|refineStatsSkill1=0,0,0,0,0
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, inflicts Atk/Spd/Res-4 on foe, foe cannot make a follow-up attack, and unit deals damage = 20% of unit's Res during combat (excluding area-of-effect Specials), and also, if unit's Res > foe's Res, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 4 (max 40%).
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Atk|3}}
+|s1 Ce1={{Eft|Temporary debuffs|Atk/Res|6}}
+|s1 CeT1={{Tgt|Foe}}
+|s1 CeC1=No {{Tgt|Allies}}<br>are [[adjacent]]
+|s1 Ce2={{Eft|Guaranteed Follow-Ups}}
+|s1 CeC2=No {{Tgt|Allies}}<br>are [[adjacent]] '''&'''<br>{{Tgt|Foe}} doesn't have<br>{{Eft|Effectiveness|{{Cwti|Dragonstone|group=1}} [[Dragon]]<br>}}
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Atk|3}}
+|s2 Se1={{Eft|Penalties|Atk/Res|7}}
+|s2 Se2={{SEt|Sabotage}}
+|s2 Se3={{SEt|Deep Wounds}}
+|s2 Se4=<span style="width:14.5em;display:inline-block"/>{{SEt|Neutralizes non-Special "unit survives with 1 HP" effects}}
+|s2 SeT={{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|s2 SeC=At start of both Phases<br>if {{Tgt|Unit}}'s Res<br>> {{Tgt|Foe}}'s Res+5
+|s2 Ce1={{Eft|Temporary debuffs|Atk/Res|6}}, {{Eft|Temporary debuffs|Spd|4}}
+|s2 CeT1={{Tgt|Foe}}
+|s2 Ce2={{Eft|Guaranteed Follow-Ups}}
+|s2 CeC=Enemy Phase '''or'''<br>No {{Tgt|Allies}}<br>are [[adjacent]]
+|skill3={{Si|Dark Scripture|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary debuffs|Atk/Spd/Res|4}}
+|s3 Ce2={{Eft|Prevent Follow-Ups}}
+|s3 CeT1-2={{Tgt|Foe}}
+|s3 Ce3={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Res}}
+|s3 CeC1-3={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s3 Ce4={{Eft|Damage Reduction|4 x ({{Tgt|Unit}}'s Res - {{Tgt|Foe)}}'s Res)<br>from attacks & Non-Røkkr [[AoE Specials]]|percent=1|max=40%}}
+|s3 CeC4={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' {{Tgt|Unit}}'s Res<br>> {{Tgt|Foe}}'s Res
+}}
+
+==Notes==
+{{Temporary debuffs}}
+{{Guaranteed follow-up interaction}}
+{{NoDragonEffectveness|guaranteed follow-up effect}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Penalties|name=Refined Dark Scripture}}
+{{Sabotage|name=Refined Dark Scripture}}
+{{Deep Wounds|name=Refined Dark Scripture}}
+{{Neutralizes non-Special "unit survives with 1 HP" effects|name=Refined Dark Scripture}}
+* Stat comparison takes place after all {{SEt|bonuses}} on allies are removed, and before any new bonuses or {{SEt|penalties}} are applied. Other existing bonuses and penalties on both units count towards their respective stats during stat comparison.
+{{IfFoeInitiates}}
+{{Prevent follow-up|name={{St|Dark Scripture|refine=Skill1}}}}
+{{DamageBoost|name={{St|Dark Scripture|refine=Skill1}}}}
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Julia: Heart Usurped|t=Seliph: Heir of Light
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Dark Scripture
+|japanese=暗黒の聖書
+|german=Dunkle Schrift
+|spanishEU=Versos sombríos
+|spanishLA=Versos sombríos
+|french=Manuscrit sombre
+|italian=Dogmi oscuri
+|chineseTW=暗黑聖書
+|portuguese=Versos sombrios
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%if foe does not have "effective against dragons%' OR Description LIKE '%if unit is not adjacent to an ally%makes a guaranteed follow-up attack%' OR (Description LIKE '%【Sabotage】%' OR Description LIKE '%【Deep Wounds】%' OR Description LIKE '%"if foe would reduce unit_s HP to 0%') AND Exclusive='1'}}
+* [[Ploy Passives]]
+{{Weapons Navbox}}

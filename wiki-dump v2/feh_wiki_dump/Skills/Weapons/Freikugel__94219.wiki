@@ -1,0 +1,51 @@
+{{Weapon Infobox
+|tagid=SID_フライクーゲル
+|weaponType=Green Axe
+|might=16
+|range=1
+|effect=Grants Spd+3. At start of ally's combat, if unit is within 2 spaces of any allies with Def > unit's Def, grants Atk/Spd+4 to those allies during combat. At start of unit's combat, if unit is not within 2 spaces of any allies with Def > unit's Def, grants Atk/Spd+6 to unit during combat.
+|cost=400
+|exclusive=1
+|userVersion1=Weapon
+|userVersion2=Upgrade Weapon
+|userVersion3=Upgrade Gleam
+|statModifiers=0,16,3,0,0
+|required=Silver Axe
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Spd+3. At start of combat for allies within 2 spaces of unit, if the ally has Def > unit's Def or if unit has not entered combat during the current phase, grants Atk/Spd/Def/Res+4 to those allies during combat and foe cannot make a follow-up attack. At start of unit's combat, if unit is not within 2 spaces of any allies with Def > unit's Def or if unit is not adjacent to an ally, grants Atk/Spd+6 to unit during combat and deals damage = 10% of unit's Spd (excluding area-of-effect Specials).
+|tagidExtraSkill1=一
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+5 to unit and reduces damage from foe's first attack by 40% during combat.
+|iconSkill1=Freikugel W.png
+|properties=random_owner
+}}
+==Notes==
+{{Temporary buffs}}
+{{AlliesCombatEffect|effect=combat boost}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{DamageBoost}}
+{{Prevent follow-up}}
+{{AlliesCombatEffect|effect=temporary buffs and follow-up prevention}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+* {{PAGENAME}}, along with {{St|Hunting Blade}}, are the first skills that compare a unit's stat with an ally's stat.
+==In other languages==
+{{OtherLanguages
+|japanese=フライクーゲル
+|german=Freikugel
+|spanishEU=Freikugel
+|spanishLA=Freikugel
+|french=Freikugel
+|italian=Freikugel
+|chineseTW=弗萊克葛爾
+|portuguese=Freikugel
+}}
+==See also==
+{{See also skills|cond=WikiName LIKE '%freikugel%' OR Description LIKE '%grants Atk/Spd+%to%allies%during combat%' AND SP=400 AND Description NOT LIKE '%not%adjacent%to an ally%grants Atk/Spd+%' OR Description LIKE '%grants Atk/Spd%+%during combat%reduces damage from foe_s first attack by%'}}
+{{Weapons Navbox}}

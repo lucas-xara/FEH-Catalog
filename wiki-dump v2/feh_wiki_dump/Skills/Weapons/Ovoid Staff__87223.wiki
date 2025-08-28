@@ -1,0 +1,38 @@
+{{Weapon Infobox
+|tagid=SID_卵の杖
+|weaponType=Staff
+|might=8
+|range=2
+|effect=At start of turn, restores 5 HP to unit and adjacent allies.
+|cost=200
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|next=Ovoid Staff+
+|promotionRarity=5
+|promotionTier=2
+|required=Assault
+|SE=se effect egg01.flac
+|properties=
+}}
+==Notes==
+{{Start-of-turn healing|allies=1}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+v3.3 80 spring03 Rod.png|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=卵の杖
+|german=Eierstab
+|spanishEU=Bastón ovoide
+|spanishLA=Bastón oval
+|french=Bâton œuf
+|italian=Bastone uovo
+|chineseTW=卵之杖
+|portuguese=Bastão oval
+}}
+==See also==
+* 
+{{Weapons Navbox}}

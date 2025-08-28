@@ -1,0 +1,46 @@
+{{Weapon Infobox
+|tagid=SID_護衛の槍＋
+|weaponName=Steadfast Lance+
+|image=wep_lc107
+|weaponType=Lance
+|might=14
+|range=1
+|effect=If unit is within 2 spaces of an ally, grants Atk/Def+5 to unit and neutralizes unit's penalties to Atk/Def during combat.
+|cost=300
+|exclusive=0
+|statModifiers=0,14,0,0,0
+|required=Steadfast Lance
+|intID=2656
+|sort=10201
+|effectRange=2
+|value=15
+|timingID=1
+|abilityID=171
+|randomTimestamp=2021-08-19T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=random_owner
+}}
+==Notes==
+{{Combat boosts}}{{Penalty neutralization}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=護衛の槍＋
+|german=Loyale Lanze+
+|spanishEU=Lanza leal +
+|spanishLA=Lanza leal +
+|french=Lance loyale +
+|italian=Lancia risoluta+
+|chineseTW=護衛之槍＋
+|portuguese=Lança leal+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If unit is within%spaces of an ally%grants%/%+%neutralizes unit_s penalties%'|columns=3}}
+{{Weapons Navbox}}

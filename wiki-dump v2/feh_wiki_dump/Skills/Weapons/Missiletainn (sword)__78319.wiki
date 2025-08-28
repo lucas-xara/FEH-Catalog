@@ -1,0 +1,51 @@
+{{About|the sword called Missiletainn|the tome Missiletainn|Missiletainn (tome)|the sword Mystletainn|Mystletainn}}{{Weapon Infobox
+|tagid=SID_ミステルトィン
+|wikiName=Missiletainn sword
+|weaponType=Sword
+|weaponName=Missiletainn
+|might=16
+|range=1
+|effect=Accelerates Special trigger (cooldown count-1). Grants Special cooldown charge +1 per foe's attack during combat. (Only highest value applied. Does not stack. Special cooldown charge granted even if foe's attack deals 0 damage.)
+|cooldown=-1
+|cost=400
+|userVersion1=Weapon
+|userVersion2=Gleam
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Silver Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1). Grants Special cooldown charge +1 per foe's attack during combat. (Only highest value applied. Does not stack. Special cooldown charge granted even if foe's attack deals 0 damage.) At start of combat, if foe's HP ≥ 50%, grants Atk/Spd+5 to unit during combat.
+|tagidExtraSkill1=一
+|effectSkill1=If unit is within 3 spaces of an ally, grants Atk/Spd+5 to unit during combat and, when Special triggers, deals damage = damage dealt to unit (max 30).
+|iconSkill1=Missiletainn sword W.png
+|properties=random_owner
+}}
+==Notes==
+{{CooldownChargePlus|perAttack=foe}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary buffs|name=Refined Missiletainn}}
+* {{St|Missiletainn (sword)|refine=Skill1}} boosts damage by the amount of ''missing HP at the moment the Special triggers'', not actual damage suffered.
+{{FlatDamageBoost|X (max: 30)}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Missiletainn
+|japanese=ミステルトィン
+|german=Mystelstein
+|spanishEU=Misilteinn
+|spanishLA=Misilteinn
+|french=Miserteinn
+|italian=Misseltein
+|chineseTW=米斯特丁
+|portuguese=Missiletainn
+}}
+==See also==
+{{See also skills|cond=(Name LIKE '%M%letainn%' OR Description LIKE '%cooldown charge +1 per foe\'s attack during combat%cooldown charge granted even if foe\'s attack deals 0 damage%' OR Description LIKE '%s damage%damage dealt to unit%') AND (Exclusive=1 AND Name NOT LIKE '%+')}}
+{{Weapons Navbox}}

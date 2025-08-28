@@ -1,0 +1,45 @@
+{{About|the weapon Seiðr|the character Seiðr|Seiðr}}
+{{Weapon Infobox
+|weaponName=Seiðr
+|wikiName=Seiðr (weapon)
+|tagid=SID_セイズ
+|intID=3378
+|exclusive=1
+|weaponType=Green Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of turn, if unit is within 2 spaces of an ally, grants the following effect to unit and allies within 2 spaces of unit for 1 turn: "Foe cannot make a follow-up attack." If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit during combat, unit makes a guaranteed follow-up attack, and unit deals damage = 20% of unit's Res (including when dealing damage with a Special triggered before combat).
+|statModifiers=0,14,0,0,0
+|required=Rexcalibur
+|properties=random_owner
+}}
+==Notes==
+{{Foe Cannot Follow-Up}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Guaranteed follow-up interaction}}
+{{DamageBoost}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+wep_mg271.gif|Animated staff
+Wep_mg271.webp|Sprite sheet
+</gallery>
+==In other languages==
+{{OtherLanguages
+|english=Seiðr
+|japanese=セイズ
+|german=Seiðr-Macht
+|spanishEU=Seiðr
+|spanishLA=Seiðr
+|french=Pouvoir de Seiðr
+|italian=Seiðr
+|chineseTW=塞慈
+|portuguese=Seiðr
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%"Foe cannot make a follow-up attack."%' OR Description LIKE '%deals damage =%of unit_s Res%'}}
+{{Weapons Navbox}}

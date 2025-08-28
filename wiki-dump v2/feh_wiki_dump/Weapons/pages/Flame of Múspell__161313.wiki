@@ -1,0 +1,47 @@
+{{Weapon Infobox
+|tagid=SID_絶炎ムスペル
+|intID=2837
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=1
+|weaponType=Bow
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effectiveness=Flying
+|effect=Accelerates Special trigger (cooldown count-1). Effective against flying foes. If【Bonus】is active on unit, grants Atk/Spd+6 and Atk/Spd/Def/Res during combat = 50% of total bonuses on unit and foe (max: +12), and also, if total bonuses on unit and foe ≥ 10, neutralizes effects that prevent unit's follow-up attacks.<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|statModifiers=0,14,0,0,0
+|required=Silver Bow
+|properties=random_owner
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{EffectfromBonusKeyword}}
+{{CombatBoostfromBonus|multiSource=1|bnsSource=the unit and foe|source=the unit and foe|percent=half}}
+{{Follow-up effect neutralization|preventOnly=1}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+wep_ar078.webp|Spritesheet of '''Flame of Múspell''''s arrow
+Weapon Flame of Muspell V2.png
+Weapon Flame of Muspell V3.png
+Weapon Flame of Muspell V4.png
+Weapon Flame of Muspell V5.png
+Weapon Flame of Muspell V6.png
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=絶炎ムスペル
+|german=Múspell-Flamme
+|spanishEU=Fuego de Múspell
+|spanishLA=Fuego de Múspell
+|french=Múspell enflammé
+|italian=Fiamma Múspell
+|chineseTW=絕炎穆斯貝爾
+|portuguese=Fogo de Múspell
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants%bonus%Atk/Spd%during combat%=%bonus%' AND Description NOT LIKE '%bonus doubler%' and Description NOT LIKE '%current penalty on each of target%' AND Description NOT LIKE '%not active%' AND Description NOT LIKE '%grants allies within 2 spaces%' AND Description NOT LIKE '%total bonuses on ally%' AND Exclusive='1'|columns=3}}
+{{Weapons Navbox}}

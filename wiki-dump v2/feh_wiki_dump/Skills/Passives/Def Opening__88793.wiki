@@ -1,0 +1,58 @@
+{{SkillPage Tabs}}{{Passive
+|type=C
+|exclusive=0
+|1name=Def Opening 1
+|1tagid=SID_守備の開放1
+|1promotionRarity=4
+|1promotionTier=1
+|1effect=At start of turn, grants Def+2 to ally with the highest Def for 1 turn. (Excludes unit.)
+|1required=-
+|1cost=60
+|2name=Def Opening 2
+|2tagid=SID_守備の開放2
+|2promotionRarity=5
+|2promotionTier=1
+|2effect=At start of turn, grants Def+4 to ally with the highest Def for 1 turn. (Excludes unit.)
+|2cost=120
+|3name=Def Opening 3
+|3tagid=SID_守備の開放3
+|3effect=At start of turn, grants Def+6 to ally with the highest Def for 1 turn. (Excludes unit.)
+|3cost=240
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=random_owner
+}}
+==Notes==
+{{Bonuses}}
+{{SelectStat|Def}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Def Opening 1;Def Opening 2;Def Opening 3
+|badgeColor=Verdant
+|costs1=20;100;20
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=守備の開放
+|german=Ver.-Öffnung
+|spanishEU=Brecha Def
+|spanishLA=Brecha Def.
+|french=Ouverture Déf
+|italian=Occasione Dif
+|chineseTW=防守開放
+|portuguese=Brecha Def.
+}}
+{{Seals Navbox}}
+{{Passives Navbox|C}}
+[[Category:Opening Passives]]

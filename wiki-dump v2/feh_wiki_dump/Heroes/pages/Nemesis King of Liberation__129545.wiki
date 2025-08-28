@@ -1,0 +1,66 @@
+{{#invoke:NameAbout|main|Name=Nemesis}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Nemesis
+|Title=King of Liberation
+|WeaponType=Red Sword
+|MoveType=Infantry
+|Origin=Fire Emblem: Three Houses
+|Gender=Male
+|actorEN=Taylor Henry
+|actorJP=楠見尚己
+|artist=藤坂公彦
+|additionDate=October 19, 2020
+|releaseDate=October 20, 2020
+|cv1=12
+|cv2=950100
+|TagID=ネメシス
+|InternalID=580
+|Properties=ghb,limited,tiara
+|description=A king who faced Seiros in mortal combat long ago, commanding the Ten Elites and wielding the Sword of the Creator. Appears in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=11|Lv1SPD=6|Lv1DEF=11|Lv1RES=8
+|GRHP=60|GRATK=65|GRSPD=40|GRDEF=60|GRRES=60
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Dark Creator S
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Dragon Fang
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Chill Atk 1
+|passiveB2=Chill Atk 2
+|passiveB3=Chill Atk 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Savage Blow 1
+|passiveC2=Savage Blow 2
+|passiveC3=Savage Blow 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

@@ -1,0 +1,58 @@
+{{Weapon Infobox
+|tagid=SID_笑面の斧
+|weaponName=Sneering Axe
+|image=wep_ax069
+|weaponType=Axe
+|might=16
+|range=1
+|effect=Inflicts penalty on foe's Atk/Spd/Def/Res during combat = current bonus on each of foe's stats × 2. (Example: if foe has +7 bonus to Atk, inflicts Atk-14, for a net penalty of Atk-7.) Calculates each stat penalty independently. After combat, if unit attacked, inflicts【Panic】<br>on target and foes within 2 spaces of target.<br><br>【Panic】<br>Converts bonuses on target into penalties through its next action.
+|cost=400
+|exclusive=1
+|intID=2163
+|sort=432
+|effectRange=2
+|value=20
+|timingID=15
+|abilityID=221
+|limit2ID=6
+|statModifiers=0,16,0,0,0
+|userVersion1=Weapon
+|userVersion2=Upgrade Gleam
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=At start of combat, if foe's HP ≥ 75%, grants Atk/Spd+5 and Special cooldown charge +1 per unit's attack during combat. (Only highest value applied. Does not stack.)
+|iconSkill1=Sneering Axe W.png
+|tagidExtraSkill1=奥
+|properties=
+}}
+==Notes==
+{{CombatReductionfromBonus|source=the foe|bnsSource=the unit}}
+{{IfUnitAttacked}}
+{{Panic}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Combat boosts}}
+{{CooldownChargePlus|perAttack=user}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|攻奥義変動R攻速5|Special Charge R Atk/Spd 5}}
+==In other languages==
+{{OtherLanguages
+|english=Sneering Axe
+|japanese=笑面の斧
+|german=Lachende Axt
+|spanishEU=Hacha demente
+|spanishLA=Hacha demente
+|french=Hache de dément
+|italian=Ascia derisoria
+|chineseTW=笑面之斧
+|portuguese=Machado maníaco
+}}
+==See also==
+* [[Chaos Ragnell]]
+{{Weapons Navbox}}

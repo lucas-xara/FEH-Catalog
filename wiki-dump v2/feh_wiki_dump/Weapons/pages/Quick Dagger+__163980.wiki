@@ -1,0 +1,43 @@
+{{Weapon Infobox
+|tagid=SID_奥義発動の暗器＋
+|intID=2915
+|image=wep_dg060
+|exclusive=0
+|weaponType=Dagger
+|cost=300
+|might=12
+|range=2
+|effect=At the start of turn 1, grants Special cooldown count-2 to unit.<br>Effect:【Dagger ７】<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|statModifiers=0,12,0,0,0
+|required=Quick Dagger
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=random_owner
+}}
+==Notes==
+{{Start of turn Special modification}}
+{{IfUnitAttacked}}
+{{Penalties}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Quick Dagger
+|japanese=奥義発動の暗器
+|german=Flinkdolch
+|spanishEU=Daga acelerada
+|spanishLA=Daga acelerada
+|french=Dague rapide
+|italian=Pugnale alacre
+|chineseTW=奧義發動暗器
+|portuguese=Adaga acelerada
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%start of turn 1%special cooldown count-2%'|columns=3}}
+{{Weapons Navbox}}

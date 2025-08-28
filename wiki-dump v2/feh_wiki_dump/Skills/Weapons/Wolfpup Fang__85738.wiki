@@ -1,0 +1,54 @@
+{{Weapon Infobox
+|tagid=SID_人狼娘の爪牙
+|canUseMove=Infantry
+|weaponType=Beast
+|might=14
+|range=1
+|effect=Grants Spd+3. At the start of turn 1, grants special cooldown count-2 to unit and unit's support partner (if any). At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 and deals +10 damage when Special triggers.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,3,0,0
+|required=Adult (Infantry)
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Spd+3. At the start of turn 1, grants Special cooldown count-2 to unit and unit's support partner (if any). If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd+5 to unit during combat.<br><br>At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, deals +7 damage when Special triggers, and neutralizes effects that grant "Special cooldown charge +X" to foe or inflict "Special cooldown charge -X" on unit.
+|tagidExtraSkill1=一
+|effectSkill1=At start of turn, if unit is within 3 spaces of support partner, grants Atk/Spd+6 and "neutralizes foe's bonuses during combat" to unit and any support partner within 3 spaces of unit for 1 turn. If unit is transformed or foe's HP ≥ 75% at start of combat, grants Atk/Spd+5 to unit during combat.
+|iconSkill1=Wolfpup Fang W.png
+|properties=random_owner
+}}
+==Notes==
+{{Start of turn Special modification}}
+{{SupportPartner|effect=cooldown count reduction granted to unit's support partner}}
+{{Beast (Infantry)}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Beast (Infantry) Upgrade}}
+{{Bonuses}}
+{{Neutralize Bonuses}}
+{{SupportPartner|effect={{SEt|bonuses}} and {{SEt|Neutralize Bonuses}} to unit and unit's support partner}}
+{{IfUnitTransforms}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=人狼娘の爪牙
+|german=Wilde Ulfhedin
+|spanishEU=Garra de lobata
+|spanishLA=Garra de lobata
+|french=Croc de louve
+|italian=Zanna di lupetta
+|chineseTW=狼人之女的爪牙
+|portuguese=Presa lobinho
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%support partner%' OR Description LIKE '%start of turn 1%special cooldown count-2%'|columns=3}}
+{{Weapons Navbox}}

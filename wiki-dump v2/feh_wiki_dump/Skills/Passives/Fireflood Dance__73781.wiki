@@ -1,0 +1,43 @@
+{{SkillPage Tabs}}{{Passive
+|type=B
+|exclusive=0
+|1name=Fireflood Dance 1
+|1tagid=SID_業火静水の舞い1
+|1promotionRarity=5
+|1promotionTier=1
+|1effect=If Sing or Dance is used, grants Atk+2 and Res+3 to target.
+|1cost=120
+|1required=Blaze Dance 1;Torrent Dance 1
+|2name=Fireflood Dance 2
+|2tagid=SID_業火静水の舞い2
+|2effect=If Sing or Dance is used, grants Atk+3 and Res+4 to target.
+|2cost=240
+|3name=
+|3effect=
+|3cost=
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|all}}
+|properties=random_owner
+}}
+==Notes==
+{{Dance passive interaction}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=業火静水の舞い
+|german=Lavatanz
+|spanishEU=Vapor bailarín
+|spanishLA=Vapor bailarín
+|french=Danse magma
+|italian=Danza lava
+|chineseTW=業火靜水之舞
+|portuguese=Dança lava
+}}
+==See also==
+* [[Dance Passives]]
+{{Passives Navbox|B}}

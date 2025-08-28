@@ -1,0 +1,39 @@
+{{Weapon Infobox
+|tagid=SID_ロック
+|weaponType=Colorless Tome
+|weaponName={{PAGENAME}}
+|might=4
+|range=2
+|effect=
+|cost=50
+|exclusive=0
+|userVersion1=Closed|userVersion2=Open|statModifiers=0,4,0,0,0
+|next=Elstone
+|promotionRarity=3
+|promotionTier=1
+|required=-
+|properties=random_all
+}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+File:v4.3 200303 legend Mag.webp|Sprite sheet for {{St|Stone}}, {{St|Elstone}}, {{St|Atlas}}, {{St|Atlas+}}, and {{St|Void Tome}}'s animations.
+</gallery>
+
+==In other languages==
+{{OtherLanguages
+|japanese=ロック
+|german=Stein
+|spanishEU=Roca
+|spanishLA=Roca
+|french=Roche
+|italian=Roccia
+|chineseTW=洛克
+|portuguese=Pedra
+}}
+
+==See also==
+* [[Iron Weapons]]
+{{Weapons Navbox}}
+[[Category:Iron weapons]]

@@ -1,0 +1,55 @@
+{{Passive
+|type=B
+|name=Lunar Brace
+|exclusive=1
+|1name=Lunar Brace
+|1tagid=SID_月の腕輪
+|properties1=random_owner
+|1effect=Slows Special trigger (cooldown count+1).<br>Deals damage = 50% of foe's Def when Special triggers.
+|1cooldown=1
+|1cost=300
+|1required=-
+|1next=-
+|2name=Lunar Brace II
+|2tagid=SID_月の腕輪・承
+|2cost=300
+|properties2=
+|2effect=Enables【Canto (２)】.<br><br>Neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat. Deals damage = 15% of foe's Def.<br><br>【Canto (２)】<br>After an attack, Assist skill, or structure destruction, unit can move ２ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Lunar Brace}} Lunar Brace
+|s1 Pe={{Eft|Slow Special}}
+|s1 Ce={{Eft|Damage Boost|50% {{Tgt|Foe}}'s Def}} per<br>{{Tgt|Unit}}'s [[offensive Special]]
+|skill2={{Si|Lunar Brace II}} Lunar Brace II
+|s2 Me={{Eft|Canto|2}}
+|s2 Ce1={{Eft|Neutralize GFU}}
+|s2 CeT1={{Tgt|Foe}}
+|s2 Ce2={{Eft|Neutralize PFU}}
+|s2 Ce3={{Eft|Damage Boost|15% of {{Tgt|Foe}}'s Def}}
+}}
+==Notes==
+{{DamageBoost}}
+* Lunar Brace II has the same effect as {{St|Null Follow-Up 3}}.
+{{Canto|2|name=Lunar Brace II}}
+{{Follow-up effect neutralization|name=Lunar Brace II}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=月の腕輪
+|german=Luna-Band
+|spanishEU=Brazalete lunar
+|spanishLA=Brazalete lunar
+|french=Bracelet lunaire
+|italian=Bracciale lunare
+|chineseTW=月亮手鐲
+|portuguese=Bracelete lunar
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%deals damage =%of foe_s Def%' AND Description NOT LIKE '%deals damage % lower of foe_s Def or Res%') AND Exclusive='1'}}
+* [[:Category:Weapons that slow the Special trigger|Weapons that slow the Special trigger]]
+{{Passives Navbox|B}}

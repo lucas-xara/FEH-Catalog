@@ -1,0 +1,37 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_キラーアクス＋
+|weaponType=Axe
+|weaponName={{PAGENAME}}
+|altWeaponName=Killer Axe Plus
+|might=11
+|range=1
+|effect=Accelerates Special trigger (cooldown count-1).
+|cooldown=-1
+|cost=300
+|exclusive=0
+|statModifiers=0,11,0,0,0
+|properties=random_all
+}}
+==Evolution==
+{{WEvo
+|weapon=Slaying Axe+
+|Medals=200
+|Stones=20
+|Dew=
+}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=キラーアクス＋
+|german=Meisteraxt+
+|spanishEU=Hacha asesina +
+|spanishLA=Hacha letal +
+|french=Hache létale +
+|italian=Ascia letale+
+|chineseTW=必殺斧＋
+|portuguese=Machado letal+
+}}
+==See also==
+* [[Weapons that accelerate the Special trigger]]
+{{Weapons Navbox}}

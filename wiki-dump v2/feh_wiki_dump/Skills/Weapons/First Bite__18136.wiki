@@ -1,0 +1,35 @@
+{{Weapon Infobox
+|tagid=SID_ファーストバイト
+|weaponType=Lance
+|might=10
+|range=1
+|effect=If unit initiates combat, grants Def/Res+2 to allies within 2 spaces for 1 turn after combat.
+|cost=200
+|exclusive=0
+|statModifiers=0,10,0,0,0
+|next=First Bite+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Lance
+|properties=
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ファーストバイト
+|german=Erster Biss
+|spanishEU=Primer bocado
+|spanishLA=Primer mordisco
+|french=1re bouchée
+|italian=Torta in faccia
+|chineseTW=定情之槍
+|portuguese=Mordida inicial
+}}
+==See also==
+* [[Bridal Blessings Weapons]]
+{{Weapons Navbox}}
+[[Category:Bridal Blessings weapons]]

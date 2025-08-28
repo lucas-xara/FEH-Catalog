@@ -1,0 +1,92 @@
+{{Weapon Infobox
+|tagid=SID_マクベスの惑書
+|weaponType=Red Tome
+|might=14
+|range=2
+|effect=Grants Res+3. At start of odd-numbered turns, if any foe's HP ≤ unit's HP-3 and that foe is not adjacent to another foe, inflicts Atk/Spd-4 and【Guard】on that foe. At start of even-numbered turns, if any foe's HP ≤ unit's HP-3 and that foe is adjacent to another foe, inflicts Def/Res-4 and【Panic】on that foe.<br><br>【Guard】<br>Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)<br><br>【Panic】<br>Converts bonuses on target into penalties through its next action.
+|cost=400
+|exclusive=1
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|statModifiers=0,14,0,0,3
+|required=Fenrir;Bolganone
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Res+3. At start of odd-numbered turns, if any foe's HP < unit's HP and that foe is not adjacent to another foe, inflicts Atk/Spd-6 and【Guard】on that foe through its next action. At start of even-numbered turns, if any foe's HP < unit's HP and that foe is adjacent to another foe, inflicts Def/Res-6 and【Panic】on that foe through its next action. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit during combat.<br><br>【Guard】<br>Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)<br><br>【Panic】<br>Converts bonuses on target into penalties through its next action.
+|effectSkill1=At start of odd-numbered turns, grants Def/Res+6, "foe cannot make a follow-up attack," and "neutralizes foe's bonuses during combat" to unit and allies within 2 spaces of unit for 1 turn. At start of even-numbered turns, grants Atk/Spd+6, "if unit initiates combat, unit makes a guaranteed follow-up attack," and【Hexblade】to unit and allies within 2 spaces of unit for 1 turn. If foe initiates combat or if foe's HP ≥ 75% at start of combat, grants Atk/Spd/Def/Res+4 to unit during combat.<br><br>【Hexblade】<br>Calculates damage using the lower of foe's Def or Res during combat for 1 turn (including damage dealt by Specials before combat).
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Res|3}}
+|s1 Se1={{Eft|Penalties|Atk/Spd|4}}
+|s1 Se2={{SEt|Guard}}
+|s1 Se1-2T={{Tgt|Foes}} not [[adjacent]]<br>to another {{Tgt|Foe}}
+|s1 Se1-2C=At start of odd turns<br>if {{Tgt|Target Foes}}' HP<br>≤ {{Tgt|Unit}}'s HP-3
+|s1 Se3={{Eft|Penalties|Def/Res|4}}
+|s1 Se4={{SEt|Panic}}
+|s1 Se3-4T={{Tgt|Foes}} [[adjacent]]<br>to another {{Tgt|Foe}}
+|s1 Se3-4C=At start of even turns<br>if {{Tgt|Target Foes}}' HP<br>≤ {{Tgt|Unit}}'s HP-3
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Res|3}}
+|s2 Se1={{Eft|Penalties|Atk/Spd|6}}
+|s2 Se2={{SEt|Guard}}
+|s2 Se1-2T={{Tgt|Foes}} not [[adjacent]]<br>to another {{Tgt|Foe}}
+|s2 Se1-2C=At start of odd turns<br>if {{Tgt|Target Foes}}' HP<br>< {{Tgt|Unit}}'s HP
+|s2 Se3={{Eft|Penalties|Def/Res|6}}
+|s2 Se4={{SEt|Panic}}
+|s2 Se3-4T={{Tgt|Foes}} [[adjacent]]<br>to another {{Tgt|Foe}}
+|s2 Se3-4C=At start of even turns<br>if {{Tgt|Target Foes}}' HP<br>< {{Tgt|Unit}}'s HP
+|s2 Ce={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s2 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|skill3={{Si|Iago's Tome|refine=Skill1}} Skill refine effects
+|s3 Se1={{Eft|Bonuses|Def/Res|6}}
+|s3 Se2={{SEt|Foe Cannot Follow-Up}}
+|s3 Se3={{SEt|Neutralize Bonuses}}
+|s3 Se4={{Eft|Bonuses|Atk/Spd|6}}
+|s3 Se5={{SEt|Guaranteed Follow-Ups}}
+|s3 Se6={{SEt|Hexblade}}
+|s3 SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|s3 Se1-3C=At start of odd turns
+|s3 Se4-6C=At start of even turns
+|s3 Ce={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s3 CeC=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+}}
+==Notes==
+{{Penalties}}
+{{Guard}}
+{{Panic}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary buffs|name=Refined Iago's Tome}}
+{{Bonuses|name={{St|Iago's Tome|refine=Skill1}}}}
+{{Foe Cannot Follow-Up|name={{St|Iago's Tome|refine=Skill1}}}}
+{{Neutralize Bonuses|name={{St|Iago's Tome|refine=Skill1}}}}
+{{Guaranteed Follow-Ups|name={{St|Iago's Tome|refine=Skill1}}}}
+{{Hexblade|name={{St|Iago's Tome|refine=Skill1}}}}
+{{IfFoeInitiates}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Iago's Tome
+|japanese=マクベスの惑書
+|german=Iagos Buch
+|spanishEU=Grimorio Iago
+|spanishLA=Grimorio Iago
+|french=Tome de Iago
+|italian=Tomo di Iago
+|chineseTW=馬克白的惑書
+|portuguese=Tomo de Iago
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%at the start of%turn%inflicts%' AND Description NOT LIKE '%grants special%' OR Description LIKE '%at start of%turns%if any%inflicts%' AND Description NOT LIKE '%special cooldown count%' OR Description LIKE '%at start of%turns%inflicts%-%' OR Description LIKE '%at start of%turn%inflicts%penalties%' OR Description LIKE '%start of turn%deals % damage to foes%'}}
+* [[Odd Wave Passives]]
+* [[Even Wave Passives]]
+{{Weapons Navbox}}

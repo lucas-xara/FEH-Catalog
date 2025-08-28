@@ -1,0 +1,38 @@
+{{Weapon Infobox
+|tagid=SID_夢想の翼槍
+|intID=3436
+|image=wep_lc137
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). Grants Atk/Spd/Def/Res+5. If unit is on a team with two allies in a support-partner pair (excluding unit), unit makes a guaranteed follow-up attack, inflicts Special cooldown charge -1 on foe per attack (only highest value applied; does not stack), deals damage = 20% of unit's Res, and reduces damage from foe's attacks by 20% of unit's Res during combat (excluding area-of-effect Specials).
+|statModifiers=0,21,5,5,5
+|required=Silver Lance
+|properties=random_owner
+}}
+==Notes==
+{{Guaranteed follow-up interaction}}
+{{CooldownChargeMinus}}
+{{DamageBoost}}
+{{FlatDamageReduction}}
+{{SupportPartner|pair=1|effect=guaranteed follow-up, Special cooldown charge -1 on foe, damage boost, damage reduction}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=夢想の翼槍
+|german=Traumlanze
+|spanishEU=Lanza onírica
+|spanishLA=Lanza onírica
+|french=Lance onirique
+|italian=Lancia sognante
+|chineseTW=夢想的翼槍
+|portuguese=Lança onírica
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%support-partner pair%' AND Exclusive='1' OR Description LIKE '%deals damage =%of unit_s Res%' OR Description LIKE '%reduces damage from foe_s attacks by% of unit_s Res%'}}
+{{Weapons Navbox}}

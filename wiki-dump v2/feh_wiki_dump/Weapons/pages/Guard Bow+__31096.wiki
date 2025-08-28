@@ -1,0 +1,47 @@
+{{Weapon Infobox
+|tagid=SID_遠距離防御の弓＋
+|weaponType=Bow
+|altWeaponName=Guard Bow
+|WeaponName=Guard Bow+
+|might=12
+|range=2
+|effectiveness=flying
+|effect=Effective against flying foes.<br>If foe initiates combat and uses bow, dagger, magic, or staff, grants Def/Res+6 to unit during combat.
+|cost=300
+|exclusive=0
+|userVersion1=Bow
+|userVersion2=Arrow
+|statModifiers=0,12,0,0,0
+|required=Guard Bow
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=random_owner
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+* Has the same effect as {{St|Distant Def 3}}.
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=遠距離防御の弓＋
+|japaneseNotes=''[[Distant Def]] Bow+''
+|german=Wächterbogen+
+|spanishEU=Arco protector +
+|spanishLA=Arco protector +
+|french=Arc défenseur +
+|italian=Arco difensivo+
+|chineseTW=遠距離防禦之弓＋
+|portuguese=Arco protetor+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe initiates combat% Def/Res+%during combat%' AND WikiName NOT LIKE '%serpent%' AND WikiName NOT LIKE '%guard bow%' AND Exclusive='1'|columns=3}}
+* [[Serpent Weapons]]
+{{Weapons Navbox}}
+[[Category:Serpent weapons]]

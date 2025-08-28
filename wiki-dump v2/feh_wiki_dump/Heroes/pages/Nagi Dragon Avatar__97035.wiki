@@ -1,0 +1,72 @@
+{{#invoke:NameAbout|main|Name=Nagi|Name2=Naga}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Nagi
+|Title=Dragon Avatar
+|WeaponType=Green Breath
+|Origin=Fire Emblem: New Mystery of the Emblem
+|Gender=Female
+|MoveType=Armored
+|actorJP=島本須美
+|actorEN=Colleen O'Shaughnessey
+|artist=岡谷
+|additionDate=September 19, 2019
+|releaseDate=September 19, 2019
+|poolDate=October 9, 2019
+|randomStartTime=2019-10-19T07:00:00Z
+|poolRarities=5
+|TagID=ナギ
+|InternalID=423
+|Properties=specRate_202208
+|cv1=1
+|cv2=1000200
+|description=A manakete who slept within the Alterspire. Her appearance is reminiscent of Tiki's, and she wields the Divinestone. Appears in Fire Emblem: New Mystery of the Emblem.
+|GrowthModifier=Gen 4
+}}
+{{Stats Page
+|Lv1HP=24|Lv1ATK=11|Lv1SPD=4|Lv1DEF=6|Lv1RES=11
+|GRHP=50|GRATK=60|GRSPD=35|GRDEF=70|GRRES=70
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire Breath
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Fire Breath+
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Flametongue
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Ethereal Breath
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Daylight
+|special1Default=4
+|special1Unlock=3
+|special2=Sol
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Distant Counter
+|passiveA1Unlock=5
+|passiveB1=Special Fighter 1
+|passiveB2=Special Fighter 2
+|passiveB3=Special Fighter 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Dragon Valor 1
+|passiveC2=Dragon Valor 2
+|passiveC3=Dragon Valor 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

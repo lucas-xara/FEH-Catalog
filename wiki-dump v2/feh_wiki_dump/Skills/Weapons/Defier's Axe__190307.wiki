@@ -1,0 +1,37 @@
+{{Weapon Infobox
+|tagid=SID_守備逆用の斧
+|intID=3487
+|image=wep_ax126
+|exclusive=0
+|weaponType=Axe
+|cost=200
+|might=10
+|range=1
+|effect=At start of combat, if foe's HP ≥ 75%, grants Def+5 to unit and inflicts Def-5 on foe during combat, and also, if foe has bonuses, grants bonus to unit's Def and inflicts penalty on foe's Def during combat = current bonus on foe's Def. Calculates each stat bonus and penalty independently.
+|statModifiers=0,10,0,0,0
+|required=Steel Axe
+|next=Defier's Axe+
+|promotionRarity=5
+|promotionTier=1
+|properties=random_owner
+}}
+==Notes==
+{{TemporaryBufffromBonus|source=the foe}}
+{{TemporaryDebufffromBonus|source=the foe}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=守備逆用の斧
+|german=Verräteraxt
+|spanishEU=Hacha defensa
+|spanishLA=Hacha defensiva
+|french=Hache défensive
+|italian=Ascia sfidante
+|chineseTW=防守逆用之斧
+|portuguese=Machado rival
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe has%bonus%grants%inflicts%' AND Exclusive='1' AND WikiName NOT LIKE '%defier%'}}
+* [[Skill families/Weapons#Defier's|Defier's Weapons]]
+{{Weapons Navbox}}

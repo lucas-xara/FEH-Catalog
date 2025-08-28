@@ -1,0 +1,43 @@
+{{Weapon Infobox
+|tagid=SID_愛情のブーケ
+|weaponName=Love Bouquet
+|image=wep_mg160
+|weaponType=Blue Tome
+|might=8
+|range=2
+|effect=Grants Atk/Res+4 to allies within 2 spaces during combat. If unit is within 2 spaces of an ally, grants Atk/Res+4 to unit during combat.
+|cost=200
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|required=Elthunder;Ellight
+|next=
+|promotionRarity=5
+|promotionTier=1
+|intID=2564
+|sort=91500
+|effectRange=2
+|value=11
+|timingID=20
+|abilityID=143
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+{{AlliesCombatEffect}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=愛情のブーケ
+|german=Liebesbouquet
+|spanishEU=Ramo de amor
+|spanishLA=Ramo de amor
+|french=Gerbe d'amour
+|italian=Fiori dell'amore
+|chineseTW=愛情捧花
+|portuguese=Buquê do amor
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants%/%+%to allies within _ spaces%if unit is within _ spaces of an ally%grants%/%+%during combat%' OR Description LIKE '%if unit is within _ spaces of an ally%grants%/%+%to unit and allies%during combat%'|columns=3}}
+* [[Joint Drive Passives]]
+{{Weapons Navbox}}

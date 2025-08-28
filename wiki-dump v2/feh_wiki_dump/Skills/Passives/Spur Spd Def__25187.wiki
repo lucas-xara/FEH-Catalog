@@ -1,0 +1,66 @@
+{{Passive
+|name=Spur Spd/Def
+|type=C
+|exclusive=0
+|1name=Spur Spd/Def 1
+|1tagid=SID_速さ守備の紋章1
+|1promotionRarity=5
+|1promotionTier=1
+|alt1name=Spur Spd Def 1
+|1effect=Grants Spd/Def+2 to adjacent allies during combat.
+|1cost=120
+|1required=Spur Spd 1;Spur Def 1
+|2name=Spur Spd/Def 2
+|2tagid=SID_速さ守備の紋章2
+|alt2name=Spur Spd Def 2
+|2effect=Grants Spd/Def+3 to adjacent allies during combat.
+|2cost=240
+|3name=
+|3effect=
+|3cost=
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=random_all,random_inherit_base
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce={{Eft|Temporary buffs|Spd/Def|3}}
+|CeT=[[Adjacent]]<br>{{Tgt|Allies}}
+}}
+
+==Notes==
+{{Temporary buffs}}
+{{AlliesCombatEffect|effect=temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Spur Spd/Def 1;Spur Spd/Def 2
+|badgeColor=Verdant
+|costs1=20;100;20
+|costs2=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|english=Spur Spd/Def
+|japanese=速さ守備の紋章
+|german=Ges./Ver. ansp.
+|spanishEU=Mejora Vel/Def
+|spanishLA=Mejora Vel./Def.
+|french=Encens Vit/Déf
+|italian=Migliora Vel/Dif
+|chineseTW=速度防守紋章
+|portuguese=Vel./Def. realç.
+}}
+==See also==
+* [[Spur Passives]]
+{{Seals Navbox}}
+{{Passives Navbox|C}}
+[[Category:Spur Passives]]

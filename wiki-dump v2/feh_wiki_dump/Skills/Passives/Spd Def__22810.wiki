@@ -1,0 +1,62 @@
+{{SkillPage Tabs}}{{Passive
+|type=A
+|exclusive=0
+|1name=Spd/Def 1
+|1tagid=SID_速さ守備1
+|1promotionRarity=5
+|1promotionTier=1
+|alt1name=Spd Def 1
+|1effect=Grants Spd/Def+1.
+|1cost=80
+|1required=Speed +1;Defense +1
+|2name=Spd/Def 2
+|2tagid=SID_速さ守備2
+|alt2name=Spd Def 2
+|2effect=Grants Spd/Def+2.
+|2cost=160
+|3name=
+|3effect=
+|3cost=
+|statModifiers1=0,0,1,1,0
+|statModifiers2=0,0,2,2,0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=random_all
+}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===Sacred Seal Forge===
+{{SealCosts
+|seals=Spd/Def 1;Spd/Def 2
+|badgeColor=Verdant
+|costs1=20;100;20
+|costs2=400;1000;100
+}}
+
+==In other languages==
+{{OtherLanguages
+|english=Spd/Def
+|japanese=速さ守備
+|german=Ges./Ver.
+|spanishEU=Vel/Def
+|spanishLA=Vel./Def.
+|french=Vit/Déf
+|italian=Vel/Dif
+|chineseTW=速度防守
+|portuguese=Vel./Def.
+}}
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}
+{{Passives Navbox|A}}
+[[Category:Plus Passives]]

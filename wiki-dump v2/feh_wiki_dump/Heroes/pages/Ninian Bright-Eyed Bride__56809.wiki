@@ -1,0 +1,74 @@
+{{#invoke:NameAbout|main|Name=Ninian}}{{HeroPage Tabs|{{PAGENAME}}}}
+{{Hero Infobox
+|Name = Ninian
+|Title = Bright-Eyed Bride
+|GrowthModifier= None
+|WeaponType = Blue Tome
+|MoveType = Flying
+|Origin = Fire Emblem: The Blazing Blade
+|Gender = Female
+|actorEN = Brianna Knickerbocker 
+|actorJP=洲崎綾
+|artist=円居雄一郎
+|releaseDate = May 21, 2018
+| TagID=花嫁ニニアン
+|InternalID = 253
+|Properties=refresher,special,specRate_202202
+|cv1=6
+|cv2=1900100
+|description=A young dancer who has a serene and mystical presence. Her travels took her on a path that led to a festival celebrating brides. Appears in Fire Emblem: The Blazing Blade.
+}}
+
+__TOC__
+
+{{Stats Page|Hero={{BASEPAGENAME}}
+|Lv1HP=15|Lv1ATK=6|Lv1SPD=7|Lv1DEF=3|Lv1RES=5
+|GRHP=45|GRATK=50|GRSPD=60|GRDEF=35|GRRES=50
+}}
+
+== Skills ==
+===Weapons===
+{{Weapons Table
+|weapon1=Light
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Ellight
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Fresh Bouquet
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Fresh Bouquet+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+
+===Assists===
+{{Assists Table
+|assist1=Dance
+|assist1Default=4
+|assist1Unlock=3
+}}
+
+===Specials===
+{{Specials Table
+}}
+
+===Passives===
+{{Passives Table
+|passiveB1=Chill Atk 1
+|passiveB2=Chill Atk 2
+|passiveB3=Chill Atk 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Spur Spd 1
+|passiveC2=Drive Spd 1
+|passiveC3=Drive Spd 2
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+
+{{Heroes Navbox}}
+[[Category:Bridal Festival units]]

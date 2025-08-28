@@ -1,0 +1,48 @@
+{{Weapon Infobox
+|tagid=SID_純理の書
+|intID=2936
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|exclusive=1
+|weaponType=Green Tome
+|cost=400
+|might=14
+|range=2
+|effect=At start of turn, if unit is within 2 spaces of an ally, grants Def/Res+6 to unit and allies within 2 spaces for 1 turn. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 during combat.
+|statModifiers=0,14,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|tagidExtraSkill1=一
+|effectSkill1=If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+4 to unit during combat, and inflicts penalty on foe's Atk/Res = 60% of total bonuses on unit's Def and Res during combat.
+|iconSkill1=Tome of Reason W.png
+|properties=
+}}
+==Notes==
+{{Bonuses}}
+{{Combat boosts}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfUnitInitiates}}
+{{CombatReductionfromBonus}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=純理の書
+|german=Buch der Ratio
+|spanishEU=Grimorio cordura
+|spanishLA=Grimorio cordura
+|french=Tome de raison
+|italian=Tomo assennato
+|chineseTW=純理之書
+|portuguese=Tomo racional
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit is within _ spaces of an ally%grants Def/Res+_ to unit and allies%' OR Description LIKE '%inflicts penalty on foe\'s%=%\% of total bonuses on unit\'s%'|columns=3}}
+{{Weapons Navbox}}

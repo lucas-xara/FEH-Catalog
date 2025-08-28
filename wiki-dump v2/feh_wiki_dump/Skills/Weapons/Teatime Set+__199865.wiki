@@ -1,0 +1,49 @@
+{{Weapon Infobox
+|tagid=SID_ティーポット＋
+|intID=3723
+|image=wep_mg281
+|exclusive=0
+|weaponType=Green Tome
+|cost=300
+|might=12
+|range=2
+|effect=Enables【Canto (１)】.<br><br>If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd+5 to unit during combat, and also, if unit's Spd > foe's Spd, neutralizes effects that prevent unit's follow-up attacks during combat.<br><br>【Canto (１)】<br>After an attack, Assist skill, or structure destruction, unit can move １ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|required=Teatime Set
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Notes==
+{{Canto|1}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Follow-up effect neutralization|preventOnly=1}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Gallery==
+<gallery>
+V7.8_v0708a_teatime_Mag.webp|Sprite sheet for {{St|Baked Treats}}, {{St|Knightly Manner}}, {{St|Teacake Tower+|Teacake Tower(+)}} and {{PAGENAME}}'s animations.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=紅茶＋
+|german=Feinster Genuss+
+|spanishEU=Juego de té +
+|spanishLA=Juego de té +
+|french=Heure du thé +
+|italian=Servizio da tè+
+|chineseTW=紅茶＋
+|portuguese=Jogo de chá+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit initiates combat%Atk/Spd+%during combat%neutralizes effects that prevent unit_s follow-up attacks%' AND Exclusive='1'}}
+* [[Flow Passives]]
+{{Weapons Navbox}}

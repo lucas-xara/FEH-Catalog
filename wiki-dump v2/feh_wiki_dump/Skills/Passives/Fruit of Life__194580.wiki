@@ -1,0 +1,35 @@
+{{Passive
+|name=Fruit of Life
+|type=B
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Fruit of Life
+|1tagid=SID_地に生まれ地に還る
+|1effect=At start of combat, if unit's HP ≥ 25%, inflicts Spd/Def-5 on foe during combat, reduces damage from foe's first attack by 40% during combat, and unit's next attack deals damage = total damage reduced (by any source, including other skills; resets at end of combat), and also, if number of allies adjacent to unit ≤ 1, neutralizes effects that inflict "Special cooldown charge -X" on unit during combat and inflicts 【Gravity】on target and foes adjacent to target after combat.<br><br>【Gravity】<br>Restricts target's movement to 1 space through its next action.
+|1cost=300
+|1required=-
+}}
+==Notes==
+{{Temporary debuffs}}
+{{DamageBoostFromDamageReduction}}
+{{CooldownChargeMinusNeutralization}}
+{{After combat note}}
+{{Gravity}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=地に生まれ地に還る
+|german=Lebensfrucht
+|spanishEU=Fruto vital
+|spanishLA=Fruto vital
+|french=Fruit vital
+|italian=Frutto della vita
+|chineseTW=生於大地，歸於大地
+|portuguese=Fruto vital
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%reduces damage%unit_s next attack%' OR Description LIKE '%inflicts%【Gravity】%on target and foes%' AND Exclusive='1'}}
+{{Passives Navbox|B}}

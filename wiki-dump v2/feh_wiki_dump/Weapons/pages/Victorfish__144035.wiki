@@ -1,0 +1,43 @@
+{{Weapon Infobox
+|tagid=SID_カツオ
+|weaponName=Victorfish
+|image=wep_ax091
+|weaponType=Axe
+|might=10
+|range=1
+|effect=At start of combat, if foe's HP ≥ 75%, grants Def+5 to unit and inflicts Def-5 on foe during combat, and also, if foe has Def bonus, grants bonus to unit's Def and inflicts penalty on foe's Def during combat = current bonus on foe's Def. Calculates each stat bonus independently.
+|cost=200
+|exclusive=0
+|statModifiers=0,10,0,0,0
+|required=Steel Axe
+|next=
+|promotionRarity=5
+|promotionTier=1
+|intID=2606
+|sort=92000
+|value=11
+|timingID=1
+|abilityID=243
+|limit1ID=53
+|properties=
+}}
+==Notes==
+{{TemporaryBufffromBonus|source=foe}}
+{{TemporaryDebufffromBonus|source=foe}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=カツオ
+|german=Thunfisch
+|spanishEU=Pez ganador
+|spanishLA=Pez ganador
+|french=Bonite
+|italian=Tonnetto
+|chineseTW=鰹魚
+|portuguese=Peixe vitorioso
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe has%bonus%grants%inflicts%' AND Exclusive='1' AND WikiName NOT LIKE '%defier%'}}
+* [[Skill families/Weapons#Defier's|Defier's Weapons]]
+{{Weapons Navbox}}

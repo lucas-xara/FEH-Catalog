@@ -1,0 +1,40 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_スレッダブラー＋
+|weaponType=Blue Tome
+|weaponName={{PAGENAME}}
+|altWeaponName=Blárblade Plus
+|might=13
+|range=2
+|effect=Slows Special trigger (cooldown count+1).<br>Grants bonus to unit’s Atk = total bonuses on unit during combat.
+|cooldown=1
+|cost=300
+|exclusive=0
+|userVersion1=Closed|userVersion2=Open|statModifiers=0,13,0,0,0
+|properties=random_all
+}}
+==Notes==
+{{BonusesToAtk}}
+==List of owners==
+{{Skill Hero List}}
+
+==Trivia==
+{{TomeColorTrivia|blar}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=ブラーブレード＋
+|german=Blárklinge+
+|spanishEU=Lluvia zarca +
+|spanishLA=Cuchillas añil +
+|french=Lames saphir +
+|italian=Turchinlama+
+|chineseTW=蒼藍之刃＋
+|portuguese=Lâmina anil+
+}}
+==See also==
+* [[The Cleaner]]
+* [[The Cleaner+]]
+* [[Blade Weapons]]
+{{Weapons Navbox}}
+[[Category:Blade weapons]]
+{{DEFAULTSORT:Blarblade+}}

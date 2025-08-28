@@ -1,0 +1,61 @@
+{{Weapon Infobox
+|tagid=SID_聖弓イチイバル
+|intID=4522
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=1
+|weaponType=Bow
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effectiveness=Flying
+|effect=Accelerates Special trigger (cooldown count-1).<br>Effective against flying foes.<br><br>At start of turn, if unit is within 2 spaces of an ally, grants Atk/Spd+6,【Incited】, and the following status to unit and allies within 2 spaces for 1 turn: "Unit can move to a space adjacent to any ally within 2 spaces."<br><br>If unit initiates combat or is within 2 spaces of an ally, grants bonus to unit's Atk/Spd = 6 + 20% of unit's Spd at start of combat, unit deals +X damage (X = total number of 【Bonus】effects active on unit, excluding stat bonuses, and【Penalty】effects active on foe, excluding stat penalties, × 5; max 25; excluding area-of-effect Specials), grants Special cooldown count-2 to unit before unit's first follow-up attack, and disables skills of all foes excluding foe in combat during combat.<br><br>【Incited】<br>If unit initiates combat, grants bonus to unit's Atk/Spd/Def/Res = number of spaces from start position to end position of unit during combat (max 3; that turn only).<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|required=Silver Bow
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Se1={{Eft|Bonuses|Atk/Spd|6}}
+|Se2={{SEt|Incited}}
+|Se3={{SEt|Air Orders}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=At start of turn<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd|20% of {{Tgt|Unit}}'s Spd<br>at start of combat, +6}}
+|Ce3={{Eft|Damage Boost|5 x ({{Kp|Bonus}} effects<br>on {{Tgt|Unit}} '''&''' {{Kp|Penalty}}<br>effects on {{Tgt|Foe}})<br>(exc. {{SEt|Bonuses}} '''&''' {{SEt|Penalties}})|max=25}}
+|Ce4={{Eft|Reduce Cooldown|2}}<br>before {{Tgt|Unit}}'s first [[follow-up]]
+|Ce5={{Eft|Disable Ally Skills}}
+|Ce5T={{Tgt|Foe}}
+|Ce2-5C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{Bonuses}}
+{{Incited}}
+{{Air Orders}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{At start of combat}}
+{{FlatDamageBoost|X (max: 25)}}
+{{CombatCooldownCount|-2}}
+{{CombatEffectNeutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=WikiName LIKE '%yewfelle%' OR (Description LIKE '%【Inctied】%' OR Description LIKE '%at start of turn%if unit is within _ spaces of an ally%"unit can move to a space%' OR Description LIKE'%disables%skill%excluding%') AND Exclusive='1'}}
+* [[Oath Passives]]
+* [[Feud Passives]]
+{{Weapons Navbox}}

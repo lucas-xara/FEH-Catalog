@@ -1,0 +1,79 @@
+{{#invoke:NameAbout|main|Name=Lyn|Name2=Florina}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Lyn
+|Title=Ninja-Friend Duo
+|WeaponType=Colorless Dagger
+|MoveType=Flying
+|Gender=FF
+|duo=Grants unit another action. (May be used only if unit has already entered combat during the current turn.)
+|secondPerson=Florina
+|Duel=190
+|Origin=Fire Emblem: The Blazing Blade
+|actorEN=Wendee Lee,Julie Kliewer
+|actorJP=大本眞基子,白城なお
+|artist=山田孝太郎
+|additionDate=November 5, 2020
+|releaseDate=November 6, 2020
+|cv1=6
+|cv2=100200
+|TagID=比翼リン
+|InternalID=582
+|Properties=special,duo,tiara,specRate_202402
+|description=Two young women who met on the plains and formed a bond that extends even to wearing unfamiliar ninja garb. They appear in Fire Emblem: The Blazing Blade.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=8|Lv1SPD=9|Lv1DEF=6|Lv1RES=7
+|GRHP=50|GRATK=70|GRSPD=75|GRDEF=35|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Dagger
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Dagger
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Dagger
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Tailwind Shuriken
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Moonbow
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Darting Blow 1
+|passiveA2=Swift Sparrow 1
+|passiveA3=Swift Sparrow 2
+|passiveA4=Swift Sparrow 3
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Chill Def 1
+|passiveB2=Chill Atk/Def 1
+|passiveB3=Chill Atk/Def 2
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Spd/Def Rein 1
+|passiveC2=Spd/Def Rein 2
+|passiveC3=Spd/Def Rein 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Sources of effects that grant "another action"]]
+[[Category:Ninja Festival units]]

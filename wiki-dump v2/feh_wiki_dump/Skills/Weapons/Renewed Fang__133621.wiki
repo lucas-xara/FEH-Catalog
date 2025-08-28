@@ -1,0 +1,105 @@
+{{Weapon Infobox
+|tagid=SID_賀正の人狼娘の爪牙
+|weaponType=Beast
+|canUseMove=Infantry
+|might=14
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). If unit is within 2 spaces of support partner, inflicts Atk/Spd-6 on foe and grants Special cooldown charge +1 to unit per attack during combat. (Only highest value applied. Does not stack.) Grants Special cooldown charge +1 per attack to support partners within 2 spaces. (Only highest value applied. Does not stack.)<br><br>At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 and deals +10 damage when Special triggers.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,0,0,0
+|required=Adult (Infantry)
+|intID=2365
+|sort=484
+|effectRange=2
+|value=20
+|timingID=20
+|abilityID=250
+|limit1ID=63
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1).<br><br>If an ally is within 3 spaces of unit, inflicts Atk/Spd-6 and Def-5 on foe, grants Special cooldown charge +1 to unit per attack (only highest value applied; does not stack), and grants Special cooldown count-2 to unit before foe's first attack during combat, and also, when unit's Special triggers, neutralizes foe's "reduces damage by X%" effects from foe's non-Special skills during combat (excluding area-of-effect Specials).<br><br>For certain target allies within 3 spaces of unit, grants Atk/Spd/Def+5, Special cooldown charge +1 per attack (only highest value applied; does not stack), and Special cooldown count-2 before foe's first attack during combat, and also, when ally's Special triggers, neutralizes foe's "reduces damage by X%" effects from foe's non-Special skills during combat (excluding area-of-effect Specials). (If support partner is on player team, targets any support partner; otherwise, targets ally with the highest Def on player team, excluding unit.)<br><br>At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, deals +7 damage when Special triggers, and neutralizes effects that grant "Special cooldown charge +X" to foe or inflict "Special cooldown charge -X" on unit.
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, inflicts penalty on foe's Atk/Spd/Def = number of foes within 3 rows or 3 columns centered on unit × 2, + 5 (max 11), neutralizes foe's bonuses to Atk/Spd, deals damage = 20% of unit's Spd (excluding area-of-effect Specials), and reduces damage from foe's first attack by 20% of unit's Spd during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes).
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe1={{Eft|Accelerates Special}}
+|s1 Pe2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Atk+2
+|s1 PeC2={{Tgt|Unit}} is transformed
+|s1 Me={{Eft|Transform}}
+|s1 MeC=At start of turn if<br>{{Tgt|Unit}} is [[adjacent]] to only<br>{{Cwti|group=1|Dragon,Beast}} [[Dragon]]/[[Beast]]<br>{{Tgt|Allies}} '''or''' not [[adjacent]]<br>to any {{Tgt|Ally}}
+|s1 Ce1={{Eft|Temporary debuffs|Atk/Spd|6}}
+|s1 Ce1T={{Tgt|Foe}}
+|s1 Ce2={{Eft|Accelerate Charge}}
+|s1 Ce1-2C=A {{Tgt|Partner}} is<br>[[within 2 spaces]]
+|s1 Ce3={{Eft|Damage Boost|10}} per<br>{{Tgt|Unit}}'s [[Area-of-effect Specials|AoE]] '''or''' [[offensive Special]]
+|s1 Ce3C={{Tgt|Unit}} is transformed
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe1={{Eft|Accelerates Special}}
+|s2 Pe2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Atk+2
+|s2 PeC2={{Tgt|Unit}} is transformed
+|s2 Me={{Eft|Transform}}
+|s2 MeC=At start of turn if<br>{{Tgt|Unit}} is [[adjacent]] to only<br>{{Cwti|group=1|Dragon,Beast}} [[Dragon]]/[[Beast]]<br>{{Tgt|Allies}} '''or''' not [[adjacent]]<br>to any {{Tgt|Ally}}
+|s2 Ce1={{Eft|Temporary debuffs|Atk/Spd|6}}, {{Eft|Temporary debuffs|Def|5}}
+|s2 Ce1T={{Tgt|Foe}}
+|s2 Ce2={{Eft|Accelerate Charge}}
+|s2 Ce3={{Eft|Reduce Cooldown|2}}<br>before {{Tgt|Foe}}'s first attack
+|s2 Ce4={{Eft|Neutralize Damage Reduction}}<br>per {{Tgt|Unit}}'s [[offensive Specials]]
+|s2 Ce1-4C=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|s2 Ce5={{Eft|Temporary buffs|Atk/Spd/Def|5}}
+|s2 Ce6={{Eft|Accelerate Charge}}
+|s2 Ce7={{Eft|Reduce Cooldown|2}}<br>before {{Tgt|Foe}}'s first attack
+|s2 Ce8={{Eft|Neutralize Damage Reduction}}<br>per {{Tgt|Ally}}'s [[offensive Specials]]
+|s2 Ce5-8T=({{Tgt|Partner}} '''or'''<br>{{Tgt|Ally}} with the<br>highest Def)<br>[[within 3 spaces]]
+|s2 Ce1-4C=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|s2 Ce9={{Eft|Neutralize Accelerate Charge}}
+|s2 Ce9T={{Tgt|Foe}}<br>
+|s2 Ce10={{Eft|Neutralize Guard}}
+|s2 Ce9-11C={{Tgt|Unit}} is transformed
+|s2 Ce11={{Eft|Damage Boost|7}} per<br>{{Tgt|Unit}}'s [[Area-of-effect Specials|AoE]] '''or''' [[offensive Special]]
+|skill3={{Si|Renewed Fang|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary debuffs|Atk/Spd/Def|2 x {{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}, + 5|max=11}}
+|s3 Ce2={{Eft|Neutralize Bonuses|Atk/Spd}}
+|s3 Ce2T={{Tgt|Foe}}
+|s3 Ce3={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|s3 Ce4={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Spd}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|s3 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{Temporary debuffs}}
+{{CooldownChargePlus}}
+{{SupportPartner|effect=temporary debuffs on foe and cooldown charge granted to unit and it's support partner}}
+{{Beast (Infantry)}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{CombatCooldownCount|-2|name=Refined Renewed Fang}}
+{{DamageReductionNeutralization|name=Refined Renewed Fang}}
+{{Temporary buffs|name=Refined Renewed Fang}}
+{{SupportPartner|effect=temporary buffs, special cooldown charge +1, special cooldown count -2 and damage reduction neutralization effects|name=Refined Renewed Fang}}
+{{Beast (Infantry) Upgrade}}
+{{Bonus neutralization|name={{St|Renewed Fang|refine=Skill1}}}}
+{{DamageBoost|name={{St|Renewed Fang|refine=Skill1}}}}
+{{FlatDamageReduction}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=賀正の人狼娘の爪牙
+|german=Welpen-Zahn
+|spanishEU=Garra renovada
+|spanishLA=Garra renovada
+|french=Nouveau croc
+|italian=Zanna rinata
+|chineseTW=賀年狼人之女的爪牙
+|portuguese=Presa renovada
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%support partner%ally with the highest%' AND Exclusive='1'}}
+{{Weapons Navbox}}

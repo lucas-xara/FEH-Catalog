@@ -1,0 +1,62 @@
+{{Weapon Infobox
+|tagid=SID_若き狼の鋭弓
+|intID=3890
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=1
+|weaponType=Bow
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effectiveness=Flying
+|effect=Accelerates Special trigger (cooldown count-1). Effective against flying foes. If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+4 and reduces damage from foe's first attack by 30% during combat.
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit, unit makes a guaranteed follow-up attack, and neutralizes effects that inflict "Special cooldown charge -X" on unit during combat.
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|skill1 PermanentEffect={{SkillEffectText|Accelerates Special}}
+|skill1 CombatEffect 1={{SkillEffectText|Effectiveness|{{Mt|Flying}}}}
+|skill1 CombatEffect 2={{SkillEffectText|Temporary buffs|Atk/Spd/Def/Res|4}}
+|skill1 CombatEffect 3={{SkillEffectText|Damage Reduction|30%}}<br>from {{SkillTargetText|Foe}}'s first attack
+|skill1 CombatEffect Conditions=Player Phase<br>'''or''' {{SkillTargetText|Unit}} is<br>[[within 2 spaces]]<br>of an {{SkillTargetText|Ally}}
+|skill2={{Si|Sacaen-Wolf Bow|refine=Skill1}} Skill refine effects
+|skill2 CombatEffect 1={{SkillEffectText|Temporary buffs|Atk/Spd/Def/Res|4}}
+|skill2 CombatEffect 2={{SkillEffectText|Guaranteed Follow-Ups}}
+|skill2 CombatEffect 3={{SkillEffectText|Neutralize Guard}}
+|skill2 CombatEffect Conditions={{SkillTargetText|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Effective damage bonus|Flying}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{DamagePercentageReduction}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Guaranteed follow-up interaction|name={{St|Sacaen-Wolf Bow|refine=Skill1}}}}
+{{CooldownChargeMinusNeutralization|name={{St|Sacaen-Wolf Bow|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=若き狼の鋭弓
+|german=Wolfsbogen
+|spanishEU=Arco de lobo
+|spanishLA=Arco de lobezno
+|french=Arc de loup
+|italian=Arco del lupo
+|chineseTW=幼狼之銳弓
+|portuguese=Arco do lobo
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If unit initiates combat or is within%Atk/Spd/Def/Res+%reduces damage from foe_s first attack%' OR Description LIKE '%makes a guaranteed follow-up%neutralize%Special cooldown charge -X%' AND Description NOT LIKE '%transforms%+7%'}}
+{{Weapons Navbox}}

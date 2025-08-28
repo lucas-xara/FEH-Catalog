@@ -1,0 +1,64 @@
+{{Weapon Infobox
+|tagid=SID_黒鴉の書
+|weaponType=Red Tome
+|might=14
+|range=2
+|effect=Grants weapon-triangle advantage against colorless foes, and inflicts weapon-triangle disadvantage on colorless foes during combat.
+|cost=400
+|exclusive=1
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|statModifiers=0,14,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=At start of combat, if foe's Atk ≥ unit's Atk+3, inflicts Atk/Res-6 on foe during combat and Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)
+|iconSkill1=Corvus Tome W.png
+|tagidExtraSkill1=強
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Ce1={{Eft|New WTA}}
+|s1 Ce2={{Eft|New WTD}}
+|s1 Ce2T={{Tgt|Foe}}
+|s1 CeC={{Tgt|Foe}} is<br>{{Wti|group=1|Colorless}} Colorless
+|skill2={{Si|Corvus Tome|refine=Skill1}} Skill refine effects
+|s2 Ce1={{Eft|Temporary debuffs|Atk/Res|6}}
+|s2 Ce2={{Eft|Guard}}
+|s2 CeT={{Tgt|Foe}}
+|s2 CeC={{Tgt|Foe}}'s Atk ≥<br>{{Tgt|Unit}}'s Atk+3
+}}
+==Notes==
+{{New WTA|colorless}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary debuffs|name={{St|Corvus Tome|refine=Skill1}}}}
+{{CooldownChargeMinus|name={{St|Corvus Tome|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|敵戦闘強化R攻撃差|Enemy Combat Bonuses R Attack Difference}}
+==In other languages==
+{{OtherLanguages
+|english=Corvus Tome
+|japanese=黒鴉の書
+|german=Rabenbuch
+|spanishEU=Grimorio córvido
+|spanishLA=Grimorio córvido
+|french=Tome de corbeau
+|italian=Tomo del corvo
+|chineseTW=黑鴉之書
+|portuguese=Tomo Corvus
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%grants weapon-triangle advantage%' AND Description LIKE '%colorless%weapon-triangle%' OR Description LIKE '%foe_s Atk ≥ unit_s Atk%') AND Exclusive='1'}}
+* [[Raven Tomes]]
+{{Weapons Navbox}}
+[[Category:Weapons that grant triangle advantage against colorless foes]]

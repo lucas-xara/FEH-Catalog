@@ -1,0 +1,42 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_カボチャの斧＋
+|weaponType=Axe
+|weaponName=Hack-o'-Lantern+
+|might=14
+|range=1
+|effect=Inflicts Special cooldown charge -1 on foe per attack during combat. (Only highest value applied. Does not stack.)
+|cost=300
+|exclusive=0
+|statModifiers=0,14,0,0,0
+|required=Hack-o'-Lantern
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+
+==Notes==
+{{CooldownChargeMinus}}
+==Upgrades==
+{{Weapon Upgrade List}}
+
+==List of owners==
+{{Skill Hero List}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=カボチャの斧＋
+|german=Kürbisaxt+
+|spanishEU=Hacha calabaza +
+|spanishLA=Hacha calabaza +
+|french=Hache-loween +
+|italian=Ascia zucca+
+|chineseTW=南瓜斧＋
+|portuguese=Racha abóbora+
+}}
+
+==See also==
+* [[Skill families#Guard (cooldown charge)|Guard weapons]]
+
+{{Weapons Navbox}}

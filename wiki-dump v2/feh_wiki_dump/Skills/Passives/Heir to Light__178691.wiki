@@ -1,0 +1,38 @@
+{{Passive
+|type=C
+|name=Heir to Light
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Heir to Light
+|1tagid=SID_光をつぐもの
+|1cost=300
+|1effect=At start of turn, if unit is within 2 spaces of an ally, grants Atk/Spd+6 and【Null Follow-Up】 to unit for 1 turn and unit can move 1 extra space. (That turn only. Does not stack.)<br><br>【Null Follow-Up】<br>If unit's Spd > foe's Spd during combat, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks for 1 turn.
+|1required=-
+}}
+==Notes==
+{{Bonuses}}
+{{Null Follow-Up}}
+{{Mobility increased}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=光をつぐもの
+|german=Lichterbe
+|spanishEU=Sucesor de la luz
+|spanishLA=Sucesor de la luz
+|french=Héritier lumière
+|italian=Erede della luce
+|chineseTW=繼承光之人
+|portuguese=Herdeiro da luz
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Null Follow-Up】%' OR Description LIKE '%At start of turn%unit can move 1 extra space%' AND Description NOT LIKE '%transforms%' AND Description NOT LIKE '%stall%' OR Description LIKE '%At start of turn, if unit is within _ spaces of an ally%grants%to unit%for 1 turn%') AND Exclusive='1'|columns=3}}
+* [[Skill families#Oath|Oath Passives]]
+{{Passives Navbox|C}}

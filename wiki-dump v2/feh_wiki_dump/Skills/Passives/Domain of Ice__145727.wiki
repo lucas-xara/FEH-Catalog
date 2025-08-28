@@ -1,0 +1,52 @@
+{{Passive
+|name=Domain of Ice
+|type=C
+|exclusive=1
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|intID=2667
+|sort=565
+|effectRange=2
+|value=8
+|timingID=20
+|abilityID=143
+|randomTimestamp=2021-08-19T07:00:00Z
+|randomMinLv=31
+|properties=random_owner
+|1name=Domain of Ice
+|1tagid=SID_氷神降臨
+|1effect=Grants Spd/Res+4 and the effect "reduces damage from foe's first attack by 30%" to allies within 2 spaces during combat. If unit is within 2 spaces of an ally, grants Spd/Res+4 to unit and reduces damage from foe's first attack by 30% during combat.
+|1required=-
+|1cost=300
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary buffs|Spd/Res|4}}
+|Ce2={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s first attack
+|Ce1-2T={{Tgt|Allies}}<br>[[within 2 spaces]]
+|Ce3={{Eft|Temporary buffs|Spd/Res|4}}
+|Ce4={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s first attack
+|Ce3-4C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+==Notes==
+{{Temporary buffs}}
+{{DamagePercentageReduction}}
+{{AlliesCombatEffect|temporary buffs and damage reduction effects}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=絶氷結界
+|german=Eisiges Reich
+|spanishEU=Dominio gélido
+|spanishLA=Dominio gélido
+|french=Domaine gelé
+|italian=Dominio del gelo
+|chineseTW=絕冰結界
+|portuguese=Domínio do gelo
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%educes damage from%to allies within %' OR Description LIKE '%allies within %"reduces damage%by%to those allies%') AND NOT SCategory='special' AND Exclusive='1'}}
+* [[Joint Drive Passives]]
+* [[Skill families/Weapons#Allied|Allied Weapons]]
+{{Passives Navbox|C}}

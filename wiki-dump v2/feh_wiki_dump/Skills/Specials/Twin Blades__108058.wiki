@@ -1,0 +1,31 @@
+{{Special
+|tagid=SID_双刃
+|charge=2
+|effect=Boosts damage by 40% of unit's Res. Disables non-Special skills that "reduce damage by X%."
+|cost=500
+|exclusive=1
+|required=Iceberg
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|exclude=staff}}
+|properties=random_owner,offensive_special
+}}
+==Notes==
+{{DamageBoost}}
+{{DamageReductionNeutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Twin Blades
+|japanese=双刃
+|german=Doppelklinge
+|spanishEU=Hojas gemelas
+|spanishLA=Hojas gemelas
+|french=Lames jumelles
+|italian=Lame gemelle
+|chineseTW=雙刃
+|portuguese=Lâminas gêmeas
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%disables%reduce%damage by x%' OR Description LIKE '%neutralizes%reduce%damage by x%') AND Description LIKE '%non-Special%' AND Description NOT LIKE '%reduces the percentage%'}}
+{{Specials Navbox}}

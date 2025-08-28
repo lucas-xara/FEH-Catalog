@@ -1,0 +1,29 @@
+{{Special
+|tagid=SID_緋炎
+|name=Bonfire
+|charge=3
+|effect=Boosts damage by 50% of unit's Def.
+|cost=200
+|required=Glowing Ember
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_all,offensive_special
+}}
+==Notes==
+{{DamageBoost}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==In other languages==
+{{OtherLanguages
+|japanese=緋炎
+|german=Leuchtfeuer
+|spanishEU=Pira
+|spanishLA=Pira
+|french=Feu de joie
+|italian=Pira
+|chineseTW=緋炎
+|portuguese=Fogueira
+}}
+{{Specials Navbox}}

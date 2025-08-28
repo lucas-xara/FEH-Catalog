@@ -1,0 +1,39 @@
+{{Weapon Infobox
+|tagid=SID_熊手
+|weaponType=Staff
+|weaponName=Kumade
+|might=8
+|range=2
+|effect=At start of turn, inflicts Atk/Spd-3 on foe on the enemy team with the highest Def through its next action.
+|cost=200
+|exclusive=0
+|userVersion1=
+|userVersion2=
+|userVersion3=
+|userVersion4=
+|statModifiers=0,8,0,0,0
+|next=Kumade+
+|promotionRarity=5
+|promotionTier=2
+|required=Assault
+|properties=
+}}
+==Notes==
+{{Penalties}}{{SelectStat|Def}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=熊手
+|german=Kumade
+|spanishEU=Kumade
+|spanishLA=Kumade
+|french=Kumade
+|italian=Kumade
+|chineseTW=草耙
+|portuguese=Kumade
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%start of turn%inflicts%/%-%lowest%through%action%' OR Description LIKE '%start of turn%inflicts%/%-%highest%through%action%' AND Description NOT LIKE '%total%'|columns=3}}
+*[[Skill families#Chill|Chill Passives]]
+{{Weapons Navbox}}

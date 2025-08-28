@@ -1,0 +1,43 @@
+{{Weapon Infobox
+|tagid=SID_聖樹の杖
+|weaponName=Tannenbaton
+|image=wep_rd035
+|weaponType=Staff
+|might=8
+|range=2
+|effect=Grants Def/Res+2 and “inflicts Special cooldown charge -1 on foe per attack” to allies within 2 spaces of unit during combat. (Only highest value applied. Does not stack.)
+|cost=200
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|required=Assault
+|next=
+|promotionRarity=5
+|promotionTier=2
+|intID=2349
+|sort=88000
+|effectRange=2
+|value=11
+|timingID=2
+|abilityID=116
+|properties=
+}}
+==Notes==
+{{Temporary buffs}}
+{{CooldownChargeMinus}}
+{{AlliesCombatEffect}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=聖樹の杖
+|german=Tannenstab
+|spanishEU=Bastón árbol
+|spanishLA=Bastón árbol
+|french=Bâton sapin
+|italian=Jingle bastone
+|chineseTW=聖樹之杖
+|portuguese=Bastão pinheiro
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%grants Def/Res+%allies within _ spaces during combat%' OR Description LIKE '%allies%grants Def/Res+2%during combat%' OR Description LIKE '%special cooldown charge -1%allies within _ spaces%') AND Exclusive='1'}}
+{{Weapons Navbox}}

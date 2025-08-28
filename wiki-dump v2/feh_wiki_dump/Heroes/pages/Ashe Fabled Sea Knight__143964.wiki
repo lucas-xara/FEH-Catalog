@@ -1,0 +1,78 @@
+{{#invoke:NameAbout|main|Name=Ashe}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Ashe
+|Title=Fabled Sea Knight
+|WeaponType=Blue Lance
+|MoveType=Cavalry
+|Origin=Fire Emblem: Three Houses
+|Gender=Male
+|actorEN=Shannon McKain
+|actorJP=井上雄貴
+|artist=azuタロウ
+|additionDate=June 21, 2021
+|releaseDate=June 21, 2021
+|cv1=12
+|cv2=300400
+|TagID=水着アッシュ
+|InternalID=674
+|Properties=special,specRate_202502
+|description=A commoner who was adopted by Lord Lonato. He is so focused on his goals, he won't take any breaks from his training, even while at the beach. Appears in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=9|Lv1SPD=11|Lv1DEF=6|Lv1RES=5
+|GRHP=50|GRATK=65|GRSPD=70|GRDEF=60|GRRES=30
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Lance
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Divine Sea Spear
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Moonbow
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=B Duel Cavalry 1
+|passiveA2=B Duel Cavalry 2
+|passiveA3=B Duel Cavalry 3
+|passiveA4=B Duel Cavalry 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=S/D Near Trace 1
+|passiveB2=S/D Near Trace 2
+|passiveB3=S/D Near Trace 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Hone Spd 1
+|passiveC2=Hone Spd 2
+|passiveC3=Hone Spd 3
+|passiveC4=Joint Hone Spd
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Summer units]]
+[[Category:Summer units]]

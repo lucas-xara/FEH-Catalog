@@ -1,0 +1,49 @@
+{{Passive
+|name=Called to Serve
+|type=B
+|exclusive=0
+|canUseWeapon={{WeaponList|Colorless Staff}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Called to Serve
+|1tagid=SID_激励・強化無効
+|1effect=If a Rally or movement Assist skill is used by unit, grants "neutralizes foe's bonuses during combat" to unit, target ally, and allies within 2 spaces of target ally after movement for 1 turn.<br><br>Allies on the map with the "neutralizes foe's bonuses during combat" status active deal +5 damage during combat (excluding area-of-effect Specials).<br><br>Inflicts Spd/Res-4 on foe and unit deals +X damage during combat (X = number of allies on the map with "neutralizes foe's bonuses during combat" status active, excluding unit, × 5; max 15; excluding area-of-effect Specials).
+|1cost=300
+|1required=Live to Serve 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{SEt|Neutralize Bonuses}}
+|SeT={{Tgt|Unit}},<br>{{Tgt|Target (Ally)}}<br>'''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]<br>of {{Tgt|Unit}} &<br>{{Tgt|Target (Ally)}}
+|SeC=[[Rally Assist|Rally]] or [[Movement Assist|Movement]]<br>Assist is used by<br>{{Tgt|Unit}}
+|Ce1={{Eft|Damage Boost|5}}
+|Ce1T={{Tgt|Allies}} with<br>{{SEt|Neutralize Bonuses}}
+|Ce2={{Eft|Temporary debuffs|Spd/Res|4}}
+|Ce2T={{Tgt|Foe}}
+|Ce3={{Eft|Damage Boost|5 x {{Tgt|Allies}} with<br>{{SEt|Neutralize Bonuses}}|max=15}}
+}}
+==Notes==
+{{Neutralize Bonuses}}
+{{FlatDamageBoost|5/X (max: 15)}}
+{{AlliesCombatEffect|+5 damage boost}}
+{{Temporary debuffs}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%number of allies with the%' OR Description LIKE '%allies on the map with%【%') AND Exclusive='1'}}
+{{Passives Navbox|B}}

@@ -1,0 +1,53 @@
+{{SkillPage Tabs}}{{Passive
+|type=B
+|exclusive=0
+|1name=Spd/Res Link 1
+|1tagid=SID_速さ魔防の連携1
+|1promotionRarity=4
+|1promotionTier=1
+|alt1name=Spd Res Link 1
+|1effect=If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Spd/Res+2 to unit and target ally or unit and targeting ally for 1 turn.
+|1required=-
+|1cost=60
+|2name=Spd/Res Link 2
+|2tagid=SID_速さ魔防の連携2
+|2promotionRarity=5
+|2promotionTier=1
+|alt2name=Spd Res Link 2
+|2effect=If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Spd/Res+4 to unit and target ally or unit and targeting ally for 1 turn.
+|2cost=120
+|3name=Spd/Res Link 3
+|3tagid=SID_速さ魔防の連携3
+|alt3name=Spd Res Link 3
+|3effect=If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Spd/Res+6 to unit and target ally or unit and targeting ally for 1 turn.
+|3cost=240
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|all}}
+|properties=random_owner,random_inherit_base
+}}
+==Notes==
+{{Bonuses}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Spd/Res Link
+|japanese=速さ魔防の連携
+|german=Ges./Res.-Bund
+|spanishEU=Nexo Vel/Res
+|spanishLA=Nexo Vel./Res.
+|french=Union Vit/Rés
+|italian=Combo Vel/Res
+|chineseTW=速度魔防連動
+|portuguese=Elo Vel./Res.
+}}
+
+==See also==
+* [[Link Passives]]
+{{Passives Navbox|B}}
+[[Category:Link Passives]]

@@ -1,0 +1,46 @@
+{{Weapon Infobox
+|tagid=SID_ジークフリート
+|weaponType=Sword
+|might=16
+|range=1
+|effect=Unit can counterattack regardless of foe's range.
+|cost=400
+|userVersion1=Weapon
+|userVersion2=Gleam
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Silver Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|tagidExtraSkill1=追
+|effectSkill1=At start of combat, if foe's HP ≥ 75%, inflicts Atk/Def-5 on foe during combat and foe cannot make a follow-up attack.
+|iconSkill1=Siegfried W.png
+|properties=random_owner
+}}
+==Notes==
+* Has the same effect as {{St|Distant Counter}}.
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Combat reductions}}
+{{Prevent follow-up}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ジークフリート
+|german=Siegfried
+|spanishEU=Siegfried
+|spanishLA=Siegfried
+|french=Siegfried
+|italian=Siegfried
+|chineseTW=西格弗里德
+|portuguese=Siegfried
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%at start of combat, if foe_s HP ≥%inflicts Atk/%Def-%on foe during combat%' OR Description LIKE '%if foe_s HP%cannot make a follow-up attack%') AND Description NOT LIKE '%transforms%'|columns=3}}
+* [[Weapons with Distant Counter]]
+* [[Weapons with Close Counter]]
+{{Weapons Navbox}}

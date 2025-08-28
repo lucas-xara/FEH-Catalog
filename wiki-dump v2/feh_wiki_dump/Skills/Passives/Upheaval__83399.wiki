@@ -1,0 +1,78 @@
+{{Passive
+|type=C
+|exclusive=1
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|1name=Upheaval
+|1required=-
+|1tagid=SID_メガクェイク
+|1effect=At the start of turn 1, deals 7 damage to all foes, and if defending in Aether Raids during anima season, destroys offensive structure within same column as unit. (Does not affect structures that cannot be destroyed.)
+|1cost=300
+|2name=Upheaval+
+|alt2name=Upheaval Plus
+|2tagid=SID_メガクェイク・神
+|2cost=300
+|2effect=At the start of turn 1, deals 10 damage to all foes, and if defending in Aether Raids during Anima season, destroys nearest offensive structure. (Does not affect structures that cannot be destroyed.) At start of combat, if unit's Atk > foe's Atk, or if foe's HP < 100%, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.
+|2required=Upheaval
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Upheaval}} Upheaval
+|s1 Me1={{Eft|Damage|7}}
+|s1 Me1T={{Tgt|Foes}}
+|s1 Me1C=At start of turn 1
+|s1 Me2=Destroys {{Stt|Structures (O)}}<br>within {{Tgt|Unit}}'s column
+|s1 Me2T={{Tgt|Foe}}
+|s1 Me2C=At start of turn 1<br>if Defending in<br>[[File:Icon Season Anima.png|x26px|class=inline-icon|link=]] Anima Season<br>in [[Aether Raids]]
+|skill2={{Si|Upheaval+}} Upheaval+
+|s2 Me1={{Eft|Damage|10}}
+|s2 Me1T={{Tgt|Foes}}
+|s2 Me1C=At start of turn 1
+|s2 Me2=Destroys nearest<br>{{Stt|Structures (O)}}
+|s2 Me2T={{Tgt|Foe}}
+|s2 Me2C=At start of turn 1<br>if Defending in<br>[[File:Icon Season Anima.png|x26px|class=inline-icon|link=]] Anima Season<br>in [[Aether Raids]]
+|s2 Ce={{Eft|Neutralize Bonuses}}
+|s2 CeT={{Tgt|Foe}}
+|s2 CeC=({{Tgt|Unit}}'s Atk ><br>{{Tgt|Foe}}'s Atk '''or'''<br>{{Tgt|Foe}}'s HP < 100%)<br>at start of combat
+}}
+
+==Notes==
+{{Out of combat damage}}
+{{At start of combat}}
+{{Foe's HP not full}}
+{{Bonus neutralization|name=Upheaval+}}
+{| class="wikitable default mw-collapsible" 
+! align="middle" | Example of Upheaval Area-of-Effect
+|-
+| align="middle" ! |
+<div style="max-width: 450px; margin: auto;>{{AoE|u=Duma: God of Strength|s=Catapult
+|u
+|x
+|x
+|x
+|x
+|x
+|x
+|s
+}}</div>
+|}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Upheaval
+|japanese=メガクェイク
+|german=Turbulenz
+|spanishEU=Turbulencia
+|spanishLA=Turbulencia
+|french=Séisme
+|italian=Sisma
+|chineseTW=超級地震
+|portuguese=Turbulência
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%At the start of turn 1, deals%damage to all foes%' OR Description LIKE '%destroys%structure%') AND Exclusive='1'}}
+* [[Catapult (O)]]
+* [[Catapult (D)]]
+{{Passives Navbox|C}}

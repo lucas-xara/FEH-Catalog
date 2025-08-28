@@ -1,0 +1,55 @@
+{{Weapon Infobox
+|tagid=SID_魔道のランタン＋
+|intID=3427
+|exclusive=0
+|weaponType=Blue Tome
+|cost=300
+|might=12
+|range=2
+|effect=At start of turn, if unit is within 2 spaces of an ally, grants "unit cannot be slowed by terrain (does not apply to impassable terrain)" and "Special cooldown charge +1 per attack during combat (only highest value applied; does not stack)" to unit for 1 turn. If unit initiates combat or is within 2 spaces of an ally, grants Atk/Res+5 to unit during combat.
+|statModifiers=0,12,0,0,0
+|required=Magical Lantern
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{SEt|Traverse Terrain}}
+|Se2={{SEt|Special Cooldown Charge +1}}
+|SeC=At start of turn<br>if {{Tgt|Unit}} is<br>[[within 2 spaces]]<br>of an {{Tgt|Ally}}
+|Ce={{Eft|Temporary buffs|Atk/Res|5}}
+|CeC=Player Phase<br>'''or''' an {{Tgt|Ally}} is<br>[[within 2 spaces]]<br>of {{Tgt|Unit}}
+}}
+==Notes==
+{{Traverse Terrain}}
+{{Special Cooldown Charge +1}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+wep_mg178.webp|Sprite sheet used for the weapon's sprite animation.
+wep_mg178.gif|Animation of '''Magical Lantern'''
+V7.1_v0701a_khadein_Mag_3.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=魔道のランタン＋
+|german=Magische Lampe+
+|spanishEU=Farol mágico +
+|spanishLA=Farol mágico +
+|french=Lampe magique +
+|italian=Lanterna magica+
+|chineseTW=魔道提燈＋
+|portuguese=Lanterna mágica+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%"unit cannot be slowed by terrain%' AND Exclusive='1' AND Name NOT LIKE '%r%lantern+'}}
+* [[Skill families/Weapons#Lantern|Lantern Weapons]]
+{{Weapons Navbox}}

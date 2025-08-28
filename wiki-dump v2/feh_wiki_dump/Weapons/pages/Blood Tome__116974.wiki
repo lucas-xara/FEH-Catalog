@@ -1,0 +1,101 @@
+{{Weapon Infobox
+|tagid=SID_魔王の血書
+|weaponType=Green Tome
+|might=14
+|range=2
+|effect=Grants Atk+3. If foe uses bow, dagger, magic, or staff, reduces damage from area-of-effect Specials by 80% (excluding Røkkr area-of-effect Specials) and reduces damage from foe's attacks by 50%, and if foe is also colorless, grants weapon-triangle advantage to unit and inflicts weapon-triangle disadvantage on foe.
+|cost=400
+|exclusive=1
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|statModifiers=0,17,0,0,0
+|required=Rexcalibur
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Atk+3. If foe's Range = 2, reduces damage from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by 80%. If unit initiates combat or foe's Range = 2, grants Atk+5 to unit, inflicts Atk-5 on foe, deals damage = 20% of unit's Res (excluding area-of-effect Specials), and reduces damage from foe's attacks by 50% (excluding area-of-effect Specials). If unit initiates combat or foe's Range = 2 and if foe is colorless, grants weapon-triangle advantage to unit and inflicts weapon-triangle disadvantage on foe.
+|refineStatsSkill1=0,0,0,0,0
+|effectSkill1=At start of turn, grants【Cancel Affinity】to unit. At start of turn, inflicts Atk/Res-7 and 【Triangle Adept】on closest foes within 5 spaces of unit and any foe within 2 spaces of those foes through their next actions.<br><br>At start of combat, if unit's HP ≥ 25%, grants Atk+5 to unit, inflicts Atk-5 on foe, unit makes a guaranteed follow-up attack, and inflicts Special cooldown charge -1 on foe per attack during combat (only highest value applied; does not stack).<br><br>【Cancel Affinity】<br>If unit has weapon-triangle disadvantage, reverses weapon-triangle advantage granted by foe's skills for 1 turn.<br><br>【Triangle Adept】<br>If unit has weapon-triangle advantage, boosts Atk by 20% through its next action, and if unit has weapon-triangle disadvantage, reduces Atk by 20% through its next action.
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Atk|3}}
+|s1 Me1={{Eft|Damage Reduction|80%}}<br>from Non-Røkkr [[AoE Specials]]
+|s1 MeC1={{Tgt|Foe}}'s Range = 2
+|s1 Ce1={{Eft|Damage Reduction|50%}}<br>from {{Tgt|Foe}}'s attacks
+|s1 CeC1={{Tgt|Foe}}'s Range = 2
+|s1 Ce2={{Eft|New WTA}}
+|s1 Ce3={{Eft|New WTD}}
+|s1 CeT4={{Tgt|Foe}}
+|s1 CeC2-3={{Tgt|Foe}}'s Range = 2<br>'''&''' {{Tgt|Foe}} is<br>{{Wti|group=1|Colorless}} Colorless
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Atk|3}}
+|s2 Me1={{Eft|Damage Reduction|80%}}<br>from Non-Røkkr [[AoE Specials]]
+|s2 MeT1={{Tgt|Unit}}
+|s2 MeC1={{Tgt|Foe}}'s Range = 2
+|s2 Ce1={{Eft|Temporary debuffs|Atk|5}}
+|s2 CeT1={{Tgt|Foe}}
+|s2 Ce2={{Eft|Temporary buffs|Atk|5}}
+|s2 Ce3={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Res}}
+|s2 Ce4={{Eft|Damage Reduction|50%}}<br>from {{Tgt|Foe}}'s attacks
+|s2 CeT2-4={{Tgt|Unit}}
+|s2 CeC1-4=Player Phase '''or'''<br>{{Tgt|Foe}}'s Range = 2
+|s2 Ce5={{Eft|New WTA}}
+|s2 Ce6={{Eft|New WTD}}
+|s2 CeT6={{Tgt|Foe}}
+|s2 CeC5-6=(Player Phase '''or'''<br>{{Tgt|Foe}}'s Range = 2)<br>'''&''' {{Tgt|Foe}} is<br>{{Wti|group=1|Colorless}} Colorless
+|skill3={{Si|Blood Tome|refine=Skill1}} Skill refine effects
+|s3 Se1={{SEt|Cancel Affinity}}
+|s3 Se2={{Eft|Penalties|Atk/Res|7}}
+|s3 Se3={{SEt|Triangle Adept}}
+|s3 SeT2-3=Nearest {{Tgt|Foes}}<br>[[within 5 spaces]]<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}
+|s3 SeC=At start of turn
+|s3 Ce1={{Eft|Temporary buffs|Atk|5}}
+|s3 Ce2={{Eft|Temporary debuffs|Atk|5}}
+|s3 Ce3={{Eft|Guard}}
+|s3 CeT2-3={{Tgt|Foe}}
+|s3 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfUnitInitiates}}
+{{Temporary buffs|name=Refined Blood Tome}}
+{{Temporary debuffs|name=Refined Blood Tome}}
+{{DamageBoost|name=Refined Blood Tome}}
+{{Cancel Affinity|name={{St|Blood Tome|refine=Skill1}}}}
+{{Penalties|name={{St|Blood Tome|refine=Skill1}}}}
+{{Triangle Adept|name={{St|Blood Tome|refine=Skill1}}}}
+{{CooldownChargeMinus|name={{St|Blood Tome|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V4.5 200501 dark Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=魔王の血書
+|japaneseNotes=''[[Fomortiis: Demon King|Demon King]]'s Blood''
+|german=Blutbuch
+|spanishEU=Grimorio atroz
+|spanishLA=Grimorio atroz
+|french=Tome sanglant
+|italian=Tomo sanguigno
+|chineseTW=魔王血書
+|portuguese=Tomo de sangue
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%foe uses%educes damage from%' AND Description NOT LIKE '%sword%lance%axe%' OR Description LIKE '%reduces damage from%area-of-effect Specials%by 80%' OR Description LIKE '%grants weapon-triangle advantage%' OR Description LIKE '%【Cancel Affinity】%') AND Exclusive='1'}}
+* [[Raven Tomes]]
+{{Weapons Navbox}}

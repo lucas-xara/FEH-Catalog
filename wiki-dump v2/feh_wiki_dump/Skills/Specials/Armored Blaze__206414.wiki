@@ -1,0 +1,49 @@
+{{Special
+|tagid=SID_重装の大炎
+|intID=3917
+|exclusive=0
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|Armored}}
+|cost=500
+|cooldown=3
+|effect=Boosts Special damage by 40% of unit's Def when Special triggers. If foe's Range = 1 and unit or foe's Special is ready or triggered before or during this combat, reduces damage from foe's next attack by 40% (once per combat; excluding area-of-effect Specials).
+|required=Bonfire
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{Eft|Damage Boost|40% of {{Tgt|Unit}}'s Def}}
+|CombatEffect 1 Conditions=Special triggers
+|CombatEffect 2={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s next attack
+|CombatEffect Targets={{Tgt|Unit}}
+|CombatEffect 2 Conditions={{Tgt|Foe}}'s Range = 1 '''&'''<br>({{Tgt|Unit}} or {{Tgt|Foe}}'s<br>Special is ready '''or'''<br>triggered before or<br>during combat)
+}}
+==Notes==
+{{DamageBoost}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Gallery==
+<gallery>
+V7.4_v0704a_child_Skl.webp|Sprite sheet for {{St|Armored Beacon}} and {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=重装の大炎
+|german=Gerüstetes Feuer
+|spanishEU=Fuego blindado
+|spanishLA=Fuego blindado
+|french=Brasier blindé
+|italian=Fuoco corazzato
+|chineseTW=重裝之大炎
+|portuguese=Chama blindada
+}}
+==See also==
+{{See also skills|cond=((SCategory='special' AND (Description LIKE '%of unit_s Def%' OR Description LIKE '%reduces damage from foe_s next attack%')) OR (Description LIKE '%special is ready%' OR Description LIKE '%special%triggered before or during%')) AND Exclusive='1' OR (SCategory='special' AND Name LIKE 'Armored%')}}
+{{Specials Navbox}}

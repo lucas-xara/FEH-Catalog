@@ -1,0 +1,43 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_綺羅星のブレス＋
+|weaponType=Dragonstone
+|might=14
+|range=1
+|effect=During combat, boosts unit's Def/Res by number of allies within 2 spaces × 2. (Maximum bonus of +6 to each stat.) If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|cost=300
+|exclusive=0
+|statModifiers=0,14,0,0,0
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+{{LowerDefRes}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+v3.0_73_winter02_Mag.png|Sprite sheet for Glittering Breath+'s animation.
+</gallery>
+
+==In other languages==
+{{OtherLanguages
+|japanese=綺羅星のブレス＋
+|german=Glitzeratem+
+|spanishEU=Aliento estelar +
+|spanishLA=Soplo estelar +
+|french=Souffle brillant +
+|italian=Soffio brillante+
+|chineseTW=綺羅星吐息＋
+|portuguese=Sopro estelar+
+}}
+==See also==
+* [[Goodie Boot+]]
+{{Weapons Navbox}}
+[[Category:Seasonal weapons]]

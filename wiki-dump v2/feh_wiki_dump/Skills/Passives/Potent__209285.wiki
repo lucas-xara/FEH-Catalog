@@ -1,0 +1,71 @@
+{{Passive
+|name=Potent
+|type=B
+|exclusive=0
+|canUseWeapon={{WeaponList|Melee,Beast}}
+|canUseMove={{MoveList|exclude=Armored}}
+|properties=random_owner
+|1name=Potent 1
+|1tagid=SID_神速1
+|1effect=If decreasing the Spd difference necessary to make a follow-up attack by 25 would allow unit to trigger a follow-up attack (excluding guaranteed or prevented follow-ups), triggers【Potent Follow X%】during combat (if unit cannot perform follow-up and attack twice, X = 50; otherwise, X = 10).<br><br>【Potent Follow X%】<br>Triggers an additional follow-up attack immediately after unit's standard follow-up attack and deals damage = X% of unit's normal attack damage (if unit cannot make a follow-up attack, this effect triggers when the standard follow-up attack would occur; this effect is treated like a follow-up attack, so effects like "reduce damage by X%" still apply, but this effect is not affected by effects that prevent follow-ups or "attacks twice" effects; only highest value applied; does not stack).
+|1cost=60
+|1required=-
+|1promotionTier=1
+|1promotionRarity=4
+|2name=Potent 2
+|2tagid=SID_神速2
+|2effect=Reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by 10%. If decreasing the Spd difference necessary to make a follow-up attack by 25 would allow unit to trigger a follow-up attack (excluding guaranteed or prevented follow-ups), triggers【Potent Follow X%】during combat (if unit cannot perform follow-up and attack twice, X = 60; otherwise, X = 20).<br><br>【Potent Follow X%】<br>Triggers an additional follow-up attack immediately after unit's standard follow-up attack and deals damage = X% of unit's normal attack damage (if unit cannot make a follow-up attack, this effect triggers when the standard follow-up attack would occur; this effect is treated like a follow-up attack, so effects like "reduce damage by X%" still apply, but this effect is not affected by effects that prevent follow-ups or "attacks twice" effects; only highest value applied; does not stack).
+|2cost=120
+|2promotionTier=1
+|2promotionRarity=5
+|3name=Potent 3
+|3tagid=SID_神速3
+|3effect=Reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by 20%. If decreasing the Spd difference necessary to make a follow-up attack by 25 would allow unit to trigger a follow-up attack (excluding guaranteed or prevented follow-ups), triggers【Potent Follow X%】during combat (if unit cannot perform follow-up and attack twice, X = 70; otherwise, X = 30).<br><br>【Potent Follow X%】<br>Triggers an additional follow-up attack immediately after unit's standard follow-up attack and deals damage = X% of unit's normal attack damage (if unit cannot make a follow-up attack, this effect triggers when the standard follow-up attack would occur; this effect is treated like a follow-up attack, so effects like "reduce damage by X%" still apply, but this effect is not affected by effects that prevent follow-ups or "attacks twice" effects; only highest value applied; does not stack).
+|3cost=240
+|3next=-
+|4name=Potent 4
+|4tagid=SID_神速4
+|4effect=Inflicts Spd/Def-4 on foe during combat and reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by 30%. If decreasing the Spd difference necessary to make a follow-up attack by 25 would allow unit to trigger a follow-up attack (excluding guaranteed or prevented follow-ups), triggers【Potent Follow X%】during combat (if unit cannot perform follow-up and attack twice, X = 80; otherwise, X = 40).<br><br>【Potent Follow X%】<br>Triggers an additional follow-up attack immediately after unit's standard follow-up attack and deals damage = X% of unit's normal attack damage (if unit cannot make a follow-up attack, this effect triggers when the standard follow-up attack would occur; this effect is treated like a follow-up attack, so effects like "reduce damage by X%" still apply, but this effect is not affected by effects that prevent follow-ups or "attacks twice" effects; only highest value applied; does not stack).
+|4cost=300
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Potent 3}} Potent 3
+|s1 Ce1={{Eft|Damage Reduction|20%}} from<br>attacks & Non-Røkkr [[AoE Specials]]
+|s1 Ce2={{Eft|Potent Follow X%|2=70% if {{Tgt|Unit}} can't<br>[[follow-up]] '''&''' [[attack twice]];<br>else, X = 30%}}
+|s1 Ce2C={{Tgt|Unit}}'s Spd ≥<br>{{Tgt|Foe}}'s Spd-20
+|skill2={{Si|Potent 4}} Potent 4
+|s2 Ce1={{Eft|Temporary debuffs|Spd/Def|4}}
+|s2 Ce1T={{Tgt|Foe}}
+|s2 Ce2={{Eft|Damage Reduction|30%}} from<br>attacks & Non-Røkkr [[AoE Specials]]
+|s2 Ce3={{Eft|Potent Follow X%|2=80% if {{Tgt|Unit}} can't<br>[[follow-up]] '''&''' [[attack twice]];<br>else, X = 40%}}
+|s2 Ce3C={{Tgt|Unit}}'s Spd ≥<br>{{Tgt|Foe}}'s Spd-20
+}}
+
+==Notes==
+{{Potent Follow|X%}}
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+{{Temporary debuffs|name=Potent 4}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Potent
+|japanese=神速
+|german=Kräftig
+|spanishEU=Incesante
+|spanishLA=Incesante
+|french=Puissant
+|italian=Potenza
+|chineseTW=神速
+|portuguese=Potente
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【Potent Follow%】%'}}
+{{Passives Navbox|B}}

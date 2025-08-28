@@ -1,0 +1,74 @@
+{{#invoke:NameAbout|main|Name=Valbar}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Valbar
+|Title=Open and Honest
+|WeaponType=Blue Lance
+|Origin=Fire Emblem Echoes: Shadows of Valentia
+|Gender=Male
+|MoveType=Armored
+|actorJP=藤原貴弘
+|actorEN=Kyle Hebert
+|artist=ホマ蔵
+|additionDate=October 21, 2019
+|releaseDate=October 21, 2019
+|randomStartTime=2019-11-21T07:00:00Z
+|poolDate=2019-10-21
+|poolRarities=3,4
+|TagID=バルボ
+|InternalID=438
+|Properties=
+|cv1=2
+|cv2=200550
+|description=A knight from Zofia who accompanies Celica after she rescues him. Appears in Fire Emblem Echoes: Shadows of Valentia.
+}}
+{{Stats Page
+|Lv1HP=21|Lv1ATK=11|Lv1SPD=6|Lv1DEF=8|Lv1RES=9
+|GRHP=65|GRATK=55|GRSPD=45|GRDEF=70|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Brave Lance
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Brave Lance+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Valbar's Lance
+|weapon5Default=
+|weapon5Unlock=5
+}}
+===Assists===
+{{Assists Table
+}}
+===Specials===
+{{Specials Table
+|special1=Retribution
+|special1Default=4
+|special1Unlock=3
+|special2=Vengeance
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Attack +1
+|passiveA2=HP/Atk 1
+|passiveA3=HP/Atk 2
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=Obstruct 1
+|passiveB2=Obstruct 2
+|passiveB3=Obstruct 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+{{Heroes Navbox}}

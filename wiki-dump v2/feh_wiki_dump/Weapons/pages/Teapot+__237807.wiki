@@ -1,0 +1,66 @@
+{{Weapon Infobox
+|tagid=SID_紅茶のポット＋
+|intID=4854
+|image=wep_mg408
+|exclusive=0
+|weaponType=Red Tome
+|cost=300
+|might=12
+|range=2
+|effect=If a Rally or movement Assist skill is used by unit, grants another action to unit (once per turn; if another effect that grants action to unit has been activated at the same time, this effect is also considered to have been triggered).<br><br>If a Rally or movement Assist skill is used by unit or targets unit, grants【Incited】and "Special cooldown charge +1 per attack during combat (only highest value applied; does not stack)" to allies within 2 spaces of both unit and target ally or unit and targeting ally after movement for 1 turn (including unit and target).<br><br>If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit and unit deals +X × 5 damage during combat (excluding area-of-effect Specials; X = number of Bonus effects active on unit, excluding stat bonuses + number of Penalty effects active on foe, excluding stat penalties; max 5).<br><br>【Incited】<br>If unit initiates combat, grants bonus to unit's Atk/Spd/Def/Res = number of spaces from start position to end position of unit during combat (max 3; that turn only).
+|required=Teapot
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Galeforce}}<br>(once per turn)
+|MeC=A [[Rally Assist|Rally]] or [[Movement Assist|Movement]]<br>Assist is used<br>by {{Tgt|Unit}}
+|Se1={{SEt|Incited}}
+|Se2={{SEt|Special Cooldown Charge +1}}
+|SeT={{Tgt|Unit}},<br>{{Tgt|Target (Ally)}},<br>'''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]<br>of {{Tgt|Unit}} &<br>{{Tgt|Target (Ally)}}
+|SeC=A [[Rally Assist|Rally]] or [[Movement Assist|Movement]]<br>Assist is used on<br>'''or''' by {{Tgt|Unit}}
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce2={{Eft|Damage Boost|5 x ({{Kp|Bonus}} effects<br>on {{Tgt|Unit}} '''&''' {{Kp|Penalty}}<br>effects on {{Tgt|Foe}})<br>(exc. {{SEt|Bonuses}} '''&''' {{SEt|Penalties}})|max=25}}
+|CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+
+==Notes==
+{{Galeforce notes}}
+{{Incited}}
+{{Special Cooldown Charge +1}}
+{{Temporary buffs}}
+{{FlatDamageBoost|X (max: 25)}}
+{{EffectfromBonus|damage boost}}
+{{EffectfromPenalty|damage boost}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Gallery==
+<gallery>
+V9.8_v0908a_teatime_Mag.webp|Sprite sheet for {{St|Princess Teapot}} and {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%Rally or movement Assist skill%is used by unit or targets unit, grants%' AND Exclusive='1'}}
+{{Weapons Navbox}}

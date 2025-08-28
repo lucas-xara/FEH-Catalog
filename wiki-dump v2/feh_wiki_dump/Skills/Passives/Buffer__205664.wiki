@@ -1,0 +1,58 @@
+{{Passive
+|name=Buffer
+|type=B
+|exclusive=0
+|canUseWeapon={{WeaponList|Melee}}
+|canUseMove={{MoveList|Infantry}}
+|properties=random_owner
+|1name=Buffer 4
+|1tagid=SID_回避・盾の鼓動4
+|1effect=At the start of turn 1, if foe's attack can trigger unit's Special, grants Special cooldown count-2. Inflicts Spd/Def-4 on foe during combat. If a skill compares unit's Spd to a foe's or ally's Spd, treats unit's Spd as if granted +7. If unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 5 (max 50%).
+|1cost=300
+|1required=Shield Pulse 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Reduce Cooldown|2}}
+|MeC=At start of turn 1<br>if {{Tgt|Unit}} has a<br>[[Defensive Special]]
+|Ce1={{Eft|Temporary debuffs|Spd/Def|4}}
+|Ce1T={{Tgt|Foe}} 
+|Ce2={{Eft|Phantom|Spd|7}}
+|Ce3={{Eft|Damage Reduction|5 x ({{Tgt|Unit}}'s Spd - {{Tgt|Foe)}}'s Spd)<br>from attacks & Non-Røkkr [[AoE Specials]]|percent=1|max=50%}}
+|Ce2-3T={{Tgt|Unit}}
+|Ce3C={{Tgt|Unit}}'s Spd ><br>{{Tgt|Foe)}}'s Spd
+}}
+
+==Notes==
+{{Start of turn Special modification}}
+{{Temporary debuffs}}
+{{Phantom Passive notes|Spd}}
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Buffer
+|japanese=回避・盾の鼓動
+|german=Puffer
+|spanishEU=Amortiguador
+|spanishLA=Amortiguador
+|french=Amortisseur
+|italian=Repulsione
+|chineseTW=迴避・盾之躍動
+|portuguese=Amortecedor
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%if unit_s Spd > foe_s Spd%educes damage from%area-of-effect Specials%' AND Description NOT LIKE '%【Dodge】%') AND Exclusive='1' OR Description LIKE '%start of turn 1%if foe_s attack%trigger%special%grants special cooldown count-%'}}
+* [[Dodge Passives]]
+* [[Phantom Passives]]
+{{Passives Navbox|B}}
+[[Category:Dodge Passives]]

@@ -1,0 +1,76 @@
+{{Passive
+|name=Resonance
+|type=B
+|exclusive=0
+|canUseWeapon={{WeaponList|Magic,Colorless Staff}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Resonance 1
+|1tagid=SID_共鳴の黒魔法1
+|1effect=Deals damage to unit as combat begins = 20% of X (X = unit's max HP before entering battle - 20; "max HP before entering battle" means unit's max HP excluding HP increases from Legendary Effects, Mythic Effects, Bonus Heroes, etc.; activates only when unit can attack in combat; effects that reduce damage "during combat" do not apply; will not reduce unit's HP below 1).<br><br>Unit deals damage = unit's HP at start of combat - current HP, × 2 during combat (max 12, min 6; excluding area-of-effect Specials).
+|1cost=60
+|1required=-
+|1promotionTier=1
+|1promotionRarity=4
+|2name=Resonance 2
+|2tagid=SID_共鳴の黒魔法2
+|2effect=Deals damage to unit as combat begins = 20% of X (X = unit's max HP before entering battle - 20; "max HP before entering battle" means unit's max HP excluding HP increases from Legendary Effects, Mythic Effects, Bonus Heroes, etc.; activates only when unit can attack in combat; effects that reduce damage "during combat" do not apply; will not reduce unit's HP below 1).<br><br>Unit deals damage = unit's HP at start of combat - current HP, × 2 during combat (max 12, min 6; excluding area-of-effect Specials) and reduces the percentage of foe's non-Special "reduce damage by X%" skills by percentage = unit's HP at start of combat - current HP, × 4 during combat (max 24%, min 12%; excluding area-of-effect Specials).
+|2cost=120
+|2promotionTier=1
+|2promotionRarity=5
+|3name=Resonance 3
+|3tagid=SID_共鳴の黒魔法3
+|3effect=Deals damage to unit as combat begins = 20% of X (X = unit's max HP before entering battle - 20; "max HP before entering battle" means unit's max HP excluding HP increases from Legendary Effects, Mythic Effects, Bonus Heroes, etc.; activates only when unit can attack in combat; effects that reduce damage "during combat" do not apply; will not reduce unit's HP below 1).<br><br>Unit deals damage = unit's HP at start of combat - current HP, × 2 during combat (max 12, min 6; excluding area-of-effect Specials) and reduces the percentage of foe's non-Special "reduce damage by X%" skills by percentage = unit's HP at start of combat - current HP, × 7 during combat (max 42%, min 21%; excluding area-of-effect Specials).
+|3cost=240
+|3next=-
+|4name=Resonance 4
+|4tagid=SID_共鳴の黒魔法4
+|4effect=Deals damage to unit as combat begins = 20% of X (X = unit's max HP before entering battle - 20; "max HP before entering battle" means unit's max HP excluding HP increases from Legendary Effects, Mythic Effects, Bonus Heroes, etc.; activates only when unit can attack in combat; effects that reduce damage "during combat" do not apply; will not reduce unit's HP below 1).<br><br>Inflicts Spd/Res-4 on foe during combat.<br><br>Unit deals damage = unit's HP at start of combat - current HP, × 2 during combat (max 12, min 6; excluding area-of-effect Specials) and reduces the percentage of foe's non-Special "reduce damage by X%" skills by percentage = unit's HP at start of combat - current HP, × 10 during combat (max 60%, min 30%; excluding area-of-effect Specials).
+|4cost=300
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Resonance 3}} Resonance 3
+|s1 Ce1={{Eft|Damage|20% of ({{Tgt|Unit}}'s Max HP* -20)}}<br>as combat begins
+|s1 Ce1C={{Tgt|Unit}} can attack
+|s1 Ce2={{Eft|Damage Boost|{{Tgt|Unit}}'s HP<br>at start of combat<br>- current HP, x 2|min=6|max=12}}
+|s1 Ce3={{Eft|Reduce Damage Reduction|{{Tgt|Unit}}'s HP<br>at start of combat<br>- current HP, x 7|min=21%|max=42%|percent=1}}
+|skill2={{Si|Resonance 4}} Resonance 4
+|s2 Ce1={{Eft|Damage|20% of ({{Tgt|Unit}}'s Max HP* -20)}}<br>as combat begins
+|s2 Ce1C={{Tgt|Unit}} can attack
+|s2 Ce2={{Eft|Temporary Debuffs|Spd/Res|4}}
+|s2 Ce2T={{Tgt|Foe}}
+|s2 Ce3={{Eft|Damage Boost|{{Tgt|Unit}}'s HP<br>at start of combat<br>- current HP, x 2|min=6|max=12}}
+|s2 Ce4={{Eft|Reduce Damage Reduction|{{Tgt|Unit}}'s HP<br>at start of combat<br>- current HP, x 10|min=30%|max=60%|percent=1}}
+|s2 Ce3-4T={{Tgt|Unit}}<br>
+}}
+<b>{{Hatnote|* Excludes HP boosts from {{Utt|Legendary}},<br>{{Utt|Mythic}} and gamemode Bonus Heroes effects}}</b>
+
+==Notes==
+{{CombatDamage|noCounter=1}}
+{{DamageBoost}}
+{{Reduce Damage Reduction}}
+{{Temporary debuffs|name=Resonance 4}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Resonance
+|japanese=共鳴の黒魔法
+|german=Resonanz
+|spanishEU=Reverberación
+|spanishLA=Reverberación
+|french=Résonance
+|italian=Risonanza
+|chineseTW=共鳴之黑魔法
+|portuguese=Ressonante
+}}
+
+==See also==
+{{See also skills|cond=Description LIKE '%percentage of foe_s non-Special "reduce%damage by X%" skills by Y\%%' OR Description LIKE '%foe_s non-Special "reduce%damage by X%" skills by percentage%' OR Description LIKE '%unit_s HP at start of combat - current HP%'}}
+{{Passives Navbox|B}}

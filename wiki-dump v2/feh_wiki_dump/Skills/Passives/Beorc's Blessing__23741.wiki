@@ -1,0 +1,35 @@
+{{Passive
+|1name=Beorc's Blessing
+|1tagid=SID_ベオクの加護
+|1effect=Neutralizes cavalry and flying foes' bonuses (from skills like Fortify, Rally, etc.) during combat.<br>(Skill cannot be inherited.)
+|1required=-
+|1cost=300
+|type=B
+|exclusive=1
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect={{SkillEffectText|Neutralize Bonuses}}
+|CombatEffect Targets={{Mt|Cavalry}} &<br>{{Mt|Flying}} {{SkillTargetText|Foes}}
+}}
+==Notes==
+{{Bonus neutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ベオクの加護
+|german=Beorcs Segen
+|spanishEU=Favor beorc
+|spanishLA=Favor beorc
+|french=Don des Beorc
+|italian=Grazia dei Beorc
+|chineseTW=貝歐克的加護
+|portuguese=Dádiva de Beorc
+}}
+==See also==
+* [[Skills that neutralize bonuses]]
+{{Passives Navbox|B}}

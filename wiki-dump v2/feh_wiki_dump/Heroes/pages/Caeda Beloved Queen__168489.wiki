@@ -1,0 +1,81 @@
+{{#invoke:NameAbout|main|Name=Caeda}}
+{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Caeda
+|Title=Beloved Queen
+|WeaponType=Blue Lance
+|MoveType=Flying
+|Origin=Fire Emblem: Mystery of the Emblem
+|Gender=Female
+|LegendaryEffect=Water
+|BoostHP=3
+|BoostSpd=3
+|Duel=190
+|actorEN=Cherami Leigh
+|actorJP=早見沙織
+|artist=いちかわはる
+|additionDate=February 25, 2022
+|releaseDate=February 28, 2022
+|cv1=1
+|cv2=200100
+|TagID=伝承シーダ
+|InternalID=776
+|Properties=legendary
+|description=First queen of the Archanean Alliance, married to Marth, its king. Her love for Marth is second only to her love for their people. Appears in Fire Emblem: Mystery of the Emblem.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=10|Lv1SPD=13|Lv1DEF=5|Lv1RES=7
+|GRHP=50|GRATK=65|GRSPD=70|GRDEF=50|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Lance
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Wing-Lifted Spear
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Moonbow
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Distant Counter
+|passiveA2=Distant Storm
+|passiveA1Unlock=4
+|passiveA2Unlock=5
+|passiveB1=Faithful Loyalty
+|passiveB2=Faithful Loyalty II
+|passiveB1Unlock=5
+|passiveB2Unlock=5
+|passiveC1=Atk/Def Rein 1
+|passiveC2=Atk/Def Rein 2
+|passiveC3=Atk/Def Rein 3
+|passiveC4=Atk/Spd Rein 1
+|passiveC5=Atk/Spd Rein 2
+|passiveC6=Atk/Spd Rein 3
+|passiveC7=A/S Rein Snap
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+|passiveC4Unlock=1
+|passiveC5Unlock=2
+|passiveC6Unlock=4
+|passiveC7Unlock=1
+}}
+{{Heroes Navbox}}

@@ -1,0 +1,69 @@
+{{Weapon Infobox
+|tagid=SID_新年開く刃の爪
+|intID=4500
+|noImg=1
+|exclusive=1
+|weaponType=Beast
+|canUseMove=Flying
+|cost=400
+|might=14
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>At start of player phase or enemy phase, inflicts Spd/Def-7,【Exposure】, and 【Sabotage】on foes that are within 2 spaces of another foe through their next actions.<br><br>If unit is transformed or if foe's HP ≥ 75% at start of combat, grants bonus to unit's Atk/Spd/Def/Res = 15% of unit's Spd at start of combat + 5, unit deals +X damage (X = number of Bonus effects, excluding stat bonuses, and number of Penalty effects, excluding stat penalties, active on foe and foes within 2 spaces of that foe × 3; excluding area-of-effect Specials), reduces damage from foe's first attack by 7 ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and grants Special cooldown count-1 to unit before unit's first attack during combat.<br><br>At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, unit can move 1 extra space (that turn only; does not stack) and grants Atk+2 to unit.<br><br>【Exposure】<br>Foe's attacks deal +10 damage.<br><br>【Sabotage】<br>Inflicts penalty on unit's Atk/Spd/Def/Res during combat = highest penalty on each stat between unit and allies within 2 spaces of unit through its next action. Calculates each stat penalty independently.
+|required=Adult (Flier)
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe1={{Eft|Accelerates Special}}
+|Pe2={{Eft|Stat Boosts|Atk|2}}
+|PeC2={{Tgt|Unit}} is transformed
+|Me={{Eft|Transform}}
+|MeC=At start of turn if<br>{{Tgt|Unit}} is [[adjacent]] to only<br>{{Cwti|group=1|Dragon,Beast}} [[Dragon]]/[[Beast]]<br>{{Tgt|Allies}} '''or''' not [[adjacent]]<br>to any {{Tgt|Ally}}
+|Se1={{Eft|Penalties|Spd/Def|7}}
+|Se2={{SEt|Exposure}}
+|Se3={{SEt|Sabotage}}
+|Se1-3T={{Tgt|Foes}}<br>[[within 2 spaces]]<br>of other {{Tgt|Foes}}
+|Se1-3C=At start of both Phases
+|Se4={{SEt|Mobility Increased}}
+|Se4T={{Tgt|Unit}}
+|Se4C=At start of turn if<br>{{Tgt|Unit}} is transformed
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|15% of {{Tgt|Unit}}'s Spd<br>at start of combat, +5}}
+|Ce2={{Eft|Damage boost|3 x [[Status effects]] on<br>{{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]] of {{Tgt|Target Foe}}<br>(exc. {{SEt|Bonuses}} '''&''' {{SEt|Penalties}})}}
+|Ce3={{Eft|Damage Reduction|7}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce4={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Unit}}'s first attack
+|CeC={{Tgt|Unit}} is transformed<br>'''or''' {{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+}}
+
+==Notes==
+{{Penalties}}
+{{Exposure}}
+{{Sabotage}}
+{{Temporary buffs}}
+{{At start of combat}}
+{{FlatDamageBoost}}
+{{EffectfromBonusPenalty|target=foes within 2 spaces of target|damage boost|nonStat=1}}
+{{FlatDamageReduction|7}}
+{{CombatCooldownCount|-1}}
+{{Beast (Flier)}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==References==
+<references/>
+
+==See also==
+{{See also skills|cond=(Description LIKE '%number of %bonus%penalty%' OR Description LIKE '%start of%foes that are within _ spaces of another foe%') AND Exclusive='1'}}
+* [[Sabotage Passives]]
+* [[Skill families/B Passives#Discord|Discord Passives]]
+{{Weapons Navbox}}

@@ -1,0 +1,57 @@
+{{Passive
+|name=Niðavellir Axiom
+|type=S
+|exclusive=0
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|intID=2396
+|sort=493
+|value=0
+|timingID=11
+|abilityID=61
+|properties=enemy_only
+|1name=Niðavellir Axiom
+|1tagid=SID_ニザヴェリルの理
+|1effect=Reduces damage dealt to unit to 0.
+|1required=-
+|1cost=0
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce={{Eft|Prevent Damage}}<br>outside '''or''' during combat
+}}
+==Notes==
+* A unit with Niðavellir Axiom will still take damage from [[Umbra Burst]] weapons and [[Røkkr AoE Specials]].
+==Usage in Story Maps==
+{{#cargo_query:tables=MapUnits=MU,Units=U,Skills=S
+|fields=CONCAT('[[',MU._pageName,'{{!}}{{(}}#invoke:GetFancyMapName{{!}}getFancyName{{!}}',MU._pageName,'{{)}}]] — {{(}}Ut{{!}}',U.WikiName,'{{)}}')
+|join on=MU.Unit=U.WikiName,S.WikiName=MU.Seal
+|where=S.WikiName='Nidavellir Axiom'
+|group by=MU._pageName
+|order by=MU._pageID
+|format=ul
+}}
+
+==Seal acquired from==
+* This is a story exclusive Sacred Seal. It is exclusively equipped by {{Ut|Fáfnir: King of Desolation}} or {{Ut|Eitri: Youthful Sage}} in [[:Category:Defensive battle maps|defensive battle maps]].
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Niðavellir Axiom
+|badgeColor=-
+|costs1=-
+}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=ニザヴェリルの理
+|german=Niðavellirs Axiom
+|spanishEU=Axioma Niðavellir
+|spanishLA=Axioma Niðavellir
+|french=Axiome Niðavellir
+|italian=Legge Niðavellir
+|chineseTW=尼德威阿爾之理
+|portuguese=Axioma Niðavellir
+}}
+==See also==
+{{See also skills|cond=Description LIKE "%Reduces damage dealt to unit to 0%"}}
+{{Seals Navbox}}

@@ -1,0 +1,50 @@
+{{Weapon Infobox
+|tagid=SID_傭兵竜騎士の槍
+|intID=3803
+|image=wep_lc153
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=16
+|range=1
+|effectiveness=Cavalry
+|effect=Effective against cavalry foes. If foe initiates combat or foe's HP ≥ 75% at start of combat, grants Atk/Spd/Def/Res+4 to unit, inflicts Atk/Spd/Def-X on foe (X = 10% of unit's Def at start of combat), and inflicts Special cooldown charge -1 on foe per attack during combat (only highest value applied; does not stack).
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit during combat, unit makes a guaranteed follow-up attack, and reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by X% (if it is unit's first combat initiated by unit or first combat initiated by foe that turn, X = 40; otherwise, X = 20).
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|cavalry}}
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+{{Temporary debuffs}}
+{{At start of combat}}
+{{CooldownChargeMinus}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Guaranteed follow-up interaction|name={{St|Hyperion Lance|refine=Skill1}}}}
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+{{FirstCombat|name={{St|Hyperion Lance|refine=Skill1}}}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=傭兵竜騎士の槍
+|german=Hyperion-Lanze
+|spanishEU=Lanza Hyperion
+|spanishLA=Lanza Hyperion
+|french=Lance d'Hypérion
+|italian=Lancia Hyperion
+|chineseTW=傭兵龍騎士之槍
+|portuguese=Lança Hyperion
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%-X%=%of unit_s%at start of combat%' OR Description LIKE '%reduces damage%first combat%'}}
+{{Weapons Navbox}}

@@ -1,0 +1,36 @@
+{{Weapon Infobox
+|tagid=SID_清真アミーテ
+|intID=3797
+|userVersion1=Weapon
+|userVersion2=Gleam
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=11
+|range=1
+|cooldown=-1
+|effect=Enables【Canto (２)】.<br><br>Accelerates Special trigger (cooldown count-1).<br>Unit attacks twice (even if foe initiates combat, unit attacks twice).<br>If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit, grants Atk/Spd+X to unit (X = 11 - foe's max Special cooldown count value × 2; min 3; if foe does not have a Special skill, X = 3), and neutralizes effects that inflict "Special cooldown charge -X" on unit during combat.<br><br>【Canto (２)】<br>After an attack, Assist skill, or structure destruction, unit can move ２ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|required=Silver Sword
+|properties=random_owner
+}}
+==Notes==
+{{Canto|2}}
+{{Brave weapon interaction}}
+{{Temporary buffs}}
+{{CooldownChargeMinusNeutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=清真アミーテ
+|german=Reines Amiti
+|spanishEU=Amiti absoluta
+|spanishLA=Amiti absoluta
+|french=Amiti absolue
+|italian=Amiti assoluta
+|chineseTW=純潔亞米特
+|portuguese=Amiti absoluta
+}}
+==See also==
+{{See also skills|cond=WikiName LIKE '%amiti%' OR Description LIKE '%canto%unit attacks twice%' AND Description NOT LIKE '%"unit attacks twice%' OR Description LIKE '%=%foe_s max special cooldown count%'}}
+{{Weapons Navbox}}

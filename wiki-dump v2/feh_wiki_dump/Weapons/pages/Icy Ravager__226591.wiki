@@ -1,0 +1,62 @@
+{{Weapon Infobox
+|tagid=SID_冬氷の魔拳
+|intID=4477
+|noImg=1
+|exclusive=1
+|weaponType=Beast
+|canUseMove=Armored
+|cost=400
+|might=14
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>At start of turn, and at start of enemy phase (except for in Summoner Duels), if Special cooldown count is at its maximum value, grants Special cooldown count-1.<br><br>If foe initiates combat or foe's HP ≥ 75% at start of combat, inflicts penalty on foe's Atk/Def = 20% of unit's Def at start of combat + 6, unit deals +X damage (X = total value of the number of foes defeated by unit's team on the current turn and the number of foes that have already performed an action, × 3, + 10; max 19; for "current turn," player phase and enemy phase are counted separately; excluding area-of-effect Specials), reduces damage from foe's attacks by X (excluding area-of-effect Specials), and neutralizes effects that inflict "Special cooldown charge -X" on unit during combat, and also, and if unit's Special cooldown count is at its maximum value after combat, grants Special cooldown count-1 to unit after combat.<br><br>At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and unit can counterattack regardless of foe's range.
+|required=Adult (Armored)
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe1={{Eft|Accelerates Special}}
+|Pe2={{Eft|Stat Boosts|Atk|2}}
+|PeC2={{Tgt|Unit}} is transformed
+|Me1={{Eft|Transform}}
+|Me1C=At start of turn if<br>{{Tgt|Unit}} is [[adjacent]] to only<br>{{Cwti|group=1|Dragon,Beast}} [[Dragon]]/[[Beast]]<br>{{Tgt|Allies}} '''or''' not [[adjacent]]<br>to any {{Tgt|Ally}}
+|Me2={{Eft|Reduce Cooldown|1}}
+|Me2C=At start of turn<br>'''&''' Enemy Phase*<br>if {{Tgt|Unit}} CD<br>is max value
+|Me3={{Eft|Reduce Cooldown|1}}
+|Me3C=After combat (in<br>Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat)<br>'''&''' {{Tgt|Unit}}'s CD<br>is max value
+|Ce1={{Eft|Temporary debuffs|Atk/Def|20% of {{Tgt|Unit}}'s Def<br>at start of combat, +6}}
+|Ce1T={{Tgt|Foe}}
+|Ce2={{Eft|Damage Boost|3 x ({{Tgt|Foes}} defeated +<br>{{Tgt|Foes}} that acted)<br>during the current Phase, +10|max=19}}
+|Ce3={{Eft|Damage Reduction|3 x ({{Tgt|Foes}} defeated +<br>{{Tgt|Foes}} that acted)<br>during the current Phase, +10|max=19}}
+|Ce1-3C=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|Ce4={{Eft|Distant Counter}}
+|Ce4C={{Tgt|Unit}} is transformed
+}}
+<b>{{Hatnote|&#42; Excluding Enemy Phase in [[Summoner Duels]].}}</b>
+==Notes==
+{{Start of turn Special modification}}
+{{IfFoeInitiates}}
+{{Temporary debuffs}}
+{{At start of combat}}
+{{FlatDamageBoost|X (max: 19)}}
+{{FlatDamageReduction|X (max: 19)}}
+{{After combat Special modification}}
+{{Beast (Armored)}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=冬氷の魔拳
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%its maximum value%grants Special cooldown count-%after combat%' OR Description LIKE '%after combat%its maximum value%grants Special cooldown count-%') AND Description NOT LIKE '%【Dagger ７】%' AND Exclusive='1'}}
+{{Weapons Navbox}}

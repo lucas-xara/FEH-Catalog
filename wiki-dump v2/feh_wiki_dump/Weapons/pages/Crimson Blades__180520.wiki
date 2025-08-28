@@ -1,0 +1,36 @@
+{{Weapon Infobox
+|tagid=SID_朱傭兵の双剣
+|intID=3253
+|image=wep_sw141
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=11
+|range=1
+|effect=Grants Spd+5. Inflicts Def/Res-5. Unit attacks twice. At start of combat, the following effects will occur based on unit's HP: if ≥ 20%, grants Special cooldown charge +1 to unit per attack (only highest value applied; does not stack), and also, if ≥ 40%, reduces damage from foe's first attack during combat by 40%.
+|statModifiers=0,11,5,-5,-5
+|required=Silver Sword
+|properties=random_owner
+}}
+==Notes==
+{{Brave weapon interaction}}
+{{CooldownChargePlus}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Crimson Blades
+|japanese=朱傭兵の双剣
+|german=Purpur-Klingen
+|spanishEU=Hojas carmesís
+|spanishLA=Hojas carmesí
+|french=Lames pourpres
+|italian=Lame cremisi
+|chineseTW=朱傭兵的雙劍
+|portuguese=Espadas carmim
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%inflicts Def/Res-%unit attacks twice%' AND (SP=300 OR Exclusive='1') OR Description LIKE '%HP%if ≥%reduces damage from foe_s first attack%' AND Exclusive='1'}}
+* [[Brave Weapons]]
+{{Weapons Navbox}}

@@ -1,0 +1,52 @@
+{{Passive
+|name=Laws of Sacae
+|type=A
+|1name=Laws of Sacae
+|1tagid=SID_サカの掟
+|1required=-
+|1effect=If foe initiates combat and the number of allies within 2 spaces ≥ 2, grants Atk/Spd/Def/Res+4 during combat.
+|1cost=300
+|2name=Laws of Sacae II
+|2tagid=SID_サカの掟・承
+|2effect=If unit initiates combat or if unit is within 2 spaces of an ally, grants Atk/Spd/Def/Res+6 during combat, and also, if foe uses sword, lance, axe, dragonstone, or beast damage and unit's Spd ≥ foe's Spd+5, foe cannot counterattack.
+|2required=Laws of Sacae
+|2cost=300
+|exclusive=1
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Laws of Sacae}} Laws of Sacae
+|s1 Ce={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s1 CeC=Enemy Phase '''&'''<br>{{Tgt|Allies}} [[within 2 spaces|within<br>2 spaces]] ≥ 2
+|skill2={{Si|Laws of Sacae II}} Laws of Sacae II
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|6}}
+|s2 Ce1C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s2 Ce2={{Eft|Prevent Counter}}
+|s2 Ce2T={{Tgt|Foe}}
+|s2 Ce2C={{Eft|Temporary buffs|Atk/Spd/Def/Res|6}}<br>conditions '''&'''<br>{{Tgt|Unit}}'s Spd ≥<br>{{Tgt|Foe}}'s Spd+5
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+{{IfUnitInitiates}}
+{{Prevent counterattacks|name=Laws of Sacae II}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=サカの掟
+|german=Gesetz v. Sacae
+|spanishEU=Leyes de Sacae
+|spanishLA=Leyes de Sacae
+|french=Lois de Sacae
+|italian=Legge di Sacae
+|chineseTW=塞迦的規矩
+|portuguese=Leis de Sacae
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit_s ___ _ foe_s %,%foe cannot counterattack%' AND NOT CanUseWeapon__full='Colorless Staff' AND Exclusive='1'}}
+* [[Sweep Passives]]
+{{Passives Navbox|A}}

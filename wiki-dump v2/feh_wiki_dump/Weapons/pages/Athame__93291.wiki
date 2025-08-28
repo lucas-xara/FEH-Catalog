@@ -1,0 +1,48 @@
+{{Weapon Infobox
+|tagid=SID_アサメイの短剣
+|weaponType=Dagger
+|might=14
+|range=2
+|effect=Grants Res+3. At start of combat, if foe’s HP < 100%, grants Atk/Spd+5 during combat, and if foe initiates combat, unit can counterattack before foe’s first attack.<br>Effect:【Dagger ７】<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,0,0,3
+|required=Silver Dagger
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Res+3. If unit initiates combat or if foe's HP ≤ 99% at the start of combat, grants Atk/Spd+5 to unit during combat. If foe initiates combat and foe's HP ≤ 99% at the start of combat, unit can counterattack before foe's first attack.<br>Effect:【Dagger ７】<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|tagidExtraSkill1=一
+|effectSkill1=If unit initiates combat or is not adjacent to an ally, grants Atk/Spd+5 to unit during combat. After combat, if unit initiated combat and attacked, deals 5 damage to target and foes within 2 spaces of unit, and inflicts【Exposure】 on those foes through their next actions.<br><br>【Exposure】<br>Foe's attacks deal +10 damage.
+|iconSkill1=Athame W.png
+|properties=random_owner
+}}
+==Notes==
+{{Foe's HP not full}}
+{{Temporary buffs}}
+{{Preempt}}
+{{IfUnitAttacked}}
+{{Penalties}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfUnitInitiates}}
+{{Out of combat damage|name={{St|Athame|refine=Skill1}}}}
+{{Exposure|name={{St|Athame|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=アサメイの短剣
+|german=Athame
+|spanishEU=Athame
+|spanishLA=Athame
+|french=Athame
+|italian=Athame
+|chineseTW=艾薩玫短劍
+|portuguese=Athame
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe_s HP <%' OR Description LIKE '%unit can counterattack before foe_s first attack%' OR Description LIKE '%【Exposure】%'}}
+{{Weapons Navbox}}

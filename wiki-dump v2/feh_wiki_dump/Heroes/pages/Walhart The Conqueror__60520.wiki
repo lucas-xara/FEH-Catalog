@@ -1,0 +1,74 @@
+{{#invoke:NameAbout|main|Name=Walhart}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Walhart
+|Title=The Conqueror
+|GrowthModifier=Gen 2
+|WeaponType=Green Axe
+|MoveType=Cavalry
+|Origin=Fire Emblem Awakening
+|Gender=Male
+|artist=添田一平
+|actorEN=Richard Epcar
+|actorJP=楠見尚己
+|additionDate=July 20, 2018
+|releaseDate=07/29/18
+|TagID=ヴァルハルト
+|InternalID=273
+|Person=Walhart
+|Properties=ghb,hat,limited
+|cv1=10
+|cv2=600100
+|description=The ruthless emperor of Valm. His hubris drives him to conquer and subjugate. Appears in Fire Emblem Awakening.
+}}
+
+__TOC__
+
+{{Stats Page|Hero={{BASEPAGENAME}}
+|Lv1HP=19|Lv1ATK=11|Lv1SPD=5|Lv1DEF=8|Lv1RES=3
+|GRHP=50|GRATK=60|GRSPD=50|GRDEF=65|GRRES=30
+}}
+
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Wolf Berg
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+
+===Assists===
+{{Assists Table
+}}
+
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Default=
+|special2Unlock=4
+}}
+
+===Passives===
+{{Passives Table
+|passiveA1=Grani's Shield
+|passiveA1Unlock=3
+|passiveB1=Chill Def 1
+|passiveB2=Chill Def 2
+|passiveB3=Chill Def 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+
+{{Heroes Navbox}}

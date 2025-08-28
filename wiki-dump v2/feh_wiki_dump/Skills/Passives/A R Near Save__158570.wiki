@@ -1,0 +1,60 @@
+{{Passive
+|type=C
+|name=A/R Near Save
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|Armored}}
+|properties=random_owner
+|1name=A/R Near Save 1
+|alt1name=A R Near Save 1
+|1tagid=SID_兜の護り手・近間1
+|1cost=100
+|1effect=If a foe uses sword, lance, axe, dragonstone, or beast damage and initiates combat against an ally adjacent to unit, triggers【Savior】on unit.<br><br>If unit triggers Savior, grants Atk/Res+1 during combat.<br><br>【Savior】<br>Unit takes ally's space, enters combat in ally's place, and receives all after-combat effects.<br><br>Savior will not trigger if ally is on terrain that unit cannot move to or if multiple units are able to use Savior during the same combat. If Savior triggers, after-combat movement effects do not occur.
+|1required=-
+|1promotionRarity=5
+|1promotionTier=1
+|2name=A/R Near Save 2
+|alt2name=A R Near Save 2
+|2tagid=SID_兜の護り手・近間2
+|2cost=200
+|2effect=If a foe uses sword, lance, axe, dragonstone, or beast damage and initiates combat against an ally within 2 spaces of unit, triggers【Savior】<br>on unit.<br><br>If unit triggers Savior, grants Atk/Res+2 during combat.<br><br>【Savior】<br>Unit takes ally's space, enters combat in ally's place, and receives all after-combat effects.<br><br>Savior will not trigger if ally is on terrain that unit cannot move to or if multiple units are able to use Savior during the same combat. If Savior triggers, after-combat movement effects do not occur.
+|2next=-
+|3name=A/R Near Save 3
+|alt3name=A R Near Save 3
+|3tagid=SID_兜の護り手・近間3
+|3cost=300
+|3effect=If a foe uses sword, lance, axe, dragonstone, or beast damage and initiates combat against an ally within 2 spaces of unit, triggers【Savior】<br>on unit.<br><br>If unit triggers Savior, grants Atk/Res+4 during combat.<br><br>【Savior】<br>Unit takes ally's space, enters combat in ally's place, and receives all after-combat effects.<br><br>Savior will not trigger if ally is on terrain that unit cannot move to or if multiple units are able to use Savior during the same combat. If Savior triggers, after-combat movement effects do not occur.
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Savior}}
+|MeC=Enemy Phase '''&'''<br>[[Range = 1]] {{Tgt|Foe}}<br>attacks an {{Tgt|Ally}}<br>[[within 2 spaces]]
+|Ce={{Eft|Temporary buffs|Atk/Res|4}}
+|CeC={{Eft|Savior}} triggers
+}}
+
+==Notes==
+{{Save skill notes}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=A/R Near Save
+|japanese=兜の護り手・近間
+|japaneseNotes=''Protector of the Helmet・Near''
+|german=A/R Schutz nah
+|spanishEU=Ayuda cer. A/R
+|spanishLA=Ayuda cer. A/R
+|french=Sauv. pr. A/R
+|italian=Aiuto vicin. A/R
+|chineseTW=冑之守護人・近處
+|portuguese=Ajuda per. A/R
+}}
+==See also==
+{{See also skills|cond=Description LIKE'%【Savior】%' AND Exclusive='1'}}
+* [[Skill families/C Passives#Save|Save Passives]]
+{{Passives Navbox|C}}

@@ -1,0 +1,56 @@
+{{Weapon Infobox
+|tagid=SID_波舞うイルカの斧
+|weaponName=Dolphin-Dive Axe
+|image=wep_ax093
+|weaponType=Axe
+|might=16
+|range=1
+|effectiveness=melee,colorless bow,armored
+|effect=Enables【Canto (２)】.<br><br>Effective against sword, lance, axe, colorless bow, and armored foes. Grants Atk+3. If unit initiates combat or if unit is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 during combat.<br><br>【Canto (２)】<br>After an attack, Assist skill, or structure destruction, unit can move ２ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|cost=400
+|exclusive=1
+|statModifiers=0,19,0,0,0
+|required=Silver Axe
+|intID=2642
+|sort=558
+|value=20
+|timingID=0
+|abilityID=0
+|limit1ID=58
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Stat Boosts|Atk|3}}
+|Me={{Eft|Canto|2}}
+|Ce1={{Eft|Effectiveness|{{Cwti|Melee,Colorless bow}}{{Mi|Armored}} [[:Category:Melee weapon users|Melee]],<br>{{Wtp|Colorless bow}}, '''&''' {{Mp|Armored}}<br>}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce2C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+==Notes==
+{{Canto|2}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Effective damage bonus|moveWep=1|melee,colorless bow,armored}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+* {{St|Feather Sword}} and {{St|Dolphin-Dive Axe}} are effctive against {{#cargo_query:tables=Units
+|fields=COUNT(DISTINCT _pageName)
+|where=(WeaponType IN ('Red Sword','Blue Lance','Green Axe','Colorless Bow') OR MoveType='Armored')|default=|order by=AdditionDate}}/{{#cargo_query:tables=Units
+|fields=COUNT(DISTINCT _pageName)
+|default=|order by=AdditionDate}} units.
+==In other languages==
+{{OtherLanguages
+|japanese=波舞うイルカの斧
+|german=Delfinaxt
+|spanishEU=Hacha delfín
+|spanishLA=Hacha delfín
+|french=Hache dauphin
+|italian=Ascia delfino
+|chineseTW=舞浪海豚之斧
+|portuguese=Machado delfim
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%Effective against%sword%lance%axe%colorless bow%armored foes%') AND Exclusive='1'}}
+{{Weapons Navbox}}

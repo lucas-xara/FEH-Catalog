@@ -1,0 +1,69 @@
+{{#invoke:NameAbout|main|Name=Leo}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Leo
+|Title=Sorcerous Prince
+|WeaponType=Red Tome
+|Origin=Fire Emblem Fates
+|Gender=Male
+|MoveType=Cavalry
+|actorEN=Max Mittelman
+|actorJP=宮野真守
+|artist=日野慎之助
+|releaseDate=February 2, 2017
+|poolDate=February 2, 2017
+|randomStartTime=2017-02-02T07:00:00Z
+|poolRarities=5
+|TagID=レオン
+|InternalID=77
+|cv1=11
+|cv2=500800
+|description=A talented Nohrian prince who wields the divine tome Brynhildr. Appears in Fire Emblem Fates.
+|Properties=specRate_201904
+|GrowthModifier=None
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=7|Lv1SPD=5|Lv1DEF=6|Lv1RES=8
+|GRHP=50|GRATK=50|GRSPD=40|GRDEF=45|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Flux
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Ruin
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Fenrir
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Brynhildr
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Rising Light
+|special1Default=4
+|special1Unlock=3
+|special2=Blazing Light
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Quick Riposte 1
+|passiveB2=Quick Riposte 2
+|passiveB3=Quick Riposte 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Savage Blow 1
+|passiveC2=Savage Blow 2
+|passiveC3=Savage Blow 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

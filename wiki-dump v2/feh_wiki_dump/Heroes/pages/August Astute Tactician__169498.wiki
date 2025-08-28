@@ -1,0 +1,81 @@
+{{#invoke:NameAbout|main|Name=August}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=August
+|Title=Astute Tactician
+|WeaponType=Colorless Staff
+|MoveType=Infantry
+|Origin=Fire Emblem: Thracia 776
+|Gender=Male
+|actorEN=Luis Bermudez
+|actorJP=野川雅史
+|artist=鈴木理華
+|randomStartTime=2022-04-18T07:00:00Z
+|additionDate=March 18, 2022
+|releaseDate=March 18, 2022
+|poolDate=April 7, 2022
+|poolRarities=5
+|cv1=4
+|cv2=105200
+|TagID=アウグスト
+|InternalID=783
+|Properties=specRate_202502
+|description=Former priest of Bragi; a thorough realist. Teaches young Leif just what a hero truly is. Appears in Fire Emblem: Thracia 776.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=10|Lv1SPD=4|Lv1DEF=8|Lv1RES=10
+|GRHP=50|GRATK=70|GRSPD=30|GRDEF=55|GRRES=75
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Assault
+|weapon1Unlock=1
+|weapon2=Diplomacy Staff
+|weapon2Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Heal
+|assist1Default=1
+|assist1Unlock=1
+|assist2=Reconcile
+|assist2Default=3
+|assist2Unlock=2
+|assist3=Nudge
+|assist3Default=4
+|assist3Unlock=3
+|assist4=Nudge+
+|assist4Default=5
+|assist4Unlock=5
+}}
+===Specials===
+{{Specials Table
+|special1=Imbue
+|special1Default=4
+|special1Unlock=2
+|special2=Still-Water Balm
+|special2Default=5
+|special2Unlock=3
+|special3=Fireflood Balm
+|special3Unlock=4
+|special4=Fireflood Balm+
+|special4Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Def/Res Bond 1
+|passiveA2=Def/Res Bond 2
+|passiveA3=Def/Res Bond 3
+|passiveA4=Def/Res Bond 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveC1=Even Recovery 1
+|passiveC2=Even Recovery 2
+|passiveC3=Even Recovery 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

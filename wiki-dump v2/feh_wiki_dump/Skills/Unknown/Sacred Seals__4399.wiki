@@ -1,0 +1,21 @@
+[[File:Feature Sacred Seals.png|250px|thumb|Sacred Seal]][[File:Passive Icon S.png|alt=|right]]
+Sacred Seals can be equipped to skill slot [[File:Passive Icon S.png|x26px|class=inline-icon|alt=|link=]], and are effectively movable [[Passives]].
+
+A Seal can be equipped to one hero at a time, and you cannot own more than one of the same Sacred Seal. Any duplicate seals will automatically be exchanged for 300 {{It|Hero Feather}}s.
+
+As a general rule, equipping a Seal at the same time as having the corresponding passive skill equipped makes the effects stack, for example having both the {{St|Breath of Life 3}} '''seal''' and the {{St|Breath of Life 3}} '''passive''' equipped effectively stacks the healing properties of both skills.
+
+Sacred Seals can be earned by completing [[Quests]], clearing [[Squad Assault]] challenges and by earning a high score in [[Tempest Trials]]. They can also be created and enhanced via the [[Sacred Seal Forge]] by using {{It|Sacred Coin}}s.
+
+SP "costs" listed for Sacred Seals in the table below are for arena score calculation purposes.
+==List of Sacred Seals==
+<div style="text-align:center;">{{#cargo_query:tables=SacredSealCosts,Skills
+|join on=SacredSealCosts.Skill=Skills.Name
+|fields=CONCAT('[[File:',Icon,'|21px]]')=Icon,CONCAT('[[',Skills._pageName,'|',Name,']]')=Name,Description,SP,CONCAT('[[File:',BadgeColor,'_Badge.png|21px|link=]] [[File:Great_',BadgeColor,'_Badge.png|21px|link=]]')=Badge Color
+|where=Properties HOLDS NOT 'enemy_only'
+|group by=Skills.Name
+|order by=Skills.Name
+|format=table
+|limit=9999
+}}</div>
+{{Skills Navbox}}

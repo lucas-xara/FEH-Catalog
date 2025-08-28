@@ -1,0 +1,82 @@
+{{#invoke:NameAbout|main|Name=Kagero|Name2=Orochi}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Kagero
+|Title=Bond Unwavering
+|WeaponType=Colorless Dagger
+|MoveType=Cavalry
+|secondPerson=Orochi
+|Origin=Fire Emblem Fates
+|Gender=FF
+|duo=Grants Special cooldown count-1 to unit. Grants "unit can move 1 extra space (that turn only; does not stack)" and "neutralizes foe's bonuses during combat" to unit for 1 turn.<br><br>Once used, Duo Skill cannot be activated again right away. At start of every third turn, if Duo Skill has already been used, unit can use Duo Skill again.
+|Duel=200
+|actorEN=Sarah Blandy,Fria Coleman
+|actorJP=村川梨衣,五十嵐由佳
+|artist=ekao
+|additionDate=September 6, 2023
+|releaseDate=September 7, 2023
+|cv1=11
+|cv2=200500
+|TagID=比翼カゲロウ
+|InternalID=992
+|Properties=special,duo,tiara
+|description=Childhood friends Kagero and Orochi from Hoshido putting the strength of their bond on display at the wind festival. They appear in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=10|Lv1SPD=15|Lv1DEF=3|Lv1RES=4
+|GRHP=60|GRATK=85|GRSPD=70|GRDEF=40|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Dagger
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Dagger
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Dagger
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Brightwind Fans
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Unlock=4
+|special3=Lethality
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Death Blow 1
+|passiveA2=Swift Sparrow 1
+|passiveA3=Swift Sparrow 2
+|passiveA4=Remote Sparrow
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Disarm Trap 1
+|passiveB2=Disarm Trap 2
+|passiveB3=Disarm Trap 3
+|passiveB4=Disarm Trap 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=C Feud 1
+|passiveC2=C Feud 2
+|passiveC3=C Feud 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}[[Category:Sources of Special cooldown count modifications out of combat]][[Category:Sources of Mobility increased]][[Category:Sources of status effects]][[Category:Sources of Neutralize Bonuses]][[Category:Sources of bonus neutralization]]
+[[Category:Wind Festival units]]

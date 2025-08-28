@@ -1,0 +1,56 @@
+{{About|the Weapon|the Accessory|Golden Curse (Accessory)}}{{Weapon Infobox
+|tagid=SID_ヘイズ敵
+|intID=3691
+|image=wep_mg280
+|exclusive=1
+|weaponType=Green Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br>If a Rally Assist skill is used by unit or targets unit, inflicts Atk/Spd/Def/Res-4 and【Guard】 on foes in cardinal directions of unit and target through their next actions. If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit, deals damage = 15% of unit's Atk (excluding area-of-effect Specials), and reduces damage from foe's first attack by 30% during combat.<br><br>【Guard】<br>Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)
+|required=Rexcalibur
+|properties=random_owner,enemy_only
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerate Special}}
+|Se1={{Eft|Penalties|Atk/Spd/Def/Res|4}}
+|Se2={{SEt|Guard}}
+|SeT={{Tgt|Foes}} within<br>[[Cardinal directions]] of<br>{{Tgt|Unit}} & {{Tgt|Ally}}
+|SeC=A [[Rally Assist]]<br>is used on '''or'''<br>by {{Tgt|Unit}}
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce2={{Eft|Damage Boost|15% of {{Tgt|Unit}}'s Atk}}
+|Ce3={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s first attack
+|CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+==Notes==
+{{Penalties}}
+{{Guard}}
+* Golden Curse does not trigger if the unit receives a {{SEt|bonus}} indirectly from skills, such as from {{St|Rally Up Atk+}}.
+{{CardinalDirections}}
+{{IfUnitInitiates}}
+{{DamageBoost}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V7.7_v0707b_engage_Mag_2.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=黄金の蛇の呪い
+|german=Goldener Fluch
+|spanishEU=Maldición de oro
+|spanishLA=Maldición de oro
+|french=Malédiction dorée
+|italian=Maledizione d'oro
+|chineseTW=黃金蛇的詛咒
+|portuguese=Maldição áurea
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%skill%inflicts%cardinal%' OR Description LIKE '%deals damage = 15%of unit_s Atk%') AND (Exclusive=1 AND Name NOT LIKE '%+' AND Properties HOLDS NOT 'arcane')}}
+* [[Ruse Passives]]
+* [[Feint Passives]]
+{{Weapons Navbox}}

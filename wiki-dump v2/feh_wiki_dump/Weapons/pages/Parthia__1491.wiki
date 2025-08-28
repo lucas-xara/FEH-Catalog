@@ -1,0 +1,54 @@
+{{Weapon Infobox
+|tagid=SID_パルティア
+|weaponType=Bow
+|might=14
+|range=2
+|effectiveness=flying
+|effect=Effective against flying foes.<br>If unit initiates combat, grants Res+4 during combat.
+|cost=400
+|exclusive=1
+|userVersion1=Bow
+|userVersion2=Arrow
+|userVersion3=Upgrade Gleam
+|statModifiers=0,14,0,0,0
+|required=Silver Bow
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Effective against flying foes.<br>Reduces damage from magic foe's first attack by 30%.
+|effectSkill1=If foe uses bow, dagger, magic, or staff, grants Atk+6 during combat.
+|iconSkill1=Parthia W.png
+|tagidExtraSkill1=遠
+|properties=random_owner
+}}
+==Notes==
+* Has the same effect as {{St|Warding Blow 2}}.
+{{Effective damage bonus|flying}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{DamagePercentageReduction|name=Refined Parthia}}
+{{TermRefersTo|Magic}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|対遠距離戦闘R攻撃|Against Distant Combat (Attack)}}
+==In other languages==
+{{OtherLanguages
+|japanese=パルティア
+|german=Parthia
+|spanishEU=Parthia
+|spanishLA=Parthia
+|french=Parthia
+|italian=Parthia
+|chineseTW=帕提亞
+|portuguese=Parthia
+}}
+==See also==
+* [[Brynhildr]]
+* [[Divine Tyrfing]]
+* [[Thani]]
+{{Weapons Navbox}}

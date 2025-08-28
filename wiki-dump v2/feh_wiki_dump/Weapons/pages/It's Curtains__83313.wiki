@@ -1,0 +1,37 @@
+{{Weapon Infobox
+|tagid=SID_のれん
+|weaponType=Lance
+|might=10
+|range=1
+|effect=At the start of turn 1, grants Special cooldown count-2.
+|cost=200
+|exclusive=0
+|canUseMove=
+|statModifiers=0,10,0,0,0
+|next=It's Curtains...+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Lance
+|properties=
+}}
+==Notes==
+{{Start of turn Special modification}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=のれん
+|german=Vorhang
+|spanishEU=Cortina
+|spanishLA=Cortina
+|french=Rideau
+|italian=Sipario
+|chineseTW=門簾
+|portuguese=Cortina
+}}
+==References==
+<references/>
+==See also==
+* [[Ouch Pouch]]([[Ouch Pouch+|+]])
+* [[Scarlet Sword]]
+{{Weapons Navbox}}

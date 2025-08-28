@@ -1,0 +1,52 @@
+{{Passive
+|name=Mounting Fear
+|type=B
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Mounting Fear
+|1tagid=SID_恐山の妖術
+|1effect=At start of turn, inflicts【Panic】,【Exposure】, and【Deep Wounds】on foes with Res < unit's Res and that are within 2 spaces of another foe through their next actions.<br><br>Inflicts Atk/Res-5 on foe, deals damage = 20% of unit's Res (excluding area-of-effect Specials), and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials), and also, for unit's first attack during combat, if damage dealt prior to damage reduction calculation < foe's HP - 1, sets damage before damage reduction as foe's HP - 1 (excluding area-of-effect Specials; excluding certain foes, such as Røkkr).<br><br>【Panic】<br>Converts bonuses on target into penalties through its next action.<br><br>【Exposure】<br>Foe's attacks deal +10 damage.<br><br>【Deep Wounds】<br>Unit's HP cannot be healed through its next action.
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{SEt|Panic}}
+|Se2={{SEt|Exposure}}
+|Se3={{SEt|Deep Wounds}}
+|SeT={{Tgt|Foes}}<br>[[within 2 spaces]]<br>of other {{Tgt|Foes}}
+|SeC=At start of turn<br>if {{Tgt|Foe}}'s Res<br>< {{Tgt|Unit}}'s Res
+|Ce1={{Eft|Temporary debuffs|Atk/Res|5}}
+|Ce2={{Eft|Reduce Damage Reduction|50%}}
+|Ce1-2T={{Tgt|Foe}}
+|Ce3={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Res}}
+|Ce4={{Efi|Damage Boost}} Sets damage dealt to X<br>X = {{Tgt|Foe}}'s Max HP -1<br>(excluding Røkkr {{Tgt|Foes}})<br>on {{Tgt|Unit}}'s first attack
+|Ce4C=Damage dealt<br>before reductions<br>< {{Tgt|Foe}}'s HP - 1
+}}
+==Notes==
+{{Panic}}
+{{Exposure}}
+{{Deep Wounds}}
+{{Temporary debuffs}}
+{{DamageBoost}}
+{{Reduce Damage Reduction}}
+{{FlatDamage|(foe's HP - 1)}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%foes that are within _ spaces of another foe%' OR Description LIKE '%sets damage before damage reduction as foe_s HP - 1%') AND Exclusive='1'}}
+* [[Skill families/B Passives#Discord|Discord Passives]]
+{{Passives Navbox|B}}

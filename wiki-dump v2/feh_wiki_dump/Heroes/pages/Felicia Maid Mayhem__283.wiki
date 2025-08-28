@@ -1,0 +1,73 @@
+{{#invoke:NameAbout|main|Name=Felicia}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Felicia
+|Title=Maid Mayhem
+|GrowthModifier=None
+|WeaponType=Colorless Dagger
+|Origin=Fire Emblem Fates
+|Gender=Female
+|MoveType=Infantry
+|actorEN=Connor Kelley
+|actorJP=ささきのぞみ
+|artist=羽公
+|releaseDate=February 2, 2017
+|poolDate=February 2, 2017
+|randomStartTime=2017-02-02T07:00:00Z
+|poolRarities=3,4
+|TagID=フェリシア
+|InternalID=69
+|Properties=tiara
+|cv1=11
+|cv2=100500
+|description=A maid of Nohr who's eager to do good work yet often bungles. One of Corrin's retainers. Appears in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=15|Lv1ATK=6|Lv1SPD=11|Lv1DEF=3|Lv1RES=9
+|GRHP=45|GRATK=40|GRSPD=60|GRDEF=35|GRRES=60
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Dagger
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Dagger
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Dagger
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Silver Dagger+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Felicia's Plate
+|weapon5Default=
+|weapon5Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Glacies
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Resistance +1
+|passiveA2=Resistance +2
+|passiveA3=Resistance +3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Breath of Life 1
+|passiveC2=Breath of Life 2
+|passiveC3=Breath of Life 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

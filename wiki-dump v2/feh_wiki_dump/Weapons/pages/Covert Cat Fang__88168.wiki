@@ -1,0 +1,52 @@
+{{Weapon Infobox
+|tagid=SID_柔なる戦猫の爪牙
+|weaponType=Beast
+|might=14
+|range=1
+|effect=Grants Def+3. If unit is within 2 spaces of an ally, grants Atk/Def+3 to unit and allies within 2 spaces of unit during combat. At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack.
+|cost=400
+|exclusive=1
+|canUseMove=Cavalry
+|statModifiers=0,14,0,3,0
+|required=Adult (Cavalry)
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Def+3. If unit initiates combat or is within 3 spaces of an ally, grants Atk/Spd/Def/Res+4 to unit during combat. Grants Atk/Def+4 to allies within 3 spaces during combat.<br><br>At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack.
+|upgradedEffect2=Grants Def+3. If unit initiates combat or is within 3 spaces of an ally, grants Atk/Spd/Def/Res+4 to unit during combat. Grants Atk/Def+4 to allies within 3 spaces during combat. At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 to unit, inflicts Atk/Def-X on foe during combat (X = number of spaces from start position to end position of whoever initiated combat + 3; max 6), and also, if X ≥ 5, reduces damage from foe's first attack by 30% during combat.
+|tagidExtraSkill1=一
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit during combat, neutralizes effects that prevent unit's follow-up attacks, and deals damage = number of allies within 3 spaces × 5. (Excluding area-of-effect Specials; max 15.)
+|iconSkill1=Covert Cat Fang W.png
+|properties=random_owner
+}}
+==Notes==
+{{Temporary buffs}}
+{{AlliesCombatEffect|effect=temporary buffs}}
+{{Beast (Cavalry)}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfUnitInitiates}}
+{{Follow-up effect neutralization|preventOnly=1|name={{St|Covert Cat Fang|refine=skill1}}}}
+{{DamageBoost|name={{St|Covert Cat Fang|refine=skill1}}}}
+{{Beast (Cavalry) Upgrade}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=柔なる戦猫の爪牙
+|german=Listige Pranke
+|spanishEU=Garra afable
+|spanishLA=Colmillo afable
+|french=Croc calme
+|italian=Zanna di gatto
+|chineseTW=溫和戰貓的爪牙
+|portuguese=Presa discreta
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%grants%/%+%to allies within _ spaces%if unit is within _ spaces of an ally%grants%/%+%during combat%' OR Description LIKE '%if unit is within _ spaces of an ally%grants%/%+%to unit and allies%during combat%') AND WikiName NOT LIKE '%allied%' OR Description LIKE '%deals damage = number of allies within _ spaces%'}}
+* [[Skill families#Allied|Allied Weapons]]
+* [[Joint Drive Passives]]
+{{Weapons Navbox}}

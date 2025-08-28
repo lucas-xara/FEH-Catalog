@@ -1,0 +1,33 @@
+{{Special
+|tagid=SID_英雄の血脈
+|charge=2
+|effect=Boosts damage by 30% of unit's Spd. Grants Atk/Spd/Def/Res+4 to unit and all allies for 1 turn after combat. (Bonus granted to allies even if unit's HP reaches 0.)
+|cost=500
+|exclusive=1
+|required=Draconic Aura
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_owner,offensive_special
+}}
+==Notes==
+{{DamageBoost}}
+{{Bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V4.4 200402 30th Skl.webp|Sprite sheet for Hero's Blood's animation.</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=英雄の血脈
+|german=Heldenblut
+|spanishEU=Sangre heroica
+|spanishLA=Sangre heroica
+|french=Sang héroïque
+|italian=Sangue eroico
+|chineseTW=英雄的血脈
+|portuguese=Sangue heroico
+}}
+==See also==
+{{See also skills|cond=SCategory='special' AND Exclusive='1' AND Description LIKE '%Boosts%damage by __% of unit_s Spd%'|columns=3}}
+{{Specials Navbox}}

@@ -1,0 +1,38 @@
+{{Weapon Infobox
+|tagid=SID_貝殻の槍
+|weaponType=Lance
+|weaponName={{PAGENAME}}
+|might=10
+|range=1
+|effectiveness=
+|effect=If unit initiates combat, grants Atk/Spd/Def/Res+2 during combat. 
+|cost=200
+|exclusive=0
+|userVersion1=Weapon
+|statModifiers=0,10,0,0,0
+|next=Shell Lance+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Lance
+|properties=
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Combat boosts}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=貝殻の槍
+|german=Muschellanze
+|spanishEU=Lanza caracola
+|spanishLA=Lanza caracola
+|french=Lance coquillage
+|italian=Lancia conchiglia
+|chineseTW=貝殼之槍
+|portuguese=Lança marinha
+}}
+==See also==
+* [[Summer's Arrival Weapons]]
+{{Weapons Navbox}}
+[[Category:Summer's Arrival weapons]]

@@ -1,0 +1,42 @@
+{{Weapon Infobox
+|tagid=SID_黒兎の槍
+|intID=3509
+|image=wep_lc140
+|exclusive=0
+|weaponType=Lance
+|cost=200
+|might=10
+|range=1
+|effect=At start of combat, if unit's HP ≥ 25%, grants Atk/Def+5 during combat and reduces damage from foe's first attack by 40%.
+|statModifiers=0,10,0,0,0
+|required=Steel Lance
+|next=Hare's Lance+
+|promotionRarity=5
+|promotionTier=1
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{SkillEffectText|Temporary buffs|Atk/Def|5}}
+|CombatEffect 2={{SkillEffectText|Damage Reduction|40%}}<br>from {{SkillTargetText|Foe}}'s first attack
+|CombatEffect Conditions={{SkillTargetText|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{Temporary buffs}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=黒兎の槍
+|german=Hasenlanze
+|spanishEU=Lanza leporina
+|spanishLA=Lanza leporina
+|french=Lance de lièvre
+|italian=Lancia leporina
+|chineseTW=黑兔之槍
+|portuguese=Lança leporina
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit_s HP ≥ 25%grants Atk/%+%during combat and reduces damage from foe_s first attack%' AND Exclusive='1'}}
+{{Weapons Navbox}}

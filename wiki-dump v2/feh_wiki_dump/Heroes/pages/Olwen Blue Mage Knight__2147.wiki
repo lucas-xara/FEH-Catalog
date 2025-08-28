@@ -1,0 +1,71 @@
+{{#invoke:NameAbout|main|Name=Olwen}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Olwen
+|Title=Blue Mage Knight
+|WeaponType=Blue Tome
+|GrowthModifier= None
+|Origin=Fire Emblem: Thracia 776 
+|Gender=Female
+|MoveType=Cavalry 
+|actorEN=Erin Fitzgerald 
+|actorJP=高橋美佳子
+|artist=cuboon
+|releaseDate=February 27, 2017
+|poolDate=March 14, 2017
+|randomStartTime=2017-03-16T07:00:00Z
+|poolRarities=5
+|TagID=オルエン
+|InternalID=106
+|cv1=4
+|cv2=1100200
+|description=A mage knight in Friege's army. Her ideals sometimes put her in opposition with her beloved brother, Reinhardt. Appears in Fire Emblem: Thracia 776.
+|Properties=specRate_201904,resplendent,askr
+|resplendentArtist=ekao
+|resplendentActorEN=Tara Sands
+|resplendentStartTime=2020-08-10T07:00:00Z
+|resplendentEndTime=2020-08-25T06:59:59Z
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=7|Lv1SPD=8|Lv1DEF=5|Lv1RES=6
+|GRHP=40|GRATK=45|GRSPD=60|GRDEF=35|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Thunder
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elthunder
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Thoron
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Dire Thunder
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Reposition
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Warding Blow 1
+|passiveA2=Warding Blow 2
+|passiveA3=Warding Blow 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Spur Res 1
+|passiveC2=Spur Res 2
+|passiveC3=Ward Cavalry
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

@@ -1,0 +1,55 @@
+{{Weapon Infobox
+|tagid=SID_青獅子の聖夜の斧
+|intID=3911
+|image=wep_ax143
+|exclusive=1
+|weaponType=Axe
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Enables【Canto (２)】.<br><br>Accelerates Special trigger (cooldown count-1). At start of turn, if unit's HP ≥ 25%, grants Atk/Spd+6 and【Null Follow-Up】to unit for 1 turn. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+X to unit (X = 5 + 15% of unit's Spd at start of combat) and grants Special cooldown count-Y to unit before unit's first attack during combat (Y = number of spaces from start position to end position of whoever initiated combat, max 3; if number of【Bonus】effects active on unit, excluding stat bonuses, ≥ 4, then the value is treated as 3), and restores 7 HP to unit after combat.<br><br>【Canto (２)】<br>After an attack, Assist skill, or structure destruction, unit can move ２ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)<br><br>【Null Follow-Up】<br>If unit's Spd > foe's Spd during combat, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks for 1 turn.<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|required=Silver Axe
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|PermanentEffect={{Eft|Accelerates Special}}
+|MapEffect 1={{Eft|Canto|2}}
+|MapEffect 2={{Eft|Healing|7}}
+|MapEffect 2 Conditions=After combat if<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|StatusEffect 1={{Eft|Bonuses|Atk/Spd|6}}
+|StatusEffect 2={{SEt|Null Follow-Up}}
+|StatusEffect Conditions=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25%
+|CombatEffect 1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5 + 15% of {{Tgt|Unit}}'s Spd<br>at start of combat}}
+|CombatEffect 2={{Eft|Reduce Cooldown|max=3*|Spaces initiator moved}}<br>before {{Tgt|Unit}}'s first attack
+|CombatEffect Conditions={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+<b>{{Hatnote|* If number of {{Kp|Bonus}} effects active on {{Tgt|Unit}}<br>(excluding {{SEt|Bonuses}}) ≥ 4 value is treated as max.}}</b>
+
+==Notes==
+{{Canto|2}}
+{{Bonuses}}
+{{Null Follow-Up}}
+{{Temporary buffs}}
+{{At start of combat}}
+{{CombatCooldownCount|-X (max: 3)}}
+{{SpacesFromStarttoEnd}}
+{{EffectfromBonus|reduce special cooldown before unit's first attack|nonStat=1}}
+{{After combat healing}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=青獅子の聖夜の斧
+|german=Festliche Axt
+|spanishEU=Hacha invernal
+|spanishLA=Hacha invernal
+|french=Hache des fêtes
+|italian=Ascia festiva
+|chineseTW=青獅子的聖夜之斧
+|portuguese=Machado festivo
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%of unit_s Spd at start of combat%' OR Description LIKE '%before unit_s first attack%special cooldown count-%' OR Description LIKE '%special cooldown count-%before unit_s first attack%') AND Exclusive='1'}}
+{{Weapons Navbox}}

@@ -1,0 +1,50 @@
+{{Special
+|tagid=SID_永遠を生きる…・承
+|intID=4520
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=5
+|effect=At the start of turn 1, grants Special cooldown count-5 to unit.<br><br>When Special triggers, if unit's HP > 1 and foe would reduce unit's HP to 0, unit survives with 1 HP.<br><br>Reduces damage from foe's first attack by 40% during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and unit's next attack deals damage = total damage reduced from foe's first attack (by any source, including other skills; resets at end of combat).<br><br>After combat, if unit's Special triggered, restores 99 HP (neutralizes the effects of【Deep Wounds】and will not trigger again for 2 turns after triggering).<br><br>【Deep Wounds】<br>Unit's HP cannot be healed through its next action.
+|required=Life Unending
+|properties=defensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Reduce Cooldown|5}}
+|Me1C=At start of turn 1
+|Me2={{Eft|Heal|99}}
+|Me3={{Eft|Neutralize Deep Wounds}}
+|Me2-3C=After combat if<br>Special triggered<br>(2 turn cooldown)
+|Ce1={{Eft|Miracle}}
+|Ce1C=Special triggers<br>'''&''' {{Tgt|Unit}}'s HP > 1
+|Ce2={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce3={{Eft|Damage Boost|total damage reduced<br>from {{Tgt|Foe}}'s first attack<br>for {{Tgt|Unit}}'s next attack<br>(including other sources)}}
+}}
+
+==Notes==
+{{Start of turn Special modification}}
+{{DefensiveSkill}}
+{{Survive with 1 HP}}
+{{After combat healing}}
+{{Deep Wounds Neutralization|after=1}}
+{{DamageBoostFromDamageReduction|special=1}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%unit survives with 1 HP%' AND Description NOT LIKE '%neutralize%non-Special%unit survives with 1 HP%' OR (Description LIKE '%At the start of turn 1, grants Special cooldown count-_%' AND SCategory='special')}}
+{{Specials Navbox}}

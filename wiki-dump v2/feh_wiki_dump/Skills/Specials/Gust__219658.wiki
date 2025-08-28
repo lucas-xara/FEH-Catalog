@@ -1,0 +1,44 @@
+{{Special
+|tagid=SID_陣風
+|intID=4246
+|exclusive=0
+|canUseWeapon={{WeaponList|Melee}}
+|canUseMove={{MoveList|Infantry}}
+|cost=500
+|cooldown=3
+|effect=Boosts Special damage by 50% of unit's Spd when Special triggers.<br><br>If unit's or foe's Special is ready or if unit's or foe's Special triggered before or during this combat, and if unit's Spd ≥ foe's Spd-4, reduces damage from foe's next attack during combat by 40% (once per combat; excluding area-of-effect Specials).
+|required=Glimmer
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Damage Boost|50% of {{Tgt|Unit}}'s Spd}}
+|Ce1C=Special triggers
+|Ce2={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s next attack
+|Ce2C=({{Tgt|Unit}} or {{Tgt|Foe}}'s<br>Special is ready '''or'''<br>triggered before or<br>during combat) '''&'''<br>{{Tgt|Unit}}'s Spd ≥<br>{{Tgt|Foe}}'s Spd -4
+}}
+==Notes==
+{{DamageBoost}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=陣風
+|german=Windstoß
+|spanishEU=Ventarrón
+|spanishLA=Centelleo
+|french=Bourrasque
+|italian=Raffica di luce
+|chineseTW=陣風
+|portuguese=Lufada
+}}
+==See also==
+{{See also skills|cond=((SCategory='special' AND (Description LIKE '%of unit_s Spd%' OR Description LIKE '%reduces damage from foe_s next attack%')) OR (Description LIKE '%special is ready%' OR Description LIKE '%special%triggered before or during%')) AND (Exclusive=1 AND Name NOT LIKE '%+' AND Properties HOLDS NOT 'arcane')}}
+{{Specials Navbox}}

@@ -1,0 +1,57 @@
+{{Weapon Infobox
+|tagid=SID_ロヴンヘイズ
+|weaponName=Lofnheiðr
+|image=wep_ax079
+|weaponType=Axe
+|might=16
+|range=1
+|effect=Grants Atk+3. Enables【Canto (３)】during turns 1 through 4. If unit initiates combat or is within 2 spaces of an ally, grants Atk+6 to unit during combat, inflicts Atk-6 on foe during combat, and foe cannot make a follow-up attack.<br><br>【Canto (３)】<br>After an attack, Assist skill, or structure destruction, unit can move ３ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|cost=400
+|exclusive=1
+|statModifiers=0,19,0,0,0
+|required=Silver Axe
+|intID=2335
+|sort=475
+|value=20
+|timingID=1
+|abilityID=127
+|limit1ID=58
+|randomTimestamp=2021-01-08T07:00:00Z
+|randomMinLv=31
+|properties=random_owner,enemy_only
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Stat Boosts|Atk|3}}
+|Me={{Eft|Canto|3}}
+|MeC=On turns 1 - 4
+|Ce1={{Eft|Temporary buffs|Atk|6}}
+|Ce2={{Eft|Temporary debuffs|Atk|6}}
+|Ce3={{Eft|Prevent Follow-Up}}
+|Ce2-3T={{Tgt|Foe}}
+|CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+==Notes==
+{{Canto|3}}
+{{Temporary buffs}}
+{{Temporary debuffs}}
+{{Prevent follow-up}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{NorseMyth|is a dwarf who was a daughter of the dwarf king [[Hreiðmarr]], and a sister of [[Reginn]], [[Ótr]], [[Fáfnir]], and [[Lyngheiðr]].}}
+==In other languages==
+{{OtherLanguages
+|english=Lofnheiðr
+|japanese=ロヴンヘイズ
+|german=Lofnheiðr
+|spanishEU=Lofnheiðr
+|spanishLA=Lofnheiðr
+|french=Lofnheiðr
+|italian=Lofnheiðr
+|chineseTW=洛芬赫茲
+|portuguese=Lofnheiðr
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【Canto (３)】%' OR Description LIKE '%Canto%during turns 1 through 4%' OR Description LIKE '%grants Atk+%to unit%inflicts Atk-%on foe%' OR Description LIKE '%unit initiates combat or%cannot make a follow-up attack%'|columns=3}}
+{{Weapons Navbox}}

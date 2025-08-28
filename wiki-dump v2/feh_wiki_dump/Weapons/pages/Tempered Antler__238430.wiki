@@ -1,0 +1,70 @@
+{{Weapon Infobox
+|tagid=SID_心身の鍛錬の角
+|intID=4865
+|noImg=1
+|exclusive=1
+|weaponType=Beast
+|canUseMove=Armored
+|cost=400
+|might=14
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>Foes with Range = 1 cannot warp into spaces within 3 spaces of unit, and foes with Range = 2 cannot warp into spaces within 4 spaces of unit (in either case, does not affect foes with Pass skills or warp effects from structures, like camps and fortresses in Rival Domains).<br><br>At start of player phase or enemy phase, if unit is within 2 spaces of an ally, grants Atk/Def+6, 【Fringe Bonus】, "neutralizes foe's bonuses during combat," and【Null Panic】to unit and allies within 2 spaces of unit for 1 turn.<br><br>If unit is within 2 spaces of an ally, and if unit or allies within 2 spaces of unit have bonuses to Atk/Spd/Def/Res after start-of-turn skills trigger, or, if defending in Aether Raids, after start-of-turn skills trigger at the start of turn 1 of enemy phase, grants an additional +3 to each corresponding stat for unit and those allies for 1 turn (calculates each stat bonus independently; max 10).<br><br>If unit is within 3 spaces of an ally, grants bonus to unit's Atk/Def/Res = 20% of unit's Def at start of combat + 5, unit deals +X damage (excluding area-of-effect Specials), reduces damage from foe's attacks by 50% of X during combat (excluding area-of-effect Specials), and reduces damage from foe's Specials by an additional 50% of X during combat (excluding area-of-effect Specials; X = highest total bonuses among unit and allies within 3 spaces of unit).<br><br>At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and unit can counterattack regardless of foe's range.<br><br>【Fringe Bonus】<br>Grants bonus to Atk/Spd/Def/Res during combat = highest bonus on each stat between unit and allies within 2 spaces of unit for 1 turn. Calculates each stat bonus independently.<br><br>【Null Panic】<br>If unit is inflicted with Panic (bonuses converted into penalties), neutralizes the "converts bonuses on target into penalties" effect for 1 turn.
+|required=Adult (Armored)
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe1={{Eft|Accelerates Special}}
+|Pe2={{Eft|Stat Boosts|Atk|2}}
+|PeC2={{Tgt|Unit}} is transformed
+|Me1={{Eft|Transform}}
+|Me1C=At start of turn if<br>{{Tgt|Unit}} is [[adjacent]] to only<br>{{Cwti|group=1|Dragon,Beast}} [[Dragon]]/[[Beast]]<br>{{Tgt|Allies}} '''or''' not [[adjacent]]<br>to any {{Tgt|Ally}}
+|Me2={{Eft|Prevent Warp|[[within 3 spaces]] of {{Tgt|Unit}}}}
+|Me2T=[[Range = 1]]<br>{{Tgt|Foes}}
+|Me3={{Eft|Prevent Warp|[[within 4 spaces]] of {{Tgt|Unit}}}}
+|Me3T=[[Range = 2]]<br>{{Tgt|Foes}}
+|Se1={{Eft|Bonuses|Atk/Def|6}}
+|Se2={{SEt|Fringe Bonus}}
+|Se3={{SEt|Neutralize Bonuses}}
+|Se4={{SEt|Null Panic}}
+|Se1-4C=At start of Both Phases<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Se5={{Eft|Bonuses|Atk/Spd/Def/Res|max=10|+3 to highest<br>{{SEt|Bonus}} on each stat}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|Se5C=(After start-of-turn<br>skills trigger on<br>Player Phase '''or''' Enemy<br>turn 1 if defending<br>in [[Aether Raids]]) if<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce1={{Eft|Temporary buffs|Atk/Def/Res|20% of {{Tgt|Unit}}'s Def<br>at start of combat, + 5}}
+|Ce2={{Eft|Damage Boost|highest total {{SEt|Bonuses}}<br>on {{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 3 spaces]]}}
+|Ce3={{Eft|Damage Reduction|percent=0|50% of highest total {{SEt|Bonuses}}<br>on {{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 3 spaces]]}}<br>from {{Tgt|Foe}}'s attacks
+|Ce4={{Eft|Damage Reduction|percent=0|50% of highest total {{SEt|Bonuses}}<br>on {{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 3 spaces]]}} per<br>{{Tgt|Foe}}'s [[offensive Special]]
+|Ce1-4C=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|Ce5={{Eft|Distant Counter}}
+|Ce5C={{Tgt|Unit}} is transformed
+}}
+
+==Notes==
+{{Obstruct notes|preventWarp=1}}
+{{Bonuses}}
+{{Fringe Bonus}}
+{{Neutralize Bonuses}}
+{{Null Panic}}
+{{Temporary buffs}}
+{{At start of combat}}
+{{FlatDamageBoost}}
+{{FlatDamageReduction}}
+{{Beast (Armored)}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%highest total bonuses%unit and allies within _ spaces%') AND Exclusive='1'}}
+{{Weapons Navbox}}

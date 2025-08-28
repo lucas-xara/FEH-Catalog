@@ -1,0 +1,102 @@
+{{Passive
+|name=Flared Mirror
+|type=A
+|exclusive=0
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|Cavalry,Flying}}
+|properties=random_owner
+|1name=Flared Mirror
+|1tagid=SID_鬼神明鏡の炎撃3
+|1effect=If unit initiates combat, deals 7 damage to foe as combat begins (effects that reduce damage during combat do not apply; will not reduce foe's HP below 1), grants Atk+7, Res+10 to unit during combat, and applies 【Divine Vein (Flame)】on 5 spaces in a line centered on foe's space (oriented left to right based on the direction unit is facing) for 1 turn after combat.<br><br>【Divine Vein (Flame)】<br>Applies the following effects on space: Acts as difficult terrain for foes with Range = 2 (moving over this space costs +1 movement; does not apply to "cannot be slowed by terrain" effects; movement cost cannot exceed unit's allowed movement). At start of enemy phase, deals 7 damage to foe, and also, as combat begins, deals an additional 7 damage to foe (effects that reduce damage "during combat" do not apply; will not reduce foe's HP below 1). (Divine Vein effects do not stack; replaces any existing Divine Vein effect; Divine Vein effects applied simultaneously cancel each other out.)
+|1cost=300
+|1required=Mirror Strike 2
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{Eft|Damage|7}}<br>as combat begins
+|CombatEffect 1 Targets={{Tgt|Foe}}
+|CombatEffect 2={{Eft|Temporary buffs|Atk|7}}, {{Eft|Temporary buffs|Res|10}}
+|CombatEffect Conditions=Player Phase
+|MapEffect={{Eft|Divine Vein (Flame)}}
+|MapEffect Targets=A 5 space line<br>centered on {{Tgt|Target Foe}}
+|MapEffect Conditions=After combat<br>in Player Phase
+}}
+
+==Notes==
+{{IfUnitInitiates}}
+{{CombatDamage|7}}
+{{Temporary buffs}}
+{{Divine Vein|Flame}}
+{{After combat note}}
+{| class="wikitable default mw-collapsible"
+!colspan=2 style="text-align:center;max-width:450px;margin:auto;" align="middle"|Examples of {{Eft|Divine Vein (Flame)}}'s<br>area-of-effect
+|-
+!Horizontal 
+|{{AoE|u=Sanaki: Dawnsworn Ninja|t=Ashera: Order Goddess
+|-------
+|-xxtxx-
+|-------
+|---u---
+|-------
+|-------
+|-------
+}}
+|-
+!Vertical
+|{{AoE|u=Sanaki: Dawnsworn Ninja|t=Ashera: Order Goddess
+|-------
+|-x-----
+|-x-----
+|-t-u---
+|-x-----
+|-x-----
+|-------
+}}
+|-
+!Diagonal Left
+|{{AoE|u=Sanaki: Dawnsworn Ninja|t=Ashera: Order Goddess
+|-------
+|-------
+|x------
+|-x-u---
+|--t----
+|---x---
+|----x--
+}}
+|-
+!Diagonal Right
+|{{AoE|u=Sanaki: Dawnsworn Ninja|t=Ashera: Order Goddess
+|-------
+|-------
+|------x
+|---u-x-
+|----t--
+|---x---
+|--x----
+}}
+|}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=鬼神明鏡の炎撃
+|german=Feuerspiegel
+|spanishEU=Espejo fogoso
+|spanishLA=Espejo fogoso
+|french=Miroir en feu
+|italian=Specchio ardente
+|chineseTW=鬼神明鏡炎擊
+|portuguese=Espelho coriscad.
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Divine Vein (Flame)】%' OR Description LIKE '%deals%damage%combat begins%') AND Exclusive='1'}}
+* [[Flare Passives]]
+* [[Strike Passives]]
+{{Passives Navbox|A}}
+[[Category:Flare Passives]]
+[[Category:Blow Passives]]

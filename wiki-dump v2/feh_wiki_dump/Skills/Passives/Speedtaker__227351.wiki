@@ -1,0 +1,80 @@
+{{Passive
+|name=Speedtaker
+|type=B
+|exclusive=0
+|canUseWeapon={{WeaponList|Physical}}
+|canUseMove={{MoveList|Infantry,Flying}}
+|properties=random_owner
+|1name=Speedtaker 1
+|1tagid=SID_速さの吸収1
+|1effect=At start of turn, grants Spd【Great Talent】+1 to unit.<br><br>After combat, if unit attacked, grants Spd【Great Talent】+1 to unit.<br><br>Deals damage = 5% of unit's Spd during combat (excluding area-of-effect Specials).<br><br>(This skill grants max of【Great Talent】+5.)<br><br>【Great Talent】<br>Adds value of Great Talent (+X) to specified stats (until end of battle; max value of X is determined by the stat reaching the limit of 99, each stat calculated separately and cannot exceed max value for each skill; stat increases are not treated as Bonus effects).
+|1cost=60
+|1required=-
+|1promotionTier=1
+|1promotionRarity=4
+|2name=Speedtaker 2
+|2tagid=SID_速さの吸収2
+|2effect=At start of turn, grants Spd【Great Talent】+1 to unit.<br><br>After combat, if unit attacked, grants Spd【Great Talent】+2 to unit.<br><br>Deals damage = 10% of unit's Spd during combat (excluding area-of-effect Specials).<br><br>(This skill grants max of【Great Talent】+10.)<br><br>【Great Talent】<br>Adds value of Great Talent (+X) to specified stats (until end of battle; max value of X is determined by the stat reaching the limit of 99, each stat calculated separately and cannot exceed max value for each skill; stat increases are not treated as Bonus effects).
+|2cost=120
+|2promotionTier=1
+|2promotionRarity=5
+|3name=Speedtaker 3
+|3tagid=SID_速さの吸収3
+|3effect=At start of turn, grants Spd【Great Talent】+1 to unit.<br><br>After combat, if unit attacked, grants Spd【Great Talent】+3 to unit.<br><br>Deals damage = 15% of unit's Spd during combat (excluding area-of-effect Specials).<br><br>(This skill grants max of【Great Talent】+15.)<br><br>【Great Talent】<br>Adds value of Great Talent (+X) to specified stats (until end of battle; max value of X is determined by the stat reaching the limit of 99, each stat calculated separately and cannot exceed max value for each skill; stat increases are not treated as Bonus effects).
+|3cost=240
+|3next=-
+|4name=Speedtaker 4
+|4tagid=SID_速さの吸収4
+|4effect=At start of turn, grants Spd【Great Talent】+1 to unit.<br><br>After combat, if unit attacked, grants Spd【Great Talent】+4 to unit.<br><br>Inflicts Spd/Def-4 on foe, unit deals damage = 20% of unit's Spd (excluding area-of-effect Specials), neutralizes unit's penalties to Spd, and neutralizes effects that inflict "Special cooldown charge -X" on unit during combat.<br><br>(This skill grants max of【Great Talent】+20.)<br><br>【Great Talent】<br>Adds value of Great Talent (+X) to specified stats (until end of battle; max value of X is determined by the stat reaching the limit of 99, each stat calculated separately and cannot exceed max value for each skill; stat increases are not treated as Bonus effects).
+|4cost=300
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Speedtaker 3}} Speedtaker 3
+|s1 Pe1={{Eft|Great Talent|Spd|1|max=15}}
+|s1 Pe1C=At start of turn
+|s1 Pe2={{Eft|Great Talent|Spd|3|max=15}}
+|s1 Pe2C=After combat if<br>{{Tgt|Unit}} attacked
+|s1 Ce={{Eft|Damage Boost|15% of {{Tgt|Unit}}'s Spd}}
+|skill2={{Si|Speedtaker 4}} Speedtaker 4
+|s2 Pe1={{Eft|Great Talent|Spd|1|max=20}}
+|s2 Pe1C=At start of turn
+|s2 Pe2={{Eft|Great Talent|Spd|4|max=20}}
+|s2 Pe2C=After combat if<br>{{Tgt|Unit}} attacked
+|s2 Ce1={{Eft|Temporary debuffs|Spd/Def|4}}
+|s2 Ce1T={{Tgt|Foe}}
+|s2 Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|s2 Ce3={{Eft|Neutralize Penalties|Spd}}
+|s2 Ce4={{Eft|Neutralize Guard}}
+}}
+
+==Notes==
+{{Great Talent}}
+{{IfUnitAttacked}}
+{{DamageBoost}}
+{{Temporary debuffs|name=Speedtaker 4}}
+{{Penalty neutralization|name=Speedtaker 4}}
+{{CooldownChargeMinusNeutralization|name=Speedtaker 4}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=速さの吸収
+|german=Ges.-Dieb
+|spanishEU=Ejecución veloz
+|spanishLA= Ejecución veloz
+|french= Vole-Vitesse
+|italian= Suggivelocità
+|chineseTW=速度吸收
+|portuguese=Drena-rapidez
+}}
+
+==See also==
+{{See also skills|cond=(Description LIKE '%【Great Talent】%') AND Exclusive='1'}}
+{{Passives Navbox|B}}

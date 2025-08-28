@@ -1,0 +1,45 @@
+{{Weapon Infobox
+|tagid=SID_仄暗き邪痕の燭台
+|weaponName=Fell Candelabra
+|weaponType=Red Tome
+|might=14
+|range=2
+|effect=Grants Atk+3. At start of turn, if any foes have the highest Atk, Spd, Def, or Res on the enemy team, inflicts -6 on those foes' corresponding stat through their next action.
+|cost=400
+|exclusive=1
+|statModifiers=0,17,0,0,0
+|required=Bolganone;Fenrir
+|intID=2401
+|sort=494
+|value=20
+|timingID=8
+|abilityID=256
+|properties=
+}}
+==Notes==
+{{Penalties}}
+{{SelectStat|Atk, Spd, Def or Res}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+Weapon Fell Candelabra.png|Phase 1
+Weapon Fell Candelabra V2.png|Phase 2
+Weapon Fell Candelabra V3.png|Phase 3
+Wep mg049.webp|Sprite sheet use to animate Fell Candelabra
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=仄暗き邪痕の燭台
+|german=Dämonenleuchter
+|spanishEU=Candelabro caído
+|spanishLA=Candelabro caído
+|french=Candélabre déchu
+|italian=Candele maligne
+|chineseTW=幽暗邪痕的燭台
+|portuguese=Castiçal terrível
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%at start of turn, if any foes%highest%inflicts%through their next action%' OR Description LIKE '%at start of turn,%inflicts%lowest%' OR Description LIKE '%at start of turn%inflicts%highest%through%next action%') AND Exclusive='1'}}
+* [[Chill Passives]]
+{{Weapons Navbox}}

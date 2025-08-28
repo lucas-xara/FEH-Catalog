@@ -1,0 +1,43 @@
+{{Weapon Infobox
+|tagid=SID_メグスラシル
+|weaponType=Red Tome
+|might=8
+|range=2
+|effect=Inflicts Spd-2. If unit initiates combat, unit attacks twice.
+|cost=400
+|exclusive=1
+|userVersion1=
+|userVersion2=
+|userVersion3=
+|userVersion4=
+|statModifiers=0,8,-2,0,0
+|required=Bolganone
+|properties=
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Brave weapon interaction}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V3.9 91 dance02 Mag.webp|Spritesheet for {{St|Silver Goblet+}}, {{St|Vafþrúðnir}}, and {{PAGENAME}}'s animations.
+V3.9 91 dance02 Hit.webp|Spritesheet for {{St|Silver Goblet+}}, {{St|Vafþrúðnir}}, {{St|Verðandi}}, {{St|Fiddlestick Bow+}}, and {{PAGENAME}}'s hit animations.
+</gallery>
+==Trivia==
+{{NorseMyth|is a [[Wikipedia:Jötunn|Jötunn]] who witnessed a contest of wisdom between [[Wikipedia:Odin|Odin]] and the giant [[Wikipedia:Vafþrúðnir|Vafþrúðnir]].}}
+==In other languages==
+{{OtherLanguages
+|japanese=メグスラシル
+|german=Mögþrasir
+|spanishEU=Mögþrasir
+|spanishLA=Mögþrasir
+|french=Mögþrasir
+|italian=Mögþrasir
+|chineseTW=梅古史朗希爾
+|portuguese=Mögþrasir
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%unit attacks twice%' AND (CanUseWeapon__full='Red Tome' OR CanUseWeapon__full='Blue Tome' OR CanUseWeapon__full='Green Tome' OR CanUseWeapon__full='Colorless Tome') OR Description LIKE '%Spd-2%unit attacks twice%'|columns=3}}
+*[[Brave Weapons]]
+{{Weapons Navbox}}

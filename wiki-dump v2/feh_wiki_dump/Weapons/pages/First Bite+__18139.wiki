@@ -1,0 +1,42 @@
+{{Weapon Infobox
+|tagid=SID_ファーストバイト＋
+|weaponType=Lance
+|weaponName={{PAGENAME}}
+|altWeaponName=First Bite Plus
+|might=14
+|range=1
+|effect=If unit initiates combat, grants Def/Res+2 to allies within 2 spaces for 1 turn after combat.
+|cost=300
+|exclusive=0
+|statModifiers=0,14,0,0,0
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|upgradedEffect=After combat, if unit attacked, grants Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn.
+|properties=
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Bonuses}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfUnitAttacked}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ファーストバイト＋
+|german=Erster Biss+
+|spanishEU=Primer bocado +
+|spanishLA=Primer mordisco +
+|french=1re bouchée +
+|italian=Torta in faccia+
+|chineseTW=定情之槍＋
+|portuguese=Mordida inicial+
+}}
+==See also==
+* [[Bridal Blessings Weapons]]
+{{Weapons Navbox}}
+[[Category:Bridal Blessings weapons]]

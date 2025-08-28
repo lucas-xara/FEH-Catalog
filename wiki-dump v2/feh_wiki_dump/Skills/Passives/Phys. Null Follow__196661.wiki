@@ -1,0 +1,40 @@
+{{Passive
+|name=Phys. Null Follow
+|type=B
+|exclusive=0
+|canUseWeapon={{WeaponList|Physical}}
+|canUseMove={{MoveList|Infantry}}
+|properties=random_owner
+|1name=Phys. Null Follow
+|1tagid=SID_理の見切り・追撃
+|1effect=Inflicts Spd/Def-4 on foe, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks, and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (example: a foe with a "reduce damage by 45%" skill would reduce damage by 23% instead).
+|1cost=300
+|1required=Null Follow-Up 3
+}}
+==Notes==
+{{Temporary debuffs}}
+{{Follow-up effect neutralization}}
+{{Reduce Damage Reduction}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=理の見切り・追撃
+|german=Phys. Folge-Neg.
+|spanishEU=Doble nulo físico
+|spanishLA=Doble nulo físico
+|french=Anti-double phys.
+|italian=N. doppi fisiche
+|chineseTW=理之識破・追擊
+|portuguese=Duplo nulo (F)
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%percentage of foe_s non-Special "reduce damage by X%" skills by 50%' AND Exclusive='1'}}
+* [[Null Passives]]
+* [[Skill families/B Passives#Tempo|Tempo Passives]]
+{{Passives Navbox|B}}
+[[Category:Null Passives]]

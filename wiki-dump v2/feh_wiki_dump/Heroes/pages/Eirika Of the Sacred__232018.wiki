@@ -1,0 +1,85 @@
+{{#invoke:NameAbout|main|Name=Eirika|Name2=Ephraim}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Eirika
+|Title=Of the Sacred
+|WeaponType=Red Sword
+|MoveType=Cavalry
+|Origin=Fire Emblem: The Sacred Stones,Fire Emblem Engage
+|Gender=Female
+|emblemEffect=When Special triggers, boosts damage by unit's max Special cooldown count value × 4 (excluding area-of-effect Specials).<br><br>If it is unit's first combat initiated by unit or first combat initiated by foe that turn, inflicts Atk-4 on unit and unit attacks twice during combat (triggers only when unit's Range = 1; does not trigger when equipped with an area-of-effect Special).
+|actorEN=Kira Buckland
+|actorJP=水橋かおり
+|artist=teffish
+|additionDate=March 28, 2025
+|releaseDate=March 28, 2025
+|entry=7;14
+|cv1=7
+|cv2=100100
+|TagID=紋章エイリーク
+|InternalID=1224
+|Properties=emblem
+|description=One of the Emblems who were summoned to Elyos. Resides in the Ring of the Azure Twins. Appears in Fire Emblem: The Sacred Stones / Fire Emblem Engage.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=12|Lv1SPD=9|Lv1DEF=8|Lv1RES=6
+|GRHP=50|GRATK=75|GRSPD=90|GRDEF=55|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Azure Twin Edge
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Unlock=4
+|special3=Twin Strike
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Blue Skies 1
+|passiveA2=Blue Skies 2
+|passiveA3=Blue Skies 3
+|passiveA4=Blue Skies 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Flow Force 1
+|passiveB2=Flow Force 2
+|passiveB3=Flow Force 3
+|passiveB4=Assault Force
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Hone Spd 1
+|passiveC2=Hone Spd 2
+|passiveC3=Hone Spd 3
+|passiveC4=A/S Incite Hone
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Sources of damage-boosting effects]]
+[[Category:Sources of temporary debuffs]]
+[[Category:Sources of "unit attacks twice"]]

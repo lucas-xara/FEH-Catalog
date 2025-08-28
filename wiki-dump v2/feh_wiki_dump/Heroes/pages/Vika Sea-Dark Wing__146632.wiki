@@ -1,0 +1,67 @@
+{{#invoke:NameAbout|main|Name=Vika}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Vika
+|Title=Sea-Dark Wing
+|WeaponType=Colorless Beast
+|MoveType=Flying
+|Origin=Fire Emblem: Radiant Dawn
+|Gender=Female
+|actorEN=Amber Lee Connors
+|actorJP=矢作紗友里
+|artist=鳴瀬うろこ
+|additionDate=August 4, 2021
+|releaseDate=August 5, 2021
+|cv1=9
+|cv2=800800
+|TagID=海賊ビーゼ
+|InternalID=693
+|Properties=special,hat
+|description=A warrior of the raven clan and member of the Laguz Emancipation Army. Dressed as a pirate, she adds some extra life to the festival. Appears in Fire Emblem: Radiant Dawn.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=8|Lv1SPD=10|Lv1DEF=4|Lv1RES=10
+|GRHP=50|GRATK=60|GRSPD=70|GRDEF=30|GRRES=70
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Hatchling (Flier)
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Fledgling (Flier)
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Adult (Flier)
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Ebon-Pirate Claw
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Chilling Wind
+|special1Default=4
+|special1Unlock=3
+|special2=Glacies
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Spd/Res Solo 1
+|passiveA2=Spd/Res Solo 2
+|passiveA3=Spd/Res Solo 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=Sabotage Atk 1
+|passiveB2=Sabotage Atk 2
+|passiveB3=Sabotage Atk 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Pirate Festival units]]

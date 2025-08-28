@@ -1,0 +1,64 @@
+{{Weapon Infobox
+|tagid=SID_春に跳ぶ白兎の斧
+|intID=4055
+|image=wep_ax148
+|exclusive=1
+|weaponType=Axe
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). Grants Atk/Spd/Def/Res+4 and "reduces damage from foe's attacks by X%" (if unit's HP = 100% at start of combat, X = unit's HP value at start of combat; if not, X = 50% of unit's HP value at start of combat; max 60; excluding area-of-effect Specials) to allies within 2 spaces of unit during their combat, and also, if the damage reduction effect of this skill is triggered, deals 1 damage to unit after combat (deals 1 damage even if damage reduction effect is neutralized). At start of turn, if unit is within 2 spaces of an ally, restores 7 HP to unit and allies within 2 spaces of unit. If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+Y to unit (Y = number of allies within 3 spaces of unit × 3, + 5; max 14; if unit is within 3 spaces of a dragon ally, Y = 14), neutralizes effects that grant "Special cooldown charge +X" to foe or inflict "Special cooldown charge -X" on unit, and reduces damage from foe's first attack by Z% during combat (Z = unit's HP at start of combat; max 60; "first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes).
+|required=Silver Axe
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|PermanentEffect={{Eft|Accelerates Special}}
+|CombatEffect 1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|CombatEffect 2={{Eft|Damage Reduction|max=60%|percent=1|{{Tgt|Unit}}'s HP<br>at start of combat}}
+|CombatEffect 2 Conditions={{Tgt|Unit}}'s HP = 100%
+|CombatEffect 3={{Eft|Damage Reduction|max=60%|percent=1|50% of {{Tgt|Unit}}'s HP<br>at start of combat}}
+|CombatEffect 3 Conditions={{Tgt|Unit}}'s HP < 100%
+|CombatEffect 1-3 Targets={{Tgt|Allies}}<br>[[within 2 spaces]]
+|CombatEffect 4={{Eft|Temporary buffs|Atk/Spd/Def/Res|{{Tgt|Allies}} [[within 3 spaces]]<br>of {{Tgt|Unit}} x 3, +5|max=14*}}
+|CombatEffect 5={{Eft|Neutralize Guard}}
+|CombatEffect 4-5 Targets={{Tgt|Unit}}
+|CombatEffect 6={{Eft|Neutralize Accelerate Charge}}
+|CombatEffect 6 Targets={{Tgt|Foe}}
+|CombatEffect 7={{Eft|Damage Reduction|{{Tgt|Unit}}'s HP at start of combat|percent=1|max=60%}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|CombatEffect 4-7 Conditions=An {{Tgt|Ally}} is<br>[[within 3 spaces]]<br>of {{Tgt|Unit}}
+|MapEffect 1={{Eft|Damage|1}}
+|MapEffect 1 Conditions=After combat if<br>{{Efi|Damage reduction}} Damage reduction<br>effect granted to<br>{{Tgt|Allies}} triggers
+|MapEffect 2={{Eft|Heal|7}}
+|MapEffect 2 Targets={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|MapEffect 2 Conditions=At start of turn<br>if {{Tgt|Unit}} is<br>[[within 2 spaces]]<br>of an {{Tgt|Ally}}
+}}
+&#42; If unit is [[within 3 spaces]] of a {{Cwti|Dragonstone|group=1}} [[Dragon]] {{Tgt|Ally}}, value is treated as max
+
+==Notes==
+{{Temporary buffs}}
+{{DamagePercentageReduction}}
+{{AlliesCombatEffect|effect=temporary buffs and damage reduction}}
+{{DamageToUnit}}
+{{Start-of-turn healing|allies=1}}
+{{CooldownChargePlusNeutralization}}
+{{CooldownChargeMinusNeutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=春に跳ぶ白兎の斧
+|german=Hoppelaxt
+|spanishEU=Hacha saltarina
+|spanishLA=Hacha saltarina
+|french=Hache sautillante
+|italian=Ascia saltellante
+|chineseTW=春天跳躍的白兔之斧
+|portuguese=Gume saltitante
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if the damage reduction effect of this skill is triggered%' OR (Description LIKE '%+%= number of allies within _ spaces%' OR Description LIKE'%neutralizes%Special cooldown charge +X%Special cooldown charge -X%' AND Description NOT LIKE '%transforms%+7%damage%') AND Exclusive='1'}}
+* [[Form Passives]]
+* [[Tempo Passives]]
+{{Weapons Navbox}}

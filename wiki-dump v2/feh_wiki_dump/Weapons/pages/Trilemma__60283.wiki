@@ -1,0 +1,40 @@
+{{Weapon Infobox
+|tagid=SID_トリレンマ
+|weaponType=Staff
+|weaponName={{PAGENAME}}
+|might=8
+|range=2
+|effect=After combat, if unit attacked, inflicts the following status on foe through its next action: "If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%."
+|cost=200
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|next=Trilemma+
+|promotionRarity=5
+|promotionTier=2
+|required=Assault
+|SE=se_effect_trilemma.flac
+|properties=random_owner
+}}
+==Notes==
+{{IfUnitAttacked}}{{Triangle Adept}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+v2.7_56_kakusei02_Rod.png|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=トリレンマ
+|german=Trilemma
+|spanishEU=Trilema
+|spanishLA=Trilema
+|french=Trilemme
+|italian=Trilemma
+|chineseTW=托里連瑪
+|portuguese=Trilema
+}}
+==See also==
+* [[Fólkvangr]]
+* [[Gem Weapons]]
+{{Weapons Navbox}}

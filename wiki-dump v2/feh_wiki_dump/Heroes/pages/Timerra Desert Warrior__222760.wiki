@@ -1,0 +1,82 @@
+{{#invoke:NameAbout|main|Name=Timerra}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Timerra
+|Title=Desert Warrior
+|WeaponType=Blue Lance
+|MoveType=Infantry
+|Origin=Fire Emblem Engage
+|Gender=Female
+|actorEN=Dani Chambers
+|actorJP=小清水亜美
+|artist=創-taro
+|additionDate=September 17, 2024
+|releaseDate=September 17, 2024
+|cv1=14
+|cv2=500200
+|TagID=響心ミスティラ
+|InternalID=1142
+|Properties=attuned,hat
+|description=Crown princess of Solm, the Queendom of Freedom. Bubbly and outgoing, she is known for being accessible and approachable by all. Appears in Fire Emblem Engage.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=8|Lv1SPD=14|Lv1DEF=8|Lv1RES=9
+|GRHP=50|GRATK=60|GRSPD=75|GRDEF=90|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Lance
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Desert Spear
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=4
+|special1Unlock=3
+|special2=Ignis
+|special2Unlock=4
+|special3=Sandstorm
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Spd/Def Finish 1
+|passiveA2=Spd/Def Finish 2
+|passiveA3=Spd/Def Finish 3
+|passiveA4=Spd/Def Finish 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Laguz Friend 1
+|passiveB2=Laguz Friend 2
+|passiveB3=Laguz Friend 3
+|passiveB4=Laguz Friend 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Breath of Life 1
+|passiveC2=Breath of Life 2
+|passiveC3=Breath of Life 3
+|passiveC4=Breath of Life 4
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+|passiveX1=Time Pulse Echo
+|passiveX1Unlock=5
+}}
+{{Heroes Navbox}}

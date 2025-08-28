@@ -1,0 +1,70 @@
+{{#invoke:NameAbout|main|Name=Céline}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Céline
+|Title=Blissful Tea Party
+|WeaponType=Red Tome
+|MoveType=Flying
+|Origin=Fire Emblem Engage
+|Gender=Female
+|actorEN=Rachelle Heger
+|actorJP=鬼頭明里
+|artist=猫魚かむ
+|additionDate=August 6, 2025
+|releaseDate=August 7, 2025
+|cv1=14
+|cv2=200500
+|TagID=お茶会セリーヌ
+|InternalID=1274
+|Properties=special
+|description=Princess of Firene. Serves the ultimate tea that grants deep satisfaction to any who drink it. Appears in Fire Emblem Engage.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=10|Lv1SPD=10|Lv1DEF=3|Lv1RES=11
+|GRHP=45|GRATK=75|GRSPD=85|GRDEF=30|GRRES=70
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elfire
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Teapot
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Teapot+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Rally Resistance
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Rally Up Res
+|assist2Unlock=4
+|assist3=Rally Up Res+
+|assist3Unlock=5
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Catch 1
+|passiveA2=Atk/Spd Catch 2
+|passiveA3=Atk/Spd Catch 3
+|passiveA4=Atk/Spd Mastery
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveC1=Spd/Res Rein 1
+|passiveC2=Spd/Res Rein 2
+|passiveC3=Spd/Res Rein 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

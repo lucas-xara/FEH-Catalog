@@ -1,0 +1,89 @@
+{{Weapon Infobox
+|tagid=SID_グラフカリバー
+|weaponName=Grafcalibur
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|weaponType=Green Tome
+|might=14
+|range=2
+|effectiveness=Flying
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). Effective against flying foes. If unit initiates combat or if unit is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 and neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,0,0,0
+|required=Rexcalibur
+|intID=2386
+|sort=491
+|value=20
+|timingID=1
+|abilityID=142
+|limit1ID=58
+|randomTimestamp=2021-02-08T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1). Effective against flying foes.<br><br>If unit initiates combat or if unit is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.), and deals damage = 20% of unit's Spd during combat (excluding area-of effect Specials).
+|refineStatsSkill1=0,0,0,0,0
+|effectSkill1=At start of turn, if unit's HP ≥ 25%, inflicts Spd/Res-7 and【Sabotage】on closest foes and foes within 2 spaces of those foes through their next actions.<br><br>At start of combat, if unit's HP ≥ 25%, grants bonus to unit's Atk/Spd/Def/Res = 10% of unit's Spd at start of combat + 5 and grants Special cooldown count-2 to unit before unit's first follow-up attack during combat.<br><br>【Sabotage】<br>Inflicts penalty on unit's Atk/Spd/Def/Res during combat = highest penalty on each stat between unit and allies within 2 spaces of unit through its next action. Calculates each stat penalty independently.
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Accelerates Special}}
+|s1 Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|s1 Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s1 Ce3={{Eft|Neutralize Bonuses}}
+|s1 Ce3T={{Tgt|Foe}}
+|s1 Ce2-3C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Accelerates Special}}
+|s2 Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|s2 Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s2 Ce3={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|s2 Ce4={{Eft|Neutralize Bonuses}}
+|s2 Ce4T={{Tgt|Foe}}
+|s2 Ce2-4C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|skill3={{Si|Grafcalibur|refine=Skill1}} Skill refine effects
+|s3 Se1={{Eft|Penalties|Spd/Res|7}}
+|s3 Se2={{SEt|Sabotage}}
+|s3 SeT=Closest {{Tgt|Foes}}<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}
+|s3 SeC=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25%
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|10% of {{Tgt|Unit}}'s Spd<br>at start of combat, +5}}
+|s3 Ce2={{Eft|Reduce Cooldown|2}}<br>before {{Tgt|Unit}}'s first [[follow-up]]
+|s3 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{Effective damage bonus|flying}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Bonus neutralization}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{DamageBoost|name=Refined Grafcalibur}}
+{{Penalties|name={{St|Grafcalibur|refine=Skill1}}}}
+{{Sabotage|name={{St|Grafcalibur|refine=Skill1}}}}
+{{At start of combat|name={{St|Grafcalibur|refine=Skill1}}}}
+{{CombatCooldownCount|-2|name={{St|Grafcalibur|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=グラフカリバー
+|german=Graphcalibur
+|spanishEU=Grafcalibur
+|spanishLA=Grafcalibur
+|french=Grafcalibur
+|italian=Grafcalibur
+|chineseTW=格拉夫卡利伯
+|portuguese=Grafcalibur
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%effective against flying foes%' AND (CanUseWeapon__full='Red Tome' OR CanUseWeapon__full='Blue Tome' OR CanUseWeapon__full='Green Tome' OR CanUseWeapon__full='Colorless Tome') OR Description LIKE '%Special cooldown count-%before unit_s first follow-up attack%'}}
+{{Weapons Navbox}}

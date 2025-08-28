@@ -1,0 +1,79 @@
+{{Weapon Infobox
+|tagid=SID_至聖ナーガ
+|weaponType=Blue Tome
+|might=14
+|range=2
+|effectiveness=dragon
+|effect=Effective against dragon foes. Grants Atk+3. At start of combat, if unit's Atk > foe's Atk, grants Atk/Res+6 during combat.
+|cost=400
+|exclusive=1
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|statModifiers=0,17,0,0,0
+|required=Shine
+|SE=se_effect_naga.flac
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Effective against dragon foes. Grants Atk+3. At start of combat, if unit’s Atk > foe’s Atk or foe's HP ≥ 75%, grants Atk/Res+6 to unit during combat, and also, if unit's Res > foe's Res, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 4 (max 40%).
+|tagidExtraSkill1=一
+|effectSkill1=If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+4 to unit during combat and unit makes a guaranteed follow-up attack, and also, if in combat against a dragon foe, unit can counterattack regardless of foe's range.
+|iconSkill1=Virtuous Naga W.png
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Atk|3}}
+|s1 Ce1={{Eft|Effectiveness|{{Cwti|Dragonstone|group=1}} [[Dragon]]}}
+|s1 Ce2={{Eft|Temporary buffs|Atk/Res|6}}
+|s1 Ce2C={{Tgt|Unit}}'s Atk ><br>{{Tgt|Foe}}'s Atk at<br>start of combat
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Atk|3}}
+|s2 Ce1={{Eft|Effectiveness|{{Cwti|Dragonstone|group=1}} [[Dragon]]}}
+|s2 Ce2={{Eft|Temporary buffs|Atk/Res|6}}
+|s2 Ce2C=({{Tgt|Unit}}'s Atk ><br>{{Tgt|Foe}}'s Atk '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%)<br>at start of combat
+|s2 Ce3={{Eft|Damage Reduction|4 x ({{Tgt|Unit}}'s Res - {{Tgt|Foe)}}'s Res)<br>from attacks & Non-Røkkr [[AoE Specials]]|percent=1|max=40%}}
+|s2 Ce3C={{Eft|Temporary buffs|Atk/Res|6}} conditions<br>'''&''' {{Tgt|Unit}}'s Res<br>>{{Tgt|Foe}}'s Res
+|skill3={{Si|Virtuous Naga|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s3 Ce2={{Eft|Guaranteed Follow-Ups}}
+|s3 Ce1-2C=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|s3 Ce3={{Eft|Close Counter}}
+|s3 Ce3C=An {{Tgt|Ally}} is<br>[[within 3 spaces]]<br>'''&''' {{Tgt|Foe}} is a<br>{{Cwti|Dragonstone|group=1}} [[Dragon]]
+}}
+==Notes==
+{{Effective damage bonus|dragon}}
+{{At start of combat}}
+{{Temporary buffs}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+{{Guaranteed follow-up interaction|name={{St|Virtuous Naga|refine=skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V3.8 902 legend20 Mag.webp|Sprite sheet for Virtuous Naga's animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=至聖ナーガ
+|german=Naga-Tugend
+|spanishEU=Libro puro Naga
+|spanishLA=Libro puro Naga
+|french=Livre saint Naga
+|italian=Naga virtuoso
+|chineseTW=至聖那迦
+|portuguese=Livro virtuoso
+}}
+==See also==
+{{See also skills|cond=WikiName LIKE '%naga%' OR WeaponEffectiveness='dragon' AND CanUseWeapon__full LIKE '%Tome' OR Description LIKE '%unit_s Res > foe_s Res%educes damage from attacks during combat%' AND Exclusive='1'}}
+* [[Sources of effective against dragon foes]]
+* [[:Category:Countering skills|Counter Passives]]
+{{Weapons Navbox}}

@@ -1,0 +1,35 @@
+{{Weapon Infobox
+|tagid=SID_賀正の銀虎の爪牙
+|intID=2895
+|exclusive=1
+|weaponType=Beast
+|canUseMove=Infantry
+|cost=400
+|might=14
+|range=1
+|effect=Grants Def+3. At start of combat, if foe's HP ≥ 75%, grants Atk/Def+6 to unit during combat, and also, if unit's Def > foe's Def, grants Special cooldown charge +1 per foe's attack (only highest value applied; does not stack) and deals +5 damage per unit's attack, including when dealing damage with a Special triggered before combat.<br><br>At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, deals +7 damage when Special triggers, and neutralizes effects that grant "Special cooldown charge +X" to foe or inflict "Special cooldown charge -X" on unit during combat.
+|statModifiers=0,14,0,3,0
+|required=Adult (Infantry)
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+{{CooldownChargePlus|perAttack=foe}}
+{{FixedDamage|5}}
+{{Beast (Infantry)}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=賀正の銀虎の爪牙
+|german=Blitzblanker Zahn
+|spanishEU=Colmillo afilado
+|spanishLA=Colmillo afilado
+|french=Croc aiguisé
+|italian=Zanna affilata
+|chineseTW=賀年銀虎的爪牙
+|portuguese=Presa afiada
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe\'s HP ≥ 75\%%Atk/Def+%during combat%' OR Description LIKE '%including when dealing damage with a Special triggered before combat%'}}
+{{Weapons Navbox}}

@@ -1,0 +1,46 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_熊手＋
+|weaponType=Staff
+|weaponName=Kumade+
+|might=12
+|range=2
+|effect=At start of turn, inflicts Atk/Spd-5 on foe on the enemy team with the highest Def through its next action.
+|cost=300
+|exclusive=0
+|statModifiers=0,12,0,0,0
+|required=Kumade
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|effectSkill1=Calculates damage from staff like other weapons.
+|iconSkill1=Wrathful Staff W.png
+|tagidExtraSkill1=神
+|effectSkill2=Foe cannot counterattack.
+|iconSkill2=Dazzling Staff W.png
+|tagidExtraSkill2=幻
+|properties=
+}}
+==Notes==
+{{Penalties}}{{SelectStat|Def}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Staff Plus Refines}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=熊手＋
+|german=Kumade+
+|spanishEU=Kumade +
+|spanishLA=Kumade +
+|french=Kumade +
+|italian=Kumade+
+|chineseTW=草耙＋
+|portuguese=Kumade+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%start of turn%inflicts%/%-%lowest%through%action%' OR Description LIKE '%start of turn%inflicts%/%-%highest%through%action%' AND Description NOT LIKE '%total%'|columns=3}}
+*[[Skill families#Chill|Chill Passives]]
+{{Weapons Navbox}}

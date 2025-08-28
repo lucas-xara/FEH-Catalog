@@ -1,0 +1,54 @@
+{{Passive
+|name=Emblems' Miracle
+|type=A
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Emblems' Miracle
+|alt1name=Emblems Miracle
+|1tagid=SID_紋章の奇跡
+|1effect=Unit can counterattack regardless of foe's range. If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+9 to unit during combat and reduces damage from foe's first attack during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by 40% ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes). If the number of allies within 3 spaces of unit ≥ 3 and foe initiates combat, if unit's HP > 1 and foe would reduce unit's HP to 0 during combat, unit survives with 1 HP, and after combat, restores 99 HP to unit (effect only triggers for player's team once per map and does not stack with non-Special effects that allow unit to survive with 1 HP if foe's attack would reduce unit's HP to 0; when any other such effect triggers on a unit granted this effect, this effect will trigger too).
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Distant Counter}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|9}}
+|Ce3={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)<br>'''&''' Non-Røkkr [[AoE Specials]]
+|Ce2-3C={{Tgt|Unit}} is<br>[[within 3 spaces]]<br>of an {{Tgt|Ally}}
+|Ce4={{Eft|Miracle}}<br>(once per map)
+|Ce4C=Enemy Phase, {{Tgt|Allies}}<br>[[within 3 spaces]] ≥ 3<br>'''&''' {{Tgt|Unit}}'s HP > 1
+|Me={{Eft|Heal|99}}<br>(once per map)
+|MeC=After combat in<br>Enemy Phase '''&''' {{Tgt|Allies}}<br>[[within 3 spaces]] ≥ 3 '''&'''<br>{{Eft|Miracle}}<br>effect triggered
+}}
+==Notes==
+* Emblems' Miracle has the same effect as {{St|Distant Counter}}.
+{{Temporary buffs}}
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+{{Miracle}}
+{{After combat healing}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=紋章の奇跡
+|german=Embleme-Wunder
+|spanishEU=Milagro Emblema
+|spanishLA=Milagro Emblema
+|french=Emblèmes miracle
+|italian=Miracolo emblemi
+|chineseTW=紋章奇蹟
+|portuguese=Milagre emblema
+}}
+==See also==
+{{See also skills|cond=((Description LIKE '%counterattack regardless of%range%' AND SCategory!='Weapon' AND Description NOT LIKE '%style%') OR Description LIKE '%unit survives with 1 HP%' AND Description NOT LIKE '%"if foe would reduce%') AND ((Exclusive=1 AND Name NOT LIKE '%+') OR SCategory='captain') }}
+* [[Counter Passives]]
+* [[Counter Seals]]
+* [[Prime Passives]]
+* [[Weapons with Distant Counter]]
+* [[Weapons with Close Counter]]
+{{Passives Navbox|A}}

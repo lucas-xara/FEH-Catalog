@@ -1,0 +1,67 @@
+{{Weapon Infobox
+|tagid=SID_光明レイピア
+|intID=3845
+|userVersion1=Weapon
+|userVersion2=Gleam
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=16
+|range=1
+|effectiveness=Armored,Cavalry
+|effect=Effective against armored and cavalry foes. Grants Spd+3. If foe initiates combat or foe's HP ≥ 75% at start of combat, grants Atk/Spd/Def/Res+4 to unit and neutralizes foe's bonuses to Spd/Def (from skills like Fortify, Rally, etc.) during combat. If unit's HP ≤ 80% and foe initiates combat, unit can counterattack before foe's first attack.
+|statModifiers=0,16,3,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+X to unit during combat (X = 4 + highest bonus on each stat between unit and allies within 2 spaces of unit; calculates each stat bonus independently) and deals damage = 15% of unit's Spd (excluding area-of-effect Specials).
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Spd|3}}
+|skill1 CombatEffect 1={{Eft|Effectiveness|{{Mt|Armored}} & {{Mt|Cavalry}}<br>}}
+|skill1 CombatEffect 2={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|skill1 CombatEffect 3 Targets={{Tgt|Foe}}
+|skill1 CombatEffect 3={{Eft|Neutralize Bonus|Spd/Def}}
+|skill1 CombatEffect 2-3 Conditions=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|skill1 CombatEffect 4={{Eft|Vantage}}
+|skill1 CombatEffect 4 Targets={{Tgt|Unit}}
+|skill1 CombatEffect 4 Conditions=Enemy Phase '''&'''<br>{{Tgt|Unit}}'s HP ≤ 80%<br>at start of combat
+|skill2={{Si|Brilliant Rapier|refine=Skill1}} Skill refine effects
+|skill2 CombatEffect 1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4 + highest {{SEt|Bonus}}<br>on {{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]}}
+|skill2 CombatEffect 2={{Eft|Damage Boost|15% of {{Tgt|Unit}}'s Spd}}
+|skill2 CombatEffect Conditions=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+
+==Notes==
+{{Effective damage bonus|armored,cavalry}}
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+{{Bonus neutralization}}
+{{Preempt}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfUnitInitiates}}
+{{TemporaryBufffromBonus|name={{St|Brilliant Rapier|refine=Skill1}}|source=the unit or ally with the highest bonus}}
+{{DamageBoost|name={{St|Brilliant Rapier|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=光明レイピア
+|german=Brillantes Rapier
+|spanishEU=Estoque brillante
+|spanishLA=Estoque brillante
+|french=Rapière brillante
+|italian=Spadino brillante
+|chineseTW=光明刺劍
+|portuguese=Rapieira brilhante
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%Atk/Spd/Def/Res%=%highest bonus on%allies%within _ spaces%' OR Description LIKE '%unit can counterattack before foe_s first attack%') AND Exclusive='1'}}
+{{Weapons Navbox}}

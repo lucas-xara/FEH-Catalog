@@ -1,0 +1,44 @@
+{{Special
+|tagid=SID_反竜穿・承
+|intID=3954
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=3
+|effect=Reduces damage from foe's attacks by 40%. After Special triggers, unit's next attack deals damage = 40% of unit's Atk. (Boost resets at the end of combat.) If foe has the "attacks twice" effect, grants Special cooldown count-2 to unit after first Special trigger per combat. 
+|required=Negating Fang
+|properties=defensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s attacks
+|CombatEffect 1 Conditions={{Tgt|Foe}}'s attack<br>triggers Special
+|CombatEffect 2={{Eft|Damage boost|40% of {{Tgt|Unit}}'s Atk}}<br>on {{Tgt|Unit}}'s next attack
+|CombatEffect 2 Conditions=After Special triggers
+|CombatEffect 3={{Eft|Reduce Cooldown|2}}<br>after first Special triggers
+|CombatEffect 3 Conditions={{Tgt|Foe}} has an<br>{{Eft|Attack Twice}} effect
+}}
+
+==Notes==
+{{DefensiveSkill}}
+{{DamagePercentageReduction}}
+{{AtkDamageBoost|special=0}}
+{{CombatCooldownCount|-2}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=反竜穿・承
+|german=Tilgungsbiss II
+|spanishEU=Colmillo reneg. II
+|spanishLA=Colmillo reneg. II
+|french=Croc négatif II
+|italian=Zanna negatrice II
+|chineseTW=反龍穿・承
+|portuguese=Presa renegada II
+}}
+==See also==
+{{See also skills|cond=Description LIKE 'Deals damage = __% of unit_s Atk%' OR Description LIKE '%boosts damage%by __% of unit_s Atk%' OR Description LIKE '%reduces damage from foe_s attacks%next attack%'}}
+* [[:Category:Defensive Specials|Defensive Specials]]
+{{Specials Navbox}}

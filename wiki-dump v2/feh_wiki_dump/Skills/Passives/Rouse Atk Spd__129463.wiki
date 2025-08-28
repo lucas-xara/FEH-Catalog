@@ -1,0 +1,91 @@
+{{Passive
+|name=Rouse Atk/Spd
+|type=C
+|exclusive=0
+|canUseMove={{MoveList|Infantry,Cavalry}}
+|canUseWeapon={{WeaponList|All}}
+|timingID=8
+|abilityID=23
+|limit1ID=19
+|randomTimestamp=2020-11-19T07:00:00Z
+|properties=random_owner
+|1name=Rouse Atk/Spd 1
+|1tagid=SID_攻撃速さの奮起1
+|alt1name=Rouse Atk Spd 1
+|1effect=At start of turn, if unit is not adjacent to an ally, grants Atk/Spd+2 to unit for 1 turn.
+|1required=-
+|1cost=60
+|1promotionRarity=4
+|1promotionTier=1
+|intID1=2279
+|sort1=13000
+|value1=2
+|randomMinLv1=21
+|randomMaxLv1=30
+|2name=Rouse Atk/Spd 2
+|2tagid=SID_攻撃速さの奮起2
+|alt2name=Rouse Atk Spd 2
+|2effect=At start of turn, if unit is not adjacent to an ally, grants Atk/Spd+4 to unit for 1 turn.
+|2cost=120
+|2promotionRarity=5
+|2promotionTier=1
+|intID2=2280
+|sort2=13001
+|value2=4
+|randomMinLv2=26
+|randomMaxLv2=35
+|3name=Rouse Atk/Spd 3
+|3tagid=SID_攻撃速さの奮起3
+|alt3name=Rouse Atk Spd 3
+|3effect=At start of turn, if unit is not adjacent to an ally, grants Atk/Spd+6 to unit for 1 turn.
+|3next=-
+|4name=Rouse Atk/Spd 4
+|alt4name=Rouse Atk Spd 4
+|4tagid=SID_攻撃速さの奮起4
+|4cost=300
+|4effect=At start of turn, if unit is not adjacent to an ally, grants Atk/Spd+6 and【Null Panic】to unit for 1 turn.<br><br>【Null Panic】<br>If unit is inflicted with Panic (bonuses converted into penalties), neutralizes the "converts bonuses on target into penalties" effect for 1 turn. (Even though the effect is neutralized, the Panic status remains, and is treated as a Penalty status.)
+|3cost=240
+|intID3=2281
+|sort3=13002
+|value3=6
+|randomMinLv3=31
+}}
+==Notes==
+{{Bonuses}}
+{{Null Panic|name=Rouse Atk/Spd 4}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Rouse Atk/Spd 1;Rouse Atk/Spd 2;Rouse Atk/Spd 3
+|badgeColor=Azure
+|costs1=20;100;40
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|english=Rouse Atk/Spd
+|japanese=攻撃速さの奮起
+|german=Agr./Ges.-Hoch
+|spanishEU=Brío Ata/Vel
+|spanishLA=Brío Atq./Vel.
+|french=Réveil Atq/Vit
+|italian=Sveglia Att/Vel
+|chineseTW=攻擊速度的奮起
+|portuguese=Atq./Vel. ânimo
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%null panic%' AND WikiName NOT LIKE '%rouse%'|columns=3}}
+* [[Solo Passives]]
+* [[Rouse Passives]]
+{{Passives Navbox|C}}
+[[Category:Rouse Passives]]
+{{Seals Navbox}}

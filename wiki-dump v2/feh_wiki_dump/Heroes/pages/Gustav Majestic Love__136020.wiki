@@ -1,0 +1,75 @@
+{{#invoke:NameAbout|main|Name=Gustav}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Gustav
+|Title=Majestic Love
+|WeaponType=Green Axe
+|MoveType=Armored
+|Origin=Fire Emblem Heroes
+|Gender=Male
+|actorEN=Edward Bosco
+|actorJP=中田譲治
+|artist=Daisuke Izuka
+|additionDate=February 4, 2021
+|releaseDate=February 5, 2021
+|cv1=0
+|cv2=100310
+|TagID=愛の祭グスタフ
+|InternalID=623
+|Properties=special,specRate_202502
+|description=King of Askr. Taking part in the Day of Devotion to spend some quality time with his family.
+}}
+{{Stats Page
+|Lv1HP=21|Lv1ATK=11|Lv1SPD=5|Lv1DEF=13|Lv1RES=7
+|GRHP=65|GRATK=70|GRSPD=30|GRDEF=75|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Loyalist Axe
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=4
+|special1Unlock=3
+|special2=Ignis
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Close Def 1
+|passiveA2=Close Def 2
+|passiveA3=Close Def 3
+|passiveA4=Close Def 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Crafty Fighter 1
+|passiveB2=Crafty Fighter 2
+|passiveB3=Crafty Fighter 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=D/R Near Save 1
+|passiveC2=D/R Near Save 2
+|passiveC3=D/R Near Save 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Day of Devotion units]]

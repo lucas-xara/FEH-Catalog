@@ -1,0 +1,69 @@
+{{#invoke:NameAbout|main|Name=Cherche}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Cherche
+|Title=Shaded by Wings
+|WeaponType=Green Axe
+|MoveType=Flying
+|Origin=Fire Emblem Awakening
+|Gender=Female
+|actorEN=Heather Gonzalez
+|actorJP=高田憂希
+|artist=kaya8
+|additionDate=November 8, 2022
+|releaseDate=November 8, 2022
+|cv1=10
+|cv2=800200
+|TagID=忍者セルジュ
+|InternalID=871
+|Properties=special
+|description=Wyvern-riding fighter in Virion's noble house. Hastens to join the ninja festival with her beloved mount, Minerva. Appears in Fire Emblem Awakening.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=14|Lv1SPD=3|Lv1DEF=11|Lv1RES=6
+|GRHP=55|GRATK=70|GRSPD=40|GRDEF=75|GRRES=60
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Wyvern Ono
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=4
+|special1Unlock=3
+|special2=Ignis
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=A/D Near Trace 1
+|passiveB2=A/D Near Trace 2
+|passiveB3=A/D Near Trace 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Atk/Def Rein 1
+|passiveC2=Atk/Def Rein 2
+|passiveC3=Atk/Def Rein 3
+|passiveC4=Atk/Def Hold
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Ninja Festival units]]

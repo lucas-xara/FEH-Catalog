@@ -1,0 +1,79 @@
+{{#invoke:NameAbout|main|Name=Sigurd|Name2=Deirdre}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Sigurd
+|Title=Destined Duo
+|WeaponType=Red Tome
+|MoveType=Cavalry
+|Origin=Fire Emblem: Genealogy of the Holy War
+|Gender=MF
+|secondPerson=Deirdre
+|duo=Moves allies adjacent to unit to opposite side of unit. If an ally cannot move to the target space (if another ally or foe is occupying the space) ally will not move.<br><br>Once used, Duo Skill cannot be activated again right away. At start of odd-numbered turns, if Duo Skill has already been used, unit can use Duo Skill again.
+|Duel=185
+|actorEN=Grant George,Erica Mendez
+|actorJP=森川智之,井上喜久子
+|artist=azuタロウ
+|additionDate=September 7, 2020
+|releaseDate=September 8, 2020
+|cv1=3
+|cv2=100100
+|TagID=比翼シグルド
+|InternalID=560
+|Properties=duo,refresher,special,specRate_202402
+|description=The duo of Sigurd, heir to Chalphy, and the devoted Deirdre. This happily married couple radiates joy. They appear in Fire Emblem: Genealogy of the Holy War.
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=8|Lv1SPD=3|Lv1DEF=3|Lv1RES=7
+|GRHP=50|GRATK=70|GRSPD=35|GRDEF=30|GRRES=70
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elfire
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Bolganone
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Gilt Goblet
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Dance
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Res Bond 1
+|passiveA2=Atk/Res Bond 2
+|passiveA3=Atk/Res Bond 3
+|passiveA4=Atk/Res Bond 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Lull Atk/Res 1
+|passiveB2=Lull Atk/Res 2
+|passiveB3=Lull Atk/Res 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Fortify Res 1
+|passiveC2=Fortify Res 2
+|passiveC3=Fortify Res 3
+|passiveC4=Joint Hone Res
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Sources of unit movement]]
+[[Category:Dance Festival units]]

@@ -1,0 +1,55 @@
+{{Weapon Infobox
+|tagid=SID_戦神の護斧
+|intID=4096
+|image=wep_ax150
+|exclusive=1
+|weaponType=Axe
+|cost=400
+|might=16
+|range=1
+|effect=Grants Def+3. At start of turn, if unit is within 2 spaces of an ally, grants Atk/Def+6, 【Bonus Doubler】, and "foe cannot make a follow-up attack" to unit for 1 turn. At start of turn, grants Atk/Def+6,【Bonus Doubler】, and "foe cannot make a follow-up attack" to any support partner within 2 spaces of unit or, if unit is not on a team with unit's support partner, to ally with the highest Def within 2 spaces of unit for 1 turn. If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit, unit makes a guaranteed follow-up attack, deals damage = 20% of unit's Def (excluding area-of-effect Specials), and reduces damage from attacks by 30% during combat (excluding area-of-effect Specials).<br><br>【Bonus Doubler】<br>Grants bonus to Atk/Spd/Def/Res during combat = current bonus on each of unit's stats for 1 turn. Calculates each stat bonus independently.
+|statModifiers=0,16,0,3,0
+|required=Silver Axe
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Stat Boosts|Def|3}}
+|Se1={{Eft|Bonuses|Atk/Def|6}}
+|Se2={{SEt|Bonus Doubler}}
+|Se3={{SEt|Foe Cannot Follow-Up}}
+|SeT={{Tgt|Unit}} '''&'''<br>({{Tgt|Partner}} '''or'''<br>{{Tgt|Ally}} with the<br>highest Def)<br>[[within 2 spaces]]
+|SeC=At start of turn<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce2={{Eft|Guaranteed Follow-Ups}}
+|Ce3={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Def}}
+|Ce4={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s attacks
+|CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+
+==Notes==
+{{Bonuses}}
+{{Bonus Doubler}}
+{{Foe Cannot Follow-Up}}
+{{SupportPartner|effect={{SEt|bonuses}}, {{SEt|Bonus Doubler}} and {{SEt|Foe Cannot Follow-Up}} effects}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Guaranteed follow-up interaction}}
+{{DamageBoost}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=戦神の護斧
+|german=Solide Kriegsaxt
+|spanishEU=Hacha bél. maciza
+|spanishLA=Hacha bél. pes.
+|french=Hache lourde
+|italian=Ascia massiccia
+|chineseTW=戰神的護斧
+|portuguese=Machado pesado
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Bonus Doubler】%' OR Description LIKE '%"foe cannot make a follow-up attack%for 1 turn%' OR Description LIKE '%for 1 turn%"foe cannot make a follow-up attack%' OR Description LIKE '%to ally with the highest Def within _ spaces of unit%') AND Exclusive='1'}}
+{{Weapons Navbox}}

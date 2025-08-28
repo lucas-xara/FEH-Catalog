@@ -1,0 +1,68 @@
+{{Passive
+|name=Gullinbursti
+|type=S
+|exclusive=0
+|canUseMove={{MoveList|Cavalry,Flying}}
+|canUseWeapon={{WeaponList|All}}
+|1effect=Enables【Canto (Rem.)】.<br><br>【Canto (Rem.)】<br>After an attack, Assist skill, or structure destruction, unit can move spaces = any movement not already used that turn. (If unit used a movement skill that warped them, its remaining movement is 0.)<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|intID=2604
+|sort=550
+|value=0
+|timingID=0
+|abilityID=0
+|properties=enemy_only
+|1name=Gullinbursti
+|1tagid=SID_グリンブルスティ
+|1required=-
+|1cost=0
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Canto|Rem.}}
+}}
+
+==Notes==
+{{Canto|Rem.}}
+==Usage in Maps==
+{{#cargo_query:tables=MapUnits=MU,Units=U,Skills=S
+|fields=CONCAT('[[',MU._pageName,'{{!}}{{(}}#invoke:GetFancyMapName{{!}}getFancyName{{!}}',MU._pageName,'{{)}}]] — {{(}}Ut{{!}}',U.WikiName,'{{)}}')
+|join on=MU.Unit=U.WikiName,S.WikiName=MU.Seal
+|where=S.WikiName='Gullinbursti'
+|group by=MU._pageName
+|order by=MU._pageID
+|format=ul
+}}
+==Seal acquired from==
+* This is an enemy exclusive Sacred Seal. It is exclusively equipped by {{Ut|Steam Sword}}, {{Ut|Steam Lance}}, and {{Ut|Steam Axe}}.
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Gullinbursti
+|badgeColor=-
+|costs1=-
+}}
+==Trivia==
+* The Gullinbursti Sacred Seal is almost always equipped by the {{Ut|Steam Sword}}, {{Ut|Steam Lance}}, and {{Ut|Steam Axe}} generic units. The only Steam units that do not do so are {{#cargo_query:tables=MapUnits=MU,Units=U
+|fields=CONCAT(' the {{(}}Ut{{!}}',U.WikiName,'{{)}} in [[',MU._pageName,'{{!}}{{(}}#invoke:GetFancyMapName{{!}}getFancyName{{!}}',MU._pageName,'{{)}}]]')
+|join on=MU.Unit=U.WikiName
+|where=MU.Unit LIKE 'Steam%' AND (MU.Seal!='Gullinbursti' Or MU.Seal is null)
+|group by=MU._pageName
+|format=li
+|delimiter=, and 
+}}.
+{{NorseMyth|is a magical golden boar created by [[Eitri]] and [[Grim Brokkr|Brokkr]].}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=グリンブルスティ
+|german=Gullinbursti
+|spanishEU=Gullinbursti
+|spanishLA=Gullinbursti
+|french=Gullinbursti
+|italian=Gullinbursti
+|chineseTW=古林博斯帝
+|portuguese=Gullinbursti
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【Canto (Rem. +1)】%' AND (Exclusive='1' AND Name NOT LIKE '%+') OR Name LIKE '%N Trace%'|columns=3}}
+* [[Trace Passives]]
+{{Seals Navbox}}

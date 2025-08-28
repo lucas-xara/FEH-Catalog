@@ -1,0 +1,63 @@
+{{SkillPage Tabs}}{{Passive
+|name=Attack/Res
+|type=A
+|exclusive=0
+|1name=Attack/Res 1
+|1tagid=SID_攻撃魔防1
+|1promotionRarity=5
+|1promotionTier=1
+|alt1name=Attack Res 1
+|1effect=Grants Atk/Res+1.
+|1cost=80
+|1required=Attack +1;Resistance +1
+|2name=Attack/Res 2
+|2tagid=SID_攻撃魔防2
+|alt2name=Attack Res 2
+|2effect=Grants Atk/Res+2.
+|2cost=160
+|statModifiers1=0,1,0,0,1
+|statModifiers2=0,2,0,0,2
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|all}}
+|properties=random_all
+}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Attack/Res 1;Attack/Res 2
+|badgeColor=Transparent
+|costs1=20;100;20
+|costs2=400;1000;100
+}}
+==Trivia==
+* Unlike most of the other double [[Plus Passives]], the in-game name of this skill is <code>Attack/Res #</code> instead of <code>Atk/Res #</code>.
+==In other languages==
+{{OtherLanguages
+|english=Attack/Res
+|japanese=攻撃魔防
+|german=Ang./Res.
+|spanishEU=Ata/Res
+|spanishLA=Atq./Res.
+|french=Attaque/Rés
+|italian=Att/Res
+|chineseTW=攻擊魔防
+|portuguese=Atq./Res.
+}}
+
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}
+{{Passives Navbox|A}}
+[[Category: Plus Passives]]

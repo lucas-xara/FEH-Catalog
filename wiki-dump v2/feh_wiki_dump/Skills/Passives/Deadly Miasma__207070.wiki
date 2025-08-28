@@ -1,0 +1,56 @@
+{{Passive
+|name=Deadly Miasma
+|type=C
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|Flying}}
+|properties=random_owner
+|1name=Deadly Miasma
+|1tagid=SID_死の瘴気
+|1effect=If unit initiates combat, inflicts Atk/Spd/Def/Res-5 on foe and neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat, and after combat, deals 7 damage to target and foes within 2 spaces of target and applies【Divine Vein (Haze)】on target's space and on each space within 2 spaces of target's space for 1 turn.<br><br>【Divine Vein (Haze)】<br>Applies the following effects on space: Inflicts Atk/Spd/Def/Res-5 on foe and neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat. (Divine Vein effects do not stack; replaces any existing Divine Vein effect; Divine Vein effects applied simultaneously cancel each other out.)
+|1cost=300
+|1required=Savage Blow 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|MapEffect 1={{SkillEffectText|Damage|7}}
+|MapEffect 1 Targets={{SkillTargetText|Target Foe}} '''&''' {{SkillTargetText|Foes}}<br>[[within 2 spaces]]<br>of {{SkillTargetText|Target Foe}}
+|MapEffect 2={{Eft|Divine Vein (Haze)}}
+|MapEffect 2 Targets=Spaces<br>[[within 2 spaces]]<br>of {{SkillTargetText|Target Foe}}
+|MapEffect Conditions=After combat in<br>Player Phase
+|CombatEffect 1={{SkillEffectText|Temporary debuffs|Atk/Spd/Def/Res|5}}
+|CombatEffect 2={{SkillEffectText|Neutralize Bonus}}
+|CombatEffect Targets={{SkillTargetText|Foe}}
+|CombatEffect Conditions=Player Phase
+}}
+
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary debuffs}}
+{{Bonus neutralization}}
+{{After combat note}}
+{{Out of combat damage}}
+{{Divine Vein|Haze}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=死の瘴気
+|german=Tödliches Miasma
+|spanishEU=Miasma mortal
+|spanishLA=Miasma mortal
+|french=Miasme mortel
+|italian=Miasma letale
+|chineseTW=死之瘴氣
+|portuguese=Miasma letal
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【Divine Vein (Haze)】%' OR Description LIKE '%after combat%deals%damage%to target%and foes within _ spaces%' AND Exclusive='1'}}
+* [[Skill families/Weapons#Fox|Fox Weapons]]
+{{Passives Navbox|C}}

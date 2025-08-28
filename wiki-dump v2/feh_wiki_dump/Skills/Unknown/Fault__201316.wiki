@@ -1,0 +1,35 @@
+{{Captain Skill
+|name=Fault
+|effect=Captain deals damage = X during combat and allies within 3 spaces of captain deal damage = 50% of X during combat (X = highest total penalties among target and foes within 2 spaces of target; excluding area-of-effect Specials).
+|statModifiers=
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{Eft|Damage boost|highest total {{SEt|Penalties}}<br>on {{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]] of {{Tgt|Target Foe}}}}
+|CombatEffect 1 Targets={{Tgt|Captain}}
+|CombatEffect 2={{Eft|Damage boost|50% of highest total {{SEt|Penalties}}<br>on {{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]] of {{Tgt|Target Foe}}}}
+|CombatEffect 2 Targets={{Tgt|Allies}}<br>[[within 3 spaces]]
+}}
+
+==Notes==
+{{DamageBoost}}
+{{EffectfromPenalties|damage boost|multiTarget=1|target=target or foes within 2 spaces of target}}
+{{AlliesCombatEffect|effect=damage boost}}
+==In other languages==
+{{OtherLanguages
+|japanese=寸鉄殺人
+|german=Kritischer Punkt
+|spanishEU=Carencia
+|spanishLA=Carencia
+|french=Lacune
+|italian=Fallo
+|chineseTW=寸鐵殺人
+|portuguese=Rigorosidade
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%between target and foes within _ spaces of target%' OR Description LIKE '%foe within _ spaces of target, including target%' OR Description LIKE '%deals damage%total%penalties on foe%') AND Description NOT LIKE '%Sabotage%' AND Exclusive='1'}}
+* [[Sabotage Passives]]
+{{Captain Skills Navbox}}

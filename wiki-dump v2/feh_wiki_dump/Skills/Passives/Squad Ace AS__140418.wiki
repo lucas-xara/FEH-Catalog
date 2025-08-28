@@ -1,0 +1,59 @@
+{{Passive
+|name=Squad Ace AS
+|type=S
+|exclusive=0
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|timingID=0
+|abilityID=0
+|properties=
+|1name=Squad Ace AS 1
+|alt1name=Squad Ace AI 1
+|1tagid=SID_第45迷宮の覇者1
+|1effect=Grants Atk/Spd+1.
+|1required=-
+|1cost=80
+|statModifiers1=0,1,1,0,0
+|intID1=2501
+|sort1=50440
+|value1=2
+|2name=Squad Ace AS 2
+|alt2name=Squad Ace AI 2
+|2tagid=SID_第45迷宮の覇者2
+|2effect=Grants Atk/Spd+2.
+|2required=Squad Ace AS 1
+|2cost=160
+|statModifiers2=0,2,2,0,0
+|intID2=2502
+|sort2=50441
+|value2=4
+}}
+==Seal acquired from==
+===Squad Assault reward===
+* Complete the [[45th Assault]].
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Squad Ace AS 1;Squad Ace AS 2
+|badgeColor=Azure
+|costs1=-
+|costs2=400;1000;100
+}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=第４５迷宮の覇者
+|german=Überfall-Ass AS
+|spanishEU=As del asalto AS
+|spanishLA=As del asalto AS
+|french=Assaut réussi AS
+|italian=Asso sq. AS
+|chineseTW=第４５迷宮的霸王
+|portuguese=Esquadrão ás AS
+}}
+==See also==
+* [[Plus Passives]]
+* [[Squad Ace Seals]]
+* [[Initiate Seals]]
+* [[:Category:Weapons with stat bonuses|Weapons with stat bonuses]]
+{{Seals Navbox}}

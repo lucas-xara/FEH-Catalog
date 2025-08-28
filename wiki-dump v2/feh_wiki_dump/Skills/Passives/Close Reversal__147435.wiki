@@ -1,0 +1,50 @@
+{{Passive
+|name=Close Reversal
+|type=A
+|exclusive=0
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|Ranged}}
+|intID=2706
+|sort=6022
+|value=12
+|timingID=0
+|abilityID=0
+|limit1ID=2
+|randomTimestamp=2021-09-17T07:00:00Z
+|randomMinLv=36
+|properties=random_owner
+|1name=Close Reversal
+|1tagid=SID_近反・金剛の構え
+|1effect=If foe initiates combat, grants Def+5 to unit during combat and unit can counterattack regardless of foe's range.
+|1required=Close Counter
+|1cost=300
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Combat boosts}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=近反・金剛の構え
+|german=Naher Stand
+|spanishEU=Inversión corta
+|spanishLA=Inversión corta
+|french=Revers rapproché
+|italian=Contratt. deciso
+|chineseTW=近反・金剛架勢
+|portuguese=Postura invertida
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%counterattack regardless of%range%' AND SCategory!='Weapon') AND ((Exclusive='1' AND Name NOT LIKE '%+') OR SCategory='captain')}}
+* [[Counter Passives]]
+* [[Counter Seals]]
+* [[Stance Passives]]
+* [[Prime Passives]]
+* [[Weapons with Distant Counter]]
+* [[Weapons with Close Counter]]
+{{Passives Navbox|A}}

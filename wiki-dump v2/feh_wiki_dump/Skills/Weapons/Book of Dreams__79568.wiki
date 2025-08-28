@@ -1,0 +1,53 @@
+{{Weapon Infobox
+|tagid=SID_夢幻の書
+|weaponType=Red Tome
+|weaponName={{PAGENAME}}
+|might=14
+|range=2
+|effect=Grants Atk+3. If unit is adjacent to an ally, inflicts Atk/Spd/Def/Res-4 on foe during combat.
+|cost=400
+|exclusive=1
+|userVersion1=Closed|userVersion2=Open|userVersion3=Gleam Closed|userVersion4=Gleam Open
+|statModifiers=0,17,0,0,0
+|required=Fenrir
+|SE=se_effect_blessing_water.flac
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Atk+3. At start of turn, inflicts Atk/Spd/Res-5 on closest foes within 5 spaces and any foe within 2 spaces of those foes through their next actions. If unit initiates combat or is within 2 spaces of an ally, inflicts Atk/Spd/Def/Res-4 on foe during combat.
+|tagidExtraSkill1=一
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+5 to unit during combat, and deals damage = 15% of unit's Atk, including when dealing damage with a Special triggered before combat.
+|iconSkill1=Book of Dreams W.png
+|properties=random_owner
+}}
+==Notes==
+{{Combat reductions}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Penalties}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{AtkDamageBoost}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V2.11_63_dream01.png|Sprite sheet used for attack effects
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=夢幻の書
+|german=Traumbuch
+|spanishEU=Libro de sueños
+|spanishLA=Libro de sueños
+|french=Livre des rêves
+|italian=Tomo onirico
+|chineseTW=夢幻之書
+|portuguese=Livro de sonhos
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If unit is adjacent to an ally, inflicts Atk/Spd/Def/Res-4 on foe during combat%' OR Description LIKE '%At start of turn%inflicts%on%est foes within _ spaces%' AND Exclusive='1' OR Description LIKE '%deals damage =%of unit_s Atk%' AND Description NOT LIKE '%minus%' AND Description NOT LIKE '%boost resets%'}}
+* [[Menace Passives]]
+{{Weapons Navbox}}

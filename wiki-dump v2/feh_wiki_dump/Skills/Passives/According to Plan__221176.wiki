@@ -1,0 +1,55 @@
+{{Passive
+|name=According to Plan
+|type=B
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=According to Plan
+|1tagid=SID_読み通りです！
+|1effect=At start of turn, if unit's HP ≥ 25%, grants Atk/Spd+6 and【Canto (１)】to unit and allies within 2 spaces of unit for 1 turn and inflicts【Hush Spectrum】and【Panic】on closest foes and any foe within 2 spaces of those foes through their next actions.<br><br>At start of combat, if unit's HP ≥ 25%, inflicts Atk/Spd/Res-5 on foe, unit deals +X × 5 damage (max 25; excluding area-of-effect Specials), and reduces damage from foe's first attack by X × 3 (max 15) during combat (X = number of Bonus effects active on unit, excluding stat bonuses + number of Penalty effects active on foe, excluding stat penalties; "first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes).<br><br>【Canto (１)】<br>After an attack, Assist skill, or structure destruction, unit can move １ space(s).<br>(Once per turn. Only highest value applied. Does not stack.)<br><br>【Hush Spectrum】<br>Inflicts Atk/Spd/Def/Res-5 on unit during combat. If unit's attack can trigger unit's Special, inflicts Special cooldown count+1 on unit before unit's first attack during combat (cannot exceed the unit's maximum Special cooldown). If unit's maximum Special cooldown count is reduced (Special trigger is accelerated) and if foe's attack can trigger foe's Special, grants Special cooldown count-1 to foe before unit's first attack during combat.<br><br>【Panic】<br>Converts bonuses on target into penalties through its next action.
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{Eft|Bonuses|Atk/Spd|6}}
+|Se2={{SEt|Canto (1)}}
+|Se1-2T={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|Se3={{SEt|Hush Spectrum}}
+|Se4={{SEt|Panic}}
+|Se3-4T=Closest {{Tgt|Foes}}<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}
+|SeC=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25%
+|Ce1={{Eft|Temporary debuffs|Atk/Spd/Res|5}}
+|Ce1T={{Tgt|Foe}}
+|Ce2={{Eft|Damage Boost|5 x ({{Kp|Bonus}} effects<br>on {{Tgt|Unit}} '''&''' {{Kp|Penalty}}<br>effects on {{Tgt|Foe}}), +5<br>(exc. {{SEt|Bonuses}} '''&''' {{SEt|Penalties}})|max=25}}
+|Ce3={{Eft|Damage Reduction|3 x ({{Kp|Bonus}} effects<br>on {{Tgt|Unit}} '''&''' {{Kp|Penalty}}<br>effects on {{Tgt|Foe}}), +5<br>(exc. {{SEt|Bonuses}} '''&''' {{SEt|Penalties}})|max=15}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{Bonuses}}
+{{Canto|1|statusEffect=1}}
+{{Hush Spectrum}}
+{{Panic}}
+{{Temporary debuffs}}
+{{FlatDamageBoost|X (max: 25)}}
+{{FlatDamageReduction|X (max: 15)}}
+{{EffectfromBonus|damage boost and flat damage reduction|nonStat=1}}
+{{EffectfromPenalty|damage boost and flat damage reduction|nonStat=1}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=読み通りです！
+|german=Alles nach Plan
+|spanishEU=Según el plan
+|spanishLA=Según el plan
+|french=Selon le plan
+|italian=Secondo i piani
+|chineseTW=正如我所料！
+|portuguese=Segundo o plano
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Hush Spectrum】%' OR Description LIKE '%number of%Bonus%effects active on unit%' OR Description LIKE '%number of%Penalty%effects active on foe%') AND (Exclusive='1' AND Name NOT LIKE '%+' AND Properties HOLDS NOT 'arcane')}}
+{{Passives Navbox|B}}

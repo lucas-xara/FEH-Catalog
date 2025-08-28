@@ -1,0 +1,66 @@
+{{Weapon Infobox
+|tagid=SID_白の血族のブレス
+|intID=4167
+|image=wep_ac080
+|exclusive=1
+|weaponType=Dragonstone
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). Unit can counterattack regardless of foe's range.<br><br>At start of turn, if unit's HP ≥ 25% and unit's Special cooldown count is at its maximum value, grants Special cooldown count-1 to unit.<br><br>At start of combat, if unit's HP ≥ 25%, grants bonus to unit's Atk/Spd/Def/Res = number of allies within 3 spaces of unit × 3, + 5 (max 14), and reduces damage from foe's first attack by 7 during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and also, if foe's attack can trigger foe's Special and unit's Res ≥ foe's Res+5, inflicts Special cooldown count+1 on foe before foe's first attack during combat (cannot exceed foe's maximum Special cooldown). If unit's HP ≥ 25% at start of combat and if unit's Special cooldown count value is at its maximum after combat, grants Special cooldown count-1 to unit after combat. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.
+|required=Flametongue
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Ce1={{Eft|Distant Counter}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|3 x {{Tgt|Allies}}<br>[[within 3 spaces]], +5|max=14}}
+|Ce3={{Eft|Damage Reduction|7}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|CeT1-3={{Tgt|Unit}}
+|CeC2-3={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce4={{Eft|Increase Cooldown|1}}<br>before {{Tgt|Foe}}'s first attack
+|CeT4={{Tgt|Foe}}
+|CeC4={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat,<br>{{Tgt|Foe}} has an<br>[[offensive special]],<br>'''&''' {{Tgt|Unit}}'s Res ≥<br>{{Tgt|Foe}}'s Res+5
+|Ce5={{Eft|Lower Def Res}}
+|CeC5={{Tgt|Foe}}'s Range = 2
+|Me1={{Eft|Reduce Cooldown|1}}
+|MeC1=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25%<br>'''&''' {{Tgt|Unit}}'s CD<br>is max value
+|Me2={{Eft|Reduce Cooldown|1}}
+|MeC2=After combat if<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' {{Tgt|Unit}}'s CD<br>is max value
+}}
+
+==Notes==
+* Hoshido's Breath has the same effect as {{St|Distant Counter}}.
+{{Start of turn Special modification}}
+{{Temporary buffs}}
+{{FlatDamageReduction|7}}
+{{CombatCooldownCount|+1}}
+{{After combat Special modification}}
+{{LowerDefRes}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V8.5_v0805c_legend_Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=白の血族のブレス
+|german=Hoshidos Atem
+|spanishEU=Aliento hoshidano
+|spanishLA=Aliento hoshidano
+|french=Souffle d'Hoshido
+|italian=Soffio hoshidese
+|chineseTW=白之血族吐息
+|portuguese=Sopro de Hoshido
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%reduces damage from foe_s first attack by 7 %"first attack"%' OR Description LIKE '%if foe_s attack can trigger their Special%inflicts Special cooldown count+%on foe before foe_s first attack%' OR Description LIKE '%allies within _ spaces of unit ×%') AND Exclusive='1'}}
+* [[Time Pulse Passives]]
+* [[Form Passives]]
+* [[Scowl Passives]]
+{{Weapons Navbox}}

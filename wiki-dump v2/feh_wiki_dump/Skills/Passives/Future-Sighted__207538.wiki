@@ -1,0 +1,54 @@
+{{Passive
+|name=Future-Sighted
+|type=C
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Future-Sighted
+|1tagid=SID_共に未来を変えて
+|1effect=After foes' start-of-turn skills trigger, for the closest foes in cardinal directions of unit, if unit's Res ≥ foe's Res+X (X = distance from unit to foe × 3, - 5), and if【Time's Grip】is not active on foe, that foe's action ends immediately and inflicts【Time's Grip】 on foe. If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+4 to unit, unit makes a guaranteed follow-up attack, and reduces damage from foe's first attack by 30% during combat.<br><br>【Time's Grip】<br>Inflicts Atk/Spd/Def/Res-4 during combat. Neutralizes unit's skills during allies' combat through unit's next action.
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se={{SEt|Time's Grip}}
+|SeT=Closest {{Tgt|Foes}} in<br>[[cardinal directions]]
+|SeC=After start-of-turn<br>skills trigger if<br>{{Eft|End Action}}<br>conditions are met
+|Me={{Eft|End Action}} after<br>start-of-turn skills trigger
+|MeT=Closest {{Tgt|Foes}} in<br>[[cardinal directions]]
+|MeC={{SEt|Time's Grip}} is not<br>active on {{Tgt|Foe}}<br>'''&''' {{Tgt|Unit}}'s Res<br>≥{{Tgt|Foe}}'s Res+X<br>X = (Distance from<br>{{Tgt|Unit}} to {{Tgt|Foe}}x3,-5)
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|Ce2={{Eft|Guaranteed Follow-Ups}}
+|Ce3={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s first attack
+|CeC=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+}}
+
+==Notes==
+{{CardinalDirections}}
+{{SpacesFromUnittoFoe}}
+{{EndAction}}
+{{Time's Grip}}
+{{Temporary buffs}}
+{{Guaranteed follow-up interaction}}
+{{DamagePercentageReduction}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=共に未来を変えて
+|german=Zukunftssichtig
+|spanishEU=Meta de futuro
+|spanishLA=Meta de futuro
+|french=Avenir prédit
+|italian=Occhio venturo
+|chineseTW=一同改變未來
+|portuguese=Visão póstera
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%action ends immediately%' OR Description LIKE '%actions end immediately%' OR Description LIKE '%【Time_s Grip】%' AND Description NOT LIKE '%【Time_s Grip】%is active on target%' OR Description LIKE '%if unit is within 3 spaces%Atk/Spd/Def/Res+%makes a guaranteed follow-up%reduces damage%'}}
+* [[Safety Fence (O)]]
+* [[Hex Trap]]
+{{Passives Navbox|C}}

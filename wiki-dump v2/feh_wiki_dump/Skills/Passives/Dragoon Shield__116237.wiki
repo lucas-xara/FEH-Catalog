@@ -1,0 +1,35 @@
+{{SkillPage Tabs}}{{Passive
+|name=Dragoon Shield
+|type=A
+|exclusive=1
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|1name=Dragoon Shield
+|1tagid=SID_赤い竜騎士の盾
+|1effect=Neutralizes "effective against flying" bonuses. Grants Atk/Spd/Def+3.
+|1required=-
+|1cost=300
+|statModifiers1=0,3,3,3,0
+|properties=random_owner
+}}
+==Notes==
+* Has the same effects as {{St|Iote's Shield}} and {{St|Squad Ace BY 3}}.
+{{Effectiveness neutralization|Flying}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=赤い竜騎士の盾
+|german=Dragonerschild
+|spanishEU=Escudo dragoon
+|spanishLA=Escudo dragoon
+|french=Bouclier carabin
+|italian=Scudo dragone
+|chineseTW=赤色龍騎士之盾
+|portuguese=Escudo dragoon
+}}
+==See also==
+* [[Shield Passives]]
+{{See also skills|cond=Description LIKE '%Neutralizes "effective against flying%' AND WikiName!='Iotes Shield'}}
+{{Passives Navbox|A}}

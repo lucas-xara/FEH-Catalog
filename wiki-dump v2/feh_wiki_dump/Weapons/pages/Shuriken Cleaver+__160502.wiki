@@ -1,0 +1,35 @@
+{{Weapon Infobox
+|tagid=SID_忍の三叉斧＋
+|intID=2820
+|image=wep_ax101
+|exclusive=0
+|weaponType=Axe
+|cost=300
+|might=9
+|range=1
+|effect=Inflicts Def/Res-4. If unit initiates combat, unit attacks twice, and also, if unit's Spd > foe's Spd, deals damage = 50% of difference between stats. (Maximum bonus of +4 damage.)
+|statModifiers=0,9,0,-4,-4
+|required=Shuriken Cleaver
+|properties=
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Brave weapon interaction}}
+{{BonusStatDamage|stat=Spd|4|8}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=忍の三叉斧＋
+|german=Beil-Shuriken+
+|spanishEU=Shuriken puñal +
+|spanishLA=Shuriken puñal +
+|french=Shuriken mortel +
+|italian=Shuriken letale+
+|chineseTW=忍之三叉斧＋
+|portuguese=Cutelo Shuriken+
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%inflicts Def/Res-%unit attacks twice%' OR Description LIKE '%unit_s Spd%>%foe_s%deals damage =%difference between%') AND (SP=300 OR Exclusive='1')}}
+* [[Brave Weapons]]
+{{Weapons Navbox}}

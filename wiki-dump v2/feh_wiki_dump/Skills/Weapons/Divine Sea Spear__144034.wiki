@@ -1,0 +1,42 @@
+{{Weapon Infobox
+|tagid=SID_漁神の恵槍
+|weaponName=Divine Sea Spear
+|image=wep_lc104
+|weaponType=Lance
+|might=16
+|range=1
+|effect=Grants Atk+3. If unit initiates combat or if foe's HP ≥ 75% at start of combat, grants Atk/Spd/Def+3 to unit during combat and inflicts Atk/Spd/Def-3 on foe during combat, and also, if foe has Atk/Spd/Def bonuses, grants bonus to unit's Atk/Spd/Def and inflicts penalty on foe's Atk/Spd/Def during combat = current bonus on each of foe's Atk/Spd/Def. Calculates each stat bonus independently.
+|cost=400
+|exclusive=1
+|statModifiers=0,19,0,0,0
+|required=Silver Lance
+|intID=2605
+|sort=551
+|value=20
+|timingID=1
+|abilityID=243
+|limit1ID=68
+|properties=
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{TemporaryBufffromBonus|source=the foe}}
+{{TemporaryDebufffromBonus|source=the foe}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=漁神の恵槍
+|german=Göttl. Seelanze
+|spanishEU=Lanza mar divina
+|spanishLA=Lanza mar divina
+|french=Lance marine
+|italian=Lancia marina
+|chineseTW=漁神的惠槍
+|portuguese=Lança mar divino
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe has%bonus%grants%inflicts%' AND Exclusive='1' AND WikiName NOT LIKE '%defier%'}}
+* [[Skill families/Weapons#Defier's|Defier's Weapons]]
+{{Weapons Navbox}}

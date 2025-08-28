@@ -1,0 +1,52 @@
+{{Weapon Infobox
+|tagid=SID_円環の力
+|intID=3736
+|image=wep_mg183
+|exclusive=1
+|weaponType=Blue Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Enables【Canto (１)】.<br><br>Accelerates Special trigger (cooldown count-1). If unit initiates combat or【Bonus】is active on unit, grants Atk/Spd/Def/Res+5 to unit, grants Atk/Spd+X to unit (X = number of turns × 2; max 10), deals damage = 20% of unit's Spd (including when dealing damage with a Special triggered before combat), and neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat.<br><br>【Canto (１)】<br>After an attack, Assist skill, or structure destruction, unit can move １ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).
+|required=Thoron;Shine
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Me={{Eft|Canto|1}}
+|Ce1={{Eft|Temporary buffs|Atk/Spd|turn number x 2|max=10}}
+|Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}<br>before '''&''' during combat
+|Ce3={{Eft|Neutralize Prevent Follow-Ups}}
+|Ce4={{Eft|Neutralize Guaranteed Follow-Ups}}
+|Ce4T={{Tgt|Foe}}
+|CeC=Player Phase '''or'''<br>a {{Kp|Bonus}} effect<br>is active on {{Tgt|Unit}}
+}}
+==Notes==
+{{Canto|1}}
+{{IfUnitInitiates}}
+{{EffectfromBonus}}
+{{Temporary buffs}}
+{{DamageBoost}}
+{{Follow-up effect neutralization}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V7.8_v0708b_popularity_Mag_2.webp|Sprite sheet for {{St|Arch-Sage Tome}}, and {{St|The Cycle's Turn}}'s animations.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=円環の力
+|german=Kreislaufwende
+|spanishEU=Poder del ciclo
+|spanishLA=Poder del ciclo
+|french=Tour cyclique
+|italian=Ciclo perpetuo
+|chineseTW=圓環之力
+|portuguese=Poder do ciclo
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【Canto (1)】%' AND Exclusive='1' AND Name NOT LIKE '%+' OR Description LIKE '%= number of turns%' OR Description LIKE '%deals damage = 20%of unit_s Spd%'}}
+{{Weapons Navbox}}

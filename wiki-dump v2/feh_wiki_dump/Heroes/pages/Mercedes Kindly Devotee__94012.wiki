@@ -1,0 +1,81 @@
+{{#invoke:NameAbout|main|Name=Mercedes}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Mercedes
+|Title=Kindly Devotee
+|GrowthModifier=Gen 3
+|WeaponType=Colorless Staff
+|Origin=Fire Emblem: Three Houses
+|Gender=Female
+|MoveType=Infantry
+|actorJP=花守ゆみり
+|actorEN=Dorothy Fahn
+|artist=かかげ
+|additionDate=August 6, 2019
+|releaseDate=August 7, 2019
+|poolDate=August 28, 2019
+|randomStartTime=2019-09-07T07:00:00Z
+|poolRarities=3,4
+|TagID=メルセデス
+|InternalID=408
+|Properties=demoted_202004
+|cv1=12
+|cv2=300600
+|description=Adopted daughter of a merchant family in the Holy Kingdom of Faerghus. Former nobility with a gentle, easygoing personality. Appears in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=9|Lv1SPD=6|Lv1DEF=5|Lv1RES=9
+|GRHP=50|GRATK=55|GRSPD=55|GRDEF=40|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Assault
+|weapon1Default=
+|weapon1Unlock=1
+|weapon2=Gravity
+|weapon2Default=
+|weapon2Unlock=3
+|weapon3=Gravity+
+|weapon3Default=
+|weapon3Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Heal
+|assist1Default=1
+|assist1Unlock=1
+|assist2=Reconcile
+|assist2Default=3
+|assist2Unlock=2
+|assist3=Martyr
+|assist3Default=4
+|assist3Unlock=3
+|assist4=Martyr+
+|assist4Default=5
+|assist4Unlock=5
+}}
+===Specials===
+{{Specials Table
+|special1=Miracle
+|special1Default=4
+|special1Unlock=3
+|special2=Imbue
+|special2Default=
+|special2Unlock=2
+}}
+===Passives===
+{{Passives Table
+|passiveA1=AR-D Spd/Res 1
+|passiveA2=AR-D Spd/Res 2
+|passiveA3=AR-D Spd/Res 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Odd Res Wave 1
+|passiveC2=Odd Res Wave 2
+|passiveC3=Odd Res Wave 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

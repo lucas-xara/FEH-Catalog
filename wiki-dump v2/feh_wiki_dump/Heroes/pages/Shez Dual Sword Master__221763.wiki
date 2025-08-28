@@ -1,0 +1,79 @@
+{{#invoke:NameAbout|main|Name=Shez}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Shez
+|Title=Dual Sword Master
+|WeaponType=Red Dagger
+|MoveType=Infantry
+|Person=Shez M
+|Origin=Fire Emblem Warriors: Three Hopes
+|Gender=Male
+|LegendaryEffect=Wind
+|BoostHP=3
+|BoostDef=4
+|Duel=205
+|actorEN=Damien Haas
+|actorJP=畠中祐
+|artist=柊暁生
+|additionDate=August 30, 2024
+|releaseDate=August 30, 2024
+|cv1=12
+|cv2=1100100
+|TagID=伝承シェズ男
+|InternalID=1136
+|Properties=legendary
+|description=Mercenary that throws himself into the battles of Fódlan. Defeated countless foes and led many allies to victory. Appears in Fire Emblem Warriors: Three Hopes.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=12|Lv1SPD=8|Lv1DEF=10|Lv1RES=5
+|GRHP=50|GRATK=80|GRSPD=90|GRDEF=50|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Dagger
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Dagger
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Dagger
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Dual Sword
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Draconic Aura
+|special2Unlock=4
+|special3=Ruptured Sky
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Finish 1
+|passiveA2=Atk/Spd Finish 2
+|passiveA3=Atk/Spd Finish 3
+|passiveA4=Atk/Spd Finish 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Shadow Slide
+|passiveB1Unlock=5
+|passiveC1=Pulse Smoke 1
+|passiveC2=Pulse Smoke 2
+|passiveC3=Pulse Smoke 3
+|passiveC4=Pulse Smog
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}

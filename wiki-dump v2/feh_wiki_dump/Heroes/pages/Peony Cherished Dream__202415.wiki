@@ -1,0 +1,95 @@
+{{#invoke:NameAbout|main|Name=Peony}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Peony
+|Title=Cherished Dream
+|Origin=Fire Emblem Heroes
+|Person=Peony
+|Gender=F
+|WeaponType=Green Axe
+|MoveType=Flying
+|actorEN=Ryan Bartley
+|actorJP=和氣あず未
+|artist=四々九
+|additionDate=2023-10-03
+|releaseDate=October 16, 2023
+|cv1=0
+|cv2=400100
+|Properties=attuned,refresher
+|description=A ljósálfr from Ljósálfheimr, the realm of dreams. Delivers pleasant dreams to mortals. Her connection with Triandra has awakened a new power.
+|TagID=ピアニー2
+|InternalID=1009
+|EnemyInternalID=102
+}}
+==Ally stats==
+{{Stats Page|noheader=1
+|Lv1HP=18|Lv1ATK=10|Lv1SPD=10|Lv1DEF=3|Lv1RES=5
+|GRHP=50|GRATK=70|GRSPD=80|GRDEF=50|GRRES=55
+}}
+==Enemy stats==
+{{Stats Page/Enemy|noheader=1
+|Lv1HP=18|Lv1ATK=10|Lv1SPD=10|Lv1DEF=3|Lv1RES=5
+|GRHP=50|GRATK=70|GRSPD=80|GRDEF=50|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Flower of Caring
+|weapon4Default=5
+|weapon4Unlock=5
+|hasEnemy=1
+}}
+===Ally Assists===
+{{Assists Table
+|assist1=Dance
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Tender Dream
+|assist2Unlock=5
+}}
+===Enemy Assists===
+{{Assists Table/enemy
+|assist1=Dance
+|assist2=Gentle Dream
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Bond 1
+|passiveA2=Atk/Spd Bond 2
+|passiveA3=Atk/Spd Bond 3
+|passiveA4=Atk/Spd Unity
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Gale Dance 1
+|passiveB2=Rockslide Dance 1
+|passiveB3=Rockslide Dance 2
+|passiveB4=Rockslide Dance 3
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Spur Spd 1
+|passiveC2=Spur Spd 2
+|passiveC3=Spur Spd 3
+|passiveC4=Cross Spur Spd
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+|passiveX1=Atk Oath Echo
+|passiveX1Unlock=5
+}}
+{{Heroes Navbox}}
+{{Enemies Navbox}}

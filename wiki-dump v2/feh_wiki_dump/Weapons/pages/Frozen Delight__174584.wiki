@@ -1,0 +1,50 @@
+{{Weapon Infobox
+|tagid=SID_真夏の涼の氷菓子
+|intID=3120
+|image=wep_dg065
+|exclusive=1
+|weaponType=Dagger
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Enables【Canto (Rem.)】.<br><br>Accelerates Special trigger (cooldown count-1). If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd+6 to unit during combat, and also, if unit initiates combat and total bonuses on unit + total penalties on foe ≥ 12, unit attacks twice.<br>Effect:【Dagger ７】<br><br>【Canto (Rem.)】<br>After an attack, Assist skill, or structure destruction, unit can move spaces = any movement not already used that turn. (If unit used a movement skill that warped them, its remaining movement is 0.)<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|statModifiers=0,14,0,0,0
+|required=Silver Dagger
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Me={{Eft|Canto|Rem.}}
+|Ce1={{Eft|Temporary buffs|Atk/Spd|6}}
+|Ce1C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce2={{Eft|Attack Twice}}
+|Ce2C=Player Phase '''&'''<br>{{Tgt|Unit}}'s total<br>{{SEt|Bonuses}} + {{Tgt|Foe}}'s<br>total {{SEt|Penalties}} ≥ 12
+|Se={{Eft|Penalties|Def/Res|7}}
+|SeT={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|SeC=After combat if<br>{{Tgt|Unit}} attacked
+}}
+==Notes==
+{{Canto|Rem.}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Brave weapon interaction}}
+{{IfUnitAttacked}}
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=真夏の涼の氷菓子
+|german=Eisige Leckerei
+|spanishEU=Delicia helada
+|spanishLA=Delicia helada
+|french=Délice glacé
+|italian=Delizia gelata
+|chineseTW=盛夏的涼快冰品
+|portuguese=Delícia gelada
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Canto%, unit attacks twice%' OR Description LIKE '%total bonuses on unit + total penalties on foe%') AND Exclusive='1'}}
+{{Weapons Navbox}}

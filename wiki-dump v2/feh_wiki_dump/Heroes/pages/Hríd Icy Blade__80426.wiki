@@ -1,0 +1,79 @@
+{{#invoke:NameAbout|main|Name=Hríd}}
+{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Hríd
+|Title=Icy Blade
+|LegendaryEffect=Wind
+|BoostHP=3
+|BoostDef=4
+|GrowthModifier=
+|WeaponType=Red Sword
+|MoveType=Cavalry
+|Origin=Fire Emblem Heroes
+|Gender=Male
+|actorEN=Mark P. Whitten
+|actorJP=松岡禎丞
+|artist=前嶋重機
+|releaseDate=11/28/2018
+|TagID=フリーズ
+|InternalID=316
+|Properties=legendary
+|cv1=0
+|cv2=200300
+|description=The eldest prince of Nifl, Kingdom of Ice. With a steady, calm demeanor, he's always prepared for danger.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=7|Lv1SPD=4|Lv1DEF=12|Lv1RES=4
+|GRHP=50|GRATK=70|GRSPD=30|GRDEF=55|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Gjöll
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Moonbow
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Distant Counter
+|passiveA1Unlock=5
+|passiveB1=Freezing Seal
+|passiveB2=Freezing Seal II
+|passiveB1Unlock=5
+|passiveB2Unlock=5
+|passiveC1=Threaten Atk 1
+|passiveC2=Threat. Atk/Def 1
+|passiveC3=Threat. Atk/Def 2
+|passiveC4=Atk/Def Menace
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+|passiveC5=Atk Smoke 1
+|passiveC6=Atk Smoke 2
+|passiveC7=Atk Smoke 3
+|passiveC5Unlock=1
+|passiveC6Unlock=2
+|passiveC7Unlock=4
+}}
+{{Heroes Navbox}}

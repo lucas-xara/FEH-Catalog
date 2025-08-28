@@ -1,0 +1,49 @@
+{{Weapon Infobox
+|tagid=SID_結婚式の燭台
+|weaponName=Love Candelabra
+|weaponType=Axe
+|might=10
+|range=1
+|effect=Grants Atk/Def+4 to allies within 2 spaces during combat. If unit is within 2 spaces of an ally, grants Atk/Def+4 to unit during combat.
+|cost=200
+|exclusive=0
+|statModifiers=0,10,0,0,0
+|required=Steel Axe
+|next=
+|promotionRarity=5
+|promotionTier=1
+|intID=2561
+|sort=91500
+|effectRange=2
+|value=11
+|timingID=20
+|abilityID=143
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+{{AlliesCombatEffect}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+Weapon Love Candelabra.png|Phase 1
+Weapon Love Candelabra V2.png|Phase 2
+Weapon Love Candelabra V3.png|Phase 3
+Wep ax090.webp|Sprite sheet use to animate the weapon.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=結婚式の燭台
+|german=Liebesleuchter
+|spanishEU=Candelabro amor
+|spanishLA=Candelabro amor
+|french=Bougie d'amour
+|italian=Candele nuziali
+|chineseTW=婚禮的燭台
+|portuguese=Castiçal do amor
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants%/%+%to allies within _ spaces%if unit is within _ spaces of an ally%grants%/%+%during combat%' OR Description LIKE '%if unit is within _ spaces of an ally%grants%/%+%to unit and allies%during combat%'|columns=3}}
+* [[Joint Drive Passives]]
+{{Weapons Navbox}}

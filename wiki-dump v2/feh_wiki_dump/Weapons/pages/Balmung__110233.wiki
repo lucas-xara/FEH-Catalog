@@ -1,0 +1,71 @@
+{{Weapon Infobox
+|tagid=SID_バルムンク
+|weaponType=Sword
+|might=16
+|range=1
+|effect=Grants Spd+3. If foe initiates combat or if foe's HP = 100% at start of combat, neutralizes penalties on unit and grants Atk/Spd/Def/Res+5 to unit during combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,3,0,0
+|required=Silver Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Spd+3. If foe initiates combat or if foe's HP ≥ 75% at start of combat, neutralizes unit's penalties, grants Atk/Spd/Def/Res+5 to unit, and neutralizes effects that grant "Special cooldown charge +X" to foe or inflict "Special cooldown charge -X" on unit during combat.
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+X to unit during combat (X = 15% of unit's Spd at start of combat, + 4), and also, if unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between Spd stats × 4 (max 40%).
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Spd|3}}
+|s1 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s1 Ce2={{Eft|Neutralize Penalties}}
+|s1 CeC=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP = 100%<br>at start of combat
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Spd|3}}
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s2 Ce2={{Eft|Neutralize Penalties}}
+|s2 Ce3={{Eft|Neutralize Guard}}
+|s2 Ce4={{Eft|Neutralize Special Cooldown Charge +1}}
+|s2 Ce4T={{Tgt|Foe}}
+|s2 CeC=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|skill3={{Si|Balmung|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4 + 15% of {{Tgt|Unit}}'s Spd<br>at start of combat}}
+|s3 Ce1C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s3 Ce2={{Eft|Damage Reduction|4 x ({{Tgt|Unit}}'s Spd - {{Tgt|Foe)}}'s Spd)<br>from attacks & Non-Røkkr [[AoE Specials]]|percent=1|max=40%}}
+|s3 Ce2C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' {{Tgt|Unit}}'s Spd<br>> {{Tgt|Foe}}'s Spd
+}}
+
+==Notes==
+{{IfFoeInitiates}}
+{{Penalty neutralization}}
+{{Temporary buffs}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{CooldownChargeMinusNeutralization|name=refined Balmung}}
+{{CooldownChargePlusNeutralization|name=refined Balmung}}
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Balmung
+|japanese=バルムンク
+|german=Balmung
+|spanishEU=Balmung
+|spanishLA=Balmung
+|french=Balmung
+|italian=Balmung
+|chineseTW=巴爾孟克
+|portuguese=Balmung
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%if foe initiates combat%if foe_s HP%grants Atk/Spd/Def/Res+%during combat%' OR Description LIKE '%foe_s HP%neutralizes penalties on unit%' OR Description LIKE '%grants%neutralizes penalties on unit%') AND Exclusive='1'}}
+* [[Tempo Passives]]
+* [[Dodge Passives]]
+{{Weapons Navbox}}

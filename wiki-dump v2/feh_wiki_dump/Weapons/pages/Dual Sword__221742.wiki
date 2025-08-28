@@ -1,0 +1,78 @@
+{{Weapon Infobox
+|tagid=SID_修羅の双刃
+|intID=4304
+|userVersion1=Main
+|userVersion2=Sub
+|exclusive=1
+|weaponType=Dagger
+|cost=400
+|might=8
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). Unit attacks twice (even if foe initiates combat, unit attacks twice).<br><br>Inflicts penalty on Atk/Spd/Def/Res for foes within 3 rows or 3 columns centered on unit during combat = 4 + number of combat instances on current turn × 4 (max 12; includes combat instances unit does not participate in; battles on player phase and on enemy phase are counted separately; does not include this current combat instance).<br><br>At start of combat, if unit's HP ≥ 25%, grants bonus to unit's Atk/Spd/Def/Res = 5 + number of foes within 3 rows or 3 columns centered on unit × 3 (max 14), reduces damage from foe's first attack by 30% ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and neutralizes effects that grant "Special cooldown charge +X" to foe or inflict "Special cooldown charge -X" on unit during combat.<br><br>Effect:【Dagger ７】<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|required=Silver Dagger
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Ce1={{Eft|Attack Twice}}
+|Ce2={{Eft|Temporary debuffs|Atk/Spd/Def/Res|4 x combat instances<br>during the current phase, +4|max=12}}
+|Ce2T={{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|Ce3={{Eft|Temporary buffs|Atk/Spd/Def/Res|3 x {{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}, + 5|max=14}}
+|Ce4={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce5={{Eft|Neutralize Guard}}
+|Ce3-5T={{Tgt|Unit}}
+|Ce6={{Eft|Neutralize Accelerate Charge}}
+|Ce6T={{Tgt|Foe}}
+|Ce3-6C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Se={{Eft|Penalties|Def/Res|7}}
+|SeT={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|SeC=After combat if<br>{{Tgt|Unit}} attacked
+}}
+
+==Notes==
+{{AttackTwice}}
+{{Temporary debuffs}}
+{{FoesCombatEffect|temporary debuffs}}
+{{Temporary buffs}}
+{{DamagePercentageReduction}}
+{{CooldownChargePlusNeutralization}}
+{{CooldownChargeMinusNeutralization}}
+{{IfUnitAttacked}}
+{{Penalties}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Shez: Dual Sword Master|t=Arval: Cycle Keeper
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=Description LIKE '% unit attacks twice%【Dagger ７】%' AND (SP=300 OR Exclusive='1') OR (Description LIKE '%combat instance%' OR Description LIKE '%inflicts%/%on%foes within%rows%during combat%' AND Description NOT LIKE '%at start of%inflicts%on foes within%rows%next action%during combat%') AND Exclusive='1'}}
+* [[Brave Weapons]]
+* [[Rein Passives]]
+* [[Skill families/C Passives#Crux|Crux Passives]]
+* [[Tempo Passives]]
+{{Weapons Navbox}}

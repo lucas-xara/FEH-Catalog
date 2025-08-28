@@ -1,0 +1,91 @@
+{{Passive
+|name=Odd Spd Wave
+|type=C
+|exclusive=0
+|1name=Odd Spd Wave 1
+|1tagid=SID_速さの波・奇数1
+|1promotionRarity=4
+|1promotionTier=1
+|1required=-
+|1effect=At start of odd-numbered turns, grants Spd+2 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)
+|1cost=60
+|2name=Odd Spd Wave 2
+|2tagid=SID_速さの波・奇数2
+|2promotionRarity=5
+|2promotionTier=1
+|2effect=At start of odd-numbered turns, grants Spd+4 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)
+|2cost=120
+|3name=Odd Spd Wave 3
+|3tagid=SID_速さの波・奇数3
+|3effect=At start of odd-numbered turns, grants Spd+6 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)
+|3cost=240
+|3next=-
+|4name=Odd Spd Wave 4
+|4tagid=SID_速さの波・奇数4
+|4effect=At start of turn, grants Spd+6 to unit and allies within 2 spaces of unit for 1 turn.<br><br>If unit's Spd ≥ foe's Spd-5, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat.<br><br>If it is an odd-numbered turn, grants Spd+6 to unit during combat.
+|4cost=300
+|properties4=random_owner
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|properties=random_inherit_base,random_all
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Odd Spd Wave 3}} Odd Spd Wave 3
+|s1 Se={{Eft|Bonuses|Spd|6}}
+|s1 SeT={{Tgt|Unit}} '''&''' [[adjacent]]<br>{{Tgt|Allies}}
+|s1 SeC=At start of odd turns
+|skill2={{Si|Odd Spd Wave 4}} Odd Spd Wave 4
+|s2 Se={{Eft|Bonuses|Spd|6}}
+|s2 SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|s2 SeC=At start of turn
+|s2 Ce1={{Eft|Neutralize Guaranteed Follow-Ups}}
+|s2 Ce1T={{Tgt|Foe}}
+|s2 Ce2={{Eft|Neutralize Prevent Follow-Ups}}
+|s2 Ce1-2C={{Tgt|Unit}}'s Spd ≥<br>{{Tgt|Foe}}'s Spd-5
+|s2 Ce3={{Eft|Temporary buffs|Spd|6}}
+|s2 Ce2-3T={{Tgt|Unit}}
+|s2 Ce3C=During odd turns
+}}
+
+==Notes==
+{{Bonuses}}
+{{Follow-up effect neutralization|name=Odd Spd Wave 4}}
+{{Temporary buffs|name=Odd Spd Wave 4}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Odd Spd Wave 1;Odd Spd Wave 2;Odd Spd Wave 3
+|badgeColor=Scarlet
+|costs1=20;100;20
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=速さの波・奇数
+|german=Ungerade Ges.
+|spanishEU=Ola Vel impar
+|spanishLA=Ola Vel. impar
+|french=Impair Vit
+|italian=Vel dispari
+|chineseTW=速度之波・奇數
+|portuguese=Onda Vel. ímp.
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%start of%turns%grants%+%for 1 turn%' AND Exclusive='1'}}
+* [[Odd Wave Passives]]
+* [[Even Wave Passives]]
+* [[Null Passives]]
+{{Seals Navbox}}
+{{Passives Navbox|C}}
+[[Category:Odd Wave Passives]]
+[[Category:Wave Passives]]

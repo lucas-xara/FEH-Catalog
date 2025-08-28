@@ -1,0 +1,70 @@
+{{Special
+|tagid=SID_オーバードライヴ
+|intID=4351
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=3
+|effect=If unit's Special is ready, before combat this unit initiates, foes in an area near target take damage equal to 1.5 × (unit's Atk minus foe's Def or Res).<br><br>When unit deals damage to 2 or more foes at the same time using a Special (including target; including foes dealt 0 damage), grants another action to unit after combat (once per turn).<br><br>If unit's or foe's Special is ready or triggered before or during this combat, reduces damage from foe's next attack by 40% during combat (once per combat; excluding area-of-effect Specials).
+|required=Blazing Light
+|properties=random_owner,aoe_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Damage|1.5 x ({{Tgt|Unit}}'s Atk<br>- {{Tgt|Foe}}'s Def/Res)}}
+|Me1T={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>within a [[3x3 area]]<br>with closest line<br>centered on {{Tgt|Target Foe}}
+|Me1C=Special triggers<br>before combat
+|Me2={{Eft|Galeforce}}<br>(once per turn)
+|Me2C=After combat if<br>{{Tgt|Foes}} damaged<br>by Special before<br>combat ≥ 2
+|Ce={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s next attack
+|CeC={{Tgt|Unit}} or {{Tgt|Foe}}'s<br>Special is ready '''or'''<br>triggered before or<br>during combat
+}}
+
+==Notes==
+{{AoE Special notes}}
+{{Galeforce notes|special=0}}
+{{DamagePercentageReduction}}
+{{Main|Area of Effect Specials}}
+{| class="wikitable default mw-collapsible"
+!colspan=2 style="text-align:center;max-width:450px;margin:auto;" align="middle"|Examples of Area of Effect for Override
+|-
+!Horizontal 
+|{{AoE|special=1|u=Sigurd: Of the Holy War
+|--xxx--
+|--xxx--
+|--xtx--
+|---u---
+|-------
+|-------
+|-------
+}}
+|-
+!Vertical
+|{{AoE|special=1|u=Sigurd: Of the Holy War
+|-------
+|-------
+|xxx----
+|xxtu---
+|xxx----
+|-------
+|-------
+}}
+|}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==References==
+<references/>
+{{Specials Navbox}}

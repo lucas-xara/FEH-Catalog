@@ -1,0 +1,42 @@
+{{Weapon Infobox
+|tagid=SID_平和の花
+|weaponName=Unity Blooms
+|image=wep_mg051
+|weaponType=Red Tome
+|might=8
+|range=2
+|effect=If unit is within 2 spaces of an ally, inflicts Atk/Res-5 on foe during combat, and when unit deals damage to foe during combat, restores 4 HP to unit. (Triggers even if 0 damage is dealt.)
+|cost=200
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|required=Elfire;Ruin
+|next=
+|promotionRarity=5
+|promotionTier=1
+|intID=2426
+|sort=90000
+|value=11
+|timingID=1
+|abilityID=210
+|limit1ID=14
+|properties=
+}}
+==Notes==
+{{Temporary debuffs}}
+{{CombatHPRecovery}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=平和の花
+|german=Einheitssblüten
+|spanishEU=Unidad floral
+|spanishLA=Unidad floral
+|french=Fleurs d'unité
+|italian=Fiori dell'unità
+|chineseTW=和平之花
+|portuguese=União floral
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%inflicts Atk/%-%during combat%unit deals damage to foe during combat, restores%HP to unit%'}}
+{{Weapons Navbox}}

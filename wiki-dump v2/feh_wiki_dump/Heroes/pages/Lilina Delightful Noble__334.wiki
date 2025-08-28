@@ -1,0 +1,74 @@
+{{#invoke:NameAbout|main|Name=Lilina}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Lilina
+|Title=Delightful Noble
+|WeaponType=Red Tome
+|Origin=Fire Emblem: The Binding Blade
+|Gender=Female
+|MoveType=Infantry
+|actorEN=Julie Kliewer
+|actorJP=小澤亜李
+|artist=BUNBUN
+|releaseDate=February 2, 2017
+|poolDate=February 2, 2017
+|randomStartTime=2017-02-02T07:00:00Z
+|poolRarities=3,4
+|TagID=リリーナ
+|InternalID=73
+|Properties=demoted_240,resplendent,muspell
+|cv1=5
+|cv2=200100
+|description=A noble of Ostia with a natural gift for magic. Roy's friend since childhood. Appears in Fire Emblem: The Binding Blade.
+|resplendentArtist=山田孝太郎
+|resplendentStartTime=2021-04-25T07:00:00Z
+|resplendentEndTime=2021-05-10T06:59:59Z
+|GrowthModifier=None
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=9|Lv1SPD=6|Lv1DEF=4|Lv1RES=9
+|GRHP=45|GRATK=65|GRSPD=45|GRDEF=35|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elfire
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Bolganone
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Bolganone+
+|weapon4Default=5
+|weapon4Unlock=5
+|weapon5=Forblaze
+|weapon5Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Rising Flame
+|special1Default=4
+|special1Unlock=3
+|special2=Growing Flame
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Attack +1
+|passiveA2=Attack +2
+|passiveA3=Attack +3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveC1=Spur Atk 1
+|passiveC2=Spur Atk 2
+|passiveC3=Spur Atk 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

@@ -1,0 +1,80 @@
+{{#invoke:NameAbout|main|Name=Triandra}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Triandra
+|Title=Reverent Dream
+|WeaponType=Red Sword
+|MoveType=Flying
+|Origin=Fire Emblem Heroes
+|Gender=Female
+|actorEN=Lexi Klein
+|actorJP=井口裕香
+|artist=いちかわはる
+|additionDate=October 16, 2023
+|releaseDate=October 16, 2023
+|cv1=0
+|cv2=400400
+|TagID=スカビオサ2
+|InternalID=1010
+|Properties=attuned,refresher,hat
+|description=A dökkálfr from Dökkálfheimr, the realm of nightmares. Delivers terrible dreams to mortals. Her connection with Peony has awakened a new power.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=14|Lv1SPD=7|Lv1DEF=5|Lv1RES=3
+|GRHP=50|GRATK=70|GRSPD=90|GRDEF=50|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Flower of Tribute
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Dance
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Harrowing Dream
+|assist2Unlock=5
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Clash 1
+|passiveA2=Atk/Spd Clash 2
+|passiveA3=Atk/Spd Clash 3
+|passiveA4=Atk/Spd Clash 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Flow Refresh 1
+|passiveB2=Flow Refresh 2
+|passiveB3=Flow Refresh 3
+|passiveB4=Flow Refresh 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Spd/Def Rein 1
+|passiveC2=Spd/Def Rein 2
+|passiveC3=Spd/Def Rein 3
+|passiveC4=Spd/Def Hold
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+|passiveX1=Death Blow Echo
+|passiveX1Unlock=5
+}}
+{{Heroes Navbox}}

@@ -1,0 +1,31 @@
+{{Captain Skill
+|name=Toxic Remedy
+|effect=At start of turns 2 through 5, grants Dosage and Bulwark to captain for 1 turn.<br><br>Dosage:<br>Grants Atk/Spd/Def/Res+5 to unit during combat and restores 10 HP to unit after combat.<br><br>When a foe triggers both "grants the Bonus effects active on foe" and "neutralizes any Bonus active on foe" effects from skills such as Essence Drain on unit with this status active, prevents those effects on unit and other targets and neutralizes any Bonus effects active on that foe (does not neutralize Bonus effects applied at the same time).<br><br>Bulwark:<br>Foes with Range = 1 cannot move through spaces adjacent to unit (does not affect foes with Pass skills).<br><br>Foes with Range = 2 cannot move through spaces within 2 spaces of unit (does not affect foes with Pass skills).
+|statModifiers=
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{SEt|Dosage}}
+|Se2={{SEt|Bulwark}}
+|SeT={{Tgt|Captain}}
+|SeC=At start of turns 2-5
+}}
+==Notes==
+{{Dosage}}
+{{Bulwark}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%Dosage%' OR Description LIKE '%Bulwark%') AND Exclusive='1'}}
+* [[Skill families/C Passives#Faith|Faith Passives]]
+{{Captain Skills Navbox}}

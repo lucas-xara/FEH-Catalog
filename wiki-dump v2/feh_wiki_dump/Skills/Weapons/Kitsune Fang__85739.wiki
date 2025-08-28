@@ -1,0 +1,49 @@
+{{Weapon Infobox
+|tagid=SID_妖狐王の爪牙
+|canUseMove=Cavalry
+|weaponType=Beast
+|might=14
+|range=1
+|effect=Grants Def+3. Grants allies within 2 spaces bonus to Atk/Spd/Def/Res during combat = current bonus on each of unit's stats. Calculates each stat bonus independently. At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,0,3,0
+|required=Adult (Cavalry)
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Def+3. If unit is within 3 spaces of an ally, grants Atk/Spd+5 to unit during combat. Grants allies within 2 spaces bonus to Atk/Spd/Def/Res during combat = current bonus on each of unit's stats. Calculates each stat bonus independently.<br><br>At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack.
+|upgradedEffect2=Grants Def+3. If unit is within 3 spaces of an ally, grants Atk/Spd+5 to unit during combat. Grants allies within 2 spaces bonus to Atk/Spd/Def/Res during combat = current bonus on each of unit's stats. Calculates each stat bonus independently. At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 to unit, inflicts Atk/Def-X on foe during combat (X = number of spaces from start position to end position of whoever initiated combat + 3; max 6), and also, if X ≥ 5, reduces damage from foe's first attack by 30% during combat.
+|tagidExtraSkill1=一
+|effectSkill1=If unit is within 3 spaces of an ally, grants Atk/Spd+5 to unit during combat. If any ally is within 2 spaces of unit, grants Def/Res+2 to those allies and inflicts Special cooldown charge -1 on their foes per attack during combat. (Only highest value applied. Does not stack.)
+|iconSkill1=Kitsune Fang W.png
+|properties=random_owner
+}}
+==Notes==
+{{TemporaryBufffromBonus|bnsSource=the foe|multiSource=1}}
+{{AlliesCombatEffect|effect=temporary buffs}}
+{{Beast (Cavalry)}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary buffs|name={{St|Kitsune Fang|refine=skill1}}}}
+{{CooldownChargeMinus}}
+{{AlliesCombatEffect|effect=temporary buffs and Special cooldown charge -1 effects|name={{St|Kitsune Fang|refine=skill1}}}}
+{{Beast (Cavalry) Upgrade}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=妖狐王の爪牙
+|german=Wilder Kitsune
+|spanishEU=Colmillo kitsune
+|spanishLA=Colmillo kitsune
+|french=Croc de Kitsune
+|italian=Zanna di kitsune
+|chineseTW=妖狐王的爪牙
+|portuguese=Presa kitsune
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【Bonus Doubler】%' OR Description LIKE '%grants Def/Res+%special cooldown charge%-1%'|columns=3}}
+{{Weapons Navbox}}

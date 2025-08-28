@@ -1,0 +1,41 @@
+{{Weapon Infobox
+|tagid=SID_瞬撃の弓
+|intID=2793
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=0
+|weaponType=Bow
+|cost=200
+|might=8
+|range=2
+|effectiveness=Flying
+|effect=Effective against flying foes. If unit initiates combat, grants Atk/Def+4 during combat and foe cannot make a follow-up attack.
+|statModifiers=0,8,0,0,0
+|required=Steel Bow
+|next=Instant Bow+
+|promotionRarity=5
+|promotionTier=1
+|properties=random_owner
+}}
+==Notes==
+{{Effective damage bonus|Flying}}
+{{IfUnitInitiates}}
+{{Combat boosts}}
+{{Prevent follow-up}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=瞬撃の弓
+|german=Sekundenbogen
+|spanishEU=Arco fugaz
+|spanishLA=Arco fugaz
+|french=Arc vif
+|italian=Arco rapido
+|chineseTW=瞬擊之弓
+|portuguese=Arco fugaz
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If unit initiates combat, grants Atk%Def+%and foe cannot make a follow-up attack%' AND WikiName NOT LIKE '%Instant%'|columns=3}}
+* [[Skill families#Instant|Instant Weapons]]
+{{Weapons Navbox}}

@@ -1,0 +1,38 @@
+{{Weapon Infobox
+|tagid=SID_アーマーキラー2
+|weaponType=Sword
+|might=10
+|range=1
+|effectiveness=armored
+|effect=Effective against armored foes.
+|cost=200
+|next=Armorsmasher+
+|promotionRarity=5
+|promotionTier=1
+|required=Steel Sword
+|exclusive=0
+|userVersion1=Weapon|userVersion2=Gleam|statModifiers=0,10,0,0,0
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce={{Eft|Effectiveness|{{Mt|Armored}}}}
+}}
+==Notes==
+{{Effective damage bonus|armored}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=アーマーキラー鍛
+|german=Panzerspalter
+|spanishEU=Destrozacorazas
+|spanishLA=Destrozacorazas
+|french=Perce-cuirasse
+|italian=Sfondacotta
+|chineseTW=破甲劍鍛
+|portuguese=Esmagarmadura
+}}
+==See also==
+* [[Weapons that are effective against armored foes]]
+{{Weapons Navbox}}

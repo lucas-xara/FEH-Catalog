@@ -1,0 +1,43 @@
+{{Weapon Infobox
+|tagid=SID_ゲイボルグ
+|weaponType=Lance
+|might=16
+|range=1
+|effect=In combat against an infantry, armored, or cavalry foe, grants Atk/Def+5 during combat.
+|cost=400
+|exclusive=1
+|userVersion1=Weapon
+|userVersion2=Gleam
+|statModifiers=0,16,0,0,0
+|required=Silver Lance
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If there is a sword, lance, axe, or cavalry ally on your team (excluding unit), grants Atk/Def+5 to unit during combat. Grants Atk/Def+5 to sword, lance, axe, and cavalry allies within 3 spaces of unit during combat.
+|iconSkill1=Gae Bolg W.png
+|tagidExtraSkill1=騎
+|properties=random_owner
+}}
+==Notes==
+{{Combat boosts}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{AlliesCombatEffect|effect=combat boosting effect}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ゲイボルグ
+|german=Gáe Bolg
+|spanishEU=Gáe Bolg
+|spanishLA=Gáe Bolg
+|french=Gáe Bolg
+|italian=Gáe Bolg
+|chineseTW=蓋伯爾加
+|portuguese=Gáe Bolg
+}}
+==See also==
+{{See also skills|cond=WikiName LIKE '%Gae Bolg%' OR (Description LIKE '%if%ally%grants Atk/Def+%during combat%' OR Description LIKE '%grants Atk/Def+_%to%allies%during combat%') AND (Exclusive=1 AND Description NOT LIKE '%if%bonus%active%')|columns=3}}
+{{Weapons Navbox}}

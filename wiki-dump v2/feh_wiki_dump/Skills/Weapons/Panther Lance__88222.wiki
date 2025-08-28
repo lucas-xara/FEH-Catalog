@@ -1,0 +1,46 @@
+{{Weapon Infobox
+|tagid=SID_黒豹の槍
+|weaponType=Lance
+|might=16
+|range=1
+|effect=During combat, boosts unit's Atk/Def by number of allies within 2 spaces × 2. (Maximum bonus of +6 to each stat.)
+|cost=400
+|exclusive=1
+|required=-
+|userVersion1=Weapon
+|userVersion2=Gleam
+|statModifiers=0,16,0,0,0
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=If cavalry allies within 2 spaces use sword, lance, or axe and unit initiates combat, unit attacks twice.
+|iconSkill1=Consecutive Attack RG W.png
+|tagidExtraSkill1=連
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfUnitInitiates}}
+{{Brave weapon interaction}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|連撃R赤緑|Consecutive Attacks R Red Green}}
+==In other languages==
+{{OtherLanguages
+|japanese=黒豹の槍
+|german=Pantherlanze
+|spanishEU=Lanza Pantera
+|spanishLA=Lanza Pantera
+|french=Lance de l'écu
+|italian=Lancia panterina
+|chineseTW=黑豹之槍
+|portuguese=Lança onça
+}}
+==See also==
+* [[Bull Blade]]
+{{Weapons Navbox}}

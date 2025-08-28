@@ -1,0 +1,87 @@
+{{#invoke:NameAbout|main|Name=Ingrid|Name2=Nanna}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Ingrid
+|Title=Cordial Teatime
+|WeaponType=Green Axe
+|MoveType=Cavalry
+|secondPerson=Nanna
+|Origin=Fire Emblem: Three Houses,Fire Emblem: Thracia 776
+|Gender=FF
+|harmonized=Grants "unit can move 1 extra space" to unit (that turn only; does not stack).<br><br>Grants【Resonance: Blades】and【Empathy】to unit and allies from the same titles as unit for 1 turn.<br><br>Once used, Harmonized Skill cannot be activated again right away. At start of every third turn, if Harmonized Skill has already been used, unit can use Harmonized Skill again.<br><br>【Resonance: Blades】<br>Grants Atk/Spd+4 during combat for 1 turn.<br><br>【Empathy】<br>Grants bonus to unit's Atk/Spd/Def/Res = number of types of【Bonus】effects, excluding stat bonuses, and【Penalty】effects, excluding stat penalties, active on player team and enemy team during combat (max 7).<br><br>【Bonus】<br>All effects that last "for 1 turn" or "that turn only." Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|actorEN=Brittany Cox,-
+|actorJP=石見舞菜香,名塚佳織
+|artist=Siino
+|additionDate=August 6, 2025
+|releaseDate=August 7, 2025
+|entry=4;12
+|cv1=12
+|cv2=300800
+|TagID=双界イングリット
+|InternalID=1272
+|Properties=special,harmonized
+|description=Ingrid, daughter of Count Galatea, and Nanna, princess of House Nordion, fill the roles of servers with an air of relaxation. They appear in Fire Emblem: Three Houses / Fire Emblem: Thracia 776.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=11|Lv1SPD=9|Lv1DEF=11|Lv1RES=4
+|GRHP=50|GRATK=80|GRSPD=90|GRDEF=55|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Silver Spoon
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Rally Defense
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Rally Up Def
+|assist2Unlock=4
+|assist3=Rally Up Def+
+|assist3Unlock=5
+}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Draconic Aura
+|special2Unlock=4
+|special3=Haze Slice
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Lady Knight
+|passiveA1Unlock=5
+|passiveB1=Flow Refresh 1
+|passiveB2=Flow Refresh 2
+|passiveB3=Flow Refresh 3
+|passiveB4=Potent Assault
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Hone Spd 1
+|passiveC2=Hone Spd 2
+|passiveC3=Hone Spd 3
+|passiveC4=A/S Outcry Dull
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Sources of Mobility increased]]
+[[Category:Sources of Empathy]]

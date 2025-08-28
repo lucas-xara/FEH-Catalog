@@ -1,0 +1,92 @@
+{{#invoke:NameAbout|main|Name=Lyn}}{{HeroPage Tabs|{{PAGENAME}}}}
+{{Hero Infobox
+|Name = Lyn
+|Title = Lady of the Wind
+|LegendaryEffect=Wind
+|BoostHP=3
+|BoostAtk=2
+|GrowthModifier = Gen 2
+|WeaponType = Green Bow
+|MoveType = Infantry
+|Origin = Fire Emblem: The Blazing Blade
+|Gender = Female
+|actorEN = Wendee Lee
+|actorJP=大本眞基子
+|artist=ワダサチコ
+|releaseDate = May 1, 2018
+|additionDate = April 27, 2018
+|TagID=伝承リン
+|InternalID=245
+|Properties=legendary,tiara
+|cv1=6
+|cv2=100200
+|description=Noblewoman of Caelin whose true name is Lyndis. Legends say she once secretly helped save a continent from disaster. Appears in Fire Emblem: The Blazing Blade.
+}}
+
+__TOC__
+
+{{Stats Page|Hero={{BASEPAGENAME}}
+|Lv1HP=17|Lv1ATK=9|Lv1SPD=10|Lv1DEF=4|Lv1RES=5
+|GRHP=45|GRATK=50|GRSPD=60|GRDEF=40|GRRES=50
+}}
+
+== Skills ==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Bow
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Swift Mulagir
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+
+===Assists===
+{{Assists Table
+|assist1=Rally Defense
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Rally Def/Res
+|assist2Default=
+|assist2Unlock=4
+}}
+
+===Specials===
+{{Specials Table
+}}
+
+===Passives===
+{{Passives Table
+|passiveA1=Laws of Sacae
+|passiveA2=Laws of Sacae II
+|passiveA1Unlock=5
+|passiveA2Unlock=5
+|passiveB1=Desperation 1
+|passiveB2=Desperation 2
+|passiveB3=Desperation 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Spd Tactic 1
+|passiveC2=Spd Tactic 2
+|passiveC3=Spd Tactic 3
+|passiveC4=Spur Spd 1
+|passiveC5=Drive Spd 1
+|passiveC6=Drive Spd 2
+|passiveC7=Joint Drive Spd
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+|passiveC4Unlock=2
+|passiveC5Unlock=3
+|passiveC6Unlock=4
+|passiveC7Unlock=5
+}}
+
+{{Heroes Navbox}}

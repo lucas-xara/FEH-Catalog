@@ -1,0 +1,37 @@
+{{Weapon Infobox
+|tagid=SID_イリア傭兵騎士の槍
+|intID=3629
+|image=wep_lc149
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of turn, if number of allies adjacent to unit ≤ 2, grants【Dodge】and "neutralizes foe's bonuses during combat" to unit and support partners within 2 spaces of unit for 1 turn. If number of allies adjacent to unit ≤ 1, grants Atk/Spd/Def/Res+5 to unit during combat and deals damage = 15% of foe's Atk, including when dealing damage with a Special triggered before combat.<br><br>【Dodge】<br>If unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 4 (max 40%).
+|required=Silver Lance
+|properties=random_owner
+}}
+==Notes==
+{{Dodge}}
+{{Neutralize Bonuses}}
+{{SupportPartner|effect={{SEt|Dodge}} and {{SEt|Neutralize Bonuses}} to unit's support partner}}
+{{Temporary buffs}}
+{{DamageBoost}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=イリア傭兵騎士の槍
+|german=Ilia-Söldnerlanze
+|spanishEU=Lanza iliana
+|spanishLA=Lanza iliana
+|french=Lance merc. d'Ilia
+|italian=Lancia di Ilia
+|chineseTW=伊利亞傭兵騎士之槍
+|portuguese=Lança de Ilia
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Dodge】%' OR Description LIKE '%"neutralizes foe_s bonuses during combat%' OR Description LIKE '%deals damage =%of foe_s Atk%' OR Description LIKE '%number of allies adjacent to unit ≤%') AND Exclusive='1'}}
+* [[Skill families/C Passives#Alarm|Alarm Passives]]
+{{Weapons Navbox}}

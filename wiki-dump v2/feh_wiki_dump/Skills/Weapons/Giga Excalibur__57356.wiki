@@ -1,0 +1,56 @@
+{{Weapon Infobox
+|tagid=SID_ギガスカリバー
+|weaponType=Green Tome
+|might=14
+|range=2
+|effect=Grants Spd+3. If unit's Spd > foe's Spd, deals damage = 70% of difference between stats. (Maximum bonus of +7 damage. Combos with Phantom Spd.)
+|cost=400
+|exclusive=Yes
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|statModifiers=0,14,3,0,0
+|required=Rexcalibur
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Spd+3. Deals damage = 20% of unit's Spd.
+|effectSkill1=Grants Atk/Spd+4 to allies within 2 spaces during combat. If unit is within 2 spaces of an ally, grants Atk/Spd+4 to unit during combat.
+|tagidExtraSkill1=紋
+|iconSkill1=Giga Excalibur W.png
+|SE=se_effect_excalibur_add.flac
+|properties=random_owner
+}}
+==Notes==
+{{BonusStatDamage|stat=Spd}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{DamageBoost}}
+{{Temporary buffs}}
+{{AlliesCombatEffect}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+v2.5_53_rekka02_Mag.png|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==Trivia==
+* Giga Excalibur, along with {{Wt|Vassal's Blade}}, which came out at the same time, are the first weapons to come out that may give a damage bonus if {{St|Phantom Spd}} is equipped.
+* The Japanese name for this weapon, Gigascalibur, has the same name as the S-rank Anima tome featured in the Japanese version of {{FE|7}}, the localized version of the game using the name Excalibur.
+==In other languages==
+{{OtherLanguages
+|japanese=ギガスカリバー
+|german=Giga-Excalibur
+|spanishEU=Gigaexcalibur
+|spanishLA=Gigaexcalibur
+|french=Giga Excalibur
+|italian=Excalibur mega
+|chineseTW=紀加斯卡利伯
+|portuguese=Excalibur titã
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If unit_s%> foe_s%, deals damage =%of difference between stats%' OR Description LIKE '%deals damage =%of unit_s Spd%' OR (Description LIKE '%grants Atk/Spd+%to allies within%spaces%if unit is within%spaces of an ally%grants Atk/Spd+%during combat%' OR Description LIKE '%if unit is within%spaces of an ally%grants Atk/Spd+%to unit and allies%during combat%') AND Exclusive='1'}}
+{{Weapons Navbox}}

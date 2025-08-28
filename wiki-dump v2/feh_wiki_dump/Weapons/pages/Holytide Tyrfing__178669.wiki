@@ -1,0 +1,91 @@
+{{Weapon Infobox
+|tagid=SID_聖日ティルフィング
+|intID=3203
+|userVersion1=Weapon
+|userVersion2=Gleam
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Enables【Canto (２)】.<br><br>Accelerates Special trigger (cooldown count-1).<br>If unit or foe initiates combat after moving to a different space, grants Atk/Spd/Def/Res+5 to unit during combat and deals damage = X × 10% of foe's Def (X = number of spaces from start position to end position of whoever initiated combat, max 4; excluding area-of-effect Specials), and also, if unit's HP ≥ 25% at start of combat, unit’s HP > 1, and foe would reduce unit’s HP to 0, unit survives with 1 HP. (Once per combat. Does not stack with non-Special effects that allow unit to survive with 1 HP if foe's attack would reduce HP to 0.)<br><br>【Canto (２)】<br>After an attack, Assist skill, or structure destruction, unit can move ２ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|statModifiers=0,16,0,0,0
+|required=Silver Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants bonus to unit's Atk/Spd/Def/Res = 5 + number of foes within 3 rows or 3 columns centered on unit × 2 (max 11), reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% (excluding area-of-effect Specials), and reduces damage from foe's first attack by X during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and reduces damage by X when foe's attack triggers foe Special (X = number of spaces from start position to end position of whoever initiated combat × 3; max 12; excluding area-of-effect Specials), and restores 7 HP to unit after combat.
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Accelerates Special}}
+|s1 Me={{Eft|Canto|2}}
+|s1 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s1 Ce2={{Eft|Damage Boost|(Spaces initiator moved<br>x 10% of {{Tgt|Foe}}'s Def)|max=40%}}
+|s1 Ce1-2C=Initiator moved to<br>a different space
+|s1 Ce3={{Eft|Miracle}}
+|s1 Ce3C=Initiator moved to<br>a different space,<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' {{Tgt|Unit}}'s HP > 1
+|skill2={{Si|Holytide Tyrfing|refine=Skill1}} Skill refine effects
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|2 x {{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}, + 5|max=11}}
+|s2 Ce2={{Eft|Reduce Damage Reduction|50%}}
+|s2 Ce2T={{Tgt|Foe}}
+|s2 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s2 Ce3={{Eft|Damage Reduction|3 x Spaces initiator moved|max=12}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|s2 Ce4={{Eft|Damage Reduction|3 x Spaces initiator moved|max=12}}<br>per {{Tgt|Foe}}'s [[offensive special]]
+|s2 Me={{Eft|Heal|7}}
+|s2 MeC=After combat if<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Canto|2}}
+{{IfUnitInitiates}}
+{{IfFoeInitiates}}
+{{SpacesFromStarttoEnd}}
+{{Temporary buffs}}
+{{DamageBoost}}
+{{DefensiveSkill}}
+{{Miracle}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{FlatDamageReduction|X (max: 12)|name={{St|Holytide Tyrfing|refine=Skill1}}}}
+{{Reduce Damage Reduction|name={{St|Holytide Tyrfing|refine=Skill1}}}}
+{{After combat healing|name={{St|Holytide Tyrfing|refine=Skill1}}}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Seliph: Enduring Legacy|t=Julius: Scion of Darkness
+|---xxx---
+|---xxx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xtx---
+|---xxx---
+}}
+|}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=聖日ティルフィング
+|german=Seliges Tyrfing
+|spanishEU=Tyrfing santa
+|spanishLA=Tyrfing santa
+|french=Tyrfing sacrée
+|italian=Tyrfing beata
+|chineseTW=聖日斬裂劍
+|portuguese=Tyrfing santa
+}}
+==See also==
+{{See also skills|cond=WikiName LIKE '%tyrfing%' OR (Description LIKE '%=%number of spaces from start position to end position of whoever initiated%') AND Exclusive='1' AND Description NOT LIKE '%transforms%if _ ≥ 5%'}}
+* [[Clash Passives]]
+* [[Excel Passives]]
+{{Weapons Navbox}}

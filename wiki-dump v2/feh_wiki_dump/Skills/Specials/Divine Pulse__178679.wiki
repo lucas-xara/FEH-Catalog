@@ -1,0 +1,32 @@
+{{Special
+|tagid=SID_天刻の拍動
+|intID=3209
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=2
+|effect=Boosts damage by 25% of unit's Spd. Reduces damage from foe's next attack by 75%, and unit's next attack deals damage = 20% of unit's Spd. (Resets at end of combat.)
+|required=Draconic Aura
+|properties=random_owner,offensive_special
+}}
+==Notes==
+{{DamageBoost}}
+{{DamagePercentageReduction}}
+{{DamageBoost|special=0}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=天刻の拍動
+|german=Göttlicher Puls
+|spanishEU=Pulso Divino
+|spanishLA=Pulso divino
+|french=Impulsion Divine
+|italian=Battito divino
+|chineseTW=天刻之脈動
+|portuguese=Pulso divino
+}}
+==See also==
+{{See also skills|cond=SCategory='special' AND Exclusive='1' AND Description LIKE '%Boosts%damage by __% of unit_s Spd%'}}
+{{Specials Navbox}}

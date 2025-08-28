@@ -1,0 +1,69 @@
+{{#invoke:NameAbout|main|Name=Dew}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Dew
+|Title=Benevolent Thief
+|WeaponType=Red Dagger
+|MoveType=Infantry
+|Origin=Fire Emblem: Genealogy of the Holy War
+|Gender=Male
+|actorEN=Kiba Walker
+|actorJP=渡辺明乃
+|artist=夕子
+|randomStartTime=2025-02-07T07:00:00Z
+|additionDate=January 6, 2025
+|releaseDate=January 7, 2025
+|poolDate=January 28, 2025
+|poolRarities=3,4
+|cv1=3
+|cv2=2900300
+|TagID=デュー
+|InternalID=1194
+|Properties=
+|description=Was captured for his thievery but allowed to escape with Edain at her request. Appears in Fire Emblem: Genealogy of the Holy War.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=12|Lv1SPD=9|Lv1DEF=7|Lv1RES=7
+|GRHP=50|GRATK=70|GRSPD=90|GRDEF=70|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Dagger
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Dagger
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Helping Dagger
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Helping Dagger+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Daylight
+|special1Default=4
+|special1Unlock=3
+|special2=Sol
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Spd/Def Finish 1
+|passiveA2=Spd/Def Finish 2
+|passiveA3=Spd/Def Finish 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveC1=Atk/Spd Gap 1
+|passiveC2=Atk/Spd Gap 2
+|passiveC3=Atk/Spd Gap 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

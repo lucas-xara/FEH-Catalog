@@ -1,0 +1,43 @@
+{{Weapon Infobox
+|tagid=SID_幸せの鐘の斧
+|weaponName=Wedding-Bell Axe
+|image=wep_ax089
+|weaponType=Axe
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of turn, if unit is within 2 spaces of an ally, grants "unit can move to a space adjacent to an ally within 2 spaces" and【Triangle Attack】to unit and allies within 2 spaces. If unit initiates combat or if unit is within 2 spaces of an ally, grants Atk/Spd+6 to unit during combat.<br><br>【Triangle Attack】<br>If unit initiates combat and 2 or more allies (excluding unit) with Triangle Attack are within 2 spaces of unit, unit attacks twice. (That turn only. Does not stack.)
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Silver Axe
+|intID=2560
+|sort=543
+|effectRange=2
+|value=20
+|timingID=29
+|abilityID=285
+|limit1ID=58
+|properties=
+}}
+==Notes==
+{{Air Orders}}
+{{Triangle Attack}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=幸せの鐘の斧
+|german=Glockenaxt
+|spanishEU=Hacha nupcial
+|spanishLA=Hacha nupcial
+|french=Hache nuptiale
+|italian=Ascia campana
+|chineseTW=幸福的鐘斧
+|portuguese=Machado nupcial
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Triangle Attack】%' OR Description LIKE '%【Dual Strike】%') OR (Description LIKE '%"%can move to%ally%within 2 spaces%' AND Exclusive='1') OR Description LIKE '%number%unit initiates combat%unit attacks twice%'}}
+{{Weapons Navbox}}

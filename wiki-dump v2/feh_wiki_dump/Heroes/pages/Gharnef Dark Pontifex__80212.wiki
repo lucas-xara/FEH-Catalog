@@ -1,0 +1,78 @@
+{{#invoke:NameAbout|main|Name=Gharnef}}{{HeroPage Tabs|{{PAGENAME}}}}
+{{Hero Infobox
+|Name=Gharnef
+|Title=Dark Pontifex
+|GrowthModifier=
+|WeaponType=Red Tome
+|Origin=Fire Emblem: Mystery of the Emblem
+|Gender=Male
+|MoveType=Infantry
+|actorJP=成田剣
+|actorEN=DC Douglas
+|artist=HACCAN
+|additionDate=November 21, 2018
+|releaseDate=November 23, 2018
+|TagID=ガーネフ
+|InternalID=315
+|Properties=ghb,limited,hat
+|cv1=1
+|cv2=9900200
+|description=A student of Gotoh, the White Sage. Hatched a scheme to revive the Shadow Dragon, Medeus, and rule the world. Appears in Fire Emblem: Mystery of the Emblem.
+}}
+
+__TOC__
+
+{{Stats Page|Hero={{BASEPAGENAME}}
+|Lv1HP=16|Lv1ATK=8|Lv1SPD=10|Lv1DEF=5|Lv1RES=6
+|GRHP=50|GRATK=50|GRSPD=55|GRDEF=50|GRRES=40
+}}
+
+== Skills ==
+
+=== Weapons ===
+{{Weapons Table
+|weapon1=Flux
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Ruin
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Fenrir
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Imhullu
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+
+=== Assists ===
+{{Assists Table
+}}
+
+=== Specials ===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=4
+|special1Unlock=3
+|special2=Ignis
+|special2Default=
+|special2Unlock=4
+}}
+
+=== Passives ===
+{{Passives Table
+|passiveA1=Warding Stance 1
+|passiveA2=Mirror Stance 1
+|passiveA3=Mirror Stance 2
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=Chill Atk 1
+|passiveB2=Chill Atk 2
+|passiveB3=Chill Atk 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+
+{{Heroes Navbox}}

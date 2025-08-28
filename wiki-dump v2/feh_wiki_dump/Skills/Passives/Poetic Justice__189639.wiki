@@ -1,0 +1,47 @@
+{{Passive
+|type=B
+|name=Poetic Justice
+|exclusive=0
+|canUseWeapon={{WeaponList|Colorless Staff}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Poetic Justice
+|1tagid=SID_神罰・因果応報
+|1cost=300
+|1effect=Calculates damage from staff like other weapons. Inflicts Spd-4 on foe during combat and unit deals damage = 15% of foe's attack. (If the "calculates damage from staff like other weapons" effect is neutralized, damage from staff is calculated after combat damage is added.)
+|1required=Wrathful Staff 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Wrathful Staff}}
+|Ce2={{Eft|Temporary debuffs|Spd|4}}
+|CeT2={{Tgt|Foe}}
+|Ce3={{Eft|Damage Boost|15% of {{Tgt|Foe}}'s<br>attack damage}}
+|CeT3={{Tgt|Unit}}
+}}
+==Notes==
+{{Wrathful Staff}}
+{{Temporary debuffs}}
+{{DamageBoost}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=神罰・因果応報
+|german=Süßes Karma
+|spanishEU=Justicia poética
+|spanishLA=Justicia poética
+|french=Justice poétique
+|italian=Giustizia poetica
+|chineseTW=神罰・因果報應
+|portuguese=Justiça poética
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%damage from staff%' AND Description NOT LIKE '%disable%"%damage from staff%"%' AND Name NOT LIKE '%+' AND Exclusive='1' OR Description LIKE '%deals damage%=%of foe_s Atk%' AND Name NOT LIKE '%time traveler%'}}
+* [[Skill families/B Passives#Staff|Staff Passives]]
+{{Passives Navbox|B}}

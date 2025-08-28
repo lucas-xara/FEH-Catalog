@@ -1,0 +1,40 @@
+{{Weapon Infobox
+|tagid=SID_草原の狼の白槍
+|intID=3340
+|image=wep_lc132
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of turn, if unit is within 3 spaces of an ally, grants Atk/Spd+6 and the following effect to unit and cavalry allies within 3 spaces of unit for 1 turn: "If unit initiates combat, unit makes a guaranteed follow-up attack." If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd+6 to unit during combat, reduces damage from foe's first attack by 40%, and deals damage = number of spaces from start position to end position of whoever initiated combat × 3 (max: 9). (Except when dealing damage with area-of-effect Specials.)
+|statModifiers=0,16,0,0,0
+|required=Silver Lance
+|properties=random_owner
+}}
+==Notes==
+{{Bonuses}}
+{{Guaranteed Follow-Ups}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{DamagePercentageReduction}}
+{{SpacesFromStarttoEnd}}
+{{DamageBoost}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=草原の狼の白槍
+|german=Kojotes Lanze
+|spanishEU=Lanza de Coyote
+|spanishLA=Lanza de Coyote
+|french=Lance du coyote
+|italian=Lancia del Coyote
+|chineseTW=草原之狼的白槍
+|portuguese=Lança de Coyote
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%=%number of spaces from start position to end position%' OR Description LIKE '%=%number of spaces moved%') AND Exclusive='1' AND Description NOT LIKE '%transforms%if X ≥ 5%' OR Description LIKE '%"If unit initiates combat, unit makes a guaranteed follow-up attack."%'}}
+* [[Skill families/A Passives#Clash|Clash Passives]] 
+{{Weapons Navbox}}

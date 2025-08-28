@@ -1,0 +1,47 @@
+{{Passive
+|type=A
+|name=Remote Sparrow
+|exclusive=0
+|canUseWeapon={{WeaponList|Missile,Magic}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Remote Sparrow
+|1tagid=SID_鬼神飛燕の離撃3
+|1cost=300
+|1effect=If unit initiates combat, grants Atk/Spd+7 during combat and reduces damage from foe's first attack during combat by 30%.
+|1required=Swift Sparrow 2
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{SkillEffectText|Temporary buffs|Atk/Spd|7}}
+|CombatEffect 2={{SkillEffectText|Damage Reduction|30%}}<br>from {{SkillTargetText|foe}}'s first attack
+|CombatEffect Conditions=Player Phase
+}}
+
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=鬼神飛燕の離撃
+|german=Ferner Spatz
+|spanishEU=Gorrión remoto
+|spanishLA=Gorrión remoto
+|french=Hirondelle isolée
+|italian=Sparviero remoto
+|chineseTW=鬼神飛燕離擊
+|portuguese=Pardal remoto
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If unit initiates combat%grants Atk/Spd%+%during combat%reduces damage%from foe_s first attack%' AND Exclusive='1'}}
+* [[Skill families/A Passives#Remote|Remote Passives]]
+{{Passives Navbox|A}}
+[[Category:Remote Passives]]
+[[Category:Blow Passives]]

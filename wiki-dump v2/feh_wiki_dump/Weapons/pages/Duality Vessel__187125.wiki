@@ -1,0 +1,38 @@
+{{Weapon Infobox
+|tagid=SID_開神と閉神の祭器
+|intID=3399
+|image=wep_mg320
+|exclusive=1
+|weaponType=Colorless Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit during combat, unit makes a guaranteed follow-up attack, inflicts Special cooldown charge -1 on foe per attack (only highest value applied; does not stack), reduces damage from foe's attacks during combat by 20% of unit's Def (excluding area-of-effect Specials), and also, if unit's Def > foe's Def, reduces damage from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by difference between stats × 1.5.
+|statModifiers=0,14,0,0,0
+|required=Atlas (weapon)
+|properties=
+}}
+==Notes==
+{{Temporary buffs}}
+{{Guaranteed follow-up interaction}}
+{{CooldownChargeMinus}}
+{{FlatDamageReduction}}
+{{FlatAoEDamageReduction}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=開神と閉神の祭器
+|german=Polaritätsgefäß
+|spanishEU=Receptáculo dual
+|spanishLA=Receptáculo dual
+|french=Dualité contenue
+|italian=Guscio duale
+|chineseTW=開神與閉神的祭器
+|portuguese=Recipiente dual
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%reduces%foe_s attacks by%of unit_s%' AND Description NOT LIKE '%next attack%' OR Description LIKE '%reduces damage from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by difference between stats%'}}
+{{Weapons Navbox}}

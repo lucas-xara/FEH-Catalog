@@ -1,0 +1,47 @@
+{{Weapon Infobox
+|tagid=SID_ソールカティ
+|weaponType=Sword
+|might=16
+|range=1
+|effect=If unit's HP ≤ 50% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.
+|cost=400
+|exclusive=1
+|userVersion1=Weapon
+|userVersion2=Upgrade Gleam
+|statModifiers=0,16,0,0,0
+|required=Silver Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=If unit's HP ≤ 75% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.
+|effectSkill1=If unit initiates combat against a foe that can counter and unit's HP ≤ 75%, unit makes a guaranteed follow-up attack.
+|iconSkill1=Brash Assault W.png
+|tagidExtraSkill1=差
+|properties=random_owner
+}}
+==Notes==
+* Has the same effect as {{St|Desperation 2}}.
+{{Follow-up before counterattack}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+* Any of the upgrades grant Sol Katti the same effect as {{St|Desperation 3}}.
+{{IfFoeCanCounter}}
+{{Guaranteed follow-up interaction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ソール・カティ
+|german=Sol Katti
+|spanishEU=Sol Katti
+|spanishLA=Sol Katti
+|french=Sol Katti
+|italian=Sol Katti
+|chineseTW=索爾・卡提
+|portuguese=Sol Katti
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit_s HP%follow-up attack before foe can counterattack%' AND Description NOT LIKE '%if unit_s HP ≥%follow-up attack before foe%' AND Exclusive='1' OR Description LIKE '%if%foe%can counter%makes a guaranteed follow-up%' AND Description NOT LIKE '%unit can counterattack regardless%'}}
+{{Weapons Navbox}}

@@ -1,0 +1,88 @@
+{{Weapon Infobox
+|tagid=SID_レディソード
+|weaponName=Ladyblade
+|image=wep_sw115
+|weaponType=Sword
+|might=11
+|range=1
+|effect=Enables【Canto (２)】.<br><br>Inflicts Spd-5. Unit attacks twice. (Even if foe initiates combat, unit attacks twice.) Calculates damage using the lower of foe's Def or Res.<br><br>【Canto (２)】<br>After an attack, Assist skill, or structure destruction, unit can move ２ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|cost=400
+|exclusive=1
+|statModifiers=0,11,-5,0,0
+|required=Silver Sword
+|intID=2592
+|sort=547
+|value=20
+|timingID=1
+|abilityID=288
+|randomTimestamp=2021-07-08T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Enables【Canto (２)】.<br><br>Unit attacks twice (even if foe initiates combat, unit attacks twice). Grants Atk/Def/Res+5 and inflicts Spd-5.<br><br>Calculates damage using the lower of foe's Def or Res.<br><br>Deals damage = 20% of unit's Def during combat (including area-of-effect Specials).<br><br>【Canto (２)】<br>After an attack, Assist skill, or structure destruction, unit can move ２ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|upgradedStatModifiers=0,16,-5,5,5
+|refineStatsAtk=5,1,0,0,0
+|effectSkill1=At start of turn, if unit is within 2 spaces of an ally, grants Atk/Def+6 and "neutralizes penalties on unit during combat" to unit and allies within 2 spaces of unit for 1 turn, and also, grants "unit can move 1 extra space" to unit and flying allies within 2 spaces of unit for 1 turn (does not stack).<br><br>If unit is within 3 spaces of an ally, grants bonus to unit's Atk/Def/Res = 10% of unit's Def at start of combat + 5 and reduces damage from foe's attacks by 20% of unit's Def during combat (excluding area-of-effect Specials), and restores 7 HP to unit after combat.
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Reduction|Spd|5}}
+|s1 Me={{Eft|Canto|2}}
+|s1 Ce1={{Eft|Attack Twice}}
+|s1 Ce2={{Eft|Lower Def Res}}
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Atk/Def/Res|5}},<br>{{Eft|Stat Reduction|Spd|5}}
+|s2 Me={{Eft|Canto|2}}
+|s2 Ce1={{Eft|Attack Twice}}
+|s2 Ce2={{Eft|Lower Def Res}}
+|s2 Ce3={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Def}}
+|skill3={{Si|Ladyblade|refine=Skill1}} Skill refine effects
+|s3 Se1={{Eft|Bonuses|Atk/Def|6}}
+|s3 Se2={{SEt|Neutralize Penalties}}
+|s3 Se1-2T={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|s3 Se3={{SEt|Mobility Increased}}
+|s3 Se3T={{Tgt|Unit}} '''&'''<br>{{Mt|Flying}} {{Tgt|Allies}}<br>[[within 2 spaces]]
+|s3 SeC=At start of turn<br>if an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s3 Ce1={{Eft|Temporary buffs|Atk/Def/Res|10% of {{Tgt|Unit}}'s Def<br>at start of combat, +5}}
+|s3 Ce2={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Def}}
+|s3 CeC=An {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|s3 Me={{Eft|Heal|7}}
+|s3 MeC=After combat if<br>an {{Tgt|Ally}} is<br>[[within 3 spaces]]
+}}
+
+==Notes==
+{{Canto|2}}
+{{AttackTwice}}
+{{LowerDefRes}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{DamageBoost|name=Refined Ladyblade}}
+{{Bonuses|name={{St|Ladyblade|refine=Skill1}}}}
+{{Neutralize Penalties|name={{St|Ladyblade|refine=Skill1}}}}
+{{Mobility increased|name={{St|Ladyblade|refine=Skill1}}}}
+{{At start of combat|name={{St|Ladyblade|refine=Skill1}}}}
+{{FlatDamageReduction}}
+{{After combat healing|name={{St|Ladyblade|refine=Skill1}}}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=レディソード
+|german=Venusschwert
+|spanishEU=Espada fina
+|spanishLA=Espada fina
+|french=Épée fine
+|italian=Spada fine
+|chineseTW=淑女劍
+|portuguese=Espada femínea
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%inflicts Spd-_%attacks twice%' AND Description NOT LIKE '%inflicts Spd-_%if unit initiates combat,% attacks twice%' AND Description NOT LIKE '%reduce damage%"unit attack twice%' OR Description LIKE '%calculates damage using%lower of foe_s Def or Res%' AND Description NOT LIKE '%foe_s range = 2%' AND Description NOT LIKE '%【Hexblade】%') AND Exclusive='1'}}
+* [[Brave Weapons]]
+{{Weapons Navbox}}

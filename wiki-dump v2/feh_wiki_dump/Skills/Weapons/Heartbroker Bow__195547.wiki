@@ -1,0 +1,39 @@
+{{Weapon Infobox
+|tagid=SID_射止める花嫁の花弓
+|intID=3609
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=1
+|weaponType=Bow
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effectiveness=Flying
+|effect=Enables【Canto (Ally 2)】.<br><br>Accelerates Special trigger (cooldown count-1). Effective against flying foes. If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+X to unit (X = 5 + number of times unit has been enhanced using Dragonflowers, max 10), deals damage = 15% of unit's Spd (including when dealing damage with a Special triggered before combat), and neutralizes effects that prevent unit's follow-up attacks during combat.<br><br>【Canto (Ally 2)】<br>After an attack, Assist skill, or structure destruction, unit can move to a space adjacent to any ally within 2 spaces.<br><br>(Once per turn. Cannot attack or assist. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Granted movement treated as Warp movement.)
+|required=Silver Bow
+|properties=
+}}
+==Notes==
+{{Canto|Ally 2}}
+{{Effective damage bonus|flying}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{DamageBoost}}
+{{Follow-up effect neutralization|preventOnly=1}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=射止める花嫁の花弓
+|german=Herzensbogen
+|spanishEU=Arco estafador
+|spanishLA=Arco estafador
+|french=Arc charmant
+|italian=Arco spaccacuori
+|chineseTW=贏取歡心的新娘花弓
+|portuguese=Arco cativante
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%【Canto (Ally 2)】%' or Description LIKE '%dragonflowers%'}}
+{{Weapons Navbox}}

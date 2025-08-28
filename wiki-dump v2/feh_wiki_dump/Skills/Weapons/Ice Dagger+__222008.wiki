@@ -1,0 +1,60 @@
+{{Weapon Infobox
+|tagid=SID_氷の暗器＋
+|intID=4324
+|image=wep_dg091
+|exclusive=0
+|weaponType=Dagger
+|cost=300
+|might=12
+|range=2
+|effect=Calculates damage using the lower of foe's Def or Res.<br><br>If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit, unit makes a guaranteed follow-up attack, and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials).<br><br>Effect:【Dagger ７】<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|required=Ice Dagger
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Lower Def Res}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce3={{Eft|Guaranteed Follow-Ups}}
+|Ce4={{Eft|Reduce Damage Reduction|50%}}
+|Ce4T={{Tgt|Foe}}
+|Ce2-4C=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Se={{Eft|Penalties|Def/Res|7}}
+|SeT={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|SeC=After combat if<br>{{Tgt|Unit}} attacked
+}}
+
+==Notes==
+{{LowerDefRes}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Guaranteed follow-up interaction}}
+{{Reduce Damage Reduction}}
+{{IfUnitAttacked}}
+{{Penalties}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%makes a guaranteed follow-up%non-Special "reduce damage by X%" skills by 50%' AND Exclusive='1'}}
+{{Weapons Navbox}}

@@ -1,0 +1,34 @@
+{{Weapon Infobox
+|tagid=SID_鋼の槍
+|weaponType=Lance
+|weaponName={{PAGENAME}}
+|might=8
+|range=1
+|effect=
+|cost=100
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|next=Silver Lance
+|promotionRarity=4
+|promotionTier=1
+|required=Iron Lance
+|properties=random_all
+}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==In other languages==
+{{OtherLanguages
+|japanese=鋼の槍
+|german=Stahllanze
+|spanishEU=Lanza acero
+|spanishLA=Lanza acero
+|french=Lance acier
+|italian=Lancia acciaio
+|chineseTW=鋼槍
+|portuguese=Lança de aço
+}}
+==See also==
+* [[Steel Weapons]]
+{{Weapons Navbox}}
+[[Category:Steel weapons]]

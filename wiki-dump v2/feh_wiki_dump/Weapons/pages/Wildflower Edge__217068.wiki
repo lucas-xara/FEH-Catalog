@@ -1,0 +1,62 @@
+{{Weapon Infobox
+|tagid=SID_野花の花嫁の大剣
+|intID=4151
+|image=wep_sw177
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Enables【Canto (Rem. +1)】.<br>Accelerates Special trigger (cooldown count-1).<br><br>If unit has entered combat during the current turn, allies within 5 spaces of unit can move to a space within 2 spaces of unit.<br><br>If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit, grants bonus to unit's Atk/Spd/Def/Res = 15% of unit's Spd at start of combat, deals damage = 20% of unit's Spd (excluding area-of-effect Specials), and reduces damage from foe's first attack by X% during combat (if it is unit's first combat initiated by unit or first combat initiated by foe that turn, X = 80; otherwise, X = 40; "first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes).<br><br>If unit initiates combat, deals 10 damage to target and foes within 2 spaces of target after combat, and inflicts【Share Spoils】on target through its next action.<br><br>【Canto (Rem. +1)】<br>After an attack, Assist skill, or structure destruction, unit can move again.<br><br>The distance of the movement is the remaining movement the unit had before the actions listed above + 1 (If unit used a movement skill that warps them, the remainder is 0). (Once per turn. Only highest value applied. Does not stack.)<br><br>【Share Spoils】<br>Inflicts Atk/Spd/Def/Res-5 on unit during combat and neutralizes "reduces damage by X%" effects from unit's non-Special skills (excluding area-of-effect Specials). If foe initiates combat and if unit is defeated in combat, grants another action to that foe after combat (this effect has priority over other similar effects, including Time Is Light; in such cases, these other similar effects are treated as not having triggered).
+|required=Silver Sword
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Me1={{Eft|Canto|Rem. +1}}
+|Me2={{Eft|Warp|[[within 2 spaces]] of {{Tgt|Unit}}}}
+|MeT2={{Tgt|Allies}}<br>[[within 5 spaces]]
+|MeC2={{Tgt|Unit}} entered combat<br>during the current turn
+|Me3={{Eft|Damage|10}}
+|MeT3={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|MeC3=After combat<br>in Player Phase
+|Se={{SEt|Share Spoils}}
+|SeT={{Tgt|Foe}}
+|SeC=After combat<br>in Player Phase
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|15% of {{Tgt|Unit}}'s Spd<br>at start of combat}}
+|Ce3={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|Ce4={{Eft|Damage Reduction|2=(80% in first combat of<br>Both Phases; else X = 40%)}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{Canto|Rem. +1}}
+{{Warp interaction}}
+{{Temporary buffs}}
+{{At start of combat}}
+{{DamageBoost}}
+{{DamagePercentageReduction}}
+{{IfUnitInitiates}}
+{{After combat note}}
+{{Out of combat damage}}
+{{Share Spoils}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=野花の花嫁の大剣
+|german=Blumenschwert
+|spanishEU=Ramillete afilado
+|spanishLA=Ramillete afilado
+|french=Fer sauvage
+|italian=Spada floreale
+|chineseTW=野花新娘的大劍
+|portuguese=Gume florido
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%entered combat%move to a space within 2 spaces of unit%' OR Description LIKE '%of unit_s Spd at start of combat%' AND Exclusive='1'}}
+{{Weapons Navbox}}

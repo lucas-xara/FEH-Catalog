@@ -1,0 +1,53 @@
+{{Weapon Infobox
+|tagid=SID_タグエルの子の爪牙
+|canUseMove=Cavalry
+|weaponType=Beast
+|might=14
+|range=1
+|effectiveness=cavalry
+|effect=Grants Spd+3. Effective against cavalry foes. After combat, if unit's HP ≤ 75%, grants Special cooldown count-2.<br>Effect:【Beast (Cavalry)】<br><br>【Beast (Cavalry)】<br>At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,3,0,0
+|required=Adult (Cavalry)
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Spd+3. Effective against cavalry foes. If unit is not adjacent to an ally or unit's HP ≤ 90% at start of combat, grants Atk/Spd+5 to unit during combat. After combat, if unit's HP ≤ 90%, grants Special cooldown count-2. At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack.
+|upgradedEffect2=Grants Spd+3. Effective against cavalry foes. If unit is not adjacent to an ally or unit's HP ≤ 90% at start of combat, grants Atk/Spd+5 to unit during combat. After combat, if unit's HP ≤ 90%, grants Special cooldown count-2. At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 to unit, inflicts Atk/Def-X on foe during combat (X = number of spaces from start position to end position of whoever initiated combat + 3; max 6), and also, if X ≥ 5, reduces damage from foe's first attack by 30% during combat.
+|tagidExtraSkill1=一
+|effectSkill1=At start of combat, if foe's HP ≥ 50%, grants Atk/Spd+5 to unit during combat, deals damage = 10% of unit's Spd (including when dealing damage with a Special triggered before combat), and also, if unit transforms, unit makes a guaranteed follow-up attack.
+|iconSkill1=Bunny Fang W.png
+|properties=random_owner
+}}
+==Notes==
+{{Effective damage bonus|cavalry}}
+{{After combat note}}
+{{After combat Special modification}}
+{{Beast (Cavalry)}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary buffs|name=Refined Bunny Fang}}
+{{DamageBoost|name={{St|Bunny Fang|refine=skill1}}}}
+{{Guaranteed follow-up interaction|name={{St|Bunny Fang|refine=skill1}}}}
+{{IfUnitTransforms|guaranteed follow-up attack}}
+{{Beast (Cavalry) Upgrade}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=タグエルの子の爪牙
+|german=Hasenpranke
+|spanishEU=Garra de gazapo
+|spanishLA=Garra de gazapo
+|french=Dent de lapin
+|italian=Zanna di coniglio
+|chineseTW=塔格艾爾之子的爪牙
+|portuguese=Presa de filhote
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%after combat%grants special cooldown count-%' OR Description LIKE '%grants special cooldown count-_ after combat%' OR Description LIKE '%deals damage =%10%of unit_s Spd%' OR Description LIKE '%if unit transforms%makes a guaranteed follow-up%' AND Description NOT LIKE '%counterattack regardless of foe_s range%'}}
+* [[Sources of effective against cavalry foes]]
+{{Weapons Navbox}}

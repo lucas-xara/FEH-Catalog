@@ -1,0 +1,35 @@
+{{Weapon Infobox
+|tagid=SID_女傑の大剣
+|intID=2858
+|image=wep_sw122
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+6 during combat, and if Special triggers (excluding area-of-effect Specials), disables non-Special skills that "reduce damage by X%."<br><br>At start of combat, if unit's HP ≥ 25% and if foe's HP ≥ 75%, grants Special cooldown charge +1 per attack during combat. (Only highest value applied. Does not stack.)
+|statModifiers=0,16,0,0,0
+|required=Silver Sword
+|properties=random_owner
+}}
+==Notes==
+{{Temporary buffs}}
+{{DamageReductionNeutralization}}
+{{CooldownChargePlus}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=女傑の大剣
+|german=Löwinnenklinge
+|spanishEU=Hoja leonina
+|spanishLA=Hoja leonina
+|french=Lame intraitable
+|italian=Lama ruggente
+|chineseTW=女傑的大劍
+|portuguese=Espada leoa
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%disables%reduce%damage by x%' OR Description LIKE '%neutralizes%reduce%damage by x%') AND Description LIKE '%non-Special%' AND Description NOT LIKE '%reduces the percentage%'}}
+{{Weapons Navbox}}

@@ -1,0 +1,38 @@
+{{Weapon Infobox
+|tagid=SID_白銀の剣
+|intID=3597
+|image=wep_sw153
+|exclusive=1
+|weaponType=Sword
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). Foes with Range = 1 cannot move through spaces adjacent to unit, and foes with Range = 2 cannot move through spaces within 2 spaces of unit (does not affect foes with Pass skills). At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit and neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat, restores 7 HP to unit after combat, and also, if foe initiates combat and unit's Spd > foe's Spd, unit can counterattack before foe's first attack.
+|required=Silver Sword
+|properties=random_owner
+}}
+==Notes==
+{{Obstruct notes}}
+{{Temporary buffs}}
+{{Bonus neutralization}}
+{{After combat healing}}
+{{Preempt}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=白銀の剣
+|german=Kommand.-Klinge
+|spanishEU=Espada insignia
+|spanishLA=Espada insignia
+|french=Épée capitaine
+|italian=Spada condott.
+|chineseTW=白銀之劍
+|portuguese=Espada capitã
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%unit_s%>%foe_s%unit can counterattack before foe_s first attack%' OR Description LIKE '%cannot move through spaces adjacent to unit%' OR Description LIKE '%grants Atk/Spd/Def/Res+%neutralizes foe_s bonuses (%') AND Exclusive='1'}}
+* [[Skill families/B Passives#Bulwark|Bulwark Passives]]
+* [[Skill families/B Passives#Preempt|Preempt Passives]]
+{{Weapons Navbox}}

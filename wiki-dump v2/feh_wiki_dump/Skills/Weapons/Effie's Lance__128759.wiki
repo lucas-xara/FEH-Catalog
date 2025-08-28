@@ -1,0 +1,49 @@
+{{Weapon Infobox
+|tagid=SID_エルフィの大槍
+|weaponType=Lance
+|might=16
+|range=1
+|effect=At start of combat, if unit's HP ≥ 50%, grants Atk+6 during combat.
+|cost=400
+|userVersion1=Weapon
+|userVersion2=Gleam
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|intID=2243
+|refineMedals=500
+|refineDews=200
+|effectSkill1=During unit's first combat in player phase or enemy phase, Inflicts Atk/Def-5 on foe and neutralizes foe's bonuses to Atk/Def (from skills like Fortify, Rally, etc.) during combat.
+|iconSkill1=Effies Lance W.png
+|tagidExtraSkill1=無
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{FirstCombat}}
+{{Combat reductions}}
+{{Bonus neutralization}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{Rsn|強化無効個別R攻守5|No Individual Bonuses R Atk/Def 5}}
+==In other languages==
+{{OtherLanguages
+|english=Effie's Lance
+|japanese=エルフィの大槍
+|german=Effies Lanze
+|spanishEU=Lanza Effie
+|spanishLA=Lanza Effie
+|french=Lance d'Effie
+|italian=Lancia di Effie
+|chineseTW=艾爾菲的大槍
+|portuguese=Lança de Effie
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit_s HP ≥%grants Atk+%during combat%' AND Description NOT LIKE '%transforms%' AND Description NOT LIKE '%if unit_s HP _ foe_s HP%' OR Description LIKE '%inflicts Atk/Def-%neutralizes foe_s bonuses%' OR Description LIKE '%during unit_s first combat%inflicts%during combat%'|columns=3}}
+{{Weapons Navbox}}

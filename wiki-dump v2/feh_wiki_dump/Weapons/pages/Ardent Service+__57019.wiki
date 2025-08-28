@@ -1,0 +1,38 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_愛のケーキサーバ＋
+|weaponType=Axe
+|altWeaponName=Ardent Service
+|might=14
+|range=1
+|effect=At start of turn, if unit is adjacent to an ally, grants Atk+4 to unit and adjacent allies for 1 turn.
+|cost=300
+|exclusive=0
+|statModifiers=0,14,0,0,0
+|required=Ardent Service
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Notes==
+{{Bonuses}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=愛のケーキサーバ＋
+|german=Liebesbote+
+|spanishEU=Servicio ferv. +
+|spanishLA=Servicio ferv. +
+|french=Pelle à tarte +
+|italian=Servizio ardente+
+|chineseTW=愛之蛋糕鏟＋
+|portuguese=Serviço ardente+
+}}
+==See also==
+* [[Fresh Bouquet+]]
+{{Weapons Navbox}}
+[[Category:Bridal Bloom weapons]]

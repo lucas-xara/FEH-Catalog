@@ -1,0 +1,79 @@
+{{#invoke:NameAbout|main|Name=Ayra}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Ayra
+|Title=Astra's Wielder
+|Origin=Fire Emblem: Genealogy of the Holy War
+|Gender=Female
+|WeaponType=Red Sword
+|MoveType=Infantry
+|GrowthModifier=Gen 2
+|actorEN=Brina Palencia
+|actorJP=折笠愛
+|artist=麻谷知世
+|resplendentArtist=鈴木理華
+|releaseDate=October 19, 2017
+|additionDate=October 16, 2017
+|poolDate=October 30, 2017
+|randomStartTime=2017-10-30T07:00:00Z
+|poolRarities=5
+|TagID=アイラ
+|InternalID=178
+|cv1=3
+|cv2=800100
+|description=Princess of Isaach, master of the sword, and descendant of the crusader Od. She fights for her homeland. Appears in Fire Emblem: Genealogy of the Holy War.
+|Properties=specRate_201904,resplendent,vanaheimr
+|resplendentStartTime=2024-06-10T07:00:00Z
+|resplendentEndTime=2024-06-25T06:59:59Z
+}}
+__TOC__
+{{Stats Page
+|Lv1HP=19|Lv1ATK=7|Lv1SPD=11|Lv1DEF=7|Lv1RES=4
+|GRHP=50|GRATK=60|GRSPD=60|GRDEF=55|GRRES=40
+}}
+
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Ayra's Blade
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Astra
+|special2Default=
+|special2Unlock=4
+|special3=Regnal Astra
+|special3Default=
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Darting Blow 1
+|passiveA2=Swift Sparrow 1
+|passiveA3=Swift Sparrow 2
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Desperation 1
+|passiveB2=Desperation 2
+|passiveB3=Desperation 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+}}
+{{Heroes Navbox}}

@@ -1,0 +1,72 @@
+{{#invoke:NameAbout|main|Name=Jeorge}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Jeorge
+|Title=Perfect Shot
+|WeaponType=Colorless Bow
+|Origin=Fire Emblem: Mystery of the Emblem
+|Gender=Male
+|MoveType=Infantry
+|actorEN=Mick Wingert
+|actorJP=間島淳司
+|artist=まよ
+|resplendentArtist=RIZ3
+|releaseDate=February 2, 2017
+|poolDate=February 2, 2017
+|randomStartTime=2017-02-02T07:00:00Z
+|poolRarities=3,4
+|TagID=ジョルジュ
+|InternalID=64
+|Properties=demoted_240,resplendent,embla
+|cv1=1
+|cv2=300300
+|description=Archanean archer thought to be the best on his continent. A skilled strategist. Appears in Fire Emblem: Mystery of the Emblem.
+|GrowthModifier=None
+|resplendentStartTime=2022-10-10T07:00:00Z
+|resplendentEndTime=2022-10-25T06:59:59Z
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=8|Lv1SPD=8|Lv1DEF=5|Lv1RES=5
+|GRHP=45|GRATK=55|GRSPD=55|GRDEF=45|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Silver Bow
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Parthia
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Rising Flame
+|special1Default=4
+|special1Unlock=3
+|special2=Blazing Flame
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Seal Atk 1
+|passiveB2=Seal Atk 2
+|passiveB3=Seal Atk 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Spur Spd 1
+|passiveC2=Spur Spd 2
+|passiveC3=Spur Spd 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

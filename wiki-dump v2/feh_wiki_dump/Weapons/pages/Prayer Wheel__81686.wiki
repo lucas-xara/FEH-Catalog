@@ -1,0 +1,70 @@
+{{Weapon Infobox
+|tagid=SID_清冷の法具
+|weaponType=Blue Tome
+|might=14
+|range=2
+|effect=Grants Spd+3. If a skill like Sing or Dance is used, grants bonus to target's Atk/Spd/Def/Res = highest bonus on target ally for 1 turn. (Example: if target has a +6 bonus to Atk, grants Atk/Spd/Def/Res+6.)
+|cost=400
+|exclusive=1
+|statModifiers=0,14,3,0,0
+|required=Shine
+|SE=se_effect_izunn.flac
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|tagidExtraSkill1=一
+|effectSkill1=At start of turn, grants Spd+6 to allies within 2 spaces of unit for 1 turn. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+5 and the following status to unit during combat: "If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%."
+|iconSkill1=Prayer Wheel W.png
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Spd|3}}
+|s1 Se={{Eft|Bonuses|Atk/Spd/Def/Res|highest {{SEt|Bonus}}<br>on {{Tgt|Target (Ally)}}}}
+|s1 SeC=A {{Uti|Dance}} [[Dance Assist]]<br>is used by {{Tgt|Unit}}
+|skill2={{Si|Prayer Wheel|refine=Skill1}} Skill refine effects
+|s2 Se={{Eft|Bonuses|Spd|6}}
+|s2 SeT={{Tgt|Allies}}<br>[[within 2 spaces]]
+|s2 SeC=At start of turn
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd|5}}
+|s2 Ce1C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s2 Ce2={{Eft|WTA Boost}}
+|s2 Ce2C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' {{Tgt|Unit}} has<br>[[Weapon-triangle]]<br>advantage
+|s2 Ce3={{Eft|WTA Reduction}}
+|s2 Ce3C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' {{Tgt|Unit}} has<br>[[Weapon-triangle]]<br>disadvantage
+}}
+==Notes==
+{{Bonuses}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary buffs||name={{St|Prayer Wheel|refine=skill1}}}}
+{{WTA boost|name={{St|Prayer Wheel|refine=skill1}}}}
+
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V3.0 742 legend12 Mag.png|Sprite sheet for Prayer Wheel's animation.
+</gallery>
+==Trivia==
+*The effect of this skill was previously bugged. The bug was that if used with a skill that boosts stats when {{St|Sing}}, {{St|Dance}}, or {{St|Gray Waves}} are used, like with {{St|Firestorm Dance}}, when Support Animations are set to Off, bonuses from skills like Firestorm Dance are considered. The <i>correct behavior</i>, not counting {{SEt|bonuses}} from those skills, only worked while Support Animations was set to <i>On</i>.
+**Since players were using the bugged behavior of Prayer Wheel, [[Intelligent Systems]] decided to make that the intended behavior, and buffed the skill in {{Version|3.2}} so that Prayer Wheel considers bonuses from skills such as {{St|Earth Dance}} regardless of the setting of Support Animations. The skill's description was updated to reflect this.
+==In other languages==
+{{OtherLanguages
+|japanese=清冷の法具
+|german=Gebetsmühle
+|spanishEU=Utensilio ritual
+|spanishLA=Utensilio ritual
+|french=Moulin à prières
+|italian=Ruota rituale
+|chineseTW=清冷的法具
+|portuguese=Roda de oração
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%if%Sing or Dance is used, grants%' and SCategory NOT LIKE 'passive_' OR Description LIKE '%If unit has weapon-triangle advantage, boosts Atk by 20%') AND Exclusive='1'}}
+* [[Dance Passives]]
+{{Weapons Navbox}}
+[[Category:Gem weapons]]

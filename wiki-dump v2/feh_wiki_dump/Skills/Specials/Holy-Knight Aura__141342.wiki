@@ -1,0 +1,52 @@
+{{Special
+|tagid=SID_グランベルの聖騎士
+|charge=2
+|effect=At start of turn, unit can move 1 extra space. (That turn only. Does not stack.) Boosts Special damage by 25% of unit's Atk. After combat, if unit's Special triggered, grants Atk+6 to unit and all allies for 1 turn, and unit and all allies can move 1 extra space. (That turn only. Does not stack. Bonus granted to allies even if unit's HP reaches 0.)
+|cost=500
+|exclusive=1
+|required=Draconic Aura
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|intID=2528
+|sort=527
+|effectRange=99
+|value=12
+|timingID=3
+|abilityID=281
+|randomTimestamp=2021-05-28T07:00:00Z
+|randomMinLv=31
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{SEt|Mobility increased}}
+|Se1C=At start of turn
+|Se2={{Eft|Bonuses|Atk|6}}
+|Se3={{SEt|Mobility increased}}
+|SeT2-3={{Tgt|Unit}} '''&'''<br>{{Tgt|Allies}}
+|SeC2-3=After combat if<br>Special triggered<br>(even if {{Tgt|Unit}}'s<br>HP reaches 0)
+|Ce={{Eft|Damage Boost|25% of {{Tgt|Unit}}'s Atk}}
+|CeC=Special triggers
+}}
+
+==Notes==
+{{Mobility increased}}
+{{AtkDamageBoost}}
+{{Bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=グランベルの聖騎士
+|japaneseNotes=''Grannvale's Holy Knight''
+|german=Heilige Aura
+|spanishEU=Aura sacrosanta
+|spanishLA=Aura de caballero
+|french=Aura sacrée
+|italian=Aura sacra
+|chineseTW=格蘭貝魯的聖騎士
+|portuguese=Aura sagrada
+}}
+==See also==
+{{See also skills|cond=Description LIKE'%even if unit_s HP reaches 0%' OR Description LIKE '%At start of turn%unit can move 1 extra space%' AND Exclusive='1' AND Description NOT LIKE '%transforms%' AND Description NOT LIKE '%stall%'}}
+{{Specials Navbox}}

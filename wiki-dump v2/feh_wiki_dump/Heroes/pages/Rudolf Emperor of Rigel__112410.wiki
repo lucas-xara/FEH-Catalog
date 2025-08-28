@@ -1,0 +1,71 @@
+{{#invoke:NameAbout|main|Name=Rudolf}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Rudolf
+|Title=Emperor of Rigel
+|WeaponType=Blue Lance
+|Origin=Fire Emblem Echoes: Shadows of Valentia
+|Gender=Male
+|MoveType=Armored
+|actorJP=菅生隆之
+|actorEN=Taylor Henry
+|artist=宮本サトル
+|additionDate=February 6, 2020
+|releaseDate=February 6, 2020
+|TagID=愛の祭ルドルフ
+|InternalID=483
+|Properties=special,mask,specRate_202402
+|cv1=2
+|cv2=900050
+|description=The stern, commanding Emperor of Rigel. Father of Alm and uncle of Berkut. Appears in Fire Emblem Echoes: Shadows of Valentia.
+}}
+{{Stats Page
+|Lv1HP=24|Lv1ATK=10|Lv1SPD=4|Lv1DEF=11|Lv1RES=7
+|GRHP=50|GRATK=75|GRSPD=40|GRDEF=70|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Lance
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Thorn Lance
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+}}
+===Specials===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=4
+|special1Unlock=3
+|special2=Bonfire
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Special Fighter 1
+|passiveB2=Special Fighter 2
+|passiveB3=Special Fighter 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Threaten Def 1
+|passiveC2=Threat. Atk/Def 1
+|passiveC3=Threat. Atk/Def 2
+|passiveC4=Threat. Atk/Def 3
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Day of Devotion units]]

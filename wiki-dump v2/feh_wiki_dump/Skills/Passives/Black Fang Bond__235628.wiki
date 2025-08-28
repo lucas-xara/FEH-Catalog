@@ -1,0 +1,69 @@
+{{Passive
+|name=Black Fang Bond
+|type=C
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Black Fang Bond
+|1tagid=SID_黒い牙の絆
+|1effect=Enables【Canto (２)】.<br><br>When Canto triggers, enables unit to use 【Distant Swap】on ally (this effect is not treated as an Assist skill; if similar effects are active, this effect does not trigger).<br><br>At start of turn, if unit is within 2 spaces of an ally, grants "unit can move 1 extra space" to unit (that turn only; does not stack), and also, if Special cooldown count is at its maximum value, grants Special cooldown count-2 to unit; if Special cooldown count is at its maximum value - 1, grants Special cooldown count-1 to unit.<br><br>At start of turn, if unit is within 2 spaces of an ally, inflicts Spd/Res-7,【Exposure】, and 【Undefended】on closest foes through their next actions, and inflicts Spd/Res-7 and 【Exposure】on foes within 2 spaces of those foes through their next actions.<br><br>If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd+5 to unit and unit deals +7 damage during combat (excluding area-of-effect Specials).<br><br>【Canto (２)】<br>After an attack, Assist skill, or structure destruction, unit can move ２ space(s). (Once per turn. Only highest value applied. Does not stack.)<br><br>【Distant Swap】<br>Range = 2. Unit and target ally swap spaces.<br><br>【Exposure】<br>Foe's attacks deal +10 damage.<br><br>【Undefended】<br>Unit cannot be protected by Savior through their next action.
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se1={{SEt|Mobility increased}}
+|Se2={{SEt|Undefended}}
+|Se2T=Closest {{Tgt|Foes}}
+|Se3={{Eft|Penalties|Spd/Res|7}}
+|Se4={{SEt|Exposure}}
+|Se3-4T=Closest {{Tgt|Foes}}<br>'''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of those {{Tgt|Foes}}
+|SeC=At start of turn<br>if {{Tgt|Unit}} is<br>[[within 2 spaces]]<br>of an {{Tgt|Ally}}
+|Me1={{Eft|Canto|2}}
+|Me2={{Eft|Distant Swap}}
+|Me2T={{Tgt|Unit}} '''&'''<br>{{Tgt|Target Ally}}
+|Me2C=When [[Canto]] triggers
+|Me3={{Eft|Reduce Cooldown|2}}
+|Me3C=({{SEt|Mobility increased}}<br>conditions)<br>'''&''' {{Tgt|Unit}}'s CD<br>is max value
+|Me4={{Eft|Reduce Cooldown|1}}
+|Me4C=({{SEt|Mobility increased}}<br>conditions)<br>of an {{Tgt|Ally}}<br>'''&''' {{Tgt|Unit}}'s CD<br>is max value-1
+|Ce1={{Eft|Temporary buffs|Atk/Spd|5}}
+|Ce2={{Eft|Damage Boost|7}}
+|CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+
+==Notes==
+{{Canto|2}}
+{{Movement skill notes|notBeforeRokkr=1}}
+{{Mobility increased}}
+{{Start of turn Special modification}}
+{{Penalties}}
+{{Exposure}}
+{{Undefended}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{FlatDamageBoost|7}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%Unit and%swap spaces%' OR Description LIKE '%not treated as an Assist skill%' OR Description LIKE '%【Canto%' AND Scategory='passivec' AND Description NOT LIKE '%【Canto (１)】%for 1 turn%' OR Description LIKE '%【Undefended】%') AND Exclusive='1'}}
+* [[Shadow Passives]]
+* [[Lookout Passives]]
+* [[Movement Assists]]
+* [[Skill families/C Passives#Tempest|Tempest Passives]]
+* [[Pulse Passives]]
+{{Passives Navbox|C}}

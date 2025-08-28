@@ -1,0 +1,62 @@
+{{Weapon Infobox
+|tagid=SID_ペレジアの弓
+|weaponName=Plegian Bow
+|userVersion1=Bow
+|userVersion2=Arrow
+|weaponType=Bow
+|might=8
+|range=2
+|effectiveness=Flying
+|effect=Effective against flying foes. If unit is not adjacent to an ally, inflicts penalty on foe's Atk/Def during combat = 5 + any current penalty on each of those stats. (Example: if foe has -7 penalty to Atk, inflicts Atk-12, for a net penalty of Atk-19 during combat.) Calculates each stat penalty independently.
+|cost=200
+|exclusive=0
+|statModifiers=0,8,0,0,0
+|required=Steel Bow
+|next=
+|promotionRarity=5
+|promotionTier=1
+|intID=2399
+|sort=89000
+|value=11
+|timingID=1
+|abilityID=255
+|limit1ID=19
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{SkillEffectText|Effectiveness|{{Mt|Flying}}}}
+|CombatEffect 2={{SkillEffectText|Temporary Debuffs|Atk/Def|5 + {{SEt|penalties}}<br>on {{SkillTargetText|Foe}}'s Atk/Def}}
+|CombatEffect 2 Targets={{SkillTargetText|Foe}}
+|CombatEffect 2 Conditions=No {{Tgt|Allies}}<br>are [[adjacent]]
+}}
+
+==Notes==
+{{Effective damage bonus|flying}}
+{{TemporaryDebufffromPenalty}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+Weapon Plegian Bow V2.png|Arrow phase 1
+Weapon Plegian Bow V3.png|Arrow phase 2
+Weapon Plegian Bow V4.png|Arrow phase 3
+Wep ar064.webp|Sprite sheet use to animate the arrow
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=ペレジアの弓
+|german=Plegia-Bogen
+|spanishEU=Arco plegiano
+|spanishLA=Arco plegiano
+|french=Arc de Plegia
+|italian=Arco plegiano
+|chineseTW=佩萊吉亞之弓
+|portuguese=Arco plegiano
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%penalty on foe_s%+%current penalty on each of those stats%' AND Description NOT LIKE '%【Foe Penalty Doubler】%' AND WikiName NOT LIKE '%vulture%' AND Exclusive=1}}
+* [[Skill families/Weapons#Vulture|Vulture Weapons]]
+{{Weapons Navbox}}

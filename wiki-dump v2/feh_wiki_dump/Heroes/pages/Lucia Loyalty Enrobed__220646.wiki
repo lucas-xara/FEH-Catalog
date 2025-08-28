@@ -1,0 +1,73 @@
+{{#invoke:NameAbout|main|Name=Lucia}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Lucia
+|Title=Loyalty Enrobed
+|WeaponType=Blue Lance
+|MoveType=Infantry
+|Origin=Fire Emblem: Path of Radiance
+|Gender=Female
+|actorEN=AmaLee
+|actorJP=田中理恵
+|artist=鈴木理華
+|additionDate=August 6, 2024
+|releaseDate=August 7, 2024
+|cv1=8
+|cv2=200200
+|TagID=浴衣ルキノ
+|InternalID=1128
+|Properties=special
+|description=Lucia is a loyal retainer to Elincia in Crimea. Her work has brought her to the summer festival, wearing an elegant yukata. Appears in Fire Emblem: Path of Radiance.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=12|Lv1SPD=13|Lv1DEF=4|Lv1RES=8
+|GRHP=50|GRATK=70|GRSPD=75|GRDEF=60|GRRES=60
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Lance
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Breezy Spear
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Rally Speed
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Rally Up Spd
+|assist2Unlock=4
+|assist3=Rally Up Spd+
+|assist3Unlock=5
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveB1=Atk/Spd Bulwark 1
+|passiveB2=Atk/Spd Bulwark 2
+|passiveB3=Atk/Spd Bulwark 3
+|passiveB4=A/S Bulwark 4
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=Canto Control 1
+|passiveC2=Canto Control 2
+|passiveC3=Canto Control 3
+|passiveC4=Firm Canto Curb
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Hoshidan Summer Festival units]]

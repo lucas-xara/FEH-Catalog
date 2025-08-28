@@ -1,0 +1,75 @@
+{{#invoke:NameAbout|main|Name=Ronan}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Ronan
+|Title=Villager of Iz
+|WeaponType=Blue Bow
+|MoveType=Infantry
+|Origin=Fire Emblem: Thracia 776
+|Gender=Male
+|actorEN=Clifford Chapin
+|actorJP=小林千晃
+|artist=鳴瀬うろこ
+|randomStartTime=2021-02-08T07:00:00Z
+|additionDate=January 7, 2021
+|releaseDate=January 8, 2021
+|poolDate=January 28, 2021
+|poolRarities=5
+|cv1=4
+|cv2=400100
+|TagID=ロナン
+|InternalID=613
+|Properties=specRate_202308
+|description=A hunter from the village Iz. Has a strong sense for right and wrong, and a stronger distaste for pirates. Appears in Fire Emblem: Thracia 776.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=8|Lv1SPD=12|Lv1DEF=4|Lv1RES=7
+|GRHP=45|GRATK=60|GRSPD=65|GRDEF=30|GRRES=80
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Bow
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Bow
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Bow
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Indignant Bow
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Rally Resistance
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Rally Spd/Res
+|assist2Unlock=4
+|assist3=Rally Spd/Res+
+|assist3Unlock=5
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Warding Stance 1
+|passiveA2=Swift Stance 1
+|passiveA3=Swift Stance 2
+|passiveA4=Swift Stance 3
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveC1=Spur Spd 1
+|passiveC2=Drive Spd 1
+|passiveC3=Drive Spd 2
+|passiveC4=Joint Drive Spd
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}

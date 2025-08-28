@@ -1,0 +1,50 @@
+{{Weapon Infobox
+|tagid=SID_ヴォルフベルグ
+|weaponType=Axe
+|might=16
+|userVersion1=Weapon
+|userVersion2=Gleam
+|range=1
+|effect=Grants Def+3. If the number of foes within 2 spaces (excluding target) ≥ the number of allies within 2 spaces (excluding unit), grants Atk/Spd/Def/Res+4 during combat.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,3,0
+|required=Silver Axe
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Def+3. At start of turn, if unit is within 4 spaces of a foe, grants Atk/Spd/Def/Res+6 for 1 turn. If unit initiates combat or unit is not adjacent to an ally, grants Atk/Spd/Def/Res+4 during combat.
+|tagidExtraSkill1=一
+|effectSkill1=At start of turn, inflicts Atk/Def-7 on foes within 4 spaces for 1 turn and inflicts status on those foes preventing counterattacks through their next actions.<br><br>At start of combat, if foe's HP ≥ 75%, inflicts Atk/Def-5 on foe during combat.
+|iconSkill1=Wolf Berg W.png
+|properties=random_owner
+}}
+==Notes==
+{{Temporary buffs}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Bonuses|name=refine Wolf Berg}}
+{{IfUnitInitiates}}
+{{Penalties|name={{St|Wolf Berg|refine=Skill1}}}}
+{{Counterattacks disrupted|name={{St|Wolf Berg|refine=Skill1}}}}
+{{Temporary debuffs|name={{St|Wolf Berg|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ヴォルフベルグ
+|german=Wolfberg
+|spanishEU=Barathrum
+|spanishLA=Barathrum
+|french=Horde
+|italian=Wolf Berg
+|chineseTW=沃爾夫貝爾格
+|portuguese=Báratro
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%number of foes%≥%number of allies%' OR Description LIKE '%if unit is within _ spaces of a foe%' AND Exclusive='1' OR Description LIKE '%if foe_s HP ≥%inflicts Atk/Def-%foe during combat%'}}
+* [[Threaten Passives]]
+* [[Menace Passives]]
+{{Weapons Navbox}}

@@ -1,0 +1,30 @@
+{{Special
+|tagid=SID_流星
+|charge=4
+|effect=Boosts damage dealt by 150%.
+|cost=200
+|required=Night Sky
+|exclusive=0
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|properties=random_all,offensive_special
+}}
+==Notes==
+{{DamageBoost}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+==Trivia==
+* Astra's cooldown was reduced by 1 with {{Version|2}}, released on November 28th, 2017.
+==In other languages==
+{{OtherLanguages
+|japanese=流星
+|german=Astra
+|spanishEU=Fobos
+|spanishLA=Astrea
+|french=Stellaire
+|italian=Astra
+|chineseTW=流星
+|portuguese=Astro
+}}
+{{Specials Navbox}}

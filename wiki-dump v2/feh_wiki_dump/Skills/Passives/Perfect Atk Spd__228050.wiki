@@ -1,0 +1,56 @@
+{{Passive
+|name=Perfect Atk/Spd
+|type=A
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|Infantry}}
+|properties=random_owner
+|1name=Perfect Atk/Spd
+|alt1name=Perfect Atk Spd
+|1tagid=SID_攻撃速さの完全
+|1effect=If unit's HP ≥ 25% at start of combat or unit is within 3 spaces of an ally, grants Atk/Spd+7 to unit during combat, and also, if unit's Spd > foe's Spd, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat.<br><br>If unit's HP ≥ 25% at start of combat and unit is within 3 spaces of an ally, grants an additional Atk/Spd+3 to unit during combat.
+|1cost=300
+|1required=Atk/Spd Ideal 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary buffs|Atk/Spd|7}}
+|Ce1C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''or''' an {{Tgt|Ally}} is<br>[[within 3 spaces]]
+|Ce2={{Eft|Neutralize Guaranteed Follow-Ups}}
+|Ce2T={{Tgt|Foe}}
+|Ce3={{Eft|Neutralize Prevent Follow-Ups}}
+|Ce2-3C={{Eft|Temporary buffs|Atk/Spd|7}}<br>conditions '''&'''<br>{{Tgt|Unit}}'s Spd ><br>{{Tgt|Foe}}'s Spd
+|Ce4={{Eft|Temporary buffs|Atk/Spd|3}}
+|Ce3-4T={{Tgt|Unit}}
+|Ce4C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat<br>'''&''' an {{Tgt|Ally}} is<br>[[within 3 spaces]]
+}}
+==Notes==
+{{Temporary buffs}}
+{{Follow-up effect neutralization}}
+==List of owners==
+{{Skill Hero List}}
+{{NoInheritHeroes}}
+
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Perfect Atk/Spd
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=Apogeo Atq/Vel
+|french=
+|italian=Impeccabilità A/V
+|chineseTW=
+|portuguese=
+}}
+
+==See also==
+{{See also skills|cond=(Description LIKE '%if unit_s HP _ ___ at the start of combat or unit is within _ spaces of an ally%' OR Description LIKE '%If unit_s Spd > foe_s Spd%prevent unit_s follow-up%' AND Description NOT LIKE '%【Null Follow-Up】%') AND (Exclusive='1' AND NAME NOT LIKE 'Null%' AND Name NOT LIKE '%+' AND Properties HOLDS NOT 'arcane')}}
+* [[Skill families/A Passives#Ideal|Ideal Passives]]
+* [[Skill families/A Passives#Perfect|Perfect Passives]]
+* [[Null Passives]]
+{{Passives Navbox|A}}

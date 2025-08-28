@@ -1,0 +1,75 @@
+{{Weapon Infobox
+|tagid=SID_女神の斧
+|weaponName=Goddess Axe
+|image=wep_ax084
+|weaponType=Axe
+|might=11
+|range=1
+|effect=Grants Def+5 and inflicts Spd/Res-5 on unit. Unit attacks twice. (Even if foe initiates combat, unit attacks twice.)
+|cost=400
+|exclusive=1
+|statModifiers=0,11,-5,5,-5
+|required=Brave Axe
+|intID=2449
+|sort=506
+|value=20
+|timingID=1
+|abilityID=46
+|randomTimestamp=2021-03-16T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Unit attacks twice (even if foe initiates combat, unit attacks twice). Grants HP+5, Atk+6, and Def+6 to unit, and inflicts Spd/Res-5 on unit.<br><br>Unit makes a guaranteed follow-up attack during combat.
+|upgradedStatModifiers=5,17,-5,6,-5
+|refineStatsAtk=5,1,0,0,0
+|refineStatsSkill1=3,0,0,0,0
+|effectSkill1=If unit initiates combat or is within 2 spaces of an ally, grants Atk/Def+6 to unit, deals damage = 15% of unit's Def (excluding area-of-effect Specials), and grants Special cooldown charge +1 to unit per attack during combat (only highest value applied; does not stack), and restores 7 HP to unit after combat.
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe1={{Eft|Stat Boosts|Def|5}}, {{Eft|Stat Reductions|Spd/Res|5}}
+|s1 Ce={{Eft|Attack Twice}}
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe1={{Eft|Stat Boosts|HP|5}}, {{Eft|Stat Boosts|Atk/Def|6}},<br>{{Eft|Stat Reductions|Spd/Res|5}}
+|s2 Ce1={{Eft|Attack Twice}}
+|s2 Ce2={{Eft|Guaranteed Follow-Ups}}
+|skill3={{Si|Goddess Axe|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary buffs|Atk/Def|6}}
+|s3 Ce2={{Eft|Damage Boost|15% of {{Tgt|Unit}}'s Def}}
+|s3 Ce3={{Eft|Accelerate Charge}}
+|s3 CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|s3 Me={{Eft|Heal|7}}
+|s3 MeC=After combat on<br>Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+
+==Notes==
+{{Brave weapon interaction}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Guaranteed follow-up interaction|name=Refined Goddess Axe}}
+{{IfUnitInitiates|name={{St|Goddess Axe|refine=Skill1}}}}
+{{DamageBoost|name={{St|Goddess Axe|refine=Skill1}}}}
+{{CooldownChargePlus|name={{St|Goddess Axe|refine=Skill1}}}}
+{{After combat healing|name={{St|Goddess Axe|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=女神の斧
+|german=Axt der Göttin
+|spanishEU=Hacha divina
+|spanishLA=Hacha divina
+|french=Hache de déesse
+|italian=Ascia della dea
+|chineseTW=女神之斧
+|portuguese=Machado divino
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%Unit attacks twice%even if foe initiates combat%deals damage%of unit_s Def%' OR Description LIKE '%Unit attacks twice.%deals damage%of unit_s Def%' OR (Description LIKE '%unit attacks twice%makes a guaranteed follow-up%' OR Description LIKE '%makes a guaranteed follow-up%unit attacks twice%') AND Description NOT LIKE '%reduces damage%attacks twice%strikes%') AND (Exclusive='1' OR SP='300')}}
+* [[Brave Weapons]]
+{{Weapons Navbox}}

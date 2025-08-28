@@ -1,0 +1,72 @@
+{{#invoke:NameAbout|main|Name=Keaton}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Keaton
+|Title=Lupine Collector
+|GrowthModifier=
+|WeaponType=Red Beast
+|Origin=Fire Emblem Fates
+|Gender=Male
+|MoveType=Infantry
+|actorJP=大須賀純
+|actorEN=Ted Sroka
+|artist=大熊ゆうご
+|additionDate=February 20, 2019
+|releaseDate=February 20, 2019
+|poolDate=March 8, 2019
+|randomStartTime=2019-03-20T07:00:00Z
+|poolRarities=5
+|TagID=フランネル
+|InternalID=344
+|Properties=specRate_202108
+|cv1=11
+|cv2=700200
+|description=Leader of the wolfskin who set up their stronghold on Mount Garou. Sociable but isn't always honest with himself or others. Appears in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=11|Lv1SPD=7|Lv1DEF=8|Lv1RES=4
+|GRHP=60|GRATK=70|GRSPD=40|GRDEF=70|GRRES=35
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Whelp (Infantry)
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Yearling (Infantry)
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Adult (Infantry)
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Wolfskin Fang
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Draconic Aura
+|special2Default=
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Special Spiral 1
+|passiveB2=Special Spiral 2
+|passiveB3=Special Spiral 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Beast Valor 1
+|passiveC2=Beast Valor 2
+|passiveC3=Beast Valor 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

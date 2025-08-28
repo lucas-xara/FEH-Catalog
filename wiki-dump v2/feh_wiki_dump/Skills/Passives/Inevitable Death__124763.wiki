@@ -1,0 +1,45 @@
+{{About|the [[Passive]] skill|the [[Tactics Drills]] map|Grandmaster 119: Inevitable Death}}
+{{Passive
+|name=Inevitable Death
+|type=C
+|exclusive=1
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|1name=Inevitable Death
+|1tagid=SID_死からは逃れられぬ
+|1effect=Inflicts Atk/Spd/Def/Res-4 on foes within 2 spaces during combat.
+|1required=-
+|1next=-
+|2name=Inevitable Death+
+|alt2name=Inevitable Death Plus
+|2tagid=SID_死からは逃れ…・神
+|2effect=For each foe within 4 spaces of unit, unit can move to any of the nearest spaces adjacent to that foe (unless space is impassible terrain). Inflicts Atk/Spd/Def/Res-5 on foes within 2 spaces of unit during combat. If unit's Spd > foe's Spd, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat.
+|2cost=300
+|properties2=
+|1cost=300
+|properties=random_owner
+}}
+==Notes==
+{{Temporary debuffs}}
+{{FoesCombatEffect|effect=temporary debuffs}}
+{{Warp interaction}}
+{{Follow-up effect neutralization|name=Inevitable Death+}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Inevitable Death
+|japanese=死からは逃れられぬ
+|german=Sicherer Tod
+|spanishEU=Hado mortal
+|spanishLA=Hado mortal
+|french=Mort inévitable
+|italian=Morte certa
+|chineseTW=無法逃離的死亡
+|portuguese=Fado mortal
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%inflicts%/%/%-%on foes within _ spaces during combat%' OR Description LIKE '%unit can move to%nearest spaces%that foe%'}}
+* [[Rein Passives]]
+* [[Skill families/C Passives#Hold|Hold Passives]]
+{{Passives Navbox|C}}

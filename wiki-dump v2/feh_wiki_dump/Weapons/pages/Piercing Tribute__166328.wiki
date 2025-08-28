@@ -1,0 +1,36 @@
+{{Weapon Infobox
+|tagid=SID_感謝の花の槍
+|intID=2948
+|image=wep_lc116
+|exclusive=0
+|weaponType=Lance
+|cost=200
+|might=10
+|range=1
+|effect=If foe initiates combat or if foe's HP ≥ 75% at start of combat, grants Atk/Spd+5 to unit and neutralizes effects that guarantee foe's follow-up attacks during combat.
+|statModifiers=0,10,0,0,0
+|required=Steel Lance
+|next=Piercing Tribute+
+|promotionRarity=5
+|promotionTier=1
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+{{Follow-up effect neutralization|guaranteeOnly=1}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=感謝の花の槍
+|german=Hingabe-Lanze
+|spanishEU=Tributo afilado
+|spanishLA=Tributo afilado
+|french=Tribut perçant
+|italian=Tributo lacerante
+|chineseTW=感謝之花槍
+|portuguese=Tributo afiado
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If foe initiates combat or if foe\'s HP%grants Atk/Spd+%during combat%' OR (Description LIKE '%If foe initiates combat%' OR Description LIKE '%if foe\'s HP %') AND Description LIKE '%neutralizes effects%guarantee foe\'s follow-up attacks%'|columns=3}}
+{{Weapons Navbox}}

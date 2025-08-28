@@ -1,0 +1,89 @@
+{{#invoke:NameAbout|main|Name=Eikþyrnir}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Eikþyrnir
+|Title=Resolved to Train
+|WeaponType=Colorless Beast
+|MoveType=Armored
+|Origin=Fire Emblem Heroes
+|Gender=Male
+|actorEN=Takeuchi Shunsuke
+|noActorEN=1
+|actorJP=武内駿輔
+|artist=西木あれく
+|additionDate=August 15, 2025
+|releaseDate=August 15, 2025
+|poolDate=September 5, 2025
+|poolRarities=5
+|cv1=0
+|cv2=800500
+|TagID=総選挙エイクス
+|InternalID=1279
+|Properties=brave
+|description=A member of Yggdrasill's Healing Hands who answers the call of many, tautening his body with power.
+}}
+{{Stats Page
+|Lv1HP=25|Lv1ATK=13|Lv1SPD=3|Lv1DEF=11|Lv1RES=10
+|GRHP=65|GRATK=85|GRSPD=30|GRDEF=90|GRRES=75
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Whelp (Armored)
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Yearling (Arm.)
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Adult (Armored)
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Tempered Antler
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Swap
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Swap Gait
+|assist2Unlock=5
+}}
+===Specials===
+{{Specials Table
+|special1=Glowing Ember
+|special1Default=4
+|special1Unlock=3
+|special2=Ignis
+|special2Unlock=4
+|special3=Mighty Roar
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Def Form 1
+|passiveA2=Atk/Def Form 2
+|passiveA3=Atk/Def Form 3
+|passiveA4=Atk/Def Fortune
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Bold Fighter 1
+|passiveB2=Bold Fighter 2
+|passiveB3=Bold Fighter 3
+|passiveB4=Assault Fighter
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=A/D Far Save 1
+|passiveC2=A/D Far Save 2
+|passiveC3=A/D Far Save 3
+|passiveC4=A/D Briar P Save
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+}}
+{{Heroes Navbox}}

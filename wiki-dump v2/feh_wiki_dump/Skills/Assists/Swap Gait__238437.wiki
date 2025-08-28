@@ -1,0 +1,43 @@
+{{Assist
+|tagid=SID_入れ替え・歩法
+|intID=4867
+|exclusive=0
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|Infantry,Armored}}
+|cost=400
+|range=1
+|effect=Unit and target ally swap spaces.<br><br>If unit uses an Assist skill on the current turn, enables【Canto (１)】.<br><br>【Canto (１)】<br>After an attack, Assist skill, or structure destruction, unit can move １ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|required=Swap
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Swap Units}}
+|Me1T={{Tgt|Unit}} '''&'''<br>{{Tgt|Target Ally}}
+|Me1C={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}
+|Me2={{Eft|Canto|1}}
+|Me2C={{Tgt|Unit}} uses assist
+}}
+==Notes==
+{{Movement skill notes|notBeforeRokkr=1}}
+{{Canto|1}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+* [[Movement Assists]]
+{{Assists Navbox}}

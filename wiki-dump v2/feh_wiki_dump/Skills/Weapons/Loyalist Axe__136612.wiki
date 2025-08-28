@@ -1,0 +1,42 @@
+{{Weapon Infobox
+|tagid=SID_護国の堅斧
+|weaponName=Loyalist Axe
+|image=wep_ax082
+|weaponType=Axe
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). If foe initiates combat or if foe's HP ≥ 75% at start of combat, inflicts Atk/Def-6 on foe during combat, and also, if foe can make a follow-up attack, reduces damage from foe's first attack by 75%.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Silver Axe
+|intID=2424
+|sort=502
+|value=20
+|timingID=1
+|abilityID=230
+|limit1ID=46
+|properties=
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Combat reductions}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=護国の堅斧
+|german=Loyalistenaxt
+|spanishEU=Hacha custodio
+|spanishLA=Hacha escolta
+|french=Hache loyaliste
+|italian=Ascia lealista
+|chineseTW=護國的堅斧
+|portuguese=Machado leal
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe can make a follow-up attack, reduces damage from foe_s first attack%' AND WikiName NOT LIKE '%stout%' OR Description LIKE '%If foe initiates combat or if foe_s HP%inflicts Atk/Def-%during combat%'|columns=3}}
+* [[Skill families#Stout|Stout Weapons]]
+{{Weapons Navbox}}

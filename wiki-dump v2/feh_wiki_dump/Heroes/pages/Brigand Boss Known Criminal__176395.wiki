@@ -1,0 +1,66 @@
+{{#invoke:NameAbout|main|Name=Brigand Boss}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Brigand Boss
+|Title=Known Criminal
+|WeaponType=Green Axe
+|MoveType=Infantry
+|Origin=Fire Emblem Echoes: Shadows of Valentia
+|Gender=Male
+|actorEN=Tom Fahn
+|actorJP=高口公介
+|artist=DAI-XT.
+|additionDate=July 19, 2022
+|releaseDate=July 20, 2022
+|cv1=2
+|cv2=950100
+|TagID=盗賊頭
+|InternalID=832
+|Properties=limited,ghb
+|description=A brigand who set up a hideout in a shrine to the east of Ram Village and acts as the leader of a group of ruffians. Appears in Fire Emblem Echoes: Shadows of Valentia.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=12|Lv1SPD=9|Lv1DEF=9|Lv1RES=5
+|GRHP=60|GRATK=70|GRSPD=60|GRDEF=60|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Vulture Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Vulture Axe+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Dragon Fang
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveB1=Chill Def 1
+|passiveB2=Chill Spd/Def 1
+|passiveB3=Chill Spd/Def 2
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Atk Smoke 1
+|passiveC2=Atk Smoke 2
+|passiveC3=Atk Smoke 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}

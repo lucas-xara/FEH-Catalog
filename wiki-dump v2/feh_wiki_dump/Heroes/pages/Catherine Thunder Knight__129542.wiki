@@ -1,0 +1,71 @@
+{{#invoke:NameAbout|main|Name=Catherine}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Catherine
+|Title=Thunder Knight
+|WeaponType=Red Sword
+|MoveType=Infantry
+|Origin=Fire Emblem: Three Houses
+|Gender=Female
+|actorEN=Laura Post
+|actorJP=松浦チエ
+|artist=п猫Ｒ
+|randomStartTime=2020-11-19T07:00:00Z
+|additionDate=October 19, 2020
+|releaseDate=October 19, 2020
+|poolDate=November 6, 2020
+|poolRarities=5
+|cv1=12
+|cv2=500800
+|TagID=カトリーヌ
+|InternalID=577
+|Properties=tiara,specRate_202308
+|description=A member of the Knights of Seiros and wielder of the Hero's Relic Thunderbrand. She deeply reveres Archbishop Rhea. Appears in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=9|Lv1SPD=11|Lv1DEF=8|Lv1RES=6
+|GRHP=55|GRATK=70|GRSPD=70|GRDEF=50|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Sword
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Sword
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Sword
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Thunderbrand
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Draconic Aura
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Death Blow 1
+|passiveA2=Swift Sparrow 1
+|passiveA3=Swift Sparrow 2
+|passiveA4=Swift Sparrow 3
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Lull Spd/Def 1
+|passiveB2=Lull Spd/Def 2
+|passiveB3=Lull Spd/Def 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+}}
+{{Heroes Navbox}}

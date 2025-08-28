@@ -1,0 +1,37 @@
+{{Weapon Infobox
+|tagid=SID_壊刃の戦槍
+|intID=3205
+|image=wep_lc127
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=16
+|range=1
+|effect=Grants Atk+3. At start of turn, inflicts Atk/Def-6 and【Panic】on foe on the enemy team with the highest Atk+Def total and foes within 2 spaces of that foe through their next actions. At start of combat, if unit's HP ≥ 25%, inflicts Atk/Def-6 on foe during combat and unit makes a guaranteed follow-up attack.<br><br>【Panic】<br>Converts bonuses on target into penalties through its next action.
+|statModifiers=0,19,0,0,0
+|required=Silver Lance
+|properties=random_owner
+}}
+==Notes==
+{{SelectStat|Atk+Def}}
+{{Penalties}}
+{{Panic}}
+{{Combat reductions}}
+{{Guaranteed follow-up interaction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=壊刃の戦槍
+|german=Zerbersterlanze
+|spanishEU=Lanza quebradora
+|spanishLA=Lanza quebradora
+|french=Lance du briseur
+|italian=Lancia distruttiva
+|chineseTW=壞刃戰槍
+|portuguese=Lança fendedora
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%at start of turn%inflicts%enemy team%and%foe%within 2 spaces%' AND Exclusive='1' OR Description LIKE '%inflicts Atk/Def-%during combat%makes a guaranteed follow%'|columns=3}}
+* [[Skill families#Chill|Chill Passives]]
+{{Weapons Navbox}}

@@ -1,0 +1,48 @@
+{{Passive
+|name=A/D Briar N Save
+|type=C
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|Armored}}
+|properties=random_owner
+|1name=A/D Briar N Save
+|alt1name=A D Briar N Save
+|1tagid=SID_鎧の護り手・近・茨
+|1effect=If foe with Range = 1 initiates combat against an ally within 2 spaces of unit, triggers【Savior】on unit.<br><br>If foe's Range = 1, grants Atk/Def+4 to unit and reduces damage from foe's first attack by 5 during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and unit's next attack deals damage = 40% of foe's attack damage prior to reductions (resets at end of combat; only highest value applied; does not stack).<br><br>【Savior】<br>Unit takes ally's space, enters combat in ally's place, and receives all after-combat effects.<br><br>Savior will not trigger if ally is on terrain that unit cannot move to or if multiple units are able to use Savior during the same combat. If Savior triggers, after-combat movement effects do not occur.
+|1cost=300
+|1required=A/D Near Save 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Savior}}
+|MeC=Enemy Phase '''&'''<br>[[Range = 1]] {{Tgt|Foe}}<br>attacks an {{Tgt|Ally}}<br>[[within 2 spaces]]
+|Ce1={{Eft|Temporary buffs|Atk/Def|4}}
+|Ce2={{Eft|Damage Reduction|5}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce3={{Eft|Damage Boost|40% of {{Tgt|Foe}}'s attack<br>damage prior to reductions}}
+|CeC={{Tgt|Foe}}'s Range = 1
+}}
+==Notes==
+{{Briar Save skill notes}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=A/D Briar N Save
+|japanese=
+|german=
+|spanishEU=Ay. cer. zarza A/D
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+
+==See also==
+{{See also skills|cond=Description LIKE '%【Savior】%' AND Exclusive='1'}}
+* [[Skill families/C Passives#Save|Save Passives]]
+{{Passives Navbox|C}}

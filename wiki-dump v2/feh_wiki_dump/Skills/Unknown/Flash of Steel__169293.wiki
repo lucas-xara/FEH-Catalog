@@ -1,0 +1,37 @@
+{{Captain Skill
+|name=Flash of Steel
+|effect=If captain initiates combat, captain can make a follow-up attack before foe can counterattack. Grants the following to captain and allies within 2 spaces of captain during combat: "neutralizes effects that grant 'Special cooldown charge +X' to foe or inflict 'Special cooldown charge -X' on unit."
+|statModifiers=
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|CombatEffect 1={{Eft|Desperation}}
+|CombatEffect 1 Targets={{Tgt|Captain}}
+|CombatEffect 1 Conditions=Player Phase
+|CombatEffect 2={{Eft|Neutralize Accelerate Charge}}
+|CombatEffect 2 Targets={{Tgt|Foes}} of<br>{{Tgt|Captain}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|CombatEffect 3={{Eft|Neutralize Slow Charge}}
+|CombatEffect 3 Targets={{Tgt|Captain}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+}}
+
+==Notes==
+{{Follow-up before counterattack}}
+{{CooldownChargePlusNeutralization}}
+{{CooldownChargeMinusNeutralization}}
+{{AlliesCombatEffect}}
+==In other languages==
+{{OtherLanguages
+|japanese=紫電一閃
+|german=Blitz aus Stahl
+|spanishEU=Rayo de acero
+|spanishLA=Rayo de acero
+|french=Éclat d'acier
+|italian=Lampo d'acciaio
+|chineseTW=電光一閃
+|portuguese=Brilho do aço
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%follow-up attack before foe can counterattack%' OR Description LIKE '%neutralizes effects that grant%Special cooldown charge +X%to foe or inflict%Special cooldown charge -X%on unit%' AND Description NOT LIKE '%transforms%+7 damage when%' AND WikiName NOT LIKE '%Tempo%') AND Exclusive='1'}}
+* [[Tempo Passives]]
+{{Captain Skills Navbox}}

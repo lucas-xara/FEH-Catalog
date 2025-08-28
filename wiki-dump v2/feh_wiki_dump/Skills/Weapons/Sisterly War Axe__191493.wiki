@@ -1,0 +1,42 @@
+{{Weapon Infobox
+|tagid=SID_想い宿す妹達の重斧
+|intID=3511
+|image=wep_ax127
+|exclusive=1
+|weaponType=Axe
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of odd-numbered turns, grants Special cooldown count-2. If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd+6 to unit during combat and deals damage = X% of unit's Spd when Special triggers (X = unit's max Special cooldown count value × 10, + 20). If unit initiates combat or is within 2 spaces of an ally, and if unit's Special triggers (excluding area-of-effect Specials), disables non-Special effects that "reduce damage by X%" and prevents foe's Specials that are triggered by unit's attack.
+|statModifiers=0,16,0,0,0
+|required=Silver Axe
+|properties=
+}}
+==Notes==
+{{Start of turn Special modification}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{DamageBoost}}
+{{DamageReductionNeutralization}}
+{{Prevent Special|defensive}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=想い宿す妹達の重斧
+|german=Schwesternaxt
+|spanishEU=Hacha sororal
+|spanishLA=Hacha sororal
+|french=Hache sororale
+|italian=Ascia sororale
+|chineseTW=蘊藏妹妹心意的重斧
+|portuguese=Machado sororal
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%disables%reduce%damage by x%' OR Description LIKE '%neutralizes%reduce%damage by x%') AND Description LIKE '%non-Special%' AND Description NOT LIKE '%reduces the percentage%' OR Description LIKE '%prevents foe_s Specials that are triggered by unit_s attack%' OR Description LIKE '%X = unit_s max Special cooldown count value%' AND Exclusive='1' OR Description LIKE '%at the start of%turns%grants special cooldown count-%'}}
+* [[Skill families/A Passives#Surge|Surge Passives]]
+{{Weapons Navbox}}

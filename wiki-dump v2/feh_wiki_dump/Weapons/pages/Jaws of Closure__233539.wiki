@@ -1,0 +1,82 @@
+{{Weapon Infobox
+|tagid=SID_閉ざす者の鋭き爪牙
+|intID=4689
+|noImg=1
+|exclusive=1
+|weaponType=Beast
+|canUseMove=Flying
+|cost=400
+|might=14
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>When unit is in combat, foes' Savior effects will not trigger.<br><br>After unit acts (if Canto triggers, after Canto), inflicts【Undefended】on closest foes within 5 spaces of unit through their next actions.<br><br>For foes within 3 rows or 3 columns centered on unit, inflicts Atk/Spd/Def/Res-5 and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials).<br><br>At start of combat, if unit's HP ≥ 25%, grants bonus to unit's Atk/Spd/Def/Res = 15% of unit's Spd at start of combat, unit deals X × 8 damage (excluding area-of-effect Specials), and reduces damage from foe's first attack by X × 6 during combat (X = number of foes within 3 spaces of target, including target; max 4; "first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes).<br><br>At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 and unit can move 1 extra space (that turn only; does not stack).<br><br>【Undefended】<br>Unit cannot be protected by Savior through their next action.
+|required=Adult (Flier)
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe1={{Eft|Accelerates Special}}
+|Pe2={{Eft|Stat Boosts|Atk|2}}
+|Pe2C={{Tgt|Unit}} is transformed
+|Se1={{SEt|Undefended}}
+|Se1T=Closest {{Tgt|Foes}}<br>[[within 5 spaces]]
+|Se1C=After action(s) '''&'''<br>[[Canto]] movement
+|Se2={{SEt|Mobility Increased}}
+|Se2C=At start of turn if<br>{{Tgt|Unit}} is transformed
+|Ce1={{Eft|Temporary debuffs|Atk/Spd/Def/Res|5}}
+|Ce2={{Eft|Reduce Damage Reduction|50%}}
+|Ce1-2T={{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|Ce3={{Eft|Temporary buffs|Atk/Spd/Def/Res|15% of {{Tgt|Unit}}'s Spd<br>at start of combat}}
+|Ce4={{Eft|Damage Boost|8 x {{Tgt|Foes}} [[within 3 spaces|within<br>3 spaces]] of {{Tgt|Target Foe}}<br>(including {{Tgt|Target Foe}})|max=32}}
+|Ce5={{Eft|Damage Reduction|6 x {{Tgt|Foes}} [[within 3 spaces|within<br>3 spaces]] of {{Tgt|Target Foe}}<br>(including {{Tgt|Target Foe}})|max=24}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce3-5C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Me1={{Eft|Prevent Savior}}
+|Me1T={{Tgt|Foe}}
+|Me1C={{Tgt|Unit}} is in combat
+|Me2={{Eft|Transform}}
+|Me2C=At start of turn if<br>{{Tgt|Unit}} is [[adjacent]] to only<br>{{Cwti|group=1|Dragon,Beast}} [[Dragon]]/[[Beast]]<br>{{Tgt|Allies}} '''or''' not [[adjacent]]<br>to any {{Tgt|Ally}}
+}}
+
+==Notes==
+{{Prevent Savior}}
+{{Undefended}}
+{{Temporary debuffs}}
+{{Reduce Damage Reduction}}
+{{FoesCombatEffect|temporary debuffs and reduce damage reduction effects}}
+{{Temporary buffs}}
+{{FlatDamageBoost|X (max: 32)}}
+{{FlatDamageReduction|X (max: 24)}}
+{{Beast (Flier)}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Elm: Retainer to Embla|t=Ash: Retainer to Askr
+|---xxx---
+|---xxx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xtx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%cannot be protected by Savior%' OR Description LIKE '%foes_ Savior %will not trigger%' OR Description LIKE '%number of foes within _ spaces of target%' AND Description NOT LIKE '%【Discord】%') AND (SCategory='captain' OR Exclusive='1')}}
+* [[Rein Passives]]
+* [[Skill families/C Passives#Crux|Crux Passives]]
+{{Weapons Navbox}}

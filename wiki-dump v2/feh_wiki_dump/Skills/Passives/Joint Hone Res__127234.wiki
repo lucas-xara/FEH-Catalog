@@ -1,0 +1,56 @@
+{{Passive
+|name=Joint Hone Res
+|type=C
+|exclusive=0
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|intID=2224
+|sort=5230
+|effectRange=1
+|value=8
+|timingID=8
+|abilityID=98
+|randomTimestamp=2020-10-08T07:00:00Z
+|randomMinLv=36
+|properties=random_owner
+|1name=Joint Hone Res
+|1tagid=SID_魔防の相互鼓舞
+|1effect=At start of turn, if unit is adjacent to an ally, grants Res+5 to unit and adjacent allies for 1 turn.
+|1required=Fortify Res 3
+|1cost=300
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Se={{Eft|Bonuses|Res|5}}
+|SeT={{Tgt|Unit}} '''&''' [[Adjacent]]<br>{{Tgt|Allies}}
+|SeC=At start of turn if<br>{{Tgt|Unit}} is [[Adjacent]]<br>to an {{Tgt|Ally}}
+}}
+
+==Notes==
+{{Bonuses}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Joint Hone Res
+|japanese=魔防の相互鼓舞
+|german=Nachbar-Res.
+|spanishEU=Omnimpulso Res
+|spanishLA=Omnipulso Res.
+|french=Entraide Rés
+|italian=Incita Res gruppo
+|chineseTW=魔防相互鼓舞
+|portuguese=Res. omnielevada
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%at start of turn, if%grants%Res+%to unit%allies%for 1 turn%' AND Exclusive='1'}}
+* [[Hone Passives]]
+* [[Fortify Passives]]
+* [[Skill families/C Passives#Joint Hone|Joint Hone Passives]]
+{{Passives Navbox|C}}
+[[Category:Fortify Passives]]
+[[Category:Joint Hone Passives]]

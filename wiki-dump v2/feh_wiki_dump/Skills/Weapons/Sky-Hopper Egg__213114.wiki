@@ -1,0 +1,62 @@
+{{Weapon Infobox
+|tagid=SID_春風舞う天馬兎の卵
+|intID=4058
+|image=wep_mg088
+|exclusive=1
+|weaponType=Red Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Enables【Canto (１)】.<br><br>Accelerates Special trigger (cooldown count-1). At start of turn, if unit's HP ≥ 25%, grants Atk/Spd+6,【Charge】, and "if unit initiates combat, reduces damage from foe's first attack during combat by 40%" to unit, allies within 2 spaces of unit, and allies in a support-partner pair on player's team (excluding with unit) for 1 turn. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit and an additional bonus to unit's Atk/Spd = number of allies granted【Charge】(excluding unit) × 4 (max 8), deals damage = 20% of unit's Spd (excluding area-of-effect Specials), and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50% during combat (excluding area-of-effect Specials).<br><br>【Canto (１)】<br>After an attack, Assist skill, or structure destruction, unit can move １ space(s).<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)<br><br>【Charge】<br>Unit can move up to 3 spaces in any cardinal direction. (Cannot move through foes, terrain that blocks movement, or effects of skills like Obstruct. Granted movement treated as Warp movement.)
+|required=Bolganone;Fenrir
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|PermanentEffect={{Eft|Accelerates Special}}
+|Me={{Eft|Canto|1}}
+|StatusEffect 1={{Eft|Bonuses|Atk/Spd|6}}
+|StatusEffect 2={{SEt|Charge}}
+|StatusEffect 3=<span style="width:12em;display:inline-block"/>{{SEt|Reduces damage when initiating}}
+|StatusEffect Targets={{Tgt|Unit}}, {{Tgt|Allies}}<br>[[within 2 spaces]], '''&'''<br>{{Tgt|Partner}} pair(s)
+|StatusEffect Conditions=At start of turn
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd|{{Tgt|Allies}} with {{SEt|Charge}} x 4|max=8}}
+|Ce3={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|Ce4={{Eft|Reduce Damage Reduction|50%}}
+|CeT4={{Tgt|Foe}}
+|CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Canto|1}}
+{{Bonuses}}
+{{Charge}}
+{{Reduces damage when initiating}}
+{{SupportPartner|pair=1|effect={{SEt|Bonuses}}, {{SEt|Charge}} and {{SEt|Reduces damage when initiating}}}}
+{{Temporary buffs}}
+{{DamageBoost}}
+{{Reduce Damage Reduction}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V8.3_v0803a_spring_Mag.webp|Sprite sheet for {{St|Daydream Egg}} and {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=春風舞う天馬兎の卵
+|german=Flughäschen-Ei
+|spanishEU=Huevo volador
+|spanishLA=Huevo volador
+|french=Œuf volant
+|italian=Ovetto volante
+|chineseTW=飛舞春風天馬兔之卵
+|portuguese=Ovo voador
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Charge】%' OR Description LIKE '%"if unit initiates combat, reduces damage from foe_s first attack during combat by 40%"%' OR Description LIKE '%support-partner pair%') AND Exclusive='1'}}
+* [[Null Passives]]
+* [[Tempo Passives]]
+{{Weapons Navbox}}

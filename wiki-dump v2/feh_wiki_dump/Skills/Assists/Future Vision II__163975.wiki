@@ -1,0 +1,47 @@
+{{Assist
+|tagid=SID_未来を映す瞳・承
+|intID=2908
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=400
+|range=1
+|effect=Unit and target ally swap spaces. Inflicts Atk/Def-7 on nearest foes within 4 spaces of both unit and target through their next actions. Grants another action to unit. (Additional action granted once per turn only.)
+|required=Future Vision
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|StatusEffect 1={{Eft|Penalties|Atk/Def|7}}
+|StatusEffect Targets=Nearest {{Tgt|Foes}}<br>[[within 4 spaces]]<br>of {{Tgt|Unit}} '''&'''<br>{{Tgt|Target Ally}}
+|StatusEffect Conditions={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}
+|MapEffect 1={{Eft|Swap Units}}
+|MapEffect 1 Targets={{Tgt|Unit}} '''&'''<br>{{Tgt|Target Ally}}
+|MapEffect 2={{Eft|Another Action}}<br>(once per turn)
+|MapEffect 2 Targets={{Tgt|Unit}}
+|Me1C={{Tgt|Target Ally}} doesn't<br>have {{SEt|Isolation}}
+|MapEffect 2 Conditions={{Tgt|Unit}} uses Assist
+}}
+
+==Notes==
+* Has the same effect as {{St|Swap}}.
+{{Movement skill notes|notBeforeRokkr=1}}
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Future Vision
+|japanese=未来を映す瞳
+|german=Zukunftsvision
+|spanishEU=Visión futura
+|spanishLA=Visión futura
+|french=Vision du futur
+|italian=Premonizione
+|chineseTW=映照未來的眼眸
+|portuguese=Visão do futuro
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%If a movement Assist skill%inflicts%/%-%' OR Description LIKE '%grants unit another action%' OR Description LIKE '%grants another action to unit%') AND Exclusive='1'|columns=3}}
+* [[Skill families#Snag|Snag Passives]]
+{{Assists Navbox}}

@@ -1,0 +1,37 @@
+{{Special
+|tagid=SID_絶氷の聖鏡
+|intID=3679
+|exclusive=1
+|canUseWeapon={{WeaponList|Close}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=2
+|effect=Reduces damage from foe's attacks by X% (if foe's Range = 1, X = 10; if foe's Range = 2, X = 30). After Special triggers, unit's next attack deals damage = total damage reduced (by any source, including other skills; resets at end of combat). At start of combat, if unit's Special is ready, unit can counterattack regardless of foe's range during combat.
+|required=Sacred Cowl
+|properties=random_owner,defensive_special
+}}
+==Notes==
+{{DefensiveSkill}}
+{{DamageBoostFromDamageReduction|afterAttack=1|special=1}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=絶氷の聖鏡
+|german=Frostspiegel
+|spanishEU=Espejo helado
+|spanishLA=Espejo helado
+|french=Miroir glacé
+|italian=Specchio algido
+|chineseTW=絕冰之聖鏡
+|portuguese=Espelho frígido
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%reduces damage%unit_s next attack%' OR (Description LIKE '%counterattack regardless of%range%' AND (SCategory!='Weapon' AND Name NOT LIKE 'Distant%' AND Name NOT LIKE 'Close%') AND (Exclusive='1' OR SCategory='captain'))|columns=3}}
+* [[Defensive Specials]]
+* [[Counter Passives]]
+* [[Counter Seals]]
+* [[Prime Passives]]
+* [[Weapons with Distant Counter]]
+* [[Weapons with Close Counter]]
+{{Specials Navbox}}

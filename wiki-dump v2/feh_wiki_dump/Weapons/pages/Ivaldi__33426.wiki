@@ -1,0 +1,48 @@
+{{Weapon Infobox
+|tagid=SID_イーヴァルディ
+|weaponType=Blue Tome
+|might=14
+|range=2
+|effect=Grants Def+3. At start of combat, if foe's HP = 100%, grants Atk/Spd+3 during combat.
+|cost=400
+|exclusive=1
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|statModifiers=0,14,0,3,0
+|required=Shine
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Def+3. At start of combat, if foe's HP ≥ 75%, grants Atk/Spd/Res+3 to unit during combat.
+|effectSkill1=At start of combat, if foe's HP ≥ 75%, inflicts Atk/Res-5 on foe during combat and restores 7 HP to unit after combat. 
+|iconSkill1=Ivaldi W.png
+|tagidExtraSkill1=回
+|SE=se effect ivaldi.flac
+|properties=random_owner
+}}
+==Notes==
+{{Temporary buffs}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==Notes==
+{{Temporary debuffs}}
+{{After combat healing}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=イーヴァルディ
+|german=Ivaldi
+|spanishEU=Ivaldi
+|spanishLA=Ivaldi
+|french=Ivaldi
+|italian=Ivaldi
+|chineseTW=伊瓦爾蒂
+|portuguese=Ivaldi
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if foe_s HP =%grants Atk/Spd%+%during combat%' AND Exclusive='1' OR Description LIKE '%if foe_s HP ≥% grants Atk/Spd/%Res+%during combat%' OR Description LIKE '%if foe_s HP ≥%inflicts Atk/Res-%during combat%' OR Description LIKE '%restores%HP%to unit after combat%' AND Description NOT LIKE '%seal%'|columns=3}}
+{{Weapons Navbox}}

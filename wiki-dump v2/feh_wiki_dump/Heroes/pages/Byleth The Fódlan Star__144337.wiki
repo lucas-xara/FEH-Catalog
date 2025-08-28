@@ -1,0 +1,90 @@
+{{#invoke:NameAbout|main|Name=Byleth}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Byleth
+|Title=The Fódlan Star
+|WeaponType=Green Tome
+|MoveType=Infantry
+|Origin=Fire Emblem: Three Houses
+|Gender=Male
+|LegendaryEffect=Water
+|BoostHP=3
+|Duel=185
+|actorEN=Zach Aguilar
+|actorJP=小林裕介
+|artist=萩谷薫
+|additionDate=June 30, 2021
+|releaseDate=June 30, 2021
+|Person=Byleth M
+|cv1=12
+|cv2=100100
+|TagID=伝承ベレト
+|InternalID=677
+|Properties=legendary
+|description=Former professor at Garreg Mach Monastery who leads the charge in the campaign to end war. Appears in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=9|Lv1SPD=11|Lv1DEF=3|Lv1RES=8
+|GRHP=50|GRATK=70|GRSPD=70|GRDEF=50|GRRES=30
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Wind
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elwind
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Rexcalibur
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Professorial Text
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=Dragon Gaze
+|special1Default=4
+|special1Unlock=3
+|special2=Draconic Aura
+|special2Unlock=4
+|special3=Sublime Heaven
+|special3Unlock=5
+|special4=Sublime Heaven II
+|special4Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Def Ideal 1
+|passiveA2=Atk/Def Ideal 2
+|passiveA3=Atk/Def Ideal 3
+|passiveA4=Atk/Def Ideal 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Lull Atk/Res 1
+|passiveB2=Lull Atk/Res 2
+|passiveB3=Lull Atk/Res 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Time's Pulse 1
+|passiveC2=Time's Pulse 2
+|passiveC3=Time's Pulse 3
+|passiveC4=Atk/Spd Oath 1
+|passiveC5=Atk/Spd Oath 2
+|passiveC6=Atk/Spd Oath 3
+|passiveC7=Atk/Spd Oath 4
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+|passiveC4Unlock=2
+|passiveC5Unlock=3
+|passiveC6Unlock=4
+|passiveC7Unlock=5
+}}
+{{Heroes Navbox}}

@@ -1,0 +1,35 @@
+{{Weapon Infobox
+|tagid=SID_アウルゲルミル
+|intID=3374
+|image=wep_ax123
+|exclusive=1
+|weaponType=Axe
+|cost=400
+|might=16
+|range=1
+|effect=Grants Atk+3. If unit initiates combat or is not adjacent to an ally, grants Atk/Spd+6 to unit during combat, unit makes a guaranteed follow-up attack, and also reduces damage from foe's first attack by 40% and unit's next attack deals damage equal to total damage reduced (by any source, including other skills). Resets at end of combat.
+|statModifiers=0,19,0,0,0
+|required=Silver Axe
+|properties=random_owner
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Guaranteed follow-up interaction}}
+{{DamageBoostFromDamageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=アウルゲルミル
+|german=Aurgelmir
+|spanishEU=Aurgelmir
+|spanishLA=Aurgelmir
+|french=Aurgelmir
+|italian=Aurgelmir
+|chineseTW=奧爾蓋爾米爾
+|portuguese=Aurgelmir
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%reduces damage%next attack%'}}
+{{Weapons Navbox}}

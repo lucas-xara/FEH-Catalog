@@ -1,0 +1,60 @@
+{{Passive
+|type=A
+|exclusive=0
+|1name=Steady Blow 1
+|1tagid=SID_飛燕金剛の一撃1
+|1promotionRarity=5
+|1promotionTier=1
+|1effect=If unit initiates combat, grants Spd/Def+2 during combat.
+|1cost=120
+|1required=Armored Blow 1;Darting Blow 1
+|2name=Steady Blow 2
+|2tagid=SID_飛燕金剛の一撃2
+|2effect=If unit initiates combat, grants Spd/Def+4 during combat.
+|2cost=240
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|all}}
+|properties=random_all
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Steady Blow 2}} Steady Blow 2
+|skill1 CombatEffect={{SkillEffectText|Temporary buffs|Spd/Def|4}}
+|skill1 CombatEffect Conditions=Player Phase
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Steady Blow 1;Steady Blow 2
+|badgeColor=Verdant
+|costs1=20;100;20
+|costs2=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=飛燕金剛の一撃
+|german=Fester Hieb
+|spanishEU=Golpe firme
+|spanishLA=Golpe firme
+|french=Coup stable
+|italian=Colpo deciso
+|chineseTW=飛燕金剛擊
+|portuguese=Golpe firme
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit initiates combat, grants Spd/Def+%' AND Exclusive='1'}}
+* [[Blow Passives]]
+{{Seals Navbox}}
+{{Passives Navbox|A}}
+[[Category:Blow Passives]]

@@ -1,0 +1,77 @@
+{{#invoke:NameAbout|main|Name=Ishtar}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Ishtar
+|Title=Echoing Thunder
+|WeaponType=Blue Tome
+|MoveType=Infantry
+|Origin=Fire Emblem: Genealogy of the Holy War
+|Gender=Female
+|actorEN=Ratana
+|actorJP=門脇舞以
+|artist=ニジハヤシ
+|randomStartTime=2022-05-18T07:00:00Z
+|additionDate=April 18, 2022
+|releaseDate=April 18, 2022
+|poolDate=May 10, 2022
+|poolRarities=5
+|cv1=3
+|cv2=9900200
+|TagID=開花イシュタル
+|InternalID=793
+|Properties=ascended,tiara,specRate_202502
+|description=Princess of Friege who turned her back on her lover, Julius, and secreted captured children to safety. Later took part in the holy war. Appears in Fire Emblem: Genealogy of the Holy War.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=11|Lv1SPD=10|Lv1DEF=4|Lv1RES=7
+|GRHP=50|GRATK=70|GRSPD=75|GRDEF=30|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Thunder
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elthunder
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Thoron
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Thunder's Mjölnir
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Life and Death 1
+|passiveA2=Life and Death 2
+|passiveA3=Life and Death 3
+|passiveA4=Life and Death 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Lull Spd/Res 1
+|passiveB2=Lull Spd/Res 2
+|passiveB3=Lull Spd/Res 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Time's Pulse 1
+|passiveC2=Time's Pulse 2
+|passiveC3=Time's Pulse 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

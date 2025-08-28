@@ -1,0 +1,81 @@
+{{Passive
+|name=Even Tempest
+|type=C
+|exclusive=0
+|canUseMove={{MoveList|Infantry,Flying}}
+|canUseWeapon={{WeaponList|Close}}
+|1effect=At start of even-numbered turns, if unit's HP = 100%, unit can move 1 extra space. (That turn only. Does not stack.)
+|timingID=8
+|abilityID=88
+|limit1ID=3
+|limit2ID=4
+|randomTimestamp=2021-04-30T07:00:00Z
+|properties=random_inherit_base,random_owner
+|1name=Even Tempest 1
+|1tagid=SID_迅雷風烈・偶数1
+|1required=-
+|1cost=60
+|1promotionRarity=4
+|1promotionTier=1
+|intID1=2491
+|sort1=15010
+|value1=2
+|randomMinLv1=21
+|randomMaxLv1=30
+|2name=Even Tempest 2
+|2tagid=SID_迅雷風烈・偶数2
+|2effect=At start of even-numbered turns, if unit's HP ≥ 50%, unit can move 1 extra space. (That turn only. Does not stack.)
+|2required=Even Tempest 1
+|2cost=120
+|2promotionRarity=5
+|2promotionTier=1
+|intID2=2492
+|sort2=15011
+|value2=4
+|randomMinLv2=26
+|randomMaxLv2=35
+|3name=Even Tempest 3
+|3tagid=SID_迅雷風烈・偶数3
+|3effect=At start of even-numbered turns, unit can move 1 extra space. (That turn only. Does not stack.)
+|3required=Even Tempest 2
+|3cost=240
+|intID3=2493
+|sort3=15012
+|value3=6
+|randomMinLv3=31
+}}
+==Notes==
+{{Mobility increased}}
+
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==Seal acquired from==
+===Tempest Trials reward===
+{{Tempest Trials seal reward}}
+===[[Sacred Seal Forge]]===
+{{SealCosts
+|seals=Even Tempest 1;Even Tempest 2;Even Tempest 3
+|badgeColor=Azure
+|costs1=20;100;40
+|costs2=60;200;50
+|costs3=400;1000;100
+}}
+==In other languages==
+{{OtherLanguages
+|japanese=迅雷風烈・偶数
+|german=Gerader Sturm
+|spanishEU=Nevasca par
+|spanishLA=Nevasca par
+|french=Ouragan pair
+|italian=Tifone pari
+|chineseTW=迅雷風烈・偶數
+|portuguese=Tormenta par
+}}
+==See also==
+* [[Skill families/C Passives#Even|Even Wave Passives]]
+{{Passives Navbox|C}}
+{{Seals Navbox}}

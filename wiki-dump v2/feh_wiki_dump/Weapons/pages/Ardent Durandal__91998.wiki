@@ -1,0 +1,72 @@
+{{Weapon Infobox
+|tagid=SID_緋剣デュランダル
+|weaponType=Sword
+|might=16
+|range=1
+|effect=Grants Atk+3. At start of turn, grants 【Bonus Doubler】 to ally with the highest Atk.<br><br>【Bonus Doubler】<br>Grants bonus to Atk/Spd/Def/Res during combat = current bonus on each of unit's stats for 1 turn. Calculates each stat bonus independently.
+|cost=400
+|userVersion1=Weapon
+|userVersion2=Gleam
+|exclusive=1
+|statModifiers=0,19,0,0,0
+|required=Silver Sword
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Atk+3. At start of turn, grants 【Bonus Doubler】to unit and ally with the highest Atk (excluding unit). At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit during combat.<br><br>【Bonus Doubler】<br>Grants bonus to Atk/Spd/Def/Res during combat = current bonus on each of unit's stats for 1 turn. Calculates each stat bonus independently.
+|tagidExtraSkill1=一
+|effectSkill1=If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+4 to unit and neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat, and deals damage = 15% of foe's Def (including as part of Specials that trigger before combat).
+|iconSkill1=Ardent Durandal W.png
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Stat Boosts|Atk|3}}
+|s1 Se={{SEt|Bonus Doubler}}
+|s1 SeT={{Tgt|Allies}} with<br>the highest Atk
+|s1 SeC=At start of turn
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Stat Boosts|Atk|3}}
+|s2 Se={{SEt|Bonus Doubler}}
+|s2 SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>with the highest Atk
+|s2 SeC=At start of turn
+|s2 Ce={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s2 CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|skill3={{Si|Ardent Durandal|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s3 Ce2={{Eft|Damage Boost|15% of {{Tgt|Foe}}'s Def}}<br>before '''&''' during combat
+|s3 Ce3={{Eft|Neutralize Bonuses}}
+|s3 Ce3T={{Tgt|Foe}}
+|s3 CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+
+==Notes==
+{{SelectStat|Atk}}
+{{Bonus Doubler}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary buffs|name=Refined Ardent Durandal}}
+{{IfUnitInitiates|name={{St|Ardent Durandal|refine=Skill1}}}}
+{{Bonus neutralization|name={{St|Ardent Durandal|refine=Skill1}}}}
+{{DamageBoost|name={{St|Ardent Durandal|refine=Skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=緋剣デュランダル
+|german=Heißes Durandal
+|spanishEU=Durandal pírica
+|spanishLA=Durandal pírica
+|french=Durandal ardente
+|italian=Durandal cremisi
+|chineseTW=緋劍迪朗達爾
+|portuguese=Durandal ardente
+}}
+==See also==
+{{See also skills|cond=WikiName LIKE '%durandal%' OR (Description LIKE '%start of turn%grants%to ally with the highest%' AND NOT (Description LIKE '% Atk+%' OR Description LIKE '% Spd+%' OR Description LIKE '% Def+%' OR Description LIKE '% Res+%') OR Description LIKE '%start of turn%grants%bonus%to ally with the highest%') AND Exclusive='1'}}
+* [[Skill families/C Passives#Opening|Opening Passives]]
+* [[Skill families/C Passives#Gap|Gap Passives]]
+{{Weapons Navbox}}

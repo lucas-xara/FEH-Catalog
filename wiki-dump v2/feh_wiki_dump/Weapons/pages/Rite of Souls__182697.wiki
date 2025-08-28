@@ -1,0 +1,56 @@
+{{Weapon Infobox
+|tagid=SID_魂の秘儀
+|intID=3313
+|image=wep_mg318
+|exclusive=1
+|weaponType=Colorless Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of turn, inflicts【Guard】on foes within 3 rows or 3 columns centered on unit with Res < unit's Res. If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit during combat, deals damage = 20% of unit's Res (including when dealing damage with a Special triggered before combat), and foe cannot make a follow-up attack.<br><br>【Guard】<br>Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)
+|statModifiers=0,14,0,0,0
+|required=Atlas (weapon)
+|properties=random_owner
+}}
+==Notes==
+{{Guard}}
+{|class="wikitable default mw-collapsible" 
+!align="middle"|Example of Area of Effect
+|-
+|align="middle"!|<div style="max-width:450px;margin: auto;>{{AoE|u=Arval: Cycle Keeper|t=Sothis: Girl on the Throne
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}</div>
+|}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{DamageBoost}}
+{{Prevent follow-up}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V6.10_v0610c_legend_Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=魂の秘儀
+|german=Seelenritual
+|spanishEU=Rito de almas
+|spanishLA=Rito de almas
+|french=Rituel des âmes
+|italian=Rito delle anime
+|chineseTW=靈魂的秘密儀式
+|portuguese=Rito das almas
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%at start of turn, %【Guard】%on foes%' AND Exclusive='1' OR Description LIKE '%deals damage%=%of unit_s Res%'}}
+{{Weapons Navbox}}

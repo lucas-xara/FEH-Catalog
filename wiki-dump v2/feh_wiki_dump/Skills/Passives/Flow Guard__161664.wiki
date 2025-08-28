@@ -1,0 +1,77 @@
+{{Passive
+|type=B
+|name=Flow Guard
+|exclusive=0
+|canUseWeapon={{WeaponList|Melee}}
+|canUseMove={{MoveList|Cavalry,Flying}}
+|properties=random_inherit_base,random_owner
+|1name=Flow Guard 1
+|1tagid=SID_怒涛・キャンセル1
+|1cost=60
+|1effect=At the start of combat, if unit's HP = 100% and unit initiates combat, neutralizes effects that prevent unit's follow-up attacks and inflicts Special cooldown charge -1 on foe per attack during combat. (Only highest value applied. Does not stack.)
+|1required=-
+|1promotionRarity=4
+|1promotionTier=1
+|2name=Flow Guard 2
+|2tagid=SID_怒涛・キャンセル2
+|2cost=120
+|2effect=At the start of combat, if unit's HP ≥ 50% and unit initiates combat, neutralizes effects that prevent unit's follow-up attacks and inflicts Special cooldown charge -1 on foe per attack during combat. (Only highest value applied. Does not stack.)
+|2promotionRarity=5
+|2promotionTier=1
+|3name=Flow Guard 3
+|3tagid=SID_怒涛・キャンセル3
+|3cost=240
+|3next=-
+|4name=Flow Guard 4
+|4tagid=SID_怒涛・キャンセル4
+|4effect=If unit initiates combat, inflicts Spd/Def-4 on foe, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks, and inflicts Special cooldown charge -1 on foe per attack during combat (only highest value applied; does not stack), and also, if foe's attack can trigger foe's Special, inflicts Special cooldown count+1 on foe before foe's first attack during combat (cannot exceed foe's maximum Special cooldown).
+|4cost=300
+|properties4=random_owner
+|3effect=If unit initiates combat, neutralizes effects that prevent unit's follow-up attacks and inflicts Special cooldown charge -1 on foe per attack during combat. (Only highest value applied. Does not stack.)
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Flow Guard 3}} Flow Guard 3
+|s1 Ce1={{Eft|Neutralize Prevent Follow-Ups}}
+|s1 Ce2={{Eft|Guard}}
+|s1 CeT2={{Tgt|Foe}}
+|s1 CeC=Player Phase
+|skill2={{Si|Flow Guard 4}} Flow Guard 4
+|s2 Ce1={{Eft|Temporary debuffs|Spd/Def|4}}
+|s2 Ce2={{Eft|Neutralize Guaranteed Follow-Ups}}
+|s2 CeT1-2={{Tgt|Foe}}
+|s2 Ce3={{Eft|Neutralize Prevent Follow-Ups}}
+|s2 Ce4={{Eft|Guard}}
+|s2 CeC1-4=Player Phase
+|s2 Ce5={{Eft|Increase Cooldown|1}}<br>before {{Tgt|Foe}}'s first attack
+|s2 CeT4-5={{Tgt|Foe}}<br>
+|s2 CeC5=Player Phase<br>'''&''' {{Tgt|Foe}} has an<br>[[offensive special]]
+}}
+
+==Notes==
+{{IfUnitInitiates}}
+{{Follow-up effect neutralization}}
+{{CooldownChargeMinus}}
+{{Temporary debuffs|name=Flow Guard 4}}
+{{CombatCooldownCount|+1|name=Flow Guard 4}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=怒涛・キャンセル
+|german=Erschwernis
+|spanishEU=Anula corriente
+|spanishLA=Anula corriente
+|french=Flots négation
+|italian=Ritarda
+|chineseTW=怒濤・取消
+|portuguese=Guarda onda
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit initiates%Inflicts special%cooldown charge%-1 on foe per attack%' AND Exclusive='1'}}
+* [[Flow Passives]]
+{{Passives Navbox|B}}

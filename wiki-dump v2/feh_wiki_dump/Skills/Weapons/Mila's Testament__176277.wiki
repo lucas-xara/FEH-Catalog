@@ -1,0 +1,44 @@
+{{Weapon Infobox
+|tagid=SID_大地母神の聖書
+|intID=3160
+|userVersion1=Closed
+|userVersion2=Open
+|exclusive=1
+|weaponType=Colorless Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd+6 to unit during combat, neutralizes effects that inflict "Special cooldown charge -X" on unit, deals damage = 10% of foe's Atk, and also, if unit’s HP ≥ 25% and foe would reduce unit’s HP to 0, unit survives with 1 HP. (Once per combat. Does not stack with non-Special effects that allow unit to survive with 1 HP if foe's attack would reduce HP to 0.)
+|statModifiers=0,14,0,0,0
+|required=Atlas (weapon)
+|properties=random_owner
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{CooldownChargeMinusNeutralization}}
+{{AtkDamageBoost}}
+{{DefensiveSkill}}
+{{Miracle|HPThreshold=under 25%}}
+
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V6.7_v0607b_gaiden_Mag.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=大地母神の聖書
+|german=Milas Lehren
+|spanishEU=Credo de Mila
+|spanishLA=Credo de Mila
+|french=Écrits de Mila
+|italian=Verbo di Mila
+|chineseTW=大地母神聖書
+|portuguese=Dogma de Mila
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%deals damage =%of foe\'s Atk%' OR Description LIKE '%unit survives with 1 HP%'}}
+{{Weapons Navbox}}

@@ -1,0 +1,64 @@
+{{Weapon Infobox
+|tagid=SID_ニザヴェリルの弩弓
+|intID=4231
+|userVersion1=Bow
+|userVersion2=Arrow
+|exclusive=1
+|weaponType=Bow
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effectiveness=Flying
+|effect=Accelerates Special trigger (cooldown count-1).<br>Effective against flying foes.<br><br>Enables【Canto (Dist. +1; Max ４)】<br>during turns 1 through 4.<br><br>At the start of turns 1 through 4, grants Special cooldown count-3 to unit, grants Special cooldown count-1 to allies within 2 spaces of unit (excluding unit), and grants 【Hexblade】to unit and allies within 2 spaces of unit.<br><br>At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+6 to unit, grants bonus to unit's Atk/Spd = 20% of unit's Spd at start of combat, unit deals damage = 20% of unit's Spd (including when dealing damage with a Special triggered before combat), and reduces damage from foe's first attack by 30% during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes).<br><br>【Canto (Dist. +1; Max ４)】<br>After an attack, Assist skill, or structure destruction, unit can move spaces = number of spaces from start position to end position of unit before the above, +1. (Max ４.)<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)<br><br>【Hexblade】<br>Calculates damage using the lower of foe's Def or Res during combat for 1 turn (including damage dealt by Specials before combat).
+|required=Silver Bow
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Me1={{Eft|Canto|Dist. +1; max 4}}
+|Me1C=On turns 1 - 4
+|Me2={{Eft|Reduce Cooldown|3}}
+|Me3={{Eft|Reduce Cooldown|1}}
+|Me3T={{Tgt|Allies}}<br>[[within 2 spaces]]
+|Me2-3C=At start of turns 1 - 4
+|Se={{SEt|Hexblade}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=At start of turns 1 - 4
+|Ce1={{Eft|Effectiveness|{{Mt|Flying}}}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd|6}}
+|Ce3={{Eft|Temporary buffs|Atk/Spd|20% of {{Tgt|Unit}}'s Spd<br>at start of combat}}
+|Ce4={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}<br>before '''&''' during combat
+|Ce5={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce2-5C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Effective damage bonus|flying}}
+{{Canto|Dist. +1; max 4}}
+{{Start of turn Special modification}}
+{{Hexblade}}
+{{Temporary buffs}}
+{{At start of combat}}
+{{DamageBoost}}
+{{DamagePercentageReduction}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ニザヴェリルの弩弓
+|german=Niðavellir-Ballista
+|spanishEU=Balista Niðavellir
+|spanishLA=Balista Niðavellir
+|french=Baliste Niðavellir
+|italian=Ballista nanica
+|chineseTW=尼德威阿爾的弩弓
+|portuguese=Balista Niðavellir
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%during turns 1 through 4%' OR Description LIKE '%【Hexblade】%') AND (Exclusive=1 AND Name NOT LIKE '%+' AND Properties HOLDS NOT 'arcane')}}
+{{Weapons Navbox}}

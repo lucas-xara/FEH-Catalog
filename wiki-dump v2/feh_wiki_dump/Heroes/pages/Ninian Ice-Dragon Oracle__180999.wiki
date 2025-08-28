@@ -1,0 +1,78 @@
+{{#invoke:NameAbout|main|Name=Ninian}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Ninian
+|Title=Ice-Dragon Oracle
+|WeaponType=Green Breath
+|MoveType=Cavalry
+|Origin=Fire Emblem: The Blazing Blade
+|Gender=Female
+|LegendaryEffect=Water
+|BoostHP=3
+|BoostRes=4
+|Duel=190
+|actorEN=Brianna Knickerbocker
+|actorJP=洲崎綾
+|artist=azuタロウ
+|additionDate=September 29, 2022
+|releaseDate=September 29, 2022
+|cv1=6
+|cv2=1900100
+|TagID=伝承ニニアン
+|InternalID=856
+|Properties=legendary,refresher,tiara
+|description=An ice dragon in human form, who lost her life at the hands of the man she loved. Resurrected, she now lives alongside mortals. Appears in Fire Emblem: The Blazing Blade.
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=7|Lv1SPD=8|Lv1DEF=5|Lv1RES=7
+|GRHP=65|GRATK=70|GRSPD=75|GRDEF=40|GRRES=40
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Fire Breath
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Fire Breath+
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Flametongue
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Faithful Breath
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Dance
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Dragon's Dance
+|assist2Unlock=5
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Catch 1
+|passiveA2=Atk/Spd Catch 2
+|passiveA3=Atk/Spd Catch 3
+|passiveA4=Atk/Spd Catch 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=S/R Near Trace 1
+|passiveB2=S/R Near Trace 2
+|passiveB3=S/R Near Trace 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Blue Feud 1
+|passiveC2=Blue Feud 2
+|passiveC3=Blue Feud 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}

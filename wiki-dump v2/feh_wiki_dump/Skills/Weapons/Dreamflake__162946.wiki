@@ -1,0 +1,35 @@
+{{Weapon Infobox
+|tagid=SID_白き夢のかけら
+|intID=2876
+|exclusive=1
+|weaponType=Dagger
+|cost=400
+|might=14
+|range=2
+|effect=Grants Res+3. If【Penalty】is active on any foes within 3 rows or 3 columns centered on unit, inflicts Atk-5 on those foes during combat.<br>Effect:【Dagger ７】<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|statModifiers=0,14,0,0,3
+|required=Silver Dagger
+|properties=
+}}
+==Notes==
+{{Temporary debuffs}}
+{{EffectfromPenalty|temporary debuffs}}
+{{FoesCombatEffect|temporary debuffs}}
+{{IfUnitAttacked}}
+{{Penalties}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=白き夢のかけら
+|german=Traumflocke
+|spanishEU=Copo de sueño
+|spanishLA=Copo de sueño
+|french=Flocon de rêve
+|italian=Fiocco di sogno
+|chineseTW=白色夢境的碎片
+|portuguese=Floco de sonhos
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%foes within 3 columns or 3 rows%' OR (Description LIKE '%inflicts%cardinal%during combat%'  OR Description LIKE '%rows%inflicts%during combat%' OR Description LIKE '%columns%inflicts%during combat%' AND Description NOT LIKE '%inflicts%deals%damage%') AND WikiName NOT LIKE '%ruse%'|columns=3}}
+{{Weapons Navbox}}

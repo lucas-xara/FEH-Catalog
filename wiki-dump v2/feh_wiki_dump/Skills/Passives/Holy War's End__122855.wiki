@@ -1,0 +1,60 @@
+{{Passive
+|name=Holy War's End
+|type=B
+|exclusive=1
+|canUseMove={{MoveList|All}}
+|canUseWeapon={{WeaponList|All}}
+|1name=Holy War's End
+|alt1name=Holy Wars End
+|1tagid=SID_最後の聖戦
+|1effect=If unit's HP ≥ 50% and foe initiates combat, unit makes a guaranteed follow-up attack before foe can make a follow-up attack.
+|1required=-
+|1next=-
+|2name=Holy War's End II
+|alt2name=Holy Wars End II
+|2tagid=SID_最後の聖戦・承
+|2effect=At start of combat, if unit's HP ≥ 25%, inflicts Atk/Def-5 on foe during combat, unit makes guaranteed follow-up attack, and foe cannot make a follow-up attack, and also, if foe initiates combat, unit attacks twice (does not stack).
+|2cost=300
+|properties2=
+|1cost=300
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{Si|Holy War's End}} Holy War's End
+|s1 Ce1={{Eft|Guaranteed Follow-Ups}}
+|s1 Ce2={{Eft|Desperation}}
+|s1 CeC=Enempy Phase '''&'''<br>{{Tgt|Unit}}'s HP ≥ 50%
+|skill2={{Si|Holy War's End II}} Holy War's End II
+|s2 Ce1={{Eft|Temporary debuffs|Atk/Def|5}}
+|s2 Ce2={{Eft|Prevent Follow-Ups}}
+|s2 CeT1-2={{Tgt|Foe}}
+|s2 Ce3={{Eft|Guaranteed Follow-Ups}}
+|s2 CeC1-3={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s2 Ce4={{Eft|Attack Twice}}
+|s2 CeC4=Enemy Phase '''&'''<br>{{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{Follow-up before counter|phase=Enemy|guaranteed=1}}
+{{Temporary debuffs|name=Holy War's End II}}
+{{Guaranteed follow-up interaction|name=Holy War's End II}}
+{{Prevent follow-up|name=Holy War's End II}}
+{{AttackTwice|name=Holy War's End II}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Holy War's End
+|japanese=最後の聖戦
+|german=Ende des Krieges
+|spanishEU=Fin de la Cruzada
+|spanishLA=Fin de la Cruzada
+|french=Fin guerre sainte
+|italian=Fine Guerra Sacra
+|chineseTW=最後的聖戰
+|portuguese=Final da guerra
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%foe initiates combat, unit makes a guaranteed follow-up attack%' OR Description LIKE '%if foe initiates combat%unit attacks twice%' AND Description NOT LIKE '%even if foe initiates%' AND Description NOT LIKE '%strike%' OR Description LIKE '%inflicts Atk%-%makes a guaranteed%cannot make a follow-up%' AND Description NOT LIKE '%transforms%inflict Atk/Def-4%cannot make a follow-up%') AND Exclusive='1'}}
+{{Passives Navbox|B}}

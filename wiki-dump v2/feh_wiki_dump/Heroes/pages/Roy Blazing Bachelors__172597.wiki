@@ -1,0 +1,75 @@
+{{#invoke:NameAbout|main|Name=Roy|Name2=Eliwood}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Roy
+|Title=Blazing Bachelors
+|WeaponType=Green Axe
+|MoveType=Cavalry
+|secondPerson=Eliwood
+|Origin=Fire Emblem: The Binding Blade,Fire Emblem: The Blazing Blade
+|Gender=MM
+|harmonized=Grants Def/Res+6,【Resonance: Shields】, and【Treachery】to unit and allies from the same titles as unit for 1 turn.<br><br>【Resonance: Shields】<br>Grants Def/Res+4 during combat and the following effect for 1 turn: "During unit's first combat in player phase or enemy phase, foe cannot make a follow-up attack."<br><br>【Treachery】<br>Unit deals additional damage = total bonuses on unit for 1 turn.
+|actorEN=Ray Chase,Yuri Lowenthal
+|actorJP=福山潤,櫻井孝宏
+|artist=ワダサチコ
+|additionDate=May 20, 2022
+|releaseDate=May 20, 2022
+|entry=5;6
+|cv1=5
+|cv2=100100
+|TagID=双界ロイ
+|InternalID=804
+|Properties=special,harmonized
+|description=Roy frets over the festival while Eliwood watches on, bemused. What matches might yet be made? They appear in Fire Emblem: The Binding Blade / The Blazing Blade.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=10|Lv1SPD=9|Lv1DEF=8|Lv1RES=6
+|GRHP=50|GRATK=65|GRSPD=75|GRDEF=50|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Axe
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Axe
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Axe
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Blazing Polearms
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Unlock=4
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Armored Blow 1
+|passiveA2=Sturdy Blow 1
+|passiveA3=Sturdy Blow 2
+|passiveA4=Sturdy Surge
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Flow Force 1
+|passiveB2=Flow Force 2
+|passiveB3=Flow Force 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Faith in Humanity
+|passiveC1Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Sources of bonuses]][[Category:Sources of damage-boosting effects]][[Category:Sources of Treachery]]
+[[Category:Bridal Festival units]]

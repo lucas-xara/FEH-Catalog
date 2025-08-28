@@ -1,0 +1,62 @@
+{{Passive
+|name=Tut-Tut!
+|type=B
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Tut-Tut!
+|alt1name=Tut-Tut
+|1tagid=SID_仕方がない子ね
+|1effect=Unit can move through foes' spaces.<br><br>Unit can move to a space within 2 spaces of any ally within 2 spaces of unit. Unit can move to a space within 5 spaces where a Divine Vein effect is applied.<br><br>At start of turn, if unit's HP ≥ 25%, grants Atk/Spd+6 and "reduces the percentage of foe's non-Special 'reduce damage by X%' skills by 50% during combat (excluding area-of-effect Specials)" to unit and allies within 2 spaces of unit for 1 turn.<br><br>At start of turn, if unit's HP ≥ 25% after start-of-turn healing and damage effects are applied, applies【Divine Vein (Haze)】on closest foes' spaces and on each space within 2 spaces of those spaces for 1 turn.<br><br>At start of combat, if unit's HP ≥ 25%, inflicts Spd/Def-5 on foe, deals damage = 20% of unit's Spd (excluding area-of-effect Specials), and neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat.<br><br>【Divine Vein (Haze)】<br>Applies the following effects on space: Inflicts Atk/Spd/Def/Res-5 on foe and neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat. (Divine Vein effects do not stack; replaces any existing Divine Vein effect; Divine Vein effects applied simultaneously cancel each other out.)
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me1={{Eft|Neutralize Bulwark}}
+|Me2={{Eft|Neutralize Prevent Warp}}
+|Me3={{Eft|Warp|[[within 2 spaces]]<br>of {{Tgt|Allies}}<br>[[within 2 spaces]]}}
+|Me4={{Eft|Warp|with [[Divine Vein]] effects<br>[[within 5 spaces]]}}
+|Me5={{Eft|Divine Vein (Haze)}}
+|Me5T=Spaces<br>[[within 2 spaces]] of<br>closest {{Tgt|Foes}}
+|Me5C=After start-of-turn<br>healing and damage<br>effects if {{Tgt|Unit}}'s<br>HP ≥ 25%
+|Se1={{Eft|Bonuses|Atk/Spd|6}}
+|Se2=<span style="width:12em;display:inline-block"/>{{SEt|Halves non-Special damage reduction}}
+|SeT={{Tgt|Unit}} '''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]
+|SeC=At start of turn if<br>{{Tgt|Unit}}'s HP ≥ 25%
+|Ce1={{Eft|Temporary debuffs|Spd/Def|5}}
+|Ce1T={{Tgt|Foe}}
+|Ce2={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|Ce3={{Eft|Neutralize Prevent Follow-Ups}}
+|Ce4={{Eft|Neutralize Guaranteed Follow-Ups}}
+|Ce4T={{Tgt|Foe}}
+|CeC={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+
+==Notes==
+{{Pass notes}}
+{{Warp interaction}}
+{{Bonuses}}
+{{Halves non-Special damage reduction}}
+{{Divine Vein|Haze}}
+{{Temporary debuffs}}
+{{DamageBoost}}
+{{Follow-up effect neutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%【Divine Vein (Haze)】%' OR Description LIKE '%through foes_ spaces%') AND Exclusive='1'}}
+* [[Warp Passives]]
+{{Passives Navbox|B}}

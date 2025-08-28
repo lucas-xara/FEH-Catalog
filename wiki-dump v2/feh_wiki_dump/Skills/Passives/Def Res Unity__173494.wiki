@@ -1,0 +1,48 @@
+{{Passive
+|type=A
+|name=Def/Res Unity
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Def/Res Unity
+|alt1name=Def Res Unity
+|1tagid=SID_守備魔防の連帯4
+|1cost=300
+|1effect=If unit is within 2 spaces of an ally, grants Def/Res+5 and bonus to Def/Res during combat = current penalty on each of those stats × 2. (Example: if unit has -7 penalty to Def, grants Def+19, for a net bonus of Def+12.) Calculates each stat bonus independently.
+|1required=Def/Res Bond 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary buffs|Def/Res|5}}
+|Ce2={{Eft|Temporary buffs|Def/Res|2 x {{SEt|penalties}} on<br>each of {{Tgt|Unit}}'s stats}}
+|CeC=An {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+==Notes==
+{{TemporaryBufffromPenalty|source=the unit|ptySource=the unit}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Def/Res Unity
+|japanese=守備魔防の連帯
+|german=Ver./Res.-Bündnis
+|spanishEU=Alianza Def/Res
+|spanishLA=Alianza Def./Res.
+|french=Unité Déf/Rés
+|italian=Coesione Dif/Res
+|chineseTW=防守魔防的連帶
+|portuguese=Aliança Def./Res.
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%Example: if unit has -%penalty to%, grants%, for a net bonus of%' AND Exclusive='1'}}
+* [[Skill families/A Passives#Unity|Unity Passives]]
+{{Passives Navbox|A}}
+[[Category:Unity Passives]]
+[[Category:Bond Passives]]

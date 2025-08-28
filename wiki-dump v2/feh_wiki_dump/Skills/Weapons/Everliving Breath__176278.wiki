@@ -1,0 +1,54 @@
+{{Weapon Infobox
+|tagid=SID_永生のブレス
+|intID=3161
+|image=wep_ac056
+|exclusive=1
+|weaponType=Dragonstone
+|cost=400
+|might=16
+|range=1
+|effect=Grants Atk+3. If a Rally skill or movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, restores 10 HP to allies within 2 spaces of unit and target after movement, then neutralizes any【Penalty】on those allies. (Includes unit and target. Does not stack even if effect ranges of unit and target overlap.) At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+5 to unit during combat and unit makes a guaranteed follow-up attack. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).
+|statModifiers=0,19,0,0,0
+|required=Flametongue
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Stat Boosts|Atk|3}}
+|Se=Removes {{Kp|Penalty}} effects
+|SeT={{Tgt|Unit}},<br>{{Tgt|Target Ally}}<br>'''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]<br>of {{Tgt|Unit}} &<br>{{Tgt|Target Ally}}
+|SeC=[[Rally Assist|Rally]] or [[Movement Assist|Movement]]<br>Assist is used on<br>'''or''' by {{Tgt|Unit}}
+|Me={{Eft|Heal|10}}
+|MeT={{Tgt|Unit}},<br>{{Tgt|Target Ally}}<br>'''&''' {{Tgt|Allies}}<br>[[within 2 spaces]]<br>of {{Tgt|Unit}} &<br>{{Tgt|Target Ally}}
+|MeC=[[Rally Assist|Rally]] or [[Movement Assist|Movement]]<br>Assist is used on<br>'''or''' by {{Tgt|Unit}}
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce2={{Eft|Guaranteed Follow-Ups}}
+|Ce1-2C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|Ce3={{Eft|Lower Def Res}}
+|Ce3C={{Tgt|Foe}}'s Range = 2
+}}
+==Notes==
+{{Penalty neutralization|negstatuses=all {{Kp|Penalty}} effects}}
+{{Temporary buffs}}
+{{Guaranteed follow-up interaction}}
+{{LowerDefRes}}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V6.7_v0607b_gaiden_Mag_2.webp|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=永生のブレス
+|german=Langlebiger Atem
+|spanishEU=Aliento perenne
+|spanishLA=Soplo perenne
+|french=Souffle sans fin
+|italian=Soffio perenne
+|chineseTW=永生吐息
+|portuguese=Sopro perene
+}}
+==See also==
+{{See also skills|cond=((Description LIKE '%if a Rally%skill%' OR Description LIKE '%if a%movement assist skill%') AND Description LIKE '%assist%restores%HP%allies%') AND Exclusive='1'}}
+{{Weapons Navbox}}

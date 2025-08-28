@@ -1,0 +1,39 @@
+{{Passive
+|name=Scendscale
+|type=A
+|exclusive=1
+|canUseMove={{MoveList|all}}
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|1name=Scendscale
+|1tagid=SID_覇神断竜剣
+|1effect=Deals damage = 25% of unit's Atk, but after combat, if unit attacked, deals 7 damage to unit.
+|1required=-
+|1cost=300
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Damage|7}}
+|MeC=After combat if<br>{{Tgt|Unit}} attacked
+|Ce={{Eft|Damage Boost|25% of {{Tgt|Unit}}'s Atk}}
+}}
+==Notes==
+{{AtkDamageBoost}}
+{{IfUnitAttacked}}
+{{DamageToUnit}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=覇神断竜剣
+|german=Allgewalt
+|spanishEU=Fendragón
+|spanishLA=Fendragón
+|french=Fendragon
+|italian=Ascensione
+|chineseTW=霸神斷龍劍
+|portuguese=Feredragão
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%deals damage =% of unit_s Atk%' AND Description NOT LIKE '%minus%' AND Description NOT LIKE '%boost resets%' OR Description LIKE '%boosts damage%by __% of unit_s Atk%'}}
+{{Passives Navbox|A}}

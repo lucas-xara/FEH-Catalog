@@ -1,0 +1,42 @@
+{{Passive
+|type=B
+|exclusive=0
+|1name=Drag Back
+|1tagid=SID_引き込み
+|1required=-
+|1effect=If unit initiates combat, unit moves 1 space away after combat. Target foe moves to unit's previous space.
+|1cost=150
+|canUseWeapon={{WeaponList|Close}}
+|canUseMove={{MoveList|all}}
+|properties=random_owner,random_inherit_base
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Drag Back Units}}
+|MeT={{Tgt|Unit}} '''&'''<br>{{Tgt|Target Foe}}
+|MeC=After combat<br>in Player Phase
+}}
+
+==Notes==
+{{IfUnitInitiates}}
+{{Movement Passive notes}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=引き込み
+|german=Wegziehen
+|spanishEU=Atraer
+|spanishLA=Atraer
+|french=Attraction
+|italian=Arretramento
+|chineseTW=引誘
+|portuguese=Atração
+}}
+==See also==
+* [[Movement Passives]]
+{{Passives Navbox|B}}

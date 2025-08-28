@@ -1,0 +1,46 @@
+{{Weapon Infobox
+|tagid=SID_美僧の戦斧
+|intID=2849
+|userVersion1=Weapon
+|userVersion2=Gleam
+|exclusive=1
+|weaponType=Axe
+|cost=400
+|might=16
+|range=1
+|effect=If unit initiates combat or is within 2 spaces of an ally, inflicts Atk/Spd/Def-4 on foe during combat and unit deals +7 damage.
+|statModifiers=0,16,0,0,0
+|required=-
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|tagidExtraSkill1=一
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, inflicts Atk/Spd/Def-4 on foe during combat and restores 7 HP to unit and allies within 2 spaces after combat.
+|iconSkill1=Inviolable Axe W.png
+|properties=
+}}
+==Notes==
+{{IfUnitInitiates}}
+{{Combat reductions}}
+{{FixedDamage|7}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{After combat healing|allies=1}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=美僧の戦斧
+|german=Unantastbare Axt
+|spanishEU=Hacha inalterable
+|spanishLA=Hacha inalterable
+|french=Hache inaltérable
+|italian=Ascia intoccabile
+|chineseTW=美僧的戰斧
+|portuguese=Machado imutável
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%inflicts Atk/Spd/Def-%during combat%' OR Description LIKE '%restores%HP%unit%after combat%' AND Description NOT LIKE '%holder%' AND Description NOT LIKE '%deals%damage%after combat%' OR Description LIKE '%restores%HP%allies%after combat%' OR Description LIKE '%after combat%restores%HP%allies%' AND Description NOT LIKE '%elixir%'|columns=3}}
+{{Weapons Navbox}}

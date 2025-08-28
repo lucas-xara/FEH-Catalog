@@ -1,0 +1,75 @@
+{{Weapon Infobox
+|tagid=SID_邪痕と聖痕の竜血
+|intID=4098
+|userVersion1=Closed
+|userVersion2=Open
+|exclusive=1
+|weaponType=Blue Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). If a Rally or movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Special cooldown count-1 to unit and inflicts【Hush Spectrum】on foes within 3 rows or 3 columns centered on unit after unit's movement through their next actions. If a Rally or movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit after unit has already performed an action, grants another action to unit (once per turn). If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+X to unit (X = 16 - foe's maximum Special cooldown count value × 2; min 8; if foe is not equipped with a Special, then X = 8), reduces damage from foe's first attack by 30% ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and neutralizes effects that inflict "Special cooldown charge -X" on unit during combat.<br><br>【Hush Spectrum】<br>Inflicts Atk/Spd/Def/Res-5 on unit during combat. If unit's attack can trigger unit's Special, inflicts Special cooldown count+1 on unit before unit's first attack during combat (cannot exceed the unit's maximum Special cooldown). If unit's maximum Special cooldown count is reduced (Special trigger is accelerated) and if foe's attack can trigger foe's Special, grants Special cooldown count-1 to foe before unit's first attack during combat.
+|required=Thoron;Shine
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Me1={{Eft|Reduce Cooldown|1}}
+|Me2={{Eft|Galeforce}}<br>(once per turn)
+|MeC=[[Rally Assist|Rally]] or [[Movement Assist|Movement]]<br>Assist is used on<br>'''or''' by {{Tgt|Unit}}
+|Se={{SEt|Hush Spectrum}}
+|SeT={{Tgt|Foes}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|SeC=[[Rally Assist|Rally]] or [[Movement Assist|Movement]]<br>Assist is used on<br>'''or''' by {{Tgt|Unit}}
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|16 - {{Tgt|Foe}}'s max Special CD x 2|min=8}}
+|Ce2={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce3={{Eft|Neutralize Guard}}
+|CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+
+==Notes==
+{{Hush Spectrum}}
+{{Galeforce notes}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{DamagePercentageReduction}}
+{{CooldownChargeMinusNeutralization}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Robin: Vessels of Fate|t=Validar: Fell Architect
+|---xxx---
+|---xxx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxtx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V8.4_v0804a_child_Mag.webp|Sprite sheet for {{St|Fell War Tome}} and {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=邪痕と聖痕の竜血
+|german=Drachenpakte
+|spanishEU=Pacto dragontino
+|spanishLA=Pacto dragontino
+|french=Pactes de dragon
+|italian=Patti draconici
+|chineseTW=邪痕與聖痕的龍血
+|portuguese=Pacto dracônico
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%【Hush Spectrum】%' OR Description LIKE '%assist skill%another action to unit%' OR Description LIKE '%foe_s max%Special cooldown count value%') AND Exclusive='1'}}
+{{Weapons Navbox}}
+[[Category:Sources of Special cooldown count modifications out of combat]]

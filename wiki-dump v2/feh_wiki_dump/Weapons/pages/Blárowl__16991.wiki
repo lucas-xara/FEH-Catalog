@@ -1,0 +1,38 @@
+{{Weapon Infobox
+|tagid=SID_ブラーアウル
+|weaponType=Blue Tome
+|might=6
+|range=2
+|effect=During combat, boosts unit's Atk/Spd/Def/Res by number of adjacent allies × 2.
+|cost=200
+|exclusive=0
+|userVersion1=Closed
+|userVersion2=Open
+|statModifiers=0,6,0,0,0
+|next=Blárowl+
+|promotionRarity=5
+|promotionTier=1
+|required=Elthunder;Ellight
+|properties=random_all
+}}
+==Notes==
+{{Combat boosts}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{TomeColorTrivia|blar}}
+==In other languages==
+{{OtherLanguages
+|japanese=ブラーアウル
+|german=Bláreule
+|spanishEU=Búho zarco
+|spanishLA=Búho añil
+|french=Ailes saphir
+|italian=Turchingufo
+|chineseTW=蒼藍夜梟
+|portuguese=Coruja anil
+}}
+==See also==
+* [[Owl Weapons]]
+{{Weapons Navbox}}
+[[Category:Owl weapons]]

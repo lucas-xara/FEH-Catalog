@@ -1,0 +1,39 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_羽子板＋
+|weaponType=Axe
+|weaponName={{PAGENAME}}
+|altWeaponName=Hagoita Plus
+|might=14
+|range=1
+|effect=Grants Def/Res+2 to allies within 2 spaces during combat.
+|cost=300
+|exclusive=0
+|statModifiers=0,14,0,0,0
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+{{AlliesCombatEffect|effect=combat boost}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=羽子板＋
+|german=Hagoita+
+|spanishEU=Hagoita +
+|spanishLA=Hagoita +
+|french=Hagoita +
+|italian=Hagoita+
+|chineseTW=羽子板＋
+|portuguese=Hagoita+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%Grants Def/Res+2 to allies within 2 spaces during combat.%'}}{{Weapons Navbox}}
+[[Category:Happy New Year! weapons]]

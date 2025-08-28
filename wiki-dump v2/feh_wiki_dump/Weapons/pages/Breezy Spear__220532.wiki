@@ -1,0 +1,69 @@
+{{Weapon Infobox
+|tagid=SID_清風明月の夏祭の槍
+|intID=4274
+|image=wep_lc176
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=16
+|range=1
+|effect=Grants Atk+3. Unit can counterattack regardless of foe's range. Unit and target cannot trigger Specials during combat or area-of-effect Specials (excluding Røkkr area-of-effect Specials).<br><br>Grants Atk/Spd/Def/Res+5 to unit, grants bonus to unit's Atk/Spd/Def/Res = 15% of unit's Spd at start of combat, and deals damage = 20% of unit's Spd during combat (excluding area-of-effect Specials), and restores 7 HP to unit after combat.<br><br>Disables skills of all other foes and allies during combat, excluding unit and target. Disables the following effects for both unit and target during combat: defensive terrain effects, support effects, guaranteed follow-ups, effects that prevent follow-ups, effects that prevent counterattacks, and effects that change attack priority (Vantage, Desperation, etc.).
+|statModifiers=0,19,0,0,0
+|required=Silver Lance
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Stat Boosts|Atk|3}}
+|Me={{Eft|Heal|7}}
+|MeC=After combat
+|Ce1={{Eft|Distant Counter}}
+|Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce3={{Eft|Temporary buffs|Atk/Spd/Def/Res|15% of {{Tgt|Unit}}'s Spd<br>at start of combat}}
+|Ce4={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|Ce5={{Eft|Prevent Special|[[Area-of-effect Specials|AoE]]<br>'''&''' [[Combat Specials]]}}
+|Ce6={{Eft|Disable Ally Skills}}
+|Ce7=Disables [[Defensive terrain]] effects
+|Ce8={{Eft|Disable Ally Support}}
+|Ce9={{Eft|Neutralize Guaranteed Follow-Ups}}
+|Ce10={{Eft|Neutralize Prevent Follow-Ups}}
+|Ce11={{Eft|Neutralize Prevent Counter}}
+|Ce12={{Eft|Hardy Bearing}}
+|Ce5-12T={{Tgt|Unit}}<br>'''&''' {{Tgt|Foe}}
+}}
+
+==Notes==
+* Breezy Spear has the same effect as {{St|Distant Counter}}.
+{{Temporary buffs}}
+{{At start of combat}}
+{{DamageBoost}}
+{{After combat healing}}
+{{Prevent Special}}
+{{CombatEffectNeutralization}}
+* Breezy Spear disables the damage-reduction of [[Defensive terrain]].
+** Breezy Spear <i>does not</i> disable [[Divine Vein]] effects, because [[Divine Vein]] effects are not considered as [[defensive terrain]].
+{{Ally Support neutralization}}
+{{Follow-up effect neutralization}}
+{{Counterattack prevention neutralization}}
+{{PriorityNeutralization}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=清風明月の夏祭の槍
+|german=Windhauchspeer
+|spanishEU=Lanza vespertina
+|spanishLA=Lanza vespertina
+|french=Lance aérée
+|italian=Lancia ariosa
+|chineseTW=清風明月的夏祭之槍
+|portuguese=Pique arejado
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%prevent unit_s counterattacks%' OR Description LIKE '%cannot trigger specials during combat%' OR Description LIKE '%prevents%specials%' OR Description LIKE '%disables the following effects%' OR Description LIKE '%disables%' AND (Description LIKE '%change attack priority%' OR Description LIKE '%terrain effects%' OR Description LIKE '%support effects%' OR Description LIKE '%prevent counterattacks%' OR Description LIKE '%skill%excluding%')) AND (Name NOT LIKE '%+' AND Exclusive='1')}}
+* [[Null Passives]]
+* [[Hardy Bearing]]
+* [[Hardy Bearing weapons]]
+* [[Skill families/C Passives#Feud|Feud Passives]]
+{{Weapons Navbox}}

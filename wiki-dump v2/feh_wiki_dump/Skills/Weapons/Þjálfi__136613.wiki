@@ -1,0 +1,59 @@
+{{Weapon Infobox
+|tagid=SID_シャールヴィ
+|weaponName=Þjálfi
+|image=wep_mg050
+|weaponType=Red Tome
+|might=14
+|range=2
+|effect=Grants Atk+3. If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+6 to unit during combat, unit makes a guaranteed follow-up attack, and reduces the percentage of foe's non-Special "reduce damage by X%" skills by 50%, but after combat, if unit attacked, deals 20 damage to nearest ally. (Example: a foe with a "reduce damage by 45%" skill would reduce damage by 23% instead.)
+|cost=400
+|exclusive=1
+|statModifiers=0,17,0,0,0
+|required=Bolganone;Fenrir
+|intID=2425
+|sort=503
+|value=20
+|timingID=1
+|abilityID=260
+|limit1ID=14
+|properties=
+}}
+==Notes==
+{{Temporary buffs}}
+{{Guaranteed follow-up interaction}}
+{{Reduce Damage Reduction}}
+{{Out of Combat Damage}}
+{| class="wikitable default mw-collapsible" 
+! align="middle" | Example of Area of Effect
+|-
+| align="middle" ! |
+<div style="max-width: 450px; margin: auto;>{{AoE|u=Líf: Undying Ties Duo|t=Eir: Life Ascendant
+|---x---
+|--xxx--
+|-xxxxx-
+|xxxuxtx
+|-xxxxx-
+|--xxx--
+|---x---
+}}</div>
+|}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{NorseMyth|is the name of the male servant of the god [[Thórr]].}}
+==In other languages==
+{{OtherLanguages
+|japanese=シャールヴィ
+|german=Þjálfi
+|spanishEU=Þjálfi
+|spanishLA=Þjálfi
+|french=Þjálfi
+|italian=Þjálfi
+|chineseTW=夏爾菲
+|portuguese=Þjálfi
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%unit is within%an ally%but after combat, if unit attacked%' OR Description LIKE '%"reduce damage by X\%" skills by 50%' AND Exclusive='1'}}
+* [[Null Passives]]
+* [[Skill families/B Passives#Tempo|Tempo Passives]]
+{{Weapons Navbox}}

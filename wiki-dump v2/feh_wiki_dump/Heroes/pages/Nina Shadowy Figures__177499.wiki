@@ -1,0 +1,82 @@
+{{#invoke:NameAbout|main|Name=Nina|Name2=Kagero}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Nina
+|Title=Shadowy Figures
+|WeaponType=Colorless Dagger
+|MoveType=Cavalry
+|secondPerson=Kagero
+|Origin=Fire Emblem Fates
+|Gender=FF
+|duo=Unit can move 1 extra space. (That turn only. Does not stack.) If any foes are in cardinal directions of unit or【Penalty】is active on any foes, inflicts Atk/Spd/Def/Res-7 and【Panic】on those foes.<br><br>Once used, Duo Skill cannot be activated again right away. At start of every third turn, if Duo Skill has already been used, unit can use Duo Skill again.<br><br>【Penalty】<br>All effects that last "on foe through its next action." Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).<br><br>【Panic】<br>Converts bonuses on target into penalties through its next action.
+|Duel=195
+|actorEN=Liv Strander,Sarah Blandy
+|actorJP=辻あゆみ,村川梨衣
+|artist=切符
+|additionDate=August 8, 2022
+|releaseDate=August 9, 2022
+|cv1=11
+|cv2=6902200
+|TagID=比翼エポニーヌ
+|InternalID=834
+|Properties=special,duo,mask,hat
+|description=A former thief and a Hoshidan ninja. Under the cover of night, they glide through the darkness with the silence of shadows. They appear in Fire Emblem Fates.
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=7|Lv1SPD=13|Lv1DEF=3|Lv1RES=8
+|GRHP=50|GRATK=70|GRSPD=70|GRDEF=35|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Dagger
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Dagger
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Silver Dagger
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Shadowy Quill
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table}}
+===Specials===
+{{Specials Table
+|special1=New Moon
+|special1Default=4
+|special1Unlock=3
+|special2=Luna
+|special2Unlock=4
+|special3=Lethality
+|special3Unlock=5
+}}
+===Passives===
+{{Passives Table
+|passiveA1=Atk/Spd Catch 1
+|passiveA2=Atk/Spd Catch 2
+|passiveA3=Atk/Spd Catch 3
+|passiveA4=Atk/Spd Catch 4
+|passiveA1Unlock=2
+|passiveA2Unlock=3
+|passiveA3Unlock=4
+|passiveA4Unlock=5
+|passiveB1=Chill Def 1
+|passiveB2=Chill Def/Res 1
+|passiveB3=Chill Def/Res 2
+|passiveB4=Chill Def/Res 3
+|passiveB1Unlock=2
+|passiveB2Unlock=3
+|passiveB3Unlock=4
+|passiveB4Unlock=5
+|passiveC1=C Feud 1
+|passiveC2=C Feud 2
+|passiveC3=C Feud 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+{{Heroes Navbox}}[[Category:Sources of status effects]][[Category:Sources of Mobility increased]][[Category:Sources of penalties]][[Category:Sources of Panic]]
+[[Category:Thief Festival units]]

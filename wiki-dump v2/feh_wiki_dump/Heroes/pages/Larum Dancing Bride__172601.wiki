@@ -1,0 +1,65 @@
+{{#invoke:NameAbout|main|Name=Larum}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Larum
+|Title=Dancing Bride
+|WeaponType=Blue Lance
+|MoveType=Flying
+|Origin=Fire Emblem: The Binding Blade
+|Gender=Female
+|actorEN=Elizabeth Simmons
+|actorJP=井澤詩織
+|artist=桜河ゆう
+|additionDate=May 20, 2022
+|releaseDate=May 20, 2022
+|cv1=5
+|cv2=900300
+|TagID=花嫁ララム
+|InternalID=808
+|Properties=limited,tempest,specDisplay,refresher
+|description=Adopted daughter of the renowned Douglas, Great General of Etruria. She aims to draw all eyes to her bridal attire with her artful dancing. Appears in Fire Emblem: The Binding Blade.
+}}
+{{Stats Page
+|Lv1HP=19|Lv1ATK=4|Lv1SPD=10|Lv1DEF=4|Lv1RES=7
+|GRHP=45|GRATK=65|GRSPD=70|GRDEF=50|GRRES=55
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Lance
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Lance
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Bridal Sunflower
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Bridal Sunflower+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Dance
+|assist1Default=4
+|assist1Unlock=3
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveB1=Atk Cantrip 1
+|passiveB2=Atk Cantrip 2
+|passiveB3=Atk Cantrip 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Guidance 1
+|passiveC2=Guidance 2
+|passiveC3=Guidance 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Bridal Festival units]]

@@ -1,0 +1,91 @@
+{{#invoke:NameAbout|main|Name=Peony}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Peony
+|Title=Sweet Dream
+|WeaponType=Blue Tome
+|Origin=Fire Emblem Heroes
+|Gender=Female
+|MythicEffect=Light
+|MythicEffect2=None
+|BoostHP=5
+|BoostSpd=4
+|MoveType=Flying
+|actorJP=和氣あず未
+|actorEN=Ryan Bartley
+|artist=四々九
+|additionDate=December 5, 2019
+|releaseDate=December 6, 2019
+|TagID=神階ピアニー
+|InternalID=454
+|Properties=mythic,refresher
+|cv1=0
+|cv2=400100
+|description=A ljósálfr from Ljósálfheimr, the realm of dreams. Delivers pleasant dreams to mortals. Both sincere and positive, she enjoys playing with children.
+}}
+{{Stats Page
+|Lv1HP=16|Lv1ATK=5|Lv1SPD=8|Lv1DEF=3|Lv1RES=5
+|GRHP=50|GRATK=60|GRSPD=65|GRDEF=30|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Light
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Ellight
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Shine
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Flower of Joy
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Dance
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Gentle Dream
+|assist2Default=
+|assist2Unlock=5
+|assist3=Gentle Dream+
+|assist3Default=
+|assist3Unlock=5
+}}
+===Specials===
+{{Specials Table
+}}
+===Passives===
+{{Passives Table
+|passiveA1=B Duel Flying 1
+|passiveA2=B Duel Flying 2
+|passiveA3=B Duel Flying 3
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Aerobatics 1
+|passiveB2=Aerobatics 2
+|passiveB3=Aerobatics 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Fortify Res 1
+|passiveC2=Fortify Res 2
+|passiveC3=Fortify Res 3
+|passiveC4=Fortify Res 4
+|passiveC5=Spur Res 1
+|passiveC6=Spur Res 2
+|passiveC7=Spur Res 3
+|passiveC8=Cross Spur Res
+|passiveC1Unlock=2
+|passiveC2Unlock=3
+|passiveC3Unlock=4
+|passiveC4Unlock=5
+|passiveC5Unlock=2
+|passiveC6Unlock=3
+|passiveC7Unlock=4
+|passiveC8Unlock=5
+}}
+{{Heroes Navbox}}

@@ -1,0 +1,55 @@
+{{Weapon Infobox
+|tagid=SID_新年の戦猫の爪牙
+|weaponType=Beast
+|might=14
+|range=1
+|effect=Grants Spd+3. If unit's Spd > foe's Spd, deals damage = 70% of difference between stats. (Maximum bonus of +7 damage. Combos with Phantom Spd.) If unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 4 (max 40%).<br><br>At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack.
+|cost=400
+|exclusive=1
+|canUseMove=Cavalry 
+|statModifiers=0,14,3,0,0
+|required=Adult (Cavalry)
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Grants Spd+3. If unit's Spd > foe's Spd, deals damage = 70% of difference between stats. (Maximum bonus of +7 damage. Combos with Phantom Spd.) If unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 4 (max 40%). If unit initiates combat or is not adjacent to an ally, grants Atk/Spd+5 to unit during combat. At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack.
+|upgradedEffect2=Grants Spd+3. If unit's Spd > foe's Spd, deals damage = 70% of difference between stats. (Maximum bonus of +7 damage. Combos with Phantom Spd.) If unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding Røkkr area-of-effect Specials) by percentage = difference between stats × 4 (max 40%). If unit initiates combat or is not adjacent to an ally, grants Atk/Spd+5 to unit during combat. At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 to unit, inflicts Atk/Def-X on foe during combat (X = number of spaces from start position to end position of whoever initiated combat + 3; max 6), and also, if X ≥ 5, reduces damage from foe's first attack by 30% during combat.
+|tagidExtraSkill1=一
+|effectSkill1=If a skill compares unit's Spd to a foe's or ally's Spd, treats unit's Spd as if granted +10. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+5 to unit and neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat.
+|iconSkill1=Guardian Fang W.png
+|properties=
+}}
+==Notes==
+{{BonusStatDamage|stat=Spd}}
+{{DamagePercentageReduction}}
+{{AoEDamageReduction}}
+{{Beast (Cavalry)}}
+
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfUnitInitiates}}
+{{Temporary buffs|name=refined Guardian Fang}}
+* {{St|Guardian Fang|refine=Skill1}} has the same effect as {{St|Phantom Spd 3}}.
+{{Phantom Passive notes|Spd|name={{St|Guardian Fang|refine=Skill1}}}}
+{{Follow-up effect neutralization|name={{St|Guardian Fang|refine=Skill1}}}}
+{{Beast (Cavalry) Upgrade}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|english=Guardian Fang
+|japanese=新年の戦猫の爪牙
+|german=Wächterfangzahn
+|spanishEU=Garra guardiana
+|spanishLA=Colmillo guardián
+|french=Croc de gardiens
+|italian=Zanna protettiva
+|chineseTW=新年戰貓的爪牙
+|portuguese=Presa felina
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%If unit_s%> foe_s%, deals damage =%difference between stats%' AND (Exclusive='1' OR SP='300') OR Description LIKE '%unit_s Spd > foe_s Spd%educes damage%percentage = difference between stats ×%' AND Description NOT LIKE '%【Dodge】%' AND Exclusive='1' OR Description LIKE '%If a skill compares unit_s Spd to a foe_s or ally_s Spd%'}}
+* [[Evasion Passives]]
+{{Weapons Navbox}}

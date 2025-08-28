@@ -1,0 +1,43 @@
+{{Weapon Infobox
+|tagid=SID_ナートラウア＋
+|weaponType=Red Tome
+|might=11
+|range=2
+|effect=Grants weapon-triangle advantage against colorless foes, and inflicts weapon-triangle disadvantage on colorless foes during combat.
+|cost=300
+|exclusive=0
+|userVersion1=Closed
+|userVersion2=Open
+|statModifiers=0,11,0,0,0
+|SE=se_effect_bird01.flac
+|properties=random_all
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|New WTA}}
+|Ce2={{Eft|New WTD}}
+|Ce2T={{Tgt|Foe}}
+|CeC={{Tgt|Foe}} is<br>{{Wti|group=1|Colorless}} Colorless
+}}
+==Notes==
+{{New WTA|colorless}}
+==List of owners==
+{{Skill Hero List}}
+==Trivia==
+{{TomeColorTrivia|rauðr}}
+==In other languages==
+{{OtherLanguages
+|japanese=ラウアレイヴン＋
+|german=Rauðrrabe+
+|spanishEU=C. carmesí +
+|spanishLA=Cuervo rubí +
+|french=Serres rubis +
+|italian=Rubincorvo+
+|chineseTW=赤紅渡鴉＋
+|portuguese=Corvo rubro+
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%grants weapon-triangle advantage%' AND Description LIKE '%colorless%weapon-triangle%' AND Exclusive='1'}}
+* [[Raven Tomes]]
+{{Weapons Navbox}}
+[[Category:Weapons that grant triangle advantage against colorless foes]]

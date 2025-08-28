@@ -1,0 +1,46 @@
+{{Special
+|tagid=SID_真月光閃
+|intID=4639
+|exclusive=1
+|canUseWeapon={{WeaponList|exclude=Staff}}
+|canUseMove={{MoveList|All}}
+|cost=500
+|cooldown=3
+|effect=When Special triggers, treats foe's Def/Res as if reduced by 35%, boosts damage by 35% of unit's Spd, neutralizes "reduces damage by X%" effects from foe's non-Special skills, and prevents foe's Specials that are triggered by unit's attack.<br><br>If unit's or foe's Special is ready or triggered before or during this combat, reduces damage from foe's next attack by 40% (once per combat; excluding area-of-effect Specials).
+|required=Moonbow
+|properties=random_owner,offensive_special
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1=Treats {{Tgt|foe}}'s Def/Res<br>as if reduced by 35%
+|Ce1T={{Tgt|Foe}}
+|Ce2={{Eft|Damage Boost|35% of {{Tgt|Unit}}'s Spd}}
+|Ce3={{Eft|Neutralize Damage Reduction}}
+|Ce3-4T={{Tgt|Foe}}
+|Ce4={{Eft|Prevent Special|<br>[[Defensive Specials]]}}
+|Ce1-4C=Special triggers
+|Ce5={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s next attack
+|Ce5C={{Tgt|Unit}} or {{Tgt|Foe}}'s<br>Special is ready '''or'''<br>triggered before or<br>during combat 
+}}
+==Notes==
+{{DamageBoost}}
+{{DamageReductionNeutralization}}
+{{Prevent Special|defensive}}
+{{DamagePercentageReduction}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=Destello lunar real
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+
+==See also==
+{{See also skills|cond=((Description LIKE '%disables%reduce%damage by x%' OR Description LIKE '%neutralizes%reduce%damage by x%') AND Description LIKE '%non-Special%' AND Description NOT LIKE '%reduces the percentage%' AND SCategory='special' OR Description LIKE '%prevents foe_s Specials%') AND Exclusive='1'}}
+{{Specials Navbox}}

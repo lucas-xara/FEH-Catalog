@@ -1,0 +1,61 @@
+{{Weapon Infobox
+|tagid=SID_南国の果汁＋
+|intID=4773
+|image=wep_dg101
+|exclusive=0
+|weaponType=Dagger
+|cost=300
+|might=12
+|range=2
+|effect=At start of turn, if unit's Special cooldown count is at its maximum value, grants Special cooldown count-1 to unit.<br><br>If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 to unit and deals damage = 15% of unit's Atk during combat (excluding area-of-effect Specials).<br><br>Effect:【Dagger ７】<br><br>【Dagger ７】<br>After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.
+|required=Tropical Juice
+|refinePaths=default
+|refineSP=350
+|refineMedals=500
+|refineStones=50
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Me={{Eft|Reduce Cooldown|1}}
+|MeC=At start of turn<br>if {{Tgt|Unit}}'s CD<br>is max value
+|Se={{Eft|Penalties|Def/Res|7}}
+|SeT={{Tgt|Target Foe}} '''&''' {{Tgt|Foes}}<br>[[within 2 spaces]]<br>of {{Tgt|Target Foe}}
+|SeC=After combat if<br>{{Tgt|Unit}} attacked
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|Ce2={{Eft|Damage Boost|15% of {{Tgt|Unit}}'s Atk}}
+|CeC=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+}}
+==Notes==
+* Tropical Juice+ has the same effect at {{St|Time's Pulse 3}}.
+{{Start of turn Special modification}}
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{AtkDamageBoost}}
+{{IfUnitAttacked}}
+{{Penalties}}
+==Upgrades==
+{{Weapon Upgrade List}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=(Description LIKE '%maximum value%Special cooldown count-1%' OR Description LIKE '%start of turn%Special cooldown count-1%maximum value%') AND Exclusive='1'}}
+* [[Pulse Passives]]
+{{Weapons Navbox}}

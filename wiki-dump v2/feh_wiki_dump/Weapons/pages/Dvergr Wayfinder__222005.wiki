@@ -1,0 +1,71 @@
+{{Weapon Infobox
+|tagid=SID_ニザヴェリルの理槍
+|intID=4321
+|image=wep_lc178
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>Enables【Canto (Dist. +2; Max ５)】 during turns 1 through 4.<br><br>During turns 1 through 4, for allies within 3 rows or 3 columns centered on unit, grants Atk/Spd+4, and also, if ally's attack can trigger ally's Special, grants Special cooldown count-1 to ally before their first attack during their combat.<br><br>At start of combat, if unit's HP ≥ 25%, grants bonus to unit's Atk/Spd/Def/Res = 5 + number of allies within 3 rows or 3 columns centered on unit × 3 (max 14), deals damage = 20% of unit's Spd (excluding area-of-effect Specials), and reduces damage from foe's first attack by 40% during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes), and also, when Special triggers, neutralizes foe's "reduces damage by X%" effects from foe's non-Special skills (excluding when dealing damage with an area-of-effect Special).<br><br>【Canto (Dist. +2; Max ５)】<br>After an attack, Assist skill, or structure destruction, unit can move spaces = number of spaces from start position to end position of unit before the above, +2. (Max ５.)<br><br>(Unit moves according to movement type. Once per turn. Cannot attack or assist. Only highest value applied. Does not stack. After moving, if a skill that grants another action would be triggered (like with Galeforce), Canto will trigger after the granted action. Unit's base movement has no effect on movement granted. Cannot warp (using skills like Wings of Mercy) a distance greater than unit would be able to move with normal Canto movement.)
+|required=Silver Lance
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Me={{Eft|Canto|Dist. +2; Max 5}}
+|MeC=On turns 1 - 4
+|Ce1={{Eft|Temporary buffs|Atk/Spd|4}}
+|Ce2={{Eft|Reduce Cooldown|1}}<br>before {{Tgt|Ally}}'s first attack
+|Ce1-2T={{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|Ce1C=On turns 1 - 4
+|Ce2C=On turns 1 - 4<br>'''&''' {{Tgt|Ally}} has an<br>[[Offensive Special]]
+|Ce3={{Eft|Temporary buffs|Atk/Spd/Def/Res|3 x {{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}, + 5|max=14}}
+|Ce4={{Eft|Damage Boost|20% of {{Tgt|Unit}}'s Spd}}
+|Ce5={{Eft|Damage Reduction|40%}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|Ce6={{Eft|Neutralize Damage Reduction}}<br>per {{Tgt|Unit}}'s [[offensive Special]]
+|Ce6T={{Tgt|Foe}}
+|Ce3-6C={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+}}
+==Notes==
+{{Canto|Dist. +2; Max 5}}
+{{Temporary buffs}}
+{{CombatCooldownCount|-1}}
+{{AlliesCombatEffect|temporary buffs and -1 special cooldown before ally's first attack effects}}
+{{DamageBoost}}
+{{DamagePercentageReduction}}
+{{DamageReductionNeutralization}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Reginn: Dvergr Heir|t=Niðavellir: Founding King
+|---xxx---
+|---xxx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xtx---
+|---xxx---
+}}
+|}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%canto%during turns 1 through 4%' OR Description LIKE '%for allies within%grants Special cooldown count-_%before their first attack%') AND Exclusive='1'}}
+{{Weapons Navbox}}

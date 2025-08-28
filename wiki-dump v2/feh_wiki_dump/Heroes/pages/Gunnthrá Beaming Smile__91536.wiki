@@ -1,0 +1,69 @@
+{{#invoke:NameAbout|main|Name=Gunnthrá}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Gunnthrá
+|Title=Beaming Smile
+|Origin=Fire Emblem Heroes
+|Gender=Female
+|GrowthModifier=Gen 3
+|WeaponType=Colorless Dagger
+|MoveType=Cavalry
+|actorEN=Carrie Keranen
+|actorJP=茅野愛衣
+|artist=切符
+|releaseDate=June 20, 2019
+|TagID=水着スリーズ
+|InternalID=391
+|Properties=special,specRate_202302
+|cv1=0
+|cv2=200200
+|description=The eldest princess of Nifl. Her gentle demeanor seems to encircle the beach itself in a loving embrace.
+}}
+{{Stats Page
+|Lv1HP=17|Lv1ATK=7|Lv1SPD=11|Lv1DEF=4|Lv1RES=5
+|GRHP=50|GRATK=60|GRSPD=60|GRDEF=30|GRRES=45
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Iron Dagger
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Steel Dagger
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Tropical Treats
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Tropical Treats+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Rally Resistance
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Rally Def/Res
+|assist2Unlock=4
+|assist3=Rally Def/Res+
+|assist3Unlock=5
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveA1=AR-O Spd/Res 1
+|passiveA2=AR-O Spd/Res 2
+|passiveA3=AR-O Spd/Res 3
+|passiveA1Unlock=1
+|passiveA2Unlock=2
+|passiveA3Unlock=4
+|passiveB1=Disarm Trap 1
+|passiveB2=Disarm Trap 2
+|passiveB3=Disarm Trap 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Summer units]]

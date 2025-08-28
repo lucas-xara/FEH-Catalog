@@ -1,0 +1,47 @@
+{{Weapon Infobox
+|tagid=SID_ペシュカド
+|weaponType=Dagger
+|userVersion1=Weapon
+|userVersion2=Gleam
+|might=14
+|range=2
+|effect=After combat, if unit attacked, inflicts Atk/Spd/Def/Res-4 on target and foes within 2 spaces of target through their next actions, and grants Atk/Spd/Def/Res+4 to unit and allies within 2 spaces for 1 turn.
+|cost=400
+|exclusive=1
+|statModifiers=0,14,0,0,0
+|required=Silver Dagger
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=After combat, if unit attacked, inflicts Atk/Spd/Def/Res-5 on target and foes within 2 spaces of target through their next actions, and grants Atk/Spd/Def/Res+5 to unit and allies within 2 spaces for 1 turn.
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+4 during combat, and also, after combat, if unit attacked, inflicts Special cooldown count+1 on target and foes within 2 spaces of target (no effect on Special cooldown counts already at maximum) and grants Special cooldown count-1 to unit and allies within 2 spaces of unit.
+|iconSkill1=Peshkatz W.png
+|tagidExtraSkill1=奥
+|properties=random_owner
+}}
+==Notes==
+{{IfUnitAttacked}}
+{{Penalties}}
+{{Bonuses}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary buffs|name={{St|Peshkatz|refine=skill1}}}}
+{{After combat Special modification|name={{St|Peshkatz|refine=skill1}}}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=ペシュカド
+|german=Peshkatz
+|spanishEU=Peshkatz
+|spanishLA=Peshkatz
+|french=Faucheur
+|italian=Peshkatz
+|chineseTW=佩修卡特
+|portuguese=Peshkatz
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%if unit attacked, grants Atk/Spd/Def/Res+%' OR Description LIKE '%if unit attacked, inflicts Atk/Spd/Def/Res-%' OR Description LIKE '%after combat%inflicts special cooldown count+1 on target%' OR (Description LIKE '%after combat%grants special cooldown count-%' OR Description LIKE '%grants special cooldown count-%after combat%') AND Description NOT LIKE '%start of turn%grants special cooldown count%'}}
+{{Weapons Navbox}}

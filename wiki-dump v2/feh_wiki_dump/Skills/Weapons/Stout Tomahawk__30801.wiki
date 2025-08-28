@@ -1,0 +1,49 @@
+{{Weapon Infobox
+|tagid=SID_剛斧トマホーク
+|weaponType=Axe
+|might=16
+|userVersion1=Weapon
+|userVersion2=Gleam
+|range=1
+|effect=Unit can counterattack regardless of foe's range.
+|cost=400
+|exclusive=true
+|statModifiers=0,16,0,0,0
+|required=Silver Axe
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|tagidExtraSkill1=無
+|effectSkill1=If unit initiates combat or is within 2 spaces of an ally, inflicts Atk/Def-5 on foe and neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.
+|iconSkill1=Stout Tomahawk W.png
+|properties=random_owner
+}}
+==Notes==
+* Has the same effect as {{St|Distant Counter}}.
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{IfUnitInitiates}}
+{{Combat reductions}}
+{{Bonus neutralization}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=剛斧トマホーク
+|german=St. Tomahawk
+|spanishEU=Gran tomahawk
+|spanishLA=Gran tomahawk
+|french=Grand tomahawk
+|italian=Tomahawk tozzo
+|chineseTW=剛斧托馬霍克
+|portuguese=Tomahawk forte
+}}
+==See also==
+* [[Skill families#Dull|Dull Passives]]
+* [[Skill families#Lull|Lull Passives]]
+* [[Skill families#Form|Form Passives]]
+* [[Weapons with Distant Counter]]
+* [[Weapons with Close Counter]]
+{{Weapons Navbox}}

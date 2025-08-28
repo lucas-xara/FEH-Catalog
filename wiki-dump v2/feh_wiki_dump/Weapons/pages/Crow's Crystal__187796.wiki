@@ -1,0 +1,42 @@
+{{Weapon Infobox
+|tagid=SID_魔宿す蒼鴉の水晶球
+|intID=3428
+|image=wep_mg273
+|exclusive=1
+|weaponType=Green Tome
+|cost=400
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). At start of turn, if unit's HP ≥ 25%, grants "unit cannot be slowed by terrain (does not apply to impassable terrain),"【Desperation】, and 【Dominance】to unit for 1 turn. At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+6 to unit during combat and neutralizes effects that prevent unit's follow-up attacks.<br><br>【Desperation】<br>Grants the following effect for 1 turn: "If unit initiates combat, unit can make a follow-up attack before foe can counterattack."<br><br>【Dominance】<br>Unit deals additional damage = total penalties on foe for 1 turn.
+|statModifiers=0,14,0,0,0
+|required=Rexcalibur
+|properties=
+}}
+==Notes==
+{{Ignore Terrain}}
+{{Desperation}}
+{{Dominance}}
+{{Temporary buffs}}
+{{Follow-up effect neutralization|preventOnly=1}}
+
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V7.1_v0701a_khadein_Mag_4.webp|Sprite Sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=魔宿す蒼鴉の水晶球
+|german=Kristall der Krähe
+|spanishEU=Bola del Cuervo
+|spanishLA=Bola del Cuervo
+|french=Cristal d'oiseau
+|italian=Cristallo corvino
+|chineseTW=宿魔蒼鴉的水晶球
+|portuguese=Cristal corvino
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%cannot be slowed by terrain%' OR Description LIKE '%【Desperation】%' OR Description LIKE '%【Dominance】%') AND Exclusive='1'}}
+{{Weapons Navbox}}

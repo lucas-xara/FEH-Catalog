@@ -1,0 +1,42 @@
+{{SkillPage Tabs}}{{Weapon Infobox
+|tagid=SID_暁天の神楽鈴
+|weaponType=Red Tome
+|weaponName=Dawn Suzu
+|might=14
+|range=2
+|effectiveness=Armored,Cavalry
+|effect=Effective against armored and cavalry foes. Grants Atk+3. Disables unit's and foe's skills that change attack priority.
+|cost=400
+|exclusive=1
+|statModifiers=0,17,0,0,0
+|required=Bolganone;Fenrir
+|SE=se_effect_flowerwreath.wav
+|properties=
+}}
+==Notes==
+{{Effective damage bonus|armored,cavalry}}
+* Has the same effect as {{St|Hardy Bearing 3}}.
+{{Hardy Bearing}}
+
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+v2.8_57_bon01_Hit.png|Sprite sheet for {{PAGENAME}}'s hit animation.
+v2.8_57_bon01_Mag.png|Sprite sheet for {{PAGENAME}}'s animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=暁天の神楽鈴
+|german=Morgen-Suzu
+|spanishEU=Suzu alba
+|spanishLA=Suzu alba
+|french=Suzu aube
+|italian=Suzu dell'alba
+|chineseTW=曉天的神樂鈴
+|portuguese=Aurora Suzu
+}}
+==See also==
+{{See also skills|cond=WeaponEffectiveness='armored,cavalry' OR Description LIKE '%isables unit_s and foe_s skills that change attack priority%'}}
+{{Weapons Navbox}}
+[[Category:Seasonal weapons]]

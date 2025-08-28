@@ -1,0 +1,45 @@
+{{Passive
+|type=C
+|name=Atk/Def Hold
+|exclusive=0
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|Flying}}
+|properties=random_owner
+|1name=Atk/Def Hold
+|alt1name=Atk Def Hold
+|1tagid=SID_攻撃守備の大牽制
+|1cost=300
+|1effect=Inflicts Atk/Def-4 on foes within 3 spaces during combat.
+|1required=Atk/Def Rein 3
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce={{Eft|Temporary debuffs|Atk/Def|4}}
+|CeT={{Tgt|Foes}}<br>[[within 3 spaces]]
+}}
+==Notes==
+{{Temporary debuffs}}
+{{FoesCombatEffect|effect=temporary debuffs}}
+==List of owners==
+{{Skill Hero List}}
+==Availability==
+{{PassiveFocusList}}
+{{PassiveDistributionList}}
+{{PassiveCombatManualList}}
+==In other languages==
+{{OtherLanguages
+|english=Atk/Def Hold
+|japanese=攻撃守備の大牽制
+|german=Agr./Ver.-Halt
+|spanishEU=Aguante Ata/Def
+|spanishLA=Aguante Atq./Def.
+|french=Frein Atq/Déf
+|italian=Redine Att/Dif
+|chineseTW=攻擊防守大牽制
+|portuguese=Freio Atq./Def.
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%inflicts%Atk/%Def-%on foes within _ spaces during combat%' AND Exclusive='1'}}
+* [[Rein Passives]]
+* [[Skill families/C Passives#Hold|Hold Passives]]
+{{Passives Navbox|C}}

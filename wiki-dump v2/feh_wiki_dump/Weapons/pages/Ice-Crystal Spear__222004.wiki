@@ -1,0 +1,54 @@
+{{Weapon Infobox
+|tagid=SID_ニフルの氷晶の槍
+|intID=4320
+|image=wep_lc177
+|exclusive=1
+|weaponType=Lance
+|cost=400
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1).<br><br>If foe initiates combat or if foe's HP ≥ 75% at start of combat, grants bonus to unit's Atk/Spd/Def/Res = 5 + number of allies within 3 spaces of unit × 3 (max 14), reduces damage from foe's attacks by 20% of unit's Spd (excluding area-of-effect Specials), neutralizes penalties on unit, and neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat, and also, when unit deals damage to foe during combat, restores 7 HP to unit (triggers even if 0 damage is dealt). If foe with Range = 2 initiates combat, neutralizes effects that prevent unit's counterattacks during combat.
+|required=Silver Lance
+|properties=
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Pe={{Eft|Accelerates Special}}
+|Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|3 x {{Tgt|Allies}} [[within 3 spaces]], + 5|max=14}}
+|Ce2={{Eft|Damage Reduction|20% of {{Tgt|Unit}}'s Spd}}<br>from {{Tgt|Foe}}'s attacks
+|Ce3={{Eft|Neutralize Penalties}}
+|Ce4={{Eft|Neutralize Guaranteed Follow-Ups}}
+|Ce4T={{Tgt|Foe}}
+|Ce5={{Eft|Neutralize Prevent Follow-Ups}}
+|Ce6={{Eft|Heal|7}}<br>per {{Tgt|Unit}}'s attack
+|Ce5-7T={{Tgt|Unit}}
+|Ce1-6C=Enemy Phase '''or'''<br>{{Tgt|Foe}}'s HP ≥ 75%<br>at start of combat
+|Ce7={{Eft|Neutralize Prevent Counter}}
+|Ce7C=Enemy Phase '''&'''<br>{{Tgt|Foe}}'s Range = 2
+}}
+==Notes==
+{{IfFoeInitiates}}
+{{Temporary buffs}}
+{{FlatDamageReduction}}
+{{Penalty neutralization}}
+{{Follow-up effect neutralization}}
+{{CombatHPRecovery}}
+{{Counterattack prevention neutralization}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=
+|german=
+|spanishEU=
+|spanishLA=
+|french=
+|italian=
+|chineseTW=
+|portuguese=
+}}
+==See also==
+{{See also skills|cond=Description LIKE '%that prevent unit_s counterattacks%' AND Exclusive='1'}}
+{{Weapons Navbox}}

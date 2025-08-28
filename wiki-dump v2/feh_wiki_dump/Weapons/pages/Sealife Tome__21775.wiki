@@ -1,0 +1,37 @@
+{{Weapon Infobox
+|tagid=SID_熱帯魚の本
+|weaponType=Blue Tome
+|weaponName={{PAGENAME}}
+|might=8
+|range=2
+|effect=Grants Atk/Spd+1 to allies within 2 spaces during combat.
+|cost=200
+|exclusive=0
+|userVersion1=Closed|userVersion2=Open|statModifiers=0,8,0,0,0
+|next=Sealife Tome+
+|promotionRarity=5
+|promotionTier=1
+|required=Elthunder;Ellight
+|properties=
+}}
+==Notes==
+{{Combat boosts}}
+{{AlliesCombatEffect|effect=combat boost}}
+==List of owners==
+{{Skill Hero List}}
+
+==In other languages==
+{{OtherLanguages
+|japanese=熱帯魚の本
+|german=Meeresbuch
+|spanishEU=Grimorio marino
+|spanishLA=Grimor. marino
+|french=Tome tropical
+|italian=Tomo del mare
+|chineseTW=熱帶魚之書
+|portuguese=Tomo marinho
+}}
+==See also==
+* [[Nohrian Summer Weapons]]
+{{Weapons Navbox}}
+[[Category:Nohrian Summer weapons]]

@@ -1,0 +1,69 @@
+{{#invoke:NameAbout|main|Name=Ferdinand}}{{HeroPage Tabs}}
+{{Hero Infobox
+|Name=Ferdinand
+|Title=Highborn Sipper
+|WeaponType=Green Tome
+|MoveType=Flying
+|Origin=Fire Emblem: Three Houses
+|Gender=Male
+|actorEN=Ricco Fajardo
+|actorJP=坂泰斗
+|artist=さいのすけ
+|additionDate=August 7, 2023
+|releaseDate=August 8, 2023
+|cv1=12
+|cv2=200300
+|TagID=お茶会フェルディ
+|InternalID=983
+|Properties=special
+|description=Son and heir of Duke Aegir, the prime minister of the Adrestian Empire. Plays the role of waiter in a manner befitting a noble. Appears in Fire Emblem: Three Houses.
+}}
+{{Stats Page
+|Lv1HP=18|Lv1ATK=12|Lv1SPD=12|Lv1DEF=4|Lv1RES=3
+|GRHP=50|GRATK=70|GRSPD=75|GRDEF=40|GRRES=50
+}}
+==Skills==
+===Weapons===
+{{Weapons Table
+|weapon1=Wind
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elwind
+|weapon2Default=2
+|weapon2Unlock=2
+|weapon3=Teatime Set
+|weapon3Default=3
+|weapon3Unlock=3
+|weapon4=Teatime Set+
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+===Assists===
+{{Assists Table
+|assist1=Rally Resistance
+|assist1Default=4
+|assist1Unlock=3
+|assist2=Rally Spd/Res
+|assist2Unlock=4
+|assist3=Rally Spd/Res+
+|assist3Unlock=5
+}}
+===Specials===
+{{Specials Table}}
+===Passives===
+{{Passives Table
+|passiveB1=Windsweep 1
+|passiveB2=Windsweep 2
+|passiveB3=Windsweep 3
+|passiveB1Unlock=1
+|passiveB2Unlock=2
+|passiveB3Unlock=4
+|passiveC1=Spd/Res Rein 1
+|passiveC2=Spd/Res Rein 2
+|passiveC3=Spd/Res Rein 3
+|passiveC1Unlock=3
+|passiveC2Unlock=4
+|passiveC3Unlock=5
+}}
+{{Heroes Navbox}}
+[[Category:Tea Party units]]

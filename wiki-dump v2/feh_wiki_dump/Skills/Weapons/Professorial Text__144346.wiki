@@ -1,0 +1,126 @@
+{{Weapon Infobox
+|tagid=SID_師の導きの書
+|weaponName=Professorial Text
+|userVersion1=Closed
+|userVersion2=Open
+|userVersion3=Gleam Closed
+|userVersion4=Gleam Open
+|weaponType=Green Tome
+|might=14
+|range=2
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). If unit initiates combat or is within 2 spaces of an ally, grants Atk/Spd/Def/Res+5 during combat, and also, if unit's Spd > foe's Spd during combat, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks.<br><br>Allies within 2 spaces gain: "If unit's Spd > foe's Spd during combat, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks."
+|cost=400
+|exclusive=1
+|statModifiers=0,14,0,0,0
+|required=Rexcalibur
+|intID=2626
+|sort=553
+|effectRange=2
+|value=20
+|timingID=20
+|abilityID=292
+|limit1ID=58
+|randomTimestamp=2021-07-30T07:00:00Z
+|randomMinLv=31
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1). If unit initiates combat or if there is an ally within 3 rows or 3 columns centered on unit, grants Atk/Spd/Def/Res+5 to unit and deals +7 damage during combat (except when dealing damage with area-of-effect Specials), and also, if unit's Spd > foe's Spd, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat. For allies within 3 rows or 3 columns centered on unit, grants Atk/Spd+5 to those allies during their combat, and also, if those allies' Spd > foe's Spd, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent those allies' follow-up attacks during their combat.
+|refineStatsSkill1=0,0,0,0,0
+|effectSkill1=At start of combat, if unit's HP ≥ 25%, grants Atk/Spd/Def/Res+4 to unit, grants bonus to unit's Atk/Spd/Def/Res = number of allies within 3 rows or 3 columns centered on unit, neutralizes unit's penalties to Atk/Spd, neutralizes effects that grant "Special cooldown charge +X" to foe or inflict "Special cooldown charge -X" on unit, and reduces damage from foe's first attack by 30% during combat ("first attack" normally means only the first strike; for effects that grant "unit attacks twice," it means the first and second strikes). Neutralizes penalties to Atk/Spd on allies within 3 rows or 3 columns centered on unit during their combat.
+|properties=random_owner
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|skill1={{SCi|weapon}} Base weapon
+|s1 Pe={{Eft|Accelerates Special}}
+|s1 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s1 CeC1=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]<br>of {{Tgt|Unit}}
+|s1 Ce2={{Eft|Neutralize Prevent Follow-Ups}}
+|s1 Ce3={{Eft|Neutralize Guaranteed Follow-Ups}}
+|s1 CeT3={{Tgt|Foe}}
+|s1 CeC2-3=({{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}<br>conditions)<br>'''&''' {{Tgt|Unit}}'s Spd<br>>{{Tgt|Foe}}'s Spd
+|s1 Ce4={{Eft|Neutralize Guaranteed Follow-Ups}}
+|s1 CeT4={{Tgt|Allies}}<br>[[within 2 spaces]]
+|s1 Ce5={{Eft|Neutralize Prevent Follow-Ups}}
+|s1 CeT5={{Tgt|Foes}} of {{Tgt|Allies}}<br>[[within 2 spaces]]
+|s1 CeC4-5={{Tgt|Ally}}'s Spd<br>>{{Tgt|Foe}}'s Spd
+|skill2=[[File:Attack Plus W.png|x26px|class=inline-icon]] Refined weapon
+|s2 Pe={{Eft|Accelerates Special}}
+|s2 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}
+|s2 Ce2={{Eft|Damage Boost|7}}
+|s2 CeC1-2=Player Phase '''or'''<br>an {{Tgt|Ally}} is within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|s2 Ce3={{Eft|Neutralize Prevent Follow-Ups}}
+|s2 Ce4={{Eft|Neutralize Guaranteed Follow-Ups}}
+|s2 CeT4={{Tgt|Foe}}
+|s2 CeC3-4=({{Eft|Temporary buffs|Atk/Spd/Def/Res|5}}<br>conditions)<br>'''&''' {{Tgt|Unit}}'s Spd<br>>{{Tgt|Foe}}'s Spd
+|s2 Ce5={{Eft|Temporary buffs|Atk/Spd|5}}
+|s2 Ce6={{Eft|Neutralize Prevent Follow-Ups}}
+|s2 CeT5-6={{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|s2 Ce7={{Eft|Neutralize Guaranteed Follow-Ups}}
+|s2 CeT7={{Tgt|Foes}} of<br>{{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+|s2 CeC6-7={{Tgt|Ally}}'s Spd<br>>{{Tgt|Foe}}'s Spd
+|skill3={{Si|Professorial Text|refine=Skill1}} Skill refine effects
+|s3 Ce1={{Eft|Temporary buffs|Atk/Spd/Def/Res|4}}
+|s3 Ce2={{Eft|Temporary buffs|Atk/Spd/Def/Res|{{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}}}
+|s3 Ce3={{Eft|Neutralize Penalties|Atk/Spd}}
+|s3 Ce4={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s first attack<br>(including second attacks)
+|s3 Ce5={{Eft|Neutralize Guard}}
+|s3 Ce6={{Eft|Neutralize Accelerate Charge}}
+|s3 CeT6={{Tgt|Foe}}
+|s3 CeC1-6={{Tgt|Unit}}'s HP ≥ 25%<br>at start of combat
+|s3 Ce7={{Eft|Neutralize Penalties|Atk/Spd}}
+|s3 CeT7={{Tgt|Allies}} within<br>[[3 rows or 3 columns]]<br>centered on {{Tgt|Unit}}
+}}
+
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{Follow-up effect neutralization}}
+{{AlliesCombatEffect|effect=follow-up effect neutralization}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{FixedDamage|7|name=Refined Professorial Text}}
+{{Penalty neutralization|name={{St|Professorial Text|refine=Skill1}}}}
+{{CooldownChargePlusNeutralization|name={{St|Professorial Text|refine=Skill1}}}}
+{{CooldownChargeMinusNeutralization|name={{St|Professorial Text|refine=Skill1}}}}
+{{DamagePercentageReduction}}
+{{AlliesCombatEffect|effect=follow-up effect neutralization, temporary buffs and penalty neutralization|name={{St|Professorial Text|refine=Skill1}}}}
+{|class="wikitable default mw-collapsible" 
+!Example of Area of Effect
+|-
+|align="middle" style="max-width:450px;margin:auto"|{{AoE|u=Byleth: The Fódlan Star|t=Sothis: Girl on the Throne
+|---xxx---
+|---xtx---
+|---xxx---
+|xxxxxxxxx
+|xxxxuxxxx
+|xxxxxxxxx
+|---xxx---
+|---xxx---
+|---xxx---
+}}
+|}
+==List of owners==
+{{Skill Hero List}}
+==Gallery==
+<gallery>
+V5.6_210603_legend_Mag.webp|Sprite sheet for Professorial Text's animation.
+</gallery>
+==In other languages==
+{{OtherLanguages
+|japanese=師の導きの書
+|german=Lehrbuch
+|spanishEU=Texto magistral
+|spanishLA=Texto magistral
+|french=Texte professoral
+|italian=Testo del docente
+|chineseTW=老師的引導之書
+|portuguese=Texto didático
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%grants%allies within _ spaces of unit during combat%' OR Description LIKE '%grants%allies within%rows%unit during combat%' OR Description LIKE '%neutralize penalties%allies within%') AND Exclusive='1'}}
+{{Weapons Navbox}}

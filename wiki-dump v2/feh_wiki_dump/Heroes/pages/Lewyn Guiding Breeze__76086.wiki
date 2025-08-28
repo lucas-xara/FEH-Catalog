@@ -1,0 +1,87 @@
+{{#invoke:NameAbout|main|Name=Lewyn}}{{HeroPage Tabs|{{PAGENAME}}}}
+{{Hero Infobox
+| Name = Lewyn
+| Title = Guiding Breeze
+| GrowthModifier = Gen 2
+| WeaponType = Green Tome
+| Origin = Fire Emblem: Genealogy of the Holy War
+| Gender = Male
+| MoveType = Infantry
+|actorJP=子安武人
+| actorEN = Steve Staley
+|artist=須田彩加
+| additionDate = September 6, 2018
+| releaseDate = September 7, 2018
+| poolDate = September 21, 2018
+|randomStartTime=2018-10-07T07:00:00Z
+|poolRarities=5
+| TagID=レヴィン
+|InternalID = 287
+| Properties = specRate_202108
+|cv1=3
+|cv2=1000100
+|description=Prince of Silesse. A descendant of Ced, one of the 12 legendary crusaders, and inheritor of the wind tome Forseti. Appears in Fire Emblem: Genealogy of the Holy War.
+}}
+
+__TOC__
+
+{{Stats Page|Hero={{BASEPAGENAME}}
+|Lv1HP=16|Lv1ATK=8|Lv1SPD=11|Lv1DEF=4|Lv1RES=6
+|GRHP=50|GRATK=60|GRSPD=60|GRDEF=30|GRRES=45
+}}
+
+== Skills ==
+
+===Weapons===
+{{Weapons Table
+|weapon1=Wind
+|weapon1Default=1
+|weapon1Unlock=1
+|weapon2=Elwind
+|weapon2Default=3
+|weapon2Unlock=2
+|weapon3=Rexcalibur
+|weapon3Default=4
+|weapon3Unlock=3
+|weapon4=Forseti
+|weapon4Default=5
+|weapon4Unlock=5
+}}
+
+===Assists===
+{{Assists Table
+}}
+
+===Specials===
+{{Specials Table
+|special1=Night Sky
+|special1Default=4
+|special1Unlock=3
+|special2=Glimmer
+|special2Default=
+|special2Unlock=4
+}}
+
+===Passives===
+{{Passives Table
+|passiveA1=Darting Blow 1
+|passiveA2=Swift Sparrow 1
+|passiveA3=Swift Sparrow 2
+|passiveA1Unlock=3
+|passiveA2Unlock=4
+|passiveA3Unlock=5
+|passiveB1=Special Spiral 1
+|passiveB2=Special Spiral 2
+|passiveB3=Special Spiral 3
+|passiveB1Unlock=3
+|passiveB2Unlock=4
+|passiveB3Unlock=5
+|passiveC1=Odd Atk Wave 1
+|passiveC2=Odd Atk Wave 2
+|passiveC3=Odd Atk Wave 3
+|passiveC1Unlock=1
+|passiveC2Unlock=2
+|passiveC3Unlock=4
+}}
+
+{{Heroes Navbox}}

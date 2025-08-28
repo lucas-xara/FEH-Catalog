@@ -1,0 +1,50 @@
+{{Weapon Infobox
+|tagid=SID_覇道の戦斧
+|weaponType=Green Axe
+|might=16
+|range=1
+|cooldown=-1
+|effect=Accelerates Special trigger (cooldown count-1). If the number of foes within 2 spaces (excluding target) ≥ the number of allies within 2 spaces (excluding unit), unit makes a guaranteed follow-up attack.
+|cost=400
+|exclusive=1
+|statModifiers=0,16,0,0,0
+|required=Silver Axe
+|next=
+|refinePaths=default
+|refineSP=400
+|refineMedals=500
+|refineDews=200
+|upgradedEffect=Accelerates Special trigger (cooldown count-1). At start of combat, if unit's HP ≥ 25% or the number of foes within 2 spaces of unit (excluding target) ≥ the number of allies within 2 spaces of unit (excluding unit), grants Atk/Spd/Def/Res+4 to unit and unit makes a guaranteed follow-up attack during combat.
+|tagidExtraSkill1=一
+|effectSkill1=If unit initiates combat or is not adjacent to an ally, grants Atk/Spd/Def/Res+4 to unit during combat and deals damage = 10% of unit's Atk (including when dealing damage with a Special triggered before combat). If unit initiates combat and unit is not adjacent to any ally after combat, grants another action to unit (once per turn; if a skill effect moves unit after combat, this effect occurs based on unit's final placement after that movement).
+|iconSkill1=Victorious Axe W.png
+|properties=random_owner
+}}
+==Notes==
+{{Guaranteed follow-up interaction}}
+==Upgrades==
+{{Weapon Upgrade List}}
+===Notes===
+{{Temporary buffs|name=refined Victorious Axe}}
+{{Galeforce notes|name={{St|Victorious Axe|refine=Skill1}}}}
+* "Skills that move unit after combat" include the [[:Category:Røkkr area-of-effect Specials|Røkkr area-of-effect Specials]].
+{{DamageBoost|name={{St|Victorious Axe|refine=Skill1}}}}
+
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=覇道の戦斧
+|german=Siegreiche Axt
+|spanishEU=Hacha triunfal
+|spanishLA=Hacha triunfal
+|french=Hache victorieuse
+|italian=Ascia vittoriosa
+|chineseTW=霸道戰斧
+|portuguese=Machado glorioso
+}}
+==References==
+<references/>
+==See also==
+{{See also skills|cond=Description LIKE '%deals damage = 10%of unit_s Atk%' AND Name NOT LIKE '%time traveler%' OR Description LIKE '%another action to unit%' OR Description LIKE '%grants unit another action%'}}
+{{Weapons Navbox}}

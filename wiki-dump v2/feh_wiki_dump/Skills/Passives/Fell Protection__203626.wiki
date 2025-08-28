@@ -1,0 +1,54 @@
+{{Passive
+|name=Fell Protection
+|type=C
+|exclusive=1
+|canUseWeapon={{WeaponList|All}}
+|canUseMove={{MoveList|All}}
+|properties=random_owner
+|1name=Fell Protection
+|1tagid=SID_邪竜の救済
+|1effect=If unit initiates combat or is within 2 spaces of an ally, grants Atk/Res+5 to unit during combat, and also, if unit's Res ≥ foe's Res+5, reduces damage from attacks during combat by 30% (excluding area-of-effect Specials), and also, if foe's attack can trigger foe's Special, inflicts Special cooldown count+1 on foe before foe's first attack during combat (cannot exceed foe's maximum Special cooldown). For allies within 2 spaces of unit, grants Atk/Res+4 to ally during their combat, and also, if this unit's Res ≥ ally's foe's Res+5 at start of combat, reduces damage from attacks by 30% during ally's combat (excluding area-of-effect Specials), and also, if foe's attack can trigger foe's Special, inflicts Special cooldown count+1 on foe before foe's first attack during ally's combat (cannot exceed foe's maximum Special cooldown).
+|1cost=300
+|1required=-
+}}
+==Effects==
+{{#invoke:SkillEffectsTable|main
+|Ce1={{Eft|Temporary buffs|Atk/Res|5}}
+|CeC1=Player Phase '''or'''<br>an {{Tgt|Ally}} is<br>[[within 2 spaces]]
+|Ce2={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s attacks
+|CeC2=({{Eft|Temporary buffs|Atk/Res|5}} conditions)<br>'''&''' {{Tgt|Unit}}'s Res<br>≥ {{Tgt|Foe}}'s Res+5
+|Ce3={{Eft|Increase Cooldown|1}}<br>before {{Tgt|Foe}}'s first attack
+|CeT3={{Tgt|Foe}}
+|CeC3=({{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s attacks<br>conditions) '''&''' {{Tgt|Foe}} has<br>an [[Offensive Special]]
+|Ce4={{Eft|Temporary buffs|Atk/Res|4}}
+|CeT4-5={{Tgt|Allies}}<br>[[within 2 spaces]]
+|Ce5={{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s attacks
+|CeC5=({{Eft|Temporary buffs|Atk/Res|5}} conditions)<br>'''&''' {{Tgt|Unit}}'s Res ≥<br>{{Tgt|Target Foe}}'s Res+5
+|Ce6={{Eft|Increase Cooldown|1}}<br>before {{Tgt|Foe}}'s first attack
+|CeT6={{Tgt|Foes}} of<br>{{Tgt|Allies}}<br>[[within 2 spaces]]
+|CeC6=({{Eft|Damage Reduction|30%}}<br>from {{Tgt|Foe}}'s attacks<br>conditions) '''&''' {{Tgt|Target Foe}}<br>has an [[Offensive Special]]
+}}
+
+==Notes==
+{{IfUnitInitiates}}
+{{Temporary buffs}}
+{{DamagePercentageReduction}}
+{{CombatCooldownCount|+1}}
+{{AlliesCombatEffect|effect=temporary buffs, damage reduction and Special cooldown count+1 on foe before foe's first attack}}
+==List of owners==
+{{Skill Hero List}}
+==In other languages==
+{{OtherLanguages
+|japanese=邪竜の救済
+|german=Dämonenschutz
+|spanishEU=Favor del Caído
+|spanishLA=Favor del Caído
+|french=Protect. déchue
+|italian=Protez. maligna
+|chineseTW=邪龍的救濟
+|portuguese=Proteção terrível
+}}
+==See also==
+{{See also skills|cond=(Description LIKE '%educes damage from%to allies within _ spaces%' OR Description LIKE '%allies within _ spaces%reduces damage%by%to those allies%' OR Description LIKE '%special cooldown count+%before foe_s first attack%') AND Exclusive='1'}}
+* [[Skill families/A Passives#Scowl|Scowl Passives]]
+{{Passives Navbox|C}}
