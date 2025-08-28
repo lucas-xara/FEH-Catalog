@@ -14,6 +14,8 @@ import deathb from "../assets/placeholders/Death_Blow_4.webp";
 import flowr from "../assets/placeholders/Flow_Refresh_3.webp";
 import visiona from "../assets/placeholders/Vision_of_Arcadia_II.webp";
 
+import infantry from "../assets/placeholders/Icon_Move_Infantry.webp"
+
 import bg from "../assets/placeholders/bg.png";
 
 export default function HeroPageMock() {
@@ -221,6 +223,16 @@ export default function HeroPageMock() {
         <div style={{ fontSize:"12px", opacity: 0.7, justifySelf:"flex-start", marginLeft:"5px" }}>
           Version: {hero.version ?? "—"}
         </div>
+      </div>
+
+      <div style={{backgroundColor:"red", height:"50px", display:"flex", flexDirection:"row", justifyContent:"center", alignItems:"center", gap: "40px"}}>
+          <div style={{backgroundColor:"purple", display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center"}}>
+            <div style={{color:"white", fontSize:"20px"}}><b>Weapon Type</b></div>
+            <img src={sword} alt="sword-icon" style={{width:"32px", height:"32px"}}/>
+          </div>
+          <div style={{backgroundColor:"blue", height:"40px", width:"40px"}}></div>
+
+
       </div>
 
       <div
