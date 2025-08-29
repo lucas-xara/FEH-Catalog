@@ -1,7 +1,6 @@
-// src/pages/Hero.tsx (mock)
+// src/pages/Hero.tsx (mock) — versão atualizada
 // Arquivo 100% independente, sem imports.
-// Mantém a estrutura visual para experimentar o layout da página final.
-// Requer que React esteja disponível globalmente no runtime (ex.: Vite/Next com JSX automático).
+// Requer React disponível globalmente (ex.: Vite/Next com JSX automático).
 import eliwood from "../assets/placeholders/eliwood.webp";
 import sword from "../assets/placeholders/Icon_Class_Red_Sword.webp";
 import assist from "../assets/placeholders/Icon_Skill_Assist.webp";
@@ -26,7 +25,7 @@ import fivestars from "../assets/placeholders/5-stars.webp";
 import bg from "../assets/placeholders/bg.png";
 
 export default function HeroPageMock() {
-  // Hooks via React global (sem imports). Fallbacks simples para evitar crash em ambientes sem React global.
+  // Hooks via React global (sem imports).
   const R: any = (globalThis as any).React || {};
   const useState = R.useState || ((v: any) => [v, (_: any) => {}]);
   const useEffect = R.useEffect || (() => {});
@@ -35,6 +34,72 @@ export default function HeroPageMock() {
   // —————————————————————————————————————————————
   // Placeholders de dados (hero + kit + stats)
   // —————————————————————————————————————————————
+
+  function DetailsCard({
+    title,
+    headerIconLeft,
+    headerIconBadge,
+    meta, // JSX ou string, ex.: <><b>SP</b> 240</>
+    children, // descrição
+    startOpen = false,
+  }: {
+    title: string;
+    headerIconLeft?: any;
+    headerIconBadge?: any;
+    meta?: any;
+    children?: any;
+    startOpen?: boolean;
+  }) {
+    const wrap = {
+      display: "flex",
+      flexDirection: "column" as const,
+      gap: 8,
+      backgroundColor: "#FFF9E6",
+      borderRadius: 10,
+      boxShadow: "inset 0 0 0 4px #DDA715",
+      padding: "16px 21px",
+    };
+    const summary = {
+      listStyle: "none",
+      display: "flex",
+      alignItems: "center",
+      gap: 8,
+      cursor: "pointer",
+      userSelect: "none" as const,
+    };
+
+    return (
+      <details open={startOpen} style={wrap}>
+        <summary style={summary}>
+          <span style={{ display: "flex", alignItems: "flex-end" }}>
+            {headerIconLeft}
+            {headerIconBadge}
+          </span>
+          <div style={{ fontSize: 16, fontWeight: 800, color: "black" }}>
+            {title}
+          </div>
+          <div
+            style={{
+              marginLeft: "auto",
+              fontSize: 16,
+              color: "black",
+              opacity: 0.7,
+            }}
+          >
+            ▼
+          </div>
+        </summary>
+
+        <div style={{ display: "grid", gap: 8, marginTop: 8 }}>
+          {meta && <div style={{ fontSize: 12, color: "black" }}>{meta}</div>}
+          {children && (
+            <div style={{ fontSize: 12, color: "black" }}>{children}</div>
+          )}
+        </div>
+      </details>
+    );
+  }
+
   const hero = {
     version: "3.6",
     infobox: {
@@ -87,22 +152,17 @@ export default function HeroPageMock() {
       passiveMods?: number[][];
     }
   ): number[] {
-    // Mock linear: +1 ponto alternado por DF, +2 all se resplendent, +1 all a cada 2 merges
     let out = [...neutral40];
-    // Dragonflowers distribuem em ordem ATK>SPD>DEF>RES>HP apenas para demo
-    for (let i = 0; i < opts.flowers; i++) {
-      const idx = i % 5;
-      out[idx] += 1;
-    }
+    // DF: distribuição mock só pra demo
+    for (let i = 0; i < opts.flowers; i++) out[i % 5] += 1;
     if (opts.resplendent) out = out.map((v) => v + 2);
     const mergeBonus = Math.floor(opts.merges / 2);
     out = out.map((v) => v + mergeBonus);
 
-    // Mods de arma e passivas (se existirem)
-    if (opts.weaponMods && opts.weaponMods.length === 5) {
+    if (opts.weaponMods?.length === 5) {
       out = out.map((v, i) => v + (opts.weaponMods![i] || 0));
     }
-    if (opts.passiveMods && opts.passiveMods.length) {
+    if (opts.passiveMods?.length) {
       for (const arr of opts.passiveMods) {
         out = out.map((v, i) => v + (arr?.[i] || 0));
       }
@@ -111,10 +171,10 @@ export default function HeroPageMock() {
   }
 
   function computeSuperIVs(_base: number[], _growths: number[]) {
-    // Mock: ATK e SPD são superboon; HP é superbane
+    // Mock: ATK & SPD superboon; HP superbane
     return {
-      superboon: new Set<number>([1, 2]), // ATK/SPD
-      superbane: new Set<number>([0]), // HP
+      superboon: new Set<number>([1, 2]),
+      superbane: new Set<number>([0]),
     };
   }
 
@@ -147,7 +207,7 @@ export default function HeroPageMock() {
     []
   );
 
-  // Mods visuais (placeholders fixos): arma dá +14 ATK, passiva A +4 ATK/SPD
+  // Mods visuais (placeholders fixos)
   const weaponMods = useMemo(() => [0, 14, 0, 0, 0], []);
   const passiveMods = useMemo(() => [[0, 4, 4, 0, 0]], []);
 
@@ -169,9 +229,12 @@ export default function HeroPageMock() {
     passiveMods,
   ]);
 
-  // UI helpers
   const colorForIndex = (i: number) =>
-    supers.superboon.has(i) ? "#00b7ffff" : supers.superbane.has(i) ? "#e91c1cff" : "#ffffffff";
+    supers.superboon.has(i)
+      ? "dodgerblue"
+      : supers.superbane.has(i)
+      ? "tomato"
+      : "#fff";
   const statusForIndex = (i: number) =>
     supers.superboon.has(i)
       ? "superboon"
@@ -180,12 +243,262 @@ export default function HeroPageMock() {
       : "neutral";
 
   useEffect(() => {
-    // Reset ao mudar algo maior (aqui é mock, então só exemplo)
     setFlowers(0);
     setMerges(0);
     setResplendentOn(false);
   }, []);
 
+  // —————————————————————————————————————————————
+  // Componentes locais (sem imports)
+  // —————————————————————————————————————————————
+
+  function StatsPanel() {
+    const card = {
+      background: "rgba(30,30,30,.45)",
+      backdropFilter: "blur(6px)",
+      border: "1px solid rgba(255,255,255,.08)",
+      borderRadius: 16,
+      padding: "14px 16px",
+      boxShadow: "0 8px 24px rgba(0,0,0,.25)",
+      color: "#fff",
+    } as const;
+
+    const pill = {
+      display: "flex",
+      alignItems: "center",
+      gap: 8,
+      background: "rgba(255,255,255,.06)",
+      border: "1px solid rgba(255,255,255,.12)",
+      borderRadius: 999,
+      padding: "6px 10px",
+    } as const;
+
+    const select = {
+      appearance: "none" as const,
+      WebkitAppearance: "none" as const,
+      background: "rgba(0,0,0,.25)",
+      border: "1px solid rgba(255,255,255,.18)",
+      borderRadius: 8,
+      padding: "4px 10px",
+      color: "#fff",
+      fontSize: 14,
+      lineHeight: 1.1,
+      minWidth: 64,
+    };
+
+    const btn = (variant: "ghost" | "solid") => ({
+      cursor: "pointer",
+      borderRadius: 10,
+      padding: "8px 12px",
+      fontWeight: 600,
+      fontSize: 14,
+      border:
+        variant === "ghost"
+          ? "1px solid rgba(255,255,255,.18)"
+          : "1px solid #4EE58C",
+      background:
+        variant === "ghost"
+          ? "transparent"
+          : "linear-gradient(180deg,#53f09a,#2fb771)",
+      color: variant === "ghost" ? "#fff" : "#0d1a12",
+      boxShadow:
+        variant === "ghost" ? "none" : "0 4px 14px rgba(47,183,113,.35)",
+    });
+
+    const sep = (
+      <div
+        style={{
+          height: 1,
+          background: "rgba(255,255,255,.08)",
+          margin: "10px 0",
+        }}
+      />
+    );
+
+    return (
+      <div style={card}>
+        {/* título do bloco */}
+        <div style={{ textAlign: "center", fontWeight: 700, marginBottom: 10 }}>
+          Level 40{" "}
+          <span style={{ opacity: 0.8, fontWeight: 600 }}>(5★, neutral)</span>
+        </div>
+
+        {/* controles */}
+        <div
+          style={{ display: "grid", gridTemplateColumns: "1fr auto", gap: 10 }}
+        >
+          <div
+            style={{
+              display: "flex",
+              flexWrap: "wrap",
+              gap: 10,
+              justifyContent: "center",
+            }}
+          >
+            <div style={pill}>
+              <img
+                src={dragonflowers}
+                alt="Dragonflowers"
+                width={20}
+                height={20}
+              />
+              <select
+                value={flowers}
+                onChange={(e: any) => setFlowers(parseInt(e.target.value, 10))}
+                style={select}
+              >
+                {dragonflowerOptions(hero.dragonflowersCap).map((opt) => (
+                  <option key={opt} value={opt}>
+                    +{opt}
+                  </option>
+                ))}
+              </select>
+            </div>
+
+            <div style={pill}>
+              <img src={mergesI} alt="Merges" width={20} height={20} />
+              <select
+                value={merges}
+                onChange={(e: any) => setMerges(parseInt(e.target.value, 10))}
+                style={select}
+              >
+                {mergeOptions().map((opt) => (
+                  <option key={opt} value={opt}>
+                    +{opt}
+                  </option>
+                ))}
+              </select>
+            </div>
+
+            {hasResplendent && (
+              <div style={pill}>
+                <img
+                  src={resplendent}
+                  alt="Resplendent"
+                  width={20}
+                  height={20}
+                />
+                <select
+                  value={resplendentOn ? "1" : "0"}
+                  onChange={(e: any) =>
+                    setResplendentOn(e.target.value === "1")
+                  }
+                  style={{ ...select, minWidth: 80 }}
+                >
+                  <option value="0">No</option>
+                  <option value="1">Yes</option>
+                </select>
+              </div>
+            )}
+
+            {/* ações */}
+            <div
+              style={{
+                display: "flex",
+                gap: 8,
+                alignItems: "center",
+                justifyContent: "flex-end",
+              }}
+            >
+              <button
+                type="button"
+                style={btn("ghost")}
+                onClick={() => {
+                  setFlowers(0);
+                  setMerges(0);
+                  setResplendentOn(false);
+                }}
+              >
+                Reset
+              </button>
+              <button
+                type="button"
+                style={btn("solid")}
+                onClick={() => {
+                  setFlowers(hero.dragonflowersCap);
+                  setMerges(10);
+                  if (hasResplendent) setResplendentOn(true);
+                }}
+              >
+                Max
+              </button>
+            </div>
+          </div>
+        </div>
+
+        {sep}
+
+        {/* legenda dinâmica */}
+        <div
+          style={{
+            textAlign: "center",
+            fontSize: 13,
+            opacity: 0.85,
+            marginBottom: 8,
+          }}
+        >
+          {flowers ? `+${flowers} DF` : ""}
+          {merges ? `${flowers ? " • " : ""}+${merges} merges` : ""}
+          {resplendentOn
+            ? `${flowers || merges ? " • " : ""}Resplendent (+2 all)`
+            : ""}
+        </div>
+
+        {/* grid de stats */}
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "120px 1fr",
+            alignItems: "center",
+            justifySelf: "center",
+            rowGap: 6,
+            columnGap: 12,
+            maxWidth: 320,
+            margin: "0 auto",
+          }}
+        >
+          {STAT_NAMES.map((label, i) => (
+            <>
+              <div key={`${label}-l`} style={{ opacity: 0.7 }}>
+                {label}
+              </div>
+              <div
+                key={`${label}-v`}
+                title={statusForIndex(i)}
+                style={{
+                  color: colorForIndex(i),
+                  fontWeight: statusForIndex(i) === "neutral" ? 600 : 700,
+                  textShadow: "0 1px 0 rgba(0,0,0,.3)",
+                }}
+              >
+                {displayed?.[i] ?? "—"}
+              </div>
+            </>
+          ))}
+        </div>
+
+        {/* rodapé */}
+        <div
+          style={{
+            textAlign: "center",
+            marginTop: 10,
+            opacity: 0.65,
+            fontSize: 12,
+          }}
+        >
+          (Neutral without weapon:&nbsp;
+          {neutral40
+            ? `${neutral40[0]}/${neutral40[1]}/${neutral40[2]}/${neutral40[3]}/${neutral40[4]}`
+            : "—"}
+          )
+        </div>
+      </div>
+    );
+  }
+
+  // —————————————————————————————————————————————
+  // UI
+  // —————————————————————————————————————————————
   return (
     <div
       style={{
@@ -205,8 +518,9 @@ export default function HeroPageMock() {
       >
         ← Back
       </a>
+
       <div style={{ textAlign: "center" }}>
-        <h1 style={{ margin: "20px", fontSize: "1.6rem" }}>
+        <h1 style={{ margin: "20px", fontSize: "1.6rem", color: "#fff" }}>
           {hero.infobox.Name}
           {hero.infobox.Title ? `: ${hero.infobox.Title}` : ""}
         </h1>
@@ -221,7 +535,7 @@ export default function HeroPageMock() {
             width: "100%",
             maxWidth: 320,
             borderRadius: 12,
-            margin: "8px auto 12px", // centraliza horizontalmente
+            margin: "8px auto 12px",
             boxShadow: "0 2px 12px rgba(0,0,0,.08)",
             objectFit: "cover",
           }}
@@ -230,318 +544,101 @@ export default function HeroPageMock() {
         <div
           style={{
             fontSize: "12px",
+            display: "flex",
+            marginBottom: "5px",
             opacity: 0.7,
-            justifySelf: "flex-start",
             marginLeft: "5px",
+            color: "#fff",
           }}
         >
           Version: {hero.version ?? "—"}
         </div>
       </div>
-      <div style={{display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center", gap:"10px"}}>
-        <div style={{ color: "white", fontSize: "1.17rem" }}><b>Rarities</b></div>
-        <img src={fivestars} alt="5-stars" style={{ height: "32px" }}/>
-      </div>
+
       <div
         style={{
-          height: "50px",
-          display: "flex",
-          flexDirection: "row",
-          justifyContent: "center",
-          alignItems: "center",
-          gap: "40px",
-          paddingBottom: "50px",
-          paddingTop:"20px"
+          display: "grid",
+          gridTemplateColumns: "1fr 1fr",
+          gap: "16px",
+          background: "rgba(0,0,0,0.4)",
+          border: "2px solid rgba(255,255,255,0.1)",
+          borderRadius: "12px",
+          padding: "16px",
+          color: "#fff",
+          textAlign: "center",
         }}
       >
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            alignItems: "center",
-            gap: "10px",
-          }}
-        >
-          <div style={{ color: "white", fontSize: "1.17rem" }}>
-            <b>Weapon Type</b>
+        {/* Rarities */}
+        <div style={{ gridColumn: "1 / -1" }}>
+          <div style={{ fontSize: "1.1rem", marginBottom: 6 }}>
+            <b>Rarities</b>
           </div>
           <img
-            src={sword}
-            alt="sword-icon"
-            style={{ width: "32px", height: "32px" }}
+            src={fivestars}
+            alt="rarities"
+            style={{ height: 28, filter: "drop-shadow(0 0 6px gold)" }}
           />
         </div>
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            alignItems: "center",
-            gap: "10px",
-          }}
-        >
-          <div style={{ color: "white", fontSize: "1.17rem" }}>
-            <b>Move Type</b>
-          </div>
-          <img
-            src={infantry}
-            alt="infantry-icon"
-            style={{ width: "32px", height: "32px" }}
-          />
-        </div>
-      </div>
 
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "row",
-          justifyContent: "center",
-          alignContent: "center",
-        }}
-      >
-        <img src={blessing} alt="wind-blessing" style={{ height: "100px" }} />
-
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-          }}
-        >
-          <div
-            style={{
-              fontSize: "18px",
-              display: "flex",
-              justifyContent: "center",
-            }}
-          >
-            Legendary Effect:
+        {/* Weapon Type */}
+        <div>
+          <div style={{ marginBottom: 6 }}>
+            <b>Weapon</b>
           </div>
           <div
             style={{
-              fontSize: "23px",
-              display: "flex",
-              justifyContent: "center",
+              borderRadius: 8,
+              padding: "6px",
             }}
           >
-            HP+3, Res+2
+            <img src={sword} alt="sword" style={{ height: 32 }} />
           </div>
         </div>
-      </div>
 
-      <div
-        style={{
-          marginTop: 8,
-          background: "rgba(128, 128, 128, 0.6)",
-          color: "white",
-          borderRadius: 12,
-          padding: 16,
-          boxShadow: "0 2px 12px rgba(0,0,0,.08)",
-        }}
-      >
-        {/* Selectors rápidos */}
-
-        <div
-          style={{
-            display: "flex",
-            gap: 16,
-            marginBottom: 12,
-            alignItems: "center",
-            flexWrap: "wrap",
-          }}
-        >
+        {/* Move Type */}
+        <div>
+          <div style={{ marginBottom: 6 }}>
+            <b>Move</b>
+          </div>
           <div
             style={{
-              display: "flex",
-              flexDirection: "row",
-              justifyContent: "center",
-              alignContent: "center",
-              gap: "30px",
-              width: "100%",
+              borderRadius: 8,
+              padding: "6px",
             }}
           >
-            <label
-              style={{
-                display: "flex",
-                flexDirection: "row",
-                justifyContent: "center",
-                alignContent: "center",
-                gap: "10px",
-              }}
-            >
-              <img
-                src={dragonflowers}
-                alt="df-icon"
-                style={{ height: "28px", width: "28px", alignSelf: "center" }}
-              />
-              <select
-                value={flowers}
-                onChange={(e: any) => setFlowers(parseInt(e.target.value, 10))}
-                style={{ width: "50px", height: "28px", alignSelf: "center" }}
-              >
-                {dragonflowerOptions(hero.dragonflowersCap).map((opt) => (
-                  <option key={opt} value={opt}>
-                    +{opt}
-                  </option>
-                ))}
-              </select>
-            </label>
-            <label
-              style={{
-                display: "flex",
-                flexDirection: "row",
-                justifyContent: "center",
-                alignContent: "center",
-                gap: "10px",
-              }}
-            >
-              <img
-                src={mergesI}
-                alt="merges-icon"
-                style={{ height: "28px", width: "28px", alignSelf: "center" }}
-              />
-              <select
-                value={merges}
-                onChange={(e: any) => setMerges(parseInt(e.target.value, 10))}
-                style={{ width: "50px", height: "28px", alignSelf: "center" }}
-              >
-                {mergeOptions().map((opt) => (
-                  <option key={opt} value={opt}>
-                    +{opt}
-                  </option>
-                ))}
-              </select>
-            </label>
-            {hasResplendent && (
-              <label
-                style={{
-                  display: "flex",
-                  flexDirection: "row",
-                  justifyContent: "center",
-                  alignContent: "center",
-                  gap: "10px",
-                }}
-              >
-                <img
-                  src={resplendent}
-                  alt="resp-icon"
-                  style={{ height: "28px", width: "29px", alignSelf: "center" }}
-                />
-                <select
-                  value={resplendentOn ? "1" : "0"}
-                  onChange={(e: any) =>
-                    setResplendentOn(e.target.value === "1")
-                  }
-                  style={{ width: "50px", height: "28px", alignSelf: "center" }}
-                >
-                  <option value="0">No</option>
-                  <option value="1">Yes</option>
-                </select>
-              </label>
-            )}
+            <img src={infantry} alt="move" style={{ height: 32 }} />
           </div>
+        </div>
 
+        {/* Legendary Effect */}
+        <div style={{ gridColumn: "1 / -1", marginTop: 10 }}>
+          <div style={{ fontSize: "1rem", marginBottom: 6 }}>
+            <b>Legendary Effect</b>
+          </div>
           <div
             style={{
-              marginLeft: "auto",
               display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
               gap: 8,
-              flexDirection: "row",
-              justifyContent: "center",
-              width: "100%",
-              marginBottom: "20px",
             }}
           >
-            <button
-              type="button"
-              onClick={() => {
-                setFlowers(0);
-                setMerges(0);
-                setResplendentOn(false);
-              }}
-            >
-              Reset
-            </button>
-            <button
-              type="button"
-              onClick={() => {
-                setFlowers(hero.dragonflowersCap);
-                setMerges(10);
-                if (hasResplendent) setResplendentOn(true);
-              }}
-            >
-              Max
-            </button>
+            <img
+              src={blessing}
+              alt="legendary"
+              style={{ height: 50, filter: "drop-shadow(0 0 10px lime)" }}
+            />
+            <div style={{ fontSize: "1.1rem" }}>HP+3, Res+2</div>
           </div>
-        </div>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            flexDirection: "column",
-          }}
-        >
-          <div
-            style={{
-              display: "flex",
-              fontWeight: 600,
-              marginBottom: 8,
-              justifyContent: "center",
-            }}
-          >
-            Level 40 (5★, neutral)
-            {flowers ? ` — +${flowers} DF` : ""}
-            {merges ? ` — +${merges} merges` : ""}
-            {resplendentOn ? ` — Resplendent (+2 all)` : ""}
-          </div>
-
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "120px 1fr",
-              gap: 8,
-              justifyContent: "center",
-              margin: "0 auto",
-            }}
-          >
-            {STAT_NAMES.map((label, i) => (
-              <>
-                <div style={{ opacity: 0.7 }}>{label}</div>
-                <div
-                  title={statusForIndex(i)}
-                  style={{
-                    color: colorForIndex(i),
-                    fontWeight: statusForIndex(i) === "neutral" ? 600 : 700,
-                  }}
-                >
-                  {displayed?.[i] ?? "—"}
-                </div>
-              </>
-            ))}
-          </div>
-        </div>
-        <hr style={{ margin: "16px 0", borderColor: "rgba(0,0,0,.08)" }} />
-
-        <div
-          style={{
-            opacity: 0.75,
-            marginBottom: 8,
-            justifyContent: "center",
-            display: "flex",
-          }}
-        >
-          <small>
-            (Neutral without weapon:&nbsp;
-            {neutral40
-              ? `${neutral40[0]}/${neutral40[1]}/${neutral40[2]}/${neutral40[3]}/${neutral40[4]}`
-              : "—"}
-            )
-          </small>
         </div>
       </div>
 
-      {/* Kit + metadados/refine — placeholders */}
+      {/* Painel de stats (redesenhado) */}
+      <div style={{ marginTop: 12 }}>
+        <StatsPanel />
+      </div>
+
+      {/* Kit + metadados/refine — agora com cards expansíveis */}
       <div
         style={{
           display: "flex",
@@ -550,291 +647,171 @@ export default function HeroPageMock() {
           marginTop: "16px",
         }}
       >
-        {/* WEAPON CARD */}
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            gap: 8,
-            backgroundColor: "#FFF9E6",
-            borderRadius: "10px",
-            boxShadow: "inset 0 0 0 4px #DDA715",
-            paddingLeft: "21px",
-            paddingRight: "21px",
-            paddingBottom: "16px",
-            paddingTop: "16px",
-          }}
-        >
-          <div style={{ display: "flex", flexDirection: "row", gap: "8px" }}>
+        {/* WEAPON */}
+        <DetailsCard
+          title={hero.weapons[0] || "—"}
+          meta={
+            <>
+              <b>Mt</b> 16 • <b>Rng</b> 1 • <b>SP</b> 400
+            </>
+          }
+          headerIconLeft={
             <img
               src={sword}
-              alt={"sword-icon"}
-              style={{ display: "block", width: "21px", height: "21px" }}
+              alt="sword-icon"
+              style={{ display: "block", width: 21, height: 21 }}
             />
-            <div style={{ fontSize: 16, fontWeight: "800", color: "black" }}>
-              {hero.weapons[0] || "—"}
-            </div>{" "}
-            {/* Ardent Durandal */}
-          </div>
-
-          <div style={{ fontSize: "12px", color: "black" }}>
-            <b>Mt</b> 16 • <b>Rng</b> 1 • <b>SP</b> 400
-          </div>
-          <div style={{ fontSize: "12px", color: "black" }}>
-            Grants Atk+3. At start of turn, grants [Bonus Doubler] to unit with
-            the highest Atk. [Bonus Doubler] Grants bonus to Atk/Spd/Def/Res
-            during combat = current bonus on each of unit's stats for 1 turn.
-            Calculates each stat bonus independently.
-          </div>
-          <div
-            style={{
-              color: "#45BC00",
-              marginTop: 6,
-              fontWeight: 600,
-              fontSize: "12px",
-            }}
-          >
-            If unit initiates combat or is within 2 spaces of an ally, grants
-            Atk/Spd/Def/Res+5 to unit, neutralizes foe's bonuses (from skills
-            like Fortify, Rally, etc.) during combat, and deals damage = 15% of
-            foe's Def (including as part of Specials that trigger before
-            combat).
-          </div>
-        </div>
-
-        {/* ASSIST CARD */}
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            gap: 8,
-            backgroundColor: "#FFF9E6",
-            borderRadius: "10px",
-            boxShadow: "inset 0 0 0 4px #DDA715",
-            paddingLeft: "21px",
-            paddingRight: "21px",
-            paddingBottom: "16px",
-            paddingTop: "16px",
-          }}
+          }
         >
-          <div style={{ display: "flex", flexDirection: "row", gap: "8px" }}>
+          Grants Atk+3. At start of turn, grants [Bonus Doubler] to unit with
+          the highest Atk. [Bonus Doubler] Grants bonus to Atk/Spd/Def/Res
+          during combat = current bonus on each of unit&apos;s stats for 1 turn.
+          Calculates each stat bonus independently.
+          <div style={{ color: "#45BC00", marginTop: 6, fontWeight: 600 }}>
+            If unit initiates combat or is within 2 spaces of an ally, grants
+            Atk/Spd/Def/Res+5 to unit, neutralizes foe&apos;s bonuses during
+            combat, and deals damage = 15% of foe&apos;s Def (including as part
+            of pre-combat Specials).
+          </div>
+        </DetailsCard>
+
+        {/* ASSIST */}
+        <DetailsCard
+          title={hero.assists[0] || "—"}
+          meta={
+            <>
+              <b>Rng</b> 1 • <b>SP</b> 400
+            </>
+          }
+          headerIconLeft={
             <img
               src={assist}
-              alt={"assist-icon"}
-              style={{ display: "block", width: "21px", height: "21px" }}
+              alt="assist-icon"
+              style={{ display: "block", width: 21, height: 21 }}
             />
-            <div style={{ fontSize: 16, fontWeight: "800", color: "black" }}>
-              {hero.assists[0] || "—"}
-            </div>
-          </div>
-          <div style={{ fontSize: "12px", color: "black" }}>
-            <b>Rng</b> 1 • <b>SP</b> 400{" "}
-          </div>
-          <div style={{ fontSize: "12px", color: "black" }}>
-            Grants Spd/Res+6 to target ally for 1 turn.
-          </div>
-        </div>
-
-        {/* SPECIAL CARD */}
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            gap: 8,
-            backgroundColor: "#FFF9E6",
-            borderRadius: "10px",
-            boxShadow: "inset 0 0 0 4px #DDA715",
-            paddingLeft: "21px",
-            paddingRight: "21px",
-            paddingTop: "16px",
-            paddingBottom: "16px",
-          }}
+          }
         >
-          <div style={{ display: "flex", flexDirection: "row", gap: "8px" }}>
+          Grants Spd/Res+6 to target ally for 1 turn.
+        </DetailsCard>
+
+        {/* SPECIAL */}
+        <DetailsCard
+          title={hero.specials?.[0] ?? "—"}
+          meta={
+            <>
+              <b>SP</b> 200 • <b>CD</b> 2
+            </>
+          }
+          headerIconLeft={
             <img
               src={special}
               alt="special-icon"
               style={{ display: "block", width: 21, height: 21 }}
             />
-            <div style={{ fontSize: 16, fontWeight: 800, color: "black" }}>
-              {hero.specials?.[0] ?? "—"}
-            </div>
-          </div>
-          <div style={{ fontSize: 12, color: "black" }}>
-            <b>SP</b> 200 • <b>CD</b> 2
-          </div>
-          <div style={{ fontSize: 12, color: "black" }}>
-            Deals +30% of foe's Def.
-          </div>
-        </div>
+          }
+        >
+          Deals +30% of foe&apos;s Def.
+        </DetailsCard>
 
-        {/* PASSIVE A CARD */}
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            gap: 8,
-            backgroundColor: "#FFF9E6",
-            borderRadius: "10px",
-            boxShadow: "inset 0 0 0 4px #DDA715",
-            paddingLeft: "21px",
-            paddingRight: "21px",
-            paddingTop: "16px",
-            paddingBottom: "16px",
-          }}
-        >
-          <div style={{ display: "flex", flexDirection: "row", gap: "8px" }}>
-            <div
+        {/* PASSIVE A */}
+        <DetailsCard
+          title={hero.passives?.A?.[0] ?? "—"}
+          meta={
+            <>
+              <b>SP</b> 300
+            </>
+          }
+          headerIconLeft={
+            <img
+              src={deathb}
+              alt="death-blow"
+              style={{ display: "block", width: 21, height: 21 }}
+            />
+          }
+          headerIconBadge={
+            <img
+              src={askill}
+              alt="A"
               style={{
-                display: "flex",
-                flexDirection: "row",
-                alignItems: "flex-end",
+                display: "block",
+                width: 12,
+                height: 12,
+                marginLeft: -8,
               }}
-            >
-              <img
-                src={deathb}
-                alt="death-blow"
-                style={{ display: "block", width: 21, height: 21 }}
-              />
-              <img
-                src={askill}
-                alt="passive-a-icon"
-                style={{
-                  display: "block",
-                  width: 12,
-                  height: 12,
-                  marginLeft: -8,
-                }}
-              />
-            </div>
-            <div style={{ fontSize: 16, fontWeight: 800, color: "black" }}>
-              {hero.passives?.A?.[0] ?? "—"}
-            </div>
-          </div>
-          <div style={{ fontSize: 12, color: "black" }}>
-            <b>SP</b> 300
-          </div>
-          <div style={{ fontSize: 12, color: "black" }}>
-            If unit initiates combat, grants Atk+8 during combat.
-          </div>
-        </div>
-        {/* PASSIVE B CARD */}
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            gap: 8,
-            backgroundColor: "#FFF9E6",
-            borderRadius: "10px",
-            boxShadow: "inset 0 0 0 4px #DDA715",
-            paddingLeft: "21px",
-            paddingRight: "21px",
-            paddingTop: "16px",
-            paddingBottom: "16px",
-          }}
+            />
+          }
         >
-          <div style={{ display: "flex", flexDirection: "row", gap: "8px" }}>
-            <div
-              style={{
-                display: "flex",
-                flexDirection: "row",
-                alignItems: "flex-end",
-              }}
-            >
-              <img
-                src={flowr}
-                alt="flow-refresh"
-                style={{ display: "block", width: 21, height: 21 }}
-              />
-              <img
-                src={bskill}
-                alt="passive-b-icon"
-                style={{
-                  display: "block",
-                  width: 12,
-                  height: 12,
-                  marginLeft: -8,
-                }}
-              />
-            </div>
-            <div style={{ fontSize: 16, fontWeight: 800, color: "black" }}>
-              {hero.passives?.B?.[0] ?? "—"}
-            </div>
-          </div>
-          <div style={{ fontSize: 12, color: "black" }}>
-            <b>SP</b> 240
-          </div>
-          <div style={{ fontSize: 12, color: "black" }}>
-            If unit initiates combat, neutralizes effects that prevent
-            unit&apos;s follow-up attacks and restores 10 HP to unit after
-            combat.
-          </div>
-        </div>
+          If unit initiates combat, grants Atk+8 during combat.
+        </DetailsCard>
 
-        {/* PASSIVE C CARD */}
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            gap: 8,
-            backgroundColor: "#FFF9E6",
-            borderRadius: "10px",
-            boxShadow: "inset 0 0 0 4px #DDA715",
-            paddingLeft: "21px",
-            paddingRight: "21px",
-            paddingTop: "16px",
-            paddingBottom: "16px",
-          }}
-        >
-          <div style={{ display: "flex", flexDirection: "row", gap: "8px" }}>
-            <div
+        {/* PASSIVE B */}
+        <DetailsCard
+          title={hero.passives?.B?.[0] ?? "—"}
+          meta={
+            <>
+              <b>SP</b> 240
+            </>
+          }
+          headerIconLeft={
+            <img
+              src={flowr}
+              alt="flow-refresh"
+              style={{ display: "block", width: 21, height: 21 }}
+            />
+          }
+          headerIconBadge={
+            <img
+              src={bskill}
+              alt="B"
               style={{
-                display: "flex",
-                flexDirection: "row",
-                alignItems: "flex-end",
+                display: "block",
+                width: 12,
+                height: 12,
+                marginLeft: -8,
               }}
-            >
-              <img
-                src={visiona}
-                alt="vision-arcadia"
-                style={{ display: "block", width: 21, height: 21 }}
-              />
-              <img
-                src={cskill}
-                alt="passive-c-icon"
-                style={{
-                  display: "block",
-                  width: 12,
-                  height: 12,
-                  marginLeft: -8,
-                }}
-              />
-            </div>
-            <div style={{ fontSize: 16, fontWeight: 800, color: "black" }}>
-              {hero.passives?.C?.[0] ?? "—"}
-            </div>
-          </div>
-          <div style={{ fontSize: 12, color: "black" }}>
-            <b>SP</b> 300
-          </div>
-          <div style={{ fontSize: 12, color: "black" }}>
-            At start of turn, if a dragon or beast ally is deployed, grants
-            Atk/Spd/Def/Res+6, [Null Panic], and [Canto (1)] to unit and ally
-            with the highest Atk (excluding unit) for 1 turn. [Null Panic] If
-            unit is inflicted with Panic (bonuses converted into penalties),
-            neutralizes the “converts bonuses on target into penalties” effect
-            for 1 turn. Even though the effect is neutralized, the Panic status
-            remains, and is treated as a Penalty status. [Canto (1)] After an
-            attack, Assist skill, or structure destruction, unit can move 1
-            space(s). (Unit moves according to movement type. Once per turn.
-            Cannot attack or assist. Only highest value applied. Does not stack.
-            After moving, if a skill that grants another action would be
-            triggered (like with Galeforce), Canto will trigger after the
-            granted action. Unit’s base movement has no effect on movement
-            granted. Cannot warp a distance greater than unit would be able to
-            move with normal Canto movement.)
-          </div>
-        </div>
+            />
+          }
+        >
+          If unit initiates combat, neutralizes effects that prevent unit&apos;s
+          follow-up attacks and restores 10 HP to unit after combat.
+        </DetailsCard>
+
+        {/* PASSIVE C */}
+        <DetailsCard
+          title={hero.passives?.C?.[0] ?? "—"}
+          meta={
+            <>
+              <b>SP</b> 300
+            </>
+          }
+          headerIconLeft={
+            <img
+              src={visiona}
+              alt="vision-arcadia"
+              style={{ display: "block", width: 21, height: 21 }}
+            />
+          }
+          headerIconBadge={
+            <img
+              src={cskill}
+              alt="C"
+              style={{
+                display: "block",
+                width: 12,
+                height: 12,
+                marginLeft: -8,
+              }}
+            />
+          }
+        >
+          At start of turn, if a dragon or beast ally is deployed, grants
+          Atk/Spd/Def/Res+6, [Null Panic], and [Canto (1)] to unit and ally with
+          the highest Atk (excluding unit) for 1 turn. [Null Panic] neutralizes
+          “convert bonuses into penalties” for 1 turn (status permanece). [Canto
+          (1)] After an attack, Assist skill, or structure destruction, unit can
+          move 1 space(s). (Once per turn. Only highest value applies. Does not
+          stack.)
+        </DetailsCard>
       </div>
     </div>
   );
