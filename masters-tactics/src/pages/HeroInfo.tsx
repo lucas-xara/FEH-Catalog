@@ -15,14 +15,15 @@ import flowr from "../assets/placeholders/Flow_Refresh_3.webp";
 import visiona from "../assets/placeholders/Vision_of_Arcadia_II.webp";
 
 import infantry from "../assets/placeholders/Icon_Move_Infantry.webp"
+import blessing from "../assets/placeholders/Icon_LegendWind.webp"
 
 import bg from "../assets/placeholders/bg.png";
 
 export default function HeroPageMock() {
   // Hooks via React global (sem imports). Fallbacks simples para evitar crash em ambientes sem React global.
   const R: any = (globalThis as any).React || {};
-  const useState = R.useState || ((v: any) => [v, (_: any) => {}]);
-  const useEffect = R.useEffect || (() => {});
+  const useState = R.useState || ((v: any) => [v, (_: any) => { }]);
+  const useEffect = R.useEffect || (() => { });
   const useMemo = R.useMemo || ((fn: any, _deps?: any[]) => fn());
 
   // —————————————————————————————————————————————
@@ -169,8 +170,8 @@ export default function HeroPageMock() {
     supers.superboon.has(i)
       ? "superboon"
       : supers.superbane.has(i)
-      ? "superbane"
-      : "neutral";
+        ? "superbane"
+        : "neutral";
 
   useEffect(() => {
     // Reset ao mudar algo maior (aqui é mock, então só exemplo)
@@ -199,16 +200,15 @@ export default function HeroPageMock() {
         ← Back
       </a>
       <div style={{ textAlign: "center" }}>
-        <h1 style={{  margin: "20px", fontSize: "1.6rem" }}>
+        <h1 style={{ margin: "20px", fontSize: "1.6rem" }}>
           {hero.infobox.Name}
           {hero.infobox.Title ? `: ${hero.infobox.Title}` : ""}
         </h1>
 
         <img
           src={eliwood}
-          alt={`${hero.infobox.Name}${
-            hero.infobox.Title ? `: ${hero.infobox.Title}` : ""
-          } illustration`}
+          alt={`${hero.infobox.Name}${hero.infobox.Title ? `: ${hero.infobox.Title}` : ""
+            } illustration`}
           style={{
             display: "block",
             width: "100%",
@@ -220,20 +220,37 @@ export default function HeroPageMock() {
           }}
         />
 
-        <div style={{ fontSize:"12px", opacity: 0.7, justifySelf:"flex-start", marginLeft:"5px" }}>
+        <div style={{ fontSize: "12px", opacity: 0.7, justifySelf: "flex-start", marginLeft: "5px" }}>
           Version: {hero.version ?? "—"}
         </div>
       </div>
 
-      <div style={{backgroundColor:"red", height:"50px", display:"flex", flexDirection:"row", justifyContent:"center", alignItems:"center", gap: "40px"}}>
-          <div style={{backgroundColor:"purple", display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center"}}>
-            <div style={{color:"white", fontSize:"20px"}}><b>Weapon Type</b></div>
-            <img src={sword} alt="sword-icon" style={{width:"32px", height:"32px"}}/>
-          </div>
-          <div style={{backgroundColor:"blue", height:"40px", width:"40px"}}></div>
-
-
+      <div style={{ height: "50px", display: "flex", flexDirection: "row", justifyContent: "center", alignItems: "center", gap: "40px", padding: "50px" }}>
+        <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", gap: "10px" }}>
+          <div style={{ color: "white", fontSize: "20px" }}><b>Weapon Type</b></div>
+          <img src={sword} alt="sword-icon" style={{ width: "32px", height: "32px" }} />
+        </div>
+        <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", gap: "10px" }}>
+          <div style={{ color: "white", fontSize: "20px" }}><b>Move Type</b></div>
+          <img src={infantry} alt="infantry-icon" style={{ width: "32px", height: "32px" }} />
+        </div>
       </div>
+
+          <div style={{display:"flex", flexDirection:"row", justifyContent:"center", alignContent:"center"}}>
+            <img src={blessing} alt="wind-blessing" style={{height: "100px"}}/>
+
+            <div style={{display:"flex", flexDirection:"column", justifyContent:"center"}}>
+            <div style={{fontSize}}>Legendary Effect:</div>
+            <div>HP+3, Res+2</div>
+</div>
+
+
+          </div>
+
+
+
+
+
 
       <div
         style={{
@@ -316,36 +333,38 @@ export default function HeroPageMock() {
             </button>
           </div>
         </div>
+        <div style={{ display: "flex", justifyContent: "center", flexDirection: "column" }}>
+          <div style={{ display: "flex", fontWeight: 600, marginBottom: 8, justifyContent: "center" }}>
+            Level 40 (5★, neutral)
+            {flowers ? ` — +${flowers} DF` : ""}
+            {merges ? ` — +${merges} merges` : ""}
+            {resplendentOn ? ` — Resplendent (+2 all)` : ""}
+          </div>
 
-        <div style={{ fontWeight: 600, marginBottom: 8 }}>
-          Level 40 (5★, neutral)
-          {flowers ? ` — +${flowers} DF` : ""}
-          {merges ? ` — +${merges} merges` : ""}
-          {resplendentOn ? ` — Resplendent (+2 all)` : ""}
+
+          <div
+            style={{ display: "grid", gridTemplateColumns: "120px 1fr", gap: 8, justifyContent:"center",  margin: "0 auto" }}
+          >
+
+            {STAT_NAMES.map((label, i) => (
+              <>
+                <div style={{ opacity: 0.7 }}>{label}</div>
+                <div
+                  title={statusForIndex(i)}
+                  style={{
+                    color: colorForIndex(i),
+                    fontWeight: statusForIndex(i) === "neutral" ? 600 : 700,
+                  }}
+                >
+                  {displayed?.[i] ?? "—"}
+                </div>
+              </>
+            ))}
+          </div>
         </div>
-
-        <div
-          style={{ display: "grid", gridTemplateColumns: "120px 1fr", gap: 8 }}
-        >
-          {STAT_NAMES.map((label, i) => (
-            <>
-              <div style={{ opacity: 0.7 }}>{label}</div>
-              <div
-                title={statusForIndex(i)}
-                style={{
-                  color: colorForIndex(i),
-                  fontWeight: statusForIndex(i) === "neutral" ? 600 : 700,
-                }}
-              >
-                {displayed?.[i] ?? "—"}
-              </div>
-            </>
-          ))}
-        </div>
-
         <hr style={{ margin: "16px 0", borderColor: "rgba(0,0,0,.08)" }} />
 
-        <div style={{ opacity: 0.75, marginBottom: 8 }}>
+        <div style={{ opacity: 0.75, marginBottom: 8, justifyContent: "center", display: "flex" }}>
           <small>
             (Neutral without weapon:&nbsp;
             {neutral40
