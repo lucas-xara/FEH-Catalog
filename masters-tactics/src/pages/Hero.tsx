@@ -817,10 +817,10 @@ export default function HeroPage() {
     () => routeKey(specialInfo, kit.special),
     [specialInfo, kit.special]
   );
-  const aKey = kit.A ? String(kit.A) : "";
-  const bKey = kit.B ? String(kit.B) : "";
-  const cKey = kit.C ? String(kit.C) : "";
-  const xKey = kit.X ? String(kit.X) : "";
+//  const aKey = kit.A ? String(kit.A) : "";
+//  const bKey = kit.B ? String(kit.B) : "";
+//  const cKey = kit.C ? String(kit.C) : "";
+//  const xKey = kit.X ? String(kit.X) : "";
 
   // stats base/growth/supers
   const statsLv1 = React.useMemo<StatArray>(() => {
@@ -913,7 +913,7 @@ export default function HeroPage() {
       : "neutral";
 
   // texts/refine
-  const weaponMeta = React.useMemo(() => metaLine(weaponInfo), [weaponInfo]);
+//  const weaponMeta = React.useMemo(() => metaLine(weaponInfo), [weaponInfo]);
   const assistMeta = React.useMemo(() => metaLine(assistInfo), [assistInfo]);
   const specialMeta = React.useMemo(() => metaLine(specialInfo), [specialInfo]);
   const weaponDesc = React.useMemo(() => descLine(weaponInfo), [weaponInfo]);
@@ -1102,7 +1102,7 @@ export default function HeroPage() {
       {/* Painel de stats (MUI) com integração real */}
       <Box sx={{ mt: 1.5 }}>
         <StatsPanel
-          neutral40={neutral40}
+          neutral40={neutral40 ?? []} //quick fix []
           displayed={displayed}
           colorForIndex={colorForIndex}
           statusForIndex={statusForIndex}
