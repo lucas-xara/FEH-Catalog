@@ -14,16 +14,22 @@ import deathb from "../assets/placeholders/Death_Blow_4.webp";
 import flowr from "../assets/placeholders/Flow_Refresh_3.webp";
 import visiona from "../assets/placeholders/Vision_of_Arcadia_II.webp";
 
-import infantry from "../assets/placeholders/Icon_Move_Infantry.webp"
-import blessing from "../assets/placeholders/Icon_LegendWind.webp"
+import infantry from "../assets/placeholders/Icon_Move_Infantry.webp";
+import blessing from "../assets/placeholders/Icon_LegendWind.webp";
+
+import dragonflowers from "../assets/placeholders/dragonflowers.webp";
+import mergesI from "../assets/placeholders/orb_icon.webp";
+import resplendent from "../assets/placeholders/Icon_Resplendent.webp";
+
+import fivestars from "../assets/placeholders/5-stars.webp";
 
 import bg from "../assets/placeholders/bg.png";
 
 export default function HeroPageMock() {
   // Hooks via React global (sem imports). Fallbacks simples para evitar crash em ambientes sem React global.
   const R: any = (globalThis as any).React || {};
-  const useState = R.useState || ((v: any) => [v, (_: any) => { }]);
-  const useEffect = R.useEffect || (() => { });
+  const useState = R.useState || ((v: any) => [v, (_: any) => {}]);
+  const useEffect = R.useEffect || (() => {});
   const useMemo = R.useMemo || ((fn: any, _deps?: any[]) => fn());
 
   // —————————————————————————————————————————————
@@ -165,13 +171,13 @@ export default function HeroPageMock() {
 
   // UI helpers
   const colorForIndex = (i: number) =>
-    supers.superboon.has(i) ? "blue" : supers.superbane.has(i) ? "red" : "#111";
+    supers.superboon.has(i) ? "#00b7ffff" : supers.superbane.has(i) ? "#e91c1cff" : "#ffffffff";
   const statusForIndex = (i: number) =>
     supers.superboon.has(i)
       ? "superboon"
       : supers.superbane.has(i)
-        ? "superbane"
-        : "neutral";
+      ? "superbane"
+      : "neutral";
 
   useEffect(() => {
     // Reset ao mudar algo maior (aqui é mock, então só exemplo)
@@ -207,8 +213,9 @@ export default function HeroPageMock() {
 
         <img
           src={eliwood}
-          alt={`${hero.infobox.Name}${hero.infobox.Title ? `: ${hero.infobox.Title}` : ""
-            } illustration`}
+          alt={`${hero.infobox.Name}${
+            hero.infobox.Title ? `: ${hero.infobox.Title}` : ""
+          } illustration`}
           style={{
             display: "block",
             width: "100%",
@@ -220,49 +227,121 @@ export default function HeroPageMock() {
           }}
         />
 
-        <div style={{ fontSize: "12px", opacity: 0.7, justifySelf: "flex-start", marginLeft: "5px" }}>
+        <div
+          style={{
+            fontSize: "12px",
+            opacity: 0.7,
+            justifySelf: "flex-start",
+            marginLeft: "5px",
+          }}
+        >
           Version: {hero.version ?? "—"}
         </div>
       </div>
-
-      <div style={{ height: "50px", display: "flex", flexDirection: "row", justifyContent: "center", alignItems: "center", gap: "40px", padding: "50px" }}>
-        <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", gap: "10px" }}>
-          <div style={{ color: "white", fontSize: "20px" }}><b>Weapon Type</b></div>
-          <img src={sword} alt="sword-icon" style={{ width: "32px", height: "32px" }} />
+      <div style={{display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center", gap:"10px"}}>
+        <div style={{ color: "white", fontSize: "1.17rem" }}><b>Rarities</b></div>
+        <img src={fivestars} alt="5-stars" style={{ height: "32px" }}/>
+      </div>
+      <div
+        style={{
+          height: "50px",
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "center",
+          alignItems: "center",
+          gap: "40px",
+          paddingBottom: "50px",
+          paddingTop:"20px"
+        }}
+      >
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems: "center",
+            gap: "10px",
+          }}
+        >
+          <div style={{ color: "white", fontSize: "1.17rem" }}>
+            <b>Weapon Type</b>
+          </div>
+          <img
+            src={sword}
+            alt="sword-icon"
+            style={{ width: "32px", height: "32px" }}
+          />
         </div>
-        <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", gap: "10px" }}>
-          <div style={{ color: "white", fontSize: "20px" }}><b>Move Type</b></div>
-          <img src={infantry} alt="infantry-icon" style={{ width: "32px", height: "32px" }} />
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems: "center",
+            gap: "10px",
+          }}
+        >
+          <div style={{ color: "white", fontSize: "1.17rem" }}>
+            <b>Move Type</b>
+          </div>
+          <img
+            src={infantry}
+            alt="infantry-icon"
+            style={{ width: "32px", height: "32px" }}
+          />
         </div>
       </div>
 
-          <div style={{display:"flex", flexDirection:"row", justifyContent:"center", alignContent:"center"}}>
-            <img src={blessing} alt="wind-blessing" style={{height: "100px"}}/>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "center",
+          alignContent: "center",
+        }}
+      >
+        <img src={blessing} alt="wind-blessing" style={{ height: "100px" }} />
 
-            <div style={{display:"flex", flexDirection:"column", justifyContent:"center"}}>
-            <div style={{fontSize}}>Legendary Effect:</div>
-            <div>HP+3, Res+2</div>
-</div>
-
-
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+          }}
+        >
+          <div
+            style={{
+              fontSize: "18px",
+              display: "flex",
+              justifyContent: "center",
+            }}
+          >
+            Legendary Effect:
           </div>
-
-
-
-
-
+          <div
+            style={{
+              fontSize: "23px",
+              display: "flex",
+              justifyContent: "center",
+            }}
+          >
+            HP+3, Res+2
+          </div>
+        </div>
+      </div>
 
       <div
         style={{
           marginTop: 8,
-          background: "#fff",
-          color: "#111",
+          background: "rgba(128, 128, 128, 0.6)",
+          color: "white",
           borderRadius: 12,
           padding: 16,
           boxShadow: "0 2px 12px rgba(0,0,0,.08)",
         }}
       >
         {/* Selectors rápidos */}
+
         <div
           style={{
             display: "flex",
@@ -272,45 +351,108 @@ export default function HeroPageMock() {
             flexWrap: "wrap",
           }}
         >
-          <label>
-            Dragonflowers:&nbsp;
-            <select
-              value={flowers}
-              onChange={(e: any) => setFlowers(parseInt(e.target.value, 10))}
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              justifyContent: "center",
+              alignContent: "center",
+              gap: "30px",
+              width: "100%",
+            }}
+          >
+            <label
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                justifyContent: "center",
+                alignContent: "center",
+                gap: "10px",
+              }}
             >
-              {dragonflowerOptions(hero.dragonflowersCap).map((opt) => (
-                <option key={opt} value={opt}>
-                  +{opt}
-                </option>
-              ))}
-            </select>
-          </label>
-          <label>
-            Merges:&nbsp;
-            <select
-              value={merges}
-              onChange={(e: any) => setMerges(parseInt(e.target.value, 10))}
-            >
-              {mergeOptions().map((opt) => (
-                <option key={opt} value={opt}>
-                  +{opt}
-                </option>
-              ))}
-            </select>
-          </label>
-          {hasResplendent && (
-            <label>
-              Resplendent:&nbsp;
+              <img
+                src={dragonflowers}
+                alt="df-icon"
+                style={{ height: "28px", width: "28px", alignSelf: "center" }}
+              />
               <select
-                value={resplendentOn ? "1" : "0"}
-                onChange={(e: any) => setResplendentOn(e.target.value === "1")}
+                value={flowers}
+                onChange={(e: any) => setFlowers(parseInt(e.target.value, 10))}
+                style={{ width: "50px", height: "28px", alignSelf: "center" }}
               >
-                <option value="0">Off</option>
-                <option value="1">On (+2 all)</option>
+                {dragonflowerOptions(hero.dragonflowersCap).map((opt) => (
+                  <option key={opt} value={opt}>
+                    +{opt}
+                  </option>
+                ))}
               </select>
             </label>
-          )}
-          <div style={{ marginLeft: "auto", display: "flex", gap: 8 }}>
+            <label
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                justifyContent: "center",
+                alignContent: "center",
+                gap: "10px",
+              }}
+            >
+              <img
+                src={mergesI}
+                alt="merges-icon"
+                style={{ height: "28px", width: "28px", alignSelf: "center" }}
+              />
+              <select
+                value={merges}
+                onChange={(e: any) => setMerges(parseInt(e.target.value, 10))}
+                style={{ width: "50px", height: "28px", alignSelf: "center" }}
+              >
+                {mergeOptions().map((opt) => (
+                  <option key={opt} value={opt}>
+                    +{opt}
+                  </option>
+                ))}
+              </select>
+            </label>
+            {hasResplendent && (
+              <label
+                style={{
+                  display: "flex",
+                  flexDirection: "row",
+                  justifyContent: "center",
+                  alignContent: "center",
+                  gap: "10px",
+                }}
+              >
+                <img
+                  src={resplendent}
+                  alt="resp-icon"
+                  style={{ height: "28px", width: "29px", alignSelf: "center" }}
+                />
+                <select
+                  value={resplendentOn ? "1" : "0"}
+                  onChange={(e: any) =>
+                    setResplendentOn(e.target.value === "1")
+                  }
+                  style={{ width: "50px", height: "28px", alignSelf: "center" }}
+                >
+                  <option value="0">No</option>
+                  <option value="1">Yes</option>
+                </select>
+              </label>
+            )}
+          </div>
+
+          <div
+            style={{
+              marginLeft: "auto",
+              display: "flex",
+              gap: 8,
+              flexDirection: "row",
+              justifyContent: "center",
+              width: "100%",
+              marginBottom: "20px",
+            }}
+          >
             <button
               type="button"
               onClick={() => {
@@ -333,19 +475,36 @@ export default function HeroPageMock() {
             </button>
           </div>
         </div>
-        <div style={{ display: "flex", justifyContent: "center", flexDirection: "column" }}>
-          <div style={{ display: "flex", fontWeight: 600, marginBottom: 8, justifyContent: "center" }}>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            flexDirection: "column",
+          }}
+        >
+          <div
+            style={{
+              display: "flex",
+              fontWeight: 600,
+              marginBottom: 8,
+              justifyContent: "center",
+            }}
+          >
             Level 40 (5★, neutral)
             {flowers ? ` — +${flowers} DF` : ""}
             {merges ? ` — +${merges} merges` : ""}
             {resplendentOn ? ` — Resplendent (+2 all)` : ""}
           </div>
 
-
           <div
-            style={{ display: "grid", gridTemplateColumns: "120px 1fr", gap: 8, justifyContent:"center",  margin: "0 auto" }}
+            style={{
+              display: "grid",
+              gridTemplateColumns: "120px 1fr",
+              gap: 8,
+              justifyContent: "center",
+              margin: "0 auto",
+            }}
           >
-
             {STAT_NAMES.map((label, i) => (
               <>
                 <div style={{ opacity: 0.7 }}>{label}</div>
@@ -364,7 +523,14 @@ export default function HeroPageMock() {
         </div>
         <hr style={{ margin: "16px 0", borderColor: "rgba(0,0,0,.08)" }} />
 
-        <div style={{ opacity: 0.75, marginBottom: 8, justifyContent: "center", display: "flex" }}>
+        <div
+          style={{
+            opacity: 0.75,
+            marginBottom: 8,
+            justifyContent: "center",
+            display: "flex",
+          }}
+        >
           <small>
             (Neutral without weapon:&nbsp;
             {neutral40
