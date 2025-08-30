@@ -58,10 +58,10 @@ import resplendentImg from "../assets/placeholders/Icon_Resplendent.webp";
 import bg from "../assets/placeholders/bg.png";
 
 //STARS IMPORTS:
-//import threestars from "../assets/placeholders/3-stars.webp";
-//import fourstars from "../assets/placeholders/4-stars.webp";
-//import foursr from "../assets/placeholders/Icon_Rarity_4.5.webp";
-//import fivestars from "../assets/placeholders/5-stars.webp";
+import threestars from "../assets/placeholders/Icon_Rarity_3.webp";
+import fourstars from "../assets/placeholders/Icon_Rarity_4.webp";
+import foursr from "../assets/placeholders/Icon_Rarity_4.5.webp";
+import fivestars from "../assets/placeholders/Icon_Rarity_5.webp";
 
 // ---- UTILS (reais) ----------------------------------------------------------
 import {
@@ -325,22 +325,58 @@ function DetailsCard({
   );
 }
 
+// Defina como constantes React
+export const GoldenStar = (
+  <img
+    src={fivestars}
+    alt="★"
+    style={{ width: 26, height: 26, verticalAlign: "middle" }}
+  />
+);
+
+export const SilverStar = (
+  <img
+    src={fourstars}
+    alt="★"
+    style={{ width: 26, height: 26, verticalAlign: "middle" }}
+  />
+);
+
+export const CopperStar = (
+  <img
+    src={threestars}
+    alt="★"
+    style={{ width: 26, height: 26, verticalAlign: "middle" }}
+  />
+);
+
+export const MixStar = (
+  <img
+    src={foursr}
+    alt="★"
+    style={{ width: 26, height: 26, verticalAlign: "middle" }}
+  />
+);
+
 // rarity text
-function formatRarity(h: any): string {
+function formatRarity(h: any): React.ReactNode  {
   const props = String(h.infobox?.Properties ?? "").toLowerCase();
-  if (props.includes("specrate")) return "4 ★ SR";
-  if (props.includes("tempest")) return "4 ★ — 5 ★";
-  if (props.includes("ghb")) return "3 ★ — 4 ★";
+  if (props.includes("specrate")) return <>4 {MixStar} SR</>;
+  if (props.includes("tempest")) return <>4 {SilverStar}  — 5 {GoldenStar}</>;
+  if (props.includes("ghb")) return <>3 {CopperStar} — 4 {SilverStar}</>;
 
   const rarity = String(h.infobox?.poolRarities ?? "");
 
-  if (rarity.startsWith("3,4") || rarity.startsWith("3, 4")) {
-    return "3 ★ — 4 ★";
+  if (rarity === "3, 4") {
+    return <>3 {CopperStar} — 4 {SilverStar}</>;
+  }
+  if (rarity === "4, 5") {
+    return <>4 {SilverStar}  — 5 {GoldenStar}</>;
   }
   if (rarity === "5") {
-    return "5 ★";
+    return <>5 {GoldenStar}</>;
   }
-  return rarity ? `${rarity} ★` : "5 ★";
+  return <>rarity ? `${rarity} ★` : "5 ★</>;
 }
 
 //rarity tag
